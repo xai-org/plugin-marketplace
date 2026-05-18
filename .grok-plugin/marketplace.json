@@ -17,28 +17,6 @@
       "homepage": "https://github.com/vercel/vercel-plugin"
     },
     {
-      "name": "figma",
-      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
-      "category": "design",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "fabc1ca81d839602ba7c1ca0f445a64246b3870e"
-      },
-      "homepage": "https://github.com/figma/mcp-server-guide"
-    },
-    {
-      "name": "slack",
-      "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/slackapi/slack-mcp-plugin.git",
-        "sha": "7b9458950d38bb01ddb48b669f9fa89bcdfd98b8"
-      },
-      "homepage": "https://github.com/slackapi/slack-mcp-plugin"
-    },
-    {
       "name": "sentry",
       "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
       "category": "monitoring",
