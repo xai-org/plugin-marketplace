@@ -15,6 +15,50 @@
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
       "homepage": "https://github.com/vercel/vercel-plugin"
+    },
+    {
+      "name": "figma",
+      "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "fabc1ca81d839602ba7c1ca0f445a64246b3870e"
+      },
+      "homepage": "https://github.com/figma/mcp-server-guide"
+    },
+    {
+      "name": "slack",
+      "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/slackapi/slack-mcp-plugin.git",
+        "sha": "7b9458950d38bb01ddb48b669f9fa89bcdfd98b8"
+      },
+      "homepage": "https://github.com/slackapi/slack-mcp-plugin"
+    },
+    {
+      "name": "sentry",
+      "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getsentry/sentry-for-claude.git",
+        "sha": "fb398fdfff2055abc3d55917f6b6f0c0d5ad5e3b"
+      },
+      "homepage": "https://github.com/getsentry/sentry-for-claude"
+    },
+    {
+      "name": "chrome-devtools",
+      "description": "Chrome DevTools integration. Control and inspect a live Chrome browser. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+        "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
+      },
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     }
   ]
 }
