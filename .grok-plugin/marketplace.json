@@ -48,6 +48,17 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills"
+    },
+    {
+      "name": "superpowers",
+      "description": "Core skills library for software development: test-driven development, systematic debugging, collaboration patterns, and proven engineering workflows and techniques.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
+      },
+      "homepage": "https://github.com/obra/superpowers"
     }
   ]
 }
