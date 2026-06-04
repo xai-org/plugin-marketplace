@@ -59,6 +59,17 @@
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
       },
       "homepage": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "slack",
+      "description": "Slack workspace integration. Search messages, files, channels, and users, send messages, read threads and channel history, manage canvases, and look up user profiles directly from Grok.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/slackapi/slack-mcp-plugin.git",
+        "sha": "38fb959299386a6d2c202511ef7e76909a072663"
+      },
+      "homepage": "https://github.com/slackapi/slack-mcp-plugin"
     }
   ]
 }
