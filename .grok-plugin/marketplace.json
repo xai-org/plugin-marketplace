@@ -15,7 +15,8 @@
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel.com", "vercel deploy", "deploy to vercel"]
+      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
+      "domains": ["vercel.com"]
     },
     {
       "name": "sentry",
@@ -27,7 +28,8 @@
         "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry", "sentry.io"]
+      "keywords": ["sentry"],
+      "domains": ["sentry.io"]
     },
     {
       "name": "chrome-devtools",
@@ -51,7 +53,8 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "cloudflare.com", "wrangler", "cloudflare workers"]
+      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
+      "domains": ["cloudflare.com"]
     },
     {
       "name": "superpowers",
