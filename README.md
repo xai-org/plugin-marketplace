@@ -3,7 +3,7 @@
 The official catalog of plugins for Grok Build. This repo is an index that points at plugin sources so Grok Build can browse, install, and update them.
 
 > [!WARNING]
-> Third-party plugins listed here are provided by their respective authors, not xAI. xAI does not author, control, endorse, or verify third-party plugin code and makes no guarantees about their security, functionality, or fitness for any purpose. Plugins may execute code and access data on your system — install and use them at your own risk. Each plugin is governed by its own license and terms.
+> Third-party plugins listed here or other third-party materials are solely developed or provided by their respective authors, not xAI. xAI does not author, control, endorse, or verify third-party plugins or materials, makes no guarantees about their security, functionality, fitness, content, outputs, or data practices for any purpose, and disclaims all liability for any damages, losses, claims, or harms related to your use of any third-party plugins or materials. xAI provides plugins or materials AS-IS, without any express or implied warranties, and plugins or materials may execute code and access data on your system — install and use them at your own risk. Each plugin is governed by its own license and terms. xAI has its own [Terms of Service](https://x.ai/legal/terms-of-service) and [Privacy Policy](https://x.ai/legal/privacy-policy).
 
 ## Repo layout
 
