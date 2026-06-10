@@ -58,7 +58,7 @@ def resolve_inside(root: Path, relative) -> Path | None:
         candidate = (root / relative).resolve()
         if candidate.is_relative_to(root.resolve()):
             return candidate
-    except OSError:
+    except (OSError, ValueError):
         return None
     return None
 
@@ -66,7 +66,7 @@ def resolve_inside(root: Path, relative) -> Path | None:
 def contained(path: Path, root: Path) -> bool:
     try:
         return path.resolve().is_relative_to(root.resolve())
-    except OSError:
+    except (OSError, ValueError):
         return False
 
 
