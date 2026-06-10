@@ -10,6 +10,7 @@ The official catalog of plugins for Grok Build. This repo is an index that point
 | Path | Purpose |
 |---|---|
 | `.grok-plugin/marketplace.json` | The catalog index — the source of truth |
+| `.grok-plugin/plugin-index.json` | Generated component catalog — never hand-edit |
 | `plugins/` | First-party plugins owned and maintained by xAI |
 | `external_plugins/` | Third-party plugins |
 
@@ -100,13 +101,24 @@ Find the commit to pin:
 git ls-remote https://github.com/my-org/my-plugin.git HEAD
 ```
 
+## Plugin component index
+
+`.grok-plugin/plugin-index.json` lists what each plugin provides (skills, commands, agents, MCP servers, hooks, LSP servers) so clients can show plugin contents before install. It is **generated — never hand-edit it**. After adding or updating a plugin entry, regenerate it:
+
+```bash
+python3 scripts/generate-plugin-index.py
+```
+
+CI runs `python3 scripts/generate-plugin-index.py --check` and fails if the committed file is stale. For remote sources the index records the pinned `sha` it was generated from; clients ignore index data whose `sha` no longer matches the catalog entry.
+
 ## Add or update a plugin
 
 1. Place first-party plugins in `plugins/` and third-party plugins in `external_plugins/` (local sources), or reference an upstream repo with a remote source.
 2. Add or edit the entry in `.grok-plugin/marketplace.json`.
 3. For remote sources, set `sha` to the exact commit you want to ship.
-4. Validate locally:
+4. Regenerate the component index and validate locally:
    ```bash
+   python3 scripts/generate-plugin-index.py
    python3 scripts/validate-catalog.py
    ```
 5. Open a PR. CI runs the validator and code-owner review is required.
