@@ -109,7 +109,7 @@ git ls-remote https://github.com/my-org/my-plugin.git HEAD
 python3 scripts/generate-plugin-index.py
 ```
 
-CI runs `python3 scripts/generate-plugin-index.py --check` and fails if the committed file is stale. For remote sources the index records the pinned `sha` it was generated from; clients ignore index data whose `sha` no longer matches the catalog entry.
+CI runs `python3 scripts/generate-plugin-index.py --check` and fails if the committed file is stale. Generation fetches each pinned remote source (with retries), so CI depends on the upstream repos being reachable — by design, a missing pinned commit fails loudly rather than going silently stale. For remote sources the index records the pinned `sha` it was generated from; clients ignore index data whose `sha` no longer matches the catalog entry.
 
 ## Add or update a plugin
 
