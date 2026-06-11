@@ -80,6 +80,18 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "neon",
+      "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
+      "category": "database",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/neon"
+      },
+      "homepage": "https://neon.com",
+      "keywords": ["neon", "postgres", "serverless", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     }
   ]
 }

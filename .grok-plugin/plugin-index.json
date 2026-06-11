@@ -144,6 +144,30 @@
         ]
       }
     },
+    "neon": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "neon",
+            "description": "Overview of the Neon platform for apps and agents, spanning Postgres, Auth, Data API, and the new services: Object Stor…"
+          },
+          {
+            "name": "neon-postgres",
+            "description": "Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autos…"
+          },
+          {
+            "name": "neon-postgres-branches",
+            "description": "Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migr…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "849303a8411c242d250885ffe714235a3bc2f5fe",
       "components": {
