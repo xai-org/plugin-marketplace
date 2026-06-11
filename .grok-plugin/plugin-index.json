@@ -109,6 +109,10 @@
         ]
       }
     },
+    "dynamo": {
+      "sha": "b3576d0b18e25f0f62d0eb77c33864d78663d10e",
+      "components": {}
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {

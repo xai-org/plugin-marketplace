@@ -80,6 +80,19 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "dynamo",
+      "description": "Governance oracle with solar ingestion, neural resonance, Kuramoto coupling, and temporal vortex anchoring. Submit any proposal and receive a verdict informed by 7D resonance analysis, solar activity, and moral overlay. Includes 20 MCP tools and VortexToken NFT minting on Base.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htafolla/chrono-warp-drive.git",
+        "sha": "b3576d0b18e25f0f62d0eb77c33864d78663d10e"
+      },
+      "homepage": "https://dynamo.rippel.ai",
+      "keywords": ["dynamo", "governance", "resonance", "solar", "temporal", "vortex", "kuramoto"],
+      "domains": ["mcp-production-80e2.up.railway.app", "dynamo.rippel.ai"]
     }
   ]
 }
