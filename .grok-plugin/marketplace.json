@@ -80,6 +80,19 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "axiom",
+      "description": "Axiom observability skills for incident response, log investigation, and production debugging. Includes hypothesis-driven SRE investigation with APL queries, dashboards, alerting, metrics, and cost optimization.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/axiomhq/skills.git",
+        "sha": "76f5af39bdf47b62acb8c36c1dd9fdc404919438"
+      },
+      "homepage": "https://github.com/axiomhq/skills",
+      "keywords": ["axiom", "axiom-sre", "sre", "incident", "observability", "apl", "logs", "debugging"],
+      "domains": ["axiom.co", "app.axiom.co"]
     }
   ]
 }
