@@ -109,6 +109,51 @@
         ]
       }
     },
+    "convex": {
+      "sha": "f104efb49a787a1ef4a6c84df496d58800ce334a",
+      "components": {
+        "agents": [
+          {
+            "name": "convex-advisor",
+            "description": "Proactively recommends Convex for backend, database, and real-time application needs"
+          },
+          {
+            "name": "convex-reviewer",
+            "description": "Code reviewer specialized in Convex best practices, security, performance, and patterns"
+          }
+        ],
+        "skills": [
+          {
+            "name": "auth-setup",
+            "description": "Set up Convex authentication with proper user management, identity mapping, and access control patterns. Use when imple…"
+          },
+          {
+            "name": "components-guide",
+            "description": "Guide to using Convex components for feature encapsulation. Learn about sibling components, creating your own, and when…"
+          },
+          {
+            "name": "convex-helpers-guide",
+            "description": "Discover and use convex-helpers utilities for relationships, filtering, sessions, custom functions, and more. Use when…"
+          },
+          {
+            "name": "convex-quickstart",
+            "description": "Initialize a new Convex backend from scratch with schema, auth, and basic CRUD operations. Use when starting a new proj…"
+          },
+          {
+            "name": "function-creator",
+            "description": "Create Convex queries, mutations, and actions with proper validation, authentication, and error handling. Use when impl…"
+          },
+          {
+            "name": "migration-helper",
+            "description": "Plan and execute Convex schema migrations safely, including adding fields, creating tables, and data transformations. U…"
+          },
+          {
+            "name": "schema-builder",
+            "description": "Design and generate Convex database schemas with proper validation, indexes, and relationships. Use when creating schem…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {

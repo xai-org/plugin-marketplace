@@ -80,6 +80,19 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "convex",
+      "description": "Official Convex plugin for building reactive TypeScript backends. Skills for project quickstart, schema design, function creation, auth setup, components, and migrations, plus Convex advisor and code-reviewer agents.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/get-convex/convex-agent-plugins.git",
+        "sha": "f104efb49a787a1ef4a6c84df496d58800ce334a"
+      },
+      "homepage": "https://github.com/get-convex/convex-agent-plugins",
+      "keywords": ["convex.dev", "convex backend", "convex database", "convex dev", "convex schema", "convex mutation"],
+      "domains": ["convex.dev", "docs.convex.dev", "dashboard.convex.dev"]
     }
   ]
 }
