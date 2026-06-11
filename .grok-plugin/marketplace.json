@@ -88,7 +88,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/htafolla/chrono-warp-drive.git",
-        "sha": "b3576d0b18e25f0f62d0eb77c33864d78663d10e"
+        "sha": "012efff0b5b776aa9cc7312be9ff3d928337e7d6"
       },
       "homepage": "https://dynamo.rippel.ai",
       "keywords": ["dynamo", "governance", "resonance", "solar", "temporal", "vortex", "kuramoto"],

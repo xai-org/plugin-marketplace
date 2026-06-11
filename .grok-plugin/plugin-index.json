@@ -110,8 +110,24 @@
       }
     },
     "dynamo": {
-      "sha": "b3576d0b18e25f0f62d0eb77c33864d78663d10e",
-      "components": {}
+      "sha": "012efff0b5b776aa9cc7312be9ff3d928337e7d6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dynamo",
+            "description": "http"
+          },
+          {
+            "name": "dynamo-neural",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dynamo-governance"
+          }
+        ]
+      }
     },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
