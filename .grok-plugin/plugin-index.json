@@ -145,12 +145,12 @@
       }
     },
     "netlify": {
-      "sha": "a7948d8f179047e0a80c398d498143887d774f53",
+      "sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b",
       "components": {
         "mcpServers": [
           {
             "name": "netlify",
-            "description": "stdio"
+            "description": "http"
           }
         ],
         "skills": [
