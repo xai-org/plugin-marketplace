@@ -110,8 +110,22 @@
       }
     },
     "dynamo": {
-      "sha": "012efff0b5b776aa9cc7312be9ff3d928337e7d6",
+      "sha": "2af8b1a66ed0889846d83956ec5dd63088e70a2f",
       "components": {
+        "commands": [
+          {
+            "name": "dynamo-explain",
+            "description": "Explain a governance output, resonance score, or temporal field term."
+          },
+          {
+            "name": "dynamo-govern",
+            "description": "Submit a proposal to Dynamo for a governance verdict informed by neural resonance and solar activity."
+          },
+          {
+            "name": "dynamo-vortex",
+            "description": "Query the Vortex token system — total supply, container statuses, or individual token/container data."
+          }
+        ],
         "mcpServers": [
           {
             "name": "dynamo",
@@ -124,7 +138,8 @@
         ],
         "skills": [
           {
-            "name": "dynamo-governance"
+            "name": "dynamo-governance",
+            "description": "Use Dynamo to get AI-powered governance verdicts on proposals, informed by real-time solar activity, neural resonance a…"
           }
         ]
       }
