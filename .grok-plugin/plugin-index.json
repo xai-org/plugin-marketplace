@@ -145,8 +145,14 @@
       }
     },
     "netlify": {
-      "sha": "922fbacf12579dcba4385934120c9a7a34561970",
+      "sha": "a7948d8f179047e0a80c398d498143887d774f53",
       "components": {
+        "mcpServers": [
+          {
+            "name": "netlify",
+            "description": "stdio"
+          }
+        ],
         "skills": [
           {
             "name": "netlify-ai-gateway",
