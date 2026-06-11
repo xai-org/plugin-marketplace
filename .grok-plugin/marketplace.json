@@ -84,7 +84,7 @@
     {
       "name": "axiom",
       "description": "Axiom observability skills for incident response, log investigation, and production debugging. Includes hypothesis-driven SRE investigation with APL queries, dashboards, alerting, metrics, and cost optimization.",
-      "category": "monitoring",
+      "category": "observability",
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
