@@ -80,6 +80,20 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "engram",
+      "description": "Persistent geometric memory substrate with categorical linguistic calculus and mixed number/word reasoning for AI agents.",
+      "category": "memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/staticroostermedia-arch/engram",
+        "sha": "eb1732fa05d9efefb26f6aeb3c842e26c866cacf"
+      },
+      "homepage": "https://github.com/staticroostermedia-arch/engram",
+      "keywords": ["memory", "mcp", "agent", "geometric", "calculus"],
+      "version": "0.5.0",
+      "author": "staticroostermedia-arch"
     }
   ]
 }
