@@ -112,6 +112,12 @@
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb",
+            "description": "stdio"
+          }
+        ],
         "skills": [
           {
             "name": "mongodb-atlas-stream-processing",
