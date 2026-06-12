@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "ablo": {
-      "sha": "416433d1469d33532da773b04e525140763a05fa",
+      "sha": "ff11911d3c5ab605dbd0b38a75a9f3214826c5fc",
       "components": {
         "commands": [
           {
