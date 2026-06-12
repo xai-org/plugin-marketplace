@@ -80,6 +80,30 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "launchpad",
+      "description": "Creative shipping workflows for Grok Build: conventional commits, PR narratives, release notes, pre-ship checklists, and review rituals — skills, slash commands, subagents, and session hooks in one plugin.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Dhivya-Bharathy/launchpad-plugin.git",
+        "sha": "df65bb9f18b159fee41b756d6c7efa8b42c0969c"
+      },
+      "homepage": "https://github.com/Dhivya-Bharathy/launchpad-plugin",
+      "keywords": [
+        "launchpad",
+        "commits",
+        "pull request",
+        "release notes",
+        "changelog",
+        "code review",
+        "ship",
+        "conventional commits"
+      ],
+      "author": {
+        "name": "Dhivya Bharathy"
+      }
     }
   ]
 }
