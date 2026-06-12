@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "woodstock": {
-      "type": "http",
-      "url": "https://mcp.app.woodstock.co/mcp"
-    }
-  }
-}
