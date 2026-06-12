@@ -1,6 +1,43 @@
 {
   "version": 1,
   "plugins": {
+    "airhug": {
+      "sha": "6cfae8d2a00e4d4d2b5a69ecc0e2007c75872e1c",
+      "components": {
+        "agents": [
+          {
+            "name": "airhug-operator",
+            "description": "Airhug operations helper for inspecting workspace status, coordinating goals, resolving blockers, and keeping company e…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "airhug-create-company",
+            "description": "Create or update an Airhug company and optionally launch execution."
+          },
+          {
+            "name": "airhug-resolve-blocker",
+            "description": "List and resolve Airhug blockers by approving, denying, pausing, or answering a question."
+          },
+          {
+            "name": "airhug-status",
+            "description": "Show the current Airhug company status, active initiatives, blockers, daily pace, and agent work."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "airhug",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "airhug-company-control",
+            "description": "Control an Airhug company from Grok Build. Use when the user wants to create a company, check Airhug status, start goal…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {

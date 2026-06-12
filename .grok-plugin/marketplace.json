@@ -80,6 +80,19 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "airhug",
+      "description": "Control Airhug companies from Grok Build using the public Airhug MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mitchellbernstein/bot-host.git",
+        "sha": "6cfae8d2a00e4d4d2b5a69ecc0e2007c75872e1c"
+      },
+      "homepage": "https://airhug.ai",
+      "keywords": ["airhug", "company", "agents", "mcp", "startup"],
+      "domains": ["airhug.ai"]
     }
   ]
 }
