@@ -80,6 +80,19 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "traceway",
+      "description": "Traceway observability skills: debug production issues through the traceway CLI and instrument backend, frontend, and mobile projects to report to a Traceway instance.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tracewayapp/agent-skills.git",
+        "sha": "5a269203b8672aaffb93db95e9a09b9b5e68a520"
+      },
+      "homepage": "https://tracewayapp.com",
+      "keywords": ["traceway", "observability", "error tracking", "opentelemetry", "tracing"],
+      "domains": ["tracewayapp.com"]
     }
   ]
 }

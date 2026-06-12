@@ -352,6 +352,21 @@
         ]
       }
     },
+    "traceway": {
+      "sha": "5a269203b8672aaffb93db95e9a09b9b5e68a520",
+      "components": {
+        "skills": [
+          {
+            "name": "traceway",
+            "description": "Operate a Traceway observability instance through the traceway CLI: log in, query exceptions, logs, endpoints, and metr…"
+          },
+          {
+            "name": "traceway-setup",
+            "description": "Connect a project to a Traceway instance so it reports endpoints, spans, errors, background tasks, AI traces, and metri…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
       "components": {
