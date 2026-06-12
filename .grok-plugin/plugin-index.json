@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "ablo-decks": {
+      "sha": "888daf29197cbadf52dff8bb2d23c745455a8d62",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ablo-decks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ablo-decks",
+            "description": "Create and edit slide decks in Ablo through the deck MCP server — run code in the slide sandbox, generate images, apply…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {
