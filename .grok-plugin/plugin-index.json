@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "0xray": {
-      "sha": "a5d498e58b06e38655c348c08e038a9c16dbf70f",
+      "sha": "7f178ccd55d1347cb75575819f90044c8a295ff0",
       "components": {
         "commands": [
           {

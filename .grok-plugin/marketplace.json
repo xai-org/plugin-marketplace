@@ -119,7 +119,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/0xRayAI/xray.git",
-        "sha": "a5d498e58b06e38655c348c08e038a9c16dbf70f"
+        "sha": "7f178ccd55d1347cb75575819f90044c8a295ff0"
       },
       "homepage": "https://github.com/0xRayAI/xray",
       "keywords": [
