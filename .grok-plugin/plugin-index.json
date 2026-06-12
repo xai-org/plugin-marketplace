@@ -517,6 +517,17 @@
           }
         ]
       }
+    },
+    "woodstock": {
+      "sha": "78daba975f836a9b9f541c5d11100919d76736a3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "woodstock",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
