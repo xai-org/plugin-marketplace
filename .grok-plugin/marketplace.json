@@ -15,8 +15,14 @@
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
     },
     {
       "name": "sentry",
@@ -28,8 +34,12 @@
         "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
     },
     {
       "name": "chrome-devtools",
@@ -41,7 +51,11 @@
         "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
     },
     {
       "name": "cloudflare",
@@ -53,8 +67,14 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
     },
     {
       "name": "superpowers",
@@ -66,7 +86,9 @@
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
       "name": "mongodb",
@@ -78,8 +100,36 @@
         "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
+      "keywords": [
+        "mongodb",
+        "mongo",
+        "mongosh",
+        "mongodb atlas",
+        "mongoose"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
+    },
+    {
+      "name": "0xray",
+      "description": "Multi-agent orchestration, Codex governance, and AI-powered development tools. 13 MCP tools covering code review, security audit, API design, database design, project analysis, testing strategy, performance optimization, UI/UX design, DevOps deployment, documentation generation, and storytelling — plus 44 knowledge skills for best-practice guidance across the full software development lifecycle.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0xRayAI/xray.git",
+        "sha": "7f178ccd55d1347cb75575819f90044c8a295ff0"
+      },
+      "homepage": "https://github.com/0xRayAI/xray",
+      "keywords": [
+        "0xray",
+        "code review",
+        "security audit",
+        "governance",
+        "orchestration",
+        "codex"
+      ]
     }
   ]
 }
