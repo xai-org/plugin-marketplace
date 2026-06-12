@@ -221,12 +221,13 @@ def transport_hint(config: dict) -> str:
 
 def scan_mcp_servers(root: Path, manifest: dict) -> list[dict]:
     servers: dict[str, dict] = {}
-    mcp_path = resolve_inside(root, ".mcp.json")
+    declared = manifest.get("mcpServers")
+    config_rel = declared if isinstance(declared, str) else ".mcp.json"
+    mcp_path = resolve_inside(root, config_rel)
     if mcp_path and mcp_path.is_file():
         data = load_json_file(mcp_path)
         if isinstance(data, dict) and isinstance(data.get("mcpServers"), dict):
             servers.update(data["mcpServers"])
-    declared = manifest.get("mcpServers")
     if isinstance(declared, dict):
         for name, config in declared.items():
             servers.setdefault(name, config)
