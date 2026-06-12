@@ -1,6 +1,253 @@
 {
   "version": 1,
   "plugins": {
+    "0xray": {
+      "sha": "96ecb656efb6ae5a2ac038e37ad6621265e906ea",
+      "components": {
+        "commands": [
+          {
+            "name": "auto-format",
+            "description": "Automated code formatting hook with Prettier and framework-specific formatters"
+          },
+          {
+            "name": "auto-summary-capture",
+            "description": "echo \"🤖 0xRay Auto-Summary Capture Active\""
+          },
+          {
+            "name": "enforcer-daily-scan",
+            "description": "Automated daily framework compliance monitoring with threshold validation"
+          },
+          {
+            "name": "framework-compliance-audit",
+            "description": "echo \"📋 0xRay 1.0.0 v1.1.1 - Full Compliance Audit\""
+          },
+          {
+            "name": "interactive-validator",
+            "description": "echo \"🔍 0xRay 1.0.0 - Interactive Session Validation\""
+          },
+          {
+            "name": "job-summary-logger",
+            "description": "echo \"🤖 0xRay AI Summary Auto-Logger\""
+          },
+          {
+            "name": "mode-switch",
+            "description": "Switch between full (25 agents) and lite (25 agents) modes dynamically"
+          },
+          {
+            "name": "model-health-check",
+            "description": "Verify dynamic model loading system health and compatibility"
+          },
+          {
+            "name": "performance-analysis",
+            "description": "echo \"📊 0xRay 1.0.0 v1.1.1 - Performance Analysis\""
+          },
+          {
+            "name": "pre-commit-introspection",
+            "description": "Batched code quality and architecture introspection before commits"
+          },
+          {
+            "name": "security-scan",
+            "description": "Automated security vulnerability scanning with dependency and code analysis"
+          },
+          {
+            "name": "sisyphus-validation",
+            "description": "echo \"🎭 0xRay 1.0.0 - Sisyphus Orchestrator Validation\""
+          },
+          {
+            "name": "summary-logger",
+            "description": "echo \"📝 0xRay Framework - Summary Logger\" >&2"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "xray-governance",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-skills",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "api-design",
+            "description": "RESTful API design and validation"
+          },
+          {
+            "name": "architect-tools",
+            "description": "System design and technical architecture tools"
+          },
+          {
+            "name": "architecture-patterns",
+            "description": "Software architecture patterns and best practices"
+          },
+          {
+            "name": "auto-format",
+            "description": "Automated code formatting and style consistency"
+          },
+          {
+            "name": "backend-engineer",
+            "description": "Backend engineer for REST/GraphQL APIs, microservices, authentication, and server architecture"
+          },
+          {
+            "name": "boot-orchestrator",
+            "description": "Framework initialization and boot orchestration"
+          },
+          {
+            "name": "bug-triage",
+            "description": "Bug triage, debugging analysis, and issue prioritization"
+          },
+          {
+            "name": "code-analyzer",
+            "description": "Deep code analysis, metrics extraction, and pattern detection (CONSOLIDATED - combines analyzer, explore, and original…"
+          },
+          {
+            "name": "code-review",
+            "description": "Perform comprehensive code quality assessment and provide improvement suggestions"
+          },
+          {
+            "name": "content-creator",
+            "description": "SEO copywriter for content that ranks and converts in both Google and AI search engines"
+          },
+          {
+            "name": "database-engineer",
+            "description": "Database engineer for schema design, query optimization, migrations, and SQL/NoSQL architecture"
+          },
+          {
+            "name": "devops-engineer",
+            "description": "DevOps engineer for CI/CD, infrastructure as code, containers, cloud deployment, and operational reliability"
+          },
+          {
+            "name": "enforcer",
+            "description": "Codex compliance validation and error prevention"
+          },
+          {
+            "name": "framework-compliance-audit",
+            "description": "Framework compliance auditing and validation"
+          },
+          {
+            "name": "frontend-engineer",
+            "description": "Frontend engineer for React/Vue/Angular/Svelte, responsive design, accessibility, and performance"
+          },
+          {
+            "name": "frontend-ui-ux-engineer",
+            "description": "Frontend UI/UX engineer for visual design, typography, accessibility, and user experience"
+          },
+          {
+            "name": "git-workflow",
+            "description": "Git workflow management and collaboration tools"
+          },
+          {
+            "name": "growth-strategist",
+            "description": "Marketing strategist for campaign strategy, market analysis, brand positioning, and conversion optimization"
+          },
+          {
+            "name": "hermes-agent",
+            "description": "Manage 0xRay framework from Hermes Agent via the native strray-hermes plugin. Covers the 4 plugin tools (validate, code…"
+          },
+          {
+            "name": "inference-improve",
+            "description": "Autonomous inference improvement through collaborative agent analysis"
+          },
+          {
+            "name": "lint",
+            "description": "Code linting and static analysis"
+          },
+          {
+            "name": "log-monitor",
+            "description": "Log analysis, pattern detection, and alerting"
+          },
+          {
+            "name": "mobile-developer",
+            "description": "Mobile developer for iOS (Swift/SwiftUI), Android (Kotlin/Compose), React Native, and Flutter"
+          },
+          {
+            "name": "model-health-check",
+            "description": "AI model health monitoring and diagnostics"
+          },
+          {
+            "name": "multimodal-looker",
+            "description": "Visual content analysis for diagrams, screenshots, and UI mockups"
+          },
+          {
+            "name": "orchestrator",
+            "description": "Multi-agent workflow coordination and task delegation"
+          },
+          {
+            "name": "performance-analysis",
+            "description": "System performance analysis and optimization"
+          },
+          {
+            "name": "performance-engineer",
+            "description": "Performance engineer for profiling, benchmarking, load testing, and optimization"
+          },
+          {
+            "name": "performance-optimization",
+            "description": "Application performance optimization and tuning"
+          },
+          {
+            "name": "processor-pipeline",
+            "description": "Data processing pipeline management"
+          },
+          {
+            "name": "project-analysis",
+            "description": "Analyze project structure, complexity, and health metrics"
+          },
+          {
+            "name": "refactoring-strategies",
+            "description": "Code refactoring techniques and strategies"
+          },
+          {
+            "name": "researcher",
+            "description": "Multi-repo analysis, documentation lookup, and implementation examples"
+          },
+          {
+            "name": "security-audit",
+            "description": "Security auditing and compliance validation"
+          },
+          {
+            "name": "security-scan",
+            "description": "Security vulnerability scanning and assessment"
+          },
+          {
+            "name": "seo-consultant",
+            "description": "Technical SEO specialist for schema markup, Core Web Vitals, AI search optimization, and site performance"
+          },
+          {
+            "name": "session-management",
+            "description": "Manage user sessions and persistent state"
+          },
+          {
+            "name": "state-manager",
+            "description": "Application state management and persistence"
+          },
+          {
+            "name": "storyteller",
+            "description": "Write deep narrative reflections, sagas, journeys, and technical stories using the current session's full context"
+          },
+          {
+            "name": "strategist",
+            "description": "Strategic guidance and complex problem-solving with architectural decision-making and risk analysis"
+          },
+          {
+            "name": "tech-writer",
+            "description": "Documentation writer for API docs, READMEs, ADRs, changelogs, and developer experience"
+          },
+          {
+            "name": "testing-strategy",
+            "description": "Design comprehensive testing strategies and optimize test coverage"
+          },
+          {
+            "name": "ui-ux-design",
+            "description": "User interface and user experience design with mobile-first approach, cognitive simplicity, and accessibility-first pri…"
+          },
+          {
+            "name": "xray-orchestrator",
+            "description": "Main orchestration skill for xray agents. Provides commands to coordinate agent work and invoke xray APIs through the l…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {

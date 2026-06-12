@@ -80,6 +80,18 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "0xray",
+      "description": "Multi-agent orchestration, Codex governance, and AI-powered development tools. 15 MCP tools covering code review, security audit, API design, database design, project analysis, testing strategy, performance optimization, UI/UX design, DevOps deployment, documentation generation, and storytelling — plus 45 knowledge skills for best-practice guidance across the full software development lifecycle.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0xRayAI/xray.git",
+        "sha": "96ecb656efb6ae5a2ac038e37ad6621265e906ea"
+      },
+      "homepage": "https://github.com/0xRayAI/xray",
+      "keywords": ["0xray", "code review", "security audit", "governance", "orchestration", "codex"]
     }
   ]
 }
