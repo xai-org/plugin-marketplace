@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "resend",
+      "description": "Resend email platform integration. Send transactional and batch email, receive inbound email securely, build React Email templates, run the Resend CLI, and follow deliverability best practices — directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/resend/grok-plugin.git",
+        "sha": "228cee181f28a887e721b580a0c1afb48fde1079"
+      },
+      "homepage": "https://github.com/resend/grok-plugin",
+      "keywords": ["resend", "email", "send email", "react email"],
+      "domains": ["resend.com"]
     }
   ]
 }
