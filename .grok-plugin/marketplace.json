@@ -90,7 +90,7 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "postgres", "serverless", "neon postgres", "neon database", "neon branch"],
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     }
   ]
