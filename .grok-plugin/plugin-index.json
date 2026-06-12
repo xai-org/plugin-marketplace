@@ -547,6 +547,16 @@
           }
         ]
       }
+    },
+    "xpntl": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "xpntl",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
