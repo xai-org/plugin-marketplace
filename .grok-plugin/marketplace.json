@@ -82,16 +82,16 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
-      "name": "woodstock-mcp",
-      "description": "Woodstock stock-trading platform integration (remote MCP server). Check your portfolio, balances, and orders, fetch US market data and fundamentals, and place trades on Woodstock — the Japanese app for trading US stocks in JPY.",
+      "name": "woodstock",
+      "description": "Woodstock is a U.S. stock trading gateway built for Japanese investors. Easily track your portfolio, balances, trades, orders, and backtest results in one place, with zero-fee trading, 24hr trading sessions, and secure passkey authentication.",
       "category": "finance",
       "source": {
         "source": "url",
         "url": "https://github.com/woodstock-tokyo/woodstock-mcp-grok-plugin.git",
-        "sha": "c046eeea7e0cc209bd3a19f0ecf1259ee6dd94e3"
+        "sha": "78daba975f836a9b9f541c5d11100919d76736a3"
       },
       "homepage": "https://woodstock.co",
-      "keywords": ["woodstock", "woodstock mcp", "us stocks", "stock trading", "jpy", "japanese app"],
+      "keywords": ["woodstock", "us stocks", "stock trading", "investment", "japan", "alpaca", "massive", "polygon"],
       "domains": ["woodstock.co"]
     }
   ]
