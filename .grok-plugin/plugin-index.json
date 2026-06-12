@@ -1,6 +1,41 @@
 {
   "version": 1,
   "plugins": {
+    "ablo": {
+      "sha": "ff11911d3c5ab605dbd0b38a75a9f3214826c5fc",
+      "components": {
+        "commands": [
+          {
+            "name": "status",
+            "description": "Check Ablo auth, mode, project, and server health, and diagnose common setup problems"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "ablo-docs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ablo-coordination",
+            "description": "Coordinate multiple agents and humans writing the same rows with Ablo claims — FIFO leases via `await using`, presence…"
+          },
+          {
+            "name": "ablo-schema",
+            "description": "Define and evolve an Ablo schema with defineSchema/model, push it with `ablo push`, provision tables with `ablo migrate…"
+          },
+          {
+            "name": "ablo-setup",
+            "description": "Set up the Ablo SDK (@abloatai/ablo) in a project — install, scaffold with `ablo init`, authenticate with API keys, pus…"
+          },
+          {
+            "name": "ablo-writes",
+            "description": "Read and write rows through the typed ablo.<model> resource surface — retrieve, list, create, update, delete with idemp…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {
