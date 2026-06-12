@@ -92,6 +92,18 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "xpntl",
+      "description": "xpntl — the coordination layer for human + AI engineering teams. Read and create issues, comment and @-mention, move work across workflow states and cycles, manage projects, labels, and workspace docs, and check your agent inbox. Connects over OAuth (no key needed).",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/xpntl"
+      },
+      "homepage": "https://xpntl.dev",
+      "keywords": ["xpntl", "issue tracker", "project management", "kanban", "agent board"],
+      "domains": ["xpntl.dev", "app.xpntl.dev"]
     }
   ]
 }
