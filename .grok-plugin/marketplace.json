@@ -80,6 +80,15 @@
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
       "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "woodstock-mcp",
+      "description": "Woodstock stock-trading platform integration (remote MCP server). Check your portfolio, balances, and orders, fetch US market data and fundamentals, and place trades on Woodstock — the Japanese app for trading US stocks in JPY.",
+      "category": "finance",
+      "source": { "type": "local", "path": "./external_plugins/woodstock-mcp" },
+      "homepage": "https://woodstock.co",
+      "keywords": ["woodstock", "woodstock mcp", "us stocks", "stock trading", "japanese stocks app"],
+      "domains": ["woodstock.co"]
     }
   ]
 }
