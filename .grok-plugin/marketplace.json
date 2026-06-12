@@ -87,7 +87,7 @@
       "category": "finance",
       "source": {
         "source": "url",
-        "url": "https://github.com/woodstock-tokyo/woodstock-mcp-plugin.git",
+        "url": "https://github.com/woodstock-tokyo/woodstock-mcp-grok-plugin.git",
         "sha": "4fc29c532a4605df3b3ebc9849f51cba32de7dd2"
       },
       "homepage": "https://woodstock.co",
