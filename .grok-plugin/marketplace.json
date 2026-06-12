@@ -114,12 +114,12 @@
     },
     {
       "name": "0xray",
-      "description": "Multi-agent orchestration, Codex governance, and AI-powered development tools. 15 MCP tools covering code review, security audit, API design, database design, project analysis, testing strategy, performance optimization, UI/UX design, DevOps deployment, documentation generation, and storytelling \u2014 plus 44 knowledge skills for best-practice guidance across the full software development lifecycle.",
+      "description": "Multi-agent orchestration, Codex governance, and AI-powered development tools. 13 MCP tools covering code review, security audit, API design, database design, project analysis, testing strategy, performance optimization, UI/UX design, DevOps deployment, documentation generation, and storytelling — plus 44 knowledge skills for best-practice guidance across the full software development lifecycle.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/0xRayAI/xray.git",
-        "sha": "36c6479255c4eacc0f6feb188add5b52da959c92"
+        "sha": "a5d498e58b06e38655c348c08e038a9c16dbf70f"
       },
       "homepage": "https://github.com/0xRayAI/xray",
       "keywords": [
