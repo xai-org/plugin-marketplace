@@ -93,6 +93,18 @@
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom", "apl", "logs", "metrics", "traces", "observability", "sre"],
       "domains": ["axiom.co", "app.axiom.co"]
+    },
+    {
+      "name": "neon",
+      "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
+      "category": "database",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/neon"
+      },
+      "homepage": "https://neon.com",
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     }
   ]
 }
