@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/intertwine/grok-observational-memory.git",
-        "sha": "1ad8619bd249975ef7e08dd07ff4c6745d2b0943"
+        "sha": "164f16ff0b74c5e9acd429c9958f428b63d3fbcf"
       },
       "homepage": "https://github.com/intertwine/grok-observational-memory",
       "keywords": ["observational-memory", "observational memory", "cross-session memory", "automatic session memory"],
