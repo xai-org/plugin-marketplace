@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "browser-harness": {
-      "sha": "f20e4aae79af6de3bd76bc352240d60675929424",
+      "sha": "b33fced546fe8154ba67be2db38ad96bbb904a20",
       "components": {
         "skills": [
           {

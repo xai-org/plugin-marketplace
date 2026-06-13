@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/browser-use/browser-harness.git",
-        "sha": "f20e4aae79af6de3bd76bc352240d60675929424"
+        "sha": "b33fced546fe8154ba67be2db38ad96bbb904a20"
       },
       "homepage": "https://github.com/browser-use/browser-harness",
       "keywords": ["browser", "browser-use", "automation", "cdp", "chrome", "scraping", "screenshot"],
