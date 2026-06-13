@@ -109,6 +109,23 @@
         ]
       }
     },
+    "conversiontools": {
+      "sha": "e0d74fd6be3ef534591bce07dc5d56c714763ebf",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "conversiontools",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "convert",
+            "description": "Convert files between 140+ formats using Conversion Tools. Two surfaces are available - the `ctio` CLI (preferred when…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {

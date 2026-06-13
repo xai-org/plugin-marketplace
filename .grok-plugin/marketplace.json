@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "conversiontools",
+      "description": "Convert files between 140+ formats from your terminal. Documents (Word, Excel, PowerPoint, PDF), data formats (JSON, CSV, XML, YAML, Parquet), images, audio, video, e-books, OCR, AI-powered data extraction, text-to-speech, and speech-to-text. CLI + MCP server, powered by the ConversionTools.io API.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/conversiontools/agent-skills.git",
+        "sha": "e0d74fd6be3ef534591bce07dc5d56c714763ebf"
+      },
+      "homepage": "https://conversiontools.io/docs/agents",
+      "keywords": ["conversiontools", "convert", "file conversion", "xml to excel", "json to excel", "pdf to excel", "pdf to json", "ocr", "ai extraction"],
+      "domains": ["conversiontools.io"]
     }
   ]
 }
