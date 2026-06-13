@@ -15,14 +15,8 @@
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": [
-        "vercel",
-        "vercel deploy",
-        "deploy to vercel"
-      ],
-      "domains": [
-        "vercel.com"
-      ]
+      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
+      "domains": ["vercel.com"]
     },
     {
       "name": "sentry",
@@ -34,12 +28,8 @@
         "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": [
-        "sentry"
-      ],
-      "domains": [
-        "sentry.io"
-      ]
+      "keywords": ["sentry"],
+      "domains": ["sentry.io"]
     },
     {
       "name": "chrome-devtools",
@@ -51,11 +41,7 @@
         "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": [
-        "chrome devtools",
-        "chrome-devtools",
-        "devtools mcp"
-      ]
+      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
     },
     {
       "name": "cloudflare",
@@ -67,14 +53,8 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": [
-        "cloudflare",
-        "wrangler",
-        "cloudflare workers"
-      ],
-      "domains": [
-        "cloudflare.com"
-      ]
+      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
+      "domains": ["cloudflare.com"]
     },
     {
       "name": "superpowers",
@@ -86,9 +66,7 @@
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": [
-        "superpowers"
-      ]
+      "keywords": ["superpowers"]
     },
     {
       "name": "mongodb",
@@ -100,17 +78,20 @@
         "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": [
-        "mongodb",
-        "mongo",
-        "mongosh",
-        "mongodb atlas",
-        "mongoose"
-      ],
-      "domains": [
-        "mongodb.com",
-        "cloud.mongodb.com"
-      ]
+      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
+      "domains": ["mongodb.com", "cloud.mongodb.com"]
+    },
+    {
+      "name": "neon",
+      "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
+      "category": "database",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/neon"
+      },
+      "homepage": "https://neon.com",
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
       "name": "observational-memory",
@@ -122,12 +103,7 @@
         "sha": "1ad8619bd249975ef7e08dd07ff4c6745d2b0943"
       },
       "homepage": "https://github.com/intertwine/grok-observational-memory",
-      "keywords": [
-        "observational-memory",
-        "observational memory",
-        "cross-session memory",
-        "automatic session memory"
-      ],
+      "keywords": ["observational-memory", "observational memory", "cross-session memory", "automatic session memory"],
       "domains": []
     }
   ]
