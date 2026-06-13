@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "browser-harness": {
+      "sha": "f20e4aae79af6de3bd76bc352240d60675929424",
+      "components": {
+        "skills": [
+          {
+            "name": "browser-harness",
+            "description": "Direct browser control via CDP — automate, scrape, test, or interact with web pages by driving the user's already-runni…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {

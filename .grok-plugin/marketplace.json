@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "browser-harness",
+      "description": "Direct CDP browser control for coding agents: coordinate clicks, screenshots, a persistent Python session, and bulk HTTP — driving the user's real Chrome or a Browser Use cloud browser. Ships skills only; the browser-harness CLI is a one-time install prerequisite.",
+      "category": "automation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browser-use/browser-harness.git",
+        "sha": "f20e4aae79af6de3bd76bc352240d60675929424"
+      },
+      "homepage": "https://github.com/browser-use/browser-harness",
+      "keywords": ["browser", "browser-use", "automation", "cdp", "chrome", "scraping", "screenshot"],
+      "domains": ["browser-use.com", "docs.browser-use.com"]
     }
   ]
 }
