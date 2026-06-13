@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "observational-memory",
+      "description": "Observational memory for Grok Build: observes sessions, reflects durable facts, recalls them in every session.",
+      "category": "memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/intertwine/grok-observational-memory.git",
+        "sha": "164f16ff0b74c5e9acd429c9958f428b63d3fbcf"
+      },
+      "homepage": "https://github.com/intertwine/grok-observational-memory",
+      "keywords": ["observational-memory", "observational memory", "cross-session memory", "automatic session memory"],
+      "domains": []
     }
   ]
 }
