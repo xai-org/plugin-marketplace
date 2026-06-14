@@ -314,7 +314,7 @@
       }
     },
     "skill-provenance": {
-      "sha": "eb6197b6a2bce9724c1f291ec28e3f8e9a43b3ab",
+      "sha": "2fbfa34797a4c9ad21b8f94d6ef93e2d93987cf9",
       "components": {
         "commands": [
           {
@@ -325,7 +325,7 @@
         "skills": [
           {
             "name": "skill-provenance",
-            "description": "Vet a third-party agent skill BEFORE you install or run it. Reads the skill and reports provenance, license, pinning, a…"
+            "description": "Vet a third-party agent skill BEFORE you install or run it. Reads the skill and reports provenance, license, hidden or…"
           }
         ]
       }

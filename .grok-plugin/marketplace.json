@@ -140,7 +140,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/solidstatecc/skill-provenance.git",
-        "sha": "eb6197b6a2bce9724c1f291ec28e3f8e9a43b3ab"
+        "sha": "2fbfa34797a4c9ad21b8f94d6ef93e2d93987cf9"
       },
       "homepage": "https://solidstate.cc",
       "keywords": [
