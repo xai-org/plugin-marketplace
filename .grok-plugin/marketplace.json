@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "display-dev",
+      "description": "Publish HTML and Markdown artifacts as shareable URLs behind company auth, public sharing, or private links.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/display-dev/skill.git",
+        "sha": "bd2aa88e059c07f321acbac183f027c41f333a07"
+      },
+      "homepage": "https://display.dev/docs/skill",
+      "keywords": ["display.dev", "publish html", "publish markdown", "share artifact", "share behind sso", "company auth", "private link"],
+      "domains": ["display.dev", "dsp.so"]
     }
   ]
 }
