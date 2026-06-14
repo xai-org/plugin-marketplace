@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/conversiontools/agent-skills.git",
-        "sha": "e0d74fd6be3ef534591bce07dc5d56c714763ebf"
+        "sha": "8765c9995ba106a0ad03c6e2573b7461453ff4c1"
       },
       "homepage": "https://conversiontools.io/docs/agents",
       "keywords": ["conversiontools", "convert", "file conversion", "xml to excel", "json to excel", "pdf to excel", "pdf to json", "ocr", "ai extraction"],
