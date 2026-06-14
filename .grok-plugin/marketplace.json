@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "wix",
+      "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wix/skills.git",
+        "sha": "75bb86e43cad1bfdc0e51f541cd44f9612c1deee"
+      },
+      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
+      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
+      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
     }
   ]
 }
