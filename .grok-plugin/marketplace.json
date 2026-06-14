@@ -134,13 +134,13 @@
       ]
     },
     {
-      "name": "skill-vetter",
+      "name": "skill-provenance",
       "description": "Vet a third-party agent skill before you install or run it: provenance, license, pinning, and dangerous capabilities (shell, network, secrets, file writes), with a RUN / REVIEW / DO NOT RUN verdict. Read-only.",
       "category": "security",
       "source": {
         "source": "url",
-        "url": "https://github.com/solidstatecc/skill-vetter.git",
-        "sha": "ce49a31811414612d0091ef96c31ea6c7d914392"
+        "url": "https://github.com/solidstatecc/skill-provenance.git",
+        "sha": "eb6197b6a2bce9724c1f291ec28e3f8e9a43b3ab"
       },
       "homepage": "https://solidstate.cc",
       "keywords": [

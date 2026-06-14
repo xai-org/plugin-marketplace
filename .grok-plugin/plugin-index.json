@@ -313,8 +313,8 @@
         ]
       }
     },
-    "skill-vetter": {
-      "sha": "ce49a31811414612d0091ef96c31ea6c7d914392",
+    "skill-provenance": {
+      "sha": "eb6197b6a2bce9724c1f291ec28e3f8e9a43b3ab",
       "components": {
         "commands": [
           {
@@ -324,7 +324,7 @@
         ],
         "skills": [
           {
-            "name": "skill-vetter",
+            "name": "skill-provenance",
             "description": "Vet a third-party agent skill BEFORE you install or run it. Reads the skill and reports provenance, license, pinning, a…"
           }
         ]
