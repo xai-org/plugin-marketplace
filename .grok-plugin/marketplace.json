@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/display-dev/skill.git",
-        "sha": "bd2aa88e059c07f321acbac183f027c41f333a07"
+        "sha": "909fd7c0e6016b5a490d1dbdbebc7ef142595952"
       },
       "homepage": "https://display.dev/docs/skill",
       "keywords": ["display.dev", "publish html", "publish markdown", "share artifact", "share behind sso", "company auth", "private link"],
