@@ -109,6 +109,37 @@
         ]
       }
     },
+    "groover": {
+      "sha": "2117e6844848b6b259f6d85c356eeafd4465500b",
+      "components": {
+        "commands": [
+          {
+            "name": "groover-register",
+            "description": "Register an AI agent with Proof of Autonomy and earn a verifiable DID credential"
+          },
+          {
+            "name": "groover-search",
+            "description": "Search the Groover registry for registered agents, tools, and MCP servers"
+          },
+          {
+            "name": "groover-servers",
+            "description": "List all available MCP servers registered in the Groover correlation engine"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "groover-registry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "groover-register",
+            "description": "Register AI agents with Proof of Autonomy using ed25519 signatures and adaptive multi-turn MCP orchestration challenges…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {

@@ -92,6 +92,31 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "groover",
+      "description": "MCP-native Plugin Marketplace and Cross-Correlation Engine. Register AI agents with Proof of Autonomy (ed25519 + adaptive multi-turn challenge), discover via semantic/temporal/governance correlation, and manage DID credentials. 6 MCP tools including adaptive challenge, search, and registry.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htafolla/groover.git",
+        "sha": "2117e6844848b6b259f6d85c356eeafd4465500b"
+      },
+      "homepage": "https://groover.rippel.ai",
+      "keywords": [
+        "groover",
+        "marketplace",
+        "registry",
+        "agent-registration",
+        "proof-of-autonomy",
+        "did",
+        "mcp",
+        "cross-correlation"
+      ],
+      "domains": [
+        "registry-production-e2c4.up.railway.app",
+        "groover.rippel.ai"
+      ]
     }
   ]
 }
