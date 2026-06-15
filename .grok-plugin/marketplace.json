@@ -100,7 +100,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/BrowserBox/WebCLI.git",
-        "sha": "a456e124bf83494c4e74071cd38fcf511c61a93f"
+        "sha": "8e1e9e703aa8acc99d0865caf8c61e4cf466dcfc"
       },
       "homepage": "https://webcli.sh",
       "keywords": ["web", "web-cli", "webcli", "browser", "inspect", "browser automation", "agent browser"],
