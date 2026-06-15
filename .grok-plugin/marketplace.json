@@ -140,7 +140,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/solidstatecc/spacex-daily-briefing.git",
-        "sha": "1cee0bbda46e1bfddf4723ea16dd1baca42a6457"
+        "sha": "58ebe80ea9dab1e10cba7c3ad5b9125cf2b7f5fa"
       },
       "homepage": "https://solidstate.cc/skills/spacex-daily-briefing",
       "keywords": [
@@ -158,7 +158,7 @@
         "nasdaq.com",
         "x.ai"
       ],
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "Solid State",
         "url": "https://solidstate.cc"
