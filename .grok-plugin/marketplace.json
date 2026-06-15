@@ -95,12 +95,12 @@
     },
     {
       "name": "conversiontools",
-      "description": "Convert files between 140+ formats from your terminal. Documents (Word, Excel, PowerPoint, PDF), data formats (JSON, CSV, XML, YAML, Parquet), images, audio, video, e-books, OCR, AI-powered data extraction, text-to-speech, and speech-to-text. CLI + MCP server, powered by the ConversionTools.io API.",
+      "description": "Convert files between 140+ formats from your terminal, or build a custom converter from a plain-language description when no standard one fits. Documents (Word, Excel, PowerPoint, PDF), data formats (JSON, CSV, XML, YAML, Parquet), images, audio, video, e-books, OCR, AI-powered data extraction, text-to-speech, and speech-to-text. CLI + MCP server, powered by Conversion Tools.",
       "category": "data",
       "source": {
         "source": "url",
         "url": "https://github.com/conversiontools/agent-skills.git",
-        "sha": "8765c9995ba106a0ad03c6e2573b7461453ff4c1"
+        "sha": "00dff1dfd7bac19e21a472f610dbdb792147143a"
       },
       "homepage": "https://conversiontools.io/docs/agents",
       "keywords": ["conversiontools", "convert", "file conversion", "xml to excel", "json to excel", "pdf to excel", "pdf to json", "ocr", "ai extraction"],
