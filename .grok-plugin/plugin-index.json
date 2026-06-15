@@ -109,6 +109,22 @@
         ]
       }
     },
+    "coderifts": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "coderifts",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "api-governance",
+            "description": "Use before merging or shipping any API or tool-contract change. Runs CodeRifts preflight on OpenAPI specs and MCP manif…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
