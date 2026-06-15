@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "coderifts": {
+      "type": "http",
+      "url": "https://app.coderifts.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CODERIFTS_API_KEY}"
+      }
+    }
+  }
+}
