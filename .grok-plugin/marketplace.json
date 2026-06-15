@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "web-cli",
+      "description": "Real browser sessions for coding agents. Inspect live pages, act on numbered refs, fill forms, switch frames, and reuse persistent logins — not screenshots or brittle selectors.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrowserBox/WebCLI.git",
+        "sha": "a456e124bf83494c4e74071cd38fcf511c61a93f"
+      },
+      "homepage": "https://webcli.sh",
+      "keywords": ["web", "web-cli", "webcli", "browser", "inspect", "browser automation", "agent browser"],
+      "domains": ["webcli.sh"]
     }
   ]
 }

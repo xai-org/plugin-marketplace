@@ -547,6 +547,17 @@
           }
         ]
       }
+    },
+    "web-cli": {
+      "sha": "a456e124bf83494c4e74071cd38fcf511c61a93f",
+      "components": {
+        "skills": [
+          {
+            "name": "web-cli",
+            "description": "Use the `web` CLI to browse, search, inspect, and act on live web pages from an agent workflow. Prefer this skill when…"
+          }
+        ]
+      }
     }
   }
 }
