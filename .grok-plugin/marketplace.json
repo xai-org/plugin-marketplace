@@ -92,6 +92,27 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "0xray",
+      "description": "Multi-agent orchestration, Codex governance, and AI-powered development tools. 7 MCP servers, 31 knowledge skills, and 13 slash commands covering code review, security audit, API design, database design, project analysis, testing, performance, UI/UX, DevOps, documentation, and storytelling.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0xRayAI/xray.git",
+        "sha": "f8d084cc0ce9204a0930e931c855f9f210be24f6"
+      },
+      "homepage": "https://github.com/0xRayAI/xray",
+      "keywords": [
+        "0xray",
+        "xray",
+        "governance",
+        "code-review",
+        "security-audit",
+        "mcp",
+        "orchestration",
+        "codex"
+      ]
     }
   ]
 }
