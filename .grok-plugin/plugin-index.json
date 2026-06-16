@@ -175,7 +175,7 @@
       }
     },
     "sentry": {
-      "sha": "849303a8411c242d250885ffe714235a3bc2f5fe",
+      "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
         "commands": [
           {
@@ -239,6 +239,10 @@
             "description": "Full Sentry SDK setup for Go. Use when asked to \"add Sentry to Go\", \"install sentry-go\", \"setup Sentry in Go\", or confi…"
           },
           {
+            "name": "sentry-instrumentation-guide",
+            "description": "Decide which Sentry signal to reach for when instrumenting code — error, span, span attribute, log, or metric. Use when…"
+          },
+          {
             "name": "sentry-nestjs-sdk",
             "description": "Full Sentry SDK setup for NestJS. Use when asked to \"add Sentry to NestJS\", \"install @sentry/nestjs\", \"setup Sentry in…"
           },
@@ -297,6 +301,14 @@
           {
             "name": "sentry-setup-ai-monitoring",
             "description": "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversati…"
+          },
+          {
+            "name": "sentry-span-streaming-js",
+            "description": "Migrate JavaScript SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\"…"
+          },
+          {
+            "name": "sentry-span-streaming-python",
+            "description": "Migrate Python SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\", \"m…"
           },
           {
             "name": "sentry-svelte-sdk",
