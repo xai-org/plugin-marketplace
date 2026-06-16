@@ -109,6 +109,31 @@
         ]
       }
     },
+    "grafana": {
+      "sha": "a5c72f2d74c640e9675eb0249526447968535015",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grafana",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "grafana-assistant-cli",
+            "description": "Use the grafana-assistant CLI to interact with Grafana Assistant via A2A API. Covers installation, configuration, promp…"
+          },
+          {
+            "name": "grafana-cloud-mcp-tools",
+            "description": "Connect to and use the Grafana Cloud MCP server effectively. Covers setup, OAuth authorization, tool categories, read/w…"
+          },
+          {
+            "name": "grafana-mcp-tools",
+            "description": "Install, configure, and use the Grafana MCP server effectively. Covers setup via Docker or binary, environment variable…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
