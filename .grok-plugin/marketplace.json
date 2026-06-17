@@ -82,16 +82,18 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
-      "name": "neon",
-      "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
-      "category": "database",
+      "name": "engram",
+      "description": "Persistent geometric memory substrate with categorical linguistic calculus and mixed number/word reasoning for AI agents.",
+      "category": "memory",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/neon"
+        "source": "url",
+        "url": "https://github.com/staticroostermedia-arch/engram",
+        "sha": "eb1732fa05d9efefb26f6aeb3c842e26c866cacf"
       },
-      "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+      "homepage": "https://github.com/staticroostermedia-arch/engram",
+      "keywords": ["memory", "mcp", "agent", "geometric", "calculus"],
+      "version": "0.5.0",
+      "author": "staticroostermedia-arch"
     }
   ]
 }
