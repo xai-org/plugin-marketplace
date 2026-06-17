@@ -1,6 +1,221 @@
 {
   "version": 1,
   "plugins": {
+    "0xray": {
+      "sha": "f8d084cc0ce9204a0930e931c855f9f210be24f6",
+      "components": {
+        "commands": [
+          {
+            "name": "auto-format",
+            "description": "Automated code formatting hook with Prettier and framework-specific formatters"
+          },
+          {
+            "name": "auto-summary-capture",
+            "description": "echo \"🤖 Xray Auto-Summary Capture Active\""
+          },
+          {
+            "name": "enforcer-daily-scan",
+            "description": "Automated daily framework compliance monitoring with threshold validation"
+          },
+          {
+            "name": "framework-compliance-audit",
+            "description": "echo \"📋 0xRay 1.0.0 v1.1.1 - Full Compliance Audit\""
+          },
+          {
+            "name": "interactive-validator",
+            "description": "echo \"🔍 0xRay 1.0.0 - Interactive Session Validation\""
+          },
+          {
+            "name": "job-summary-logger",
+            "description": "echo \"🤖 Xray AI Summary Auto-Logger\""
+          },
+          {
+            "name": "mode-switch",
+            "description": "Switch between full (25 agents) and lite (25 agents) modes dynamically"
+          },
+          {
+            "name": "model-health-check",
+            "description": "Verify dynamic model loading system health and compatibility"
+          },
+          {
+            "name": "performance-analysis",
+            "description": "echo \"📊 0xRay 1.0.0 v1.1.1 - Performance Analysis\""
+          },
+          {
+            "name": "pre-commit-introspection",
+            "description": "Batched code quality and architecture introspection before commits"
+          },
+          {
+            "name": "security-scan",
+            "description": "Automated security vulnerability scanning with dependency and code analysis"
+          },
+          {
+            "name": "sisyphus-validation",
+            "description": "echo \"🎭 0xRay 1.0.0 - Sisyphus Orchestrator Validation\""
+          },
+          {
+            "name": "summary-logger",
+            "description": "echo \"📝 Xray Framework - Summary Logger\" >&2"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "xray-architect-tools",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-code-review",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-enforcer",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-governance",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-orchestrator",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-researcher",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-skills",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "api-design",
+            "description": "RESTful API design and validation"
+          },
+          {
+            "name": "architect-tools",
+            "description": "System design and technical architecture tools"
+          },
+          {
+            "name": "architecture-patterns",
+            "description": "Software architecture patterns and best practices"
+          },
+          {
+            "name": "auto-format",
+            "description": "Automated code formatting and style consistency"
+          },
+          {
+            "name": "boot-orchestrator",
+            "description": "Framework initialization and boot orchestration"
+          },
+          {
+            "name": "bug-triage",
+            "description": "Bug triage, debugging analysis, and issue prioritization"
+          },
+          {
+            "name": "code-analyzer",
+            "description": "Deep code analysis, metrics extraction, and pattern detection (CONSOLIDATED - combines analyzer, explore, and original…"
+          },
+          {
+            "name": "code-review",
+            "description": "Perform comprehensive code quality assessment and provide improvement suggestions"
+          },
+          {
+            "name": "enforcer",
+            "description": "Codex compliance validation and error prevention"
+          },
+          {
+            "name": "framework-compliance-audit",
+            "description": "Framework compliance auditing and validation"
+          },
+          {
+            "name": "git-workflow",
+            "description": "Git workflow management and collaboration tools"
+          },
+          {
+            "name": "inference-improve",
+            "description": "Autonomous inference improvement through collaborative agent analysis"
+          },
+          {
+            "name": "lint",
+            "description": "Code linting and static analysis"
+          },
+          {
+            "name": "log-monitor",
+            "description": "Log analysis, pattern detection, and alerting"
+          },
+          {
+            "name": "model-health-check",
+            "description": "AI model health monitoring and diagnostics"
+          },
+          {
+            "name": "multimodal-looker",
+            "description": "Visual content analysis for diagrams, screenshots, and UI mockups"
+          },
+          {
+            "name": "orchestrator",
+            "description": "Multi-agent workflow coordination and task delegation"
+          },
+          {
+            "name": "performance-analysis",
+            "description": "System performance analysis and optimization"
+          },
+          {
+            "name": "performance-optimization",
+            "description": "Application performance optimization and tuning"
+          },
+          {
+            "name": "processor-pipeline",
+            "description": "Data processing pipeline management"
+          },
+          {
+            "name": "project-analysis",
+            "description": "Analyze project structure, complexity, and health metrics"
+          },
+          {
+            "name": "refactoring-strategies",
+            "description": "Code refactoring techniques and strategies"
+          },
+          {
+            "name": "researcher",
+            "description": "Multi-repo analysis, documentation lookup, and implementation examples"
+          },
+          {
+            "name": "security-audit",
+            "description": "Security auditing and compliance validation"
+          },
+          {
+            "name": "security-scan",
+            "description": "Security vulnerability scanning and assessment"
+          },
+          {
+            "name": "session-management",
+            "description": "Manage user sessions and persistent state"
+          },
+          {
+            "name": "state-manager",
+            "description": "Application state management and persistence"
+          },
+          {
+            "name": "testing-best-practices",
+            "description": "Testing best practices and quality assurance"
+          },
+          {
+            "name": "testing-strategy",
+            "description": "Design comprehensive testing strategies and optimize test coverage"
+          },
+          {
+            "name": "ui-ux-design",
+            "description": "User interface and user experience design with mobile-first approach, cognitive simplicity, and accessibility-first pri…"
+          },
+          {
+            "name": "xray-orchestrator",
+            "description": "Main orchestration skill for xray agents. Provides commands to coordinate agent work and invoke xray APIs through the l…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {
