@@ -174,6 +174,248 @@
         ]
       }
     },
+    "posthog": {
+      "sha": "b6f63b230082e68a67d36af84e90b6522a756f84",
+      "components": {
+        "agents": [
+          {
+            "name": "error-analyzer",
+            "description": "Analyze multiple PostHog errors in parallel to identify patterns, root causes, and prioritize fixes based on user impac…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "posthog:llma-cc-ingest",
+            "description": "Manually send a Claude Code session log to PostHog LLM Analytics"
+          },
+          {
+            "name": "posthog:llma-cc-setup",
+            "description": "Set up PostHog LLM Analytics to capture Claude Code sessions"
+          },
+          {
+            "name": "posthog:llma-cc-status",
+            "description": "Check if Claude Code sessions are being sent to PostHog LLM Analytics"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "__exec$"
+          },
+          {
+            "name": "SessionEnd"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "posthog",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analyzing-experiment-session-replays",
+            "description": "Analyze session replay patterns across experiment variants to understand user behavior differences. Use when the user w…"
+          },
+          {
+            "name": "assessing-heatmaps",
+            "description": "Assesses what a page's heatmap is telling you and recommends concrete changes. Pulls click / rageclick / scroll-depth d…"
+          },
+          {
+            "name": "auditing-endpoints",
+            "description": "Audit every endpoint in a PostHog project for staleness, failed materialisations, and unused materialised versions. Use…"
+          },
+          {
+            "name": "auditing-experiments-flags",
+            "description": "Audit PostHog experiments and feature flags for configuration issues, staleness, and best-practice violations. Read whe…"
+          },
+          {
+            "name": "auditing-warehouse-data-health",
+            "description": "Audit the health of a PostHog project's data warehouse — find every broken or degraded pipeline item across sources, sy…"
+          },
+          {
+            "name": "authoring-log-alerts",
+            "description": "Author useful, low-noise log alerts on services in a PostHog project. Use when the user asks to set up alerts for their…"
+          },
+          {
+            "name": "authoring-signals-scouts",
+            "description": "How to author, edit, and adapt PostHog Signals scouts — the scheduled agents that scan a project and emit findings into…"
+          },
+          {
+            "name": "choosing-trend-or-slope-view",
+            "description": "Clarify how to visualize change over a time range before building a trend. Use whenever the user asks how much somethin…"
+          },
+          {
+            "name": "cleaning-up-stale-feature-flags",
+            "description": "Identify and clean up stale feature flags in a PostHog project. Use when the user wants to find unused, fully rolled ou…"
+          },
+          {
+            "name": "configuring-experiment-analytics",
+            "description": "Configures the analytics side of a PostHog experiment — exposure criteria (default `$feature_flag_called` vs custom exp…"
+          },
+          {
+            "name": "configuring-experiment-rollout",
+            "description": "Configures the rollout shape of a PostHog experiment — the variant split (50/50, 80/20, A/B/C ratios), the overall roll…"
+          },
+          {
+            "name": "consuming-endpoints-from-client-code",
+            "description": "Wire a PostHog endpoint into a client app or SDK. Covers fetching the OpenAPI spec, generating a typed client with open…"
+          },
+          {
+            "name": "copying-flags-across-projects",
+            "description": "Copy a feature flag from one PostHog project to one or more target projects in the same organization. Use when the user…"
+          },
+          {
+            "name": "creating-ai-subscription",
+            "description": "Create a recurring AI-generated PostHog report — schedule a free-text prompt to run on a cron, with the LLM-synthesized…"
+          },
+          {
+            "name": "creating-an-endpoint",
+            "description": "Create a PostHog endpoint with the right shape on the first try — covers query kind choice, name conventions, what to e…"
+          },
+          {
+            "name": "creating-experiments",
+            "description": "Guides agents through the 3-step experiment creation flow: defining the hypothesis, configuring rollout, and setting up…"
+          },
+          {
+            "name": "creating-replay-vision-scanners",
+            "description": "Guides agents through creating and safely sizing a Replay Vision scanner: choosing the scanner type (monitor/classifier…"
+          },
+          {
+            "name": "debugging-local-replay",
+            "description": "Debugs why session recordings aren't appearing in the local dev environment. Use when a developer reports that local re…"
+          },
+          {
+            "name": "debugging-signals-pipeline",
+            "description": "Debug the signals pipeline locally end-to-end. Covers emitting test signals from fixtures, monitoring Temporal workflow…"
+          },
+          {
+            "name": "designing-email-templates",
+            "description": "Author, save, and edit email templates in the PostHog workflows library — compose email design JSON with Liquid persona…"
+          },
+          {
+            "name": "diagnosing-ci-and-merge-bottlenecks",
+            "description": "Diagnoses CI and pull-request pipeline health for a GitHub repo using the engineering analytics MCP tools — pull-reques…"
+          },
+          {
+            "name": "diagnosing-endpoint-performance",
+            "description": "Diagnose why a PostHog endpoint is slow or expensive and propose a concrete fix — bump the cache TTL, enable materialis…"
+          },
+          {
+            "name": "diagnosing-experiment-results",
+            "description": "Diagnoses bias, anomalies, and strange-looking results on a specific PostHog experiment. Covers empty / 0-exposure expe…"
+          },
+          {
+            "name": "diagnosing-failed-warehouse-syncs",
+            "description": "Diagnose why a data warehouse sync is failing and recommend the right recovery action. Use when the user asks \"why isn'…"
+          },
+          {
+            "name": "diagnosing-missing-recordings",
+            "description": "Diagnoses why a session recording is missing or was not captured. Use when a user asks why a session has no replay, why…"
+          },
+          {
+            "name": "diagnosing-sdk-health",
+            "description": "Diagnoses the health of a project's PostHog SDK integrations — which SDKs are out of date and how to fix them. Use when…"
+          },
+          {
+            "name": "diagnosing-stacktrace-symbolication",
+            "description": "Help users debug PostHog Error Tracking stack-trace symbolication for any supported platform — JavaScript/TypeScript we…"
+          },
+          {
+            "name": "downloading-batch-export-files",
+            "description": "Export PostHog events, persons, or sessions on demand and download the resulting files. Use when the user asks to downl…"
+          },
+          {
+            "name": "exploring-apm-traces",
+            "description": "Investigates distributed application performance using PostHog APM (OpenTelemetry span) data via MCP. Use when the user…"
+          },
+          {
+            "name": "exploring-autocapture-events",
+            "description": "Guides exploration of $autocapture events captured by posthog-js to understand user interactions, find CSS selectors (e…"
+          },
+          {
+            "name": "exploring-endpoint-execution-logs",
+            "description": "Explore and diagnose a PostHog endpoint's execution logs — error messages, failed runs, cache misses, slow runs, or une…"
+          },
+          {
+            "name": "exploring-live-traffic",
+            "description": "Inspects PostHog Web analytics Live tab data — current users online, last-30-minutes pageviews, top pages, referrers, d…"
+          },
+          {
+            "name": "exploring-llm-clusters",
+            "description": "Investigate AI observability clusters — understand usage patterns in AI/LLM traffic, compare cluster behavior, compute…"
+          },
+          {
+            "name": "exploring-llm-costs",
+            "description": "Investigate LLM spend in PostHog — total cost over time, cost by model, provider, user, trace, or custom dimension, tok…"
+          },
+          {
+            "name": "exploring-llm-evaluations",
+            "description": "Investigate AI observability evaluations of both types — `hog` (deterministic code-based) and `llm_judge` (LLM-prompt-b…"
+          },
+          {
+            "name": "exploring-llm-traces",
+            "description": "ABSOLUTE MUST to debug and inspect LLM/AI agent traces using PostHog's MCP tools. Use when the user pastes a trace or s…"
+          },
+          {
+            "name": "exploring-signals-scouts",
+            "description": "How to explore and make sense of PostHog Signals scouts — the scheduled agents that scan a project and emit findings in…"
+          },
+          {
+            "name": "feature-usage-feed",
+            "description": "Set up an LLM-judge evaluation that extracts canonical use cases for a PostHog feature at scale and streams the results…"
+          },
+          {
+            "name": "finding-deleted-feature-flags",
+            "description": "Find feature flags that were soft-deleted in the active project within a recent time window. Use when the user asks \"wh…"
+          },
+          {
+            "name": "finding-experiments",
+            "description": "Resolves a PostHog experiment reference from natural language to a concrete experiment ID by browsing `experiment-list`…"
+          },
+          {
+            "name": "finding-replay-for-issue",
+            "description": "Finds the most informative session recording linked to an error tracking issue. Use when a user has an error tracking i…"
+          },
+          {
+            "name": "finding-sessions-to-watch",
+            "description": "Guides a user from \"I want to watch recordings but don't know which ones\" to a short, high-signal list of sessions wort…"
+          },
+          {
+            "name": "formatting-insight-axes",
+            "description": "Pick the right y-axis unit when creating or updating a TrendsQuery insight via `posthog:insight-create` or `posthog:ins…"
+          },
+          {
+            "name": "grouping-noisy-errors",
+            "description": "Consolidate PostHog error tracking issues that are the same actual error reported under different fingerprints. Use whe…"
+          },
+          {
+            "name": "inbox-exploration",
+            "description": "Explore PostHog's Inbox — the surface where signal reports surface as actionable issues and trends. Use when the user a…"
+          },
+          {
+            "name": "instrument-error-tracking",
+            "description": "Add PostHog error tracking to capture and monitor exceptions. Use after implementing features or reviewing PRs to ensur…"
+          },
+          {
+            "name": "instrument-feature-flags",
+            "description": "Add PostHog feature flags to gate new functionality. Use after implementing features or reviewing PRs to ensure safe ro…"
+          },
+          {
+            "name": "instrument-integration",
+            "description": "Add PostHog SDK integration to your application. Use when setting up PostHog for the first time or reviewing PRs that n…"
+          },
+          {
+            "name": "instrument-llm-analytics",
+            "description": "Add PostHog LLM analytics to trace AI model usage. Use after implementing LLM features or reviewing PRs to ensure all g…"
+          },
+          {
+            "name": "instrument-logs",
+            "description": "Add PostHog log capture to track application logs. Use after implementing features or reviewing PRs to ensure meaningfu…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
