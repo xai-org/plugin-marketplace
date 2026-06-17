@@ -325,6 +325,23 @@
         ]
       }
     },
+    "spacex-daily-briefing": {
+      "sha": "58ebe80ea9dab1e10cba7c3ad5b9125cf2b7f5fa",
+      "components": {
+        "commands": [
+          {
+            "name": "spacex-brief",
+            "description": "Generate today's SpaceX / SPCX investor briefing — live X + web search, price-moving lens, tiered output. Optional argu…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "spacex-daily-briefing",
+            "description": "Generate a daily, investor-grade intelligence briefing on SpaceX — now public as SPCX on Nasdaq (IPO June 12, 2026) and…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
       "components": {
