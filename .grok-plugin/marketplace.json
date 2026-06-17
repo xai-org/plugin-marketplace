@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "railway",
+      "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, and object storage buckets, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/railwayapp/railway-skills.git",
+        "sha": "aa1e055b0f18d13787232b164cfb7416b553bd03"
+      },
+      "homepage": "https://github.com/railwayapp/railway-skills",
+      "keywords": ["railway", "railway deploy", "deploy to railway"],
+      "domains": ["railway.com", "railway.app"]
     }
   ]
 }
