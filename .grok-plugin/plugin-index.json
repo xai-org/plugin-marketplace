@@ -109,6 +109,51 @@
         ]
       }
     },
+    "launchpad": {
+      "sha": "df65bb9f18b159fee41b756d6c7efa8b42c0969c",
+      "components": {
+        "agents": [
+          {
+            "name": "release-captain",
+            "description": "Release coordination subagent for versioning, changelogs, rollout plans, and post-release verification."
+          },
+          {
+            "name": "senior-reviewer",
+            "description": "Thorough, actionable code review subagent. Use for pre-merge review, security checks, and design feedback on diffs."
+          }
+        ],
+        "commands": [
+          {
+            "name": "changelog",
+            "description": "Build a changelog from recent commits, grouped by conventional commit type."
+          },
+          {
+            "name": "ship-check",
+            "description": "Run a pre-ship checklist before merging or deploying — tests, lint, diff review, and rollback plan."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          }
+        ],
+        "skills": [
+          {
+            "name": "commit-craft",
+            "description": "Write clear, conventional commit messages from staged or recent changes. Use when committing, squashing, or rewriting g…"
+          },
+          {
+            "name": "pr-storyteller",
+            "description": "Write compelling pull request titles and descriptions from branch diffs. Use when opening a PR, updating a PR body, or…"
+          },
+          {
+            "name": "release-notes",
+            "description": "Generate user-facing release notes from commits, tags, or changelogs. Use when cutting a release, writing a GitHub rele…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
