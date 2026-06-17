@@ -103,8 +103,8 @@
         "sha": "b6f63b230082e68a67d36af84e90b6522a756f84"
       },
       "homepage": "https://posthog.com/docs/model-context-protocol",
-      "keywords": ["posthog", "analytics", "feature flags", "experiments", "error tracking", "llm analytics"],
-      "domains": ["posthog.com", "us.posthog.com", "eu.posthog.com", "app.posthog.com"]
+      "keywords": ["posthog", "posthog analytics", "posthog feature flags", "posthog experiments", "posthog session replay", "posthog error tracking"],
+      "domains": ["posthog.com", "us.posthog.com", "eu.posthog.com"]
     }
   ]
 }
