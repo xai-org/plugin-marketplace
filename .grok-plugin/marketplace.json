@@ -69,6 +69,19 @@
       "keywords": ["superpowers"]
     },
     {
+      "name": "grafana",
+      "description": "Grafana observability platform integration. Access dashboards, query Prometheus and Loki, manage alerts, create incidents, and interact with OnCall directly from Grok.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grafana/ai-marketplace.git",
+        "sha": "a5c72f2d74c640e9675eb0249526447968535015"
+      },
+      "homepage": "https://github.com/grafana/ai-marketplace",
+      "keywords": ["grafana", "grafana mcp", "grafana cloud"],
+      "domains": ["grafana.com", "grafana.net"]
+    },
+    {
       "name": "mongodb",
       "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
       "category": "database",
