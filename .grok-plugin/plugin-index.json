@@ -394,6 +394,31 @@
         ]
       }
     },
+    "synapsis": {
+      "sha": "9b80664a416d3a1774dfea8d02ad4b42da255eda",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "synapsis",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
       "components": {
