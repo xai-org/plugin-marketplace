@@ -30,8 +30,8 @@
       "category": "monitoring",
       "source": {
         "source": "url",
-        "url": "https://github.com/getsentry/sentry-for-ai.git",
-        "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
+        "url": "https://github.com/getsentry/plugin-grok.git",
+        "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": [
