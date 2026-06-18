@@ -92,6 +92,19 @@
       "homepage": "https://neon.com",
       "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     }
   ]
 }
