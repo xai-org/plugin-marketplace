@@ -394,6 +394,17 @@
         ]
       }
     },
+    "ultraswarm": {
+      "sha": "fb375e21ea2b05685381de6dd03146289a043cda",
+      "components": {
+        "skills": [
+          {
+            "name": "ultraswarm",
+            "description": "Orchestrate complex coding work through the ultraswarm v3 standalone runner."
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
       "components": {
