@@ -24,8 +24,8 @@
       "category": "monitoring",
       "source": {
         "source": "url",
-        "url": "https://github.com/getsentry/sentry-for-ai.git",
-        "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
+        "url": "https://github.com/getsentry/plugin-grok.git",
+        "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -93,6 +93,31 @@
       "homepage": "https://tracewayapp.com",
       "keywords": ["traceway", "observability", "error tracking", "opentelemetry", "tracing"],
       "domains": ["tracewayapp.com"]
+    },
+    {
+      "name": "neon",
+      "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
+      "category": "database",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/neon"
+      },
+      "homepage": "https://neon.com",
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+    },
+    {
+      "name": "firecrawl",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
+        "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
+      },
+      "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
+      "keywords": ["firecrawl", "fire crawl"],
+      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
     }
   ]
 }
