@@ -109,6 +109,17 @@
         ]
       }
     },
+    "code-map": {
+      "sha": "a2d678e78b05525ba7950667c590abd60db82fd2",
+      "components": {
+        "skills": [
+          {
+            "name": "code-map-retrieval",
+            "description": "How to read code efficiently in a repo indexed by code-map (a `.map-index.json` is present, or a `code-map` / `map-mcp`…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
       "components": {
