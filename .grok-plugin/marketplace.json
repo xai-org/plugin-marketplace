@@ -105,6 +105,18 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "luciq",
+      "description": "Official Luciq plugin (MCP server + skills) for mobile observability. Investigate production crashes, hangs, and bug reports, trace root causes, integrate and migrate the Luciq SDK, and verify SDK upgrades across iOS, Android, Flutter, React Native, and KMP, directly from your coding agent.",
+      "category": "monitoring",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/luciq"
+      },
+      "homepage": "https://luciq.ai",
+      "keywords": ["luciq", "instabug", "luciq sdk", "luciq mcp"],
+      "domains": ["luciq.ai", "api.luciq.ai", "dashboard.luciq.ai", "docs.luciq.ai"]
     }
   ]
 }
