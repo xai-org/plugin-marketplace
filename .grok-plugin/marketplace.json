@@ -105,6 +105,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "nucleus-brain",
+      "description": "Persistent memory, task management, and cross-agent coordination for AI coding agents. Write memories (engrams) that survive across sessions, search past decisions, track tasks with depth scoring, and relay messages between AI agents on the same project. OAuth 2.1 with per-tenant brain isolation.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidetic-works/nucleus-mcp.git",
+        "sha": "bda2246f65ba9b5dc9b4feb087c23aaea113905a"
+      },
+      "homepage": "https://eidetic.works",
+      "keywords": ["nucleus", "memory", "engrams", "persistent memory", "cross-agent", "relay", "tasks", "audit"],
+      "domains": ["nucleusos.dev", "eidetic.works", "relay.nucleusos.dev"]
     }
   ]
 }
