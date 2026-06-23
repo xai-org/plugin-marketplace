@@ -113,7 +113,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/resend/grok-plugin.git",
-        "sha": "228cee181f28a887e721b580a0c1afb48fde1079"
+        "sha": "abf62061fe0c14ab0fbd688df2a0d11af2339623"
       },
       "homepage": "https://github.com/resend/grok-plugin",
       "keywords": ["resend", "email", "send email", "react email"],
