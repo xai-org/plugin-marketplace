@@ -234,12 +234,12 @@
       }
     },
     "resend": {
-      "sha": "abf62061fe0c14ab0fbd688df2a0d11af2339623",
+      "sha": "0f18139c0c3726fe5de978b299ed50a7a372df6e",
       "components": {
         "mcpServers": [
           {
             "name": "resend",
-            "description": "http"
+            "description": "stdio"
           }
         ],
         "skills": [

@@ -112,10 +112,10 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/resend/grok-plugin.git",
-        "sha": "abf62061fe0c14ab0fbd688df2a0d11af2339623"
+        "url": "https://github.com/resend/resend-skills.git",
+        "sha": "0f18139c0c3726fe5de978b299ed50a7a372df6e"
       },
-      "homepage": "https://github.com/resend/grok-plugin",
+      "homepage": "https://github.com/resend/resend-skills",
       "keywords": ["resend", "email", "send email", "react email"],
       "domains": ["resend.com"]
     }
