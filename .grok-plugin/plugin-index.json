@@ -234,7 +234,7 @@
       }
     },
     "posthog": {
-      "sha": "b6f63b230082e68a67d36af84e90b6522a756f84",
+      "sha": "39a8593ef773f643c34cfdb759c0c0d6f7311c93",
       "components": {
         "agents": [
           {
@@ -289,8 +289,16 @@
             "description": "Audit PostHog experiments and feature flags for configuration issues, staleness, and best-practice violations. Read whe…"
           },
           {
-            "name": "auditing-warehouse-data-health",
-            "description": "Audit the health of a PostHog project's data warehouse — find every broken or degraded pipeline item across sources, sy…"
+            "name": "auditing-warehouse-source-health",
+            "description": "Audit the health of a PostHog project's data warehouse sources and syncs — find every broken or degraded source connect…"
+          },
+          {
+            "name": "auditing-warehouse-view-health",
+            "description": "Audit the health of a PostHog project's materialized views (saved queries) — find every failed materialization and flag…"
+          },
+          {
+            "name": "authoring-error-tracking-alerts",
+            "description": "Author error tracking alerts that fire when an issue is created, reopened, or starts spiking. Use when the user asks to…"
           },
           {
             "name": "authoring-log-alerts",
@@ -299,6 +307,10 @@
           {
             "name": "authoring-signals-scouts",
             "description": "How to author, edit, and adapt PostHog Signals scouts — the scheduled agents that scan a project and emit findings into…"
+          },
+          {
+            "name": "building-workflows",
+            "description": "Build, edit, test, enable, and monitor PostHog workflows over MCP. Author the action/edge graph so it runs and opens cl…"
           },
           {
             "name": "choosing-trend-or-slope-view",
@@ -410,15 +422,31 @@
           },
           {
             "name": "exploring-llm-evaluations",
-            "description": "Investigate AI observability evaluations of both types — `hog` (deterministic code-based) and `llm_judge` (LLM-prompt-b…"
+            "description": "Investigate AI observability evaluations — `hog` (deterministic code-based), `llm_judge` (LLM-prompt-based), and `senti…"
           },
           {
             "name": "exploring-llm-traces",
             "description": "ABSOLUTE MUST to debug and inspect LLM/AI agent traces using PostHog's MCP tools. Use when the user pastes a trace or s…"
           },
           {
+            "name": "exploring-mcp-intent-clusters",
+            "description": "Explore PostHog MCP intent clusters — agent goals grouped by semantic similarity, with each cluster's tool distribution…"
+          },
+          {
+            "name": "exploring-mcp-sessions",
+            "description": "Investigate individual PostHog MCP sessions — the sequence of tool calls a single agent made in one run, what it was tr…"
+          },
+          {
+            "name": "exploring-mcp-tool-quality",
+            "description": "Investigate the quality of PostHog MCP tool calls — error rates, latency, reach, and which tools are failing or slow. U…"
+          },
+          {
             "name": "exploring-signals-scouts",
             "description": "How to explore and make sense of PostHog Signals scouts — the scheduled agents that scan a project and emit findings in…"
+          },
+          {
+            "name": "exporting-session-recordings",
+            "description": "Export a single session recording's raw data (recording blocks + ClickHouse metadata) to a downloadable zip, and downlo…"
           },
           {
             "name": "feature-usage-feed",
@@ -443,34 +471,6 @@
           {
             "name": "formatting-insight-axes",
             "description": "Pick the right y-axis unit when creating or updating a TrendsQuery insight via `posthog:insight-create` or `posthog:ins…"
-          },
-          {
-            "name": "grouping-noisy-errors",
-            "description": "Consolidate PostHog error tracking issues that are the same actual error reported under different fingerprints. Use whe…"
-          },
-          {
-            "name": "inbox-exploration",
-            "description": "Explore PostHog's Inbox — the surface where signal reports surface as actionable issues and trends. Use when the user a…"
-          },
-          {
-            "name": "instrument-error-tracking",
-            "description": "Add PostHog error tracking to capture and monitor exceptions. Use after implementing features or reviewing PRs to ensur…"
-          },
-          {
-            "name": "instrument-feature-flags",
-            "description": "Add PostHog feature flags to gate new functionality. Use after implementing features or reviewing PRs to ensure safe ro…"
-          },
-          {
-            "name": "instrument-integration",
-            "description": "Add PostHog SDK integration to your application. Use when setting up PostHog for the first time or reviewing PRs that n…"
-          },
-          {
-            "name": "instrument-llm-analytics",
-            "description": "Add PostHog LLM analytics to trace AI model usage. Use after implementing LLM features or reviewing PRs to ensure all g…"
-          },
-          {
-            "name": "instrument-logs",
-            "description": "Add PostHog log capture to track application logs. Use after implementing features or reviewing PRs to ensure meaningfu…"
           }
         ]
       }
