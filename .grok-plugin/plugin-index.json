@@ -110,7 +110,7 @@
       }
     },
     "exa": {
-      "sha": "0b7db4058fdacf44855148ef210da959b23dccf8",
+      "sha": "7b21e1451f9c265971767a734828f2689e4d4100",
       "components": {
         "mcpServers": [
           {
@@ -120,16 +120,28 @@
         ],
         "skills": [
           {
+            "name": "exa-code-search",
+            "description": "Find code examples, API docs, library references, and technical solutions. Use when searching for code snippets, API sy…"
+          },
+          {
+            "name": "exa-company-research",
+            "description": "Research companies, find competitors, analyze markets, and build company lists. Use when the user asks to research a co…"
+          },
+          {
             "name": "exa-fetch",
-            "description": "Read a webpage's full content as clean markdown. Use this skill when the user provides a URL and wants its content, or…"
+            "description": "Read a webpage's full content as clean markdown. Use when the user provides a URL, when you need the full text of a sea…"
+          },
+          {
+            "name": "exa-people-search",
+            "description": "Find people by role, company, location, or expertise. Use when the user asks to find people, look up professionals, sea…"
           },
           {
             "name": "exa-research",
-            "description": "Deep research using Exa advanced search. Use this skill for company research, people search, competitive analysis, mark…"
+            "description": "Advanced web research with category filters, domain restrictions, date ranges, and content controls. Use for company re…"
           },
           {
             "name": "exa-search",
-            "description": "Web search with clean, ready-to-use content. Use this skill whenever the user asks to search the web, find information,…"
+            "description": "Search the web and read pages. Use whenever the user asks to search, look up, find information, research a topic, find…"
           }
         ]
       }
