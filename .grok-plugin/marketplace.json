@@ -105,6 +105,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "spider",
+      "description": "Spider Cloud web data integration (MCP Server + Skills). Crawl sites, scrape pages, search the web, extract structured data with AI, and drive remote browsers — via the hosted Spider MCP server with anti-bot bypass, proxy rotation, and stealth escalation. Needs a SPIDER_API_KEY (pay-per-use credits; AI tools require a subscription).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spider-rs/spider-grok-plugin.git",
+        "sha": "d2184669d1576562bebc3c9d7a2591c798d34f1b"
+      },
+      "homepage": "https://spider.cloud/mcp",
+      "keywords": ["spider", "spider cloud", "spider crawl", "spider scrape", "spider mcp"],
+      "domains": ["spider.cloud"]
     }
   ]
 }
