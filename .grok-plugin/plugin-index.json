@@ -233,6 +233,27 @@
         ]
       }
     },
+    "qualcomm-edge-compiler": {
+      "sha": "9e6eccf05cee2f20d751c0c26e339f6e96d65bb7",
+      "components": {
+        "commands": [
+          {
+            "name": "qualcomm-compilation",
+            "description": "Compile, profile, and package RF-DETR and TrOCR models for QCS8550/OAK-4 via Qualcomm AI Hub"
+          },
+          {
+            "name": "trocr-fix",
+            "description": "Recompile TrOCR encoder/decoder DLCs to fix TROCR_DLC_FW_CRASH on OAK-4, then stage for device deploy"
+          }
+        ],
+        "skills": [
+          {
+            "name": "qualcomm-compilation",
+            "description": "Compile, profile, and package RF-DETR and TrOCR models for QCS8550/OAK-4 via Qualcomm AI Hub. Traces PyTorch graphs, su…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {

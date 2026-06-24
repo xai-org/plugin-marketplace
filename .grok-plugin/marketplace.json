@@ -105,6 +105,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "qualcomm-edge-compiler",
+      "description": "Compile TrOCR/RF-DETR for QCS8550 OAK-4 via Qualcomm AI Hub",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dev-gp-1/qualcomm-edge-compiler.git",
+        "sha": "9e6eccf05cee2f20d751c0c26e339f6e96d65bb7"
+      },
+      "homepage": "https://github.com/dev-gp-1/qualcomm-edge-compiler",
+      "keywords": ["qualcomm", "qai-hub", "qcs8550", "trocr", "oak-4", "snpe", "depthai"],
+      "domains": ["aihub.qualcomm.com", "workbench.aihub.qualcomm.com"]
     }
   ]
 }
