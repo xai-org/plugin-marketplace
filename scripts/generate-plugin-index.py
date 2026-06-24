@@ -356,6 +356,18 @@ def resolve_source(entry: dict, repo_root: Path, tmp_root: Path, idx: int) -> tu
                 )
             dest = tmp_root / f"plugin-{idx}"
             fetch_pinned(url, sha, dest)
+            subdir = source.get("path")
+            if isinstance(subdir, str) and subdir:
+                resolved = resolve_inside(dest, subdir)
+                if resolved is None:
+                    raise RuntimeError(
+                        f"plugin '{name}': url source path escapes the repo: {subdir!r}"
+                    )
+                if not resolved.is_dir():
+                    raise RuntimeError(
+                        f"plugin '{name}': url source path not found: {subdir!r}"
+                    )
+                return resolved, sha
             return dest, sha
         path = source.get("path")
         if isinstance(path, str):
