@@ -109,6 +109,31 @@
         ]
       }
     },
+    "exa": {
+      "sha": "0b7db4058fdacf44855148ef210da959b23dccf8",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "exa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "exa-fetch",
+            "description": "Read a webpage's full content as clean markdown. Use this skill when the user provides a URL and wants its content, or…"
+          },
+          {
+            "name": "exa-research",
+            "description": "Deep research using Exa advanced search. Use this skill for company research, people search, competitive analysis, mark…"
+          },
+          {
+            "name": "exa-search",
+            "description": "Web search with clean, ready-to-use content. Use this skill whenever the user asks to search the web, find information,…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
       "components": {

@@ -105,6 +105,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "exa",
+      "description": "Web search, content extraction, and deep research via the hosted Exa MCP server. Search the web, read pages as clean markdown, and do structured research across companies, people, news, academic papers, and financial reports with category filters, domain restrictions, and date ranges. Free plan available.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+        "sha": "0b7db4058fdacf44855148ef210da959b23dccf8"
+      },
+      "homepage": "https://exa.ai",
+      "keywords": ["exa", "web search", "search", "research", "content extraction"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
     }
   ]
 }
