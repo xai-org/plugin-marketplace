@@ -113,7 +113,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/exa-labs/exa-grok-plugin.git",
-        "sha": "0b7db4058fdacf44855148ef210da959b23dccf8"
+        "sha": "7b21e1451f9c265971767a734828f2689e4d4100"
       },
       "homepage": "https://exa.ai",
       "keywords": ["exa", "web search", "search", "research", "content extraction"],
