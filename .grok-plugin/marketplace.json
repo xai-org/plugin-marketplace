@@ -105,6 +105,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "hindsight",
+      "description": "Automatic long-term memory for Grok via Hindsight. Recalls relevant memories before each prompt, retains conversation transcripts, and exposes knowledge-page tools (recall, ingest, create/update/delete pages) through the bundled Hindsight MCP server. Runs a local hindsight-embed daemon on 127.0.0.1; bring your own LLM key for fact extraction.",
+      "category": "memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vectorize-io/hindsight-grok-plugin.git",
+        "sha": "31a126047666fc569e83069a07a7953607170214"
+      },
+      "homepage": "https://vectorize.io/hindsight",
+      "keywords": ["hindsight", "hindsight memory", "vectorize hindsight", "agent memory"],
+      "domains": ["vectorize.io", "hindsight.vectorize.io"]
     }
   ]
 }

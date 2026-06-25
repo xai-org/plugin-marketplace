@@ -168,6 +168,37 @@
         ]
       }
     },
+    "hindsight": {
+      "sha": "31a126047666fc569e83069a07a7953607170214",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "hindsight",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-agent",
+            "description": "Create a new Hindsight-powered subagent with long-term memory. Use when the user wants a specialized agent that learns…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
