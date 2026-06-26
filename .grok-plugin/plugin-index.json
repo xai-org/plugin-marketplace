@@ -2,8 +2,14 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "76f5af39bdf47b62acb8c36c1dd9fdc404919438",
+      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "components": {
+        "mcpServers": [
+          {
+            "name": "axiom",
+            "description": "http"
+          }
+        ],
         "skills": [
           {
             "name": "axiom-alerting",
