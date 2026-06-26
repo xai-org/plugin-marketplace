@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "posthog",
+      "description": "PostHog analytics integration (MCP Server + Skills). Query product analytics, manage feature flags and experiments, investigate error tracking and session replays, and analyze LLM usage directly from Grok.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PostHog/ai-plugin.git",
+        "sha": "39a8593ef773f643c34cfdb759c0c0d6f7311c93"
+      },
+      "homepage": "https://posthog.com/docs/model-context-protocol",
+      "keywords": ["posthog", "posthog analytics", "posthog feature flags", "posthog experiments", "posthog session replay", "posthog error tracking"],
+      "domains": ["posthog.com", "us.posthog.com", "eu.posthog.com"]
     }
   ]
 }
