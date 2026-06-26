@@ -91,7 +91,7 @@
         "sha": "76f5af39bdf47b62acb8c36c1dd9fdc404919438"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom", "apl", "logs", "metrics", "traces", "observability", "sre"],
+      "keywords": ["axiom"],
       "domains": ["axiom.co", "app.axiom.co"]
     },
     {
