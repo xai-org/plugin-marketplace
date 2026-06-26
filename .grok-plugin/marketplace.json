@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "servicenow",
+      "description": "Create, edit, and deploy ServiceNow applications with the Fluent SDK. Agent skills teach Grok how to use the @servicenow/sdk CLI for SDK documentation, metadata conventions, project structure, and live instance queries.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/servicenow/sdk.git",
+        "sha": "4aadc235ad57a7442e42529869e68ff19c59596c"
+      },
+      "homepage": "https://servicenow.github.io/sdk/",
+      "keywords": ["servicenow", "fluent", "now-sdk"],
+      "domains": ["servicenow.com", "servicenow.github.io"]
     }
   ]
 }
