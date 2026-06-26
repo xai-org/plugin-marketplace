@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "code-map",
+      "description": "Token-efficient, drift-resistant code reads for coding agents. grep finds; code-map's `read` pulls the exact symbol slice by coordinate and re-anchors it when files move (0 silently-wrong bytes at churn scale). Bundles a retrieval-routing skill that prevents the discovery double-call. TS/JS + Python, one dependency.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/annyeong844/map.git",
+        "sha": "a2d678e78b05525ba7950667c590abd60db82fd2"
+      },
+      "homepage": "https://github.com/annyeong844/map",
+      "author": { "name": "annyeong844" },
+      "keywords": ["code-map", "drift-resistant read", "symbol slice", "code-map read"]
     }
   ]
 }
