@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "resend",
+      "description": "Resend email platform integration. Send transactional and batch email, receive inbound email securely, build React Email templates, run the Resend CLI, and follow deliverability best practices — directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/resend/resend-skills.git",
+        "sha": "0f18139c0c3726fe5de978b299ed50a7a372df6e"
+      },
+      "homepage": "https://github.com/resend/resend-skills",
+      "keywords": ["resend", "email", "send email", "react email"],
+      "domains": ["resend.com"]
     }
   ]
 }
