@@ -172,12 +172,12 @@
     },
     {
       "name": "nimvault",
-      "description": "GPG opaque-blob vault via nimvault: list/status/scan; gated add/seal/unseal for agent-safe secrets in git repos. Local CLI only \u2014 no cloud.",
+      "description": "GPG opaque-blob vault via nimvault MCP (list/status/scan; gated add/seal/unseal). Local CLI + optional libnimvault in-process. Agent-safe secrets in git repos.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/HaoZeke/nimvault-mcp.git",
-        "sha": "96de06ad8903f900aab56a0d270bdeacf64e45f7"
+        "sha": "53992822761f4faad4130ef1d39c34fb4d8b4343"
       },
       "homepage": "https://github.com/HaoZeke/nimvault-mcp",
       "keywords": [
