@@ -274,6 +274,29 @@
         ]
       }
     },
+    "nimvault": {
+      "sha": "66344b53ba9ad95b7f77d09a4e149e2be9414bf0",
+      "components": {
+        "commands": [
+          {
+            "name": "nimvault-status",
+            "description": "Run nimvault status on a vault repo (defaults to NIMVAULT_DEFAULT_REPO or CWD)"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "nimvault",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nimvault",
+            "description": "Use when sealing/unsealing GPG vault blobs, checking nimvault status, adding secrets to .vault/, or when the user menti…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
