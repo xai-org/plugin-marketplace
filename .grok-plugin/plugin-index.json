@@ -549,7 +549,7 @@
       }
     },
     "wix": {
-      "sha": "75bb86e43cad1bfdc0e51f541cd44f9612c1deee",
+      "sha": "1ea953a29525ce8ff07a3b5a3a107927804c3eba",
       "components": {
         "mcpServers": [
           {
