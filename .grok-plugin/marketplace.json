@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "base44",
+      "description": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/base44/skills.git",
+        "sha": "7b301e25d0952235c985bb159ca71cc520f27bcf"
+      },
+      "homepage": "https://docs.base44.com",
+      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
+      "domains": ["base44.com", "docs.base44.com"]
     }
   ]
 }
