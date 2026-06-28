@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "fastcrw": {
+      "type": "http",
+      "url": "https://fastcrw.com/mcp",
+      "note": "Hosted fastCRW MCP server. Uses OAuth — the first connection opens a browser sign-in through your fastCRW account; no API key to paste. Tools: crw_scrape, crw_crawl, crw_check_crawl_status, crw_map, crw_search. Prefer a key in the URL? https://fastcrw.com/mcp/<API_KEY> also works."
+    }
+  }
+}

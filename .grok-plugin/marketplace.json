@@ -131,6 +131,18 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "fastcrw",
+      "description": "Scrape, crawl, map, and search the web with fastCRW — an open-source, self-hostable Rust web crawler & search API for AI agents. Hosted MCP server with browser OAuth sign-in (no API key to paste); native crw_scrape / crw_crawl / crw_map / crw_search tools, plus SearXNG-backed search. Self-host the same engine from a single ~6 MB static binary.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/fastcrw"
+      },
+      "homepage": "https://fastcrw.com",
+      "keywords": ["fastcrw", "fast crw", "fastcrw scrape", "fastcrw crawl", "fastcrw search"],
+      "domains": ["fastcrw.com", "api.fastcrw.com", "docs.fastcrw.com"]
     }
   ]
 }

@@ -150,6 +150,22 @@
         ]
       }
     },
+    "fastcrw": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fastcrw",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "crw",
+            "description": "Scrape, crawl, map, and search the web with fastCRW. Use whenever the user needs web page content, site-wide extraction…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
       "components": {

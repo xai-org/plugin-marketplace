@@ -1,0 +1,13 @@
+{
+  "name": "fastcrw",
+  "version": "0.1.0",
+  "description": "Scrape, crawl, map, and search the web with fastCRW — an open-source, self-hostable Rust web crawler & search API for AI agents, available as a hosted MCP server with browser OAuth sign-in.",
+  "author": {
+    "name": "fastCRW",
+    "url": "https://fastcrw.com"
+  },
+  "homepage": "https://fastcrw.com",
+  "repository": "https://github.com/us/crw",
+  "license": "AGPL-3.0",
+  "keywords": ["fastcrw", "scrape", "crawl", "web-search", "markdown", "mcp"]
+}
