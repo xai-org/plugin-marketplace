@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "figma",
+      "description": "Official Figma MCP server and skills for design-to-code workflows. Read design context from Figma files, implement designs, use Code Connect, write to the canvas, and generate Figma designs from web pages.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098"
+      },
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "keywords": ["figma", "figma mcp", "code connect"],
+      "domains": ["figma.com", "www.figma.com"]
     }
   ]
 }
