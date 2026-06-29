@@ -150,6 +150,43 @@
         ]
       }
     },
+    "exa": {
+      "sha": "992ecab6d8986855c5fe7976eea70ba6c5f33e17",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "exa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "exa-code-search",
+            "description": "Find code examples, API docs, library references, and technical solutions. Use when searching for code snippets, API sy…"
+          },
+          {
+            "name": "exa-company-research",
+            "description": "Research companies, find competitors, analyze markets, and build company lists. Use when the user asks to research a co…"
+          },
+          {
+            "name": "exa-fetch",
+            "description": "Read a webpage's full content as clean markdown. Use when the user provides a URL, when you need the full text of a sea…"
+          },
+          {
+            "name": "exa-people-search",
+            "description": "Find people by role, company, location, or expertise. Use when the user asks to find people, look up professionals, sea…"
+          },
+          {
+            "name": "exa-research",
+            "description": "Advanced web research with category filters, domain restrictions, date ranges, and content controls. Use for company re…"
+          },
+          {
+            "name": "exa-search",
+            "description": "Search the web and read pages. Use whenever the user asks to search, look up, find information, research a topic, find…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
       "components": {
