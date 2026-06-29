@@ -82,6 +82,19 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
+      "name": "axiom",
+      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/axiomhq/skills.git",
+        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+      },
+      "homepage": "https://github.com/axiomhq/skills",
+      "keywords": ["axiom"],
+      "domains": ["axiom.co", "app.axiom.co"]
+    },
+    {
       "name": "neon",
       "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
       "category": "database",
