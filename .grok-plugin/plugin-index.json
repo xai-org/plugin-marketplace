@@ -150,6 +150,17 @@
         ]
       }
     },
+    "display-dev": {
+      "sha": "909fd7c0e6016b5a490d1dbdbebc7ef142595952",
+      "components": {
+        "skills": [
+          {
+            "name": "display-dev",
+            "description": "Publishes HTML or Markdown files as shareable URLs on display.dev — behind company authentication, with specific email…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
       "components": {
