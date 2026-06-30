@@ -425,6 +425,31 @@
         ]
       }
     },
+    "spider": {
+      "sha": "1fe10b7627368fd35cb5d6d887fa74eda4ec5672",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "spider",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "spider",
+            "description": "Overview and tool-selection guide for Spider Cloud — crawl, scrape, search the web, extract structured data with AI, an…"
+          },
+          {
+            "name": "spider-browser",
+            "description": "Drive a real remote browser with Spider Cloud — open a session, navigate, click, fill forms, run JavaScript, screenshot…"
+          },
+          {
+            "name": "spider-crawl-scrape",
+            "description": "Crawl websites, scrape individual pages, search the web, extract links, and bypass bot protection with Spider Cloud. Us…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
       "components": {
