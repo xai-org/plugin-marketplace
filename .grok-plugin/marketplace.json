@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "invinoveritas",
+      "description": "Verify before your agent acts: a neutral, recomputable pre-action verdict (review) and a portable signed proof anyone can re-derive (verify-proof). Gate irreversible actions — posting to X, signing an on-chain transaction, shipping a change — before they fire.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/babyblueviper1/invinoveritas-grok-plugin.git",
+        "sha": "e6f316cc76ad1300bf4531f026e503cc1fddbd3d"
+      },
+      "homepage": "https://api.babyblueviper.com",
+      "keywords": ["verify", "verification", "review", "governance", "pre-action", "proof", "second-opinion", "x-post", "guardrail"],
+      "domains": ["api.babyblueviper.com"]
     }
   ]
 }
