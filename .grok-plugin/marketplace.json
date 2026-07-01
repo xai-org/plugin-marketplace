@@ -131,6 +131,19 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "mind-protocol",
+      "description": "Policy runtime and on-chain proof layer for AI agents that spend money. Real-time Solana asset signals (Pyth), wallet market intelligence (Covalent), concentration risk scoring, and verifiable execution proofs — pay per call in USDC via x402, no subscription.",
+      "category": "payment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DGuedz/mind-grok-plugin.git",
+        "sha": "8262921e0672ac6df0640ac9cde84f75472f9e2d"
+      },
+      "homepage": "https://mindprotocol.xyz",
+      "keywords": ["mind protocol", "mindprotocol", "mind x402"],
+      "domains": ["mindprotocol.xyz", "api.mindprotocol.xyz"]
     }
   ]
 }
