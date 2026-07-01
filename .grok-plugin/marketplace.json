@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "axiorank",
+      "description": "Zero-Trust security for your Grok coding agent. Block destructive commands, secret exfiltration, and prompt-injected tool results locally and offline, then govern outbound tool calls through the AxioRank MCP server.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AxioRank/grok-plugin.git",
+        "sha": "08fe4b8616c8b11a56d23c3cf1d68f12f25665de"
+      },
+      "homepage": "https://www.axiorank.com/coding-agent-security",
+      "keywords": ["axiorank", "security", "guardrails", "prompt injection", "secret scanning", "agent security", "mcp"],
+      "domains": ["axiorank.com"]
     }
   ]
 }
