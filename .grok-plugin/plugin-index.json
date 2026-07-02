@@ -425,6 +425,23 @@
         ]
       }
     },
+    "serpapi": {
+      "sha": "8ce1a329567a8e9f9f79741a45ebee67d4bea474",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "serpapi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "serpapi-search",
+            "description": "Multi-engine search via SerpApi — one tool spanning 130+ engines: Google (web, images, news, shopping, maps/local, fina…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
       "components": {
