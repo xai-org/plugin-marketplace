@@ -118,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "serpapi",
+      "description": "Multi-engine search via SerpApi's hosted MCP server. One search tool spans 130+ engines \u2014 Google (web, images, news, shopping, maps/local, finance, flights, hotels, jobs, scholar), Bing, Yahoo, Yandex, Baidu, Naver, DuckDuckGo, YouTube, eBay, Amazon, Walmart, and more. Returns structured JSON (prices, ratings, addresses, knowledge graph data), not just links and snippets. The serpapi CLI is available as an optional fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/serpapi/serpapi-grok-plugin.git",
+        "sha": "8ce1a329567a8e9f9f79741a45ebee67d4bea474"
+      },
+      "homepage": "https://github.com/serpapi/serpapi-grok-plugin",
+      "keywords": ["serpapi", "serp api"],
+      "domains": ["serpapi.com"]
     }
   ]
 }
