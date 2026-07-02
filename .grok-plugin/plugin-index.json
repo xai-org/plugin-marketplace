@@ -1,6 +1,47 @@
 {
   "version": 1,
   "plugins": {
+    "axiom": {
+      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "axiom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "axiom-alerting",
+            "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
+          },
+          {
+            "name": "building-dashboards",
+            "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
+          },
+          {
+            "name": "controlling-costs",
+            "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
+          },
+          {
+            "name": "query-metrics",
+            "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
+          },
+          {
+            "name": "spl-to-apl",
+            "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "writing-evals",
+            "description": "Scaffolds evaluation suites for the Axiom AI SDK. Generates eval files, scorers, flag schemas, and config from natural-…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {
@@ -109,6 +150,65 @@
         ]
       }
     },
+    "firecrawl": {
+      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
+      "components": {
+        "commands": [
+          {
+            "name": "skill-gen",
+            "description": "Generate a complete Agent Skill from a documentation URL using Firecrawl"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "firecrawl",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "firecrawl",
+            "description": "Search, scrape, and interact with the web via the Firecrawl CLI. Use this skill whenever the user wants to search the w…"
+          },
+          {
+            "name": "firecrawl-agent",
+            "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the…"
+          },
+          {
+            "name": "firecrawl-crawl",
+            "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-download",
+            "description": "Download an entire website as local files — markdown, screenshots, or multiple formats per page. Use this skill when th…"
+          },
+          {
+            "name": "firecrawl-interact",
+            "description": "Control and interact with a live browser session on any scraped page — click buttons, fill forms, navigate flows, and e…"
+          },
+          {
+            "name": "firecrawl-map",
+            "description": "Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a s…"
+          },
+          {
+            "name": "firecrawl-monitor",
+            "description": "Detect when content on a website changes and get notified by webhook or email — no cron jobs, scrapers, or diff scripts…"
+          },
+          {
+            "name": "firecrawl-parse",
+            "description": "Efficiently extract and convert the contents of any local file—such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML—int…"
+          },
+          {
+            "name": "firecrawl-scrape",
+            "description": "Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a UR…"
+          },
+          {
+            "name": "firecrawl-search",
+            "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
@@ -175,7 +275,7 @@
       }
     },
     "railway": {
-      "sha": "aa1e055b0f18d13787232b164cfb7416b553bd03",
+      "sha": "d71801d6d494ba962b49316bb1c144b80b441123",
       "components": {
         "hooks": [
           {
@@ -198,7 +298,7 @@
       }
     },
     "sentry": {
-      "sha": "849303a8411c242d250885ffe714235a3bc2f5fe",
+      "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
         "commands": [
           {
@@ -262,6 +362,10 @@
             "description": "Full Sentry SDK setup for Go. Use when asked to \"add Sentry to Go\", \"install sentry-go\", \"setup Sentry in Go\", or confi…"
           },
           {
+            "name": "sentry-instrumentation-guide",
+            "description": "Decide which Sentry signal to reach for when instrumenting code — error, span, span attribute, log, or metric. Use when…"
+          },
+          {
             "name": "sentry-nestjs-sdk",
             "description": "Full Sentry SDK setup for NestJS. Use when asked to \"add Sentry to NestJS\", \"install @sentry/nestjs\", \"setup Sentry in…"
           },
@@ -320,6 +424,14 @@
           {
             "name": "sentry-setup-ai-monitoring",
             "description": "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversati…"
+          },
+          {
+            "name": "sentry-span-streaming-js",
+            "description": "Migrate JavaScript SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\"…"
+          },
+          {
+            "name": "sentry-span-streaming-python",
+            "description": "Migrate Python SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\", \"m…"
           },
           {
             "name": "sentry-svelte-sdk",

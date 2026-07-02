@@ -24,8 +24,8 @@
       "category": "monitoring",
       "source": {
         "source": "url",
-        "url": "https://github.com/getsentry/sentry-for-ai.git",
-        "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
+        "url": "https://github.com/getsentry/plugin-grok.git",
+        "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -82,6 +82,19 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
+      "name": "axiom",
+      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/axiomhq/skills.git",
+        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+      },
+      "homepage": "https://github.com/axiomhq/skills",
+      "keywords": ["axiom"],
+      "domains": ["axiom.co", "app.axiom.co"]
+    },
+    {
       "name": "neon",
       "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
       "category": "database",
@@ -94,13 +107,27 @@
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
+      "name": "firecrawl",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
+        "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
+      },
+      "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
+      "keywords": ["firecrawl", "fire crawl"],
+      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, and object storage buckets, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "aa1e055b0f18d13787232b164cfb7416b553bd03"
+        "sha": "d71801d6d494ba962b49316bb1c144b80b441123",
+        "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
       "keywords": ["railway", "railway deploy", "deploy to railway"],
