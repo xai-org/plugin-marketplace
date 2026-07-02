@@ -275,7 +275,7 @@
       }
     },
     "railway": {
-      "sha": "fb1956d20ffae1a5a7ddc2673f58f9bfa15fce93",
+      "sha": "532aebb7c822eb5586ba8aecbf9ba69cc1a7bbcc",
       "components": {
         "hooks": [
           {
@@ -286,7 +286,7 @@
         "mcpServers": [
           {
             "name": "railway",
-            "description": "stdio"
+            "description": "http"
           }
         ],
         "skills": [
