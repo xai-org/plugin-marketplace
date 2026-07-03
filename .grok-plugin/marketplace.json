@@ -126,7 +126,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "c5dc84ee28cf6a1e674f0d98231ac5a3f0b3322f",
+        "sha": "770b6d16afd8257cc968a0ada598a2e52ecc8a9d",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
