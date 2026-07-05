@@ -79,6 +79,42 @@
         ]
       }
     },
+    "cloud-run": {
+      "sha": "5a698e39b45fb87ba63983b21fefd46498706bfd",
+      "components": {
+        "commands": [
+          {
+            "name": "deploy",
+            "description": "Deploy the current project folder to Google Cloud Run."
+          },
+          {
+            "name": "logs",
+            "description": "Fetch recent logs and error messages for a Cloud Run service."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "cloud-run__create-project, cloud-run__deploy-local-folder, cloud-run__deploy-file-contents, cloud-run__deploy-container…"
+          },
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "cloud-run",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cloud-run",
+            "description": "Deploy and manage Google Cloud Run services and jobs. Use when the user asks to deploy to Cloud Run, get Cloud Run logs…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "components": {
