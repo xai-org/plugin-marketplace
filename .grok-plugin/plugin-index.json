@@ -266,6 +266,44 @@
         ]
       }
     },
+    "luciq": {
+      "components": {
+        "commands": [
+          {
+            "name": "luciq-debug",
+            "description": "Investigate a Luciq production signal end to end (crash, hang, bug report, performance regression, App Store rating dro…"
+          },
+          {
+            "name": "luciq-verify",
+            "description": "Verify a Luciq SDK upgrade end to end before shipping (invokes the luciq-verify skill)."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "luciq",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "luciq-debug",
+            "description": "Use when the user wants to investigate a Luciq production signal end to end, propose a code fix, or answer \"why is this…"
+          },
+          {
+            "name": "luciq-migrate",
+            "description": "Use when the user asks to migrate a mobile codebase from the legacy Instabug SDK to Luciq, upgrade between Luciq SDK ve…"
+          },
+          {
+            "name": "luciq-setup",
+            "description": "Use when the user asks to add, install, set up, integrate, or initialize the Luciq mobile observability SDK in an iOS,…"
+          },
+          {
+            "name": "luciq-verify",
+            "description": "Verify a Luciq SDK upgrade end to end before shipping. Confirms the customer's custom integration (URL redirection, mas…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {

@@ -1,0 +1,25 @@
+{
+  "name": "luciq",
+  "description": "Luciq mobile observability SDK skills. Investigate bugs, generate RCAs, and integrate the Luciq SDK into iOS, Android, Flutter, React Native, and KMP projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Luciq",
+    "url": "https://luciq.ai"
+  },
+  "homepage": "https://docs.luciq.ai/product-guides-and-integrations/product-guides/ai-features/agent-skills/",
+  "repository": "https://github.com/luciqai/agent-skills",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "luciq",
+    "mobile-observability",
+    "crash-reporting",
+    "bug-reporting",
+    "ios",
+    "android",
+    "flutter",
+    "react-native",
+    "kmp",
+    "mcp"
+  ]
+}
