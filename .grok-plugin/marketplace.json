@@ -131,6 +131,18 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "llm-box",
+      "description": "Terminal-first workflow automation engine. Generate and execute YAML workflows from plain English. 20+ built-in nodes, 15+ LLM providers (Ollama, DeepSeek, OpenAI-compatible), and MCP server mode.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alib8b8/llm-box.git",
+        "sha": "89d37c518d5021c9d25272b0780bbfb4eb3c4e7c"
+      },
+      "homepage": "https://github.com/alib8b8/llm-box",
+      "keywords": ["llm-box", "workflow automation", "terminal workflow"]
     }
   ]
 }
