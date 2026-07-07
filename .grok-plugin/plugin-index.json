@@ -331,6 +331,39 @@
         ]
       }
     },
+    "resend": {
+      "sha": "233618f8de2d11fbfcb1736f51efffa53dfca39f",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "resend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-email-inbox",
+            "description": "Use when building any system where email content triggers actions — AI agent inboxes, automated support handlers, email…"
+          },
+          {
+            "name": "email-best-practices",
+            "description": "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, im…"
+          },
+          {
+            "name": "react-email",
+            "description": "Use when building HTML email templates with React components, adding a visual email editor to an application using the…"
+          },
+          {
+            "name": "resend",
+            "description": "Use when working with the Resend email API — sending transactional emails (single or batch), receiving inbound emails v…"
+          },
+          {
+            "name": "resend-cli",
+            "description": "Operate the Resend platform from the terminal — send emails (including React Email .tsx templates via --react-email), m…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
