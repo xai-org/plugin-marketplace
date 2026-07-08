@@ -187,6 +187,63 @@
         ]
       }
     },
+    "figma": {
+      "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "figma",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "figma-code-connect",
+            "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
+          },
+          {
+            "name": "figma-create-new-file",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+          },
+          {
+            "name": "figma-generate-design",
+            "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layou…"
+          },
+          {
+            "name": "figma-generate-diagram",
+            "description": "MANDATORY prerequisite — load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` direc…"
+          },
+          {
+            "name": "figma-generate-library",
+            "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
+          },
+          {
+            "name": "figma-implement-motion",
+            "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-swiftui",
+            "description": "SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — in EITHER direction…"
+          },
+          {
+            "name": "figma-use",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` dire…"
+          },
+          {
+            "name": "figma-use-figjam",
+            "description": "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has…"
+          },
+          {
+            "name": "figma-use-motion",
+            "description": "Motion / animation context for the `use_figma` MCP tool — animating Figma nodes via manual keyframes, animation styles,…"
+          },
+          {
+            "name": "figma-use-slides",
+            "description": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
       "components": {
