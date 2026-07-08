@@ -1,0 +1,12 @@
+{
+  "name": "docx",
+  "version": "0.1.0",
+  "description": "Create, edit, and inspect Word documents (.docx): inspection, redlines, comments, and OOXML workflows.",
+  "author": {
+    "name": "xAI"
+  },
+  "homepage": "https://github.com/xai-org/plugin-marketplace/tree/main/plugins/docx",
+  "repository": "https://github.com/xai-org/plugin-marketplace",
+  "license": "Apache-2.0",
+  "keywords": ["docx", "word", "document"]
+}
