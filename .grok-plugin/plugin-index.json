@@ -266,6 +266,45 @@
         ]
       }
     },
+    "llm-box": {
+      "sha": "89d37c518d5021c9d25272b0780bbfb4eb3c4e7c",
+      "components": {
+        "commands": [
+          {
+            "name": "create-workflow",
+            "description": "Generate a YAML workflow from natural language"
+          },
+          {
+            "name": "list-nodes",
+            "description": "List all available workflow nodes"
+          },
+          {
+            "name": "run-workflow",
+            "description": "Execute a YAML workflow file"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "llm-box",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "llm-box",
+            "description": "终端工作流自动化引擎，通过自然语言生成并执行 YAML 工作流。支持 20+ 内置节点、15+ LLM 提供商。"
+          },
+          {
+            "name": "setup",
+            "description": "Install and configure llm-box, including the MCP server connection for Claude Code."
+          },
+          {
+            "name": "workflow",
+            "description": "Generate and execute terminal workflows using llm-box. Use when the user wants to automate multi-step terminal tasks, c…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
