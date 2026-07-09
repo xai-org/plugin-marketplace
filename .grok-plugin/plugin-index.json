@@ -266,6 +266,35 @@
         ]
       }
     },
+    "mind-protocol": {
+      "sha": "8262921e0672ac6df0640ac9cde84f75472f9e2d",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mind-protocol",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mind-market-intel",
+            "description": "Query on-chain market intelligence for a Solana wallet — token balances, portfolio composition, and asset breakdown via…"
+          },
+          {
+            "name": "mind-risk",
+            "description": "Compute a concentration risk score (0–100) for a Solana wallet via MIND Protocol. Score >= 80 triggers a BLOCK decision…"
+          },
+          {
+            "name": "mind-signals",
+            "description": "Get real-time price signals for Solana assets from the MIND Protocol. Returns live price, momentum indicators, and a ve…"
+          },
+          {
+            "name": "mind-verify-proof",
+            "description": "Verify any MIND Protocol execution proof by its delivery_hash. Free — no payment required. Use after any mind_signals,…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
