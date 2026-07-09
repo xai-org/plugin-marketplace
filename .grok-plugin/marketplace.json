@@ -82,6 +82,19 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
+      "name": "axiom",
+      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/axiomhq/skills.git",
+        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+      },
+      "homepage": "https://github.com/axiomhq/skills",
+      "keywords": ["axiom"],
+      "domains": ["axiom.co", "app.axiom.co"]
+    },
+    {
       "name": "neon",
       "description": "Neon Serverless Postgres integration (MCP Server + Skills). Get started with Neon, manage projects and databases, pick connection methods, and create branches for migration testing and isolated development.",
       "category": "database",
@@ -105,6 +118,19 @@
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+    },
+    {
+      "name": "figma",
+      "description": "Official Figma MCP server and skills for design-to-code workflows. Read design context from Figma files, implement designs, use Code Connect, write to the canvas, and generate Figma designs from web pages.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098"
+      },
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "keywords": ["figma", "figma mcp"],
+      "domains": ["figma.com", "www.figma.com"]
     },
     {
       "name": "posthog",
