@@ -131,6 +131,18 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "last30days",
+      "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and 5+ more sources. AI agent scores by upvotes, likes, and real money - not editors.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mvanhorn/last30days-skill.git",
+        "sha": "24c6567731397124d51ac0bccc7c6727d9ca779b"
+      },
+      "homepage": "https://github.com/mvanhorn/last30days-skill",
+      "keywords": ["last30days", "last 30 days"]
     }
   ]
 }

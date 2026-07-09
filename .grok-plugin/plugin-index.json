@@ -266,6 +266,22 @@
         ]
       }
     },
+    "last30days": {
+      "sha": "24c6567731397124d51ac0bccc7c6727d9ca779b",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "skills": [
+          {
+            "name": "last30days",
+            "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTu…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
