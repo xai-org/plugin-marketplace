@@ -331,6 +331,17 @@
         ]
       }
     },
+    "noshell": {
+      "sha": "0c76c42d66efaeccf9bb168bbc7da9592adf164d",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "noshell",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
