@@ -266,6 +266,17 @@
         ]
       }
     },
+    "illo": {
+      "sha": "85bfa576a5cf6d87ade011cb9ee983757961fdc9",
+      "components": {
+        "skills": [
+          {
+            "name": "illo",
+            "description": "Creates original editorial illustrations where a recurring mascot character performs the idea — one caught scene by def…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
