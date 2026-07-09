@@ -131,6 +131,19 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "jerrysniffs",
+      "description": "No-subscriptions online and social search via the JerrySniffs MCP server. Provides web search, Reddit post search, Twitter/X search, tweet lookup, and URL-to-Markdown conversion for public HTML pages, PDFs, DOC files, and DOCX files.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/freakynit/jerrysniffs-grok-plugin.git",
+        "sha": "ca2b5beba3ff2121db4841ff5711af260db6d95b"
+      },
+      "homepage": "https://github.com/freakynit/jerrysniffs-grok-plugin",
+      "keywords": ["reddit", "twitter", "X", "serp", "serp=api", "jerrysniffs", "jerry sniffs"],
+      "domains": ["jerrysniffs.online"]
     }
   ]
 }

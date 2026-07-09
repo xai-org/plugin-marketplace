@@ -716,6 +716,23 @@
           }
         ]
       }
+    },
+    "jerrysniffs": {
+      "sha": "ca2b5beba3ff2121db4841ff5711af260db6d95b",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jerrysniffs",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "jerrysniffs-search",
+            "description": "No-subscriptions online and social search via JerrySniffs. Use this skill whenever the user asks to search the web, look up current information, find recent articles or docs, search Reddit posts, search Twitter/X posts, look up a specific tweet by ID, or fetch a public URL and convert it to Markdown."
+          }
+        ]
+      }
     }
   }
 }
