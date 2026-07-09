@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "luciq": {
+      "type": "http",
+      "url": "https://api.luciq.ai/api/mcp"
+    }
+  }
+}
