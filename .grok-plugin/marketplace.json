@@ -131,6 +131,19 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "resend",
+      "description": "Resend email platform integration. Send transactional and batch email, receive inbound email securely, build React Email templates, run the Resend CLI, and follow deliverability best practices — directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/resend/resend-skills.git",
+        "sha": "2caefffaf938c3c4ed539d5b29e3cd2bd2555bbe"
+      },
+      "homepage": "https://github.com/resend/resend-skills",
+      "keywords": ["resend", "email", "send email", "react email"],
+      "domains": ["resend.com"]
     }
   ]
 }
