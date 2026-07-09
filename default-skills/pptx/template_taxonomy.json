@@ -1,0 +1,1932 @@
+[
+  {
+    "color_scheme": "black background with white and vibrant orange accents",
+    "typography": "clean geometric sans-serif; bold headers with selective orange highlighting and light-weight body text",
+    "visual_density": "minimalist",
+    "background": "solid matte black",
+    "accent_elements": "thin horizontal dividers, rectangular content cards with subtle borders, small orange square bullet points, and monospaced-style metadata",
+    "mood": "modern startup, athletic/performance, sleek and technical",
+    "stem": "activewear_collection_overview",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm earth tones: cream background, terracotta orange, mustard yellow, and forest green with dark charcoal/black for contrast",
+    "typography": "modern sans-serif; bold headers with italicized terracotta accents, clean medium-weight body text, and wide-tracked uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and dark charcoal, featuring subtle geometric overlays",
+    "accent_elements": "large overlapping circles and outlines, thin horizontal dividers, square bullet points, and outlined content cards",
+    "mood": "modern startup meets editorial report; professional, sophisticated, and culturally resonant",
+    "stem": "africa_fmcg_value_chain_playbook",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "dark navy background with teal, cyan, and gold accents",
+    "typography": "bold sans-serif headers, clean sans-serif body text, with uppercase condensed sub-headers",
+    "visual_density": "balanced",
+    "background": "solid dark navy with subtle teal geometric overlays and footer bars",
+    "accent_elements": "circular progress/market charts, rounded rectangular content cards, flat line icons, and thin horizontal dividers",
+    "mood": "modern startup / fintech professional",
+    "stem": "ag_trade_finance_pitch_deck",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "cream background with charcoal text and ochre/gold accents",
+    "typography": "clean neo-grotesque sans-serif (e.g. Inter or Helvetica); bold headers with generous tracking, regular weight body text, and occasional italicized ochre highlights",
+    "visual_density": "balanced",
+    "background": "solid light cream / off-white",
+    "accent_elements": "thin horizontal dividers, hairline borders, small geometric icons, Roman numeral numbering, and subtle progress bars",
+    "mood": "modern startup meets editorial report; sophisticated, authoritative, and clean",
+    "stem": "agri_commodities_trading_primer",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "earthy palette featuring deep forest green, terracotta orange, and cream/beige with sage green accents",
+    "typography": "modern sans-serif; bold headers with italicized terracotta highlights, clean medium-weight body text, and wide-tracked uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid deep forest green and clean cream/beige",
+    "accent_elements": "concentric circles, thin horizontal dividers, color-coded category bars, and minimalist dot indicators",
+    "mood": "modern startup meets agricultural science; professional, grounded, and innovative",
+    "stem": "agtech_seed_round_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with black text and vibrant orange accents",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body, and monospaced font for technical data/code",
+    "visual_density": "balanced",
+    "background": "solid light cream/off-white with occasional full-bleed orange section breaks",
+    "accent_elements": "thin horizontal dividers, geometric data visualizations, circular status badges, and monospaced labels for a technical aesthetic",
+    "mood": "modern startup / fintech professional",
+    "stem": "ai_blockchain_market_briefing",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "warm beige background with charcoal text and muted gold accents",
+    "typography": "elegant serif headers and italics, paired with monospaced and sans-serif secondary text",
+    "visual_density": "balanced",
+    "background": "solid warm cream/beige",
+    "accent_elements": "thin horizontal dividers, gold-toned data bars and lines, circular diagrams, and subtle drop-shadow cards",
+    "mood": "academic professional",
+    "stem": "ai_llm_technical_history",
+    "n_pages": 11
+  },
+  {
+    "color_scheme": "neutral grey and off-white base with navy text, accented by safety orange and electric blue",
+    "typography": "bold geometric sans-serif headers, monospaced technical labels, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid light grey or parchment with subtle grid overlays in diagram areas",
+    "accent_elements": "engineering blueprint aesthetics, including technical border frames, data tables in the footer, crosshair markers, thin line dividers, and schematic-style illustrations",
+    "mood": "modern startup with a technical/engineering focus; industrial and precise",
+    "stem": "ai_robotics_startup_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy background with vibrant orange and light blue accents",
+    "typography": "bold sans-serif headers for impact, clean medium-weight sans-serif body text for readability",
+    "visual_density": "balanced",
+    "background": "solid dark navy with subtle geometric network patterns on title slides",
+    "accent_elements": "rectangular color blocks, thick vertical and horizontal line dividers, circular icons, and orange call-out badges",
+    "mood": "modern startup",
+    "stem": "ai_sports_media_partnership_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "white background with terracotta, peach, and sand accents",
+    "typography": "clean sans-serif (Inter/Helvetica style) with tight tracking for headers and monospaced-style labels for metadata",
+    "visual_density": "minimalist",
+    "background": "white clean with subtle concentric circular wireframes and soft blurred gradients",
+    "accent_elements": "translucent overlapping circles, geometric blocks, thin wavy lines, and large-scale data typography",
+    "mood": "modern startup",
+    "stem": "ai_startup_series_a_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with tomato red, golden yellow, and charcoal black accents",
+    "typography": "elegant serif headers and body text, paired with wide-spaced sans-serif for metadata and labels",
+    "visual_density": "minimalist",
+    "background": "solid cream/off-white with a single dark charcoal variant",
+    "accent_elements": "flat vector illustrations, thin horizontal dividers, and wide-tracked uppercase labels",
+    "mood": "modern editorial",
+    "stem": "american_regional_pizza_guide",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and cream base with mustard, teal, and terracotta accents",
+    "typography": "bold sans-serif headers with a mix of italicized sans-serif and monospaced utility text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and solid cream",
+    "accent_elements": "geometric color blocks, circular icons with symbols, thin horizontal dividers, and monospaced labels",
+    "mood": "modern startup meets editorial",
+    "stem": "animation_studio_company_history",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm beige and cream with sage green, earthy brown, and charcoal accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with wide-spaced minimalist sans-serif for labels and metadata",
+    "visual_density": "minimalist",
+    "background": "solid warm cream/beige with occasional dark chocolate brown section breaks",
+    "accent_elements": "thin horizontal line dividers, minimalist botanical line illustrations, flat vector product icons, and generous whitespace",
+    "mood": "luxury/premium",
+    "stem": "apothecary_brand_introduction",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream background with a multi-color palette of navy, terracotta, ochre, and forest green",
+    "typography": "elegant serif headers with italicized accents, paired with clean sans-serif for metadata and labels",
+    "visual_density": "balanced",
+    "background": "primarily solid cream, with occasional full-bleed solid color section breaks and dark photo overlays",
+    "accent_elements": "tilted 'handwritten' style text callouts, thin horizontal dividers, large Roman numeral overlays, and a multi-color stripe footer",
+    "mood": "academic professional",
+    "stem": "art_gallery_exhibition_presentation",
+    "n_pages": 18
+  },
+  {
+    "color_scheme": "dark charcoal and cream with tan/bronze accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced labels and clean sans-serif body text",
+    "visual_density": "minimalist",
+    "background": "alternating solid dark charcoal and warm cream",
+    "accent_elements": "thin horizontal and vertical line dividers, monospaced numbering, subtle color-blocked grid sections, and large-scale typography",
+    "mood": "luxury/premium",
+    "stem": "auto_repair_company_profile",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "high-contrast red, black, and white with varying shades of red and grey for data categorization",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with frequent use of bolding for emphasis",
+    "visual_density": "data-heavy",
+    "background": "primarily white clean with a dark photo-overlay title slide",
+    "accent_elements": "thick red horizontal dividers, color-coded data blocks, circular numbered callouts, and light grey card borders",
+    "mood": "corporate formal",
+    "stem": "automotive_board_strategy_review",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "cream and dark charcoal with terracotta red and ochre accents",
+    "typography": "mixed: bold sans-serif headers with italicized terracotta emphasis, clean sans-serif body, and wide-spaced monospaced metadata",
+    "visual_density": "balanced",
+    "background": "solid cream with occasional high-contrast dark charcoal slides",
+    "accent_elements": "large geometric circles, thin horizontal dividers, red dot bullet points, and rectangular image placeholders with bracketed captions",
+    "mood": "modern startup with a nostalgic, artisanal neighborhood feel",
+    "stem": "bagel_shop_menu_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and dark chocolate with terracotta accents",
+    "typography": "large elegant serif headers with high-contrast weights, paired with clean sans-serif labels and body text",
+    "visual_density": "minimalist",
+    "background": "solid cream or deep chocolate brown",
+    "accent_elements": "thin horizontal dividers, small monospaced labels, circular bullet points, and large-scale numerical data",
+    "mood": "luxury/premium",
+    "stem": "bakery_business_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and off-white with charcoal text and occasional gold/tan accents",
+    "typography": "modern sans-serif with high-contrast weights; italicized headers for emphasis and all-caps monospaced labels for metadata",
+    "visual_density": "balanced",
+    "background": "solid cream/beige with a single high-contrast dark charcoal closing slide",
+    "accent_elements": "thin horizontal line dividers, numbered lists, large-scale data callouts, and rectangular image placeholders with descriptive labels",
+    "mood": "modern startup meets artisanal premium",
+    "stem": "bakery_commercial_loan_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm earth tones including butter cream, cocoa brown, ochre, sage green, and tomato red",
+    "typography": "modern sans-serif with a mix of bold weights and italics; features large-scale display headers and clean, small-caps for metadata",
+    "visual_density": "minimalist",
+    "background": "solid cream/butter base with large color-blocked sections in ochre, cocoa, and sage",
+    "accent_elements": "thin hairline dividers, minimalist flat-style illustrations, color palette swatches, and circular badge outlines",
+    "mood": "modern artisanal, warm, sophisticated, boutique-retail",
+    "stem": "bakery_concept_vision_board",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark forest green and cream base with earthy terracotta and sage accents",
+    "typography": "elegant serif headers, clean monospaced subheaders, and sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal-green and warm cream/off-white",
+    "accent_elements": "thin horizontal dividers, color-coded content blocks, monospaced labels, and minimalist data visualizations",
+    "mood": "academic professional",
+    "stem": "biology_dissertation_proposal",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy background with emerald green, mustard yellow, and dusty rose accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with wide letter spacing in sub-headers",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "emerald green line dividers, flat line-art icons, color-coded data tables, and large-scale numerical callouts",
+    "mood": "modern startup / high-tech biotech",
+    "stem": "biotech_cloud_rd_infrastructure_proposal",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "dark navy and white backgrounds with teal, emerald green, and amber accents",
+    "typography": "clean sans-serif; bold headers for titles and key metrics, regular weight for body text and descriptions",
+    "visual_density": "balanced",
+    "background": "mixed: solid dark navy for intro/outro slides, clean white for content slides with teal header bars",
+    "accent_elements": "teal 'key takeaway' footer bars, amber callout boxes and icons, circular icon badges, and color-coded pipeline bars",
+    "mood": "modern startup / clinical biotech",
+    "stem": "biotech_series_b_pitch_deck",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "dark navy, soft lavender-pink, and pale ice blue with forest green and plum accents",
+    "typography": "bold geometric sans-serif headers, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid blocks of dark navy, pale pink, and light blue with high-quality scientific and nature photography overlays",
+    "accent_elements": "rectangular content cards, full-width image headers, thin horizontal dividers, and circular petri dish imagery",
+    "mood": "modern startup / biotech professional",
+    "stem": "biotech_startup_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm cream and terracotta with muted earth tones (sage, mustard, and chocolate brown)",
+    "typography": "italicized sans-serif headers for a literary feel, paired with clean, light-weight sans-serif body text and small-caps for metadata",
+    "visual_density": "minimalist",
+    "background": "solid warm cream/off-white with occasional muted terracotta full-bleed slides",
+    "accent_elements": "hand-drawn style line illustrations, thin horizontal dividers, page numbering in the bottom right, and small botanical line icons in corners",
+    "mood": "modern startup meets cozy academic; warm, inviting, and artisanal",
+    "stem": "cafe_concept_vision_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm beige background with slate blue, burnt orange, and forest green accents",
+    "typography": "bold geometric sans-serif headers, medium sans-serif body, and all-caps spaced subheaders",
+    "visual_density": "balanced",
+    "background": "solid warm cream/beige",
+    "accent_elements": "flat 2D geometric illustrations with black outlines, thin horizontal dividers, circular orbital motifs, and rounded rectangular badges",
+    "mood": "modern industrial",
+    "stem": "cfo_financial_performance_review",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "cream and navy base with terracotta orange and slate grey accents",
+    "typography": "modern sans-serif; bold large-scale headers with italicized terracotta emphasis, clean medium-weight body text",
+    "visual_density": "balanced",
+    "background": "primarily solid cream/off-white with a high-contrast navy blue closing slide",
+    "accent_elements": "thin horizontal and vertical dividers, terracotta circular bullet points, outlined content cards, and minimalist data tables",
+    "mood": "modern startup meets professional academic; clean, trustworthy, and sophisticated",
+    "stem": "childcare_operator_partnership_pitch",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "deep forest green and warm cream with sage green accents",
+    "typography": "modern sans-serif with a mix of bold weights for headers and italicized sage green emphasis; monospaced font used for small labels and data points",
+    "visual_density": "balanced",
+    "background": "alternating solid deep forest green and solid warm cream",
+    "accent_elements": "thin horizontal and vertical dividers, concentric circle line art, rounded card containers, and small circular status indicators",
+    "mood": "modern startup meets organic premium",
+    "stem": "coffee_franchise_prospectus",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "warm beige and forest green with terracotta accents",
+    "typography": "clean sans-serif with italicized serif-like flourishes for emphasis; headers use a mix of weights and styles",
+    "visual_density": "minimalist",
+    "background": "solid warm cream/beige with occasional dark forest green section breaks",
+    "accent_elements": "thin horizontal dividers, roman numeral list markers, small circular timeline nodes, and subtle color-blocked cards",
+    "mood": "modern startup meets clinical professional; empathetic, trustworthy, and sophisticated",
+    "stem": "college_admissions_consulting_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with deep burgundy and charcoal grey text",
+    "typography": "elegant serif headers, slab-serif subheaders, and clean sans-serif for labels and metadata",
+    "visual_density": "minimalist",
+    "background": "solid off-white / cream",
+    "accent_elements": "small burgundy square bullets, thin horizontal dividers, circular flat icons, and simple progress bars",
+    "mood": "academic professional",
+    "stem": "college_sports_policy_briefing",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with charcoal text and burnt orange accents",
+    "typography": "clean sans-serif; bold headers with italicized orange emphasis, monospaced or small-cap secondary labels",
+    "visual_density": "minimalist",
+    "background": "solid cream with occasional high-contrast charcoal slides",
+    "accent_elements": "thin horizontal line dividers, color-blocked content boxes, large numerical callouts, and subtle page numbering",
+    "mood": "modern academic professional",
+    "stem": "comedy_writing_guide",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "black background with gold and white accents",
+    "typography": "clean sans-serif; wide-tracked all-caps gold headers, large white bold titles, and medium-weight body text",
+    "visual_density": "balanced",
+    "background": "solid black",
+    "accent_elements": "thin horizontal dividers, gold underlined key metrics, double forward slash separators (//), and simple bar charts in gold and grey",
+    "mood": "luxury/premium corporate",
+    "stem": "consumer_goods_annual_budget",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "deep navy background with ivory text and muted terracotta/vermilion accents",
+    "typography": "elegant high-contrast serif for large headlines and italics, paired with a clean monospaced sans-serif for labels and metadata",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "thin horizontal and vertical dividers, concentric circle 'sun' motifs, hairline image frames with corner brackets, and vertical timelines",
+    "mood": "luxury/premium",
+    "stem": "cruise_itinerary_trade_portfolio",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark charcoal background with lime green and muted orange accents",
+    "typography": "elegant serif headers with monospaced and sans-serif utility text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal",
+    "accent_elements": "thin horizontal dividers, monospaced data labels, corner brackets, and outlined callout boxes",
+    "mood": "modern startup / fintech professional",
+    "stem": "crypto_hedge_fund_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and white base with a multi-color categorical palette (teal, orange, blue, purple, magenta)",
+    "typography": "bold serif headers (slab-style), clean sans-serif body text, and all-caps sans-serif subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean white with subtle vertical grid lines",
+    "accent_elements": "rounded content cards, thin vertical color-coded bars, flat vector icons, and horizontal timeline dividers",
+    "mood": "modern fintech",
+    "stem": "crypto_portfolio_management",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "cream background with ochre orange, charcoal, and deep red accents",
+    "typography": "modern geometric sans-serif (Inter or similar) with mixed weights; large bold headers and light/regular body text with occasional italics for emphasis",
+    "visual_density": "balanced",
+    "background": "solid cream/off-white with occasional full-bleed ochre orange or black section breaks",
+    "accent_elements": "thin horizontal line dividers, technical metadata headers/footers, monochromatic icons, and color-coded data blocks",
+    "mood": "modern startup meets institutional research; sophisticated, technical, and authoritative",
+    "stem": "crypto_quantum_risk_briefing",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "dark navy and black background with neon cyan and magenta accents",
+    "typography": "clean sans-serif; bold headers with wide tracking, medium-weight body text, and monospaced-style data labels",
+    "visual_density": "balanced",
+    "background": "solid dark navy with a 'starfield' of scattered neon pixels and subtle concentric radar-line overlays",
+    "accent_elements": "thin cyan borders, corner brackets, glowing neon text effects, data-grid heatmaps, and small geometric 'pixel' particles",
+    "mood": "modern startup / cyberpunk tech / futuristic fintech",
+    "stem": "crypto_series_a_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "forest green and burnt orange on a cream/off-white background",
+    "typography": "bold geometric sans-serif headers with italicized orange emphasis, clean sans-serif body text, and all-caps utility text",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and solid dark forest green",
+    "accent_elements": "thin horizontal and vertical line dividers, large numerical callouts, small orange bullet points, and outlined content boxes",
+    "mood": "modern startup meets civic professional",
+    "stem": "destination_marketing_event_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "monochrome cream and charcoal with subtle red accents",
+    "typography": "clean sans-serif headers with high x-height, italicized serif body accents, and monospaced-style metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid charcoal and off-white/cream",
+    "accent_elements": "thin horizontal and vertical dividers, minimalist line charts, small circular data points, and grid-based layout frames",
+    "mood": "academic professional",
+    "stem": "economic_consulting_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "vibrant yellow, black, and off-white with occasional red accents",
+    "typography": "bold geometric sans-serif headers with mixed italicized subheaders and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid vibrant yellow, off-white, and solid black",
+    "accent_elements": "thick horizontal dividers, large-scale typography, color-blocked columns, and thin line borders",
+    "mood": "modern startup / creative editorial",
+    "stem": "edinburgh_fringe_performer_guide",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with forest green and charcoal accents",
+    "typography": "bold geometric sans-serif headers with italicized emphasis, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid light cream / off-white",
+    "accent_elements": "rounded rectangular cards, thin horizontal dividers, circular numbered badges, and UI mockups",
+    "mood": "modern startup",
+    "stem": "edtech_ai_product_pitch_deck",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark navy and cream backgrounds with coral and sage green accents",
+    "typography": "bold geometric sans-serif headers with italicized emphasis, clean sans-serif body text, and monospaced utility text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and off-white/cream",
+    "accent_elements": "thin horizontal and vertical line dividers, minimalist flat icons, circular orbital diagrams, and subtle footer/header metadata",
+    "mood": "academic professional",
+    "stem": "education_calculus_lecture",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream background with royal blue and sage green accents",
+    "typography": "modern sans-serif; bold headers with italicized blue emphasis, clean medium-weight body text",
+    "visual_density": "minimalist",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "thin horizontal dividers, circular dot motifs, wide margins, and subtle gray metadata text in corners",
+    "mood": "modern startup academic",
+    "stem": "education_intro_chemistry_lecture",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream background with charcoal text and deep red accents",
+    "typography": "clean sans-serif headers, italicized serif subheaders, and wide-spaced small-caps for metadata",
+    "visual_density": "balanced",
+    "background": "solid cream with a single high-contrast dark mode inversion",
+    "accent_elements": "thin horizontal dividers, vertical column lines, roman numeral list markers, and minimalist musical illustrations",
+    "mood": "academic professional",
+    "stem": "education_intro_to_piano_lecture",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "deep burgundy, forest green, and cream with gold accents",
+    "typography": "clean sans-serif headers, italicized serif subheaders, and light sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid blocks of deep burgundy, cream, and forest green",
+    "accent_elements": "minimalist flat icons, thin gold horizontal dividers with star/diamond ornaments, Roman numeral pagination, and fine-line circular frames",
+    "mood": "academic professional",
+    "stem": "education_literature_canterbury_tales",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy, cream, and coral with mustard yellow accents",
+    "typography": "bold geometric sans-serif headers with high-contrast weights, clean sans-serif body text, and wide-tracked uppercase labels",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and solid cream",
+    "accent_elements": "circular badges, thick horizontal bars, thin line dividers, and color-coded geometric shapes for data visualization",
+    "mood": "modern startup / educational professional",
+    "stem": "education_music_theory_lesson",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark charcoal and cream backgrounds with deep burgundy and muted orange accents",
+    "typography": "mixed: clean sans-serif for main headers and body, paired with elegant serif italics for emphasis and small-caps for metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal and light cream/off-white",
+    "accent_elements": "thin horizontal dividers, minimalist data visualizations (concentric circles, line graphs, bar charts), and small circular dot markers",
+    "mood": "academic professional",
+    "stem": "education_university_profile",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "vintage cream background with burnt orange, mustard yellow, and charcoal black accents",
+    "typography": "mixed: bold condensed sans-serif headers, elegant italicized serif subheaders, and monospaced utility text",
+    "visual_density": "balanced",
+    "background": "solid cream with occasional high-contrast dark charcoal or navy blue section breaks",
+    "accent_elements": "flat vector illustrations of music equipment (vinyl, guitar, boombox), timeline dots, and thin horizontal dividers",
+    "mood": "modern retro / mid-century editorial",
+    "stem": "education_visual_essay_presentation",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and white with teal and bright cyan accents",
+    "typography": "bold geometric sans-serif headers with italicized teal emphasis, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy or clean off-white with occasional subtle gradients",
+    "accent_elements": "rounded card borders, flat vector illustrations, thin line dividers, and circular data callouts",
+    "mood": "modern startup",
+    "stem": "education_water_polo_basics",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark charcoal and deep brown backgrounds with vibrant orange and teal accents",
+    "typography": "large sans-serif headers with italicized keywords, paired with clean, small-scale sans-serif body text and monospaced-style labels",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal and deep earthy brown",
+    "accent_elements": "thin horizontal dividers, vibrant color-coded data bars, minimalist schematic maps, and subtle orange quotation marks",
+    "mood": "modern startup meets editorial report",
+    "stem": "electronic_music_promoter_field_report",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "forest green and off-white with red, blue, and gold accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark green and off-white/cream",
+    "accent_elements": "rectangular data cards, color-coded top borders for categorization, horizontal line dividers, and simple leaf iconography",
+    "mood": "corporate formal with an environmental/sustainability focus",
+    "stem": "energy_storage_vendor_assessment",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "primary toy palette: bright yellow, red, blue, and green on off-white and black backgrounds",
+    "typography": "bold heavy sans-serif headers (Inter or similar), medium sans-serif body text with frequent use of bolding for emphasis",
+    "visual_density": "balanced",
+    "background": "mixed: solid off-white, vibrant yellow, deep blue, bright red, and solid black",
+    "accent_elements": "abstracted brick shapes, rounded white content cards, color-coded progress bars, and yellow text highlights",
+    "mood": "modern startup meets playful/creative",
+    "stem": "entertainment_creative_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "Deep charcoal background with cream text blocks and crimson red accents",
+    "typography": "Elegant serif italics for main headers and body, paired with monospaced and small-caps sans-serif for technical metadata",
+    "visual_density": "balanced",
+    "background": "Solid dark charcoal with subtle UI overlays like crosshairs, grid lines, and circular radar motifs",
+    "accent_elements": "Technical HUD elements, thin red dividers, progress bars, coordinate markers, and 'classified' stamp graphics",
+    "mood": "modern startup",
+    "stem": "entertainment_film_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy, slate blue, and brick red with forest green and light grey accents",
+    "typography": "bold slab-serif headers, clean sans-serif body text",
+    "visual_density": "data-heavy",
+    "background": "mixed: solid dark navy for title/section slides, off-white/light grey for content slides",
+    "accent_elements": "rounded white cards with subtle drop shadows, thin color-coded top borders, circular flat icons, and thick horizontal data bars",
+    "mood": "corporate formal",
+    "stem": "family_office_portfolio_review",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "bone white and charcoal with high-contrast accents of siren red, acid lime, cobalt blue, and field brown",
+    "typography": "bold condensed sans-serif headers for impact, paired with classic serif body text and monospaced utility text",
+    "visual_density": "balanced",
+    "background": "primarily solid bone white with occasional high-contrast charcoal or slate grey sections",
+    "accent_elements": "thick horizontal dividers, circular badge callouts, color-blocked SKU cards, and thin-line rectangular borders",
+    "mood": "modern startup / streetwear editorial",
+    "stem": "fashion_apparel_lookbook",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark charcoal and warm beige with ember orange and cobalt blue accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced technical subheaders and sans-serif metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal, muted stone-grey, and warm parchment beige",
+    "accent_elements": "L-shaped corner brackets, thin horizontal dividers, celestial concentric circles, and technical UI-inspired data labels",
+    "mood": "modern cinematic sci-fi, sophisticated, atmospheric, and technical",
+    "stem": "feature_film_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark charcoal and white with gold and tan accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with occasional italicized serif subtext",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal and clean off-white",
+    "accent_elements": "thick vertical gold bars, thin horizontal dividers, rounded rectangular cards with subtle drop shadows, and gold-capped content blocks",
+    "mood": "academic professional",
+    "stem": "finance_10k_filing_analysis_guide",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and black with olive and tan accents",
+    "typography": "clean sans-serif headers with occasional italics, monospaced-style labels for metadata, and light sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid cream (off-white) with high-contrast black section breaks",
+    "accent_elements": "thin horizontal line dividers, rectangular card borders, small diamond icons, and subtle color-coded heatmaps",
+    "mood": "corporate formal",
+    "stem": "finance_ai_fixed_income_briefing",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and teal with multi-color data accents (orange, blue, purple, pink)",
+    "typography": "bold serif headers, clean sans-serif body and data labels",
+    "visual_density": "balanced",
+    "background": "split-screen: dark navy headers with light grey/white content areas",
+    "accent_elements": "concentric circle overlays, teal footer bars, circular step icons, and vertical color-coded bar indicators",
+    "mood": "corporate formal with a modern fintech edge",
+    "stem": "finance_ai_portfolio_analysis",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "black background with electric blue and white text, featuring red and green data indicators",
+    "typography": "bold sans-serif headers for high impact, clean medium-weight sans-serif body text, and monospaced-style footer details",
+    "visual_density": "balanced",
+    "background": "solid black",
+    "accent_elements": "thin blue horizontal dividers, vertical blue accent bars, dark grey content cards, and color-coded table cells",
+    "mood": "modern startup meets financial professional",
+    "stem": "finance_cockroach_portfolio_strategy",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "dark navy background with neon green, electric blue, and coral red accents",
+    "typography": "bold sans-serif headers in all-caps, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "thick horizontal color bars, vertical status indicators, semi-transparent data containers, and color-coded data labels",
+    "mood": "modern fintech / quantitative trading",
+    "stem": "finance_crypto_fund_pitch_deck",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "dark charcoal background with gold and white text, plus green and red data indicators",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced sans-serif for labels and clean sans-serif for body text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal with a subtle vertical grid line overlay",
+    "accent_elements": "thin horizontal dividers, monospaced navigation labels, outlined content cards, and small circular bullet points",
+    "mood": "luxury/premium financial, sophisticated, editorial, authoritative",
+    "stem": "finance_day_trading_primer",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "cream background with charcoal text and burnt orange accents",
+    "typography": "serif headers with italicized emphasis, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid light cream / off-white",
+    "accent_elements": "thin horizontal dividers, color-blocked cards, small dot indicators, and simple bar charts",
+    "mood": "academic professional",
+    "stem": "finance_digital_asset_custody_briefing",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "deep plum, terracotta orange, and mustard yellow on a cream base",
+    "typography": "mixed: bold sans-serif for primary headers, elegant serif italics for emphasis, and wide-spaced all-caps sans-serif for subheaders",
+    "visual_density": "balanced",
+    "background": "cream solid with large, soft-edged geometric overlays in plum and terracotta",
+    "accent_elements": "large organic circles, rounded rectangles, thin gold wireframe circles, and small dot patterns",
+    "mood": "modern startup meets luxury/premium",
+    "stem": "finance_employee_excellence_awards",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark mode with red, white, and slate blue accents",
+    "typography": "light sans-serif body text with thin geometric sans-serif headers",
+    "visual_density": "content-dense",
+    "background": "solid black with occasional dark photo overlays and red top-border accents",
+    "accent_elements": "vertical red line dividers, rounded rectangular callout boxes, circular icons, and thin dashed line connectors",
+    "mood": "corporate formal / investment professional",
+    "stem": "finance_equity_investment_analysis",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "dark navy and white with vibrant accents of emerald green, royal blue, and coral",
+    "typography": "bold serif headers (slab-style), clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "white clean body with solid dark navy headers and footers",
+    "accent_elements": "rounded white cards with subtle drop shadows, vertical color-coded status bars, flat vector icons, and semi-transparent geometric overlays on title slides",
+    "mood": "corporate formal",
+    "stem": "finance_equity_portfolio_performance_report",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "cream background with navy text and terracotta red accents",
+    "typography": "elegant serif headers and italicized subheaders, paired with clean sans-serif body text and small-caps labels",
+    "visual_density": "balanced",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "thin horizontal line dividers, large faded background numerals, framed content boxes, and minimalist bar charts",
+    "mood": "academic professional",
+    "stem": "finance_equity_research_index_analysis",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and cream base with gold and muted ochre accents",
+    "typography": "bold geometric sans-serif headers, clean medium-weight sans-serif body, and wide-tracked all-caps subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and off-white/cream clean backgrounds",
+    "accent_elements": "large overlapping circles, thin horizontal line dividers, gold-tinted data bars, and bordered content cards",
+    "mood": "luxury/premium corporate",
+    "stem": "finance_equity_research_investment_thesis",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream, charcoal black, and deep rust with gold and muted red accents",
+    "typography": "elegant serif headlines and body text, paired with wide-spaced monospaced or sans-serif labels for metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid charcoal black, light cream, and deep rust",
+    "accent_elements": "thin horizontal line dividers, large numerical callouts, subtle grid-based tables, and small monospaced headers",
+    "mood": "luxury/premium financial editorial",
+    "stem": "finance_equity_research_stock_pitch",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "solid black background with gold and white text and navy blue content blocks",
+    "typography": "bold slab-serif headers, clean sans-serif body text, and all-caps gold sub-headers",
+    "visual_density": "balanced",
+    "background": "solid black",
+    "accent_elements": "gold horizontal timelines, vertical gold accent bars on list items, navy blue rectangular containers, and simple data visualizations",
+    "mood": "corporate formal",
+    "stem": "finance_hedge_fund_pitch_deck",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "cream background with charcoal black and deep rust red accents",
+    "typography": "bold geometric sans-serif headers with italicized emphasis, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid light cream / off-white",
+    "accent_elements": "thin horizontal and vertical line dividers, small numbered lists, oversized typography for data points, and subtle grid layouts",
+    "mood": "modern financial / editorial",
+    "stem": "finance_hedge_fund_primer",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "black background with gold and white accents",
+    "typography": "bold serif headers, sans-serif body text with italicized sub-headers",
+    "visual_density": "balanced",
+    "background": "solid matte black",
+    "accent_elements": "thin gold horizontal dividers, gold vertical callout bars, diamond-shaped bullet points, and bordered content cards",
+    "mood": "luxury/premium corporate",
+    "stem": "finance_ifrs_us_gaap_training",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "dark charcoal background with burnt orange and off-white accents",
+    "typography": "clean sans-serif; bold headers with high-contrast sizing, monospaced font for labels and metadata",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal with occasional deep rust-colored section blocks",
+    "accent_elements": "thin horizontal dividers, orange vertical accent bars on cards, monospaced data labels, and minimalist line charts",
+    "mood": "modern startup meets institutional finance",
+    "stem": "finance_investment_committee_memo",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "black background with neon green and white accents",
+    "typography": "bold geometric sans-serif headers, monospaced-style labels, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal/black",
+    "accent_elements": "thin horizontal line dividers, small diamond icons, monospaced data labels, and rectangular card borders",
+    "mood": "modern fintech",
+    "stem": "finance_investment_portfolio_brief",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and white with royal blue and slate gray accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body with monospaced-style data labels",
+    "visual_density": "data-heavy",
+    "background": "alternating solid dark navy and clean white",
+    "accent_elements": "thick vertical blue bars, thin horizontal dividers, bordered data cards, and high-contrast callout boxes",
+    "mood": "corporate formal",
+    "stem": "finance_lihtc_bond_portfolio_review",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "dark charcoal background with gold and cream accents",
+    "typography": "elegant serif headers and body text, paired with monospaced sans-serif for technical data and labels",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal / matte black",
+    "accent_elements": "thin horizontal dividers, monospaced metadata labels, corner-bracket frames for cards, and gold-highlighted keywords",
+    "mood": "luxury/premium",
+    "stem": "finance_nft_marketplace_pitch_deck",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "dark forest green and cream with gold, muted red, and slate accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with clean geometric sans-serif for labels and body text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark forest green and warm cream/off-white",
+    "accent_elements": "geometric diamond logo, thin horizontal dividers, wireframe diamond graphic, and color-coded data tables",
+    "mood": "luxury/premium corporate",
+    "stem": "finance_portfolio_quarterly_review",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream and charcoal with ochre and forest green accents",
+    "typography": "clean sans-serif with wide tracking for headers, bold sans-serif for emphasis, and italicized serif for stylistic highlights",
+    "visual_density": "balanced",
+    "background": "solid cream / off-white with a single dark navy high-contrast transition slide",
+    "accent_elements": "thin horizontal line dividers, hairline card borders, small circular bullet points, and wide-spaced uppercase metadata text",
+    "mood": "modern startup meets institutional finance",
+    "stem": "finance_prediction_markets_investment_memo",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "warm beige background with charcoal text and terracotta orange accents",
+    "typography": "modern sans-serif; bold headers with italicized terracotta emphasis, clean medium-weight body text, and wide-tracked all-caps for labels",
+    "visual_density": "balanced",
+    "background": "solid light cream/beige with occasional dark charcoal section breaks",
+    "accent_elements": "thin horizontal line dividers, terracotta-colored numerical indicators, subtle dot-scale icons, and high-contrast content cards",
+    "mood": "modern startup meets institutional finance; sophisticated, editorial, and trustworthy",
+    "stem": "finance_private_credit_primer",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "high-contrast black and white with vibrant red accents",
+    "typography": "clean geometric sans-serif; bold headers for hierarchy and light-to-medium weights for body text and data labels",
+    "visual_density": "content-dense",
+    "background": "alternating solid matte black and clean white",
+    "accent_elements": "thick vertical red bars for data highlighting, thin horizontal dividers, circular numbered badges, and red-bordered content cards",
+    "mood": "corporate formal / fintech professional",
+    "stem": "finance_quant_trading_desk_proposal",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy, cream, and gold with slate blue accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with clean sans-serif body text and monospaced-style labels",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and light cream with subtle geometric wireframe overlays",
+    "accent_elements": "thin horizontal dividers, geometric wireframe icons, color-coded data blocks, and small square bullet points",
+    "mood": "luxury/premium corporate",
+    "stem": "finance_rwa_tokenization_pitch",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark charcoal background with peach/apricot accents and muted grey secondary tones",
+    "typography": "elegant serif headers (e.g., Tiempos or similar), italicized sans-serif subheaders, and clean monospaced or geometric sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal / matte black",
+    "accent_elements": "four-pointed star icons, thin horizontal dividers, subtle card borders, and color-coded data bars",
+    "mood": "luxury/premium venture capital, sophisticated, institutional yet modern",
+    "stem": "finance_spv_pre_ipo_pitch",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "Deep charcoal and olive-grey backgrounds with cream and muted gold accents",
+    "typography": "Elegant serif headers and body text with wide-tracked, all-caps sans-serif labels",
+    "visual_density": "balanced",
+    "background": "Solid dark charcoal, olive-grey, and cream parchment-style backgrounds",
+    "accent_elements": "Thin horizontal dividers, circular orbital diagrams, minimalist line icons, and vertical quote bars",
+    "mood": "luxury/premium",
+    "stem": "finance_vc_investment_memo",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and charcoal with muted gold and olive accents",
+    "typography": "elegant serif headers and subheaders, monospaced and sans-serif utility text",
+    "visual_density": "balanced",
+    "background": "solid light cream with occasional dark charcoal section breaks",
+    "accent_elements": "thin horizontal dividers, monospaced data labels, circular status indicators, and subtle color-coded risk badges",
+    "mood": "corporate formal",
+    "stem": "finance_vc_investment_memo_2",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "cream and charcoal with burnt orange accents",
+    "typography": "bold geometric sans-serif headers with italicized orange emphasis, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid cream with occasional dark charcoal section breaks",
+    "accent_elements": "thin horizontal and vertical line dividers, circular radar diagrams, small dot indicators, color-coded bar charts, and numbered content cards",
+    "mood": "modern startup",
+    "stem": "finance_venture_capital_primer",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "white and light gray with vibrant green accents and black text",
+    "typography": "bold sans-serif headers for impact, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid off-white/light gray with occasional solid black transition slides",
+    "accent_elements": "rounded card borders with soft drop shadows, vertical green bar dividers, circular status indicators, and color-coded data blocks",
+    "mood": "modern startup meets fintech professional",
+    "stem": "fintech_ai_series_a_pitch_deck",
+    "n_pages": 16
+  },
+  {
+    "color_scheme": "dark navy and white base with vibrant orange, green, and blue accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with frequent use of bold weights for data points",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean light gray/white backgrounds with subtle watermark brand logos",
+    "accent_elements": "vertical color-coded bars, rounded data cards with subtle drop shadows, flat UI icons, and thin horizontal dividers",
+    "mood": "modern startup meets corporate performance",
+    "stem": "fitness_franchise_qbr_performance",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "High-contrast black, vibrant safety orange, and off-white with occasional deep brown accents",
+    "typography": "Bold, heavy-weight geometric sans-serif headers with wide tracking; clean, medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "Primarily solid matte black, with alternating sections of off-white and deep chocolate brown",
+    "accent_elements": "Large oversized circular crops, thin horizontal dividers, color-blocked pricing cards, and bold typographic overlaps",
+    "mood": "modern startup / athletic high-performance",
+    "stem": "fitness_gym_summer_press_kit",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "black background with neon lime green and off-white accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body, and monospaced-style utility text",
+    "visual_density": "minimalist",
+    "background": "solid black",
+    "accent_elements": "thin horizontal dividers, neon green color blocks, strikethrough text, and small numeric labels",
+    "mood": "modern startup",
+    "stem": "fitness_personal_training_keynote",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and off-white with gold and slate blue accents",
+    "typography": "elegant serif headers (italicized for emphasis), clean sans-serif body and labels, all-caps spaced sub-headers",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean off-white",
+    "accent_elements": "thick gold vertical and horizontal bars, thin line dividers, color-coded status badges (green/red/blue), and large-scale numerical callouts",
+    "mood": "corporate formal / luxury investment",
+    "stem": "fixed_income_macro_outlook",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "cream background with burgundy, dusty rose, and forest green accents",
+    "typography": "elegant serif headers with italicized variations, paired with a clean light serif body and small-caps sans-serif for metadata",
+    "visual_density": "balanced",
+    "background": "solid cream or deep forest green with thin border frames and occasional split-screen pastel pink",
+    "accent_elements": "stylized floral illustrations, thin line dividers, circular badges, and card-style layouts with subtle drop shadows",
+    "mood": "boutique/artisanal, charming, nostalgic, and sophisticated",
+    "stem": "flower_shop_company_profile",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm earth tones including cream, butter yellow, ochre, and chocolate brown",
+    "typography": "elegant serif headers and body text with wide-spaced sans-serif sub-headers and labels",
+    "visual_density": "minimalist",
+    "background": "solid cream and butter yellow with occasional dark chocolate brown sections",
+    "accent_elements": "flat vector illustrations of bakery items, thin horizontal line dividers, pill-shaped buttons, and botanical wheat sketches",
+    "mood": "artisanal, cozy, and rustic-modern",
+    "stem": "food_beverage_bakery_brand_profile",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark slate navy and warm cream with ochre/gold accents",
+    "typography": "elegant serif headers, clean monospaced and sans-serif metadata, and serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and solid warm cream",
+    "accent_elements": "thin horizontal line dividers, small ochre rectangles, vertical separator lines, and monospaced page numbering",
+    "mood": "luxury/premium",
+    "stem": "food_beverage_seed_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "vibrant retro palette featuring tomato red, forest green, and mustard yellow on a cream base with black and pastel accents",
+    "typography": "mixed: heavy geometric sans-serif for primary headers and high-contrast, bold script/serif for emphasis and secondary headers",
+    "visual_density": "balanced",
+    "background": "solid blocks of color (cream, red, green, or yellow) with thin black framing lines",
+    "accent_elements": "thin black line dividers, rounded pill-shaped tags, rectangular card modules, and circular photo/icon placeholders",
+    "mood": "modern startup with a retro-editorial aesthetic",
+    "stem": "food_delivery_subscription_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and black with high-contrast neon lime and muted orange accents",
+    "typography": "clean geometric sans-serif with italicized subheaders and large, bold display titles",
+    "visual_density": "balanced",
+    "background": "mixed: solid cream, deep charcoal/black, and full-bleed dark photo overlays",
+    "accent_elements": "thick slanted bars for section breaks, thin horizontal dividers, high-contrast color blocks for emphasis, and minimalist data visualizations",
+    "mood": "modern startup",
+    "stem": "future_mobility_trends_keynote",
+    "n_pages": 18
+  },
+  {
+    "color_scheme": "deep space navy background with pastel pink, gold, and lavender accents",
+    "typography": "rounded sans-serif headers (Fredoka), monospaced pixel-style secondary text (VT323), and clean sans-serif body",
+    "visual_density": "balanced",
+    "background": "solid dark navy with a subtle white starfield/speckle pattern",
+    "accent_elements": "pixel art character sprites, thin dotted line dividers, horizontal data bars, and small star/moon icons",
+    "mood": "modern startup meets retro gaming",
+    "stem": "game_design_character_brief",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark chocolate background with vermillion orange and cream accents",
+    "typography": "bold geometric sans-serif headers, monospaced and light sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark matte brown",
+    "accent_elements": "HUD-style wireframes, pixel art icons, thin line borders, terminal-style data readouts, and small geometric status indicators",
+    "mood": "modern startup with a sci-fi/technical terminal aesthetic",
+    "stem": "gaming_ai_startup_pitch_deck",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "monochrome black and white with light gray accents",
+    "typography": "clean sans-serif; large bold headers with selective italicization for emphasis, paired with small-caps and wide-tracked metadata text",
+    "visual_density": "minimalist",
+    "background": "solid white clean",
+    "accent_elements": "geometric wireframe patterns, thin hairline dividers, abstract shapes (circles, triangles), and precise technical metadata labels",
+    "mood": "modern startup / architectural / high-end tech",
+    "stem": "gaming_product_portfolio_review",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark charcoal and white with vibrant blue accents",
+    "typography": "bold geometric sans-serif headers, medium sans-serif subheaders, and light sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal and clean off-white",
+    "accent_elements": "thick horizontal blue line dividers, large blue section numbers, circular process icons, and subtle drop shadows on content blocks",
+    "mood": "modern startup",
+    "stem": "garyvee_content_strategy_framework",
+    "n_pages": 17
+  },
+  {
+    "color_scheme": "cream background with muted sage green, dusty rose, and deep chocolate brown accents",
+    "typography": "bold sans-serif headers with italicized emphasis, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "thin horizontal dividers, flat vector illustrations, color-coded progress bars, and subtle bordered content cards",
+    "mood": "modern startup with an artisanal/craft aesthetic",
+    "stem": "gelateria_seed_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "white and navy blue with royal blue accents and occasional orange highlights",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body, and monospaced font for technical code references",
+    "visual_density": "balanced",
+    "background": "mostly solid white clean with a single dark navy closing slide",
+    "accent_elements": "thin horizontal blue dividers, rounded light-blue card blocks, circular step badges, and thin gray leader lines for map annotations",
+    "mood": "modern startup / technical educational",
+    "stem": "geospatial_data_analysis_training",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "cream background with forest green, tomato red, and mustard yellow accents",
+    "typography": "heavyweight retro serif headers (Cooper Black style) with clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid cream/off-white",
+    "accent_elements": "rounded rectangular cards, dashed border placeholders, circular price badges, and thin horizontal dividers",
+    "mood": "modern vintage grocery / retro retail",
+    "stem": "grocery_flash_sale_promotion",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "white, black, and vibrant red",
+    "typography": "bold sans-serif headers, clean sans-serif body with varied weights for hierarchy",
+    "visual_density": "balanced",
+    "background": "solid white with red header and footer bars",
+    "accent_elements": "thick horizontal lines, red diamond timeline markers, flat icons, and thin vertical dividers",
+    "mood": "modern startup / clinical professional",
+    "stem": "healthcare_ai_partnership_proposal",
+    "n_pages": 11
+  },
+  {
+    "color_scheme": "dark navy, white, and gold accents with subtle slate blue and light grey",
+    "typography": "bold sans-serif headers, clean medium-weight sans-serif body, and italicized gold sub-headers",
+    "visual_density": "balanced",
+    "background": "mixed: solid dark navy for title/closing slides and clean white for content slides",
+    "accent_elements": "vertical gold bar dividers, rounded content cards, thin horizontal line separators, and circular icon badges",
+    "mood": "corporate formal",
+    "stem": "healthcare_ma_pitch_deck",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "dark teal and white base with a multi-color data palette including emerald green, coral red, mustard yellow, and light blue",
+    "typography": "clean sans-serif; bold headers for titles and metrics, regular weight for body text and descriptions",
+    "visual_density": "data-heavy",
+    "background": "mixed: solid dark teal for title and closing slides, off-white/light gray for content slides with dark teal footers",
+    "accent_elements": "rounded white cards with subtle drop shadows, vertical color-coded status bars, flat UI icons, and thin horizontal dividers",
+    "mood": "corporate formal and clinical/medical",
+    "stem": "healthcare_nursing_performance_review",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy background with cyan and coral accents",
+    "typography": "bold geometric sans-serif headers, regular sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "vertical color bars, thin horizontal dividers, large data callouts, and color-coded bar/donut charts",
+    "mood": "modern startup",
+    "stem": "healthcare_patient_accessibility_survey",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "dark navy and slate blue with teal, gold, and emerald accents",
+    "typography": "bold slab-serif headers, clean sans-serif body and sub-headers",
+    "visual_density": "balanced",
+    "background": "mixed: solid dark navy with subtle large-scale circular overlays and clean white with light gray dividers",
+    "accent_elements": "horizontal line dividers, color-coded callout boxes, circular process nodes, and flat line icons",
+    "mood": "clinical/medical professional",
+    "stem": "healthcare_patient_forms_standardization",
+    "n_pages": 17
+  },
+  {
+    "color_scheme": "vibrant purple and white with soft lavender accents",
+    "typography": "modern geometric sans-serif; bold headers with regular weight body text",
+    "visual_density": "balanced",
+    "background": "mixed: solid purple with subtle large circular overlays for title/transition slides, and clean white with a purple top border for content slides",
+    "accent_elements": "rounded light-lavender content cards, circular flat icons, thin purple vertical dividers, and checkmark/bullet list badges",
+    "mood": "modern startup / clinical friendly",
+    "stem": "healthcare_promis57_patient_guide",
+    "n_pages": 20
+  },
+  {
+    "color_scheme": "white background with navy text and emerald green accents, supported by a secondary palette of blue, yellow, and red for data visualization",
+    "typography": "bold sans-serif headers in navy, light to medium weight sans-serif body text, and all-caps emerald green sub-headers",
+    "visual_density": "balanced",
+    "background": "white clean with a thin emerald green top border and a navy footer bar",
+    "accent_elements": "thin horizontal line dividers, vertical color-coded bars for categorization, rounded status badges, and simple geometric chart markers",
+    "mood": "clinical/medical",
+    "stem": "healthcare_std_prophylaxis_grand_rounds",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "dark navy background with white, amber, and sky blue accents",
+    "typography": "bold slab-serif headers, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy with occasional subtle glowing particle effects",
+    "accent_elements": "thin line icons, vertical color-coded dividers, rounded rectangular borders, and stylized anatomical line art",
+    "mood": "clinical/medical professional",
+    "stem": "healthcare_tb_testing_clinical_training",
+    "n_pages": 20
+  },
+  {
+    "color_scheme": "dark charcoal background with mint green, teal, and amber accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal / near-black",
+    "accent_elements": "vertical color bars, rectangular content blocks with subtle drop shadows, thin horizontal dividers, and star-rating icons",
+    "mood": "modern startup / fintech professional",
+    "stem": "hedge_fund_portfolio_strategy",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "cream, forest green, and burnt orange with dark navy accents",
+    "typography": "bold slab-serif headers with italicized emphasis, paired with wide-spaced all-caps sans-serif subheaders and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid color blocks in cream, forest green, burnt orange, or dark navy",
+    "accent_elements": "flat vector illustrations, rounded pill-shaped buttons, thin horizontal dividers, and circular badges",
+    "mood": "modern boutique hospitality",
+    "stem": "hospitality_bed_and_breakfast_promo",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "forest green, cream, and muted gold",
+    "typography": "modern sans-serif with a mix of bold weights and elegant italics for emphasis",
+    "visual_density": "balanced",
+    "background": "solid cream with occasional split-screen dark green or tan sections",
+    "accent_elements": "thin horizontal dividers, vertical accent lines, and rectangular content cards",
+    "mood": "modern startup meets luxury lifestyle",
+    "stem": "indoor_golf_club_launch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy background with electric blue and white text, featuring green and amber status indicators",
+    "typography": "bold sans-serif headers, monospaced accents for labels and data, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "thin horizontal dividers, subtle card borders, progress bars, and small geometric icons",
+    "mood": "modern fintech / institutional crypto",
+    "stem": "institutional_crypto_exchange_pitch_deck",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "earthy 1970s palette featuring terracotta, ochre, olive green, deep chocolate brown, and cream",
+    "typography": "elegant serif headers with italicized accents for emphasis, paired with monospaced sans-serif for metadata and labels",
+    "visual_density": "balanced",
+    "background": "solid color blocks in alternating earthy tones (cream, dark brown, olive) with subtle large-scale geometric overlays",
+    "accent_elements": "thin horizontal dividers, minimalist line-art icons, rounded rectangular image frames, and monospaced 'archive' style labeling",
+    "mood": "luxury/premium",
+    "stem": "interior_design_studio_portfolio",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream and charcoal with subtle olive-grey accents",
+    "typography": "elegant italicized serif headers, clean sans-serif body text, and monospaced-style metadata",
+    "visual_density": "minimalist",
+    "background": "solid cream or solid charcoal with occasional large rectangular color blocks",
+    "accent_elements": "thin horizontal and vertical line dividers, large numerical indicators, and simple geometric boxes for diagrams",
+    "mood": "academic professional",
+    "stem": "intro_to_guitar_lecture",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm earth tones including cream, terracotta, ochre, and deep chocolate brown with navy blue accents",
+    "typography": "elegant high-contrast serif headers with italic variations, paired with wide-spaced monospaced and sans-serif metadata",
+    "visual_density": "balanced",
+    "background": "solid cream/parchment with occasional deep navy or dark brown section breaks",
+    "accent_elements": "flat vector illustrations, thin horizontal dividers, diamond bullet points, architectural arches, and minimalist map graphics",
+    "mood": "luxury/premium travel editorial",
+    "stem": "italy_travel_destination_guide",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream and beige base with deep terracotta red and charcoal accents",
+    "typography": "bold serif headers with italicized serif subheaders and monospaced sans-serif metadata",
+    "visual_density": "balanced",
+    "background": "solid cream or dark chocolate with subtle geometric overlays and large circular motifs",
+    "accent_elements": "Japanese kanji characters in red square badges, thin horizontal dividers, monospaced labels, and large circular color blocks",
+    "mood": "modern editorial / travel boutique",
+    "stem": "japan_travel_destination_guide",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "black background with cream text and gold accents",
+    "typography": "mixed: bold sans-serif headers, elegant serif body text, and monospaced utility text",
+    "visual_density": "balanced",
+    "background": "solid matte black",
+    "accent_elements": "thin gold horizontal dividers, gold script ampersands, monospaced labels, and framed image containers",
+    "mood": "luxury/premium jazz lounge",
+    "stem": "jazz_bar_concept_pitch",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "cream background with sage green, muted terracotta, and charcoal accents",
+    "typography": "elegant serif headers with wide-tracked sans-serif sub-headers and body text",
+    "visual_density": "minimalist",
+    "background": "solid cream with occasional split-screen photography or solid sage green blocks",
+    "accent_elements": "thin horizontal dividers, small circular bullet points, wide-spaced uppercase labels, and large numerical callouts",
+    "mood": "modern startup meets clinical/educational; calm, professional, and empathetic",
+    "stem": "k12_literacy_tutoring_pitch",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "dark navy, cream, and mustard yellow with red and blue primary accents",
+    "typography": "bold geometric sans-serif with heavy use of italics for emphasis and lowercase styling",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy, cream, and mustard yellow",
+    "accent_elements": "flat line-art illustrations, thick borders, circular badges, and large geometric shapes inspired by the South Korean flag",
+    "mood": "modern startup meets traditional martial arts; energetic, approachable, and youth-oriented",
+    "stem": "kids_taekwondo_marketing",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and off-white backgrounds with gold, teal, and muted red accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with occasional italics for emphasis",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean off-white",
+    "accent_elements": "thin gold horizontal dividers, circular numbered list icons, color-coded data points, and light blue callout boxes",
+    "mood": "academic professional",
+    "stem": "labor_economics_research_presentation",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "black background with white and light gray text",
+    "typography": "modern sans-serif; bold headers with italicized emphasis, monospaced accents for technical data, and clean light-weight body text",
+    "visual_density": "minimalist",
+    "background": "solid matte black",
+    "accent_elements": "thin horizontal and vertical line dividers, subtle gray borders for content blocks, and terminal-style code blocks",
+    "mood": "modern startup / technical professional",
+    "stem": "local_ai_consulting_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "pastel palette featuring soft pink, mint green, pale yellow, and light blue with dark chocolate brown text",
+    "typography": "bold sans-serif headers with high-contrast letter spacing, paired with clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid cream and soft pastel color blocks",
+    "accent_elements": "rounded rectangular cards, circular badges, thin horizontal dividers, and small colored dot indicators",
+    "mood": "modern startup with a friendly, community-focused neighborhood feel",
+    "stem": "local_business_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "earthy palette with deep chocolate brown, cream/parchment, and muted gold accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text, and all-caps spaced sub-headers",
+    "visual_density": "balanced",
+    "background": "alternating solid deep brown and cream backgrounds with full-bleed or split-screen high-resolution photography",
+    "accent_elements": "thin horizontal line dividers, outlined content boxes, small-caps metadata labels, and subtle page numbering",
+    "mood": "editorial storytelling, sophisticated, historical yet modern, warm and grounded",
+    "stem": "local_city_history_overview",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and dark chocolate with terracotta and ochre accents",
+    "typography": "elegant high-contrast serif headers, clean sans-serif body, and wide-tracked uppercase labels",
+    "visual_density": "balanced",
+    "background": "solid cream or dark chocolate with subtle grid overlays on data slides",
+    "accent_elements": "large thin-line geometric heart/circle motifs, horizontal dividers, coordinate stamps, and rectangular content cards",
+    "mood": "modern artisanal",
+    "stem": "local_ice_cream_shop_pitch_deck",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark espresso background with champagne and bronze accents",
+    "typography": "clean geometric sans-serif headers, italicized sans-serif body, and wide-spaced uppercase labels",
+    "visual_density": "minimalist",
+    "background": "solid dark brown with subtle radial lighting effects behind central objects",
+    "accent_elements": "L-shaped corner brackets, thin horizontal dividers, Roman numeral markers, and 3D rendered sculptural objects",
+    "mood": "luxury/premium",
+    "stem": "luxury_design_brand_story",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm cream and deep espresso with terracotta orange accents",
+    "typography": "modern sans-serif with a mix of weights; italicized terracotta highlights for emphasis and all-caps monospaced labels for metadata",
+    "visual_density": "balanced",
+    "background": "solid cream or deep espresso with occasional large color-blocked sections",
+    "accent_elements": "thin horizontal dividers, minimalist line-art icons, and small-caps navigational breadcrumbs",
+    "mood": "luxury/premium",
+    "stem": "luxury_eyewear_retail_seed_pitch",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm cream and taupe with charcoal gray accents",
+    "typography": "mixed: elegant serif (Bodoni) for headers and taglines, clean geometric sans-serif (Century Gothic) for body text",
+    "visual_density": "balanced",
+    "background": "primarily solid warm cream, with full-bleed cinematic photography and occasional solid taupe or dark brown sections",
+    "accent_elements": "vertical taupe sidebar with a curved 'sail' edge, thin horizontal dividers, minimalist wave icon, and wide-spaced all-caps subheaders",
+    "mood": "luxury/premium",
+    "stem": "luxury_hospitality_brand_guidelines",
+    "n_pages": 20
+  },
+  {
+    "color_scheme": "warm beige and off-white with charcoal black text and deep charcoal backgrounds",
+    "typography": "modern sans-serif with a mix of bold weights for headers and italicized accents for emphasis; wide-tracked uppercase for sub-headers",
+    "visual_density": "minimalist",
+    "background": "alternating solid off-white, warm beige, and deep charcoal black",
+    "accent_elements": "thin horizontal line dividers, large-scale image placeholders, wide letter spacing in navigation text, and subtle page numbering",
+    "mood": "luxury/premium",
+    "stem": "luxury_interior_design_partnership_deck",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "warm cream and off-white with sage green accents and deep charcoal/black text",
+    "typography": "Modern sans-serif with high-contrast weights; features large bold headers, italicized sage green emphasis keywords, and wide-tracked monospaced labels for metadata.",
+    "visual_density": "minimalist",
+    "background": "solid warm cream/beige with occasional high-contrast black sections",
+    "accent_elements": "thin horizontal line dividers, circular step indicators, monospaced small caps labels, and subtle sage green highlights on key terms.",
+    "mood": "luxury/premium editorial",
+    "stem": "luxury_nanny_placement_brochure",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "cream and dark navy with burnt orange accents",
+    "typography": "bold geometric sans-serif headers with italicized orange emphasis, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and solid dark navy",
+    "accent_elements": "thin horizontal line dividers, hairline table borders, small rectangular label boxes, and minimalist data visualization lines",
+    "mood": "corporate professional / financial editorial",
+    "stem": "macro_research_yield_curve_report",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "forest green, deep burgundy, and muted gold on white",
+    "typography": "bold serif headers, clean sans-serif body text, and all-caps sans-serif subheaders",
+    "visual_density": "data-heavy",
+    "background": "white clean with a forest green header bar; title slide features a green-tinted photo overlay",
+    "accent_elements": "thin vertical color-coded bars, rectangular content cards with colored top borders, circular timeline nodes, and shaded 'bottom line' callout boxes",
+    "mood": "academic professional",
+    "stem": "mba_financial_crisis_lecture",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "warm cream background with terracotta orange and soft gold accents",
+    "typography": "clean sans-serif; bold headers with italicized orange emphasis, light-weight body text with generous tracking",
+    "visual_density": "balanced",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "large organic circular shapes, thin horizontal dividers, rounded card containers, and simple timeline dots",
+    "mood": "modern startup / empathetic wellness",
+    "stem": "mental_health_app_pitch_deck",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "cream background with forest green, mustard yellow, dusty rose, and slate blue accents",
+    "typography": "bold geometric sans-serif for primary headers, elegant italicized serif for emphasis, and clean sans-serif for body text",
+    "visual_density": "balanced",
+    "background": "primarily solid cream with occasional full-bleed accent slides in forest green, slate blue, or dark charcoal",
+    "accent_elements": "rounded-corner color blocks, circular icons, thin horizontal line dividers, and pill-shaped buttons",
+    "mood": "modern educational",
+    "stem": "middle_school_nutrition_lesson",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream, charcoal, and sage green",
+    "typography": "bold geometric sans-serif headers with italicized accents, clean sans-serif body text",
+    "visual_density": "minimalist",
+    "background": "solid cream with occasional sage green or charcoal full-bleed slides",
+    "accent_elements": "thin horizontal line dividers, large-scale typography, square color blocks for image placeholders, and subtle page numbering",
+    "mood": "modern startup",
+    "stem": "mobile_pet_grooming_seed_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "warm neutrals with terracotta, sage green, and charcoal accents",
+    "typography": "clean sans-serif with a mix of regular and italic weights for emphasis; headers use a larger point size with tight leading",
+    "visual_density": "balanced",
+    "background": "primarily solid cream/off-white with occasional high-contrast dark charcoal slides",
+    "accent_elements": "flat 2D geometric illustrations, thin horizontal dividers, rounded circular icons, and color-blocked service cards",
+    "mood": "modern startup, friendly, approachable, and organized",
+    "stem": "mobile_pet_grooming_service_overview",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark navy and white with gold and forest green accents",
+    "typography": "bold geometric sans-serif headers, regular sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy for title/closing slides, light grey-white for content slides with a navy header bar",
+    "accent_elements": "thin gold horizontal dividers, color-coded data tables, simple flat icons, and circular donut charts",
+    "mood": "corporate formal",
+    "stem": "municipal_water_infrastructure_proposal",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "high-contrast neon: hot pink, electric lime, and vibrant orange against deep black and off-white",
+    "typography": "bold, heavy-weight sans-serif headers (Inter or similar) with wide-tracked uppercase subheaders and clean, medium-weight body text",
+    "visual_density": "balanced",
+    "background": "alternating solid black, off-white, and full-bleed neon color blocks",
+    "accent_elements": "thin horizontal dividers, square bullet points, large-scale numerical callouts, and color-coded data bars",
+    "mood": "modern startup / high-energy event",
+    "stem": "music_festival_seed_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream and black with neon lime and red accents",
+    "typography": "extra-bold condensed sans-serif headers, monospaced utility text, and italicized sans-serif body",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and solid black with occasional geometric overlays",
+    "accent_elements": "hand-drawn 'sketchy' borders, thin horizontal dividers, neon color blocks, forward slashes (//), and small geometric diamonds",
+    "mood": "modern startup / street-culture edgy",
+    "stem": "music_label_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "earthy palette with cream, deep charcoal, ochre, and terracotta accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced and clean sans-serif labels for data",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and deep charcoal with occasional geometric landscape illustrations",
+    "accent_elements": "thin hairline dividers, monospaced metadata labels, minimalist geometric animal illustrations, and corner frame markers",
+    "mood": "academic professional meets modern nonprofit",
+    "stem": "nonprofit_wildlife_conservation_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and white with gold, red, and green functional accents",
+    "typography": "serif headers for titles, sans-serif for body text and data labels",
+    "visual_density": "balanced",
+    "background": "solid dark navy title slide, light gray/white content slides with subtle horizontal dividers",
+    "accent_elements": "rounded card borders, color-coded status badges, thick vertical color bars on cards, and simple line charts",
+    "mood": "corporate formal",
+    "stem": "nursing_documentation_transformation_strategy",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "cream and dark navy with royal blue accents",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body, and monospaced-style labels for technical data",
+    "visual_density": "balanced",
+    "background": "primarily solid cream with occasional dark navy high-contrast slides",
+    "accent_elements": "thin horizontal dividers, blue circular status indicators, simple vector diagrams, and high-contrast data callout boxes",
+    "mood": "modern startup / technical engineering",
+    "stem": "orbital_compute_investor_memo",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "matte black and bright yellow with off-white and charcoal accents",
+    "typography": "bold heavy sans-serif headers, monospaced and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark charcoal/black with occasional high-contrast yellow or off-white sections",
+    "accent_elements": "thick horizontal borders, thin grid lines, color-blocked data cells, and large numeric callouts",
+    "mood": "modern industrial, high-energy, urban tactical",
+    "stem": "paintball_arena_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy, cream, and golden-orange with high-contrast white text",
+    "typography": "elegant serif headers with italicized accents, paired with clean, wide-tracked sans-serif for labels and metadata",
+    "visual_density": "balanced",
+    "background": "alternating between solid dark navy, clean cream, and full-bleed warm sunset photography with soft gradients",
+    "accent_elements": "thin horizontal dividers, technical line diagrams, circular badges, and wide-spaced uppercase sub-headers",
+    "mood": "luxury/premium editorial",
+    "stem": "paragliding_school_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark forest green and cream with terracotta and sage accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced sans-serif for labels and metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid dark charcoal-green and off-white/cream",
+    "accent_elements": "thin horizontal line dividers, small circular status indicators, monospaced page numbering, and high-quality architectural/nature photography",
+    "mood": "modern startup meets premium service; sophisticated, trustworthy, and clean",
+    "stem": "pest_control_company_overview",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream background with deep navy and slate blue accents",
+    "typography": "bold geometric sans-serif headers with italicized emphasis, clean sans-serif body text, and monospaced labels for metadata",
+    "visual_density": "balanced",
+    "background": "solid warm cream / off-white with occasional full-bleed navy blue section breaks",
+    "accent_elements": "thin horizontal dividers, pill-shaped data badges, minimalist line charts, and large-scale numerical callouts",
+    "mood": "clinical/medical, sophisticated, and trustworthy",
+    "stem": "pharma_product_launch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "matte black and warm sand beige with champagne gold accents",
+    "typography": "elegant serif display headers with italicized flourishes, paired with clean sans-serif labels and small-caps subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid matte black and solid warm beige",
+    "accent_elements": "thin horizontal line dividers, large Roman numeral section markers, minimalist grid-based photo galleries, and subtle page numbering",
+    "mood": "luxury/premium",
+    "stem": "photography_studio_portfolio",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and white with bright blue and teal accents",
+    "typography": "bold sans-serif headers with wide tracking, clean sans-serif body text, and italicized emphasis",
+    "visual_density": "balanced",
+    "background": "split-screen layouts with solid dark navy and off-white/light gray sections",
+    "accent_elements": "rounded card borders, pill-shaped badges, large circular graphic containers, and thin horizontal dividers",
+    "mood": "modern startup",
+    "stem": "pressure_washing_company_profile",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and off-white base with dark forest green and muted tobacco-brown accents",
+    "typography": "mixed: large clean sans-serif headers, elegant serif italics for emphasis, and monospaced/small-caps for metadata",
+    "visual_density": "balanced",
+    "background": "solid cream/beige with occasional dark forest green section breaks",
+    "accent_elements": "concentric thin-line circles, dotted textures, fine horizontal dividers, and minimalist data visualizations",
+    "mood": "modern startup meets editorial journal",
+    "stem": "public_health_snus_field_guide",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "earthy palette with deep espresso, warm cream, terracotta orange, and sage green",
+    "typography": "elegant serif headers with italicized accents, paired with monospaced sans-serif for labels and metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid deep espresso and warm cream",
+    "accent_elements": "thin horizontal dividers, color-coded vertical bars, minimalist timeline dots, and rectangular content cards",
+    "mood": "luxury/premium real estate",
+    "stem": "real_estate_development_pitch",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "warm off-white and charcoal with terracotta and muted gold accents",
+    "typography": "mixed: bold sans-serif headers for impact, elegant serif italics for emphasis, and clean monospaced/sans-serif for data and labels",
+    "visual_density": "balanced",
+    "background": "solid warm cream/off-white with a high-contrast dark charcoal closing slide",
+    "accent_elements": "thin horizontal dividers, hairline borders, subtle data point circles, and wide-letter-spaced subheaders",
+    "mood": "luxury/premium investment professional",
+    "stem": "real_estate_fund_investment_briefing",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark forest green background with terracotta, sage, and cream accents",
+    "typography": "bold serif headers with italicized emphasis, paired with clean sans-serif body text and wide-tracked uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "solid dark matte green with occasional sunset gradients and minimalist vector cityscapes",
+    "accent_elements": "thin horizontal dividers, minimalist line-art icons, geometric progress bars, and circular timeline nodes",
+    "mood": "modern editorial / sophisticated financial",
+    "stem": "real_estate_investing_primer",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark teal and slate blue with coral and light aqua accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text with varied weights for data emphasis",
+    "visual_density": "balanced",
+    "background": "mixed: dark teal-to-orange sunset gradients for title slides, solid off-white for content slides",
+    "accent_elements": "horizontal color-coded bars, light blue 'Key Takeaway' callout boxes, simple line icons, and data-driven maps/charts",
+    "mood": "modern startup / professional real estate",
+    "stem": "real_estate_market_overview",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "cream and charcoal with muted gold accents",
+    "typography": "clean sans-serif; bold headers with italicized serif-style emphasis in gold, monospaced-style secondary labels",
+    "visual_density": "balanced",
+    "background": "solid cream with a single dark navy high-contrast closing slide",
+    "accent_elements": "thin horizontal dividers, diamond logo icon, outlined photo placeholders, and minimalist data visualizations",
+    "mood": "luxury/premium real estate",
+    "stem": "real_estate_neighborhood_buyer_guide",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream, charcoal black, and vibrant orange accents",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body, and monospaced-style secondary labels",
+    "visual_density": "balanced",
+    "background": "alternating solid cream, solid charcoal, and solid orange sections",
+    "accent_elements": "flat 2D and isometric line-art illustrations, numbered square badges, thin horizontal dividers, and ticket-style rounded borders",
+    "mood": "modern startup",
+    "stem": "real_estate_self_storage_community_pitch",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy and cream with ochre accents",
+    "typography": "elegant serif headers, monospaced and sans-serif utility text",
+    "visual_density": "minimalist",
+    "background": "alternating solid dark navy and solid cream",
+    "accent_elements": "thin horizontal dividers, small circular bullets, monospaced data labels, and technical line-art diagrams",
+    "mood": "luxury/premium",
+    "stem": "regional_airport_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "muted cream, deep navy blue, and toasted terracotta orange",
+    "typography": "mixed: bold geometric sans-serif headers with high-contrast italic accents, paired with monospaced labels and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and solid navy blue with occasional organic wave header shapes",
+    "accent_elements": "minimalist line-art illustrations, thin horizontal dividers, concentric circle motifs, and color-coded data blocks",
+    "mood": "modern artisanal, rustic-minimalist, authentic hospitality",
+    "stem": "restaurant_concept_pitch_deck",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "Aegean blue and bone white with ochre, olive, and terracotta accents",
+    "typography": "Bold geometric sans-serif headers, italicized serif subheaders, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "Solid bone white or deep Aegean blue, occasionally split vertically or featuring subtle grid lines",
+    "accent_elements": "Flat vector illustrations, thin horizontal dividers, color-blocked character icons, and minimalist geometric shapes",
+    "mood": "modern startup meets Mediterranean artisanal",
+    "stem": "restaurant_concept_vision_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "Forest green, cream, and terracotta rust with gold accents",
+    "typography": "Bold slab-serif headers, italicized serif subheaders, and clean sans-serif labels",
+    "visual_density": "balanced",
+    "background": "Solid blocks of forest green, cream, and terracotta rust",
+    "accent_elements": "Thin horizontal line dividers, circular icon badges, and flat vector food illustrations",
+    "mood": "modern artisanal kitchen",
+    "stem": "restaurant_culinary_profile",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "earthy palette with cream background, terracotta orange, forest green, and golden yellow accents",
+    "typography": "elegant serif headers with italicized flair, paired with monospaced sans-serif for labels and metadata",
+    "visual_density": "minimalist",
+    "background": "solid cream/off-white with occasional full-bleed terracotta or dark forest green section breaks",
+    "accent_elements": "geometric color blocks, thin horizontal dividers, circular status indicators, and large quotation marks",
+    "mood": "modern startup with a craft/artisanal focus",
+    "stem": "restaurant_franchise_pitch_deck",
+    "n_pages": 17
+  },
+  {
+    "color_scheme": "forest green and cream with terracotta and mustard accents",
+    "typography": "modern geometric sans-serif with selective italicized serif-style flourishes for emphasis",
+    "visual_density": "balanced",
+    "background": "alternating solid deep forest green and warm cream",
+    "accent_elements": "thin horizontal dividers, small circular bullet points, color-coded data bars, and rectangular image placeholders with descriptive labels",
+    "mood": "modern startup meets rustic hospitality; sophisticated, warm, and trustworthy",
+    "stem": "restaurant_investor_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm cream background with dusty rose, terracotta, and charcoal accents",
+    "typography": "mixed: bold sans-serif headers with italicized serif emphasis, paired with clean sans-serif body text and wide-spaced uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "solid warm cream / parchment",
+    "accent_elements": "flat line-art illustrations, thin horizontal dividers, Roman numeral numbering, circular logo badges, and wide-tracked header text",
+    "mood": "cozy/literary boutique",
+    "stem": "retail_bookstore_profile",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream background with sage green and charcoal grey accents",
+    "typography": "elegant serif headers and italics, paired with wide-spaced sans-serif sub-headers",
+    "visual_density": "minimalist",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "hand-drawn botanical illustrations, thin horizontal dividers, and minimalist line-art icons",
+    "mood": "luxury/premium",
+    "stem": "retail_florist_business_profile",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark forest green background with cream and muted gold text",
+    "typography": "elegant high-contrast serif headers, monospaced sans-serif utility text, and italicized serif accents",
+    "visual_density": "balanced",
+    "background": "solid dark matte green",
+    "accent_elements": "thin horizontal and vertical line dividers, small geometric icons, monospaced page numbering, and subtle grid patterns for maps",
+    "mood": "luxury/premium artisanal",
+    "stem": "retail_pet_store_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark slate navy, buttery yellow, cream, and soft sky blue",
+    "typography": "elegant italicized serif headers with monospaced sans-serif sub-labels and clean sans-serif body text",
+    "visual_density": "minimalist",
+    "background": "solid color blocks in navy, cream, yellow, and pale blue with subtle large-scale geometric overlays",
+    "accent_elements": "rounded rectangular badges, circular image masks, thin line dividers, and oversized quotation marks",
+    "mood": "modern startup / playful boutique",
+    "stem": "retail_product_catalog_overview",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "warm beige and charcoal with terracotta red and amber accents",
+    "typography": "bold italic sans-serif headers, monospaced terminal-style body text, and clean sans-serif secondary text",
+    "visual_density": "balanced",
+    "background": "solid warm beige (manila paper) with occasional dark charcoal sections",
+    "accent_elements": "terminal command prompts, thin black borders, dot-matrix style dividers, rubber stamp graphics, and monospaced code blocks",
+    "mood": "modern startup with a retro-tech/analog nostalgia aesthetic",
+    "stem": "retro_tech_cafe_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "deep navy and slate blue with cool grey-white backgrounds",
+    "typography": "elegant serif headers with italicized accents, paired with monospaced and sans-serif utility text",
+    "visual_density": "balanced",
+    "background": "alternating between solid dark navy, pale grey-blue, and full-bleed underwater photography",
+    "accent_elements": "thin horizontal rules, diamond bullet points, circular line-art badges, and monospaced data labels",
+    "mood": "luxury/premium editorial",
+    "stem": "scuba_dive_operator_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark teal and cream with coral orange accents",
+    "typography": "bold slab-serif headers, sans-serif body, and monospaced code blocks",
+    "visual_density": "minimalist",
+    "background": "alternating solid dark teal and solid cream with subtle organic wave overlays on the title slide",
+    "accent_elements": "thin coral horizontal dividers, small square bullet points, breadcrumb navigation in the header, and coral-colored text highlights",
+    "mood": "modern technical editorial",
+    "stem": "seaborn_data_visualization_training",
+    "n_pages": 17
+  },
+  {
+    "color_scheme": "charcoal black and off-white cream with vibrant orange accents",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body, and wide-tracked uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid charcoal black and solid off-white cream",
+    "accent_elements": "orange square bullets, thin horizontal and vertical dividers, flat icons, and high-contrast color blocks",
+    "mood": "modern startup",
+    "stem": "skateboarding_beginner_course_lesson",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark charcoal and off-white base with burnt orange and slate blue accents",
+    "typography": "mixed: italicized serif headers for emphasis, clean geometric sans-serif for body and metadata",
+    "visual_density": "minimalist",
+    "background": "solid blocks of off-white, deep navy, and muted charcoal with occasional soft beige",
+    "accent_elements": "thin horizontal and vertical line dividers, small orange bullet points, wide letter-spacing on sub-headers, and large-scale numerical data",
+    "mood": "modern startup meets luxury/premium outdoor",
+    "stem": "snowboard_school_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and off-white with sky blue and mustard yellow accents",
+    "typography": "bold sans-serif headers with high x-height, clean medium-weight sans-serif body text, and wide-tracked uppercase subheaders",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean off-white with stylized geometric mountain silhouettes on title slides",
+    "accent_elements": "flat vector illustrations, thin horizontal dividers, numbered card layouts, and wide-spaced footer text",
+    "mood": "modern startup",
+    "stem": "snowboarding_beginner_lesson",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "white background with black text and mint green accents",
+    "typography": "bold geometric sans-serif headers, monospaced-style labels, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "white clean",
+    "accent_elements": "mint green area charts and bar graphs, small orange triangle markers, thin horizontal dividers, and monospaced utility text in margins",
+    "mood": "modern startup",
+    "stem": "sports_betting_saas_pitch_deck",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "dark navy and white with gold and royal blue accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text, and all-caps gold sub-headers",
+    "visual_density": "balanced",
+    "background": "alternating solid dark navy and clean white with light beige content blocks",
+    "accent_elements": "thick gold horizontal dividers, vertical color bars for data callouts, drop-shadowed cards, and simple geometric icons",
+    "mood": "corporate professional",
+    "stem": "sports_market_expansion_strategy",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "cream background with navy, terracotta red, sage green, and mustard yellow accents",
+    "typography": "bold neo-grotesque sans-serif headers, clean geometric sans-serif body",
+    "visual_density": "balanced",
+    "background": "solid cream/off-white with occasional full-bleed solid color section slides",
+    "accent_elements": "thin black horizontal and vertical dividers, rectangular color blocks, outlined button badges, and ticket-inspired header/footer layouts",
+    "mood": "modern startup meets vintage athletic",
+    "stem": "sports_marketing_promo_calendar",
+    "n_pages": 19
+  },
+  {
+    "color_scheme": "forest green and cream with gold accents",
+    "typography": "bold geometric sans-serif headers, medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "alternating solid forest green and off-white/cream",
+    "accent_elements": "thin gold horizontal dividers, gold timeline nodes, minimalist golf ball icon, wide letter-spaced sub-headers",
+    "mood": "luxury/premium corporate",
+    "stem": "sports_sponsorship_pitch_deck",
+    "n_pages": 13
+  },
+  {
+    "color_scheme": "dark navy and cream with terracotta orange accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with monospaced and sans-serif secondary text",
+    "visual_density": "balanced",
+    "background": "alternating solid cream and solid dark navy",
+    "accent_elements": "thin horizontal line dividers, small square color blocks, vertical timeline lines, and monospaced metadata labels",
+    "mood": "academic professional",
+    "stem": "student_transportation_company_overview",
+    "n_pages": 11
+  },
+  {
+    "color_scheme": "dark navy and cream with muted gold and slate grey accents",
+    "typography": "bold serif headers, wide-spaced sans-serif sub-headers, and clean sans-serif body text",
+    "visual_density": "minimalist",
+    "background": "alternating solid dark navy and solid cream",
+    "accent_elements": "thin horizontal dividers, minimalist flat icons in boxes, Roman numeral lists, and wide-tracked uppercase labels",
+    "mood": "modern startup meets academic professional",
+    "stem": "surf_school_intro_lesson",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "cream background with charcoal text and terracotta/burnt orange accents",
+    "typography": "large elegant serif headers and body text, paired with monospaced sans-serif for labels and metadata",
+    "visual_density": "balanced",
+    "background": "solid warm cream / off-white",
+    "accent_elements": "thin horizontal dividers, technical schematic lines, monospaced data labels, and subtle terracotta color blocks in charts",
+    "mood": "academic professional",
+    "stem": "tech_hardware_expansion_strategy",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark charcoal and gold with cinematic earth tones",
+    "typography": "bold slab-serif headers, elegant serif body text, and sans-serif sub-captions",
+    "visual_density": "balanced",
+    "background": "cinematic photo overlays with dark vignettes and solid charcoal sections",
+    "accent_elements": "thin gold horizontal dividers, gold-bordered content cards, and justified text blocks",
+    "mood": "luxury/premium historical epic",
+    "stem": "tv_series_pitch_deck",
+    "n_pages": 19
+  },
+  {
+    "color_scheme": "dark navy background with lime green and bright blue accents",
+    "typography": "bold sans-serif headers, clean sans-serif body text with italicized subtext",
+    "visual_density": "balanced",
+    "background": "solid dark navy with occasional full-bleed photo overlays and a lime green top border",
+    "accent_elements": "lime green horizontal bars, thin grey line dividers, semi-transparent content blocks, and data visualization progress bars",
+    "mood": "academic professional",
+    "stem": "university_giving_day_fundraising",
+    "n_pages": 11
+  },
+  {
+    "color_scheme": "forest green and cream with gold and slate grey accents",
+    "typography": "elegant serif headers, italicized serif subheaders, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid cream or deep forest green with occasional high-quality nature photography overlays",
+    "accent_elements": "thin horizontal dividers, gold star ratings, small Roman numeral labels, and rectangular content cards",
+    "mood": "luxury/premium boutique",
+    "stem": "urban_landscaping_service_proposal",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "parchment cream background with charcoal text and deep brick red accents",
+    "typography": "modern sans-serif with high-contrast weights; italicized serif-style 'a' and emphasis words, paired with wide-spaced all-caps subheaders",
+    "visual_density": "balanced",
+    "background": "solid light beige/parchment with a thin dark inner border frame",
+    "accent_elements": "thin horizontal dividers with diamond mid-points, vertical accent bars for quotes, placeholder 'plate' boxes, and minimalist timeline nodes",
+    "mood": "academic professional with a modern editorial twist; evokes historical documents through a clean, contemporary lens",
+    "stem": "us_history_student_presentation",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dusty rose and dark charcoal with sage green and tan accents",
+    "typography": "serif headers for a classic feel, paired with clean sans-serif body text for readability",
+    "visual_density": "balanced",
+    "background": "off-white/cream solid background with dark charcoal header bars",
+    "accent_elements": "circular icon badges, thin horizontal dividers, color-coded data bars, and rounded rectangular callout boxes",
+    "mood": "professional yet approachable real estate/hospitality",
+    "stem": "vacation_rental_quarterly_financial_report",
+    "n_pages": 15
+  },
+  {
+    "color_scheme": "cream and charcoal with burnt orange accents",
+    "typography": "bold sans-serif headers with italicized orange highlights, clean medium-weight sans-serif body text",
+    "visual_density": "balanced",
+    "background": "primarily solid cream with occasional high-contrast solid black slides",
+    "accent_elements": "pixel-art inspired geometric blocks, thin horizontal dividers, minimalist timeline dots, and small-caps metadata labels",
+    "mood": "modern startup with a retro-tech aesthetic",
+    "stem": "video_game_industry_history",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "Deep ink navy background with vibrant coral-red, amber-yellow, and chalk-white accents",
+    "typography": "Bold geometric sans-serif headers with high-contrast serif accents for numbers and key emphasis; monospaced utility text for metadata",
+    "visual_density": "balanced",
+    "background": "Solid dark navy with subtle grid overlays and large, low-opacity watermark typography",
+    "accent_elements": "Thin horizontal dividers, color-coded status badges, geometric line icons, and monospaced technical labels",
+    "mood": "modern startup",
+    "stem": "video_game_pitch_deck",
+    "n_pages": 12
+  },
+  {
+    "color_scheme": "warm beige and off-white with charcoal and tan accents",
+    "typography": "bold sans-serif headers with italicized serif body text and monospaced terminal fonts",
+    "visual_density": "minimalist",
+    "background": "solid off-white / cream",
+    "accent_elements": "thin horizontal dividers, flat vector illustrations of retro hardware, color-blocked grid layouts, and small-caps metadata labels",
+    "mood": "modern startup with a retro-tech / nostalgic aesthetic",
+    "stem": "vintage_computer_cafe_pitch_deck",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "deep navy and charcoal with ochre and cream accents",
+    "typography": "modern sans-serif with a mix of regular and italic weights for emphasis",
+    "visual_density": "balanced",
+    "background": "varied: dark textured photo overlays, solid cream, and deep navy with subtle gradients",
+    "accent_elements": "thin technical line dividers, geometric icons in square frames, topographic-style map overlays, and circular badges",
+    "mood": "modern startup / premium lifestyle",
+    "stem": "wakeboarding_coaching_prospectus",
+    "n_pages": 8
+  },
+  {
+    "color_scheme": "Deep charcoal and black background with vibrant violet and teal accents",
+    "typography": "Mixed: Elegant serif (Cambria) for headers and body text, paired with monospaced sans-serif (Consolas) for data, labels, and technical metadata",
+    "visual_density": "balanced",
+    "background": "Solid dark charcoal/black with occasional large, subtle geometric overlays",
+    "accent_elements": "Rounded card containers, monospaced UI labels, thin line dividers, progress dots, and high-fidelity software mockups",
+    "mood": "modern startup / fintech",
+    "stem": "web3_defi_app_design_review",
+    "n_pages": 9
+  },
+  {
+    "color_scheme": "dark navy background with gold, teal, and coral accents",
+    "typography": "bold geometric sans-serif headers, clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "thin gold vertical and horizontal dividers, color-coded content blocks, gold circular timeline nodes, and semi-transparent card overlays",
+    "mood": "modern startup",
+    "stem": "wellness_startup_seed_pitch_deck",
+    "n_pages": 14
+  },
+  {
+    "color_scheme": "deep burgundy and cream with gold and muted earth-tone accents",
+    "typography": "elegant serif headers with italicized emphasis, paired with clean sans-serif for body text and metadata",
+    "visual_density": "balanced",
+    "background": "alternating solid deep burgundy and clean cream/off-white",
+    "accent_elements": "thin horizontal line dividers, geometric color blocks, circular badges, and minimalist bar charts",
+    "mood": "luxury/premium",
+    "stem": "wine_tourism_strategy_brief",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "dark navy background with neon lime green and white accents",
+    "typography": "bold geometric sans-serif headers, monospaced labels, and clean sans-serif body text",
+    "visual_density": "balanced",
+    "background": "solid dark navy",
+    "accent_elements": "thin neon green borders, progress bars, monospaced data labels, and tactical field diagrams",
+    "mood": "modern startup meets athletic performance",
+    "stem": "youth_soccer_training_program",
+    "n_pages": 10
+  },
+  {
+    "color_scheme": "off-white and charcoal black with vibrant red and mustard yellow accents",
+    "typography": "bold geometric sans-serif headers, monospaced utility text, and clean sans-serif body copy",
+    "visual_density": "balanced",
+    "background": "primarily solid off-white (cream) with occasional high-contrast black or red flood slides",
+    "accent_elements": "rounded rectangular cards, thin horizontal dividers, pill-shaped badges, and large overlapping circular outlines",
+    "mood": "modern startup",
+    "stem": "youtube_channel_media_kit",
+    "n_pages": 10
+  }
+]
