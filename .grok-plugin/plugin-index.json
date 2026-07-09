@@ -150,16 +150,6 @@
         ]
       }
     },
-    "docx": {
-      "components": {
-        "skills": [
-          {
-            "name": "docx",
-            "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx or .dotx files). Trig…"
-          }
-        ]
-      }
-    },
     "figma": {
       "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
       "components": {
@@ -337,16 +327,6 @@
           {
             "name": "neon-postgres-branches",
             "description": "Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migr…"
-          }
-        ]
-      }
-    },
-    "pptx": {
-      "components": {
-        "skills": [
-          {
-            "name": "pptx",
-            "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes creating slide d…"
           }
         ]
       }
