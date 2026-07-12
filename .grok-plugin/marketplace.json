@@ -191,12 +191,12 @@
     },
     {
       "name": "update-devlog",
-      "description": "Append everything done in a Grok Build CLI session (since the last update) into a project chrono-log HTML. First use binds a path or creates a log from a template; later runs only write the session delta.",
+      "description": "Append everything done in a Grok Build CLI session (since the last update) into a project chrono-log HTML. First use binds a path or creates a log from a template; later runs only write the session delta. Path denylist and HTML-escaping rules included.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/Fourier18/grok-update-devlog.git",
-        "sha": "6003071f59c190ccb3a7add9b64ab74e06360b19"
+        "sha": "6520eba2e6a71e13e40ac656231967f2751ba1c5"
       },
       "homepage": "https://github.com/Fourier18/grok-update-devlog",
       "keywords": [
