@@ -331,6 +331,17 @@
         ]
       }
     },
+    "push-all": {
+      "sha": "c01db8085fe0ac62c89f3768eb6602f6388120c4",
+      "components": {
+        "skills": [
+          {
+            "name": "push-all",
+            "description": "Commit local changes and push to GitHub. If the folder is not a git repo or has no remote, initialize and create a publ…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
