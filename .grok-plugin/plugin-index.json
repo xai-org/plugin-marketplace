@@ -551,6 +551,17 @@
         ]
       }
     },
+    "update-devlog": {
+      "sha": "6520eba2e6a71e13e40ac656231967f2751ba1c5",
+      "components": {
+        "skills": [
+          {
+            "name": "update-devlog",
+            "description": "Append everything done in this Grok Build CLI session (since the last update) into a project chrono-log HTML. First use…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
       "components": {
