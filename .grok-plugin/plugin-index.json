@@ -199,6 +199,28 @@
         ]
       }
     },
+    "e2llm": {
+      "sha": "aa0ae67a3377df6d82b480bb21c33593d1dcb2f9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "e2llm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "e2llm",
+            "description": "Drive the user's own signed-in browser through the e2llm MCP tools (list_tabs, sifr_capture, query, inspect, read_page,…"
+          },
+          {
+            "name": "sifr",
+            "description": "Read and analyze saved SiFR capture files (sifr-v2 / sifr-v3 JSON with ====METADATA==== / ====SUMMARY==== / ====NODES==…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
