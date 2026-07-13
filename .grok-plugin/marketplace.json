@@ -44,6 +44,19 @@
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
     },
     {
+      "name": "e2llm",
+      "description": "E2LLM gives your AI eyes and hands in a real browser -- structured perception (SiFR) plus action, working with the AI you already use.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/e2llm/e2llm-sifr.git",
+        "sha": "0ef18cb71ef4235ae3891085327602869213ac16"
+      },
+      "homepage": "https://e2llm.com",
+      "keywords": ["e2llm", "element to llm", "sifr", "structured browser perception"],
+      "domains": ["e2llm.com", "mcp.e2llm.com", "api.e2llm.com"]
+    },
+    {
       "name": "cloudflare",
       "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
       "category": "development",
