@@ -15,8 +15,14 @@
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
     },
     {
       "name": "sentry",
@@ -28,8 +34,12 @@
         "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
     },
     {
       "name": "chrome-devtools",
@@ -41,7 +51,11 @@
         "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
     },
     {
       "name": "cloudflare",
@@ -53,8 +67,14 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
     },
     {
       "name": "superpowers",
@@ -66,7 +86,9 @@
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
       "name": "mongodb",
@@ -78,8 +100,17 @@
         "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
+      "keywords": [
+        "mongodb",
+        "mongo",
+        "mongosh",
+        "mongodb atlas",
+        "mongoose"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
     },
     {
       "name": "axiom",
@@ -91,8 +122,13 @@
         "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom"],
-      "domains": ["axiom.co", "app.axiom.co"]
+      "keywords": [
+        "axiom"
+      ],
+      "domains": [
+        "axiom.co",
+        "app.axiom.co"
+      ]
     },
     {
       "name": "neon",
@@ -103,12 +139,21 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+      "keywords": [
+        "neon",
+        "neon postgres",
+        "neon database",
+        "neon branch"
+      ],
+      "domains": [
+        "neon.tech",
+        "neon.com",
+        "console.neon.tech"
+      ]
     },
     {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
       "source": {
         "source": "url",
@@ -116,8 +161,14 @@
         "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": ["firecrawl", "fire crawl"],
-      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+      "keywords": [
+        "firecrawl",
+        "fire crawl"
+      ],
+      "domains": [
+        "firecrawl.dev",
+        "docs.firecrawl.dev"
+      ]
     },
     {
       "name": "figma",
@@ -129,8 +180,33 @@
         "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": ["figma", "figma mcp"],
-      "domains": ["figma.com", "www.figma.com"]
+      "keywords": [
+        "figma",
+        "figma mcp"
+      ],
+      "domains": [
+        "figma.com",
+        "www.figma.com"
+      ]
+    },
+    {
+      "name": "gipity",
+      "description": "Gipity cloud for coding agents - hosting, Postgres databases, serverless functions, auth, file storage, realtime, and AI services (image, speech, LLM), driven by the gipity CLI. Skills cover the build-deploy-verify loop plus web apps, 2D/3D games, computer vision, and realtime; hooks auto-sync project files to the cloud.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GipityAI/skills.git",
+        "sha": "90fd54797da9dc4e2ab435dc801eba743f6a538c"
+      },
+      "homepage": "https://gipity.ai",
+      "keywords": [
+        "gipity",
+        "gip",
+        "gipity deploy"
+      ],
+      "domains": [
+        "gipity.ai"
+      ]
     }
   ]
 }
