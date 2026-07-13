@@ -266,6 +266,83 @@
         ]
       }
     },
+    "gipity": {
+      "sha": "90fd54797da9dc4e2ab435dc801eba743f6a538c",
+      "components": {
+        "commands": [
+          {
+            "name": "setup",
+            "description": "Install the Gipity CLI, log in, and link this directory to a Gipity cloud project"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "SubagentStop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "2d-game",
+            "description": "Use when the user wants to build a 2D browser game - platformer, side-scroller, arcade, puzzle, endless runner - and sh…"
+          },
+          {
+            "name": "3d-world",
+            "description": "Use when the user wants a 3D browser game or a multiplayer game - obby, tycoon, simulator, PvP arena, shooter, racing -…"
+          },
+          {
+            "name": "agent-deploy",
+            "description": "Use when an AI agent, script, or CI job needs to deploy to or operate Gipity WITHOUT a human present to complete an int…"
+          },
+          {
+            "name": "app-realtime",
+            "description": "Use when the user wants realtime multiplayer, live presence, chat, or shared live state in a web app - rooms, lobbies,…"
+          },
+          {
+            "name": "chatbot",
+            "description": "Use when the user wants to add a configurable AI chatbot/assistant to a web app - a help bubble in the corner, a suppor…"
+          },
+          {
+            "name": "gipity",
+            "description": "Use when the user mentions Gipity, or when they want to put something built in this session on the internet - deploy/ho…"
+          },
+          {
+            "name": "plans",
+            "description": "Use when a user hits a plan limit or runs low on credits, asks what Gipity costs / which plan to pick / how to upgrade,…"
+          },
+          {
+            "name": "web-app-basics",
+            "description": "Use when the user wants to build and put online a full-stack web app - a site or tool with a real backend: database, AP…"
+          },
+          {
+            "name": "web-vision-detect",
+            "description": "Use when the user wants real-time object detection in a web app - boxing, labeling, or counting things from the camera…"
+          },
+          {
+            "name": "web-vision-mediapipe",
+            "description": "Use when the user wants an app that sees through the camera - gesture recognition, body/pose tracking, object detection…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
