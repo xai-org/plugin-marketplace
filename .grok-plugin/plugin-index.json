@@ -150,6 +150,26 @@
         ]
       }
     },
+    "composio": {
+      "sha": "5858b999c96438433a6a4ca1090f5a69a32925b6",
+      "components": {
+        "commands": [
+          {
+            "name": "composio-connect",
+            "description": "Connect an app/toolkit to Composio via managed OAuth (e.g. Slack, GitHub, Gmail)."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
       "components": {

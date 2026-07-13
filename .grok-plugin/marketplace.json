@@ -131,6 +131,20 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "composio",
+      "description": "Connect Grok to 1,000+ apps — Slack, GitHub, Gmail, Notion, Linear, and more — with fully managed OAuth. The composio CLI resolves the right tool just-in-time: search a task, then execute it.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ComposioHQ/composio-plugin-cc.git",
+        "sha": "5858b999c96438433a6a4ca1090f5a69a32925b6",
+        "path": "plugins/composio"
+      },
+      "homepage": "https://composio.dev",
+      "keywords": ["composio", "composio cli", "composio toolkits"],
+      "domains": ["composio.dev", "app.composio.dev", "docs.composio.dev"]
     }
   ]
 }
