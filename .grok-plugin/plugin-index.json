@@ -331,6 +331,29 @@
         ]
       }
     },
+    "railway": {
+      "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "railway",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-railway",
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
       "components": {
