@@ -134,12 +134,12 @@
     },
     {
       "name": "railway",
-      "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, and object storage buckets, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
+      "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "770b6d16afd8257cc968a0ada598a2e52ecc8a9d",
+        "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
