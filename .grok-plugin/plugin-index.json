@@ -266,6 +266,29 @@
         ]
       }
     },
+    "grok-peer": {
+      "sha": "19d3c1f3a965d84751d1bb2dfa0d46240b8692f7",
+      "components": {
+        "commands": [
+          {
+            "name": "codex-adversarial",
+            "description": "Adversarial peer review via Codex — challenge design, races, security"
+          },
+          {
+            "name": "codex-review",
+            "description": "Peer review via local Codex CLI (read-only) — like Claude's /codex:review"
+          },
+          {
+            "name": "kimi-analyze",
+            "description": "Bulk codebase analysis via local Kimi CLI — cheap long-context reader peer"
+          },
+          {
+            "name": "peer-setup",
+            "description": "Check that peer CLIs (Codex, Kimi) are installed and ready for /codex-* and /kimi-analyze"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "components": {
