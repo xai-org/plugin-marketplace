@@ -131,6 +131,19 @@
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
       "domains": ["figma.com", "www.figma.com"]
+    },
+    {
+      "name": "grok-peer",
+      "description": "Peer slash commands for Grok Build: call local Codex for code review and Kimi for bulk codebase analysis (/codex-review, /codex-adversarial, /kimi-analyze, /peer-setup).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/howardpen9/grok-peer.git",
+        "sha": "19d3c1f3a965d84751d1bb2dfa0d46240b8692f7"
+      },
+      "homepage": "https://github.com/howardpen9/grok-peer",
+      "keywords": ["grok-peer", "codex-review", "kimi-analyze", "peer-review", "grok-build"]
     }
+
   ]
 }
