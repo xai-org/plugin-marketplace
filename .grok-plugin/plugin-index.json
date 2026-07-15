@@ -3,6 +3,7 @@
   "plugins": {
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
+      "version": "1.0.0",
       "components": {
         "mcpServers": [
           {
@@ -44,6 +45,7 @@
     },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
+      "version": "0.22.0",
       "components": {
         "mcpServers": [
           {
@@ -81,6 +83,7 @@
     },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
+      "version": "1.0.0",
       "components": {
         "commands": [
           {
@@ -152,6 +155,7 @@
     },
     "figma": {
       "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
+      "version": "2.2.68",
       "components": {
         "mcpServers": [
           {
@@ -209,6 +213,7 @@
     },
     "firecrawl": {
       "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
+      "version": "1.1.0",
       "components": {
         "commands": [
           {
@@ -268,6 +273,7 @@
     },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -308,6 +314,7 @@
       }
     },
     "neon": {
+      "version": "1.0.0",
       "components": {
         "mcpServers": [
           {
@@ -333,6 +340,7 @@
     },
     "railway": {
       "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
+      "version": "1.3.5",
       "components": {
         "hooks": [
           {
@@ -356,6 +364,7 @@
     },
     "sentry": {
       "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
+      "version": "1.0.0",
       "components": {
         "commands": [
           {
@@ -507,6 +516,7 @@
     },
     "superpowers": {
       "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
+      "version": "5.1.0",
       "components": {
         "hooks": [
           {
@@ -576,6 +586,7 @@
     },
     "vercel": {
       "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
+      "version": "0.42.1",
       "components": {
         "agents": [
           {

@@ -1,7 +1,8 @@
 name: Bump plugin SHAs
 
-# Discover url-source pins whose upstream HEAD has moved, regenerate the
-# plugin index at the new SHA, and open a stacked PR set:
+# Discover url-source pins whose upstream HEAD has moved *and* plugin.json
+# version changed (via shared plugin_catalog extract), regenerate the plugin
+# index at the new SHA, and open a stacked PR set:
 #
 #   main
 #     └── bump/daily-YYYY-MM-DD            (PR → main)

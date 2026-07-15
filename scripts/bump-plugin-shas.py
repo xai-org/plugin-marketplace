@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Discover stale url-source pins and open a stacked set of bump PRs.
+"""Discover version-bumped url-source pins and open a stacked set of PRs.
+
+A pin advances only when upstream HEAD moved *and* plugin.json `version`
+differs from the version at the current pin (extracted via plugin_catalog,
+same path as generate-plugin-index). SHA-only tip movement without a version
+change is ignored so everyone on a given version shares that pin.
 
 Stack shape (one run / Pacific day):
 
@@ -9,12 +14,8 @@ Stack shape (one run / Pacific day):
           ├── bump/YYYY-MM-DD/<plugin-b> PR → daily
           └── ...
 
-Every plugin branch is cut from the daily tip and targets daily (fan-out).
-Only the daily PR targets main, so main history stays one landing per day.
-
 Default: if remote `bump/daily-YYYY-MM-DD` already exists, the run is a
-no-op (open, merged, or abandoned). Pass `--force` to rebuild that day's
-stack from current main and force-push daily + plugin branches.
+no-op. Pass `--force` to rebuild that day's stack from current main.
 
 Designed for GitHub Actions with GITHUB_TOKEN (contents + pull-requests write).
 Local: `--dry-run` (no push/PR).
@@ -31,9 +32,12 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+
+import plugin_catalog
 
 try:
     from zoneinfo import ZoneInfo
@@ -44,7 +48,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 CATALOG_PATH = Path(".grok-plugin/marketplace.json")
 INDEX_PATH = Path(".grok-plugin/plugin-index.json")
 INDEX_SCRIPT = Path("scripts/generate-plugin-index.py")
-SHA_RE = re.compile(r"^[0-9a-f]{40}$")
+SHA_RE = plugin_catalog.SHA_RE
 ALLOWED_HOSTS = {"github.com", "gitlab.com", "bitbucket.org"}
 
 
@@ -343,6 +347,8 @@ def apply_plugin_bump(
     name: str,
     old_sha: str,
     new_sha: str,
+    old_version: str,
+    new_version: str,
     url: str,
     branch: str,
     daily_branch: str,
@@ -354,17 +360,22 @@ def apply_plugin_bump(
     """Branch from daily tip, commit one plugin bump, open PR -> daily."""
     short_old = old_sha[:7]
     short_new = new_sha[:7]
-    title = f"chore(plugins): bump {name} {short_old} -> {short_new}"
+    title = (
+        f"chore(plugins): bump {name} {old_version} -> {new_version} "
+        f"({short_old} -> {short_new})"
+    )
     body_lines = [
-        f"Automated pin bump for `{name}`.",
+        f"Automated pin bump for `{name}` after an upstream version change.",
         "",
         f"- **source:** {url}",
-        f"- **old:** `{old_sha}`",
-        f"- **new:** `{new_sha}`",
+        f"- **version:** `{old_version}` -> `{new_version}`",
+        f"- **old sha:** `{old_sha}`",
+        f"- **new sha:** `{new_sha}` (HEAD when version change was observed)",
         f"- **base:** `{daily_branch}`",
         "",
         "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
-        "at the new pin.",
+        "at the new pin. Pins only move when the plugin manifest version changes "
+        "so everyone on a given version shares the same pin.",
         "",
         "Targets the daily base, not `main`. Merge into the daily branch "
         "(or close to drop this bump), then land the daily PR.",
@@ -419,6 +430,12 @@ def discover_candidates(
     only: str,
     freeze: set[str],
 ) -> tuple[list[dict], list[dict]]:
+    """Find url pins where HEAD moved and plugin.json version also changed.
+
+    Version extraction uses plugin_catalog.extract_plugin (same path as the
+    index generator). When only the SHA moved, skip so users on a version
+    stay on that pin until the author bumps version.
+    """
     catalog = load_catalog()
     candidates: list[dict] = []
     skipped: list[dict] = []
@@ -437,6 +454,8 @@ def discover_candidates(
         source = entry["source"]
         url = source.get("url")
         old_sha = source.get("sha")
+        path = source.get("path")
+        subdir = path if isinstance(path, str) and path else None
         if not isinstance(url, str) or not url.startswith("https://"):
             skipped.append({"name": name, "reason": f"bad url {url!r}"})
             continue
@@ -453,16 +472,68 @@ def discover_candidates(
             skipped.append({"name": name, "reason": f"ls-remote failed: {e}"})
             continue
 
-        if new_sha == old_sha.lower():
+        old_sha = old_sha.lower()
+        if new_sha == old_sha:
             skipped.append({"name": name, "reason": "up to date"})
+            continue
+
+        try:
+            with tempfile.TemporaryDirectory(prefix=f"bump-{name}-") as tmp:
+                tmp_root = Path(tmp)
+                pin_rec = plugin_catalog.extract_at_sha(
+                    url,
+                    old_sha,
+                    tmp_root / "pin",
+                    subdir=subdir,
+                    name=name,
+                )
+                head_rec = plugin_catalog.extract_at_sha(
+                    url,
+                    new_sha,
+                    tmp_root / "head",
+                    subdir=subdir,
+                    name=name,
+                )
+        except Exception as e:  # noqa: BLE001
+            skipped.append({"name": name, "reason": f"extract failed: {e}"})
+            continue
+
+        old_version = pin_rec.get("version")
+        new_version = head_rec.get("version")
+        if not old_version:
+            skipped.append(
+                {"name": name, "reason": "no version at pin (set plugin.json version)"}
+            )
+            continue
+        if not new_version:
+            skipped.append(
+                {
+                    "name": name,
+                    "reason": "no version at HEAD (set plugin.json version)",
+                }
+            )
+            continue
+        if old_version == new_version:
+            skipped.append(
+                {
+                    "name": name,
+                    "reason": (
+                        f"sha moved ({old_sha[:7]}->{new_sha[:7]}) but "
+                        f"version still {old_version}"
+                    ),
+                }
+            )
             continue
 
         candidates.append(
             {
                 "name": name,
                 "url": url,
-                "old_sha": old_sha.lower(),
+                "old_sha": old_sha,
                 "new_sha": new_sha,
+                "old_version": old_version,
+                "new_version": new_version,
+                "path": subdir,
             }
         )
 
@@ -592,14 +663,17 @@ def main() -> int:
         for c in candidates:
             plugin_branch = f"bump/{day}/{c['name']}"
             print(
-                f"bump {c['name']}: {c['old_sha'][:7]} -> {c['new_sha'][:7]} "
-                f"({c['url']}) on {plugin_branch} -> {daily_branch}"
+                f"bump {c['name']}: {c['old_version']} -> {c['new_version']} "
+                f"({c['old_sha'][:7]} -> {c['new_sha'][:7]}) "
+                f"on {plugin_branch} -> {daily_branch}"
             )
             try:
                 pr_url = apply_plugin_bump(
                     name=c["name"],
                     old_sha=c["old_sha"],
                     new_sha=c["new_sha"],
+                    old_version=c["old_version"],
+                    new_version=c["new_version"],
                     url=c["url"],
                     branch=plugin_branch,
                     daily_branch=daily_branch,
@@ -613,6 +687,8 @@ def main() -> int:
                         "name": c["name"],
                         "old_sha": c["old_sha"],
                         "new_sha": c["new_sha"],
+                        "old_version": c["old_version"],
+                        "new_version": c["new_version"],
                         "branch": plugin_branch,
                         "base": daily_branch,
                         "pr_url": pr_url or "",
