@@ -60,10 +60,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           BASE_BRANCH: ${{ github.event.repository.default_branch }}
+          # Pass inputs via env so shell never interpolates untrusted text.
+          ONLY_PLUGIN: ${{ inputs.plugin }}
         run: |
           set -euo pipefail
           python3 scripts/bump-plugin-shas.py \
-            --only "${{ inputs.plugin }}" \
+            --only "${ONLY_PLUGIN}" \
             --base-branch "${BASE_BRANCH}" \
             --github-output "$GITHUB_OUTPUT"
 
