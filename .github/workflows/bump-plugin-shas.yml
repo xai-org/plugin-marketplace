@@ -25,10 +25,6 @@ on:
     - cron: "0 15 * * *"
   workflow_dispatch:
     inputs:
-      max_bumps:
-        description: Cap on plugins bumped this run
-        required: false
-        default: "10"
       plugin:
         description: Bump only this plugin name (exact catalog name; empty = all stale)
         required: false
@@ -67,7 +63,6 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/bump-plugin-shas.py \
-            --max-bumps "${{ inputs.max_bumps || '10' }}" \
             --only "${{ inputs.plugin }}" \
             --base-branch "${BASE_BRANCH}" \
             --github-output "$GITHUB_OUTPUT"

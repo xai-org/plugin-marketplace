@@ -22,7 +22,7 @@ Designed for GitHub Actions with GITHUB_TOKEN (contents + pull-requests write).
 Local: `--dry-run` (no push/PR).
 
 Usage:
-  python3 scripts/bump-plugin-shas.py [--dry-run] [--max-bumps N] [--only NAME]
+  python3 scripts/bump-plugin-shas.py [--dry-run] [--only NAME]
 """
 
 from __future__ import annotations
@@ -430,7 +430,6 @@ def discover_candidates(
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--max-bumps", type=int, default=10)
     parser.add_argument("--only", default="", help="Exact plugin name to bump")
     parser.add_argument(
         "--base-branch",
@@ -469,8 +468,6 @@ def main() -> int:
         start_ref = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
 
     candidates, skipped = discover_candidates(only=only, freeze=freeze)
-    if args.max_bumps >= 0:
-        candidates = candidates[: args.max_bumps]
 
     print(f"day={day} daily_branch={daily_branch}")
     print(f"candidates={len(candidates)} skipped={len(skipped)}")
