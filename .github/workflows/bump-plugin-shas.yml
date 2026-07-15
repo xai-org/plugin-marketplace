@@ -1,0 +1,87 @@
+name: Bump plugin SHAs
+
+# Discover url-source pins whose upstream HEAD has moved, regenerate the
+# plugin index at the new SHA, and open one PR per plugin on branch
+# bump/<name>. Manual review only; no auto-merge.
+#
+# Uses the default GITHUB_TOKEN (contents + pull-requests + actions write).
+# PRs opened with GITHUB_TOKEN do not trigger on:pull_request, so after each
+# bump PR we re-dispatch validate-catalog.yml against the bump branch so the
+# required `validate` check can go green.
+#
+# Runs daily at 7am Pacific (15:00 UTC) and on workflow_dispatch.
+
+on:
+  schedule:
+    # 7am Pacific: 15:00 UTC (7am PST / 8am PDT). GitHub cron is UTC-only.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      max_bumps:
+        description: Cap on plugins bumped this run
+        required: false
+        default: "10"
+      plugin:
+        description: Bump only this plugin name (exact catalog name; empty = all stale)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: bump-plugin-shas
+  cancel-in-progress: false
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          # Default GITHUB_TOKEN is enough to push bump/* and open PRs.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.11"
+
+      - name: Discover stale pins and open bump PRs
+        id: bump
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          python3 scripts/bump-plugin-shas.py \
+            --max-bumps "${{ inputs.max_bumps || '10' }}" \
+            --only "${{ inputs.plugin }}" \
+            --base-branch "${BASE_BRANCH}" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Dispatch validate-catalog on each bump branch
+        if: steps.bump.outputs.pr-urls != '' && steps.bump.outputs.pr-urls != '[]'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URLS: ${{ steps.bump.outputs.pr-urls }}
+        run: |
+          set -euo pipefail
+          failures="$(mktemp)"
+          jq -c '.[]' <<<"$PR_URLS" | while read -r entry; do
+            branch=$(jq -r '.branch' <<<"$entry")
+            name=$(jq -r '.name' <<<"$entry")
+            echo "Dispatching validate-catalog.yml against $branch ($name)"
+            if ! gh workflow run validate-catalog.yml --ref "$branch"; then
+              echo "::error::Failed to dispatch validate-catalog.yml against $branch ($name)"
+              echo "$branch" >> "$failures"
+            fi
+          done
+          if [ -s "$failures" ]; then
+            echo "::error::$(wc -l < "$failures" | tr -d ' ') validate dispatch(es) failed"
+            exit 1
+          fi
