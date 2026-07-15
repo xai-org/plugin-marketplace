@@ -4,21 +4,19 @@
 Stack shape (one run / Pacific day):
 
   main
-    └── bump/daily-YYYY-MM-DD          PR → main
-          └── bump/YYYY-MM-DD/<plugin> PR → daily (then linear on previous tip)
-                └── bump/YYYY-MM-DD/<next>
-                      └── ...
+    └── bump/daily-YYYY-MM-DD            PR → main
+          ├── bump/YYYY-MM-DD/<plugin-a> PR → daily
+          ├── bump/YYYY-MM-DD/<plugin-b> PR → daily
+          └── ...
 
-Only the daily PR targets main, so main's history stays one merge per day
-after the stack is reviewed. Per-plugin PRs are for isolated review of each
-pin bump.
+Every plugin branch is cut from the daily tip and targets daily (fan-out).
+Only the daily PR targets main, so main history stays one landing per day.
 
 For each url-source entry:
 
   1. Resolve upstream HEAD via `git ls-remote`
   2. If HEAD != pinned sha, treat as a candidate
-  3. Apply bumps in a linear stack on top of the daily branch
-  4. Each step: update the pin, regenerate the plugin index, commit, push, open PR
+  3. Branch from daily, update pin + regenerate plugin index, open PR → daily
 
 Designed for GitHub Actions with GITHUB_TOKEN (contents + pull-requests write).
 Local: `--dry-run` (no push/PR).
@@ -216,7 +214,7 @@ def ensure_pr(
     dry_run: bool,
 ) -> str | None:
     if dry_run:
-        print(f"[dry-run] would open PR {head} → {base}: {title}")
+        print(f"[dry-run] would open PR {head} -> {base}: {title}")
         return None
 
     existing = open_pr_for_branch(head)
@@ -256,15 +254,18 @@ def open_daily_base(
     day: str,
     run_url: str,
     dry_run: bool,
-) -> str | None:
-    """Create daily branch at main tip (no extra commit) and PR it into main."""
+) -> tuple[str | None, str]:
+    """Create daily branch from main (marker commit) and PR it into main.
+
+    Returns (pr_url, daily_tip_sha). dry-run returns (None, fake sha).
+    """
     title = f"chore(plugins): daily pin bumps {day}"
     body_lines = [
-        f"Daily stack base for plugin pin bumps on **{day}** (Pacific).",
+        f"Daily base for plugin pin bumps on **{day}** (Pacific).",
         "",
-        "Per-plugin PRs stack on top of this branch. Review those for each",
-        "upstream diff; merge this PR into `main` only after the stack is",
-        "accepted (keeps main history to one landing per day).",
+        "Per-plugin PRs all target this branch (fan-out from daily). Review",
+        "and merge the ones you want into this branch, then land this PR into",
+        "`main` so history stays one landing per day.",
         "",
         "No auto-merge.",
     ]
@@ -273,15 +274,14 @@ def open_daily_base(
     body = "\n".join(body_lines) + "\n"
 
     if dry_run:
-        print(f"[dry-run] would open daily base {daily_branch} → {main_branch}")
-        return None
+        print(f"[dry-run] would open daily base {daily_branch} -> {main_branch}")
+        return None, "0" * 40
 
     head = origin_base(main_branch)
     git_identity()
     run(["git", "checkout", "--detach", head], check=True)
     run(["git", "checkout", "-B", daily_branch], check=True)
-    # Empty marker commit so the daily → main PR can open (GitHub rejects
-    # empty branch diffs). Plugin commits stack on top of this.
+    # Marker commit so the daily -> main PR can open (GitHub rejects empty diffs).
     run(
         [
             "git",
@@ -292,14 +292,16 @@ def open_daily_base(
         ],
         check=True,
     )
+    tip = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
     push_branch(daily_branch)
-    return ensure_pr(
+    pr_url = ensure_pr(
         head=daily_branch,
         base=main_branch,
         title=title,
         body=body,
         dry_run=False,
     )
+    return pr_url, tip
 
 
 def apply_plugin_bump(
@@ -309,15 +311,12 @@ def apply_plugin_bump(
     new_sha: str,
     url: str,
     branch: str,
-    parent_branch: str,
-    parent_sha: str,
+    daily_branch: str,
+    daily_sha: str,
     run_url: str,
     dry_run: bool,
-) -> tuple[str | None, str]:
-    """Create plugin branch from parent tip, commit bump, open PR → parent.
-
-    Returns (pr_url, new_tip_sha).
-    """
+) -> str | None:
+    """Branch from daily tip, commit one plugin bump, open PR -> daily."""
     short_old = old_sha[:7]
     short_new = new_sha[:7]
     title = f"chore(plugins): bump {name} {short_old} -> {short_new}"
@@ -327,13 +326,13 @@ def apply_plugin_bump(
         f"- **source:** {url}",
         f"- **old:** `{old_sha}`",
         f"- **new:** `{new_sha}`",
-        f"- **stacks on:** `{parent_branch}`",
+        f"- **base:** `{daily_branch}`",
         "",
         "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
         "at the new pin.",
         "",
-        "Part of the daily stack; do not merge this into `main` directly. "
-        "Merge up into the daily base, then land the daily PR.",
+        "Targets the daily base, not `main`. Merge into the daily branch "
+        "(or close to drop this bump), then land the daily PR.",
         "",
         "Human review still required (no auto-merge).",
     ]
@@ -343,13 +342,14 @@ def apply_plugin_bump(
 
     if dry_run:
         print(
-            f"[dry-run] would open PR {branch} → {parent_branch}: {title} "
-            f"(parent={parent_sha[:7]})"
+            f"[dry-run] would open PR {branch} -> {daily_branch}: {title} "
+            f"(from daily {daily_sha[:7]})"
         )
-        return None, parent_sha
+        return None
 
     git_identity()
-    run(["git", "checkout", "--detach", parent_sha], check=True)
+    # Always cut from the daily tip so siblings are independent.
+    run(["git", "checkout", "--detach", daily_sha], check=True)
     run(["git", "checkout", "-B", branch], check=True)
 
     replace_sha_in_catalog(name, old_sha, new_sha)
@@ -361,17 +361,15 @@ def apply_plugin_bump(
         raise RuntimeError(f"no file changes after bumping {name}")
 
     run(["git", "commit", "-m", title], check=True)
-    tip = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
     push_branch(branch)
 
-    pr_url = ensure_pr(
+    return ensure_pr(
         head=branch,
-        base=parent_branch,
+        base=daily_branch,
         title=title,
         body=body,
         dry_run=False,
     )
-    return pr_url, tip
 
 
 def discover_candidates(
@@ -437,7 +435,7 @@ def main() -> int:
     parser.add_argument(
         "--base-branch",
         default=os.environ.get("BASE_BRANCH", "main"),
-        help="Default branch (stack root). Daily PR targets this.",
+        help="Default branch. Daily PR targets this.",
     )
     parser.add_argument(
         "--day",
@@ -520,7 +518,7 @@ def main() -> int:
             return 0
 
     try:
-        daily_pr = open_daily_base(
+        daily_pr, daily_sha = open_daily_base(
             daily_branch=daily_branch,
             main_branch=args.base_branch,
             day=day,
@@ -536,31 +534,21 @@ def main() -> int:
             }
         )
 
-        if args.dry_run:
-            parent_branch = daily_branch
-            parent_sha = "dry-run"
-        else:
-            parent_branch = daily_branch
-            parent_sha = run(
-                ["git", "rev-parse", f"refs/heads/{daily_branch}"],
-                check=True,
-            ).stdout.strip()
-
         for c in candidates:
             plugin_branch = f"bump/{day}/{c['name']}"
             print(
                 f"bump {c['name']}: {c['old_sha'][:7]} -> {c['new_sha'][:7]} "
-                f"({c['url']}) on {plugin_branch} → {parent_branch}"
+                f"({c['url']}) on {plugin_branch} -> {daily_branch}"
             )
             try:
-                pr_url, parent_sha = apply_plugin_bump(
+                pr_url = apply_plugin_bump(
                     name=c["name"],
                     old_sha=c["old_sha"],
                     new_sha=c["new_sha"],
                     url=c["url"],
                     branch=plugin_branch,
-                    parent_branch=parent_branch,
-                    parent_sha=parent_sha if parent_sha != "dry-run" else "0" * 40,
+                    daily_branch=daily_branch,
+                    daily_sha=daily_sha,
                     run_url=run_url,
                     dry_run=args.dry_run,
                 )
@@ -570,53 +558,48 @@ def main() -> int:
                         "old_sha": c["old_sha"],
                         "new_sha": c["new_sha"],
                         "branch": plugin_branch,
-                        "base": parent_branch,
+                        "base": daily_branch,
                         "pr_url": pr_url or "",
                     }
                 )
-                parent_branch = plugin_branch
             except Exception as e:  # noqa: BLE001
                 msg = f"{c['name']}: {e}"
                 errors.append(msg)
                 print(f"ERROR: {msg}", file=sys.stderr)
-                # Stop the stack here; later plugins would base on a failed tip.
-                break
     finally:
         if not args.dry_run:
             run(["git", "checkout", "-f", start_ref], check=False)
 
-    # Point daily PR body at children once we know them (best-effort).
     if not args.dry_run and daily_pr and len(pr_urls) > 1:
         child_lines = [
             f"- `{e['branch']}` ({e['name']}): {e['pr_url'] or 'opened'}"
             for e in pr_urls
             if e.get("name") != "_daily"
         ]
-        try:
-            run(
-                [
-                    "gh",
-                    "pr",
-                    "edit",
-                    daily_branch,
-                    "--body",
-                    "\n".join(
-                        [
-                            f"Daily stack base for plugin pin bumps on **{day}** (Pacific).",
-                            "",
-                            "Stacked plugin PRs (merge upward into this branch, then land this PR):",
-                            *child_lines,
-                            "",
-                            "No auto-merge.",
-                            *(["", f"Triggered by: {run_url}"] if run_url else []),
-                        ]
-                    )
-                    + "\n",
-                ],
-                check=False,
-            )
-        except Exception:  # noqa: BLE001
-            pass
+        run(
+            [
+                "gh",
+                "pr",
+                "edit",
+                daily_branch,
+                "--body",
+                "\n".join(
+                    [
+                        f"Daily base for plugin pin bumps on **{day}** (Pacific).",
+                        "",
+                        "Plugin PRs (all target this branch; merge or close independently):",
+                        *child_lines,
+                        "",
+                        "Land this PR into `main` after the desired plugins are merged here.",
+                        "",
+                        "No auto-merge.",
+                        *(["", f"Triggered by: {run_url}"] if run_url else []),
+                    ]
+                )
+                + "\n",
+            ],
+            check=False,
+        )
 
     payload = json.dumps(pr_urls, separators=(",", ":"))
     print(f"pr-urls={payload}")

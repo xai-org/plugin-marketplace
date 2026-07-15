@@ -4,12 +4,13 @@ name: Bump plugin SHAs
 # plugin index at the new SHA, and open a stacked PR set:
 #
 #   main
-#     └── bump/daily-YYYY-MM-DD          (PR → main)
-#           └── bump/YYYY-MM-DD/<plugin> (PR → daily / previous tip)
-#                 └── ...
+#     └── bump/daily-YYYY-MM-DD            (PR → main)
+#           ├── bump/YYYY-MM-DD/<plugin-a> (PR → daily)
+#           ├── bump/YYYY-MM-DD/<plugin-b> (PR → daily)
+#           └── ...
 #
-# Only the daily PR targets main, so main history stays one landing per day.
-# Manual review only; no auto-merge.
+# All plugin PRs fan out from daily. Only the daily PR targets main, so main
+# history stays one landing per day. Manual review only; no auto-merge.
 #
 # Uses the default GITHUB_TOKEN (contents + pull-requests + actions write).
 # PRs opened with GITHUB_TOKEN do not trigger on:pull_request, so after each
