@@ -12,17 +12,15 @@ Stack shape (one run / Pacific day):
 Every plugin branch is cut from the daily tip and targets daily (fan-out).
 Only the daily PR targets main, so main history stays one landing per day.
 
-For each url-source entry:
-
-  1. Resolve upstream HEAD via `git ls-remote`
-  2. If HEAD != pinned sha, treat as a candidate
-  3. Branch from daily, update pin + regenerate plugin index, open PR → daily
+Default: if remote `bump/daily-YYYY-MM-DD` already exists, the run is a
+no-op (open, merged, or abandoned). Pass `--force` to rebuild that day's
+stack from current main and force-push daily + plugin branches.
 
 Designed for GitHub Actions with GITHUB_TOKEN (contents + pull-requests write).
 Local: `--dry-run` (no push/PR).
 
 Usage:
-  python3 scripts/bump-plugin-shas.py [--dry-run] [--only NAME]
+  python3 scripts/bump-plugin-shas.py [--dry-run] [--force] [--only NAME]
 """
 
 from __future__ import annotations
@@ -123,7 +121,20 @@ def ls_remote_head(url: str) -> str:
     return sha
 
 
+def remote_branch_exists(branch: str) -> bool:
+    """True if origin has refs/heads/<branch>. Fails hard on git errors."""
+    result = run(
+        ["git", "ls-remote", "--heads", "origin", f"refs/heads/{branch}"],
+        check=True,
+    )
+    return bool((result.stdout or "").strip())
+
+
 def open_pr_for_branch(branch: str) -> str | None:
+    """Return open PR URL for head branch, or None if none.
+
+    Raises on `gh` failure so we never treat API errors as "no PR".
+    """
     result = run(
         [
             "gh",
@@ -138,10 +149,8 @@ def open_pr_for_branch(branch: str) -> str | None:
             "--jq",
             ".[0].url // empty",
         ],
-        check=False,
+        check=True,
     )
-    if result.returncode != 0:
-        return None
     url = (result.stdout or "").strip()
     return url or None
 
@@ -205,6 +214,13 @@ def origin_base(base_branch: str) -> str:
     return (result.stdout or "").strip()
 
 
+def hard_reset_to(sha: str) -> None:
+    """Detach at sha with a clean tree (isolates failures across plugins)."""
+    run(["git", "checkout", "--detach", sha], check=True)
+    run(["git", "reset", "--hard", sha], check=True)
+    run(["git", "clean", "-fd"], check=True)
+
+
 def ensure_pr(
     *,
     head: str,
@@ -243,8 +259,21 @@ def ensure_pr(
     return pr_url
 
 
-def push_branch(branch: str) -> None:
-    run(["git", "push", "--force", "origin", f"HEAD:refs/heads/{branch}"], check=True)
+def push_branch(branch: str, *, force: bool) -> None:
+    cmd = ["git", "push"]
+    if force:
+        cmd.append("--force")
+    cmd.extend(["origin", f"HEAD:refs/heads/{branch}"])
+    run(cmd, check=True)
+
+
+def write_github_output(path: str, pr_urls: list[dict], bumped_count: int) -> None:
+    payload = json.dumps(pr_urls, separators=(",", ":"))
+    print(f"pr-urls={payload}")
+    if path:
+        with open(path, "a", encoding="utf-8") as fh:
+            fh.write(f"pr-urls={payload}\n")
+            fh.write(f"bumped_count={bumped_count}\n")
 
 
 def open_daily_base(
@@ -253,9 +282,10 @@ def open_daily_base(
     main_branch: str,
     day: str,
     run_url: str,
+    force: bool,
     dry_run: bool,
 ) -> tuple[str | None, str]:
-    """Create daily branch from main (marker commit) and PR it into main.
+    """Create or rebuild daily branch from main; PR it into main.
 
     Returns (pr_url, daily_tip_sha). dry-run returns (None, fake sha).
     """
@@ -269,17 +299,20 @@ def open_daily_base(
         "",
         "No auto-merge.",
     ]
+    if force:
+        body_lines.extend(["", "Rebuilt with `--force` from current main."])
     if run_url:
         body_lines.extend(["", f"Triggered by: {run_url}"])
     body = "\n".join(body_lines) + "\n"
 
     if dry_run:
-        print(f"[dry-run] would open daily base {daily_branch} -> {main_branch}")
+        action = "rebuild (force)" if force else "create"
+        print(f"[dry-run] would {action} daily base {daily_branch} -> {main_branch}")
         return None, "0" * 40
 
     head = origin_base(main_branch)
     git_identity()
-    run(["git", "checkout", "--detach", head], check=True)
+    hard_reset_to(head)
     run(["git", "checkout", "-B", daily_branch], check=True)
     # Marker commit so the daily -> main PR can open (GitHub rejects empty diffs).
     run(
@@ -293,7 +326,8 @@ def open_daily_base(
         check=True,
     )
     tip = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
-    push_branch(daily_branch)
+    # First create: non-force push. Rebuild: force-push over the existing tip.
+    push_branch(daily_branch, force=force)
     pr_url = ensure_pr(
         head=daily_branch,
         base=main_branch,
@@ -314,6 +348,7 @@ def apply_plugin_bump(
     daily_branch: str,
     daily_sha: str,
     run_url: str,
+    force: bool,
     dry_run: bool,
 ) -> str | None:
     """Branch from daily tip, commit one plugin bump, open PR -> daily."""
@@ -343,25 +378,32 @@ def apply_plugin_bump(
     if dry_run:
         print(
             f"[dry-run] would open PR {branch} -> {daily_branch}: {title} "
-            f"(from daily {daily_sha[:7]})"
+            f"(from daily {daily_sha[:7]}, force={force})"
         )
         return None
 
     git_identity()
-    # Always cut from the daily tip so siblings are independent.
-    run(["git", "checkout", "--detach", daily_sha], check=True)
+    # Clean cut from daily tip so a prior plugin failure cannot leak dirty files.
+    hard_reset_to(daily_sha)
     run(["git", "checkout", "-B", branch], check=True)
 
-    replace_sha_in_catalog(name, old_sha, new_sha)
-    regenerate_index()
+    try:
+        replace_sha_in_catalog(name, old_sha, new_sha)
+        regenerate_index()
 
-    run(["git", "add", "--", str(CATALOG_PATH), str(INDEX_PATH)], check=True)
-    status = run(["git", "status", "--porcelain"], check=True)
-    if not (status.stdout or "").strip():
-        raise RuntimeError(f"no file changes after bumping {name}")
+        run(["git", "add", "--", str(CATALOG_PATH), str(INDEX_PATH)], check=True)
+        status = run(["git", "status", "--porcelain"], check=True)
+        if not (status.stdout or "").strip():
+            raise RuntimeError(f"no file changes after bumping {name}")
 
-    run(["git", "commit", "-m", title], check=True)
-    push_branch(branch)
+        run(["git", "commit", "-m", title], check=True)
+        # force=True when rebuilding the day; otherwise create-only push.
+        # If the plugin branch already exists without --force, push fails closed.
+        push_branch(branch, force=force)
+    except Exception:
+        # Leave a clean tree for the next candidate even if this one failed.
+        hard_reset_to(daily_sha)
+        raise
 
     return ensure_pr(
         head=branch,
@@ -427,9 +469,22 @@ def discover_candidates(
     return candidates, skipped
 
 
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, "").strip().lower() in {"1", "true", "yes", "on"}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help=(
+            "Rebuild today's stack even if bump/daily-YYYY-MM-DD already exists "
+            "on origin. Force-pushes daily and plugin branches. "
+            "Also set via FORCE_BUMP=true."
+        ),
+    )
     parser.add_argument("--only", default="", help="Exact plugin name to bump")
     parser.add_argument(
         "--base-branch",
@@ -458,6 +513,7 @@ def main() -> int:
     run_url = os.environ.get("RUN_URL", "")
     day = args.day.strip() or pacific_date()
     daily_branch = f"bump/daily-{day}"
+    force = bool(args.force) or env_flag("FORCE_BUMP")
 
     if not args.dry_run:
         ensure_clean_worktree()
@@ -469,50 +525,45 @@ def main() -> int:
 
     candidates, skipped = discover_candidates(only=only, freeze=freeze)
 
-    print(f"day={day} daily_branch={daily_branch}")
+    print(f"day={day} daily_branch={daily_branch} force={force}")
     print(f"candidates={len(candidates)} skipped={len(skipped)}")
     for s in skipped:
         print(f"  skip {s['name']}: {s['reason']}")
 
     pr_urls: list[dict] = []
     errors: list[str] = []
+    daily_pr: str | None = None
 
     if not candidates:
         print("nothing to bump")
-        payload = json.dumps(pr_urls, separators=(",", ":"))
-        print(f"pr-urls={payload}")
-        if args.github_output:
-            with open(args.github_output, "a", encoding="utf-8") as fh:
-                fh.write(f"pr-urls={payload}\n")
-                fh.write("bumped_count=0\n")
+        write_github_output(args.github_output, pr_urls, 0)
         return 0
 
-    # One open daily stack per Pacific day. Re-runs wait for that PR to close.
-    if not args.dry_run:
-        existing_daily = open_pr_for_branch(daily_branch)
-        if existing_daily:
-            print(
-                f"daily stack already open for {day}: {existing_daily}; "
-                "skipping (close it or wait for merge before re-running)"
-            )
-            payload = json.dumps(
-                [
-                    {
-                        "name": "_daily",
-                        "branch": daily_branch,
-                        "base": args.base_branch,
-                        "pr_url": existing_daily,
-                        "skipped": True,
-                    }
-                ],
-                separators=(",", ":"),
-            )
-            print(f"pr-urls={payload}")
-            if args.github_output:
-                with open(args.github_output, "a", encoding="utf-8") as fh:
-                    fh.write(f"pr-urls={payload}\n")
-                    fh.write("bumped_count=0\n")
-            return 0
+    # Gate on remote branch existence (not open PR). Merged/closed daily still
+    # leaves the ref around unless deleted, so same-day re-runs stay no-ops.
+    daily_exists = remote_branch_exists(daily_branch)
+    if daily_exists and not force:
+        print(
+            f"remote branch {daily_branch} already exists; no-op "
+            "(pass --force to rebuild and force-push this day's stack)"
+        )
+        write_github_output(
+            args.github_output,
+            [
+                {
+                    "name": "_daily",
+                    "branch": daily_branch,
+                    "base": args.base_branch,
+                    "pr_url": "",
+                    "skipped": True,
+                }
+            ],
+            0,
+        )
+        return 0
+
+    if daily_exists and force:
+        print(f"remote branch {daily_branch} exists; --force rebuild from main")
 
     try:
         daily_pr, daily_sha = open_daily_base(
@@ -520,8 +571,11 @@ def main() -> int:
             main_branch=args.base_branch,
             day=day,
             run_url=run_url,
+            force=force or daily_exists,
             dry_run=args.dry_run,
         )
+        # First create: force=False for push. But if daily_exists we must force.
+        # open_daily_base already got force=force or daily_exists.
         pr_urls.append(
             {
                 "name": "_daily",
@@ -530,6 +584,10 @@ def main() -> int:
                 "pr_url": daily_pr or "",
             }
         )
+
+        # Plugin pushes: force when rebuilding the day so existing plugin
+        # branches are rewritten onto the new daily tip.
+        plugin_force = force or daily_exists
 
         for c in candidates:
             plugin_branch = f"bump/{day}/{c['name']}"
@@ -547,6 +605,7 @@ def main() -> int:
                     daily_branch=daily_branch,
                     daily_sha=daily_sha,
                     run_url=run_url,
+                    force=plugin_force,
                     dry_run=args.dry_run,
                 )
                 pr_urls.append(
@@ -598,13 +657,8 @@ def main() -> int:
             check=False,
         )
 
-    payload = json.dumps(pr_urls, separators=(",", ":"))
-    print(f"pr-urls={payload}")
-    if args.github_output:
-        with open(args.github_output, "a", encoding="utf-8") as fh:
-            fh.write(f"pr-urls={payload}\n")
-            bumped = sum(1 for e in pr_urls if e.get("name") != "_daily")
-            fh.write(f"bumped_count={bumped}\n")
+    bumped = sum(1 for e in pr_urls if e.get("name") != "_daily")
+    write_github_output(args.github_output, pr_urls, bumped)
 
     if errors:
         print(f"{len(errors)} bump(s) failed", file=sys.stderr)

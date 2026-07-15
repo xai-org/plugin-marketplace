@@ -12,6 +12,9 @@ name: Bump plugin SHAs
 # All plugin PRs fan out from daily. Only the daily PR targets main, so main
 # history stays one landing per day. Manual review only; no auto-merge.
 #
+# If remote bump/daily-YYYY-MM-DD already exists, the run is a no-op unless
+# workflow_dispatch sets force=true (rebuild from main, force-push stack).
+#
 # Uses the default GITHUB_TOKEN (contents + pull-requests + actions write).
 # PRs opened with GITHUB_TOKEN do not trigger on:pull_request, so after each
 # bump branch we re-dispatch validate-catalog.yml so the required `validate`
@@ -29,6 +32,11 @@ on:
         description: Bump only this plugin name (exact catalog name; empty = all stale)
         required: false
         default: ""
+      force:
+        description: Rebuild today's stack even if bump/daily-* already exists (force-push)
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -62,23 +70,29 @@ jobs:
           BASE_BRANCH: ${{ github.event.repository.default_branch }}
           # Pass inputs via env so shell never interpolates untrusted text.
           ONLY_PLUGIN: ${{ inputs.plugin }}
+          FORCE_BUMP: ${{ inputs.force }}
         run: |
           set -euo pipefail
+          extra=()
+          case "${FORCE_BUMP:-}" in
+            true|True|TRUE|1|yes|YES|on|ON) extra+=(--force) ;;
+          esac
           python3 scripts/bump-plugin-shas.py \
             --only "${ONLY_PLUGIN}" \
             --base-branch "${BASE_BRANCH}" \
-            --github-output "$GITHUB_OUTPUT"
+            --github-output "$GITHUB_OUTPUT" \
+            "${extra[@]}"
 
       - name: Dispatch validate-catalog on each stack branch
-        if: steps.bump.outputs.pr-urls != '' && steps.bump.outputs.pr-urls != '[]'
+        # Run even when the bump step exits 1 after partial success so opened
+        # GITHUB_TOKEN PRs still get the required validate check.
+        if: ${{ !cancelled() && steps.bump.outputs.pr-urls != '' && steps.bump.outputs.pr-urls != '[]' }}
         env:
           GH_TOKEN: ${{ github.token }}
           PR_URLS: ${{ steps.bump.outputs.pr-urls }}
         run: |
           set -euo pipefail
           failures="$(mktemp)"
-          # Validate every branch that carries commits (skip pure daily base if
-          # it is only a pointer at main; still dispatch — validate is cheap).
           jq -c '.[] | select(.skipped != true)' <<<"$PR_URLS" | while read -r entry; do
             branch=$(jq -r '.branch' <<<"$entry")
             name=$(jq -r '.name' <<<"$entry")
