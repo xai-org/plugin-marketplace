@@ -1,13 +1,20 @@
 name: Bump plugin SHAs
 
 # Discover url-source pins whose upstream HEAD has moved, regenerate the
-# plugin index at the new SHA, and open one PR per plugin on branch
-# bump/<name>. Manual review only; no auto-merge.
+# plugin index at the new SHA, and open a stacked PR set:
+#
+#   main
+#     └── bump/daily-YYYY-MM-DD          (PR → main)
+#           └── bump/YYYY-MM-DD/<plugin> (PR → daily / previous tip)
+#                 └── ...
+#
+# Only the daily PR targets main, so main history stays one landing per day.
+# Manual review only; no auto-merge.
 #
 # Uses the default GITHUB_TOKEN (contents + pull-requests + actions write).
 # PRs opened with GITHUB_TOKEN do not trigger on:pull_request, so after each
-# bump PR we re-dispatch validate-catalog.yml against the bump branch so the
-# required `validate` check can go green.
+# bump branch we re-dispatch validate-catalog.yml so the required `validate`
+# check can go green on the daily → main PR (and on stack tips).
 #
 # Runs daily at 7am Pacific (15:00 UTC) and on workflow_dispatch.
 
@@ -50,7 +57,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Discover stale pins and open bump PRs
+      - name: Discover stale pins and open stacked bump PRs
         id: bump
         env:
           GH_TOKEN: ${{ github.token }}
@@ -64,7 +71,7 @@ jobs:
             --base-branch "${BASE_BRANCH}" \
             --github-output "$GITHUB_OUTPUT"
 
-      - name: Dispatch validate-catalog on each bump branch
+      - name: Dispatch validate-catalog on each stack branch
         if: steps.bump.outputs.pr-urls != '' && steps.bump.outputs.pr-urls != '[]'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -72,7 +79,9 @@ jobs:
         run: |
           set -euo pipefail
           failures="$(mktemp)"
-          jq -c '.[]' <<<"$PR_URLS" | while read -r entry; do
+          # Validate every branch that carries commits (skip pure daily base if
+          # it is only a pointer at main; still dispatch — validate is cheap).
+          jq -c '.[] | select(.skipped != true)' <<<"$PR_URLS" | while read -r entry; do
             branch=$(jq -r '.branch' <<<"$entry")
             name=$(jq -r '.name' <<<"$entry")
             echo "Dispatching validate-catalog.yml against $branch ($name)"

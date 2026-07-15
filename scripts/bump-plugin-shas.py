@@ -1,17 +1,27 @@
 #!/usr/bin/env python3
-"""Discover stale url-source pins and open one bump PR per plugin.
+"""Discover stale url-source pins and open a stacked set of bump PRs.
 
-For each entry in `.grok-plugin/marketplace.json` with
-`source: {source: "url", url, sha}`:
+Stack shape (one run / Pacific day):
+
+  main
+    └── bump/daily-YYYY-MM-DD          PR → main
+          └── bump/YYYY-MM-DD/<plugin> PR → daily (then linear on previous tip)
+                └── bump/YYYY-MM-DD/<next>
+                      └── ...
+
+Only the daily PR targets main, so main's history stays one merge per day
+after the stack is reviewed. Per-plugin PRs are for isolated review of each
+pin bump.
+
+For each url-source entry:
 
   1. Resolve upstream HEAD via `git ls-remote`
-  2. If HEAD != pinned sha, treat as a candidate bump
-  3. Skip if a PR already exists for `bump/<name>`
-  4. Update the pin, regenerate the plugin index, commit, push, open PR
+  2. If HEAD != pinned sha, treat as a candidate
+  3. Apply bumps in a linear stack on top of the daily branch
+  4. Each step: update the pin, regenerate the plugin index, commit, push, open PR
 
-Designed to run under GitHub Actions with GITHUB_TOKEN
-(contents:write + pull-requests:write). Also runnable locally with
-`--dry-run` (no push/PR) or a real `GH_TOKEN`.
+Designed for GitHub Actions with GITHUB_TOKEN (contents + pull-requests write).
+Local: `--dry-run` (no push/PR).
 
 Usage:
   python3 scripts/bump-plugin-shas.py [--dry-run] [--max-bumps N] [--only NAME]
@@ -25,15 +35,20 @@ import os
 import re
 import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
+
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:  # pragma: no cover
+    ZoneInfo = None  # type: ignore[misc, assignment]
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CATALOG_PATH = Path(".grok-plugin/marketplace.json")
 INDEX_PATH = Path(".grok-plugin/plugin-index.json")
 INDEX_SCRIPT = Path("scripts/generate-plugin-index.py")
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
-BRANCH_PREFIX = "bump/"
 ALLOWED_HOSTS = {"github.com", "gitlab.com", "bitbucket.org"}
 
 
@@ -62,6 +77,12 @@ def run(
         detail = stderr or stdout or f"exit {result.returncode}"
         raise RuntimeError(f"`{' '.join(cmd)}` failed: {detail}")
     return result
+
+
+def pacific_date() -> str:
+    if ZoneInfo is not None:
+        return datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d")
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 def load_catalog() -> dict:
@@ -181,83 +202,26 @@ def ensure_clean_worktree() -> None:
 
 
 def origin_base(base_branch: str) -> str:
-    run(["git", "fetch", "origin", base_branch, "--depth", "1"], check=False)
     run(["git", "fetch", "origin", base_branch], check=True)
     result = run(["git", "rev-parse", f"origin/{base_branch}"], check=True)
     return (result.stdout or "").strip()
 
 
-def open_bump_pr(
+def ensure_pr(
     *,
-    name: str,
-    old_sha: str,
-    new_sha: str,
-    url: str,
-    branch: str,
-    base_branch: str,
-    run_url: str,
+    head: str,
+    base: str,
+    title: str,
+    body: str,
     dry_run: bool,
 ) -> str | None:
-    short_old = old_sha[:7]
-    short_new = new_sha[:7]
-    title = f"chore(plugins): bump {name} {short_old} -> {short_new}"
-    body_lines = [
-        f"Automated pin bump for `{name}`.",
-        "",
-        f"- **source:** {url}",
-        f"- **old:** `{old_sha}`",
-        f"- **new:** `{new_sha}`",
-        "",
-        "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
-        "at the new pin.",
-        "",
-        "Human review still required (no auto-merge). Confirm the upstream "
-        "diff is intentional before merging.",
-    ]
-    if run_url:
-        body_lines.extend(["", f"Triggered by: {run_url}"])
-    body = "\n".join(body_lines) + "\n"
-
     if dry_run:
-        print(f"[dry-run] would open PR on {branch}: {title}")
+        print(f"[dry-run] would open PR {head} → {base}: {title}")
         return None
 
-    head = origin_base(base_branch)
-    git_identity()
-
-    # Fresh branch from origin/base every time so each PR is single-plugin.
-    run(["git", "checkout", "--detach", head], check=True)
-    run(["git", "checkout", "-B", branch], check=True)
-    run(
-        [
-            "git",
-            "checkout",
-            head,
-            "--",
-            str(CATALOG_PATH),
-            str(INDEX_PATH),
-        ],
-        check=True,
-    )
-
-    replace_sha_in_catalog(name, old_sha, new_sha)
-    regenerate_index()
-
-    run(
-        ["git", "add", "--", str(CATALOG_PATH), str(INDEX_PATH)],
-        check=True,
-    )
-    status = run(["git", "status", "--porcelain"], check=True)
-    if not (status.stdout or "").strip():
-        raise RuntimeError(f"no file changes after bumping {name}")
-
-    run(["git", "commit", "-m", title], check=True)
-    # Bot-owned branch; force is intentional so retries rewrite the same tip.
-    run(["git", "push", "--force", "origin", f"HEAD:refs/heads/{branch}"], check=True)
-
-    existing = open_pr_for_branch(branch)
+    existing = open_pr_for_branch(head)
     if existing:
-        print(f"PR already open for {branch}: {existing}")
+        print(f"PR already open for {head}: {existing}")
         return existing
 
     result = run(
@@ -266,9 +230,9 @@ def open_bump_pr(
             "pr",
             "create",
             "--base",
-            base_branch,
+            base,
             "--head",
-            branch,
+            head,
             "--title",
             title,
             "--body",
@@ -281,11 +245,139 @@ def open_bump_pr(
     return pr_url
 
 
+def push_branch(branch: str) -> None:
+    run(["git", "push", "--force", "origin", f"HEAD:refs/heads/{branch}"], check=True)
+
+
+def open_daily_base(
+    *,
+    daily_branch: str,
+    main_branch: str,
+    day: str,
+    run_url: str,
+    dry_run: bool,
+) -> str | None:
+    """Create daily branch at main tip (no extra commit) and PR it into main."""
+    title = f"chore(plugins): daily pin bumps {day}"
+    body_lines = [
+        f"Daily stack base for plugin pin bumps on **{day}** (Pacific).",
+        "",
+        "Per-plugin PRs stack on top of this branch. Review those for each",
+        "upstream diff; merge this PR into `main` only after the stack is",
+        "accepted (keeps main history to one landing per day).",
+        "",
+        "No auto-merge.",
+    ]
+    if run_url:
+        body_lines.extend(["", f"Triggered by: {run_url}"])
+    body = "\n".join(body_lines) + "\n"
+
+    if dry_run:
+        print(f"[dry-run] would open daily base {daily_branch} → {main_branch}")
+        return None
+
+    head = origin_base(main_branch)
+    git_identity()
+    run(["git", "checkout", "--detach", head], check=True)
+    run(["git", "checkout", "-B", daily_branch], check=True)
+    # Empty marker commit so the daily → main PR can open (GitHub rejects
+    # empty branch diffs). Plugin commits stack on top of this.
+    run(
+        [
+            "git",
+            "commit",
+            "--allow-empty",
+            "-m",
+            f"chore(plugins): daily pin bumps {day}",
+        ],
+        check=True,
+    )
+    push_branch(daily_branch)
+    return ensure_pr(
+        head=daily_branch,
+        base=main_branch,
+        title=title,
+        body=body,
+        dry_run=False,
+    )
+
+
+def apply_plugin_bump(
+    *,
+    name: str,
+    old_sha: str,
+    new_sha: str,
+    url: str,
+    branch: str,
+    parent_branch: str,
+    parent_sha: str,
+    run_url: str,
+    dry_run: bool,
+) -> tuple[str | None, str]:
+    """Create plugin branch from parent tip, commit bump, open PR → parent.
+
+    Returns (pr_url, new_tip_sha).
+    """
+    short_old = old_sha[:7]
+    short_new = new_sha[:7]
+    title = f"chore(plugins): bump {name} {short_old} -> {short_new}"
+    body_lines = [
+        f"Automated pin bump for `{name}`.",
+        "",
+        f"- **source:** {url}",
+        f"- **old:** `{old_sha}`",
+        f"- **new:** `{new_sha}`",
+        f"- **stacks on:** `{parent_branch}`",
+        "",
+        "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
+        "at the new pin.",
+        "",
+        "Part of the daily stack; do not merge this into `main` directly. "
+        "Merge up into the daily base, then land the daily PR.",
+        "",
+        "Human review still required (no auto-merge).",
+    ]
+    if run_url:
+        body_lines.extend(["", f"Triggered by: {run_url}"])
+    body = "\n".join(body_lines) + "\n"
+
+    if dry_run:
+        print(
+            f"[dry-run] would open PR {branch} → {parent_branch}: {title} "
+            f"(parent={parent_sha[:7]})"
+        )
+        return None, parent_sha
+
+    git_identity()
+    run(["git", "checkout", "--detach", parent_sha], check=True)
+    run(["git", "checkout", "-B", branch], check=True)
+
+    replace_sha_in_catalog(name, old_sha, new_sha)
+    regenerate_index()
+
+    run(["git", "add", "--", str(CATALOG_PATH), str(INDEX_PATH)], check=True)
+    status = run(["git", "status", "--porcelain"], check=True)
+    if not (status.stdout or "").strip():
+        raise RuntimeError(f"no file changes after bumping {name}")
+
+    run(["git", "commit", "-m", title], check=True)
+    tip = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
+    push_branch(branch)
+
+    pr_url = ensure_pr(
+        head=branch,
+        base=parent_branch,
+        title=title,
+        body=body,
+        dry_run=False,
+    )
+    return pr_url, tip
+
+
 def discover_candidates(
     *,
     only: str,
     freeze: set[str],
-    skip_open_pr_check: bool,
 ) -> tuple[list[dict], list[dict]]:
     catalog = load_catalog()
     candidates: list[dict] = []
@@ -325,22 +417,12 @@ def discover_candidates(
             skipped.append({"name": name, "reason": "up to date"})
             continue
 
-        branch = f"{BRANCH_PREFIX}{name}"
-        if not skip_open_pr_check:
-            existing = open_pr_for_branch(branch)
-            if existing:
-                skipped.append(
-                    {"name": name, "reason": f"open PR already: {existing}"}
-                )
-                continue
-
         candidates.append(
             {
                 "name": name,
                 "url": url,
                 "old_sha": old_sha.lower(),
                 "new_sha": new_sha,
-                "branch": branch,
             }
         )
 
@@ -355,6 +437,12 @@ def main() -> int:
     parser.add_argument(
         "--base-branch",
         default=os.environ.get("BASE_BRANCH", "main"),
+        help="Default branch (stack root). Daily PR targets this.",
+    )
+    parser.add_argument(
+        "--day",
+        default=os.environ.get("BUMP_DAY", ""),
+        help="Pacific calendar day YYYY-MM-DD (default: today Pacific)",
     )
     parser.add_argument(
         "--freeze",
@@ -371,6 +459,8 @@ def main() -> int:
     freeze = {n for n in args.freeze.split() if n}
     only = args.only.strip()
     run_url = os.environ.get("RUN_URL", "")
+    day = args.day.strip() or pacific_date()
+    daily_branch = f"bump/daily-{day}"
 
     if not args.dry_run:
         ensure_clean_worktree()
@@ -380,14 +470,11 @@ def main() -> int:
     if start_ref == "HEAD":
         start_ref = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
 
-    candidates, skipped = discover_candidates(
-        only=only,
-        freeze=freeze,
-        skip_open_pr_check=args.dry_run,
-    )
+    candidates, skipped = discover_candidates(only=only, freeze=freeze)
     if args.max_bumps >= 0:
         candidates = candidates[: args.max_bumps]
 
+    print(f"day={day} daily_branch={daily_branch}")
     print(f"candidates={len(candidates)} skipped={len(skipped)}")
     for s in skipped:
         print(f"  skip {s['name']}: {s['reason']}")
@@ -395,45 +482,149 @@ def main() -> int:
     pr_urls: list[dict] = []
     errors: list[str] = []
 
-    for c in candidates:
-        print(
-            f"bump {c['name']}: {c['old_sha'][:7]} -> {c['new_sha'][:7]} "
-            f"({c['url']})"
-        )
-        try:
-            pr_url = open_bump_pr(
-                name=c["name"],
-                old_sha=c["old_sha"],
-                new_sha=c["new_sha"],
-                url=c["url"],
-                branch=c["branch"],
-                base_branch=args.base_branch,
-                run_url=run_url,
-                dry_run=args.dry_run,
-            )
-            pr_urls.append(
-                {
-                    "name": c["name"],
-                    "old_sha": c["old_sha"],
-                    "new_sha": c["new_sha"],
-                    "branch": c["branch"],
-                    "pr_url": pr_url or "",
-                }
-            )
-        except Exception as e:  # noqa: BLE001
-            msg = f"{c['name']}: {e}"
-            errors.append(msg)
-            print(f"ERROR: {msg}", file=sys.stderr)
+    if not candidates:
+        print("nothing to bump")
+        payload = json.dumps(pr_urls, separators=(",", ":"))
+        print(f"pr-urls={payload}")
+        if args.github_output:
+            with open(args.github_output, "a", encoding="utf-8") as fh:
+                fh.write(f"pr-urls={payload}\n")
+                fh.write("bumped_count=0\n")
+        return 0
 
+    # One open daily stack per Pacific day. Re-runs wait for that PR to close.
     if not args.dry_run:
-        run(["git", "checkout", "-f", start_ref], check=False)
+        existing_daily = open_pr_for_branch(daily_branch)
+        if existing_daily:
+            print(
+                f"daily stack already open for {day}: {existing_daily}; "
+                "skipping (close it or wait for merge before re-running)"
+            )
+            payload = json.dumps(
+                [
+                    {
+                        "name": "_daily",
+                        "branch": daily_branch,
+                        "base": args.base_branch,
+                        "pr_url": existing_daily,
+                        "skipped": True,
+                    }
+                ],
+                separators=(",", ":"),
+            )
+            print(f"pr-urls={payload}")
+            if args.github_output:
+                with open(args.github_output, "a", encoding="utf-8") as fh:
+                    fh.write(f"pr-urls={payload}\n")
+                    fh.write("bumped_count=0\n")
+            return 0
+
+    try:
+        daily_pr = open_daily_base(
+            daily_branch=daily_branch,
+            main_branch=args.base_branch,
+            day=day,
+            run_url=run_url,
+            dry_run=args.dry_run,
+        )
+        pr_urls.append(
+            {
+                "name": "_daily",
+                "branch": daily_branch,
+                "base": args.base_branch,
+                "pr_url": daily_pr or "",
+            }
+        )
+
+        if args.dry_run:
+            parent_branch = daily_branch
+            parent_sha = "dry-run"
+        else:
+            parent_branch = daily_branch
+            parent_sha = run(
+                ["git", "rev-parse", f"refs/heads/{daily_branch}"],
+                check=True,
+            ).stdout.strip()
+
+        for c in candidates:
+            plugin_branch = f"bump/{day}/{c['name']}"
+            print(
+                f"bump {c['name']}: {c['old_sha'][:7]} -> {c['new_sha'][:7]} "
+                f"({c['url']}) on {plugin_branch} → {parent_branch}"
+            )
+            try:
+                pr_url, parent_sha = apply_plugin_bump(
+                    name=c["name"],
+                    old_sha=c["old_sha"],
+                    new_sha=c["new_sha"],
+                    url=c["url"],
+                    branch=plugin_branch,
+                    parent_branch=parent_branch,
+                    parent_sha=parent_sha if parent_sha != "dry-run" else "0" * 40,
+                    run_url=run_url,
+                    dry_run=args.dry_run,
+                )
+                pr_urls.append(
+                    {
+                        "name": c["name"],
+                        "old_sha": c["old_sha"],
+                        "new_sha": c["new_sha"],
+                        "branch": plugin_branch,
+                        "base": parent_branch,
+                        "pr_url": pr_url or "",
+                    }
+                )
+                parent_branch = plugin_branch
+            except Exception as e:  # noqa: BLE001
+                msg = f"{c['name']}: {e}"
+                errors.append(msg)
+                print(f"ERROR: {msg}", file=sys.stderr)
+                # Stop the stack here; later plugins would base on a failed tip.
+                break
+    finally:
+        if not args.dry_run:
+            run(["git", "checkout", "-f", start_ref], check=False)
+
+    # Point daily PR body at children once we know them (best-effort).
+    if not args.dry_run and daily_pr and len(pr_urls) > 1:
+        child_lines = [
+            f"- `{e['branch']}` ({e['name']}): {e['pr_url'] or 'opened'}"
+            for e in pr_urls
+            if e.get("name") != "_daily"
+        ]
+        try:
+            run(
+                [
+                    "gh",
+                    "pr",
+                    "edit",
+                    daily_branch,
+                    "--body",
+                    "\n".join(
+                        [
+                            f"Daily stack base for plugin pin bumps on **{day}** (Pacific).",
+                            "",
+                            "Stacked plugin PRs (merge upward into this branch, then land this PR):",
+                            *child_lines,
+                            "",
+                            "No auto-merge.",
+                            *(["", f"Triggered by: {run_url}"] if run_url else []),
+                        ]
+                    )
+                    + "\n",
+                ],
+                check=False,
+            )
+        except Exception:  # noqa: BLE001
+            pass
 
     payload = json.dumps(pr_urls, separators=(",", ":"))
     print(f"pr-urls={payload}")
     if args.github_output:
         with open(args.github_output, "a", encoding="utf-8") as fh:
             fh.write(f"pr-urls={payload}\n")
-            fh.write(f"bumped_count={len(pr_urls)}\n")
+            bumped = sum(1 for e in pr_urls if e.get("name") != "_daily")
+            fh.write(f"bumped_count={bumped}\n")
 
     if errors:
         print(f"{len(errors)} bump(s) failed", file=sys.stderr)
