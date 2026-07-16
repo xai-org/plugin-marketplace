@@ -1,6 +1,8 @@
 # Logospell
 
-<img src="assets/logo.png" alt="Logospell logo" width="128">
+<p align="center">
+  <img src="assets/logo.png" alt="Logospell logo" width="180">
+</p>
 
 AI image generation for your agent: one MCP call returns a cohesive
 image set, a transparent-background set, or a single illustration,
