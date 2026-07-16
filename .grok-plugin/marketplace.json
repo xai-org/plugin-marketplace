@@ -148,7 +148,7 @@
     },
     {
       "name": "stripe",
-      "description": "Stripe development plugin for Grok Build: best-practice skills for payments, billing, and Connect (including company-researcher), plus the hosted Stripe MCP server.",
+      "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
       "source": {
         "source": "url",
