@@ -4,9 +4,10 @@
   <img src="assets/logo.png" alt="Logospell logo" width="180">
 </p>
 
-AI image generation for your agent: one MCP call returns a cohesive
-image set, a transparent-background set, or a single illustration,
-ready to drop into whatever you're building.
+<p align="center">
+  <strong>Your AI agent's art department.</strong><br>
+  One MCP call returns a cohesive image set, a transparent-background set, or a single illustration, ready to drop into whatever you're building.
+</p>
 
 ## Tools
 
