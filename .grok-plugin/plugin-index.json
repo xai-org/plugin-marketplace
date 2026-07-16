@@ -154,8 +154,8 @@
       }
     },
     "figma": {
-      "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
-      "version": "2.2.68",
+      "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
+      "version": "2.2.81",
       "components": {
         "mcpServers": [
           {
@@ -171,6 +171,10 @@
           {
             "name": "figma-create-new-file",
             "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+          },
+          {
+            "name": "figma-design-to-code",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool. You MUS…"
           },
           {
             "name": "figma-generate-design",
