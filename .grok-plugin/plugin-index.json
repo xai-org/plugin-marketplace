@@ -668,6 +668,23 @@
           }
         ]
       }
+    },
+    "zephex": {
+      "sha": "dc82b08d8b7f03505615cc6faa7bb49df2283a22",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zephex",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zephex-tools",
+            "description": "Zephex MCP — ten hosted dev tools for the user's repository. Use when finding or reading code, mapping architecture, ch…"
+          }
+        ]
+      }
     }
   }
 }

@@ -145,6 +145,19 @@
       "homepage": "https://github.com/railwayapp/railway-skills",
       "keywords": ["railway", "railway deploy", "deploy to railway"],
       "domains": ["railway.com", "railway.app"]
+    },
+    {
+      "name": "zephex",
+      "description": "Zephex hosted MCP — ten read-only developer tools: project context, code search, AST reads, architecture maps, test pulse, package safety, live URL header audits, and project memory. OAuth at zephex.dev/mcp.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zephexMCP/grok-zephex-plugin.git",
+        "sha": "dc82b08d8b7f03505615cc6faa7bb49df2283a22"
+      },
+      "homepage": "https://zephex.dev",
+      "keywords": ["zephex", "zephex mcp", "zephex dev tools"],
+      "domains": ["zephex.dev"]
     }
   ]
 }
