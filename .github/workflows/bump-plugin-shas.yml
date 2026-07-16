@@ -50,7 +50,8 @@ concurrency:
 
 jobs:
   bump:
-    runs-on: ubuntu-latest
+    # IP-allowlisted org runners (hosted ubuntu-latest cannot push branches).
+    runs-on: ubuntu-latest-m
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
