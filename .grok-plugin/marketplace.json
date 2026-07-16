@@ -69,6 +69,18 @@
       "keywords": ["superpowers"]
     },
     {
+      "name": "supabase-battle-tested",
+      "description": "Production Supabase and Postgres patterns learned from real incidents: generated-column write traps, migrations-vs-live-DB drift, SECURITY DEFINER audit gaps, and RLS performance fixes.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YoungAlgy/supabase-battle-tested.git",
+        "sha": "c8f08e7621ba58bcacd393c01e6eb74068152498"
+      },
+      "homepage": "https://github.com/YoungAlgy/supabase-battle-tested",
+      "keywords": ["supabase", "supabase rls", "supabase migrations", "supabase security definer"]
+    },
+    {
       "name": "mongodb",
       "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
       "category": "database",
