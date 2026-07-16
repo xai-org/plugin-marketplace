@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Discover version-bumped url-source pins and open a stacked set of PRs.
 
-A pin advances only when upstream HEAD moved *and* plugin.json `version`
-differs from the version at the current pin (extracted via plugin_catalog,
-same path as generate-plugin-index). SHA-only tip movement without a version
-change is ignored so everyone on a given version shares that pin.
+Pin advances when HEAD moved and the version gate passes
+(plugin_catalog extract, same path as generate-plugin-index):
+
+  - both have version, and they differ → bump to HEAD
+  - both lack version → bump to HEAD (SHA is the identity)
+  - same version → skip (commits moved, release did not)
+  - pin has version, HEAD does not → skip (do not un-version)
+  - pin lacks version, HEAD has one → bump (first version appears)
 
 Stack shape (one run / Pacific day):
 
@@ -360,22 +364,37 @@ def apply_plugin_bump(
     """Branch from daily tip, commit one plugin bump, open PR -> daily."""
     short_old = old_sha[:7]
     short_new = new_sha[:7]
-    title = (
-        f"chore(plugins): bump {name} {old_version} -> {new_version} "
-        f"({short_old} -> {short_new})"
-    )
+    ver_old = old_version or "(none)"
+    ver_new = new_version or "(none)"
+    if old_version or new_version:
+        title = (
+            f"chore(plugins): bump {name} {ver_old} -> {ver_new} "
+            f"({short_old} -> {short_new})"
+        )
+        version_line = f"- **version:** `{ver_old}` -> `{ver_new}`"
+        why = (
+            "Catalog SHA updated after an upstream version change (or first "
+            "version appearing). When a version is set, everyone on that "
+            "version shares the same pin."
+        )
+    else:
+        title = f"chore(plugins): bump {name} {short_old} -> {short_new}"
+        version_line = "- **version:** (none at pin or HEAD; pin tracks SHA)"
+        why = (
+            "Catalog SHA updated. Upstream has no plugin.json version on either "
+            "pin or HEAD, so the pin is the release identity."
+        )
     body_lines = [
-        f"Automated pin bump for `{name}` after an upstream version change.",
+        f"Automated pin bump for `{name}`.",
         "",
         f"- **source:** {url}",
-        f"- **version:** `{old_version}` -> `{new_version}`",
+        version_line,
         f"- **old sha:** `{old_sha}`",
-        f"- **new sha:** `{new_sha}` (HEAD when version change was observed)",
+        f"- **new sha:** `{new_sha}` (HEAD when the bump was observed)",
         f"- **base:** `{daily_branch}`",
         "",
         "Catalog SHA updated and `.grok-plugin/plugin-index.json` regenerated "
-        "at the new pin. Pins only move when the plugin manifest version changes "
-        "so everyone on a given version shares the same pin.",
+        f"at the new pin. {why}",
         "",
         "Targets the daily base, not `main`. Merge into the daily branch "
         "(or close to drop this bump), then land the daily PR.",
@@ -430,11 +449,17 @@ def discover_candidates(
     only: str,
     freeze: set[str],
 ) -> tuple[list[dict], list[dict]]:
-    """Find url pins where HEAD moved and plugin.json version also changed.
+    """Find url pins where HEAD moved and the version gate allows a bump.
 
     Version extraction uses plugin_catalog.extract_plugin (same path as the
-    index generator). When only the SHA moved, skip so users on a version
-    stay on that pin until the author bumps version.
+    index generator).
+
+    Gate (after SHA moved):
+      - both versions set and equal → skip
+      - pin set, HEAD missing → skip (do not un-version)
+      - both missing → bump (SHA identity)
+      - pin missing, HEAD set → bump (first version)
+      - both set and differ → bump
     """
     catalog = load_catalog()
     candidates: list[dict] = []
@@ -500,20 +525,20 @@ def discover_candidates(
 
         old_version = pin_rec.get("version")
         new_version = head_rec.get("version")
-        if not old_version:
-            skipped.append(
-                {"name": name, "reason": "no version at pin (set plugin.json version)"}
-            )
-            continue
-        if not new_version:
+
+        if old_version and not new_version:
             skipped.append(
                 {
                     "name": name,
-                    "reason": "no version at HEAD (set plugin.json version)",
+                    "reason": (
+                        f"sha moved ({old_sha[:7]}->{new_sha[:7]}) but HEAD "
+                        f"dropped version (pin has {old_version!r}; not "
+                        f"un-versioning)"
+                    ),
                 }
             )
             continue
-        if old_version == new_version:
+        if old_version and new_version and old_version == new_version:
             skipped.append(
                 {
                     "name": name,
@@ -524,6 +549,7 @@ def discover_candidates(
                 }
             )
             continue
+        # bump: both missing | pin missing + HEAD set | both set and differ
 
         candidates.append(
             {
@@ -531,8 +557,8 @@ def discover_candidates(
                 "url": url,
                 "old_sha": old_sha,
                 "new_sha": new_sha,
-                "old_version": old_version,
-                "new_version": new_version,
+                "old_version": old_version or "",
+                "new_version": new_version or "",
                 "path": subdir,
             }
         )
