@@ -585,8 +585,8 @@
       }
     },
     "vercel": {
-      "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
-      "version": "0.42.1",
+      "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
+      "version": "0.45.1",
       "components": {
         "agents": [
           {
@@ -618,10 +618,6 @@
           {
             "name": "env",
             "description": "Manage Vercel environment variables. Commands include list, pull, add, remove, and diff. Use to sync environment variab…"
-          },
-          {
-            "name": "marketplace",
-            "description": "Discover and install Vercel Marketplace integrations. Use to find databases, CMS, auth providers, and other services av…"
           },
           {
             "name": "status",
@@ -661,6 +657,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "cdn-caching",
+            "description": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (…"
+          },
+          {
             "name": "chat-sdk",
             "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
           },
@@ -673,12 +673,20 @@
             "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
           },
           {
+            "name": "eve",
+            "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging…"
+          },
+          {
             "name": "knowledge-update",
             "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start."
           },
           {
             "name": "marketplace",
-            "description": "Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment v…"
+            "description": "Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel int…"
+          },
+          {
+            "name": "microfrontends",
+            "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
             "name": "next-cache-components",
@@ -723,6 +731,10 @@
           {
             "name": "vercel-cli",
             "description": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, queryin…"
+          },
+          {
+            "name": "vercel-connect",
+            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
           },
           {
             "name": "vercel-firewall",
