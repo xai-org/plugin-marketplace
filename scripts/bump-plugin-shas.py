@@ -186,7 +186,13 @@ def replace_sha_in_catalog(name: str, old_sha: str, new_sha: str) -> None:
 
 
 def regenerate_index() -> None:
-    run([sys.executable, str(REPO_ROOT / INDEX_SCRIPT)], check=True, capture=False)
+    env = {"PYTHONDONTWRITEBYTECODE": "1"}
+    run(
+        [sys.executable, "-B", str(REPO_ROOT / INDEX_SCRIPT)],
+        check=True,
+        capture=False,
+        env=env,
+    )
 
 
 def git_identity() -> None:
@@ -202,13 +208,31 @@ def git_identity() -> None:
     )
 
 
+def _is_ignorable_dirty_path(path: str) -> bool:
+    # Importing scripts/*.py can create bytecode; never treat that as dirty.
+    if path.endswith(".DS_Store"):
+        return True
+    parts = path.replace("\\", "/").split("/")
+    if "__pycache__" in parts:
+        return True
+    if parts and parts[-1].endswith((".pyc", ".pyo")):
+        return True
+    return False
+
+
 def ensure_clean_worktree() -> None:
     result = run(["git", "status", "--porcelain"], check=True)
-    dirty = [
-        line
-        for line in (result.stdout or "").splitlines()
-        if line.strip() and not line.rstrip().endswith(".DS_Store")
-    ]
+    dirty = []
+    for line in (result.stdout or "").splitlines():
+        if not line.strip():
+            continue
+        # porcelain: XY PATH or XY ORIG -> PATH
+        path = line[3:].strip() if len(line) > 3 else line.strip()
+        if " -> " in path:
+            path = path.split(" -> ", 1)[1]
+        if _is_ignorable_dirty_path(path):
+            continue
+        dirty.append(line)
     if dirty:
         raise RuntimeError(
             "working tree is dirty; commit or stash before bumping:\n"
@@ -220,6 +244,16 @@ def origin_base(base_branch: str) -> str:
     run(["git", "fetch", "origin", base_branch], check=True)
     result = run(["git", "rev-parse", f"origin/{base_branch}"], check=True)
     return (result.stdout or "").strip()
+
+
+def reset_to_origin_base(base_branch: str) -> str:
+    """Fetch and hard-reset to origin/<base> so discovery matches the bump base."""
+    tip = origin_base(base_branch)
+    run(["git", "checkout", "--detach", tip], check=True)
+    run(["git", "reset", "--hard", tip], check=True)
+    run(["git", "clean", "-fd", "-e", ".DS_Store"], check=False)
+    print(f"reset to origin/{base_branch} ({tip[:12]})")
+    return tip
 
 
 def hard_reset_to(sha: str) -> None:
@@ -611,14 +645,44 @@ def main() -> int:
     day = args.day.strip() or pacific_date()
     daily_branch = f"bump/daily-{day}"
     force = bool(args.force) or env_flag("FORCE_BUMP")
-
-    if not args.dry_run:
-        ensure_clean_worktree()
+    base_branch = args.base_branch
 
     start_ref_proc = run(["git", "rev-parse", "--abbrev-ref", "HEAD"], check=True)
     start_ref = (start_ref_proc.stdout or "").strip()
     if start_ref == "HEAD":
         start_ref = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
+
+    # Discover and bump from the same revision the stack will cut from.
+    # workflow_dispatch on a non-default ref would otherwise see a different
+    # catalog than origin/<base>.
+    if not args.dry_run:
+        reset_to_origin_base(base_branch)
+        ensure_clean_worktree()
+    else:
+        tip = origin_base(base_branch)
+        head = run(["git", "rev-parse", "HEAD"], check=True).stdout.strip()
+        if head != tip:
+            print(
+                f"[dry-run] worktree HEAD {head[:12]} != origin/{base_branch} "
+                f"{tip[:12]}; discovery uses the worktree catalog "
+                f"(non-dry-run resets to origin/{base_branch})",
+                file=sys.stderr,
+            )
+
+    if only:
+        catalog_names = {
+            e.get("name")
+            for e in load_catalog().get("plugins", [])
+            if isinstance(e, dict) and isinstance(e.get("name"), str)
+        }
+        if only not in catalog_names:
+            print(
+                f"ERROR: --only {only!r} matches no catalog plugin "
+                f"(known: {', '.join(sorted(catalog_names))})",
+                file=sys.stderr,
+            )
+            write_github_output(args.github_output, [], 0)
+            return 1
 
     candidates, skipped = discover_candidates(only=only, freeze=freeze)
 
@@ -650,7 +714,7 @@ def main() -> int:
                 {
                     "name": "_daily",
                     "branch": daily_branch,
-                    "base": args.base_branch,
+                    "base": base_branch,
                     "pr_url": "",
                     "skipped": True,
                 }
@@ -665,7 +729,7 @@ def main() -> int:
     try:
         daily_pr, daily_sha = open_daily_base(
             daily_branch=daily_branch,
-            main_branch=args.base_branch,
+            main_branch=base_branch,
             day=day,
             run_url=run_url,
             force=force or daily_exists,
@@ -677,7 +741,7 @@ def main() -> int:
             {
                 "name": "_daily",
                 "branch": daily_branch,
-                "base": args.base_branch,
+                "base": base_branch,
                 "pr_url": daily_pr or "",
             }
         )

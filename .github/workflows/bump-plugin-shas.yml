@@ -72,13 +72,15 @@ jobs:
           # Pass inputs via env so shell never interpolates untrusted text.
           ONLY_PLUGIN: ${{ inputs.plugin }}
           FORCE_BUMP: ${{ inputs.force }}
+          # Avoid scripts/__pycache__ dirtying the worktree (import + index gen).
+          PYTHONDONTWRITEBYTECODE: "1"
         run: |
           set -euo pipefail
           extra=()
           case "${FORCE_BUMP:-}" in
             true|True|TRUE|1|yes|YES|on|ON) extra+=(--force) ;;
           esac
-          python3 scripts/bump-plugin-shas.py \
+          python3 -B scripts/bump-plugin-shas.py \
             --only "${ONLY_PLUGIN}" \
             --base-branch "${BASE_BRANCH}" \
             --github-output "$GITHUB_OUTPUT" \
