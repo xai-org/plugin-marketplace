@@ -159,6 +159,18 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "logospell",
+      "description": "AI image generation for your agent (MCP server). One call returns a cohesive image set, a transparent-background set, or a single illustration, ready to drop into what you're building.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/logospell"
+      },
+      "homepage": "https://logospell.com",
+      "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
+      "domains": ["logospell.com", "mcp.logospell.com"]
     }
   ]
 }
