@@ -271,6 +271,63 @@
         ]
       }
     },
+    "intellihelper-ui": {
+      "sha": "133835c7e2229a9f56ea0bc8ee11de8962fcdb56",
+      "components": {
+        "agents": [
+          {
+            "name": "ui-builder",
+            "description": "Specialized IntelliHelper UI builder. Use for multi-component screens, Liquid Glass layouts, design-system-faithful Rea…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "add",
+            "description": "Install one or more IntelliHelper UI components into the current project"
+          },
+          {
+            "name": "audit",
+            "description": "Audit the project for correct IntelliHelper UI setup and usage"
+          },
+          {
+            "name": "list",
+            "description": "List IntelliHelper UI registry components (optionally by category)"
+          },
+          {
+            "name": "search",
+            "description": "Search the IntelliHelper UI registry for components"
+          },
+          {
+            "name": "themes",
+            "description": "List IntelliHelper Liquid Glass themes and when to use them"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "intellihelper-ui",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-component",
+            "description": "Install IntelliHelper UI components into a project correctly: init components.json, resolve dependencies, run CLI add,…"
+          },
+          {
+            "name": "compose-ui",
+            "description": "Compose production pages with IntelliHelper UI components — settings, dashboards, auth, CRUD tables, empty/loading/erro…"
+          },
+          {
+            "name": "intellihelper-ui",
+            "description": "Official IntelliHelper UI skill for Liquid Glass React/Next.js components. Use when the user asks for IntelliHelper UI,…"
+          },
+          {
+            "name": "liquid-glass",
+            "description": "IntelliHelper Liquid Glass design system — chrome vs content layers, frosted surfaces, themes (mono, aurora, sunset, fr…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
