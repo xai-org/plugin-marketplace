@@ -44,8 +44,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
-      "version": "0.22.0",
+      "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
+      "version": "1.6.0",
       "components": {
         "mcpServers": [
           {
@@ -154,8 +154,8 @@
       }
     },
     "figma": {
-      "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098",
-      "version": "2.2.68",
+      "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
+      "version": "2.2.81",
       "components": {
         "mcpServers": [
           {
@@ -171,6 +171,10 @@
           {
             "name": "figma-create-new-file",
             "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+          },
+          {
+            "name": "figma-design-to-code",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool. You MUS…"
           },
           {
             "name": "figma-generate-design",
@@ -363,15 +367,9 @@
       }
     },
     "sentry": {
-      "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4",
-      "version": "1.0.0",
+      "sha": "f6b4882489b34b5dce8f21648286a570d56110da",
+      "version": "1.2.0",
       "components": {
-        "commands": [
-          {
-            "name": "seer",
-            "description": "Ask natural language questions about your Sentry environment and get detailed insights using the Sentry MCP server"
-          }
-        ],
         "mcpServers": [
           {
             "name": "sentry",
@@ -380,108 +378,28 @@
         ],
         "skills": [
           {
-            "name": "sentry-android-sdk",
-            "description": "Full Sentry SDK setup for Android. Use when asked to \"add Sentry to Android\", \"install sentry-android\", \"setup Sentry i…"
-          },
-          {
-            "name": "sentry-browser-sdk",
-            "description": "Full Sentry SDK setup for browser JavaScript. Use when asked to \"add Sentry to a website\", \"install @sentry/browser\", o…"
-          },
-          {
-            "name": "sentry-cloudflare-sdk",
-            "description": "Full Sentry SDK setup for Cloudflare Workers and Pages. Use when asked to \"add Sentry to Cloudflare Workers\", \"install…"
-          },
-          {
-            "name": "sentry-cocoa-sdk",
-            "description": "Full Sentry SDK setup for Apple platforms (iOS, macOS, tvOS, watchOS, visionOS). Use when asked to \"add Sentry to iOS\",…"
-          },
-          {
-            "name": "sentry-code-review",
-            "description": "Analyze and resolve Sentry comments on GitHub Pull Requests. Use this when asked to review or fix issues identified by…"
-          },
-          {
             "name": "sentry-create-alert",
             "description": "Create Sentry alerts using the workflow engine API. Use when asked to create alerts, set up notifications, configure is…"
           },
           {
-            "name": "sentry-dotnet-sdk",
-            "description": "Full Sentry SDK setup for .NET. Use when asked to \"add Sentry to .NET\", \"install Sentry for C#\", or configure error mon…"
-          },
-          {
-            "name": "sentry-elixir-sdk",
-            "description": "Full Sentry SDK setup for Elixir. Use when asked to \"add Sentry to Elixir\", \"install sentry for Elixir\", or configure e…"
+            "name": "sentry-debug-issue",
+            "description": "Debug and fix a Sentry issue — find it (by link, ID, or search), pull full context (stack trace, breadcrumbs, trace, lo…"
           },
           {
             "name": "sentry-feature-setup",
             "description": "Configure specific Sentry features beyond basic SDK setup. Use when asked to monitor AI/LLM calls, set up OpenTelemetry…"
           },
           {
-            "name": "sentry-fix-issues",
-            "description": "Find and fix issues from Sentry using MCP. Use when asked to fix Sentry errors, debug production issues, investigate ex…"
+            "name": "sentry-get-started",
+            "description": "Guided entry point for using Sentry through your agent. Orients you to your current setup and, for a new project, sets…"
           },
           {
-            "name": "sentry-flutter-sdk",
-            "description": "Full Sentry SDK setup for Flutter and Dart. Use when asked to \"add Sentry to Flutter\", \"install sentry_flutter\", \"setup…"
-          },
-          {
-            "name": "sentry-go-sdk",
-            "description": "Full Sentry SDK setup for Go. Use when asked to \"add Sentry to Go\", \"install sentry-go\", \"setup Sentry in Go\", or confi…"
-          },
-          {
-            "name": "sentry-instrumentation-guide",
-            "description": "Decide which Sentry signal to reach for when instrumenting code — error, span, span attribute, log, or metric. Use when…"
-          },
-          {
-            "name": "sentry-nestjs-sdk",
-            "description": "Full Sentry SDK setup for NestJS. Use when asked to \"add Sentry to NestJS\", \"install @sentry/nestjs\", \"setup Sentry in…"
-          },
-          {
-            "name": "sentry-nextjs-sdk",
-            "description": "Full Sentry SDK setup for Next.js. Use when asked to \"add Sentry to Next.js\", \"install @sentry/nextjs\", or configure er…"
-          },
-          {
-            "name": "sentry-node-sdk",
-            "description": "Full Sentry SDK setup for Node.js, Bun, and Deno. Use when asked to \"add Sentry to Node.js\", \"add Sentry to Bun\", \"add…"
+            "name": "sentry-instrument",
+            "description": "Instrument an application with Sentry — detect the platform, install and initialize the SDK if needed, and wire up any…"
           },
           {
             "name": "sentry-otel-exporter-setup",
             "description": "Configure the OpenTelemetry Collector with Sentry Exporter for multi-project routing and automatic project creation. Us…"
-          },
-          {
-            "name": "sentry-php-sdk",
-            "description": "Full Sentry SDK setup for PHP. Use when asked to \"add Sentry to PHP\", \"install sentry/sentry\", \"setup Sentry in PHP\", o…"
-          },
-          {
-            "name": "sentry-pr-code-review",
-            "description": "Review a project's PRs to check for issues detected in code review by Seer Bug Prediction. Use when asked to review or…"
-          },
-          {
-            "name": "sentry-python-sdk",
-            "description": "Full Sentry SDK setup for Python. Use when asked to \"add Sentry to Python\", \"install sentry-sdk\", \"setup Sentry in Pyth…"
-          },
-          {
-            "name": "sentry-react-native-sdk",
-            "description": "Full Sentry SDK setup for React Native and Expo. Use when asked to \"add Sentry to React Native\", \"install @sentry/react…"
-          },
-          {
-            "name": "sentry-react-router-framework-sdk",
-            "description": "Full Sentry SDK setup for React Router Framework mode. Use when asked to \"add Sentry to React Router Framework\", \"insta…"
-          },
-          {
-            "name": "sentry-react-sdk",
-            "description": "Full Sentry SDK setup for React. Use when asked to \"add Sentry to React\", \"install @sentry/react\", or configure error m…"
-          },
-          {
-            "name": "sentry-ruby-sdk",
-            "description": "Full Sentry SDK setup for Ruby. Use when asked to add Sentry to Ruby, install sentry-ruby, setup Sentry in Rails/Sinatr…"
-          },
-          {
-            "name": "sentry-sdk-setup",
-            "description": "Set up Sentry in any language or framework. Detects the user's platform and loads the right SDK skill. Use when asked t…"
-          },
-          {
-            "name": "sentry-sdk-skill-creator",
-            "description": "Create a complete Sentry SDK skill bundle for any platform. Use when asked to \"create an SDK skill\", \"add a new platfor…"
           },
           {
             "name": "sentry-sdk-upgrade",
@@ -492,31 +410,19 @@
             "description": "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversati…"
           },
           {
-            "name": "sentry-span-streaming-js",
-            "description": "Migrate JavaScript SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\"…"
-          },
-          {
-            "name": "sentry-span-streaming-python",
-            "description": "Migrate Python SDK to Sentry span streaming (span-first trace lifecycle). Use when asked to \"enable span streaming\", \"m…"
-          },
-          {
-            "name": "sentry-svelte-sdk",
-            "description": "Full Sentry SDK setup for Svelte and SvelteKit. Use when asked to \"add Sentry to Svelte\", \"add Sentry to SvelteKit\", \"i…"
-          },
-          {
-            "name": "sentry-tanstack-start-sdk",
-            "description": "Full Sentry SDK setup for TanStack Start React. Use when asked to \"add Sentry to TanStack Start\", \"install @sentry/tans…"
+            "name": "sentry-snapshots-cocoa",
+            "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
           },
           {
             "name": "sentry-workflow",
-            "description": "Fix production issues and review code with Sentry context. Use when asked to fix Sentry errors, debug issues, triage ex…"
+            "description": "Keep Sentry SDKs up to date. Use when asked to upgrade the Sentry SDK across major versions, migrate SDK versions, or f…"
           }
         ]
       }
     },
     "superpowers": {
-      "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
-      "version": "5.1.0",
+      "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
+      "version": "6.1.1",
       "components": {
         "hooks": [
           {
@@ -567,7 +473,7 @@
           },
           {
             "name": "using-superpowers",
-            "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY…"
+            "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY resp…"
           },
           {
             "name": "verification-before-completion",
@@ -585,8 +491,8 @@
       }
     },
     "vercel": {
-      "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63",
-      "version": "0.42.1",
+      "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
+      "version": "0.45.1",
       "components": {
         "agents": [
           {
@@ -618,10 +524,6 @@
           {
             "name": "env",
             "description": "Manage Vercel environment variables. Commands include list, pull, add, remove, and diff. Use to sync environment variab…"
-          },
-          {
-            "name": "marketplace",
-            "description": "Discover and install Vercel Marketplace integrations. Use to find databases, CMS, auth providers, and other services av…"
           },
           {
             "name": "status",
@@ -661,6 +563,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "cdn-caching",
+            "description": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (…"
+          },
+          {
             "name": "chat-sdk",
             "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
           },
@@ -673,12 +579,20 @@
             "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
           },
           {
+            "name": "eve",
+            "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging…"
+          },
+          {
             "name": "knowledge-update",
             "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start."
           },
           {
             "name": "marketplace",
-            "description": "Vercel Marketplace expert guidance — discovering, installing, and building integrations, auto-provisioned environment v…"
+            "description": "Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel int…"
+          },
+          {
+            "name": "microfrontends",
+            "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
             "name": "next-cache-components",
@@ -723,6 +637,10 @@
           {
             "name": "vercel-cli",
             "description": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, queryin…"
+          },
+          {
+            "name": "vercel-connect",
+            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
           },
           {
             "name": "vercel-firewall",
