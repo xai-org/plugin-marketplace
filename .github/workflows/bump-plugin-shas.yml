@@ -1,0 +1,111 @@
+name: Bump plugin SHAs
+
+# Discover url-source pins whose upstream HEAD has moved *and* plugin.json
+# version changed (via shared plugin_catalog extract), regenerate the plugin
+# index at the new SHA, and open a stacked PR set:
+#
+#   main
+#     └── bump/daily-YYYY-MM-DD            (PR → main)
+#           ├── bump/YYYY-MM-DD/<plugin-a> (PR → daily)
+#           ├── bump/YYYY-MM-DD/<plugin-b> (PR → daily)
+#           └── ...
+#
+# All plugin PRs fan out from daily. Only the daily PR targets main, so main
+# history stays one landing per day. Manual review only; no auto-merge.
+#
+# If remote bump/daily-YYYY-MM-DD already exists, the run is a no-op unless
+# workflow_dispatch sets force=true (rebuild from main, force-push stack).
+#
+# Uses the default GITHUB_TOKEN (contents + pull-requests + actions write).
+# PRs opened with GITHUB_TOKEN do not trigger on:pull_request, so after each
+# bump branch we re-dispatch validate-catalog.yml so the required `validate`
+# check can go green on the daily → main PR (and on stack tips).
+#
+# Runs daily at 7am Pacific (15:00 UTC) and on workflow_dispatch.
+
+on:
+  schedule:
+    # 7am Pacific: 15:00 UTC (7am PST / 8am PDT). GitHub cron is UTC-only.
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      plugin:
+        description: Bump only this plugin name (exact catalog name; empty = all stale)
+        required: false
+        default: ""
+      force:
+        description: Rebuild today's stack even if bump/daily-* already exists (force-push)
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: bump-plugin-shas
+  cancel-in-progress: false
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          # Default GITHUB_TOKEN is enough to push bump/* and open PRs.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.11"
+
+      - name: Discover stale pins and open stacked bump PRs
+        id: bump
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+          # Pass inputs via env so shell never interpolates untrusted text.
+          ONLY_PLUGIN: ${{ inputs.plugin }}
+          FORCE_BUMP: ${{ inputs.force }}
+          # Avoid scripts/__pycache__ dirtying the worktree (import + index gen).
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          set -euo pipefail
+          extra=()
+          case "${FORCE_BUMP:-}" in
+            true|True|TRUE|1|yes|YES|on|ON) extra+=(--force) ;;
+          esac
+          python3 -B scripts/bump-plugin-shas.py \
+            --only "${ONLY_PLUGIN}" \
+            --base-branch "${BASE_BRANCH}" \
+            --github-output "$GITHUB_OUTPUT" \
+            "${extra[@]}"
+
+      - name: Dispatch validate-catalog on each stack branch
+        # Run even when the bump step exits 1 after partial success so opened
+        # GITHUB_TOKEN PRs still get the required validate check.
+        if: ${{ !cancelled() && steps.bump.outputs.pr-urls != '' && steps.bump.outputs.pr-urls != '[]' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URLS: ${{ steps.bump.outputs.pr-urls }}
+        run: |
+          set -euo pipefail
+          failures="$(mktemp)"
+          jq -c '.[] | select(.skipped != true)' <<<"$PR_URLS" | while read -r entry; do
+            branch=$(jq -r '.branch' <<<"$entry")
+            name=$(jq -r '.name' <<<"$entry")
+            echo "Dispatching validate-catalog.yml against $branch ($name)"
+            if ! gh workflow run validate-catalog.yml --ref "$branch"; then
+              echo "::error::Failed to dispatch validate-catalog.yml against $branch ($name)"
+              echo "$branch" >> "$failures"
+            fi
+          done
+          if [ -s "$failures" ]; then
+            echo "::error::$(wc -l < "$failures" | tr -d ' ') validate dispatch(es) failed"
+            exit 1
+          fi
