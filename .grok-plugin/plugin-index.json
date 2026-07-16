@@ -42,6 +42,17 @@
         ]
       }
     },
+    "blinq": {
+      "sha": "9e10344a20ddda8b2b3ba2c482876a1ae36b5e44",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blinq",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956",
       "components": {

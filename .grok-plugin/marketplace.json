@@ -145,6 +145,19 @@
       "homepage": "https://github.com/railwayapp/railway-skills",
       "keywords": ["railway", "railway deploy", "deploy to railway"],
       "domains": ["railway.com", "railway.app"]
+    },
+    {
+      "name": "blinq",
+      "description": "Blinq digital business card and contact platform integration. List and search your contacts, read saved notes and AI-notetaker meeting transcripts, and browse your personal and team workspaces through Blinq's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BlinqHQ/blinq-grok-plugin.git",
+        "sha": "9e10344a20ddda8b2b3ba2c482876a1ae36b5e44"
+      },
+      "homepage": "https://blinq.me",
+      "keywords": ["blinq", "blinq contacts", "blinq card", "blinq notes"],
+      "domains": ["blinq.me", "dash.blinq.me"]
     }
   ]
 }
