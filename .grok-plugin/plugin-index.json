@@ -343,7 +343,7 @@
       }
     },
     "netlify": {
-      "sha": "ab80a6ed2b6c4933a3f964101c82b45cab847b5b",
+      "sha": "43059a39003935fd78b72eff40071e060b236f37",
       "version": "1.1.0",
       "components": {
         "mcpServers": [
@@ -353,6 +353,14 @@
           }
         ],
         "skills": [
+          {
+            "name": "netlify-access-control",
+            "description": "Use when the task involves controlling who can reach a Netlify site, or telling Netlify Identity apart from Secure Acce…"
+          },
+          {
+            "name": "netlify-agent-runner",
+            "description": "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on th…"
+          },
           {
             "name": "netlify-ai-gateway",
             "description": "Reference for Netlify AI Gateway — the managed proxy that routes calls to OpenAI, Anthropic, and Google Gemini SDKs wit…"
@@ -366,12 +374,8 @@
             "description": "Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate,…"
           },
           {
-            "name": "netlify-cli-and-deploy",
-            "description": "Guide for using the Netlify CLI and deploying sites. Use when installing the CLI, linking sites, deploying (Git-based o…"
-          },
-          {
             "name": "netlify-config",
-            "description": "Reference for netlify.toml configuration. Use when configuring build settings, redirects, rewrites, headers, deploy con…"
+            "description": "Reference for netlify.toml configuration and site environment variables. Use when configuring build settings, redirects…"
           },
           {
             "name": "netlify-database",
@@ -379,7 +383,7 @@
           },
           {
             "name": "netlify-deploy",
-            "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish,…"
+            "description": "Deploy, host, and publish web projects on Netlify with the Netlify CLI. Use when the user wants to deploy a site or rep…"
           },
           {
             "name": "netlify-edge-functions",
@@ -404,6 +408,10 @@
           {
             "name": "netlify-image-cdn",
             "description": "Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creatin…"
+          },
+          {
+            "name": "netlify-mcp-servers",
+            "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
           }
         ]
       }
