@@ -145,6 +145,18 @@
       "homepage": "https://github.com/railwayapp/railway-skills",
       "keywords": ["railway", "railway deploy", "deploy to railway"],
       "domains": ["railway.com", "railway.app"]
+    },
+    {
+      "name": "java",
+      "description": "Community Java plugin for Grok Build with two skills: Helidon 4 (SE & MP) and Spring Boot 3 best practices. Includes runnable Maven examples for each framework.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AI-Coding-Skills/Java-for-Grok.git",
+        "sha": "4dbc71cf58e17842b8e8725faa25b83d124afaab"
+      },
+      "homepage": "https://github.com/AI-Coding-Skills/Java-for-Grok",
+      "keywords": ["helidon", "helidon se", "helidon mp", "helidon 4", "spring boot", "spring-boot"]
     }
   ]
 }
