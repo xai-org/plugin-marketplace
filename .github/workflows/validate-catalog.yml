@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
     branches: [main]
+  # Bump-plugin-shas opens PRs with GITHUB_TOKEN, which does not trigger
+  # on:pull_request. That workflow re-dispatches this one against each
+  # bump/* branch so the required `validate` check can still run.
+  workflow_dispatch:
 
 permissions:
   contents: read
