@@ -73,6 +73,22 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
             f"abbreviated SHA."
         )
 
+    path = source.get("path")
+    if path is not None:
+        if not isinstance(path, str) or not path.strip():
+            errors.append(
+                f"plugin '{name}': url source `path` must be a non-empty string when present."
+            )
+        elif (
+            path.startswith("/")
+            or "\\" in path
+            or any(part in ("..", "") for part in path.split("/"))
+        ):
+            errors.append(
+                f"plugin '{name}': url source `path` {path!r} must be a relative "
+                f"subdirectory inside the repo (no leading '/', no '..', no backslashes)."
+            )
+
     return errors
 
 
