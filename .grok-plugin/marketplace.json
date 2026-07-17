@@ -134,12 +134,12 @@
     },
     {
       "name": "exa",
-      "description": "Web search, content extraction, and deep research via the hosted Exa MCP server. Search the web, read pages as clean markdown, and do structured research across companies, people, news, academic papers, and financial reports with category filters, domain restrictions, and date ranges. Free plan available.",
+      "description": "Web search and content extraction via the hosted Exa MCP server. Search the web semantically with category filters (companies, people, news, papers, financial reports), read any page as clean markdown, and run structured multi-step research. Sign in with your Exa account on first connection; free credits on signup, no API key needed.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/exa-labs/exa-grok-plugin.git",
-        "sha": "992ecab6d8986855c5fe7976eea70ba6c5f33e17"
+        "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
       },
       "homepage": "https://exa.ai",
       "keywords": ["exa", "exa search", "exa ai"],
