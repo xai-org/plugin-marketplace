@@ -438,6 +438,56 @@
         ]
       }
     },
+    "stripe": {
+      "sha": "cfc7296a9beb788034a379c659df7ad96932ee68",
+      "version": "0.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "company-researcher",
+            "description": "Research a company from its URL or description to infer Stripe Connect integration shape"
+          }
+        ],
+        "commands": [
+          {
+            "name": "explain-error",
+            "description": "Explain Stripe error codes and provide solutions with code examples"
+          },
+          {
+            "name": "test-cards",
+            "description": "Display Stripe test card numbers for various testing scenarios"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "stripe",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connect-recommend",
+            "description": "This skill should be used when the user asks about Stripe Connect configuration, charge patterns, dashboard access, or…"
+          },
+          {
+            "name": "stripe-best-practices",
+            "description": "Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Acco…"
+          },
+          {
+            "name": "stripe-directory",
+            "description": "Use when the user wants to find businesses, software, service providers, or partners for a specific industry, workflow,…"
+          },
+          {
+            "name": "stripe-projects",
+            "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
+          },
+          {
+            "name": "upgrade-stripe",
+            "description": "Guide for upgrading Stripe API versions and SDKs"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
       "version": "6.1.1",
