@@ -159,6 +159,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "authorityprompt",
+      "description": "Manage your company's official AI identity from Grok with AuthorityPrompt. Read verified company facts with their sources, provenance and confidence; run AIO readiness audits; check what LLMs say about the company and where it diverges from the truth; and publish or repair facts with confirmation. Sign in \u2014 each account sees only its own data.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/authorityprompt/grok-authorityprompt-mcp.git",
+        "sha": "f8511546be57d034390c51bba59f62edf0d8464a"
+      },
+      "homepage": "https://authorityprompt.com",
+      "keywords": ["authorityprompt", "ai visibility", "llm trust", "company facts", "aio audit"],
+      "domains": ["authorityprompt.com"]
     }
   ]
 }

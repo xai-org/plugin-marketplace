@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "authorityprompt": {
+      "sha": "f8511546be57d034390c51bba59f62edf0d8464a",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "authorityprompt",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
