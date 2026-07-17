@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
+        "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "2c3b6c74b2b830c3ce2836f1fde6d7f21d37d4c4"
+        "sha": "f6b4882489b34b5dce8f21648286a570d56110da"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
+        "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
+        "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -126,7 +126,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "bea8bea5f676ab2bf76fa822b82f50b66653c098"
+        "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -157,6 +157,20 @@
       },
       "homepage": "https://github.com/AI-Coding-Skills/Java-for-Grok",
       "keywords": ["helidon", "helidon se", "helidon mp", "helidon 4", "spring boot", "spring-boot"]
+    },
+    {
+      "name": "stripe",
+      "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stripe/ai.git",
+        "sha": "cfc7296a9beb788034a379c659df7ad96932ee68",
+        "path": "providers/grok/plugin"
+      },
+      "homepage": "https://github.com/stripe/ai",
+      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
+      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     }
   ]
 }
