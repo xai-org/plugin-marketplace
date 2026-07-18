@@ -44,7 +44,7 @@
       }
     },
     "brandmd": {
-      "sha": "adf47574768b491d8f0c0fb2d120dec18b1444bf",
+      "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "version": "0.1.0",
       "components": {
         "commands": [
@@ -66,7 +66,7 @@
       }
     },
     "caplifi-approve": {
-      "sha": "adf47574768b491d8f0c0fb2d120dec18b1444bf",
+      "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "version": "0.1.0",
       "components": {
         "commands": [
@@ -316,7 +316,7 @@
       }
     },
     "hbi": {
-      "sha": "adf47574768b491d8f0c0fb2d120dec18b1444bf",
+      "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "version": "0.1.0",
       "components": {
         "commands": [
@@ -483,7 +483,7 @@
       }
     },
     "slopmd": {
-      "sha": "adf47574768b491d8f0c0fb2d120dec18b1444bf",
+      "sha": "ea415658636f34f8c7e7d6d45d2c7e30d2be4a6a",
       "version": "0.1.0",
       "components": {
         "commands": [
