@@ -17,7 +17,7 @@ eight below:
 
 <table>
   <tr>
-    <td colspan="8"><em>Style: layered cut-paper kirigami illustration, each subject built from stacked hand-cut cardstock layers in bright saturated colors with crisp paper edges and gentle dimensional depth between the layers</em><br><em>Subjects: an ornate hot air balloon with a wicker basket, a vintage biplane with double wings, a rigid zeppelin airship, a helicopter with a top rotor, a whimsical retro rocket with fins, an open parachute with harness lines, a hang glider with a triangular wing, a diamond kite with a ribbon tail</em><br><em>Background: #FFFFFF</em></td>
+    <td colspan="8"><em>Style: layered cut-paper kirigami illustration, each subject built from stacked hand-cut cardstock layers in bright saturated colors with crisp paper edges and gentle dimensional depth between the layers</em><br><br><em>Subjects: an ornate hot air balloon with a wicker basket, a vintage biplane with double wings, a rigid zeppelin airship, a helicopter with a top rotor, a whimsical retro rocket with fins, an open parachute with harness lines, a hang glider with a triangular wing, a diamond kite with a ribbon tail</em><br><br><em>Background: #FFFFFF</em></td>
   </tr>
   <tr>
     <td><img src="https://logospell.com/gallery/papercraft-flying-machines/hot_air_balloon.png" alt="an ornate hot air balloon with a wicker basket" width="100"></td>
@@ -38,7 +38,7 @@ onto any backdrop:
 
 <table>
   <tr>
-    <td colspan="8"><em>Style: Venetian millefiori glass mosaic: subjects assembled from tightly packed slices of glass cane, each disc bearing its own tiny star, rosette, or concentric ring pattern, in luminous ruby, cobalt, amber, jade, and violet, glassy polished sheen, fine dark seams between the discs</em><br><em>Subjects: a tortoise with a domed shell, a fox with a sweeping tail, a koi fish mid-leap, a dragonfly with double wings, a toucan with an oversized beak, a rabbit sitting upright with ears tall, a cactus in a patterned pot, a mermaid with a curled tail</em></td>
+    <td colspan="8"><em>Style: Venetian millefiori glass mosaic: subjects assembled from tightly packed slices of glass cane, each disc bearing its own tiny star, rosette, or concentric ring pattern, in luminous ruby, cobalt, amber, jade, and violet, glassy polished sheen, fine dark seams between the discs</em><br><br><em>Subjects: a tortoise with a domed shell, a fox with a sweeping tail, a koi fish mid-leap, a dragonfly with double wings, a toucan with an oversized beak, a rabbit sitting upright with ears tall, a cactus in a patterned pot, a mermaid with a curled tail</em></td>
   </tr>
   <tr>
     <td><img src="https://logospell.com/gallery/millefiori-glass/a_tortoise_with_a_domed_shell.png" alt="a tortoise with a domed shell" width="100"></td>
@@ -58,7 +58,7 @@ One composed picture, in a wide range of sizes and aspect ratios:
 
 <table>
   <tr>
-    <td><em>Prompt: A small brass-and-glass airship moored to a clifftop lighthouse at sunset: the keeper waves from the railed gallery, gulls wheel overhead, and warm amber light spills across a calm sea far below. Painterly storybook illustration, rich and detailed, luminous golden-hour palette</em><br><em>Resolution: 1024x1024</em></td>
+    <td><em>Prompt: A small brass-and-glass airship moored to a clifftop lighthouse at sunset: the keeper waves from the railed gallery, gulls wheel overhead, and warm amber light spills across a calm sea far below. Painterly storybook illustration, rich and detailed, luminous golden-hour palette</em><br><br><em>Resolution: 1024x1024</em></td>
   </tr>
   <tr>
     <td align="center"><img src="https://logospell.com/landing/airship-lighthouse.webp" alt="a brass-and-glass airship moored to a clifftop lighthouse at sunset" width="400"></td>
