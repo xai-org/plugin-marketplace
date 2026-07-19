@@ -432,8 +432,8 @@
       }
     },
     "stripe": {
-      "sha": "cfc7296a9beb788034a379c659df7ad96932ee68",
-      "version": "0.1.0",
+      "sha": "61df6113574127536db39738c4aa6fc15d3e2298",
+      "version": "0.1.1",
       "components": {
         "agents": [
           {
@@ -464,7 +464,7 @@
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Acco…"
+            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
           },
           {
             "name": "stripe-directory",
