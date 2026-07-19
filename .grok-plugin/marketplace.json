@@ -159,6 +159,18 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "saleslumen",
+      "description": "Saleslumen platform integration (MCP Server + Skills). Connect Grok to Workflows, Emails, Campaigns, and Apps Script for your Saleslumen organization via OAuth.",
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/saleslumen"
+      },
+      "homepage": "https://www.saleslumen.com",
+      "keywords": ["saleslumen", "saleslumen mcp", "saleslumen campaigns", "saleslumen emails", "saleslumen workflows", "saleslumen apps script"],
+      "domains": ["saleslumen.com", "www.saleslumen.com", "app.saleslumen.com", "mcp.saleslumenapis.com"]
     }
   ]
 }
