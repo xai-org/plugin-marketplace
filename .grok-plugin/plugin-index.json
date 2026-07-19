@@ -720,7 +720,7 @@
       }
     },
     "xware": {
-      "sha": "89ba37705bb47aa03bb6ca6ca66c508c3aebc4bc",
+      "sha": "b97eeb97592e557fea0c00e9b74b8253d80a4d10",
       "components": {
         "agents": [
           {
@@ -736,6 +736,10 @@
           {
             "name": "xware-elevate",
             "description": "One-shot official XWare Experience Elevate for a Godot 3D project: design intent, densify, materials, motion, residual,…"
+          },
+          {
+            "name": "xware-no-copycat",
+            "description": "HARD STOP for Grok Build: when the user (or the agent itself) is about to create, scaffold, invent, or \"improve by rewr…"
           },
           {
             "name": "xware-xhance",

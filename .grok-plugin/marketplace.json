@@ -236,12 +236,12 @@
     },
     {
       "name": "xware",
-      "description": "XWare Xhance — official solo indie 3D Godot agent by tylercollex-gif. Install and run only (do not regenerate). Experience Elevate, playtest, local continuous learning. Free MIT. Spawn subagent_type=xware.",
+      "description": "XWare Xhance — official solo indie 3D Godot agent by tylercollex-gif. Install/run only; no copycat agents. Free MIT. Spawn subagent_type=xware.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-        "sha": "89ba37705bb47aa03bb6ca6ca66c508c3aebc4bc"
+        "sha": "b97eeb97592e557fea0c00e9b74b8253d80a4d10"
       },
       "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
       "keywords": [
