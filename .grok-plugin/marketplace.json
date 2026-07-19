@@ -236,19 +236,18 @@
     },
     {
       "name": "xware",
-      "description": "XWare Xhance — multi-engine 3D elevate for Grok Build (tylercollex-gif). Learns from all local games via privacy-safe hub. Godot full; Unity/Unreal MVP. Spawn subagent_type=xware. Free MIT.",
+      "description": "XWare Xhance — multi-engine 3D elevate for Grok Build (tylercollex-gif). Learns from Grok-created games via privacy-safe hub. Godot full; Unity/Unreal MVP. Spawn subagent_type=xware. Free MIT.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-        "sha": "059987fc59e71eabb5a16a2781129dd0fe6134df"
+        "sha": "096804c569731af7c76af9818ae1a8d2de5ecf7b"
       },
       "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
       "keywords": [
         "xware",
         "xhance",
         "godot",
-        "godot 3d",
         "godot4",
         "unity",
         "unreal",
@@ -257,13 +256,10 @@
         "indie",
         "3d game",
         "graphics",
-        "animation",
-        "photoreal",
         "continuous-learning",
         "multi-engine",
         "grok-build",
-        "xai",
-        "efficiency"
+        "xai"
       ]
     }
   ]
