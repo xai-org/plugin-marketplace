@@ -720,26 +720,26 @@
       }
     },
     "xware": {
-      "sha": "a797cb1e20de56553ad273d1fc42caf811281cf4",
+      "sha": "89ba37705bb47aa03bb6ca6ca66c508c3aebc4bc",
       "components": {
         "agents": [
           {
             "name": "xware",
-            "description": "XWare Xhance 3.2 — full xAI/Grok power for 3D Godot. Spawn when the task is graphics, animation, materials, physics, ph…"
+            "description": "Official XWare Xhance (tylercollex-gif) for 3D Godot. Spawn for graphics, animation, materials, physics, photoreal/expe…"
           }
         ],
         "skills": [
           {
             "name": "xware",
-            "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot. ALWAYS use for Godot 3D games, graphics, animation, mat…"
+            "description": "Official XWare Xhance (tylercollex-gif) for solo indie 3D Godot. ALWAYS use for Godot 3D graphics, animation, materials…"
           },
           {
             "name": "xware-elevate",
-            "description": "One-shot XWare Experience Elevate for a Godot 3D project: design intent, densify, materials, motion, residual, continuo…"
+            "description": "One-shot official XWare Experience Elevate for a Godot 3D project: design intent, densify, materials, motion, residual,…"
           },
           {
             "name": "xware-xhance",
-            "description": "XWare Xhance — full xAI/Grok power for 3D Godot: spawn xware + Experience Elevate + continuous learning + Imagine look…"
+            "description": "Official XWare Xhance — full xAI/Grok power for 3D Godot: spawn xware + Experience Elevate + continuous learning + Imag…"
           }
         ]
       }
