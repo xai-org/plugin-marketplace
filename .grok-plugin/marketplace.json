@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vbusnita/focus-audio.git",
-        "sha": "98185c8d733477aa117e99a91fd6a097541d611b"
+        "sha": "91fea499dc35389ef5854cf150b78b0dbf426949"
       },
       "homepage": "https://github.com/vbusnita/focus-audio",
       "keywords": ["focus-audio", "focus audio"]
