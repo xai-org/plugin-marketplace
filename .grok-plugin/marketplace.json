@@ -153,7 +153,7 @@
     },
     {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
       "source": {
         "source": "url",
@@ -236,12 +236,12 @@
     },
     {
       "name": "xware",
-      "description": "XWare 3.0 \u2014 Grok agent for solo indie 3D Godot game creation. Experience Elevate, Character Engine, playtest improve loops, continuous learning. Spawn subagent_type=xware.",
+      "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot. Experience Elevate, Character Engine, playtest loops, continuous learning hub, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-        "sha": "6788153aacaf959db4ddc56e43c939ea380d56ac"
+        "sha": "ced35a07adee865808aab9bb025a089cceeb6b94"
       },
       "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
       "keywords": [
@@ -253,7 +253,11 @@
         "indie",
         "3d game",
         "graphics",
-        "animation"
+        "animation",
+        "xhance",
+        "xai",
+        "continuous-learning",
+        "photoreal"
       ]
     }
   ]

@@ -720,18 +720,26 @@
       }
     },
     "xware": {
-      "sha": "6788153aacaf959db4ddc56e43c939ea380d56ac",
+      "sha": "ced35a07adee865808aab9bb025a089cceeb6b94",
       "components": {
         "agents": [
           {
             "name": "xware",
-            "description": "XWare 3.0 — Grok 4.5 fundamental 3D Godot game design OS. Spawn when the task is graphics, animation, materials, physic…"
+            "description": "XWare Xhance 3.2 — full xAI/Grok power for 3D Godot. Spawn when the task is graphics, animation, materials, physics, ph…"
           }
         ],
         "skills": [
           {
             "name": "xware",
-            "description": "XWare — built-in-class Grok 4.5 agent for solo indie 3D Godot game creation. ALWAYS use for Godot 3D games, graphics, a…"
+            "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot. ALWAYS use for Godot 3D games, graphics, animation, mat…"
+          },
+          {
+            "name": "xware-elevate",
+            "description": "One-shot XWare Experience Elevate for a Godot 3D project: design intent, densify, materials, motion, residual, continuo…"
+          },
+          {
+            "name": "xware-xhance",
+            "description": "XWare Xhance — full xAI/Grok power for 3D Godot: spawn xware + Experience Elevate + continuous learning + Imagine look…"
           }
         ]
       }
