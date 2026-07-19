@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Meritocra/meritocra-engineering-help.git",
-        "sha": "db642b1ae9acbfcefda757fc2027c45918e2f573"
+        "sha": "792ee7f5dbd3dd9dfe21113490ebe9306acd79ef"
       },
       "homepage": "https://meritocra.com/mcp.md",
       "keywords": ["meritocra", "meritocra engineering help", "meritocra mcp"],

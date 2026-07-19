@@ -276,8 +276,8 @@
       }
     },
     "meritocra-engineering-help": {
-      "sha": "db642b1ae9acbfcefda757fc2027c45918e2f573",
-      "version": "0.4.0",
+      "sha": "792ee7f5dbd3dd9dfe21113490ebe9306acd79ef",
+      "version": "0.5.0",
       "components": {
         "mcpServers": [
           {
