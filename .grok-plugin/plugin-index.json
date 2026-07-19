@@ -720,7 +720,7 @@
       }
     },
     "xware": {
-      "sha": "347e3a8831734c1768c4fe3a3270921f7e909f1a",
+      "sha": "db59277c028cc54ea4862c27f15b008ca9a92ed9",
       "components": {
         "agents": [
           {
@@ -743,7 +743,7 @@
           },
           {
             "name": "xware-offer",
-            "description": "ALWAYS load when the user is making, building, raising, porting, or shipping ANY 3D Godot game (Godot 4, 3D scene, FPS,…"
+            "description": "ALWAYS load when ANY Grok Build user is generating, making, building, raising, or shipping a 3D Godot game (Godot 4, 3D…"
           },
           {
             "name": "xware-xhance",
