@@ -236,12 +236,12 @@
     },
     {
       "name": "xware",
-      "description": "XWare Xhance 3.2 — full xAI/Grok power for solo indie 3D Godot. Experience Elevate, Character Engine, playtest loops, continuous learning hub, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
+      "description": "XWare Xhance 3.2 — solo indie 3D Godot. Experience Elevate, Character Engine, playtest loops, local continuous learning, Imagine look skills. Spawn subagent_type=xware. Slash: /xware-xhance /xware-elevate.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-        "sha": "ced35a07adee865808aab9bb025a089cceeb6b94"
+        "sha": "074c15b403191c12f12e6cb9d13a18e600f7e5a7"
       },
       "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
       "keywords": [
