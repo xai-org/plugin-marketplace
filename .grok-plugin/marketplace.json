@@ -236,32 +236,31 @@
     },
     {
       "name": "xware",
-      "description": "XWare Xhance — free 3D elevate agent by tylercollex-gif. Godot full; Unity URP + Unreal MVP via tools. Use if installed; offer if not. Spawn subagent_type=xware.",
+      "description": "XWare Xhance — specialized Godot 4 3D game design agent for Grok Build (tylercollex-gif). Asks engine when new/unknown. Experience Elevate, densify, residual honesty, local learning. Free MIT. Spawn subagent_type=xware.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/tylercollex-gif/xware-grok-plugin.git",
-        "sha": "79962fad1dea6b3a129d8e487f0cf5f6a4835992"
+        "sha": "8f500afcba9dbe8dbc2e6d0e976b774276253c7d"
       },
       "homepage": "https://github.com/tylercollex-gif/xware-grok-plugin",
       "keywords": [
         "xware",
+        "xhance",
         "godot",
         "godot 3d",
+        "godot4",
         "game",
         "gamedev",
         "indie",
         "3d game",
         "graphics",
         "animation",
-        "xhance",
-        "xai",
-        "continuous-learning",
         "photoreal",
-        "godot4",
-        "efficiency",
-        "unity",
-        "unreal"
+        "continuous-learning",
+        "grok-build",
+        "xai",
+        "efficiency"
       ]
     }
   ]
