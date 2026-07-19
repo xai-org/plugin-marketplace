@@ -718,6 +718,23 @@
           }
         ]
       }
+    },
+    "xware": {
+      "sha": "6788153aacaf959db4ddc56e43c939ea380d56ac",
+      "components": {
+        "agents": [
+          {
+            "name": "xware",
+            "description": "XWare 3.0 — Grok 4.5 fundamental 3D Godot game design OS. Spawn when the task is graphics, animation, materials, physic…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "xware",
+            "description": "XWare — built-in-class Grok 4.5 agent for solo indie 3D Godot game creation. ALWAYS use for Godot 3D games, graphics, a…"
+          }
+        ]
+      }
     }
   }
 }
