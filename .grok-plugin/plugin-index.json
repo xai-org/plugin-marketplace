@@ -720,18 +720,18 @@
       }
     },
     "xware": {
-      "sha": "8f500afcba9dbe8dbc2e6d0e976b774276253c7d",
+      "sha": "9f2cd3f59449f19af6f7e33ee89e556994145a94",
       "components": {
         "agents": [
           {
             "name": "xware",
-            "description": "Official XWare Xhance — specialized Godot 4 3D game design agent for Grok Build (tylercollex-gif). Spawn for Godot grap…"
+            "description": "﻿---"
           }
         ],
         "skills": [
           {
             "name": "xware",
-            "description": "Official XWare Xhance — specialized Godot 4 3D game design agent for Grok Build (tylercollex-gif). ALWAYS use/offer for…"
+            "description": "Official XWare Xhance multi-engine 3D elevate for Grok Build (tylercollex-gif). Godot 4 full; Unity URP + Unreal 5 MVP.…"
           },
           {
             "name": "xware-elevate",
