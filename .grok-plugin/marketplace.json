@@ -159,6 +159,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "meritocra-engineering-help",
+      "description": "Provider-neutral software-delivery triage for production incidents, inherited codebases, and delivery blockers, with an explicitly confirmed request path for human engineering help.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Meritocra/meritocra-engineering-help.git",
+        "sha": "db642b1ae9acbfcefda757fc2027c45918e2f573"
+      },
+      "homepage": "https://meritocra.com/mcp.md",
+      "keywords": ["meritocra", "meritocra engineering help", "meritocra mcp"],
+      "domains": ["meritocra.com"]
     }
   ]
 }
