@@ -420,6 +420,32 @@
         ]
       }
     },
+    "sprites": {
+      "sha": "a696ac338d86529c45f959b8b002e456330d349a",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sprites",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sprites",
+            "description": "Use Sprites for isolated remote compute from Grok Build: create sandboxes, run commands and tests, manage long-running…"
+          },
+          {
+            "name": "sprites-smoke",
+            "description": "End-to-end Sprites smoke test via MCP: list, create, exec, optional destroy. Use when the user runs /sprites-smoke or a…"
+          },
+          {
+            "name": "sprites-status",
+            "description": "Check whether the Sprites plugin MCP is loaded and authenticated. Use when the user runs /sprites-status, asks if Sprit…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "61df6113574127536db39738c4aa6fc15d3e2298",
       "version": "0.1.1",
