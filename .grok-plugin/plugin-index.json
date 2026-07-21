@@ -720,12 +720,13 @@
       }
     },
     "xware": {
-      "sha": "096804c569731af7c76af9818ae1a8d2de5ecf7b",
+      "sha": "27ed734b7e68a2c21ddbd7bd704bdedf016e9198",
+      "version": "3.6.0",
       "components": {
         "agents": [
           {
             "name": "xware",
-            "description": "﻿---"
+            "description": "XWare Xhance multi-engine 3D elevate + immersion for Grok Build"
           }
         ],
         "skills": [
