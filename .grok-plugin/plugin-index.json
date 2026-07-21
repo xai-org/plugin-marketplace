@@ -153,6 +153,74 @@
         ]
       }
     },
+    "discipline": {
+      "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+      "version": "2.1.3",
+      "components": {
+        "skills": [
+          {
+            "name": "asking-before-assuming",
+            "description": "Use when a request leaves a real decision open — behavior on edge cases, output format, which of several plausible targ…"
+          },
+          {
+            "name": "assessing-before-fixing",
+            "description": "Use when the user describes a problem, asks a question, or thinks out loud without requesting a change, \\\"why is this s…"
+          },
+          {
+            "name": "avoiding-speculative-complexity",
+            "description": "Use whenever implementing a concrete coding request and the solution starts introducing abstractions, interfaces, facto…"
+          },
+          {
+            "name": "challenging-domain-terms",
+            "description": "Use when the project documents its domain language — a CONTEXT.md, UBIQUITOUS_LANGUAGE.md, GLOSSARY.md, or docs glossar…"
+          },
+          {
+            "name": "confirming-diagnosis-before-acting",
+            "description": "Use when a task arrives as a claim PLUS a prescribed state change — \\\"totals are off, wipe the cache\\\", \\\"it's slow aga…"
+          },
+          {
+            "name": "guarding-irreversible-changes",
+            "description": "Use when a task modifies or deletes existing data in place — deduplicating, merging, normalizing, archiving, cleaning u…"
+          },
+          {
+            "name": "maintaining-memory-hygiene",
+            "description": "Use when saving, updating, or acting on persistent agent memory, notes files, MEMORY.md-style indexes, lesson logs, or…"
+          },
+          {
+            "name": "preserving-working-state",
+            "description": "Use when a task is about to discard or overwrite workspace state — git reset --hard, checkout/restore over modified fil…"
+          },
+          {
+            "name": "reporting-outcomes-faithfully",
+            "description": "Use for ANY task that ends with reporting results of checks you ran, test suites, linters, builds, data validations, sm…"
+          },
+          {
+            "name": "surfacing-codebase-insights",
+            "description": "Use throughout coding tasks when reading, changing, debugging, reviewing, or explaining an existing codebase — feature…"
+          },
+          {
+            "name": "surfacing-incidental-findings",
+            "description": "Use whenever a task sends you reading or editing code in files you don't own — fixing a bug, optimizing for speed, rena…"
+          },
+          {
+            "name": "surfacing-requirement-conflicts",
+            "description": "Use when a requested change contradicts a rule the codebase already documents, a named policy (FIN-112, SEC-204), a REA…"
+          },
+          {
+            "name": "verifying-before-done",
+            "description": "Use for EVERY coding task that ends with reporting completion — bug fixes, feature adds, renames, \\\"quick sed jobs\\\", c…"
+          },
+          {
+            "name": "writing-final-messages",
+            "description": "Use when composing the final message of any turn, especially after a long multi-tool run where findings accumulated in…"
+          },
+          {
+            "name": "writing-handoff-plans",
+            "description": "Use when writing an implementation plan, task spec, or handoff document that a different agent or model will execute la…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
       "version": "2.2.81",
@@ -271,6 +339,82 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "judgment": {
+      "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+      "version": "1.0.3",
+      "components": {
+        "skills": [
+          {
+            "name": "auditing-design-systems",
+            "description": "Use when asked to audit, document, or extend a design system - checking token coverage, naming consistency, or componen…"
+          },
+          {
+            "name": "deciding-when-to-animate",
+            "description": "Use before adding, preserving, or expanding interface animation when the action may be keyboard initiated, frequently r…"
+          },
+          {
+            "name": "finding-motion-opportunities",
+            "description": "Use when asked to search a codebase or interface for places that lack animation but would benefit from it, such as \"wha…"
+          },
+          {
+            "name": "reviewing-accessibility",
+            "description": "Use when asked to audit or review accessibility, check a11y, verify WCAG compliance, or evaluate color contrast, keyboa…"
+          },
+          {
+            "name": "reviewing-interface-motion",
+            "description": "Use when explicitly reviewing animation, transition, spring, hover motion, popover or modal entrances, drag or swipe be…"
+          }
+        ]
+      }
+    },
+    "methods": {
+      "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+      "version": "1.3.3",
+      "components": {
+        "skills": [
+          {
+            "name": "coining-names",
+            "description": "Use when inventing a name — product, brand, startup, project, feature, or command-line tool — or evaluating name candid…"
+          },
+          {
+            "name": "debugging-to-root-cause",
+            "description": "Use when debugging any bug, test failure, crash, or unexpected behavior — before proposing or writing a fix. Applies to…"
+          },
+          {
+            "name": "decomposing-by-information-hiding",
+            "description": "Use when splitting code into modules, files, or functions — designing module boundaries, restructuring for an anticipat…"
+          },
+          {
+            "name": "designing-fluid-interfaces",
+            "description": "Use when building gesture-driven UI such as drags, swipes, bottom sheets, drawers, carousels, or momentum scrolling, wh…"
+          },
+          {
+            "name": "eliciting-outcome-tradeoffs",
+            "description": "Use when product or feature discovery starts from a solution-shaped request — \\\"add auto-merge\\\", \\\"build a dashboard f…"
+          },
+          {
+            "name": "naming-animation-effects",
+            "description": "Use when the user describes a web animation or motion effect without knowing its name, asks “what is this called,” want…"
+          },
+          {
+            "name": "planning-motion-improvements",
+            "description": "Use when asked to audit a codebase's animations and produce a roadmap or plans for improving them, such as \"improve the…"
+          },
+          {
+            "name": "structuring-multi-session-work",
+            "description": "Use when a task will span more than one session or context window — incremental migrations, long refactors, multi-day b…"
+          },
+          {
+            "name": "writing-design-system-rules",
+            "description": "Use when asked to create design system rules, conventions, or guidelines for AI agents or a rules file - generating or…"
+          },
+          {
+            "name": "writing-system-prompts",
+            "description": "Use when writing, revising, or debugging a prompt or system prompt for an LLM-powered app, agent, or pipeline — includi…"
           }
         ]
       }

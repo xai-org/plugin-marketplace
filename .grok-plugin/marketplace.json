@@ -159,6 +159,45 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "discipline",
+      "description": "Behavioral correctives that keep coding agents from guessing, skipping checks, bulldozing work, and hiding failures.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ouaickaka/skills.git",
+        "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+        "path": "plugins/discipline"
+      },
+      "homepage": "https://github.com/ouaickaka/skills",
+      "keywords": ["ouaic", "ouaic discipline"]
+    },
+    {
+      "name": "methods",
+      "description": "Expert procedures the agent invokes to do a task well, where the untrained default is to improvise.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ouaickaka/skills.git",
+        "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+        "path": "plugins/methods"
+      },
+      "homepage": "https://github.com/ouaickaka/skills",
+      "keywords": ["ouaic", "ouaic methods"]
+    },
+    {
+      "name": "judgment",
+      "description": "Evaluators the agent invokes to review and decide well, where the untrained default is to miss what matters.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ouaickaka/skills.git",
+        "sha": "dc2f8643e42d98e957a0dbd63974377bc744e632",
+        "path": "plugins/judgment"
+      },
+      "homepage": "https://github.com/ouaickaka/skills",
+      "keywords": ["ouaic", "ouaic judgment"]
     }
   ]
 }
