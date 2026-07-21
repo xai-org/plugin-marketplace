@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "anakin": {
+      "sha": "3bda02903117843795ac81d4c99483eea86d1a96",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anakin",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "anakin-browser",
+            "description": "Use when a task needs a real browser driven step by step — multi-step flows, clicking and typing, complex navigation th…"
+          },
+          {
+            "name": "anakin-monitoring",
+            "description": "Use when the user wants to watch a web page, site, or Wire action for changes over time rather than fetch it once — pri…"
+          },
+          {
+            "name": "anakin-research",
+            "description": "Use when answering a question from the web with Anakin rather than fetching a known URL — web search for relevant pages…"
+          },
+          {
+            "name": "anakin-web-data",
+            "description": "Use when fetching content from the web with Anakin — reading a page, getting a site's URL structure, or bulk-collecting…"
+          },
+          {
+            "name": "anakin-wire",
+            "description": "Use when a task targets a specific well-known website — extracting products, listings, prices, profiles, reviews or das…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
