@@ -421,8 +421,8 @@
       }
     },
     "stripe": {
-      "sha": "c29cd23cfd27830bf10961d58646a9fd127fa6df",
-      "version": "0.1.2",
+      "sha": "a3267712f2268975e4ecc5912634d900ae4cb8e6",
+      "version": "0.2.0",
       "components": {
         "agents": [
           {
@@ -458,6 +458,10 @@
           {
             "name": "stripe-directory",
             "description": "Use when the user wants to find businesses, software, service providers, or partners for a specific industry, workflow,…"
+          },
+          {
+            "name": "stripe-docs",
+            "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
           },
           {
             "name": "stripe-projects",
