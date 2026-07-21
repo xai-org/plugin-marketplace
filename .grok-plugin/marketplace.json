@@ -139,7 +139,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
+        "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -153,7 +153,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "c29cd23cfd27830bf10961d58646a9fd127fa6df",
+        "sha": "a3267712f2268975e4ecc5912634d900ae4cb8e6",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
