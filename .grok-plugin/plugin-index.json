@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "anakin": {
-      "sha": "3bda02903117843795ac81d4c99483eea86d1a96",
-      "version": "0.2.0",
+      "sha": "7472cffb52e77c573885bcdc7469c165a70e5ebc",
+      "version": "0.2.1",
       "components": {
         "mcpServers": [
           {

@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Anakin-Inc/agent-skills.git",
-        "sha": "3bda02903117843795ac81d4c99483eea86d1a96"
+        "sha": "7472cffb52e77c573885bcdc7469c165a70e5ebc"
       },
       "homepage": "https://anakin.io",
       "keywords": ["anakin", "anakin.io", "anakin scrape", "wire action"],
