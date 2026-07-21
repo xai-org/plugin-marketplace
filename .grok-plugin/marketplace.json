@@ -133,6 +133,19 @@
       "domains": ["figma.com", "www.figma.com"]
     },
     {
+      "name": "exa",
+      "description": "Web search and content extraction via the hosted Exa MCP server. Search the web semantically with category filters (companies, people, news, papers, financial reports), read any page as clean markdown, and run structured multi-step research. Sign in with your Exa account on first connection; free credits on signup, no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+        "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
+      },
+      "homepage": "https://exa.ai",
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
