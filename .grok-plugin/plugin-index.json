@@ -153,6 +153,23 @@
         ]
       }
     },
+    "e2llm": {
+      "sha": "0ef18cb71ef4235ae3891085327602869213ac16",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "e2llm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sifr",
+            "description": "How to read SIFR (Salience-Indexed, Flat Relations) captures AND drive a browser with the element-to-llm / e2llm MCP to…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
       "version": "2.2.81",
