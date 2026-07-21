@@ -153,6 +153,22 @@
         ]
       }
     },
+    "coderifts": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "coderifts",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "api-governance",
+            "description": "Use before merging or shipping any API or tool-contract change. Runs CodeRifts preflight on OpenAPI specs and MCP manif…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
       "version": "2.2.81",
