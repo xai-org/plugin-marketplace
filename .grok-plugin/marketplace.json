@@ -146,6 +146,19 @@
       "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
     },
     {
+      "name": "tavily",
+      "description": "Web search, content extraction, website crawling, URL discovery, and deep research via Tavily's hosted MCP server and official skills. Connect with OAuth to access current, source-grounded web information directly from Grok Build.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
+        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+      },
+      "homepage": "https://www.tavily.com",
+      "keywords": ["tavily", "tavily search", "tavily ai"],
+      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",

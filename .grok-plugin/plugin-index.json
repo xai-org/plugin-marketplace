@@ -562,6 +562,52 @@
         ]
       }
     },
+    "tavily": {
+      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavily",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "academic-scientific-research",
+            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+          },
+          {
+            "name": "investment-research-briefs",
+            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+          },
+          {
+            "name": "product-competitor-intelligence",
+            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+          },
+          {
+            "name": "sales-account-intelligence",
+            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+          },
+          {
+            "name": "tavily-best-practices",
+            "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
+          },
+          {
+            "name": "tavily-web",
+            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
+          },
+          {
+            "name": "threat-intelligence-enrichment",
+            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
+          },
+          {
+            "name": "vendor-risk-kyc-screening",
+            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
       "version": "0.45.1",
