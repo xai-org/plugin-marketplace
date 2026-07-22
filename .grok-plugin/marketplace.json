@@ -134,12 +134,12 @@
     },
     {
       "name": "exa",
-      "description": "Web search and content extraction via the hosted Exa MCP server. Search the web semantically with category filters (companies, people, news, papers, financial reports), read any page as clean markdown, and run structured multi-step research. Sign in with your Exa account on first connection; free credits on signup, no API key needed.",
+      "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to search the entire web for the latest code docs, news, company information, and much more.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/exa-labs/exa-grok-plugin.git",
-        "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
+        "sha": "7af6a65309ccf145546ec1f7836fa517d01dc490"
       },
       "homepage": "https://exa.ai",
       "keywords": ["exa", "exa search", "exa ai"],
