@@ -293,6 +293,21 @@
         ]
       }
     },
+    "grok-project-brain": {
+      "sha": "27bafa5f421e8b52af313f48561a7b92a65c481c",
+      "components": {
+        "skills": [
+          {
+            "name": "grok-media-craft",
+            "description": "Media + full-stack creation craft for Grok Build: when to code vs Imagine vs map pipelines, one-pass quality bar, verif…"
+          },
+          {
+            "name": "grok-project-brain",
+            "description": "Project continuity OS for Grok Build: boot from STATUS, handoffs, AGENTS conventions, secrets hygiene, compact-safe res…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
