@@ -133,6 +133,19 @@
       "domains": ["figma.com", "www.figma.com"]
     },
     {
+      "name": "exa",
+      "description": "Web search and content extraction via the hosted Exa MCP server. Search the web semantically with category filters (companies, people, news, papers, financial reports), read any page as clean markdown, and run structured multi-step research. Sign in with your Exa account on first connection; free credits on signup, no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+        "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
+      },
+      "homepage": "https://exa.ai",
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+    },
+    {
       "name": "tavily",
       "description": "Web search, content extraction, website crawling, URL discovery, and deep research via Tavily's hosted MCP server and official skills. Connect with OAuth to access current, source-grounded web information directly from Grok Build.",
       "category": "development",
@@ -152,7 +165,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
+        "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -166,7 +179,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "cfc7296a9beb788034a379c659df7ad96932ee68",
+        "sha": "a3267712f2268975e4ecc5912634d900ae4cb8e6",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
