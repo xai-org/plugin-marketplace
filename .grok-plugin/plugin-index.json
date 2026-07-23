@@ -384,6 +384,31 @@
         ]
       }
     },
+    "saleslumen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "saleslumen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "saleslumen",
+            "description": "Overview of Saleslumen MCP for Grok: OAuth linking, whoami, organizations, and which tools cover Campaigns, Emails, Wor…"
+          },
+          {
+            "name": "saleslumen-campaigns",
+            "description": "Manage Saleslumen Campaigns: people, sequences, steps, variables, metrics, and tasks via MCP tools. Use when the user a…"
+          },
+          {
+            "name": "saleslumen-emails",
+            "description": "Use Saleslumen Emails MCP tools for messages, threads, labels, drafts, accounts, and discover. Use when the user asks a…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "f6b4882489b34b5dce8f21648286a570d56110da",
       "version": "1.2.0",
