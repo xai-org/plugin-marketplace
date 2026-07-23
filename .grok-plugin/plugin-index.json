@@ -43,6 +43,46 @@
         ]
       }
     },
+    "brandmd": {
+      "sha": "11e161f8d372723972a5dbeaaef7c70799c48147",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "brandmd",
+            "description": "Quick BRAND.md workflow for this session."
+          }
+        ],
+        "skills": [
+          {
+            "name": "brandmd-apply",
+            "description": "Apply the BRAND.md open brand standard when writing copy, choosing colors/type, or producing assets for a brand. Load B…"
+          },
+          {
+            "name": "brandmd-audit",
+            "description": "Audit a repository for BRAND.md conformance and completeness score. Use when the user says brandmd audit, check brand r…"
+          }
+        ]
+      }
+    },
+    "caplifi-approve": {
+      "sha": "11e161f8d372723972a5dbeaaef7c70799c48147",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "approve-spec",
+            "description": "Caplifi Approve open contract helper."
+          }
+        ],
+        "skills": [
+          {
+            "name": "caplifi-approve",
+            "description": "Caplifi Approve / headgate.approve.v1 — format human phone-approval proposals for access and execute queues. Use when u…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
       "version": "1.6.0",
@@ -293,6 +333,28 @@
         ]
       }
     },
+    "hbi": {
+      "sha": "11e161f8d372723972a5dbeaaef7c70799c48147",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "hbi",
+            "description": "Half-Baked Idea package helper."
+          }
+        ],
+        "skills": [
+          {
+            "name": "hbi-package",
+            "description": "Create or shape a Half-Baked Idea (HBI) package: MANIFEST, IDEA, HANDOFF, IP_TRIAGE, DISCLOSURE. Use when the user says…"
+          },
+          {
+            "name": "hbi-validate",
+            "description": "Validate an HBI package for structural conformance using the reference validator. Use when the user says hbi validate,…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
@@ -434,6 +496,28 @@
           {
             "name": "sentry-workflow",
             "description": "Keep Sentry SDKs up to date. Use when asked to upgrade the Sentry SDK across major versions, migrate SDK versions, or f…"
+          }
+        ]
+      }
+    },
+    "slopmd": {
+      "sha": "11e161f8d372723972a5dbeaaef7c70799c48147",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "slop",
+            "description": "SLOP + INSTIGATE/HANDOFF helper."
+          }
+        ],
+        "skills": [
+          {
+            "name": "instigate-handoff",
+            "description": "Write INSTIGATE (execute on receipt) or HANDOFF (absorb then discuss) documents correctly. Use when the user says INSTI…"
+          },
+          {
+            "name": "slop-envelope",
+            "description": "Author or parse SLOP.md agent handoff envelopes (slop.v1). Use for multi-agent inbox/outbox drops, instigate vs handoff…"
           }
         ]
       }
