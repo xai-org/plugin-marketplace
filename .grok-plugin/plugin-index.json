@@ -153,6 +153,18 @@
         ]
       }
     },
+    "conventional-commits": {
+      "sha": "07d51e9732e24e03a30b40d29e0088f5054c70ad",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "conventional-commits",
+            "description": "Write commit messages that follow the Conventional Commits 1.0.0 spec and derive changelog entries from history. Use wh…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91",
       "version": "1.1.0",
