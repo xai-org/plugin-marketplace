@@ -294,8 +294,8 @@
       }
     },
     "mongodb": {
-      "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
-      "version": "1.1.0",
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -315,6 +315,44 @@
           {
             "name": "mongodb-mcp-setup",
             "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server i…"
+          },
+          {
+            "name": "mongodb-natural-language-querying",
+            "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema conte…"
+          },
+          {
+            "name": "mongodb-query-optimizer",
+            "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do…"
+          },
+          {
+            "name": "mongodb-schema-design",
+            "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL…"
+          },
+          {
+            "name": "mongodb-search-and-ai",
+            "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid…"
+          }
+        ]
+      }
+    },
+    "mongodb-atlas": {
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb-atlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mongodb-atlas-stream-processing",
+            "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections,…"
+          },
+          {
+            "name": "mongodb-connection",
+            "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use thi…"
           },
           {
             "name": "mongodb-natural-language-querying",

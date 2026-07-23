@@ -70,15 +70,30 @@
     },
     {
       "name": "mongodb",
-      "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "description": "Official plugin for MongoDB (Self-Managed MCP Server + Skills). Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI, or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices.",
       "category": "database",
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "domains": ["mongodb.com"]
+    },
+    {
+      "name": "mongodb-atlas",
+      "description": "Official plugin for MongoDB Atlas (Managed MCP Server + Skills). Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mongodb/agent-skills.git",
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb-atlas"
+      },
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
