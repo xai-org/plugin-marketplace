@@ -173,6 +173,19 @@
       "domains": ["railway.com", "railway.app"]
     },
     {
+      "name": "sprites",
+      "description": "Official Sprites integration for Grok Build. Create and operate isolated, persistent Linux environments through the hosted OAuth-authenticated Sprites MCP server; run commands and tests, manage services, checkpoints, and network policy.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superfly/sprites-grok-plugin.git",
+        "sha": "a696ac338d86529c45f959b8b002e456330d349a"
+      },
+      "homepage": "https://sprites.dev",
+      "keywords": ["sprites", "sprites dev", "fly sprites", "sprites mcp"],
+      "domains": ["sprites.dev", "docs.sprites.dev"]
+    },
+    {
       "name": "stripe",
       "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
