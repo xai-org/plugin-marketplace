@@ -360,6 +360,50 @@
         ]
       }
     },
+    "observational-memory": {
+      "sha": "3e2ff212396bf6fc4689c75c44d78c6122d6ca36",
+      "version": "0.1.1",
+      "components": {
+        "commands": [
+          {
+            "name": "memory-status",
+            "description": "Diagnose Observational Memory wiring health on Grok Build — hooks, managed block, staleness, and om doctor summary."
+          },
+          {
+            "name": "om-setup",
+            "description": "Set up Observational Memory for Grok Build — consent-gated wiring of hooks and the managed AGENTS.md context block."
+          },
+          {
+            "name": "om-teardown",
+            "description": "Remove Observational Memory wiring from Grok Build — hook file, managed AGENTS.md block, and state directory."
+          },
+          {
+            "name": "recall",
+            "description": "Search observational memory for context from past sessions."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "observational-memory",
+            "description": "Cross-session observational memory for Grok Build. Use when the user asks to \"recall something from a past session\", \"s…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
       "version": "1.3.6",

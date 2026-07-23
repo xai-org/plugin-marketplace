@@ -185,6 +185,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "observational-memory",
+      "description": "Observational memory for Grok Build: observes sessions, reflects durable facts, recalls them in every session.",
+      "category": "memory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/intertwine/grok-observational-memory.git",
+        "sha": "3e2ff212396bf6fc4689c75c44d78c6122d6ca36"
+      },
+      "homepage": "https://github.com/intertwine/grok-observational-memory",
+      "keywords": ["observational-memory", "observational memory", "cross-session memory", "automatic session memory"],
+      "domains": []
     }
   ]
 }
