@@ -293,6 +293,109 @@
         ]
       }
     },
+    "focus-audio": {
+      "sha": "91fea499dc35389ef5854cf150b78b0dbf426949",
+      "components": {
+        "commands": [
+          {
+            "name": "audio",
+            "description": "audio: Focus Audio help + hotkeys (Ctrl+Shift+Space play/pause, R restart, . skip, B rebrief, M mode). /audio"
+          },
+          {
+            "name": "audio-live",
+            "description": "audio: toggle live mid-turn speech (live_verbatim). /audio-live"
+          },
+          {
+            "name": "audio-mode",
+            "description": "audio: toggle brief/verbatim mode (Ctrl+Shift+M). /audio-mode"
+          },
+          {
+            "name": "audio-off",
+            "description": "audio: master OFF — silence live + brief + verbatim. /audio-off"
+          },
+          {
+            "name": "audio-on",
+            "description": "audio: master ON — re-enable Focus Audio after /audio-off. /audio-on"
+          },
+          {
+            "name": "audio-rebrief",
+            "description": "audio: re-brief last turn (Ctrl+Shift+B). /audio-rebrief"
+          },
+          {
+            "name": "audio-restart",
+            "description": "audio: restart Focus Audio clip (Ctrl+Shift+R). /audio-restart"
+          },
+          {
+            "name": "audio-skip",
+            "description": "audio: skip/stop Focus Audio (Ctrl+Shift+.). /audio-skip"
+          },
+          {
+            "name": "audio-toggle",
+            "description": "audio: play/pause Focus Audio (Ctrl+Shift+Space). /audio-toggle"
+          },
+          {
+            "name": "listen",
+            "description": "audio: speak last assistant turn as Focus Audio brief. /listen. Hotkeys: Ctrl+Shift+Space"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "audio",
+            "description": "audio: Focus Audio help + hotkeys (Ctrl+Shift+Space play/pause, R restart, . skip, B rebrief, M mode). /audio"
+          },
+          {
+            "name": "audio-live",
+            "description": "audio: toggle live mid-turn speech (live_verbatim). /audio-live"
+          },
+          {
+            "name": "audio-mode",
+            "description": "audio: toggle brief/verbatim mode (Ctrl+Shift+M). /audio-mode"
+          },
+          {
+            "name": "audio-off",
+            "description": "audio: master OFF — silence live + brief + verbatim. /audio-off"
+          },
+          {
+            "name": "audio-on",
+            "description": "audio: master ON — re-enable Focus Audio after /audio-off. /audio-on"
+          },
+          {
+            "name": "audio-rebrief",
+            "description": "audio: re-brief last turn (Ctrl+Shift+B). /audio-rebrief"
+          },
+          {
+            "name": "audio-restart",
+            "description": "audio: restart Focus Audio clip (Ctrl+Shift+R). /audio-restart"
+          },
+          {
+            "name": "audio-skip",
+            "description": "audio: skip/stop Focus Audio (Ctrl+Shift+.). /audio-skip"
+          },
+          {
+            "name": "audio-toggle",
+            "description": "audio: play/pause Focus Audio (Ctrl+Shift+Space). /audio-toggle"
+          },
+          {
+            "name": "listen",
+            "description": "audio: speak last assistant turn as Focus Audio brief. /listen. Hotkeys: Ctrl+Shift+Space"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",

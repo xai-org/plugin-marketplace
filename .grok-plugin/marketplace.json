@@ -185,6 +185,18 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "focus-audio",
+      "description": "Spoken focus briefs for Grok Build turns using your own xAI API key. Optional mid-turn live speech, play/pause/skip, master on/off, and /audio slash commands. macOS primary; no third-party analytics.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vbusnita/focus-audio.git",
+        "sha": "91fea499dc35389ef5854cf150b78b0dbf426949"
+      },
+      "homepage": "https://github.com/vbusnita/focus-audio",
+      "keywords": ["focus-audio", "focus audio"]
     }
   ]
 }
