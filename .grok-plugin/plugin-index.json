@@ -293,6 +293,24 @@
         ]
       }
     },
+    "harness-optimize": {
+      "sha": "b3237e693759cc10c2df4400cf2d7ba5ef6f60ff",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "harness-optimize",
+            "description": "Optimize Grok (and related) agent harness setup — changelogs, MCP doctor, env/secrets, permissions, dual rules. Always…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "harness-optimize",
+            "description": "Research a coding harness (Claude Code, Grok, Codex, OpenCode, Cursor, agy) via its changelogs and docs, inventory syst…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
