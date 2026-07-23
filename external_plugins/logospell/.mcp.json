@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "logospell": {
+      "type": "http",
+      "url": "https://mcp.logospell.com/mcp",
+      "headers": { "Authorization": "Bearer ${LOGOSPELL_API_KEY}" }
+    }
+  }
+}

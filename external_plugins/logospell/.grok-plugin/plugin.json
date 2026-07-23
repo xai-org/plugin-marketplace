@@ -1,0 +1,10 @@
+{
+  "name": "logospell",
+  "version": "1.0.2",
+  "description": "AI image generation for your agent: cohesive image sets, transparent-background sets, and single illustrations from the Logospell MCP server.",
+  "author": { "name": "Logospell", "url": "https://logospell.com" },
+  "homepage": "https://logospell.com",
+  "license": "MIT",
+  "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
+  "logo": "assets/logo.png"
+}
