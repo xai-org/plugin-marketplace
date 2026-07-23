@@ -293,6 +293,46 @@
         ]
       }
     },
+    "grok-project-all": {
+      "sha": "55265573850461ab8b229cdc80c59bc39ac4d7af",
+      "components": {
+        "hooks": [
+          {
+            "name": "Stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "grok-bookings-plugin",
+            "description": "Install and configure GrokBookingsPlugin (MiX Booking) on hotel-style websites. Table + room bookings via embed widget,…"
+          },
+          {
+            "name": "grok-imagine",
+            "description": "Generate image batches with Grok Imagine — prefer one agent brief and image_gen/image_edit in a single agent turn. Use…"
+          },
+          {
+            "name": "grok-media-craft",
+            "description": "Media + full-stack creation craft for Grok Build: when to code vs Imagine vs map pipelines, one-pass quality bar, verif…"
+          },
+          {
+            "name": "grok-project-brain",
+            "description": "Project continuity OS for Grok Build: boot from STATUS, handoffs, AGENTS conventions, secrets hygiene, compact-safe res…"
+          },
+          {
+            "name": "mix-mobile",
+            "description": "Android and iOS app craft for MiX: Kotlin/Compose tablets, POS/booking/invoice apps, APK sideload, locked PrintManager+…"
+          },
+          {
+            "name": "rust-emission-map",
+            "description": "Build Rust Workshop emission maps (512×512 RGB PNG) from diffuse or source art. Boost neon/bright colours, dim the rest…"
+          },
+          {
+            "name": "task-self-eval",
+            "description": "Post-task self-evaluation gate: score how close the outcome is to the user's goal, decide DONE vs CONTINUE_AUTONOMOUS v…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",

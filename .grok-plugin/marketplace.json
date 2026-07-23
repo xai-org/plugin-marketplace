@@ -15,8 +15,14 @@
         "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
     },
     {
       "name": "sentry",
@@ -28,8 +34,12 @@
         "sha": "f6b4882489b34b5dce8f21648286a570d56110da"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
     },
     {
       "name": "chrome-devtools",
@@ -41,7 +51,11 @@
         "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
     },
     {
       "name": "cloudflare",
@@ -53,8 +67,14 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
     },
     {
       "name": "superpowers",
@@ -66,7 +86,9 @@
         "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
       "name": "mongodb",
@@ -78,8 +100,17 @@
         "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
+      "keywords": [
+        "mongodb",
+        "mongo",
+        "mongosh",
+        "mongodb atlas",
+        "mongoose"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
     },
     {
       "name": "axiom",
@@ -91,8 +122,13 @@
         "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom"],
-      "domains": ["axiom.co", "app.axiom.co"]
+      "keywords": [
+        "axiom"
+      ],
+      "domains": [
+        "axiom.co",
+        "app.axiom.co"
+      ]
     },
     {
       "name": "neon",
@@ -103,12 +139,21 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+      "keywords": [
+        "neon",
+        "neon postgres",
+        "neon database",
+        "neon branch"
+      ],
+      "domains": [
+        "neon.tech",
+        "neon.com",
+        "console.neon.tech"
+      ]
     },
     {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
       "source": {
         "source": "url",
@@ -116,8 +161,14 @@
         "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": ["firecrawl", "fire crawl"],
-      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+      "keywords": [
+        "firecrawl",
+        "fire crawl"
+      ],
+      "domains": [
+        "firecrawl.dev",
+        "docs.firecrawl.dev"
+      ]
     },
     {
       "name": "figma",
@@ -129,8 +180,14 @@
         "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": ["figma", "figma mcp"],
-      "domains": ["figma.com", "www.figma.com"]
+      "keywords": [
+        "figma",
+        "figma mcp"
+      ],
+      "domains": [
+        "figma.com",
+        "www.figma.com"
+      ]
     },
     {
       "name": "exa",
@@ -142,8 +199,16 @@
         "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
       },
       "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai"],
-      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+      "keywords": [
+        "exa",
+        "exa search",
+        "exa ai"
+      ],
+      "domains": [
+        "exa.ai",
+        "dashboard.exa.ai",
+        "docs.exa.ai"
+      ]
     },
     {
       "name": "tavily",
@@ -169,8 +234,15 @@
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": ["railway", "railway deploy", "deploy to railway"],
-      "domains": ["railway.com", "railway.app"]
+      "keywords": [
+        "railway",
+        "railway deploy",
+        "deploy to railway"
+      ],
+      "domains": [
+        "railway.com",
+        "railway.app"
+      ]
     },
     {
       "name": "stripe",
@@ -183,8 +255,38 @@
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
-      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+      "keywords": [
+        "stripe",
+        "stripe payments",
+        "stripe connect",
+        "stripe mcp",
+        "stripe billing"
+      ],
+      "domains": [
+        "stripe.com",
+        "docs.stripe.com",
+        "dashboard.stripe.com"
+      ]
+    },
+    {
+      "name": "grok-project-all",
+      "description": "Full agent OS for Grok Build: project continuity (STATUS/handoffs/secrets), post-task self-eval, media craft, Android+iOS mobile suite, locked production patterns, and install scaffolds. Supersedes GrokProjectBrain (continuity is included as a skill).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MickMickMick73/GrokProjectAll.git",
+        "sha": "55265573850461ab8b229cdc80c59bc39ac4d7af"
+      },
+      "homepage": "https://github.com/MickMickMick73/GrokProjectAll",
+      "keywords": [
+        "grok-project-all",
+        "grok project all",
+        "project continuity",
+        "handoff",
+        "status handoff",
+        "task self-eval",
+        "mix mobile"
+      ]
     }
   ]
 }
