@@ -293,6 +293,18 @@
         ]
       }
     },
+    "meritocra-engineering-help": {
+      "sha": "792ee7f5dbd3dd9dfe21113490ebe9306acd79ef",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meritocra-engineering-help",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
