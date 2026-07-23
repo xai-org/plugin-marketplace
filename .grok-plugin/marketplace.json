@@ -173,6 +173,18 @@
       "domains": ["railway.com", "railway.app"]
     },
     {
+      "name": "java",
+      "description": "Community Java plugin for Grok Build with two skills: Helidon 4 (SE & MP) and Spring Boot 3 best practices. Includes runnable Maven examples for each framework.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AI-Coding-Skills/Java-for-Grok.git",
+        "sha": "4dbc71cf58e17842b8e8725faa25b83d124afaab"
+      },
+      "homepage": "https://github.com/AI-Coding-Skills/Java-for-Grok",
+      "keywords": ["helidon", "helidon se", "helidon mp", "helidon 4", "spring boot", "spring-boot"]
+    },
+    {
       "name": "stripe",
       "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
