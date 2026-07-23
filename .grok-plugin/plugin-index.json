@@ -360,6 +360,80 @@
         ]
       }
     },
+    "netlify": {
+      "sha": "43059a39003935fd78b72eff40071e060b236f37",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "netlify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "netlify-access-control",
+            "description": "Use when the task involves controlling who can reach a Netlify site, or telling Netlify Identity apart from Secure Acce…"
+          },
+          {
+            "name": "netlify-agent-runner",
+            "description": "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on th…"
+          },
+          {
+            "name": "netlify-ai-gateway",
+            "description": "Reference for Netlify AI Gateway — the managed proxy that routes calls to OpenAI, Anthropic, and Google Gemini SDKs wit…"
+          },
+          {
+            "name": "netlify-blobs",
+            "description": "Guide for using Netlify Blobs for file and asset storage — images, documents, uploads, exports, cached binary artifacts…"
+          },
+          {
+            "name": "netlify-caching",
+            "description": "Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate,…"
+          },
+          {
+            "name": "netlify-config",
+            "description": "Reference for netlify.toml configuration and site environment variables. Use when configuring build settings, redirects…"
+          },
+          {
+            "name": "netlify-database",
+            "description": "Guide for using Netlify Database — the GA managed Postgres product built into Netlify. Use when a project needs any kin…"
+          },
+          {
+            "name": "netlify-deploy",
+            "description": "Deploy, host, and publish web projects on Netlify with the Netlify CLI. Use when the user wants to deploy a site or rep…"
+          },
+          {
+            "name": "netlify-edge-functions",
+            "description": "Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manip…"
+          },
+          {
+            "name": "netlify-forms",
+            "description": "Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms,…"
+          },
+          {
+            "name": "netlify-frameworks",
+            "description": "Guide for deploying web frameworks on Netlify. Use when setting up a framework project (Vite/React, Astro, TanStack Sta…"
+          },
+          {
+            "name": "netlify-functions",
+            "description": "Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks…"
+          },
+          {
+            "name": "netlify-identity",
+            "description": "Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access…"
+          },
+          {
+            "name": "netlify-image-cdn",
+            "description": "Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creatin…"
+          },
+          {
+            "name": "netlify-mcp-servers",
+            "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
       "version": "1.3.6",
