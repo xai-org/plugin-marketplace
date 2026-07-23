@@ -43,6 +43,52 @@
         ]
       }
     },
+    "beast-dev-guard": {
+      "sha": "df33477dfa730a660851f3243f42d943a36486e2",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "evidence-label",
+            "description": "Label every factual claim in a document or research output by evidence strength (✅ verified / ⚠️ vendor-claimed / ❓ unv…"
+          },
+          {
+            "name": "preflight",
+            "description": "Run the primary-source preflight checklist over a claim, repo, API, or task premise before building on it — verify repo…"
+          },
+          {
+            "name": "skill-audit",
+            "description": "Run the 7-point static security audit on a third-party skill, plugin, hook, or MCP config before installing it — RCE, e…"
+          },
+          {
+            "name": "verify-claims",
+            "description": "Audit the completion claims in the current work (or a given summary/diff) against actual evidence, and produce the veri…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deterministic-qa",
+            "description": "Make deliverables reproducible and tamper-evident — SHA-256 manifests for every artifact, two-run byte-determinism chec…"
+          },
+          {
+            "name": "evidence-labeled-research",
+            "description": "Label every factual claim in research output by evidence strength — ✅ independently verified (primary source fetched),…"
+          },
+          {
+            "name": "primary-source-preflight",
+            "description": "A 1-5 minute checklist to verify primary sources before building on any claim — repo identity, live API probes, existen…"
+          },
+          {
+            "name": "safe-skill-install",
+            "description": "Static security audit checklist for third-party agent skills, plugins, prompts, and MCP configs BEFORE installing them.…"
+          },
+          {
+            "name": "verify-before-claim",
+            "description": "Never claim \"done\", \"live\", \"fixed\", or \"delivered\" without end-to-end evidence. Use before announcing a launch, closin…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
       "version": "1.6.0",

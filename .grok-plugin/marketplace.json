@@ -185,6 +185,26 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "beast-dev-guard",
+      "description": "Verification-first agentic development from The Beast, the self-improving AGI software company. Docs-only skills and commands: verify-before-claim launch gates, primary-source preflight, evidence-labeled research, a 7-point security audit for installing third-party skills, and deterministic QA with checksums and pinned SHAs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thebeastagi/beast-dev-guard.git",
+        "sha": "df33477dfa730a660851f3243f42d943a36486e2"
+      },
+      "homepage": "https://github.com/thebeastagi/beast-dev-guard",
+      "keywords": [
+        "beast",
+        "thebeastagi",
+        "beast dev guard",
+        "the beast agi"
+      ],
+      "domains": [
+        "thebeastagi.com"
+      ]
     }
   ]
 }
