@@ -185,6 +185,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "anakin",
+      "description": "Official plugin for Anakin (MCP Server + Skills). Turn any website into clean, LLM-ready markdown or structured JSON — scrape, search, map, and crawl, or run multi-source agentic deep research. Execute pre-built Wire actions across hundreds of popular sites to extract listings, prices, and profiles without writing selectors. Also monitors pages for changes on a schedule, compares what AI answer engines say about a topic, and drives a real cloud browser from natural language. Automatic JS rendering, stealth browser, and proxy rotation.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Anakin-Inc/agent-skills.git",
+        "sha": "7472cffb52e77c573885bcdc7469c165a70e5ebc"
+      },
+      "homepage": "https://anakin.io",
+      "keywords": ["anakin", "anakin.io", "anakin scrape", "wire action"],
+      "domains": ["anakin.io"]
     }
   ]
 }
