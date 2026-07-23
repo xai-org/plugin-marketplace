@@ -786,6 +786,18 @@
           }
         ]
       }
+    },
+    "vesper-forge": {
+      "sha": "7f93404e860eb029b09331e30e82d2ff327c6258",
+      "version": "1.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "vesper-forge",
+            "description": "Manage local Grok Build sessions with VesperForge — a localhost web UI for browsing, pinning, renaming, opening session…"
+          }
+        ]
+      }
     }
   }
 }
