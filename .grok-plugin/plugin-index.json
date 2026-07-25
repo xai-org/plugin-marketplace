@@ -669,6 +669,24 @@
         ]
       }
     },
+    "olostep": {
+      "sha": "617ab62b82cdf0c3d5fef1593e33913e5dc35750",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olostep",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olostep-web",
+            "description": "Use Olostep to scrape, search, crawl, map, and extract live web data, or to get AI-grounded answers with citations. Tri…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
