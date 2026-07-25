@@ -185,6 +185,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "oh-my-grok-build",
+      "description": "Consensus planning, bounded parallel execution, and evidence-based verification for Grok Build. Adds /ogb-plan, /ogb-start, /ogb-ultrawork, /ogb-verify, /ogb-workflow, and /ogb-doctor on top of native plan mode, subagents, worktrees, and workflows. Content-only: no hooks, MCP servers, binaries, or runtime dependencies.",
+      "category": "workflows",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/duarbdhks/oh-my-grok-build.git",
+        "sha": "d4ff002fdf2aef24419e7616fb145d8546a90608",
+        "path": "plugins/oh-my-grok-build"
+      },
+      "homepage": "https://github.com/duarbdhks/oh-my-grok-build",
+      "keywords": ["oh-my-grok-build", "ogb", "ogb-plan", "ogb-start", "ogb-verify"]
     }
   ]
 }

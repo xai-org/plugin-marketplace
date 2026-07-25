@@ -360,6 +360,63 @@
         ]
       }
     },
+    "oh-my-grok-build": {
+      "sha": "d4ff002fdf2aef24419e7616fb145d8546a90608",
+      "components": {
+        "agents": [
+          {
+            "name": "ogb-architect",
+            "description": "Reviews implementation plans and designs for architectural soundness, compatibility, maintainability, operational risk,…"
+          },
+          {
+            "name": "ogb-critic",
+            "description": "Enforces plan completeness, internal consistency, fair alternatives, testable acceptance criteria, verification feasibi…"
+          },
+          {
+            "name": "ogb-executor",
+            "description": "Implements one bounded engineering task in an isolated worktree, preserves unrelated changes, and reports fresh validat…"
+          },
+          {
+            "name": "ogb-explorer",
+            "description": "Performs read-only codebase investigation and returns concise evidence with file paths, symbols, commands, and uncertai…"
+          },
+          {
+            "name": "ogb-planner",
+            "description": "Creates evidence-backed implementation plans with explicit scope, alternatives, dependency waves, acceptance criteria,…"
+          },
+          {
+            "name": "ogb-verifier",
+            "description": "Independently verifies final changes against acceptance criteria by inspecting the diff and reproducing high-signal che…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ogb-doctor",
+            "description": "Diagnose oh-my-grok-build installation, skill and agent discovery, Grok native capability availability, git worktree re…"
+          },
+          {
+            "name": "ogb-plan",
+            "description": "Build a Grok-native consensus implementation plan before code changes. Use when the user asks for planning, architectur…"
+          },
+          {
+            "name": "ogb-start",
+            "description": "Execute an approved Grok Build plan with dependency-aware subagents, isolated worktrees, integration checks, and final…"
+          },
+          {
+            "name": "ogb-ultrawork",
+            "description": "Run multiple independent engineering tasks in parallel with bounded Grok subagent or workflow budgets. Use for explicit…"
+          },
+          {
+            "name": "ogb-verify",
+            "description": "Verify a feature, fix, refactor, or plan result with fresh tests, builds, direct evidence, an independent verifier, and…"
+          },
+          {
+            "name": "ogb-workflow",
+            "description": "Design, create, and smoke-validate a reusable native Grok Build Rhai workflow for bounded fan-out or staged verificatio…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
       "version": "1.3.6",
