@@ -361,7 +361,7 @@
       }
     },
     "oh-my-grok-build": {
-      "sha": "bed1100eac229e9e373637d8351416afeb837906",
+      "sha": "35331b4ef8f4619b07d2e333533b3d7052784d22",
       "components": {
         "agents": [
           {
@@ -393,6 +393,10 @@
           {
             "name": "ogb-doctor",
             "description": "Diagnose oh-my-grok-build installation, skill and agent discovery, Grok native capability availability, git worktree re…"
+          },
+          {
+            "name": "ogb-interview",
+            "description": "Interview the user one question at a time until a vague idea becomes a decision-ready direction brief. Use when the req…"
           },
           {
             "name": "ogb-plan",
