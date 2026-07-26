@@ -361,31 +361,31 @@
       }
     },
     "oh-my-grok-build": {
-      "sha": "35331b4ef8f4619b07d2e333533b3d7052784d22",
+      "sha": "059722011b099fecfa07daee5ea9a0b152cabc61",
       "components": {
         "agents": [
           {
-            "name": "ogb-architect",
+            "name": "architect",
             "description": "Reviews implementation plans and designs for architectural soundness, compatibility, maintainability, operational risk,…"
           },
           {
-            "name": "ogb-critic",
+            "name": "critic",
             "description": "Enforces plan completeness, internal consistency, fair alternatives, testable acceptance criteria, verification feasibi…"
           },
           {
-            "name": "ogb-executor",
+            "name": "executor",
             "description": "Implements one bounded engineering task in an isolated worktree, preserves unrelated changes, and reports fresh validat…"
           },
           {
-            "name": "ogb-explorer",
+            "name": "explorer",
             "description": "Performs read-only codebase investigation and returns concise evidence with file paths, symbols, commands, and uncertai…"
           },
           {
-            "name": "ogb-planner",
+            "name": "planner",
             "description": "Creates evidence-backed implementation plans with explicit scope, alternatives, dependency waves, acceptance criteria,…"
           },
           {
-            "name": "ogb-verifier",
+            "name": "verifier",
             "description": "Independently verifies final changes against acceptance criteria by inspecting the diff and reproducing high-signal che…"
           }
         ],

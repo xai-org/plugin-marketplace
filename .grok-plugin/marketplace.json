@@ -188,16 +188,16 @@
     },
     {
       "name": "oh-my-grok-build",
-      "description": "Consensus planning, bounded parallel execution, and evidence-based verification for Grok Build. Adds /ogb-plan, /ogb-start, /ogb-ultrawork, /ogb-verify, /ogb-workflow, and /ogb-doctor on top of native plan mode, subagents, worktrees, and workflows. Content-only: no hooks, MCP servers, binaries, or runtime dependencies.",
+      "description": "Consensus planning, bounded parallel execution, and evidence-based verification for Grok Build. Adds /ogb-interview, /ogb-plan, /ogb-start, /ogb-ultrawork, /ogb-verify, /ogb-workflow, and /ogb-doctor on top of native plan mode, subagents, worktrees, and workflows. Content-only: no hooks, MCP servers, binaries, or runtime dependencies.",
       "category": "workflows",
       "source": {
         "source": "url",
         "url": "https://github.com/duarbdhks/oh-my-grok-build.git",
-        "sha": "35331b4ef8f4619b07d2e333533b3d7052784d22",
+        "sha": "059722011b099fecfa07daee5ea9a0b152cabc61",
         "path": "plugins/oh-my-grok-build"
       },
       "homepage": "https://github.com/duarbdhks/oh-my-grok-build",
-      "keywords": ["oh-my-grok-build", "ogb", "ogb-plan", "ogb-start", "ogb-verify"]
+      "keywords": ["oh-my-grok-build", "ogb", "ogb-plan", "ogb-start", "ogb-verify", "ogb-interview", "ogb-ultrawork", "ogb-doctor", "ogb-workflow"]
     }
   ]
 }
