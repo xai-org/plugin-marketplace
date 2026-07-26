@@ -361,7 +361,7 @@
       }
     },
     "oh-my-grok-build": {
-      "sha": "059722011b099fecfa07daee5ea9a0b152cabc61",
+      "sha": "3314e2efde6586c10d4ad2ff15a932a9fce2642a",
       "components": {
         "agents": [
           {
