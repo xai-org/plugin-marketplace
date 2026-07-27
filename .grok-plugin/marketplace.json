@@ -159,6 +159,19 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "apify",
+      "description": "Extract data from any website with thousands of trusted scrapers, crawlers, and automations from Apify Store. Integrate ready-made Actors to access all popular social media, video, e-commerce, search engines, maps, and travel sites. Build, debug, publish, and monetize new Actors on Apify.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/apify/apify-grok-build-plugin.git",
+        "sha": "a90e598fb28a9c0e1a30f0c649d528bd3d27f600"
+      },
+      "homepage": "https://apify.com",
+      "keywords": ["apify", "apify actors", "apify store", "apify scraper"],
+      "domains": ["apify.com", "docs.apify.com", "console.apify.com", "mcp.apify.com"]
     }
   ]
 }
