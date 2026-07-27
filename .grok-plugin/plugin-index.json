@@ -1,6 +1,49 @@
 {
   "version": 1,
   "plugins": {
+    "agentic-sage": {
+      "sha": "bc43a77c3de6e5c286f57b240c6a3d2f360ff54a",
+      "version": "1.2.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "PreToolUse"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sage-doctor",
+            "description": "Validate the SAGE fleet-judge install — config, emitter hook, settings wiring, linked skills, current repo. Trigger: /s…"
+          },
+          {
+            "name": "sage-fleet",
+            "description": "Use when starting work, before opening a PR, or resolving a merge conflict while other agent sessions may be running in…"
+          },
+          {
+            "name": "sage-judge",
+            "description": "Run a dedicated live judge session for agentic-sage: watch the fleet, reason continuously, and publish advisory briefs.…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
