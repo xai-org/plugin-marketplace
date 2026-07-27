@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99"
+        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -133,13 +133,39 @@
       "domains": ["figma.com", "www.figma.com"]
     },
     {
+      "name": "exa",
+      "description": "Web search and content extraction via the hosted Exa MCP server. Search the web semantically with category filters (companies, people, news, papers, financial reports), read any page as clean markdown, and run structured multi-step research. Sign in with your Exa account on first connection; free credits on signup, no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+        "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91"
+      },
+      "homepage": "https://exa.ai",
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+    },
+    {
+      "name": "tavily",
+      "description": "Web search, content extraction, website crawling, URL discovery, and deep research via Tavily's hosted MCP server and official skills. Connect with OAuth to access current, source-grounded web information directly from Grok Build.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
+        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+      },
+      "homepage": "https://www.tavily.com",
+      "keywords": ["tavily", "tavily search", "tavily ai"],
+      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
+        "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -153,7 +179,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "61df6113574127536db39738c4aa6fc15d3e2298",
+        "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
