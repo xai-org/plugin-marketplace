@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99"
+        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -179,7 +179,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1b71f4bcc916dcabda8816964091ab23664c84df",
+        "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
