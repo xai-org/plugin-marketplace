@@ -154,9 +154,15 @@
       }
     },
     "exa": {
-      "sha": "20fd11f64f75a0be425b8033ae4dc9df13a5cf1e",
+      "sha": "b9ad8eedd5f4d8e2a1e04fa359232c81ddc283cf",
       "version": "1.1.0",
       "components": {
+        "commands": [
+          {
+            "name": "tutorial",
+            "description": "Interactive tutorial for Exa web search in Grok Build"
+          }
+        ],
         "mcpServers": [
           {
             "name": "exa",
