@@ -142,7 +142,7 @@
         "sha": "b9ad8eedd5f4d8e2a1e04fa359232c81ddc283cf"
       },
       "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai", "web search", "search", "code docs"],
+      "keywords": ["exa", "exa search", "exa ai"],
       "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
     },
     {
