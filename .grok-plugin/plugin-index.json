@@ -614,6 +614,40 @@
         ]
       }
     },
+    "tinyfish": {
+      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tinyfish",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tinyfish-authenticated",
+            "description": "Automate websites the user is logged into, using TinyFish Browser Context Profiles and Vault credentials. Use when a ta…"
+          },
+          {
+            "name": "tinyfish-automation",
+            "description": "Goal-driven browser automation with TinyFish. Use when a task needs a real browser to act on a site — clicking, filling…"
+          },
+          {
+            "name": "tinyfish-browser",
+            "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-research",
+            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+          },
+          {
+            "name": "tinyfish-web",
+            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
       "version": "0.45.1",

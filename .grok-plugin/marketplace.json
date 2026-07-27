@@ -185,6 +185,20 @@
       "homepage": "https://github.com/stripe/ai",
       "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+    },
+    {
+      "name": "tinyfish",
+      "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
+        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "path": "grok"
+      },
+      "homepage": "https://www.tinyfish.ai",
+      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
+      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     }
   ]
 }
