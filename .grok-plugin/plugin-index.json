@@ -153,6 +153,18 @@
         ]
       }
     },
+    "datacharter": {
+      "sha": "89703a56c9358f32cc52a8d9607a005181289f09",
+      "version": "0.10.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datacharter",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
