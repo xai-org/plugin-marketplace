@@ -160,12 +160,12 @@
     },
     {
       "name": "octen",
-      "description": "Live web and news search, broad multi-angle search, clean URL extraction, and Beta image/video search via Octen MCP for Grok Build.",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen MCP for Grok Build.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "f3cc948f40ddcda9c09064c5e2d8e6cba62d7a4b"
+        "sha": "825363e074f6aa835368ab8358ff6be9fa050f1f"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
