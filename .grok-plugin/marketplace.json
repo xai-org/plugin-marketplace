@@ -284,7 +284,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TencentCloudBase/cloudbase-plugin.git",
-        "sha": "93b747b3287787b8c3ad0811ef4f9b51e2479ec9"
+        "sha": "b615a7f8bfad6637f2297e1a993d29f6a292a13d"
       },
       "homepage": "https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/ai-agent-plugins",
       "keywords": [
