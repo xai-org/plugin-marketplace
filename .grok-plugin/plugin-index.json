@@ -361,9 +361,13 @@
       }
     },
     "oh-my-grok-build": {
-      "sha": "dc5c6f5c87b0190666db30db53f64cb6b8aaaeb6",
+      "sha": "d3987a662affaf07b0f987bceceabeb0edc35889",
       "components": {
         "agents": [
+          {
+            "name": "AGENTS",
+            "description": "<!-- Parent: ../AGENTS.md -->"
+          },
           {
             "name": "architect",
             "description": "Reviews implementation plans and designs for architectural soundness, compatibility, maintainability, operational risk,…"
