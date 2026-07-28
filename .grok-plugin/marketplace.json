@@ -169,7 +169,7 @@
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
-      "domains": ["octen.ai", "www.octen.ai", "docs.octen.ai"]
+      "domains": ["octen.ai", "docs.octen.ai"]
     },
     {
       "name": "railway",
