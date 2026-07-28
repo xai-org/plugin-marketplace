@@ -367,7 +367,7 @@
       }
     },
     "octen": {
-      "sha": "f707f44c0f011392ea6e563b8c9a150289525367",
+      "sha": "f3cc948f40ddcda9c09064c5e2d8e6cba62d7a4b",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -379,7 +379,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Search the live web, news, images, and Beta video results; broaden research; or extract clean content from known URLs w…"
+            "description": "Use Octen for web/news search, broad research, URL extraction, and Beta image (Octen Design) and video search."
           }
         ]
       }

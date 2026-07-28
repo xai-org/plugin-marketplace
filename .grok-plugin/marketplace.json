@@ -165,7 +165,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "f707f44c0f011392ea6e563b8c9a150289525367"
+        "sha": "f3cc948f40ddcda9c09064c5e2d8e6cba62d7a4b"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
