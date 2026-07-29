@@ -154,9 +154,15 @@
       }
     },
     "exa": {
-      "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91",
+      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
       "components": {
+        "commands": [
+          {
+            "name": "tutorial",
+            "description": "Interactive tutorial for Exa web search in Grok Build"
+          }
+        ],
         "mcpServers": [
           {
             "name": "exa",
@@ -479,8 +485,8 @@
       }
     },
     "stripe": {
-      "sha": "a3267712f2268975e4ecc5912634d900ae4cb8e6",
-      "version": "0.2.0",
+      "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47",
+      "version": "0.3.1",
       "components": {
         "agents": [
           {
@@ -507,7 +513,7 @@
         "skills": [
           {
             "name": "connect-recommend",
-            "description": "This skill should be used when the user asks about Stripe Connect configuration, charge patterns, dashboard access, or…"
+            "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get…"
           },
           {
             "name": "stripe-best-practices",
@@ -533,8 +539,8 @@
       }
     },
     "superpowers": {
-      "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
-      "version": "6.1.1",
+      "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+      "version": "6.2.0",
       "components": {
         "hooks": [
           {
@@ -557,7 +563,7 @@
           },
           {
             "name": "finishing-a-development-branch",
-            "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completi…"
+            "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work"
           },
           {
             "name": "receiving-code-review",
@@ -598,6 +604,86 @@
           {
             "name": "writing-skills",
             "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+          }
+        ]
+      }
+    },
+    "tavily": {
+      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavily",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "academic-scientific-research",
+            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+          },
+          {
+            "name": "investment-research-briefs",
+            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+          },
+          {
+            "name": "product-competitor-intelligence",
+            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+          },
+          {
+            "name": "sales-account-intelligence",
+            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+          },
+          {
+            "name": "tavily-best-practices",
+            "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
+          },
+          {
+            "name": "tavily-web",
+            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
+          },
+          {
+            "name": "threat-intelligence-enrichment",
+            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
+          },
+          {
+            "name": "vendor-risk-kyc-screening",
+            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+          }
+        ]
+      }
+    },
+    "tinyfish": {
+      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tinyfish",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tinyfish-authenticated",
+            "description": "Automate websites the user is logged into, using TinyFish Browser Context Profiles and Vault credentials. Use when a ta…"
+          },
+          {
+            "name": "tinyfish-automation",
+            "description": "Goal-driven browser automation with TinyFish. Use when a task needs a real browser to act on a site — clicking, filling…"
+          },
+          {
+            "name": "tinyfish-browser",
+            "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-research",
+            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+          },
+          {
+            "name": "tinyfish-web",
+            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
           }
         ]
       }
