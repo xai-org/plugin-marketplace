@@ -75,7 +75,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/base44/skills.git",
-        "sha": "7b301e25d0952235c985bb159ca71cc520f27bcf"
+        "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
       "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
