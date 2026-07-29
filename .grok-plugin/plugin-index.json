@@ -828,8 +828,8 @@
       }
     },
     "wix": {
-      "sha": "1ea953a29525ce8ff07a3b5a3a107927804c3eba",
-      "version": "1.12.0",
+      "sha": "dcf56d36ef44e68579ba8d3dad6600f55fa509f0",
+      "version": "1.15.1",
       "components": {
         "mcpServers": [
           {
@@ -843,16 +843,28 @@
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
           },
           {
+            "name": "wix-auth",
+            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
+          },
+          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
           {
+            "name": "wix-docs",
+            "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
+          },
+          {
             "name": "wix-headless",
-            "description": "Build a complete Wix Managed Headless site from a single prompt, OR connect an existing project (HTML/JSX/Vite app, Cla…"
+            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
             "name": "wix-manage",
             "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+          },
+          {
+            "name": "wix-vibe-headless",
+            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
           }
         ]
       }
