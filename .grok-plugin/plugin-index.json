@@ -299,6 +299,18 @@
         ]
       }
     },
+    "kanonik": {
+      "sha": "6e1513da433f2a5f64f052274435de236e92b5f3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kanonik",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",
