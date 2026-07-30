@@ -199,6 +199,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "tako",
+      "description": "Live market, macro, and web-traffic data via Tako's hosted MCP server (MCP server + skills). Query licensed datasets the open web does not have — company financials and analyst estimates, CPI/GDP/policy rates, SimilarWeb site and app traffic, sports, US government spending — and get back citation-backed interactive charts plus grounded prose answers. Works with no API key on the free tier; sign in with OAuth for the full toolset.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TakoData/tako-mcp.git",
+        "sha": "51c736210f6fbcb0ca789156b666a41a2a700729"
+      },
+      "homepage": "https://docs.tako.com/documentation/integrations/mcp-server",
+      "keywords": ["tako", "tako search", "tako mcp", "tako data"],
+      "domains": ["tako.com", "docs.tako.com", "mcp.tako.com"]
     }
   ]
 }
