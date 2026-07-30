@@ -202,7 +202,7 @@
     },
     {
       "name": "tako",
-      "description": "Live market, macro, and web-traffic data via Tako's hosted MCP server (MCP server + skills). Query licensed datasets the open web does not have — company financials and analyst estimates, CPI/GDP/policy rates, SimilarWeb site and app traffic, sports, US government spending — and get back citation-backed interactive charts plus grounded prose answers. Works with no API key on the free tier; sign in with OAuth for the full toolset.",
+      "description": "Live market, macro, and web-traffic data via Tako's hosted MCP server (MCP server + skills). Query licensed datasets the open web does not have — company financials and analyst estimates, CPI/GDP/policy rates, SimilarWeb site and app traffic, sports, US government spending — and get back citation-backed interactive charts plus grounded prose answers. Sign in with your Tako account on first connection — OAuth in the browser, no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
