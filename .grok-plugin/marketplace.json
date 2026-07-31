@@ -302,22 +302,22 @@
     },
     {
       "name": "security-control",
-      "description": "Authorized Ubuntu 24.04 Noble security profile (10 parallel agents), ONE_PRODUCT LoRA honesty gates, and GitHub MCP for Grok Build.",
+      "description": "Authorized Ubuntu 24.04 Noble security profile (10 parallel agents) and GitHub MCP for Grok Build. Self-recon only.",
       "category": "security",
       "source": {
         "source": "url",
-        "url": "https://github.com/Jadon-Fox/orch-control-plugin.git",
-        "sha": "190a9ec4674c9f43a3dcdb752e3bd0194fad304f"
+        "url": "https://github.com/Jadon-Fox/security-control-plugin.git",
+        "sha": "f45935761ba4535825f6e6aeb11f965ff51ab02b"
       },
-      "homepage": "https://github.com/Jadon-Fox/orch-control-plugin",
+      "homepage": "https://github.com/Jadon-Fox/security-control-plugin",
       "keywords": [
         "security",
         "security-profile",
         "noble",
-        "one-product",
+        "ufw",
+        "nmap",
         "github",
-        "mcp",
-        "orch"
+        "mcp"
       ],
       "author": "Jadon Fox"
     }

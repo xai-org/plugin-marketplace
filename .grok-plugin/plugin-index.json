@@ -391,7 +391,7 @@
       }
     },
     "security-control": {
-      "sha": "190a9ec4674c9f43a3dcdb752e3bd0194fad304f",
+      "sha": "f45935761ba4535825f6e6aeb11f965ff51ab02b",
       "components": {
         "commands": [
           {
@@ -408,11 +408,7 @@
         "skills": [
           {
             "name": "github-control",
-            "description": "GitHub control for Security Command Center and orch second-look reviews: PR/body templates, honesty-gate comments, tip…"
-          },
-          {
-            "name": "one-product-lock",
-            "description": "ONE_PRODUCT combined A+B LoRA lock for training_orchestrator product path: HARD_BLOCK product_lora without B, board one…"
+            "description": "GitHub control for Security Command Center and security review PRs: PR/body templates, tip SHA packaging. Uses GitHub M…"
           },
           {
             "name": "security-profile",
