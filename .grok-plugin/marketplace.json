@@ -302,12 +302,12 @@
     },
     {
       "name": "orch-control",
-      "description": "ONE_PRODUCT LoRA honesty gates + security-profile agents (Ubuntu 24.04 Noble, ten parallel avenues) + GitHub MCP control for Grok Build / training_orchestrator workflows.",
+      "description": "ONE_PRODUCT LoRA honesty gates + security-profile agents + GitHub MCP for Grok Build / training_orchestrator workflows.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/Jadon-Fox/orch-control-plugin.git",
-        "sha": "1d0a8b4bc9d35e5e9f163427d84b245c36efba04"
+        "sha": "2879eb11c6dcd75ec19345c4bbe958909a594ce2"
       },
       "homepage": "https://github.com/Jadon-Fox/orch-control-plugin",
       "keywords": [
