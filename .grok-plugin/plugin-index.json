@@ -299,6 +299,55 @@
         ]
       }
     },
+    "hookify": {
+      "sha": "6c3ce9ddb53ac01c6f529f288da1e814de3c94a9",
+      "components": {
+        "agents": [
+          {
+            "name": "conversation-analyzer",
+            "description": "Use this agent when analyzing conversation transcripts to find behaviors worth preventing with hooks. Typical triggers…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "configure",
+            "description": "Enable or disable hookify rules interactively"
+          },
+          {
+            "name": "help",
+            "description": "Get help with the hookify plugin"
+          },
+          {
+            "name": "hookify",
+            "description": "Create hooks to prevent unwanted behaviors from conversation analysis or explicit instructions"
+          },
+          {
+            "name": "list",
+            "description": "List all configured hookify rules"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse"
+          },
+          {
+            "name": "PreToolUse"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "writing-hookify-rules",
+            "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
       "version": "1.1.0",

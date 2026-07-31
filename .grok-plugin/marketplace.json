@@ -320,6 +320,23 @@
         "mcp"
       ],
       "author": "Jadon Fox"
+    },
+    {
+      "name": "hookify",
+      "description": "Easily create hooks to prevent unwanted behaviors (pure upstream Hookify). Install with --trust; add rules after install.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Jadon-Fox/hookify-plugin.git",
+        "sha": "6c3ce9ddb53ac01c6f529f288da1e814de3c94a9"
+      },
+      "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify",
+      "keywords": [
+        "hooks",
+        "hookify",
+        "guardrails"
+      ],
+      "author": "Anthropic (mirror for xAI pin)"
     }
   ]
 }
