@@ -207,7 +207,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Kanonik-LLC/kanonik-plugin.git",
-        "sha": "c89fafe7835a6cf93a10fabfb48d1d1b610a33b3"
+        "sha": "c3de7d43804a5cc933338c5b7db32a0ca5781ce2"
       },
       "homepage": "https://kanonik.ai",
       "keywords": ["kanonik", "grc", "compliance", "iso 27001", "soc 2", "audit evidence"],
