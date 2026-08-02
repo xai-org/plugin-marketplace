@@ -154,9 +154,15 @@
       }
     },
     "exa": {
-      "sha": "7d1f84071ac57ea22536e9937e699122f2f8ae91",
+      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
       "components": {
+        "commands": [
+          {
+            "name": "tutorial",
+            "description": "Interactive tutorial for Exa web search in Grok Build"
+          }
+        ],
         "mcpServers": [
           {
             "name": "exa",
@@ -504,8 +510,8 @@
       }
     },
     "stripe": {
-      "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47",
-      "version": "0.3.1",
+      "sha": "6f686d8a4e9c0b72ed353d6e7a5d68dd912a3010",
+      "version": "0.3.2",
       "components": {
         "agents": [
           {
@@ -669,6 +675,40 @@
           {
             "name": "vendor-risk-kyc-screening",
             "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+          }
+        ]
+      }
+    },
+    "tinyfish": {
+      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tinyfish",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tinyfish-authenticated",
+            "description": "Automate websites the user is logged into, using TinyFish Browser Context Profiles and Vault credentials. Use when a ta…"
+          },
+          {
+            "name": "tinyfish-automation",
+            "description": "Goal-driven browser automation with TinyFish. Use when a task needs a real browser to act on a site — clicking, filling…"
+          },
+          {
+            "name": "tinyfish-browser",
+            "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-research",
+            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+          },
+          {
+            "name": "tinyfish-web",
+            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
           }
         ]
       }
