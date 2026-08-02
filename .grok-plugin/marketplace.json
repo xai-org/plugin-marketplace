@@ -199,6 +199,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "openviking",
+      "description": "OpenViking context database MCP for Grok CLI. Long-term memory, resources, and semantic search via a local stdio proxy that reads ~/.openviking/ovcli.conf (or OPENVIKING_* env vars). Requires a reachable OpenViking server and Node.js 18+.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shpaw415/openviking-grok-plugin.git",
+        "sha": "90343ff1cb885d303379914f179283c2940c9acb"
+      },
+      "homepage": "https://github.com/shpaw415/openviking-grok-plugin",
+      "keywords": ["openviking", "open viking", "viking memory", "openviking mcp"],
+      "domains": ["openviking.ai", "www.openviking.ai", "docs.openviking.ai", "blog.openviking.ai", "github.com/volcengine/OpenViking"]
     }
   ]
 }

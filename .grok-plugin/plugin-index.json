@@ -366,6 +366,30 @@
         ]
       }
     },
+    "openviking": {
+      "sha": "90343ff1cb885d303379914f179283c2940c9acb",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "ov",
+            "description": "Show OpenViking MCP plugin status — server health, identity, and config source"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "openviking",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "openviking",
+            "description": "Use OpenViking long-term memory and context database via the openviking MCP tools. Trigger when the user mentions memor…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
       "version": "1.3.6",
