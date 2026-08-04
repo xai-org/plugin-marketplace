@@ -228,7 +228,7 @@
     },
     {
       "name": "unstructured-transform",
-      "description": "Unstructured Transform MCP server. Parse PDFs, DOCX, PPTX, XLSX, HTML, emails, and 60+ file types into clean structured markdown, JSON, HTML, or text directly from your agent, with OAuth sign-in and no API key required.",
+      "description": "Unstructured Transform MCP server. Parse PDFs, DOCX, PPTX, XLSX, HTML, emails, and 60+ file types into clean structured markdown, JSON, HTML, or text directly from your agent, with OAuth sign-in.",
       "category": "development",
       "source": {
         "source": "url",
