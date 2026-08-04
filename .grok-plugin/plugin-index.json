@@ -498,6 +498,17 @@
         ]
       }
     },
+    "supabase-battle-tested": {
+      "sha": "c8f08e7621ba58bcacd393c01e6eb74068152498",
+      "components": {
+        "skills": [
+          {
+            "name": "supabase-production-patterns",
+            "description": "Production Supabase/Postgres patterns and traps learned from real incidents — generated columns, migrations vs. live DB…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
       "version": "6.2.0",
