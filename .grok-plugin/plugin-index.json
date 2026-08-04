@@ -676,6 +676,18 @@
         ]
       }
     },
+    "unstructured-transform": {
+      "sha": "5fe3e19f03a3543aa4fe42674ba0aa2db6f49a98",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "transform",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "1e821f3087d6d52b06b918d39d57345e2e4f3cf8",
       "version": "0.46.0",
