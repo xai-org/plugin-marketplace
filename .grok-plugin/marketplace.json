@@ -159,6 +159,19 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "search1api",
+      "description": "Live web search, page retrieval, news, sitemap discovery, and trending-topic research through Search1API's hosted MCP server and research skill. Connect with OAuth when prompted to search current sources and return source-backed results.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superagents-lab/grok-search1api.git",
+        "sha": "f062245909dafec41c1ad8e55860489c57d8522a"
+      },
+      "homepage": "https://www.search1api.com/docs",
+      "keywords": ["search1api", "search1 api"],
+      "domains": ["search1api.com", "www.search1api.com", "mcp.search1api.com"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",

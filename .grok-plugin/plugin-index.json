@@ -390,6 +390,24 @@
         ]
       }
     },
+    "search1api": {
+      "sha": "f062245909dafec41c1ad8e55860489c57d8522a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "search1api",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "search1api",
+            "description": "Live web search, page retrieval, news, sitemap discovery, and trending topics through Search1API. Use when the user ask…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "f6b4882489b34b5dce8f21648286a570d56110da",
       "version": "1.2.0",
