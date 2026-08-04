@@ -178,8 +178,8 @@
       }
     },
     "figma": {
-      "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
-      "version": "2.2.81",
+      "sha": "ef474d181a6eca44b37722f839e8a7eb58d644ec",
+      "version": "2.2.87",
       "components": {
         "mcpServers": [
           {
@@ -445,8 +445,8 @@
       }
     },
     "stripe": {
-      "sha": "6f686d8a4e9c0b72ed353d6e7a5d68dd912a3010",
-      "version": "0.3.2",
+      "sha": "2ecd560bd426075690686536200174785c94f2b5",
+      "version": "0.3.4",
       "components": {
         "agents": [
           {
@@ -649,8 +649,8 @@
       }
     },
     "vercel": {
-      "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
-      "version": "0.45.1",
+      "sha": "1e821f3087d6d52b06b918d39d57345e2e4f3cf8",
+      "version": "0.46.0",
       "components": {
         "agents": [
           {
@@ -704,6 +704,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "access-protected-vercel-deployment",
+            "description": "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection. Use when curl, ag…"
+          },
           {
             "name": "ai-gateway",
             "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
