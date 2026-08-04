@@ -43,6 +43,34 @@
         ]
       }
     },
+    "base44": {
+      "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
+      "version": "1.0.0-beta.1",
+      "components": {
+        "skills": [
+          {
+            "name": "base44-cli",
+            "description": "The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions,…"
+          },
+          {
+            "name": "base44-remote-dev",
+            "description": "Develop a Base44 app remotely from your own coding agent (Claude Code, claude.ai, or any MCP client) by connecting it t…"
+          },
+          {
+            "name": "base44-sandbox",
+            "description": "Develop a Base44 app remotely inside Base44's cloud sandbox using your own agent — no local checkout and no deploy/push…"
+          },
+          {
+            "name": "base44-sdk",
+            "description": "The base44 SDK is the library to communicate with base44 services. In projects, you use it to communicate with remote r…"
+          },
+          {
+            "name": "base44-troubleshooter",
+            "description": "Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
       "version": "1.6.0",

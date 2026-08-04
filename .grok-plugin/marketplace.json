@@ -69,6 +69,19 @@
       "keywords": ["superpowers"]
     },
     {
+      "name": "base44",
+      "description": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/base44/skills.git",
+        "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
+      },
+      "homepage": "https://docs.base44.com",
+      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
+      "domains": ["base44.com", "docs.base44.com"]
+    },
+    {
       "name": "mongodb",
       "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
       "category": "database",
