@@ -71,6 +71,24 @@
         ]
       }
     },
+    "cafe24-aispace": {
+      "sha": "4dc13b6f2c407346e314286d1898b0d18d206260",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cafe24-ai-space",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aispace",
+            "description": "Deploy and operate web apps on Cafe24 AI SPACE (mycafe24.ai) through its MCP server. Use when the user wants to connect…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
       "version": "1.6.0",
