@@ -207,7 +207,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/duarbdhks/oh-my-grok-build.git",
-        "sha": "fab0af9bc60afc287b73163ee386dda5b341c162",
+        "sha": "339610fdb5af4014a23978f3628b28fe747e3d39",
         "path": "plugins/oh-my-grok-build"
       },
       "homepage": "https://github.com/duarbdhks/oh-my-grok-build",

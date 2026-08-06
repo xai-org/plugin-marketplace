@@ -367,7 +367,7 @@
       }
     },
     "oh-my-grok-build": {
-      "sha": "fab0af9bc60afc287b73163ee386dda5b341c162",
+      "sha": "339610fdb5af4014a23978f3628b28fe747e3d39",
       "components": {
         "agents": [
           {
@@ -418,7 +418,7 @@
           },
           {
             "name": "ogb-ultrawork",
-            "description": "Run multiple independent engineering tasks in parallel with bounded Grok subagent or workflow budgets. Use for explicit…"
+            "description": "Run multiple independent engineering tasks in parallel with max-safe concurrency scoring, role lenses, and bounded Grok…"
           },
           {
             "name": "ogb-verify",
