@@ -232,10 +232,10 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/Gabriel-Operator/gabriel-operator-codex-plugin.git",
-        "sha": "816fd79f8e0948958e5b7a3765265da6badd4219"
+        "url": "https://github.com/Gabriel-Operator/gabriel-operator-coding-agent-plugin.git",
+        "sha": "5d34d056b1d1dedc491209a3d0c79d35b1d08797"
       },
-      "homepage": "https://github.com/Gabriel-Operator/gabriel-operator-codex-plugin",
+      "homepage": "https://github.com/Gabriel-Operator/gabriel-operator-coding-agent-plugin",
       "keywords": ["gabriel-operator", "gabriel operator", "gabriel workflow", "gabriel page-builder", "gabriel pipeline"],
       "domains": ["gabrieloperator.com"]
     }

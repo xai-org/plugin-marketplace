@@ -328,7 +328,7 @@
       }
     },
     "gabriel-operator": {
-      "sha": "816fd79f8e0948958e5b7a3765265da6badd4219",
+      "sha": "5d34d056b1d1dedc491209a3d0c79d35b1d08797",
       "version": "1.1.0",
       "components": {
         "skills": [
