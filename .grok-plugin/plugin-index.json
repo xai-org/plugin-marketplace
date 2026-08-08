@@ -43,6 +43,45 @@
         ]
       }
     },
+    "axiorank": {
+      "sha": "08fe4b8616c8b11a56d23c3cf1d68f12f25665de",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "governance",
+            "description": "Show how AxioRank is governing this Grok session."
+          },
+          {
+            "name": "verify-seal",
+            "description": "Verify this repo's AxioRank Coding Session Seal offline."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse"
+          },
+          {
+            "name": "PreToolUse"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "axiorank",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "AxioRank coding guard",
+            "description": "How AxioRank governs this Grok session, what it blocks, the env vars that turn on central reporting, and how to verify…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
