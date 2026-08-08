@@ -66,6 +66,14 @@ One composed picture, in a wide range of sizes and aspect ratios:
   </tr>
 </table>
 
+### `create_reference`
+
+Create an upload slot for a style reference image: you get back a
+ref_ token and a one-line curl upload command. Both set tools accept
+up to 3 tokens via styleReferences; alone or alongside the style
+text, the references define the style by example, the tightest way
+to extend an existing set in its original look. Free.
+
 ### `check_credits`
 
 Check how many image generation credits remain on your account: one
