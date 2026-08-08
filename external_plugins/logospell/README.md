@@ -13,21 +13,22 @@
 ### `generate_image_set`
 
 A cohesive set of images on a solid background. One call made all
-eight below:
+nine below:
 
 <table>
   <tr>
-    <td colspan="8"><em>Style: layered cut-paper kirigami illustration, each subject built from stacked hand-cut cardstock layers in bright saturated colors with crisp paper edges and gentle dimensional depth between the layers</em><br><br><em>Subjects: an ornate hot air balloon with a wicker basket, a vintage biplane with double wings, a rigid zeppelin airship, a helicopter with a top rotor, a whimsical retro rocket with fins, an open parachute with harness lines, a hang glider with a triangular wing, a diamond kite with a ribbon tail</em><br><br><em>Background: #FFFFFF</em></td>
+    <td colspan="9"><em>Style: Hand-bent neon sign illustration with vivid glowing glass tubes and tight warm halation</em><br><br><em>Subjects: a steaming coffee cup, a tilted cocktail glass, a bowling pin, a jukebox, a milkshake with a straw, a curving arrow sign, a movie ticket, a retro rocket, a shooting star</em><br><br><em>Background: #16182A</em></td>
   </tr>
   <tr>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/hot_air_balloon.png" alt="an ornate hot air balloon with a wicker basket" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/biplane.png" alt="a vintage biplane with double wings" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/zeppelin.png" alt="a rigid zeppelin airship" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/helicopter.png" alt="a helicopter with a top rotor" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/rocket.png" alt="a whimsical retro rocket with fins" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/parachute.png" alt="an open parachute with harness lines" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/hang_glider.png" alt="a hang glider with a triangular wing" width="100"></td>
-    <td><img src="https://logospell.com/gallery/papercraft-flying-machines/diamond_kite.png" alt="a diamond kite with a ribbon tail" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_steaming_coffee_cup.png" alt="a steaming coffee cup" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_tilted_cocktail_glass.png" alt="a tilted cocktail glass" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_bowling_pin.png" alt="a bowling pin" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_jukebox.png" alt="a jukebox" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_milkshake_with_a_straw.png" alt="a milkshake with a straw" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_curving_arrow_sign.png" alt="a curving arrow sign" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_movie_ticket.png" alt="a movie ticket" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_retro_rocket.png" alt="a retro rocket" width="100"></td>
+    <td><img src="https://logospell.com/gallery/neon-roadside/a_shooting_star.png" alt="a shooting star" width="100"></td>
   </tr>
 </table>
 
