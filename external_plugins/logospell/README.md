@@ -67,12 +67,15 @@ One composed picture, in a wide range of sizes and aspect ratios:
 
 ### `check_credits`
 
-Check how many generation credits remain on your API key. Free.
+Check how many image generation credits remain on your account: one
+balance shared by your MCP calls and the logospell.com generate page.
+Free.
 
 ### `list_recent_generations`
 
 List your recent generations and get their download URLs again, for
-example to recover a result lost to a dropped connection. Free.
+example to recover a result lost to a dropped connection. Generations
+made on the generate page at logospell.com appear here too. Free.
 
 ## Setup
 
