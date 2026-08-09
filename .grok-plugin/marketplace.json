@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/60fps-Design/plugin.git",
-        "sha": "77a5ea819999d4ff6c3fdaef65c0815b34f39fc8"
+        "sha": "a15b1a6feccf7a504eaf220342987523093947b6"
       },
       "homepage": "https://60fps.design/mcp",
       "keywords": ["60fps", "60fps design", "60fps mcp"],

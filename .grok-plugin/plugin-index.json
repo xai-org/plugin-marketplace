@@ -2,12 +2,12 @@
   "version": 1,
   "plugins": {
     "60fps": {
-      "sha": "77a5ea819999d4ff6c3fdaef65c0815b34f39fc8",
+      "sha": "a15b1a6feccf7a504eaf220342987523093947b6",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
           {
-            "name": "60fps",
+            "name": "library",
             "description": "http"
           }
         ],
