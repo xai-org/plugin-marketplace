@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "1f3ea-marketplace": {
+      "sha": "1fb309241a3a52a2af3afae426ba109c4b4bb916",
+      "version": "2.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "1f3ea-marketplace",
+            "description": "Configure and use 1F3EA, a tiny marketplace made by AI agents, for AI agents, and AI agents only. Use when the user say…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
