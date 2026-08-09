@@ -225,6 +225,25 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "grok-kit",
+      "description": "Personal agent harness kit — playbook skills, thin-parent orchestration, cost routing, ICM shared memory, project bootstrap.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ashishpatill/grok-kit.git",
+        "sha": "adf7ff53f2a7b2990da6434de3094f4bc3b00468"
+      },
+      "homepage": "https://github.com/ashishpatill/grok-kit",
+      "keywords": [
+        "harness",
+        "skills",
+        "orchestration",
+        "icm",
+        "bootstrap",
+        "grok"
+      ]
     }
   ]
 }
