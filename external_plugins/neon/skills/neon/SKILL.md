@@ -176,6 +176,12 @@ When the Neon MCP server is available, use its read-only `query_logs`, `list_log
 
 ### Query logs with `@neon/sdk`
 
+Install `@neon/sdk`, Neon's TypeScript client for the Neon API:
+
+```bash
+npm i @neon/sdk
+```
+
 Use `neon.logs.query()` in application code. It returns a lazy paginated result:
 
 ```typescript
