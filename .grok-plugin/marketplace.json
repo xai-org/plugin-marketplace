@@ -225,6 +225,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "adanos",
+      "description": "Official Adanos Market Sentiment skill for read-only stock and crypto sentiment research across Reddit, X / FinTwit, financial news, and Polymarket signals.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adanos-software/adanos-market-sentiment-skill.git",
+        "sha": "aec82dfb2aa064cdf4ab8a916f526debebb74787"
+      },
+      "homepage": "https://adanos.org/",
+      "keywords": ["adanos", "adanos market sentiment", "adanos sentiment"],
+      "domains": ["adanos.org", "api.adanos.org"]
     }
   ]
 }
