@@ -225,6 +225,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "60fps",
+      "description": "Search 2,000+ real iOS interaction clips by describing the motion you want, then get compile-checked SwiftUI that recreates it. Every clip carries a written motion breakdown: start state, transition, end state, timing and easing, taken from apps that shipped.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/60fps-Design/plugin.git",
+        "sha": "77a5ea819999d4ff6c3fdaef65c0815b34f39fc8"
+      },
+      "homepage": "https://60fps.design/mcp",
+      "keywords": ["60fps", "60fps design", "60fps mcp"],
+      "domains": ["60fps.design", "mcp.60fps.design"]
     }
   ]
 }
