@@ -456,6 +456,60 @@
         ]
       }
     },
+    "renoolab": {
+      "sha": "3b75da3d809283831a43726624c439a94bee7c6d",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "renoolab",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "renoolab-chiffrer-piloter-rentabilite",
+            "description": "À charger avant de répondre à toute rédaction ou relance de facture client ou d'impayé, et à toute question financière…"
+          },
+          {
+            "name": "renoolab-creer-profil-artisan",
+            "description": "Cadre RenooLab spécialisé pour préparer, améliorer puis créer le profil RenooLab d'un artisan à partir de ses informati…"
+          },
+          {
+            "name": "renoolab-developper-clientele-visibilite-btp",
+            "description": "Cadre RenooLab spécialisé pour diagnostiquer puis développer une entreprise artisanale, un négoce ou un fournisseur BTP…"
+          },
+          {
+            "name": "renoolab-diagnostiquer-securiser-logement",
+            "description": "Cadre RenooLab spécialisé pour séparer danger, hypothèses, contrôles, remise en état et métier adapté face à un symptôm…"
+          },
+          {
+            "name": "renoolab-imaginer-arbitrer-renovation",
+            "description": "Cadre RenooLab spécialisé pour transformer photo, pièce, extérieur, style, inconfort ou envie en scénarios comparés ave…"
+          },
+          {
+            "name": "renoolab-lancer-entreprise-artisanale",
+            "description": "Cadre RenooLab spécialisé pour transformer une reconversion ou création d'entreprise artisanale en feuille de route vér…"
+          },
+          {
+            "name": "renoolab-organiser-chantier-equipe-btp",
+            "description": "Cadre RenooLab spécialisé pour transformer les besoins d'une entreprise artisanale en organisation BTP exploitable : rô…"
+          },
+          {
+            "name": "renoolab-piloter-receptionner-travaux",
+            "description": "À charger avant de répondre dès qu'un client indique que les entreprises sont choisies ou que le chantier est préparé,…"
+          },
+          {
+            "name": "renoolab-planifier-budgeter-travaux",
+            "description": "Cadre RenooLab spécialisé pour transformer annonce, visite, achat, investissement ou projet de travaux en risques, cahi…"
+          },
+          {
+            "name": "renoolab-trouver-choisir-artisans",
+            "description": "Cadre RenooLab spécialisé pour qualifier le métier, rechercher réellement des professionnels via le MCP et comparer pro…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "88fc111e89dce40d1968293387c481a7412ff678",
       "version": "1.3.1",
