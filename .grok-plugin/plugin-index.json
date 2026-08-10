@@ -205,6 +205,32 @@
         ]
       }
     },
+    "faf": {
+      "sha": "c4f39b047c038eb7aead1d7d4a80116befb130fe",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "faf",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "faf-context",
+            "description": "Auto-discover and load project.faf as the single source of truth for project context inside Grok Build. Use at session…"
+          },
+          {
+            "name": "faf-score",
+            "description": "Score the AI-readiness of project.faf using the ZEPH microsecond engine. Report numeric score, tier (TROPHY / GOLD / SI…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990",
       "version": "2.2.91",
