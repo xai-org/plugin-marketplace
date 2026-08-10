@@ -225,6 +225,20 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "storeconnect",
+      "description": "StoreConnect development plugin for Grok Build: Salesforce-native commerce and CMS — storefront Liquid templates, forms and reloadable components, catalog and content, point of sale, and the StoreConnect object model in Salesforce.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GetStoreConnect/ai.git",
+        "sha": "7be65db020ada44c1780a34501264eed6ac19e80",
+        "path": "providers/grok/storeconnect"
+      },
+      "homepage": "https://github.com/GetStoreConnect/ai",
+      "keywords": ["storeconnect", "storeconnect theme", "storeconnect liquid", "storeconnect pos", "storeconnect store"],
+      "domains": ["storeconnect.com", "support.storeconnect.com"]
     }
   ]
 }

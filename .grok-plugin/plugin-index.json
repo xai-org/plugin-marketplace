@@ -464,6 +464,102 @@
         ]
       }
     },
+    "storeconnect": {
+      "sha": "7be65db020ada44c1780a34501264eed6ac19e80",
+      "version": "0.9.2",
+      "components": {
+        "agents": [
+          {
+            "name": "sc-pos-developer",
+            "description": "Configure and extend StoreConnect POS, including outlets, registers, payments, fulfillment, layouts, views, actions, pr…"
+          },
+          {
+            "name": "sc-salesforce-manager",
+            "description": "Manage StoreConnect records and relationships through connected StoreConnect tools or Salesforce data tooling. Use for…"
+          },
+          {
+            "name": "sc-store-designer",
+            "description": "Plan StoreConnect builds and redesigns, coordinate content, data, theme, and quality work, and define a safe implementa…"
+          },
+          {
+            "name": "sc-theme-developer",
+            "description": "Implement StoreConnect Liquid templates, theme assets, forms, components, controllers, and styling. Use for storefront…"
+          },
+          {
+            "name": "sc-theme-reviewer",
+            "description": "Read-only audit of a StoreConnect storefront or theme, run in a separate context. Follows `storeconnect-theme-review`,…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "sc-auth",
+            "description": "Connect to one store URL now and confirm the store, environment, and signed-in identity. For platform and tool-selectio…"
+          },
+          {
+            "name": "sc-publish",
+            "description": "Publish one staged change now — review, explicit human approval, submit, then verify live. For deployment planning and…"
+          },
+          {
+            "name": "sc-theme-review",
+            "description": "Audit one theme path, template, or page URL now and return ranked, verified findings. For the check catalog and severit…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "storeconnect-apex-integration",
+            "description": "Customer-owned Apex and other Salesforce-side patterns around a StoreConnect storefront — deciding whether a requiremen…"
+          },
+          {
+            "name": "storeconnect-components",
+            "description": "StoreConnect reloadable Liquid components and storefront interactivity — the {% component %} tag and its reload events,…"
+          },
+          {
+            "name": "storeconnect-controllers",
+            "description": "Run server-side logic around a StoreConnect page request using Liquid controller templates — the before/after/final pha…"
+          },
+          {
+            "name": "storeconnect-debug-performance",
+            "description": "Instrument and speed up StoreConnect Liquid — the web Console, the debug and timer tags, drop and record introspection,…"
+          },
+          {
+            "name": "storeconnect-forms",
+            "description": "StoreConnect storefront forms — the Liquid form tag, registered form names and usable fields (login, register, account,…"
+          },
+          {
+            "name": "storeconnect-liquid",
+            "description": "Write StoreConnect Liquid template logic and read record data — Drops and their exact attributes, the {% query %} tag,…"
+          },
+          {
+            "name": "storeconnect-platform",
+            "description": "Entry point for all StoreConnect work — the Salesforce-native commerce, POS, CMS, and website platform. Covers asynchro…"
+          },
+          {
+            "name": "storeconnect-pos-customization",
+            "description": "Customize StoreConnect POS through supported layouts, filters, views, actions, scripts, styles, and print templates. Us…"
+          },
+          {
+            "name": "storeconnect-pos-setup",
+            "description": "Configure and troubleshoot StoreConnect POS outcomes — outlet and register readiness, staff access, product availabilit…"
+          },
+          {
+            "name": "storeconnect-salesforce-data",
+            "description": "Create, query, relate, and delete StoreConnect Salesforce records - stores, pages, content blocks, menus, articles, cat…"
+          },
+          {
+            "name": "storeconnect-sync-deploy",
+            "description": "Safely deploy changes to a StoreConnect store with connected StoreConnect tools, storeconnect-cli, or an explicitly app…"
+          },
+          {
+            "name": "storeconnect-theme-development",
+            "description": "Change how a StoreConnect storefront looks or is structured — override base-theme templates by key (pages/blocks/snippe…"
+          },
+          {
+            "name": "storeconnect-theme-review",
+            "description": "Read-only quality audit of a StoreConnect Liquid theme or storefront — layout integrity, SEO and structured data, acces…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "4b7495aa701334e453555ce4afb0029b06df590b",
       "version": "0.3.7",
