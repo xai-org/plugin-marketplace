@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "1e821f3087d6d52b06b918d39d57345e2e4f3cf8"
+        "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "40618d3da274da36b701fb3aacefed10831c0ea1"
+        "sha": "88fc111e89dce40d1968293387c481a7412ff678"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c"
+        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -83,15 +83,30 @@
     },
     {
       "name": "mongodb",
-      "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "description": "Official plugin for MongoDB (Self-Managed MCP Server + Skills). Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI, or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices.",
       "category": "database",
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "domains": ["mongodb.com"]
+    },
+    {
+      "name": "mongodb-atlas",
+      "description": "Official plugin for MongoDB Atlas (Managed MCP Server + Skills). Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mongodb/agent-skills.git",
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb-atlas"
+      },
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
@@ -205,7 +220,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "4b7495aa701334e453555ce4afb0029b06df590b",
+        "sha": "89ffbee06b3782ed15d77ffd6cbc5620ad26d3bd",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
