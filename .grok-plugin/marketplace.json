@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97"
+        "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": [
@@ -31,7 +31,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "f6b4882489b34b5dce8f21648286a570d56110da"
+        "sha": "88fc111e89dce40d1968293387c481a7412ff678"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": [
@@ -48,7 +48,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c"
+        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": [
@@ -91,26 +91,46 @@
       ]
     },
     {
+      "name": "base44",
+      "description": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/base44/skills.git",
+        "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
+      },
+      "homepage": "https://docs.base44.com",
+      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
+      "domains": ["base44.com", "docs.base44.com"]
+    },
+    {
       "name": "mongodb",
-      "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "description": "Official plugin for MongoDB (Self-Managed MCP Server + Skills). Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI, or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices.",
       "category": "database",
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": [
-        "mongodb",
-        "mongo",
-        "mongosh",
-        "mongodb atlas",
-        "mongoose"
-      ],
-      "domains": [
-        "mongodb.com",
-        "cloud.mongodb.com"
-      ]
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "domains": ["mongodb.com"]
+    },
+    {
+      "name": "mongodb-atlas",
+      "description": "Official plugin for MongoDB Atlas (Managed MCP Server + Skills). Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mongodb/agent-skills.git",
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb-atlas"
+      },
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
+      "domains": ["mongodb.com", "cloud.mongodb.com"]
+
     },
     {
       "name": "axiom",
@@ -152,6 +172,19 @@
       ]
     },
     {
+      "name": "wix",
+      "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wix/skills.git",
+        "sha": "dcf56d36ef44e68579ba8d3dad6600f55fa509f0"
+      },
+      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
+      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
+      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+    },
+    {
       "name": "firecrawl",
       "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
@@ -177,7 +210,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15"
+        "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": [
@@ -239,7 +272,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
+        "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -260,7 +293,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "6f686d8a4e9c0b72ed353d6e7a5d68dd912a3010",
+        "sha": "89ffbee06b3782ed15d77ffd6cbc5620ad26d3bd",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",

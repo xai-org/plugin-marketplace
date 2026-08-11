@@ -43,9 +43,37 @@
         ]
       }
     },
+    "base44": {
+      "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
+      "version": "1.0.0-beta.1",
+      "components": {
+        "skills": [
+          {
+            "name": "base44-cli",
+            "description": "The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions,…"
+          },
+          {
+            "name": "base44-remote-dev",
+            "description": "Develop a Base44 app remotely from your own coding agent (Claude Code, claude.ai, or any MCP client) by connecting it t…"
+          },
+          {
+            "name": "base44-sandbox",
+            "description": "Develop a Base44 app remotely inside Base44's cloud sandbox using your own agent — no local checkout and no deploy/push…"
+          },
+          {
+            "name": "base44-sdk",
+            "description": "The base44 SDK is the library to communicate with base44 services. In projects, you use it to communicate with remote r…"
+          },
+          {
+            "name": "base44-troubleshooter",
+            "description": "Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
-      "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
-      "version": "1.6.0",
+      "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
+      "version": "1.7.0",
       "components": {
         "mcpServers": [
           {
@@ -178,8 +206,8 @@
       }
     },
     "figma": {
-      "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
-      "version": "2.2.81",
+      "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990",
+      "version": "2.2.91",
       "components": {
         "mcpServers": [
           {
@@ -300,8 +328,8 @@
       }
     },
     "mongodb": {
-      "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
-      "version": "1.1.0",
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -321,6 +349,44 @@
           {
             "name": "mongodb-mcp-setup",
             "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server i…"
+          },
+          {
+            "name": "mongodb-natural-language-querying",
+            "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema conte…"
+          },
+          {
+            "name": "mongodb-query-optimizer",
+            "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do…"
+          },
+          {
+            "name": "mongodb-schema-design",
+            "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL…"
+          },
+          {
+            "name": "mongodb-search-and-ai",
+            "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid…"
+          }
+        ]
+      }
+    },
+    "mongodb-atlas": {
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb-atlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mongodb-atlas-stream-processing",
+            "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections,…"
+          },
+          {
+            "name": "mongodb-connection",
+            "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use thi…"
           },
           {
             "name": "mongodb-natural-language-querying",
@@ -432,8 +498,8 @@
       }
     },
     "railway": {
-      "sha": "191601b4954527a87f4f004eaa355c8f30a855bf",
-      "version": "1.3.6",
+      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
+      "version": "1.3.7",
       "components": {
         "hooks": [
           {
@@ -456,8 +522,8 @@
       }
     },
     "sentry": {
-      "sha": "f6b4882489b34b5dce8f21648286a570d56110da",
-      "version": "1.2.0",
+      "sha": "88fc111e89dce40d1968293387c481a7412ff678",
+      "version": "1.3.1",
       "components": {
         "mcpServers": [
           {
@@ -475,8 +541,8 @@
             "description": "Debug and fix a Sentry issue — find it (by link, ID, or search), pull full context (stack trace, breadcrumbs, trace, lo…"
           },
           {
-            "name": "sentry-feature-setup",
-            "description": "Configure specific Sentry features beyond basic SDK setup. Use when asked to monitor AI/LLM calls, set up OpenTelemetry…"
+            "name": "sentry-fix-stack-traces",
+            "description": "Make Sentry stack traces readable — upload source maps for JavaScript/TypeScript, or debug files for native and mobile…"
           },
           {
             "name": "sentry-get-started",
@@ -491,27 +557,19 @@
             "description": "Configure the OpenTelemetry Collector with Sentry Exporter for multi-project routing and automatic project creation. Us…"
           },
           {
-            "name": "sentry-sdk-upgrade",
-            "description": "Upgrade the Sentry JavaScript SDK across major versions. Use when asked to upgrade Sentry, migrate to a newer version,…"
-          },
-          {
-            "name": "sentry-setup-ai-monitoring",
-            "description": "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversati…"
+            "name": "sentry-setup-releases",
+            "description": "Set up Sentry releases and deploy tracking — tag events with a version and environment, create the release in CI with i…"
           },
           {
             "name": "sentry-snapshots-cocoa",
             "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
-          },
-          {
-            "name": "sentry-workflow",
-            "description": "Keep Sentry SDKs up to date. Use when asked to upgrade the Sentry SDK across major versions, migrate SDK versions, or f…"
           }
         ]
       }
     },
     "stripe": {
-      "sha": "6f686d8a4e9c0b72ed353d6e7a5d68dd912a3010",
-      "version": "0.3.2",
+      "sha": "89ffbee06b3782ed15d77ffd6cbc5620ad26d3bd",
+      "version": "0.4.0",
       "components": {
         "agents": [
           {
@@ -539,6 +597,10 @@
           {
             "name": "connect-recommend",
             "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get…"
+          },
+          {
+            "name": "stripe-apps",
+            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
           },
           {
             "name": "stripe-best-practices",
@@ -714,8 +776,8 @@
       }
     },
     "vercel": {
-      "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
-      "version": "0.45.1",
+      "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196",
+      "version": "0.47.0",
       "components": {
         "agents": [
           {
@@ -769,6 +831,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "access-protected-vercel-deployment",
+            "description": "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection. Use when curl, ag…"
+          },
           {
             "name": "ai-gateway",
             "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
@@ -878,6 +944,10 @@
             "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code ge…"
           },
           {
+            "name": "vercel-services",
+            "description": "Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a pol…"
+          },
+          {
             "name": "vercel-storage",
             "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
           },
@@ -888,6 +958,48 @@
           {
             "name": "workflow",
             "description": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or ag…"
+          }
+        ]
+      }
+    },
+    "wix": {
+      "sha": "dcf56d36ef44e68579ba8d3dad6600f55fa509f0",
+      "version": "1.15.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wix-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wix-app",
+            "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
+          },
+          {
+            "name": "wix-auth",
+            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
+          },
+          {
+            "name": "wix-design-system",
+            "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
+          },
+          {
+            "name": "wix-docs",
+            "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
+          },
+          {
+            "name": "wix-headless",
+            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+          },
+          {
+            "name": "wix-manage",
+            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+          },
+          {
+            "name": "wix-vibe-headless",
+            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
           }
         ]
       }
