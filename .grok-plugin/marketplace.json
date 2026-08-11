@@ -248,7 +248,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mehdimicra/renoolab-agent-skills.git",
-        "sha": "202f2de0a229db04b4086e9e2194c76cb8a1cb4c"
+        "sha": "ddb384bb7e074d574c0da3188826bc0cfb38b62a"
       },
       "homepage": "https://renoolab.fr/mcp/",
       "keywords": ["renoolab", "renoolab artisan", "renoolab renovation", "renoolab france"],

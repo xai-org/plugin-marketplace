@@ -457,8 +457,8 @@
       }
     },
     "renoolab": {
-      "sha": "202f2de0a229db04b4086e9e2194c76cb8a1cb4c",
-      "version": "0.5.2",
+      "sha": "ddb384bb7e074d574c0da3188826bc0cfb38b62a",
+      "version": "0.5.3",
       "components": {
         "mcpServers": [
           {
