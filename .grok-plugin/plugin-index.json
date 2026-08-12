@@ -630,6 +630,32 @@
         ]
       }
     },
+    "tako": {
+      "sha": "51c736210f6fbcb0ca789156b666a41a2a700729",
+      "version": "0.15.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tako",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tako-financial-research",
+            "description": "Company financials and markets via Tako (sources vary by metric — S&P Global, Fiscal.ai, Visible Alpha, Xignite, and ot…"
+          },
+          {
+            "name": "tako-macroeconomics",
+            "description": "Macroeconomic and demographic indicators via Tako (sources vary — FRED, BLS, OECD, BIS, IMF, World Bank, Census). Infla…"
+          },
+          {
+            "name": "tako-web-traffic",
+            "description": "Website and app traffic via Tako (source: SimilarWeb). Monthly visits, app active users, traffic trends, and top-sites…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
