@@ -432,6 +432,18 @@
         ]
       }
     },
+    "qencode": {
+      "sha": "83befc3d3b9d7015b5fac21e7065132d3c09bd83",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "qencode",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
       "version": "1.3.7",
