@@ -522,8 +522,8 @@
       }
     },
     "sentry": {
-      "sha": "88fc111e89dce40d1968293387c481a7412ff678",
-      "version": "1.3.1",
+      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
+      "version": "1.3.2",
       "components": {
         "mcpServers": [
           {
@@ -568,8 +568,8 @@
       }
     },
     "stripe": {
-      "sha": "89ffbee06b3782ed15d77ffd6cbc5620ad26d3bd",
-      "version": "0.4.0",
+      "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
+      "version": "0.4.1",
       "components": {
         "agents": [
           {
@@ -963,8 +963,8 @@
       }
     },
     "wix": {
-      "sha": "dcf56d36ef44e68579ba8d3dad6600f55fa509f0",
-      "version": "1.15.1",
+      "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd",
+      "version": "1.16.0",
       "components": {
         "mcpServers": [
           {
@@ -973,6 +973,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
+          },
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
