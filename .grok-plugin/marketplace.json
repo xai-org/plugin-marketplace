@@ -240,6 +240,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "korean-prose-editor",
+      "description": "Local Korean prose copyeditor that preserves claims, numbers, quotes, and document structure. Use for /copyedit, Korean revision, and translationese cleanup.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rp0927/korean-prose-editor.git",
+        "sha": "fc96b92d1d5218f6ee1f6b4b685b8aaa97a87a78"
+      },
+      "homepage": "https://github.com/rp0927/korean-prose-editor",
+      "keywords": ["korean-prose-editor", "korean copyedit", "copyedit korean"]
     }
   ]
 }
