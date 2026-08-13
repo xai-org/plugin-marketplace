@@ -502,6 +502,24 @@
         ]
       }
     },
+    "starrykit": {
+      "sha": "f2682753fe7e8fdba17c6010c9c670b941524ce3",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "starrykit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "starrykit",
+            "description": "Create, inspect, refine, and export polished editable presentations, posters, social graphics, diagrams, and other visu…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
       "version": "0.4.1",
