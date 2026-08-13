@@ -327,6 +327,18 @@
         ]
       }
     },
+    "mobbin": {
+      "sha": "194bb87b9187d526a92f7090aa1d0bd291561b5c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mobbin",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
