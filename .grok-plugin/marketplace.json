@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "actwise-ideation",
+      "description": "Evaluate, improve, and benchmark startup and product ideas with Actwise Ideation's venture-capital-informed framework. Includes a hosted MCP server and skill for previews and official evaluations.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/actwiseai/actwise-ideation-plugin.git",
+        "sha": "f60cf25827b1174b6c9624a32698c73cbbed0b03"
+      },
+      "homepage": "https://actwise.ai/home/ideation",
+      "keywords": ["actwise", "actwise ideation", "actwise idea evaluation"],
+      "domains": ["actwise.ai"]
     }
   ]
 }
