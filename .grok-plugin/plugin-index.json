@@ -942,6 +942,24 @@
           }
         ]
       }
+    },
+    "wordpress-com": {
+      "sha": "4c3e0adbd29959c84527300b908dd5f7344228f4",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wordpress-com",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "edit-wordpress-block-content",
+            "description": "Create and edit serialized WordPress block content for posts, pages, patterns, templates, and template parts. Use when…"
+          }
+        ]
+      }
     }
   }
 }
