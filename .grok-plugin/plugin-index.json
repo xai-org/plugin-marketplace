@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "actwise-ideation": {
+      "sha": "f60cf25827b1174b6c9624a32698c73cbbed0b03",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "actwise-ideation",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "actwise-ideation",
+            "description": "Evaluate, improve, compare, or benchmark startup, product, business, brand, strategy, and investment ideas with Actwise…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
