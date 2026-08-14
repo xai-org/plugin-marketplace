@@ -1,1 +1,965 @@
-PLACEHOLDER_WILL_SPLIT
+{
+  "version": 1,
+  "plugins": {
+    "axiom": {
+      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "axiom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "axiom-alerting",
+            "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
+          },
+          {
+            "name": "building-dashboards",
+            "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
+          },
+          {
+            "name": "controlling-costs",
+            "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
+          },
+          {
+            "name": "query-metrics",
+            "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
+          },
+          {
+            "name": "spl-to-apl",
+            "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "writing-evals",
+            "description": "Scaffolds evaluation suites for the Axiom AI SDK. Generates eval files, scorers, flag schemas, and config from natural-…"
+          }
+        ]
+      }
+    },
+    "base44": {
+      "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
+      "version": "1.0.0-beta.1",
+      "components": {
+        "skills": [
+          {
+            "name": "base44-cli",
+            "description": "The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions,…"
+          },
+          {
+            "name": "base44-remote-dev",
+            "description": "Develop a Base44 app remotely from your own coding agent (Claude Code, claude.ai, or any MCP client) by connecting it t…"
+          },
+          {
+            "name": "base44-sandbox",
+            "description": "Develop a Base44 app remotely inside Base44's cloud sandbox using your own agent — no local checkout and no deploy/push…"
+          },
+          {
+            "name": "base44-sdk",
+            "description": "The base44 SDK is the library to communicate with base44 services. In projects, you use it to communicate with remote r…"
+          },
+          {
+            "name": "base44-troubleshooter",
+            "description": "Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls…"
+          }
+        ]
+      }
+    },
+    "chrome-devtools": {
+      "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
+      "version": "1.7.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chrome-devtools",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "a11y-debugging",
+            "description": "Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing…"
+          },
+          {
+            "name": "chrome-devtools",
+            "description": "Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pa…"
+          },
+          {
+            "name": "chrome-devtools-cli",
+            "description": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome De…"
+          },
+          {
+            "name": "debug-optimize-lcp",
+            "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever…"
+          },
+          {
+            "name": "memory-leak-debugging",
+            "description": "Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM…"
+          },
+          {
+            "name": "troubleshooting",
+            "description": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_p…"
+          }
+        ]
+      }
+    },
+    "cloudflare": {
+      "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "build-agent",
+            "description": "Build an AI agent on Cloudflare using the Agents SDK"
+          },
+          {
+            "name": "build-mcp",
+            "description": "Build a remote MCP server on Cloudflare using McpAgent"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "cloudflare-api",
+            "description": "http"
+          },
+          {
+            "name": "cloudflare-bindings",
+            "description": "http"
+          },
+          {
+            "name": "cloudflare-builds",
+            "description": "http"
+          },
+          {
+            "name": "cloudflare-docs",
+            "description": "http"
+          },
+          {
+            "name": "cloudflare-observability",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agents-sdk",
+            "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real…"
+          },
+          {
+            "name": "cloudflare",
+            "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agent…"
+          },
+          {
+            "name": "cloudflare-email-service",
+            "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building…"
+          },
+          {
+            "name": "durable-objects",
+            "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, b…"
+          },
+          {
+            "name": "sandbox-sdk",
+            "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD…"
+          },
+          {
+            "name": "web-perf",
+            "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics…"
+          },
+          {
+            "name": "workers-best-practices",
+            "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing…"
+          },
+          {
+            "name": "wrangler",
+            "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+          }
+        ]
+      }
+    },
+    "contextstream": {
+      "sha": "25e5abade0cb07b0ce6df155396cc3620793645a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "contextstream",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "contextstream",
+            "description": "Use ContextStream when Grok needs project memory — prior decisions, lessons, session recall, or semantic search across…"
+          }
+        ]
+      }
+    },
+    "exa": {
+      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "tutorial",
+            "description": "Interactive tutorial for Exa web search in Grok Build"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "exa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "exa-search",
+            "description": "Deep research powered by Exa. Use for lead generation, literature reviews, deep dives, competitive analysis, or any que…"
+          }
+        ]
+      }
+    },
+    "figma": {
+      "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990",
+      "version": "2.2.91",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "figma",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "figma-code-connect",
+            "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
+          },
+          {
+            "name": "figma-create-new-file",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+          },
+          {
+            "name": "figma-design-to-code",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE calling the `get_design_context` Figma MCP tool. You MUS…"
+          },
+          {
+            "name": "figma-generate-design",
+            "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layou…"
+          },
+          {
+            "name": "figma-generate-diagram",
+            "description": "MANDATORY prerequisite — load this skill BEFORE every `generate_diagram` tool call. NEVER call `generate_diagram` direc…"
+          },
+          {
+            "name": "figma-generate-library",
+            "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
+          },
+          {
+            "name": "figma-implement-motion",
+            "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-swiftui",
+            "description": "SwiftUI ↔ Figma translation. Use whenever the user mentions Swift, SwiftUI, iOS, iPhone, or iPad — in EITHER direction…"
+          },
+          {
+            "name": "figma-use",
+            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` dire…"
+          },
+          {
+            "name": "figma-use-figjam",
+            "description": "This skill helps agents use Figma's use_figma MCP tool in the FigJam context. Can be used alongside figma-use which has…"
+          },
+          {
+            "name": "figma-use-motion",
+            "description": "Motion / animation context for the `use_figma` MCP tool — animating Figma nodes via manual keyframes, animation styles,…"
+          },
+          {
+            "name": "figma-use-slides",
+            "description": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has…"
+          }
+        ]
+      }
+    },
+    "firecrawl": {
+      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "skill-gen",
+            "description": "Generate a complete Agent Skill from a documentation URL using Firecrawl"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "firecrawl",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "firecrawl",
+            "description": "Search, scrape, and interact with the web via the Firecrawl CLI. Use this skill whenever the user wants to search the w…"
+          },
+          {
+            "name": "firecrawl-agent",
+            "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the…"
+          },
+          {
+            "name": "firecrawl-crawl",
+            "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-download",
+            "description": "Download an entire website as local files — markdown, screenshots, or multiple formats per page. Use this skill when th…"
+          },
+          {
+            "name": "firecrawl-interact",
+            "description": "Control and interact with a live browser session on any scraped page — click buttons, fill forms, navigate flows, and e…"
+          },
+          {
+            "name": "firecrawl-map",
+            "description": "Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a s…"
+          },
+          {
+            "name": "firecrawl-monitor",
+            "description": "Detect when content on a website changes and get notified by webhook or email — no cron jobs, scrapers, or diff scripts…"
+          },
+          {
+            "name": "firecrawl-parse",
+            "description": "Efficiently extract and convert the contents of any local file—such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML—int…"
+          },
+          {
+            "name": "firecrawl-scrape",
+            "description": "Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a UR…"
+          },
+          {
+            "name": "firecrawl-search",
+            "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "mongodb": {
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mongodb-atlas-stream-processing",
+            "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections,…"
+          },
+          {
+            "name": "mongodb-connection",
+            "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use thi…"
+          },
+          {
+            "name": "mongodb-mcp-setup",
+            "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server i…"
+          },
+          {
+            "name": "mongodb-natural-language-querying",
+            "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema conte…"
+          },
+          {
+            "name": "mongodb-query-optimizer",
+            "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do…"
+          },
+          {
+            "name": "mongodb-schema-design",
+            "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL…"
+          },
+          {
+            "name": "mongodb-search-and-ai",
+            "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid…"
+          }
+        ]
+      }
+    },
+    "mongodb-atlas": {
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb-atlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mongodb-atlas-stream-processing",
+            "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections,…"
+          },
+          {
+            "name": "mongodb-connection",
+            "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use thi…"
+          },
+          {
+            "name": "mongodb-natural-language-querying",
+            "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema conte…"
+          },
+          {
+            "name": "mongodb-query-optimizer",
+            "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do…"
+          },
+          {
+            "name": "mongodb-schema-design",
+            "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL…"
+          },
+          {
+            "name": "mongodb-search-and-ai",
+            "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid…"
+          }
+        ]
+      }
+    },
+    "neon": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "neon",
+            "description": "Overview of the Neon platform for apps and agents, spanning Postgres, Auth, Data API, and the new services: Object Stor…"
+          },
+          {
+            "name": "neon-postgres",
+            "description": "Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autos…"
+          },
+          {
+            "name": "neon-postgres-branches",
+            "description": "Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migr…"
+          }
+        ]
+      }
+    },
+    "railway": {
+      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
+      "version": "1.3.7",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "railway",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-railway",
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+          }
+        ]
+      }
+    },
+    "sentry": {
+      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
+      "version": "1.3.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sentry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sentry-create-alert",
+            "description": "Create Sentry alerts using the workflow engine API. Use when asked to create alerts, set up notifications, configure is…"
+          },
+          {
+            "name": "sentry-debug-issue",
+            "description": "Debug and fix a Sentry issue — find it (by link, ID, or search), pull full context (stack trace, breadcrumbs, trace, lo…"
+          },
+          {
+            "name": "sentry-fix-stack-traces",
+            "description": "Make Sentry stack traces readable — upload source maps for JavaScript/TypeScript, or debug files for native and mobile…"
+          },
+          {
+            "name": "sentry-get-started",
+            "description": "Guided entry point for using Sentry through your agent. Orients you to your current setup and, for a new project, sets…"
+          },
+          {
+            "name": "sentry-instrument",
+            "description": "Instrument an application with Sentry — detect the platform, install and initialize the SDK if needed, and wire up any…"
+          },
+          {
+            "name": "sentry-otel-exporter-setup",
+            "description": "Configure the OpenTelemetry Collector with Sentry Exporter for multi-project routing and automatic project creation. Us…"
+          },
+          {
+            "name": "sentry-setup-releases",
+            "description": "Set up Sentry releases and deploy tracking — tag events with a version and environment, create the release in CI with i…"
+          },
+          {
+            "name": "sentry-snapshots-cocoa",
+            "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
+          }
+        ]
+      }
+    },
+    "stripe": {
+      "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
+      "version": "0.4.1",
+      "components": {
+        "agents": [
+          {
+            "name": "company-researcher",
+            "description": "Research a company from its URL or description to infer Stripe Connect integration shape"
+          }
+        ],
+        "commands": [
+          {
+            "name": "explain-error",
+            "description": "Explain Stripe error codes and provide solutions with code examples"
+          },
+          {
+            "name": "test-cards",
+            "description": "Display Stripe test card numbers for various testing scenarios"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "stripe",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connect-recommend",
+            "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get…"
+          },
+          {
+            "name": "stripe-apps",
+            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
+          },
+          {
+            "name": "stripe-best-practices",
+            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
+          },
+          {
+            "name": "stripe-directory",
+            "description": "Use when the user wants to find businesses, software, service providers, or partners for a specific industry, workflow,…"
+          },
+          {
+            "name": "stripe-docs",
+            "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
+          },
+          {
+            "name": "stripe-projects",
+            "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
+          },
+          {
+            "name": "upgrade-stripe",
+            "description": "Guide for upgrading Stripe API versions and SDKs"
+          }
+        ]
+      }
+    },
+    "superpowers": {
+      "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
+      "version": "6.2.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|clear|compact"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brainstorming",
+            "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
+          },
+          {
+            "name": "dispatching-parallel-agents",
+            "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+          },
+          {
+            "name": "executing-plans",
+            "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+          },
+          {
+            "name": "finishing-a-development-branch",
+            "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work"
+          },
+          {
+            "name": "receiving-code-review",
+            "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or techn…"
+          },
+          {
+            "name": "requesting-code-review",
+            "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+          },
+          {
+            "name": "subagent-driven-development",
+            "description": "Use when executing implementation plans with independent tasks in the current session"
+          },
+          {
+            "name": "systematic-debugging",
+            "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+          },
+          {
+            "name": "test-driven-development",
+            "description": "Use when implementing any feature or bugfix, before writing implementation code"
+          },
+          {
+            "name": "using-git-worktrees",
+            "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - e…"
+          },
+          {
+            "name": "using-superpowers",
+            "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY resp…"
+          },
+          {
+            "name": "verification-before-completion",
+            "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verif…"
+          },
+          {
+            "name": "writing-plans",
+            "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+          },
+          {
+            "name": "writing-skills",
+            "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+          }
+        ]
+      }
+    },
+    "tavily": {
+      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavily",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "academic-scientific-research",
+            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+          },
+          {
+            "name": "investment-research-briefs",
+            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+          },
+          {
+            "name": "product-competitor-intelligence",
+            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+          },
+          {
+            "name": "sales-account-intelligence",
+            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+          },
+          {
+            "name": "tavily-best-practices",
+            "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
+          },
+          {
+            "name": "tavily-web",
+            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
+          },
+          {
+            "name": "threat-intelligence-enrichment",
+            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
+          },
+          {
+            "name": "vendor-risk-kyc-screening",
+            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+          }
+        ]
+      }
+    },
+    "tinyfish": {
+      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tinyfish",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tinyfish-authenticated",
+            "description": "Automate websites the user is logged into, using TinyFish Browser Context Profiles and Vault credentials. Use when a ta…"
+          },
+          {
+            "name": "tinyfish-automation",
+            "description": "Goal-driven browser automation with TinyFish. Use when a task needs a real browser to act on a site — clicking, filling…"
+          },
+          {
+            "name": "tinyfish-browser",
+            "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-research",
+            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+          },
+          {
+            "name": "tinyfish-web",
+            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+          }
+        ]
+      }
+    },
+    "vercel": {
+      "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196",
+      "version": "0.47.0",
+      "components": {
+        "agents": [
+          {
+            "name": "ai-architect",
+            "description": "Specializes in architecting AI-powered applications on Vercel — choosing between AI SDK patterns, configuring providers…"
+          },
+          {
+            "name": "deployment-expert",
+            "description": "Specializes in Vercel deployment strategies, CI/CD pipelines, preview URLs, production promotions, rollbacks, environme…"
+          },
+          {
+            "name": "performance-optimizer",
+            "description": "Specializes in optimizing Vercel application performance — Core Web Vitals, rendering strategies, caching, image optimi…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "_conventions",
+            "description": "Every slash command in this plugin follows a consistent structure so that the AI agent produces reliable, verifiable re…"
+          },
+          {
+            "name": "bootstrap",
+            "description": "Bootstrap a repository with Vercel-linked resources by running preflight checks, provisioning integrations, verifying e…"
+          },
+          {
+            "name": "deploy",
+            "description": "Deploy the current project to Vercel. Pass \"prod\" or \"production\" as argument to deploy to production. Default is previ…"
+          },
+          {
+            "name": "env",
+            "description": "Manage Vercel environment variables. Commands include list, pull, add, remove, and diff. Use to sync environment variab…"
+          },
+          {
+            "name": "status",
+            "description": "Show the status of the current Vercel project — recent deployments, linked project info, and environment overview."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "vercel",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "access-protected-vercel-deployment",
+            "description": "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection. Use when curl, ag…"
+          },
+          {
+            "name": "ai-gateway",
+            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+          },
+          {
+            "name": "ai-sdk",
+            "description": "Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured out…"
+          },
+          {
+            "name": "auth",
+            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applicati…"
+          },
+          {
+            "name": "bootstrap",
+            "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
+          },
+          {
+            "name": "cdn-caching",
+            "description": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (…"
+          },
+          {
+            "name": "chat-sdk",
+            "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
+          },
+          {
+            "name": "deployments-cicd",
+            "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
+          },
+          {
+            "name": "env-vars",
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+          },
+          {
+            "name": "eve",
+            "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging…"
+          },
+          {
+            "name": "knowledge-update",
+            "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start."
+          },
+          {
+            "name": "marketplace",
+            "description": "Vercel Marketplace expert guidance — discovering, installing, and managing third-party integrations via the `vercel int…"
+          },
+          {
+            "name": "microfrontends",
+            "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
+          },
+          {
+            "name": "next-cache-components",
+            "description": "Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from uns…"
+          },
+          {
+            "name": "next-forge",
+            "description": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-for…"
+          },
+          {
+            "name": "next-upgrade",
+            "description": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js vers…"
+          },
+          {
+            "name": "nextjs",
+            "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
+          },
+          {
+            "name": "react-best-practices",
+            "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
+          },
+          {
+            "name": "routing-middleware",
+            "description": "Vercel Routing Middleware guidance — request interception before cache, rewrites, redirects, personalization. Works wit…"
+          },
+          {
+            "name": "runtime-cache",
+            "description": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Fun…"
+          },
+          {
+            "name": "shadcn",
+            "description": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS…"
+          },
+          {
+            "name": "turbopack",
+            "description": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or underst…"
+          },
+          {
+            "name": "vercel-agent",
+            "description": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and…"
+          },
+          {
+            "name": "vercel-cli",
+            "description": "Vercel CLI expert guidance. Use when deploying, managing environment variables, linking projects, viewing logs, queryin…"
+          },
+          {
+            "name": "vercel-connect",
+            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+          },
+          {
+            "name": "vercel-firewall",
+            "description": "Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed ruleset…"
+          },
+          {
+            "name": "vercel-functions",
+            "description": "Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runti…"
+          },
+          {
+            "name": "vercel-sandbox",
+            "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code ge…"
+          },
+          {
+            "name": "vercel-services",
+            "description": "Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a pol…"
+          },
+          {
+            "name": "vercel-storage",
+            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+          },
+          {
+            "name": "verification",
+            "description": "Full-story verification — infers what the user is building, then verifies the complete flow end-to-end: browser → API →…"
+          },
+          {
+            "name": "workflow",
+            "description": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or ag…"
+          }
+        ]
+      }
+    },
+    "wix": {
+      "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd",
+      "version": "1.16.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wix-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
+          },
+          {
+            "name": "wix-app",
+            "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
+          },
+          {
+            "name": "wix-auth",
+            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
+          },
+          {
+            "name": "wix-design-system",
+            "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
+          },
+          {
+            "name": "wix-docs",
+            "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
+          },
+          {
+            "name": "wix-headless",
+            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+          },
+          {
+            "name": "wix-manage",
+            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+          },
+          {
+            "name": "wix-vibe-headless",
+            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+          }
+        ]
+      }
+    }
+  }
+}
