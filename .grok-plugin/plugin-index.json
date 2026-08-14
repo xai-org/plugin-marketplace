@@ -710,6 +710,18 @@
         ]
       }
     },
+    "ulysses-check": {
+      "sha": "c82df8748b7072017846d17a741d3fc018acaee8",
+      "version": "0.1.2",
+      "components": {
+        "skills": [
+          {
+            "name": "ulysses-check",
+            "description": "Use when the user asks how ChatGPT, Claude, or Gemini describes or ranks a brand versus named competitors, or mentions…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196",
       "version": "0.47.0",
