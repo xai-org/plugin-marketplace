@@ -240,6 +240,17 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "whitepact",
+      "description": "AI governance MCP server (MCP Server + Skill): trust scoring, PII/harmful-content guardrails, hallucination detection, and compliance checks (NIST AI RMF, EU AI Act, ISO 42001) for any AI agent action or output. All 27 tools are read-only.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/whitepact"
+      },
+      "homepage": "https://github.com/Guruprasath-Annadurai/Whitepact",
+      "keywords": ["whitepact", "ai governance", "trust score", "pii scan", "compliance check", "guardrails"]
     }
   ]
 }

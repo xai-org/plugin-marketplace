@@ -1,0 +1,13 @@
+{
+  "name": "whitepact",
+  "version": "1.2.3",
+  "description": "AI governance MCP server: trust scoring, PII/harmful-content guardrails, hallucination detection, and compliance checks (NIST AI RMF, EU AI Act, ISO 42001) for any AI agent's actions.",
+  "author": {
+    "name": "WhitePact",
+    "url": "https://github.com/Guruprasath-Annadurai/Whitepact"
+  },
+  "homepage": "https://github.com/Guruprasath-Annadurai/Whitepact",
+  "repository": "https://github.com/Guruprasath-Annadurai/Whitepact",
+  "license": "MIT",
+  "keywords": ["whitepact", "ai governance", "trust score", "pii scan", "compliance", "guardrails", "hallucination detection"]
+}
