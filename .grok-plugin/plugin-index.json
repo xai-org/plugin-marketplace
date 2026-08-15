@@ -328,7 +328,7 @@
       }
     },
     "flueny": {
-      "sha": "ad6d058cb6a9befcfc733fda55be294163a6d830",
+      "sha": "5c5c032fb296ddc13d76de42a9d2ee48db403c82",
       "version": "0.1.0-spike.1",
       "components": {
         "commands": [
