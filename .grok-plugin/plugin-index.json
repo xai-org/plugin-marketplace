@@ -897,6 +897,18 @@
         ]
       }
     },
+    "vynix": {
+      "sha": "dc173bae17f6096d2dbc6456f0d1dd27237f9626",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vynix",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd",
       "version": "1.16.0",
