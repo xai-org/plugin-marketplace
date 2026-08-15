@@ -248,7 +248,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/FluenyAI/app-plugin-claude-code.git",
-        "sha": "dbd690eaa612a2348192db44dbabc1f8369c9cd3"
+        "sha": "ad6d058cb6a9befcfc733fda55be294163a6d830"
       },
       "homepage": "https://flueny.ai",
       "keywords": ["flueny", "flueny coding", "coding fluency"],
