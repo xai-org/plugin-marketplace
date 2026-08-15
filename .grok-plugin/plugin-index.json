@@ -327,6 +327,41 @@
         ]
       }
     },
+    "flueny": {
+      "sha": "dbd690eaa612a2348192db44dbabc1f8369c9cd3",
+      "version": "0.1.0-spike.1",
+      "components": {
+        "commands": [
+          {
+            "name": "connect",
+            "description": "Connect this machine to Flueny (device sign-in, no bash required)"
+          },
+          {
+            "name": "flueny",
+            "description": "What Flueny is measuring on this machine, and how to connect it"
+          },
+          {
+            "name": "status",
+            "description": "Check whether Flueny is actually receiving anything from this machine"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "*"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
