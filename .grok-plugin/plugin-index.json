@@ -181,6 +181,22 @@
         ]
       }
     },
+    "csi": {
+      "sha": "b65bba9cf293e956cb2e4c1b2c045a45a3ff2885",
+      "version": "0.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "csi",
+            "description": "CSI lets AI control the user's real Chrome browser — navigate, click, type, read, screenshot, save as PDF, and interact…"
+          },
+          {
+            "name": "csi-e2e",
+            "description": "Turn natural-language browser scenarios into replayable e2e regression suites driven by the csi daemon (real Chrome). W…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
