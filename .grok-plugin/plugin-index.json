@@ -182,7 +182,7 @@
       }
     },
     "csi": {
-      "sha": "b65bba9cf293e956cb2e4c1b2c045a45a3ff2885",
+      "sha": "42799971e18f4efcc1c28577a6c793a68192c26f",
       "version": "0.3.0",
       "components": {
         "skills": [

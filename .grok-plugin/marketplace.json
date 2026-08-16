@@ -248,7 +248,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ximing/csi.git",
-        "sha": "b65bba9cf293e956cb2e4c1b2c045a45a3ff2885"
+        "sha": "42799971e18f4efcc1c28577a6c793a68192c26f"
       },
       "homepage": "https://github.com/ximing/csi",
       "keywords": ["csi", "csi browser", "csi daemon", "csi e2e"]
