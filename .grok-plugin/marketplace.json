@@ -248,7 +248,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rp0927/korean-prose-editor.git",
-        "sha": "fc96b92d1d5218f6ee1f6b4b685b8aaa97a87a78"
+        "sha": "edef98c52b80133e3d704a84c9e4a99102d786df"
       },
       "homepage": "https://github.com/rp0927/korean-prose-editor",
       "keywords": ["korean-prose-editor", "korean copyedit", "copyedit korean"]

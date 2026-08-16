@@ -328,9 +328,15 @@
       }
     },
     "korean-prose-editor": {
-      "sha": "fc96b92d1d5218f6ee1f6b4b685b8aaa97a87a78",
-      "version": "1.0.0",
+      "sha": "edef98c52b80133e3d704a84c9e4a99102d786df",
+      "version": "1.0.1",
       "components": {
+        "agents": [
+          {
+            "name": "copyedit",
+            "description": "한국어 산문을 문장 단위로 윤문한다. 주장·수치·인용·문서 구조는 유지한다. /copyedit, Korean copyedit, translationese."
+          }
+        ],
         "commands": [
           {
             "name": "copyedit",
