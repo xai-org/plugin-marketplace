@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "rab",
+      "description": "Skills for the RAB reactive state architecture: write @rabjs/react code with the right conventions, debug live rab apps over CDP, and drive the React Native debug bridge.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ximing/rab.git",
+        "sha": "05105fd23e9d183a10d58c2fc50d1a3f80d78331"
+      },
+      "homepage": "https://github.com/ximing/rab",
+      "keywords": ["rab", "rabjs", "rab react", "rabjs react", "rab debug"],
+      "domains": ["ximing.github.io"]
     }
   ]
 }
