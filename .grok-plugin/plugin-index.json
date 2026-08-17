@@ -327,6 +327,108 @@
         ]
       }
     },
+    "hypergrok": {
+      "sha": "1ead2e45fa3b27fad4f8df4bbeb5ef7f847a8210",
+      "version": "1.0.0",
+      "components": {
+        "agents": [
+          {
+            "name": "desk-lead",
+            "description": "Runs the Hyperliquid trading desk. The user's main entry point; routes work to specialists, runs the trade lifecycle, n…"
+          },
+          {
+            "name": "execution-trader",
+            "description": "The only Bot on the desk that places, modifies or cancels Hyperliquid orders. Executes one approved ticket at a time, r…"
+          },
+          {
+            "name": "market-analyst",
+            "description": "Reads Hyperliquid market data live and turns it into timestamped, sourced market briefs. Read-only."
+          },
+          {
+            "name": "research-analyst",
+            "description": "Fundamentals, news, catalysts, onchain and social context for anything the desk trades. Read-only, source-led, sceptica…"
+          },
+          {
+            "name": "risk-manager",
+            "description": "Owns the desk's risk limits, sizes every trade from live account state, monitors the book, and can veto. Read-only on t…"
+          },
+          {
+            "name": "strategist",
+            "description": "Helps the user turn their own trading ideas into explicit, testable rules, backtests them on Hyperliquid data, and pape…"
+          },
+          {
+            "name": "trade-reviewer",
+            "description": "Keeps the desk journal, reviews every trade's process separately from its outcome, and runs incident reviews. Works off…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "desk-execution-protocol",
+            "description": "The Execution Trader's procedure for turning an approved ticket into one Hyperliquid action and reconciling it - the pr…"
+          },
+          {
+            "name": "desk-incident-response",
+            "description": "What the desk does when something goes wrong on Hyperliquid - unknown send results, unexpected fills or positions, unpr…"
+          },
+          {
+            "name": "desk-monitoring",
+            "description": "How the desk watches markets and the account between trades using Grok Bot routines and WebSocket or polling watches -…"
+          },
+          {
+            "name": "desk-operating-model",
+            "description": "How the HyperGrok trading desk works as a team of Grok Bots - roles, seats, shared workspace, evidence standard, approv…"
+          },
+          {
+            "name": "desk-post-trade-review",
+            "description": "The Trade Reviewer's procedure for journaling desk activity and reviewing trades from the exchange record - process gra…"
+          },
+          {
+            "name": "desk-risk-limits",
+            "description": "How the Risk Manager writes the desk's risk limits with the user, sizes every proposed trade from live account state an…"
+          },
+          {
+            "name": "desk-strategy-lab",
+            "description": "How the Strategist works with the user to turn their own trading idea into explicit rules, backtest it honestly on Hype…"
+          },
+          {
+            "name": "desk-trade-lifecycle",
+            "description": "The end-to-end procedure for one trade on the HyperGrok desk - from an idea to a reviewed, journaled result - with the…"
+          },
+          {
+            "name": "hyperliquid-account",
+            "description": "Read a Hyperliquid account from the desk computer - positions and margin, spot balances, open orders including trigger…"
+          },
+          {
+            "name": "hyperliquid-advanced",
+            "description": "Less common Hyperliquid actions and their rules - dead-man's switch (scheduleCancel), TWAP orders, spot orders, expires…"
+          },
+          {
+            "name": "hyperliquid-api-reference",
+            "description": "Compact reference for the Hyperliquid API as the desk uses it - endpoints and envelopes, every /info request type, ever…"
+          },
+          {
+            "name": "hyperliquid-market-data",
+            "description": "Read live Hyperliquid market data from the desk computer with curl or the Python SDK - mid, mark and oracle prices, ord…"
+          },
+          {
+            "name": "hyperliquid-orders",
+            "description": "Place, cancel and modify Hyperliquid orders correctly from the desk computer - limit and IOC (market-style) orders, tak…"
+          },
+          {
+            "name": "hyperliquid-positions",
+            "description": "Manage Hyperliquid perp positions and margin from the desk computer - read positions and margin, set leverage and cross…"
+          },
+          {
+            "name": "hyperliquid-setup",
+            "description": "Prepare the desk computer to work with Hyperliquid - install the SDKs, pick testnet or mainnet, verify connectivity, an…"
+          },
+          {
+            "name": "hyperliquid-websocket",
+            "description": "Subscribe to live Hyperliquid data over WebSocket from the desk computer - mids, order book, trades, candles, best bid/…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
