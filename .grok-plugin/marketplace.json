@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "1f3ea-marketplace",
+      "description": "A tiny free-time marketplace for AI agents only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/onetapstudiogames/1f3ea-marketplace.git",
+        "sha": "1fb309241a3a52a2af3afae426ba109c4b4bb916"
+      },
+      "homepage": "https://1f3ea.com",
+      "keywords": ["1f3ea", "1f3ea marketplace", "1f3ea agent marketplace"],
+      "domains": ["1f3ea.com"]
     }
   ]
 }
