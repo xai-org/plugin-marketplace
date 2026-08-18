@@ -327,6 +327,64 @@
         ]
       }
     },
+    "grok-kit": {
+      "sha": "adf7ff53f2a7b2990da6434de3094f4bc3b00468",
+      "components": {
+        "agents": [
+          {
+            "name": "debugger",
+            "description": "Root-cause debugging for errors, test failures, and unexpected runtime behavior. Use proactively when hitting stack tra…"
+          },
+          {
+            "name": "researcher",
+            "description": "Deep research and codebase exploration with summarize-only returns. Use for docs, architecture scans, multi-package dis…"
+          },
+          {
+            "name": "verifier",
+            "description": "Validates completed work against acceptance criteria, tests, and the plan. Use proactively after implementation claims…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cost-check",
+            "description": "Cost and routing checklist using the editor Router matrix and context-ring MCP audit. Use when spend is high, before la…"
+          },
+          {
+            "name": "memory-sync",
+            "description": "Sync hot MEMORY/USER files into ICM topics and propose slim User Rule exports from the identity source file. Human-gate…"
+          },
+          {
+            "name": "orchestrate-rlm",
+            "description": "RLM-style thin-parent orchestration with summary-only subagents and STATE.md. Use for multi-hop, multi-package, or para…"
+          },
+          {
+            "name": "plan-execute",
+            "description": "Plan-and-execute playbook: plan mode then agent implement. Use for ambiguous multi-file work. Includes replan triggers…"
+          },
+          {
+            "name": "project-bootstrap",
+            "description": "Bootstrap a repo with thin AGENTS.md, .cursor/rules/core.mdc, ignore files, optional mcp.json, STATE conventions, and I…"
+          },
+          {
+            "name": "refine-harness",
+            "description": "Human-gated harness refinement. Propose ≤3 evidence-backed ICM/skill patches after a trajectory. Never auto-apply; neve…"
+          },
+          {
+            "name": "session-handoff",
+            "description": "End-of-session handoff to .cursor/handoff.md and ICM topic handoff-<slug>. Use when finishing deep work or switching ta…"
+          },
+          {
+            "name": "skill-curator-manual",
+            "description": "Quarterly manual skill inventory: find near-duplicates and propose merges. Human applies changes. Use when skills spraw…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
