@@ -240,6 +240,43 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "athena-whiteboard",
+      "description": "Create diagrams, render math, generate images, recommend wireframe assets, and save visual content to collaborative Athena whiteboards through MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DevFortress-Inc/athena-grok-plugins.git",
+        "sha": "f048a7688a01c196d5212b8f0cc7272384348a14"
+      },
+      "homepage": "https://athenaboard.ai/whiteboard",
+      "keywords": [
+        "athena whiteboard",
+        "athenaboard",
+        "athena ai",
+        "devfortress"
+      ],
+      "domains": [
+        "athenaboard.ai",
+        "athenachat.bot",
+        "devfortress.com"
+      ],
+      "version": "1.0.0",
+      "author": "DevFortress, Inc.",
+      "tags": [
+        "athena-whiteboard",
+        "mcp",
+        "whiteboard",
+        "visual-collaboration",
+        "diagramming",
+        "mermaid",
+        "latex",
+        "image-generation",
+        "wireframing",
+        "visualization",
+        "productivity"
+      ]
     }
   ]
 }
