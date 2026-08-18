@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "padlet",
+      "description": "Work with your Padlet boards through Padlet's hosted MCP server. List, search, and read padlets; create padlets; create, edit, connect, and comment on posts; and analyse post attachments. Sign in with your own Padlet account on first connection — no API keys, nothing to run locally.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/padlet/agent-plugins.git",
+        "sha": "9658f1a28eb8fc958db99127d13f2f4644ba20aa"
+      },
+      "homepage": "https://padlet.com",
+      "keywords": ["padlet", "padlet board", "padlet wall", "padlet post"],
+      "domains": ["padlet.com", "padlet.help", "mcp.padlet.com"]
     }
   ]
 }

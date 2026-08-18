@@ -432,6 +432,24 @@
         ]
       }
     },
+    "padlet": {
+      "sha": "9658f1a28eb8fc958db99127d13f2f4644ba20aa",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "padlet",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "padlet-toolsets",
+            "description": "Views, enables, and disables toolsets for the Padlet MCP server. Use when the user wants to change which Padlet tools a…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
       "version": "1.3.7",
