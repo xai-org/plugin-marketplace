@@ -240,6 +240,34 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "notesqr",
+      "description": "Anonymous WebRTC P2P file and folder sharing — no signup, any size, cross-device including mobile browsers. MCP tools to host a room or download while both peers stay online. Ideal for QA builds (APK/IPA), logs, datasets, and agent-to-human handoffs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NotesQR/notesqr-share.git",
+        "sha": "7f5e997e2cba84690722c53b2b8282d09feff7a5",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://notesqr.com/use-cases/cli-mcp-agents",
+      "keywords": [
+        "notesqr",
+        "file transfer",
+        "p2p",
+        "webrtc",
+        "anonymous file share",
+        "no signup",
+        "folder share",
+        "large file transfer",
+        "mobile file share",
+        "cross device",
+        "app testing",
+        "qa file share",
+        "mcp file transfer"
+      ],
+      "domains": ["notesqr.com", "www.notesqr.com"]
     }
   ]
 }
