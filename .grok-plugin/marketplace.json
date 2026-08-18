@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "rab",
+      "description": "Skills for the RAB reactive state architecture: write @rabjs/react code with the right conventions, debug live rab apps over CDP, and drive the React Native debug bridge.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ximing/rab.git",
+        "sha": "05105fd23e9d183a10d58c2fc50d1a3f80d78331"
+      },
+      "homepage": "https://github.com/ximing/rab",
+      "keywords": ["rab", "rabjs", "rab react", "rabjs react", "rab debug"],
+      "domains": ["ximing.github.io"]
     }
   ]
 }
