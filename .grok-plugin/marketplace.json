@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "converly",
+      "description": "Converly conversion tracking integration. Connect ad platforms (Google Ads, Meta, GA4, LinkedIn, TikTok), build and publish conversion flows that fire when a form is submitted, get the tracking snippet onto a website, and check whether each conversion reached every platform. Authorize with your own Converly account on first use; ad platform credentials are never handled by the plugin.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/converlyio/converly-mcp.git",
+        "sha": "15b8485d3b0a94f6af38d19e371c83906fa5adf8"
+      },
+      "homepage": "https://converly.io/mcp",
+      "keywords": ["converly", "converly tracking", "converly conversion", "converly flow"],
+      "domains": ["converly.io", "app.converly.io"]
     }
   ]
 }
