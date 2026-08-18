@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "mitosis-memory",
+      "description": "Query a user's private Mitosis memory — connected email, calendar, documents, contacts and chat history — with citations, and write durable facts back.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OperatingSystem-1/mitosis-agent-plugin.git",
+        "sha": "c5793148df76d5bcb2ab429808469a6c050f8e3a"
+      },
+      "homepage": "https://mitosislabs.ai",
+      "keywords": ["mitosis", "mitosis memory", "mitosis brain"],
+      "domains": ["mitosislabs.ai"]
     }
   ]
 }

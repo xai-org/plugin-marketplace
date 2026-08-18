@@ -327,6 +327,48 @@
         ]
       }
     },
+    "mitosis-memory": {
+      "sha": "c5793148df76d5bcb2ab429808469a6c050f8e3a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mitosis",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "memory-ask",
+            "description": "Query the user's private Mitosis memory (email, calendar, documents, contacts, chat, project history) and get back a ci…"
+          },
+          {
+            "name": "memory-connect",
+            "description": "Wire this agent to the user's private Mitosis memory so the connection survives future sessions. Use when the user says…"
+          },
+          {
+            "name": "memory-ingest",
+            "description": "Ingest local files or a whole Markdown folder (such as an Obsidian vault) into the user's Mitosis memory so they become…"
+          },
+          {
+            "name": "memory-manifest",
+            "description": "Discover what a user's Mitosis memory actually contains — connected sources, item counts, and the people and topics it…"
+          },
+          {
+            "name": "memory-recall",
+            "description": "Semantic-only vector search across the user's Mitosis memory, returning hits with their source and a content excerpt. U…"
+          },
+          {
+            "name": "memory-remember",
+            "description": "Write a durable fact, decision, or insight back into the user's Mitosis memory with provenance, so future sessions inhe…"
+          },
+          {
+            "name": "memory-status",
+            "description": "Check the state of the user's Mitosis memory pipeline — totals, embedding and graph coverage, and per-feed freshness. U…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
