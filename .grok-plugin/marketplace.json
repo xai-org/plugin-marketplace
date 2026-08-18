@@ -248,7 +248,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/NotesQR/notesqr-share.git",
-        "sha": "7f5e997e2cba84690722c53b2b8282d09feff7a5",
+        "sha": "e1a78850f714ee2d953695138bef649c749eecc0",
         "path": "grok-plugin"
       },
       "homepage": "https://notesqr.com/use-cases/cli-mcp-agents",
