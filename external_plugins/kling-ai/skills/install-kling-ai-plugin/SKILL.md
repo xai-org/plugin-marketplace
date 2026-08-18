@@ -1,7 +1,7 @@
 ---
 name: install-kling-ai-plugin
 description: Install, refresh, or troubleshoot the Kling AI plugin and remote OAuth MCP registration in Grok Build. Preserve the packaged server key and do not add a duplicate connection.
-version: 1.0.3
+version: 1.0.0
 author: KLING AI
 license: MIT
 metadata:

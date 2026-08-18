@@ -1,7 +1,7 @@
 ---
 name: kling-ai
 description: Create and monitor Kling AI image and video generations through the OAuth-protected remote MCP server in Grok Build. Use for text-to-image, image-to-image, text-to-video, image-to-video, uploads, task status, and credit checks.
-version: 1.0.3
+version: 1.0.0
 author: KLING AI
 license: MIT
 metadata:
