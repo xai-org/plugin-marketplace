@@ -327,6 +327,24 @@
         ]
       }
     },
+    "mako": {
+      "sha": "680d25ef23cba7aadae14c80d5f0fd1546bf6e31",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mako",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mako",
+            "description": "Use when exploring a Mako workspace, querying connected warehouses (SQL or Mongo), building or editing a Mako React dat…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",

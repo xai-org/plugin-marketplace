@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "mako",
+      "description": "Official Mako plugin (hosted MCP + skill). Explore SQL and Mongo warehouse connections, validate queries, and build React data apps with live or parquet bindings. Sign in with your Mako account on first use — no API key to paste. OAuth is read-only by default.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mako-ai/mako-grok-plugin.git",
+        "sha": "680d25ef23cba7aadae14c80d5f0fd1546bf6e31"
+      },
+      "homepage": "https://mako.ai",
+      "keywords": ["mako", "mako mcp", "mako app", "data apps", "sql warehouse"],
+      "domains": ["mako.ai", "app.mako.ai", "docs.mako.ai"]
     }
   ]
 }
