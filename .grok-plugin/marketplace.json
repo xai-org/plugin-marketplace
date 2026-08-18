@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "dualentry",
+      "description": "DualEntry accounting MCP. Query the live ledger, search records and entities, and draft accounting changes with the same permissions as the DualEntry dashboard.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dualentry/grok-plugin.git",
+        "sha": "fb2117def11f905d833b22d70f0e15f0636897c0"
+      },
+      "homepage": "https://docs.dualentry.com/developers/guides/mcp-integration",
+      "keywords": ["dualentry", "dualentry accounting", "dualentry ledger", "dualentry mcp", "dualentry journal entry"],
+      "domains": ["dualentry.com", "app.dualentry.com", "api.dualentry.com", "docs.dualentry.com"]
     }
   ]
 }

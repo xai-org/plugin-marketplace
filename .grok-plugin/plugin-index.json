@@ -181,6 +181,18 @@
         ]
       }
     },
+    "dualentry": {
+      "sha": "fb2117def11f905d833b22d70f0e15f0636897c0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dualentry",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
