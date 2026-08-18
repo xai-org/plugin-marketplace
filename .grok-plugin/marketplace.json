@@ -243,7 +243,7 @@
     },
     {
       "name": "converly",
-      "description": "Converly conversion tracking integration. Connect ad platforms (Google Ads, Meta, GA4, LinkedIn, TikTok), build and publish conversion flows that fire when a form is submitted, get the tracking snippet onto a website, and check whether each conversion reached every platform. Authorize with your own Converly account on first use; ad platform credentials are never handled by the plugin.",
+      "description": "Converly is the easiest way to set up server-side conversion tracking in Google Ads, Meta Ads, X Ads, LinkedIn Ads, Microsoft Ads and more. The plugin makes it easy to set up. Simply tell Grok 'Set up conversion tracking in Google Ads when someone submits a form on my Webflow website' and it will build the conversion flow, connect your Google Ads account, publish it, and test it all works.",
       "category": "marketing",
       "source": {
         "source": "url",
@@ -251,7 +251,7 @@
         "sha": "15b8485d3b0a94f6af38d19e371c83906fa5adf8"
       },
       "homepage": "https://converly.io/mcp",
-      "keywords": ["converly", "converly tracking", "converly conversion", "converly flow"],
+      "keywords": ["converly", "converly conversion tracking", "converly google ads", "converly meta capi", "converly flow"],
       "domains": ["converly.io", "app.converly.io"]
     }
   ]
