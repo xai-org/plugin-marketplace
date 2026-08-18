@@ -243,7 +243,7 @@
     },
     {
       "name": "converly",
-      "description": "Converly is the easiest way to set up server-side conversion tracking in Google Ads, Meta Ads, X Ads, LinkedIn Ads, Microsoft Ads and more. The plugin makes it easy to set up. Simply tell Grok 'Set up conversion tracking in Google Ads when someone submits a form on my Webflow website' and it will build the conversion flow, connect your Google Ads account, publish it, and test it all works.",
+      "description": "Converly is the easiest way to set up server-side conversion tracking in Google Ads, Meta Ads, X Ads, LinkedIn Ads, Microsoft Ads and more. The plugin makes it easy to setup. Simply tell Grok to 'Setup conversion tracking in Google Ads when someone submits a form on my Webflow website' and it will build the conversion flow, connect your Google Ads account, publish it, and test it all works.",
       "category": "marketing",
       "source": {
         "source": "url",
