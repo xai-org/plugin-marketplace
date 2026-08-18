@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196"
+        "sha": "11c32588786a9d49791372657433b88d49561874"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd"
+        "sha": "aaec99ac7acea93013b6a831feb58467051626a6"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990"
+        "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -220,7 +220,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
+        "sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",

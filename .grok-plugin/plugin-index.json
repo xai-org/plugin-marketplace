@@ -206,8 +206,8 @@
       }
     },
     "figma": {
-      "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990",
-      "version": "2.2.91",
+      "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4",
+      "version": "2.2.95",
       "components": {
         "mcpServers": [
           {
@@ -527,8 +527,8 @@
       }
     },
     "stripe": {
-      "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
-      "version": "0.4.1",
+      "sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
+      "version": "0.5.1",
       "components": {
         "agents": [
           {
@@ -558,6 +558,10 @@
             "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get…"
           },
           {
+            "name": "connect-required-verification-information",
+            "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
+          },
+          {
             "name": "stripe-apps",
             "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
           },
@@ -585,8 +589,8 @@
       }
     },
     "superpowers": {
-      "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9",
-      "version": "6.2.0",
+      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+      "version": "6.3.0",
       "components": {
         "hooks": [
           {
@@ -735,8 +739,8 @@
       }
     },
     "vercel": {
-      "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196",
-      "version": "0.47.0",
+      "sha": "11c32588786a9d49791372657433b88d49561874",
+      "version": "0.48.0",
       "components": {
         "agents": [
           {
@@ -811,6 +815,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "build-agents",
+            "description": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or imp…"
+          },
+          {
             "name": "cdn-caching",
             "description": "Debug Vercel CDN caching — cache hit rate, stale content, revalidation behavior, ISR + PPR, per-request cache reasons (…"
           },
@@ -828,7 +836,7 @@
           },
           {
             "name": "eve",
-            "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging…"
+            "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
           },
           {
             "name": "knowledge-update",
@@ -916,14 +924,14 @@
           },
           {
             "name": "workflow",
-            "description": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or ag…"
+            "description": "Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that…"
           }
         ]
       }
     },
     "wix": {
-      "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd",
-      "version": "1.16.0",
+      "sha": "aaec99ac7acea93013b6a831feb58467051626a6",
+      "version": "1.16.1",
       "components": {
         "mcpServers": [
           {
@@ -951,6 +959,10 @@
           {
             "name": "wix-docs",
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
+          },
+          {
+            "name": "wix-docs-base44",
+            "description": "Look up Wix API/SDK documentation from inside the Base44 builder sandbox, where tool results are capped and a whole doc…"
           },
           {
             "name": "wix-headless",
