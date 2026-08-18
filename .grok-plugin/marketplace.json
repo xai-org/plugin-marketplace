@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "qencode",
+      "description": "Qencode video transcoding API and Media Storage. Submit encode jobs, monitor status, browse recipes, and manage CDN buckets — via hosted MCP with OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Qencode-Corp/mcp.git",
+        "sha": "83befc3d3b9d7015b5fac21e7065132d3c09bd83"
+      },
+      "homepage": "https://qencode.com",
+      "keywords": ["qencode", "qencode transcoding", "qencode mcp"],
+      "domains": ["qencode.com", "mcp.qencode.com", "docs.qencode.com"]
     }
   ]
 }
