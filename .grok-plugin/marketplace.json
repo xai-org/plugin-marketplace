@@ -240,6 +240,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "kling-ai",
+      "description": "Kling AI image and video generation integration. Sign in with Kling AI to create images and videos, upload references, check credits, and monitor generation tasks through the hosted OAuth MCP server.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/kling-ai"
+      },
+      "homepage": "https://kling.ai",
+      "keywords": ["kling ai", "kling image generation", "kling video generation", "kling mcp"],
+      "domains": ["kling.ai", "klingai.com"]
     }
   ]
 }

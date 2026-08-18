@@ -327,6 +327,27 @@
         ]
       }
     },
+    "kling-ai": {
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "Plugin-Grok-kling-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "install-kling-ai-plugin",
+            "description": "Install, refresh, or troubleshoot the Kling AI plugin and remote OAuth MCP registration in Grok Build. Preserve the pac…"
+          },
+          {
+            "name": "kling-ai",
+            "description": "Create and monitor Kling AI image and video generations through the OAuth-protected remote MCP server in Grok Build. Us…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",

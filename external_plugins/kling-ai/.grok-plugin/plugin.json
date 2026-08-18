@@ -1,0 +1,12 @@
+{
+  "name": "kling-ai",
+  "version": "1.0.3",
+  "description": "Create and monitor AI image and video generations with Kling's OAuth MCP",
+  "author": {
+    "name": "KLING AI Pte Ltd",
+    "url": "https://kling.ai"
+  },
+  "homepage": "https://kling.ai",
+  "license": "MIT",
+  "keywords": ["kling", "kling-ai", "image-generation", "video-generation", "mcp"]
+}
