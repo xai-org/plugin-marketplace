@@ -43,9 +43,37 @@
         ]
       }
     },
+    "base44": {
+      "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
+      "version": "1.0.0-beta.1",
+      "components": {
+        "skills": [
+          {
+            "name": "base44-cli",
+            "description": "The base44 CLI is used for EVERYTHING related to base44 projects: resource configuration (entities, backend functions,…"
+          },
+          {
+            "name": "base44-remote-dev",
+            "description": "Develop a Base44 app remotely from your own coding agent (Claude Code, claude.ai, or any MCP client) by connecting it t…"
+          },
+          {
+            "name": "base44-sandbox",
+            "description": "Develop a Base44 app remotely inside Base44's cloud sandbox using your own agent — no local checkout and no deploy/push…"
+          },
+          {
+            "name": "base44-sdk",
+            "description": "The base44 SDK is the library to communicate with base44 services. In projects, you use it to communicate with remote r…"
+          },
+          {
+            "name": "base44-troubleshooter",
+            "description": "Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
-      "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c",
-      "version": "1.6.0",
+      "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
+      "version": "1.7.0",
       "components": {
         "mcpServers": [
           {
@@ -153,9 +181,33 @@
         ]
       }
     },
+    "exa": {
+      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "tutorial",
+            "description": "Interactive tutorial for Exa web search in Grok Build"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "exa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "exa-search",
+            "description": "Deep research powered by Exa. Use for lead generation, literature reviews, deep dives, competitive analysis, or any que…"
+          }
+        ]
+      }
+    },
     "figma": {
-      "sha": "07316dd2920d61303ca0e52812b31f5f341e7b15",
-      "version": "2.2.81",
+      "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4",
+      "version": "2.2.95",
       "components": {
         "mcpServers": [
           {
@@ -276,8 +328,8 @@
       }
     },
     "mongodb": {
-      "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393",
-      "version": "1.1.0",
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -297,6 +349,44 @@
           {
             "name": "mongodb-mcp-setup",
             "description": "Guide users through configuring key MongoDB MCP server options. Use this skill when a user has the MongoDB MCP server i…"
+          },
+          {
+            "name": "mongodb-natural-language-querying",
+            "description": "Generate read-only MongoDB queries (find) or aggregation pipelines using natural language, with collection schema conte…"
+          },
+          {
+            "name": "mongodb-query-optimizer",
+            "description": "Help with MongoDB query optimization and indexing. Use only when the user asks for optimization or performance: \"How do…"
+          },
+          {
+            "name": "mongodb-schema-design",
+            "description": "MongoDB schema design patterns and anti-patterns. Use when designing data models, reviewing schemas, migrating from SQL…"
+          },
+          {
+            "name": "mongodb-search-and-ai",
+            "description": "Guides MongoDB users through implementing and optimizing Atlas Search (full-text), Vector Search (semantic), and Hybrid…"
+          }
+        ]
+      }
+    },
+    "mongodb-atlas": {
+      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mongodb-atlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mongodb-atlas-stream-processing",
+            "description": "Manages MongoDB Atlas Stream Processing (ASP) workflows. Handles workspace provisioning, data source/sink connections,…"
+          },
+          {
+            "name": "mongodb-connection",
+            "description": "Optimize MongoDB client connection configuration (pools, timeouts, patterns) for any supported driver language. Use thi…"
           },
           {
             "name": "mongodb-natural-language-querying",
@@ -343,8 +433,8 @@
       }
     },
     "netlify": {
-      "sha": "43059a39003935fd78b72eff40071e060b236f37",
-      "version": "1.1.0",
+      "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -355,7 +445,7 @@
         "skills": [
           {
             "name": "netlify-access-control",
-            "description": "Use when the task involves controlling who can reach a Netlify site, or telling Netlify Identity apart from Secure Acce…"
+            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
           },
           {
             "name": "netlify-agent-runner",
@@ -363,51 +453,51 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Reference for Netlify AI Gateway — the managed proxy that routes calls to OpenAI, Anthropic, and Google Gemini SDKs wit…"
+            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
           },
           {
             "name": "netlify-blobs",
-            "description": "Guide for using Netlify Blobs for file and asset storage — images, documents, uploads, exports, cached binary artifacts…"
+            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
           },
           {
             "name": "netlify-caching",
-            "description": "Guide for controlling caching on Netlify's CDN. Use when configuring cache headers, setting up stale-while-revalidate,…"
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
           },
           {
             "name": "netlify-config",
-            "description": "Reference for netlify.toml configuration and site environment variables. Use when configuring build settings, redirects…"
+            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
           },
           {
             "name": "netlify-database",
-            "description": "Guide for using Netlify Database — the GA managed Postgres product built into Netlify. Use when a project needs any kin…"
+            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
           },
           {
             "name": "netlify-deploy",
-            "description": "Deploy, host, and publish web projects on Netlify with the Netlify CLI. Use when the user wants to deploy a site or rep…"
+            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manip…"
+            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
           },
           {
             "name": "netlify-forms",
-            "description": "Guide for using Netlify Forms for HTML form handling. Use when adding contact forms, feedback forms, file upload forms,…"
+            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
           },
           {
             "name": "netlify-frameworks",
-            "description": "Guide for deploying web frameworks on Netlify. Use when setting up a framework project (Vite/React, Astro, TanStack Sta…"
+            "description": "Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and…"
           },
           {
             "name": "netlify-functions",
-            "description": "Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks…"
+            "description": "Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API…"
           },
           {
             "name": "netlify-identity",
-            "description": "Use when the task involves authentication, user signups, logins, password recovery, OAuth providers, role-based access…"
+            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Guide for using Netlify Image CDN for image optimization and transformation. Use when serving optimized images, creatin…"
+            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -417,8 +507,8 @@
       }
     },
     "railway": {
-      "sha": "2405547f2044071c9d43bf6782edeb5d93e5bb4e",
-      "version": "1.3.5",
+      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
+      "version": "1.3.7",
       "components": {
         "hooks": [
           {
@@ -441,8 +531,8 @@
       }
     },
     "sentry": {
-      "sha": "f6b4882489b34b5dce8f21648286a570d56110da",
-      "version": "1.2.0",
+      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
+      "version": "1.3.2",
       "components": {
         "mcpServers": [
           {
@@ -460,8 +550,8 @@
             "description": "Debug and fix a Sentry issue — find it (by link, ID, or search), pull full context (stack trace, breadcrumbs, trace, lo…"
           },
           {
-            "name": "sentry-feature-setup",
-            "description": "Configure specific Sentry features beyond basic SDK setup. Use when asked to monitor AI/LLM calls, set up OpenTelemetry…"
+            "name": "sentry-fix-stack-traces",
+            "description": "Make Sentry stack traces readable — upload source maps for JavaScript/TypeScript, or debug files for native and mobile…"
           },
           {
             "name": "sentry-get-started",
@@ -476,27 +566,19 @@
             "description": "Configure the OpenTelemetry Collector with Sentry Exporter for multi-project routing and automatic project creation. Us…"
           },
           {
-            "name": "sentry-sdk-upgrade",
-            "description": "Upgrade the Sentry JavaScript SDK across major versions. Use when asked to upgrade Sentry, migrate to a newer version,…"
-          },
-          {
-            "name": "sentry-setup-ai-monitoring",
-            "description": "Setup Sentry AI Agent Monitoring in any project. Use when asked to monitor LLM calls, track AI agents, track conversati…"
+            "name": "sentry-setup-releases",
+            "description": "Set up Sentry releases and deploy tracking — tag events with a version and environment, create the release in CI with i…"
           },
           {
             "name": "sentry-snapshots-cocoa",
             "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
-          },
-          {
-            "name": "sentry-workflow",
-            "description": "Keep Sentry SDKs up to date. Use when asked to upgrade the Sentry SDK across major versions, migrate SDK versions, or f…"
           }
         ]
       }
     },
     "stripe": {
-      "sha": "cfc7296a9beb788034a379c659df7ad96932ee68",
-      "version": "0.1.0",
+      "sha": "96cfe6bf30e661f674950cd8dbd47beaeadc5b6e",
+      "version": "0.5.2",
       "components": {
         "agents": [
           {
@@ -523,15 +605,27 @@
         "skills": [
           {
             "name": "connect-recommend",
-            "description": "This skill should be used when the user asks about Stripe Connect configuration, charge patterns, dashboard access, or…"
+            "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get…"
+          },
+          {
+            "name": "connect-required-verification-information",
+            "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
+          },
+          {
+            "name": "stripe-apps",
+            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Acco…"
+            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
           },
           {
             "name": "stripe-directory",
             "description": "Use when the user wants to find businesses, software, service providers, or partners for a specific industry, workflow,…"
+          },
+          {
+            "name": "stripe-docs",
+            "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
           },
           {
             "name": "stripe-projects",
@@ -545,8 +639,8 @@
       }
     },
     "superpowers": {
-      "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
-      "version": "6.1.1",
+      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+      "version": "6.3.0",
       "components": {
         "hooks": [
           {
@@ -569,7 +663,7 @@
           },
           {
             "name": "finishing-a-development-branch",
-            "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completi…"
+            "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work"
           },
           {
             "name": "receiving-code-review",
@@ -614,9 +708,89 @@
         ]
       }
     },
+    "tavily": {
+      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavily",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "academic-scientific-research",
+            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+          },
+          {
+            "name": "investment-research-briefs",
+            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+          },
+          {
+            "name": "product-competitor-intelligence",
+            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+          },
+          {
+            "name": "sales-account-intelligence",
+            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+          },
+          {
+            "name": "tavily-best-practices",
+            "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
+          },
+          {
+            "name": "tavily-web",
+            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
+          },
+          {
+            "name": "threat-intelligence-enrichment",
+            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
+          },
+          {
+            "name": "vendor-risk-kyc-screening",
+            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+          }
+        ]
+      }
+    },
+    "tinyfish": {
+      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tinyfish",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tinyfish-authenticated",
+            "description": "Automate websites the user is logged into, using TinyFish Browser Context Profiles and Vault credentials. Use when a ta…"
+          },
+          {
+            "name": "tinyfish-automation",
+            "description": "Goal-driven browser automation with TinyFish. Use when a task needs a real browser to act on a site — clicking, filling…"
+          },
+          {
+            "name": "tinyfish-browser",
+            "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-research",
+            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+          },
+          {
+            "name": "tinyfish-web",
+            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+          }
+        ]
+      }
+    },
     "vercel": {
-      "sha": "4f867228f69a48c4781ccf1bc5d2741af435cc97",
-      "version": "0.45.1",
+      "sha": "11c32588786a9d49791372657433b88d49561874",
+      "version": "0.48.0",
       "components": {
         "agents": [
           {
@@ -671,6 +845,10 @@
         ],
         "skills": [
           {
+            "name": "access-protected-vercel-deployment",
+            "description": "Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection. Use when curl, ag…"
+          },
+          {
             "name": "ai-gateway",
             "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
           },
@@ -685,6 +863,10 @@
           {
             "name": "bootstrap",
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
+          },
+          {
+            "name": "build-agents",
+            "description": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or imp…"
           },
           {
             "name": "cdn-caching",
@@ -704,7 +886,7 @@
           },
           {
             "name": "eve",
-            "description": "Build durable AI agents and agent-powered applications with the eve framework. Use when creating, editing, or debugging…"
+            "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
           },
           {
             "name": "knowledge-update",
@@ -779,6 +961,10 @@
             "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code ge…"
           },
           {
+            "name": "vercel-services",
+            "description": "Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a pol…"
+          },
+          {
             "name": "vercel-storage",
             "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
           },
@@ -788,7 +974,57 @@
           },
           {
             "name": "workflow",
-            "description": "Vercel Workflow DevKit (WDK) expert guidance. Use when building durable workflows, long-running tasks, API routes or ag…"
+            "description": "Vercel Workflow SDK expert guidance. Use when building durable workflows, long-running tasks, API routes or agents that…"
+          }
+        ]
+      }
+    },
+    "wix": {
+      "sha": "aaec99ac7acea93013b6a831feb58467051626a6",
+      "version": "1.16.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wix-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
+          },
+          {
+            "name": "wix-app",
+            "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
+          },
+          {
+            "name": "wix-auth",
+            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
+          },
+          {
+            "name": "wix-design-system",
+            "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
+          },
+          {
+            "name": "wix-docs",
+            "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
+          },
+          {
+            "name": "wix-docs-base44",
+            "description": "Look up Wix API/SDK documentation from inside the Base44 builder sandbox, where tool results are capped and a whole doc…"
+          },
+          {
+            "name": "wix-headless",
+            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+          },
+          {
+            "name": "wix-manage",
+            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+          },
+          {
+            "name": "wix-vibe-headless",
+            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
           }
         ]
       }
