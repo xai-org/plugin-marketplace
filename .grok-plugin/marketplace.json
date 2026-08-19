@@ -240,6 +240,20 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "memco-shared-memory",
+      "description": "Persistent shared memory for your team's AI agents. Agents search memco for proven solutions, design rationale, and gotchas before starting work, and persist what they learn afterwards — so when one agent works something out, every agent knows it. Sign in with your memco account on first connection; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/memcoai/marketplace.git",
+        "sha": "a7db3848658d19a87b6fefd60e6a5646c2e94ac0",
+        "path": "plugins/shared-memory"
+      },
+      "homepage": "https://spark.memco.ai",
+      "keywords": ["memco", "memco shared memory", "memco memory", "spark memory"],
+      "domains": ["memco.ai", "spark.memco.ai"]
     }
   ]
 }

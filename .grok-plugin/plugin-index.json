@@ -327,6 +327,39 @@
         ]
       }
     },
+    "memco-shared-memory": {
+      "sha": "a7db3848658d19a87b6fefd60e6a5646c2e94ac0",
+      "version": "1.0.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|resume"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "SubagentStart"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "memco-shared-memory",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shared-memory",
+            "description": "Use this skill whenever working on any task where the team may have relevant prior knowledge — coding, writing, researc…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
