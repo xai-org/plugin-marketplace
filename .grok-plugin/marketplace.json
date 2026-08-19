@@ -176,15 +176,14 @@
     {
       "name": "exa",
       "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to find the latest code docs, news, company information, and much more. Use the exa-search skill for deep research, and sign up for Exa to get free credits.",
-      "category": "development",
+      "homepage": "https://exa.ai",
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"],
       "source": {
         "source": "url",
         "url": "https://github.com/exa-labs/exa-grok-plugin.git",
         "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
-      },
-      "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai"],
-      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+      }
     },
     {
       "name": "tavily",
@@ -240,6 +239,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "hypertaks",
+      "description": "Founder Operating System for AI agents. Turns a request into a governed contract, specialist execution, verified evidence, and a founder-grade result with strict SOP (intake → formulation → implementation → integration → documentation). Provides five public skills: /hypertaks, /hypertaks-verify, /hypertaks-brain, /hypertaks-graph, /hypertaks-continuity.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aabrur/hypertaks-agent.git",
+        "sha": "24af4686a9fdb6f43ca781dcf63ca0ecee544c98"
+      },
+      "homepage": "https://github.com/aabrur/hypertaks-agent",
+      "keywords": ["hypertaks", "founder-os", "agent-operating-system", "crimson-rift"],
+      "author": "aabrur / Crimson Rift Studio"
     }
   ]
 }
