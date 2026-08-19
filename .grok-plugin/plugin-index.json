@@ -565,6 +565,7 @@
       }
     },
     "supabase": {
+      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
       "version": "0.1.15",
       "components": {
         "mcpServers": [
