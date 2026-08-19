@@ -1,6 +1,62 @@
 {
   "version": 1,
   "plugins": {
+    "accountsos": {
+      "sha": "94195174d8cae6d1675e0f947ae23fee73282a9d",
+      "version": "1.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "categorize",
+            "description": "Bulk review and categorize uncategorized transactions."
+          },
+          {
+            "name": "deadlines",
+            "description": "Overview of all filing deadlines with penalty warnings and countdown."
+          },
+          {
+            "name": "invoices",
+            "description": "Review outstanding and overdue invoices with chase suggestions."
+          },
+          {
+            "name": "log-expense",
+            "description": "Quick expense logging with automatic categorization."
+          },
+          {
+            "name": "vat-check",
+            "description": "Check quarterly VAT position, outstanding amounts, and filing readiness."
+          },
+          {
+            "name": "weekly-check",
+            "description": "Full weekly financial review — balance, transactions, deadlines, VAT position, invoices, and DLA."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "accountsos",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "expense-categories",
+            "description": "What UK businesses can and cannot claim as tax-deductible expenses. Auto-fires when the user asks about claiming expens…"
+          },
+          {
+            "name": "tax-deadlines",
+            "description": "UK filing dates, penalties, and compliance calendar for limited companies and sole traders. Auto-fires when the user as…"
+          },
+          {
+            "name": "uk-accounting",
+            "description": "Core UK limited company accounting knowledge. Auto-fires when the user discusses corporation tax, dividends, salary, di…"
+          },
+          {
+            "name": "vat-rules",
+            "description": "UK VAT registration, rates, schemes, and Making Tax Digital rules. Auto-fires when the user discusses VAT, registration…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
