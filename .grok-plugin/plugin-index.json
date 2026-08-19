@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "accountsos": {
-      "sha": "94195174d8cae6d1675e0f947ae23fee73282a9d",
+      "sha": "4a56a6cf7a31f0b46f804b324dbf4d68c2074e06",
       "version": "1.2.0",
       "components": {
         "commands": [

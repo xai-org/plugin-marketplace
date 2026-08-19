@@ -247,8 +247,8 @@
       "category": "finance",
       "source": {
         "source": "url",
-        "url": "https://github.com/thriveventurelabs/accountsos-cowork-plugin.git",
-        "sha": "94195174d8cae6d1675e0f947ae23fee73282a9d"
+        "url": "https://github.com/thriveventurelabs/accountsos-agent-plugin.git",
+        "sha": "4a56a6cf7a31f0b46f804b324dbf4d68c2074e06"
       },
       "homepage": "https://accounts-os.com",
       "keywords": ["accountsos", "accounts-os", "accountsos vat", "finn accountant"],
