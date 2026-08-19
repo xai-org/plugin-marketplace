@@ -240,6 +240,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "kanonik",
+      "description": "Governance runtime for compliance work. Draft policies, assess controls, run gap analysis and build verifiable audit evidence against ISO 27001:2022, SOC 2, GDPR, NIST CSF 2.0 and HIPAA. Every write passes a server-side Verifier and a human-approval gate, and lands in a tamper-evident record.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kanonik-LLC/kanonik-plugin.git",
+        "sha": "c3de7d43804a5cc933338c5b7db32a0ca5781ce2"
+      },
+      "homepage": "https://kanonik.ai",
+      "keywords": ["kanonik", "grc", "compliance", "iso 27001", "soc 2", "audit evidence"],
+      "domains": ["kanonik.ai"]
     }
   ]
 }
