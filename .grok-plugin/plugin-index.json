@@ -714,6 +714,17 @@
         ]
       }
     },
+    "upgrade-audit": {
+      "sha": "47f5b9a55ddd3255f38ee015fac3d88a0f2367b1",
+      "components": {
+        "skills": [
+          {
+            "name": "upgrade-audit",
+            "description": "Walk product repos on GitHub and run a model-upgrade logic audit when a new Grok generation ships. Confirms findings ad…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "11c32588786a9d49791372657433b88d49561874",
       "version": "0.48.0",
