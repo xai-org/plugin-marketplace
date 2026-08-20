@@ -266,7 +266,7 @@
       },
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo", "react native", "android development", "ios development", "deploy to app store", "deploy to play store", "verify in ios simulator", "verify in android emulator"],
-      "domains": ["expo.dev", "docs.expo.dev", "eas.expo.dev", "expo.io"]
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     }
   ]
 }
