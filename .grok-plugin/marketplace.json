@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "pi-security",
+      "description": "Official Pi Security integration (MCP Server + Skills). Investigate findings, review security posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pi-sloane/grok-plugin.git",
+        "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+        "path": "plugins/pi-security"
+      },
+      "homepage": "https://www.pi.security/",
+      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "domains": ["pi.security", "mcp.pi.security"]
     }
   ]
 }
