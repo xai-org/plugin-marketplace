@@ -432,6 +432,80 @@
         ]
       }
     },
+    "netlify": {
+      "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "netlify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "netlify-access-control",
+            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+          },
+          {
+            "name": "netlify-agent-runner",
+            "description": "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on th…"
+          },
+          {
+            "name": "netlify-ai-gateway",
+            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+          },
+          {
+            "name": "netlify-blobs",
+            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+          },
+          {
+            "name": "netlify-caching",
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
+          },
+          {
+            "name": "netlify-config",
+            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+          },
+          {
+            "name": "netlify-database",
+            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
+          },
+          {
+            "name": "netlify-deploy",
+            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+          },
+          {
+            "name": "netlify-edge-functions",
+            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
+          },
+          {
+            "name": "netlify-forms",
+            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
+          },
+          {
+            "name": "netlify-frameworks",
+            "description": "Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and…"
+          },
+          {
+            "name": "netlify-functions",
+            "description": "Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API…"
+          },
+          {
+            "name": "netlify-identity",
+            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+          },
+          {
+            "name": "netlify-image-cdn",
+            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
+          },
+          {
+            "name": "netlify-mcp-servers",
+            "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
       "version": "1.3.7",
