@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "stacktree",
+      "description": "Turn HTML an agent produces into a live page on a private, unguessable URL. Gate it with a passcode or a company email domain that viewers pass without creating an account, set an expiry or burn-after-read, and replace the page in place so the link you already shared keeps showing the current version. Publishing one 24-hour page needs no account at all.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stevysmith/stacktree-mcp.git",
+        "sha": "3b56cda36604d75697138bd3221653a28c775103"
+      },
+      "homepage": "https://stacktr.ee",
+      "keywords": ["stacktree", "stacktr.ee", "publish to stacktree"],
+      "domains": ["stacktr.ee"]
     }
   ]
 }

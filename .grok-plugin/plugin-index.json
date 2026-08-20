@@ -787,6 +787,24 @@
         ]
       }
     },
+    "stacktree": {
+      "sha": "3b56cda36604d75697138bd3221653a28c775103",
+      "version": "0.6.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "stacktree",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "stacktree-publish",
+            "description": "Share an HTML page privately with someone outside the chat: a client, a colleague, a stakeholder. Turns HTML you just g…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
       "version": "0.6.0",
