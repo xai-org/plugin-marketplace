@@ -206,8 +206,8 @@
       }
     },
     "expo": {
-      "sha": "b4473913cadf6222dec3fe7f60600012bfe926ac",
-      "version": "1.11.1",
+      "sha": "279872d51fd5b39230b942dd064514b0609def62",
+      "version": "1.11.2",
       "components": {
         "hooks": [
           {
