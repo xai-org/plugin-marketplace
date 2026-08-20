@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "60fps": {
+      "sha": "a15b1a6feccf7a504eaf220342987523093947b6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "library",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "motion-reference",
+            "description": "Build an iOS interaction by copying one that already shipped. Use when asked to design or implement any animation, tran…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
