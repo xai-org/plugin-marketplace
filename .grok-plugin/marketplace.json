@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "gabriel-operator",
+      "description": "Build Gabriel workflows, apps, agents, pipelines, lists, todos, assets, and digital twins.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Gabriel-Operator/gabriel-operator-coding-agent-plugin.git",
+        "sha": "5d34d056b1d1dedc491209a3d0c79d35b1d08797"
+      },
+      "homepage": "https://github.com/Gabriel-Operator/gabriel-operator-coding-agent-plugin",
+      "keywords": ["gabriel-operator", "gabriel operator", "gabriel workflow", "gabriel page-builder", "gabriel pipeline"],
+      "domains": ["gabrieloperator.com"]
     }
   ]
 }

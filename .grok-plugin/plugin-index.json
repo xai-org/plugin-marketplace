@@ -327,6 +327,34 @@
         ]
       }
     },
+    "gabriel-operator": {
+      "sha": "5d34d056b1d1dedc491209a3d0c79d35b1d08797",
+      "version": "1.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "application",
+            "description": "Build and maintain Gabriel Operator Applications — git-backed interactive web apps with an app-config.json definition,…"
+          },
+          {
+            "name": "asset-library",
+            "description": "Maintain a signed-in user's Git-backed generated asset library and Remotion movie manifests."
+          },
+          {
+            "name": "digital-twin-embed",
+            "description": "Maintain Git-backed Gabriel embed appearance via assets/embed-config.json."
+          },
+          {
+            "name": "page-builder",
+            "description": "Orchestrator skill for generating PageBuilderConfig JSON that powers Gabriel Operator's universal app renderer. Covers…"
+          },
+          {
+            "name": "todo-builder",
+            "description": "Build, validate, and maintain Git-backed Gabriel Operator personal To-Do workspaces by editing assets/todos.json. Use t…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
