@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "blitzreels",
+      "description": "Create and edit short-form videos with BlitzReels. Turn long-form media and supported social URLs, including X posts, into captioned clips; generate videos and carousels; edit timelines; preview results; and export finished assets through the hosted OAuth MCP server.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blitzreels/agent-skills.git",
+        "sha": "f07e9dd26fa3f8e882ef4ef55ae61ed7c5e5e47d"
+      },
+      "homepage": "https://blitzreels.com/agents",
+      "keywords": ["blitzreels", "blitz reels", "blitzreels video"],
+      "domains": ["blitzreels.com", "www.blitzreels.com"]
     }
   ]
 }
