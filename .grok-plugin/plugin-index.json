@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "adanos": {
+      "sha": "aec82dfb2aa064cdf4ab8a916f526debebb74787",
+      "components": {
+        "skills": [
+          {
+            "name": "adanos-market-sentiment",
+            "description": "Official Adanos Market Sentiment API skill. Use when users ask for stock or crypto sentiment, buzz, trending assets, ma…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
