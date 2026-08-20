@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "1e821f3087d6d52b06b918d39d57345e2e4f3cf8"
+        "sha": "11c32588786a9d49791372657433b88d49561874"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "40618d3da274da36b701fb3aacefed10831c0ea1"
+        "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "77e1d3f9616d5b32671da0b9ea094f4929c14a9c"
+        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -83,15 +83,30 @@
     },
     {
       "name": "mongodb",
-      "description": "Official plugin for MongoDB (MCP Server + Skills). Connect to databases, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "description": "Official plugin for MongoDB (Self-Managed MCP Server + Skills). Connect to any MongoDB deployment (Community, Enterprise Advanced, local dev container via Atlas CLI, or Atlas clusters) through a self-managed MongoDB MCP Server using your connection string. Explore data, manage collections, optimize queries, and generate reliable code with MongoDB best practices.",
       "category": "database",
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "9ea7387c7a1638604542c6efd52e5efc6a7fc393"
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb"
       },
-      "homepage": "https://www.mongodb.com/docs/mcp-server/overview/",
-      "keywords": ["mongodb", "mongo", "mongosh", "mongodb atlas", "mongoose"],
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "domains": ["mongodb.com"]
+    },
+    {
+      "name": "mongodb-atlas",
+      "description": "Official plugin for MongoDB Atlas (Managed MCP Server + Skills). Sign in with your Atlas account to explore data, manage collections, optimize queries, generate reliable code with MongoDB best practices, and manage Atlas resources such as clusters, projects, database users, and network access.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mongodb/agent-skills.git",
+        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "path": "plugins/mongodb-atlas"
+      },
+      "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
+      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
@@ -126,11 +141,24 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "dcf56d36ef44e68579ba8d3dad6600f55fa509f0"
+        "sha": "abff05613bf82101095a96b43b033150bfd8e145"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+    },
+    {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     },
     {
       "name": "firecrawl",
@@ -152,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990"
+        "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -205,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "4b7495aa701334e453555ce4afb0029b06df590b",
+        "sha": "e8f9aee6f9a34a633243e632e650401a76c36c41",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
