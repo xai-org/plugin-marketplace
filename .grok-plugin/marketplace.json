@@ -266,7 +266,7 @@
       },
       "homepage": "https://www.airwallex.com/docs",
       "keywords": ["airwallex", "airwallex billing", "airwallex payouts", "airwallex issuing", "airwallex mcp"],
-      "domains": ["airwallex.com", "www.airwallex.com", "demo.airwallex.com"]
+      "domains": ["airwallex.com", "www.airwallex.com", "sandbox.airwallex.com"]
     }
   ]
 }
