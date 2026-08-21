@@ -983,6 +983,23 @@
         ]
       }
     },
+    "whitepact": {
+      "version": "1.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "whitepact",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whitepact",
+            "description": "AI governance and trust layer for checking whether an AI agent's action or output is safe, fair, compliant, and account…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "abff05613bf82101095a96b43b033150bfd8e145",
       "version": "1.16.3",
