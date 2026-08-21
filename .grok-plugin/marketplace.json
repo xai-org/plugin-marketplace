@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "jueban-buddhist-companion",
+      "description": "Jueban Buddhist Companion integration for Grok Build. Search traceable Buddhist scripture, verify and explain passages, find source-backed passages relevant to a life situation, and create one-time read, listen, or view practices through Jueban's anonymous read-only MCP server.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/assetgrid-llc/jueban-buddhist-companion.git",
+        "sha": "da58831d749f00eadafe926b834afa4ebdb593f9"
+      },
+      "homepage": "https://jueban.online/",
+      "keywords": ["jueban", "jueban buddhist companion", "jueban scripture"],
+      "domains": ["jueban.online"]
     }
   ]
 }
