@@ -253,6 +253,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "meeting-mate",
+      "description": "Official Meeting Mate plugin (hosted MCP + skills). Search meeting recordings, pull transcripts and summaries, extract action items, and manage follow-up tasks from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/meeting-mate"
+      },
+      "homepage": "https://meetingmateapp.com",
+      "keywords": ["meeting mate", "meetingmate", "meeting mate recordings", "meetingmateapp"],
+      "domains": ["meetingmateapp.com", "www.meetingmateapp.com"]
     }
   ]
 }

@@ -327,6 +327,31 @@
         ]
       }
     },
+    "meeting-mate": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meeting-mate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "meeting-mate",
+            "description": "Official Meeting Mate overview for Grok Build. Use when the user mentions Meeting Mate, meetingmate, meetingmateapp, or…"
+          },
+          {
+            "name": "meeting-mate-recordings",
+            "description": "Search and read Meeting Mate recordings. Use when the user asks for Meeting Mate recordings, transcripts, summaries, ke…"
+          },
+          {
+            "name": "meeting-mate-tasks",
+            "description": "Manage Meeting Mate follow-up tasks. Use when the user wants to create, list, complete, or update tasks in Meeting Mate…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
