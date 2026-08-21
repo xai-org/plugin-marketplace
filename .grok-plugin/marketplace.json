@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "local-ydb-toolkit",
+      "description": "Plan, diagnose, and safely operate Docker-based local YDB deployments locally or over SSH. Includes the Local YDB skill and a pinned stdio MCP server; mutating tools are plan-first and execute only with confirm: true.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/astandrik/local-ydb-toolkit.git",
+        "sha": "82e334dd792cebbcdbc9fb91610614697746e41c"
+      },
+      "homepage": "https://local-ydb-toolkit.ydb-qdrant.tech/",
+      "keywords": ["ydb", "local ydb", "local-ydb", "local ydb toolkit"],
+      "domains": ["local-ydb-toolkit.ydb-qdrant.tech"]
     }
   ]
 }

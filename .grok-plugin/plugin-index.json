@@ -327,6 +327,24 @@
         ]
       }
     },
+    "local-ydb-toolkit": {
+      "sha": "82e334dd792cebbcdbc9fb91610614697746e41c",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "local-ydb",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "local-ydb",
+            "description": "Operate local-ydb deployments, especially Docker setups using ghcr.io/ydb-platform/local-ydb, CMS-created tenants, Grap…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
