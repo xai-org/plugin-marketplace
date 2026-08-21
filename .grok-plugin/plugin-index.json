@@ -530,6 +530,18 @@
         ]
       }
     },
+    "sentinel-feed": {
+      "sha": "c82df8748b7072017846d17a741d3fc018acaee8",
+      "version": "0.1.2",
+      "components": {
+        "skills": [
+          {
+            "name": "sentinel-feed",
+            "description": "Use when the user wants an AI-sector morning or weekly brief, a signal desk, or mentions SENTINEL or sentinel.dellight.…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
       "version": "1.3.2",
