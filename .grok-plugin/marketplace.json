@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "wave",
+      "description": "Wave AI notetaker integration (hosted MCP server + skill). Search and synthesize your Wave meetings, phone calls, and recordings — semantic search across transcripts and summaries, meeting prep, weekly digests, verbatim speaker-labeled quotes, and action-item management. Sign in with your Wave account via OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mohrer-associates/wave-grok-plugin.git",
+        "sha": "c120cad198523434e097c8abc2d2e72151cdb94c"
+      },
+      "homepage": "https://wave.co",
+      "keywords": ["wave ai", "wave notes", "wave meeting notes", "wave recordings", "wave transcript"],
+      "domains": ["wave.co", "app.wave.co", "mcp.wave.co"]
     }
   ]
 }
