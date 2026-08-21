@@ -261,12 +261,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/martialsystems/upgrade-audit.git",
-        "sha": "47f5b9a55ddd3255f38ee015fac3d88a0f2367b1"
+        "sha": "7b4486773f9141ec8e91a35e45ce3408b2b187cd"
       },
       "homepage": "https://martialgames.net/tools/upgrade-audit/",
       "keywords": ["upgrade-audit", "martial systems", "martialsystems"],
       "domains": ["martialgames.net", "martialsys.net"],
-      "version": "1.1.0",
+      "version": "1.2.0",
       "author": {"name": "Martial Systems LLC", "email": "martialsys@gmail.com"},
       "tags": ["upgrade-audit", "martial-systems"]
     }
