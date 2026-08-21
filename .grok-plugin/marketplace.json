@@ -266,7 +266,7 @@
       },
       "homepage": "https://www.airwallex.com/docs",
       "keywords": ["airwallex", "airwallex checkout", "airwallex drop-in", "airwallex hosted payment page", "airwallex kyc"],
-      "domains": ["airwallex.com", "www.airwallex.com", "checkout.airwallex.com"]
+      "domains": ["airwallex.com", "www.airwallex.com", "sandbox.airwallex.com"]
     }
   ]
 }
