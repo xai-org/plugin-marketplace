@@ -71,6 +71,40 @@
         ]
       }
     },
+    "blitzreels": {
+      "sha": "f07e9dd26fa3f8e882ef4ef55ae61ed7c5e5e47d",
+      "version": "2.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blitzreels",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "blitzreels-carousels",
+            "description": "Create still-slide carousels with BlitzReels. Use for multi-image posts, photo mode, or swipe decks."
+          },
+          {
+            "name": "blitzreels-clipping",
+            "description": "Create, select, reframe, repair, caption, or export short clips from long-form media, including supported YouTube, Inst…"
+          },
+          {
+            "name": "blitzreels-editing",
+            "description": "Edit BlitzReels projects through CLI or REST. Use for timeline, caption, media, preview, or export changes."
+          },
+          {
+            "name": "blitzreels-generation",
+            "description": "Generate AI media with BlitzReels. Use for faceless videos, images, clips, voiceovers, music, SFX, or authored briefs."
+          },
+          {
+            "name": "blitzreels-x-video",
+            "description": "Turn an X or Twitter post, native X video, thread, conversation, or current trend into short-form video with BlitzReels…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
       "version": "1.7.0",
