@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "athena-whiteboard": {
+      "sha": "f048a7688a01c196d5212b8f0cc7272384348a14",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grok-whiteboard",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
