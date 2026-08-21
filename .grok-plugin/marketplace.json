@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "renoolab",
+      "description": "RenooLab combines 10 French renovation and construction Agent Skills with a hosted MCP server. Scope projects, find and compare local tradespeople in France, and send contact or professional-profile requests only after explicit user confirmation.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mehdimicra/renoolab-agent-skills.git",
+        "sha": "ddb384bb7e074d574c0da3188826bc0cfb38b62a"
+      },
+      "homepage": "https://renoolab.fr/mcp/",
+      "keywords": ["renoolab", "renoolab artisan", "renoolab renovation", "renoolab france"],
+      "domains": ["renoolab.fr", "mcp.renoolab.fr"]
     }
   ]
 }
