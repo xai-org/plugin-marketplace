@@ -576,6 +576,24 @@
         ]
       }
     },
+    "streeq": {
+      "sha": "5b45511cfc24dfcd5c115856885b90a3e7eb12ca",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "streeq",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "streeq",
+            "description": "Use STREEQ tools after the user is signed in. Review workouts, meals, and self-managed plans. Do not invent fitness dat…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "453dacd48aac27d751aa3cb7e410256efb3fcfca",
       "version": "0.5.4",
@@ -784,6 +802,24 @@
           {
             "name": "tinyfish-web",
             "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+          }
+        ]
+      }
+    },
+    "trainedby": {
+      "sha": "5b45511cfc24dfcd5c115856885b90a3e7eb12ca",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trainedby",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "trainedby",
+            "description": "Use TRAINEDBY coaching tools after the user is signed in. Review roster, client evidence, and coach-controlled drafts.…"
           }
         ]
       }
