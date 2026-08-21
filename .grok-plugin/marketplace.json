@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/malakhov-dmitrii/grok-ultracode.git",
-        "sha": "dabf241db8f9d2a493d902d10766a0ca9418ced7"
+        "sha": "c07b9c8eeaf8e157edb99672d34e994617a13be7"
       },
       "homepage": "https://github.com/malakhov-dmitrii/grok-ultracode",
       "keywords": ["grok-ultracode", "ultracode grok", "effort ultracode"]
