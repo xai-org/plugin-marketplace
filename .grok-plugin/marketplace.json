@@ -253,6 +253,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "grok-ultracode",
+      "description": "Standing Claude-style ultracode for Grok Build CLI. On every substantive task, author and launch a deterministic workflow instead of orchestrating turn by turn.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/malakhov-dmitrii/grok-ultracode.git",
+        "sha": "c07b9c8eeaf8e157edb99672d34e994617a13be7"
+      },
+      "homepage": "https://github.com/malakhov-dmitrii/grok-ultracode",
+      "keywords": ["grok-ultracode", "ultracode grok", "effort ultracode"]
     }
   ]
 }
