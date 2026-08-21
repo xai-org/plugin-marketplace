@@ -253,6 +253,22 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "upgrade-audit",
+      "description": "Martial Systems Upgrade Audit. Inventory your GitHub repos, review shipped logic when a new Grok generation ships, write a PDF, then audit, fix, or open a PR. You choose audit, fix, or pr, and whether stalled child agents are killed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/martialsystems/upgrade-audit.git",
+        "sha": "7b4486773f9141ec8e91a35e45ce3408b2b187cd"
+      },
+      "homepage": "https://martialgames.net/tools/upgrade-audit/",
+      "keywords": ["upgrade-audit", "martial systems", "martialsystems"],
+      "domains": ["martialgames.net", "martialsys.net"],
+      "version": "1.2.0",
+      "author": {"name": "Martial Systems LLC", "email": "martialsys@gmail.com"},
+      "tags": ["upgrade-audit", "martial-systems"]
     }
   ]
 }
