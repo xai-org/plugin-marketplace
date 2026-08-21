@@ -327,6 +327,18 @@
         ]
       }
     },
+    "grok-ultracode": {
+      "sha": "dabf241db8f9d2a493d902d10766a0ca9418ced7",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ultracode",
+            "description": "Standing Claude-style ultracode for Grok Build CLI. On every substantive task, author a deterministic workflow and laun…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
