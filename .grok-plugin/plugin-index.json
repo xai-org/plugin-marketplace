@@ -71,6 +71,28 @@
         ]
       }
     },
+    "cavuno": {
+      "sha": "4a5e54e787b76ca1000d68b819eedd96d516944b",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cavuno",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "manage-job-board",
+            "description": "Operate a Cavuno job board via MCP — list, create, update, publish, pause, and expire jobs; manage companies. Use when…"
+          },
+          {
+            "name": "publish-blog",
+            "description": "Draft, update, and publish Cavuno job board blog posts (and manage authors/tags) via MCP. Use when the user wants conte…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
       "version": "1.7.0",
