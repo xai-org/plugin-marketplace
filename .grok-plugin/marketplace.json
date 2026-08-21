@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "wordpress-com",
+      "description": "Official WordPress.com integration for Grok Build. Connect with OAuth to manage WordPress.com sites and create native, editable WordPress block content through the WordPress.com MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Automattic/grok-wpcom-plugin.git",
+        "sha": "7ed1f234bdd953b5a1b9313b15236d4d19021403"
+      },
+      "homepage": "https://wordpress.com",
+      "keywords": ["wordpress.com", "wordpress.com mcp", "wordpress.com site"],
+      "domains": ["wordpress.com", "public-api.wordpress.com"]
     }
   ]
 }
