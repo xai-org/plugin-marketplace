@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "markifact",
+      "description": "Markifact marketing integration. Audit ad spend, launch campaigns, rotate creative, and pull reporting across Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, GA4, Shopify, HubSpot, and 20+ more platforms. 1000+ operations with human-in-the-loop approval on every write.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/markifact/markifact-mcp.git",
+        "sha": "838239fe594257d8ce9bdb842293984133f6c20e"
+      },
+      "homepage": "https://www.markifact.com",
+      "keywords": ["markifact", "markifact mcp", "markifact marketing"],
+      "domains": ["markifact.com"]
     }
   ]
 }
