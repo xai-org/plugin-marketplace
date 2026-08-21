@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "flueny",
+      "description": "Measures how you work with Grok and shows it to you first. Derived signal only: prompts, code, and file contents never leave the machine.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FluenyAI/app-plugin-grok.git",
+        "sha": "5c5c032fb296ddc13d76de42a9d2ee48db403c82"
+      },
+      "homepage": "https://flueny.ai",
+      "keywords": ["flueny", "flueny coding", "coding fluency"],
+      "domains": ["flueny.ai"]
     }
   ]
 }
