@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "starrykit",
+      "description": "Create polished, editable presentations, posters, social graphics, infographics, diagrams, and visual documents with StarryKit. Start from a prompt, image, website, or design reference, refine every element, and export to PowerPoint, PDF, Google Slides, SVG, PNG, JPEG, or HTML.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/StarryKit/starrykit-plugin.git",
+        "sha": "f2682753fe7e8fdba17c6010c9c670b941524ce3"
+      },
+      "homepage": "https://starrykit.com",
+      "keywords": ["starrykit", "starrykit design", "starrykit presentation", "starrykit visual documents"],
+      "domains": ["starrykit.com", "mcp.starrykit.com"]
     }
   ]
 }
