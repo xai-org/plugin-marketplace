@@ -181,6 +181,28 @@
         ]
       }
     },
+    "converly": {
+      "sha": "15b8485d3b0a94f6af38d19e371c83906fa5adf8",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "converly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "diagnose-missing-conversions",
+            "description": "Find out why Converly conversions aren't showing up. Use when the user says tracking isn't working, conversions are mis…"
+          },
+          {
+            "name": "setup-conversion-tracking",
+            "description": "Set up Converly conversion tracking end to end. Use when the user wants to track form submissions as conversions, send…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
