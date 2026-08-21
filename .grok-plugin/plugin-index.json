@@ -71,6 +71,18 @@
         ]
       }
     },
+    "blinq": {
+      "sha": "9e10344a20ddda8b2b3ba2c482876a1ae36b5e44",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blinq",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
       "version": "1.7.0",
