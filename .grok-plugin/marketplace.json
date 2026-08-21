@@ -253,6 +253,20 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "airwallex-dev",
+      "description": "Airwallex payments integration skills for Grok Build (MCP server + skills). Generates working integration code for Airwallex Hosted Payment Page, the Drop-in Element, Split Card Element, Billing Hosted Checkout, and connected-account KYC onboarding, plus an implementation plan for card-on-file merchant-initiated transactions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "sha": "c6cabe472aa2b3cda1b3d1a56e778637f50f9467",
+        "path": "plugins/airwallex-dev"
+      },
+      "homepage": "https://www.airwallex.com/docs",
+      "keywords": ["airwallex", "airwallex checkout", "airwallex drop-in", "airwallex hosted payment page", "airwallex kyc"],
+      "domains": ["airwallex.com", "www.airwallex.com", "checkout.airwallex.com"]
     }
   ]
 }
