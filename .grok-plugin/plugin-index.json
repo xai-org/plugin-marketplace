@@ -206,8 +206,8 @@
       }
     },
     "figma": {
-      "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4",
-      "version": "2.2.95",
+      "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
+      "version": "2.2.96",
       "components": {
         "mcpServers": [
           {
@@ -432,6 +432,80 @@
         ]
       }
     },
+    "netlify": {
+      "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "netlify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "netlify-access-control",
+            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+          },
+          {
+            "name": "netlify-agent-runner",
+            "description": "Run AI agent tasks remotely on Netlify using Claude, Codex, or Gemini. Use when the user wants to run an AI agent on th…"
+          },
+          {
+            "name": "netlify-ai-gateway",
+            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+          },
+          {
+            "name": "netlify-blobs",
+            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+          },
+          {
+            "name": "netlify-caching",
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
+          },
+          {
+            "name": "netlify-config",
+            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+          },
+          {
+            "name": "netlify-database",
+            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
+          },
+          {
+            "name": "netlify-deploy",
+            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+          },
+          {
+            "name": "netlify-edge-functions",
+            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
+          },
+          {
+            "name": "netlify-forms",
+            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
+          },
+          {
+            "name": "netlify-frameworks",
+            "description": "Deploy and configure web frameworks on Netlify — build settings and SSR/edge adapters plus local platform emulation and…"
+          },
+          {
+            "name": "netlify-functions",
+            "description": "Write, configure, and deploy Netlify serverless functions in TypeScript, JavaScript, or Go. Use this when adding an API…"
+          },
+          {
+            "name": "netlify-identity",
+            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+          },
+          {
+            "name": "netlify-image-cdn",
+            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
+          },
+          {
+            "name": "netlify-mcp-servers",
+            "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
       "version": "1.3.7",
@@ -503,8 +577,8 @@
       }
     },
     "stripe": {
-      "sha": "96cfe6bf30e661f674950cd8dbd47beaeadc5b6e",
-      "version": "0.5.2",
+      "sha": "e8f9aee6f9a34a633243e632e650401a76c36c41",
+      "version": "0.5.3",
       "components": {
         "agents": [
           {
@@ -917,8 +991,8 @@
       }
     },
     "wix": {
-      "sha": "aaec99ac7acea93013b6a831feb58467051626a6",
-      "version": "1.16.1",
+      "sha": "abff05613bf82101095a96b43b033150bfd8e145",
+      "version": "1.16.3",
       "components": {
         "mcpServers": [
           {
@@ -940,16 +1014,16 @@
             "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
           },
           {
+            "name": "wix-base44-connector",
+            "description": "Build on Wix from the Base44 builder sandbox — this file is the complete guide (site context, doc discovery, API contra…"
+          },
+          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
           {
             "name": "wix-docs",
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
-          },
-          {
-            "name": "wix-docs-base44",
-            "description": "Look up Wix API/SDK documentation from inside the Base44 builder sandbox, where tool results are capped and a whole doc…"
           },
           {
             "name": "wix-headless",

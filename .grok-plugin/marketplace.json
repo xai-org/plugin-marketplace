@@ -141,11 +141,24 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "aaec99ac7acea93013b6a831feb58467051626a6"
+        "sha": "abff05613bf82101095a96b43b033150bfd8e145"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+    },
+    {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     },
     {
       "name": "firecrawl",
@@ -167,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4"
+        "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -220,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "96cfe6bf30e661f674950cd8dbd47beaeadc5b6e",
+        "sha": "e8f9aee6f9a34a633243e632e650401a76c36c41",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
