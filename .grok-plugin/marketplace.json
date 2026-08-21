@@ -253,6 +253,20 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "pi-security",
+      "description": "Official Pi Security integration (MCP Server + Skills). Investigate findings, review security posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pi-sloane/grok-plugin.git",
+        "sha": "bbf2e4ea308fa66726104f01618cb0ae17a15648",
+        "path": "plugins/pi-security"
+      },
+      "homepage": "https://www.pi.security/",
+      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "domains": ["pi.security", "mcp.pi.security"]
     }
   ]
 }
