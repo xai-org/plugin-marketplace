@@ -253,6 +253,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "csi",
+      "description": "Let the agent drive your real Chrome browser — navigate, click, type, read pages, screenshot, save PDF — through the local CSI daemon using your real login sessions; includes csi-e2e, which turns natural-language browser scenarios into replayable e2e regression suites.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ximing/csi.git",
+        "sha": "42799971e18f4efcc1c28577a6c793a68192c26f"
+      },
+      "homepage": "https://github.com/ximing/csi",
+      "keywords": ["csi", "csi browser", "csi daemon", "csi e2e"]
     }
   ]
 }
