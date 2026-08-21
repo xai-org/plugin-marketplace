@@ -327,6 +327,30 @@
         ]
       }
     },
+    "korean-prose-editor": {
+      "sha": "edef98c52b80133e3d704a84c9e4a99102d786df",
+      "version": "1.0.1",
+      "components": {
+        "agents": [
+          {
+            "name": "copyedit",
+            "description": "한국어 산문을 문장 단위로 윤문한다. 주장·수치·인용·문서 구조는 유지한다. /copyedit, Korean copyedit, translationese."
+          }
+        ],
+        "commands": [
+          {
+            "name": "copyedit",
+            "description": "한국어 산문 파일을 문장 단위로 준비·검토·재조립하는 korean-prose-editor 워크플로."
+          }
+        ],
+        "skills": [
+          {
+            "name": "korean-prose-editor",
+            "description": "한국어 산문의 뜻과 근거를 유지하며 맞춤법, 번역 흔적, 상투 표현, 문장 밀도, 종결문체, 문단 흐름을 점검하고 윤문한다. /copyedit, 글 다듬기, 교정, 교열, 윤문, Korean copyedit, pr…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
