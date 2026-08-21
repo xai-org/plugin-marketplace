@@ -253,6 +253,18 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "logospell",
+      "description": "AI image generation for your agent (MCP server). One call returns a cohesive image set, a transparent-background set, or a single illustration, ready to drop into what you're building.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/logospell"
+      },
+      "homepage": "https://logospell.com",
+      "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
+      "domains": ["logospell.com", "mcp.logospell.com"]
     }
   ]
 }
