@@ -327,6 +327,24 @@
         ]
       }
     },
+    "jueban-buddhist-companion": {
+      "sha": "6f5e9d8df66e744d092a99220faca4a6767c34f3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jueban",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "jueban-buddhist-companion",
+            "description": "Use Jueban's traceable Buddhist canon and one-time practice tools whenever a user asks to find or source scripture, exp…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
