@@ -253,6 +253,19 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "mobbin",
+      "description": "Search real-world UI & UX design references for mobile apps, web apps, and websites with Mobbin, directly from Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mobbin/mobbin-mcp-server.git",
+        "sha": "d24b602b051fbae7e030e88a78fe099ee69c6741"
+      },
+      "homepage": "https://docs.mobbin.com/mcp",
+      "keywords": ["mobbin", "mobbin design", "mobbin ui", "mobbin ux", "mobbin references"],
+      "domains": ["mobbin.com", "docs.mobbin.com"]
     }
   ]
 }
