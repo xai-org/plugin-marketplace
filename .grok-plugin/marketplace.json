@@ -253,6 +253,20 @@
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "expo",
+      "description": "Official Expo plugin. Everything your agent needs to build, verify, deploy, and monitor an app on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "279872d51fd5b39230b942dd064514b0609def62",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo", "react native", "android development", "ios development", "deploy to app store", "deploy to play store", "verify in ios simulator", "verify in android emulator"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     }
   ]
 }
