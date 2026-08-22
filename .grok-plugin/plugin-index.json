@@ -506,6 +506,75 @@
         ]
       }
     },
+    "oh-my-grok-build": {
+      "sha": "017463494068a3596aa15a470864fee57a42ed9e",
+      "components": {
+        "agents": [
+          {
+            "name": "AGENTS",
+            "description": "<!-- Parent: ../AGENTS.md -->"
+          },
+          {
+            "name": "architect",
+            "description": "Reviews implementation plans and designs for architectural soundness, compatibility, maintainability, operational risk,…"
+          },
+          {
+            "name": "critic",
+            "description": "Enforces plan completeness, internal consistency, fair alternatives, testable acceptance criteria, verification feasibi…"
+          },
+          {
+            "name": "executor",
+            "description": "Implements one bounded engineering task in an isolated worktree, preserves unrelated changes, and reports fresh validat…"
+          },
+          {
+            "name": "explorer",
+            "description": "Performs read-only codebase investigation and returns concise evidence with file paths, symbols, commands, and uncertai…"
+          },
+          {
+            "name": "planner",
+            "description": "Creates evidence-backed implementation plans with explicit scope, alternatives, dependency waves, acceptance criteria,…"
+          },
+          {
+            "name": "verifier",
+            "description": "Independently verifies final changes against acceptance criteria by inspecting the diff and reproducing high-signal che…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ogb-doctor",
+            "description": "Diagnose oh-my-grok-build installation, skill and agent discovery, Grok native capability availability, git worktree re…"
+          },
+          {
+            "name": "ogb-graph",
+            "description": "Compile a large or mixed-dependency task into a DAG, then execute ready nodes with Grok subagents, layered fan-in, targ…"
+          },
+          {
+            "name": "ogb-interview",
+            "description": "Interview the user one question at a time until a vague idea becomes a decision-ready direction brief. Use when the req…"
+          },
+          {
+            "name": "ogb-plan",
+            "description": "Build a Grok-native consensus implementation plan before code changes. Use when the user asks for planning, architectur…"
+          },
+          {
+            "name": "ogb-start",
+            "description": "Execute an approved Grok Build plan with dependency-aware subagents, isolated worktrees, integration checks, and final…"
+          },
+          {
+            "name": "ogb-ultrawork",
+            "description": "Run multiple independent engineering tasks in parallel with max-safe concurrency scoring, role lenses, and bounded Grok…"
+          },
+          {
+            "name": "ogb-verify",
+            "description": "Verify a feature, fix, refactor, or plan result with fresh tests, builds, direct evidence, an independent verifier, and…"
+          },
+          {
+            "name": "ogb-workflow",
+            "description": "Design, create, and smoke-validate a reusable native Grok Build Rhai workflow for bounded fan-out or staged verificatio…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "46125561306434d8a1d7745d540d8932ab0cd2a2",
       "components": {
