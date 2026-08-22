@@ -266,6 +266,18 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "wingify",
+      "description": "Wingify helps teams analyze experimentation performance, review behavior insights, and manage testing campaigns directly from Grok. Create and manage A/B and split URL campaigns, feature flags and rules, calculate sample sizes, and fetch campaign reports and FME metrics.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/wingify"
+      },
+      "homepage": "https://vwo.com/ai",
+      "keywords": ["wingify", "wingify mcp", "vwo", "vwo mcp", "feature management and experimentation"],
+      "domains": ["wingify.com", "vwo.com", "mcp.wingify.ai", "developers.vwo.com"]
     }
   ]
 }
