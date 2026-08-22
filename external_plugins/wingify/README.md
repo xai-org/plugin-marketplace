@@ -8,8 +8,8 @@ reports and Feature Management & Experimentation (FME) metrics — all with natu
 queries, no manual exporting or copy/pasting required.
 
 - MCP server: `https://mcp.wingify.ai/mcp` (OAuth)
-- API docs: https://developers.vwo.com/v2/docs/fme-mcp-server
-- Setup guide: https://help.wingify.com/hc/en-us/articles/58792565345305-Connect-Wingify-with-AI-Tools-using-Wingify-s-MCP-Server
+- Homepage: https://vwo.com/ai
+- API docs: https://help.wingify.com/hc/en-us/articles/58792565345305-Connect-Wingify-with-AI-Tools-using-Wingify-s-MCP-Server
 
 ## Network endpoints
 

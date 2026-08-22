@@ -275,7 +275,7 @@
         "type": "local",
         "path": "./external_plugins/wingify"
       },
-      "homepage": "https://developers.vwo.com/v2/docs/fme-mcp-server",
+      "homepage": "https://vwo.com/ai",
       "keywords": ["wingify", "wingify mcp", "vwo", "vwo mcp", "feature management and experimentation"],
       "domains": ["wingify.com", "vwo.com", "mcp.wingify.ai", "developers.vwo.com"]
     }
