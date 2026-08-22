@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "agentplaybooks": {
+      "sha": "9c0aff06748556e60e9b2bfdc7585207374c3e0e",
+      "version": "0.3.0-beta.0",
+      "components": {
+        "commands": [
+          {
+            "name": "connect",
+            "description": "Connect this project to a hosted playbook's MCP endpoint — plan first, apply on approval"
+          },
+          {
+            "name": "doctor",
+            "description": "Audit agent configuration health (instructions, skills, MCP, secrets, drift)"
+          },
+          {
+            "name": "pull",
+            "description": "Pull a remote playbook's skills from agentplaybooks.ai into this project"
+          },
+          {
+            "name": "push",
+            "description": "Push local skills and the playbook manifest to agentplaybooks.ai"
+          },
+          {
+            "name": "sync",
+            "description": "Sync the playbook manifest and platform files across agent tools — plan first, apply on approval"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentplaybooks",
+            "description": "Audit, synchronize, and share portable agent configuration (instructions, Agent Skills, MCP servers) with the AgentPlay…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
