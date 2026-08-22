@@ -1,6 +1,43 @@
 {
   "version": 1,
   "plugins": {
+    "agentled": {
+      "sha": "0fd2c8a34a650adffe55508e82e69a64a6f920b4",
+      "version": "0.19.3",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Bash|apply_patch|Edit|Write"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "agentled",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentled",
+            "description": "Build, manage, and execute Agentled AI workflows via MCP tools. Use when the user asks to create workflows, automate ta…"
+          },
+          {
+            "name": "linkedin-assistant",
+            "description": "Use when tracking LinkedIn activity, connection quotas, replies, meetings, follow-ups, or approval-ready LinkedIn actio…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

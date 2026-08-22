@@ -266,6 +266,20 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "agentled",
+      "description": "Build, validate, and operate AgentLed workflows from Grok Build with the AgentLed MCP server and workflow-authoring skills. Authenticate with your own AgentLed CLI profile, then begin with read-only discovery.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Agentled/mcp-server.git",
+        "sha": "0fd2c8a34a650adffe55508e82e69a64a6f920b4",
+        "path": "plugins/agentled"
+      },
+      "homepage": "https://www.agentled.ai/en/developers",
+      "keywords": ["agentled", "agentled workflows", "agentled mcp"],
+      "domains": ["agentled.ai", "agentled.app"]
     }
   ]
 }
