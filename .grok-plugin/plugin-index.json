@@ -327,6 +327,22 @@
         ]
       }
     },
+    "java": {
+      "sha": "4dbc71cf58e17842b8e8725faa25b83d124afaab",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "helidon-best-practices",
+            "description": "Get best practices for developing high-quality applications with Helidon 4 (SE and MP). Use when working with Helidon S…"
+          },
+          {
+            "name": "springboot-best-practices",
+            "description": "Get best practices for developing high-quality Spring Boot applications. Use when working with Spring Boot, @RestContro…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
