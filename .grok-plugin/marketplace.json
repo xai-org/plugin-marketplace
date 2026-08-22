@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196"
+        "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": [
@@ -83,7 +83,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": [
@@ -178,11 +178,24 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd"
+        "sha": "abff05613bf82101095a96b43b033150bfd8e145"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+    },
+    {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     },
     {
       "name": "firecrawl",
@@ -210,7 +223,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990"
+        "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": [
@@ -293,7 +306,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
+        "sha": "453dacd48aac27d751aa3cb7e410256efb3fcfca",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -321,26 +334,30 @@
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
-      "keywords": [
-        "tinyfish",
-        "tinyfish agent",
-        "tinyfish web agent",
-        "agentql"
-      ],
-      "domains": [
-        "tinyfish.ai",
-        "agent.tinyfish.ai",
-        "docs.tinyfish.ai"
-      ]
+      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
+      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "pstack",
+      "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cursor/plugins.git",
+        "sha": "46125561306434d8a1d7745d540d8932ab0cd2a2",
+        "path": "pstack"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "keywords": ["pstack", "poteto-mode", "poteto"]
     },
     {
       "name": "oh-my-grok-build",
-      "description": "Consensus planning, bounded parallel execution, and evidence-based verification for Grok Build. Adds /ogb-interview, /ogb-plan, /ogb-start, /ogb-ultrawork, /ogb-verify, /ogb-workflow, and /ogb-doctor on top of native plan mode, subagents, worktrees, and workflows. Content-only: no hooks, MCP servers, binaries, or runtime dependencies.",
+      "description": "Consensus planning, bounded parallel execution, DAG orchestration, and evidence-based verification for Grok Build. Adds /ogb-interview, /ogb-plan, /ogb-start, /ogb-ultrawork, /ogb-graph, /ogb-verify, /ogb-workflow, and /ogb-doctor on top of native plan mode, subagents, worktrees, and workflows. Content-only: no hooks, MCP servers, binaries, or runtime dependencies.",
       "category": "workflows",
       "source": {
         "source": "url",
         "url": "https://github.com/duarbdhks/oh-my-grok-build.git",
-        "sha": "4967ef1f159a6cabeefcf8eb953a16a59d3947bc",
+        "sha": "017463494068a3596aa15a470864fee57a42ed9e",
         "path": "plugins/oh-my-grok-build"
       },
       "homepage": "https://github.com/duarbdhks/oh-my-grok-build",
@@ -352,9 +369,11 @@
         "ogb-verify",
         "ogb-interview",
         "ogb-ultrawork",
+        "ogb-graph",
         "ogb-doctor",
         "ogb-workflow"
       ]
+
     }
   ]
 }
