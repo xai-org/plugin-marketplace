@@ -266,6 +266,20 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "agentplaybooks",
+      "description": "Audit and sync portable agent playbooks: skills, MCP configs, and instructions across Claude Code, Cursor, Codex, and Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matebenyovszky/agentplaybooks.git",
+        "sha": "9c0aff06748556e60e9b2bfdc7585207374c3e0e",
+        "path": "packages/cli"
+      },
+      "homepage": "https://agentplaybooks.ai",
+      "keywords": ["agentplaybooks", "agent playbooks"],
+      "domains": ["agentplaybooks.ai", "apbks.com"]
     }
   ]
 }
