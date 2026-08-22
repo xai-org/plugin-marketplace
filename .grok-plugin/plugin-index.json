@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "9bot": {
+      "sha": "fd2ea130525274ef29bcbfe69c81a8f2989ba23a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "9bot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whatsapp-community-management"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
