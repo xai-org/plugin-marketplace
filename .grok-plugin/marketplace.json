@@ -266,6 +266,19 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "voice-logica",
+      "description": "Manage Voice Logica AI voice agents, phones, calls, workflows, integrations, SMS, and support tickets. Users connect with OAuth to the hosted Voice Logica MCP.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voicelogica/voice-logica-plugin.git",
+        "sha": "930a711fe296b7e0f3b12870ddada15a8df0b0d2"
+      },
+      "homepage": "https://voicelogica.ai",
+      "keywords": ["voice logica", "voice agents", "voip", "mcp"],
+      "domains": ["voicelogica.ai", "app.voicelogica.ai", "api.voicelogica.ai"]
     }
   ]
 }

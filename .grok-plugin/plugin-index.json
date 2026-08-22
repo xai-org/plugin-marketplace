@@ -1176,6 +1176,88 @@
         ]
       }
     },
+    "voice-logica": {
+      "sha": "930a711fe296b7e0f3b12870ddada15a8df0b0d2",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voice-logica",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-support-ticket",
+            "description": "Create a Voice Logica support ticket in the Voice Logica app when the user has a problem they cannot fix, needs human f…"
+          },
+          {
+            "name": "edit-voice-agents",
+            "description": "Create and edit Voice Logica agent settings, prompts, knowledge files, transfers, and editor tabs. Use when the user wa…"
+          },
+          {
+            "name": "fix-agent-behavior",
+            "description": "Fix Voice Logica agent behavior on live calls: off-topic callers, too many questions, re-asks, wrong language, abrupt h…"
+          },
+          {
+            "name": "manage-calendar-google-microsoft",
+            "description": "Connect Google or Microsoft calendar, contacts, and Google Chat, and configure Voice Logica appointment settings. Use w…"
+          },
+          {
+            "name": "manage-calls-campaigns",
+            "description": "Review Voice Logica calls, start outbound or bulk campaigns, and run agent test scenarios. Use when the user wants call…"
+          },
+          {
+            "name": "manage-company-billing",
+            "description": "List Voice Logica companies, users, plans, add-ons, payment method, and subscription, and update operating hours. Use w…"
+          },
+          {
+            "name": "manage-crm",
+            "description": "Connect and configure HubSpot, Zoho, or Salesforce on a Voice Logica agent. Use when the user wants CRM contact lookup,…"
+          },
+          {
+            "name": "manage-ecommerce",
+            "description": "Connect WooCommerce, Shopify, OpenCart, Magento, PrestaShop, Megasoft, or a custom shop API and configure the shop / es…"
+          },
+          {
+            "name": "manage-erp",
+            "description": "Connect Soft1, Galaxy Drugstore, Galaxy ERP, Pylon, or Entersoft, and route private HTTP ERPs through SSH tunnels. Use…"
+          },
+          {
+            "name": "manage-helpdesk-ops",
+            "description": "Connect Freshdesk, Zendesk, Jira, ClickUp, Trello, Airtable, Guesty, Hosthub, WebHotelier, couriers, Viva, or Yuboto, a…"
+          },
+          {
+            "name": "manage-integrations",
+            "description": "Connect Voice Logica integrations, enable the matching agent tool, and test with a Call ID. Use when the user wants Hub…"
+          },
+          {
+            "name": "manage-phones",
+            "description": "List, register, and assign Voice Logica VoIP phones and numbers to AI agents, including SIP, extensions, inbound DIDs,…"
+          },
+          {
+            "name": "manage-sms",
+            "description": "Send SMS or Viber, manage sender IDs, and configure the send_sms agent tool. Use when the user wants texts from an agen…"
+          },
+          {
+            "name": "manage-voice-agents",
+            "description": "Route Voice Logica work to the right specialist skill after confirming MCP is connected and listing agents. Use when th…"
+          },
+          {
+            "name": "manage-workflows",
+            "description": "Create, edit, test, version, and run Voice Logica workflows, including triggers, nodes, switch cases, and agent workflo…"
+          },
+          {
+            "name": "troubleshoot-voice-agents",
+            "description": "Diagnose Voice Logica call and agent issues using Call IDs, live prompts, and tool call logs. Use when a call failed, a…"
+          },
+          {
+            "name": "use-voice-logica-mcp",
+            "description": "Master catalog of every Voice Logica MCP tool, grouped by job, with the specialist skill to open next. Use when the use…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "abff05613bf82101095a96b43b033150bfd8e145",
       "version": "1.16.3",
