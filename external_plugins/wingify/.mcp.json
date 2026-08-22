@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wingify": {
+      "type": "http",
+      "url": "https://mcp.wingify.ai/mcp"
+    }
+  }
+}

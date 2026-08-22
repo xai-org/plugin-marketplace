@@ -1176,6 +1176,17 @@
         ]
       }
     },
+    "wingify": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wingify",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "abff05613bf82101095a96b43b033150bfd8e145",
       "version": "1.16.3",

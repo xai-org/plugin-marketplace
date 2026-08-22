@@ -1,0 +1,12 @@
+{
+  "name": "wingify",
+  "version": "1.0.0",
+  "description": "Wingify helps teams analyze experimentation performance, review behavior insights, and manage testing campaigns directly from Grok. Create and manage A/B and split URL campaigns, feature flags and rules, calculate sample sizes, and fetch campaign reports and FME metrics.",
+  "author": {
+    "name": "Wingify",
+    "url": "https://wingify.com"
+  },
+  "homepage": "https://developers.vwo.com/v2/docs/fme-mcp-server",
+  "license": "Proprietary",
+  "keywords": ["wingify", "wingify mcp", "vwo", "vwo mcp", "feature management and experimentation"]
+}
