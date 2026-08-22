@@ -255,6 +255,19 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "nimble",
+      "description": "Live web search for AI agents. Find current pages, read any URL, and run research agents that work across many sources and return findings with citations. Includes reusable Extraction Templates for consistently shaped records from known sites, and Web Search Agents for research, enrichment, and dataset building.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nimbleway/agent-skills.git",
+        "sha": "7755b52997f7daf0d8c2b2a2067fc2e55945ac0a"
+      },
+      "homepage": "https://www.nimbleway.com",
+      "keywords": ["nimble", "nimble web search", "nimbleway"],
+      "domains": ["nimbleway.com", "www.nimbleway.com", "mcp.nimbleway.com"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",

@@ -506,6 +506,116 @@
         ]
       }
     },
+    "nimble": {
+      "sha": "7755b52997f7daf0d8c2b2a2067fc2e55945ac0a",
+      "version": "1.7.0",
+      "components": {
+        "agents": [
+          {
+            "name": "nimble-analyst",
+            "description": "Deep analysis agent for Nimble business skills. Use when a skill needs to synthesize research findings, cross-reference…"
+          },
+          {
+            "name": "nimble-researcher",
+            "description": "Fast data gathering agent for Nimble business skills. Use proactively when a skill needs to search the web, find news,…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "nimble-extract",
+            "description": "Read a single URL as clean markdown via Nimble Extract"
+          },
+          {
+            "name": "nimble-research",
+            "description": "Run a Web Search Agent for open-ended, cited research (create-or-reuse)"
+          },
+          {
+            "name": "nimble-setup",
+            "description": "Check Nimble CLI/MCP connection status and guide setup if not ready"
+          },
+          {
+            "name": "nimble-status",
+            "description": "Poll a running Web Search Agent run and fetch its result when finished"
+          },
+          {
+            "name": "search",
+            "description": "Web search (default for all search and research queries)"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "nimble",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brand-mention-monitor",
+            "description": "Scans Reddit, X, LinkedIn, Instagram, TikTok, YouTube, blogs, news, and review platforms for brand mentions — scoring e…"
+          },
+          {
+            "name": "codebase-web-research",
+            "description": "Pairs repository inspection with live web research: is this dependency version current, does an API call match the vend…"
+          },
+          {
+            "name": "company-deep-dive",
+            "description": "Use this skill ANY TIME the user asks about a specific company. Triggers: \"tell me about [company]\", \"research [company…"
+          },
+          {
+            "name": "competitor-intel",
+            "description": "Searches the live web via Nimble APIs to monitor competitors and produce a structured intelligence briefing. Runs paral…"
+          },
+          {
+            "name": "competitor-positioning",
+            "description": "Tracks how competitors position themselves online — scrapes homepages, features, pricing, and blogs to extract messagin…"
+          },
+          {
+            "name": "healthcare-providers-enrich",
+            "description": "Fills gaps in existing healthcare practitioner lists — adds missing phone numbers, credentials, specialties, contact in…"
+          },
+          {
+            "name": "healthcare-providers-extract",
+            "description": "Extracts structured practitioner data from healthcare practice websites. Returns names, credentials, specialties, conta…"
+          },
+          {
+            "name": "healthcare-providers-verify",
+            "description": "Validates practitioner credentials and license status against the NPI registry. Cross-references specialties, credentia…"
+          },
+          {
+            "name": "launch-monitor",
+            "description": "Monitors press, social, developer communities, and competitor channels from any point around a product launch — trackin…"
+          },
+          {
+            "name": "local-places",
+            "description": "Discovers, enriches, and scores local businesses in any neighborhood using Nimble Web Search Agents (WSAs) and web data…"
+          },
+          {
+            "name": "market-finder",
+            "description": "Discovers all businesses of a given type in any geography using Nimble WSAs. Two modes: Discovery finds businesses from…"
+          },
+          {
+            "name": "meeting-prep",
+            "description": "Researches meeting attendees and their companies before any meeting using real-time web data. Surfaces roles, recent ac…"
+          },
+          {
+            "name": "nimble-databricks-data-products",
+            "description": "Builds Databricks data products from live web data, end to end: discovers the right Nimble web-data agents, scrapes int…"
+          },
+          {
+            "name": "nimble-web-expert",
+            "description": "Get web data now — fast, incremental, immediately responsive to what the user needs. The only way Claude can access liv…"
+          },
+          {
+            "name": "seo-intel",
+            "description": "SEO intelligence toolkit covering the full lifecycle via live web data: keyword research, rank tracking, site audits, c…"
+          },
+          {
+            "name": "talent-sourcing",
+            "description": "Finds qualified candidates for a role by searching LinkedIn, Indeed, GitHub, and other professional platforms using Nim…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "46125561306434d8a1d7745d540d8932ab0cd2a2",
       "components": {
