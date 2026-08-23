@@ -266,6 +266,19 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "deja",
+      "description": "Recall what you already did in your other coding agents. deja indexes the session transcripts Claude Code, Codex, Cursor, opencode, Zed and fifteen more already write to disk, including work from before it was installed, and answers from them locally.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vshulcz/deja-vu.git",
+        "path": "extensions/grok",
+        "sha": "342bdd2422631f1f85971a6b9627b95423442992"
+      },
+      "homepage": "https://github.com/vshulcz/deja-vu",
+      "keywords": ["deja", "recall past sessions", "what did I do before", "search my agent history", "session memory"]
     }
   ]
 }

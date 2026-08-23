@@ -181,6 +181,35 @@
         ]
       }
     },
+    "deja": {
+      "sha": "342bdd2422631f1f85971a6b9627b95423442992",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "recall",
+            "description": "Search this machine's past AI coding sessions (deja-vu)"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "deja",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deja-history",
+            "description": "Search the user's past AI coding sessions. Use when they say things like 'didn't we fix this before', 'what did we deci…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
