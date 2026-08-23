@@ -269,7 +269,7 @@
     },
     {
       "name": "sj-ecosystem",
-      "description": "Connect Grok to the SJ Delivery Super App Ecosystem. Build, deploy, and manage Web Apps, Mini-Games, and Smart Contracts directly to your live SJ account via the SJ MCP Server.",
+      "description": "Connect Grok to the SJ Super App Ecosystem. Build, deploy, and manage Web Apps, Mini-Games, and Smart Contracts directly to your live SJ account via the SJ MCP Server.",
       "category": "development",
       "source": {
         "type": "local",
