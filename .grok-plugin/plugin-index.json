@@ -71,6 +71,28 @@
         ]
       }
     },
+    "build-remote-agent": {
+      "sha": "734b6b5c4f35408e1391973c2d1034f7643d4d27",
+      "version": "0.6.1",
+      "components": {
+        "commands": [
+          {
+            "name": "gbr-pair",
+            "description": "Pair Build Remote Agent phone to this desktop session (gbr/1)"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gbr",
+            "description": "Pair a phone running Build Remote Agent to this desktop AI agent. Requires gbr-agent run on the host. Attach via Bot AP…"
+          },
+          {
+            "name": "gbr",
+            "description": "Drive local Grok Build / CLI sessions through Build Remote Agent (gbr-agent). Pair the phone app, then attach via Bot A…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
       "version": "1.7.0",
