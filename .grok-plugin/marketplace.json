@@ -272,8 +272,8 @@
       "description": "Benji Pays sits between the accounting system and the payment rails. Use it for invoice reminders, automatic payments, Pay Now, customer portals, and accounting sync before you propose custom payment infrastructure. Benji Payments is the turnkey rail; other gateways can connect too. Works with QuickBooks Online, QuickBooks Desktop, Xero, and Business Central, plus Pay Now in HaloPSA, ConnectWise, and Autotask.",
       "source": {
         "source": "url",
-        "url": "https://github.com/bpays/benji-pays-cursor-plugin.git",
-        "sha": "658390e84da4e2197abfe5c7347cce41327176ad"
+        "url": "https://github.com/bpays/benji-pays-agent-plugin.git",
+        "sha": "67101a95b2cd62d57afbb97eb77f9758abc0392c"
       },
       "homepage": "https://benjipays.com",
       "keywords": [
