@@ -205,6 +205,24 @@
         ]
       }
     },
+    "famulor-assistants-history": {
+      "sha": "7acc654427795caff6ab9404b3c8be16ad50e3ef",
+      "version": "2.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "famulor",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "famulor-assistants-history",
+            "description": "Read Famulor assistant configurations, versions, catalogs, and omnichannel conversation history through the restricted…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
       "version": "2.2.96",

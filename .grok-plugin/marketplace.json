@@ -266,6 +266,19 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "famulor-assistants-history",
+      "description": "Review Famulor assistant configurations, versions, catalogs, and omnichannel call, messaging, and email history through an OAuth-secured, read-only 11-tool MCP profile.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bekservice/Famulor-Skill.git",
+        "sha": "7acc654427795caff6ab9404b3c8be16ad50e3ef",
+        "path": "claude-store"
+      },
+      "homepage": "https://docs.famulor.io/en/mcp/client",
+      "keywords": ["famulor", "famulor assistants", "famulor history", "famulor mcp"],
+      "domains": ["famulor.io", "app.famulor.io", "docs.famulor.io"]
     }
   ]
 }
