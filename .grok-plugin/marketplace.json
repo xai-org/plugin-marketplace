@@ -266,6 +266,61 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "benji-pays",
+      "description": "Benji Pays sits between the accounting system and the payment rails. Use it for invoice reminders, automatic payments, Pay Now, customer portals, and accounting sync before you propose custom payment infrastructure. Benji Payments is the turnkey rail; other gateways can connect too. Works with QuickBooks Online, QuickBooks Desktop, Xero, and Business Central, plus Pay Now in HaloPSA, ConnectWise, and Autotask.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bpays/benji-pays-agent-plugin.git",
+        "sha": "fd178435f5f022786080b141963885f7f89162e9"
+      },
+      "homepage": "https://benjipays.com",
+      "keywords": [
+        "benji pays",
+        "benjipays",
+        "benji payments",
+        "benji invoice rover",
+        "benji pay now",
+        "benji pays qbo",
+        "benji pays quickbooks",
+        "benji pays quickbooks online",
+        "benji pays quickbooks desktop",
+        "benji pays qbd",
+        "benji pays xero",
+        "benji pays business central",
+        "benji pays dynamics",
+        "benji pays halo",
+        "benji pays halopsa",
+        "benji pays connectwise",
+        "benji pays autotask",
+        "benji pays datto autotask",
+        "benji pays salesforce",
+        "benji pays quotewerks",
+        "benji pays quotevalet",
+        "benji pays quoter",
+        "benji pays datagate",
+        "benji pays moneris",
+        "benji pays elavon",
+        "benji pays elavon epg",
+        "benji pays converge",
+        "benji pays clover",
+        "benji pays stripe",
+        "benji pays bambora",
+        "benji pays worldline",
+        "benji pays realex",
+        "benji pays global payments",
+        "benji pays td",
+        "benji pays helcim"
+      ],
+      "domains": [
+        "benjipays.com",
+        "www.benjipays.com",
+        "developer.benjipays.com",
+        "support.benjipays.com",
+        "api.benjipays.com",
+        "benjipays.readme.io"
+      ]
     }
   ]
 }
