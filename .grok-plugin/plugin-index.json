@@ -345,6 +345,40 @@
         ]
       }
     },
+    "grok-build-ship": {
+      "sha": "07582f43a29fef82f04077358036338d53d11372",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "share-card",
+            "description": "Draft share-card title, description, and an honest X post for this app"
+          },
+          {
+            "name": "ship-check",
+            "description": "Run the Grok Build / grok.me ship checklist against the current project"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brand-attribution",
+            "description": "Reminders for correct Grok / xAI attribution when shipping community apps: approved phrasing, logo rules, and what not…"
+          },
+          {
+            "name": "share-card-polish",
+            "description": "Draft title, description, and timeline-native share-card fields for a Grok Build or grok.me app without implying sponso…"
+          },
+          {
+            "name": "ship-checklist",
+            "description": "End-to-end checklist for shipping a Grok Build / grok.me app: happy path works, README clear, attribution present, shar…"
+          },
+          {
+            "name": "smoke-demo",
+            "description": "Run a 60-second happy-path smoke script against a Grok Build / grok.me app before sharing. Use when the user asks to sm…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
