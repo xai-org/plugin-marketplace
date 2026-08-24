@@ -266,6 +266,23 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "memlane",
+      "description": "Memlane relationship manager synced with Apple Contacts. Search and update contacts, read and add notes, move people on Lanes, work the Queue, log promises, and more through 50 MCP tools. OAuth or token auth. Needs Memlane Pro and iCloud. Destructive tools ask for a second yes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ONLYHUMN/memlane-agent-plugin.git",
+        "sha": "9dfd7ae6321db46fb506d633e9066719a79e2635"
+      },
+      "homepage": "https://memlane.app/developers",
+      "keywords": [
+        "memlane"
+      ],
+      "domains": [
+        "memlane.app"
+      ]
     }
   ]
 }
