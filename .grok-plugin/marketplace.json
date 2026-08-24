@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "eclincher",
+      "description": "Full-stack social media management — publish, inbox, and analytics across 8 networks via Eclincher MCP.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/your-org/eclincher-grok-plugin.git",
+        "sha": "5029ef6c3924ada9398a0f89ecadeedd80233700"
+       },
+       "homepage": "https://www.eclincher.com/mcp",
+       "keywords": ["eclincher", "social media", "eclincher mcp"],
+       "domains": ["eclincher.com", "app.eclincher.com"]
     }
   ]
 }
