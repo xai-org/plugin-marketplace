@@ -6,6 +6,20 @@
   },
   "plugins": [
     {
+      "name": "weavatrix-refactor",
+      "description": "Transactional refactoring with 11 evidence-backed methods for exact previews, plan-bound confirmation, guarded multi-file writes, and drift-safe rollback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sergii-ziborov/weavatrix-refactor.git",
+        "sha": "f3aa028ef81e741aad25a5581911f9a62b4e0dbd",
+        "path": "plugins/weavatrix-refactor"
+      },
+      "homepage": "https://weavatrix.com",
+      "keywords": ["weavatrix refactor", "weavatrix transactional refactoring", "weavatrix rename"],
+      "domains": ["weavatrix.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
