@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/sergii-ziborov/weavatrix-refactor.git",
-        "sha": "f3aa028ef81e741aad25a5581911f9a62b4e0dbd",
+        "sha": "fb7089a32325e79ef42c470d8d366261d0f00dd6",
         "path": "plugins/weavatrix-refactor"
       },
       "homepage": "https://weavatrix.com",
