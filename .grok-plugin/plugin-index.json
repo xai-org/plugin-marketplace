@@ -109,6 +109,17 @@
         ]
       }
     },
+    "clawcall": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clawcall",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",

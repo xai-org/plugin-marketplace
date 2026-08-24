@@ -1,0 +1,14 @@
+{
+  "name": "clawcall",
+  "version": "1.0.0",
+  "description": "Place real phone calls, handle phone menus and hold queues, bridge the user into a live call, and retrieve call results through ClawCall's hosted MCP server.",
+  "author": {
+    "name": "ClawCall",
+    "url": "https://clawcall.dev"
+  },
+  "homepage": "https://clawcall.dev",
+  "repository": "https://github.com/ClawCall-Dev/ClawCall",
+  "license": "MIT",
+  "keywords": ["clawcall", "phone calls", "live handoff", "mcp"],
+  "logo": "assets/logo.svg"
+}

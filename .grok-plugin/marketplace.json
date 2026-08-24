@@ -266,6 +266,18 @@
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "clawcall",
+      "description": "ClawCall phone calling integration (hosted MCP server). Place real US phone calls, handle phone menus and hold queues, bridge the user into a live call, and retrieve call results, transcripts, recordings, and history with OAuth.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/clawcall"
+      },
+      "homepage": "https://clawcall.dev",
+      "keywords": ["clawcall", "claw call", "clawcall phone", "clawcall mcp"],
+      "domains": ["clawcall.dev", "api.clawcall.dev"]
     }
   ]
 }
