@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "9bot",
+      "description": "Manage, automate and analyze WhatsApp groups, communities and channels with 9bot.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/9-bot/mcp.git",
+        "sha": "fd2ea130525274ef29bcbfe69c81a8f2989ba23a"
+      },
+      "homepage": "https://9bot.com.br/en",
+      "keywords": ["9bot", "9bot whatsapp", "whatsapp communities", "whatsapp automation", "whatsapp community management"],
+      "domains": ["9bot.com.br", "mcp.9bot.com.br"]
     }
   ]
 }
