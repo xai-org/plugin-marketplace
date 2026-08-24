@@ -6,6 +6,20 @@
   },
   "plugins": [
     {
+      "name": "weavatrix-online",
+      "description": "Guarded source-free repository workflows for endpoint status, dependency advisories, malware review, remote architecture contracts, and consent-gated graph sync.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sergii-ziborov/weavatrix-online.git",
+        "sha": "bc140c5220362e0d0631b7a620a1709e465b6a6d",
+        "path": "plugins/weavatrix-online"
+      },
+      "homepage": "https://weavatrix.com",
+      "keywords": ["weavatrix online", "weavatrix security", "weavatrix sync"],
+      "domains": ["weavatrix.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
