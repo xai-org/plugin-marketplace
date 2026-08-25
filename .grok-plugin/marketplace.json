@@ -288,11 +288,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/zzaim-app/zzaim-plugin.git",
-        "sha": "2b44fea5c79a7d104253b84e8007cfb8758fa0aa"
+        "sha": "61d5260b4bb1c42cf2395c8276925c307f99f7c2"
       },
-      "homepage": "https://zzaim.vercel.app",
+      "homepage": "https://zzaim.jhlim.dev",
       "keywords": ["zzaim", "zzaim lesson plan", "zzaim 지도안", "zzaim curriculum"],
-      "domains": ["zzaim.vercel.app"]
+      "domains": ["zzaim.jhlim.dev", "zzaim.vercel.app"]
     }
   ]
 }
