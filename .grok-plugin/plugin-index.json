@@ -965,6 +965,48 @@
         ]
       }
     },
+    "thatseoagent": {
+      "sha": "8d315570d2eaff129371a9b87e46836dfe5d1a31",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "thatseoagent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-visibility",
+            "description": "Improve how a brand appears in AI-generated answers (ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini). Use whe…"
+          },
+          {
+            "name": "audit-cadence",
+            "description": "A repeatable 14-day SEO monitoring cadence that catches ranking drops, index-coverage errors, cannibalization, and traf…"
+          },
+          {
+            "name": "content-audit",
+            "description": "Audit and improve page-level SEO — on-page signals (title, meta, headings, canonical), content quality and readability,…"
+          },
+          {
+            "name": "content-checklist",
+            "description": "A pre-publish checklist verifying an article, blog post, or landing page meets SEO, content-quality, schema, and copy s…"
+          },
+          {
+            "name": "gsc-insights",
+            "description": "Extract insights from Google Search Console — quick wins, traffic-drop diagnosis, keyword trends, cannibalization, feat…"
+          },
+          {
+            "name": "site-audit",
+            "description": "Run a full multi-dimension SEO site audit, generate a shareable client report, and manage SEO tasks. Use when the user…"
+          },
+          {
+            "name": "technical-seo",
+            "description": "Diagnose and fix technical SEO — crawlability, indexing and coverage, canonical tags, redirect chains, robots.txt, href…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "thatseoagent",
+      "description": "SEO analysis for sites you own, through the That SEO Agent remote MCP server: Google Search Console and GA4 reporting, PageSpeed and Core Web Vitals, full site and page audits, crawlability, canonical and schema checks, and AI-visibility scoring. Seven bundled skills sequence the tools into workflows. Remote HTTPS server with OAuth \u2014 no API key to paste.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thatseoagent/skills.git",
+        "sha": "8d315570d2eaff129371a9b87e46836dfe5d1a31"
+      },
+      "homepage": "https://thatseoagent.com",
+      "keywords": ["that seo agent", "thatseoagent"],
+      "domains": ["thatseoagent.com"]
     }
   ]
 }
