@@ -200,7 +200,7 @@
       }
     },
     "dflow": {
-      "sha": "e2e80c780a0b31aae44c88a6467fe5ceb6a65e27",
+      "sha": "3a7e112c8bbf4c1ff2fc5b1053399916da5a460f",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
