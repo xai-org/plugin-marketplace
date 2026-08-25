@@ -71,6 +71,24 @@
         ]
       }
     },
+    "browser-use": {
+      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "browser-use",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "browser-use",
+            "description": "Browser Use — direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
       "version": "1.7.0",
