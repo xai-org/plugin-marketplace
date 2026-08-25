@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "clawcall",
+      "description": "ClawCall phone calling integration (hosted MCP server + skill). Place real US phone calls, handle phone menus and hold queues, bridge the user into a live call, and retrieve call results, transcripts, recordings, and history with OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ClawCall-Dev/ClawCall.git",
+        "sha": "d1abff3f2ef4e54b88cad8bc6c8a477f658a1360",
+        "path": "grok"
+      },
+      "homepage": "https://clawcall.dev",
+      "keywords": ["clawcall", "claw call", "clawcall phone", "clawcall mcp"],
+      "domains": ["clawcall.dev", "api.clawcall.dev"]
     }
   ]
 }
