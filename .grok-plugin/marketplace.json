@@ -293,6 +293,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "aeon",
+      "description": "Operator console for running an Aeon autonomous-agent instance from your coding agent: enable, schedule, and edit skills, wire secrets and channels, debug runs, and turn past coding-agent chats into scheduled skills. Aeon runs your own skills on a cron in GitHub Actions.",
+      "category": "automation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aeonfun/aeon.git",
+        "sha": "3da3b732fcb720c6d863cb0215727dab466da74f",
+        "path": "plugin"
+      },
+      "homepage": "https://aeon.fun",
+      "keywords": ["aeon", "aeon agent", "aeon skills", "aeon.fun"],
+      "domains": ["aeon.fun"]
     }
   ]
 }
