@@ -127,6 +127,24 @@
         ]
       }
     },
+    "clawcall": {
+      "sha": "d1abff3f2ef4e54b88cad8bc6c8a477f658a1360",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clawcall",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clawcall",
+            "description": "Use when the user wants Grok to place a US phone call, call a business, handle hold or phone menus, confirm/reschedule/…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
