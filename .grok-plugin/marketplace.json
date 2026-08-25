@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "flora",
+      "description": "FLORA visual AI canvas integration (MCP Server + Skills). Generate and transform images and video on a real FLORA project canvas: run saved multi-step techniques, batch one treatment across many items consistently, mock finished ad creative into out-of-home placements, and iterate on existing canvas work. Sign in with your FLORA account on first connection; no API key needed.",
+      "category": "design",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/flora"
+      },
+      "homepage": "https://flora.ai",
+      "keywords": ["flora", "flora ai", "flora canvas", "flora technique"],
+      "domains": ["flora.ai", "app.flora.ai"]
     }
   ]
 }
