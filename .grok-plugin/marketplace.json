@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "dflow",
+      "description": "dFlow platform integration. Create apps and environments, attach databases and services, manage domains and env vars, and trigger deploys on your own infrastructure from Grok.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dflow-sh/plugin.git",
+        "sha": "e2e80c780a0b31aae44c88a6467fe5ceb6a65e27"
+      },
+      "homepage": "https://github.com/dflow-sh/plugin",
+      "keywords": ["dflow", "dflow.sh", "deployment", "infrastructure", "devops", "monitoring", "logging"],
+      "domains": ["dflow.sh", "app.dflow.sh"]
     }
   ]
 }

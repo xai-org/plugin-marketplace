@@ -199,6 +199,18 @@
         ]
       }
     },
+    "dflow": {
+      "sha": "e2e80c780a0b31aae44c88a6467fe5ceb6a65e27",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dflow",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
