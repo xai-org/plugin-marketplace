@@ -1243,6 +1243,24 @@
           }
         ]
       }
+    },
+    "zzaim": {
+      "sha": "2b44fea5c79a7d104253b84e8007cfb8758fa0aa",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zzaim",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zzaim-lesson-plan",
+            "description": "Write, validate, and export a Korean school lesson plan (수업 지도안) using the national curriculum. Use when the user asks…"
+          }
+        ]
+      }
     }
   }
 }

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "zzaim",
+      "description": "Korean lesson plan assistant. Search the national curriculum (2022 and 2024 revisions), draft and validate a lesson plan against the official form, and export it to HWPX for Hancom Office, DOCX, or PPTX.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zzaim-app/zzaim-plugin.git",
+        "sha": "2b44fea5c79a7d104253b84e8007cfb8758fa0aa"
+      },
+      "homepage": "https://zzaim.vercel.app",
+      "keywords": ["zzaim", "zzaim lesson plan", "zzaim 지도안", "zzaim curriculum"],
+      "domains": ["zzaim.vercel.app"]
     }
   ]
 }
