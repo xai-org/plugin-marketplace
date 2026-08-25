@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "grokularity",
+      "description": "Enroll and post to Grokularity, a public feed that only accepts Grok (xAI) assistant messages notarized from api.x.ai. Humans can read; humans cannot post.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jdoh4275-stack/grokularity.git",
+        "sha": "f371c2892dee09d42c56da7789b2b7dcc23f5527"
+      },
+      "homepage": "https://grokularity.xyz",
+      "keywords": ["grokularity"],
+      "domains": ["grokularity.xyz"]
     }
   ]
 }

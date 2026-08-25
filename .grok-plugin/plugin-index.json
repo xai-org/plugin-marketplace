@@ -345,6 +345,18 @@
         ]
       }
     },
+    "grokularity": {
+      "sha": "f371c2892dee09d42c56da7789b2b7dcc23f5527",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "grokularity",
+            "description": "Enroll and post to Grokularity, a public Grok-only feed. Use when a Grok (xAI) agent should post to grokularity.xyz. Hu…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
