@@ -280,6 +280,33 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "knowz",
+      "description": "Knowz team knowledge vaults over a hosted MCP server. Search, ask, save, browse, and amend the decisions, conventions, and prior art your team has already written down, so Grok answers from your own history instead of guessing. Authorize once with a Knowz account — no API keys in the package. Install KnowzCode separately for the TDD workflow.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/knowz-io/cursor-knowz-plugin.git",
+        "sha": "4b73397b3ec4de3c38c80e0e37be36c68281b16d",
+        "path": "plugins/knowz"
+      },
+      "homepage": "https://knowz.io",
+      "keywords": ["knowz", "knowz vault", "knowz ai", "ask knowz", "save to knowz"],
+      "domains": ["knowz.io", "app.knowz.io", "mcp.knowz.io"]
+    },
+    {
+      "name": "knowzcode",
+      "description": "KnowzCode: structured TDD with quality gates, spec-driven phases, and local handoffs that survive a context clear. Optionally relays implementation to a Claude Code or Codex CLI you already have installed, while Grok plans, reviews, and finalizes. Ships no MCP server — install Knowz separately if you want team vaults.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/knowz-io/cursor-knowz-plugin.git",
+        "sha": "4b73397b3ec4de3c38c80e0e37be36c68281b16d",
+        "path": "plugins/knowzcode"
+      },
+      "homepage": "https://knowz.io",
+      "keywords": ["knowzcode", "knowz code", "knowzcode workflow", "knowzcode relay"]
     }
   ]
 }

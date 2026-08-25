@@ -345,6 +345,104 @@
         ]
       }
     },
+    "knowz": {
+      "sha": "4b73397b3ec4de3c38c80e0e37be36c68281b16d",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "knowz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "knowz-amend",
+            "description": "Apply a targeted server-side edit to an existing Knowz vault item without retyping the whole entry. Use when the user d…"
+          },
+          {
+            "name": "knowz-ask",
+            "description": "Ask AI-powered questions against Knowz vaults. Use when the user asks about prior decisions, conventions, architecture,…"
+          },
+          {
+            "name": "knowz-auto",
+            "description": "Lightweight Knowz intent routing for Grok Bot and Cursor. Use when the user's message looks like a knowledge lookup, a…"
+          },
+          {
+            "name": "knowz-browse",
+            "description": "Browse Knowz vault contents, topics, and recent items. Use when the user wants to explore what exists in their vaults o…"
+          },
+          {
+            "name": "knowz-flush",
+            "description": "Flush idempotent queued knowledge operations (create, amend, update) from the project-root knowz-pending.md queue. Use…"
+          },
+          {
+            "name": "knowz-save",
+            "description": "Capture decisions, patterns, conventions, workarounds, and durable learnings to Knowz vaults. Use when the user shares…"
+          },
+          {
+            "name": "knowz-search",
+            "description": "Search Knowz vaults semantically. Use when the user wants prior art, related work, conventions, examples, or a broad se…"
+          },
+          {
+            "name": "knowz-setup",
+            "description": "Connect Knowz MCP and create vault routing files. Use after installing the Knowz plugin, for first-time vault mapping,…"
+          },
+          {
+            "name": "knowz-status",
+            "description": "Check Knowz MCP health, Authorize state, vault routing, and pending captures. Use for diagnostics, setup verification,…"
+          }
+        ]
+      }
+    },
+    "knowzcode": {
+      "sha": "4b73397b3ec4de3c38c80e0e37be36c68281b16d",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "continue",
+            "description": "Resume an interrupted KnowzCode workflow, including Grok-host process relay. Use when the user wants to continue an act…"
+          },
+          {
+            "name": "explore",
+            "description": "Research a codebase area before implementation. Use when the user wants investigation, architectural context, prior art…"
+          },
+          {
+            "name": "fix",
+            "description": "Apply a quick, targeted KnowzCode micro-fix. Use when the requested change is small, localized, and does not need the f…"
+          },
+          {
+            "name": "regroup",
+            "description": "Create a local KnowzCode handoff before clearing context. Use when the user wants to pause, wrap up, step away, clear c…"
+          },
+          {
+            "name": "regroup-trigger",
+            "description": "Detect pause, wrap-up, handoff, or clear-context intent and offer a KnowzCode regroup handoff. Triggers when the user s…"
+          },
+          {
+            "name": "relay",
+            "description": "Relay implementation from Grok Bot / Cursor to Claude Code or Codex while Grok plans, reviews, and finalizes. Use when…"
+          },
+          {
+            "name": "setup",
+            "description": "Initialize KnowzCode in a repository for Grok Bot and Cursor: framework files, project personalization, and the Cursor…"
+          },
+          {
+            "name": "start-work",
+            "description": "Route implementation intent into KnowzCode workflow mode. Use for 'start building', 'go ahead', 'implement this plan',…"
+          },
+          {
+            "name": "status",
+            "description": "Check KnowzCode project health, active work, pending captures, and Grok-host process relay configuration, readiness, an…"
+          },
+          {
+            "name": "work",
+            "description": "Start a structured KnowzCode workflow for feature work, multi-file changes, or meaningful refactors with TDD and qualit…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
