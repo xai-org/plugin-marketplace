@@ -787,6 +787,48 @@
         ]
       }
     },
+    "speakai-mcp": {
+      "sha": "800644b262b3fe2260068890b56aed9f47c32c54",
+      "version": "1.21.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "speakai",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "automations-and-webhooks",
+            "description": "Build, test, and operate Speak AI automations and webhooks through MCP. Use this when the user wants recurring work to…"
+          },
+          {
+            "name": "clips-and-captions",
+            "description": "Turn Speak AI recordings into shareable output. Use this when someone asks for a highlight clip, a soundbite, a reel, s…"
+          },
+          {
+            "name": "dashboards-and-reporting",
+            "description": "Build, update, and share Speak AI analytics dashboards. Use this when someone asks for a dashboard, a recurring report,…"
+          },
+          {
+            "name": "getting-started",
+            "description": "Connect an agent to Speak AI and orient it in the workspace. Covers the remote OAuth connection, the local stdio connec…"
+          },
+          {
+            "name": "meeting-summaries",
+            "description": "Turn meetings recorded in Speak AI into decisions, action items, owners, and risks. Use this when the user asks you to…"
+          },
+          {
+            "name": "research-analysis",
+            "description": "Analyze interviews, user research calls, and customer conversations across many Speak AI recordings. Use this when you…"
+          },
+          {
+            "name": "surveys-and-recorders",
+            "description": "Run async voice and video surveys in Speak AI end to end. Use this when someone asks to collect recorded answers from c…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "453dacd48aac27d751aa3cb7e410256efb3fcfca",
       "version": "0.5.4",
