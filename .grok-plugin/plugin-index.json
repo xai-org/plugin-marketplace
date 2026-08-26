@@ -787,6 +787,46 @@
         ]
       }
     },
+    "string-web-access": {
+      "sha": "1a65005a6d6333dbd43dd251b39480eac1c180e8",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "string-setup",
+            "description": "Set up String Web Access — check the connection and confirm all three tools respond."
+          },
+          {
+            "name": "web-research",
+            "description": "Research a topic on the live web — search, read the best sources, and report with citations."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "string-web-access",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "string-fetch",
+            "description": "Fetch any web page and get clean, LLM-ready Markdown back, via String Web Access. Use when the user gives you a URL, as…"
+          },
+          {
+            "name": "string-search",
+            "description": "Search the web with String Web Access and get structured Google results back. Use when the user wants to search the web…"
+          },
+          {
+            "name": "string-sitemap",
+            "description": "Discover every URL on a website with String Web Access. Use when the user wants a site's full URL list, asks to crawl o…"
+          },
+          {
+            "name": "string-web-access",
+            "description": "Best practices for getting web content with String Web Access. Load this before any multi-step web task — research, com…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "453dacd48aac27d751aa3cb7e410256efb3fcfca",
       "version": "0.5.4",

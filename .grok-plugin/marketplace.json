@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "string-web-access",
+      "description": "String Web Access fetches, searches and maps any website as clean, LLM-ready Markdown. It handles proxy rotation, anti-bot protection, CAPTCHAs and JavaScript rendering, so Grok gets the page instead of a block screen. Use it for sites that rate-limit, geo-gate or block automated traffic.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/usestring/string-grok-plugin.git",
+        "sha": "1a65005a6d6333dbd43dd251b39480eac1c180e8"
+      },
+      "homepage": "https://usestring.ai",
+      "keywords": ["string web access", "usestring"],
+      "domains": ["usestring.ai", "portal.usestring.ai", "mcp.usestring.ai", "request.usestring.ai"]
     }
   ]
 }
