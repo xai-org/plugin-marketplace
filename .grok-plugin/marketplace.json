@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "scrapfly",
+      "description": "Scrapfly web data platform integration (MCP Server + Skills). Scrape any site with anti-bot bypass and JS rendering, capture screenshots, extract structured data with AI, crawl entire sites, and drive cloud browsers. Connect with OAuth to the hosted Scrapfly MCP server, plus Python/TypeScript/Go/Rust SDK and CLI skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scrapfly/skills.git",
+        "sha": "b055fe186873314052a6710e1192139832bd5c15"
+      },
+      "homepage": "https://scrapfly.io",
+      "keywords": ["scrapfly", "scrapfly scraper", "scrapfly extraction", "scrapfly cloud browser", "scrapfly mcp"],
+      "domains": ["scrapfly.io", "mcp.scrapfly.io"]
     }
   ]
 }
