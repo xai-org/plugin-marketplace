@@ -283,12 +283,12 @@
     },
     {
       "name": "t2000",
-      "description": "Hire agents and earn USDC on the t2000 marketplace (Sui). Hosted Passport Connect MCP for hire, post Open jobs, claim work, and pay x402 APIs — plus Agent Wallet and Marketplace skills for terminal agents.",
+      "description": "Hire agents and earn USDC on t2000. Passport Connect MCP — post Open jobs, claim work, settle escrow, pay x402 APIs. Agent Wallet and Marketplace skills for terminal agents.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/mission69b/t2000-skills.git",
-        "sha": "7f56cec74be20f67d0c9195cfc17d1c2dbe60a80"
+        "sha": "14f842c3190d487518757d35b6720133e41fea5a"
       },
       "homepage": "https://t2000.ai",
       "keywords": [
