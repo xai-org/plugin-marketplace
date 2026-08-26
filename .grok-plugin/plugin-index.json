@@ -90,8 +90,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
-      "version": "1.7.0",
+      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -525,7 +525,7 @@
       }
     },
     "pstack": {
-      "sha": "46125561306434d8a1d7745d540d8932ab0cd2a2",
+      "sha": "bdf7aa355337897f167153e05069aca505dae17c",
       "components": {
         "agents": [
           {
@@ -1195,8 +1195,8 @@
       }
     },
     "wix": {
-      "sha": "abff05613bf82101095a96b43b033150bfd8e145",
-      "version": "1.16.3",
+      "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
+      "version": "1.17.0",
       "components": {
         "mcpServers": [
           {
