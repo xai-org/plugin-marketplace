@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "skarn-guard",
+      "description": "Skarn for Grok Build: a guard hook that inspects each pending tool call and prompt for leaked credentials, malicious package installs, and exfiltration and reports its verdict in audit mode, plus the skarn-audit skill and a local MCP server whose four read-only tools return redacted session scans and a vet of this machine's assistant configuration. On Grok Build 1.0.4 plugin hooks are not dispatched at session start; open /hooks and press r once per session, or install the hook with skarn setup --agent grok. The plugin carries no binary and makes no network call; install skarn separately.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/skarn-security/agent-guard.git",
+        "sha": "d556ee39d5088321e7912ef7a18a90f42f7361dc",
+        "path": "claude"
+      },
+      "homepage": "https://getskarn.com",
+      "keywords": ["skarn", "skarn guard", "getskarn"],
+      "domains": ["getskarn.com"]
     }
   ]
 }
