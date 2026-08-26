@@ -788,17 +788,17 @@
       }
     },
     "string-web-access": {
-      "sha": "1a65005a6d6333dbd43dd251b39480eac1c180e8",
+      "sha": "e9c57ed5e7aef472a36cf224557164b81cc13a75",
       "version": "1.0.0",
       "components": {
         "commands": [
           {
             "name": "string-setup",
-            "description": "Set up String Web Access — check the connection and confirm all three tools respond."
+            "description": "Check that String Web Access is connected and all three tools respond"
           },
           {
             "name": "web-research",
-            "description": "Research a topic on the live web — search, read the best sources, and report with citations."
+            "description": "Research a topic on the live web and report with citations"
           }
         ],
         "mcpServers": [
