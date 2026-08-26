@@ -292,7 +292,7 @@
         "path": "plugins/speakai-mcp"
       },
       "homepage": "https://docs.speakai.co/mcp",
-      "keywords": ["speak ai", "speakai", "meeting notes", "meeting recorder", "transcription", "voice survey", "video survey", "sales coaching", "research analysis"],
+      "keywords": ["speak ai", "speakai", "speak ai transcription", "speak ai meeting notes", "speak ai research analysis", "speak ai sales coaching", "speak ai voice survey", "speak ai video survey"],
       "domains": ["speakai.co"]
     }
   ]
