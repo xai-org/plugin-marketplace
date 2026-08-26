@@ -280,6 +280,23 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "mentorcruise",
+      "description": "Find a mentor from chat. Search MentorCruise's live directory, then apply, message, and book after Connect.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mentorcruise/plugin.git",
+        "sha": "96625ef2f790575be1aa623ceaf4fcebf2985e46"
+      },
+      "homepage": "https://mentorcruise.com/agents/",
+      "keywords": [
+        "mentorcruise",
+        "mentor cruise"
+      ],
+      "domains": [
+        "mentorcruise.com"
+      ]
     }
   ]
 }

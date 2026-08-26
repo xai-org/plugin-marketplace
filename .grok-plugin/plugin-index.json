@@ -345,6 +345,24 @@
         ]
       }
     },
+    "mentorcruise": {
+      "sha": "96625ef2f790575be1aa623ceaf4fcebf2985e46",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mentorcruise",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-mentor",
+            "description": "Find and recommend mentors from MentorCruise.com. Use this skill whenever the user wants to find a mentor, needs mentor…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
