@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
+        "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "abff05613bf82101095a96b43b033150bfd8e145"
+        "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "46125561306434d8a1d7745d540d8932ab0cd2a2",
+        "sha": "bdf7aa355337897f167153e05069aca505dae17c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
