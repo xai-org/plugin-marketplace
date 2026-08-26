@@ -283,7 +283,7 @@
     },
     {
       "name": "scrapfly",
-      "description": "Scrapfly web data platform integration (MCP Server + Skills). Scrape any site with anti-bot bypass and JS rendering, capture screenshots, extract structured data with AI, crawl entire sites, and drive cloud browsers. Connect with OAuth to the hosted Scrapfly MCP server, plus Python/TypeScript/Go/Rust SDK and CLI skills.",
+      "description": "Scrapfly is the web data and browser automation layer for agents working with live pages. Point it at any publicly accessible URL and get back clean, structured content, including from sites with no API and pages that are hard to retrieve reliably.",
       "category": "development",
       "source": {
         "source": "url",
