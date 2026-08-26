@@ -524,6 +524,28 @@
         ]
       }
     },
+    "pinchtab": {
+      "sha": "96d1508b44721674e3bff2f3bbd21401ec270a63",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pinchtab",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pinchtab",
+            "description": "Use this skill when a task needs browser automation through PinchTab: open a website, inspect interactive elements, cli…"
+          },
+          {
+            "name": "pinchtab-mcp",
+            "description": "Use this skill when a task requires browser automation through PinchTab's MCP server connected to a remote browser inst…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bdf7aa355337897f167153e05069aca505dae17c",
       "components": {

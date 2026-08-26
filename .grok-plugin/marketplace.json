@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "pinchtab",
+      "description": "Browser control for AI agents via PinchTab. CLI skill plus MCP tools for navigation, page snapshots, interaction, and headed browser profiles.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pinchtab/pinchtab.git",
+        "sha": "96d1508b44721674e3bff2f3bbd21401ec270a63",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://pinchtab.com",
+      "keywords": ["pinchtab", "pinchtab browser", "pinchtab mcp"],
+      "domains": ["pinchtab.com"]
     }
   ]
 }
