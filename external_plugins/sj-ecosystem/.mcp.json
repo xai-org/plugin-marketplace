@@ -2,7 +2,7 @@
   "mcpServers": {
     "sj-ecosystem": {
       "type": "sse",
-      "url": "https://us-central1-sj-one.cloudfunctions.net/mcpSse/SJ_MCP_SEC"
+      "url": "https://sj-mcp-zero.sj-one-og.workers.dev/mcp/sse"
     }
   }
 }
