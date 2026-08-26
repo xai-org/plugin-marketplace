@@ -199,6 +199,18 @@
         ]
       }
     },
+    "doola": {
+      "sha": "d332682bdc134fb424f429d29ccd5fac40c774c5",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "doola",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
