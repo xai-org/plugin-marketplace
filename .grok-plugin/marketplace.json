@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "monaco",
+      "description": "Monaco AI sales platform integration (MCP Server). Search and update contacts, accounts, opportunities, tasks, and meetings; build audiences and enroll them in sequences and campaigns; run pipeline hygiene and revenue analytics on live CRM data.",
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/monaco"
+      },
+      "homepage": "https://docs.monaco.com/mcp/overview",
+      "keywords": ["monaco", "monaco crm", "monaco sales", "monaco mcp"],
+      "domains": ["monaco.com", "docs.monaco.com"]
     }
   ]
 }
