@@ -388,8 +388,8 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "6ebabd86ebdbe85f37082e9a7d37e18ebf6ebba0",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
