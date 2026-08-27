@@ -88,7 +88,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "sha": "6ebabd86ebdbe85f37082e9a7d37e18ebf6ebba0",
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
