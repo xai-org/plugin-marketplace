@@ -999,6 +999,24 @@
         ]
       }
     },
+    "toolrouter": {
+      "sha": "76414a0e8afed893afeb12d836a666a5feab861f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toolrouter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "toolrouter-catalog",
+            "description": "Discover and call tools through ToolRouter's hosted catalog. Use when the user explicitly asks for ToolRouter, referenc…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
       "version": "0.48.1",

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "toolrouter",
+      "description": "ToolRouter hosted MCP catalog. Discover and call specialist tools for research, web extraction, SEO and AEO, image and video generation, lead discovery, document analysis, and other agent workflows through one connection, with current schemas and prices returned live.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Humanleap/toolrouter-grok-plugin.git",
+        "sha": "76414a0e8afed893afeb12d836a666a5feab861f"
+      },
+      "homepage": "https://toolrouter.com",
+      "keywords": ["toolrouter", "toolrouter mcp", "toolrouter tools"],
+      "domains": ["toolrouter.com", "api.toolrouter.com"]
     }
   ]
 }
