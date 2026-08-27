@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "municibid",
+      "description": "Search public government surplus auctions on Municibid. Review listing details, sold comps, informational market-value ranges, and public agency summaries. Read-only — no bids, payments, or listings.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Municibid/botplugin.git",
+        "sha": "16ee114e8ccfe88c4327641950a742a1a09b9b9e"
+      },
+      "homepage": "https://www.municibid.com",
+      "keywords": ["municibid", "municibid auctions", "municibid surplus"],
+      "domains": ["municibid.com", "www.municibid.com", "ai.municibid.com", "info.municibid.com"]
     }
   ]
 }
