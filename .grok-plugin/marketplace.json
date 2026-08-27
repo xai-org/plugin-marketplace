@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "sqd",
+      "description": "SQD helps Grok find 130+ blockchain networks and explore the live and historical data available for each. Analyze wallets, transactions, token transfers, smart contracts, network activity, and markets across Ethereum, Base, Solana, Bitcoin, Polkadot, Hyperliquid, and many more, and check current Tron availability.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/subsquid-labs/portal-mcp-server.git",
+        "sha": "9dd751169bce62814fda48182456dd8c84d150d7",
+        "path": "plugins/portal"
+      },
+      "homepage": "https://sqd.dev/portal/",
+      "keywords": ["sqd", "subsquid", "sqd blockchain", "sqd blockchain data", "sqd hyperliquid", "sqd tron", "sqd portal"],
+      "domains": ["sqd.dev", "portal.sqd.dev", "docs.sqd.dev"]
     }
   ]
 }

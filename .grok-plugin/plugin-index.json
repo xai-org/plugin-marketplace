@@ -787,6 +787,36 @@
         ]
       }
     },
+    "sqd": {
+      "sha": "9dd751169bce62814fda48182456dd8c84d150d7",
+      "version": "0.8.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "SQD",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "migrate-to-portal",
+            "description": "Migrate an existing Squid SDK indexer (EVM or Solana) off the v2 gateway and onto the Portal data source. Covers the pa…"
+          },
+          {
+            "name": "pipes-sdk",
+            "description": "Build, configure, deploy, and troubleshoot durable blockchain indexers with the Subsquid Pipes SDK (EVM, Solana, Tron,…"
+          },
+          {
+            "name": "portal",
+            "description": "Query blockchain data across 140+ networks with SQD Portal, including EVM, Solana, Substrate, Bitcoin, Tron, and Hyperl…"
+          },
+          {
+            "name": "squid-perf",
+            "description": "Compare sync-time performance across one or more Squid SDK deployments. Fetches logs via sqd CLI, parses per-service pr…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
       "version": "0.6.0",
