@@ -788,7 +788,7 @@
       }
     },
     "sqd": {
-      "sha": "9dd751169bce62814fda48182456dd8c84d150d7",
+      "sha": "acf611b82a6a66f12d3341d76ecebebb645787da",
       "version": "0.8.0",
       "components": {
         "mcpServers": [
