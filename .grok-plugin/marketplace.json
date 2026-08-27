@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "quawd",
+      "description": "Research, backtest and validate rule-based trading strategies. Scan a condition for predictive power before building anything, compose entry/exit/gate cards, run historical backtests on equity and crypto spot data, and check robustness with walk-forward and spend-once holdout validation.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/QuawdBot/plugins.git",
+        "sha": "1bf50ba6fc8ef597956ec4c24acb46752241cee5"
+      },
+      "homepage": "https://quawd.bot",
+      "keywords": ["quawd", "quawd backtest", "quawd strategy"],
+      "domains": ["quawd.bot", "mcp.quawd.bot"]
     }
   ]
 }
