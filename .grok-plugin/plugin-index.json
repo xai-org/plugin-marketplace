@@ -127,6 +127,69 @@
         ]
       }
     },
+    "claude": {
+      "sha": "96e3babbec9529ab7fd3855e35e400e877fbe52f",
+      "version": "0.2.0",
+      "components": {
+        "agents": [
+          {
+            "name": "claude-rescue",
+            "description": "Proactively use when Grok is stuck, wants a second implementation or diagnosis pass, needs a deeper root-cause investig…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "adversarial-review",
+            "description": "Run a steerable Claude review that challenges the chosen implementation"
+          },
+          {
+            "name": "cancel",
+            "description": "Cancel an active background Claude job in this repository"
+          },
+          {
+            "name": "rescue",
+            "description": "Delegate investigation, an explicit fix request, or follow-up rescue work to the Claude rescue subagent"
+          },
+          {
+            "name": "result",
+            "description": "Show the stored final output for a finished Claude job in this repository"
+          },
+          {
+            "name": "review",
+            "description": "Run a Claude code review against local git state"
+          },
+          {
+            "name": "setup",
+            "description": "Check whether the local Claude Code CLI is ready and optionally toggle the stop-time review gate"
+          },
+          {
+            "name": "status",
+            "description": "Show active and recent Claude jobs for this repository, including review-gate status"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "claude-cli-runtime",
+            "description": "Internal helper contract for calling the Claude companion runtime from Grok Build"
+          },
+          {
+            "name": "claude-result-handling",
+            "description": "Internal guidance for presenting Claude helper output back to the user"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
