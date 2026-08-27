@@ -787,6 +787,28 @@
         ]
       }
     },
+    "spoolis-outcome-gate": {
+      "sha": "012146375c2f3e93f406a572545dc38c139bade8",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "spoolis",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "outcome-gate",
+            "description": "Check delivered work against explicit acceptance criteria before payment or another consequential action."
+          },
+          {
+            "name": "spoolis-setup",
+            "description": "Store a Spoolis API key in the host credential vault so outcome-gate tools can run authenticated production checks. Use…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
       "version": "0.6.0",
