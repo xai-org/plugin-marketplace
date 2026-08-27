@@ -283,12 +283,12 @@
     },
     {
       "name": "sqd",
-      "description": "SQD helps Grok find 130+ blockchain networks and explore the live and historical data available for each. Analyze wallets, transactions, token transfers, smart contracts, network activity, and markets across Ethereum, Base, Solana, Bitcoin, Polkadot, Hyperliquid, and many more, and check current Tron availability.",
+      "description": "Query blockchain data across 140+ networks with SQD Portal, including Ethereum, Base, Solana, Polkadot, Bitcoin, Tron, and Hyperliquid. The SQD plugin also includes Pipes SDK and Squid SDK skills for building, migrating, troubleshooting, and improving blockchain data projects.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/subsquid-labs/portal-mcp-server.git",
-        "sha": "2e6075674cf6b8d29e2ac7569a7b67dd43a9fec2",
+        "sha": "abb417ae04778a4979a2b8f4fc85bf57aa36518a",
         "path": "plugins/portal"
       },
       "homepage": "https://sqd.dev/portal/",
