@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "blaze",
+      "description": "Blaze CFO integration for analyzing business cash flow, balances, spending, payroll, bills, receivables, accounting data, and owner-reviewed payment or invoicing workflows through the hosted Blaze MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blaze-xyz/blaze-grok-plugin.git",
+        "sha": "3d8a5d0cf32c382abd57bf3c657b2d92f86ec468"
+      },
+      "homepage": "https://blaze.money",
+      "keywords": ["blaze", "blaze ai cfo", "blaze cash flow", "blaze payments"],
+      "domains": ["blaze.money", "api.blaze.money", "docs.blaze.money"]
     }
   ]
 }
