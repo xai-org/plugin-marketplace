@@ -280,6 +280,22 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "council-of-ai",
+      "description": "Independent AI-behaviour measurement: live GSPC board, Ed25519 card verify, artifact seals. Measurement, never certification.",
+      "category": "monitoring",
+      "version": "0.1.0",
+      "author": "CSOAI Ltd",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CSOAI-ORG/council-of-ai-grok.git",
+        "sha": "3a75f16094c89a66b7ccc08cbf068d59c22ccece"
+      },
+      "homepage": "https://councilof.ai",
+      "keywords": ["ai-governance", "measurement", "ed25519", "eu-ai-act", "gspc", "attestation", "verify"],
+      "domains": ["councilof.ai", "csoai.org", "meok.ai"],
+      "tags": ["governance", "security", "evidence"]
     }
   ]
 }

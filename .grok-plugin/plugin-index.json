@@ -199,6 +199,71 @@
         ]
       }
     },
+    "council-of-ai": {
+      "sha": "3a75f16094c89a66b7ccc08cbf068d59c22ccece",
+      "components": {
+        "agents": [
+          {
+            "name": "measurement-auditor",
+            "description": "Read-only subagent that fetches the GSPC board and/or verifies a card. No file edits. No certification language."
+          }
+        ],
+        "commands": [
+          {
+            "name": "council",
+            "description": "Open the Council of AI measurement workflow inside Grok Build."
+          },
+          {
+            "name": "gspc",
+            "description": "Fetch and display the live Council of AI GSPC board."
+          },
+          {
+            "name": "sign",
+            "description": "Seal workspace bytes with CSOAI Layer-0. Evidence, not approval."
+          },
+          {
+            "name": "verify",
+            "description": "Verify a signed Council of AI measurement card (three-state)."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "csoai-governance",
+            "description": "stdio"
+          },
+          {
+            "name": "gspc",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "council",
+            "description": "Independent AI-behaviour measurement via Council of AI. Use when the user wants to measure a system, pull the GSPC boar…"
+          },
+          {
+            "name": "gspc",
+            "description": "Pull the live Council of AI GSPC measurement board. Use when the user asks for scores, axes, leaders, ties vs separated…"
+          },
+          {
+            "name": "sign",
+            "description": "Seal a local file or eval receipt with CSOAI Layer-0 Ed25519 via the governance MCP. Use for /sign, \"attest this output…"
+          },
+          {
+            "name": "verify",
+            "description": "Verify a Council of AI signed measurement card. Three-state verdict only — VALID, INVALID (reason), or UNCHECKABLE. Use…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
