@@ -524,6 +524,32 @@
         ]
       }
     },
+    "paybox": {
+      "sha": "986f57bc98e0181a63368cb418407ba6b7569030",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "paybox",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "paybox-get-started",
+            "description": "Understand what PayBox access the user has granted and how to widen it. Use when the user asks what their wallet can do…"
+          },
+          {
+            "name": "paybox-pay-and-swap",
+            "description": "Details for moving money with PayBox that the standing instructions do not carry — units, the checks to run before spen…"
+          },
+          {
+            "name": "paybox-x402-services",
+            "description": "Judgement for paying x402 services — which tool to reach for, why a listing fails, and telling the user the cost before…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bdf7aa355337897f167153e05069aca505dae17c",
       "components": {

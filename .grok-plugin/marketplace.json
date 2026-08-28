@@ -280,6 +280,29 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "paybox",
+      "description": "PayBox non-custodial wallet for agents (MCP Server + Skills). Swap and transfer tokens across chains, pay for x402 services, take positions on prediction markets, and issue merchant-scoped virtual cards. PayBox never holds the key; anything that spends is confirmed by the user.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moonpay/paybox-plugin.git",
+        "sha": "986f57bc98e0181a63368cb418407ba6b7569030"
+      },
+      "homepage": "https://paybox.sh",
+      "keywords": [
+        "paybox",
+        "paybox wallet",
+        "paybox swap",
+        "paybox x402"
+      ],
+      "domains": [
+        "paybox.sh",
+        "api.paybox.sh",
+        "app.paybox.sh",
+        "docs.paybox.sh"
+      ]
     }
   ]
 }
