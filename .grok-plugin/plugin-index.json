@@ -200,7 +200,7 @@
       }
     },
     "council-of-ai": {
-      "sha": "e3980187016a481a0b83b17636dcff59805af6df",
+      "sha": "8058a90127858c33438c740fda12644f32e57596",
       "version": "0.1.0",
       "components": {
         "agents": [
@@ -217,6 +217,10 @@
           {
             "name": "gspc",
             "description": "Fetch and display the live Council of AI GSPC board."
+          },
+          {
+            "name": "pack",
+            "description": "Assemble a CSOAI 402 measurement pack. Agents pay to assemble; the board stays free. Not a score."
           },
           {
             "name": "sign",
@@ -257,6 +261,10 @@
           {
             "name": "gspc",
             "description": "Pull the live Council of AI GSPC measurement board. Use when the user asks for scores, axes, leaders, ties vs separated…"
+          },
+          {
+            "name": "pack",
+            "description": "Assemble a Council of AI attested measurement pack via CSOAI 402. Use when the user says /pack, pack assemble, agent in…"
           },
           {
             "name": "sign",
