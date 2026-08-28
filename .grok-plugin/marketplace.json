@@ -266,6 +266,8 @@
       "homepage": "https://www.markifact.com",
       "keywords": ["markifact", "markifact mcp", "markifact marketing"],
       "domains": ["markifact.com"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",
