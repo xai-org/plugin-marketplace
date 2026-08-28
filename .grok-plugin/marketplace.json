@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "whop",
+      "description": "Run a business on Whop from Grok Build. Launch a website on *.whop.app, create products and checkout, take payments and payouts, manage members, run Meta and TikTok ads, form an LLC, and read your stats.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/whopio/plugins.git",
+        "sha": "c804aa9f7597ed6f2de0289c28d80882da05b79c",
+        "path": "dist/grok/whop"
+      },
+      "homepage": "https://docs.whop.com/",
+      "keywords": ["whop", "sell online", "accept payments", "online store", "memberships", "run ads"],
+      "domains": ["whop.com", "docs.whop.com", "whop.app"]
     }
   ]
 }
