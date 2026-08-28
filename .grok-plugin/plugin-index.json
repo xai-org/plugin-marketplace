@@ -200,7 +200,7 @@
       }
     },
     "council-of-ai": {
-      "sha": "621dd9ccc9b2f71729e58b496c66b87603c9587a",
+      "sha": "5e0868376c7a74fdab3f9086b7198b27dc1919f0",
       "version": "0.1.0",
       "components": {
         "agents": [
@@ -243,6 +243,10 @@
           {
             "name": "gspc",
             "description": "http"
+          },
+          {
+            "name": "gspc-npm",
+            "description": "stdio"
           }
         ],
         "skills": [
