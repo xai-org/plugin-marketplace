@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "frasma",
+      "description": "Frasma Kanban as the source of truth. Remote MCP with OAuth so Grok Build shares the same backlog as the Frasma web app. Sign in with your Frasma account on first connect.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/francemazzi/frasma-plugin.git",
+        "sha": "5714814670b86668bc778d5e1a66f800681dc2dd"
+      },
+      "homepage": "https://frasma.org",
+      "keywords": ["frasma", "frasma kanban", "frasma mcp"],
+      "domains": ["frasma.org", "app.frasma.org", "api.frasma.org"]
     }
   ]
 }
