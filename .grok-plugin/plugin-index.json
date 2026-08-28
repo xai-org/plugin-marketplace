@@ -788,13 +788,13 @@
       }
     },
     "string-web-access": {
-      "sha": "e9c57ed5e7aef472a36cf224557164b81cc13a75",
+      "sha": "3cef3e98a20ad83deb3976af24c01ba1f9632166",
       "version": "1.0.0",
       "components": {
         "commands": [
           {
             "name": "string-setup",
-            "description": "Check that String Web Access is connected and all three tools respond"
+            "description": "Check that String Web Access is connected and its read tools respond"
           },
           {
             "name": "web-research",
@@ -811,6 +811,10 @@
           {
             "name": "string-fetch",
             "description": "Fetch any web page and get clean, LLM-ready Markdown back, via String Web Access. Use when the user gives you a URL, as…"
+          },
+          {
+            "name": "string-request",
+            "description": "Send a POST, PUT or PATCH with a body to a URL, through String Web Access. Use when the user wants to submit something…"
           },
           {
             "name": "string-search",
