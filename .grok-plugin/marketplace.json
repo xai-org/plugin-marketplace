@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/usestring/string-grok-plugin.git",
-        "sha": "3cef3e98a20ad83deb3976af24c01ba1f9632166"
+        "sha": "29d957637d0ee14e5438bd5653b77ec0c6581444"
       },
       "homepage": "https://usestring.ai",
       "keywords": ["string web access", "usestring"],
