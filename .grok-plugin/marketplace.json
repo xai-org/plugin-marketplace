@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "thin-grok-bot-deep-work-on-cli",
+      "description": "Keep Grok Bot as a teammate mesh. Hand deep builds and investigations to Cursor CLI, Cursor cloud agents, or grok CLI so the work spends plan-pool credits and uses subtree agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Luca-Blight/thin-grok-bot-deep-work-on-cli.git",
+        "sha": "bff05f6a28199a19eae2590f092cf2d939934ad5"
+      },
+      "homepage": "https://github.com/Luca-Blight/thin-grok-bot-deep-work-on-cli",
+      "keywords": ["thin-grok-bot", "thin grok bot", "grok-bot", "thin-grok-bot-deep-work-on-cli"],
+      "author": "Zachary Royals"
     }
   ]
 }

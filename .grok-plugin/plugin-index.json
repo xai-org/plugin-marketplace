@@ -965,6 +965,17 @@
         ]
       }
     },
+    "thin-grok-bot-deep-work-on-cli": {
+      "sha": "bff05f6a28199a19eae2590f092cf2d939934ad5",
+      "components": {
+        "skills": [
+          {
+            "name": "thin-grok-bot-deep-work-on-cli",
+            "description": "Use this when handing off any non-trivial build, investigation, or deep reasoning from Grok Bot. Keep the Bot mesh thin…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
