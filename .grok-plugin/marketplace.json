@@ -12,17 +12,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "12d077072a7dac431c2fd4f675c2dd4627f7a196"
+        "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": [
-        "vercel",
-        "vercel deploy",
-        "deploy to vercel"
-      ],
-      "domains": [
-        "vercel.com"
-      ]
+      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
+      "domains": ["vercel.com"]
     },
     {
       "name": "sentry",
@@ -34,12 +28,8 @@
         "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": [
-        "sentry"
-      ],
-      "domains": [
-        "sentry.io"
-      ]
+      "keywords": ["sentry"],
+      "domains": ["sentry.io"]
     },
     {
       "name": "chrome-devtools",
@@ -48,14 +38,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
+        "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": [
-        "chrome devtools",
-        "chrome-devtools",
-        "devtools mcp"
-      ]
+      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
     },
     {
       "name": "cloudflare",
@@ -67,14 +53,8 @@
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": [
-        "cloudflare",
-        "wrangler",
-        "cloudflare workers"
-      ],
-      "domains": [
-        "cloudflare.com"
-      ]
+      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
+      "domains": ["cloudflare.com"]
     },
     {
       "name": "superpowers",
@@ -83,12 +63,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "3dcbd5c4b48e02263fbf4a3c01e3fe4f81d584d9"
+        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": [
-        "superpowers"
-      ]
+      "keywords": ["superpowers"]
     },
     {
       "name": "base44",
@@ -141,13 +119,8 @@
         "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": [
-        "axiom"
-      ],
-      "domains": [
-        "axiom.co",
-        "app.axiom.co"
-      ]
+      "keywords": ["axiom"],
+      "domains": ["axiom.co", "app.axiom.co"]
     },
     {
       "name": "neon",
@@ -158,17 +131,8 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": [
-        "neon",
-        "neon postgres",
-        "neon database",
-        "neon branch"
-      ],
-      "domains": [
-        "neon.tech",
-        "neon.com",
-        "console.neon.tech"
-      ]
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
       "name": "wix",
@@ -177,15 +141,28 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "5593a1e2ab5ceafe56c3e76b64ed98bb5ed449bd"
+        "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
     },
     {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
+    },
+    {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
       "source": {
         "source": "url",
@@ -193,14 +170,8 @@
         "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": [
-        "firecrawl",
-        "fire crawl"
-      ],
-      "domains": [
-        "firecrawl.dev",
-        "docs.firecrawl.dev"
-      ]
+      "keywords": ["firecrawl", "fire crawl"],
+      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
     },
     {
       "name": "figma",
@@ -209,17 +180,11 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "22b2c566d98880ebdb5a8e48eb2c66c596a6d990"
+        "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": [
-        "figma",
-        "figma mcp"
-      ],
-      "domains": [
-        "figma.com",
-        "www.figma.com"
-      ]
+      "keywords": ["figma", "figma mcp"],
+      "domains": ["figma.com", "www.figma.com"]
     },
     {
       "name": "exa",
@@ -231,16 +196,8 @@
         "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
       },
       "homepage": "https://exa.ai",
-      "keywords": [
-        "exa",
-        "exa search",
-        "exa ai"
-      ],
-      "domains": [
-        "exa.ai",
-        "dashboard.exa.ai",
-        "docs.exa.ai"
-      ]
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
     },
     {
       "name": "tavily",
@@ -252,17 +209,8 @@
         "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
       },
       "homepage": "https://www.tavily.com",
-      "keywords": [
-        "tavily",
-        "tavily search",
-        "tavily ai"
-      ],
-      "domains": [
-        "tavily.com",
-        "www.tavily.com",
-        "app.tavily.com",
-        "docs.tavily.com"
-      ]
+      "keywords": ["tavily", "tavily search", "tavily ai"],
+      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
       "name": "railway",
@@ -275,15 +223,8 @@
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": [
-        "railway",
-        "railway deploy",
-        "deploy to railway"
-      ],
-      "domains": [
-        "railway.com",
-        "railway.app"
-      ]
+      "keywords": ["railway", "railway deploy", "deploy to railway"],
+      "domains": ["railway.com", "railway.app"]
     },
     {
       "name": "stripe",
@@ -292,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1953b6cce7344d880a054c42b8dd21ca3e50ebd5",
+        "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -314,26 +255,44 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "pstack",
+      "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cursor/plugins.git",
+        "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+        "path": "pstack"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "browser-use",
+      "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browser-use/plugins.git",
+        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+        "path": "grok"
+      },
+      "homepage": "https://browser-use.com",
+      "keywords": ["browser use", "browser-use", "browser use cloud"],
+      "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
       "name": "cloudbase",
-      "description": "Tencent CloudBase platform plugin: AI models, auth, databases, cloud functions, storage, CloudRun, and WeChat Mini Program workflows via MCP and skills.",
+      "description": "Tencent CloudBase backend-as-a-service platform: AI models, auth, databases, cloud functions, storage, CloudRun, and WeChat Mini Program workflows via MCP plus skills, commands, agents, and hooks.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/TencentCloudBase/cloudbase-plugin.git",
-        "sha": "b615a7f8bfad6637f2297e1a993d29f6a292a13d"
+        "sha": "747aadf1017060e899c4703e1bf8d520d2cd2513"
       },
       "homepage": "https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/ai-agent-plugins",
-      "keywords": [
-        "cloudbase",
-        "tencent cloudbase",
-        "cloudbase mcp",
-        "tencent cloud"
-      ],
-      "domains": [
-        "cloudbase.net",
-        "tcb.cloud.tencent.com"
-      ]
-
+      "keywords": ["cloudbase", "tencent cloudbase", "cloudbase mcp"],
+      "domains": ["cloudbase.net", "tcb.cloud.tencent.com"]
     }
   ]
 }
