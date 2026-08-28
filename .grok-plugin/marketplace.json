@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "openzoo",
+      "description": "Pay-per-call access to 1,100+ models with no account and no API key, plus holographic memory: bind a corpus once and answer from it by retrieval instead of re-sending it every turn. The demo tier is sponsored, so it works on a fresh install with no wallet.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/staccDOTsol/openzoo-grok-plugin.git",
+        "sha": "851c9e53b6b733e345452d58eec06c3d0afc42dc"
+      },
+      "homepage": "https://openzoo.fun",
+      "keywords": ["openzoo", "openzoo.fun", "lecore"],
+      "domains": ["openzoo.fun", "chat.openzoo.fun", "mcp.openzoo.fun"]
     }
   ]
 }
