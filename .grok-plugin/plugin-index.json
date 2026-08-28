@@ -127,6 +127,36 @@
         ]
       }
     },
+    "clickflow": {
+      "sha": "fab4d0b34b36e618285a8b795f95a4d71becc538",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clickflow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clickflow-ai-visibility",
+            "description": "Measure and improve how a brand shows up inside AI assistants — position versus competitors in ChatGPT and Perplexity,…"
+          },
+          {
+            "name": "clickflow-content-pipeline",
+            "description": "Take a keyword or a content idea through ClickFlow end to end — validate search intent and competition, create a roadma…"
+          },
+          {
+            "name": "clickflow-decay-loop",
+            "description": "Run ClickFlow's content-decay refresh loop from your own AI agent. Weekly, it reads back due refreshes (7/14/30-day GSC…"
+          },
+          {
+            "name": "clickflow-seo",
+            "description": "Orientation for working with a ClickFlow SEO workspace over MCP — connect, select the right organization, and find the…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
