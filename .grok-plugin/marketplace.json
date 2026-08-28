@@ -283,12 +283,12 @@
     },
     {
       "name": "bruin",
-      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill today (OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows), with an MCP server and additional capabilities on the roadmap.",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "479f8b49ef0f60c67ecf1a9166ff66ddc254e21d"
+        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
       "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
