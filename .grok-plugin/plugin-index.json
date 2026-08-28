@@ -89,6 +89,18 @@
         ]
       }
     },
+    "bruin-plugin": {
+      "sha": "8a2f19f2c6fb197b7531529137fe7ee7d7ce0dee",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invent…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
