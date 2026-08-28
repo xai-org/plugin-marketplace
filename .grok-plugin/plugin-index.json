@@ -200,8 +200,8 @@
       }
     },
     "consult": {
-      "sha": "342e9a12590a81d371330327c9435ffd8d11e653",
-      "version": "0.1.2",
+      "sha": "3e2d2965cfad04b4a0084b6dad064ad5c624f853",
+      "version": "0.1.3",
       "components": {
         "skills": [
           {
