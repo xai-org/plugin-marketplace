@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "mcp-oauth-connect",
+      "description": "Diagnose MCP OAuth 2.0 so claude.ai, Claude Desktop, Cursor, and Grok Connectors actually attach. Checks protected-resource metadata, S256 PKCE, POST /mcp, and absolute resource_metadata.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GFB2026/mcp-oauth-connect.git",
+        "sha": "5c0ae7b5d60d49338e7d4bff5e159c4bccc640ec"
+      },
+      "homepage": "https://gregfredabytes.com/mcp-oauth-connect",
+      "keywords": ["mcp-oauth-connect", "gregfredabytes", "gfb mcp oauth"],
+      "domains": ["gregfredabytes.com"]
     }
   ]
 }
