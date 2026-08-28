@@ -290,7 +290,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CSOAI-ORG/council-of-ai-grok.git",
-        "sha": "3a75f16094c89a66b7ccc08cbf068d59c22ccece"
+        "sha": "610117b6afa0884eeaf199723bedb80335e627f9"
       },
       "homepage": "https://councilof.ai",
       "keywords": ["ai-governance", "measurement", "ed25519", "eu-ai-act", "gspc", "attestation", "verify"],

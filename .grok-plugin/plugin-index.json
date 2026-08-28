@@ -200,7 +200,8 @@
       }
     },
     "council-of-ai": {
-      "sha": "3a75f16094c89a66b7ccc08cbf068d59c22ccece",
+      "sha": "610117b6afa0884eeaf199723bedb80335e627f9",
+      "version": "0.1.0",
       "components": {
         "agents": [
           {
