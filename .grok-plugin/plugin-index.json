@@ -1194,6 +1194,24 @@
         ]
       }
     },
+    "versionpill": {
+      "sha": "b0dbcec3a9076e3b1afc824ff894195d2c24c48d",
+      "version": "6.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "versionpill",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "versionpill",
+            "description": "Use the hosted VersionPill MCP board for product memory while coding. Triggers: board, pulse, ship, vision, \"what's nex…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
