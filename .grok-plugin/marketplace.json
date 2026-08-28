@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "context-cliff-plug",
+      "description": "Context-window fill bar for Grok Bot and Grok Build. Warns at 40% (the 200k long-context rate cliff), then every 10%, and estimates $ saved if you hand off to a new session.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmelnychuk/jobby-bot.git",
+        "sha": "2044a3fbbedf84233401329033ec12664a2c650b"
+      },
+      "homepage": "https://github.com/mmelnychuk/jobby-bot",
+      "keywords": ["context-cliff-plug", "context-cliff", "jobby-bot"]
     }
   ]
 }

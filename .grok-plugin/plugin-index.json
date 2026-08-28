@@ -199,6 +199,39 @@
         ]
       }
     },
+    "context-cliff-plug": {
+      "sha": "2044a3fbbedf84233401329033ec12664a2c650b",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "context-meter",
+            "description": "Show the current context fill bar and estimated $ save from handing off."
+          },
+          {
+            "name": "handoff",
+            "description": "Draft a short handoff summary so the user can start a new session under the 200k cliff."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "context-meter",
+            "description": "Use when context fill, token cost, the 200k rate cliff, or a session handoff comes up. Show the bar and estimated savin…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
