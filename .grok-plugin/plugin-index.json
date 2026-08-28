@@ -89,8 +89,8 @@
         ]
       }
     },
-    "bruin-plugin": {
-      "sha": "8a2f19f2c6fb197b7531529137fe7ee7d7ce0dee",
+    "bruin": {
+      "sha": "479f8b49ef0f60c67ecf1a9166ff66ddc254e21d",
       "version": "1.0.0",
       "components": {
         "skills": [
