@@ -199,6 +199,22 @@
         ]
       }
     },
+    "consult": {
+      "sha": "342e9a12590a81d371330327c9435ffd8d11e653",
+      "version": "0.1.2",
+      "components": {
+        "skills": [
+          {
+            "name": "claude-consult",
+            "description": "Consult Claude Code CLI (Claude Pro or Max, no API key) for a second opinion, plan critique, diff review, or occasional…"
+          },
+          {
+            "name": "codex-consult",
+            "description": "Consult Codex CLI (ChatGPT login) from Grok for a second opinion, plan critique, uncommitted/branch/commit review, or o…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
