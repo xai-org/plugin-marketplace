@@ -742,8 +742,8 @@
       }
     },
     "sentry": {
-      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
-      "version": "1.3.2",
+      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
