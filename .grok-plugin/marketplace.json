@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "rendemo",
+      "description": "Rendemo interactive product demos. Polish and publish demos recorded with the Rendemo extension, turn any website into a hosted click-through sandbox demo, and build interactive product tours that run inside your own live app — all through Rendemo's MCP server.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jakegrepo/rendemo-plugin.git",
+        "sha": "2ee03a6f2ca4126f334fac30f7c75b9c8a8056a8"
+      },
+      "homepage": "https://www.rendemo.com",
+      "keywords": ["rendemo", "rendemo demo", "interactive product demo", "product tour"],
+      "domains": ["rendemo.com"]
     }
   ]
 }
