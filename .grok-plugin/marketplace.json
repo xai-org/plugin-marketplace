@@ -233,11 +233,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/brimblehq/brimble-grok-plugin.git",
-        "sha": "5565ac6f54d4972eb12fb086b73fa398f3bff1e1"
+        "sha": "76ec9b5d7e698e443b3704a0122bd6d06dfa3e9f"
       },
       "homepage": "https://brimble.io",
+      "author": { "name": "Brimble" },
       "keywords": ["brimble", "brimble deploy", "deploy to brimble"],
-      "domains": ["brimble.io", "app.brimble.io", "mcp.brimble.io"]
+      "domains": ["brimble.io", "app.brimble.io", "mcp.brimble.io", "paper.brimble.io"]
     },
     {
       "name": "stripe",
