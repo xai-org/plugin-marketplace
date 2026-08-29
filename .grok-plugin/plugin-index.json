@@ -788,8 +788,8 @@
       }
     },
     "stripe": {
-      "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
-      "version": "0.6.0",
+      "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
+      "version": "0.6.2",
       "components": {
         "agents": [
           {
@@ -832,7 +832,7 @@
           },
           {
             "name": "stripe-directory",
-            "description": "Finds trusted external providers, merchants, nonprofits, platforms, APIs, and software services that can help complete…"
+            "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the document…"
           },
           {
             "name": "stripe-docs",
