@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/brimblehq/brimble-grok-plugin.git",
-        "sha": "76ec9b5d7e698e443b3704a0122bd6d06dfa3e9f"
+        "sha": "d2a80d663ce04f4236bac0a5f5b5a179e2a5cf6b"
       },
       "homepage": "https://brimble.io",
       "author": { "name": "Brimble" },
