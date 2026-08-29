@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "flightseatmap",
+      "description": "FlightSeatMap airline seat map integration. Look up the cabin layout for any flight, rank the free seats against preferences like window, aisle, exit row or extra legroom, read traveller reviews of a specific seat, and set alerts for when a better seat frees up. Covers 150+ airlines.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FlightSeatmap/mcp.git",
+        "sha": "33e4e1aceb987c9ce782f63e48436f2dc689b17a"
+      },
+      "homepage": "https://flightseatmap.com/mcp",
+      "keywords": ["flightseatmap", "flight seat map", "airplane seat", "seat alert"],
+      "domains": ["flightseatmap.com"]
     }
   ]
 }

@@ -345,6 +345,28 @@
         ]
       }
     },
+    "flightseatmap": {
+      "sha": "33e4e1aceb987c9ce782f63e48436f2dc689b17a",
+      "version": "6.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flightseatmap",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-the-best-seat",
+            "description": "Pick the best available seat on any commercial flight using FlightSeatMap's seat maps, seat-level detail, and passenger…"
+          },
+          {
+            "name": "track-seat-availability",
+            "description": "Watch a flight and email the user when a better seat frees up, using FlightSeatMap seat alerts. Use when a user is stuc…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
