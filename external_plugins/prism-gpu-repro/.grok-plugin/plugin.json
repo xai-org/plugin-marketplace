@@ -1,0 +1,12 @@
+{
+  "name": "prism-gpu-repro",
+  "version": "0.1.1",
+  "description": "Give Grok Bot a bounded GPU capability for reproducible CUDA work and return inspectable evidence of the result.",
+  "author": {
+    "name": "Prism Network",
+    "url": "https://prismnetwork.tech"
+  },
+  "homepage": "https://prismnetwork.tech",
+  "license": "Apache-2.0",
+  "keywords": ["prism network", "gpu repro", "cuda", "reproducibility", "mcp"]
+}

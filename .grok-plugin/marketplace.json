@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "prism-gpu-repro",
+      "description": "Give Grok Bot a bounded, user-approved GPU for reproducible CUDA work, then return an inspectable capsule with logs, artifact hashes, cost, refunds, and public settlement proof.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/prism-gpu-repro"
+      },
+      "homepage": "https://prismnetwork.tech",
+      "keywords": ["prism network", "prism gpu", "prism gpu repro"],
+      "domains": ["prismnetwork.tech"]
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "@prismnetwork/prism-gpu-repro",
+  "version": "0.1.1",
+  "description": "Prism GPU Repro plugin for Grok Bot: a bounded GPU reproducibility skill and read-only MCP connector.",
+  "license": "Apache-2.0",
+  "homepage": "https://prismnetwork.tech",
+  "keywords": [
+    "prism-network",
+    "grok-bot",
+    "gpu-repro",
+    "cuda-repro",
+    "mcp"
+  ],
+  "files": [
+    ".grok-plugin",
+    ".mcp.json",
+    "skills",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

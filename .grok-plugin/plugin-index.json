@@ -524,6 +524,23 @@
         ]
       }
     },
+    "prism-gpu-repro": {
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prism-network",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "prism-gpu-repro",
+            "description": "Run bounded, reproducible GPU and CUDA work through Prism Network and return an evidence capsule with environment facts…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bdf7aa355337897f167153e05069aca505dae17c",
       "components": {
