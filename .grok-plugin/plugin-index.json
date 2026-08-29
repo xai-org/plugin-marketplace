@@ -346,7 +346,7 @@
       }
     },
     "mcp-oauth-connect": {
-      "sha": "5b0842b9929cbb6320d977c23dc123eec0b03126",
+      "sha": "28a9e8a00f7fe64111a8df2fb0aea01ad5595642",
       "version": "0.2.0",
       "components": {
         "skills": [

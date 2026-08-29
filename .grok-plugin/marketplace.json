@@ -288,10 +288,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GFB2026/mcp-oauth-connect.git",
-        "sha": "5b0842b9929cbb6320d977c23dc123eec0b03126"
+        "sha": "28a9e8a00f7fe64111a8df2fb0aea01ad5595642"
       },
-      "homepage": "https://gfbytes.com/mcp-oauth-connect/",
-      "keywords": ["mcp-oauth-connect", "gregfredabytes", "gfb mcp oauth"],
+      "homepage": "https://gfbytes.com/products/mcp-oauth-connect/",
+      "keywords": ["mcp-oauth-connect", "gfbytes", "gfb mcp oauth"],
       "domains": ["gfbytes.com", "www.gfbytes.com", "mcp.gfbytes.com"]
     }
   ]
