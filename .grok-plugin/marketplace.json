@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "award-travel-finder",
+      "description": "Award flight search over MCP. Check award seat availability across 27 airlines, look up award-chart pricing for 23 loyalty programs, compare transfer paths, and find award nights at Marriott, Hilton, IHG and Hyatt.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AwardTravelFinder/mcp.git",
+        "sha": "f6a41a7b0c09220db57e37b075eb1452e506f8fb"
+      },
+      "homepage": "https://awardtravelfinder.com/mcp",
+      "keywords": ["award travel finder", "awardtravelfinder", "award flight availability", "award seat search"],
+      "domains": ["awardtravelfinder.com"]
     }
   ]
 }
