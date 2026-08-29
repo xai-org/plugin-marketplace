@@ -72,8 +72,8 @@
       }
     },
     "brimble": {
-      "sha": "b438e5dc72fc9a0999629cba9110f231b1d8dce1",
-      "version": "1.0.0",
+      "sha": "5565ac6f54d4972eb12fb086b73fa398f3bff1e1",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -84,7 +84,7 @@
         "skills": [
           {
             "name": "use-brimble",
-            "description": "Operate Brimble: deploy apps and static sites, inspect build and request logs, provision databases and sandboxes, manag…"
+            "description": "Operate Brimble from Grok using the hosted MCP: deploy apps and static sites, inspect build and request logs, provision…"
           }
         ]
       }
