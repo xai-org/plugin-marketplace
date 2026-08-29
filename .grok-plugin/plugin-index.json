@@ -346,9 +346,19 @@
       }
     },
     "flightseatmap": {
-      "sha": "33e4e1aceb987c9ce782f63e48436f2dc689b17a",
+      "sha": "4e3cd18d4dff1561806afa58c42785e36dbb9126",
       "version": "6.0.0",
       "components": {
+        "commands": [
+          {
+            "name": "best-seats",
+            "description": "Find the best seats on a flight matching your preferences"
+          },
+          {
+            "name": "seatmap",
+            "description": "Look up the seat map for a flight"
+          }
+        ],
         "mcpServers": [
           {
             "name": "flightseatmap",

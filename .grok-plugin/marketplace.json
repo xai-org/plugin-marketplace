@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/FlightSeatmap/mcp.git",
-        "sha": "33e4e1aceb987c9ce782f63e48436f2dc689b17a"
+        "sha": "4e3cd18d4dff1561806afa58c42785e36dbb9126"
       },
       "homepage": "https://flightseatmap.com/mcp",
       "keywords": ["flightseatmap", "flight seat map", "airplane seat", "seat alert"],
