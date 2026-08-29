@@ -71,6 +71,24 @@
         ]
       }
     },
+    "brimble": {
+      "sha": "b438e5dc72fc9a0999629cba9110f231b1d8dce1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brimble",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-brimble",
+            "description": "Operate Brimble: deploy apps and static sites, inspect build and request logs, provision databases and sandboxes, manag…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
