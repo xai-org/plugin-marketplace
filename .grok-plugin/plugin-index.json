@@ -345,6 +345,80 @@
         ]
       }
     },
+    "mermail": {
+      "sha": "34c9b84c548b43597dc0270a3c9e142534c1bf2f",
+      "version": "1.5.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mermail",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mermail",
+            "description": "Route broad, ambiguous, or cross-domain Mermail requests to the narrowest current workflow across MCP connection, CLI a…"
+          },
+          {
+            "name": "mermail-administer-workspace",
+            "description": "Inspect Mermail API and email usage and manage workspaces, members, invitations, email domains, mailboxes, and storage.…"
+          },
+          {
+            "name": "mermail-agent-inbox",
+            "description": "Provision or reuse a service-scoped Mermail mailbox, then safely find and inspect an expected verification, sign-in, on…"
+          },
+          {
+            "name": "mermail-agent-wallet",
+            "description": "Inspect Mermail Agent Wallet / PayBox balances, guide Funding/onramp and signing handoffs, transfer catalog tokens, swa…"
+          },
+          {
+            "name": "mermail-automate-triage",
+            "description": "Create, inspect, update, and delete Mermail task triagers and review recent triager runs. Use when a user explicitly wa…"
+          },
+          {
+            "name": "mermail-cli",
+            "description": "Install and use the official Mermail CLI for deterministic shell automation across workspaces, mailboxes, email, folder…"
+          },
+          {
+            "name": "mermail-compose-email",
+            "description": "Draft, revise, regenerate, send, reply to, forward, and schedule email through Mermail. Use when the main job is compos…"
+          },
+          {
+            "name": "mermail-composio",
+            "description": "Connect and use third-party apps through Mermail Composio from Claude, Codex, or another external MCP client. Use when…"
+          },
+          {
+            "name": "mermail-gtm-agent",
+            "description": "Run outbound GTM email, classify replies, and draft warm-acks through a Mermail mailbox. Use when the job is personaliz…"
+          },
+          {
+            "name": "mermail-mail-agent",
+            "description": "Manage and delegate work to Mermail mailbox-agent conversations from Claude, Codex, or another external MCP client. Use…"
+          },
+          {
+            "name": "mermail-manage-inbox",
+            "description": "Read, search, inspect, download, organize, move, mark, and delete Mermail emails and threads, and manage mailbox folder…"
+          },
+          {
+            "name": "mermail-mcp",
+            "description": "Configure, verify, and recover the hosted Mermail MCP connection in Codex, Claude, Cursor, OpenClaw, or another externa…"
+          },
+          {
+            "name": "mermail-scheduling-agent",
+            "description": "Book time, check calendar availability, and handle scheduling email through a Mermail mailbox plus Google Calendar. Use…"
+          },
+          {
+            "name": "mermail-support-agent",
+            "description": "Triage, reply, escalate, follow up, and close support email through a Mermail mailbox. Use when the job is support tick…"
+          },
+          {
+            "name": "mermail-x402-agent",
+            "description": "Complete a user-selected x402 service call with Mermail Agent Wallet / PayBox by creating a payment proof, redeeming it…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
