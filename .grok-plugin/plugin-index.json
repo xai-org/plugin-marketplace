@@ -788,8 +788,8 @@
       }
     },
     "sqd": {
-      "sha": "abb417ae04778a4979a2b8f4fc85bf57aa36518a",
-      "version": "0.8.0",
+      "sha": "cf52a3bc738ef984e61128d439b7bc88dea4f279",
+      "version": "0.8.3",
       "components": {
         "mcpServers": [
           {
@@ -808,7 +808,7 @@
           },
           {
             "name": "portal",
-            "description": "Query blockchain data across 140+ networks with SQD Portal, including EVM, Solana, Substrate, Bitcoin, Tron, and Hyperl…"
+            "description": "Query blockchain data across 130+ networks with SQD Portal, including EVM, Solana, Substrate, Bitcoin, Tron, and Hyperl…"
           },
           {
             "name": "squid-perf",
