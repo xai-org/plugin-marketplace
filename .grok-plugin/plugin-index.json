@@ -345,6 +345,24 @@
         ]
       }
     },
+    "hwpxkit": {
+      "sha": "55b34928991f0b34f919e3618268cc8d9484b87e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hwpxkit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hwpxkit-document-editing",
+            "description": "Use HWPXkit's authenticated MCP tools to inspect and edit an HWPX document in a private, expiring session."
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
