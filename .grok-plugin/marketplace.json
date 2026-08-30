@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "renoolab",
+      "description": "RenooLab combines 10 French renovation and construction Agent Skills with a four-tool hosted MCP server. Find and compare local tradespeople, assemble multi-trade teams for projects in France, and send contact or professional-profile requests only after explicit user confirmation.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mehdimicra/renoolab-agent-skills.git",
+        "sha": "355a6d65ffe2a5328377d0b3e2ab8a919ea68711"
+      },
+      "homepage": "https://renoolab.fr/mcp/",
+      "keywords": ["renoolab", "renoolab artisan", "renoolab renovation", "renoolab france"],
+      "domains": ["renoolab.fr", "mcp.renoolab.fr"]
     }
   ]
 }
