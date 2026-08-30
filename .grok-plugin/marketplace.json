@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "feishu",
+      "description": "Connect Feishu/Lark as yourself: docs, calendar, messages, and Bitable via official lark-mcp. First-run QR creates the app; no hardcoded secrets.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anselorville/feishu-grok-plugin.git",
+        "sha": "f991b733dec27bec1ae69a967a153bd59f3313ce"
+      },
+      "homepage": "https://github.com/anselorville/feishu-grok-plugin",
+      "keywords": ["feishu", "lark", "bitable", "feishu docs"],
+      "domains": ["feishu.cn", "larksuite.com", "open.feishu.cn"]
     }
   ]
 }
