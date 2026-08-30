@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "foundrole",
+      "description": "AI job search and application tracker. Search live openings from company career pages by title, location, salary, and remote or on-site, and see each posting checked against real data: pay versus the market, ghost-posting risk, and visa sponsorship history. Track applications on a Kanban board, set reminders, and subscribe to email alerts. Free, OAuth sign-in, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/foundrole/jobs-mcp-proxy.git",
+        "sha": "d046ee0d48f75e71ffc03537980c90e15340db9e"
+      },
+      "homepage": "https://www.foundrole.com/ai-search-mcp",
+      "keywords": ["foundrole", "foundrole jobs", "foundrole job search", "foundrole tracker"],
+      "domains": ["foundrole.com", "www.foundrole.com"]
     }
   ]
 }

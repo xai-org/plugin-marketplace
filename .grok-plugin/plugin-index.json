@@ -345,6 +345,18 @@
         ]
       }
     },
+    "foundrole": {
+      "sha": "d046ee0d48f75e71ffc03537980c90e15340db9e",
+      "version": "1.1.10",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "foundrole",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
