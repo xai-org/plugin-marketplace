@@ -286,8 +286,8 @@
       }
     },
     "firecrawl": {
-      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
-      "version": "1.1.0",
+      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "version": "1.2.0",
       "components": {
         "commands": [
           {
@@ -313,6 +313,10 @@
           {
             "name": "firecrawl-crawl",
             "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-developer-search",
+            "description": "Search an index built for coding agents — GitHub issues, merged pull requests, repository READMEs, and curated document…"
           },
           {
             "name": "firecrawl-download",
