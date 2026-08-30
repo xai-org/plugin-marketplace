@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "hwpxkit",
+      "description": "Open an HWPX (Hancom Office) document in a private, expiring session, inspect its structure, fill form fields, apply text and row edits, and download the edited copy with one-step rollback. The source file is never modified.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HWPXkit/hwpxkit-plugin.git",
+        "sha": "05a495602e64a256115d9c6c1ca4ebd7fb3207fe"
+      },
+      "homepage": "https://hwpxkit.jhlim.dev",
+      "keywords": ["hwpxkit", "hwpxkit hwpx", "edit hwpx with hwpxkit", "hwpxkit 한글 문서"],
+      "domains": ["hwpxkit.jhlim.dev", "mcp.hwpxkit.jhlim.dev"]
     }
   ]
 }
