@@ -224,8 +224,8 @@
       }
     },
     "feishu": {
-      "sha": "f991b733dec27bec1ae69a967a153bd59f3313ce",
-      "version": "0.1.0",
+      "sha": "a1076084520914e46d5cad5f1cf0d138a0660aee",
+      "version": "0.1.1",
       "components": {
         "commands": [
           {
