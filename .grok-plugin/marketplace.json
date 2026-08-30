@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "skim",
+      "description": "Read public webpages as clean, agent-ready Markdown with Skim. Uses a card-plan API key and a pinned MCP package with npm lifecycle scripts disabled; no wallet private key required.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JessieJanie/skim-tools.git",
+        "sha": "509fa57d32b8b9fcd318b3d5f340e4a6e080b690",
+        "path": "grok-plugin-skim"
+      },
+      "homepage": "https://skim402.com",
+      "keywords": ["skim", "skim reader", "skim402", "skim clean web reader"],
+      "domains": ["skim402.com"]
     }
   ]
 }

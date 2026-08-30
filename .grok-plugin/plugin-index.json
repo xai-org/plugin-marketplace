@@ -787,6 +787,18 @@
         ]
       }
     },
+    "skim": {
+      "sha": "509fa57d32b8b9fcd318b3d5f340e4a6e080b690",
+      "version": "0.2.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skim",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
       "version": "0.6.0",
