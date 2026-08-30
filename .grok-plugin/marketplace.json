@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "hydrafetch",
+      "description": "Turn any URL into clean, LLM-ready Markdown and structured data. Scrape a page, map a site, search the web, pull typed JSON by schema, and resolve a company's brand, logo, screenshot or design system from its domain, via the hosted Hydrafetch MCP server. Connects over OAuth with no API key to paste, and new workspaces get free credits with no card.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hydrafetch/grok-plugin.git",
+        "sha": "7df8101b944fbd282529fb40379d8413da0a2a2f"
+      },
+      "homepage": "https://hydrafetch.com",
+      "keywords": ["hydrafetch", "hydrafetch scrape", "hydrafetch extract"],
+      "domains": ["hydrafetch.com", "app.hydrafetch.com", "docs.hydrafetch.com", "api.hydrafetch.com"]
     }
   ]
 }

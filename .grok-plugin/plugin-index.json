@@ -345,6 +345,48 @@
         ]
       }
     },
+    "hydrafetch": {
+      "sha": "7df8101b944fbd282529fb40379d8413da0a2a2f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hydrafetch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-a-dataset",
+            "description": "Assemble many pages into a table using queued crawl and batch jobs rather than a loop. Use for corpora, bulk enrichment…"
+          },
+          {
+            "name": "extract-structured-data",
+            "description": "Pull typed, schema-shaped JSON out of web pages. Use when you need fields rather than prose, or the same fields from ma…"
+          },
+          {
+            "name": "hydrafetch",
+            "description": "Use Hydrafetch for live web scraping, site mapping, search, structured extraction, brand and logo lookup, design system…"
+          },
+          {
+            "name": "research-a-company",
+            "description": "Build a company profile from its domain: identity, logos and colours, positioning, and site structure. Use for enrichme…"
+          },
+          {
+            "name": "scrape-for-context",
+            "description": "Turn one URL into clean markdown for a model to read. Use when a user gives you a link, when you need a page as groundi…"
+          },
+          {
+            "name": "show-a-company-logo",
+            "description": "Render a real company logo from a domain: an embeddable image URL for the browser, or JSON for a server. Use for CRM re…"
+          },
+          {
+            "name": "where-to-use-hydrafetch",
+            "description": "Audit a codebase for places Hydrafetch would replace fragile scraping infrastructure or add a capability the project la…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",
