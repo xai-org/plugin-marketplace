@@ -286,8 +286,8 @@
       }
     },
     "firecrawl": {
-      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
-      "version": "1.1.0",
+      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "version": "1.2.0",
       "components": {
         "commands": [
           {
@@ -313,6 +313,10 @@
           {
             "name": "firecrawl-crawl",
             "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-developer-search",
+            "description": "Search an index built for coding agents — GitHub issues, merged pull requests, repository READMEs, and curated document…"
           },
           {
             "name": "firecrawl-download",
@@ -407,8 +411,8 @@
       }
     },
     "mongodb": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -449,8 +453,8 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -586,7 +590,7 @@
       }
     },
     "pstack": {
-      "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+      "sha": "fd878692de15a3069c21c8f429eb0b9f2fe178fa",
       "components": {
         "agents": [
           {
@@ -599,6 +603,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "Make Bot UI",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
+          },
           {
             "name": "Poteto Mode",
             "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
@@ -803,8 +811,8 @@
       }
     },
     "sentry": {
-      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
-      "version": "1.3.2",
+      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
@@ -849,8 +857,8 @@
       }
     },
     "stripe": {
-      "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
-      "version": "0.6.0",
+      "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
+      "version": "0.6.2",
       "components": {
         "agents": [
           {
@@ -893,7 +901,7 @@
           },
           {
             "name": "stripe-directory",
-            "description": "Finds trusted external providers, merchants, nonprofits, platforms, APIs, and software services that can help complete…"
+            "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the document…"
           },
           {
             "name": "stripe-docs",
