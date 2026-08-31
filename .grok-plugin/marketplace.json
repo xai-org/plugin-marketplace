@@ -11,8 +11,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/sergii-ziborov/weavatrix-online.git",
-        "sha": "bc140c5220362e0d0631b7a620a1709e465b6a6d",
+        "url": "https://github.com/Weavatrix/weavatrix-online.git",
+        "sha": "64f3f93a5aea4ec73e32d5951976cdca9685eb68",
         "path": "plugins/weavatrix-online"
       },
       "homepage": "https://weavatrix.com",
