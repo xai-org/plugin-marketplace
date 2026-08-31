@@ -89,6 +89,24 @@
         ]
       }
     },
+    "buses-and-trains": {
+      "sha": "87a7f42f82ac30bba75a2f9dd3efcfab3510a3d1",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "buses-and-trains",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "uk-public-transport",
+            "description": "Answer questions about UK buses and trains - live departures, where a bus is now, journey planning across Great Britain…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
