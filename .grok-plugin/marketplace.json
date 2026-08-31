@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "cloudsprite",
+      "description": "Talk to CloudSprite as the signed-in user: search datasets and docs, set org/team/project scope, and file product feedback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cloudsprite-io/cloudsprite-plugin.git",
+        "sha": "4c474d082ae3c8bcb68822f9c147f15656d35dd1"
+      },
+      "homepage": "https://github.com/cloudsprite-io/cloudsprite-plugin",
+      "keywords": ["cloudsprite", "cloudsprite mcp", "s-parameters", "mixed-mode"],
+      "domains": ["cloudsprite.io", "api.cloudsprite.io", "docs.cloudsprite.io"]
     }
   ]
 }

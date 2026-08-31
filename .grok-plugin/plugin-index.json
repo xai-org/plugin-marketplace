@@ -199,6 +199,40 @@
         ]
       }
     },
+    "cloudsprite": {
+      "sha": "4c474d082ae3c8bcb68822f9c147f15656d35dd1",
+      "version": "0.1.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cloudsprite",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datasets",
+            "description": "Query CloudSprite datasets, parameters, tags, and notebook membership through MCP read tools. Use when the user asks wh…"
+          },
+          {
+            "name": "feedback",
+            "description": "File a bug, feature request, or other product note with CloudSprite. Use when the user says /feedback, reports somethin…"
+          },
+          {
+            "name": "mixed-mode-analysis",
+            "description": "Compute or explain mixed-mode (differential/common-mode) S-parameters from single-ended 2-port Touchstone pairs. Use fo…"
+          },
+          {
+            "name": "platform-howtos",
+            "description": "How to use CloudSprite from this plugin: sign in, set org/team/project scope, search datasets and product docs, and fil…"
+          },
+          {
+            "name": "waveform-correlation",
+            "description": "Detect outlier waveforms in a CloudSprite project with pairwise Pearson correlation and describe a clean average of the…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
