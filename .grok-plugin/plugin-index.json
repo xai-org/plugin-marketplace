@@ -528,6 +528,52 @@
         ]
       }
     },
+    "portals-plugin-grok": {
+      "sha": "70530cbaa7adc7a197e95ed12936a7764575e05d",
+      "version": "0.1.14",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "portals-web-games",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "portals-game-economy",
+            "description": "Sell in-game products for Coins inside a hosted Portals web game with Portals.economy — microtransactions, IAP, durable…"
+          },
+          {
+            "name": "portals-guardian-avatars",
+            "description": "Put the player's Guardian avatar into a Three.js game on Portals — body types, skin/hair/eye colour, hair styles, weara…"
+          },
+          {
+            "name": "portals-multiplayer-and-voice",
+            "description": "Add real-time multiplayer, in-game text chat, and voice chat to a hosted Portals web game with Portals.net and Portals.…"
+          },
+          {
+            "name": "portals-pose-tuner",
+            "description": "Tune procedural animation live inside a Portals web game with the Pose Tuner dev tool — carry tables, grip offsets, rec…"
+          },
+          {
+            "name": "portals-sdk",
+            "description": "Use the Portals SDK in a hosted web game for player identity, Portals sign-in, saved progress, casual scores, leaderboa…"
+          },
+          {
+            "name": "portals-server-scripts",
+            "description": "Add authoritative server-side game logic to a Portals multiplayer game with a root server.js that Portals runs as an in…"
+          },
+          {
+            "name": "portals-server-sim",
+            "description": "Build a server-authoritative real-time game on Portals where server.js simulates the game itself — one shared sim modul…"
+          },
+          {
+            "name": "portals-web-games",
+            "description": "Build, update, synchronize, configure, and publish browser games on Portals with the portals-web-games MCP server. Use…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fd878692de15a3069c21c8f429eb0b9f2fe178fa",
       "components": {
