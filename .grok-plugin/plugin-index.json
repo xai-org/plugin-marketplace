@@ -1195,8 +1195,8 @@
       }
     },
     "weavatrix-refactor": {
-      "sha": "fb7089a32325e79ef42c470d8d366261d0f00dd6",
-      "version": "1.0.8",
+      "sha": "139f6ba40b3724ead90ae16ca6ca19e4410a1212",
+      "version": "1.0.11",
       "components": {
         "mcpServers": [
           {

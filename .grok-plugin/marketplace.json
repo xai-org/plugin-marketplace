@@ -11,8 +11,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/sergii-ziborov/weavatrix-refactor.git",
-        "sha": "fb7089a32325e79ef42c470d8d366261d0f00dd6",
+        "url": "https://github.com/Weavatrix/weavatrix-refactor.git",
+        "sha": "139f6ba40b3724ead90ae16ca6ca19e4410a1212",
         "path": "plugins/weavatrix-refactor"
       },
       "homepage": "https://weavatrix.com",
