@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "stellary",
+      "description": "AI-native project piloting via Stellary's hosted MCP server: boards, documents, cockpit, and governed agent missions. Connect over Streamable HTTP at https://api.stellary.co/mcp with a Bearer personal access token (not OAuth). Create a PAT in Stellary under Account settings → API tokens.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Anymfah/stellary-mcp.git",
+        "sha": "ef3f697eb124ec07f92f697f85cefa6ae24270c1"
+      },
+      "homepage": "https://stellary.co",
+      "keywords": ["stellary", "stellary mcp", "stellary project"],
+      "domains": ["stellary.co", "app.stellary.co", "api.stellary.co"]
     }
   ]
 }

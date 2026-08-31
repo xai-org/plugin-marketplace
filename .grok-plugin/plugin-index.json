@@ -795,6 +795,18 @@
         ]
       }
     },
+    "stellary": {
+      "sha": "ef3f697eb124ec07f92f697f85cefa6ae24270c1",
+      "version": "0.12.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "stellary",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
       "version": "0.6.2",
