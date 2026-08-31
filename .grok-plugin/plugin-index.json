@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "21st": {
+      "sha": "0410559c03e20dadcdc4b97c8e36510bf2a99df1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "21st",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "21st-ui",
+            "description": "Find, install, and generate UI with 21st.dev. Use when the user asks for a UI component (pricing table, hero, navbar, d…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
