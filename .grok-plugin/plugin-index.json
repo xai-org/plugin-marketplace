@@ -1251,6 +1251,34 @@
           }
         ]
       }
+    },
+    "you-com": {
+      "sha": "78e20fd40bfdccbf91a5aaa67c2e46ba4ed2bbaa",
+      "version": "0.5.0",
+      "components": {
+        "skills": [
+          {
+            "name": "you-discover",
+            "description": "Route You.com integration planning through the you-discover MCP tool, Docs MCP, and direct API options."
+          },
+          {
+            "name": "you-finance",
+            "description": "Route finance questions to an existing local script, a new You.com Finance Research API call, or an MCP payment-aware f…"
+          },
+          {
+            "name": "you-free",
+            "description": "Use the free You.com MCP profile for unauthenticated basic web search with `you-search` only."
+          },
+          {
+            "name": "you-research",
+            "description": "Route research tasks between a cost-conscious agentic search workflow, You.com Research API scripts, and managed or pay…"
+          },
+          {
+            "name": "you-web",
+            "description": "Use You.com MCP tools for current web search, URL content extraction, cited web synthesis, and x402-aware web access."
+          }
+        ]
+      }
     }
   }
 }
