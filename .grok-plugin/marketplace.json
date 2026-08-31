@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d"
+        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -88,7 +88,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
@@ -102,7 +102,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
+        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
+        "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+        "sha": "fd878692de15a3069c21c8f429eb0b9f2fe178fa",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
