@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "11c32588786a9d49791372657433b88d49561874"
+        "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
+        "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "abff05613bf82101095a96b43b033150bfd8e145"
+        "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc"
+        "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "e8f9aee6f9a34a633243e632e650401a76c36c41",
+        "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -266,6 +266,33 @@
       "homepage": "https://oz.anyreach.ai",
       "keywords": ["oz", "anyreach", "oz ai teammate", "anyreach mcp"],
       "domains": ["oz.anyreach.ai", "api-oz.anyreach.ai"]
+    },
+    {
+      "name": "pstack",
+      "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cursor/plugins.git",
+        "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+        "path": "pstack"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "browser-use",
+      "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browser-use/plugins.git",
+        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+        "path": "grok"
+      },
+      "homepage": "https://browser-use.com",
+      "keywords": ["browser use", "browser-use", "browser use cloud"],
+      "domains": ["browser-use.com", "cloud.browser-use.com"]
     }
   ]
 }
