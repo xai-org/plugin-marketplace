@@ -346,7 +346,7 @@
       }
     },
     "heyquarry": {
-      "sha": "3992d496b8861b24b08674703c19bd4d2cfa5f23",
+      "sha": "0f915aa4c751e6df328064e5245420985a7ee919",
       "components": {
         "mcpServers": [
           {
@@ -357,7 +357,7 @@
         "skills": [
           {
             "name": "heyquarry",
-            "description": "Search HeyQuarry's Shopify store and app catalog from Grok. Use for ecommerce market research, app install overlap, and…"
+            "description": "Free Shopify store database. Search stores by apps, niche, location, technology and more. Use for ecommerce market rese…"
           }
         ]
       }
