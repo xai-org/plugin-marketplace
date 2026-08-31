@@ -345,6 +345,24 @@
         ]
       }
     },
+    "graph-advocate": {
+      "sha": "f63c93e36c77dc03ce260d10a45aa82aa60a3ad0",
+      "version": "2.11.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "graph-advocate",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "graph-advocate",
+            "description": "Route any blockchain data question to the right Graph Protocol service. Returns live data from 15,500+ subgraphs, Token…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
       "version": "1.2.0",

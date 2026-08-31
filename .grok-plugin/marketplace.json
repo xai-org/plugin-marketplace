@@ -280,6 +280,27 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "graph-advocate",
+      "description": "Onchain data routing for The Graph. Live data from 15,500+ subgraphs, Token API (EVM/Solana/TON), Polymarket, Hyperliquid, x402 analytics, and ERC-8004 agent reputation via the Graph Advocate MCP. No private key; paid tools return a structured 402 for the caller wallet to settle.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PaulieB14/graph-advocate.git",
+        "sha": "f63c93e36c77dc03ce260d10a45aa82aa60a3ad0",
+        "path": "plugins/graph-advocate"
+      },
+      "homepage": "https://graphadvocate.com",
+      "keywords": [
+        "graph-advocate",
+        "the graph",
+        "graphadvocate",
+        "x402"
+      ],
+      "domains": [
+        "graphadvocate.com"
+      ]
     }
   ]
 }
