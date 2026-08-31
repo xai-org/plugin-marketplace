@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "shelter",
+      "description": "Connect Grok to Shelter financial insights: safe-to-spend, cash forecasts, subscription warnings, affordability checks, and AI coaching.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextauralabs/shelter-skill.git",
+        "sha": "d354ec9b950286b9c621ed6c57ce415ddf098fc5"
+      },
+      "homepage": "https://shelter.money",
+      "keywords": ["shelter", "shelter money", "safe to spend", "cash forecast"],
+      "domains": ["shelter.money", "api.shelter.money"]
     }
   ]
 }
