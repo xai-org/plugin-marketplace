@@ -346,7 +346,7 @@
       }
     },
     "graph-advocate": {
-      "sha": "f63c93e36c77dc03ce260d10a45aa82aa60a3ad0",
+      "sha": "ab775257c394f7897bbaf580868ff1e2b6d59420",
       "version": "2.11.1",
       "components": {
         "mcpServers": [
