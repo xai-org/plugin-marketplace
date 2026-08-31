@@ -7,12 +7,12 @@
   "plugins": [
     {
       "name": "weavatrix",
-      "description": "Native read-only repository intelligence with 43 evidence-backed methods for code graphs, impact, architecture, APIs, Git history, search, and quality analysis.",
+      "description": "Native read-only repository intelligence with 44 evidence-backed methods for code graphs, impact, architecture, APIs, Git history, search, and quality analysis.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/sergii-ziborov/weavatrix.git",
-        "sha": "46fd148f1c2ea8f45fa770c9d71bd0296e0a6266",
+        "url": "https://github.com/Weavatrix/weavatrix.git",
+        "sha": "afd051775d3c3d4228f3a7fa8f58c72ef081cabd",
         "path": "plugins/weavatrix"
       },
       "homepage": "https://weavatrix.com",
