@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Weavatrix/weavatrix.git",
-        "sha": "afd051775d3c3d4228f3a7fa8f58c72ef081cabd",
+        "sha": "a4b7c65ede091f691874cb0eadefdd2f47c6392c",
         "path": "plugins/weavatrix"
       },
       "homepage": "https://weavatrix.com",
