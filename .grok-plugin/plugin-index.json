@@ -795,6 +795,80 @@
         ]
       }
     },
+    "sequenzy": {
+      "sha": "498b399a0fb5a23d75642a2b26ae4933d073f057",
+      "version": "1.8.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sequenzy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "claudeemailmarketing",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "claudeemailskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "codexemailskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "dripcampaignskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emailagentskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emailautomationskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emailcampaignskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emaildeliverabilityskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emaildesignskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "emailworkflowskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "hermesemailskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "newsletterskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "openclawemailskill",
+            "description": "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or…"
+          },
+          {
+            "name": "sequenzy",
+            "description": "Generic compatibility guide for Sequenzy operations. Use for broad Sequenzy references, but prefer sequenzy-email-marke…"
+          },
+          {
+            "name": "sequenzy-email-marketing",
+            "description": "Primary agent guide for operating Sequenzy as an email-marketing platform. Use when Codex needs to authenticate, inspec…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
       "version": "0.6.2",
