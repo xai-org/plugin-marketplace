@@ -528,6 +528,23 @@
         ]
       }
     },
+    "postqued": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postqued",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postqued",
+            "description": "Operate Postqued through its hosted MCP server. Use when the user mentions Postqued or asks to work with their Postqued…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "b9ddc83c32972210b8a94d389130713e8eed346e",
       "components": {

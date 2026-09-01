@@ -280,6 +280,23 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "postqued",
+      "description": "Postqued social media management integration (hosted MCP server + skill). Work with client workspaces, connected accounts, media, multi-platform publishing and scheduling, analytics, engagement, approvals, client review, and collaboration.",
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/postqued"
+      },
+      "homepage": "https://postqued.com/mcp",
+      "keywords": ["postqued", "postqued mcp", "postqued social media"],
+      "domains": [
+        "postqued.com",
+        "app.postqued.com",
+        "api.postqued.com",
+        "mcp.postqued.com"
+      ]
     }
   ]
 }
