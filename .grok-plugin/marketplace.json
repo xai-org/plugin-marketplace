@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
-        "sha": "64546ee3ee9a6c50abe5af0e69d9742ee4b9368e"
+        "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
       },
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
