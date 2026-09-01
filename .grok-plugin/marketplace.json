@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "glide",
+      "description": "Glide's official MCP server. Build, manage, and operate GlideOS apps: create and manage projects, query and modify app databases, run workflows, publish and roll back apps, and read, write, and search project files.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/glideapps/mcp.git",
+        "sha": "e1112b3bd4dc7031efd155503e1fe6effe7fa65c",
+        "path": "plugins/glide"
+      },
+      "homepage": "https://www.glideapps.com/docs/os/mcp",
+      "keywords": ["glide", "glideos", "glide apps", "glideapps"],
+      "domains": ["glideapps.com"]
     }
   ]
 }

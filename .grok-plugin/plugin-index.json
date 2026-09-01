@@ -349,6 +349,24 @@
         ]
       }
     },
+    "glide": {
+      "sha": "e1112b3bd4dc7031efd155503e1fe6effe7fa65c",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "glide",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "glideos-development",
+            "description": "Conventions for building and operating GlideOS apps, data, and workflows through the Glide MCP server. Use when working…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
