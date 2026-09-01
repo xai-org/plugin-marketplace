@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "doublespeed",
+      "description": "Create and post TikTok, Instagram, and Facebook slideshows and videos from Grok via the Doublespeed MCP server. Connect with OAuth; no API key to paste.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SyedUmaidAhmed/doublespeed-plugin.git",
+        "sha": "44e1cf3e56204262088ef8737d726a9aefd4c3b6"
+      },
+      "homepage": "https://doublespeed.ai",
+      "keywords": ["doublespeed", "doublespeed mcp", "tiktok slideshows"],
+      "domains": ["doublespeed.ai", "app.doublespeed.ai"]
     }
   ]
 }

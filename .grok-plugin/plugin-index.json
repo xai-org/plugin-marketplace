@@ -199,6 +199,28 @@
         ]
       }
     },
+    "doublespeed": {
+      "sha": "44e1cf3e56204262088ef8737d726a9aefd4c3b6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "doublespeed",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "content-creator",
+            "description": "End-to-end social content creation (TikTok, Instagram, Facebook) through the doublespeed MCP. Pulls brand context and p…"
+          },
+          {
+            "name": "slideshows",
+            "description": "Build slideshow (photo carousel) posts for TikTok, Instagram, and Facebook through the doublespeed MCP: pick a template…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
