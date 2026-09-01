@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "voice-logica",
+      "description": "Manage Voice Logica AI voice agents, phones, calls, workflows, integrations, SMS, and support tickets. Users connect with OAuth to the hosted Voice Logica MCP.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voicelogica/voice-logica-plugin.git",
+        "sha": "48b4a254793cdbca0545f6263f7344febca2d572"
+      },
+      "homepage": "https://voicelogica.ai",
+      "keywords": ["voice logica", "voice agents", "voip", "mcp"],
+      "domains": ["voicelogica.ai", "app.voicelogica.ai", "api.voicelogica.ai"]
     }
   ]
 }

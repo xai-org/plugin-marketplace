@@ -69,7 +69,8 @@ def load_json_file(path: Path):
     try:
         if path.stat().st_size > MAX_JSON_BYTES:
             return None
-        return json.loads(path.read_text(encoding="utf-8"))
+        # utf-8-sig strips a leading BOM some editors write into JSON files.
+        return json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError):
         return None
 
