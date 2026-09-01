@@ -749,6 +749,48 @@
         ]
       }
     },
+    "sdp": {
+      "sha": "e7b7e581fc0150cf8c0aa4149152907e650afa1b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sdp-custom-forms",
+            "description": "http"
+          },
+          {
+            "name": "sdp-listings",
+            "description": "http"
+          },
+          {
+            "name": "sdp-products",
+            "description": "http"
+          },
+          {
+            "name": "sdp-website-builder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sdp-custom-forms",
+            "description": "Administer SDP custom order types through Custom Forms MCP on the themes host. Use for types, fields, pricing items, de…"
+          },
+          {
+            "name": "sdp-listings",
+            "description": "Administer SDP listing catalogs through Listings MCP on the themes host. Use for listing types, custom fields, brands,…"
+          },
+          {
+            "name": "sdp-products",
+            "description": "Administer SDP product catalogs through Products MCP on the themes host. Use for product types, brands, categories, col…"
+          },
+          {
+            "name": "sdp-website-builder",
+            "description": "Build, compose, inspect, or safely edit SDP CMS websites through the SDP/Arawa Website Builder MCP. Use for component s…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

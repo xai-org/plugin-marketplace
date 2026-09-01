@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "sdp",
+      "description": "Official SDP plugin. Build websites with Latte components and administer product, listing, and custom-order catalogs through hosted MCP. Authenticate with OAuth; never invent catalog ids.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sharasolns/sdp-plugins.git",
+        "sha": "e7b7e581fc0150cf8c0aa4149152907e650afa1b"
+      },
+      "homepage": "https://github.com/sharasolns/sdp-plugins",
+      "keywords": ["sdp", "sdp-platform", "sdp website builder", "sdp listings"],
+      "domains": ["sdp-platform.com", "sdp-api.sdp-platform.com"]
     }
   ]
 }
