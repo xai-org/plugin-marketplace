@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "traderspy",
+      "description": "Read-only crypto futures research: AI trading signals with a public track record, smart-money and whale positions across Binance, Hyperliquid, Bybit and OKX, live prices, candles and 13 technical indicators, plus the user's own TraderSpy account. Bundles the hosted TraderSpy MCP server (mcp.traderspy.app) and three skills. Every tool is read-only — the plugin has no order, withdrawal or transfer tool.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/target1m/traderspy-mcp.git",
+        "sha": "2a48dc1d6747471da7a89d78f1efc2bfdd2120a6"
+      },
+      "homepage": "https://traderspy.app/mcp",
+      "keywords": ["traderspy", "trader spy", "traderspy signals", "traderspy smart money"],
+      "domains": ["traderspy.app", "mcp.traderspy.app", "blog.traderspy.app"]
     }
   ]
 }
