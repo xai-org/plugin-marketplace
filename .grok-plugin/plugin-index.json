@@ -199,6 +199,84 @@
         ]
       }
     },
+    "council-of-ai": {
+      "sha": "cb016901e4291dbeb3f510d82f2158da31dcccc2",
+      "version": "0.1.1",
+      "components": {
+        "agents": [
+          {
+            "name": "measurement-auditor",
+            "description": "Read-only subagent that fetches the GSPC board and/or verifies a card. No file edits. No certification language."
+          }
+        ],
+        "commands": [
+          {
+            "name": "council",
+            "description": "Open the Council of AI measurement workflow inside Grok Build."
+          },
+          {
+            "name": "gspc",
+            "description": "Fetch and display the live Council of AI GSPC board."
+          },
+          {
+            "name": "pack",
+            "description": "Assemble a CSOAI 402 measurement pack. Agents pay to assemble; the board stays free. Not a score."
+          },
+          {
+            "name": "sign",
+            "description": "Seal workspace bytes with CSOAI Layer-0. Evidence, not approval."
+          },
+          {
+            "name": "verify",
+            "description": "Verify a signed Council of AI measurement card (three-state)."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "csoai-governance",
+            "description": "stdio"
+          },
+          {
+            "name": "gspc",
+            "description": "http"
+          },
+          {
+            "name": "gspc-npm",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "council",
+            "description": "Independent AI-behaviour measurement via Council of AI. Use when the user wants to measure a system, pull the GSPC boar…"
+          },
+          {
+            "name": "gspc",
+            "description": "Pull the live Council of AI GSPC measurement board. Use when the user asks for scores, axes, leaders, ties vs separated…"
+          },
+          {
+            "name": "pack",
+            "description": "Assemble a Council of AI attested measurement pack via CSOAI 402. Use when the user says /pack, pack assemble, agent in…"
+          },
+          {
+            "name": "sign",
+            "description": "Seal a local file or eval receipt with CSOAI Layer-0 Ed25519 via the governance MCP. Use for /sign, \"attest this output…"
+          },
+          {
+            "name": "verify",
+            "description": "Verify a Council of AI signed measurement card. Three-state verdict only — VALID, INVALID (reason), or UNCHECKABLE. Use…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
