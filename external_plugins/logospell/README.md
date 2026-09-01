@@ -86,6 +86,15 @@ List your recent generations and get their download URLs again, for
 example to recover a result lost to a dropped connection. Generations
 made on the generate page at logospell.com appear here too. Free.
 
+
+### `edit_image_set`
+
+Free. Change how an existing image set is delivered without generating again: `width` and `height` (both, one, or neither, as on the set tools), `canvas` (with no size fixed: `uniform` for one canvas across the set, `subject` to wrap each image around its own subject), `minimumMargin`, `sizing` (relative or fill), `format` and `quality`, and for a transparent set `background` (a `#RRGGBB` color to compose over, or `"transparent"`). Takes the set's `generation` id; a lever left out keeps its current value. The set's download is replaced in place, so the same URL serves the new delivery. Style, subjects and references cannot be edited.
+
+### `export_icons`
+
+Free. Export an existing image set as icons for the web, iOS, Android and Flutter at the base size `iconSize` you name (an even number, 16 to 256; it sizes the batch, so every icon is the delivered image scaled and no file exceeds it): every subject at every density each platform needs, laid out as each expects, with a viewer and a ledger that says per tree whether any file has some blur. One batch and one size per call; `format` and `quality` default to the set's current ones.
+
 ## Setup
 
 1. Sign up at [logospell.com](https://logospell.com): free starter
