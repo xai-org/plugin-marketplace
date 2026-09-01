@@ -350,8 +350,8 @@
       }
     },
     "logospell": {
-      "sha": "377f06f4f0815cc3741b98bc9d1cd5c6e949e0e1",
-      "version": "3.0.0",
+      "sha": "c1f56e9cb293b99852f5872f2e163519b135d4ea",
+      "version": "3.0.1",
       "components": {
         "mcpServers": [
           {
