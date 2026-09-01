@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "doola",
+      "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/doolahq/plugins.git",
+        "sha": "d332682bdc134fb424f429d29ccd5fac40c774c5",
+        "path": "doola"
+      },
+      "homepage": "https://mcp.doola.com",
+      "keywords": ["doola", "doola formation", "doola.com", "mcp.doola.com"],
+      "domains": ["doola.com", "mcp.doola.com"]
     }
   ]
 }
