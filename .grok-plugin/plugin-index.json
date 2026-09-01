@@ -349,6 +349,18 @@
         ]
       }
     },
+    "mcp-oauth-connect": {
+      "sha": "28a9e8a00f7fe64111a8df2fb0aea01ad5595642",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "mcp-oauth-connect",
+            "description": "Diagnose MCP OAuth 2.0 so claude.ai Connectors, Claude Desktop, Cursor, and Grok can actually attach. Use when a connec…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
