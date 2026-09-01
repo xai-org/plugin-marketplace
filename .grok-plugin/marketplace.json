@@ -286,8 +286,10 @@
       "description": "AI image generation for your agent (MCP server). One call returns a cohesive image set, a transparent-background set, or a single illustration, ready to drop into what you're building.",
       "category": "development",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/logospell"
+        "source": "url",
+        "url": "https://github.com/logospell/logospell-mcp-server.git",
+        "sha": "1a099dd2cfa24c3e71dd298c3622581c6aef11aa",
+        "path": "grok"
       },
       "homepage": "https://logospell.com",
       "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
