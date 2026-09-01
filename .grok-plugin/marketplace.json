@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "consult",
+      "description": "Ask local Claude Code (Pro or Max), Codex CLI (ChatGPT), and/or Cursor Agent CLI for a second opinion from Grok Build. Never auto-invoke.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/index9-org/grok-consult.git",
+        "sha": "b8933d68a945113cb6186fc9369118b3f442706e"
+      },
+      "homepage": "https://github.com/index9-org/grok-consult",
+      "keywords": ["grok-consult", "claude-consult", "codex-consult", "cursor-consult", "ask claude", "ask codex", "ask cursor"],
+      "domains": ["index9.dev"]
     }
   ]
 }
