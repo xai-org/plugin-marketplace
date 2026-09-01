@@ -349,6 +349,18 @@
         ]
       }
     },
+    "flightqueue": {
+      "sha": "103cca86ebea811f404c7e9bc3fd48694d97189b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flightqueue",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

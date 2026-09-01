@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "flightqueue",
+      "description": "FlightQueue airport intelligence. Security wait times and forecasts, FAA delays, EU Entry/Exit System border queues, lounges, terminals, aviation weather, and airline baggage performance for 8,000+ airports. Hosted remote MCP server, OAuth sign-in.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Flight-Queue/mcp.git",
+        "sha": "103cca86ebea811f404c7e9bc3fd48694d97189b"
+      },
+      "homepage": "https://mcp.flightqueue.com",
+      "keywords": ["flightqueue", "flight queue", "flightqueue airport"],
+      "domains": ["flightqueue.com", "mcp.flightqueue.com"]
     }
   ]
 }
