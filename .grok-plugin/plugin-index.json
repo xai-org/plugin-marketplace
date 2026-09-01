@@ -857,6 +857,28 @@
         ]
       }
     },
+    "supabase": {
+      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
+      "version": "0.1.15",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "supabase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "supabase",
+            "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Stor…"
+          },
+          {
+            "name": "supabase-postgres-best-practices",
+            "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changi…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "version": "6.3.0",
