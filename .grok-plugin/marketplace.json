@@ -255,6 +255,19 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "adspirer",
+      "description": "Manage paid media from Grok Build (MCP server + skills). Create, analyze, and optimize ad campaigns across Google Ads, Meta Ads (Facebook & Instagram), TikTok Ads, LinkedIn Ads, Amazon Ads, and ChatGPT Ads — keyword research with live CPC data, campaign creation, cross-platform performance review, wasted-spend and creative-fatigue detection, and budget optimization. New campaigns are always created paused.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Adspirer/adspirer-grok-plugin.git",
+        "sha": "f698b3a4fcbc88f35edf56bf8d6311f6826c71b1"
+      },
+      "homepage": "https://www.adspirer.com",
+      "keywords": ["adspirer", "adspirer ads", "adspirer campaign", "adspirer mcp"],
+      "domains": ["adspirer.com", "www.adspirer.com", "adspirer.ai", "mcp.adspirer.com"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",

@@ -1,6 +1,103 @@
 {
   "version": 1,
   "plugins": {
+    "adspirer": {
+      "sha": "f698b3a4fcbc88f35edf56bf8d6311f6826c71b1",
+      "components": {
+        "agents": [
+          {
+            "name": "performance-marketing-agent",
+            "description": "Brand-specific performance marketing agent. Use proactively when the user asks about ad campaigns, campaign performance…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "performance-review",
+            "description": "Run a cross-platform performance review for this brand"
+          },
+          {
+            "name": "refresh-brand-context",
+            "description": "Re-scan brand docs and update AGENTS.md with latest info"
+          },
+          {
+            "name": "setup",
+            "description": "Set up your brand workspace — connect to Adspirer and pull campaign data"
+          },
+          {
+            "name": "wasted-spend",
+            "description": "Find and fix wasted ad spend across all platforms"
+          },
+          {
+            "name": "write-ad-copy",
+            "description": "Write brand-voice-compliant ad copy for a specific platform"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "adspirer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adspirer-agent",
+            "description": "Paid-media advertising agent behavior for Adspirer — create, analyze, and optimize ad campaigns across Google Ads, Meta…"
+          },
+          {
+            "name": "adspirer-amazon-ads",
+            "description": "Create and manage Amazon Ads through Adspirer — Sponsored Products, Sponsored Brands, and Sponsored Display, with ASIN…"
+          },
+          {
+            "name": "adspirer-chatgpt-ads",
+            "description": "Create and manage ChatGPT Ads (OpenAI Ads) through Adspirer — ads that appear inside ChatGPT responses. Use for OpenAI…"
+          },
+          {
+            "name": "adspirer-creative",
+            "description": "Write and refresh ad creative with Adspirer — headlines, descriptions, primary text, and ad copy for Google, Meta, TikT…"
+          },
+          {
+            "name": "adspirer-docs",
+            "description": "Answer questions about Adspirer itself — pricing, plans, quota and tool-call limits, what Adspirer can do, connecting a…"
+          },
+          {
+            "name": "adspirer-google-ads",
+            "description": "Create and manage Google Ads campaigns through Adspirer — Search, Performance Max, Demand Gen, YouTube, and Display. Us…"
+          },
+          {
+            "name": "adspirer-launch",
+            "description": "Plan and launch a new ad campaign with Adspirer — start, create, set up, or launch campaigns on one or several platform…"
+          },
+          {
+            "name": "adspirer-linkedin-ads",
+            "description": "Create and manage LinkedIn Ads through Adspirer — sponsored content, single image, video, carousel, text ads, and lead-…"
+          },
+          {
+            "name": "adspirer-mcp",
+            "description": "How to call the Adspirer MCP hub correctly — the router two-step (action \"list_tools\" then action \"execute\" with tool_n…"
+          },
+          {
+            "name": "adspirer-meta-ads",
+            "description": "Create and manage Meta Ads (Facebook and Instagram) through Adspirer — image, video, carousel, and lead-gen campaigns,…"
+          },
+          {
+            "name": "adspirer-optimize",
+            "description": "Find and fix wasted ad spend with Adspirer — cut spend that isn't converting, add negative keywords, exclude audiences…"
+          },
+          {
+            "name": "adspirer-performance-review",
+            "description": "Review ad performance across platforms with Adspirer — how are my ads doing, weekly or monthly reports, a cross-channel…"
+          },
+          {
+            "name": "adspirer-setup",
+            "description": "Set up your brand workspace — connect to Adspirer, scan brand docs, pull campaign data, and create AGENTS.md. Use on fi…"
+          },
+          {
+            "name": "adspirer-tiktok-ads",
+            "description": "Create and manage TikTok Ads through Adspirer — in-feed video, Spark Ads, carousel, app promotion, and conversions camp…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
