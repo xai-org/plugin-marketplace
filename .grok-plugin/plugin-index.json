@@ -349,6 +349,76 @@
         ]
       }
     },
+    "gsc-wizard": {
+      "sha": "573d0a1da6749fa39045460f46fa006080b6aa78",
+      "version": "0.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "seo-analyst",
+            "description": "Search Console and SEO performance analyst powered by GSC Wizard. Use for any question about organic search performance…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "gsc-cannibalization",
+            "description": "Find and triage query cannibalization for a property via GSC Wizard"
+          },
+          {
+            "name": "gsc-decay",
+            "description": "Find decaying content and prioritize refresh candidates via GSC Wizard"
+          },
+          {
+            "name": "gsc-opportunities",
+            "description": "Rank near-term organic growth opportunities for a property via GSC Wizard"
+          },
+          {
+            "name": "gsc-rankings",
+            "description": "Analyze ranking winners and losers for a property via GSC Wizard"
+          },
+          {
+            "name": "gsc-report",
+            "description": "Run the weekly SEO report for a Search Console property via GSC Wizard"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "gsc-wizard",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cannibalization",
+            "description": "Find and triage query cannibalization (multiple pages competing for one query) with GSC Wizard's server-side entropy-sc…"
+          },
+          {
+            "name": "content-decay",
+            "description": "Find pages losing organic traffic over time with GSC Wizard's decay detection, classify the decay type (ranking, demand…"
+          },
+          {
+            "name": "ctr-opportunities",
+            "description": "Find queries and pages with lower CTR than expected for their ranking position using GSC Wizard's CTR-curve benchmark,…"
+          },
+          {
+            "name": "gsc-wizard-mcp",
+            "description": "Core rules for using the GSC Wizard MCP well - choosing the right tool out of 100+, date defaults and the settled-data…"
+          },
+          {
+            "name": "ranking-changes",
+            "description": "Explain what gained or lost rankings and why organic traffic moved, using GSC Wizard's ranking-change analysis. Use for…"
+          },
+          {
+            "name": "seo-opportunities",
+            "description": "Rank near-term organic growth opportunities for a property using GSC Wizard's impression-weighted opportunity scoring a…"
+          },
+          {
+            "name": "weekly-seo-report",
+            "description": "Produce a repeatable weekly SEO review for one Search Console property from GSC Wizard data — performance vs the prior…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

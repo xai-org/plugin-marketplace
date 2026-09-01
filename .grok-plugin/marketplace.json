@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "gsc-wizard",
+      "description": "Google Search Console analysis and SEO workflows powered by GSC Wizard: rankings, content decay, cannibalization, CTR curves, and opportunity scoring, all computed server-side.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gscwizard/grok-plugin.git",
+        "sha": "573d0a1da6749fa39045460f46fa006080b6aa78"
+      },
+      "homepage": "https://gscwizard.com",
+      "keywords": ["gsc wizard", "gscwizard", "gsc wizard mcp"],
+      "domains": ["gscwizard.com", "mcp.gscwizard.com"]
     }
   ]
 }
