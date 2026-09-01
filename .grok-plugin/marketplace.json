@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "beam",
+      "description": "Beam Protocol integration for trusted agent-to-agent collaboration. Verify Beam IDs, inspect public trust metadata, and prepare approval-gated handoffs through a dedicated OAuth-protected MCP tenant.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Beam-directory/beam-protocol.git",
+        "sha": "c3b3499852101d26e67c925f77c7bb6a8c805243",
+        "path": "integrations/grok-build"
+      },
+      "homepage": "https://beam.directory",
+      "keywords": ["beam protocol", "beam id", "beam agent handoff", "beam mcp"],
+      "domains": ["beam.directory", "docs.beam.directory"]
     }
   ]
 }

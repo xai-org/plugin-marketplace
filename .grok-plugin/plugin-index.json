@@ -71,6 +71,30 @@
         ]
       }
     },
+    "beam": {
+      "sha": "c3b3499852101d26e67c925f77c7bb6a8c805243",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "beam-onboard",
+            "description": "Connect and verify a dedicated Beam MCP tenant"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "beam",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "beam",
+            "description": "Use Beam for verified agent identity, contacts, direct and group conversations, presence, and approval-gated handoffs t…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
