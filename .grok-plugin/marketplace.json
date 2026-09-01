@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "budgey",
+      "description": "Connect any agent to your Budgey budget: see what's left this period, log spending, and manage categories, goals, and recurring bills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/budgey-platforms/budgey-agent-plugin.git",
+        "sha": "faac5c73b9ebe45026ef53871f78c59f19beca84"
+      },
+      "homepage": "https://www.budgeyapp.com/developers",
+      "keywords": ["budgey", "budgeyapp"],
+      "domains": ["budgeyapp.com", "www.budgeyapp.com"]
     }
   ]
 }
