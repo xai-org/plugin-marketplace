@@ -1,6 +1,34 @@
 {
   "version": 1,
   "plugins": {
+    "award-travel-finder": {
+      "sha": "f6a41a7b0c09220db57e37b075eb1452e506f8fb",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "compare-programs",
+            "description": "Compare loyalty program award charts and rates"
+          },
+          {
+            "name": "search-flights",
+            "description": "Search award flight availability across airlines"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "awardtravelfinder",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "award-travel",
+            "description": "This skill should be used when the user asks about \"award flights\", \"points\", \"miles\", \"avios\", \"asia miles\", \"loyalty…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
