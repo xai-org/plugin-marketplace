@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "airport-lounge-list": {
+      "sha": "5beb3e8c796e9500087bfacfbaaa9b46bc13d273",
+      "version": "0.7.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "airport-lounge-list",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

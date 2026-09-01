@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "airport-lounge-list",
+      "description": "Airport lounge access. Search 8,500+ lounges worldwide and check which ones a credit card, membership, airline status or ticket class gets you into, with amenities, hours and terminal. Log visits and reviews once signed in.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Airport-Lounge-List/mcp-server.git",
+        "sha": "5beb3e8c796e9500087bfacfbaaa9b46bc13d273"
+      },
+      "homepage": "https://airportloungelist.com/mcp",
+      "keywords": ["airport lounge list", "airportloungelist", "airport lounge", "lounge access", "priority pass lounge"],
+      "domains": ["airportloungelist.com"]
     }
   ]
 }
