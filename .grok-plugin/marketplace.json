@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/sharasolns/sdp-plugins.git",
-        "sha": "42278ac4acdf61fa53fbaf169b5ee42cbe8f5e77"
+        "sha": "b5d104a80f826a5084e6018e99267bea62275a73"
       },
       "homepage": "https://github.com/sharasolns/sdp-plugins",
       "keywords": ["sdp", "sdp-platform", "sdp website builder", "sdp listings"],
