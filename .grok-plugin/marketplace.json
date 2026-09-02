@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/starl3xx/walletlink-grok-plugin.git",
-        "sha": "57d3450559bfd14b81e3fe29a0a8bf1243a606fb"
+        "sha": "9e777bbe85e2d1002f3ae925eb204766f4ddae69"
       },
       "homepage": "https://walletlink.social",
       "keywords": ["walletlink", "walletlink social", "walletlink mcp"],
