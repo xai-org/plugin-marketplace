@@ -350,8 +350,8 @@
       }
     },
     "lila-perimenopause": {
-      "sha": "705a3a4e16f83758613e7a42bd63a00e613ba5e3",
-      "version": "0.1.0",
+      "sha": "f0448dc6cd01c7947228da8860aff0708daff391",
+      "version": "0.2.0",
       "components": {
         "skills": [
           {
