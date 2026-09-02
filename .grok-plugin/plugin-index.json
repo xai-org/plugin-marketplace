@@ -127,6 +127,179 @@
         ]
       }
     },
+    "cloudbase": {
+      "sha": "747aadf1017060e899c4703e1bf8d520d2cd2513",
+      "components": {
+        "agents": [
+          {
+            "name": "cloudbase-architect",
+            "description": "Specializes in CloudBase project architecture — scenario selection (Web/Mini Program/CloudRun/Database), tech stack dec…"
+          },
+          {
+            "name": "cloudbase-deployment-expert",
+            "description": "Specializes in CloudBase deployment — cloud function deploy/debug, static hosting upload, CloudRun service management.…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "cloudbase-deploy",
+            "description": "Deploy CloudBase resources. Subcommands: function (cloud functions), hosting (static hosting), cloudrun (CloudRun). Def…"
+          },
+          {
+            "name": "cloudbase-env",
+            "description": "CloudBase environment management. Subcommands: list (environments), info (current env details), domains (auth domains).…"
+          },
+          {
+            "name": "cloudbase-init",
+            "description": "Initialize a CloudBase project. Download a template, configure the environment, and generate cloudbaserc.json. Best for…"
+          },
+          {
+            "name": "cloudbase-status",
+            "description": "CloudBase project health check. Inspect environment status, cloud functions, deploy history, and logs."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Edit|Write|MultiEdit|apply_patch|Bash"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "cloudbase-mcp",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-model-nodejs",
+            "description": "Use this skill for Node.js backend AI via @cloudbase/node-sdk (>=3.16.0) — cloud functions, CloudRun, Express, Koa, Nes…"
+          },
+          {
+            "name": "ai-model-web",
+            "description": "Use this skill when a browser/Web app (React, Vue, Angular, Next, Nuxt, static sites, SPAs, dashboards, AI chat UI) nee…"
+          },
+          {
+            "name": "ai-model-wechat",
+            "description": "Use this skill for WeChat Mini Program AI via wx.cloud.extend.AI (小程序, 企业微信小程序, wx.cloud apps). Features generateText a…"
+          },
+          {
+            "name": "auth-nodejs-cloudbase",
+            "description": "CloudBase Node SDK auth guide for server-side identity, user lookup, and custom login tickets. This skill should be use…"
+          },
+          {
+            "name": "auth-tool-cloudbase",
+            "description": "CloudBase auth provider configuration and login-readiness guide. This skill should be used when users need to inspect,…"
+          },
+          {
+            "name": "auth-web-cloudbase",
+            "description": "CloudBase Web Authentication Quick Guide for frontend integration after auth-tool has already been checked. Provides co…"
+          },
+          {
+            "name": "auth-wechat-miniprogram",
+            "description": "CloudBase WeChat Mini Program native authentication guide. This skill should be used when users need mini program ident…"
+          },
+          {
+            "name": "cloud-functions",
+            "description": "CloudBase function runtime guide for building, deploying, and debugging your own Event Functions or HTTP Functions. Thi…"
+          },
+          {
+            "name": "cloud-storage-web",
+            "description": "Complete guide for CloudBase cloud storage using Web SDK (@cloudbase/js-sdk) - upload, download, temporary URLs, file m…"
+          },
+          {
+            "name": "cloudbase",
+            "description": "Use this skill when you develop, design, build, deploy, debug, migrate, or troubleshoot CloudBase (腾讯云开发, 云开发, TCB, 微信云…"
+          },
+          {
+            "name": "cloudbase-agent",
+            "description": "Build and deploy AI agents with CloudBase Agent SDK (TypeScript & Python). Implements the AG-UI protocol for streaming…"
+          },
+          {
+            "name": "cloudbase-cli",
+            "description": "CloudBase CLI (tcb, 云开发CLI, Tencent CloudBase命令行) resource management skill. Use when deploying cloud functions, CloudR…"
+          },
+          {
+            "name": "cloudbase-code-review",
+            "description": "Code review and validation for CloudBase projects. After writing code for Web / miniprogram / CloudRun / cloud-function…"
+          },
+          {
+            "name": "cloudbase-document-database-in-wechat-miniprogram",
+            "description": "Use CloudBase document database WeChat MiniProgram SDK to query, create, update, and delete data. Supports complex quer…"
+          },
+          {
+            "name": "cloudbase-document-database-web-sdk",
+            "description": "Use CloudBase document database Web SDK only for confirmed NoSQL collection work. Query, create, update, and delete doc…"
+          },
+          {
+            "name": "cloudbase-platform",
+            "description": "CloudBase platform overview and routing guide. This skill should be used when users need high-level capability selectio…"
+          },
+          {
+            "name": "cloudbase-wechat-integration",
+            "description": "CloudBase WeChat integration guide for Mini Program WeChat Pay, Official Account JSAPI Pay, Native QR-code Pay, Officia…"
+          },
+          {
+            "name": "cloudrun-development",
+            "description": "CloudBase Run backend development rules (Function mode/Container mode). Use this skill when deploying backend services…"
+          },
+          {
+            "name": "data-model-creation",
+            "description": "[Deprecated] Optional advanced tool for complex data modeling. For simple MySQL table creation, use relational-database…"
+          },
+          {
+            "name": "http-api-cloudbase",
+            "description": "CloudBase official HTTP API client guide. This skill should be used when backends, scripts, or non-SDK clients must cal…"
+          },
+          {
+            "name": "minimal-web-baas-demo",
+            "description": "Fast path for a minimal CloudBase Web + database demo (最小前后端 / 最小可用 fullstack / Lovable-like BaaS). Defaults to @cloudb…"
+          },
+          {
+            "name": "miniprogram-development",
+            "description": "WeChat Mini Program development skill for building, debugging, previewing, testing, publishing, optimizing, and promoti…"
+          },
+          {
+            "name": "ops-inspector",
+            "description": "AIOps-style CloudBase inspection skill (v3). Use when users need health checks, log diagnosis, alarm interpretation (CP…"
+          },
+          {
+            "name": "postgresql-development-cloudbase",
+            "description": "Use when building, debugging, or evaluating CloudBase PostgreSQL / CloudBase PG / PG mode apps, including Postgres sche…"
+          },
+          {
+            "name": "relational-database-mcp-cloudbase",
+            "description": "[Deprecated] This is the required documentation for agents operating on the CloudBase Relational Database through MCP.…"
+          },
+          {
+            "name": "relational-database-web-cloudbase",
+            "description": "[Deprecated] Use when building frontend Web apps that talk to CloudBase Relational Database via @cloudbase/js-sdk – pro…"
+          },
+          {
+            "name": "spec-workflow",
+            "description": "Use when medium-to-large changes need explicit requirements, technical design, and task planning before implementation,…"
+          },
+          {
+            "name": "ui-design",
+            "description": "Use when users need visual direction, interface hierarchy, layout decisions, design specifications, or prototypes befor…"
+          },
+          {
+            "name": "web-development",
+            "description": "Use when users need to implement, integrate, debug, build, deploy, or validate a Web frontend after the product directi…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "cloudbase",
+      "description": "Tencent CloudBase backend-as-a-service platform: AI models, auth, databases, cloud functions, storage, CloudRun, and WeChat Mini Program workflows via MCP plus skills, commands, agents, and hooks.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TencentCloudBase/cloudbase-plugin.git",
+        "sha": "747aadf1017060e899c4703e1bf8d520d2cd2513"
+      },
+      "homepage": "https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/ai-agent-plugins",
+      "keywords": ["cloudbase", "tencent cloudbase", "cloudbase mcp"],
+      "domains": ["cloudbase.net", "tcb.cloud.tencent.com"]
     }
   ]
 }
