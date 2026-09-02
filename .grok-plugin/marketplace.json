@@ -283,12 +283,12 @@
     },
     {
       "name": "flightseatmap",
-      "description": "FlightSeatMap airline seat map integration. Look up the cabin layout for any flight, rank the free seats against preferences like window, aisle, exit row or extra legroom, read traveller reviews of a specific seat, and set alerts for when a better seat frees up. Covers 150+ airlines.",
+      "description": "FlightSeatMap airline seat map integration. Look up the cabin layout for any flight, rank the free seats against preferences like window, aisle, exit row or extra legroom, read traveller reviews of a specific seat, and set alerts for when a better seat frees up. Covers 117 airlines.",
       "category": "travel",
       "source": {
         "source": "url",
         "url": "https://github.com/FlightSeatmap/mcp.git",
-        "sha": "4e3cd18d4dff1561806afa58c42785e36dbb9126"
+        "sha": "c9d60fc1021a3023264e380dbd2a2f678065dfda"
       },
       "homepage": "https://flightseatmap.com/mcp",
       "keywords": ["flightseatmap", "flight seat map", "airplane seat", "seat alert"],

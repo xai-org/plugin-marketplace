@@ -346,8 +346,8 @@
       }
     },
     "flightseatmap": {
-      "sha": "4e3cd18d4dff1561806afa58c42785e36dbb9126",
-      "version": "6.0.0",
+      "sha": "c9d60fc1021a3023264e380dbd2a2f678065dfda",
+      "version": "6.0.1",
       "components": {
         "commands": [
           {
