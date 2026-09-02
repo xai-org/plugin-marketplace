@@ -349,6 +349,18 @@
         ]
       }
     },
+    "github-talent-mcp": {
+      "sha": "51f6e90712b24447547518b2fa128feb50be1542",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "github-talent",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
