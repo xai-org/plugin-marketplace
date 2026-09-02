@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "orgora",
+      "description": "Private org charts for sales, marketing, consultants, and managers. Map buying committees and client orgs on your Mac; Grok reads them locally and can build a chart from your inbox MCP. No Orgora account — charts stay on the device.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sdkorg-apps/orgora-plugin.git",
+        "sha": "a0e2c3497543b775008d1213d6179ae3f13bc061"
+      },
+      "homepage": "https://sdkaihub.com/orgora-charts/",
+      "keywords": ["orgora", "orgora charts", "sdkaihub"],
+      "domains": ["sdkaihub.com"]
     }
   ]
 }
