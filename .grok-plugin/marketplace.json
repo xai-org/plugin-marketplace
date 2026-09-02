@@ -291,7 +291,7 @@
         "sha": "0c0481e6e0444bece910a2270f6b8e602c0a5401"
       },
       "homepage": "https://htmlcsstoimage.com",
-      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "hcti mcp", "screenshot"],
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "screenshot", "url screenshot"],
       "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
     }
   ]
