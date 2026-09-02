@@ -528,6 +528,32 @@
         ]
       }
     },
+    "post-bridge": {
+      "sha": "681e8e6dac94eb6d9c0467e303e158dea8ba2958",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "post-bridge",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "b2c-organic-social-media-marketing",
+            "description": "Organic growth coach for B2C apps and products on TikTok and Instagram, with no ad spend. Covers account creation, the…"
+          },
+          {
+            "name": "multi-account-operator",
+            "description": "Run 15 to 400+ social accounts without burning them. Covers account-count vs per-channel economics, bulk scheduling and…"
+          },
+          {
+            "name": "post-bridge",
+            "description": "Create, schedule, and manage social media posts across Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Th…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "b9ddc83c32972210b8a94d389130713e8eed346e",
       "components": {
