@@ -349,6 +349,18 @@
         ]
       }
     },
+    "hol-guard-grok-plugin": {
+      "sha": "97d8bf18963d57e35dcedf702040ccddbc965357",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "hol-guard",
+            "description": "Use when setting up HOL Guard, protecting local AI harnesses (Grok Build, Codex, Claude Code), reviewing Guard approval…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

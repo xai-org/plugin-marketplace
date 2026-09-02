@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "hol-guard-grok-plugin",
+      "description": "HOL Guard local-first security for Grok Build. Protect supported AI harnesses, review approvals and receipts, and scan plugins, skills, MCP servers, and agent packages before trust.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hashgraph-online/hol-guard-grok-plugin.git",
+        "sha": "97d8bf18963d57e35dcedf702040ccddbc965357"
+      },
+      "homepage": "https://hol.org/guard",
+      "keywords": ["hol guard", "hol-guard", "grok hol guard", "hashgraph online hol guard"],
+      "domains": ["hol.org"]
     }
   ]
 }
