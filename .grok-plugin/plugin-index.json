@@ -1203,7 +1203,7 @@
       }
     },
     "walletlink": {
-      "sha": "92730037fb88dea5ba058907a364123d819b5d20",
+      "sha": "01379bc102cc79c3e4f77eb1c3fcdcfda98ee5f5",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
