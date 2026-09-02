@@ -429,6 +429,24 @@
         ]
       }
     },
+    "municibid": {
+      "sha": "16ee114e8ccfe88c4327641950a742a1a09b9b9e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "municibid",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "municibid",
+            "description": "Search public Municibid government surplus auctions, open listing details, review sold comps, estimate informational ma…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
