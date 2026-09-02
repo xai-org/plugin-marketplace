@@ -187,6 +187,19 @@
       "domains": ["figma.com", "www.figma.com"]
     },
     {
+      "name": "fudge",
+      "description": "Search captured website references and inspect their typography, colors, layout, components, and design tokens through Fudge's hosted MCP server and design-research skill.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scroobius-pip/fudge-mcp.git",
+        "sha": "684b8137f6853492e1d66a07eaca1914bf86c405"
+      },
+      "homepage": "https://design.withfudge.com/mcp",
+      "keywords": ["fudge", "fudge mcp", "fudge design"],
+      "domains": ["design.withfudge.com", "api.withfudge.com", "pin.fontofweb.com"]
+    },
+    {
       "name": "exa",
       "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to find the latest code docs, news, company information, and much more. Use the exa-search skill for deep research, and sign up for Exa to get free credits.",
       "category": "development",

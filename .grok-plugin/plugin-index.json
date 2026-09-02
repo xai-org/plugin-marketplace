@@ -349,6 +349,24 @@
         ]
       }
     },
+    "fudge": {
+      "sha": "684b8137f6853492e1d66a07eaca1914bf86c405",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fudge",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fudge-design-research",
+            "description": "Use Fudge when a user asks Grok Build to find website references, inspect how a captured website is designed, identify…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
