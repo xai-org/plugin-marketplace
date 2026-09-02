@@ -803,6 +803,18 @@
         ]
       }
     },
+    "shelter": {
+      "sha": "d354ec9b950286b9c621ed6c57ce415ddf098fc5",
+      "version": "1.0.6",
+      "components": {
+        "skills": [
+          {
+            "name": "shelter",
+            "description": "Connect to your Shelter financial data. Check safe-to-spend, predict cash crunches, find zombie subscriptions, simulate…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "cf681787184a493e7106b0ae1ee88a1fede65017",
       "version": "0.6.3",
