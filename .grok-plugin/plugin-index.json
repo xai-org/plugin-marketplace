@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "alertforge": {
+      "sha": "bd3d63193f49dc0ba1955ba0a0745ceadb8b6524",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "alertforge",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-stream-branding",
+            "description": "Create coordinated streaming brand assets with AlertForge, including Style Sheets, animated overlay packs, AI stream al…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
