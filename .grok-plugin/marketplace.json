@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "deadsimple-email",
+      "description": "Give Grok its own email address. Dead Simple Email provisions agent-owned inboxes, sends and receives mail, replies in-thread, and pulls one-time codes and magic links out of signup email so a bot can finish an email verification on its own. 14 tools over a hosted MCP server, OAuth sign-in, no API key to paste.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/deadsimple-email/deadsimple-plugins.git",
+        "sha": "114cc2ee9b7791402dac7f4c5066d5ae7263e3a8"
+      },
+      "homepage": "https://deadsimple.email",
+      "keywords": ["dead simple email", "deadsimple email", "deadsimple inbox", "deadsimple mcp"],
+      "domains": ["deadsimple.email"]
     }
   ]
 }

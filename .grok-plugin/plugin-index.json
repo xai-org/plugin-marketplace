@@ -199,6 +199,52 @@
         ]
       }
     },
+    "deadsimple-email": {
+      "sha": "114cc2ee9b7791402dac7f4c5066d5ae7263e3a8",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deadsimple",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-email-patterns",
+            "description": "Design and review agent systems that use email, covering safe topologies, the authorization model for consequential act…"
+          },
+          {
+            "name": "check-inbox",
+            "description": "Read, search, summarize, and triage Dead Simple Email inboxes through the connected MCP server. Use for ANY request to…"
+          },
+          {
+            "name": "deadsimple-mcp",
+            "description": "Connect, authenticate, and troubleshoot the Dead Simple Email MCP server. Use when the email tools are missing or greye…"
+          },
+          {
+            "name": "deadsimple-sdk",
+            "description": "Write application code against the Dead Simple Email REST API using the Python, TypeScript, or Go SDK. Use when buildin…"
+          },
+          {
+            "name": "deadsimple-webhooks",
+            "description": "Register and consume Dead Simple Email webhooks, and verify their signatures correctly. Use when building an endpoint t…"
+          },
+          {
+            "name": "manage-inboxes",
+            "description": "Create, list, and delete Dead Simple Email inboxes and check plan usage through the connected MCP server. Use when the…"
+          },
+          {
+            "name": "send-email",
+            "description": "Send new email, reply within a thread, and forward messages from Dead Simple Email inboxes through the connected MCP se…"
+          },
+          {
+            "name": "verification-codes",
+            "description": "Complete email verification, signup, and 2FA flows end to end using a Dead Simple Email inbox. Use whenever a task requ…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
