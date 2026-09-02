@@ -1202,6 +1202,36 @@
         ]
       }
     },
+    "virlo": {
+      "sha": "84b409fe9c8b4c43f8c26d8ef51b6107009e97c5",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "creator-deep-dive",
+            "description": "Deep-dive analysis of a specific creator (platform + username) using Virlo."
+          },
+          {
+            "name": "genre-monitor",
+            "description": "Stand up a recurring TikTok genre/scene monitor and read discovery signals (sounds, hashtags, rising creators) using Vi…"
+          },
+          {
+            "name": "niche-analysis",
+            "description": "Full niche analysis (research agent + creators + recurring monitor) for a given niche, using Virlo."
+          },
+          {
+            "name": "trend-scout",
+            "description": "Discover what's trending right now across TikTok, YouTube Shorts, and Instagram Reels using Virlo."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "virlo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
