@@ -357,6 +357,23 @@
         ]
       }
     },
+    "heyquarry": {
+      "sha": "2917be574c12945a0e1f7eeda63adc5380f05e7a",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "heyquarry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "heyquarry",
+            "description": "Free Shopify store database. Search stores by apps, niche, location, technology and more. Use for ecommerce market rese…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
