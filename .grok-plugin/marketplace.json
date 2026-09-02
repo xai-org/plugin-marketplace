@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "sqd",
+      "description": "Explore blockchain data across 130+ networks with SQD Portal. Query Ethereum, Base, Solana, Polkadot, Bitcoin, Hyperliquid, and more, discover Tron metadata, and use bundled Portal, Pipes SDK, and Squid SDK skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/subsquid-labs/portal-mcp-server.git",
+        "sha": "cf52a3bc738ef984e61128d439b7bc88dea4f279",
+        "path": "plugins/portal"
+      },
+      "homepage": "https://sqd.dev/portal/",
+      "keywords": ["sqd", "subsquid", "sqd blockchain", "sqd blockchain data", "sqd hyperliquid", "sqd tron", "sqd portal"],
+      "domains": ["sqd.dev", "portal.sqd.dev", "docs.sqd.dev"]
     }
   ]
 }
