@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "speakai-mcp",
+      "description": "Capture meetings, search thousands of recordings, run async voice and video surveys, create clips, and automate workflows with Speak AI directly from Grok — transcription, AI insights, and analysis across your recorded conversations.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/speakai/speakai-mcp.git",
+        "sha": "800644b262b3fe2260068890b56aed9f47c32c54",
+        "path": "plugins/speakai-mcp"
+      },
+      "homepage": "https://docs.speakai.co/mcp",
+      "keywords": ["speak ai", "speakai", "speak ai transcription", "speak ai meeting notes", "speak ai research analysis", "speak ai sales coaching", "speak ai voice survey", "speak ai video survey"],
+      "domains": ["speakai.co"]
     }
   ]
 }
