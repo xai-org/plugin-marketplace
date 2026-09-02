@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "gmaa-grok",
+      "description": "Grok TUI harness for GMAA. Skills, commands, agents, hooks. Fetches the sealed companion engine zip into ~/Downloads; on adopt copies it into ~/Code/<project>/ still zipped. Spine stays in the engine zip.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GMAA-AI/gmaa.git",
+        "sha": "c3d8d1d8f84a7432711bec53dd1e3a60bf5d71bf",
+        "path": "grok/gmaa-grok-plugin"
+      },
+      "homepage": "https://gmaa.ai",
+      "keywords": ["gmaa", "gmaa-grok"],
+      "domains": ["gmaa.ai"]
     }
   ]
 }

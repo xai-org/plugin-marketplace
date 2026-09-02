@@ -349,6 +349,81 @@
         ]
       }
     },
+    "gmaa-grok": {
+      "sha": "c3d8d1d8f84a7432711bec53dd1e3a60bf5d71bf",
+      "components": {
+        "agents": [
+          {
+            "name": "architect",
+            "description": "HOW-class Product Architect seat — the autonomous adjudicator. Reads the whole repo at HEAD + worktrees READ-ONLY; rati…"
+          },
+          {
+            "name": "build-worker",
+            "description": "Worker for {{PROJECT_NAME}} (greenfield apparatus) work-packages. Executes one WP per spawn on its own branch; emits ar…"
+          },
+          {
+            "name": "canvas-monitor",
+            "description": "Monitors Cowork canvas-surface outputs (close-outs, PRE-STEP captures) and flags drift, contradictions with the main tr…"
+          },
+          {
+            "name": "dispatch-executor",
+            "description": "Executor for dispatch-track iter dispatches. Reads dispatch files from `dispatch/iter-NNN.md`, runs PASS 0–N against di…"
+          },
+          {
+            "name": "docs-resolver",
+            "description": "Resolves live-doc lookup requests from Dispatch Executor or Orchestrator. Invoked via Task tool when calling agent need…"
+          },
+          {
+            "name": "general-purpose",
+            "description": "General-purpose build/research/validation worker for foundation fan-out. Spawned by the foundation seat to run a BOUNDE…"
+          },
+          {
+            "name": "orc",
+            "description": "Role-neutral orchestrator seat. Identity, authority, state map, and memory all resolve from the WORKTREE (_boot/CHARTER…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "gmaa-adopt",
+            "description": "Start chat-first GMAA adoption (assess, gate, fills). Instantiation is later vanilla grok."
+          },
+          {
+            "name": "gmaa-fetch",
+            "description": "Download the sealed Grok engine zip into ~/Downloads and verify sha256. Does not unzip or instantiate."
+          },
+          {
+            "name": "gmaa-place",
+            "description": "After adopt-yes, create ~/Code/<project> and copy the sealed engine zip from Downloads. Does not unpack."
+          },
+          {
+            "name": "restart",
+            "description": "Externalize this lane (LATEST + session_state.json + MEMORY) then orc-restart --force."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash|run_terminal_command"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gmaa-adopt",
+            "description": "Chat-first GMAA adoption. Use when starting a project in chat, asking if GMAA fits, writing fills, or following ADOPTIO…"
+          },
+          {
+            "name": "restart",
+            "description": "B6 restart pickup. Use when the user runs /restart, says restart, or I need to restart. Write lane-local pointers, then…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
