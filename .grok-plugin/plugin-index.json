@@ -1,6 +1,44 @@
 {
   "version": 1,
   "plugins": {
+    "airwallex-dev": {
+      "sha": "5cb3dd8b63e5ac873add34191e1994a1475ce145",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "airwallex-dev",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "airwallex-ai-provider-card-mit",
+            "description": "Use this skill to guide an end-to-end implementation plan document for card-only Airwallex Payments flows used by AI pr…"
+          },
+          {
+            "name": "airwallex-billing-checkout",
+            "description": "Guide integration of Airwallex Billing Hosted Checkout for subscription, one-off payment (PAYMENT), and card-saving (SE…"
+          },
+          {
+            "name": "airwallex-dropin",
+            "description": "Generate Airwallex Drop-in Element integration code. Use when user mentions Drop-in, dropIn element, embedded payment U…"
+          },
+          {
+            "name": "airwallex-hpp",
+            "description": "Generate Airwallex Hosted Payment Page (HPP) integration code. Use when user mentions HPP, hosted payment page, redirec…"
+          },
+          {
+            "name": "airwallex-kyc",
+            "description": "Generate Airwallex Connected Account KYC onboarding integration code. Use when user mentions KYC, embedded KYC element,…"
+          },
+          {
+            "name": "airwallex-split-card",
+            "description": "Generate Airwallex Split Card Element integration code. Use when user mentions Split Card, cardNumber element, expiry/c…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
