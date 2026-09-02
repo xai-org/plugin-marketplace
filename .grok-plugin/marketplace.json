@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "versionpill",
+      "description": "Product memory for coding agents. Hosted VersionPill board via MCP — vision, work, and a public version customers understand.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/versionpill/mcp.git",
+        "sha": "b0dbcec3a9076e3b1afc824ff894195d2c24c48d"
+      },
+      "homepage": "https://versionpill.com",
+      "keywords": ["versionpill", "version pill", "versionpill board", "versionpill mcp"],
+      "domains": ["versionpill.com", "mcp.versionpill.com", "www.versionpill.com"]
     }
   ]
 }
