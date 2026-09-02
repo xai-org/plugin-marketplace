@@ -433,7 +433,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Ac0AI/ac0-plugins.git",
-        "sha": "320bb71bba0c59ca8b9de87a0d9bae178eabaccb",
+        "sha": "5a0bf40c67fe591fb6f6edb59ff3557342caeab7",
         "path": "plugins/sauna-guide-quotes"
       },
       "homepage": "https://sauna.guide/integrations/sauna-guide-quotes",
