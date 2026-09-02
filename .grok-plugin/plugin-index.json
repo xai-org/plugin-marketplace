@@ -1214,6 +1214,24 @@
         ]
       }
     },
+    "vettly": {
+      "sha": "2cc5d6343371b58b3ab6e81d8e0b91f4569c2733",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vettly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vettly-moderation",
+            "description": "Use Vettly to make policy-governed, auditable moderation decisions for text, image, and video content. Trigger when dec…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",

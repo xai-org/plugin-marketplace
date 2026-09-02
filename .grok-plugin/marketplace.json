@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "vettly",
+      "description": "Policy-governed content moderation and trust-and-safety workflows for text, image, and video content through Vettly's MCP server.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextauralabs/vettly.git",
+        "sha": "2cc5d6343371b58b3ab6e81d8e0b91f4569c2733",
+        "path": "packages/mcp/grok-plugin"
+      },
+      "homepage": "https://vettly.dev",
+      "keywords": ["vettly", "vettly moderation", "ugc moderation", "trust and safety", "policy enforcement"],
+      "domains": ["vettly.dev", "api.vettly.dev"]
     }
   ]
 }
