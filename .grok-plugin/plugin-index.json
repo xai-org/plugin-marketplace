@@ -199,6 +199,22 @@
         ]
       }
     },
+    "dely": {
+      "sha": "c2fc1a96dce4eabc5b8c9ee9dafbb66fb371d785",
+      "version": "0.17.0",
+      "components": {
+        "skills": [
+          {
+            "name": "delivery",
+            "description": "Deliver a change through an approved design contract, sequential implementation, independent review and exact-HEAD rele…"
+          },
+          {
+            "name": "setup",
+            "description": "Configure a project's AGENTS.md with one managed Dely block — per-phase harness, model and effort for implement and rev…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
