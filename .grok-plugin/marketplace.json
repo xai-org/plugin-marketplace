@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "siftable",
+      "description": "Siftable hosted MCP integration for planning projects, managing tasks, coordinating executable agent work, and retrieving notes, datasets, calendar, contact, and code-memory context. Sign in with Siftable OAuth; no API key is required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/execufunction-mcp/siftable-plugin.git",
+        "sha": "20a00dfecab7751ba0ef68e9fcf1ab5b31a2e325"
+      },
+      "homepage": "https://siftable.io/docs/mcp.html",
+      "keywords": ["siftable", "siftable mcp", "siftable tasks", "siftable agent work"],
+      "domains": ["siftable.io"]
     }
   ]
 }
