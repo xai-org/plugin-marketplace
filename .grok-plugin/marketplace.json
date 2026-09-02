@@ -280,6 +280,24 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "seoagent",
+      "description": "The SEO engine for coding agents. Skill plus CLI that audits pages, fixes metadata, and drafts SEO pages in the repo.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Baxter-Inc/seoagent-npm.git",
+        "sha": "08062f34ddc057932f42544f98b524c6d85d8f1e",
+        "path": "plugins/seoagent-cli-bootstrap"
+      },
+      "homepage": "https://seoagent.com",
+      "keywords": [
+        "seoagent"
+      ],
+      "domains": [
+        "seoagent.com"
+      ]
     }
   ]
 }

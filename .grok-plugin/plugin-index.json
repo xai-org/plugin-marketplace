@@ -795,6 +795,18 @@
         ]
       }
     },
+    "seoagent": {
+      "sha": "08062f34ddc057932f42544f98b524c6d85d8f1e",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "seoagent-cli-setup",
+            "description": "Install or set up SEOAgent for Claude Code — persistent technical SEO audits, keyword strategy, content briefs, and art…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
       "version": "0.6.2",
