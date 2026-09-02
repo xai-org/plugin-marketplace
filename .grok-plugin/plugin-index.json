@@ -349,6 +349,64 @@
         ]
       }
     },
+    "markifact": {
+      "sha": "838239fe594257d8ce9bdb842293984133f6c20e",
+      "version": "1.0.2",
+      "components": {
+        "agents": [
+          {
+            "name": "performance-marketer",
+            "description": "Senior performance-marketing operator with hands-on access to the user's ad accounts via Markifact. Use proactively for…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "diagnose-underperformer",
+            "description": "Diagnose why a specific Google Ads or Meta Ads campaign / ad set / ad is underperforming and prescribe the next concret…"
+          },
+          {
+            "name": "edit-meta-creative",
+            "description": "Edit a Meta ad's creative content — landing page URL, primary text, headline, description, CTA, link description — acro…"
+          },
+          {
+            "name": "launch-google-search",
+            "description": "Launch a complete Google Ads Search campaign — campaign, ad group, responsive search ads, keywords, sitelinks, callouts…"
+          },
+          {
+            "name": "launch-meta-campaign",
+            "description": "Launch a complete Meta Ads campaign — campaign, ad set, and ad(s) — built paused and ready to review. Use when the user…"
+          },
+          {
+            "name": "launch-pmax",
+            "description": "Launch a Google Ads Performance Max campaign with a complete asset group, audience signals, and (for ecom) listing grou…"
+          },
+          {
+            "name": "negative-keyword-sweep",
+            "description": "Find wasted spend in Google Ads search terms and add negatives at the right scope (account list, campaign, or ad group)…"
+          },
+          {
+            "name": "rotate-creative",
+            "description": "Pause fatigued ads and ship fresh creative variants in their place. Works on both Meta and Google Ads. Use when CTR is…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "markifact",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "markifact-overview",
+            "description": "Reference — what Markifact is, what the MCP server exposes, and the discover→inspect→run pattern. Always loaded into th…"
+          },
+          {
+            "name": "safe-write-operations",
+            "description": "Reference — rules for safely executing write/destructive operations against ad accounts. Always loaded into the perform…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
