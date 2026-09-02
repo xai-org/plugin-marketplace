@@ -1214,6 +1214,24 @@
         ]
       }
     },
+    "vibewatch": {
+      "sha": "1d486d4d4e5614e276009bea310d517e4505282f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vibewatch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-vibewatch",
+            "description": "Read a community's vibe from Vibewatch: current sentiment, the trend over time, the messages behind a score, daily insi…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
