@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/postzen-dev/postzen-grok-plugin.git",
-        "sha": "a128f206b314a082f0913ac7af033693124930cf"
+        "sha": "4f71121df5a72fa04304356618403c1aa8a6003b"
       },
       "homepage": "https://www.postzen.dev",
       "keywords": ["postzen", "postzen api", "postzen mcp", "post zen"],

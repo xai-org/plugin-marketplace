@@ -529,8 +529,8 @@
       }
     },
     "postzen": {
-      "sha": "a128f206b314a082f0913ac7af033693124930cf",
-      "version": "1.0.0",
+      "sha": "4f71121df5a72fa04304356618403c1aa8a6003b",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
