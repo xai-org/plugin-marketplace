@@ -349,6 +349,24 @@
         ]
       }
     },
+    "jobrocks": {
+      "sha": "97931d9ad042a310d64fee43b058af6774898e1f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jobrocks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "jobrocks",
+            "description": "Operate an authenticated job.rocks workforce account through its privacy-minimized MCP. Use for staffing projects, cust…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
