@@ -358,7 +358,7 @@
       }
     },
     "flightclaw": {
-      "sha": "8866fc070549eb137bcc43911ca7d2b422a84b68",
+      "sha": "bc90b58dd385302d6cdc5c1426d041c1b16ae9ab",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
