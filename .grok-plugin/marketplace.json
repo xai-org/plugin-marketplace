@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "mida-so",
+      "description": "Mida A/B testing and personalization (MCP server + skills). Create experiments and goals, read results with Mida's own statistics, conclude tests, and serve winners on any site running the Mida tag.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mida-so/mida-plugin.git",
+        "sha": "c32d84f482dea1cc7aa8b558c77ef2dc33279fbc"
+      },
+      "homepage": "https://www.mida.so/mcp",
+      "keywords": ["mida", "mida ab test", "mida experiment", "mida personalization", "mida.so"],
+      "domains": ["mida.so", "www.mida.so", "app.mida.so"]
     }
   ]
 }
