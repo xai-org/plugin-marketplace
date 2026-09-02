@@ -199,6 +199,24 @@
         ]
       }
     },
+    "eonik": {
+      "sha": "c9b81b72a38d68f6b271302c859117bf1052affd",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "eonik",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eonik",
+            "description": "Finished, on-brand ads without the busywork. Use when eonik tools are connected or the user asks about their ads, brand…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

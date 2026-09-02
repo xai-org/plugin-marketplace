@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "eonik",
+      "description": "Finished, on-brand ads without the busywork. Connect Grok to the user's eonik account: read brand, research, and performance facts, then draft. Never spends. You approve every cut on Mac.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eonik-ai/eonik-mcp-skill.git",
+        "sha": "c9b81b72a38d68f6b271302c859117bf1052affd"
+      },
+      "homepage": "https://www.eonik.ai/mcp",
+      "keywords": ["eonik", "eonik.ai"],
+      "domains": ["eonik.ai", "www.eonik.ai", "api.eonik.ai"]
     }
   ]
 }
