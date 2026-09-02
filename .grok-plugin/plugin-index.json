@@ -529,6 +529,7 @@
       }
     },
     "postqued": {
+      "sha": "ce57a0cf59113726537ea16e5abe2261c562ec89",
       "version": "1.0.0",
       "components": {
         "mcpServers": [

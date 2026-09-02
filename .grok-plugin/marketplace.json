@@ -286,8 +286,10 @@
       "description": "Postqued social media management integration (hosted MCP server + skill). Work with client workspaces, connected accounts, media, multi-platform publishing and scheduling, analytics, engagement, approvals, client review, and collaboration.",
       "category": "marketing",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/postqued"
+        "source": "url",
+        "url": "https://github.com/postqued/postqued-agent.git",
+        "sha": "ce57a0cf59113726537ea16e5abe2261c562ec89",
+        "path": "grok"
       },
       "homepage": "https://postqued.com/mcp",
       "keywords": ["postqued", "postqued mcp", "postqued social media"],

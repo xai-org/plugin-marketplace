@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "postqued": {
-      "type": "http",
-      "url": "https://mcp.postqued.com/mcp"
-    }
-  }
-}
