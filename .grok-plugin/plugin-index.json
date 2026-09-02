@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "adlicio": {
-      "sha": "312d8e82dfa965a4656abdb6fbd04099e538293f",
+      "sha": "6e1cdb0b88fa4e67ff3beeec13371e681278fe9d",
       "version": "1.0.0",
       "components": {
         "mcpServers": [

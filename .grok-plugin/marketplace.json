@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/daniel-ddtech/adlicio-plugin.git",
-        "sha": "312d8e82dfa965a4656abdb6fbd04099e538293f"
+        "sha": "6e1cdb0b88fa4e67ff3beeec13371e681278fe9d"
       },
       "homepage": "https://tryadlicio.com/mcp",
       "keywords": ["adlicio", "adlicio research", "tryadlicio"],
