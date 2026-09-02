@@ -199,6 +199,71 @@
         ]
       }
     },
+    "cursor-supermemory": {
+      "sha": "0abb19f5f53a55486e5d36a4f90b2fcaa5c7a4ac",
+      "components": {
+        "agents": [
+          {
+            "name": "supermemory-context-gatherer",
+            "description": "Gather deep background from Supermemory before substantial work, resuming old work, or investigating repository history."
+          }
+        ],
+        "commands": [
+          {
+            "name": "supermemory-config",
+            "description": "Configure Supermemory settings for this project"
+          },
+          {
+            "name": "supermemory-logout",
+            "description": "Disconnect Supermemory from Cursor"
+          },
+          {
+            "name": "supermemory-setup",
+            "description": "Connect Supermemory to Cursor for persistent AI memory"
+          },
+          {
+            "name": "supermemory-status",
+            "description": "Check Supermemory authentication and live connectivity"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "beforeSubmitPrompt",
+            "description": "UserPromptSubmit"
+          },
+          {
+            "name": "postToolUse"
+          },
+          {
+            "name": "preToolUse",
+            "description": "MCP:.*supermemory.*|supermemory_.*"
+          },
+          {
+            "name": "sessionEnd"
+          },
+          {
+            "name": "sessionStart"
+          },
+          {
+            "name": "stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "memory-init",
+            "description": "Deep codebase exploration to initialize project memory. Use when starting work on a new project or when user asks to \"i…"
+          },
+          {
+            "name": "memory-save",
+            "description": "Save important information to persistent memory. Use when user explicitly asks to remember something, or when you've so…"
+          },
+          {
+            "name": "memory-search",
+            "description": "Search persistent memory for relevant information from past coding sessions. Use when user asks about previous work, pa…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
