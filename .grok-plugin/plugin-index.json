@@ -795,6 +795,32 @@
         ]
       }
     },
+    "soon": {
+      "sha": "ff4d46be6f70b60a9e2a2c9361e860f88fe68cd5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "soon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "intraday-design",
+            "description": "Use when the user wants to organize the activities (lunch, breaks, admin blocks, calls) that happen WITHIN each shift —…"
+          },
+          {
+            "name": "leave-management",
+            "description": "Use when the user asks about leave, time off, PTO, holidays, who's off, or wants to create, approve, reject, or cancel…"
+          },
+          {
+            "name": "schedule-overview",
+            "description": "Use when the user asks what the schedule looks like, who is working, how many people or hours are scheduled, where the…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
       "version": "0.6.2",
