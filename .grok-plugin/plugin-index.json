@@ -1202,6 +1202,32 @@
         ]
       }
     },
+    "whop": {
+      "sha": "c804aa9f7597ed6f2de0289c28d80882da05b79c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "whop",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whop",
+            "description": "Run a business on Whop: websites on *.whop.app, products, checkout, payments, payouts, memberships, ads, LLC/C-corp for…"
+          },
+          {
+            "name": "whop-connect",
+            "description": "Connect and verify this workspace's Whop account"
+          },
+          {
+            "name": "whop-mcp-safety",
+            "description": "The required protocol for any Whop MCP tool call that changes state: the prepare-and-confirm handshake with mcp_confirm…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
