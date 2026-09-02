@@ -795,6 +795,46 @@
         ]
       }
     },
+    "skarn-guard": {
+      "sha": "d556ee39d5088321e7912ef7a18a90f42f7361dc",
+      "version": "0.25.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PermissionRequest",
+            "description": "Bash|WebFetch|WebSearch|Write|Edit|MultiEdit|NotebookEdit|mcp__.*"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Bash|WebFetch|WebSearch|Write|Edit|MultiEdit|NotebookEdit|mcp__.*"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "TaskCreated"
+          },
+          {
+            "name": "UserPromptExpansion"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "skarn",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skarn-audit",
+            "description": "Audit this machine's AI coding sessions and assistant configs with skarn. Use when the user says scan this with skarn,…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
       "version": "0.6.2",
