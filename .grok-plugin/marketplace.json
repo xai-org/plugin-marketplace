@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "savee",
+      "description": "Read your Savee saves, boards and home feed, and search its public library of curated design inspiration. Read-only hosted MCP.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/saveeit/savee-mcp-server.git",
+        "sha": "2eeeb9f17fdfc7e0fa1d4e365dbe6e3e4d5b76af"
+      },
+      "homepage": "https://savee.com",
+      "keywords": ["savee", "savee.com", "savee boards", "savee moodboard"],
+      "domains": ["savee.com"]
     }
   ]
 }
