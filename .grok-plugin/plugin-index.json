@@ -1007,6 +1007,24 @@
         ]
       }
     },
+    "ulazai-media": {
+      "sha": "691a22a475e6b27e9def0ad536fc4cf600216d06",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ulazai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ulazai-images",
+            "description": "Maak met UlazAI private AI-afbeeldingen (hero's, thumbnails, mockups, assets) voor een project. Gebruik deze skill wann…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
       "version": "0.48.1",
