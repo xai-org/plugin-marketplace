@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "superdesign",
+      "description": "Design or redesign frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas. Reads your codebase for design context, then generates branchable drafts you refine.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superdesigndev/superdesign-skill.git",
+        "sha": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b"
+      },
+      "homepage": "https://superdesign.dev",
+      "keywords": ["superdesign", "superdesign.dev"],
+      "domains": ["superdesign.dev"]
     }
   ]
 }
