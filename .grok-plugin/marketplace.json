@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "wonder",
+      "description": "Create and edit designs with Grok on a Wonder canvas where every design is real HTML and CSS. Inspect artboards, generate screens, and push designs back into code via the hosted Wonder MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aquila-lab/wonder-plugins.git",
+        "sha": "e60f8bd908e13ec49b3738f54e1e42d659915286",
+        "path": "plugins/wonder"
+      },
+      "homepage": "https://wonder.design",
+      "keywords": ["wonder", "wonder design", "wonder canvas"],
+      "domains": ["wonder.design", "wonder.so", "mcp.wonder.so"]
     }
   ]
 }
