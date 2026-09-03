@@ -981,6 +981,38 @@
         ]
       }
     },
+    "timeln": {
+      "sha": "b10a8d305907833c51ca14c61e56695a4fa901ff",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "timeln-save",
+            "description": "Save the current finding, note, or URL into the user's Timeln knowledge graph"
+          },
+          {
+            "name": "timeln-setup",
+            "description": "Connect this plugin to a Timeln account and verify the API token works"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "timeln",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "timeln",
+            "description": "Read from and write to the user's Timeln knowledge graph — their personal AI memory of everything they have saved. Use…"
+          },
+          {
+            "name": "timeln-graph",
+            "description": "Analyze the structure of the user's Timeln knowledge graph rather than just its contents. Use for questions about shape…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
