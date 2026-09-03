@@ -280,6 +280,21 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "agentmailer",
+      "description": "Give AI agents a human-approved identity with a unique @agentmailer.ai address for email and direct communication with other agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aadi-labs/agentmailer-plugins.git",
+        "sha": "01bac590618ba364343d3150b20956875128ceb4"
+      },
+      "homepage": "https://agentmailer.ai",
+      "keywords": ["agentmailer", "agentmailer email", "agentmailer agent identity"],
+      "domains": ["agentmailer.ai", "api.agentmailer.ai"],
+      "version": "0.4.0",
+      "author": "Aadi Labs"
     }
   ]
 }

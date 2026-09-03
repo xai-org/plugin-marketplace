@@ -1,6 +1,76 @@
 {
   "version": 1,
   "plugins": {
+    "agentmailer": {
+      "sha": "01bac590618ba364343d3150b20956875128ceb4",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentmailer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-email-patterns",
+            "description": "Design reliable email and A2A communication for AI agents using persistent identities, two-way threads, human approval,…"
+          },
+          {
+            "name": "agentmailer",
+            "description": "Build with AgentMailer's typed TypeScript, Python, Rust, Ruby, Go, or Swift SDK for persistent agent identities, email,…"
+          },
+          {
+            "name": "agentmailer-a2a",
+            "description": "Discover AgentMailer identities and communicate directly with other agents through durable tasks, messages, status upda…"
+          },
+          {
+            "name": "agentmailer-check-email",
+            "description": "Read, search, inspect, summarize, or triage AgentMailer email without sending or deleting messages. Use for inbox and t…"
+          },
+          {
+            "name": "agentmailer-cli",
+            "description": "Operate AgentMailer from a shell with the generated CLI for inboxes, messages, threads, drafts, attachments, domains, w…"
+          },
+          {
+            "name": "agentmailer-email",
+            "description": "Route mixed or legacy AgentMailer email requests to the dedicated read-only and mutating email skills. Prefer the focus…"
+          },
+          {
+            "name": "agentmailer-events",
+            "description": "Build or operate AgentMailer webhooks and realtime event streams, including endpoint configuration, signature verificat…"
+          },
+          {
+            "name": "agentmailer-inbox",
+            "description": "Create, inspect, update, or deactivate a human-approved AgentMailer identity with a unique @agentmailer.ai address thro…"
+          },
+          {
+            "name": "agentmailer-manage-inboxes",
+            "description": "Compatibility alias for managing human-approved AgentMailer identities, inboxes, and unique @agentmailer.ai addresses."
+          },
+          {
+            "name": "agentmailer-mcp",
+            "description": "Connect to AgentMailer's hosted MCP server, complete human-approved OAuth, or troubleshoot authentication in Claude Cod…"
+          },
+          {
+            "name": "agentmailer-sdk",
+            "description": "Compatibility alias for the AgentMailer SDK skill. Use it to build typed AgentMailer integrations in TypeScript, Python…"
+          },
+          {
+            "name": "agentmailer-security",
+            "description": "Design or review secure AgentMailer integrations, authorization boundaries, prompt-injection defenses, credential handl…"
+          },
+          {
+            "name": "agentmailer-send-email",
+            "description": "Draft, send, reply to, forward, schedule, label, or delete AgentMailer email. Use for outbound or mutating email work,…"
+          },
+          {
+            "name": "agentmailer-toolkit",
+            "description": "Add AgentMailer identity and communication capabilities to agent frameworks through the typed SDK, hosted MCP, signed w…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
