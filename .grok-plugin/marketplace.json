@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "you-com",
+      "description": "You.com web search, URL content extraction, and cited research via the hosted You.com MCP server and official skills. Works with no API key and no account on the keyless free tier; add a key, OAuth, or x402/MPP payment for higher limits and the managed Research and Finance Research APIs. Each search result carries several extracted passages from the page rather than a single snippet.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youdotcom-oss/agent-skills.git",
+        "sha": "78e20fd40bfdccbf91a5aaa67c2e46ba4ed2bbaa"
+      },
+      "homepage": "https://you.com",
+      "keywords": ["you.com", "youcom", "you.com search", "ydc"],
+      "domains": ["you.com", "docs.you.com", "api.you.com"]
     }
   ]
 }
