@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "web-search-plus",
+      "description": "Web Search Plus: source-only multi-provider web search and bounded URL extraction (MCP server + skill). Routes across Serper, Exa, Tavily, Linkup, You.com, Firecrawl, Parallel, Brave and more with your own provider keys; returns ranked sources and extracted page text, never synthesized answers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/robbyczgw-cla/web-search-plus-mcp.git",
+        "sha": "3a48e0fb74b2c93ab6c6783c87cec28ba27113ea"
+      },
+      "homepage": "https://websearchplus.xyz",
+      "keywords": ["web search plus", "websearchplus", "web-search-plus-mcp", "wsp search"],
+      "domains": ["websearchplus.xyz"]
     }
   ]
 }
