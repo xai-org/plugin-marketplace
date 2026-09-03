@@ -803,6 +803,24 @@
         ]
       }
     },
+    "seomatic": {
+      "sha": "40252d6971c54369e4f1ef7ead36d764064fefae",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "seomatic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seomatic-seo-audit",
+            "description": "Runs a full SEO audit of the user's own website from real data via the SEOmatic connector - Search Console performance,…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
       "version": "0.6.4",
