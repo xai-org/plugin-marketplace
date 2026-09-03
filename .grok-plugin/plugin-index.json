@@ -757,6 +757,24 @@
         ]
       }
     },
+    "sauna-guide-quotes": {
+      "sha": "5a0bf40c67fe591fb6f6edb59ff3557342caeab7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sauna-guide-quotes",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sauna-guide-quotes",
+            "description": "Prepare a US home sauna quote request with the Sauna Guide Quotes MCP, review what is missing, and submit only after th…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
