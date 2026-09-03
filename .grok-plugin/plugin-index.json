@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "aidelly": {
+      "sha": "0a45a9b0e29161cc08e63337cb81eefc21971497",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aidelly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aidelly-social-autopilot",
+            "description": "Create, schedule, and manage social posts via Aidelly's public MCP server — post creation, scheduling, approval workflo…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
