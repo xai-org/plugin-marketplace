@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "adlicio",
+      "description": "Customer-voice research for marketing and ad work. Scrape comments and reviews from Reddit, YouTube, Amazon, TikTok, Instagram, Trustpilot, app stores and 20+ other sources, search Reddit and YouTube, pull top-performing TikTok and Instagram videos with their on-screen hooks, find competitor ads in the Meta Ad Library, and build brand and voice-of-customer reports. Hosted MCP server over OAuth, no API key to paste.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daniel-ddtech/adlicio-plugin.git",
+        "sha": "6e1cdb0b88fa4e67ff3beeec13371e681278fe9d"
+      },
+      "homepage": "https://tryadlicio.com/mcp",
+      "keywords": ["adlicio", "adlicio research", "tryadlicio"],
+      "domains": ["tryadlicio.com", "mcp.tryadlicio.com"]
     }
   ]
 }

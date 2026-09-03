@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "adlicio": {
+      "sha": "6e1cdb0b88fa4e67ff3beeec13371e681278fe9d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adlicio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adlicio-customer-research",
+            "description": "Research what real people say about a topic, product, company, or problem using the Adlicio MCP tools. Use for customer…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
