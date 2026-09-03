@@ -71,6 +71,28 @@
         ]
       }
     },
+    "beheer-je-wp": {
+      "sha": "ba7f587a148c436d9be7de3b2e1e30ae2ccd69b6",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "beheer-je-wp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wordpress-beheer",
+            "description": "Gebruik de gekoppelde Beheer je WP-site om WordPress te controleren, content te vinden en veilige wijzigingen als voors…"
+          },
+          {
+            "name": "wordpress-seo",
+            "description": "Gebruik Beheer je WP SEO Pro om Search Console-kansen voor de gekoppelde WordPress-site te vinden en een onderbouwd tek…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
