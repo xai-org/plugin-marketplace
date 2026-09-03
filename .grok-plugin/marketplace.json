@@ -291,7 +291,7 @@
         "sha": "32f8a91b460b99914ae3258887436eee103adf8d"
       },
       "homepage": "https://www.firsttouch.com",
-      "keywords": ["firsttouch", "firsttouch mcp", "audience management", "outreach flow automation", "contact enrollment", "task management", "hubspot list import"],
+      "keywords": ["firsttouch", "firsttouch mcp", "firsttouch audiences", "firsttouch outreach flows", "firsttouch contact enrollment", "firsttouch tasks", "firsttouch hubspot import"],
       "domains": ["firsttouch.com", "www.firsttouch.com", "mcp.firsttouch.com"]
     }
   ]
