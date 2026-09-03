@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "mermail",
+      "description": "Official Mermail email integration for AI agents (MCP Server + Skills). Provision agent inboxes, read and organize mail, draft and send messages with approval gates, administer workspaces, automate triage, and run scheduling, GTM, support, and x402 workflows.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nudgen-Marketing/mermail-skills.git",
+        "sha": "34c9b84c548b43597dc0270a3c9e142534c1bf2f"
+      },
+      "homepage": "https://mermail.app/agents",
+      "keywords": ["mermail", "mermail email", "mermail inbox", "mermail mcp"],
+      "domains": ["mermail.app", "console.mermail.app", "docs.mermail.app"]
     }
   ]
 }
