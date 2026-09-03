@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "cursor-supermemory",
+      "description": "Persistent AI memory for coding agents, powered by Supermemory. Recall project context across sessions, save durable facts, and search memories via MCP tools.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/supermemoryai/cursor-supermemory.git",
+        "sha": "0abb19f5f53a55486e5d36a4f90b2fcaa5c7a4ac"
+      },
+      "homepage": "https://supermemory.ai",
+      "keywords": ["cursor-supermemory", "supermemory"],
+      "domains": ["supermemory.ai", "app.supermemory.ai"]
     }
   ]
 }
