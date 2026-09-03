@@ -288,7 +288,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp.git",
-        "sha": "cbca0a052ce061f99c2afc426859118a4331a344"
+        "sha": "5ab0c82047baa795cd0c087516cbd2ef9165655c"
       },
       "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
       "keywords": [

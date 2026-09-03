@@ -1265,7 +1265,7 @@
       }
     },
     "youtube-comments-downloader-mcp": {
-      "sha": "cbca0a052ce061f99c2afc426859118a4331a344",
+      "sha": "5ab0c82047baa795cd0c087516cbd2ef9165655c",
       "components": {
         "mcpServers": [
           {
