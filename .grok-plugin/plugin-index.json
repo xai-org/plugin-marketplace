@@ -357,6 +357,38 @@
         ]
       }
     },
+    "flightseatmap": {
+      "sha": "c9d60fc1021a3023264e380dbd2a2f678065dfda",
+      "version": "6.0.1",
+      "components": {
+        "commands": [
+          {
+            "name": "best-seats",
+            "description": "Find the best seats on a flight matching your preferences"
+          },
+          {
+            "name": "seatmap",
+            "description": "Look up the seat map for a flight"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "flightseatmap",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-the-best-seat",
+            "description": "Pick the best available seat on any commercial flight using FlightSeatMap's seat maps, seat-level detail, and passenger…"
+          },
+          {
+            "name": "track-seat-availability",
+            "description": "Watch a flight and email the user when a better seat frees up, using FlightSeatMap seat alerts. Use when a user is stuc…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
