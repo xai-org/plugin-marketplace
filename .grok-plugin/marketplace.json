@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "version-story",
+      "description": "Git for lawyers. Diff, merge, and blame for Word and PDF documents, returned as the redlines lawyers use: a PDF or Word tracked-changes redline, plus a text rendering the agent can read. Compare two versions of a contract, merge parallel edits into one draft, or trace which version introduced each change. Deterministic comparison engine behind a hosted MCP server with OAuth. Version Story account required.",
+      "category": "legal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VersionStory/version-story-plugin-marketplace.git",
+        "sha": "66a463549b82faf052d91d8e3a096de0d2d8db61",
+        "path": "grok"
+      },
+      "homepage": "https://www.versionstory.com/developers/mcp/overview",
+      "keywords": ["version story", "versionstory", "version story compare", "version story redline"],
+      "domains": ["versionstory.com", "www.versionstory.com", "app.versionstory.com", "mcp-compare.versionstory.com"]
     }
   ]
 }

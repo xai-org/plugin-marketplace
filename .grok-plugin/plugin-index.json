@@ -1214,6 +1214,36 @@
         ]
       }
     },
+    "version-story": {
+      "sha": "66a463549b82faf052d91d8e3a096de0d2d8db61",
+      "version": "0.28.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "version-story",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "combine",
+            "description": "Combine two or more independent documents that share no common original into a single Word draft whose tracked changes…"
+          },
+          {
+            "name": "compare",
+            "description": "Compare two versions of a Word or PDF document and produce a true redline with Version Story. Use for any request to re…"
+          },
+          {
+            "name": "merge",
+            "description": "Merge two or more separately edited revisions of one document into a single Word draft whose tracked changes are attrib…"
+          },
+          {
+            "name": "version-history",
+            "description": "Build a version history document across an ordered chain of document versions with Version Story, one Word document in…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
