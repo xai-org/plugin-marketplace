@@ -1214,6 +1214,24 @@
         ]
       }
     },
+    "walletlink": {
+      "sha": "9e777bbe85e2d1002f3ae925eb204766f4ddae69",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "walletlink",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "walletlink",
+            "description": "Resolve Ethereum wallet addresses to the social accounts their owners published (X, Farcaster, ENS, Lens, GitHub), and…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",

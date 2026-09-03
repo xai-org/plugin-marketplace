@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "walletlink",
+      "description": "Resolve Ethereum wallets to the X and Farcaster accounts their owners attested, and find the wallets behind a handle (hosted MCP server + skill). Sign in with OAuth or a walletlink.social API key; agents can buy access with USDC, no account needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/starl3xx/walletlink-grok-plugin.git",
+        "sha": "9e777bbe85e2d1002f3ae925eb204766f4ddae69"
+      },
+      "homepage": "https://walletlink.social",
+      "keywords": ["walletlink", "walletlink social", "walletlink mcp"],
+      "domains": ["walletlink.social", "docs.walletlink.social"]
     }
   ]
 }
