@@ -1215,8 +1215,8 @@
       }
     },
     "wix": {
-      "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
-      "version": "1.17.0",
+      "sha": "c2afdf2455bbd51895d50ab12cb2bbad5e7d25c8",
+      "version": "1.18.0",
       "components": {
         "mcpServers": [
           {
@@ -1239,7 +1239,7 @@
           },
           {
             "name": "wix-base44-connector",
-            "description": "Build on Wix from the Base44 builder sandbox — this file is the complete guide (site context, doc discovery, API contra…"
+            "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
             "name": "wix-design-system",
@@ -1254,8 +1254,12 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
+            "name": "wix-headless-fast",
+            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
             "name": "wix-manage",
-            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
           },
           {
             "name": "wix-vibe-headless",
