@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "buses-and-trains",
+      "description": "Live UK public transport from the Buses & Trains API: real-time bus and train departures and arrivals, live vehicle positions, multi-modal journey planning, and rail fares with railcard discounts across England, Scotland and Wales.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BusesAndTrains/busesandtrains-mcp.git",
+        "sha": "87a7f42f82ac30bba75a2f9dd3efcfab3510a3d1"
+      },
+      "homepage": "https://busesandtrains.co.uk",
+      "keywords": ["buses and trains", "busesandtrains", "uk bus times", "uk train times", "uk journey planner"],
+      "domains": ["busesandtrains.co.uk"]
     }
   ]
 }
