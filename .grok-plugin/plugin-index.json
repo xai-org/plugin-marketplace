@@ -357,6 +357,18 @@
         ]
       }
     },
+    "heygrc": {
+      "sha": "3b7d1b2022d686068f5e7096e278e5d2fa4107c2",
+      "version": "0.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "review",
+            "description": "Set up and run heyGRC compliance review on a repository's pull requests. Use when the user wants GRC or security compli…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
