@@ -536,6 +536,65 @@
         ]
       }
     },
+    "openzoo": {
+      "sha": "b211215b9ed0870824003cc3b17b977a0bdd1959",
+      "version": "0.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "corpus-analyst",
+            "description": "Interrogates a large corpus through openzoo — a repo, a book, a chat export, months of logs — by binding it once and as…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "ask",
+            "description": "Ask a question against a bound corpus, or route one question to a different model. Pass the question; add a model id to…"
+          },
+          {
+            "name": "bind",
+            "description": "Bind a file, directory, or pasted text to openzoo once so later questions answer from retrieval instead of re-reading i…"
+          },
+          {
+            "name": "cost",
+            "description": "Show what openzoo calls in this session actually cost, and what the same calls would have cost sent direct. Price a cal…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Read|Grep|Glob|WebFetch|NotebookRead|Bash"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "openzoo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "openzoo-ask",
+            "description": "Reach 1,100+ models outside the Grok family — plus image and video generation — through one endpoint, with no account a…"
+          },
+          {
+            "name": "openzoo-bind",
+            "description": "Send a corpus too large for the context window to openzoo once, then answer from it by retrieval instead of re-uploadin…"
+          },
+          {
+            "name": "openzoo-memory",
+            "description": "Write durable facts about the user to openzoo so they survive between sessions, and read them back later. Free, no acco…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
