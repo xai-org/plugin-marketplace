@@ -1215,8 +1215,14 @@
       }
     },
     "volunteerreminder": {
-      "sha": "40e7c1d75dea3d8d58ca9b3abc2fd7f2805ea4f1",
+      "sha": "9e2be257803f48e051db7af526223c6eddb0ee6c",
       "components": {
+        "mcpServers": [
+          {
+            "name": "volunteerreminder",
+            "description": "http"
+          }
+        ],
         "skills": [
           {
             "name": "volunteer-schedule-import",
