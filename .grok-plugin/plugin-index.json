@@ -1015,6 +1015,116 @@
         ]
       }
     },
+    "velith": {
+      "sha": "918bf4fc29d89b5e18a895f522e7407672a23be2",
+      "version": "0.6.0",
+      "components": {
+        "agents": [
+          {
+            "name": "book-architect",
+            "description": "Book structure validation, outline generation, concept flow and inter-chapter dependency analysis. Use for structure re…"
+          },
+          {
+            "name": "chapter-writer",
+            "description": "Per-chapter draft generation. Writes from outline spec + style guide + sources with self-QA."
+          },
+          {
+            "name": "continuity-editor",
+            "description": "Cross-chapter consistency checker. Validates terminology, references, characters, timelines, prerequisites."
+          },
+          {
+            "name": "cover-designer",
+            "description": "Book cover design. Analyzes genre/audience/title → 3-5 concepts with image generation prompts. Supports multiple format…"
+          },
+          {
+            "name": "illustrator",
+            "description": "Scene-level illustration generation. Decomposes chapters into key visual scenes, generates style-consistent illustratio…"
+          },
+          {
+            "name": "marketing-expert",
+            "description": "Book marketing strategy. Reader personas, channel strategy, 12-week calendar, launch campaign. Phase 5."
+          },
+          {
+            "name": "scene-generator",
+            "description": "Scene-level generation. Decomposes chapter outline + character bible into GMC+RDD scenes. Fiction only. Runs before cha…"
+          },
+          {
+            "name": "style-doctor",
+            "description": "Style consistency agent. Detects AI-slop patterns, style drift, tone violations, prohibited patterns."
+          }
+        ],
+        "skills": [
+          {
+            "name": "book-academic",
+            "description": "Academic writing patterns — IMRAD structure, literature review, argument chains, citation practices, thesis/dissertatio…"
+          },
+          {
+            "name": "book-draft",
+            "description": "Phase 3: Drafting. Plan-Then-Execute chapter generation with parallel writing and continuity validation."
+          },
+          {
+            "name": "book-edit",
+            "description": "Phase 4: Editing. 5-stage pipeline — editorial assessment, developmental edit, line edit, copy edit, proofread."
+          },
+          {
+            "name": "book-fiction",
+            "description": "Fiction-specific patterns — Save the Cat! 15-beat, Snowflake Method, Hero's Journey, character bible, scene structure."
+          },
+          {
+            "name": "book-game",
+            "description": "Game scenario patterns — quest/event trees, branching dialogue, world-building, character arcs across routes, lore bibl…"
+          },
+          {
+            "name": "book-genre-creator",
+            "description": "Meta-skill that references all available genres, agents, and skills to help users define and create any genre — includi…"
+          },
+          {
+            "name": "book-ideation",
+            "description": "Phase 1: Ideation. Concept validation, market gap analysis, competitive matrix, final concept selection."
+          },
+          {
+            "name": "book-illustrate",
+            "description": "Generate interior illustrations for book chapters. Analyzes scenes, creates style-consistent illustration prompts, and…"
+          },
+          {
+            "name": "book-init",
+            "description": "Phase 0: Onboarding. Initialize new book project — define genre, audience, language, scope, generate PRD.md and STYLE.m…"
+          },
+          {
+            "name": "book-nonfiction",
+            "description": "Non-fiction patterns — problem-solution structure, learner personas, evidence hierarchy, argument structure, chapter te…"
+          },
+          {
+            "name": "book-outline",
+            "description": "Phase 2: Outlining. Apply genre-specific structures, generate per-chapter specs, cross-reference map, structural valida…"
+          },
+          {
+            "name": "book-poetry",
+            "description": "Poetry patterns — form types (sonnet/haiku/free verse), stanza structure, meter/rhythm, imagery systems, collection arc…"
+          },
+          {
+            "name": "book-publish",
+            "description": "Phase 5: Publishing. Convert to EPUB/PDF/MOBI/TXT/Markdown, cover design, metadata, title candidates, KDP checklist, ma…"
+          },
+          {
+            "name": "book-screenplay",
+            "description": "Screenplay patterns — 3-act film structure, sequence method, scene/cut formatting, dialogue rules, A/B story weaving."
+          },
+          {
+            "name": "book-status",
+            "description": "Book project status and progress dashboard. Writes status.json for the web UI."
+          },
+          {
+            "name": "book-technical",
+            "description": "Technical book patterns — concept progression gradient, code block rules, diagrams, API reference format, lab design."
+          },
+          {
+            "name": "loom",
+            "description": "AI-native publishing system: autonomous multi-phase workflows from ideation to export. Fiction, non-fiction, and techni…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
       "version": "0.48.2",
