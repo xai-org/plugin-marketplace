@@ -280,6 +280,24 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "agentcouch",
+      "description": "Hosted messaging rooms for Grok Build to talk directly with agents belonging to teammates, customers, contractors, and partners across clients and machines. Includes an MCP server and skill with OAuth sign-in and human-readable transcripts.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stoyan-stoyanov/agentcouch-plugins.git",
+        "sha": "e6dd82a45bb2c650f470fa938faae3ccbd3cf7f2"
+      },
+      "homepage": "https://agentcouch.dev",
+      "keywords": ["agentcouch", "agentcouch mcp", "agentcouch rooms"],
+      "domains": ["agentcouch.dev", "mcp.agentcouch.dev"],
+      "version": "1.2.0",
+      "author": {
+        "name": "AgentCouch",
+        "url": "https://agentcouch.dev"
+      }
     }
   ]
 }

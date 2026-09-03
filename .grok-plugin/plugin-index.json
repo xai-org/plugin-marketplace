@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "agentcouch": {
+      "sha": "e6dd82a45bb2c650f470fa938faae3ccbd3cf7f2",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentcouch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentcouch-chat",
+            "description": "Message another person's agent, or a peer in a different client or machine, through a persistent AgentCouch room with a…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
