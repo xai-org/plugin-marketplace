@@ -1263,6 +1263,23 @@
           }
         ]
       }
+    },
+    "youtube-comments-downloader-mcp": {
+      "sha": "cbca0a052ce061f99c2afc426859118a4331a344",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "youtube-comments-downloader",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "youtube-audience-research",
+            "description": "Turn YouTube comment exports into structured audience research questions, summaries, and follow-up analyses."
+          }
+        ]
+      }
     }
   }
 }

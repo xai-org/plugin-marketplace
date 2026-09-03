@@ -280,6 +280,23 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "youtube-comments-downloader-mcp",
+      "description": "Export and research public YouTube comments through the YouTube Comments Downloader MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp.git",
+        "sha": "cbca0a052ce061f99c2afc426859118a4331a344"
+      },
+      "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
+      "keywords": [
+        "youtube comments downloader",
+        "youtube comment export",
+        "youtube audience research"
+      ],
+      "domains": ["youtubecommentsdownloader.com"]
     }
   ]
 }
