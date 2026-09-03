@@ -357,6 +357,67 @@
         ]
       }
     },
+    "godmode": {
+      "sha": "1909cfa3cad1785b0d1d671b2d40952e02fad921",
+      "version": "0.3.3",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit|NotebookEdit|write|search_replace"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Bash|PowerShell|Write|Edit|NotebookEdit|apply_patch|functions\\.exec|shell_command|run_terminal_command|search_replace|w…"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "godmode",
+            "description": "Coordinate local context continuity, evidence, and guarded coding workflows. Use when starting or resuming substantive…"
+          },
+          {
+            "name": "godmode-code-of-law",
+            "description": "Use at the start of every session and before every new task - the project's generated Code of Law; read GODMODE-CODE-OF…"
+          },
+          {
+            "name": "godmode-continuity",
+            "description": "Reconstruct and preserve private project continuity from local evidence. Use when resuming work, changing branches or w…"
+          },
+          {
+            "name": "godmode-governance",
+            "description": "Preview and govern protected engineering actions without executing them implicitly. Use before destructive, externally…"
+          },
+          {
+            "name": "godmode-investigation",
+            "description": "Diagnose technical failures with reproducible evidence and bounded hypotheses. Use when a bug, regression, test failure…"
+          },
+          {
+            "name": "godmode-repair",
+            "description": "Re-pitch an answer that did not land, and record why it did not. Use when the operator says they do not follow, asks fo…"
+          },
+          {
+            "name": "godmode-skill-forge",
+            "description": "Create an original, compact project skill after a repeated capability gap is proven. Use when at least two real tasks n…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
