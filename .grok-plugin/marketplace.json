@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "mobbin",
+      "description": "Search real-world UI and UX design references for mobile apps, web apps, and websites with Mobbin. Hosted MCP server with OAuth; no local install or API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mobbin/mobbin-mcp-server.git",
+        "sha": "1b5abb4e0bac75e48229cbeb8000d1032e723310"
+      },
+      "homepage": "https://docs.mobbin.com/mcp",
+      "keywords": ["mobbin", "mobbin mcp"],
+      "domains": ["mobbin.com", "api.mobbin.com", "docs.mobbin.com"]
     }
   ]
 }
