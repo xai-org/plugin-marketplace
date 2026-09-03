@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
+        "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3"
+        "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
+        "sha": "cf681787184a493e7106b0ae1ee88a1fede65017",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "b9ddc83c32972210b8a94d389130713e8eed346e",
+        "sha": "efa2a531985e0a8084d36ff3cf87233be8a9f34b",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
