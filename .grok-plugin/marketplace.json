@@ -288,10 +288,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/First-Touch-Inc/mcp.git",
-        "sha": "32f8a91b460b99914ae3258887436eee103adf8d"
+        "sha": "ff5e6a65a3407bd16d6cefd274326d93fe6db24e"
       },
       "homepage": "https://www.firsttouch.com",
-      "keywords": ["firsttouch", "firsttouch mcp", "firsttouch audiences", "firsttouch outreach flows", "firsttouch contact enrollment", "firsttouch tasks", "firsttouch hubspot import"],
+      "keywords": ["firsttouch", "firsttouch mcp", "firsttouch audiences", "firsttouch outreach flows", "firsttouch contact enrollment", "firsttouch hubspot import"],
       "domains": ["firsttouch.com", "www.firsttouch.com", "mcp.firsttouch.com"]
     }
   ]
