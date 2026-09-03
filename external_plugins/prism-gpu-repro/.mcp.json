@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "prism-network": {
+      "type": "http",
+      "url": "https://prismnetwork.tech/api/mcp"
+    }
+  }
+}
