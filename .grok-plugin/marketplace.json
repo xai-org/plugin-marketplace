@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "skycloak",
+      "description": "Official MCP server for Skycloak managed Keycloak. Manage clusters, realms, applications, SSO, and users from Grok via https://mcp.skycloak.io.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sky-cloak/skycloak-mcp.git",
+        "sha": "4eabbff334957e0d4108bf7c204539e2f325eabb"
+      },
+      "homepage": "https://skycloak.io",
+      "keywords": ["skycloak", "skycloak mcp", "skycloak keycloak"],
+      "domains": ["skycloak.io", "mcp.skycloak.io", "app.skycloak.io"]
     }
   ]
 }
