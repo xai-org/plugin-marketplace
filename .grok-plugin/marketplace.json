@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "logospell",
+      "description": "AI image generation for your agent (MCP server). One call returns a cohesive image set, a transparent-background set, or a single illustration; sets can be changed or exported as platform icons for free.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/logospell/logospell-mcp-server.git",
+        "sha": "c1f56e9cb293b99852f5872f2e163519b135d4ea",
+        "path": "grok"
+      },
+      "homepage": "https://logospell.com",
+      "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
+      "domains": ["logospell.com", "mcp.logospell.com"]
     }
   ]
 }

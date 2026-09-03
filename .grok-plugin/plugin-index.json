@@ -357,6 +357,18 @@
         ]
       }
     },
+    "logospell": {
+      "sha": "c1f56e9cb293b99852f5872f2e163519b135d4ea",
+      "version": "3.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "logospell",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
