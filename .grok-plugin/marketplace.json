@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "postiz",
+      "description": "Postiz social media automation. Schedule posts, manage integrations, upload media, and track analytics across 28+ platforms including X, LinkedIn, Reddit, YouTube, TikTok, and Instagram.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gitroomhq/postiz-agent.git",
+        "sha": "6d3be9c0aec768075e91b4a29b04fb624d72d942"
+      },
+      "homepage": "https://postiz.com",
+      "keywords": ["postiz", "social media scheduler", "social media agentic scheduler", "schedule social media posts", "social media automation"],
+      "domains": ["postiz.com"]
     }
   ]
 }

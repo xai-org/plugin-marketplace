@@ -536,6 +536,24 @@
         ]
       }
     },
+    "postiz": {
+      "sha": "6d3be9c0aec768075e91b4a29b04fb624d72d942",
+      "version": "2.0.17",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postiz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postiz",
+            "description": "Postiz is a tool to schedule social media and chat posts to 28+ channels X, LinkedIn, LinkedIn Page, Reddit, Instagram,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
