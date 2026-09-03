@@ -1,6 +1,46 @@
 {
   "version": 1,
   "plugins": {
+    "apify": {
+      "sha": "a90e598fb28a9c0e1a30f0c649d528bd3d27f600",
+      "version": "1.0.0",
+      "components": {
+        "agents": [
+          {
+            "name": "apify",
+            "description": "Apify agent for web scraping, automation, and Actor development. Routes user requests to the appropriate skill or MCP t…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "apify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "apify-actor-development",
+            "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing.…"
+          },
+          {
+            "name": "apify-actorization",
+            "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor…"
+          },
+          {
+            "name": "apify-generate-output-schema",
+            "description": "Generate output schemas (dataset_schema.json, output_schema.json, key_value_store_schema.json) for an Apify Actor by an…"
+          },
+          {
+            "name": "apify-sdk-integration",
+            "description": "Integrate Apify into an existing JavaScript/TypeScript or Python application using the apify-client package. Use when a…"
+          },
+          {
+            "name": "apify-ultimate-scraper",
+            "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, LinkedIn, X/T…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

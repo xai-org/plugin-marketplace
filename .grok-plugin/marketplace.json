@@ -241,6 +241,19 @@
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
+      "name": "apify",
+      "description": "Extract data from any website with thousands of trusted scrapers, crawlers, and automations from Apify Store. Integrate ready-made Actors to access all popular social media, video, e-commerce, search engines, maps, and travel sites. Build, debug, publish, and monetize new Actors on Apify.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/apify/apify-grok-build-plugin.git",
+        "sha": "a90e598fb28a9c0e1a30f0c649d528bd3d27f600"
+      },
+      "homepage": "https://apify.com",
+      "keywords": ["apify", "apify actors", "apify store", "apify scraper"],
+      "domains": ["apify.com", "docs.apify.com", "console.apify.com", "mcp.apify.com"]
+    },
+    {
       "name": "tinyfish",
       "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
       "category": "development",
