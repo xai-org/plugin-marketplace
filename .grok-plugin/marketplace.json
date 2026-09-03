@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "ranla",
+      "description": "Official Ranla plugin for Grok Build. An AI growth agent for the signups you already have — instrument lifecycle events, inspect audience and campaigns, talk to Ranla, and approve growth work. The same workspace also sends transactional email. Hosted MCP with browser OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Super-Send/ranla-grok-plugin.git",
+        "sha": "274a5f3cad4e09cf41d8a69884f3ad31e500efe3"
+      },
+      "homepage": "https://ranla.ai",
+      "keywords": ["ranla", "ranla mcp", "ranla campaigns", "ranla email"],
+      "domains": ["ranla.ai", "app.ranla.ai", "docs.ranla.ai", "mcp.ranla.ai"]
     }
   ]
 }
