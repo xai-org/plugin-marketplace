@@ -280,6 +280,33 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "pingroom",
+      "description": "Reach a human through PingRoom (hosted MCP server + skill). Send someone a ping with files, a map location, a tappable link, or structured data; ask a question and block until they answer; gate an action on an approve/deny decision; hand a decision off to your authorizing human; drive a live-progress card on their lock screen while long work runs.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pingroom/skills.git",
+        "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
+        "path": "mcp"
+      },
+      "homepage": "https://pingroom.io/connect-mcp.md",
+      "keywords": ["pingroom", "ping room", "pingroom mcp"],
+      "domains": ["pingroom.io", "api.pingroom.io"]
+    },
+    {
+      "name": "pingroom-cli",
+      "description": "Reach a human from a shell, a CI pipeline, or an agent hook with the @pingroom/cli. Pings carry attachments up to 5 MiB, human answers come back as exit codes a script can branch on, deploys can wait on an approve/deny, and rooms, webhooks and quick actions are managed from the terminal.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pingroom/skills.git",
+        "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
+        "path": "cli"
+      },
+      "homepage": "https://www.npmjs.com/package/@pingroom/cli",
+      "keywords": ["pingroom cli", "@pingroom/cli", "pingroom ask", "pingroom pair"]
     }
   ]
 }
