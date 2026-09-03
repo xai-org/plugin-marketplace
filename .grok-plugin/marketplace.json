@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "briven",
+      "description": "Briven serverless PostgreSQL: connect an agent to briven.tech via MCP. pgvector is on from the start. The skill will not delete a database. Neon is the closest product — the skill says so.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/flndrn-dev/briven-plugin.git",
+        "sha": "fbb36a5bb324ad4044dafba3a9f38abafeb4d5b0"
+      },
+      "homepage": "https://briven.tech/for-ai",
+      "keywords": ["briven", "briven.tech", "briven mcp", "briven postgres"],
+      "domains": ["briven.tech"]
     }
   ]
 }
