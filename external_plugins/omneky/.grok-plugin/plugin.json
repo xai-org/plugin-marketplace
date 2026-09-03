@@ -1,0 +1,16 @@
+{
+  "name": "omneky",
+  "version": "1.0.0",
+  "description": "Omneky ads, analytics, product catalogue, and creative generation via the hosted MCP at mcp.omneky.com. Sign in with an Omneky account on first connect.",
+  "author": {
+    "name": "Omneky",
+    "url": "https://github.com/omneky-org"
+  },
+  "homepage": "https://www.omneky.com",
+  "license": "Proprietary",
+  "keywords": [
+    "omneky",
+    "omneky ads",
+    "omneky mcp"
+  ]
+}
