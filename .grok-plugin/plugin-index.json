@@ -757,6 +757,40 @@
         ]
       }
     },
+    "rendemo": {
+      "sha": "2ee03a6f2ca4126f334fac30f7c75b9c8a8056a8",
+      "version": "1.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "demo",
+            "description": "Install a published Rendemo demo on this site"
+          },
+          {
+            "name": "start",
+            "description": "Start here — choose a recorded demo, sandbox demo, or codebase tour"
+          },
+          {
+            "name": "tour",
+            "description": "Author or edit a codebase tour anchored to markers in this repo"
+          }
+        ],
+        "skills": [
+          {
+            "name": "author-a-tour",
+            "description": "Use when the user asks to create or change a CODEBASE TOUR inside their own live product, or mentions data-rendemo mark…"
+          },
+          {
+            "name": "embed-a-demo",
+            "description": "This skill should be used when the user asks to \"embed a demo\", \"add our demo to the pricing page\", \"install a Rendemo…"
+          },
+          {
+            "name": "sandbox-demos",
+            "description": "This skill should be used when creating or editing a SANDBOX DEMO — a hosted, autoplayable demo built from a site Rende…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
