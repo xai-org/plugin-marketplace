@@ -536,6 +536,44 @@
         ]
       }
     },
+    "pi-security": {
+      "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pi-security",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ingest-markdown-report",
+            "description": "Submit one security report to Pi from inline Markdown and a .md or .markdown filename after tenant verification and fre…"
+          },
+          {
+            "name": "investigate-finding",
+            "description": "Investigate Pi Security findings by listing, locating, explaining, summarizing, or comparing exact FND-XXX IDs, UUIDs,…"
+          },
+          {
+            "name": "remediation-guidance",
+            "description": "Fetch existing Pi remediation guidance for a finding or vulnerable package, and optionally prepare one missing package…"
+          },
+          {
+            "name": "review-security-posture",
+            "description": "Review Pi Security posture by combining threat-model application context with Code Gatekeeper pull-request and issue re…"
+          },
+          {
+            "name": "secure-development-playbook",
+            "description": "Retrieve Pi secure-development guidance once for a stable engineering task, reconcile it with current repository eviden…"
+          },
+          {
+            "name": "security-design-review",
+            "description": "Start one Pi Security design review from a supported Confluence or Notion URL or inline Markdown after tenant verificat…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
