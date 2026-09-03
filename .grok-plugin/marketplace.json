@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "lila-perimenopause",
+      "description": "Evidence-aware guidance for perimenopause and menopause questions, including symptoms, stages, testing, HRT and non-hormonal options, appointment preparation, and safety boundaries.",
+      "category": "health",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tidalflow-Health/lila-perimenopause.git",
+        "sha": "f0448dc6cd01c7947228da8860aff0708daff391"
+      },
+      "homepage": "https://getlila.com",
+      "keywords": ["lila", "getlila", "lila perimenopause"],
+      "domains": ["getlila.com"]
     }
   ]
 }
