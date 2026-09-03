@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "flightclaw",
+      "description": "Flight search, price tracking and booking. Search Google Flights, watch a route and get an alert when the fare drops, then book and pay through Duffel. Remembers travellers, companions, loyalty programmes, cards and cabin preferences, so options come back ranked for the person asking.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jackculpan/flightclaw.git",
+        "sha": "bc90b58dd385302d6cdc5c1426d041c1b16ae9ab"
+      },
+      "homepage": "https://flightclaw.com",
+      "keywords": ["flightclaw", "flight claw", "flightclaw track"],
+      "domains": ["flightclaw.com"]
     }
   ]
 }
