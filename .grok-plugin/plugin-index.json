@@ -357,6 +357,22 @@
         ]
       }
     },
+    "modern-web-guidance": {
+      "sha": "56c61c9ee79a8df1a98822309c04847a57f56000",
+      "version": "0.0.186",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
