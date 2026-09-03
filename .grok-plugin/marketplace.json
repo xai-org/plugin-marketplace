@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "volunteerreminder",
+      "description": "Connect Grok to VolunteerReminder's remote MCP. Import a volunteer roster in test mode, preview first. Nothing texts a real volunteer until a human turns live sends on.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/talltimbersgroup/VolunteerReminder.git",
+        "sha": "40e7c1d75dea3d8d58ca9b3abc2fd7f2805ea4f1"
+      },
+      "homepage": "https://volunteerreminder.com/docs/agents",
+      "keywords": ["volunteerreminder", "volunteer reminder"],
+      "domains": ["volunteerreminder.com", "mcp.volunteerreminder.com"]
     }
   ]
 }

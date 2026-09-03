@@ -1214,6 +1214,17 @@
         ]
       }
     },
+    "volunteerreminder": {
+      "sha": "40e7c1d75dea3d8d58ca9b3abc2fd7f2805ea4f1",
+      "components": {
+        "skills": [
+          {
+            "name": "volunteer-schedule-import",
+            "description": "Start a VolunteerReminder trial and import a pasted volunteer roster"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
       "version": "1.17.0",
