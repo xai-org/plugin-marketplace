@@ -357,6 +357,24 @@
         ]
       }
     },
+    "gospelchannel-church-finder": {
+      "sha": "5a0bf40c67fe591fb6f6edb59ff3557342caeab7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gospelchannel-church-finder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gospelchannel-church-finder",
+            "description": "Find Christian churches that fit a person's worship style, denomination, language, and location using the GospelChannel…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
