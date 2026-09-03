@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "postzen",
+      "description": "PostZen social media scheduling (MCP Server + Skills). Publish, schedule, and queue posts across X, Instagram, TikTok, LinkedIn, Facebook, YouTube, Threads, Pinterest, Bluesky, and Telegram, upload media, manage posting queues, connect accounts, and pull analytics reports directly from Grok Build.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/postzen-dev/postzen-grok-plugin.git",
+        "sha": "bcc44eedca4d766974c1efeefe3a590a069a60f8"
+      },
+      "homepage": "https://www.postzen.dev",
+      "keywords": ["postzen", "postzen api", "postzen mcp", "post zen"],
+      "domains": ["postzen.dev", "www.postzen.dev", "app.postzen.dev", "docs.postzen.dev"]
     }
   ]
 }

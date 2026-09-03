@@ -536,6 +536,36 @@
         ]
       }
     },
+    "postzen": {
+      "sha": "bcc44eedca4d766974c1efeefe3a590a069a60f8",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postzen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postzen-analytics",
+            "description": "Build a social media analytics report from PostZen — post performance, follower growth, daily metrics, and best times t…"
+          },
+          {
+            "name": "postzen-connect",
+            "description": "Connect a new social media account to PostZen (X, Instagram, TikTok, LinkedIn, Facebook, YouTube, Threads, Pinterest, B…"
+          },
+          {
+            "name": "postzen-post",
+            "description": "Create, schedule, or queue a social media post with PostZen. Use when the user wants to post, schedule, cross-post, or…"
+          },
+          {
+            "name": "postzen-queue",
+            "description": "Set up and manage PostZen posting queues — recurring time slots that posts fill automatically. Use when the user wants…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
