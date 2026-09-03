@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "todoist",
+      "description": "Manage Todoist tasks, projects, labels, and workflows from Grok via Doist's hosted MCP server. OAuth on first use; no API key required.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Doist/todoist-mcp.git",
+        "sha": "4e173822d738327503cae6da1e6b269e9e810646"
+      },
+      "homepage": "https://github.com/Doist/todoist-mcp",
+      "keywords": ["todoist"],
+      "domains": ["todoist.com", "ai.todoist.net", "doist.com"]
     }
   ]
 }
