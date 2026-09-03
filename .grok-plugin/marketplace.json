@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "flaremail",
+      "description": "Read, draft, and send mail from a FlareMail account via the hosted MCP server. Sign in with OAuth on first connect; Grok uses the same mailbox as the FlareMail app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/travisrr/flaremail-grok-plugin.git",
+        "sha": "d1a980d44f311b0fb81bb8a68277a6bb544e31c7"
+      },
+      "homepage": "https://sendwithflare.com",
+      "keywords": ["flaremail", "flare mail", "sendwithflare", "flaremail mcp"],
+      "domains": ["sendwithflare.com", "app.sendwithflare.com"]
     }
   ]
 }
