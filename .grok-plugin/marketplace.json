@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "virlo",
+      "description": "TikTok, YouTube Shorts, and Instagram Reels social intelligence: trend discovery, creator lookups, niche research agents, and long-term tracking via Virlo's MCP server.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Virlo-AI/Virlo-Plugin.git",
+        "sha": "84b409fe9c8b4c43f8c26d8ef51b6107009e97c5"
+      },
+      "homepage": "https://virlo.ai",
+      "keywords": ["virlo", "virlo mcp", "virlo tiktok", "virlo social"],
+      "domains": ["virlo.ai", "dev.virlo.ai"]
     }
   ]
 }
