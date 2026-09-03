@@ -1,0 +1,14 @@
+{
+  "name": "flora",
+  "version": "0.1.0",
+  "description": "Create and run visual AI workflows on a FLORA canvas with the FLORA MCP server and skills — run saved techniques, batch one treatment across many items, mock creative into out-of-home placements, and iterate on existing projects.",
+  "author": {
+    "name": "FLORA",
+    "url": "https://flora.ai"
+  },
+  "homepage": "https://flora.ai",
+  "repository": "https://github.com/florafauna-ai/flora-typescript",
+  "license": "Apache-2.0",
+  "keywords": ["flora", "flora canvas", "flora technique", "mcp"],
+  "logo": "assets/logo.svg"
+}

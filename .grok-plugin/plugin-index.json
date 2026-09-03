@@ -357,6 +357,39 @@
         ]
       }
     },
+    "flora": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flora",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "flora",
+            "description": "What the FLORA MCP server is and what it can do — a visual AI canvas for image and video work, reachable as tools. Use…"
+          },
+          {
+            "name": "flora-batch-consistent",
+            "description": "Apply one FLORA technique across many items so every result shares a single consistent style — a product list or spread…"
+          },
+          {
+            "name": "flora-canvas-iterate",
+            "description": "Find and build on work that already exists in a FLORA project — inspect a canvas, review past generations and what they…"
+          },
+          {
+            "name": "flora-ooh-placements",
+            "description": "Put a finished ad creative into the world as out-of-home placements — poster on a gable wall, transit platform panel, b…"
+          },
+          {
+            "name": "flora-run-technique",
+            "description": "Run a saved FLORA technique — a multi-step visual workflow such as background swap, relighting, upscale, model swap, or…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
