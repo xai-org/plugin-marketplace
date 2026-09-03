@@ -1007,6 +1007,18 @@
         ]
       }
     },
+    "typefully": {
+      "sha": "c265cc23771ea290c860146913138aad92acf011",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "typefully",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
       "version": "0.48.1",

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "typefully",
+      "description": "Social media scheduler for great writing on X (Twitter), LinkedIn, Substack, Threads, Bluesky, and Mastodon. Write, review, schedule, publish, and analyze posts across every social media account in your collaborative Typefully workspace.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/typefully/typefully-plugin.git",
+        "sha": "c265cc23771ea290c860146913138aad92acf011"
+      },
+      "homepage": "https://github.com/typefully/typefully-plugin",
+      "keywords": ["typefully", "typefully draft", "typefully schedule", "typefully publish"],
+      "domains": ["typefully.com"]
     }
   ]
 }
