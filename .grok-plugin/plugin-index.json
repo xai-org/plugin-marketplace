@@ -536,6 +536,36 @@
         ]
       }
     },
+    "neuruh-public-micro-plugins": {
+      "sha": "9a9a5329805f94ca5f8833f17873e87f076cb4f0",
+      "version": "0.1.9-alpha",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neuruh-public-micro-plugins",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "neuruh-cheap-route",
+            "description": "Choose the highest net-value execution route above a capability floor. Use when comparing candidate routes, layers L0-L…"
+          },
+          {
+            "name": "neuruh-context-pack",
+            "description": "Compile a bounded pointer-heavy execution packet from known mission fields. Use when you need a compact execution conte…"
+          },
+          {
+            "name": "neuruh-handoff-pack",
+            "description": "Compile a bounded agent-to-agent continuation packet from previous and current public state. Use when handing a mission…"
+          },
+          {
+            "name": "neuruh-proof-card",
+            "description": "Project an internal-looking record through the public proof-card allowlist. Use when publishing a receipt, status card,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {

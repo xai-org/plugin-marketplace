@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "neuruh-public-micro-plugins",
+      "description": "Compile a bounded agent context packet, pick the cheapest capable execution route, and emit a public-safe proof card. Offline stdio MCP. No account, no API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NeuruhAI/neuruh-sovereign-agent-starter.git",
+        "sha": "9a9a5329805f94ca5f8833f17873e87f076cb4f0"
+      },
+      "homepage": "https://github.com/NeuruhAI/neuruh-sovereign-agent-starter",
+      "keywords": ["neuruh", "neuruh context pack", "neuruh proof card", "neuruh handoff"],
+      "domains": ["neuruh.com"]
     }
   ]
 }
