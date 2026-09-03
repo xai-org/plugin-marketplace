@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "postsyncer",
+      "description": "PostSyncer social media scheduling and analytics. Create, schedule, draft, and repeat posts across X, Instagram, Facebook, LinkedIn, TikTok, YouTube, Threads, Bluesky, Mastodon, Pinterest, and Telegram; manage media, campaigns, labels, comment moderation, and performance analytics through the PostSyncer MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PostSyncer/claude-plugin.git",
+        "sha": "3a0319ad97322bdc8c26772f3583918bc6278bc3"
+      },
+      "homepage": "https://postsyncer.com",
+      "keywords": ["postsyncer", "postsyncer api", "postsyncer mcp"],
+      "domains": ["postsyncer.com", "docs.postsyncer.com"]
     }
   ]
 }

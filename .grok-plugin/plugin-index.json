@@ -536,6 +536,24 @@
         ]
       }
     },
+    "postsyncer": {
+      "sha": "3a0319ad97322bdc8c26772f3583918bc6278bc3",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postsyncer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postsyncer",
+            "description": "Schedule, publish, and analyze social media posts with PostSyncer across 11 platforms — X (Twitter), Instagram, Faceboo…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
