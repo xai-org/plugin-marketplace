@@ -758,8 +758,8 @@
       }
     },
     "ranla": {
-      "sha": "a5d3dc020e94cdbc6a59339dbf3aac3d562f41ac",
-      "version": "1.0.1",
+      "sha": "274a5f3cad4e09cf41d8a69884f3ad31e500efe3",
+      "version": "1.0.2",
       "components": {
         "mcpServers": [
           {
@@ -770,11 +770,11 @@
         "skills": [
           {
             "name": "ranla",
-            "description": "Connect Ranla to a product for transactional email and lifecycle growth — send receipts, auth codes, and alerts; verify…"
+            "description": "Connect Ranla to a product for lifecycle email — Audience contacts, lifecycle events, activation, conversion, and campa…"
           },
           {
             "name": "ranla-mcp",
-            "description": "Use Ranla MCP from Grok Build. Prefer the bundled hosted server at mcp.ranla.ai (OAuth, no API key). Transactional emai…"
+            "description": "Use Ranla MCP from Grok Build. Prefer the bundled hosted server at mcp.ranla.ai (OAuth, no API key). Use Arc for growth…"
           }
         ]
       }
