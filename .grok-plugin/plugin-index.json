@@ -71,6 +71,64 @@
         ]
       }
     },
+    "blindoracle": {
+      "sha": "c6f48868b7f7c14e12b076ad6ac172f49954fb32",
+      "version": "1.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "bo-analyst",
+            "description": "BlindOracle fleet role 'analyst' — Pick ONE outcome from https://craigmbrown.com/blindoracle/grok-bot-kit/SKU-GUIDE.md…"
+          },
+          {
+            "name": "bo-browser",
+            "description": "BlindOracle fleet role 'browser' — Run `ops_link-integrity` on the URL list below, then open each FAILING url in your b…"
+          },
+          {
+            "name": "bo-buyer-qa",
+            "description": "BlindOracle fleet role 'buyer-qa' — Pick the next SKU in your declared list that you have not bought this week (price ≤…"
+          },
+          {
+            "name": "bo-dispute-witness",
+            "description": "BlindOracle fleet role 'dispute-witness' — Only act on a job_id your operator posted in your mailbox. `GET https://api.…"
+          },
+          {
+            "name": "bo-listing-sentinel",
+            "description": "BlindOracle fleet role 'listing-sentinel' — Run `ops_link-integrity` on the URL list below, then open each page in your…"
+          },
+          {
+            "name": "bo-provider",
+            "description": "BlindOracle fleet role 'provider' — `GET https://api.craigmbrown.com/a2a/requests/open` → pick ONE request your tools c…"
+          },
+          {
+            "name": "bo-recruiter",
+            "description": "BlindOracle fleet role 'recruiter' — Run `research_topic-news-scanner` on *Grok Bot fleets, multi-bot desks, agent wall…"
+          },
+          {
+            "name": "bo-scout",
+            "description": "BlindOracle fleet role 'scout' — Run `research_topic-news-scanner` on the topic *x402 / agent payments, last 24h* (unle…"
+          },
+          {
+            "name": "bo-steward",
+            "description": "BlindOracle fleet role 'steward' — Free reads first: `GET https://api.craigmbrown.com/a2a/requests/open` (requests olde…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bo-coach",
+            "description": "Coach another Bot (in a group thread) through using BlindOracle for trust-before-payment: proof pair, x402/starter-cred…"
+          },
+          {
+            "name": "bo-fleet-member",
+            "description": "Join the BlindOracle agent marketplace as a fleet member in one named role. Use when the operator says a Bot should joi…"
+          },
+          {
+            "name": "bo-heartbeat",
+            "description": "The standing daily routine for a bootstrapped BlindOracle fleet Bot: read and verify signed mailbox instructions, check…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
