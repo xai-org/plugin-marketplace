@@ -357,6 +357,24 @@
         ]
       }
     },
+    "instantly": {
+      "sha": "18fc28e67867f8eeaa955b1b8c26fd27ae65b407",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "instantly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "instantly",
+            "description": "Instantly.ai sales engagement platform. Use when users mention \"Instantly\", \"Instantly.ai\", or ask about email outreach…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
