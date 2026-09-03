@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "soon",
+      "description": "Manage Soon work schedules from Grok. Read rosters and coverage, find who can cover a shift, create and publish draft shifts, handle leave, and resolve schedule change requests. Connects to Soon over OAuth and enforces your real team and board permissions.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SoonHQ/soon-claude-plugin.git",
+        "sha": "ff4d46be6f70b60a9e2a2c9361e860f88fe68cd5",
+        "path": "plugins/soon"
+      },
+      "homepage": "https://soon.works",
+      "keywords": ["soon", "soon schedule", "soon shifts", "soon roster"],
+      "domains": ["soon.works", "app.soon.works"]
     }
   ]
 }
