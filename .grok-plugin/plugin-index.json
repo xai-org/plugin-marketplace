@@ -357,6 +357,18 @@
         ]
       }
     },
+    "firsttouch": {
+      "sha": "32f8a91b460b99914ae3258887436eee103adf8d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "firsttouch",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "firsttouch",
+      "description": "FirstTouch CRM integration. Manage audiences, outreach flows, contact enrollments, tasks, and HubSpot list imports through the hosted FirstTouch MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/First-Touch-Inc/mcp.git",
+        "sha": "32f8a91b460b99914ae3258887436eee103adf8d"
+      },
+      "homepage": "https://www.firsttouch.com",
+      "keywords": ["firsttouch", "firsttouch mcp", "audience management", "outreach flow automation", "contact enrollment", "task management", "hubspot list import"],
+      "domains": ["firsttouch.com", "www.firsttouch.com", "mcp.firsttouch.com"]
     }
   ]
 }
