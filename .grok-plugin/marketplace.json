@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "jobrocks",
+      "description": "job.rocks workforce management integration (remote MCP + skill). Plan staffing projects and shifts, review aggregate staffing progress, and hand sensitive staff-level work back to job.rocks. OAuth authentication required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/job-rocks/jobrocks-grok-plugin.git",
+        "sha": "97931d9ad042a310d64fee43b058af6774898e1f"
+      },
+      "homepage": "https://job.rocks",
+      "keywords": ["job.rocks", "jobrocks", "job.rocks workforce management", "job.rocks shift planning"],
+      "domains": ["job.rocks", "mcp.jobrocks.ai"]
     }
   ]
 }
