@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "kanonik",
+      "description": "Governance runtime for compliance work. Draft policies, assess controls, run gap analysis and build verifiable audit evidence against ISO 27001:2022, SOC 2, GDPR, NIST CSF 2.0 and HIPAA. Every write passes a server-side Verifier and a human-approval gate, and lands in a tamper-evident record.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kanonik-LLC/kanonik-plugin.git",
+        "sha": "cdecc55e327fd0874d4ada62f3530a3e7a9c8067"
+      },
+      "homepage": "https://kanonik.ai",
+      "keywords": ["kanonik", "grc", "compliance", "iso 27001", "soc 2", "audit evidence"],
+      "domains": ["kanonik.ai"]
     }
   ]
 }
