@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "sequenzy",
+      "description": "Sequenzy email marketing integration for Grok Build (hosted MCP server + agent skills). Manage permission-based lifecycle campaigns, sequences, subscribers, templates, transactional email, and delivery analytics.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Sequenzy/skills.git",
+        "sha": "498b399a0fb5a23d75642a2b26ae4933d073f057"
+      },
+      "homepage": "https://sequenzy.com",
+      "keywords": ["sequenzy", "sequenzy email marketing", "sequenzy mcp"],
+      "domains": ["sequenzy.com", "api.sequenzy.com"]
     }
   ]
 }
