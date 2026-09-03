@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "faceless",
+      "description": "Faceless.so AI faceless video integration (MCP Server + Skills). Create videos from a script or topic with TTS voiceover, AI visuals, captions and music, render them in the cloud, run automated series, and publish or schedule to YouTube, TikTok, Instagram, X, Facebook, LinkedIn and Threads.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Side-Products/faceless-claude-plugin.git",
+        "sha": "b2c8fb1e4654cf38ba2286c51669afe301db403f"
+      },
+      "homepage": "https://faceless.so/developers",
+      "keywords": ["faceless", "faceless.so", "faceless video", "faceless mcp"],
+      "domains": ["faceless.so"]
     }
   ]
 }
