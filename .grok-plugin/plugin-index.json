@@ -536,8 +536,20 @@
         ]
       }
     },
-    "pingroom": {
-      "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
+    "pingroom-cli": {
+      "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "pingroom-cli",
+            "description": "Use the `pingroom` CLI to reach humans from terminals, scripts, CI, and Claude Code hooks — send pings with file attach…"
+          }
+        ]
+      }
+    },
+    "pingroom-mcp": {
+      "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -550,18 +562,6 @@
           {
             "name": "pingroom-mcp",
             "description": "Reach a human through PingRoom — the event platform whose MCP connector this session has. Use this skill whenever the t…"
-          }
-        ]
-      }
-    },
-    "pingroom-cli": {
-      "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
-      "version": "1.0.0",
-      "components": {
-        "skills": [
-          {
-            "name": "pingroom-cli",
-            "description": "Use the `pingroom` CLI to reach humans from terminals, scripts, CI, and Claude Code hooks — send pings with file attach…"
           }
         ]
       }

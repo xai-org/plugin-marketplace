@@ -282,13 +282,13 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
-      "name": "pingroom",
+      "name": "pingroom-mcp",
       "description": "Reach a human through PingRoom (hosted MCP server + skill). Send someone a ping with files, a map location, a tappable link, or structured data; ask a question and block until they answer; gate an action on an approve/deny decision; hand a decision off to your authorizing human; drive a live-progress card on their lock screen while long work runs.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/pingroom/skills.git",
-        "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
+        "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
         "path": "mcp"
       },
       "homepage": "https://pingroom.io/connect-mcp.md",
@@ -302,7 +302,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pingroom/skills.git",
-        "sha": "e08b3cf11722f66c9394842e83b0ab88d6daee51",
+        "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
         "path": "cli"
       },
       "homepage": "https://www.npmjs.com/package/@pingroom/cli",
