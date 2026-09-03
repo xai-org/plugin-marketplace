@@ -1015,6 +1015,32 @@
         ]
       }
     },
+    "traderspy": {
+      "sha": "2a48dc1d6747471da7a89d78f1efc2bfdd2120a6",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "traderspy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "market-data",
+            "description": "Query real-time crypto futures prices, OHLCV candle data, and technical indicators (RSI, MACD, EMA, Bollinger, ATR, ADX…"
+          },
+          {
+            "name": "smart-money",
+            "description": "Track smart money / whale traders across crypto exchanges (Binance, Hyperliquid, Bybit, OKX). Use when the user asks ab…"
+          },
+          {
+            "name": "trading-signals",
+            "description": "Query and analyze AI-powered crypto futures trading signals from TraderSpy. Use when the user asks about crypto signals…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
       "version": "0.48.2",
