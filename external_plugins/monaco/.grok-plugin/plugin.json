@@ -1,0 +1,13 @@
+{
+  "name": "monaco",
+  "version": "1.0.0",
+  "description": "Connect Grok to your Monaco workspace. Search and update contacts, accounts, opportunities, tasks, and meetings; build audiences and enroll them in sequences and campaigns; run pipeline hygiene and revenue analytics on live CRM data.",
+  "author": {
+    "name": "Monaco",
+    "url": "https://monaco.com"
+  },
+  "homepage": "https://docs.monaco.com/mcp/overview",
+  "license": "MIT",
+  "keywords": ["monaco", "monaco crm", "monaco mcp", "mcp"],
+  "logo": "assets/logo.svg"
+}
