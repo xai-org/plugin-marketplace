@@ -280,6 +280,24 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "alertforge",
+      "description": "Create coordinated stream branding, animated overlay packs, AI stream alerts, and transparent video assets through AlertForge's hosted MCP server and guided workflow skill. Connects with OAuth and preserves credit quotes and user-approval checkpoints.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kasunjith713/alertforge-agent-plugin.git",
+        "sha": "bd3d63193f49dc0ba1955ba0a0745ceadb8b6524"
+      },
+      "homepage": "https://alertforge.ai/ai-agents",
+      "keywords": [
+        "alertforge",
+        "alertforge overlays",
+        "alertforge alerts",
+        "alertforge ai"
+      ],
+      "domains": ["alertforge.ai"]
     }
   ]
 }
