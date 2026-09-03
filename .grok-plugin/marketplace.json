@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "porte",
+      "description": "Remote control for local Grok sessions from your phone. Pair a machine, open its Grok sessions, send prompts, and answer permission requests through Porte.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexander-zuev/porte.git",
+        "sha": "c795498b2983f1a2294018bb47df80153f18749d",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://useporte.dev",
+      "keywords": ["porte", "useporte", "porte remote control"],
+      "domains": ["useporte.dev"]
     }
   ]
 }
