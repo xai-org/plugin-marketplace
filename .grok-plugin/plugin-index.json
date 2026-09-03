@@ -1263,6 +1263,18 @@
           }
         ]
       }
+    },
+    "wonder": {
+      "sha": "e60f8bd908e13ec49b3738f54e1e42d659915286",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wonder",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
