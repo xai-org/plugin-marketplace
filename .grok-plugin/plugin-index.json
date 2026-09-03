@@ -43,6 +43,24 @@
         ]
       }
     },
+    "backlinkswinkel": {
+      "sha": "93d567b454e60c33b110be118627468cc23ac5c5",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "backlinkswinkel",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "backlinks-bestellen",
+            "description": "Zoek relevante Nederlandse websites in de Backlinkswinkel-catalogus en bestel een backlink na uitdrukkelijke bevestigin…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
