@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "airwallex-agentos",
+      "description": "Airwallex AgentOS workflow skills for Billing, Payouts, Issuing, and Treasury. Orchestrate invoices, beneficiaries, cards, and cashflow through the airwallex CLI or Airwallex MCP servers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "sha": "5cb3dd8b63e5ac873add34191e1994a1475ce145",
+        "path": "plugins/airwallex-agentos"
+      },
+      "homepage": "https://www.airwallex.com/docs/developer-tools/ai/agentos",
+      "keywords": ["airwallex-agentos", "airwallex agentos", "airwallex"],
+      "domains": ["airwallex.com", "www.airwallex.com", "mcp.airwallex.com"]
     }
   ]
 }
