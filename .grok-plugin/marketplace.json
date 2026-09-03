@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "portals-plugin-grok",
+      "description": "Build, manage, and publish Portals browser games from Grok Build with eight platform skills and the Portals web-games MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/portals-labs/portals-plugin-grok.git",
+        "sha": "70530cbaa7adc7a197e95ed12936a7764575e05d",
+        "path": "plugins/portals-plugin-grok"
+      },
+      "homepage": "https://github.com/portals-labs/portals-plugin-grok",
+      "keywords": ["portals", "portals web games", "portals sdk", "portals mcp"],
+      "domains": ["portals.to"]
     }
   ]
 }
