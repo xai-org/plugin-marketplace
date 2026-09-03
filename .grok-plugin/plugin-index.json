@@ -865,6 +865,18 @@
         ]
       }
     },
+    "superdesign": {
+      "sha": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+      "version": "0.6.0",
+      "components": {
+        "skills": [
+          {
+            "name": "superdesign",
+            "description": "Design or redesign frontend UI, presentations, and graphics on the Superdesign canvas with a choice of leading AI model…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "version": "6.3.0",
