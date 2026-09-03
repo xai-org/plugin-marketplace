@@ -213,6 +213,19 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen MCP for Grok Build.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "825363e074f6aa835368ab8358ff6be9fa050f1f"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",

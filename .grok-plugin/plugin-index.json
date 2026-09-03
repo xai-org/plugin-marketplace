@@ -536,6 +536,24 @@
         ]
       }
     },
+    "octen": {
+      "sha": "825363e074f6aa835368ab8358ff6be9fa050f1f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octen",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "octen-web",
+            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "efa2a531985e0a8084d36ff3cf87233be8a9f34b",
       "components": {
