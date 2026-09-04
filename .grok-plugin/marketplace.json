@@ -283,7 +283,7 @@
     },
     {
       "name": "toolrouter",
-      "description": "ToolRouter hosted MCP catalog. Discover and call specialist tools for research, web extraction, SEO and AEO, image and video generation, lead discovery, document analysis, and other agent workflows through one connection, with current schemas and prices returned live.",
+      "description": "ToolRouter is the OpenRouter for tools. Connect once over MCP and your agent can discover and call 250+ hosted specialist tools: web search, scraping, image and video generation, SEO, finance, property, compliance and more. Free tools work immediately; paid tools are pay per call.",
       "category": "development",
       "source": {
         "source": "url",
@@ -291,7 +291,7 @@
         "sha": "76414a0e8afed893afeb12d836a666a5feab861f"
       },
       "homepage": "https://toolrouter.com",
-      "keywords": ["toolrouter", "toolrouter mcp", "toolrouter tools"],
+      "keywords": ["toolrouter", "mcp", "mcp-server", "ai-tools", "agents", "tool-router", "web-search", "scraping", "image-generation", "video-generation", "seo"],
       "domains": ["toolrouter.com", "api.toolrouter.com"]
     }
   ]
