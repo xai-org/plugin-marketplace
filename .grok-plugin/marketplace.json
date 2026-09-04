@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "hormi",
+      "description": "Hormi shared household expense tracker (MCP server + skills). Record expenses and incomes, review spending by category and member, read the monthly report, and manage the household's shared categories through Hormi's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hormiapp/hormi-plugins.git",
+        "sha": "527bdd0ac162eee1eb725308365bb12adbbda88a"
+      },
+      "homepage": "https://hormi.app/mcp",
+      "keywords": ["hormi", "hormi app", "hormi gastos", "hormi plus"],
+      "domains": ["hormi.app", "api.hormi.app"]
     }
   ]
 }
