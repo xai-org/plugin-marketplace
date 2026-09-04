@@ -293,6 +293,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "vibewatch",
+      "description": "Give Grok access to your community's vibe. Vibewatch is community intelligence for web3 teams; this plugin connects Grok to your Vibewatch organization through the hosted Vibewatch MCP server — sentiment overview, daily trend, message search, daily insights, weekly reports, market context, and the public Stacks ecosystem index, all read-only. Sign in with your Vibewatch account.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vibewatch-io/vibewatch-mcp.git",
+        "sha": "1d486d4d4e5614e276009bea310d517e4505282f",
+        "path": "plugins/vibewatch"
+      },
+      "homepage": "https://vibewatch.io",
+      "keywords": ["vibewatch", "vibewatch mcp", "vibe watch"],
+      "domains": ["vibewatch.io", "app.vibewatch.io"]
     }
   ]
 }
