@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "robosystems",
+      "description": "RoboSystems accounting and financial-reporting knowledge graphs over MCP: SEC EDGAR XBRL filings, RoboLedger general ledgers (QuickBooks-connected), and RoboInvestor portfolios, with skills for SEC filing analysis, month-end close, and graph exploration.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RoboFinSystems/robosystems-plugin.git",
+        "sha": "0548750495f1eeb03dd157bd922e2e15dbf341ac"
+      },
+      "homepage": "https://robosystems.ai",
+      "keywords": ["robosystems", "roboledger", "roboinvestor", "sec edgar xbrl"],
+      "domains": ["robosystems.ai"]
     }
   ]
 }

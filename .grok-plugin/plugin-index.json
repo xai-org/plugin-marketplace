@@ -757,6 +757,32 @@
         ]
       }
     },
+    "robosystems": {
+      "sha": "0548750495f1eeb03dd157bd922e2e15dbf341ac",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "robosystems",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "roboledger-close",
+            "description": "Run or set up a month-end close on a RoboLedger graph over the RoboSystems MCP server — orient on the fiscal calendar,…"
+          },
+          {
+            "name": "robosystems",
+            "description": "Orientation for the RoboSystems MCP server — accounting and financial-reporting knowledge graphs (SEC EDGAR XBRL filing…"
+          },
+          {
+            "name": "sec-filing-analysis",
+            "description": "Analyze a public company from its SEC EDGAR XBRL filings on the RoboSystems `sec` graph — statements by ticker or CIK,…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
