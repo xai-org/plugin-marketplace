@@ -255,6 +255,20 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "airwallex-agentos",
+      "description": "Airwallex financial operations for Grok Build (MCP server + skills). Turn contracts and purchase orders into invoices and subscriptions, onboard suppliers as payout beneficiaries from their invoices, issue virtual and physical cards with spend limits, and review multi-currency balances and FX exposure. Money-out actions are intentionally excluded.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "sha": "c6cabe472aa2b3cda1b3d1a56e778637f50f9467",
+        "path": "plugins/airwallex-agentos"
+      },
+      "homepage": "https://www.airwallex.com",
+      "keywords": ["airwallex", "airwallex billing", "airwallex payouts", "airwallex issuing", "airwallex mcp"],
+      "domains": ["airwallex.com", "www.airwallex.com", "sandbox.airwallex.com"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",
