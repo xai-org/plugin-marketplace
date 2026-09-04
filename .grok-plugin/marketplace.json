@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "convoy",
+      "description": "Orchestrate BYO AI harnesses as neurons on one Convoy thread with a live, fail-closed MCP wizard.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Deploy-Forward/convoy.git",
+        "sha": "b4b186d925bdb24e414cedd8abfa208d342d98b9",
+        "path": "plugin/convoy"
+      },
+      "homepage": "https://convoy.bot",
+      "keywords": ["convoy", "convoy wizard", "convoy bot"],
+      "domains": ["convoy.bot"]
     }
   ]
 }

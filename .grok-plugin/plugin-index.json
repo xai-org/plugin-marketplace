@@ -199,6 +199,28 @@
         ]
       }
     },
+    "convoy": {
+      "sha": "b4b186d925bdb24e414cedd8abfa208d342d98b9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "convoy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "convoy",
+            "description": "/convoy orchestrates Convoy using live tools/list, never a frozen catalog."
+          },
+          {
+            "name": "convoy-wizard",
+            "description": "Optional @convoy wizard: fail-closed live-tool preflight, then ONE card (harness -> model -> effort | attach, usage rem…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
