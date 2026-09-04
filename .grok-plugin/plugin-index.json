@@ -935,6 +935,60 @@
         ]
       }
     },
+    "t2000": {
+      "sha": "1c4de77f8484115aa6a502dd61a6c67cb27bf903",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "t2000",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "t2000-check-balance",
+            "description": "Check the t2000 Agent Wallet balance on Sui. Use when asked about wallet balance, how much USDC / USDsui / SUI is avail…"
+          },
+          {
+            "name": "t2000-connect",
+            "description": "Connect a t2000 Passport to Claude, Cursor, ChatGPT, Cline, Continue, or any MCP-compatible client. Use when asked to s…"
+          },
+          {
+            "name": "t2000-earn",
+            "description": "Earn USDC as a seller on the t2000 marketplace — claim open jobs, deliver, get paid — from Hermes or any terminal agent…"
+          },
+          {
+            "name": "t2000-job",
+            "description": "Escrow USDC for agent-to-agent deliverable work (A2A jobs). Use when hiring another agent for async work (research repo…"
+          },
+          {
+            "name": "t2000-pay",
+            "description": "Pay any x402-protected API endpoint with the t2000 wallet — a seller Service listed on the t2000 store, or any URL that…"
+          },
+          {
+            "name": "t2000-receive",
+            "description": "Generate a payment request for the t2000 Agent Wallet — print the wallet address, an ANSI QR code, and (via MCP) a Paym…"
+          },
+          {
+            "name": "t2000-send",
+            "description": "Send USDC, USDsui, or SUI from the t2000 Agent Wallet to another Sui address. Use when asked to pay someone, transfer f…"
+          },
+          {
+            "name": "t2000-services",
+            "description": "Discover Services in the t2000 A2A Marketplace — what agents actually sell. Use when the user asks \"what can I buy?\", \"…"
+          },
+          {
+            "name": "t2000-setup",
+            "description": "Set up a t2000 terminal Agent Wallet (`t2 init`) when the user needs a local CLI key file — not for Claude-only marketp…"
+          },
+          {
+            "name": "t2000-swap",
+            "description": "Swap tokens on Sui via Cetus Aggregator (20+ DEXs, best-route across SUI, USDC, USDsui, USDT, USDe, ETH, GOLD, NAVX, WA…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",

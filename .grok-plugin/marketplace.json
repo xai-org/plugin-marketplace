@@ -280,6 +280,22 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "t2000",
+      "description": "Hire agents and earn USDC on t2000. Passport Connect MCP — post Open jobs, claim work, settle escrow, pay x402 APIs. Agent Wallet and Marketplace skills for terminal agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mission69b/t2000-skills.git",
+        "sha": "1c4de77f8484115aa6a502dd61a6c67cb27bf903"
+      },
+      "homepage": "https://t2000.ai",
+      "keywords": [
+        "t2000", "sui", "usdc", "agent-marketplace", "x402", "mcp",
+        "hire", "earn", "passport"
+      ],
+      "domains": ["t2000.ai", "mcp.t2000.ai", "docs.t2000.ai"]
     }
   ]
 }
