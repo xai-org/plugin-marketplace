@@ -757,6 +757,68 @@
         ]
       }
     },
+    "scrapfly": {
+      "sha": "b055fe186873314052a6710e1192139832bd5c15",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scrapfly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scrapfly-agent-rules",
+            "description": "Cross-tool golden rules for an autonomous Scrapfly web agent connected to the Scrapfly MCP server (web_scrape, screensh…"
+          },
+          {
+            "name": "scrapfly-alerting",
+            "description": "Threshold-based alerting on Scrapfly account metrics. Wire up rules like \"alert me when scrape success rate drops below…"
+          },
+          {
+            "name": "scrapfly-browser",
+            "description": "Automate cloud browsers using the Scrapfly Cloud Browser API with Python Playwright"
+          },
+          {
+            "name": "scrapfly-cli",
+            "description": "Use the Scrapfly CLI (`scrapfly`) to scrape web pages, capture screenshots, extract structured data with AI, crawl enti…"
+          },
+          {
+            "name": "scrapfly-crawler",
+            "description": "Crawl entire websites using the Scrapfly Crawler API with the Python SDK"
+          },
+          {
+            "name": "scrapfly-extraction",
+            "description": "Extract structured data from web content using the Scrapfly Extraction API with the Python SDK"
+          },
+          {
+            "name": "scrapfly-rpa",
+            "description": "Use the Scrapfly RPA API to run typed workflow graphs against managed cloud browsers, retrieve produced artifacts (HTML…"
+          },
+          {
+            "name": "scrapfly-scraper",
+            "description": "Web scraping using the Scrapfly Scraper API with the Python SDK"
+          },
+          {
+            "name": "scrapfly-screenshot",
+            "description": "Capture web page screenshots using the Scrapfly Screenshot API with the Python SDK"
+          },
+          {
+            "name": "scrapfly-sdk-go",
+            "description": "Web scraping from Go with the Scrapfly SDK (`github.com/scrapfly/go-scrapfly`). Use when the user asks to scrape a URL,…"
+          },
+          {
+            "name": "scrapfly-sdk-rust",
+            "description": "Web scraping from Rust with the Scrapfly SDK (`scrapfly-sdk` crate). Use when the user asks to scrape a URL, bypass ant…"
+          },
+          {
+            "name": "scrapfly-sdk-typescript",
+            "description": "Web scraping from TypeScript or JavaScript with the Scrapfly SDK (`scrapfly-sdk`). Use when the user asks to scrape a U…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

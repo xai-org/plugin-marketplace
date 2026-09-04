@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "scrapfly",
+      "description": "Scrapfly is the web data and browser automation layer for agents working with live pages. Point it at any publicly accessible URL and get back clean, structured content, including from sites with no API and pages that are hard to retrieve reliably.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scrapfly/skills.git",
+        "sha": "b055fe186873314052a6710e1192139832bd5c15"
+      },
+      "homepage": "https://scrapfly.io",
+      "keywords": ["scrapfly", "scrapfly scraper", "scrapfly extraction", "scrapfly cloud browser", "scrapfly mcp"],
+      "domains": ["scrapfly.io", "mcp.scrapfly.io"]
     }
   ]
 }
