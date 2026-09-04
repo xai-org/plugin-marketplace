@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "aso-skill": {
+      "sha": "c25656d1e2ae6a9ab5a5eb576372c2476748a037",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aso-skill",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aso-skill",
+            "description": "Query ASO Skill for current Apple App Store search rankings, keyword difficulty and popularity, app metadata, credit ba…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
