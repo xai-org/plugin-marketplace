@@ -255,6 +255,19 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "oz",
+      "description": "Oz by Anyreach: an AI teammate for researching, organizing, and executing work across connected business tools through a scoped, auditable MCP server. Sign in with OAuth; no API key is bundled.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anyreachai/oz-mcp-plugin.git",
+        "sha": "0ca06ba5d70a3b4bcf61d6df340553b25b2f0056"
+      },
+      "homepage": "https://oz.anyreach.ai",
+      "keywords": ["oz", "anyreach", "oz ai teammate", "anyreach mcp"],
+      "domains": ["oz.anyreach.ai", "api-oz.anyreach.ai"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",
