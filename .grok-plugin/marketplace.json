@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "airops",
+      "description": "Access your AirOps workspaces, Brand Kits, and AEO (AI Engine Optimization) analytics. Monitor your brand's performance in AI search results, analyze citation rates, and optimize your content strategy.\n\nYou can use AirOps to:\n\nBrand Performance Analysis:\n\"Show me my brand's citation rate and share of voice for the last 30 days\"\n\nContent Optimization:\n\"What are the top questions citing my website and how can I improve my answers?\"\n\nCompetitive Intelligence:\n\"Compare my brand's AI search performance against my top 3 competitors\"\n\nUse your Brand Kit to create content:\n\"Write a blog post about the product described in the attached document\"",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airopshq/airops-grok-plugin.git",
+        "sha": "4d7ef52617828d5af960a6a0f84e5af572c09bdd"
+      },
+      "homepage": "https://www.airops.com",
+      "keywords": ["airops", "airops mcp", "airops brand kit", "airops aeo"],
+      "domains": ["airops.com", "app.airops.com"]
     }
   ]
 }
