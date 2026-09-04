@@ -71,6 +71,18 @@
         ]
       }
     },
+    "blaze": {
+      "sha": "3d8a5d0cf32c382abd57bf3c657b2d92f86ec468",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blaze",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
