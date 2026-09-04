@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "cf681787184a493e7106b0ae1ee88a1fede65017",
+        "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "efa2a531985e0a8084d36ff3cf87233be8a9f34b",
+        "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "quo",
+      "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
+        "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
+      },
+      "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
+      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
+      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
       "name": "pingroom-mcp",
