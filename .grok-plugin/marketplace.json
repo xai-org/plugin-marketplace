@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "grok-build-ship",
+      "description": "Ship checklist for Grok Build and grok.me apps: smoke tests, brand-clean attribution, and share-card polish.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voxeoalyx/grok-build-ship.git",
+        "sha": "07582f43a29fef82f04077358036338d53d11372"
+      },
+      "homepage": "https://github.com/voxeoalyx/grok-build-ship",
+      "keywords": ["grok-build-ship", "grok build", "grok.me", "ship to grok.me"],
+      "domains": ["grok.me", "x.ai"]
     }
   ]
 }
