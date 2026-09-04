@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "anyapi",
+      "description": "Hundreds of live data APIs through one gateway: social media, search and SEO, maps and local business data, company and contact enrichment, e-commerce, and structured JSON from any public web page. One key and one USD wallet, pay per request with no subscription, a normalized input/output JSON Schema for every API, and automatic failover across sources under one price. Bundles the anyapi skill and the hosted AnyAPI MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getanyapi-com/skills.git",
+        "sha": "950dd1a375f7a155f302e03e1394d9d1e8eb70dc"
+      },
+      "homepage": "https://getanyapi.com",
+      "keywords": ["anyapi", "any api", "getanyapi", "anyapi mcp"],
+      "domains": ["getanyapi.com", "api.getanyapi.com"]
     }
   ]
 }
