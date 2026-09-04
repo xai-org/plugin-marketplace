@@ -357,6 +357,46 @@
         ]
       }
     },
+    "kairogen": {
+      "sha": "fa3a85f4f94b2c1814efdbec8dab6505f0ff3e7e",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "kairogen-tutorial",
+            "description": "Guided first run of the Kairogen plugin — connect, browse models, generate an image"
+          },
+          {
+            "name": "models",
+            "description": "Browse the Kairogen model catalog with prices, filtered by what you need"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "kairogen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kairogen",
+            "description": "Entry point for Kairogen — generate images, videos, and audio from Grok Build. Use whenever \"Kairogen\" is mentioned, an…"
+          },
+          {
+            "name": "kairogen-audio",
+            "description": "Generate speech, sound effects, and music with Kairogen, and add audio to video — narration, dubbing, and voice replace…"
+          },
+          {
+            "name": "kairogen-image",
+            "description": "Generate, edit, and upscale images with Kairogen. Use for \"generate an image\", \"create a picture\", \"make me a logo/post…"
+          },
+          {
+            "name": "kairogen-video",
+            "description": "Generate video with Kairogen — text-to-video and image-to-video. Use for \"make a video\", \"animate this image\", \"turn th…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

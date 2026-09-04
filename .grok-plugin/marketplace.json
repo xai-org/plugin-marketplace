@@ -280,6 +280,30 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "kairogen",
+      "description": "Generate images, videos, and audio with Kairogen — one account and one credit wallet in front of Seedream, Flux, Nano Banana, GPT Image, Sora, Veo, Kling, Seedance, KairoClone, and Topaz. Connects over OAuth to Kairogen's hosted MCP server; skills cover model selection, cost control, reference workflows, narration, and dubbing.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kairogenai/kairogen-grok-plugin.git",
+        "sha": "fa3a85f4f94b2c1814efdbec8dab6505f0ff3e7e"
+      },
+      "homepage": "https://kairogen.ai",
+      "keywords": [
+        "kairogen",
+        "kairogen image",
+        "kairogen video",
+        "kairogen audio",
+        "kairogen mcp"
+      ],
+      "domains": [
+        "kairogen.ai",
+        "app.kairogen.ai",
+        "api.kairogen.ai",
+        "mcp.kairogen.ai"
+      ]
     }
   ]
 }
