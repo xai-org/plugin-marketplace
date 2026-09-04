@@ -71,6 +71,48 @@
         ]
       }
     },
+    "booksmate": {
+      "sha": "9c788282f746ff31bb19cd0b9215f544fb018fa8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "booksmate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "document-packaging",
+            "description": "Bundle documents into a ZIP archive with a signed download URL for sharing with accountants, auditors, or tax preparati…"
+          },
+          {
+            "name": "document-search",
+            "description": "Find specific invoices and receipts by vendor, date, amount, status, or keyword. Inspect individual document details in…"
+          },
+          {
+            "name": "duplicate-detection",
+            "description": "Scan for potential double-payments by comparing vendor, amount, and currency across documents. Investigate suspicious m…"
+          },
+          {
+            "name": "email-ingestion",
+            "description": "Ingest invoices and receipts from connected Gmail or Microsoft email accounts. Check plugin status, trigger ingestion,…"
+          },
+          {
+            "name": "export-workflow",
+            "description": "Export invoices and receipts to connected accounting targets (Xero) or cloud storage (Google Drive). Review what will b…"
+          },
+          {
+            "name": "spend-analysis",
+            "description": "Analyze business spending by category, vendor, month, or type. Summarise totals, spot trends, and drill into details."
+          },
+          {
+            "name": "upload-extract",
+            "description": "Upload invoice and receipt files for AI-powered data extraction. Supports PDF, images, and office documents."
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
