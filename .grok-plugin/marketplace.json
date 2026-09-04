@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "claude",
+      "description": "Use Claude Code from Grok Build to review code or delegate tasks. Community plugin that uses your local Claude Code login.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AaronFaby/claude-plugin-grok.git",
+        "sha": "96e3babbec9529ab7fd3855e35e400e877fbe52f",
+        "path": "plugins/claude"
+      },
+      "homepage": "https://github.com/AaronFaby/claude-plugin-grok",
+      "keywords": ["claude", "claude code", "claude cli"]
     }
   ]
 }
