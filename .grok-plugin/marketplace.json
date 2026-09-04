@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "dely",
+      "description": "Delivery protocol for coding agents. Brings a request to an approved design contract, then dispatches implementation and review to fresh worker sessions on different harnesses so nothing reviews its own diff, and prepares an exact-HEAD pull request. Two human gates only: approve the contract, merge the PR. Requires Orca as the execution plane.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hieuphung97/dely.git",
+        "sha": "c2fc1a96dce4eabc5b8c9ee9dafbb66fb371d785"
+      },
+      "homepage": "https://github.com/hieuphung97/dely",
+      "keywords": ["dely", "dely delivery", "dely setup"]
     }
   ]
 }
