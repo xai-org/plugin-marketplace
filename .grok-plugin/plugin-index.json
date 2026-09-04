@@ -536,6 +536,96 @@
         ]
       }
     },
+    "norman-finance": {
+      "sha": "f9578ee8d5de8ed6d6c3a89ffc01f252a478a3a4",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "norman-finance",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "accounting-cutover",
+            "description": "Analyze and migrate opening balances or prior DATEV books into Norman's SME Ledger. Use when a GmbH or UG is starting i…"
+          },
+          {
+            "name": "categorize-transactions",
+            "description": "Review and categorize uncategorized bank transactions, match them with invoices, and verify bookkeeping entries. Use wh…"
+          },
+          {
+            "name": "company-incorporation",
+            "description": "Found a German GmbH or UG (haftungsbeschränkt) through a guided chat. Use when the user wants to open, found or incorpo…"
+          },
+          {
+            "name": "corporate-tax-registration",
+            "description": "Prepare the corporate tax registration (Fragebogen zur steuerlichen Erfassung for a GmbH/UG) through a guided chat. Use…"
+          },
+          {
+            "name": "create-invoice",
+            "description": "Create and optionally send a new invoice to a client. Use when the user wants to invoice someone, bill a client, or cre…"
+          },
+          {
+            "name": "expense-report",
+            "description": "Generate a detailed expense breakdown by category for a given period. Use when the user asks for an expense report, spe…"
+          },
+          {
+            "name": "financial-overview",
+            "description": "Get a complete financial overview of the business including balance, recent transactions, outstanding invoices, and upc…"
+          },
+          {
+            "name": "find-receipts",
+            "description": "Find and attach missing receipts for business transactions. Search Gmail, email, or other sources for invoices and rece…"
+          },
+          {
+            "name": "gewerbe-registration",
+            "description": "Prepare a German trade-office registration (Gewerbeanmeldung, form GewA 1) through a guided chat. Use when the user wan…"
+          },
+          {
+            "name": "manage-clients",
+            "description": "Manage business clients - list, search, create, or update client information. Use when the user mentions clients, conta…"
+          },
+          {
+            "name": "monthly-reconciliation",
+            "description": "Perform a complete monthly financial reconciliation - review all transactions, match invoices, check outstanding paymen…"
+          },
+          {
+            "name": "overdue-reminders",
+            "description": "Find overdue invoices and send payment reminders (Zahlungserinnerungen / Mahnungen) to clients. Use when the user asks…"
+          },
+          {
+            "name": "suggest-category",
+            "description": "Find the right SKR account code for a bookkeeping category (SME only). Search the full SKR03/SKR04 chart of accounts by…"
+          },
+          {
+            "name": "ta-company-review",
+            "description": "Full company review for tax advisors. Generates a structured health report covering financials, document completeness,…"
+          },
+          {
+            "name": "ta-datev-preparation",
+            "description": "Prepare a DATEV export for a client company. Verifies all transactions are categorized, receipts attached, DATEV settin…"
+          },
+          {
+            "name": "ta-missing-receipts",
+            "description": "Find and collect missing receipts for a client company. Identify high-priority items, suggest a ping strategy, and bulk…"
+          },
+          {
+            "name": "ta-tax-compliance",
+            "description": "Tax compliance check for a client company. Checks all tax periods, identifies unfiled or overdue reports, verifies tax…"
+          },
+          {
+            "name": "tax-deduction-finder",
+            "description": "Scan transactions for potentially missed tax deductions and suggest proper categorization. Use when the user asks about…"
+          },
+          {
+            "name": "tax-report",
+            "description": "Review and manage German tax reports including VAT (Umsatzsteuer), income tax prepayments, and Finanzamt submissions. U…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {

@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "norman-finance",
+      "description": "Official Norman Finance plugin for European bookkeeping, accounting, invoicing, documents, tax filing, and German company workflows through a hosted OAuth MCP server and bundled skills.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/norman-finance/norman-mcp-server.git",
+        "sha": "f9578ee8d5de8ed6d6c3a89ffc01f252a478a3a4"
+      },
+      "homepage": "https://norman.finance",
+      "keywords": ["norman finance", "norman bookkeeping", "norman mcp"],
+      "domains": ["norman.finance", "app.norman.finance", "mcp.norman.finance"]
     }
   ]
 }
