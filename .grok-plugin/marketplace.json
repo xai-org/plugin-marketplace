@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "taskbullet-agent",
+      "description": "Escalate work a language model cannot finish to a TaskBullet human virtual assistant. Hosted MCP at https://taskbullet.com/api/agent-mcp with get_balance, delegate_task, list_tasks, and get_task.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GriffMurder/taskbullet-agent-plugin.git",
+        "sha": "fd7dd1aa09b097b53c2d05b2d725b9e061955438"
+      },
+      "homepage": "https://taskbullet.com/docs/agent-api",
+      "keywords": ["taskbullet", "taskbullet agent", "taskbullet va", "get_balance", "delegate_task"],
+      "domains": ["taskbullet.com"]
     }
   ]
 }

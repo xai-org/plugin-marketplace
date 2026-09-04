@@ -947,6 +947,24 @@
         ]
       }
     },
+    "taskbullet-agent": {
+      "sha": "fd7dd1aa09b097b53c2d05b2d725b9e061955438",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taskbullet-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "escalate-to-va",
+            "description": "Escalate work a language model cannot finish to a TaskBullet human virtual assistant. Call get_balance first, confirm s…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
