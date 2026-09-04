@@ -537,8 +537,8 @@
       }
     },
     "pingroom-cli": {
-      "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
-      "version": "1.0.0",
+      "sha": "79e17efd5ed69cbb2a9c214f3c7fc4e4838d63a2",
+      "version": "1.1.0",
       "components": {
         "skills": [
           {
@@ -549,8 +549,8 @@
       }
     },
     "pingroom-mcp": {
-      "sha": "45d0902dd964cc42fddf19a186fe6022b4e1a31f",
-      "version": "1.0.0",
+      "sha": "79e17efd5ed69cbb2a9c214f3c7fc4e4838d63a2",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
