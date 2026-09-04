@@ -240,8 +240,8 @@
       }
     },
     "figma": {
-      "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
-      "version": "2.2.96",
+      "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
+      "version": "2.2.107",
       "components": {
         "mcpServers": [
           {
@@ -275,8 +275,16 @@
             "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
           },
           {
+            "name": "figma-generative-plugins",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. U…"
+          },
+          {
             "name": "figma-implement-motion",
             "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-shaders",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
           },
           {
             "name": "figma-swiftui",
@@ -545,7 +553,7 @@
       }
     },
     "pstack": {
-      "sha": "b9ddc83c32972210b8a94d389130713e8eed346e",
+      "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
         "agents": [
           {
@@ -812,8 +820,8 @@
       }
     },
     "stripe": {
-      "sha": "9f39fa607a63582d8c5b62aaf6fa4898b9c7caac",
-      "version": "0.6.2",
+      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+      "version": "0.6.4",
       "components": {
         "agents": [
           {
@@ -1024,8 +1032,8 @@
       }
     },
     "vercel": {
-      "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
-      "version": "0.48.1",
+      "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
+      "version": "0.48.2",
       "components": {
         "agents": [
           {
@@ -1085,7 +1093,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
           },
           {
             "name": "ai-sdk",
@@ -1126,6 +1134,10 @@
           {
             "name": "eve",
             "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
+          },
+          {
+            "name": "flags-sdk",
+            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
           },
           {
             "name": "knowledge-update",
@@ -1205,7 +1217,7 @@
           },
           {
             "name": "vercel-storage",
-            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+            "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
           },
           {
             "name": "verification",
