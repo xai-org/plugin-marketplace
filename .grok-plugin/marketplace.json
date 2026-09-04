@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "fibery",
+      "description": "Fibery MCP server packaged as a Cursor plugin. Connect to Fibery via OAuth remote MCP for workspace schema, queries, entities, and docs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Fibery-inc/fibery-cursor-plugin.git",
+        "sha": "91a38503f007dd1268c67b40dd99ed246d94a0f9"
+      },
+      "homepage": "https://github.com/Fibery-inc/fibery-cursor-plugin",
+      "keywords": ["fibery", "fibery mcp", "fibery workspace"],
+      "domains": ["fibery.com", "fibery.io", "mcp.fibery.io"]
     }
   ]
 }
