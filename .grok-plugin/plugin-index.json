@@ -537,7 +537,7 @@
       }
     },
     "pstack": {
-      "sha": "efa2a531985e0a8084d36ff3cf87233be8a9f34b",
+      "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
         "agents": [
           {
@@ -733,6 +733,18 @@
         ]
       }
     },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
       "version": "1.3.7",
@@ -804,8 +816,8 @@
       }
     },
     "stripe": {
-      "sha": "cf681787184a493e7106b0ae1ee88a1fede65017",
-      "version": "0.6.3",
+      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+      "version": "0.6.4",
       "components": {
         "agents": [
           {
