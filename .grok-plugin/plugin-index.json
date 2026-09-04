@@ -357,6 +357,28 @@
         ]
       }
     },
+    "mergecraft": {
+      "sha": "d9cd13c7085f798689b18d846c9c98d50e720347",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "mergecraft-review",
+            "description": "Run a local mergeCraft review of the current changes"
+          },
+          {
+            "name": "mergecraft-setup",
+            "description": "Set up mergeCraft AI PR review in the current repository"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mergecraft",
+            "description": "Set up, run, and troubleshoot mergeCraft — the BYOK AI PR review GitHub Action and CLI. Use when the user asks to insta…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
