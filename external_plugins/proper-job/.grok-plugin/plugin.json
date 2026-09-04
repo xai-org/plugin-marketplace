@@ -1,0 +1,17 @@
+{
+  "name": "proper-job",
+  "version": "1.0.0",
+  "description": "Calculate and compare indicative UK building-work budgets with Proper Job from supplied scope, without accessing saved customer projects.",
+  "author": {
+    "name": "SR3H Ltd",
+    "url": "https://www.proper-job.uk"
+  },
+  "homepage": "https://www.proper-job.uk/chatgpt",
+  "license": "MIT",
+  "keywords": [
+    "proper job",
+    "properjob",
+    "properjobuk"
+  ],
+  "logo": "assets/logo.png"
+}

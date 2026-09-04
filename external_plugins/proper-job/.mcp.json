@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "proper-job": {
+      "type": "http",
+      "url": "https://www.proper-job.uk/api/mcp"
+    }
+  }
+}
