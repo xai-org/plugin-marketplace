@@ -536,6 +536,24 @@
         ]
       }
     },
+    "nocodb": {
+      "sha": "a22f820597ce3dcee7db8ba71e90cd308d18d0ca",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nocodb",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nocodb",
+            "description": "Access and manage NocoDB databases via REST APIs. Free plans support bases, tables, fields, records, links, filters, so…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {
