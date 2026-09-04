@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "clickflow",
+      "description": "SEO and content-marketing automation via ClickFlow's hosted MCP server. Research keywords, plan and draft brand-aligned content, publish to WordPress/Webflow/Shopify/HubSpot/Sanity/Strapi, find and fix decaying pages, and measure results from Search Console and AI-assistant visibility.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/singlegrain/clickflow-grok-plugin.git",
+        "sha": "fab4d0b34b36e618285a8b795f95a4d71becc538"
+      },
+      "homepage": "https://www.clickflow.com",
+      "keywords": ["clickflow", "clickflow seo", "clickflow mcp", "clickflow content"],
+      "domains": ["clickflow.com", "www.clickflow.com", "app.clickflow.com", "docs.clickflow.com"]
     }
   ]
 }
