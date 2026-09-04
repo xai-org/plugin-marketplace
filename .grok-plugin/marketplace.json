@@ -283,12 +283,12 @@
     },
     {
       "name": "convoy",
-      "description": "Orchestrate BYO AI harnesses as neurons on one Convoy thread with a live, fail-closed MCP wizard.",
+      "description": "Convoy lets Grok Bot orchestrate BYO harnesses (Claude, Codex, Grok, and more) as neurons against a GitHub repo or local checkout on one thread, with a fail-closed live MCP wizard.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/Deploy-Forward/convoy.git",
-        "sha": "9743e2dea061ee2dcdff074c7ff87599be9c00d3",
+        "sha": "46067263bde3d13e5d1dc2421ea2934a0a4bc9c3",
         "path": "plugin/convoy"
       },
       "homepage": "https://convoy.bot",

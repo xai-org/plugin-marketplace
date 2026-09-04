@@ -200,7 +200,7 @@
       }
     },
     "convoy": {
-      "sha": "9743e2dea061ee2dcdff074c7ff87599be9c00d3",
+      "sha": "46067263bde3d13e5d1dc2421ea2934a0a4bc9c3",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
