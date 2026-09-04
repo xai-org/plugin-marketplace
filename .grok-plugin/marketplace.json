@@ -282,6 +282,22 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "hypergrok",
+      "description": "Turn Grok Build into a 7-role Hyperliquid trading desk. Ships seven specialist agents and sixteen skills for market data, risk, ticketed execution and review. You approve every trade by ticket id.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/galleonlabs/hypergrok-trading-desk.git",
+        "sha": "62cbe227a2ec531e0efa37254d4b6fae043fbfe5"
+      },
+      "homepage": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "keywords": ["hypergrok", "hyperliquid", "grok bot", "hypergrok trading desk"],
+      "domains": ["galleonlabs.io"],
+      "version": "1.0.0",
+      "author": {"name": "Galleon Labs"},
+      "tags": ["hyperliquid", "trading-desk"]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",
