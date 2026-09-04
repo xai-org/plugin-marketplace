@@ -281,5 +281,19 @@
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     }
+    ,
+    {
+      "name": "unitpost",
+      "description": "Let agents send email, with approval. Official Unitpost plugin: hosted MCP server for transactional email, campaigns, contacts, domains, and webhooks (OAuth 2.1).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/unitpostcom/unitpost-grok-plugin.git",
+        "sha": "5b524c4d4334777fdf29f52ee593fb669d9c3273"
+      },
+      "homepage": "https://www.unitpost.com/ai/mcp",
+      "keywords": ["unitpost"],
+      "domains": ["unitpost.com", "mcp.unitpost.com"]
+    }
   ]
 }
