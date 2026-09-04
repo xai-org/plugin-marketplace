@@ -536,6 +536,24 @@
         ]
       }
     },
+    "nexfade": {
+      "sha": "7f819df0787ba383bc2532b19926b589469bfed9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nexfade",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nexfade",
+            "description": "Create one-time NexFade encrypted links for attached files or sensitive notes, check link status, and revoke links."
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
       "components": {

@@ -6,6 +6,26 @@
   },
   "plugins": [
     {
+      "name": "nexfade",
+      "description": "Create one-time, encrypted NexFade links for files and notes, then manage their status from Grok.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NexFade/nexfade-grok-plugin.git",
+        "sha": "7f819df0787ba383bc2532b19926b589469bfed9"
+      },
+      "homepage": "https://www.nexfade.com/integrations/grok",
+      "keywords": [
+        "nexfade",
+        "nexfade secure link",
+        "nexfade encrypted sharing"
+      ],
+      "domains": [
+        "nexfade.com",
+        "www.nexfade.com"
+      ]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
