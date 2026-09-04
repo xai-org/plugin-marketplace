@@ -89,6 +89,24 @@
         ]
       }
     },
+    "budgey": {
+      "sha": "a31a64c55067771cf9d2f083d98cd2b7920e0f57",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "budgey",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "budgeting-with-budgey",
+            "description": "How to work with a user's Budgey budget through the Budgey MCP tools — the paycheck-period model, choosing the right re…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
