@@ -241,6 +241,19 @@
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
+      "name": "anakin",
+      "description": "Official plugin for Anakin (MCP Server + Skills). Turn any website into clean, LLM-ready markdown or structured JSON — scrape, search, map, and crawl, or run multi-source agentic deep research. Execute pre-built Wire actions across hundreds of popular sites to extract listings, prices, and profiles without writing selectors. Also monitors pages for changes on a schedule, compares what AI answer engines say about a topic, and drives a real cloud browser from natural language. Automatic JS rendering, stealth browser, and proxy rotation.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Anakin-Inc/agent-skills.git",
+        "sha": "7472cffb52e77c573885bcdc7469c165a70e5ebc"
+      },
+      "homepage": "https://anakin.io",
+      "keywords": ["anakin", "anakin.io", "anakin scrape", "wire action"],
+      "domains": ["anakin.io"]
+    },
+    {
       "name": "tinyfish",
       "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
       "category": "development",
