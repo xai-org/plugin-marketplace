@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "locus",
+      "description": "Official Locus plugin. Pay-per-use APIs for agents: cited web research, paid data and API lookups, and thousands of metered provider endpoints billed to one prepaid workspace credit balance through the Locus MCP server, with executable cost quotes and idempotent billing.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/locus-technologies/locus-pro-plugin.git",
+        "sha": "d2080a51e5f5de0c8c2f6d714c01d296d6462ecc"
+      },
+      "homepage": "https://github.com/locus-technologies/locus-pro-plugin",
+      "keywords": ["locus", "pay with locus", "paywithlocus", "locus credits", "locus mcp"],
+      "domains": ["paywithlocus.com", "api.paywithlocus.com", "platform.paywithlocus.com", "docs.paywithlocus.com"]
     }
   ]
 }
