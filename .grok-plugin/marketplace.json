@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "ballet",
+      "description": "Ballet agent operations platform integration. Author and operate a Ballet workspace from Grok: create and verify playbooks, define agents, skills, HTTP tools and connectors, manage secrets and persistent data tables, then publish and run playbooks and inspect run history.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brainfish-ai/ballet-grok-plugin.git",
+        "sha": "35edf84f121ccb8d5d7eef19965365c7ad0edf36"
+      },
+      "homepage": "https://ballet.dev",
+      "keywords": ["ballet", "ballet playbook", "ballet agent", "brainfish ballet"],
+      "domains": ["ballet.dev", "app.ballet.dev", "api.ballet.dev"]
     }
   ]
 }
