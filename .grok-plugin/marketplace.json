@@ -227,6 +227,19 @@
       "domains": ["railway.com", "railway.app"]
     },
     {
+      "name": "bubblav",
+      "description": "BubblaV AI chatbot platform — search your knowledge base, manage your chatbot persona and widget, analyze conversations, and close content gaps, directly from Grok Build, via the BubblaV remote MCP server.",
+      "category": "support",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bubblav-org/grok-plugin.git",
+        "sha": "b7d13bf267b4fb8bfd3f6fcc0449eaf75161d648"
+      },
+      "homepage": "https://bubblav.com",
+      "keywords": ["bubblav", "bubblav mcp", "chatbot knowledge base", "ai support"],
+      "domains": ["bubblav.com", "www.bubblav.com", "docs.bubblav.com"]
+    },
+    {
       "name": "stripe",
       "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",

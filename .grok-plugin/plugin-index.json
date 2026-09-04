@@ -89,6 +89,40 @@
         ]
       }
     },
+    "bubblav": {
+      "sha": "b7d13bf267b4fb8bfd3f6fcc0449eaf75161d648",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bubblav",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bubblav-analyze-reports",
+            "description": "Read and summarize the BubblaV chatbot analytics report — total conversations, containment rate, average response time,…"
+          },
+          {
+            "name": "bubblav-content-gaps",
+            "description": "Discover what questions visitors are asking that the BubblaV chatbot cannot answer, and recommend specific sources to a…"
+          },
+          {
+            "name": "bubblav-manage-chatbot",
+            "description": "Read and update the BubblaV chatbot's persona, custom instructions, greeting, suggestions, bot name, and widget design…"
+          },
+          {
+            "name": "bubblav-mcp",
+            "description": "Connect to the BubblaV remote MCP server, list available tools, generate scoped API keys, and decide which companion sk…"
+          },
+          {
+            "name": "bubblav-search-knowledge",
+            "description": "Semantic search over the user's BubblaV-indexed website content with citations. Use this skill whenever the user asks t…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
