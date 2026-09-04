@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "nocodb",
+      "description": "NocoDB integration (MCP Server + Skills). Read, create, update, and delete records in your NocoDB bases through the hosted NocoDB MCP server, and manage workspaces, bases, tables, fields, and views with the NocoDB v3 API skill.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nocodb/agent-skills.git",
+        "sha": "a22f820597ce3dcee7db8ba71e90cd308d18d0ca",
+        "path": "plugins/nocodb"
+      },
+      "homepage": "https://nocodb.com/docs/product-docs/mcp",
+      "keywords": ["nocodb", "nocodb mcp", "nocodb base"],
+      "domains": ["nocodb.com", "app.nocodb.com"]
     }
   ]
 }
