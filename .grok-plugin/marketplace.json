@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "askgrokwallet",
+      "description": "A governed wallet for Grok agents (and any AI agent): plain-English policies, a human approval inbox, and signed receipts for every spend.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richard7463/askgrokwallet.git",
+        "sha": "bc46298b059352171490390584fd895d92649a48"
+      },
+      "homepage": "https://github.com/richard7463/askgrokwallet",
+      "keywords": ["askgrokwallet", "governed wallet", "grok wallet", "agent approval", "human in the loop", "policy engine"]
     }
   ]
 }

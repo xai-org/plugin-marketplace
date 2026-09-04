@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "askgrokwallet": {
+      "sha": "bc46298b059352171490390584fd895d92649a48",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "askgrokwallet",
+            "description": "A governed wallet for Grok agents (and any AI agent). Enforce budgets, allowlists, operator modes, and human approval b…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
