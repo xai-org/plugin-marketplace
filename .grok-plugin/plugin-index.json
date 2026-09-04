@@ -803,6 +803,18 @@
         ]
       }
     },
+    "stellary": {
+      "sha": "ef3f697eb124ec07f92f697f85cefa6ae24270c1",
+      "version": "0.12.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "stellary",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
       "version": "0.6.4",
