@@ -357,6 +357,32 @@
         ]
       }
     },
+    "hormi": {
+      "sha": "527bdd0ac162eee1eb725308365bb12adbbda88a",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hormi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "categorias",
+            "description": "Keep a Hormi household's expense categories tidy - list, create, rename and delete categories through the Hormi MCP ser…"
+          },
+          {
+            "name": "registrar-gastos",
+            "description": "Record, correct and delete household expenses and incomes in Hormi through its MCP server, the way a careful assistant…"
+          },
+          {
+            "name": "resumen-de-gastos",
+            "description": "Answer questions about a household's spending in Hormi - totals, category and member breakdowns, balances and the month…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
