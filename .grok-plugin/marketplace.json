@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "convoy",
+      "description": "Convoy lets Grok Bot orchestrate BYO harnesses (Claude, Codex, Grok, and more) as neurons against a GitHub repo or local checkout on one thread, with a fail-closed live MCP wizard.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Deploy-Forward/convoy.git",
+        "sha": "46067263bde3d13e5d1dc2421ea2934a0a4bc9c3",
+        "path": "plugin/convoy"
+      },
+      "homepage": "https://convoy.bot",
+      "keywords": ["convoy", "convoy wizard", "convoy bot"],
+      "domains": ["convoy.bot"]
     }
   ]
 }
