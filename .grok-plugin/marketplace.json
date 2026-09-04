@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "firsttouch",
+      "description": "FirstTouch CRM integration. Manage audiences, outreach flows, contact enrollments, tasks, and HubSpot list imports through the hosted FirstTouch MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/First-Touch-Inc/mcp.git",
+        "sha": "ff5e6a65a3407bd16d6cefd274326d93fe6db24e"
+      },
+      "homepage": "https://www.firsttouch.com",
+      "keywords": ["firsttouch", "firsttouch mcp", "firsttouch audiences", "firsttouch outreach flows", "firsttouch contact enrollment", "firsttouch hubspot import"],
+      "domains": ["firsttouch.com", "www.firsttouch.com", "mcp.firsttouch.com"]
     }
   ]
 }
