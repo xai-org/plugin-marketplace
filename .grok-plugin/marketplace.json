@@ -280,6 +280,30 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "proper-job",
+      "description": "Calculate and compare indicative UK building-work budgets with Proper Job from supplied scope, without accessing saved customer projects.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/proper-job"
+      },
+      "homepage": "https://www.proper-job.uk/chatgpt",
+      "author": {
+        "name": "SR3H Ltd",
+        "url": "https://www.proper-job.uk"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "proper job",
+        "properjob",
+        "properjobuk"
+      ],
+      "domains": [
+        "proper-job.uk",
+        "www.proper-job.uk"
+      ]
     }
   ]
 }
