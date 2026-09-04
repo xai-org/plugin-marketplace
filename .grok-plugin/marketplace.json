@@ -280,6 +280,20 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "nowledge-mem",
+      "description": "Persistent memory and knowledge graph for Grok Build. Load working context, search past decisions and conversations, and capture sessions through lifecycle hooks.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nowledge-co/community.git",
+        "sha": "6b7bb0312db6e439f6fa557512e862126f2505d9",
+        "path": "nowledge-mem-claude-code-plugin"
+      },
+      "homepage": "https://mem.nowledge.co",
+      "keywords": ["nowledge mem", "nowledge memory", "nowledge knowledge graph"],
+      "domains": ["mem.nowledge.co", "nowledge.co", "nowledge-labs.ai"]
     }
   ]
 }
