@@ -733,6 +733,18 @@
         ]
       }
     },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
       "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
       "version": "1.4.0",

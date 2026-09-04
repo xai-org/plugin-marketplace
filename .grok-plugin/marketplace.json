@@ -280,6 +280,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "quo",
+      "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
+        "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
+      },
+      "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
+      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
+      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     }
   ]
 }
