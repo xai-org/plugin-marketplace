@@ -223,6 +223,30 @@
         ]
       }
     },
+    "feishu": {
+      "sha": "a1076084520914e46d5cad5f1cf0d138a0660aee",
+      "version": "0.1.1",
+      "components": {
+        "commands": [
+          {
+            "name": "feishu-connect",
+            "description": "QR connect for Feishu. Run bin/connect.mjs then open the Feishu link."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "feishu",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "Feishu",
+            "description": "Use when the user wants to read or act on Feishu/Lark docs, calendar, chats, or Bitable. Connect first if tools are mis…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
       "version": "2.2.107",
