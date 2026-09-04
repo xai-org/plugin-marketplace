@@ -280,6 +280,18 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "reecopedia",
+      "description": "Cited search over EU product and sustainability law (ESPR, Digital Product Passport, CSRD, CBAM, EU ETS, CWA 18291). Public remote MCP, no authentication.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/halleluiaman-ux/reecopedia-mcp.git",
+        "sha": "48890290ae115be6581ac396975ba2280bf184ae"
+      },
+      "homepage": "https://ia.reeco.eco/reecopedia",
+      "keywords": ["reecopedia", "reeco"],
+      "domains": ["ia.reeco.eco", "reeco.eco"]
     }
   ]
 }

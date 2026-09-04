@@ -757,6 +757,17 @@
         ]
       }
     },
+    "reecopedia": {
+      "sha": "48890290ae115be6581ac396975ba2280bf184ae",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "reecopedia",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
