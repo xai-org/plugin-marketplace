@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e"
+        "sha": "572357b791a91a5138c050e08eb718b150be21cb"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
+        "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -261,7 +261,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "7314f723a487ec406b6369fe5865ba034cfed166",
+        "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
