@@ -536,6 +536,24 @@
         ]
       }
     },
+    "palate": {
+      "sha": "4544f65696de386e7f34952138a6eddb1c730d73",
+      "version": "0.3.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "palate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "palate",
+            "description": "Save and query Palate, the user's library of source material, with citations. Use when the user mentions Palate, shares…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
       "components": {
