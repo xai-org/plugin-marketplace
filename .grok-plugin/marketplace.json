@@ -293,6 +293,18 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "guaca",
+      "description": "Guaca personal finance integration (hosted OAuth MCP server). Understand your net worth, spending, investments, savings goals, recurring payments, and retirement projection from your private Guaca data, with 13 read-only tools and one separately scoped tool that drafts a pending bookkeeping entry.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/guaca"
+      },
+      "homepage": "https://useguaca.com",
+      "keywords": ["guaca", "useguaca", "guaca finance", "guaca net worth"],
+      "domains": ["useguaca.com"]
     }
   ]
 }
