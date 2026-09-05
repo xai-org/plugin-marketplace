@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "keenable",
+      "description": "Keyless web search and page-content extraction via Keenable's hosted MCP server \u2014 no signup or API key needed (rate-limited public path; set KEENABLE_API_KEY to raise limits). search_web_pages returns ranked results with snippets; fetch_page_content reads any URL as clean markdown. Includes web-research and deep-research skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/keenableai/keenable-grok-plugin.git",
+        "sha": "350fd05a76a3e7bc6b6dbef616f30c9d08ce6c90"
+      },
+      "homepage": "https://keenable.ai",
+      "keywords": ["keenable", "keenable search", "keenable ai"],
+      "domains": ["keenable.ai", "docs.keenable.ai", "api.keenable.ai"]
     }
   ]
 }
