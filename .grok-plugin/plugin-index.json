@@ -357,6 +357,18 @@
         ]
       }
     },
+    "helena": {
+      "sha": "29dd06b5cb25a8a7426326f901cb8687af70ce99",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "helena",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
