@@ -267,6 +267,7 @@
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
       "keywords": ["pstack", "poteto-mode", "poteto"]
     },
+
     {
       "name": "browser-use",
       "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
@@ -282,17 +283,17 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
-      "name": "quo",
-      "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
+      "name": "brain-bank",
+      "description": "Memória persistente local em markdown para qualquer IA via MCP. Nunca mais comece uma conversa do zero.",
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
-        "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
+        "url": "https://github.com/jorge13en-droid/Brain-Bank-MCP.git",
+        "sha": "670b4cfe38a4fa14d34e54cebd3494d7810da6f7"
       },
-      "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
-      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
-      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
-    }
+      "homepage": "https://github.com/jorge13en-droid/Brain-Bank-MCP",
+      "keywords": ["brain-bank", "memoria-persistente", "memory", "mcp", "markdown"]
+       }
   ]
-}
+}  
+       
