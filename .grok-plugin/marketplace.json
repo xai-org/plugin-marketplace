@@ -296,15 +296,15 @@
     },
     {
       "name": "helena",
-      "description": "Helena by Enrich Labs brings the first autonomous AI marketer to Grok. She learns your brand, builds a personalized strategy, and executes it 24/7—writing, publishing, optimizing, and reporting across SEO, social, ads, and email.",
+      "description": "Helena is an AI marketer that learns your business and executes campaigns across SEO, ads, social, and email.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
-        "sha": "41a1ed56d7d7f969bcd06df1bf52a4ceafab725c"
+        "sha": "39e662fe75d497b68fdea2d203d610a398c80254"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena mcp"],
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     }
   ]
