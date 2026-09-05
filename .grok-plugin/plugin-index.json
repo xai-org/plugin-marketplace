@@ -127,6 +127,18 @@
         ]
       }
     },
+    "cleanness": {
+      "sha": "44bbde75f6109018d8919ed8784130d32a870a23",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "cleanness",
+            "description": "Measure code quality with CLEAN — Cohesive, Loosely coupled, Encapsulated, Assertive, Nonredundant. Scores each axis 1–…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
