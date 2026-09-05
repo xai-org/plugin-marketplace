@@ -1226,6 +1226,24 @@
         ]
       }
     },
+    "weavatrix-online": {
+      "sha": "64f3f93a5aea4ec73e32d5951976cdca9685eb68",
+      "version": "0.3.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "weavatrix-online",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "weavatrix-online",
+            "description": "Use Weavatrix Online only for configured Cloud or self-hosted endpoint status, current dependency advisory refresh, bou…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "572357b791a91a5138c050e08eb718b150be21cb",
       "version": "1.18.1",
