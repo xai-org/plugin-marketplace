@@ -296,12 +296,12 @@
     },
     {
       "name": "helena",
-      "description": "Helena by Enrich Labs gives Grok an AI marketer for Shopify brands. It uses live brand and commerce context to research opportunities, shape strategy, build campaigns, create on-brand copy and media, and execute across connected marketing channels.",
+      "description": "Helena by Enrich Labs brings the first autonomous AI marketer to Grok. She learns your brand, builds a personalized strategy, and executes it 24/7—writing, publishing, optimizing, and reporting across SEO, social, ads, and email.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
-        "sha": "207d3ce083666fe06ea090bff60bdcaeaf3343e3"
+        "sha": "41a1ed56d7d7f969bcd06df1bf52a4ceafab725c"
       },
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena mcp"],
