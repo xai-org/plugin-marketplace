@@ -293,6 +293,18 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "agentguard",
+      "description": "Scan agent extensions for unsafe patterns before you install them. Static rules cover skills, plugins, hooks and MCP server configs, flagging prompt injection, credential exfiltration, unpinned sources and insecure transport. Runs as a CLI or a GitHub Action.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tainguyen091994/agentguard.git",
+        "sha": "97bb8dba240a3519f58f28f53c3719f3d6f2816c"
+      },
+      "homepage": "https://github.com/tainguyen091994/agentguard",
+      "keywords": ["agentguard", "agentguard scan", "agent guard"]
     }
   ]
 }

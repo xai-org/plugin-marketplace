@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "agentguard": {
+      "sha": "97bb8dba240a3519f58f28f53c3719f3d6f2816c",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "agentguard-review",
+            "description": "Scan agent extensions for unsafe patterns and explain the findings. Use before installing a skill, plugin, hook, or MCP…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
