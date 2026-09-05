@@ -268,6 +268,19 @@
       "keywords": ["pstack", "poteto-mode", "poteto"]
     },
     {
+      "name": "hydrafetch",
+      "description": "Turn any URL into clean, LLM-ready Markdown and structured data. Scrape a page, map a site, search the web, pull typed JSON by schema, and resolve a company's brand, logo, screenshot or design system from its domain, via the hosted Hydrafetch MCP server. Connects over OAuth with no API key to paste, and new workspaces get free credits with no card.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hydrafetch/grok-plugin.git",
+        "sha": "7df8101b944fbd282529fb40379d8413da0a2a2f"
+      },
+      "homepage": "https://hydrafetch.com",
+      "keywords": ["hydrafetch", "hydrafetch scrape", "hydrafetch extract"],
+      "domains": ["hydrafetch.com", "app.hydrafetch.com", "docs.hydrafetch.com", "api.hydrafetch.com"]
+    },
+    {
       "name": "browser-use",
       "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
       "category": "development",
