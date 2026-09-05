@@ -1226,6 +1226,24 @@
         ]
       }
     },
+    "windborne": {
+      "sha": "217e0680c94344a43aea62e28c1029c783fbb4c2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "windborne-weather",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "windborne-weather",
+            "description": "Weather forecasts from WindBorne. Use for any question about upcoming weather at a place or over a region: conditions,…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "572357b791a91a5138c050e08eb718b150be21cb",
       "version": "1.18.1",
