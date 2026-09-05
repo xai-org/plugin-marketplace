@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "shipmail",
+      "description": "Shipmail custom-domain business email and calendar integration for agents. Triage inboxes, draft and send approved replies, manage mailboxes, calendars, webhooks, and newsletters through the hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shipmail-to/shipmail-mcp.git",
+        "sha": "c1ef9920972ef436f07180e5b4bdd0fa49998e70"
+      },
+      "homepage": "https://shipmail.to/docs/mcp",
+      "keywords": ["shipmail", "shipmail email", "shipmail mcp", "shipmail inbox"],
+      "domains": ["shipmail.to"]
     }
   ]
 }

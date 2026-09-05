@@ -815,6 +815,24 @@
         ]
       }
     },
+    "shipmail": {
+      "sha": "c1ef9920972ef436f07180e5b4bdd0fa49998e70",
+      "version": "0.7.15",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shipmail",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shipmail",
+            "description": "Operate Shipmail custom-domain business email, agent inboxes, calendars, booking pages, newsletters, webhooks, and rela…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
       "version": "0.6.4",
