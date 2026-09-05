@@ -293,6 +293,18 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "agent-ultramode",
+      "description": "Best-of-N with a reasoned same-model verifier and guided repair. /ultra runs N isolated attempts in parallel, picks the strongest with a skeptical verifier, then runs one guided repair pass that is kept only if it verifies better.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/maverick-tr/agent-ultramode.git",
+        "sha": "237fc6af9e891c79dc644774ca6906cc80cafb45"
+      },
+      "homepage": "https://github.com/maverick-tr/agent-ultramode",
+      "keywords": ["ultra", "agent-ultramode", "ultramode", "best-of-n"]
     }
   ]
 }
