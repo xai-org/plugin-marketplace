@@ -199,6 +199,63 @@
         ]
       }
     },
+    "dgtl-connector": {
+      "sha": "d5cdda85287fc094c3e928bae1d130daf6af3df5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dgtl-connector",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agency-property-isolation",
+            "description": "Keep agency clients from mixing. Use when the Google account can see many GA4 properties, GSC sites, or GTM containers,…"
+          },
+          {
+            "name": "ga4-report-recipes",
+            "description": "Standard GA4 reports (traffic, channels, landing pages, events, key events, date comparison) using ga4_run_report only.…"
+          },
+          {
+            "name": "ga4-vs-ads-conversions",
+            "description": "Compare GA4 key events to Google Ads conversions only when the user named both property_id and customer_id. Two numbers…"
+          },
+          {
+            "name": "google-marketing-support",
+            "description": "Diagnose OAuth (host-injected token or PKCE — stdio has no Gmail Connect card), missing consent, empty properties, quot…"
+          },
+          {
+            "name": "gsc-vs-ads-keywords",
+            "description": "Join Search Console queries to Google Ads search terms only when the user named both a GSC site_url and an Ads customer…"
+          },
+          {
+            "name": "gsc-vs-ga4-search",
+            "description": "Search queries, keywords, impressions, CTR, and average position live in Search Console searchanalytics, not the GA4 Da…"
+          },
+          {
+            "name": "gtm-readonly-limits",
+            "description": "Audit Google Tag Manager live vs workspace. Use when the user wants tags, triggers, variables, container IDs, or to pub…"
+          },
+          {
+            "name": "license-and-reconnect",
+            "description": "Map LICENSE_REQUIRED, GATEWAY_UNAVAILABLE, REAUTH_REQUIRED, CONSENT_MISSING, GBP_NOT_ENABLED, WRITE_NOT_ENABLED, CONSEN…"
+          },
+          {
+            "name": "no-hallucinated-metrics",
+            "description": "Refuse invented metrics and numbers not returned by a tool. Use whenever reporting GA4, GSC, or GTM facts, or when the…"
+          },
+          {
+            "name": "pro-upgrade",
+            "description": "Explain DGTL Pro ($19/mo flat, unlimited) for Google Ads, Meta Ads, sGTM, LICENSE_REQUIRED, and GATEWAY_UNAVAILABLE. Us…"
+          },
+          {
+            "name": "select-google-property",
+            "description": "List and pick GA4 properties, Search Console sites, and GTM accounts/containers/workspaces. Use when the user asks for…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
