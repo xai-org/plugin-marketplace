@@ -301,10 +301,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
-        "sha": "39e662fe75d497b68fdea2d203d610a398c80254"
+        "sha": "42717a0fc19ae2ea3ba0ee68c7387cfcbc913d1a"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena autonomous marketer", "helena marketing"],
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     }
   ]
