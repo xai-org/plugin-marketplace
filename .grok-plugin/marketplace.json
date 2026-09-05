@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "aident-loadout",
+      "description": "Use Aident Loadout to discover and execute 27,000+ actions across work apps with Vault-managed credentials and audit history.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aident-AI/aident-skill.git",
+        "sha": "50cef7fd88c01c1ed9c6a187b7d5ebb7464a017a"
+      },
+      "homepage": "https://loadout.aident.ai",
+      "keywords": ["aident", "aident loadout", "loadout"],
+      "domains": ["aident.ai", "loadout.aident.ai", "docs.aident.ai"]
     }
   ]
 }
