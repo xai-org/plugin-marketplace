@@ -536,6 +536,73 @@
         ]
       }
     },
+    "nowledge-mem": {
+      "sha": "6b7bb0312db6e439f6fa557512e862126f2505d9",
+      "version": "0.7.24",
+      "components": {
+        "commands": [
+          {
+            "name": "save",
+            "description": "Save current session to Nowledge Mem"
+          },
+          {
+            "name": "search",
+            "description": "Search Nowledge Mem for relevant memories"
+          },
+          {
+            "name": "status",
+            "description": "Check Nowledge Mem connection and server status"
+          },
+          {
+            "name": "sum",
+            "description": "Distill insights from this conversation into memories"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear, compact"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "SubagentStart",
+            "description": ".*"
+          },
+          {
+            "name": "SubagentStop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "distill-memory",
+            "description": "Recognize breakthrough moments, blocking resolutions, and design decisions worth preserving. Detect high-value insights…"
+          },
+          {
+            "name": "read-working-memory",
+            "description": "Read your daily Working Memory briefing to understand current context. Contains active focus areas, priorities, unresol…"
+          },
+          {
+            "name": "save-thread",
+            "description": "Save the real Claude Code or Grok Build session messages only when the user explicitly requests it. Use nmem t save to…"
+          },
+          {
+            "name": "search-memory",
+            "description": "Search memory store when past insights would improve response. Recognize when user's stored breakthroughs, decisions, o…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
       "components": {
