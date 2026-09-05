@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "anyapi": {
+      "sha": "950dd1a375f7a155f302e03e1394d9d1e8eb70dc",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anyapi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "anyapi",
+            "description": "Get live data from LinkedIn, Instagram, TikTok, YouTube, X/Twitter, Reddit, Facebook, Google Search, Google Maps, and A…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
