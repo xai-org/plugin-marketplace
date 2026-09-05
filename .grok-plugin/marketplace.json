@@ -301,7 +301,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pingroom/skills.git",
-        "sha": "79e17efd5ed69cbb2a9c214f3c7fc4e4838d63a2",
+        "sha": "b9366fa22742f4b6f7e886aaca472e5195c972d2",
         "path": "mcp"
       },
       "homepage": "https://pingroom.io/connect-mcp.md",
@@ -315,7 +315,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/pingroom/skills.git",
-        "sha": "79e17efd5ed69cbb2a9c214f3c7fc4e4838d63a2",
+        "sha": "b9366fa22742f4b6f7e886aaca472e5195c972d2",
         "path": "cli"
       },
       "homepage": "https://www.npmjs.com/package/@pingroom/cli",
