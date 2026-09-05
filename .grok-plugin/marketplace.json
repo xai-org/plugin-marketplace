@@ -282,6 +282,19 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "you",
+      "description": "Web search, URL content extraction, cited research, and finance research via You.com's hosted MCP server and official skills. Keyless basic search works out of the box; connect a You.com API key for full search, contents, and research tools.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youdotcom-oss/agent-skills.git",
+        "sha": "78e20fd40bfdccbf91a5aaa67c2e46ba4ed2bbaa"
+      },
+      "homepage": "https://you.com/docs",
+      "keywords": ["you.com", "you.com search", "you web search"],
+      "domains": ["you.com", "api.you.com", "docs.you.com"]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",
