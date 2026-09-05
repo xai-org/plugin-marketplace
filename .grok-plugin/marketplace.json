@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "kyma-api",
+      "description": "Kyma API for your agent: live model catalog with prices and measured uptime, rankings, your credits and spend, and spend-capped chat over one MCP URL with OAuth sign-in (dedicated key per connection, $10 per 30 days by default, adjustable $1 to $500).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kyma-api/kyma-mcp-plugin.git",
+        "sha": "2db3e1eb02b125bc897271fee22d54f57d4ed0cd"
+      },
+      "homepage": "https://kymaapi.com",
+      "keywords": ["kyma", "kyma api", "llm gateway", "open models", "model pricing", "model uptime", "chat completions"],
+      "domains": ["kymaapi.com", "mcp.kymaapi.com", "docs.kymaapi.com"]
     }
   ]
 }

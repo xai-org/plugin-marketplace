@@ -357,6 +357,18 @@
         ]
       }
     },
+    "kyma-api": {
+      "sha": "2db3e1eb02b125bc897271fee22d54f57d4ed0cd",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kyma",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
