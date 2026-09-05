@@ -128,8 +128,8 @@
       }
     },
     "cleanness": {
-      "sha": "187e695c2e4fbc96eb197c2716cb50b24762df1c",
-      "version": "1.0.0",
+      "sha": "99afd84c30bf9942ce589a78039d9096b196d013",
+      "version": "1.0.1",
       "components": {
         "skills": [
           {
