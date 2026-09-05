@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "helena",
+      "description": "Helena by Enrich Labs connects Grok to a brand-aware AI marketing coordinator for campaign planning, research, copy, and image, video, and audio creation.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "4d5e8aba3a40baba26e8cafc91abdebf30c8bf50"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": ["helena", "enrich labs", "helena ai marketing coordinator", "helena mcp"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     }
   ]
 }
