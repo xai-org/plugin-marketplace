@@ -456,7 +456,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/nahcnuj/cleanness.git",
-        "sha": "9f6e21e927371fc9880e437ecfac661d356382be",
+        "sha": "187e695c2e4fbc96eb197c2716cb50b24762df1c",
         "path": "plugins/cleanness"
       },
       "homepage": "https://github.com/nahcnuj/cleanness",
