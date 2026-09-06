@@ -301,7 +301,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/huaiwen/NetEaseEmailConnector.git",
-        "sha": "d805b309cae37b915e14273235169cf15b4cc741",
+        "sha": "4934686e069e5db0340b0fdcf0bc2d697d2c2a12",
         "path": "plugins/netease-email"
       },
       "homepage": "https://github.com/huaiwen/NetEaseEmailConnector",

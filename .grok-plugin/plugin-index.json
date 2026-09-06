@@ -463,8 +463,8 @@
       }
     },
     "netease-email": {
-      "sha": "d805b309cae37b915e14273235169cf15b4cc741",
-      "version": "0.2.0",
+      "sha": "4934686e069e5db0340b0fdcf0bc2d697d2c2a12",
+      "version": "0.2.1",
       "components": {
         "mcpServers": [
           {
