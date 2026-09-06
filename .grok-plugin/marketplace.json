@@ -293,6 +293,21 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "zero-slop",
+      "description": "Writing skill with local checks for stock phrasing and changes to source details. Edit drafts in your assistant or use the hosted Zero Slop MCP for remote editing.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manavmishra/ZeroSlop.git",
+        "sha": "d129abaa4d6208eedb44090cec6a5df0f8f7fc6b"
+      },
+      "homepage": "https://zero-slop.ai",
+      "keywords": ["zero-slop", "zero slop", "zeroslop"],
+      "domains": ["zero-slop.ai", "mcp.zero-slop.ai"],
+      "version": "2.9.1",
+      "author": { "name": "Manav Mishra" }
     }
   ]
 }

@@ -1279,6 +1279,24 @@
           }
         ]
       }
+    },
+    "zero-slop": {
+      "sha": "d129abaa4d6208eedb44090cec6a5df0f8f7fc6b",
+      "version": "2.9.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zero-slop",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zero-slop",
+            "description": "Turn drafts into sharp, natural prose or inspect them without rewriting. Zero Slop runs inside the user's existing AI a…"
+          }
+        ]
+      }
     }
   }
 }
