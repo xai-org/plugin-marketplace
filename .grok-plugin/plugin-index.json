@@ -357,6 +357,74 @@
         ]
       }
     },
+    "iajus": {
+      "sha": "97c322773a5b8a0b31c5bb5bc2bf68db76c3975b",
+      "version": "2.6.6",
+      "components": {
+        "agents": [
+          {
+            "name": "conferente-citacoes",
+            "description": "Conferente de citações jurídicas IAJUS. Invoque para VERIFICAR se as citações de um texto (petição, parecer, memorial,…"
+          },
+          {
+            "name": "elaborador-tese",
+            "description": "Elaborador de tese jurídica IAJUS. Invoque quando o usuário precisa CONSTRUIR e sustentar uma tese - \"monte a tese de q…"
+          },
+          {
+            "name": "legislacao-juris",
+            "description": "Especialista em legislação IAJUS (federal, estadual e municipal). Invoque para um levantamento que exija mais de uma co…"
+          },
+          {
+            "name": "memorialista-juris",
+            "description": "Memorialista jurídico IAJUS. Invoque para PRODUZIR um documento fundamentado - memorial, parecer, minuta ou nota técnic…"
+          },
+          {
+            "name": "pesquisador-juris",
+            "description": "Pesquisador jurídico IAJUS. Invoque para uma pesquisa de jurisprudência ou legislação que exija MAIS de uma busca - var…"
+          },
+          {
+            "name": "precedentes-vinculantes",
+            "description": "Especialista em precedentes qualificados IAJUS. Invoque para responder \"qual a tese firmada sobre X e ela ainda vale\" -…"
+          },
+          {
+            "name": "processo-juris",
+            "description": "Rastreador de processo por número CNJ IAJUS. Invoque quando a pergunta gira em torno de UM número de processo - \"o que…"
+          },
+          {
+            "name": "refutador-tese",
+            "description": "Refutador de tese jurídica IAJUS (advogado do diabo). Invoque para TESTAR uma tese antes de usá-la - \"refute a tese de…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "iajus",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "consultar-legislacao",
+            "description": "Consulta legislação FEDERAL brasileira (leis, decretos, MPVs, LCs, emendas) pelo MCP IAJUS: texto e referências da font…"
+          },
+          {
+            "name": "consultar-legislacao-estadual",
+            "description": "Consulta legislação ESTADUAL e MUNICIPAL brasileira pelo MCP IAJUS, buscando texto e link da fonte oficial quando dispo…"
+          },
+          {
+            "name": "corpus-status",
+            "description": "Mostra o que o read-model do corpus IAJUS reporta via MCP, sempre com o as_of de cada seção: decisões por tribunal e fa…"
+          },
+          {
+            "name": "pesquisar-jurisprudencia",
+            "description": "Pesquisa e cita jurisprudência brasileira (STF, STJ, TST, TCU, TSE, STM, TJs, TRFs, TRTs, TREs) pelo MCP IAJUS, com fon…"
+          },
+          {
+            "name": "verificar-citacoes",
+            "description": "Verifica as citações jurídicas de um texto (petição, parecer, memorial, decisão) contra fontes oficiais quando disponív…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
