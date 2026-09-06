@@ -268,6 +268,19 @@
       "keywords": ["pstack", "poteto-mode", "poteto"]
     },
     {
+      "name": "eryx",
+      "description": "Connect Grok Build to an authorized Eryx B2B lead-discovery workspace. Inspect projects, ranked leads, discovery runs, usage, and remaining credits through a hosted MCP server with OAuth.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/novolgit/eryx-mcp-plugin.git",
+        "sha": "536ea7bed8de5ab409d462645e539513515d3813"
+      },
+      "homepage": "https://eryx.digital",
+      "keywords": ["eryx", "eryx b2b leads", "eryx lead discovery"],
+      "domains": ["eryx.digital"]
+    },
+    {
       "name": "browser-use",
       "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
       "category": "development",
