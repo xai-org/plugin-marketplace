@@ -1,11 +1,19 @@
 #!/usr/bin/env python3
 """Validate the marketplace catalog index.
 
-Enforces, for every plugin with `"source": {"source": "url", ...}`:
+Enforces, for every plugin whose source is *not* an explicit local source:
 
   - `sha` field is present and non-empty
   - `sha` is a 40-character lowercase hex string (full commit SHA, not a
     tag, branch, or abbreviation)
+
+The check is fail-closed: a source is exempt from pinning only when it says
+`{"type": "local", ...}` or is a relative path string beginning with "./".
+Every other dict shape is treated as remote and must be pinned, and any
+other type is rejected outright. Allow-listing remote spellings instead
+(e.g. only `{"source": "url"}`) silently exempts every shape not on the
+list — including `{"source": "github", "repo": "..."}`, the Claude Code
+shape this validator also sees via `.claude-plugin/marketplace.json`.
 
 This is the catalog-level enforcement layer for SHA pinning. Without a
 pin, the installer would fall back to `git clone --branch <ref>` (or HEAD),
@@ -30,11 +38,46 @@ from pathlib import Path
 
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 
+# The documented string-form source is a relative in-repo path, e.g.
+# "./plugins/foo". Requiring the prefix keeps URLs and scp-style refs from
+# being mistaken for local paths.
+LOCAL_PATH_PREFIX = "./"
+
 # Lookup order matches the marketplace index loader in the Grok CLI.
 CATALOG_PATHS = [
     Path(".grok-plugin/marketplace.json"),
     Path(".claude-plugin/marketplace.json"),
 ]
+
+
+def is_local_source(source: dict) -> bool:
+    """True for sources vendored in this repo, which need no commit pin."""
+    return source.get("type") == "local"
+
+
+def describe_source(source: dict) -> str:
+    """Best-effort identifier for error messages across source shapes."""
+    for key in ("url", "repo", "path"):
+        value = source.get(key)
+        if isinstance(value, str) and value:
+            return f"{key}={value!r}"
+    return f"source={source!r}"
+
+
+def local_path_errors(name: str, value, label: str) -> list[str]:
+    """Shared shape check for in-repo relative plugin paths."""
+    if not isinstance(value, str) or not value.strip():
+        return [f"plugin '{name}': {label} must be a non-empty string."]
+    if (
+        value.startswith("/")
+        or "\\" in value
+        or any(part in ("..", "") for part in value.split("/"))
+    ):
+        return [
+            f"plugin '{name}': {label} {value!r} must be a relative "
+            f"subdirectory inside the repo (no leading '/', no '..', no backslashes)."
+        ]
+    return []
 
 
 def validate_entry(entry: dict, idx: int) -> list[str]:
@@ -43,20 +86,40 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
     name = entry.get("name") or f"<unnamed at index {idx}>"
     source = entry.get("source")
 
-    # String-form sources like "./plugins/foo" are local paths; no sha needed.
-    if not isinstance(source, dict):
-        return errors
+    # String-form sources are local paths like "./plugins/foo". Anything else
+    # spelled as a string — a URL, an scp-style ref, a bare repo name — would
+    # reach the installer as an unpinned remote, so require the documented
+    # local shape rather than exempting every string.
+    if isinstance(source, str):
+        if not source.startswith(LOCAL_PATH_PREFIX):
+            return [
+                f"plugin '{name}': string-form `source` {source!r} must be a "
+                f'relative local path starting with "{LOCAL_PATH_PREFIX}". '
+                f"Remote sources must use the object form with a pinned `sha`."
+            ]
+        return local_path_errors(name, source, "string-form `source`")
 
-    if source.get("source") != "url":
+    if not isinstance(source, dict):
+        return [
+            f"plugin '{name}': `source` must be an object or a local path "
+            f'string starting with "{LOCAL_PATH_PREFIX}", got '
+            f"{'null' if source is None else type(source).__name__}."
+        ]
+
+    # Fail closed: only an explicit local source is exempt from pinning.
+    # Everything else counts as remote, including shapes we haven't seen yet.
+    if is_local_source(source):
         return errors
 
     sha = source.get("sha")
     if not sha:
         errors.append(
-            f"plugin '{name}': missing `sha` field on url source "
-            f"(url={source.get('url')!r}). All url-sourced plugins must "
+            f"plugin '{name}': missing `sha` field on remote source "
+            f"({describe_source(source)}). Every remote-sourced plugin must "
             f"be pinned to a specific commit so a vendor force-push can't "
-            f"silently ship new code to installed users."
+            f"silently ship new code to installed users. If this is a local "
+            f"plugin vendored in this repo, use "
+            f'{{"type": "local", "path": "./..."}}.'
         )
         return errors
 
@@ -75,19 +138,7 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
 
     path = source.get("path")
     if path is not None:
-        if not isinstance(path, str) or not path.strip():
-            errors.append(
-                f"plugin '{name}': url source `path` must be a non-empty string when present."
-            )
-        elif (
-            path.startswith("/")
-            or "\\" in path
-            or any(part in ("..", "") for part in path.split("/"))
-        ):
-            errors.append(
-                f"plugin '{name}': url source `path` {path!r} must be a relative "
-                f"subdirectory inside the repo (no leading '/', no '..', no backslashes)."
-            )
+        errors.extend(local_path_errors(name, path, "remote source `path`"))
 
     return errors
 
