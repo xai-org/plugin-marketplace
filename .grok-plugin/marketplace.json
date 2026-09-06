@@ -255,6 +255,19 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "markifact",
+      "description": "Markifact marketing integration. Audit ad spend, launch campaigns, rotate creative, and pull reporting across Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, GA4, Shopify, HubSpot, and 20+ more platforms. 1000+ operations with human-in-the-loop approval on every write.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/markifact/markifact-mcp.git",
+        "sha": "838239fe594257d8ce9bdb842293984133f6c20e"
+      },
+      "homepage": "https://www.markifact.com",
+      "keywords": ["markifact", "markifact mcp", "markifact marketing"],
+      "domains": ["markifact.com"]
+    },
+    {
       "name": "pstack",
       "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
       "category": "development",
