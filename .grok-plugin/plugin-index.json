@@ -536,6 +536,18 @@
         ]
       }
     },
+    "oz": {
+      "sha": "0ca06ba5d70a3b4bcf61d6df340553b25b2f0056",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "oz",
+            "description": "streamable-http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
       "components": {
