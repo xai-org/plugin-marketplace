@@ -72,7 +72,7 @@
       }
     },
     "blindoracle": {
-      "sha": "c6f48868b7f7c14e12b076ad6ac172f49954fb32",
+      "sha": "de6c097f2d6b586c3b604c610ea725f38837db46",
       "version": "1.1.0",
       "components": {
         "agents": [
