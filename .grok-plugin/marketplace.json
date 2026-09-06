@@ -433,7 +433,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/craigmbrown/blindoracle-plugin.git",
-        "sha": "c6f48868b7f7c14e12b076ad6ac172f49954fb32"
+        "sha": "de6c097f2d6b586c3b604c610ea725f38837db46"
       },
       "homepage": "https://craigmbrown.com/blindoracle/grok-bot-kit/",
       "keywords": [
