@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "centricmem",
+      "description": "Hosted librarian for agent memory. Organise and retrieve Markdown cards via host MCP. Authenticate with a /connect?device= link; never paste keys in chat.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zeyu-j/centricmem-skill.git",
+        "sha": "299c6f0c32bf7cb32cb70de2bbb87c2f135d8517"
+      },
+      "homepage": "https://centricmem.com",
+      "keywords": ["centricmem", "centricmem librarian", "centricmem mcp"],
+      "domains": ["centricmem.com", "mem.centricmem.com"]
     }
   ]
 }

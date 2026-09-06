@@ -89,6 +89,18 @@
         ]
       }
     },
+    "centricmem": {
+      "sha": "299c6f0c32bf7cb32cb70de2bbb87c2f135d8517",
+      "version": "0.21.26",
+      "components": {
+        "skills": [
+          {
+            "name": "centricmem-agent",
+            "description": "Organises and retrieves Markdown memory on the hosted CentricMem librarian via host MCP (search, notes, decisions, tran…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
