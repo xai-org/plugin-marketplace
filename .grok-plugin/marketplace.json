@@ -293,6 +293,25 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "netease-email",
+      "description": "Community NetEase mailbox connector: configure your own account locally, then search/read mail and perform authorized writes. Not affiliated with NetEase.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/huaiwen/NetEaseEmailConnector.git",
+        "sha": "d805b309cae37b915e14273235169cf15b4cc741",
+        "path": "plugins/netease-email"
+      },
+      "homepage": "https://github.com/huaiwen/NetEaseEmailConnector",
+      "keywords": [
+        "netease-email-connector"
+      ],
+      "version": "0.2.0",
+      "author": {
+        "name": "huaiwen"
+      }
     }
   ]
 }

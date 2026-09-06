@@ -462,6 +462,24 @@
         ]
       }
     },
+    "netease-email": {
+      "sha": "d805b309cae37b915e14273235169cf15b4cc741",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "netease_email",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "netease-email",
+            "description": "Install, configure and use a personal NetEase mailbox through local IMAP/SMTP tools. Search and read mail, download att…"
+          }
+        ]
+      }
+    },
     "netlify": {
       "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
       "version": "1.3.0",
