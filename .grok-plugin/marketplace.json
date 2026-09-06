@@ -301,7 +301,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/zeyu-j/centricmem-skill.git",
-        "sha": "299c6f0c32bf7cb32cb70de2bbb87c2f135d8517"
+        "sha": "284ddb5e02cff752efb6feb4d2702f217d1fb66c"
       },
       "homepage": "https://centricmem.com",
       "keywords": ["centricmem", "centricmem librarian", "centricmem mcp"],

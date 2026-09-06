@@ -90,8 +90,8 @@
       }
     },
     "centricmem": {
-      "sha": "299c6f0c32bf7cb32cb70de2bbb87c2f135d8517",
-      "version": "0.21.26",
+      "sha": "284ddb5e02cff752efb6feb4d2702f217d1fb66c",
+      "version": "0.21.27",
       "components": {
         "skills": [
           {
