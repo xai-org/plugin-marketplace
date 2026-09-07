@@ -199,6 +199,30 @@
         ]
       }
     },
+    "contracko": {
+      "sha": "3d73a4a27a3c8c7877c9a1dd1e30d804a1928e5d",
+      "version": "0.7.0",
+      "components": {
+        "skills": [
+          {
+            "name": "contracko",
+            "description": "Connects Contracko over MCP and organises the workspace: types, fields, counterparties, folders. Use for onboarding, fi…"
+          },
+          {
+            "name": "contracko-create",
+            "description": "Takes a new contract from questionnaire to drafted, signed and filed in Contracko. Use to create, draft or generate an…"
+          },
+          {
+            "name": "contracko-import",
+            "description": "Imports contracts into Contracko from disk, Google Drive, SharePoint, Box or a URL. Use to onboard, migrate, bulk-uploa…"
+          },
+          {
+            "name": "contracko-review",
+            "description": "Reviews Contracko contracts. Use for notice dates, end dates, annual review, reminders, risk audits, comparing proposal…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
