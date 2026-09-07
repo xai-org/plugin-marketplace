@@ -300,8 +300,8 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/vermeerenmaxime/aden-mcp.git",
-        "sha": "3927e4a257ab3f696fe3d407014b21bbb5affe12"
+        "url": "https://github.com/adenspace/aden-mcp.git",
+        "sha": "f0b803ddad28b6fad72599a42c7235b4490f1bbb"
       },
       "homepage": "https://www.aden.space",
       "keywords": ["aden", "aden.space", "aden mcp"],
