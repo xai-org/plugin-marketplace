@@ -301,7 +301,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/adenspace/aden-mcp.git",
-        "sha": "f0b803ddad28b6fad72599a42c7235b4490f1bbb"
+        "sha": "3ebc9bfaf6e5d19de66665ea9604a59765ddb832"
       },
       "homepage": "https://www.aden.space",
       "keywords": ["aden", "aden.space", "aden mcp"],
