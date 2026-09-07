@@ -293,6 +293,18 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "coinvest",
+      "description": "Coinvest by Liquid: multi-asset trading analyst and execution (MCP Server + Skills). Analyze crypto, tokenized equities, commodities, and indices with whale positioning, liquidation clusters, funding, and news catalysts, then place, manage, and close trades on your non-custodial Liquid account. Includes paper trading and bounded automated trading.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/coinvest"
+      },
+      "homepage": "https://coinvest.liquid.trade",
+      "keywords": ["coinvest", "liquid co-invest", "liquid trade", "liquid.trade", "coinvest mcp"],
+      "domains": ["coinvest.liquid.trade", "liquid.trade", "app.liquid.trade"]
     }
   ]
 }

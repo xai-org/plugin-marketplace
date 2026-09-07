@@ -1,0 +1,13 @@
+{
+  "name": "coinvest",
+  "version": "1.0.0",
+  "description": "Coinvest by Liquid: a multi-asset trading analyst and execution layer (MCP Server + Skills). Analyze crypto, equities, commodities, and indices with whale positioning, liquidation, funding, and news context, then place, manage, and close trades on Liquid through a non-custodial account.",
+  "author": {
+    "name": "Liquid",
+    "url": "https://www.liquid.trade"
+  },
+  "homepage": "https://coinvest.liquid.trade",
+  "repository": "https://github.com/LiquidMax-dev/coinvest-computer",
+  "license": "MIT",
+  "keywords": ["coinvest", "liquid co-invest", "liquid trade", "mcp", "trading"]
+}
