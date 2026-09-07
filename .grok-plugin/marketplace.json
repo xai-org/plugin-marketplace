@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "web-search-plus",
+      "description": "Web Search Plus: source-only multi-provider web search and bounded URL extraction (MCP server + skill). Routes across Serper, Exa, Tavily, Linkup, You.com, Firecrawl, Parallel, Brave and more with your own provider keys; returns ranked sources and extracted page text, never synthesized answers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/robbyczgw-cla/web-search-plus-mcp.git",
+        "sha": "01fa793b9fa561244c904c283c0d1b32e6309413"
+      },
+      "homepage": "https://websearchplus.xyz",
+      "keywords": ["web search plus", "websearchplus", "web-search-plus-mcp", "wsp search"],
+      "domains": ["websearchplus.xyz"]
     }
   ]
 }
