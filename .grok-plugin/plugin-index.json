@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "adaptlypost": {
+      "sha": "ce22848b6b2228210fef4bfaa02743d3975a6752",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adaptlypost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adaptlypost",
+            "description": "Create, schedule, and manage social media posts across Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Th…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

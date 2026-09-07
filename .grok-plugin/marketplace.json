@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "adaptlypost",
+      "description": "AdaptlyPost social media publishing (MCP server + skill). Post and schedule to Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, and Bluesky, upload media, bulk-schedule, check per-platform results, and retry failed platforms.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adaptlypost/agent.git",
+        "sha": "ce22848b6b2228210fef4bfaa02743d3975a6752"
+      },
+      "homepage": "https://adaptlypost.com/features/agents",
+      "keywords": ["adaptlypost", "adaptly post", "adaptlypost mcp"],
+      "domains": ["adaptlypost.com", "app.adaptlypost.com", "mcp.adaptlypost.com"]
     }
   ]
 }
