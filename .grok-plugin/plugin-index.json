@@ -90,8 +90,8 @@
       }
     },
     "calibrd": {
-      "sha": "cc66c17e26b4336765f11fccf07d77d3cd1cb4ae",
-      "version": "1.0.0",
+      "sha": "89d8cb8a63c335fae56a9937215d7a1b3831a469",
+      "version": "1.0.1",
       "components": {
         "mcpServers": [
           {
