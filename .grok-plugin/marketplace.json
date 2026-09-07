@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "timeln",
+      "description": "Timeln AI memory layer. Save articles, notes, and URLs into your personal knowledge graph, then ask questions in natural language and get answers cited back to the sources. Also exposes the graph itself: centrality ranking, community detection, shortest paths between ideas, and hybrid semantic + keyword entity search.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Timelnapp/timeln-grok-plugin.git",
+        "sha": "b10a8d305907833c51ca14c61e56695a4fa901ff"
+      },
+      "homepage": "https://timeln.app",
+      "keywords": ["timeln", "timeln memory", "timeln knowledge graph", "timeln mcp"],
+      "domains": ["timeln.app", "app.timeln.app"]
     }
   ]
 }
