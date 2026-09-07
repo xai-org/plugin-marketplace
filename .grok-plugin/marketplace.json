@@ -293,6 +293,24 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "calibrd",
+      "description": "Calibrd Agent: would you make the shortlist? Score a job posting against your CV, get the full Calibrd report (gaps at your level, the questions each round asks, the interview process, a pay benchmark), review your CV and draft a cover letter on your Calibrd account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/justinxcguo/calibrd-agent.git",
+        "sha": "c2b31b4ba341674575267b689f38ff012183d01a"
+      },
+      "homepage": "https://www.calibrd.com/agent",
+      "keywords": ["calibrd", "calibrd agent", "calibrd report", "calibrd shortlist"],
+      "domains": ["calibrd.com", "www.calibrd.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Calibrd",
+        "url": "https://www.calibrd.com"
+      }
     }
   ]
 }
