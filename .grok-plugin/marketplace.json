@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "monaco",
+      "description": "Monaco AI sales platform integration (MCP Server). Search and update contacts, accounts, opportunities, tasks, and meetings; build audiences and enroll them in sequences and campaigns; run pipeline hygiene and revenue analytics on live CRM data.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/monacoinc/agent-plugins.git",
+        "sha": "e130ed02aad16123bbefdf4949fda13b418c6a4d"
+      },
+      "homepage": "https://docs.monaco.com/mcp/overview",
+      "keywords": ["monaco", "monaco crm", "monaco sales", "monaco mcp"],
+      "domains": ["monaco.com", "docs.monaco.com"]
     }
   ]
 }
