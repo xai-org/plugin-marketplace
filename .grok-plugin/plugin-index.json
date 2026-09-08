@@ -89,6 +89,24 @@
         ]
       }
     },
+    "calibrd": {
+      "sha": "89d8cb8a63c335fae56a9937215d7a1b3831a469",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calibrd",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calibrd",
+            "description": "Use Calibrd to judge a job posting before applying. Score the person's CV against the posting, get the full Calibrd rep…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
       "version": "1.8.0",
