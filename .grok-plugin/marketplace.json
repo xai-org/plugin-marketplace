@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "walletlink",
+      "description": "Resolve Ethereum wallets to the X and Farcaster accounts their owners attested, and find the wallets behind a handle (hosted MCP server + skill). Sign in with OAuth or a walletlink.social API key; agents can buy access with USDC, no account needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/starl3xx/walletlink-grok-plugin.git",
+        "sha": "9e777bbe85e2d1002f3ae925eb204766f4ddae69"
+      },
+      "homepage": "https://walletlink.social",
+      "keywords": ["walletlink", "walletlink social", "walletlink mcp"],
+      "domains": ["walletlink.social", "docs.walletlink.social"]
     }
   ]
 }
