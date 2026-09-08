@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "postlake",
+      "description": "Hosted MCP and skills so an agent can publish, schedule, reply, and measure social posts across connected networks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PostLake/postlake-mcp.git",
+        "sha": "ccd96c19283ab55ba470759f835a9fe73933d0f7"
+      },
+      "homepage": "https://postlake.dev",
+      "keywords": ["postlake", "postlake mcp", "postlake social"],
+      "domains": ["postlake.dev", "api.postlake.dev", "docs.postlake.dev", "app.postlake.dev"]
     }
   ]
 }

@@ -536,6 +536,52 @@
         ]
       }
     },
+    "postlake": {
+      "sha": "ccd96c19283ab55ba470759f835a9fe73933d0f7",
+      "version": "1.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postlake",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "b2c-marketing",
+            "description": "B2C organic social media marketing for AI agents. TikTok and Instagram growth coach: account setup, 7-day warmup, conte…"
+          },
+          {
+            "name": "multi-account-operator",
+            "description": "Multi-account social media operator for AI agents. Run 15 to 400+ accounts without burning them: spacing, per-account c…"
+          },
+          {
+            "name": "postlake-accounts",
+            "description": "List the social accounts connected to PostLake (X, LinkedIn, Instagram, TikTok, Facebook, Threads, Bluesky, YouTube, Pi…"
+          },
+          {
+            "name": "postlake-analytics",
+            "description": "Read social media performance from PostLake: per-post results and normalised cross-platform analytics (impressions, rea…"
+          },
+          {
+            "name": "postlake-inbox",
+            "description": "Read and handle PostLake direct-message conversations across Facebook, Instagram, X, and Bluesky. Use when checking DMs…"
+          },
+          {
+            "name": "postlake-media",
+            "description": "Upload an image or video to PostLake and attach it to a post. Use when a post needs media, or for platforms that requir…"
+          },
+          {
+            "name": "postlake-publish",
+            "description": "Publish a social media post right now to one or more connected accounts (X, LinkedIn, Instagram, TikTok, Facebook, Thre…"
+          },
+          {
+            "name": "postlake-schedule",
+            "description": "Schedule a social media post for a future time through PostLake, and list, reschedule, or cancel scheduled posts. Use w…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
       "components": {
