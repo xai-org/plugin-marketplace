@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "guaca": {
+      "type": "http",
+      "url": "https://useguaca.com/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "guaca",
+  "version": "1.0.0",
+  "description": "Understand your net worth, spending, investments, goals, and retirement using your private Guaca data through the Guaca MCP server.",
+  "author": {
+    "name": "Guaca",
+    "url": "https://useguaca.com"
+  },
+  "homepage": "https://useguaca.com",
+  "license": "MIT",
+  "keywords": ["guaca", "useguaca", "guaca finance", "mcp"],
+  "logo": "assets/logo.png"
+}
