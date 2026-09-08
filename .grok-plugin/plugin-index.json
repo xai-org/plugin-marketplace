@@ -203,6 +203,54 @@
         ]
       }
     },
+    "diffbot": {
+      "sha": "c8d410cff0f318a20dbfa161a3ca4d6a3bacb1e9",
+      "version": "1.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "diffbot-crawl",
+            "description": "Crawl a website or manage Diffbot crawler jobs. Use when the user wants to crawl a site for structured content, list ex…"
+          },
+          {
+            "name": "diffbot-deals",
+            "description": "Search funding rounds, investments, and acquisitions in the Diffbot Knowledge Graph by date, deal size, round series, i…"
+          },
+          {
+            "name": "diffbot-dql",
+            "description": "Query the Diffbot Knowledge Graph directly with DQL (Diffbot Query Language). The general-purpose layer beneath the ent…"
+          },
+          {
+            "name": "diffbot-entities",
+            "description": "Identify and resolve named entities in text using the Diffbot NLP API. Links mentions to Diffbot Knowledge Graph entiti…"
+          },
+          {
+            "name": "diffbot-extract",
+            "description": "Extract markdown or structured content from a URL using the Diffbot Extract API — a live fetch and parse of the page, s…"
+          },
+          {
+            "name": "diffbot-news",
+            "description": "Search news and articles in the Diffbot Knowledge Graph by mentioned company, person, topic, publisher, language, date…"
+          },
+          {
+            "name": "diffbot-organizations",
+            "description": "Search companies and organizations in the Diffbot Knowledge Graph by industry, headquarters, headcount, revenue, fundin…"
+          },
+          {
+            "name": "diffbot-people",
+            "description": "Search people in the Diffbot Knowledge Graph by job title, employer, employer industry, skills, education, location, or…"
+          },
+          {
+            "name": "diffbot-places",
+            "description": "Search geographic entities in the Diffbot Knowledge Graph — cities, counties, subregions, states, provinces, countries,…"
+          },
+          {
+            "name": "diffbot-web-search",
+            "description": "Use for any web search, documentation search, or research request not falling under the DQL categories (news, organizat…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

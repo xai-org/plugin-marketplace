@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "diffbot",
+      "description": "Official Diffbot plugin for Grok. Gives your Grok bot skills for fetching knowledge. Query the Diffbot Knowledge Graph for organizations, people, places, news, or investment deals; search, crawl, and extract the web."
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/diffbot/diffbot-skills.git",
+        "sha": "c8d410cff0f318a20dbfa161a3ca4d6a3bacb1e9"
+      },
+      "homepage": "https://github.com/diffbot/diffbot-skills",
+      "keywords": ["diffbot", "extract", "knowledge graph", "dql", "web search", "crawl", "entities"],
+      "domains": ["diffbot.com", "app.diffbot.com", "docs.diffbot.com", "kg.diffbot.com"]
     }
   ]
 }
