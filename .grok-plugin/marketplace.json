@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "lemmebuyit",
+      "description": "Official LemMeBuyIt MCP for Grok Build. Search live product catalogs across 103 US retailers, compare prices, look up stock, and pull retailer and Amazon price history through LemMeBuyIt's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LemmeBuyIt/lemmebuyit-mcp.git",
+        "sha": "6133db55d891aa75b2b53e7d1698a6643d51aff2"
+      },
+      "homepage": "https://www.lemmebuyit.com",
+      "keywords": ["lemmebuyit", "lemme buy it", "lemmebuyit mcp"],
+      "domains": ["lemmebuyit.com", "www.lemmebuyit.com", "mcp.lemmebuyit.com", "api.lemmebuyit.com"]
     }
   ]
 }
