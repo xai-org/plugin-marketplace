@@ -442,6 +442,7 @@
       }
     },
     "mosofin": {
+      "sha": "5f9a3919435ceac43ff5e053b240b750fc80571e",
       "version": "0.4.0",
       "components": {
         "agents": [

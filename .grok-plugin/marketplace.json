@@ -475,8 +475,9 @@
       "description": "Connect your AI assistant to MosoFin: authenticated, workspace-scoped, read-only financial data across connected SaaS platforms.",
       "category": "finance",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/mosofin"
+        "source": "url",
+        "url": "https://github.com/MosoFin/mosofin-mcp-plugin.git",
+        "sha": "5f9a3919435ceac43ff5e053b240b750fc80571e"
       },
       "homepage": "https://mosofin.com",
       "keywords": [
