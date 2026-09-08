@@ -1,0 +1,13 @@
+{
+  "name": "taaft",
+  "version": "1.0.0",
+  "description": "Search and discover AI tools on There's An AI For That.",
+  "author": {
+    "name": "There's An AI For That",
+    "email": "razvan@theresanaiforthat.com",
+    "url": "https://theresanaiforthat.com/"
+  },
+  "homepage": "https://theresanaiforthat.com/",
+  "license": "MIT",
+  "keywords": ["theresanaiforthat", "there's an ai for that", "taaft", "ai tools directory"]
+}

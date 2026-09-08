@@ -293,6 +293,22 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "taaft",
+      "description": "Search and discover AI tools on There's An AI For That. Query the There's An AI For That directory via the public remote MCP server (search_tools, get_tool).",
+      "category": "search",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/taaft"
+      },
+      "homepage": "https://theresanaiforthat.com/",
+      "keywords": ["there's an ai for that", "theresanaiforthat", "theres an ai for that", "taaft", "ai tools directory"],
+      "domains": ["theresanaiforthat.com", "www.theresanaiforthat.com"],
+      "author": {
+        "name": "There's An AI For That",
+        "email": "razvan@theresanaiforthat.com"
+      }
     }
   ]
 }
