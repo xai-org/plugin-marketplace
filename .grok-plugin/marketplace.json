@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "recipebee",
+      "description": "RecipeBee recipe discovery and guided cooking integration. Search recipes, inspect recipe details, and save generated recipes to your RecipeBee account through a hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/praisondani/recipebee-cursor-plugin.git",
+        "sha": "cb6b8566e53e746a8cd449478df32eb9838d305c"
+      },
+      "homepage": "https://recipebee.app",
+      "keywords": ["recipebee", "recipebee recipes", "recipebee cooking"],
+      "domains": ["recipebee.app"]
     }
   ]
 }
