@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "redreplier",
+      "description": "RedReplier social listening (MCP server + skill). Monitor Reddit, Hacker News, X, and Bluesky for keyword mentions of your product, triage AI-scored leads with relevance reasoning and reply suggestions, manage monitored websites and keywords, and set alert digests.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RedReplier/agent.git",
+        "sha": "6e7f15e43ebffdb59ea06550d9f52bff82c6e2a1"
+      },
+      "homepage": "https://redreplier.com",
+      "keywords": ["redreplier", "red replier", "redreplier mcp"],
+      "domains": ["redreplier.com", "app.redreplier.com", "mcp.redreplier.com"]
     }
   ]
 }

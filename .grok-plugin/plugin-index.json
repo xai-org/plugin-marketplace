@@ -769,6 +769,24 @@
         ]
       }
     },
+    "redreplier": {
+      "sha": "6e7f15e43ebffdb59ea06550d9f52bff82c6e2a1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "redreplier",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "redreplier",
+            "description": "Monitor Reddit, Hacker News, X, and Bluesky for keyword mentions of your product/website via the RedReplier API. Covers…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
