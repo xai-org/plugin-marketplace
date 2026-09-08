@@ -441,6 +441,57 @@
         ]
       }
     },
+    "mosofin": {
+      "version": "0.4.0",
+      "components": {
+        "agents": [
+          {
+            "name": "mosofin-analyst",
+            "description": "Read-only MosoFin data analyst. Delegate when a task needs live business data (P&L, balance sheet, invoices, bills, cas…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "mosofin",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connections",
+            "description": "Show which company files and data sources are connected to a MosoFin workspace and their status (maps to the get_agent_…"
+          },
+          {
+            "name": "list-skills",
+            "description": "List the user's saved MosoFin skills in the confirmed workspace (maps to the get_skills MCP tool). Use when the user as…"
+          },
+          {
+            "name": "list-tools",
+            "description": "Show which MosoFin API operations are available for a connected datasource and their policy (maps to the get_datasource…"
+          },
+          {
+            "name": "query-workspace",
+            "description": "Query MosoFin workspace business data (accounting platforms and other connected SaaS). Use when the user asks for P&L,…"
+          },
+          {
+            "name": "replay-skill",
+            "description": "Fetch and replay one of the user's saved MosoFin skills after they name it and consent (maps to the get_my_skill MCP to…"
+          },
+          {
+            "name": "run-tool",
+            "description": "Run one specific MosoFin catalog operation against a connected company file (maps to the invoke_datasource_api_tool MCP…"
+          },
+          {
+            "name": "save-skill",
+            "description": "Save or replay a MosoFin analysis skill after results exist. Use when the user wants to keep a workflow, list saved ski…"
+          },
+          {
+            "name": "workspaces",
+            "description": "List, confirm, or switch the MosoFin workspace for this conversation (maps to the list_workspaces MCP tool). Use when t…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

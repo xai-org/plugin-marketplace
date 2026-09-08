@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mosofin": {
+      "type": "http",
+      "url": "https://mcp.mosofin.com/mcp"
+    }
+  }
+}
