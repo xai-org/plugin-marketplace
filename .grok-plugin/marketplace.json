@@ -490,6 +490,7 @@
       ],
       "domains": [
         "mosofin.com",
+        "app.mosofin.com",
         "mcp.mosofin.com",
         "docs.mosofin.com"
       ]
