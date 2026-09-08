@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "neuruh-public-micro-plugins",
+      "description": "Compile a bounded agent context packet, pick the cheapest capable execution route, and emit a public-safe proof card. Offline stdio MCP. No account, no API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NeuruhAI/neuruh-sovereign-agent-starter.git",
+        "sha": "9a9a5329805f94ca5f8833f17873e87f076cb4f0"
+      },
+      "homepage": "https://github.com/NeuruhAI/neuruh-sovereign-agent-starter",
+      "keywords": ["neuruh", "neuruh context pack", "neuruh proof card", "neuruh handoff"],
+      "domains": ["neuruh.com"]
     }
   ]
 }
