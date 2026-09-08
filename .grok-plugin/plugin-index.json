@@ -357,6 +357,32 @@
         ]
       }
     },
+    "inspify-ai": {
+      "sha": "51025fbd8bbb09eddd191345ae72ea40661c6d7d",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "inspify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "inspify-director-mcp",
+            "description": "Use when kicking or polling INSPIFY Creative Agency Story jobs via Director MCP (team pilot). Pair with inspify-securit…"
+          },
+          {
+            "name": "inspify-phase1-pilot",
+            "description": "Use for INSPIFY AI Phase 1 internal team pilot — Alex allowlist scope, Bible ceiling, no customer marketplace claims."
+          },
+          {
+            "name": "inspify-security-deny",
+            "description": "Use before any INSPIFY MCP or plugin action — deny-by-default host/Mac Shell, AWS Admin/human keys, Chair disk; no secr…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
