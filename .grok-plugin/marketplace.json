@@ -306,6 +306,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "vettly",
+      "description": "Policy-governed content moderation and trust-and-safety workflows for text, image, and video content through Vettly's MCP server.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextauralabs/vettly.git",
+        "sha": "b40da3314080526273aa7088e46149ad83f88e2d",
+        "path": "packages/mcp/grok-plugin"
+      },
+      "homepage": "https://vettly.dev",
+      "keywords": ["vettly", "vettly moderation", "ugc moderation", "trust and safety", "policy enforcement"],
+      "domains": ["vettly.dev", "api.vettly.dev"]
     }
   ]
 }
