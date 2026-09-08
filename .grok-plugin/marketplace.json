@@ -296,16 +296,16 @@
     },
     {
       "name": "grok-bot-control",
-      "description": "Coordinate authorized Grok Bot conversations with a portable skill, scoped send checks, and evidence-based handoffs. Offline helpers; live control requires host-provided tools.",
+      "description": "Coordinate authorized Grok Bot conversations with portable skills, an optional pinned CLI adapter, and a shared local delivery journal. Live use requires an authorized app session.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/ImL1s/grok-bot-control.git",
-        "sha": "32ed073387a78f728e9e349dc29fc2b42bccc927",
+        "sha": "b6830b471fac1cab0eb294f30aabe3f297ee0d01",
         "path": "plugins/grok-bot-control"
       },
       "homepage": "https://iml1s.github.io/grok-bot-control/",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "ImL1s"
       },
