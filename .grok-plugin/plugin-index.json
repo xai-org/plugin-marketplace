@@ -540,6 +540,17 @@
         ]
       }
     },
+    "proper-job": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "proper-job",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
