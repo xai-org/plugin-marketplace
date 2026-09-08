@@ -306,6 +306,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "ulysses-check",
+      "description": "ULYSSES AI search measurement: how ChatGPT, Claude, and Gemini describe a brand, using only each engine's raw output visible in this session. Cells are not observed or not explicitly ranked when that output is missing or does not rank. Grok is included only when asked.",
+      "category": "measurement",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dellightai/grok-plugins.git",
+        "sha": "c82df8748b7072017846d17a741d3fc018acaee8",
+        "path": "ulysses-check"
+      },
+      "homepage": "https://www.dellight.ai/",
+      "keywords": ["dellight ulysses", "ulysses check"],
+      "domains": ["www.dellight.ai"]
     }
   ]
 }
