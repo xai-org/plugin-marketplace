@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "agent-ultramode": {
+      "sha": "237fc6af9e891c79dc644774ca6906cc80cafb45",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ultra",
+            "description": "Best-of-N with a reasoned verifier and guided repair. Invoke with /ultra <task> to run N isolated attempts in parallel,…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
