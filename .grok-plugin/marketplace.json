@@ -306,6 +306,22 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "repo-scout",
+      "description": "Repo Scout: evidence-backed engineering backlog discovery. Reviews a whole repository across architecture, frontend, backend/data, mobile, systems, security, tests/CI, docs and AI-agent code, and returns a ranked backlog with evidence levels and a coverage matrix. Scan mode never modifies code, runs project scripts, opens issues or triggers CI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImL1s/repo-scout.git",
+        "sha": "5a475fab717a67a717177e065f23a029c1e6087d"
+      },
+      "homepage": "https://iml1s.github.io/repo-scout/",
+      "version": "0.1.0",
+      "author": {
+        "name": "ImL1s"
+      },
+      "keywords": ["repo scout", "repo-scout", "裝忙 skills"]
     }
   ]
 }
