@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "flowsery",
+      "description": "Flowsery web analytics (MCP server + skill). Query visitors, sessions, revenue, goals, realtime map, and breakdowns by page, referrer, country, device, and campaign; pull visitor journeys and AI-detected site issues; record goals and payments from your backend.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Flowsery/agent.git",
+        "sha": "ff49c13fb81a48070ed14643ccb0fb4acbde19a6"
+      },
+      "homepage": "https://flowsery.com/docs/api-introduction",
+      "keywords": ["flowsery", "flowsery analytics", "flowsery mcp"],
+      "domains": ["flowsery.com", "app.flowsery.com", "mcp.flowsery.com"]
     }
   ]
 }

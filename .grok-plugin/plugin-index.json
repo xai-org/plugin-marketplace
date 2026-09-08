@@ -357,6 +357,24 @@
         ]
       }
     },
+    "flowsery": {
+      "sha": "ff49c13fb81a48070ed14643ccb0fb4acbde19a6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flowsery",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "flowsery",
+            "description": "Query web analytics data from Flowsery Analytics — a privacy-first web analytics platform. Retrieve real-time visitor c…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
