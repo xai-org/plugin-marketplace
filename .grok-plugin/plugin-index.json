@@ -536,6 +536,24 @@
         ]
       }
     },
+    "orgora": {
+      "sha": "a0e2c3497543b775008d1213d6179ae3f13bc061",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "orgora-charts",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "orgora",
+            "description": "Work with Orgora Charts on this Mac — private org charts for sales, marketing, consultants, and managers. Use when the…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
       "components": {
