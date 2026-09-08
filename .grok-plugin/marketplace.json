@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "infiknit",
+      "description": "Generate images, videos, and connected canvas workflows in Infiknit from your coding agent. Local desktop MCP: keep Infiknit open on this computer.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Synthenova/infiknit-mcp.git",
+        "sha": "d62983573b8f2d670c03f800be7e4c6727168e36",
+        "path": "plugins/infiknit"
+      },
+      "homepage": "https://infiknit.app",
+      "keywords": ["infiknit", "infiknit mcp"],
+      "domains": ["infiknit.app"]
     }
   ]
 }
