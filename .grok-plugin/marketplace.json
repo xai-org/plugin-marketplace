@@ -306,6 +306,62 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "grokhunter",
+      "description": "GrokHunter Rootless core for Termux × Kali NetHunter rootless × Grok Build — install/doctor and pair-programming. Coding lab only; not affiliated with xAI, Offensive Security, Termux, or jorexdeveloper.",
+      "category": "development",
+      "version": "1.0.11",
+      "author": {
+        "name": "FineComputer14451",
+        "url": "https://github.com/FineComputer14451/GrokHunter"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FineComputer14451/GrokHunter.git",
+        "sha": "646f043a3d268e4a47888301ad23658c114305c0",
+        "path": "plugins/grokhunter"
+      },
+      "homepage": "https://finecomputer14451.github.io/GrokHunter/",
+      "keywords": ["grokhunter", "grokhunter install", "grokhunter doctor", "nethunter rootless"],
+      "domains": ["finecomputer14451.github.io"]
+    },
+    {
+      "name": "grokhunter-coding-team",
+      "description": "GrokHunter Coding Team for Grok Build — Scout explore, Benjamin Design, Lucas Build, Harper Harden (plus aider/review helpers).",
+      "category": "development",
+      "version": "1.0.11",
+      "author": {
+        "name": "FineComputer14451",
+        "url": "https://github.com/FineComputer14451/GrokHunter"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FineComputer14451/GrokHunter.git",
+        "sha": "646f043a3d268e4a47888301ad23658c114305c0",
+        "path": "plugins/grokhunter-coding-team"
+      },
+      "homepage": "https://finecomputer14451.github.io/GrokHunter/",
+      "keywords": ["grokhunter coding team", "grokhunter benjamin", "grokhunter lucas", "grokhunter harper"]
+    },
+    {
+      "name": "grokhunter-full",
+      "description": "Complete GrokHunter Grok Build pack — core, Coding Team, lab specialists, desktop, overlay, scoped tookie-osint. Omits offensive recon. Not affiliated with xAI / OffSec / Termux / jorexdeveloper.",
+      "category": "development",
+      "version": "1.0.11",
+      "author": {
+        "name": "FineComputer14451",
+        "url": "https://github.com/FineComputer14451/GrokHunter"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FineComputer14451/GrokHunter.git",
+        "sha": "646f043a3d268e4a47888301ad23658c114305c0",
+        "path": "plugins/grokhunter-full"
+      },
+      "homepage": "https://finecomputer14451.github.io/GrokHunter/",
+      "keywords": ["grokhunter full", "grokhunter plugin pack"],
+      "domains": ["finecomputer14451.github.io"]
     }
   ]
 }
