@@ -199,6 +199,27 @@
         ]
       }
     },
+    "coinvest": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "coinvest",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "coinvest",
+            "description": "Use Coinvest (Liquid's trading analyst MCP) whenever the user mentions Coinvest, Liquid Co-Invest, or liquid.trade, or…"
+          },
+          {
+            "name": "coinvest-trading",
+            "description": "Execute and manage trades on Liquid through the Coinvest MCP. Use when the user wants to buy, sell, long, short, size,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
