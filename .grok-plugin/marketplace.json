@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "cleanness",
+      "description": "Measure code quality with CLEAN (Cohesive, Loosely coupled, Encapsulated, Assertive, Nonredundant). Scores each axis 1-5 with evidence and remediations.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nahcnuj/cleanness.git",
+        "sha": "99afd84c30bf9942ce589a78039d9096b196d013",
+        "path": "plugins/cleanness"
+      },
+      "homepage": "https://github.com/nahcnuj/cleanness",
+      "keywords": ["cleanness", "cleanness score", "CLEAN code", "cleanness plugin"]
     }
   ]
 }
