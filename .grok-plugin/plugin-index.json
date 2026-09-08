@@ -769,6 +769,24 @@
         ]
       }
     },
+    "relayshield": {
+      "sha": "72fe82cd0d15c94a3ddecac8fbfaddcf1c4c339f",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "relayshield",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "relayshield-agent-bait",
+            "description": "Screen a GitHub repository's agent-facing instructions before connecting an agent to it, installing its MCP server, or…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

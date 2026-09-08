@@ -293,6 +293,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "relayshield",
+      "description": "Counterparty screening for agents. Scans the instruction files a repository gives an agent (README, AGENTS.md, CLAUDE.md, .cursorrules, MCP manifests) for text that would make it fetch and execute remote code, ignore prior instructions, or open credential files, then checks every domain those instructions reference against indicators collected from criminal channels. Also screens MCP servers for typosquat distance and registration age.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RelayShield/relayshield-plugin.git",
+        "sha": "72fe82cd0d15c94a3ddecac8fbfaddcf1c4c339f"
+      },
+      "homepage": "https://relayshield.net",
+      "keywords": ["relayshield", "agent bait scan", "mcp registry risk", "relayshield scan"],
+      "domains": ["relayshield.net", "api.relayshield.net"]
     }
   ]
 }
