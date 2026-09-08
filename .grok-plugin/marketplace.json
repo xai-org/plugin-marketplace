@@ -293,6 +293,28 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "grok-bot-control",
+      "description": "Coordinate authorized Grok Bot conversations with a portable skill, scoped send checks, and evidence-based handoffs. Offline helpers; live control requires host-provided tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImL1s/grok-bot-control.git",
+        "sha": "32ed073387a78f728e9e349dc29fc2b42bccc927",
+        "path": "plugins/grok-bot-control"
+      },
+      "homepage": "https://iml1s.github.io/grok-bot-control/",
+      "version": "0.2.0",
+      "author": {
+        "name": "ImL1s"
+      },
+      "keywords": [
+        "grok bot",
+        "bot handoff",
+        "agent coordination",
+        "send verification"
+      ]
     }
   ]
 }

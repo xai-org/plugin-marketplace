@@ -357,6 +357,18 @@
         ]
       }
     },
+    "grok-bot-control": {
+      "sha": "32ed073387a78f728e9e349dc29fc2b42bccc927",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "grok-bot-control",
+            "description": "Coordinate directly with an authorized Grok Bot conversation, send verified handoffs, read back outcomes, prevent dupli…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
