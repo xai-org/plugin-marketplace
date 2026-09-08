@@ -72,7 +72,7 @@
       }
     },
     "blitzreels": {
-      "sha": "f07e9dd26fa3f8e882ef4ef55ae61ed7c5e5e47d",
+      "sha": "0da20c89696705bc392d7e724768aa39ffb479d0",
       "version": "2.1.0",
       "components": {
         "mcpServers": [
@@ -105,9 +105,27 @@
         ]
       }
     },
+    "browser-use": {
+      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "browser-use",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "browser-use",
+            "description": "Browser Use — direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
-      "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6",
-      "version": "1.7.0",
+      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -240,8 +258,8 @@
       }
     },
     "figma": {
-      "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4",
-      "version": "2.2.95",
+      "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
+      "version": "2.2.107",
       "components": {
         "mcpServers": [
           {
@@ -275,8 +293,16 @@
             "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
           },
           {
+            "name": "figma-generative-plugins",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. U…"
+          },
+          {
             "name": "figma-implement-motion",
             "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-shaders",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
           },
           {
             "name": "figma-swiftui",
@@ -302,8 +328,8 @@
       }
     },
     "firecrawl": {
-      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
-      "version": "1.1.0",
+      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "version": "1.2.0",
       "components": {
         "commands": [
           {
@@ -329,6 +355,10 @@
           {
             "name": "firecrawl-crawl",
             "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-developer-search",
+            "description": "Search an index built for coding agents — GitHub issues, merged pull requests, repository READMEs, and curated document…"
           },
           {
             "name": "firecrawl-download",
@@ -362,8 +392,8 @@
       }
     },
     "mongodb": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -404,8 +434,8 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -467,8 +497,8 @@
       }
     },
     "netlify": {
-      "sha": "5a62a5694417640a2bba11a0701c8995ecc40bcc",
-      "version": "1.2.1",
+      "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
+      "version": "1.3.0",
       "components": {
         "mcpServers": [
           {
@@ -540,9 +570,218 @@
         ]
       }
     },
+    "pstack": {
+      "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
+      "components": {
+        "agents": [
+          {
+            "name": "Comment Sicko",
+            "description": "A deranged comment-hater that savors deletion and condemns workaround code."
+          },
+          {
+            "name": "poteto-agent",
+            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Resume an existing `poteto-agent` for the convers…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "Make Bot UI",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
+          },
+          {
+            "name": "Poteto Mode",
+            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
+          },
+          {
+            "name": "architect",
+            "description": "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use fo…"
+          },
+          {
+            "name": "arena",
+            "description": "Spawn N parallel candidates at the same task, pick a base, graft the strongest parts of the losers into it. Use for /ar…"
+          },
+          {
+            "name": "automate-me",
+            "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
+          },
+          {
+            "name": "blast-radius",
+            "description": "Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe becaus…"
+          },
+          {
+            "name": "bro",
+            "description": "Restate the last message in plain human language, with no jargon."
+          },
+          {
+            "name": "create-verification-skill",
+            "description": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or plat…"
+          },
+          {
+            "name": "figure-it-out",
+            "description": "Design an auditable playbook when no narrower one fits: a large migration, an ambitious multi-part change, or work a hu…"
+          },
+          {
+            "name": "how",
+            "description": "Use for \\\"how does X work\\\", code walkthroughs before changing something, and placement / ownership / layering question…"
+          },
+          {
+            "name": "interrogate",
+            "description": "Use for \\\"interrogate\\\", \\\"adversarial review\\\", \\\"multi-model review\\\", \\\"challenge this\\\", \\\"stress test this code\\\",…"
+          },
+          {
+            "name": "maintain-verification-skill",
+            "description": "Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, on…"
+          },
+          {
+            "name": "no-comments",
+            "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
+          },
+          {
+            "name": "principle-boundary-discipline",
+            "description": "Apply when wiring validation, error handling, or framework adapters. Concentrate guards at system boundaries (CLI, conf…"
+          },
+          {
+            "name": "principle-build-the-lever",
+            "description": "Apply to any non-trivial work, not just bulk work: edits, migrations, analyses, checks. Build the tool that does it or…"
+          },
+          {
+            "name": "principle-encode-lessons-in-structure",
+            "description": "Apply when you catch yourself writing the same instruction a second time, or notice a recurring correction. Encode the…"
+          },
+          {
+            "name": "principle-exhaust-the-design-space",
+            "description": "Apply when facing a novel UI interaction or architectural decision with no precedent in the codebase. Build 2-3 competi…"
+          },
+          {
+            "name": "principle-experience-first",
+            "description": "Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship f…"
+          },
+          {
+            "name": "principle-fix-root-causes",
+            "description": "Apply when debugging. Trace each symptom to its root cause and fix it there; reproduce first, ask why until you reach i…"
+          },
+          {
+            "name": "principle-foundational-thinking",
+            "description": "Apply before writing logic: choosing core types and data structures, sequencing scaffold-vs-feature work, asking what c…"
+          },
+          {
+            "name": "principle-guard-the-context-window",
+            "description": "Apply when context is filling up: large outputs, long files, repeated reads, fan-out planning. Route bulk to subagents;…"
+          },
+          {
+            "name": "principle-laziness-protocol",
+            "description": "Apply when refactoring, evaluating diff size, or tempted to add abstractions, layers, or signal threading. Bias toward…"
+          },
+          {
+            "name": "principle-make-operations-idempotent",
+            "description": "Apply when designing commands, lifecycle steps, or processing loops that run amid crashes, restarts, and retries. Conve…"
+          },
+          {
+            "name": "principle-migrate-callers-then-delete-legacy-apis",
+            "description": "Apply when introducing a new internal API while old callers still exist. Migrate callers and delete the old API in the…"
+          },
+          {
+            "name": "principle-minimize-reader-load",
+            "description": "Apply when reviewing or shaping code that's hard to trace. Count layers between question and answer, and hidden state i…"
+          },
+          {
+            "name": "principle-model-the-domain",
+            "description": "Apply when writing stateful logic, or when code branches a lot or repeats a shape assumption across files. Encode the d…"
+          },
+          {
+            "name": "principle-never-block-on-the-human",
+            "description": "Apply when tempted to ask 'should I do X?' on reversible work. Proceed, present the result, let the human course-correc…"
+          },
+          {
+            "name": "principle-outcome-oriented-execution",
+            "description": "Apply during planned rewrites and migrations with explicit phase boundaries. Converge on the target architecture; don't…"
+          },
+          {
+            "name": "principle-prove-it-works",
+            "description": "Apply after completing a task, before declaring done. Verify against the real artifact (run the feature, read the actua…"
+          },
+          {
+            "name": "principle-redesign-from-first-principles",
+            "description": "Apply when integrating a new requirement into an existing design. Redesign as if the requirement had been a foundationa…"
+          },
+          {
+            "name": "principle-separate-before-serializing-shared-state",
+            "description": "Apply when concurrent actors might write to the same file, branch, key, or state object. Eliminate the sharing first; s…"
+          },
+          {
+            "name": "principle-sequence-verifiable-units",
+            "description": "Apply to multi-step work (sweeps, migrations, runs of similar edits) and to how you stack commits and PRs. Break work i…"
+          },
+          {
+            "name": "principle-subtract-before-you-add",
+            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead weight, redundant validators, and stub references…"
+          },
+          {
+            "name": "principle-type-system-discipline",
+            "description": "Apply when designing types, reviewing a function signature, or writing code in any statically-typed language. Make ille…"
+          },
+          {
+            "name": "recall",
+            "description": "Reconstruct your recent working context from your own chat history, live state, and the shared record (user reports, pr…"
+          },
+          {
+            "name": "reflect",
+            "description": "Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit…"
+          },
+          {
+            "name": "setup-pstack",
+            "description": "Configure which models pstack uses per role. Detects your available models and writes an always-applied rule that overr…"
+          },
+          {
+            "name": "show-me-your-work",
+            "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
+          },
+          {
+            "name": "swarm",
+            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
+          },
+          {
+            "name": "tdd",
+            "description": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious ch…"
+          },
+          {
+            "name": "teach",
+            "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
+          },
+          {
+            "name": "technical-writing",
+            "description": "Layered technical-writing standard: Diátaxis structure, Google developer style sentences, STE instruction rules, Global…"
+          },
+          {
+            "name": "typescript-best-practices",
+            "description": "TypeScript best practices. Use when reading or editing any .ts or .tsx file."
+          },
+          {
+            "name": "unslop",
+            "description": "Cut AI tells from any writing. Must always apply."
+          },
+          {
+            "name": "why",
+            "description": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thres…"
+          }
+        ]
+      }
+    },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
-      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
-      "version": "1.3.7",
+      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+      "version": "1.4.0",
       "components": {
         "hooks": [
           {
@@ -559,14 +798,14 @@
         "skills": [
           {
             "name": "use-railway",
-            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services, datab…"
           }
         ]
       }
     },
     "sentry": {
-      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
-      "version": "1.3.2",
+      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
@@ -611,8 +850,8 @@
       }
     },
     "stripe": {
-      "sha": "96cfe6bf30e661f674950cd8dbd47beaeadc5b6e",
-      "version": "0.5.2",
+      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+      "version": "0.6.4",
       "components": {
         "agents": [
           {
@@ -655,7 +894,7 @@
           },
           {
             "name": "stripe-directory",
-            "description": "Use when the user wants to find businesses, software, service providers, or partners for a specific industry, workflow,…"
+            "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the document…"
           },
           {
             "name": "stripe-docs",
@@ -823,8 +1062,8 @@
       }
     },
     "vercel": {
-      "sha": "11c32588786a9d49791372657433b88d49561874",
-      "version": "0.48.0",
+      "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
+      "version": "0.48.2",
       "components": {
         "agents": [
           {
@@ -884,7 +1123,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
           },
           {
             "name": "ai-sdk",
@@ -911,6 +1150,10 @@
             "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
           },
           {
+            "name": "create-a-backend",
+            "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
           },
@@ -921,6 +1164,10 @@
           {
             "name": "eve",
             "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
+          },
+          {
+            "name": "flags-sdk",
+            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
           },
           {
             "name": "knowledge-update",
@@ -1000,7 +1247,7 @@
           },
           {
             "name": "vercel-storage",
-            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+            "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
           },
           {
             "name": "verification",
@@ -1014,8 +1261,8 @@
       }
     },
     "wix": {
-      "sha": "aaec99ac7acea93013b6a831feb58467051626a6",
-      "version": "1.16.1",
+      "sha": "572357b791a91a5138c050e08eb718b150be21cb",
+      "version": "1.18.1",
       "components": {
         "mcpServers": [
           {
@@ -1037,6 +1284,10 @@
             "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
           },
           {
+            "name": "wix-base44-connector",
+            "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
+          },
+          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
@@ -1045,16 +1296,16 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
-            "name": "wix-docs-base44",
-            "description": "Look up Wix API/SDK documentation from inside the Base44 builder sandbox, where tool results are capped and a whole doc…"
-          },
-          {
             "name": "wix-headless",
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
+            "name": "wix-headless-fast",
+            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
             "name": "wix-manage",
-            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
           },
           {
             "name": "wix-vibe-headless",
