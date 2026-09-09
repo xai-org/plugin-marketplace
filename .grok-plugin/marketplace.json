@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "domain-scan",
+      "description": "Domain security scanner by CYBERACE: SPF, DKIM, DMARC, SSL, headers, DNSSEC and blocklists via a remote HTTPS MCP server, with no local executable code.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnriqueITE/domainscan-mcp-grok-plugin.git",
+        "sha": "6736190ed06e0b02da6412dc422009c3d557fa2d"
+      },
+      "homepage": "https://domainscan.tools",
+      "keywords": ["domain-scan", "domainscan", "Domain Scan by CYBERACE", "CYBERACE Domain Scan"],
+      "domains": ["domainscan.tools", "api.domainscan.tools"]
     }
   ]
 }
