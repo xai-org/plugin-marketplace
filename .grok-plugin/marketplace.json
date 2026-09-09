@@ -314,7 +314,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ImL1s/repo-scout.git",
-        "sha": "5a475fab717a67a717177e065f23a029c1e6087d"
+        "sha": "efd0b5cf5aaaa84f47aee86daec07662c9c1aa39"
       },
       "homepage": "https://iml1s.github.io/repo-scout/",
       "version": "0.1.0",
