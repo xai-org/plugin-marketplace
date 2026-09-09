@@ -203,6 +203,24 @@
         ]
       }
     },
+    "domain-scan": {
+      "sha": "6736190ed06e0b02da6412dc422009c3d557fa2d",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "domain-scan",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "domain-scan",
+            "description": "Use when the user wants to check a domain's security posture: SPF, DKIM, DMARC, SSL/TLS expiry, HTTPS/HSTS/CSP, DNSSEC,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
