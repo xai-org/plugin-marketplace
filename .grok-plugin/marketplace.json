@@ -306,6 +306,27 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "yaps-meeting-transcription",
+      "description": "Turn recordings into speaker-labelled meeting notes, recaps, chapters, and grounded answers with the local Yaps engine.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richawo/yaps-plugins.git",
+        "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+        "path": "grok/plugins/yaps-meeting-transcription"
+      },
+      "homepage": "https://yaps.ai",
+      "keywords": [
+        "yaps meeting notes",
+        "yaps meeting transcription",
+        "yaps diarization",
+        "yaps interviews"
+      ],
+      "domains": [
+        "yaps.ai"
+      ]
     }
   ]
 }

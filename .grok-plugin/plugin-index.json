@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-meeting-transcription": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-meeting-transcription",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-meeting-transcription",
+            "description": "Create and review speaker-labelled meeting notes through the existing local Yaps MCP tools. Use for meeting or intervie…"
+          }
+        ]
+      }
     }
   }
 }
