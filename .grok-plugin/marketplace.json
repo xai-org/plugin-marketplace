@@ -319,6 +319,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "iajus",
+      "description": "Brazilian legal research through the hosted IAJUS MCP server. Search case law, qualified and binding precedents, and federal, state, and municipal legislation, with citations and official-source links when available.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rafaelob/iajus-plugin-public.git",
+        "sha": "97c322773a5b8a0b31c5bb5bc2bf68db76c3975b",
+        "path": "plugins/iajus-juris"
+      },
+      "homepage": "https://iajus.com.br",
+      "keywords": ["iajus", "iajus legal research", "iajus jurisprudencia", "iajus legislacao"],
+      "domains": ["iajus.com.br", "mcp.iajus.com.br"]
     }
   ]
 }
