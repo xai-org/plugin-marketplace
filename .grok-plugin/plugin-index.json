@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-video-clipping": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-video-clipping",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-video-clipping",
+            "description": "Remove dead air and long pauses from a local video with Yaps Auto Cut, review or tune the cut plan, and export a separa…"
+          }
+        ]
+      }
     }
   }
 }
