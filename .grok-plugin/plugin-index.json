@@ -562,6 +562,18 @@
         ]
       }
     },
+    "piggywiggy": {
+      "sha": "a9414b1e833fc68445ef99b8f30f5346f04361e3",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "piggywiggy",
+            "description": "PiggyWiggy the Hedgefund Companion by CodyBearTV. Cipher Coast Academy education agent. Teach inversion (do not tokeniz…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {

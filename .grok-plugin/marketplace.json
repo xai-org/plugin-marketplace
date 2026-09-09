@@ -319,6 +319,20 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "piggywiggy",
+      "description": "PiggyWiggy the Hedgefund Companion by CodyBearTV. Cipher Coast Academy education agent for studio-scale liability defeasance. Character title only — not a hedge fund, not an investment adviser. Tuition SKU; SOP files are byproducts.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/contentctv/codybeartv-pack.git",
+        "sha": "a9414b1e833fc68445ef99b8f30f5346f04361e3",
+        "path": ".grok/plugins/piggywiggy"
+      },
+      "homepage": "https://github.com/contentctv/codybeartv-pack",
+      "keywords": ["piggywiggy", "codybeartv", "cipher coast academy"],
+      "domains": ["codybeartv.pw"]
     }
   ]
 }
