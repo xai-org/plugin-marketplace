@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "warmysender",
+      "description": "WarmySender for AI agents — run cold email, email warmup, LinkedIn, Instagram and WhatsApp outreach on autopilot, verify emails and tap a 200M B2B lead database. The agent never sends directly and never raises a limit: WarmySender's scheduler paces every action inside safe limits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fortuneflick/warmysender-claude-plugin.git",
+        "sha": "a6bc067975ef239b6d9a48ee3a06d184077b2c01"
+      },
+      "homepage": "https://warmysender.com/ai-agents",
+      "keywords": ["warmysender", "warmysender cold email", "warmysender warmup", "warmysender linkedin outreach", "warmysender email verification", "warmysender leads"],
+      "domains": ["warmysender.com"]
     }
   ]
 }

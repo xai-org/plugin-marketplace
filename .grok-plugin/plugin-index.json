@@ -1264,6 +1264,36 @@
         ]
       }
     },
+    "warmysender": {
+      "sha": "a6bc067975ef239b6d9a48ee3a06d184077b2c01",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "warmysender",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "campaign-doctor",
+            "description": "Diagnose why a WarmySender campaign is sending little or nothing, across email, LinkedIn and Instagram. Use when the us…"
+          },
+          {
+            "name": "cold-email-launch",
+            "description": "Build and launch a cold email campaign on WarmySender end to end — sequence copy, prospects, safe launch. Use when the…"
+          },
+          {
+            "name": "list-hygiene",
+            "description": "Verify email lists with WarmySender and turn the results into a clean prospect list. Use when the user wants to verify…"
+          },
+          {
+            "name": "warmysender",
+            "description": "Run cold email, email warmup, LinkedIn, Instagram and WhatsApp outreach, email verification and a 200M+ B2B lead databa…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "572357b791a91a5138c050e08eb718b150be21cb",
       "version": "1.18.1",
