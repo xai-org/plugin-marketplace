@@ -319,6 +319,18 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "premium-flight-architect",
+      "description": "Find and compare complete Business and First Class trips using cash, points, miles, or mixed funding, with explicit pricing, eligibility, verification, and transfer-safety gates.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/67h59tn7pw-max/-premium-flight-architect.git",
+        "sha": "9970563e645027cff3e2bfb87d21a5b78ede88ab"
+      },
+      "homepage": "https://github.com/67h59tn7pw-max/-premium-flight-architect",
+      "keywords": ["premium flight architect", "premium award travel architect"]
     }
   ]
 }
