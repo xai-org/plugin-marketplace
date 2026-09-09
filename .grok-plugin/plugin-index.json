@@ -1286,6 +1286,24 @@
         ]
       }
     },
+    "web-search-plus": {
+      "sha": "01fa793b9fa561244c904c283c0d1b32e6309413",
+      "version": "4.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "web-search-plus",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "web-search-plus",
+            "description": "Use the Web Search Plus MCP tools (web_search, web_extract) for source-backed web research: current events, prices, rel…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "572357b791a91a5138c050e08eb718b150be21cb",
       "version": "1.18.1",
