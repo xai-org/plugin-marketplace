@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-auto-captions": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-auto-captions",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-auto-captions",
+            "description": "Add styled, timed captions to a local video with Yaps and export a new captioned MP4. Use for animated captions, word h…"
+          }
+        ]
+      }
     }
   }
 }
