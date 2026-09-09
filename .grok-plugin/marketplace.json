@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "sumble",
+      "description": "Sumble's official MCP server and GTM skills. Research accounts and buying committees, track hiring and technology signals, and score, clean, and plan territories against your CRM. Sign in with your Sumble account on first connection; no API key to paste.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SumbleData/agents.git",
+        "sha": "f11dae97d105cc63df21a1e54dc93be65f5da056"
+      },
+      "homepage": "https://sumble.com",
+      "keywords": ["sumble", "sumble mcp", "sumble api", "sumble signals"],
+      "domains": ["sumble.com", "mcp.sumble.com", "api.sumble.com", "docs.sumble.com"]
     }
   ]
 }

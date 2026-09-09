@@ -889,6 +889,47 @@
         ]
       }
     },
+    "sumble": {
+      "sha": "f11dae97d105cc63df21a1e54dc93be65f5da056",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sumble",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sumble-account-research",
+            "description": "Research and prospect accounts using Sumble's MCP and other context auto-pulled from live connectors. Opens with a sing…"
+          },
+          {
+            "name": "sumble-account-scoring",
+            "description": "Build an account-scoring AND/OR whitespace web app powered by Sumble data and optional first-party data. One skill, thr…"
+          },
+          {
+            "name": "sumble-crm-cleaning",
+            "description": "Build a CRM-cleaning review web app powered by Sumble data. Finds (1) potential duplicate accounts — CRM accounts that…"
+          },
+          {
+            "name": "sumble-direct-mail-audience",
+            "description": "Install and launch the supplied Marimo app for building direct-mail audiences near company offices. Use when a user wan…"
+          },
+          {
+            "name": "sumble-mcp",
+            "description": "Use Sumble MCP for account research, prospecting, people/job/technology searches, organization/contact list workflows,…"
+          },
+          {
+            "name": "sumble-people-scoring",
+            "description": "Build a people-scoring web app powered by Sumble data and optional first-party data. Interviews the user about their IC…"
+          },
+          {
+            "name": "sumble-territory-planning",
+            "description": "Companion to sumble-account-scoring: plan and rebalance sales territories. Interviews the user about their segments (de…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
       "version": "0.1.15",
