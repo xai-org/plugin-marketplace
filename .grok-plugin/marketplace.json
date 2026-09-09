@@ -314,10 +314,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ImL1s/repo-scout.git",
-        "sha": "2c4d334855eae36e49cba26bc8f7559b387dffb3"
+        "sha": "a93f3f6183280ae0c49df41ccd5aa89fa9933981"
       },
       "homepage": "https://iml1s.github.io/repo-scout/",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "ImL1s"
       },
