@@ -803,6 +803,23 @@
         ]
       }
     },
+    "recipebee": {
+      "sha": "cb6b8566e53e746a8cd449478df32eb9838d305c",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "recipebee",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "save-generated-recipe",
+            "description": "Understand ordinary-language requests to preview recipes, privately save recipes, or add complete meal plans to RecipeB…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
