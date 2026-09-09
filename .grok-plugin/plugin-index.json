@@ -1339,6 +1339,24 @@
           }
         ]
       }
+    },
+    "yaps-text-to-speech": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-text-to-speech",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-text-to-speech",
+            "description": "Read text or a text file aloud as a local WAV through the existing Yaps MCP speech tools. Use for text-to-speech, narra…"
+          }
+        ]
+      }
     }
   }
 }
