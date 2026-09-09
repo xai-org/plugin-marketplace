@@ -1339,6 +1339,24 @@
           }
         ]
       }
+    },
+    "yaps-video-to-audio": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-video-to-audio",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-video-to-audio",
+            "description": "Extract a local video's soundtrack to MP3, WAV, or M4A with Yaps. Use for video-to-MP3 and audio-only copies. Do not us…"
+          }
+        ]
+      }
     }
   }
 }
