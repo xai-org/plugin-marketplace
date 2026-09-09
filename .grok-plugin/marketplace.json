@@ -306,6 +306,27 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "yaps-transcription",
+      "description": "Transcribe local audio and video files into plain text with Yaps. Private speech-to-text for podcasts, interviews, recordings, and voice memos.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richawo/yaps-plugins.git",
+        "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+        "path": "grok/plugins/yaps-transcription"
+      },
+      "homepage": "https://yaps.ai",
+      "keywords": [
+        "yaps transcription",
+        "yaps audio to text",
+        "yaps video to text",
+        "yaps speech to text"
+      ],
+      "domains": [
+        "yaps.ai"
+      ]
     }
   ]
 }
