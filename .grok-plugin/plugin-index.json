@@ -361,6 +361,32 @@
         ]
       }
     },
+    "inspify-ai": {
+      "sha": "ed2975404b4fb44575f101a3b43120f3cab22ae9",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "inspify-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "inspify-creative-agency-mcp",
+            "description": "Use to start or poll INSPIFY AI Creative Agency Story jobs via MCP. Pair with inspify-security-deny first. Only the all…"
+          },
+          {
+            "name": "inspify-security-deny",
+            "description": "Use before any INSPIFY MCP or plugin action. Deny-by-default: no host shell, no cloud admin keys, no destructive disk o…"
+          },
+          {
+            "name": "inspify-story-workflow",
+            "description": "Use to take an INSPIFY AI Creative Agency Story job from brief to published. Describes the ordered tool calls an agent…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

@@ -306,6 +306,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "inspify-ai",
+      "description": "INSPIFY AI Creative Agency — start Story jobs, answer research questions, select creative directions, review the rendered work, submit feedback, publish, and deep-link to the Hub via MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/inspify-ai/mcp.git",
+        "sha": "ed2975404b4fb44575f101a3b43120f3cab22ae9"
+      },
+      "homepage": "https://app.inspify.ai",
+      "keywords": ["inspify", "inspify ai", "creative agency", "story jobs", "brand dna"],
+      "domains": ["inspify.ai", "app.inspify.ai", "mcp.inspify.ai"]
     }
   ]
 }
