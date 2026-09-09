@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/contracko/contracko-skills.git",
-        "sha": "6e2c06343f255f6bd304a0fad7c1bddb65c3b5a8"
+        "sha": "8a6c10f8233544d2143921a57c1d115896f8bb1f"
       },
       "homepage": "https://contracko.com/mcp/contract-management",
       "keywords": ["contracko"],
