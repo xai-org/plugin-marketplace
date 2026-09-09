@@ -89,6 +89,41 @@
         ]
       }
     },
+    "buildfeed": {
+      "sha": "b5ee77792d3d73d904c3e4250abc525925f7f4fe",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "buildfeed",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "answer-question"
+          },
+          {
+            "name": "buildfeed"
+          },
+          {
+            "name": "design-field-guide"
+          },
+          {
+            "name": "go-deeper"
+          },
+          {
+            "name": "product-field-guide"
+          },
+          {
+            "name": "startups-field-guide"
+          },
+          {
+            "name": "weekly-digest"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
