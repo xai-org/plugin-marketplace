@@ -319,6 +319,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "courtsapp",
+      "description": "Find and book racquet sport courts - pickleball, tennis, padel, badminton, racquetball, squash, and table tennis. Search live availability nearby and get a booking link with pricing via CourtsApp's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/courtsapp/courtsapp-grok-plugin.git",
+        "sha": "df38dede5b25fbfaaf2a131ebb07c3e04962dacf"
+      },
+      "homepage": "https://courtsapp.com",
+      "keywords": ["courtsapp", "courtsapp booking", "courtsapp courts"],
+      "domains": ["courtsapp.com", "www.courtsapp.com", "api.courtsapp.com"]
     }
   ]
 }

@@ -203,6 +203,18 @@
         ]
       }
     },
+    "courtsapp": {
+      "sha": "df38dede5b25fbfaaf2a131ebb07c3e04962dacf",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "courtsapp",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
