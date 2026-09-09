@@ -1003,6 +1003,17 @@
         ]
       }
     },
+    "taaft": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taaft",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
