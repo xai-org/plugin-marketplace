@@ -358,8 +358,8 @@
       }
     },
     "godmode": {
-      "sha": "cbca7bdce4c480fa8b8766e36b8ab171504bd3d6",
-      "version": "0.3.20",
+      "sha": "f22ae722e9beed2b34761fa3c41b2d243a4fd2c5",
+      "version": "0.3.21",
       "components": {
         "hooks": [
           {
