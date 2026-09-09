@@ -90,8 +90,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
-      "version": "1.8.0",
+      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
+      "version": "1.9.0",
       "components": {
         "mcpServers": [
           {
@@ -111,6 +111,10 @@
           {
             "name": "chrome-devtools-cli",
             "description": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome De…"
+          },
+          {
+            "name": "cookie-debugging",
+            "description": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cook…"
           },
           {
             "name": "debug-optimize-lcp",
@@ -224,8 +228,8 @@
       }
     },
     "figma": {
-      "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
-      "version": "2.2.96",
+      "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
+      "version": "2.2.108",
       "components": {
         "mcpServers": [
           {
@@ -259,8 +263,16 @@
             "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
           },
           {
+            "name": "figma-generative-plugins",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. U…"
+          },
+          {
             "name": "figma-implement-motion",
             "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-shaders",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
           },
           {
             "name": "figma-swiftui",
@@ -286,8 +298,8 @@
       }
     },
     "firecrawl": {
-      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
-      "version": "1.1.0",
+      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "version": "1.2.0",
       "components": {
         "commands": [
           {
@@ -313,6 +325,10 @@
           {
             "name": "firecrawl-crawl",
             "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-developer-search",
+            "description": "Search an index built for coding agents — GitHub issues, merged pull requests, repository READMEs, and curated document…"
           },
           {
             "name": "firecrawl-download",
@@ -346,8 +362,8 @@
       }
     },
     "mongodb": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -388,8 +404,8 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -451,8 +467,8 @@
       }
     },
     "netlify": {
-      "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
-      "version": "1.3.0",
+      "sha": "b79c1e58e82ecb319f1f213727f65ea10a5a69a5",
+      "version": "1.3.1",
       "components": {
         "mcpServers": [
           {
@@ -635,7 +651,7 @@
       }
     },
     "pstack": {
-      "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+      "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
         "agents": [
           {
@@ -648,6 +664,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "Make Bot UI",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
+          },
           {
             "name": "Poteto Mode",
             "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
@@ -695,6 +715,10 @@
           {
             "name": "no-comments",
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
+          },
+          {
+            "name": "principle-attack-the-premise",
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -774,7 +798,11 @@
           },
           {
             "name": "principle-subtract-before-you-add",
-            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead weight, redundant validators, and stub references…"
+            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead code, redundant validators, and stub references fi…"
+          },
+          {
+            "name": "principle-test-behavior-not-implementation",
+            "description": "Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe aga…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -827,9 +855,21 @@
         ]
       }
     },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
-      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
-      "version": "1.3.7",
+      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+      "version": "1.4.0",
       "components": {
         "hooks": [
           {
@@ -846,14 +886,14 @@
         "skills": [
           {
             "name": "use-railway",
-            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services, datab…"
           }
         ]
       }
     },
     "sentry": {
-      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
-      "version": "1.3.2",
+      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
@@ -898,8 +938,8 @@
       }
     },
     "stripe": {
-      "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
-      "version": "0.6.0",
+      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+      "version": "0.6.4",
       "components": {
         "agents": [
           {
@@ -942,7 +982,7 @@
           },
           {
             "name": "stripe-directory",
-            "description": "Finds trusted external providers, merchants, nonprofits, platforms, APIs, and software services that can help complete…"
+            "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the document…"
           },
           {
             "name": "stripe-docs",
@@ -955,6 +995,28 @@
           {
             "name": "upgrade-stripe",
             "description": "Guide for upgrading Stripe API versions and SDKs"
+          }
+        ]
+      }
+    },
+    "supabase": {
+      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
+      "version": "0.1.15",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "supabase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "supabase",
+            "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Stor…"
+          },
+          {
+            "name": "supabase-postgres-best-practices",
+            "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changi…"
           }
         ]
       }
@@ -1110,8 +1172,8 @@
       }
     },
     "vercel": {
-      "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
-      "version": "0.48.1",
+      "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca",
+      "version": "0.49.0",
       "components": {
         "agents": [
           {
@@ -1151,6 +1213,10 @@
         ],
         "hooks": [
           {
+            "name": "PostToolUse",
+            "description": "Skill"
+          },
+          {
             "name": "SessionEnd"
           },
           {
@@ -1171,7 +1237,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
           },
           {
             "name": "ai-sdk",
@@ -1212,6 +1278,10 @@
           {
             "name": "eve",
             "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
+          },
+          {
+            "name": "flags-sdk",
+            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
           },
           {
             "name": "knowledge-update",
@@ -1291,7 +1361,7 @@
           },
           {
             "name": "vercel-storage",
-            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+            "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
           },
           {
             "name": "verification",
@@ -1305,8 +1375,8 @@
       }
     },
     "wix": {
-      "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
-      "version": "1.17.0",
+      "sha": "572357b791a91a5138c050e08eb718b150be21cb",
+      "version": "1.18.1",
       "components": {
         "mcpServers": [
           {
@@ -1329,7 +1399,7 @@
           },
           {
             "name": "wix-base44-connector",
-            "description": "Build on Wix from the Base44 builder sandbox — this file is the complete guide (site context, doc discovery, API contra…"
+            "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
             "name": "wix-design-system",
@@ -1344,8 +1414,12 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
+            "name": "wix-headless-fast",
+            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
             "name": "wix-manage",
-            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
           },
           {
             "name": "wix-vibe-headless",
