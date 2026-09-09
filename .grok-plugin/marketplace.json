@@ -319,6 +319,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "arrowmem",
+      "description": "Check whether your self-hosted Ollama server is reachable from outside your machine, and get the complete fix. Also exposes ArrowMem's privacy and security architecture, the ArrowBridge local-model explainer, and the open Data Dignity Standard.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ArrowMem/arrowmem-grok-plugin.git",
+        "sha": "51f91418361026290f4f51c14d1a4b5bf4a5ac7d"
+      },
+      "homepage": "https://arrowmem.ca",
+      "keywords": ["ollama", "self-hosted", "security", "mcp", "privacy"],
+      "domains": ["arrowmem.ca", "mcp.arrowmem.ca"]
     }
   ]
 }

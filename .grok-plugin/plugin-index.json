@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "arrowmem": {
+      "sha": "51f91418361026290f4f51c14d1a4b5bf4a5ac7d",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "arrowmem",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
