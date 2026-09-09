@@ -306,6 +306,28 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "portable-resume",
+      "description": "Portable Resume: offline, inert context migration across coding agents. Reads another agent's local session store (Claude Code, Codex, Cursor, Gemini CLI, Grok, Kimi, OpenCode, OpenHands and more), builds a redacted handoff so the current agent can resume the work, and never modifies the source store, calls the network or runs project code.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImL1s/portable-resume-marketplace.git",
+        "sha": "c07b97ca5f95705d7af33f4a8fd95d7738ed6cdd",
+        "path": "plugins/grok/portable-resume"
+      },
+      "homepage": "https://iml1s.github.io/resume-skills/",
+      "version": "0.4.4",
+      "author": {
+        "name": "ImL1s"
+      },
+      "keywords": [
+        "portable resume",
+        "portable-resume",
+        "resume-skills",
+        "context migration"
+      ]
     }
   ]
 }
