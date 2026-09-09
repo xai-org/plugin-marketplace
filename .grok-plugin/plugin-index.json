@@ -782,8 +782,8 @@
       }
     },
     "repo-scout": {
-      "sha": "efd0b5cf5aaaa84f47aee86daec07662c9c1aa39",
-      "version": "0.1.0",
+      "sha": "2c4d334855eae36e49cba26bc8f7559b387dffb3",
+      "version": "0.1.1",
       "components": {
         "skills": [
           {
