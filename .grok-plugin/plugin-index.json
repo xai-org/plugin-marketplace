@@ -1286,6 +1286,24 @@
         ]
       }
     },
+    "vpai": {
+      "sha": "9b4067473305dbba80be0fa9a492be39b96f455e",
+      "version": "0.1.107",
+      "components": {
+        "commands": [
+          {
+            "name": "skip_sample",
+            "description": "Skip sample-first mode for this request — fetch/enrich at full scale without a 5-entity preview"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vibe-prospecting",
+            "description": "Find company & contact data. Turn your agent into a prospecting platform. Get contact information, roles, tech stack, b…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "572357b791a91a5138c050e08eb718b150be21cb",
       "version": "1.18.1",

@@ -319,6 +319,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "vpai",
+      "description": "Vibe Prospecting by Explorium: search companies and contacts, enrich lead lists, research business signals, and export B2B data through the vpai CLI. Includes a prospecting skill and a command to skip the default sample preview.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/explorium-ai/vibeprospecting-plugin.git",
+        "sha": "9b4067473305dbba80be0fa9a492be39b96f455e"
+      },
+      "homepage": "https://vibeprospecting.ai",
+      "keywords": ["vibe prospecting", "vibeprospecting", "vpai", "explorium"],
+      "domains": ["vibeprospecting.ai", "explorium.ai"]
     }
   ]
 }
