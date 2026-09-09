@@ -781,6 +781,18 @@
         ]
       }
     },
+    "repo-scout": {
+      "sha": "a93f3f6183280ae0c49df41ccd5aa89fa9933981",
+      "version": "0.1.2",
+      "components": {
+        "skills": [
+          {
+            "name": "repo-scout",
+            "description": "Find evidence-backed engineering work in an existing repository across languages, architecture, frontend, backend, mobi…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
