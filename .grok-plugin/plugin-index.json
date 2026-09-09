@@ -1,6 +1,10 @@
 {
   "version": 1,
   "plugins": {
+    "aden-mcp": {
+      "sha": "3ebc9bfaf6e5d19de66665ea9604a59765ddb832",
+      "components": {}
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

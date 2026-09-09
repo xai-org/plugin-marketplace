@@ -319,6 +319,19 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "aden-mcp",
+      "description": "MCP plugin for aden.space, the music catalog and artist workspace. Connect Grok to tracks, sessions, releases, and team workflows via OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adenspace/aden-mcp.git",
+        "sha": "3ebc9bfaf6e5d19de66665ea9604a59765ddb832"
+      },
+      "homepage": "https://www.aden.space",
+      "keywords": ["aden", "aden.space", "aden mcp"],
+      "domains": ["aden.space", "mcp.aden.space"]
     }
   ]
 }
