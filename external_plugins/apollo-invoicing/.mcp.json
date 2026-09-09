@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "apollo-invoicing": {
+      "type": "http",
+      "url": "https://eu.spaceinvoices.com/mcp/r/wlr_156199db8087faa6901fdb63ed664604"
+    }
+  }
+}

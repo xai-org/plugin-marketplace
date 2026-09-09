@@ -306,6 +306,23 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "apollo-invoicing",
+      "description": "Find Apollo customers, review invoices, and create drafts with entity-scoped OAuth access.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/apollo-invoicing"
+      },
+      "homepage": "https://getapollo.io/global/en/",
+      "keywords": [
+        "apollo invoicing",
+        "getapollo"
+      ],
+      "domains": [
+        "getapollo.io"
+      ]
     }
   ]
 }
