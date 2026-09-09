@@ -383,6 +383,18 @@
         ]
       }
     },
+    "grok-bot-control": {
+      "sha": "b6830b471fac1cab0eb294f30aabe3f297ee0d01",
+      "version": "0.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "grok-bot-control",
+            "description": "Coordinate with an authorized Grok Bot conversation through host UI tools or an optional pinned CLI adapter, read back…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
