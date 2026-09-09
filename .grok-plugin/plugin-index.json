@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-memory": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-memory",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-memory",
+            "description": "Search, cite, and maintain the user's private local Yaps Markdown vault across tasks. Use for remembered facts, project…"
+          }
+        ]
+      }
     }
   }
 }

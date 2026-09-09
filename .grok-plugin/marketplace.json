@@ -306,6 +306,28 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "yaps-memory",
+      "description": "Search, cite, and maintain your private local Yaps Markdown vault across tasks. Scoped memory and requested note edits with Yaps Agent Access controls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richawo/yaps-plugins.git",
+        "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+        "path": "grok/plugins/yaps-memory"
+      },
+      "homepage": "https://yaps.ai",
+      "keywords": [
+        "yaps memory",
+        "yaps notes",
+        "yaps knowledge base",
+        "yaps markdown vault",
+        "yaps local first"
+      ],
+      "domains": [
+        "yaps.ai"
+      ]
     }
   ]
 }
