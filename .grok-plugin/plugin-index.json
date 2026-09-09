@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-audio-cleaner": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-audio-cleaner",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-audio-cleaner",
+            "description": "Remove noise, hiss, and static from an existing speech recording with Yaps Audio Cleaner. Use for voice, podcast, and i…"
+          }
+        ]
+      }
     }
   }
 }
