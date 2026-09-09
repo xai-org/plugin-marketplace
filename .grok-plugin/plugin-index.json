@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "apollo-invoicing": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "apollo-invoicing",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

@@ -1,0 +1,16 @@
+{
+  "name": "apollo-invoicing",
+  "version": "1.0.0",
+  "description": "Find Apollo customers, review invoices, and create drafts with entity-scoped OAuth access.",
+  "author": {
+    "name": "Studio 404 d.o.o.",
+    "url": "https://getapollo.io"
+  },
+  "homepage": "https://getapollo.io/global/en/",
+  "license": "MIT",
+  "keywords": [
+    "apollo invoicing",
+    "getapollo"
+  ],
+  "logo": "assets/logo.svg"
+}
