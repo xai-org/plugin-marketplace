@@ -1317,6 +1317,24 @@
           }
         ]
       }
+    },
+    "yaps-dictation": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-dictation",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-dictation",
+            "description": "Check Yaps voice dictation readiness or recover a recent dictation through the existing local Yaps MCP tools. Use for v…"
+          }
+        ]
+      }
     }
   }
 }

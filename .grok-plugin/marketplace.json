@@ -306,6 +306,26 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "yaps-dictation",
+      "description": "Check voice typing readiness and recover recent dictations with local Yaps. Uses your existing dictation models and desktop shortcuts.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richawo/yaps-plugins.git",
+        "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+        "path": "grok/plugins/yaps-dictation"
+      },
+      "homepage": "https://yaps.ai",
+      "keywords": [
+        "yaps dictation",
+        "yaps voice typing",
+        "yaps speech to text"
+      ],
+      "domains": [
+        "yaps.ai"
+      ]
     }
   ]
 }
