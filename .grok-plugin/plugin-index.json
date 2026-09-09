@@ -1339,6 +1339,24 @@
           }
         ]
       }
+    },
+    "yaps-background-removal": {
+      "sha": "84b97889aa96ab3aef57b0a36bf6150dce9babbe",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps-background-removal",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yaps-background-removal",
+            "description": "Remove an image background with Yaps and export a transparent PNG or a cutout on a solid colour. Use for subject cutout…"
+          }
+        ]
+      }
     }
   }
 }
