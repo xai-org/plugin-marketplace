@@ -331,6 +331,20 @@
       "homepage": "https://www.omneky.com",
       "keywords": ["omneky", "omneky ads", "omneky mcp"],
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "aave",
+      "description": "Official Aave plugin: the Aave MCP server plus skills. Read live V3 and V4 markets, reserve rates and risk parameters, inspect wallet positions and health factor, follow DAO governance, and prepare unsigned non-custodial transactions for the user's own wallet to sign.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aave/skills.git",
+        "sha": "82746bccf7fd71e8bc8b7cf15dbf26c480c6800e",
+        "path": "plugins/mcp"
+      },
+      "homepage": "https://aave.com/docs/mcp",
+      "keywords": ["aave", "aave v4", "aave mcp", "gho", "aave governance"],
+      "domains": ["aave.com", "app.aave.com", "mcp.aave.com"]
     }
   ]
 }
