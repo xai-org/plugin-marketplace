@@ -321,6 +321,19 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "aidelly",
+      "description": "Create, schedule, approve, and analyze social media content across 11 connected networks through Aidelly's hosted MCP server.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aidelly/claude-plugin.git",
+        "sha": "3456d8ab7d2af57bf4096de7580c1168401e37d5"
+      },
+      "homepage": "https://aidelly.ai",
+      "keywords": ["aidelly", "social media", "content marketing", "scheduling", "analytics", "approvals"],
+      "domains": ["aidelly.ai", "app.aidelly.ai"]
+    },
+    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
