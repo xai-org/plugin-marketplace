@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "aca": {
+      "sha": "7033d9d4541fc410d6fbc9b9582cdb7b1de457bc",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aca",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aca-contact-research",
+            "description": "Research and summarize contacts in the user's connected ACA workspace. Use when the user asks to find contacts, identif…"
+          },
+          {
+            "name": "aca-reply-triage",
+            "description": "Triage and summarize customer or prospect conversations in the user's connected ACA workspace. Use when the user asks t…"
+          },
+          {
+            "name": "aca-sequence-review",
+            "description": "Review outreach sequence summaries in the user's connected ACA workspace. Use when the user asks what campaigns or sequ…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
