@@ -334,12 +334,12 @@
     },
     {
       "name": "sdp",
-      "description": "Official SDP plugin. Build websites with Latte components and administer product, listing, and custom-order catalogs through hosted MCP. Authenticate with OAuth; never invent catalog ids.",
+      "description": "Official SDP Platform plugin. Build websites with Latte components and administer product, listing, course, and custom-order catalogs through hosted MCP. Authenticate with OAuth; never invent catalog ids.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/sharasolns/sdp-plugins.git",
-        "sha": "b6d568badab2a06cbc2515c848b1376fe3bb1a71"
+        "sha": "f703259ddc89b3869b881ba636576e5f5cafa8f6"
       },
       "homepage": "https://github.com/sharasolns/sdp-plugins",
       "keywords": ["sdp", "sdp-platform", "sdp website builder", "sdp listings"],
