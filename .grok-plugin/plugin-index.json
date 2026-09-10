@@ -384,8 +384,8 @@
       }
     },
     "godmode": {
-      "sha": "250508b7af01b229323cc5fe1f4550e470bafc85",
-      "version": "0.3.22",
+      "sha": "47bb79a30ee4c00ccba83c1e8fc6af4fc615491e",
+      "version": "0.3.24",
       "components": {
         "hooks": [
           {
@@ -422,7 +422,7 @@
           },
           {
             "name": "godmode-code-of-law",
-            "description": "Use at the start of every session and before every new task - read GODMODE-CODE-OF-LAW.md at the project root, the proj…"
+            "description": "Use at the start of every session and before every new task - read GODMODE-CODE-OF-LAW.md at the project root when it e…"
           },
           {
             "name": "godmode-continuity",
