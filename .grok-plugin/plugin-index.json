@@ -261,6 +261,47 @@
         ]
       }
     },
+    "expodesk": {
+      "sha": "2fdf6d63690ce97294e1a65b5584560842994700",
+      "components": {
+        "agents": [
+          {
+            "name": "expodesk-booth",
+            "description": "Booth-side Expodesk operator — queue the follow-up queue, brief leads, log touches after you send them outside Expodesk"
+          }
+        ],
+        "commands": [
+          {
+            "name": "expodesk-brief",
+            "description": "Pull the full Expodesk brief for a named lead and suggest the next touch"
+          },
+          {
+            "name": "expodesk-due",
+            "description": "List Expodesk follow-ups due for the active (or named) show"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "expodesk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "expodesk-booth-followups",
+            "description": "Use when clearing Expodesk follow-ups after a trade show — due queue, lead briefs, logging touches on email/WhatsApp/Te…"
+          },
+          {
+            "name": "expodesk-lead-export",
+            "description": "Use when exporting Expodesk leads to CRM/CSV for one event, respecting consent and pagination"
+          },
+          {
+            "name": "expodesk-leads",
+            "description": "Use when working with Expodesk trade-show leads, events, or follow-ups — listing shows, scanning leads, drafting or log…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
       "version": "2.2.108",

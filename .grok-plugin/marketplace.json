@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "expodesk",
+      "description": "Trade-show lead capture for exhibitors — events, leads, follow-ups via Expodesk MCP",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ryantenor2/expodesk-grok-plugin.git",
+        "sha": "2fdf6d63690ce97294e1a65b5584560842994700"
+      },
+      "homepage": "https://expodesk.app",
+      "keywords": ["expodesk", "expodesk.app"],
+      "domains": ["expodesk.app", "app.expodesk.app", "www.expodesk.app"]
     }
   ]
 }
