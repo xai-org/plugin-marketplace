@@ -750,10 +750,14 @@
       }
     },
     "sdp": {
-      "sha": "b5d104a80f826a5084e6018e99267bea62275a73",
-      "version": "0.1.2",
+      "sha": "b6d568badab2a06cbc2515c848b1376fe3bb1a71",
+      "version": "0.1.7",
       "components": {
         "mcpServers": [
+          {
+            "name": "sdp-courses",
+            "description": "http"
+          },
           {
             "name": "sdp-custom-forms",
             "description": "http"
@@ -772,6 +776,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "sdp-courses",
+            "description": "Administer SDP courses through Courses MCP on the themes host. Use for course types, collections, covers, videos, chapt…"
+          },
           {
             "name": "sdp-custom-forms",
             "description": "Administer SDP custom order types through Custom Forms MCP on the themes host. Use for types, fields, pricing items, de…"
