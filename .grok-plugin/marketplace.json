@@ -331,6 +331,19 @@
       "homepage": "https://www.omneky.com",
       "keywords": ["omneky", "omneky ads", "omneky mcp"],
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "aca",
+      "description": "ACA brings content-led client-acquisition context to Grok Build. Research pipeline contacts, review active outreach sequences, and triage conversations in your authorized ACA workspace through a hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Automated-Client-Acquisition/aca-grok-plugin.git",
+        "sha": "7033d9d4541fc410d6fbc9b9582cdb7b1de457bc"
+      },
+      "homepage": "https://automatedclientacquisition.com/product/integrations/mcp",
+      "keywords": ["aca", "automated client acquisition", "aca crm", "aca outreach"],
+      "domains": ["automatedclientacquisition.com", "mcp.automatedclientacquisition.com"]
     }
   ]
 }
