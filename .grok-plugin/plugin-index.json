@@ -573,6 +573,24 @@
         ]
       }
     },
+    "ordo": {
+      "sha": "e078c27da4eee317f295e42c5730762896f55102",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ordo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ordo",
+            "description": "Use when the user wants to list, start, hold, or inspect Ordo jobs, clusters, calendars, or cron on ordoscheduler.com."
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
