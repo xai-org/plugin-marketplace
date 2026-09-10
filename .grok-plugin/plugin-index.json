@@ -815,7 +815,7 @@
       }
     },
     "scout-portfolio": {
-      "sha": "0941cf224255468bc8f713e8ac20667bf4b50d59",
+      "sha": "8d24abc88482f48b564d8c7f0bba4b952251c841",
       "version": "0.5.0",
       "components": {
         "mcpServers": [
