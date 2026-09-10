@@ -96,7 +96,7 @@
         "skills": [
           {
             "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invent…"
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invento…"
           }
         ]
       }
@@ -211,6 +211,28 @@
           {
             "name": "wrangler",
             "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+          }
+        ]
+      }
+    },
+    "datadog": {
+      "sha": "083b4783095520f562534956578c8826613292a9",
+      "version": "0.7.21",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datadog-grok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datadog-app",
+            "description": "Use ONLY when the user explicitly asks to create, scaffold, or initialize a new Datadog App project — they must use act…"
+          },
+          {
+            "name": "ddconfig",
+            "description": "Configures or troubleshoots the plugin's Datadog MCP server. Use when the user wants to change the Datadog domain, swit…"
           }
         ]
       }
@@ -548,6 +570,17 @@
           {
             "name": "netlify-mcp-servers",
             "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          }
+        ]
+      }
+    },
+    "omneky": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omneky",
+            "description": "http"
           }
         ]
       }
