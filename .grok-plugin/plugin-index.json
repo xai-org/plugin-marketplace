@@ -383,6 +383,196 @@
         ]
       }
     },
+    "goodbarber": {
+      "sha": "36b5f94da835ac02722ef57ca0f40e73039c7425",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "goodbarber",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cms-article-publish",
+            "description": "Guided workflow to create a full CMS article: article item + structured body paragraphs (text, photo, quote, embed) + c…"
+          },
+          {
+            "name": "cms-article-restructure",
+            "description": "Reorganize the body of an existing CMS article: reorder paragraphs, remove empty or duplicate blocks, and fix the readi…"
+          },
+          {
+            "name": "cms-content-audit",
+            "description": "CMS content quality audit across articles, events, maps, photo galleries, videos, and sounds: detect incomplete items (…"
+          },
+          {
+            "name": "cms-draft-review",
+            "description": "Surface unfinished CMS content: drafts and never-published items across articles, events, maps, and videos, grouped by…"
+          },
+          {
+            "name": "cms-editorial-calendar",
+            "description": "Build a forward-looking CMS editorial calendar: scheduled publications (status=stock with a future publishedDate), upco…"
+          },
+          {
+            "name": "cms-event-publish",
+            "description": "Guided workflow to create a full CMS agenda event: event item (start/end datetime, category, status, scheduling, paywal…"
+          },
+          {
+            "name": "cms-gallery-builder",
+            "description": "Guided workflow to build a CMS photo gallery: batch-upload images (1–10 per batch) into a gallery section, then set eac…"
+          },
+          {
+            "name": "cms-paywall-audit",
+            "description": "In-app-purchase paywall consistency audit for CMS content: review accessTier (free/premium) and, for articles, maxFreeP…"
+          },
+          {
+            "name": "cms-place-publish",
+            "description": "Guided workflow to create a full CMS map point of interest: map item (address + latitude/longitude, category, status, s…"
+          },
+          {
+            "name": "cms-stale-content-refresh",
+            "description": "Find aging CMS articles that haven't been touched in a long time and rank them as refresh or unpublish candidates, by a…"
+          },
+          {
+            "name": "cms-weekly-digest",
+            "description": "Automated weekly CMS recap: what was published in the last 7 days across articles, events, maps, photo galleries, video…"
+          },
+          {
+            "name": "community-device-landscape",
+            "description": "Device landscape report for community apps. Builds three rankings from device analytics: platform distribution, top dev…"
+          },
+          {
+            "name": "community-push-broadcast",
+            "description": "Prepare and send a community push notification broadcast: everyone or community group(s), with drafting, scheduling, ta…"
+          },
+          {
+            "name": "community-push-targeted",
+            "description": "Prepare and send a targeted community push notification to specific users: user resolution, drafting, scheduling, platf…"
+          },
+          {
+            "name": "community-traffic-report",
+            "description": "Consolidated community app analytics: page views, launches, sessions, devices, OS distribution, weekday patterns, downl…"
+          },
+          {
+            "name": "community-weekly-digest",
+            "description": "Weekly community business digest ready to paste into Slack/Notion: traffic, launches, sessions, pushes sent (global + p…"
+          },
+          {
+            "name": "membership-device-landscape",
+            "description": "Device landscape report for membership apps. Builds three rankings from device analytics: platform distribution, top de…"
+          },
+          {
+            "name": "membership-expiration-calendar",
+            "description": "Build a day-by-day membership expiration calendar for the upcoming period (default 30 days), with urgency buckets to pr…"
+          },
+          {
+            "name": "membership-internal-subscription-grant",
+            "description": "Safe workflow to create, modify, or revoke an internal membership subscription (granted by the team, off-Stripe / off-I…"
+          },
+          {
+            "name": "membership-longest-subscribers",
+            "description": "Build a membership leaderboard with two ranked tables: (1) currently active users by longest subscription duration, (2)…"
+          },
+          {
+            "name": "membership-prospect-followup",
+            "description": "Prioritize membership prospects and update their sales notes after interaction. Read for analysis, write only note-by-n…"
+          },
+          {
+            "name": "membership-push-broadcast",
+            "description": "Prepare and send a membership push notification broadcast: drafting, scheduling, tap action, filters, dry-run, send. Th…"
+          },
+          {
+            "name": "membership-push-targeted",
+            "description": "Prepare and send a targeted membership push notification to specific users or subscription-status audiences: recipient…"
+          },
+          {
+            "name": "membership-subscription-audit",
+            "description": "Full audit of membership subscriptions: active vs expired, churn detection, at-risk customers, winback opportunities. U…"
+          },
+          {
+            "name": "membership-traffic-report",
+            "description": "Consolidated membership app analytics: page views, launches, sessions, devices, OS distribution, weekday patterns, down…"
+          },
+          {
+            "name": "membership-weekly-digest",
+            "description": "Weekly membership business digest ready to paste into Slack/Notion: active vs expired subscriptions, net subscriber del…"
+          },
+          {
+            "name": "shop-best-sellers",
+            "description": "Run a strict best-sellers workflow for a shop app using orders and catalog data, and return a fixed-format report. Use…"
+          },
+          {
+            "name": "shop-catalog-audit",
+            "description": "Shop catalog quality audit: detect incomplete products (no image, no description, no variant, no tag, no collection, mi…"
+          },
+          {
+            "name": "shop-customer-insights",
+            "description": "Analyze the customer base: top customers by revenue, purchase frequency, loyalty status, segments to re-engage. Recomme…"
+          },
+          {
+            "name": "shop-kpi-monitor",
+            "description": "KPI watchdog for shop operations: detect meaningful drops/spikes in revenue, orders, traffic, and pending-order backlog…"
+          },
+          {
+            "name": "shop-low-performers",
+            "description": "Identify the lowest-performing shop products for a selected time window (default 30 days): zero-sales first, then low q…"
+          },
+          {
+            "name": "shop-order-followup",
+            "description": "Produce the todo list of orders needing action: unshipped, incomplete shipping, awaiting tracking. Sorted by age and ur…"
+          },
+          {
+            "name": "shop-orphan-products",
+            "description": "Find orphan products (products with no assigned collection), return them in a table with direct back-office links, and…"
+          },
+          {
+            "name": "shop-product-launch",
+            "description": "Guided workflow to create a full shop product: V2 product + variants + options + media + paragraphs + PDF. Dry-run by d…"
+          },
+          {
+            "name": "shop-promo-campaign",
+            "description": "End-to-end shop promo campaign design: pick the promocode type (amount, product, collection, tag), create the code, and…"
+          },
+          {
+            "name": "shop-promo-performance-review",
+            "description": "Measure promo impact with a strict pre/during/post comparison: orders, revenue, AOV, and estimated lift. Read-only. Use…"
+          },
+          {
+            "name": "shop-prospect-nurture",
+            "description": "Analyze shop prospects (non-converted visitors), prioritize follow-ups, update sales notes. Produces a call queue sorte…"
+          },
+          {
+            "name": "shop-push-broadcast",
+            "description": "Prepare and send a shop push notification broadcast: drafting, scheduling, tap action, dry-run, send. The push is NEVER…"
+          },
+          {
+            "name": "shop-push-targeted",
+            "description": "Prepare and send a targeted shop push notification to specific customers or prospects: recipient resolution, drafting,…"
+          },
+          {
+            "name": "shop-reorder-planner",
+            "description": "Build a supplier-ready reorder queue from current stock and recent sell velocity. Prioritizes what to reorder now, soon…"
+          },
+          {
+            "name": "shop-rfm-segmentation",
+            "description": "Segment customers with an RFM model (Recency, Frequency, Monetary) and produce action-ready buckets for growth and rete…"
+          },
+          {
+            "name": "shop-stock-check",
+            "description": "Shop inventory audit: scan all products, identify stock-outs and low stock, produce a prioritized report with restockin…"
+          },
+          {
+            "name": "shop-traffic-report",
+            "description": "Consolidated shop analytics report: page views, launches, sessions, weekday patterns, downloads. Read-only. Use by defa…"
+          },
+          {
+            "name": "shop-weekly-digest",
+            "description": "Weekly shop business digest ready to paste into Slack/Notion: revenue, orders, top products, active promocodes, traffic…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
