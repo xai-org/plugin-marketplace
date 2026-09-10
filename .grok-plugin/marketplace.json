@@ -148,6 +148,19 @@
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
     },
     {
+      "name": "goodbarber",
+      "description": "Manage a GoodBarber no-code mobile app from Grok Build (hosted MCP server + 44 skills). Shop, orders, content, community, membership, push and analytics, scoped to one app via OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/goodbarber/goodbarber-skills.git",
+        "sha": "36b5f94da835ac02722ef57ca0f40e73039c7425"
+      },
+      "homepage": "https://www.goodbarber.com/mcp/",
+      "keywords": ["goodbarber", "goodbarber mcp", "goodbarber skills", "goodbarber app"],
+      "domains": ["goodbarber.com", "goodbarber.dev", "mcp.goodbarber.dev"]
+    },
+    {
       "name": "netlify",
       "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
       "category": "deployment",
