@@ -13,7 +13,7 @@ Grok opens the Context7 OAuth flow when authentication is required.
 ## Included components
 
 - Context7 hosted MCP server at `https://mcp.context7.com/mcp/oauth`
-- `context7-mcp` skill for automatic documentation lookup
+- `find-docs` skill for automatic documentation lookup
 
 This plugin intentionally includes no agents, commands, hooks, or executable scripts.
 

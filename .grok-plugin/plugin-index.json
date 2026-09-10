@@ -214,8 +214,8 @@
         ],
         "skills": [
           {
-            "name": "context7-mcp",
-            "description": "Fetches current, version-specific library documentation and code examples through the Context7 MCP server. Use whenever…"
+            "name": "find-docs",
+            "description": "Retrieves up-to-date documentation, API references, and code examples for any developer technology. Use this skill when…"
           }
         ]
       }
