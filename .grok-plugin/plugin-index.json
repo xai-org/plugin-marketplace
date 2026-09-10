@@ -573,6 +573,18 @@
         ]
       }
     },
+    "prompeteer": {
+      "sha": "2a6adb08296816192600f909f4278cc743527b72",
+      "version": "2.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prompeteer",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
