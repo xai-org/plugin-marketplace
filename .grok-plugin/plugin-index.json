@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "aave": {
+      "sha": "82746bccf7fd71e8bc8b7cf15dbf26c480c6800e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aave",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "account-activity",
+            "description": "An Aave account's history — past supplies, borrows, repays, withdrawals and collateral changes, and how net worth or he…"
+          },
+          {
+            "name": "deleverage",
+            "description": "Reduce the risk on an Aave position — \"reduce my risk\", \"unwind\", \"get my health factor up\", \"I'm close to liquidation\"…"
+          },
+          {
+            "name": "safe-transactions",
+            "description": "Prepare an Aave state change — supply, borrow, withdraw, repay, or any other prepare_* action — when asked to supply/bo…"
+          },
+          {
+            "name": "tx-confirmation",
+            "description": "Confirm what an Aave transaction did after the user signed it — \"did it go through\", \"was my supply processed\", \"check…"
+          },
+          {
+            "name": "yield-analysis",
+            "description": "Compare Aave yields and rates — best APY for an asset, rates across chains or between V3 and V4, APY history and stabil…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
