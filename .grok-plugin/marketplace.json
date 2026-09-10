@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "bland",
+      "description": "Official Bland plugin (hosted MCP server + skills + the Norm agent builder). Build, test, and run Bland voice agents from Grok Build: author conversational pathways as local files, simulate and converge them until a call passes, review real calls, run evals, query call analytics, and manage tools, personas, knowledge bases, and automations.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CINTELLILABS/bland-plugins.git",
+        "sha": "3af221d7194cf7c4fa5cef6653fd3cbdeeed7dbc"
+      },
+      "homepage": "https://bland.ai",
+      "keywords": ["bland", "bland ai", "bland voice agents", "bland pathways", "bland mcp", "norm"],
+      "domains": ["bland.ai", "app.bland.ai", "docs.bland.ai", "api.bland.ai"]
     }
   ]
 }
