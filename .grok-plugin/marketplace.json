@@ -331,6 +331,22 @@
       "homepage": "https://www.omneky.com",
       "keywords": ["omneky", "omneky ads", "omneky mcp"],
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "scout-portfolio",
+      "description": "Scout onchain portfolio research: source-linked DeFi knowledge, exposure analysis, yield scenarios and Zerion-only action plans. Fixture mode by default; optional unsigned EVM preparation cannot sign or submit trades.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gabchess/scout-onchain.git",
+        "sha": "74131d4dae5bca301ecf8d24139dcf220a0e2559"
+      },
+      "homepage": "https://github.com/gabchess/scout-onchain",
+      "keywords": [
+        "scout-portfolio",
+        "scout onchain",
+        "scout portfolio manager"
+      ]
     }
   ]
 }
