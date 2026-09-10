@@ -175,13 +175,11 @@
     },
     {
       "name": "context7",
-      "description": "Up-to-date, version-specific library documentation and code examples for coding workflows, provided through the Context7 MCP server with bundled skills, commands, and an agent.",
+      "description": "Up-to-date, version-specific library documentation and code examples for coding workflows, provided through the Context7 MCP server and an auto-triggering skill.",
       "category": "development",
       "source": {
-        "source": "url",
-        "url": "https://github.com/upstash/context7.git",
-        "sha": "ed2833d3ca840f0f33ea2fde3c97d372a2909dac",
-        "path": "plugins/claude/context7"
+        "type": "local",
+        "path": "./external_plugins/context7"
       },
       "homepage": "https://context7.com",
       "keywords": ["context7", "context 7", "use context7"],
