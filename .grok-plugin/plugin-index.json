@@ -944,6 +944,18 @@
         ]
       }
     },
+    "superme": {
+      "sha": "26a95563a45ed906c6351d2e035c03729b79b29d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "superme",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "version": "6.3.0",
