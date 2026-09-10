@@ -331,6 +331,19 @@
       "homepage": "https://www.omneky.com",
       "keywords": ["omneky", "omneky ads", "omneky mcp"],
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "upwork",
+      "description": "Official Upwork plugin for hiring and finding work through the Upwork MCP server. Includes guided workflows for job posting, freelancer hiring, proposal writing, and role-aware account and tool orchestration.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/upwork/upwork-agent-plugin.git",
+        "sha": "9dded208b24bbe6c50d17927dfc260af07f38cc5"
+      },
+      "homepage": "https://www.upwork.com/ai/mcp",
+      "keywords": ["upwork", "upwork mcp", "upwork hiring", "upwork jobs"],
+      "domains": ["upwork.com", "www.upwork.com", "mcp.upwork.com"]
     }
   ]
 }
