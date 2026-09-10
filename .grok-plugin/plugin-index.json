@@ -826,6 +826,32 @@
         ]
       }
     },
+    "scout-portfolio": {
+      "sha": "8d24abc88482f48b564d8c7f0bba4b952251c841",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scout-portfolio",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "defi-research",
+            "description": "Explains Ethereum and Solana terms, evaluates DeFi yield and exit risks, and structures trading research using Scout so…"
+          },
+          {
+            "name": "portfolio-intelligence",
+            "description": "Reviews onchain portfolios with holdings, PnL, concentration, stress scenarios, DeFi risk, yield decomposition, and Zer…"
+          },
+          {
+            "name": "watch",
+            "description": "Builds one on-demand Scout portfolio report from a shared wallet observation"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
