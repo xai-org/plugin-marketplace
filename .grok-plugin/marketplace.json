@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "discolike",
+      "description": "DiscoLike company search for agents. Find target accounts, firmographics, technographics, and decision-maker contacts across 80M+ business websites via the DiscoLike MCP server, CLI, or Python SDK.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Discolike/discolike-skills.git",
+        "sha": "0b7aa7058f8be6f4b4d8e83fe1fe74897a9bb420"
+      },
+      "homepage": "https://discolike.com/mcp/",
+      "keywords": ["discolike"],
+      "domains": ["discolike.com"]
     }
   ]
 }

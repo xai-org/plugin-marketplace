@@ -237,6 +237,18 @@
         ]
       }
     },
+    "discolike": {
+      "sha": "0b7aa7058f8be6f4b4d8e83fe1fe74897a9bb420",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "discolike",
+            "description": "Use when the task involves finding companies, building a target account or TAM list, lookalikes of existing customers,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
