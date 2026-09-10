@@ -383,6 +383,90 @@
         ]
       }
     },
+    "grok-bot-desks": {
+      "sha": "2a1f00093e2d99e51e3eef9224f306150f6b0553",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "application-tracker",
+            "description": "Maintains a private job-application tracker file on the installer's Grok Bot computer (role, date, status, next action)…"
+          },
+          {
+            "name": "changelog-from-commits",
+            "description": "Turns git history since the last store version into a user-facing What's New draft. Use before an App Store or Play rel…"
+          },
+          {
+            "name": "draft-outreach",
+            "description": "Drafts a cover note, LinkedIn message, or email in the user's voice from examples they paste. Use when they need first-…"
+          },
+          {
+            "name": "first-run-app-store-ship",
+            "description": "First-run for App Store Ship Desk. Use when enabling the wave-2 store-listing bot. Never submits; 2FA is a computer tak…"
+          },
+          {
+            "name": "first-run-bug-repro",
+            "description": "Walks first-run setup for Bug Repro Desk (GitHub/Linear, staging URL, test-account handoff). Use on the first chat afte…"
+          },
+          {
+            "name": "first-run-flutter-engineer",
+            "description": "Walks first-run setup for the Flutter Mobile Engineer desk (GitHub plugin, FVM, target repo). Use on the first chat aft…"
+          },
+          {
+            "name": "first-run-job-desk",
+            "description": "Walks first-run setup for Job Application Desk (master resume path, optional voice samples, private tracker). Use on th…"
+          },
+          {
+            "name": "flutter-pr-review",
+            "description": "Reviews a Flutter/Dart pull request or pasted diff for widget lifecycle, state, platform channels, tests, and analysis…"
+          },
+          {
+            "name": "flutter-test-plan",
+            "description": "Writes an FVM-first Flutter test plan (unit, widget, golden, integration) with commands the installer can run. Use when…"
+          },
+          {
+            "name": "listing-copy",
+            "description": "Drafts App Store / Play listing copy (name subtitle, description, keywords) from the current app and What's New. Use fo…"
+          },
+          {
+            "name": "match-score",
+            "description": "Scores a master resume against a parsed job description with evidence for and against each must-have. Use after parse-j…"
+          },
+          {
+            "name": "mobile-release-hygiene",
+            "description": "Checks Flutter iOS/Android release hygiene (versions, permissions, Podfile.lock vs Gradle, store-facing risk). Use befo…"
+          },
+          {
+            "name": "parse-jd",
+            "description": "Parses a job description paste or public posting URL into must-haves, nice-to-haves, keywords, and company signals with…"
+          },
+          {
+            "name": "repro-from-screenshot",
+            "description": "Turns a screenshot or screen recording into a hypothesized repro path (surface, control, data). Use when the bug is an…"
+          },
+          {
+            "name": "repro-from-ticket",
+            "description": "Turns a bug ticket (GitHub, Linear, or paste) into a reproduction attempt plan using staging and a fresh test account.…"
+          },
+          {
+            "name": "screenshot-spec",
+            "description": "Writes a screenshot and preview-spec checklist for App Store and Play listings (sizes, devices, captions). Use when pre…"
+          },
+          {
+            "name": "tailor-resume",
+            "description": "Rewrites resume bullets to a job description and shows every change. Use after match-score. Never invents titles, dates…"
+          },
+          {
+            "name": "version-bump-checklist",
+            "description": "Checklist for a Flutter app version bump (pubspec, iOS, Android) before store submit. Use when cutting a release. Never…"
+          },
+          {
+            "name": "write-repro-pack",
+            "description": "Writes a complete bug reproduction pack (steps, expected vs actual, environment, screenshots, minimal test case). Use a…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",
