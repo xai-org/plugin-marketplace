@@ -364,7 +364,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Discolike/discolike-skills.git",
-        "sha": "0b7aa7058f8be6f4b4d8e83fe1fe74897a9bb420"
+        "sha": "3dabdb0329ce740a1c00424b3d7c1263b8333135"
       },
       "homepage": "https://discolike.com/mcp/",
       "keywords": ["discolike"],

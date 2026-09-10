@@ -238,9 +238,15 @@
       }
     },
     "discolike": {
-      "sha": "0b7aa7058f8be6f4b4d8e83fe1fe74897a9bb420",
+      "sha": "3dabdb0329ce740a1c00424b3d7c1263b8333135",
       "version": "0.1.0",
       "components": {
+        "mcpServers": [
+          {
+            "name": "discolike",
+            "description": "http"
+          }
+        ],
         "skills": [
           {
             "name": "discolike",
