@@ -333,13 +333,13 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
-      "name": "sdp",
+      "name": "sdp-platform",
       "description": "Official SDP Platform plugin. Build websites with Latte components and administer product, listing, course, and custom-order catalogs through hosted MCP. Authenticate with OAuth; never invent catalog ids.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/sharasolns/sdp-plugins.git",
-        "sha": "f703259ddc89b3869b881ba636576e5f5cafa8f6"
+        "sha": "7d6f840a81dd6311e7b67012d63c3e92d95f2368"
       },
       "homepage": "https://github.com/sharasolns/sdp-plugins",
       "keywords": ["sdp", "sdp-platform", "sdp website builder", "sdp listings"],

@@ -814,8 +814,8 @@
         ]
       }
     },
-    "sdp": {
-      "sha": "f703259ddc89b3869b881ba636576e5f5cafa8f6",
+    "sdp-platform": {
+      "sha": "7d6f840a81dd6311e7b67012d63c3e92d95f2368",
       "version": "0.1.8",
       "components": {
         "mcpServers": [
