@@ -203,6 +203,36 @@
         ]
       }
     },
+    "context7": {
+      "sha": "ed2833d3ca840f0f33ea2fde3c97d372a2909dac",
+      "version": "1.0.3",
+      "components": {
+        "agents": [
+          {
+            "name": "docs-researcher",
+            "description": "Lightweight agent for fetching library documentation without cluttering your main conversation context."
+          }
+        ],
+        "commands": [
+          {
+            "name": "docs",
+            "description": "Look up documentation for any library"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "context7",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "context7-mcp",
+            "description": "This skill should be used when the user asks about libraries, frameworks, API references, or needs code examples. Activ…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

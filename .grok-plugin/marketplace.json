@@ -174,6 +174,20 @@
       "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
     },
     {
+      "name": "context7",
+      "description": "Up-to-date, version-specific library documentation and code examples for coding workflows, provided through the Context7 MCP server with bundled skills, commands, and an agent.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/upstash/context7.git",
+        "sha": "ed2833d3ca840f0f33ea2fde3c97d372a2909dac",
+        "path": "plugins/claude/context7"
+      },
+      "homepage": "https://context7.com",
+      "keywords": ["context7", "context 7", "use context7"],
+      "domains": ["context7.com"]
+    },
+    {
       "name": "figma",
       "description": "Official Figma MCP server and skills for design-to-code workflows. Read design context from Figma files, implement designs, use Code Connect, write to the canvas, and generate Figma designs from web pages.",
       "category": "development",
