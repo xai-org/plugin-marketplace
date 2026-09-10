@@ -1,0 +1,15 @@
+{
+  "name": "kling-ai-grok-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Grok Build plugin and remote MCP configuration for Kling AI",
+  "scripts": {
+    "check": "node ../../scripts/verify-host-parity.mjs",
+    "test": "node ../../scripts/verify-host-parity.mjs",
+    "verify": "node ../../scripts/verify-host-parity.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
