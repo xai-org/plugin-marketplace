@@ -8,7 +8,7 @@ Context7 supplies current, version-specific library documentation and code examp
 grok plugin install context7 --trust
 ```
 
-Grok opens the Context7 OAuth flow when authentication is required. Anonymous access is also supported with shared rate limits.
+Grok opens the Context7 OAuth flow when authentication is required.
 
 ## Included components
 
