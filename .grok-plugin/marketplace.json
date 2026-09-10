@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+        "sha": "ea3c6ffc035e12e5547dbf7e6e154564ae279664",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",

@@ -861,8 +861,8 @@
       }
     },
     "stripe": {
-      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
-      "version": "0.6.4",
+      "sha": "ea3c6ffc035e12e5547dbf7e6e154564ae279664",
+      "version": "0.6.6",
       "components": {
         "agents": [
           {
@@ -901,7 +901,7 @@
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
+            "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
           },
           {
             "name": "stripe-directory",
