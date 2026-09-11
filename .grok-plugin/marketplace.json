@@ -295,6 +295,19 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "datadog",
+      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/grok-plugin.git",
+        "sha": "083b4783095520f562534956578c8826613292a9"
+      },
+      "homepage": "https://github.com/datadog-labs/grok-plugin",
+      "keywords": ["datadog", "datadog mcp"],
+      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",
@@ -308,17 +321,54 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "bruin",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+    },
+    {
+      "name": "omneky",
+      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/omneky"
+      },
+      "homepage": "https://www.omneky.com",
+      "keywords": ["omneky", "omneky ads", "omneky mcp"],
+      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "56c61c9ee79a8df1a98822309c04847a57f56000"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
       "name": "portable-resume",
       "description": "Portable Resume: offline, inert context migration across coding agents. Reads another agent's local session store (Claude Code, Codex, Cursor, Gemini CLI, Grok, Kimi, OpenCode, OpenHands and more), builds a redacted handoff so the current agent can resume the work, and never modifies the source store, calls the network or runs project code.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/ImL1s/portable-resume-marketplace.git",
-        "sha": "c07b97ca5f95705d7af33f4a8fd95d7738ed6cdd",
+        "sha": "d1f613ca4499dd7514c04ce07dc106218bf1d670",
         "path": "plugins/grok/portable-resume"
       },
       "homepage": "https://iml1s.github.io/resume-skills/",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "author": {
         "name": "ImL1s"
       },

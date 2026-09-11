@@ -89,6 +89,18 @@
         ]
       }
     },
+    "bruin": {
+      "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invento…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
@@ -199,6 +211,28 @@
           {
             "name": "wrangler",
             "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+          }
+        ]
+      }
+    },
+    "datadog": {
+      "sha": "083b4783095520f562534956578c8826613292a9",
+      "version": "0.7.21",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datadog-grok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datadog-app",
+            "description": "Use ONLY when the user explicitly asks to create, scaffold, or initialize a new Datadog App project — they must use act…"
+          },
+          {
+            "name": "ddconfig",
+            "description": "Configures or troubleshoots the plugin's Datadog MCP server. Use when the user wants to change the Datadog domain, swit…"
           }
         ]
       }
@@ -357,6 +391,22 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "modern-web-guidance": {
+      "sha": "56c61c9ee79a8df1a98822309c04847a57f56000",
+      "version": "0.0.186",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
           }
         ]
       }
@@ -540,9 +590,20 @@
         ]
       }
     },
+    "omneky": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omneky",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "portable-resume": {
-      "sha": "c07b97ca5f95705d7af33f4a8fd95d7738ed6cdd",
-      "version": "0.4.4",
+      "sha": "d1f613ca4499dd7514c04ce07dc106218bf1d670",
+      "version": "0.4.5",
       "components": {
         "skills": [
           {
