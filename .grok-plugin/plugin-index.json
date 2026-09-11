@@ -601,6 +601,48 @@
         ]
       }
     },
+    "payhelm": {
+      "sha": "b895223e576ff77a49427940ebd4e3ef9e0816d1",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "payhelm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "advertising",
+            "description": "Use for paid media questions or actions on Google Ads, Meta/Facebook Ads, Amazon Ads, TikTok Ads, Pinterest Ads, or X A…"
+          },
+          {
+            "name": "email-marketing",
+            "description": "Use for Klaviyo or Mailchimp questions and actions through PayHelm, including campaign and flow performance, segments,…"
+          },
+          {
+            "name": "getting-started",
+            "description": "Use when a user installs or activates the PayHelm plugin, asks how to connect PayHelm, reports authentication or \"API k…"
+          },
+          {
+            "name": "sales-reporting",
+            "description": "Use for questions about sales, revenue, orders, customers, products, SKUs, brands, variants, trends, year-over-year com…"
+          },
+          {
+            "name": "shipping",
+            "description": "Use for shipping and fulfilment tasks through PayHelm, including Shippo shipments, rates, labels, tracking, address val…"
+          },
+          {
+            "name": "storefront-operations",
+            "description": "Use for platform-level store data and catalog actions through PayHelm on Shopify, BigCommerce, WooCommerce and WordPres…"
+          },
+          {
+            "name": "web-analytics-seo",
+            "description": "Use for website traffic, conversion funnel, Google Analytics 4, Google Tag Manager, Google Search Console, Google Merch…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
       "components": {
