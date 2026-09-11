@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "aso-skill",
+      "description": "Research current Apple App Store keywords, rankings, popularity, and competitor metadata through a secure hosted MCP connection.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ASO-Skill/aso-skill.git",
+        "sha": "c25656d1e2ae6a9ab5a5eb576372c2476748a037"
+      },
+      "homepage": "https://www.asoskill.com",
+      "keywords": ["aso skill", "asoskill", "asosuite"],
+      "domains": ["asoskill.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
