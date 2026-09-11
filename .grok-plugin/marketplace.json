@@ -356,6 +356,28 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "portable-resume",
+      "description": "Portable Resume: offline, inert context migration across coding agents. Reads another agent's local session store (Claude Code, Codex, Cursor, Gemini CLI, Grok, Kimi, OpenCode, OpenHands and more), builds a redacted handoff so the current agent can resume the work, and never modifies the source store, calls the network or runs project code.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ImL1s/portable-resume-marketplace.git",
+        "sha": "d1f613ca4499dd7514c04ce07dc106218bf1d670",
+        "path": "plugins/grok/portable-resume"
+      },
+      "homepage": "https://iml1s.github.io/resume-skills/",
+      "version": "0.4.5",
+      "author": {
+        "name": "ImL1s"
+      },
+      "keywords": [
+        "portable resume",
+        "portable-resume",
+        "resume-skills",
+        "context migration"
+      ]
     }
   ]
 }

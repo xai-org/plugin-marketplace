@@ -601,6 +601,82 @@
         ]
       }
     },
+    "portable-resume": {
+      "sha": "d1f613ca4499dd7514c04ce07dc106218bf1d670",
+      "version": "0.4.5",
+      "components": {
+        "skills": [
+          {
+            "name": "resume-antigravity",
+            "description": "Resume or continue the last Antigravity CLI session — pick up previous work, import inert offline handoff context into…"
+          },
+          {
+            "name": "resume-claude",
+            "description": "Resume or continue the last Claude Code session — pick up previous work, import inert offline handoff context into a fr…"
+          },
+          {
+            "name": "resume-cline",
+            "description": "Resume or continue the last Cline session — pick up previous work, import inert offline handoff context into a fresh se…"
+          },
+          {
+            "name": "resume-codex",
+            "description": "Resume or continue the last Codex CLI session — pick up previous work, import inert offline handoff context into a fres…"
+          },
+          {
+            "name": "resume-crush",
+            "description": "Resume or continue the last Crush session — pick up previous work, import inert offline handoff context into a fresh se…"
+          },
+          {
+            "name": "resume-cursor",
+            "description": "Resume or continue the last Cursor session — pick up previous work, import inert offline handoff context into a fresh s…"
+          },
+          {
+            "name": "resume-gemini",
+            "description": "Resume or continue the last Gemini CLI session — pick up previous work, import inert offline handoff context into a fre…"
+          },
+          {
+            "name": "resume-github-copilot",
+            "description": "Resume or continue the last GitHub Copilot CLI session — pick up previous work, import inert offline handoff context in…"
+          },
+          {
+            "name": "resume-goose",
+            "description": "Resume or continue the last goose session — pick up previous work, import inert offline handoff context into a fresh se…"
+          },
+          {
+            "name": "resume-grok",
+            "description": "Resume or continue the last Grok Build session — pick up previous work, import inert offline handoff context into a fre…"
+          },
+          {
+            "name": "resume-hermes",
+            "description": "Resume or continue the last Hermes Agent session — pick up previous work, import inert offline handoff context into a f…"
+          },
+          {
+            "name": "resume-kimi",
+            "description": "Resume or continue the last Kimi CLI / Kimi Code CLI session — pick up previous work, import inert offline handoff cont…"
+          },
+          {
+            "name": "resume-openclaw",
+            "description": "Resume or continue the last OpenClaw session — pick up previous work, import inert offline handoff context into a fresh…"
+          },
+          {
+            "name": "resume-opencode",
+            "description": "Resume or continue the last OpenCode session — pick up previous work, import inert offline handoff context into a fresh…"
+          },
+          {
+            "name": "resume-openhands",
+            "description": "Resume or continue the last OpenHands session — pick up previous work, import inert offline handoff context into a fres…"
+          },
+          {
+            "name": "resume-pi",
+            "description": "Resume or continue the last Pi agent session — pick up previous work, import inert offline handoff context into a fresh…"
+          },
+          {
+            "name": "resume-qwen",
+            "description": "Resume or continue the last Qwen Code session — pick up previous work, import inert offline handoff context into a fres…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "f5bdd6826fd0a0d9cbc4347134c3a74a200b9d9d",
       "components": {
