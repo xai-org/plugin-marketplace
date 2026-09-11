@@ -395,6 +395,38 @@
         ]
       }
     },
+    "gb-fix-pass": {
+      "components": {
+        "commands": [
+          {
+            "name": "gb-fix-pass",
+            "description": "Install the gb-fix-pass workflow into ~/.grok/workflows if it is not there yet, then run it on the current branch."
+          }
+        ],
+        "skills": [
+          {
+            "name": "gb-dead-and-duplicate",
+            "description": "Find the code a change orphaned and the code it reinvented, across a PR's files, using parallel subagents. Delete the d…"
+          },
+          {
+            "name": "gb-extract-or-inline",
+            "description": "Extract the hidden rules out of long functions across a PR's files using parallel subagents, and leave the rest alone.…"
+          },
+          {
+            "name": "gb-fix-comments",
+            "description": "Fix every comment and name a PR introduced, using parallel subagents. Delete comments that restate the code, put the re…"
+          },
+          {
+            "name": "gb-fix-layout",
+            "description": "Fix how a PR's code sits on the page, using parallel subagents. Fix the blank lines so related code sits together, and…"
+          },
+          {
+            "name": "gb-unification-pass",
+            "description": "Review a PR or a Linear ticket for the Grok Build Agent Host migration (the ACP adapter to the agent-host daemon). Chec…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "56c61c9ee79a8df1a98822309c04847a57f56000",
       "version": "0.0.186",

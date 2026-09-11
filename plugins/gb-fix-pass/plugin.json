@@ -1,0 +1,7 @@
+{
+  "name": "gb-fix-pass",
+  "version": "0.1.0",
+  "description": "Grok Build code-quality passes for a branch: extract hidden rules, delete dead and duplicate code, fix comments, fix layout, then review Agent Host migration work for type reuse and PR boundaries. Five skills and one workflow that fans them out one subagent per file.",
+  "author": { "name": "xAI, Grok Build" },
+  "keywords": ["grok build", "code review", "comments", "layout", "dead code", "agent host"]
+}
