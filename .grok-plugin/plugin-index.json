@@ -72,8 +72,8 @@
       }
     },
     "bland": {
-      "sha": "3af221d7194cf7c4fa5cef6653fd3cbdeeed7dbc",
-      "version": "2.0.5",
+      "sha": "9e5a326f55a21ab4c038a190d488be6672e2245c",
+      "version": "2.1.0",
       "components": {
         "agents": [
           {
@@ -155,6 +155,10 @@
             "description": "Use when a real Bland call needs reviewing or debugging — why it routed wrong, looped, dropped, hit voicemail, failed a…"
           },
           {
+            "name": "calls",
+            "description": "Use when the user wants to place a phone call with Bland, wait on or watch a call in progress, listen to it live, stop…"
+          },
+          {
             "name": "debug",
             "description": "Use when something on the Bland surface misbehaves and needs SYSTEMATIC root-cause debugging — a pathway routing wrong…"
           },
@@ -165,6 +169,10 @@
           {
             "name": "knowledge",
             "description": "Use when the user mentions knowledge bases, KBs, RAG, or mid-call retrieval — ingesting or uploading documents, FAQs, o…"
+          },
+          {
+            "name": "messaging",
+            "description": "Use when the user wants to text someone from a Bland number, run a two-way SMS conversation toward a goal (book an appo…"
           },
           {
             "name": "pathways",

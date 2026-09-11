@@ -364,7 +364,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/CINTELLILABS/bland-plugins.git",
-        "sha": "3af221d7194cf7c4fa5cef6653fd3cbdeeed7dbc"
+        "sha": "9e5a326f55a21ab4c038a190d488be6672e2245c"
       },
       "homepage": "https://bland.ai",
       "keywords": ["bland", "bland ai", "bland voice agents", "bland pathways", "bland mcp", "norm"],
