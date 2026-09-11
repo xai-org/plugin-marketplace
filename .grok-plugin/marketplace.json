@@ -321,6 +321,19 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "bruin",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+    },
+    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
@@ -333,13 +346,25 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "56c61c9ee79a8df1a98822309c04847a57f56000"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
       "name": "godmode",
       "description": "A local, tamper-evident record of what a coding agent did, what it claimed, and what was verified. Hash-chained archive, honest claim grading, and a pre-tool gate that classifies every command before it runs.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/AIimagined/Godmode.git",
-        "sha": "47bb79a30ee4c00ccba83c1e8fc6af4fc615491e"
+        "sha": "3bbd4ffb334aaaab1e6d4d51eb59e04f9d20230c"
       },
       "homepage": "https://github.com/AIimagined/Godmode",
       "keywords": ["godmode", "godmode continuity", "godmode governance"]
