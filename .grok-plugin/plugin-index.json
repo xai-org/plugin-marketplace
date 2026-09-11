@@ -215,6 +215,24 @@
         ]
       }
     },
+    "cosvoice": {
+      "sha": "85f85e1a2882e768e6721be163bb688a772b4ebd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cosvoice",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cosvoice",
+            "description": "Give your Chief of Staff (a Grok Bot or any MCP agent) a real phone number and email address through CosVoice. Use when…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
