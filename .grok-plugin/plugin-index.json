@@ -1123,8 +1123,8 @@
       }
     },
     "vercel": {
-      "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca",
-      "version": "0.49.0",
+      "sha": "df0f55213f7b8db23a3ee7f27511ed344cdb2c74",
+      "version": "0.49.1",
       "components": {
         "agents": [
           {
@@ -1232,7 +1232,7 @@
           },
           {
             "name": "flags-sdk",
-            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
+            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
           },
           {
             "name": "knowledge-update",
