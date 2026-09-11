@@ -842,6 +842,32 @@
         ]
       }
     },
+    "resell-pro": {
+      "sha": "35c0d04aff0725b50e64b05eaebbb20fee79c1de",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "resell-pro",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "compare-brands",
+            "description": "Compare tracked Vinted brands with Resell Pro. Use when the user asks to rank brands or assess observed sales, revenue,…"
+          },
+          {
+            "name": "market-trends",
+            "description": "Discover emerging Vinted trends with Resell Pro. Use when the user asks for tracked breakout keywords, brands, categori…"
+          },
+          {
+            "name": "niche-research",
+            "description": "Research a Vinted product niche with Resell Pro observed market data. Use when the user asks about demand, sold prices,…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
