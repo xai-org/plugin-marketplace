@@ -89,6 +89,18 @@
         ]
       }
     },
+    "bruin": {
+      "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invento…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
@@ -409,6 +421,22 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "modern-web-guidance": {
+      "sha": "56c61c9ee79a8df1a98822309c04847a57f56000",
+      "version": "0.0.186",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
           }
         ]
       }
