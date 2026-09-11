@@ -216,7 +216,7 @@
       }
     },
     "cosvoice": {
-      "sha": "85f85e1a2882e768e6721be163bb688a772b4ebd",
+      "sha": "047cbc6b65e854db3500885a68296c6c77069269",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
