@@ -227,6 +227,20 @@
       "domains": ["railway.com", "railway.app"]
     },
     {
+      "name": "brimble",
+      "description": "Official Brimble plugin (hosted MCP server + skill). Deploy apps and static sites, inspect build and request logs, provision databases and sandboxes, and manage domains, storage, environments, and teams on Brimble from Grok.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brimblehq/brimble-grok-plugin.git",
+        "sha": "d2a80d663ce04f4236bac0a5f5b5a179e2a5cf6b"
+      },
+      "homepage": "https://brimble.io",
+      "author": { "name": "Brimble" },
+      "keywords": ["brimble", "brimble deploy", "deploy to brimble"],
+      "domains": ["brimble.io", "app.brimble.io", "mcp.brimble.io", "paper.brimble.io"]
+    },
+    {
       "name": "stripe",
       "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
