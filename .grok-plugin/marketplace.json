@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca"
+        "sha": "df0f55213f7b8db23a3ee7f27511ed344cdb2c74"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "572357b791a91a5138c050e08eb718b150be21cb"
+        "sha": "58922ec060ee898e1b5767a30aad874981b53474"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b79c1e58e82ecb319f1f213727f65ea10a5a69a5"
+        "sha": "b4fd870cf2f1f4cc66b28ead16277e1d799b510f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96"
+        "sha": "d638a5e055e8d95e0394a94350860398cf424b74"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+        "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
+        "sha": "f5bdd6826fd0a0d9cbc4347134c3a74a200b9d9d",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -308,6 +308,19 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "datadog",
+      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/grok-plugin.git",
+        "sha": "083b4783095520f562534956578c8826613292a9"
+      },
+      "homepage": "https://github.com/datadog-labs/grok-plugin",
+      "keywords": ["datadog", "datadog mcp"],
+      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",
@@ -319,6 +332,43 @@
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
       "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "bruin",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+    },
+    {
+      "name": "omneky",
+      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/omneky"
+      },
+      "homepage": "https://www.omneky.com",
+      "keywords": ["omneky", "omneky ads", "omneky mcp"],
+      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "bfd8c8dded770f3ba07a518e28991a32df40f902"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": ["modern web", "web best practices", "web guidance"]
     }
   ]
 }
