@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "aihelp-stack",
+      "description": "Connect Grok to the AIHelp development stack (GitLab, Jenkins, ELK, DB, Apollo, ZenTao) on the company intranet. Requires VPN and ~/.aihelp-stack.env credentials.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/XiangYeee/aihelp-stack.git",
+        "sha": "4298e555ba313996db51bfe2f7315e77f3ebaa1d"
+      },
+      "homepage": "https://github.com/XiangYeee/aihelp-stack",
+      "keywords": ["aihelp", "aihelp stack", "aihelp gitlab", "aihelp jenkins"]
     }
   ]
 }
