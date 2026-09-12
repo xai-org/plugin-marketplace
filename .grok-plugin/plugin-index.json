@@ -89,6 +89,18 @@
         ]
       }
     },
+    "bruin": {
+      "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API — MetTel's REST API for tickets, invento…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
@@ -203,6 +215,28 @@
         ]
       }
     },
+    "datadog": {
+      "sha": "083b4783095520f562534956578c8826613292a9",
+      "version": "0.7.21",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datadog-grok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datadog-app",
+            "description": "Use ONLY when the user explicitly asks to create, scaffold, or initialize a new Datadog App project — they must use act…"
+          },
+          {
+            "name": "ddconfig",
+            "description": "Configures or troubleshoots the plugin's Datadog MCP server. Use when the user wants to change the Datadog domain, swit…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
@@ -228,8 +262,8 @@
       }
     },
     "figma": {
-      "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
-      "version": "2.2.108",
+      "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
+      "version": "2.2.111",
       "components": {
         "mcpServers": [
           {
@@ -357,6 +391,22 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "modern-web-guidance": {
+      "sha": "bfd8c8dded770f3ba07a518e28991a32df40f902",
+      "version": "0.0.187",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
           }
         ]
       }
@@ -519,8 +569,8 @@
       }
     },
     "netlify": {
-      "sha": "b79c1e58e82ecb319f1f213727f65ea10a5a69a5",
-      "version": "1.3.1",
+      "sha": "b4fd870cf2f1f4cc66b28ead16277e1d799b510f",
+      "version": "1.3.2",
       "components": {
         "mcpServers": [
           {
@@ -592,8 +642,19 @@
         ]
       }
     },
+    "omneky": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omneky",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
-      "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
+      "sha": "f5bdd6826fd0a0d9cbc4347134c3a74a200b9d9d",
       "components": {
         "agents": [
           {
@@ -880,8 +941,8 @@
       }
     },
     "stripe": {
-      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
-      "version": "0.6.4",
+      "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
+      "version": "0.6.7",
       "components": {
         "agents": [
           {
@@ -920,7 +981,7 @@
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
+            "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
           },
           {
             "name": "stripe-directory",
@@ -1114,8 +1175,8 @@
       }
     },
     "vercel": {
-      "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca",
-      "version": "0.49.0",
+      "sha": "df0f55213f7b8db23a3ee7f27511ed344cdb2c74",
+      "version": "0.49.1",
       "components": {
         "agents": [
           {
@@ -1223,7 +1284,7 @@
           },
           {
             "name": "flags-sdk",
-            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
+            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
           },
           {
             "name": "knowledge-update",
@@ -1317,8 +1378,8 @@
       }
     },
     "wix": {
-      "sha": "572357b791a91a5138c050e08eb718b150be21cb",
-      "version": "1.18.1",
+      "sha": "58922ec060ee898e1b5767a30aad874981b53474",
+      "version": "1.19.0",
       "components": {
         "mcpServers": [
           {
