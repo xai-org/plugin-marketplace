@@ -293,7 +293,19 @@
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
-    },
+    },,
+        {
+                "name": "buyer-engagement-sales-engine-free",
+                "description": "Free library + Fit Chat. Sales-process OS for Buyer Engagement on Grok/Claude -- learn as you go. Not an AI SDR. Not the paid engine.",
+                "category": "sales",
+                "homepage": "https://github.com/gregvanderlinde/buyer-engagement-sales-engine",
+                "keywords": ["buyer-engagement", "sales-process-os", "golden-wedge", "bese", "fit-chat", "local-first"],
+                "source": {
+                          "source": "url",
+                          "url": "https://github.com/gregvanderlinde/buyer-engagement-sales-engine.git",
+                          "sha": "d97e29b709e524bb5cb9a6e2185538ca7faf501c"
+                }
+        }
     {
       "name": "datadog",
       "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
