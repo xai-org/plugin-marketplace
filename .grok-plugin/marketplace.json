@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "mailtea",
+      "description": "Mailtea email platform integration. Send transactional email, schedule and publish newsletters, manage contacts and senders, verify sending domains, and check delivery, with skills for email design and publication websites, directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailtea-app/mailtea-agent-plugin.git",
+        "sha": "aa838631c288819924ec6b970896905d3070beac"
+      },
+      "homepage": "https://github.com/mailtea-app/mailtea-agent-plugin",
+      "keywords": ["mailtea", "mailtea email", "mailtea newsletter", "send with mailtea"],
+      "domains": ["mailtea.app", "docs.mailtea.app", "api.mailtea.app"]
     }
   ]
 }
