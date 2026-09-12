@@ -1122,6 +1122,58 @@
         ]
       }
     },
+    "usectx": {
+      "sha": "a06b75b0f4a80e3a90f67e663288476842c5edbf",
+      "version": "0.4.2",
+      "components": {
+        "hooks": [
+          {
+            "name": "beforeMCPExecution"
+          },
+          {
+            "name": "beforeSubmitPrompt"
+          },
+          {
+            "name": "sessionEnd"
+          },
+          {
+            "name": "sessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "usectx",
+            "description": "stdio"
+          },
+          {
+            "name": "usectx-remote",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "usectx-attach",
+            "description": "Attach usectx when MCP search, CLI retrieve, or a workspace bearer is missing."
+          },
+          {
+            "name": "usectx-code-graph",
+            "description": "Hop the code graph when walking callers, callees, or symbol structure instead of grepping."
+          },
+          {
+            "name": "usectx-extract",
+            "description": "Extract repository source or ingest transcripts into usectx when the index is empty or stale."
+          },
+          {
+            "name": "usectx-retrieve",
+            "description": "Lease usectx retrieve when searching settled evidence or asking what the workspace already knows."
+          },
+          {
+            "name": "usectx-session",
+            "description": "Run a usectx agent session — lease search on start, refuse without lease, hop symbols, settle ingest when the catalog a…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "df0f55213f7b8db23a3ee7f27511ed344cdb2c74",
       "version": "0.49.1",
