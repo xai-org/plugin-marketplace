@@ -395,6 +395,32 @@
         ]
       }
     },
+    "mailtea": {
+      "sha": "06cccde8b066834bca3ec4e1a269b5043116ad1e",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mailtea",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mailtea-email",
+            "description": "Send, schedule, and manage email with Mailtea from an AI agent. Use when the user wants to send a transactional email,…"
+          },
+          {
+            "name": "mailtea-email-design",
+            "description": "Design a beautiful, on-brand, deliverable email, newsletter or template in Mailtea. Use when an agent is about to build…"
+          },
+          {
+            "name": "mailtea-site-design",
+            "description": "Build and restyle a publication's public website with Mailtea from an AI agent — pages, sections, theme, and the design…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "bfd8c8dded770f3ba07a518e28991a32df40f902",
       "version": "0.0.187",
