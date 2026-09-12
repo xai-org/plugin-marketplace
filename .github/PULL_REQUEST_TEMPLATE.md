@@ -4,6 +4,7 @@ Run these locally before opening the PR — they're exactly what CI checks:
   python3 scripts/generate-plugin-index.py
   python3 scripts/validate-catalog.py
   python3 scripts/generate-plugin-index.py --check
+  python3 -m unittest discover -s scripts -p "test_*.py"
 -->
 
 ## What this PR does
