@@ -364,7 +364,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/PulseBet/pulse-verity.git",
-        "sha": "693438bda36011f69e0a931e4fdb6cad2eec8cae"
+        "sha": "95e32eed5e3b3d5568caf99ef2b75ff9372bcc7d"
       },
       "homepage": "https://thepulse.markets/developers",
       "keywords": ["pulse-verity", "pulse verity", "pulse verity index"],

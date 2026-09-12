@@ -807,8 +807,8 @@
       }
     },
     "pulse-verity": {
-      "sha": "693438bda36011f69e0a931e4fdb6cad2eec8cae",
-      "version": "1.2.4",
+      "sha": "95e32eed5e3b3d5568caf99ef2b75ff9372bcc7d",
+      "version": "1.2.5",
       "components": {
         "mcpServers": [
           {
