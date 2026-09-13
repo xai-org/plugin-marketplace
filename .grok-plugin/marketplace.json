@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "cos-link",
+      "description": "A communication protocol and reference implementation for Grok Bot Chiefs of Staff.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/logan-robbins/cos-link.git",
+        "sha": "ebba711202416bebba72098341ed35a8cecfdbfd"
+      },
+      "homepage": "https://github.com/logan-robbins/cos-link",
+      "keywords": ["cos link", "cos-link"]
     }
   ]
 }
