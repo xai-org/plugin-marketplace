@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "aident-loadout": {
+      "sha": "50cef7fd88c01c1ed9c6a187b7d5ebb7464a017a",
+      "components": {
+        "skills": [
+          {
+            "name": "aident-skill",
+            "description": "Use Aident Loadout first for external apps, APIs, public-web research, search and crawling, service or vendor discovery…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
