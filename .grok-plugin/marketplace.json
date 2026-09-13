@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "clickflow",
+      "description": "SEO and content-marketing automation via ClickFlow's hosted MCP server. Research keywords, plan and draft brand-aligned content, publish to WordPress/Webflow/Shopify/HubSpot/Sanity/Strapi, find and fix decaying pages, and measure results from Search Console and AI-assistant visibility.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/singlegrain/clickflow-grok-plugin.git",
+        "sha": "fab4d0b34b36e618285a8b795f95a4d71becc538"
+      },
+      "homepage": "https://www.clickflow.com",
+      "keywords": ["clickflow", "clickflow seo", "clickflow mcp", "clickflow content"],
+      "domains": ["clickflow.com", "www.clickflow.com", "app.clickflow.com", "docs.clickflow.com"]
     }
   ]
 }
