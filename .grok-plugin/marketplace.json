@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "1clickreport",
+      "description": "1ClickReport marketing analytics integration (MCP Server + Skills). Audit and manage Google Ads and Meta Ads campaigns, analyse GA4 and Search Console, research keywords, optimise budget across channels, and build client reports from live ad-account data.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/1clickreport/skills.git",
+        "sha": "30150420fde97d820b13d8c9e9cde5d02c0d28f0"
+      },
+      "homepage": "https://www.1clickreport.com",
+      "keywords": ["1clickreport", "1clickreport mcp", "1clickreport ads"],
+      "domains": ["1clickreport.com", "app.1clickreport.com", "mcp.1clickreport.com"]
     }
   ]
 }

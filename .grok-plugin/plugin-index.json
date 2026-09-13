@@ -1,6 +1,80 @@
 {
   "version": 1,
   "plugins": {
+    "1clickreport": {
+      "sha": "30150420fde97d820b13d8c9e9cde5d02c0d28f0",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "1clickreport",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agency-account-audit",
+            "description": "Run a comprehensive marketing account health audit across Google Ads, Meta Ads, GA4, and Search Console. Use when user…"
+          },
+          {
+            "name": "agency-budget-optimizer",
+            "description": "Optimize marketing budget allocation across Google Ads, Meta Ads, and organic channels. Use when user asks about budget…"
+          },
+          {
+            "name": "agency-client-report",
+            "description": "Generate a professional monthly or weekly client report with executive summary, key metrics, and action plan. Use when…"
+          },
+          {
+            "name": "agency-search-term-optimizer",
+            "description": "Deep search term analysis to find wasted spend and keyword opportunities in Google Ads. Use when user asks about search…"
+          },
+          {
+            "name": "agency-weekly-review",
+            "description": "Run a weekly performance review across Google Ads, Meta Ads, and GA4. Use when user asks for weekly review, Monday chec…"
+          },
+          {
+            "name": "cross-channel-budget-optimizer",
+            "description": "Optimize budget allocation across Google Ads, Meta Ads, and organic channels. Use when user asks where to spend marketi…"
+          },
+          {
+            "name": "google-ads-audit",
+            "description": "Full Google Ads account audit with scoring across 7 categories. Use when user asks to audit Google Ads, health check Go…"
+          },
+          {
+            "name": "google-ads-bidding-strategist",
+            "description": "Advise on Google Ads bidding strategy — when to use manual CPC, maximize clicks, target CPA, target ROAS, or maximize c…"
+          },
+          {
+            "name": "google-ads-campaign-builder",
+            "description": "Build a new Google Ads campaign from scratch with research-backed structure. Use when user asks to create a campaign, s…"
+          },
+          {
+            "name": "google-ads-keyword-researcher",
+            "description": "Research keywords using Google Keyword Planner for Google Ads campaigns or SEO. Use when user asks for keyword research…"
+          },
+          {
+            "name": "meta-ads-audience-strategist",
+            "description": "Plan Meta Ads audience targeting strategy for the Advantage+ era. Use when user asks about targeting, audiences, who to…"
+          },
+          {
+            "name": "meta-ads-audit",
+            "description": "Full Meta Ads account audit based on Sam Tomlinson's 75-point framework. Use when user asks to audit Meta Ads, Facebook…"
+          },
+          {
+            "name": "meta-ads-budget-allocator",
+            "description": "Optimize Meta Ads budget allocation across campaigns, ad sets, prospecting vs retargeting. Use when user asks about Met…"
+          },
+          {
+            "name": "meta-ads-creative-auditor",
+            "description": "Audit Meta Ads creative performance — detect fatigue, find winners, plan testing. Use when user asks about creative per…"
+          },
+          {
+            "name": "meta-ads-scaling-playbook",
+            "description": "Scale Meta Ads campaigns profitably — when to scale, how much, and how to avoid killing performance. Use when user asks…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
