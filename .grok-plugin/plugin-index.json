@@ -950,6 +950,42 @@
         ]
       }
     },
+    "sugra-api": {
+      "sha": "befa4551af1339a924ae1b4f2893d2a0da7d6cad",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "auth-and-quota",
+            "description": "Authenticate to Sugra over HTTPS and MCP and stay inside the daily quota. Use when setting up a client or when a call r…"
+          },
+          {
+            "name": "connect",
+            "description": "Attach a client to Sugra over HTTPS or MCP. Use when setting up Claude Desktop, Claude Code, ChatGPT, claude.ai, Cursor…"
+          },
+          {
+            "name": "cross-domain-briefing",
+            "description": "Compose one briefing from two or three Sugra directions over HTTPS or MCP. Use when a question spans Finance, Macro, En…"
+          },
+          {
+            "name": "discover-and-call",
+            "description": "Find the right Sugra operation and call it over HTTPS or MCP. Use when the path or operation_id is unknown, before gues…"
+          },
+          {
+            "name": "envelope-and-attribution",
+            "description": "Parse Sugra API payloads over HTTPS or MCP, keep source attribution, and tell observation time from request time. Use w…"
+          },
+          {
+            "name": "live-docs",
+            "description": "Find current Sugra documentation. Use when an endpoint, parameter, count, or version might be stale. Canonical docs are…"
+          },
+          {
+            "name": "using-sugra-api",
+            "description": "Work with the Sugra API over HTTPS and MCP. Use when the task needs Sugra data, a key, product directions (Finance, Mac…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
       "version": "0.1.15",
