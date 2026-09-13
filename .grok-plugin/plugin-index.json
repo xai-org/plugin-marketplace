@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "ava": {
+      "sha": "4b4b505fddf08438e88898b4f99c3d0a0ec3ffc9",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ava-lend",
+            "description": "Lend real stablecoins on Base, Arbitrum, Avalanche, BNB Chain or Monad from a coding agent, inside limits the human set…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
