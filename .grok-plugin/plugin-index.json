@@ -395,6 +395,18 @@
         ]
       }
     },
+    "helena": {
+      "sha": "29dd06b5cb25a8a7426326f901cb8687af70ce99",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "helena",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",

@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "helena",
+      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "29dd06b5cb25a8a7426326f901cb8687af70ce99"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     }
   ]
 }
