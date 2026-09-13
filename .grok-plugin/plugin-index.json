@@ -842,6 +842,24 @@
         ]
       }
     },
+    "send": {
+      "sha": "57a73d29e397f3959e4642fea15c39ce2a02984f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "send",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "creating-sites-with-send",
+            "description": "Publish work as a live, shareable page using Send. Use when someone asks for a page, dashboard, site, landing page, pro…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
