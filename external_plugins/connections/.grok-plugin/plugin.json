@@ -1,0 +1,17 @@
+{
+  "name": "connections",
+  "version": "1.0.0",
+  "description": "Connections business platform via the hosted MCP at studio.connections.icu: host and ticket events, import and search contacts, post to the Deal Flow marketplace, keep notes, to-dos and agent memory, and take payments. Sign in with a Connections account on first connect.",
+  "author": {
+    "name": "Connections Global LLC",
+    "url": "https://github.com/Lunarwerx"
+  },
+  "homepage": "https://connections.icu",
+  "license": "Proprietary",
+  "keywords": [
+    "connections",
+    "connections icu",
+    "connections mcp",
+    "deal flow"
+  ]
+}

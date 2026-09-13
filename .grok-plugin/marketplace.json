@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "connections",
+      "description": "Connections business platform: host and ticket events, import and search contacts, post to the Deal Flow marketplace, keep notes, to-dos and agent memory, and take payments, via the hosted MCP at studio.connections.icu. Sign in with a Connections account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/connections"
+      },
+      "homepage": "https://connections.icu",
+      "keywords": ["connections", "connections icu", "connections mcp", "deal flow"],
+      "domains": ["connections.icu", "studio.connections.icu", "accounts.connections.icu", "deals.connections.icu", "pass.connections.icu"]
     }
   ]
 }
