@@ -71,6 +71,132 @@
         ]
       }
     },
+    "bland": {
+      "sha": "9e5a326f55a21ab4c038a190d488be6672e2245c",
+      "version": "2.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "norm",
+            "description": "Use this agent for Norm/SuperNorm pathway work: create, edit, validate, simulate, test, commit, publish, and debug Blan…"
+          },
+          {
+            "name": "norm_judge",
+            "description": "Use this agent when a simulated or real Bland call transcript must be graded against a FIXED outcome checklist — fresh-…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "clone",
+            "description": "List Bland pathways, clone one into a local file workspace, or scaffold a brand-new one. Use when the user wants to see…"
+          },
+          {
+            "name": "commit",
+            "description": "Commit the local pathway workspace back to the Bland server as a new working version (promoting production for new path…"
+          },
+          {
+            "name": "loop",
+            "description": "Convergence loop — drive a Claude-native simulated call against a pathway, verify the expected outcomes, and keep editi…"
+          },
+          {
+            "name": "norm",
+            "description": "Activate Norm, the end-to-end Bland agent builder. Use when the user wants to create, build, edit, fix, simulate, test,…"
+          },
+          {
+            "name": "status",
+            "description": "Show the current Bland workspace state — active pathway, working version, local vs server drift, dirty files, pending w…"
+          },
+          {
+            "name": "test",
+            "description": "Test the local Bland pathway — a focused node/runtime check when a node is named, or a full agent-to-agent simulation o…"
+          },
+          {
+            "name": "validate",
+            "description": "Validate the local pathway workspace with the authoritative server compiler. Use when the user wants to check, compile,…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "bland",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analytics",
+            "description": "Use when the user asks for call metrics, stats, or reports — volume, success/completion rates, outcomes, durations, tra…"
+          },
+          {
+            "name": "api",
+            "description": "Use when the user wants to hit the Bland REST API directly — mentions a specific endpoint or /v1 path, asks to GET/POST…"
+          },
+          {
+            "name": "automations",
+            "description": "Use when the user works with Bland AUTOMATIONS — triggers, event pipelines, and their executions: 'when X happens, plac…"
+          },
+          {
+            "name": "call-review",
+            "description": "Use when a real Bland call needs reviewing or debugging — why it routed wrong, looped, dropped, hit voicemail, failed a…"
+          },
+          {
+            "name": "calls",
+            "description": "Use when the user wants to place a phone call with Bland, wait on or watch a call in progress, listen to it live, stop…"
+          },
+          {
+            "name": "debug",
+            "description": "Use when something on the Bland surface misbehaves and needs SYSTEMATIC root-cause debugging — a pathway routing wrong…"
+          },
+          {
+            "name": "evals",
+            "description": "Use when the user wants to evaluate, score, grade, or judge Bland calls — building eval agents (LLM judges) and their r…"
+          },
+          {
+            "name": "knowledge",
+            "description": "Use when the user mentions knowledge bases, KBs, RAG, or mid-call retrieval — ingesting or uploading documents, FAQs, o…"
+          },
+          {
+            "name": "messaging",
+            "description": "Use when the user wants to text someone from a Bland number, run a two-way SMS conversation toward a goal (book an appo…"
+          },
+          {
+            "name": "pathways",
+            "description": "Use whenever the user wants to create, edit, fix, test, simulate, debug, publish, or inspect a Bland voice/phone agent…"
+          },
+          {
+            "name": "persona",
+            "description": "Use when the user works on a Bland persona or agent profile — picking or changing a voice, setting call config, attachi…"
+          },
+          {
+            "name": "setup",
+            "description": "Use when the Bland plugin needs to be connected or is failing to connect — the user asks how to set up, log in, add or…"
+          },
+          {
+            "name": "tools",
+            "description": "Use when the user wants to build, test, update, or manage Bland custom integrations — creating a custom tool or REST AP…"
+          },
+          {
+            "name": "triage",
+            "description": "Use when the user wants to file, log, track, or manage issues found in Bland agents — reporting a bug or problem, attac…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
