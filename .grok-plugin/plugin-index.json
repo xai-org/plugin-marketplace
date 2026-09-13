@@ -261,6 +261,24 @@
         ]
       }
     },
+    "faceless": {
+      "sha": "b2c8fb1e4654cf38ba2286c51669afe301db403f",
+      "version": "1.1.9",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "faceless",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "faceless",
+            "description": "Create, render and publish AI faceless videos with Faceless.so. Use when the user asks about creating faceless videos,…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
       "version": "2.2.111",
