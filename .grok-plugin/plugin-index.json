@@ -601,6 +601,18 @@
         ]
       }
     },
+    "optionkrafter": {
+      "sha": "f9571fc25fe32b79a65bf11d61c1934bb409b561",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "optionkrafter",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "889ec4b68fa5aab0e867dad71ec3fdf386ae48f3",
       "components": {
