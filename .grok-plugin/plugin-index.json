@@ -806,6 +806,18 @@
         ]
       }
     },
+    "pulse-verity": {
+      "sha": "95e32eed5e3b3d5568caf99ef2b75ff9372bcc7d",
+      "version": "1.2.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pulse-verity",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
