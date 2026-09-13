@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "godmode",
+      "description": "A local, tamper-evident record of what a coding agent did, what it claimed, and what was verified. Hash-chained archive, honest claim grading, and a pre-tool gate that classifies every command before it runs.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIimagined/Godmode.git",
+        "sha": "3bbd4ffb334aaaab1e6d4d51eb59e04f9d20230c"
+      },
+      "homepage": "https://github.com/AIimagined/Godmode",
+      "keywords": ["godmode", "godmode continuity", "godmode governance"]
     }
   ]
 }
