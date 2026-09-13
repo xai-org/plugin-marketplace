@@ -1122,6 +1122,36 @@
         ]
       }
     },
+    "upwork": {
+      "sha": "9dded208b24bbe6c50d17927dfc260af07f38cc5",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "upwork",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hire-on-upwork",
+            "description": "Guides an Upwork client from candidates to a signed contract by searching for freelancers, reviewing proposals, shortli…"
+          },
+          {
+            "name": "upwork-workflows",
+            "description": "Orchestrates reliable multi-step workflows with the Upwork MCP server for clients, freelancers, and agencies. Use when…"
+          },
+          {
+            "name": "write-job-post",
+            "description": "Creates clear, specific Upwork job posts and guides clients through drafting, publishing, updating, and closing them. U…"
+          },
+          {
+            "name": "write-proposal",
+            "description": "Researches an Upwork job and a freelancer's real experience to create a tailored, honest proposal and guide its review…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "df0f55213f7b8db23a3ee7f27511ed344cdb2c74",
       "version": "0.49.1",
