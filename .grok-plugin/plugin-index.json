@@ -888,6 +888,24 @@
         ]
       }
     },
+    "somerch": {
+      "sha": "a1d9d360bc9614a94df87fcf5146ccf387c652b1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "somerch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "company-merch-planner",
+            "description": "Plan corporate merchandise, employee welcome kits, company gifting, event merch and distributed-team merch projects in…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
       "version": "0.6.7",

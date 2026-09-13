@@ -356,6 +356,26 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+       "name": "somerch",
+       "description": "Plan corporate merchandise, welcome kits, employee gifts and event merch across Europe with SoMerch.",
+       "category": "productivity",
+       "source": {
+	  "source": "url",
+	  "url": "https://github.com/SoMerch/somerch-grok-plugin.git",
+	  "sha": "a1d9d360bc9614a94df87fcf5146ccf387c652b1"
+         },
+	"homepage": "https://somerch.co",
+	"keywords": [
+	  "somerch",
+	  "somerch merch",
+	  "somerch company merch",
+	  "somerch corporate merch"
+	],
+	"domains": [
+	  "somerch.co"
+	]
     }
   ]
 }
