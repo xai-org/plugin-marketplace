@@ -395,6 +395,31 @@
         ]
       }
     },
+    "meeting-mate": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meeting-mate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "meeting-mate",
+            "description": "Official Meeting Mate overview for Grok Build. Use when the user mentions Meeting Mate, meetingmate, meetingmateapp, or…"
+          },
+          {
+            "name": "meeting-mate-recordings",
+            "description": "Search and read Meeting Mate recordings. Use when the user asks for Meeting Mate recordings, transcripts, summaries, ke…"
+          },
+          {
+            "name": "meeting-mate-tasks",
+            "description": "Manage Meeting Mate follow-up tasks. Use when the user wants to create, list, complete, or update tasks in Meeting Mate…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",
