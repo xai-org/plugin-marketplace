@@ -1,6 +1,72 @@
 {
   "version": 1,
   "plugins": {
+    "aihelp-stack": {
+      "sha": "4298e555ba313996db51bfe2f7315e77f3ebaa1d",
+      "version": "v0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aihelp-account",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-apollo",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-db",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-elk",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-gitlab",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-jenkins",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-langfuse",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-wiki",
+            "description": "http"
+          },
+          {
+            "name": "aihelp-zentao",
+            "description": "http"
+          },
+          {
+            "name": "jumpserver",
+            "description": "http"
+          },
+          {
+            "name": "zabbix-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aihelp-bug",
+            "description": "AIHelp bug investigation skill for AIHelp-related tasks that require bug troubleshooting, root cause analysis, abnormal…"
+          },
+          {
+            "name": "aihelp-guide",
+            "description": "AIHelp environment, workflow, and tool-routing skill. Trigger when the user explicitly mentions `aihelp`/`AIHelp`, asks…"
+          },
+          {
+            "name": "aihelp-ship",
+            "description": "零配置发版与上线编排：测试发版（test 分支 + Jenkins）与正式上线通知（禅道 + develop MR + 群文案）。自然语言组合本地 git 与 GitLab/Jenkins/禅道 MCP。触发如「合并本周四开发分支构建 e…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
