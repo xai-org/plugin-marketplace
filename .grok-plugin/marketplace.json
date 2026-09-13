@@ -356,6 +356,25 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "resell-pro",
+      "description": "Research observed Vinted market data with Resell Pro: explore keyword niches, compare brands, and discover market trends through three skills and an OAuth MCP connection.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/flipradar/resell-pro-claude-plugin.git",
+        "sha": "35c0d04aff0725b50e64b05eaebbb20fee79c1de"
+      },
+      "homepage": "https://resellpro.com/tools/mcp",
+      "keywords": [
+        "resell pro",
+        "resellpro",
+        "resell pro mcp"
+      ],
+      "domains": [
+        "resellpro.com"
+      ]
     }
   ]
 }
