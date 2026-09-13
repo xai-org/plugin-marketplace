@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aeon": {
+      "sha": "3da3b732fcb720c6d863cb0215727dab466da74f",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "aeon",
+            "description": "Set up and run an Aeon agent instance — get started from scratch, pick which skills to turn on or install more from pac…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
