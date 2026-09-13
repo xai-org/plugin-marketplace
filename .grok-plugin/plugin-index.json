@@ -491,6 +491,24 @@
         ]
       }
     },
+    "muapi": {
+      "sha": "642fbed943429b4d386a09c12ec8b695233a66a2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "muapi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "muapi-media",
+            "description": "Create, edit, enhance, and inspect AI images, videos, music, and audio through Muapi when the user asks for generative-…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
