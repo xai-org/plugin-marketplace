@@ -395,6 +395,94 @@
         ]
       }
     },
+    "groover": {
+      "sha": "bb8b875d789f5460baff4073d79c174be8c27fb2",
+      "version": "0.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "groover-register",
+            "description": "Register an AI agent with Proof of Autonomy and earn a verifiable DID credential"
+          },
+          {
+            "name": "groover-search",
+            "description": "Search the Groover registry for registered agents, tools, and MCP servers"
+          },
+          {
+            "name": "groover-servers",
+            "description": "List all available MCP servers registered in the Groover correlation engine"
+          },
+          {
+            "name": "shop-extract",
+            "description": "Pay the extract shop ($0.02 USDC) for a receipted URL. x402. Not a summary."
+          },
+          {
+            "name": "shop-pin",
+            "description": "Pay the pin shop ($0.01 USDC) for a live ERC-8004 card hash. x402."
+          },
+          {
+            "name": "shop-witness",
+            "description": "Pay the witness shop ($0.02 USDC) for proof of a GET. x402. Not a paraphrase."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "clearing",
+            "description": "stdio"
+          },
+          {
+            "name": "groover",
+            "description": "http"
+          },
+          {
+            "name": "groover-registry",
+            "description": "http"
+          },
+          {
+            "name": "repertoire",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-architect-tools",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-code-review",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-enforcer",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-governance",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-orchestrator",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-researcher",
+            "description": "stdio"
+          },
+          {
+            "name": "xray-skills",
+            "description": "stdio"
+          },
+          {
+            "name": "zigzag",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "groover-register",
+            "description": "Register AI agents with Proof of Autonomy using ed25519 signatures and adaptive multi-turn MCP orchestration challenges…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",
