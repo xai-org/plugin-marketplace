@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "glasser",
+      "description": "Glasser paid-data integration. Search 1,000+ third-party API endpoints \u2014 people and company enrichment, SEO and SERP data, web scraping, social media, news, places and shopping \u2014 inspect the exact price before each call, run it, and pay per call under one key with no signup at each vendor.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/glasser-ai/plugins.git",
+        "sha": "3089a46777763f533d3e4ad878af8a2bc3ef0ea5",
+        "path": "plugins/glasser"
+      },
+      "homepage": "https://glasser.ai",
+      "keywords": ["glasser", "glasser catalog", "glasser endpoint"],
+      "domains": ["glasser.ai"]
     }
   ]
 }
