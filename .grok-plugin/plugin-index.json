@@ -395,6 +395,18 @@
         ]
       }
     },
+    "fluttergo": {
+      "sha": "52c498a5df1e593c6abd93549ce7831dd10bd5f7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fluttergo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",

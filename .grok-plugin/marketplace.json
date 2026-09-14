@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "fluttergo",
+      "description": "Create, edit, preview, and build Flutter apps via FlutterGo.AI's hosted OAuth MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fasmartpaf/fluttergo.ai.git",
+        "sha": "52c498a5df1e593c6abd93549ce7831dd10bd5f7",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://fluttergo.ai/integrations/mcp/",
+      "keywords": ["fluttergo", "fluttergo.ai", "flutter mcp", "fluttergo mcp"],
+      "domains": ["fluttergo.ai", "www.fluttergo.ai"]
     }
   ]
 }
