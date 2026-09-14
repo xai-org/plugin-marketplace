@@ -71,6 +71,24 @@
         ]
       }
     },
+    "brain-bank": {
+      "sha": "670b4cfe38a4fa14d34e54cebd3494d7810da6f7",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brain-bank",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brain-bank",
+            "description": "Memória persistente do usuário em markdown. Use ao salvar ou recuperar contexto de longo prazo — projetos, pessoas, pre…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
