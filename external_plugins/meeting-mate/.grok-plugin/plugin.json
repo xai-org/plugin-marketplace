@@ -1,0 +1,20 @@
+{
+  "name": "meeting-mate",
+  "version": "1.0.0",
+  "description": "Official Meeting Mate plugin for Grok Build. Search recordings, pull transcripts and summaries, extract action items, and manage follow-up tasks via the hosted Meeting Mate MCP server.",
+  "author": {
+    "name": "Meeting Mate",
+    "url": "https://meetingmateapp.com"
+  },
+  "homepage": "https://meetingmateapp.com",
+  "repository": "https://github.com/jaspervanhardeveld/plugin-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "meeting mate",
+    "meetingmate",
+    "meetingmateapp",
+    "recordings",
+    "transcripts",
+    "mcp"
+  ]
+}

@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "meeting-mate",
+      "description": "Official Meeting Mate plugin (hosted MCP + skills). Search meeting recordings, pull transcripts and summaries, extract action items, and manage follow-up tasks from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/meeting-mate"
+      },
+      "homepage": "https://meetingmateapp.com",
+      "keywords": ["meeting mate", "meetingmate", "meeting mate recordings", "meetingmateapp"],
+      "domains": ["meetingmateapp.com", "www.meetingmateapp.com"]
     }
   ]
 }
