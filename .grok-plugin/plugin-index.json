@@ -624,7 +624,7 @@
       }
     },
     "pstack": {
-      "sha": "889ec4b68fa5aab0e867dad71ec3fdf386ae48f3",
+      "sha": "5bf2b1544db739998121a306340631963c2ff3de",
       "components": {
         "agents": [
           {
@@ -791,7 +791,7 @@
           },
           {
             "name": "setup-pstack",
-            "description": "Configure which models pstack uses per role. Detects your available models and writes an always-applied rule that overr…"
+            "description": "Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an a…"
           },
           {
             "name": "show-me-your-work",
