@@ -1325,6 +1325,18 @@
         ]
       }
     },
+    "wineauction": {
+      "sha": "40bc3c9738fbae607d432feb42ef4175456e0ac0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wineauction",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "58922ec060ee898e1b5767a30aad874981b53474",
       "version": "1.19.0",
