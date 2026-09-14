@@ -601,6 +601,24 @@
         ]
       }
     },
+    "przypominamy": {
+      "sha": "d5f519b4b4c7ab44f701d1c026a851d55d3c4312",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "przypominamy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "przypominamy-sms",
+            "description": "Send SMS and voice via the przypominamy.com MCP gateway. Use when the user wants to send an SMS, OTP, or reminder, or t…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "5bf2b1544db739998121a306340631963c2ff3de",
       "components": {

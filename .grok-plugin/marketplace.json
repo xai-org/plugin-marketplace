@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "przypominamy",
+      "description": "Polish SMS gateway via hosted MCP: send SMS and voice, contacts, reports. API key from app.przypominamy.com/keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pawelmamcarz/przypominamy-grok-plugin.git",
+        "sha": "d5f519b4b4c7ab44f701d1c026a851d55d3c4312"
+      },
+      "homepage": "https://przypominamy.com/mcp",
+      "keywords": ["przypominamy", "przypominamy sms", "przypominamy.com", "przypominamy mcp"],
+      "domains": ["przypominamy.com", "mcp.przypominamy.com", "app.przypominamy.com", "api.przypominamy.com"]
     }
   ]
 }
