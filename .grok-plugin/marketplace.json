@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "appdeploy",
+      "description": "AppDeploy lets you create and publish real web apps directly from Grok Build. Describe what you want, and AppDeploy turns it into a live public app. Deploy and host full-stack apps with a public URL, user auth, database, file storage, secrets, real-time updates, custom domains, AI features, and scheduled jobs. No Git, hosting provider, or infrastructure setup.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AppDeploy-AI/grok-build-plugin.git",
+        "sha": "14f301c8c25e89073911425894048d2e31dbbbb0"
+      },
+      "homepage": "https://appdeploy.ai",
+      "keywords": ["appdeploy", "appdeploy deploy", "deploy to appdeploy", "appdeploy mcp", "appdeploy app"],
+      "domains": ["appdeploy.ai", "api-v2.appdeploy.ai"]
     }
   ]
 }
