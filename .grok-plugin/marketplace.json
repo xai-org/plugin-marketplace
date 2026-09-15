@@ -364,13 +364,13 @@
       "source": {
         "source": "url",
         "url": "https://github.com/kopachlager/prerenderbuddy-plugins.git",
-        "sha": "d4cbff505e2af4fa44b51c986d3e1ba5bae5e67b",
+        "sha": "dc1018b803a8b16f82e27339fb4f665a0a587604",
         "path": "plugins/prerenderbuddy"
       },
       "homepage": "https://prerenderbuddy.com/developer-tools",
       "keywords": ["prerender buddy", "prerenderbuddy", "prerenderbuddy mcp"],
       "domains": ["prerenderbuddy.com", "app.prerenderbuddy.com", "mcp.prerenderbuddy.com"],
-      "version": "0.2.4",
+      "version": "0.2.5",
       "author": "Prerender Buddy"
     }
   ]

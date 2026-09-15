@@ -602,8 +602,8 @@
       }
     },
     "prerenderbuddy": {
-      "sha": "d4cbff505e2af4fa44b51c986d3e1ba5bae5e67b",
-      "version": "0.2.4",
+      "sha": "dc1018b803a8b16f82e27339fb4f665a0a587604",
+      "version": "0.2.5",
       "components": {
         "mcpServers": [
           {
