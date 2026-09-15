@@ -1092,6 +1092,25 @@
         ]
       }
     },
+    "terraphim-skills-intro": {
+      "sha": "b94a632a02415d42b8071528b4b69f86a643d7b6",
+      "components": {
+        "skills": [
+          {
+            "name": "terraphim-agent-learn",
+            "description": "Inspect and capture command failures or user corrections with terraphim-agent learn. Use when a user asks to preserve a…"
+          },
+          {
+            "name": "terraphim-agent-memory",
+            "description": "Retrieve, inspect, validate, and govern agentic memory with terraphim-agent memory. Use for role-scoped memory searches…"
+          },
+          {
+            "name": "terraphim-grep",
+            "description": "Search local source code and documentation with the installed terraphim-grep CLI. Use for bounded text or knowledge-gra…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",

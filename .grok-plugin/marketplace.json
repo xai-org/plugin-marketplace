@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "terraphim-skills-intro",
+      "description": "Terraphim command-line skills for private local code search, capturing verified operational learning, and retrieving role-scoped agent memory with provenance.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/terraphim/terraphim-cursor-plugin.git",
+        "sha": "b94a632a02415d42b8071528b4b69f86a643d7b6"
+      },
+      "homepage": "https://terraphim-skills.md/",
+      "keywords": ["terraphim", "terraphim grep", "terraphim agent", "terraphim skills"],
+      "domains": ["terraphim-skills.md", "terraphim.ai"]
     }
   ]
 }
