@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "nitrosend",
+      "description": "Official Nitrosend plugin for Grok Build: AI-native email with 28 tools to compose and send campaigns, build automation flows, manage contacts and segments, and run agent inboxes through Nitrosend's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nitrosend/cursor.git",
+        "sha": "8f437e5ea9aa15654a4acc8455ce65593e0352c3"
+      },
+      "homepage": "https://nitrosend.com",
+      "keywords": ["nitrosend", "nitrosend email", "nitrosend mcp", "nitrosend campaigns", "nitrosend flows"],
+      "domains": ["nitrosend.com", "app.nitrosend.com", "api.nitrosend.com", "docs.nitrosend.com"]
     }
   ]
 }
