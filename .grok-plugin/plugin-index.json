@@ -602,6 +602,18 @@
         ]
       }
     },
+    "nitrosend": {
+      "sha": "8f437e5ea9aa15654a4acc8455ce65593e0352c3",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nitrosend",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
