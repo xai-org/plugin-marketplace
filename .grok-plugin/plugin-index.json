@@ -1329,6 +1329,18 @@
         ]
       }
     },
+    "wemetonce": {
+      "sha": "55bf34a86beed99180f39dd0b67ab565ba041225",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wemetonce",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "58922ec060ee898e1b5767a30aad874981b53474",
       "version": "1.19.0",
