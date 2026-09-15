@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "anyapi",
+      "description": "Hundreds of live data APIs through one gateway: social media, search and SEO, maps and local business data, company and contact enrichment, e-commerce, and structured JSON from any public web page. One key and one USD wallet, pay per request with no subscription, a normalized input/output JSON Schema for every API, and automatic failover across sources under one price. Bundles the anyapi skill and the hosted AnyAPI MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getanyapi-com/skills.git",
+        "sha": "ef76ea9dd6f82416fff933a66f67dea04a955dd5"
+      },
+      "homepage": "https://getanyapi.com",
+      "keywords": ["anyapi", "any api", "getanyapi", "anyapi mcp"],
+      "domains": ["getanyapi.com", "api.getanyapi.com"]
     }
   ]
 }
