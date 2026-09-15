@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "stackwich",
+      "description": "Delivery discipline for coding agents: meta-prompt every delegation, gate risky work through plan, execute, verify, review, cap failure loops, and keep research off the main thread. Installs a five-layer policy block into your agent instructions and scaffolds advisor, executor and verifier subagents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ovhirup/stackwich.git",
+        "sha": "df0f62f107054344a4bc51552585c98fe575bdf2",
+        "path": "plugins/stackwich"
+      },
+      "homepage": "https://github.com/ovhirup/stackwich",
+      "keywords": ["stackwich", "stackwich policy", "stackwich sandwich"]
     }
   ]
 }
