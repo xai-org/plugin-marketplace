@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "kleap",
+      "description": "Kleap website and web app builder integration. Create, inspect, edit, publish, and maintain web products through Kleap's hosted OAuth MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kleaphq/kleap-grok-plugin.git",
+        "sha": "8c0c84193110577dc15b36f826420c44fe202a11"
+      },
+      "homepage": "https://kleap.co/mcp",
+      "keywords": ["kleap", "kleap mcp", "kleap website builder", "kleap app builder"],
+      "domains": ["kleap.co", "kleap.io"]
     }
   ]
 }
