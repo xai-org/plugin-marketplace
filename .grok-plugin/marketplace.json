@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "kemory",
+      "description": "Persistent, cross-session memory powered by Kemory. Injects your prior context at session start, recalls past decisions and runbooks before you re-derive them, and stores durable facts as they happen.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SeKondBrainAILabs/kemory-plugin.git",
+        "sha": "cb8236d77652b3240da6fdebb8e60e1af425d1df",
+        "path": "plugin"
+      },
+      "homepage": "https://get.kemory.sekondbrain.ai/",
+      "keywords": ["kemory", "sekondbrain", "kemory recall", "kemory memory"],
+      "domains": ["kemory.sekondbrain.ai", "api.kemory.s9n.ai"]
     }
   ]
 }
