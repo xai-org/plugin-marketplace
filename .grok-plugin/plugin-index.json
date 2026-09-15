@@ -215,6 +215,24 @@
         ]
       }
     },
+    "cos-link": {
+      "sha": "ebba711202416bebba72098341ed35a8cecfdbfd",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cos-link",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "coordinate-with-peer",
+            "description": "Coordinate a bounded request between Grok Bot Chiefs of Staff through an active CoS Link relationship. Use when the use…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
