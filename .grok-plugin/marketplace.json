@@ -356,6 +356,22 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "prerenderbuddy",
+      "description": "Developer companion to the Prerender Buddy AI visibility and crawler-readiness platform. Audit what search and AI crawlers can retrieve from public pages, and optionally review read-only evidence from a Prerender Buddy workspace.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kopachlager/prerenderbuddy-plugins.git",
+        "sha": "d4cbff505e2af4fa44b51c986d3e1ba5bae5e67b",
+        "path": "plugins/prerenderbuddy"
+      },
+      "homepage": "https://prerenderbuddy.com/developer-tools",
+      "keywords": ["prerender buddy", "prerenderbuddy", "prerenderbuddy mcp"],
+      "domains": ["prerenderbuddy.com", "app.prerenderbuddy.com", "mcp.prerenderbuddy.com"],
+      "version": "0.2.4",
+      "author": "Prerender Buddy"
     }
   ]
 }
