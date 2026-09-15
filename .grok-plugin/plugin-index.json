@@ -43,6 +43,24 @@
         ]
       }
     },
+    "banger": {
+      "sha": "46d598ee867084467a41db1d78c4064725c8d913",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "banger",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "operate-company-email",
+            "description": "Operate Banger's canonical company-email system through MCP. Use when onboarding or configuring Banger; creating or rea…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
