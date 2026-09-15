@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "agentcall",
+      "description": "Join Google Meet, Zoom, or Microsoft Teams as an AI bot with voice, avatar, screenshare, and real-time transcription. The agent keeps its full session context — it can read code, run commands, and commit changes while talking in the call.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pattern-ai-labs/agentcall.git",
+        "sha": "9b96f6739c3ea3384fbb8c904c63b885d6e455ff"
+      },
+      "homepage": "https://agentcall.dev",
+      "keywords": ["agentcall", "join google meet", "join zoom meeting", "join teams meeting", "meeting bot"],
+      "domains": ["agentcall.dev", "app.agentcall.dev"]
     }
   ]
 }
