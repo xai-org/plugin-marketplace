@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "pulse-verity",
+      "description": "Read-only access to signed, verifiable Pulse Verity Index crypto prices, asset discovery, batch reads, recorded prints and signature verification. BTC, ETH and SOL samples work without an API key.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PulseBet/pulse-verity.git",
+        "sha": "95e32eed5e3b3d5568caf99ef2b75ff9372bcc7d"
+      },
+      "homepage": "https://thepulse.markets/developers",
+      "keywords": ["pulse-verity", "pulse verity", "pulse verity index"],
+      "domains": ["thepulse.markets", "mcp.thepulse.markets"]
     }
   ]
 }
