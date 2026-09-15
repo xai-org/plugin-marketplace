@@ -395,6 +395,50 @@
         ]
       }
     },
+    "lightfield": {
+      "sha": "28ea7f84e43d175a328f3e3670eb4d3642d6f0e2",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "lightfield-brief",
+            "description": "Build a briefing on a Lightfield account or opportunity: owner, stage, people, open work, and recent activity."
+          },
+          {
+            "name": "lightfield-doctor",
+            "description": "Check the Lightfield connection (MCP server, API key, scopes, identity) and report exactly what works."
+          },
+          {
+            "name": "lightfield-import",
+            "description": "Import records from a CSV or JSON file into Lightfield: mapped to real field keys, deduped, idempotent, and dry-run fir…"
+          },
+          {
+            "name": "lightfield-integration",
+            "description": "Scaffold a Lightfield API integration: client, definitions cache, pagination, upsert with idempotency, and backoff."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "lightfield",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "lightfield",
+            "description": "Entry point for anything Lightfield, the AI-native CRM. Use when \"Lightfield\" is mentioned, when a request touches acco…"
+          },
+          {
+            "name": "lightfield-api",
+            "description": "Write code against the Lightfield REST API: authenticate with an API key and scopes, install and use the official Pytho…"
+          },
+          {
+            "name": "lightfield-crm",
+            "description": "Read and write records in a live Lightfield CRM workspace through the Lightfield MCP tools: look up accounts, contacts,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",

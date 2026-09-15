@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "lightfield",
+      "description": "Lightfield CRM integration. Read and write accounts, contacts, opportunities, tasks, notes, meetings, and emails in your workspace over the hosted Lightfield MCP server, and build integrations against the Lightfield API with its SDKs and CLI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Lightfld/lightfield-plugin.git",
+        "sha": "28ea7f84e43d175a328f3e3670eb4d3642d6f0e2"
+      },
+      "homepage": "https://docs.lightfield.app",
+      "keywords": ["lightfield", "lightfield crm", "lightfield api", "lightfield mcp"],
+      "domains": ["lightfield.app", "docs.lightfield.app", "crm.lightfield.app", "api.lightfield.app"]
     }
   ]
 }
