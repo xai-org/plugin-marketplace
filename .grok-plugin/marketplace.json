@@ -356,6 +356,24 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "foliyo",
+      "description": "Create and update branded Foliyo proposals, reports and client handovers with hosted links, access controls and engagement reports.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jooliperbush/foliyo-mcp.git",
+        "sha": "8b0ca46ec32cfe9eccdd2ebeded8261c3fbce678"
+      },
+      "homepage": "https://foliyo.io",
+      "keywords": [
+        "foliyo",
+        "create a foliyo"
+      ],
+      "domains": [
+        "foliyo.io"
+      ]
     }
   ]
 }
