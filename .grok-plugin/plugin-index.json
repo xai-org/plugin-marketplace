@@ -1126,6 +1126,24 @@
         ]
       }
     },
+    "tradehand": {
+      "sha": "226141362473564aead4d7cf5ec63d2de9bde02d",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tradehand",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tradehand",
+            "description": "Browse UK trades and public Tradehand listings, then continue an instant quote on Tradehand."
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517",
       "version": "0.49.2",

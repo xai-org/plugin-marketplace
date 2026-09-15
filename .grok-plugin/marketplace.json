@@ -356,6 +356,21 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "tradehand",
+      "description": "Browse UK tradespeople, view profiles, and prepare instant quotes or booking reviews through Tradehand.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Humanleap/tradehand-grok-plugin.git",
+        "sha": "226141362473564aead4d7cf5ec63d2de9bde02d"
+      },
+      "homepage": "https://tradehand.com/developers",
+      "keywords": ["tradehand", "tradehand tradespeople", "tradehand instant quote"],
+      "domains": ["tradehand.com"],
+      "version": "0.1.0",
+      "author": "Outside HQ LTD"
     }
   ]
 }
