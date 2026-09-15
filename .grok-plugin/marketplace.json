@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "cloudbase",
+      "description": "Tencent CloudBase backend-as-a-service platform: AI models, auth, databases, cloud functions, storage, CloudRun, and WeChat Mini Program workflows via MCP plus skills, commands, agents, and hooks.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TencentCloudBase/cloudbase-plugin.git",
+        "sha": "0215f716ab8033a57c0f667718604f5ad3595f8d"
+      },
+      "homepage": "https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/ai-agent-plugins",
+      "keywords": ["cloudbase", "tencent cloudbase", "cloudbase mcp"],
+      "domains": ["cloudbase.net", "tcb.cloud.tencent.com"]
     }
   ]
 }
