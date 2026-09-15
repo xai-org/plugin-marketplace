@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "heyyumi",
+      "description": "Verified Korean restaurant, cafe, and bar data for AI agents — search and filter real venues by location, cuisine, and 40+ attributes, then request a table reservation in-chat at partner venues. Covers Seoul, Gyeonggi, Busan, and Jeju.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hmp-dev/heyyumi-mcp.git",
+        "sha": "4a7c40a2cd1b975d998e3399c74b20b93224e8b3"
+      },
+      "homepage": "https://heyyumi.ai/mcp",
+      "keywords": ["heyyumi", "yumi", "heyyumi korean restaurants", "yumi restaurant reservation"],
+      "domains": ["heyyumi.ai"]
     }
   ]
 }
