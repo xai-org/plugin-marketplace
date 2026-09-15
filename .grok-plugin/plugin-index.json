@@ -395,6 +395,18 @@
         ]
       }
     },
+    "merchi": {
+      "sha": "162b0ec8c6b08125d4baa4a1faec891506053fe4",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "merchi",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",

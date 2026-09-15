@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "merchi",
+      "description": "MCP connector for Merchi — Australia's custom merchandise platform. Access product catalogs, quotes, orders, and workflows via natural language.",
+      "category": "ecommerce",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/merchisdk/merchi_mcp.git",
+        "sha": "162b0ec8c6b08125d4baa4a1faec891506053fe4"
+      },
+      "homepage": "https://merchi.co/mcp",
+      "keywords": ["merchi", "merchandise", "ecommerce", "australia", "custom-products", "promotional-products", "print-on-demand"],
+      "domains": ["merchi.co", "api.merchi.co"]
     }
   ]
 }
