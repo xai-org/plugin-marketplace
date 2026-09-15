@@ -395,6 +395,24 @@
         ]
       }
     },
+    "foliyo": {
+      "sha": "8b0ca46ec32cfe9eccdd2ebeded8261c3fbce678",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "foliyo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "foliyo",
+            "description": "Create, brand, publish, update, find, and report on Foliyo pages. Use when the user says “create me a Foliyo”, wants a…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",
