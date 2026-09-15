@@ -356,6 +356,30 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "reelsfarm",
+      "description": "Create AI avatars, product scenes, UGC videos, and slideshows, then schedule and publish short-form social content.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mateohysa/reelsfarm-agent-plugin.git",
+        "sha": "e7ae8eb0ae4214497d778cc5789973b953e63891"
+      },
+      "homepage": "https://reelsfarm.com/mcp",
+      "keywords": [
+        "reelsfarm",
+        "reelsfarm mcp",
+        "reelsfarm ugc",
+        "reelsfarm video",
+        "reelsfarm slideshows",
+        "reelsfarm scheduling"
+      ],
+      "domains": ["reelsfarm.com", "mcp.reelsfarm.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "ReelsFarm"
+      }
     }
   ]
 }
