@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "payhelm",
+      "description": "Official PayHelm plugin for Grok Build (hosted OAuth MCP server + skills). Query orders, revenue, products, customers, inventory, ad performance, email marketing, shipping, and web traffic across the stores and ad platforms connected to your PayHelm account, and take confirmed actions on them.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/payhelm/payhelm-grok-plugin.git",
+        "sha": "b895223e576ff77a49427940ebd4e3ef9e0816d1"
+      },
+      "homepage": "https://payhelm.com",
+      "keywords": ["payhelm", "payhelm mcp", "payhelm analytics", "payhelm reports", "payhelm ai agent"],
+      "domains": ["payhelm.com", "app.payhelm.com", "mcp.payhelm.com"]
     }
   ]
 }
