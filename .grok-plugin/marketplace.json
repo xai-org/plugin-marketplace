@@ -364,7 +364,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mateohysa/reelsfarm-agent-plugin.git",
-        "sha": "053b29ac448b82a099973eeaed43527d27ef0462"
+        "sha": "e7ae8eb0ae4214497d778cc5789973b953e63891"
       },
       "homepage": "https://reelsfarm.com/mcp",
       "keywords": [
