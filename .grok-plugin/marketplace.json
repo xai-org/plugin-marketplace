@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "superme",
+      "description": "Ask people who've been there. Search the SuperMe network for relevant experts, ask them your question, and gather several first-hand perspectives on a decision through SuperMe's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superme-ai/superme-plugins.git",
+        "sha": "26a95563a45ed906c6351d2e035c03729b79b29d"
+      },
+      "homepage": "https://superme.ai",
+      "keywords": ["superme", "superme.ai", "ask superme", "superme network"],
+      "domains": ["superme.ai", "mcp.superme.ai"]
     }
   ]
 }
