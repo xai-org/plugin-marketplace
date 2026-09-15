@@ -356,6 +356,26 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "grok-bot-desks",
+      "description": "Flutter Mobile Engineer, Bug Repro Desk, and Job Application Desk skills. Never send, merge, submit, or invent facts without an explicit yes.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/globulus/grok-bot-desks.git",
+        "sha": "06494f201bb2263c1a958d78c152394c819fde96"
+      },
+      "homepage": "https://github.com/globulus/grok-bot-desks",
+      "keywords": [
+        "grok-bot-desks",
+        "flutter",
+        "bug-repro",
+        "job-application"
+      ],
+      "domains": [
+        "github.com"
+      ]
     }
   ]
 }
