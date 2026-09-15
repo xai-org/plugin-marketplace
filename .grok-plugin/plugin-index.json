@@ -395,6 +395,30 @@
         ]
       }
     },
+    "ia-local": {
+      "sha": "d27d00e4bf5dfc1c96517db5918fa91f076b9456",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "ia",
+            "description": "Elige o lista las IAs locales de Ollama (Qwen3, Llama, Mistral, Gemma)"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "ollama-local",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ia-local",
+            "description": "Lista y cambia las IAs locales de Ollama en esta máquina (~/ia-local). Úsalo cuando el usuario ejecute /ia, /ia-local,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",
