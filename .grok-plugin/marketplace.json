@@ -356,6 +356,20 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "volunteerreminder",
+      "description": "Official VolunteerReminder MCP for Grok Build. Start a free trial, import a volunteer roster in test mode, preview first. Nothing texts a real volunteer until a human turns live sends on.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/talltimbersgroup/VolunteerReminder.git",
+        "sha": "f1156b8e0692bc8fd4613146e53e1c6c48d56cc1"
+      },
+      "homepage": "https://volunteerreminder.com/docs/agents",
+      "keywords": ["volunteerreminder", "volunteer reminder", "volunteerreminder mcp", "volunteerreminder.com"],
+      "domains": ["volunteerreminder.com", "mcp.volunteerreminder.com"]
+
     }
   ]
 }

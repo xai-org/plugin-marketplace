@@ -1329,6 +1329,23 @@
         ]
       }
     },
+    "volunteerreminder": {
+      "sha": "f1156b8e0692bc8fd4613146e53e1c6c48d56cc1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "volunteerreminder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "volunteer-schedule-import",
+            "description": "Start a VolunteerReminder trial and import a pasted volunteer roster"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "58922ec060ee898e1b5767a30aad874981b53474",
       "version": "1.19.0",
