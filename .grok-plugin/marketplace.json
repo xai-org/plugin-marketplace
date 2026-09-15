@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "muapi",
+      "description": "Muapi generative-media integration for Grok. Discover models and create or transform images, videos, music, and audio through Muapi's hosted MCP server.",
+      "category": "creative",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SamurAIGPT/muapi-cli.git",
+        "sha": "642fbed943429b4d386a09c12ec8b695233a66a2"
+      },
+      "homepage": "https://muapi.ai",
+      "keywords": ["muapi", "muapi.ai", "muapi image", "muapi video", "muapi audio", "muapi generative media"],
+      "domains": ["muapi.ai", "api.muapi.ai"]
     }
   ]
 }
