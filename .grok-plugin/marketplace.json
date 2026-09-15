@@ -346,6 +346,19 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "kampalo",
+      "description": "Kampalo ads and SEO workspace for Grok Build. Brief synced Google Ads, Meta Ads, GA4, and Search Console; propose and confirm campaign pauses; manage ads/SEO alerts and ROAS pause rules; generate report JSON.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tekreign/kampalo-cursor-plugin.git",
+        "sha": "fe0d6a60c5cfabda34a8a4cf64af8e3f76a8b062"
+      },
+      "homepage": "https://app.kampalo.com",
+      "keywords": ["kampalo", "kampalo ads", "kampalo google ads", "kampalo meta ads", "kampalo kai"],
+      "domains": ["kampalo.com", "app.kampalo.com", "be.kampalo.com"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",

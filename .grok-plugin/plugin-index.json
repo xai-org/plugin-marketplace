@@ -395,6 +395,28 @@
         ]
       }
     },
+    "kampalo": {
+      "sha": "fe0d6a60c5cfabda34a8a4cf64af8e3f76a8b062",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kampalo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "automate-kampalo-work",
+            "description": "Automate Kampalo marketing work from synced data — propose or confirm campaign pauses, manage alert and ROAS automation…"
+          },
+          {
+            "name": "campaign-performance-brief",
+            "description": "Brief Kampalo campaign and marketing performance from synced database tools. Use when the user asks about Google Ads, M…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
       "version": "0.0.188",
