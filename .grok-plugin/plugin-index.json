@@ -842,6 +842,48 @@
         ]
       }
     },
+    "saymd": {
+      "sha": "73a175a3c169fd28999d479013f6a683f2f9615a",
+      "version": "0.1.2",
+      "components": {
+        "commands": [
+          {
+            "name": "saymd",
+            "description": "Record speech or an audio file into .ai/prompt.md, then load it into the current task"
+          },
+          {
+            "name": "saymd-bug",
+            "description": "Record a bug-report voice prompt into .ai/prompt.md (--template bug)"
+          },
+          {
+            "name": "saymd-continue",
+            "description": "Merge new speech into an existing .ai/prompt.md (Pro)"
+          },
+          {
+            "name": "saymd-feature",
+            "description": "Record a feature-spec voice prompt into .ai/prompt.md (--template feature)"
+          },
+          {
+            "name": "saymd-out",
+            "description": "Speak in one language and write the Markdown prompt in another (Pro --out)"
+          },
+          {
+            "name": "saymd-plan",
+            "description": "Record an implementation-plan voice prompt into .ai/prompt.md (--template plan)"
+          },
+          {
+            "name": "saymd-review",
+            "description": "Review .ai/prompt.md for gaps before implementation (Pro)"
+          }
+        ],
+        "skills": [
+          {
+            "name": "saymd",
+            "description": "Turn spoken ideas or audio files into a structured Markdown prompt file for coding agents. Use when the user wants to d…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

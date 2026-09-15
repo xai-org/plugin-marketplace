@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "saymd",
+      "description": "Voice to structured Markdown prompts for coding agents. Free MIT CLI with BYOK — speak once, then @ the prompt file.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kondasviktor/saymd.git",
+        "sha": "73a175a3c169fd28999d479013f6a683f2f9615a"
+      },
+      "homepage": "https://saymd.app/?utm_source=grok&utm_medium=plugin&utm_campaign=saymd",
+      "keywords": ["saymd", "saymd prompt"],
+      "domains": ["saymd.app"]
     }
   ]
 }
