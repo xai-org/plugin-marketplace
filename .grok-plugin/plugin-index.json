@@ -1378,6 +1378,17 @@
           }
         ]
       }
+    },
+    "wyckit": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wyckit",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }

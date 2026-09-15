@@ -356,6 +356,26 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "wyckit",
+      "description": "Explore Wyckit design components, validate reusable designs, and prepare drafts for browser review.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/wyckit"
+      },
+      "homepage": "https://connectors.wyckit.com",
+      "keywords": [
+        "wyckit",
+        "wyckit design",
+        "wyckit connectors"
+      ],
+      "domains": [
+        "connectors.wyckit.com",
+        "build.wyckit.com",
+        "wyckit.com"
+      ]
     }
   ]
 }

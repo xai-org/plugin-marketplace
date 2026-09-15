@@ -1,0 +1,9 @@
+{
+  "name": "wyckit",
+  "version": "0.1.0",
+  "description": "Explore Wyckit design components, validate reusable designs, and prepare drafts for browser review through Wyckit's public MCP connector.",
+  "author": { "name": "Wyck I.T. Solutions LLC", "url": "https://wyckit.com" },
+  "homepage": "https://connectors.wyckit.com",
+  "license": "Proprietary",
+  "keywords": ["wyckit", "wyckit design", "wyckit connectors"]
+}

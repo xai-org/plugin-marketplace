@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wyckit": {
+      "type": "http",
+      "url": "https://connectors.wyckit.com/mcp"
+    }
+  }
+}
