@@ -395,6 +395,32 @@
         ]
       }
     },
+    "kyma-api": {
+      "sha": "ace8e758596c4e72dee5d6af99e75db47bac2f78",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kyma",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "check-spend-and-credits",
+            "description": "Report the Kyma API account balance, this connection's spend cap, amount spent, remaining budget and reset date, plus r…"
+          },
+          {
+            "name": "pick-a-model",
+            "description": "Choose a model on Kyma API for a specific job by comparing real per-token price, measured 30-day uptime, and fit for th…"
+          },
+          {
+            "name": "send-a-test-completion",
+            "description": "Run one real, billed chat completion through Kyma API with the user's explicit approval and report back the output and…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",
