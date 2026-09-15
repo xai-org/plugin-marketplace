@@ -888,6 +888,18 @@
         ]
       }
     },
+    "stackwich": {
+      "sha": "df0f62f107054344a4bc51552585c98fe575bdf2",
+      "version": "3.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "stackwich",
+            "description": "Installs the Stackwich architecture — meta-prompt delegation, a plan/execute/verify/review sandwich, loop-by-default fo…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
       "version": "0.6.7",
