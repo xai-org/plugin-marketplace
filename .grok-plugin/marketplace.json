@@ -364,7 +364,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/terraphim/terraphim-cursor-plugin.git",
-        "sha": "b94a632a02415d42b8071528b4b69f86a643d7b6"
+        "sha": "6ea3bf47fd7585d8bc518d782b371f281e20e12b"
       },
       "homepage": "https://terraphim-skills.md/",
       "keywords": ["terraphim", "terraphim grep", "terraphim agent", "terraphim skills"],

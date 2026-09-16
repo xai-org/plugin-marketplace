@@ -1093,7 +1093,8 @@
       }
     },
     "terraphim-skills-intro": {
-      "sha": "b94a632a02415d42b8071528b4b69f86a643d7b6",
+      "sha": "6ea3bf47fd7585d8bc518d782b371f281e20e12b",
+      "version": "0.2.2",
       "components": {
         "skills": [
           {
