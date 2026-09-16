@@ -395,6 +395,24 @@
         ]
       }
     },
+    "kubera": {
+      "sha": "f46521f1e628eb9e1e3397fce0d95a59fa33a7cd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kubera",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kubera-portfolio",
+            "description": "Use when the user asks about their net worth, portfolio, assets, debts, asset allocation, concentration risk, biggest m…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",

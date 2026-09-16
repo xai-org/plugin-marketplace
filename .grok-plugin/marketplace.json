@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "kubera",
+      "description": "Query your live Kubera portfolio — net worth, assets, debts, allocation, performance and history — through Kubera's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kubera-apps/kubera-grok-plugin.git",
+        "sha": "f46521f1e628eb9e1e3397fce0d95a59fa33a7cd"
+      },
+      "homepage": "https://www.kubera.com",
+      "keywords": ["kubera", "net worth", "kubera portfolio"],
+      "domains": ["kubera.com"]
     }
   ]
 }
