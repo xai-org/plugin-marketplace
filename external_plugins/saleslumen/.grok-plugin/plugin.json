@@ -1,0 +1,14 @@
+{
+  "name": "saleslumen",
+  "version": "1.0.0",
+  "description": "Connect Grok to Saleslumen via the hosted MCP server. Manage Workflows, Emails, Campaigns, and Apps Script for the authenticated organization.",
+  "author": {
+    "name": "Saleslumen",
+    "url": "https://www.saleslumen.com"
+  },
+  "homepage": "https://www.saleslumen.com",
+  "repository": "https://github.com/saleslumen/saleslumen",
+  "license": "Apache-2.0",
+  "keywords": ["saleslumen", "saleslumen mcp", "saleslumen campaigns", "saleslumen emails", "saleslumen workflows", "saleslumen apps script"],
+  "logo": "assets/logo.svg"
+}

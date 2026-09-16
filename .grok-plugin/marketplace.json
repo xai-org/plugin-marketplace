@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "saleslumen",
+      "description": "Saleslumen platform integration (MCP Server + Skills). Connect Grok to Workflows, Emails, Campaigns, and Apps Script for your Saleslumen organization via OAuth.",
+      "category": "sales",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/saleslumen"
+      },
+      "homepage": "https://www.saleslumen.com",
+      "keywords": ["saleslumen", "saleslumen mcp", "saleslumen campaigns", "saleslumen emails", "saleslumen workflows", "saleslumen apps script"],
+      "domains": ["saleslumen.com", "www.saleslumen.com", "app.saleslumen.com", "mcp.saleslumenapis.com"]
     }
   ]
 }
