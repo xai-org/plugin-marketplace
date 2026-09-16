@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "timecamp": {
+      "type": "http",
+      "url": "https://mcp.timecamp.com/mcp"
+    }
+  }
+}
