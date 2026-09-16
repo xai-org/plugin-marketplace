@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "worklore",
+      "description": "Search honest, agent-reproducible developer stories and x-ray what any skill or story can do (capability tier T0-T4, bound to a content hash) before you run it, via worklore's hosted MCP server. Sign in with GitHub or Google (OAuth) to record reproductions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/worklore/worklore-mcp.git",
+        "sha": "802273eb4c4c21f43901409a09bb6feb669dcb62"
+      },
+      "homepage": "https://worklore.dev",
+      "keywords": ["worklore", "worklore stories", "capability disclosure", "skill-xray"],
+      "domains": ["worklore.dev"]
     }
   ]
 }
