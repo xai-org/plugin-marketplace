@@ -356,6 +356,18 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "timecamp",
+      "description": "Official TimeCamp time tracking integration (hosted OAuth MCP server). Start and stop timers, log and edit time entries, manage projects, tasks, task access and tags, and build timesheet and computer usage reports from your TimeCamp workspace.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/timecamp"
+      },
+      "homepage": "https://docs.timecamp.com/mcp-server",
+      "keywords": ["timecamp", "timecamp mcp", "timecamp timer", "timecamp timesheet", "timecamp time tracking"],
+      "domains": ["timecamp.com", "app.timecamp.com", "mcp.timecamp.com", "docs.timecamp.com"]
     }
   ]
 }

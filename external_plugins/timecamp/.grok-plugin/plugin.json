@@ -1,0 +1,17 @@
+{
+  "name": "timecamp",
+  "version": "1.0.0",
+  "description": "Track time and manage work in TimeCamp from Grok via the hosted MCP at mcp.timecamp.com: run timers, log and edit time entries, manage projects, tasks, task access and tags, and build timesheet and computer usage reports. Sign in with a TimeCamp account on first connect.",
+  "author": {
+    "name": "TimeCamp",
+    "url": "https://www.timecamp.com"
+  },
+  "homepage": "https://docs.timecamp.com/mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "timecamp",
+    "timecamp mcp",
+    "timecamp timer",
+    "timecamp timesheet"
+  ]
+}
