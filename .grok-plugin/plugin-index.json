@@ -414,8 +414,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0",
-      "version": "0.0.188",
+      "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
+      "version": "0.0.189",
       "components": {
         "skills": [
           {
@@ -620,7 +620,7 @@
       }
     },
     "pstack": {
-      "sha": "5bf2b1544db739998121a306340631963c2ff3de",
+      "sha": "c1c0a32802223f4be824112dd83d33ad29a8b26c",
       "components": {
         "agents": [
           {
@@ -907,8 +907,8 @@
       }
     },
     "stripe": {
-      "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
-      "version": "0.6.7",
+      "sha": "9dde68ae5ef35b015166abfd1f189f4c729f93ad",
+      "version": "0.7.0",
       "components": {
         "agents": [
           {
@@ -956,6 +956,10 @@
           {
             "name": "stripe-docs",
             "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
+          },
+          {
+            "name": "stripe-pay",
+            "description": "Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whet…"
           },
           {
             "name": "stripe-projects",
