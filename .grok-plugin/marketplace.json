@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
+        "sha": "9dde68ae5ef35b015166abfd1f189f4c729f93ad",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -274,7 +274,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "5bf2b1544db739998121a306340631963c2ff3de",
+        "sha": "c1c0a32802223f4be824112dd83d33ad29a8b26c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0"
+        "sha": "16ed22b43fa56157adadfb25f18a354197d497b9"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
