@@ -261,6 +261,24 @@
         ]
       }
     },
+    "fibery": {
+      "sha": "91a38503f007dd1268c67b40dd99ed246d94a0f9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fibery",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-fibery-mcp",
+            "description": "Use when working with a Fibery workspace — schema, databases, entities, queries, documents, or user guide. Prefer Fiber…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
       "version": "2.2.111",
