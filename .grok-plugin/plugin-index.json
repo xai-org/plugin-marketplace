@@ -900,6 +900,18 @@
         ]
       }
     },
+    "soku": {
+      "sha": "a03419c45124aecabe4a13e25e5415e0a4b7ef3a",
+      "version": "0.1.0-alpha.18",
+      "components": {
+        "skills": [
+          {
+            "name": "soku",
+            "description": "Use when calling Soku CLI capabilities from a shell: auth, workspace selection, ads/GA4/PostHog data reads, typed ads w…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "38d8933bffbdba219ba530803316bb3a4fbaee0d",
       "version": "0.7.1",
