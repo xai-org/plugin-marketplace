@@ -261,6 +261,24 @@
         ]
       }
     },
+    "fgac-mcp": {
+      "sha": "952a187c46d3210ad666367818dde3199c44a253",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fgac",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fgac",
+            "description": "Gmail, Google Sheets and Google Docs through the FGAC.ai hosted MCP server. Use when the user asks about their email, i…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
       "version": "2.2.111",
