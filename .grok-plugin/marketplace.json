@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/About-Intelligence/soku-cli.git",
-        "sha": "a03419c45124aecabe4a13e25e5415e0a4b7ef3a"
+        "sha": "ad6b8f27cd9c57123f2daeefc55e79ffdf6a9cf4"
       },
       "homepage": "https://soku.ai/cli",
       "keywords": ["soku", "soku cli", "soku ai"],
