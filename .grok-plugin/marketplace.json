@@ -369,6 +369,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "beehiiv",
+      "description": "beehiiv newsletter, website, podcast and community platform. Draft and publish posts, build website pages, manage subscribers and segments, run automations, publish podcast episodes, moderate communities, and read analytics.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/beehiiv/agents.git",
+        "sha": "f7f9ae192c04ebe6b856086d4352452720910afd",
+        "path": "plugins/beehiiv"
+      },
+      "homepage": "https://www.beehiiv.com",
+      "keywords": ["beehiiv", "beehiiv newsletter", "beehiiv post", "beehiiv mcp", "beehiiv publication"],
+      "domains": ["beehiiv.com", "app.beehiiv.com"]
     }
   ]
 }
