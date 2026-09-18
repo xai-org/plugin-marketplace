@@ -255,6 +255,20 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "airwallex",
+      "description": "Bring Airwallex's global financial infrastructure to AI coding agents. Orchestrate actions across your account in plain language—for example: set up invoices from a PO, onboard suppliers from invoices, issue cards with spend limits, and check current cash position across currencies. AgentOS bundles pre-built finance Skills with MCP servers (and the airwallex CLI). Money-out actions are intentionally excluded.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airwallex/airwallex-marketplace.git",
+        "sha": "b418b9913e4919f85257aa1e25319e59464e8fae",
+        "path": "plugins/airwallex-agentos"
+      },
+      "homepage": "https://www.airwallex.com",
+      "keywords": ["airwallex", "airwallex billing", "airwallex payouts", "airwallex issuing", "airwallex mcp"],
+      "domains": ["airwallex.com", "www.airwallex.com", "sandbox.airwallex.com"]
+    },
+    {
       "name": "supabase",
       "description": "Official Supabase plugin for Grok Build with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
       "category": "database",
