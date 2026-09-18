@@ -369,6 +369,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "botdirectory",
+      "description": "Browse and publish Grok bot templates on botdirectory.org — the open, ad-free catalog of copy-paste Grok bots that complements Grok's curated in-app Bots shelf. Search proven templates before building a new Grok bot, and publish your own after a one-time LinkedIn sign-in.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/botdirectory"
+      },
+      "homepage": "https://botdirectory.org",
+      "keywords": ["botdirectory", "bot directory", "grok bot template", "grok bot directory", "publish grok bot"],
+      "domains": ["botdirectory.org"]
     }
   ]
 }

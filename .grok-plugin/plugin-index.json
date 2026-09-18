@@ -71,6 +71,17 @@
         ]
       }
     },
+    "botdirectory": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "botdirectory",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
