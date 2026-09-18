@@ -101,6 +101,24 @@
         ]
       }
     },
+    "bulktranscripts": {
+      "sha": "10a192163a5816b644b96078265c2f7e610babfe",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bulktranscripts",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "youtube-transcripts",
+            "description": "Fetch YouTube video transcripts, search YouTube, list channel or playlist videos, run a background bulk job for a whole…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
