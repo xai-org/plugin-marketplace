@@ -43,6 +43,24 @@
         ]
       }
     },
+    "ballet": {
+      "sha": "35edf84f121ccb8d5d7eef19965365c7ad0edf36",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ballet",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ballet",
+            "description": "Author and operate Ballet workspaces — playbooks, agents, skills, HTTP tools, connectors, secrets, and persistent data…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
