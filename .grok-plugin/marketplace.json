@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "markifact",
+      "description": "Markifact marketing integration. Audit ad spend, launch campaigns, rotate creative, and pull reporting across Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, GA4, Shopify, HubSpot, and 20+ more platforms. 1000+ operations with human-in-the-loop approval on every write.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/markifact/markifact-mcp.git",
+        "sha": "9c354821b4015c17af1b2a389d249766d0c0b7e8"
+      },
+      "homepage": "https://www.markifact.com",
+      "keywords": ["markifact", "markifact mcp", "markifact marketing"],
+      "domains": ["markifact.com"]
     }
   ]
 }
