@@ -395,6 +395,18 @@
         ]
       }
     },
+    "firsttouch": {
+      "sha": "ff5e6a65a3407bd16d6cefd274326d93fe6db24e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "firsttouch",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
