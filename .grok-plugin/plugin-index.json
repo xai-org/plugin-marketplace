@@ -854,6 +854,34 @@
         ]
       }
     },
+    "runway": {
+      "sha": "f56e77a713796c0667f266aa4b183f1e226230ea",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "runway",
+            "description": "Generate, edit, and manage images, video, and audio with the connected Runway MCP tools."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "runway",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "runway-media",
+            "description": "Generate and edit images, video, music, speech, and sound effects with Runway MCP. Use when the user asks to create, an…"
+          },
+          {
+            "name": "runway-workflows",
+            "description": "Build, inspect, validate, and run Runway editor workflow graphs via MCP. Use when the user asks to create, edit, list,…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

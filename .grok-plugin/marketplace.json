@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "runway",
+      "description": "Generate images, videos, music, speech, and sound effects with Runway (hosted MCP server + skills). Gen-4.5, Aleph, Seedance, Kling, GPT Image and more. Sign in with your Runway account; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/runwayml/runway-mcp-plugin.git",
+        "sha": "f56e77a713796c0667f266aa4b183f1e226230ea"
+      },
+      "homepage": "https://runway.com/mcp",
+      "keywords": ["runway", "runwayml", "runway mcp", "runway video", "runway gen-4.5"],
+      "domains": ["runway.com", "runwayml.com", "app.runwayml.com", "mcp.runwayml.com"]
     }
   ]
 }
