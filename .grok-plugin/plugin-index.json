@@ -854,6 +854,24 @@
         ]
       }
     },
+    "robowrite": {
+      "sha": "08ec65303cd1c14b458e1a703e443dd3d9e22947",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "robowrite",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "robowrite-content-ops",
+            "description": "Use when finding or resuming RoboWrite content work, or creating a content strategy, reviewed brief, or saved Markdown…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
