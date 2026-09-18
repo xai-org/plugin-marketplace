@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "airops": {
+      "sha": "4d7ef52617828d5af960a6a0f84e5af572c09bdd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "airops",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
