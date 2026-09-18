@@ -71,6 +71,24 @@
         ]
       }
     },
+    "briven": {
+      "sha": "e0c5eb93187ec7bb48493249c9dcf8235e175bd8",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "briven",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "briven",
+            "description": "Use Briven serverless PostgreSQL (briven.tech) from an app or agent. Triggers: briven, briven.tech, briven mcp, briven…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
