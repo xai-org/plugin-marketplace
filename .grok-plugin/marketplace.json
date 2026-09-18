@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "accountsos",
+      "description": "AI-native accounting across 26 countries. Query transactions and balances, manage VAT and MTD, track HMRC and Companies House deadlines, log expenses, and chase invoices through the hosted AccountsOS MCP server. The bundled tax knowledge skills are GB-only for now, verified for the 2026/27 tax year: the UK is the proof jurisdiction with live HMRC MTD VAT filing, and the other 25 countries run as jurisdiction playbooks in the product.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thriveventurelabs/accountsos-agent-plugin.git",
+        "sha": "cea7b03927f226eb9db250668a655f670c3c6fc7"
+      },
+      "homepage": "https://accounts-os.com",
+      "keywords": ["accountsos", "accounts-os", "accountsos vat", "finn accountant"],
+      "domains": ["accounts-os.com"]
     }
   ]
 }
