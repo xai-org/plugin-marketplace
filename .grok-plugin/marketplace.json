@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "unity",
+      "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "ba48956ae8bee4ef8a3ef3d75dec03c16aa5cc89"
+      },
+      "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
+      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     }
   ]
 }
