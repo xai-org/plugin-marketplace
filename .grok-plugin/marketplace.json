@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "patch-mcp",
+      "description": "Give Grok a phone line. Patch MCP places real phone calls from the user's own verified number through a hosted MCP server: a voice agent introduces itself as an AI calling on the user's behalf, books the table, asks the question or chases the order, and returns a structured outcome, the transcript and a recording. 10 free calls, no sign-up: the verified number is the account. Built on Grok end to end: xAI's Voice Agent API speaks on the call and a Grok text model screens objectives and extracts the result.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manu-labs/patch-mcp-grok-plugin.git",
+        "sha": "ab0a480fab041711a39c0bbda31c43d98effe16e"
+      },
+      "homepage": "https://www.patchmcp.com",
+      "keywords": ["patch mcp", "patchmcp", "patch-mcp"],
+      "domains": ["patchmcp.com", "www.patchmcp.com"]
     }
   ]
 }
