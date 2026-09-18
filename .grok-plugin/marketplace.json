@@ -369,6 +369,23 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "classwise",
+      "description": "Read authorized ClassWise school and district academic structure, schedules, and privacy-protected aggregate enrollment through a hosted read-only MCP server.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FaithfulAudio/classwise-plugin.git",
+        "sha": "c04e4dbdb4eaf8a1e5425f079898cbfd98ce18fd",
+        "path": "."
+      },
+      "homepage": "https://class-wise.com/mcp/",
+      "keywords": ["classwise", "classwise mcp", "classwise school insights", "classwise district insights"],
+      "domains": ["class-wise.com", "mcp.class-wise.com", "auth.class-wise.com"],
+      "version": "1.0.0",
+      "author": "Faithful Development",
+      "tags": ["education", "read-only", "oauth"]
     }
   ]
 }
