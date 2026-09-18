@@ -237,6 +237,24 @@
         ]
       }
     },
+    "doctorsim": {
+      "sha": "80f196c64d9a91bdef500826088fc929cd5823ec",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "doctorsim",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "doctorsim-commerce",
+            "description": "Buy mobile top-ups, gift cards, and travel eSIMs through doctorSIM MCP. Use when the user wants airtime, a digital gift…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
