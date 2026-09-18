@@ -346,6 +346,19 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "send",
+      "description": "Create any HTML and Send publishes it as a sharable link. Host on your domain, control who can access, and get analytics on all your sites.",
+      "category": "documents-and-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/send-co/send-plugin.git",
+        "sha": "57a73d29e397f3959e4642fea15c39ce2a02984f"
+      },
+      "homepage": "https://www.send.co",
+      "keywords": ["send.co", "send mcp", "publish to send.co"],
+      "domains": ["send.co", "www.send.co"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
