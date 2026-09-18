@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "encited",
+      "description": "Encited SEO and AI-search intelligence (hosted MCP + skill). Ask about your own site's crawl logs, index status, Search Console data, technical audits, keyword research, and AI visibility, then run audits, content workflows, and client reports from Grok Build. Sign in with an Encited account.",
+      "category": "seo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Encited/ai-plugin.git",
+        "sha": "3309bebe73026e49b2528d8d9587dc717d0e985d"
+      },
+      "homepage": "https://encited.com/seo-mcp",
+      "keywords": ["encited", "encited mcp", "encited seo", "encited aeo", "encited geo", "encited google search console", "encited gsc", "encited ai search analytics", "encited ai visibility", "encited keyword research", "encited site audit", "encited crawl logs", "encited prerendering"],
+      "domains": ["encited.com"]
     }
   ]
 }
