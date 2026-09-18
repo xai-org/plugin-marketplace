@@ -395,6 +395,24 @@
         ]
       }
     },
+    "grokline": {
+      "sha": "6146a3f458163cd2dc663a64368b790c91583ddb",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grokline",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "grokline",
+            "description": "Give this Grok Bot a real US phone number via GrokLine ($3/month). Use when the user wants to text or SMS from the bot,…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
