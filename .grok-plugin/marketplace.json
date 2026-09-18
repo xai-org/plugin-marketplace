@@ -369,6 +369,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "whatsetter",
+      "description": "WhatSetter, the AI appointment setter on WhatsApp. Work your leads, conversations, bookings and campaigns through the hosted WhatSetter MCP (OAuth, no key to configure), with anti-ban built in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/whatsetter/whatsetter-plugin.git",
+        "sha": "e32b71c5a494c1164b91c299c765d295b1a0b56d"
+      },
+      "homepage": "https://docs.whatsetter.com/developers/mcp/",
+      "keywords": [
+        "whatsetter",
+        "whatsetter ai",
+        "whatsetter leads",
+        "whatsetter campaign"
+      ],
+      "domains": [
+        "whatsetter.com",
+        "app.whatsetter.com",
+        "mcp.whatsetter.com"
+      ]
     }
   ]
 }

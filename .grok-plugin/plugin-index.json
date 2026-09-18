@@ -1341,6 +1341,46 @@
         ]
       }
     },
+    "whatsetter": {
+      "sha": "e32b71c5a494c1164b91c299c765d295b1a0b56d",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "bookings",
+            "description": "Report the meetings booked by the WhatSetter AI setter, grouped by campaign."
+          },
+          {
+            "name": "briefing",
+            "description": "Read-only WhatSetter briefing: new replies, leads waiting on us, meetings booked, campaign and number health."
+          },
+          {
+            "name": "campaign",
+            "description": "Show, pause or resume a WhatSetter campaign by name."
+          },
+          {
+            "name": "import",
+            "description": "Import contacts into a WhatSetter list after a preview. The campaign attached to the list makes first contact at the an…"
+          },
+          {
+            "name": "inbox",
+            "description": "Triage the WhatSetter WhatsApp inbox and draft replies. Nothing is sent without explicit approval."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "whatsetter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whatsetter",
+            "description": "Operate a WhatSetter workspace (AI appointment setter on WhatsApp) through the WhatSetter MCP tools. Use when the user…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "0bb9e628fae4f2999006cb239bb306b2b7fe8308",
       "version": "1.19.1",
