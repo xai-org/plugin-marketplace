@@ -988,6 +988,18 @@
         ]
       }
     },
+    "superlist": {
+      "sha": "62ecafec6c5892c1b23bda2f7fcf8d29308dd67f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "superlist",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
       "version": "6.3.0",
