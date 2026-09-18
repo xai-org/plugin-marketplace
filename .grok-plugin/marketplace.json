@@ -369,6 +369,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "sugra-api",
+      "description": "Official Sugra API skills. Work over HTTPS and MCP. One key, seven product directions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Sugra-Systems/sugra-api-skills.git",
+        "sha": "befa4551af1339a924ae1b4f2893d2a0da7d6cad",
+        "path": "plugins/sugra-api"
+      },
+      "homepage": "https://github.com/Sugra-Systems/sugra-api-skills",
+      "keywords": ["sugra", "sugra.ai", "sugra api", "mcp.sugra.ai"],
+      "domains": ["sugra.ai", "docs.sugra.ai", "app.sugra.ai", "mcp.sugra.ai", "sugra.systems"]
     }
   ]
 }
