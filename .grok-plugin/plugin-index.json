@@ -854,6 +854,23 @@
         ]
       }
     },
+    "sealgate": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sealgate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sealgate",
+            "description": "Route third-party tool calls through the SealGate MCP gateway first. Use whenever the user asks to interact with a thir…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
