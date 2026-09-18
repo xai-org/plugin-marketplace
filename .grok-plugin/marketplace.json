@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "soku",
+      "description": "Soku CLI for growth teams: read Google, Meta, TikTok and ChatGPT Ads, GA4 and PostHog data, publish SEO pages, and open review-gated campaign changes for human approval.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/About-Intelligence/soku-cli.git",
+        "sha": "ad6b8f27cd9c57123f2daeefc55e79ffdf6a9cf4"
+      },
+      "homepage": "https://soku.ai/cli",
+      "keywords": ["soku", "soku cli", "soku ai"],
+      "domains": ["soku.ai"]
     }
   ]
 }
