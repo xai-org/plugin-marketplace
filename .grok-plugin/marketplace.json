@@ -369,6 +369,22 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "korean-prose-editor",
+      "description": "Local Korean prose copyeditor that preserves claims, numbers, quotes, and document structure. Use for /copyedit, Korean revision, and translationese cleanup.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rp0927/korean-prose-editor.git",
+        "sha": "0b3c0706ebd8962a79d88b74f9b57fa0d3c51e72"
+      },
+      "homepage": "https://github.com/rp0927/korean-prose-editor",
+      "keywords": [
+        "korean-prose-editor",
+        "korean copyedit",
+        "copyedit korean"
+      ]
     }
   ]
 }
