@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "my-privacy-agent",
+      "description": "Get your home address, phone number, and email off people-search and data-broker sites. Read-only tools from My Privacy Agent return verified opt-out steps, the documented removal route for 950+ sites, and privacy library search; no account or key. Sign in to read your own report and case status, queue a re-check, or file the requests you already approved. Includes the privacy-removal skill.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/myprivacyagent/grok-plugin.git",
+        "sha": "7945cbdee8bb8d18aaff170d2239ac52f9ed35ef"
+      },
+      "homepage": "https://myprivacyagent.com/for/grok",
+      "keywords": ["my privacy agent", "myprivacyagent", "leak check me", "people-search opt-out", "spokeo opt out", "whitepages opt out", "fastpeoplesearch removal"],
+      "domains": ["myprivacyagent.com", "www.myprivacyagent.com", "leakcheckme.com"]
     }
   ]
 }
