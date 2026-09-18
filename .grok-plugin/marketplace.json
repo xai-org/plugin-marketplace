@@ -369,6 +369,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "keito",
+      "description": "Official Keito time tracking and agent-billing plugin for Grok Build. Start and stop project timers, log completed work and LLM usage, record expenses, and review project time through Keito's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/osodevops/keito-grok-plugin.git",
+        "sha": "35744aaf4672216b4ab37d99fe871549739c5e96"
+      },
+      "homepage": "https://keito.ai/docs/integrations/grok-build",
+      "keywords": [
+        "keito",
+        "keito time tracking",
+        "keito agent billing",
+        "keito mcp"
+      ],
+      "domains": [
+        "keito.ai",
+        "app.keito.ai",
+        "mcp.keito.ai"
+      ]
     }
   ]
 }
