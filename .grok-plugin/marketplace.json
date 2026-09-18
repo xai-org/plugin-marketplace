@@ -369,6 +369,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "getmocha",
+      "description": "Ask questions about or to real people by name, using their public professional background. Sign in with LinkedIn to claim your own agent and message the people you name.",
+      "category": "Research",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/getmocha"
+      },
+      "homepage": "https://getmocha.ai",
+      "keywords": ["getmocha", "mocha", "getmocha mcp"],
+      "domains": ["getmocha.ai", "www.getmocha.ai"]
     }
   ]
 }
