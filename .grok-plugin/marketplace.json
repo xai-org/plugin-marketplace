@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "grokline",
+      "description": "Give your Grok Bot a real US phone number for $3/month. Send and receive SMS via GrokLine (Bricks7 LLC). Not affiliated with xAI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brettricks7/grokline-plugin.git",
+        "sha": "6146a3f458163cd2dc663a64368b790c91583ddb"
+      },
+      "homepage": "https://github.com/brettricks7/grokline-plugin",
+      "keywords": ["grokline", "grokline phone", "grokline sms"],
+      "domains": ["grokline.dev"]
     }
   ]
 }
