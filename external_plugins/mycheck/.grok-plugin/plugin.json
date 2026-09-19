@@ -13,5 +13,6 @@
     "mycheck checklist",
     "mycheck uscis",
     "mycheck mcp"
-  ]
+  ],
+  "logo": "assets/logo.png"
 }
