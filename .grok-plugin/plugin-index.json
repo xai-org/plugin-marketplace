@@ -613,6 +613,24 @@
         ]
       }
     },
+    "pipe0": {
+      "sha": "c127aaddeea86c72021b253b825a609a70f15a4d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pipe0",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pipe0",
+            "description": "Read this before using pipe0, and again on any pipe0 connection error. pipe0 is a hosted MCP server for finding people…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e31650eea443aaea1e84cc15d88c13f40080b275",
       "components": {
