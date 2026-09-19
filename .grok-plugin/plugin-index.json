@@ -407,6 +407,78 @@
         ]
       }
     },
+    "hypd-ai-ads": {
+      "sha": "66fa5201e694bc6797edef17581761d539d3f663",
+      "version": "1.2.5",
+      "components": {
+        "commands": [
+          {
+            "name": "attribution",
+            "description": "Compare GA4 attribution models — Data-Driven vs Last-Click — and show where credit moves"
+          },
+          {
+            "name": "audit",
+            "description": "Full Google Ads account audit — structure, settings, tracking and performance, ranked by impact"
+          },
+          {
+            "name": "creative",
+            "description": "Analyze ad creatives — your own account, uploads, or competitors via the ad libraries"
+          },
+          {
+            "name": "feed-audit",
+            "description": "Audit Merchant Center feed quality — disapprovals, attributes, identifiers, custom labels"
+          },
+          {
+            "name": "keywords",
+            "description": "Keyword research — for a new search campaign or to expand an existing one, with volumes and CPCs"
+          },
+          {
+            "name": "landing-page",
+            "description": "Technical landing-page audit — speed, quality and conversion checks on a live URL"
+          },
+          {
+            "name": "meta-audit",
+            "description": "Full Meta Ads account audit, tailored to ecommerce or lead-gen automatically"
+          },
+          {
+            "name": "negatives",
+            "description": "Mine search terms for negative keyword candidates in a Google Ads account"
+          },
+          {
+            "name": "prompts",
+            "description": "Browse HYPD's full prompt library — ready-to-run analyses by category and platform"
+          },
+          {
+            "name": "report",
+            "description": "Client-ready monthly performance report for a Google Ads account"
+          },
+          {
+            "name": "wasted-spend",
+            "description": "Find wasted Google Ads spend and efficiency losses, with the money behind each finding"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "hypd",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hypd-getting-started",
+            "description": "Connect HYPD and your ad accounts. Use when HYPD is not connected yet, a HYPD tool returns an authentication error, or…"
+          },
+          {
+            "name": "hypd-overview",
+            "description": "What the HYPD plugin can do — platforms, analyses and slash commands. Use when the user asks what HYPD is, what it can…"
+          },
+          {
+            "name": "hypd-tools",
+            "description": "How HYPD's tools work and the invariants to respect when calling them. Load before the first HYPD tool call in a sessio…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",
