@@ -460,6 +460,28 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "coderifts",
+      "description": "Signed, offline-verifiable authorization for AI-agent contract changes. Only a granted change can proceed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coderifts/api-governance.git",
+        "sha": "6f45ae5a476d4ac9467eb744a9095f673fc3f1f4",
+        "path": "plugins/api-governance"
+      },
+      "homepage": "https://coderifts.com",
+      "keywords": [
+        "coderifts",
+        "coderifts mcp",
+        "coderifts preflight",
+        "signed receipt"
+      ],
+      "domains": [
+        "coderifts.com",
+        "app.coderifts.com"
+      ]
     }
   ]
 }
