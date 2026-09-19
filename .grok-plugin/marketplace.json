@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "zensched",
+      "description": "Field workforce scheduling for AI agents. Schedule shifts, GPS-verified check-ins, mobile forms, and timesheet exports via the hosted ZenSched MCP server — no dashboard required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zenschedmcp/zensched.git",
+        "sha": "a4d6c3d273d19c642bacf80fed821b7627806a48"
+      },
+      "homepage": "https://www.zensched.com",
+      "keywords": ["zensched", "zensched mcp", "field workforce scheduling", "gps verify", "field crew"],
+      "domains": ["zensched.com", "mcp.zensched.com"]
     }
   ]
 }
