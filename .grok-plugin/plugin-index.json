@@ -1406,6 +1406,23 @@
           }
         ]
       }
+    },
+    "yantrikdb": {
+      "sha": "364e19a5b33a6c4a81f46fa9eaee5ddce68fcfa3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yantrikdb",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "persistent-memory",
+            "description": "Give this agent durable memory across sessions using YantrikDB. Use at the start of every session to load prior context…"
+          }
+        ]
+      }
     }
   }
 }

@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "yantrikdb",
+      "description": "Persistent cognitive memory for AI agents: semantic recall, a knowledge graph, contradiction detection, and procedural learning. Local-first — one SQLite file, no account, no telemetry.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yantrikos/yantrikdb-mcp.git",
+        "sha": "364e19a5b33a6c4a81f46fa9eaee5ddce68fcfa3"
+      },
+      "homepage": "https://yantrikdb.com",
+      "keywords": ["yantrikdb", "memory", "agent memory", "recall", "knowledge graph", "persistent memory"],
+      "domains": ["yantrikdb.com", "packs.yantrikdb.com"]
     }
   ]
 }
