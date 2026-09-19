@@ -237,6 +237,24 @@
         ]
       }
     },
+    "datalum": {
+      "sha": "dc69633f48f2edf36f85a5b6177ccc326d03a43b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datalum",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datalum",
+            "description": "Company data in Datalum through the agent the user was granted: metrics, datasets, charts, dashboards and the model. Us…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
