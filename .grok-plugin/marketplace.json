@@ -369,6 +369,27 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "teslemetry",
+      "description": "Teslemetry integration for Tesla vehicles and energy products (hosted MCP + skill). Sign in with a Teslemetry account to read live vehicle and Powerwall telemetry, manage streamed fields, and send vehicle and energy commands from Grok.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/teslemetry"
+      },
+      "homepage": "https://teslemetry.com",
+      "keywords": [
+        "teslemetry",
+        "tesla api",
+        "powerwall",
+        "tesla fleet api",
+        "tesla telemetry"
+      ],
+      "domains": [
+        "teslemetry.com",
+        "api.teslemetry.com"
+      ]
     }
   ]
 }
