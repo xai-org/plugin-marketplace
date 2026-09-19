@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517"
+        "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "8524c7692121b66ea7a4a3ab887bd4875d7b739f"
+        "sha": "b113bc85757a20df478dcbe9ade81ec4b01d580f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "da4991b0a0b9299d423ae2d5856e6d7e2b31b031",
+        "sha": "82d5d332c2eff45581030dcaf9f8ebabd28d0c88",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -274,7 +274,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "e31650eea443aaea1e84cc15d88c13f40080b275",
+        "sha": "032be146865d973682535de75f2287da438550bf",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",

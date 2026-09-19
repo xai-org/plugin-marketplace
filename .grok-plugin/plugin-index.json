@@ -529,8 +529,8 @@
       }
     },
     "netlify": {
-      "sha": "8524c7692121b66ea7a4a3ab887bd4875d7b739f",
-      "version": "1.4.1",
+      "sha": "b113bc85757a20df478dcbe9ade81ec4b01d580f",
+      "version": "1.5.0",
       "components": {
         "mcpServers": [
           {
@@ -541,7 +541,7 @@
         "skills": [
           {
             "name": "netlify-access-control",
-            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+            "description": "Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — ap…"
           },
           {
             "name": "netlify-agent-runner",
@@ -549,11 +549,11 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+            "description": "Store and retrieve unstructured data like file uploads, images, documents, JSON, and cache-like state with Netlify Blob…"
           },
           {
             "name": "netlify-caching",
@@ -561,7 +561,7 @@
           },
           {
             "name": "netlify-config",
-            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+            "description": "Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or pu…"
           },
           {
             "name": "netlify-database",
@@ -569,7 +569,7 @@
           },
           {
             "name": "netlify-deploy",
-            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+            "description": "Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, run…"
           },
           {
             "name": "netlify-edge-functions",
@@ -589,7 +589,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
           },
           {
             "name": "netlify-image-cdn",
@@ -614,7 +614,7 @@
       }
     },
     "pstack": {
-      "sha": "e31650eea443aaea1e84cc15d88c13f40080b275",
+      "sha": "032be146865d973682535de75f2287da438550bf",
       "components": {
         "agents": [
           {
@@ -901,8 +901,8 @@
       }
     },
     "stripe": {
-      "sha": "da4991b0a0b9299d423ae2d5856e6d7e2b31b031",
-      "version": "0.7.2",
+      "sha": "82d5d332c2eff45581030dcaf9f8ebabd28d0c88",
+      "version": "0.8.0",
       "components": {
         "agents": [
           {
@@ -934,6 +934,10 @@
           {
             "name": "connect-required-verification-information",
             "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
+          },
+          {
+            "name": "metronome",
+            "description": "Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable m…"
           },
           {
             "name": "stripe-apps",
@@ -989,8 +993,8 @@
       }
     },
     "superpowers": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
-      "version": "6.3.0",
+      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "version": "6.4.1",
       "components": {
         "hooks": [
           {
@@ -1004,12 +1008,16 @@
             "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
           },
           {
+            "name": "diagnosing-superpowers",
+            "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stum…"
+          },
+          {
             "name": "dispatching-parallel-agents",
             "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
           },
           {
             "name": "executing-plans",
-            "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+            "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose…"
           },
           {
             "name": "finishing-a-development-branch",
@@ -1139,8 +1147,8 @@
       }
     },
     "vercel": {
-      "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517",
-      "version": "0.49.2",
+      "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
+      "version": "0.50.0",
       "components": {
         "agents": [
           {
@@ -1279,6 +1287,10 @@
             "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
           },
           {
+            "name": "queues",
+            "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
+          },
+          {
             "name": "react-best-practices",
             "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
           },
@@ -1300,7 +1312,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
           },
           {
             "name": "vercel-cli",
