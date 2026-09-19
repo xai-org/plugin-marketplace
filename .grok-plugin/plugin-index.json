@@ -215,6 +215,23 @@
         ]
       }
     },
+    "context7": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "context7",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-docs",
+            "description": "Retrieves up-to-date documentation, API references, and code examples for any developer technology. Use this skill when…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
