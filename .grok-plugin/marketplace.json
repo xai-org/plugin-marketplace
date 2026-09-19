@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "datalum",
+      "description": "Datalum governed data layer (MCP Server + Skill). Work through the agent your company granted you: read the published data model, run metrics, datasets, charts and dashboards, and draft catalog changes that go live only after a person approves them. Sign in with a Datalum account on first connection.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vinden-NewAge/datalum-plugin.git",
+        "sha": "dc69633f48f2edf36f85a5b6177ccc326d03a43b"
+      },
+      "homepage": "https://datalum.ai",
+      "keywords": ["datalum", "datalum mcp", "datalum datahub"],
+      "domains": ["datalum.ai", "datahub.vinden.cc", "mcp.datahub.vinden.cc"]
     }
   ]
 }
