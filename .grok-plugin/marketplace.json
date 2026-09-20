@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "anew",
+      "description": "Free webpages: websites that live in the URL. Encode a self-contained HTML document into a shareable anew.page URL, and read the HTML back out of one, directly from Grok. No account, no hosting, no deploy step.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/round/anew.page.git",
+        "sha": "48e732eda951bb12ddd6aa6d1d848978b038aaea"
+      },
+      "homepage": "https://anew.page",
+      "keywords": ["anew.page", "anew page", "anew url"],
+      "domains": ["anew.page"]
     }
   ]
 }
