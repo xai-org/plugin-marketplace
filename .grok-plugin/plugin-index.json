@@ -395,6 +395,24 @@
         ]
       }
     },
+    "gomind": {
+      "sha": "bce365954fe0e4647f4a4ae5e145c7dbf3aad505",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gomind",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gomind",
+            "description": "Persistent knowledge graph via the hosted GoMind MCP server. Use when the user wants to remember facts, recall stored k…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
