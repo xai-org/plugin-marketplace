@@ -369,6 +369,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "chatco-experts",
+      "description": "Ask your Chat.co experts and open the documents supporting their answers.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/01-Atlas/chatco-experts.git",
+        "sha": "cf4ab5955d6bacb4b8fbc75c10c33699d7d8ba2c"
+      },
+      "homepage": "https://github.com/01-Atlas/chatco-experts",
+      "keywords": [
+        "chatco",
+        "chat.co"
+      ],
+      "domains": [
+        "chat.co"
+      ]
     }
   ]
 }

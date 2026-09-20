@@ -101,6 +101,24 @@
         ]
       }
     },
+    "chatco-experts": {
+      "sha": "cf4ab5955d6bacb4b8fbc75c10c33699d7d8ba2c",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chatco",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chatco-experts",
+            "description": "Ask the user's Chat.co experts questions and use their cited evidence. Use for requests about an expert or knowledge he…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
       "version": "1.9.0",
