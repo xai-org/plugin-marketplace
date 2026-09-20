@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Clipy">
+  <defs>
+    <linearGradient id="clipyMarkGrad" x1="20" y1="18" x2="45" y2="49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6A3D"/>
+      <stop offset="0.55" stop-color="#FF4D29"/>
+      <stop offset="1" stop-color="#FF2778"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(32 31.5) rotate(-18) scale(1.38) translate(-16.5 -20)">
+    <path d="M6 4 L6 32 L13 25 L18 36 L22 34.5 L18 23 L27 23 Z" fill="url(#clipyMarkGrad)"/>
+  </g>
+  <circle cx="48.3" cy="48.3" r="4.5" fill="#FF4D29"/>
+</svg>

@@ -369,6 +369,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "clipy",
+      "description": "Read and create Clipy screen recordings (hosted MCP server + skill). Search across your whole recording library and pull transcripts, AI summaries, and timestamped key moments with cursor and click evidence — so an agent can read a bug report or walkthrough instead of guessing. Also turns screenshots or a tool-native WebM/MP4 into a shareable proof link. Sign in with a free Clipy account on first connect.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/clipy"
+      },
+      "homepage": "https://clipy.online",
+      "keywords": ["clipy", "clipy recording", "clipy proof", "arec"],
+      "domains": ["clipy.online"]
     }
   ]
 }

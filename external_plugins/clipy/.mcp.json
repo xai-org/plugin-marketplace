@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clipy": {
+      "type": "http",
+      "url": "https://clipy.online/api/mcp"
+    }
+  }
+}
