@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "tribenest",
+      "description": "Run an independent business from Grok. Build and publish the website, sell products, tickets, courses and memberships, take bookings, invoice clients, and run email and social campaigns.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tribenest/grok-plugin.git",
+        "sha": "b4d48d60fd661f8ecede5608828bdbf2a38c6d2a"
+      },
+      "homepage": "https://github.com/tribenest/grok-plugin",
+      "keywords": ["tribenest", "tribenest website", "tribenest store", "tribenest events", "tribenest mcp"],
+      "domains": ["tribenest.co"]
     }
   ]
 }

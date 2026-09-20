@@ -1146,6 +1146,36 @@
         ]
       }
     },
+    "tribenest": {
+      "sha": "b4d48d60fd661f8ecede5608828bdbf2a38c6d2a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tribenest",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tribenest-analyse-performance",
+            "description": "Answer \"how is X doing\" and \"why did Y change\" for a TribeNest business. Use for questions about revenue, sales, traffi…"
+          },
+          {
+            "name": "tribenest-build-a-website",
+            "description": "Build, preview and publish a TribeNest website. Use whenever someone asks to build, edit, restyle, preview, publish or…"
+          },
+          {
+            "name": "tribenest-launch-and-sell",
+            "description": "Take a TribeNest offer from nothing to live and announced. Use when someone wants to launch or sell an event, workshop,…"
+          },
+          {
+            "name": "tribenest-run-the-business",
+            "description": "Find and run any TribeNest business capability through the action registry. Use FIRST whenever a request touches the cr…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
       "version": "0.50.0",
