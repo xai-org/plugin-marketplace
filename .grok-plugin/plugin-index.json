@@ -900,6 +900,18 @@
         ]
       }
     },
+    "sonar-aso": {
+      "sha": "d5e9e2b6ea9151296150e110e834abb88e9f8934",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sonar",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "82d5d332c2eff45581030dcaf9f8ebabd28d0c88",
       "version": "0.8.0",
