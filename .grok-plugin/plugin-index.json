@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "agentzia": {
+      "sha": "6498108d2c8657aaa7667e60e96d6f82ef491869",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentzia",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentzia-optimize",
+            "description": "Analyze why AI assistants recommend competing products and improve public landing pages using Agentzia reports. Use for…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
