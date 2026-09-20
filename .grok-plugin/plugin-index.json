@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "anew": {
-      "sha": "48e732eda951bb12ddd6aa6d1d848978b038aaea",
+      "sha": "931e85f156cc189cffc317a8e20a07f1fd9770dc",
       "version": "1.0.0",
       "components": {
         "mcpServers": [

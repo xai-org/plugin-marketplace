@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/round/anew.page.git",
-        "sha": "48e732eda951bb12ddd6aa6d1d848978b038aaea"
+        "sha": "931e85f156cc189cffc317a8e20a07f1fd9770dc"
       },
       "homepage": "https://anew.page",
       "keywords": ["anew.page", "anew page", "anew url"],
