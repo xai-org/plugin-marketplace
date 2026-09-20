@@ -1,0 +1,12 @@
+{
+  "name": "trades-supply-scout",
+  "description": "US trades material takeoffs and multi-supplier posted-price comparison for electrical, plumbing, HVAC, carpentry, roofing, and concrete. Skills-only in v0.1. Not an official supplier plugin.",
+  "category": "productivity",
+  "source": {
+    "source": "url",
+    "url": "https://github.com/dcrandall2481-rgb/trades-supply-scout.git",
+    "sha": "83094dda7ea2f91881598251bcc2f0e40c5043a1"
+  },
+  "homepage": "https://github.com/dcrandall2481-rgb/trades-supply-scout",
+  "keywords": ["trades-supply-scout", "yard-buyer", "material-takeoff"]
+}
