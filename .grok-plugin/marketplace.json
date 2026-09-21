@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "simplepost",
+      "description": "Publish, schedule, draft, preview, inspect, and manage social posts through SimplePost.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/simple-post/core.git",
+        "sha": "8be5bbb339290265116e2910a4b75e69ae0cf0a2"
+      },
+      "homepage": "https://simplepost.social",
+      "keywords": ["simplepost", "simplepost social publishing", "simplepost scheduling", "simplepost mcp"],
+      "domains": ["simplepost.social", "app.simplepost.social"]
     }
   ]
 }
