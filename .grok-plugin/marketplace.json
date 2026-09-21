@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "blindoracle",
+      "description": "BlindOracle agent marketplace: give Bots a passport, a reputation and a way to pay other agents. 39 pay-per-call SKUs (trust badge, security audits, cited research, data lookups, deliberation, dispute adjudication) over x402 in USDC on Base; free ERC-8004 passport; signed proof on every deliverable; counterparty-risk controls for buying or selling A2A (pre-hire check, 72h buyer release window, payer binding, witness before release, dispute settlement); nine Grok Bot fleet roles that self-onboard from one pasted line.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/craigmbrown/blindoracle-plugin.git",
+        "sha": "de6c097f2d6b586c3b604c610ea725f38837db46"
+      },
+      "homepage": "https://craigmbrown.com/blindoracle/grok-bot-kit/",
+      "keywords": ["blindoracle", "agent marketplace", "x402", "agent trust", "erc-8004", "a2a payments", "counterparty risk"],
+      "domains": ["craigmbrown.com", "api.craigmbrown.com"]
     }
   ]
 }
