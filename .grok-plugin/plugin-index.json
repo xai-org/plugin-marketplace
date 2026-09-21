@@ -613,6 +613,28 @@
         ]
       }
     },
+    "omnifamous-seo": {
+      "sha": "6e420b52fb8018d767b948ff9dfdcbb27e009429",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omnifamous",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-visibility-research",
+            "description": "Primary-source research on what AI answer engines actually cite, measured on 7,949 prompts across ChatGPT, Perplexity,…"
+          },
+          {
+            "name": "omnifamous-seo",
+            "description": "Real SEO and AI-visibility data over the OMNIFAMOUS MCP server. Use for keyword metrics, backlinks, traffic estimates,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "032be146865d973682535de75f2287da438550bf",
       "components": {
