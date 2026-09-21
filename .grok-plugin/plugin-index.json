@@ -408,7 +408,7 @@
       }
     },
     "html-css-to-image": {
-      "sha": "330e552ee4f9ab763ea50bfd370d4e22c8697ffb",
+      "sha": "13ce1928a3f80d020cabbc7a07410e6c9578231a",
       "version": "0.2.0",
       "components": {
         "mcpServers": [
