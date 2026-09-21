@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "vertebrae",
+      "description": "Vertebrae meeting notes (MCP server + skills). Search your meetings and calls, read full transcripts and AI summaries, and bring a meeting's decisions into the task in front of you. Read-only: transcription runs on-device and you approve each agent from the Vertebrae app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vertebrae-ai/vertebrae-plugin.git",
+        "sha": "a6e4de784eca656534bc09f4989e7ba6ebb5f7df"
+      },
+      "homepage": "https://vertebrae.ai",
+      "keywords": ["vertebrae", "vertebrae meetings", "vertebrae transcripts", "meeting notes"],
+      "domains": ["vertebrae.ai", "mcp.vertebrae.ai", "api.vertebrae.ai", "notes.vertebrae.ai"]
     }
   ]
 }
