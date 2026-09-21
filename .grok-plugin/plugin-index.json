@@ -843,8 +843,8 @@
       }
     },
     "railway": {
-      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
-      "version": "1.4.0",
+      "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
+      "version": "1.5.1",
       "components": {
         "hooks": [
           {
@@ -913,8 +913,8 @@
       }
     },
     "stripe": {
-      "sha": "36287aa29d14988847d11ca0005eed93c7dc0ed9",
-      "version": "0.8.1",
+      "sha": "ea6997c4551d1bfa010b70d875d1aa738a379b25",
+      "version": "0.8.2",
       "components": {
         "agents": [
           {
