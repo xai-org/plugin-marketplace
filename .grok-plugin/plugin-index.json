@@ -636,7 +636,7 @@
       }
     },
     "pstack": {
-      "sha": "032be146865d973682535de75f2287da438550bf",
+      "sha": "6ed0f7a9504f577d7529064103cecce9be7dfc5e",
       "components": {
         "agents": [
           {
@@ -853,8 +853,8 @@
       }
     },
     "railway": {
-      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
-      "version": "1.4.0",
+      "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
+      "version": "1.5.1",
       "components": {
         "hooks": [
           {
@@ -923,8 +923,8 @@
       }
     },
     "stripe": {
-      "sha": "82d5d332c2eff45581030dcaf9f8ebabd28d0c88",
-      "version": "0.8.0",
+      "sha": "ea6997c4551d1bfa010b70d875d1aa738a379b25",
+      "version": "0.8.2",
       "components": {
         "agents": [
           {
