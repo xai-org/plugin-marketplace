@@ -143,6 +143,24 @@
         ]
       }
     },
+    "clera": {
+      "sha": "a1693c2a1352cead95005b5d07fb15fe2a688376",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clera",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clera",
+            "description": "Connect the user's AI client to the Clera MCP server and hire through it: search vetted startup candidates, screen them…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
