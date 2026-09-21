@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "codybeartv-bitcoin-stream",
+      "description": "CodyBearTV read-only Bitcoin stream. Public CoinGecko, Kraken, and Binance prices, Wilder RSI-14, and a tip jar. Not a trading bot and not an exchange client.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/contentctv/codybeartv-bitcoin-stream.git",
+        "sha": "d4d70853d01f87a421bf7ea3b09345775629f3ac"
+      },
+      "homepage": "https://github.com/contentctv/codybeartv-bitcoin-stream",
+      "keywords": ["codybeartv", "codybeartv bitcoin stream", "codybeartv grok bitcoin stream"],
+      "domains": ["codybeartv.pw"]
     }
   ]
 }
