@@ -369,6 +369,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "storeconnect",
+      "description": "StoreConnect development plugin for Grok Build: Salesforce-native commerce and CMS — storefront Liquid templates, forms and reloadable components, catalog and content, point of sale, and the StoreConnect object model in Salesforce.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GetStoreConnect/ai.git",
+        "sha": "de87d3059e2dc734a8c80ac52966436530b2dd49",
+        "path": "providers/grok/storeconnect"
+      },
+      "homepage": "https://github.com/GetStoreConnect/ai",
+      "keywords": ["storeconnect", "storeconnect theme", "storeconnect liquid", "storeconnect pos", "storeconnect store"],
+      "domains": ["storeconnect.com", "support.storeconnect.com"]
     }
   ]
 }
