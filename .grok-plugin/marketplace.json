@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517"
+        "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "58922ec060ee898e1b5767a30aad874981b53474"
+        "sha": "0bb9e628fae4f2999006cb239bb306b2b7fe8308"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b4fd870cf2f1f4cc66b28ead16277e1d799b510f"
+        "sha": "b113bc85757a20df478dcbe9ade81ec4b01d580f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+        "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -233,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
+        "sha": "ea6997c4551d1bfa010b70d875d1aa738a379b25",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -274,7 +274,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "5bf2b1544db739998121a306340631963c2ff3de",
+        "sha": "6ed0f7a9504f577d7529064103cecce9be7dfc5e",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -327,7 +327,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
       "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
@@ -352,10 +352,23 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0"
+        "sha": "16ed22b43fa56157adadfb25f18a354197d497b9"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "helena",
+      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "9b71516e006144d323f138f1785f55123ec51931"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
       "name": "html-css-to-image",
