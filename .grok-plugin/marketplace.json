@@ -358,6 +358,22 @@
       "keywords": ["modern web", "web best practices", "web guidance"]
     },
     {
+      "name": "prerenderbuddy",
+      "description": "Developer companion to the Prerender Buddy AI visibility and crawler-readiness platform. Audit what search and AI crawlers can retrieve from public pages, and optionally review read-only evidence from a Prerender Buddy workspace.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kopachlager/prerenderbuddy-plugins.git",
+        "sha": "dc1018b803a8b16f82e27339fb4f665a0a587604",
+        "path": "plugins/prerenderbuddy"
+      },
+      "homepage": "https://prerenderbuddy.com/developer-tools",
+      "keywords": ["prerender buddy", "prerenderbuddy", "prerenderbuddy mcp"],
+      "domains": ["prerenderbuddy.com", "app.prerenderbuddy.com", "mcp.prerenderbuddy.com"],
+      "version": "0.2.5",
+      "author": "Prerender Buddy"
+    },
+    {
       "name": "helena",
       "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
       "category": "productivity",
