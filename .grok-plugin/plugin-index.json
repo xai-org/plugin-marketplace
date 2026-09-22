@@ -407,6 +407,18 @@
         ]
       }
     },
+    "layrcake": {
+      "sha": "406dccc23f04f37a0320277f6792faf10e26c94a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "layrcake",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
