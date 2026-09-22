@@ -613,6 +613,76 @@
         ]
       }
     },
+    "orchraft": {
+      "sha": "d53e412ba9595ac7856b0ae4c0f08dc694639faf",
+      "version": "1.0.3",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chronicle",
+            "description": "Have the AI draft or update a standalone Markdown doc — a feature write-up, design doc, or a section of README/ROADMAP…"
+          },
+          {
+            "name": "herald",
+            "description": "Have the AI draft release notes for a tag or the unreleased work since the last one, grounded in the pull requests and…"
+          },
+          {
+            "name": "land",
+            "description": "Have the AI finish a topic branch end to end by merging its PR, removing the branch, and syncing the local base branch.…"
+          },
+          {
+            "name": "lore",
+            "description": "Have the AI add or fix code comments and docstrings across a diff or file so they match this repo's lore policy, in wha…"
+          },
+          {
+            "name": "quest",
+            "description": "Have the AI triage, create, or update a GitHub issue before implementation starts. Use when the user says quest, asks t…"
+          },
+          {
+            "name": "reckoning",
+            "description": "Have the AI list every review finding that was consciously declined rather than fixed, across the whole repo's pull req…"
+          },
+          {
+            "name": "roast",
+            "description": "Have the AI review the current pull request's diff against the target repository's own policies and commit history — no…"
+          },
+          {
+            "name": "runes",
+            "description": "Have the AI summarize where the current branch's work actually stands — its PR, checks, and unresolved review findings…"
+          },
+          {
+            "name": "ship",
+            "description": "Have the AI branch, commit, push, and create or update a pull request in the current repository. Use when the user says…"
+          },
+          {
+            "name": "warchief",
+            "description": "Have the AI choose the next orchraft lifecycle step and hand off to the right skill, without performing git or GitHub m…"
+          },
+          {
+            "name": "warplan",
+            "description": "Have the AI draft an implementation plan grounded in this repo's own conventions, policies, and precedent before code g…"
+          },
+          {
+            "name": "watchtower",
+            "description": "Have the AI surface a short read-only status nudge about open PR work without mutating git or GitHub. Use when the user…"
+          },
+          {
+            "name": "yap",
+            "description": "Have the AI explain something — a PR/diff, a file or module, an error or log, a repo policy, or a dependency/changelog…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "6ed0f7a9504f577d7529064103cecce9be7dfc5e",
       "components": {

@@ -369,6 +369,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "orchraft",
+      "description": "A clan of orcs hauling a solo dev's mundane chores, so the code wins the glory.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/karloows/orchraft.git",
+        "sha": "d53e412ba9595ac7856b0ae4c0f08dc694639faf"
+      },
+      "homepage": "https://github.com/karloows/orchraft",
+      "keywords": ["orchraft"]
     }
   ]
 }
