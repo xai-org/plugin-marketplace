@@ -372,7 +372,7 @@
     },
     {
       "name": "layrcake",
-      "description": "The unified GTM API for AI agents: find and enrich leads, verify emails, spot buying intent, provision sending and launch human-approved campaigns from Grok.",
+      "description": "The unified GTM API for AI agents: find and enrich leads, verify emails, spot buying intent, provision sending and launch human-approved email campaigns from Grok.",
       "category": "productivity",
       "source": {
         "source": "url",
