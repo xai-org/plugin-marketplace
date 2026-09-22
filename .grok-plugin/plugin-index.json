@@ -262,8 +262,8 @@
       }
     },
     "figma": {
-      "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
-      "version": "2.2.111",
+      "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+      "version": "2.2.120",
       "components": {
         "mcpServers": [
           {
@@ -278,7 +278,7 @@
           },
           {
             "name": "figma-create-new-file",
-            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+            "description": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this sk…"
           },
           {
             "name": "figma-design-to-code",
@@ -408,8 +408,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
-      "version": "0.0.189",
+      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
+      "version": "0.0.190",
       "components": {
         "skills": [
           {
@@ -529,8 +529,8 @@
       }
     },
     "netlify": {
-      "sha": "b113bc85757a20df478dcbe9ade81ec4b01d580f",
-      "version": "1.5.0",
+      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
+      "version": "1.5.1",
       "components": {
         "mcpServers": [
           {
@@ -625,7 +625,7 @@
       }
     },
     "pstack": {
-      "sha": "6ed0f7a9504f577d7529064103cecce9be7dfc5e",
+      "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
       "components": {
         "agents": [
           {
@@ -912,8 +912,8 @@
       }
     },
     "stripe": {
-      "sha": "ea6997c4551d1bfa010b70d875d1aa738a379b25",
-      "version": "0.8.2",
+      "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+      "version": "0.8.3",
       "components": {
         "agents": [
           {
@@ -1365,8 +1365,8 @@
       }
     },
     "wix": {
-      "sha": "0bb9e628fae4f2999006cb239bb306b2b7fe8308",
-      "version": "1.19.1",
+      "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f",
+      "version": "1.19.2",
       "components": {
         "mcpServers": [
           {
