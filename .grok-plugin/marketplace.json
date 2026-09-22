@@ -346,6 +346,18 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "davia-creation",
+      "description": "Create and edit your private Davia Tale game drafts. Inspect the world, simulation rules, stats, cells, characters, and landmarks through Davia's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/davia-creation"
+      },
+      "homepage": "https://davia.ai/wiki/for-creators/create-with-your-assistant",
+      "keywords": ["davia", "davia creation", "davia tale"],
+      "domains": ["davia.ai"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
