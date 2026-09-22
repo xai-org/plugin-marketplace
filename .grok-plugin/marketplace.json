@@ -372,7 +372,7 @@
     },
     {
       "name": "layrcake",
-      "description": "The unified GTM API for AI agents: find leads and companies, enrich to verified emails, verify deliverability, detect buying intent, listen on social, provision sending, launch human-approved campaigns and handle replies through Layrcake's hosted MCP server.",
+      "description": "The unified GTM API for AI agents: find and enrich leads, verify emails, spot buying intent, provision sending and launch human-approved campaigns from Grok.",
       "category": "productivity",
       "source": {
         "source": "url",
