@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "crawlbrulee",
+      "description": "EU-native web scraping for AI agents & developers. One call turns any url into clean markdown, screenshots, metadata and links, processed fully in the EU. Bundles the crawlbrulee mcp server (scrape, map, background jobs, usage) plus ten skills that teach the agent which call to make and how to read the result. Start free with 750 credits.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/crawlbrulee/crawlbrulee-skills.git",
+        "sha": "d3fa9d6ba178cd3814435283a5f8b0078759a540"
+      },
+      "homepage": "https://crawlbrulee.com",
+      "keywords": ["crawlbrulee", "crawl brulee", "crawlbrulee scrape", "crawlbrulee mcp"],
+      "domains": ["crawlbrulee.com", "dashboard.crawlbrulee.com"]
     }
   ]
 }
