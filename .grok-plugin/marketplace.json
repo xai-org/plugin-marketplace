@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "crm2crm",
+      "description": "Official crm2crm MCP for Grok Build. Operate a free agentic CRM from Grok: search and read contacts, companies, deals, activities, inbox and pipelines, and create or update records, notes, deal stages, custom fields and lead scores through crm2crm's hosted OAuth MCP server (85 tools, 5 prompts). Read-only and read-write connections are supported.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chisoftco/crm2crm-grok-plugin.git",
+        "sha": "c41c70f5b68a7a48ef540014d91f01fa50e59ee8"
+      },
+      "homepage": "https://github.com/chisoftco/crm2crm-grok-plugin",
+      "keywords": ["crm2crm", "crm2crm mcp", "agentic crm", "ln2crm"],
+      "domains": ["crm.ln2crm.com", "ln2crm.com"]
     }
   ]
 }
