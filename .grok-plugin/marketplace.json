@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "rippit",
+      "description": "Rippit conversation analytics integration (MCP Server + Skills). Analyze support tickets, calls, and chats; classify conversations at scale; investigate root causes; and create reports grounded in customer quotes through Rippit's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adtribute/rippit-plugin.git",
+        "sha": "15ed7fc1e81c9b9d1212a528ca62e65860111217"
+      },
+      "homepage": "https://rippit.com",
+      "keywords": ["rippit", "rippit mcp", "rippit analytics"],
+      "domains": ["rippit.com", "app.rippit.com", "mcp.rippit.com", "docs.rippit.com"]
     }
   ]
 }

@@ -854,6 +854,48 @@
         ]
       }
     },
+    "rippit": {
+      "sha": "15ed7fc1e81c9b9d1212a528ca62e65860111217",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rippit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "rippit-aeo-seo-optimization",
+            "description": "Build an SEO- and AEO-optimized content program grounded in a company's own conversation data (support chats, sales cal…"
+          },
+          {
+            "name": "rippit-chatbot-analysis",
+            "description": "Analyze support conversations to find where an AI chatbot underperforms and human agents excel, turn those gaps into a…"
+          },
+          {
+            "name": "rippit-double-click",
+            "description": "Go progressively DEEPER on a specific customer question with the Rippit MCP by repeatedly narrowing into a SUBSET of th…"
+          },
+          {
+            "name": "rippit-escalation-finder",
+            "description": "Detect brewing escalations in a Rippit customer's support tickets — conversations at risk of turning into legal action,…"
+          },
+          {
+            "name": "rippit-qa-program-revamp",
+            "description": "Build and run a repeatable \"ticket-insights\" QA program that measures something meaningful on EVERY support ticket — co…"
+          },
+          {
+            "name": "rippit-support-shoutouts",
+            "description": "Find the best \"above and beyond\" customer-support conversations — where an agent went the extra mile and the customer w…"
+          },
+          {
+            "name": "rippit-tool-bakeoff",
+            "description": "Run a controlled head-to-head (\"bake-off\") between two or more analysis tools (e.g. the Rippit MCP vs. a Snowflake/SQL…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
