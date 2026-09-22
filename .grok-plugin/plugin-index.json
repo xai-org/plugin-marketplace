@@ -854,6 +854,24 @@
         ]
       }
     },
+    "scriptseen": {
+      "sha": "70516e8c502ad1a5d812e7c108cc800d09ca550a",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scriptseen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scriptseen-create",
+            "description": "Use ScriptSeen to write short-form scripts, generate paced reference audio, and prepare a browser video project from us…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

@@ -369,6 +369,23 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "scriptseen",
+      "description": "Create short-form scripts and paced reference audio, then prepare a private browser project that renders your clips locally. Sign in to ScriptSeen and approve scoped access.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yesmars/scriptseen-agent-plugins.git",
+        "sha": "70516e8c502ad1a5d812e7c108cc800d09ca550a"
+      },
+      "homepage": "https://scriptseen.com/mcp",
+      "keywords": [
+        "scriptseen"
+      ],
+      "domains": [
+        "scriptseen.com"
+      ]
     }
   ]
 }
