@@ -407,6 +407,24 @@
         ]
       }
     },
+    "ihateposting": {
+      "sha": "b48bf8ed0a2cc46d0ccb421c530ef0f5dca4acef",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ihateposting",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ihateposting",
+            "description": "Draft, check, schedule and publish social posts to Bluesky, X, LinkedIn, Facebook, Instagram, Threads, Pinterest, TikTo…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",

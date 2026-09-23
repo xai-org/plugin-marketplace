@@ -369,6 +369,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "ihateposting",
+      "description": "iHatePosting schedules and publishes social posts to 14 networks from Grok Build: X, LinkedIn, Instagram, Facebook, Threads, YouTube, TikTok, Pinterest, Bluesky, Mastodon, Telegram, Discord, Tumblr and Slack. Check a draft against each network's real limits — caption lengths, media counts, aspect ratios, video duration — before it sends, then schedule it or publish now. Posts are saved as drafts unless you ask for one to go out.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iHatePostingOrg/agent-skill.git",
+        "sha": "b48bf8ed0a2cc46d0ccb421c530ef0f5dca4acef"
+      },
+      "homepage": "https://ihateposting.com",
+      "keywords": ["ihateposting", "ihateposting schedule", "ihateposting publish"],
+      "domains": ["ihateposting.com"]
     }
   ]
 }
