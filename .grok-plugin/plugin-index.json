@@ -407,6 +407,24 @@
         ]
       }
     },
+    "metamask-agent-wallet": {
+      "sha": "bfb4123a47fb1cae45133823f62a14f452bdb9cd",
+      "version": "1.0.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|resume"
+          }
+        ],
+        "skills": [
+          {
+            "name": "metamask-agent-wallet",
+            "description": "Use when the user asks anything about blockchain wallets, transactions, signing, token transfers, supported chains, wal…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
