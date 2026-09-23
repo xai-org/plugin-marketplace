@@ -89,9 +89,21 @@
         ]
       }
     },
+    "bruin": {
+      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
+      "version": "1.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
-      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
-      "version": "1.8.0",
+      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
+      "version": "1.10.1",
       "components": {
         "mcpServers": [
           {
@@ -111,6 +123,10 @@
           {
             "name": "chrome-devtools-cli",
             "description": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome De…"
+          },
+          {
+            "name": "cookie-debugging",
+            "description": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cook…"
           },
           {
             "name": "debug-optimize-lcp",
@@ -199,6 +215,28 @@
         ]
       }
     },
+    "datadog": {
+      "sha": "083b4783095520f562534956578c8826613292a9",
+      "version": "0.7.21",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datadog-grok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datadog-app",
+            "description": "Use ONLY when the user explicitly asks to create, scaffold, or initialize a new Datadog App project — they must use act…"
+          },
+          {
+            "name": "ddconfig",
+            "description": "Configures or troubleshoots the plugin's Datadog MCP server. Use when the user wants to change the Datadog domain, swit…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
@@ -224,8 +262,8 @@
       }
     },
     "figma": {
-      "sha": "7f6562c4900fafb46e5e8fd3cc8ced954779bab3",
-      "version": "2.2.96",
+      "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+      "version": "2.2.120",
       "components": {
         "mcpServers": [
           {
@@ -240,7 +278,7 @@
           },
           {
             "name": "figma-create-new-file",
-            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+            "description": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this sk…"
           },
           {
             "name": "figma-design-to-code",
@@ -259,8 +297,16 @@
             "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variable…"
           },
           {
+            "name": "figma-generative-plugins",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_generative_plugin` or `update_generative_plugin`. U…"
+          },
+          {
             "name": "figma-implement-motion",
             "description": "Translates Figma motion and animations into production-ready application code. Use when implementing animation/motion f…"
+          },
+          {
+            "name": "figma-shaders",
+            "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
           },
           {
             "name": "figma-swiftui",
@@ -286,8 +332,8 @@
       }
     },
     "firecrawl": {
-      "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282",
-      "version": "1.1.0",
+      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "version": "1.2.0",
       "components": {
         "commands": [
           {
@@ -313,6 +359,10 @@
           {
             "name": "firecrawl-crawl",
             "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extrac…"
+          },
+          {
+            "name": "firecrawl-developer-search",
+            "description": "Search an index built for coding agents — GitHub issues, merged pull requests, repository READMEs, and curated document…"
           },
           {
             "name": "firecrawl-download",
@@ -345,9 +395,37 @@
         ]
       }
     },
+    "helena": {
+      "sha": "9b71516e006144d323f138f1785f55123ec51931",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "helena",
+            "description": "http"
+          }
+        ]
+      }
+    },
+    "modern-web-guidance": {
+      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
+      "version": "0.0.190",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
+          }
+        ]
+      }
+    },
     "mongodb": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -388,8 +466,8 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
-      "version": "1.2.0",
+      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -451,8 +529,8 @@
       }
     },
     "netlify": {
-      "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
-      "version": "1.3.0",
+      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
+      "version": "1.5.1",
       "components": {
         "mcpServers": [
           {
@@ -463,7 +541,7 @@
         "skills": [
           {
             "name": "netlify-access-control",
-            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+            "description": "Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — ap…"
           },
           {
             "name": "netlify-agent-runner",
@@ -471,11 +549,11 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+            "description": "Store and retrieve unstructured data like file uploads, images, documents, JSON, and cache-like state with Netlify Blob…"
           },
           {
             "name": "netlify-caching",
@@ -483,7 +561,7 @@
           },
           {
             "name": "netlify-config",
-            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+            "description": "Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or pu…"
           },
           {
             "name": "netlify-database",
@@ -491,7 +569,7 @@
           },
           {
             "name": "netlify-deploy",
-            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+            "description": "Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, run…"
           },
           {
             "name": "netlify-edge-functions",
@@ -511,7 +589,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
           },
           {
             "name": "netlify-image-cdn",
@@ -524,8 +602,19 @@
         ]
       }
     },
+    "omneky": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omneky",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
-      "sha": "bdf7aa355337897f167153e05069aca505dae17c",
+      "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
       "components": {
         "agents": [
           {
@@ -538,6 +627,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "Make Bot UI",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
+          },
           {
             "name": "Poteto Mode",
             "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
@@ -585,6 +678,10 @@
           {
             "name": "no-comments",
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
+          },
+          {
+            "name": "principle-attack-the-premise",
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -664,7 +761,11 @@
           },
           {
             "name": "principle-subtract-before-you-add",
-            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead weight, redundant validators, and stub references…"
+            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead code, redundant validators, and stub references fi…"
+          },
+          {
+            "name": "principle-test-behavior-not-implementation",
+            "description": "Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe aga…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -680,7 +781,7 @@
           },
           {
             "name": "setup-pstack",
-            "description": "Configure which models pstack uses per role. Detects your available models and writes an always-applied rule that overr…"
+            "description": "Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an a…"
           },
           {
             "name": "show-me-your-work",
@@ -717,9 +818,21 @@
         ]
       }
     },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "railway": {
-      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
-      "version": "1.3.7",
+      "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
+      "version": "1.5.5",
       "components": {
         "hooks": [
           {
@@ -736,14 +849,14 @@
         "skills": [
           {
             "name": "use-railway",
-            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services, datab…"
           }
         ]
       }
     },
     "sentry": {
-      "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d",
-      "version": "1.3.2",
+      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
@@ -788,8 +901,8 @@
       }
     },
     "stripe": {
-      "sha": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5",
-      "version": "0.6.0",
+      "sha": "99ef7ddd24df10b78f2e0eba98c577349dd01611",
+      "version": "0.8.4",
       "components": {
         "agents": [
           {
@@ -823,20 +936,28 @@
             "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
           },
           {
+            "name": "metronome",
+            "description": "Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable m…"
+          },
+          {
             "name": "stripe-apps",
             "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
+            "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
           },
           {
             "name": "stripe-directory",
-            "description": "Finds trusted external providers, merchants, nonprofits, platforms, APIs, and software services that can help complete…"
+            "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the document…"
           },
           {
             "name": "stripe-docs",
             "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
+          },
+          {
+            "name": "stripe-pay",
+            "description": "Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whet…"
           },
           {
             "name": "stripe-projects",
@@ -849,9 +970,31 @@
         ]
       }
     },
+    "supabase": {
+      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
+      "version": "0.1.15",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "supabase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "supabase",
+            "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Stor…"
+          },
+          {
+            "name": "supabase-postgres-best-practices",
+            "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changi…"
+          }
+        ]
+      }
+    },
     "superpowers": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
-      "version": "6.3.0",
+      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "version": "6.4.1",
       "components": {
         "hooks": [
           {
@@ -865,12 +1008,16 @@
             "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
           },
           {
+            "name": "diagnosing-superpowers",
+            "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stum…"
+          },
+          {
             "name": "dispatching-parallel-agents",
             "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
           },
           {
             "name": "executing-plans",
-            "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+            "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose…"
           },
           {
             "name": "finishing-a-development-branch",
@@ -1000,7 +1147,7 @@
       }
     },
     "upgrade-audit": {
-      "sha": "7b4486773f9141ec8e91a35e45ce3408b2b187cd",
+      "sha": "83881929bcf041278713e1d27f31d454840197b4",
       "components": {
         "skills": [
           {
@@ -1011,8 +1158,8 @@
       }
     },
     "vercel": {
-      "sha": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6",
-      "version": "0.48.1",
+      "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
+      "version": "0.50.0",
       "components": {
         "agents": [
           {
@@ -1052,6 +1199,10 @@
         ],
         "hooks": [
           {
+            "name": "PostToolUse",
+            "description": "Skill"
+          },
+          {
             "name": "SessionEnd"
           },
           {
@@ -1072,7 +1223,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway expert guidance. Use when configuring model routing, provider failover, cost tracking, or managing mu…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
           },
           {
             "name": "ai-sdk",
@@ -1115,6 +1266,10 @@
             "description": "eve framework guidance for durable AI agents and agent-powered applications. Use when creating, editing, or debugging a…"
           },
           {
+            "name": "flags-sdk",
+            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
+          },
+          {
             "name": "knowledge-update",
             "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start."
           },
@@ -1143,6 +1298,10 @@
             "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
           },
           {
+            "name": "queues",
+            "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
+          },
+          {
             "name": "react-best-practices",
             "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
           },
@@ -1164,7 +1323,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
           },
           {
             "name": "vercel-cli",
@@ -1180,7 +1339,7 @@
           },
           {
             "name": "vercel-functions",
-            "description": "Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runti…"
+            "description": "Vercel Functions expert guidance — Node.js/Bun/Python runtimes, Fluid Compute, long-duration (30 min) functions, large…"
           },
           {
             "name": "vercel-sandbox",
@@ -1192,7 +1351,7 @@
           },
           {
             "name": "vercel-storage",
-            "description": "Vercel storage expert guidance — Blob, Edge Config, and Marketplace storage (Neon Postgres, Upstash Redis). Use when ch…"
+            "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
           },
           {
             "name": "verification",
@@ -1206,8 +1365,8 @@
       }
     },
     "wix": {
-      "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
-      "version": "1.17.0",
+      "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f",
+      "version": "1.19.2",
       "components": {
         "mcpServers": [
           {
@@ -1230,7 +1389,7 @@
           },
           {
             "name": "wix-base44-connector",
-            "description": "Build on Wix from the Base44 builder sandbox — this file is the complete guide (site context, doc discovery, API contra…"
+            "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
             "name": "wix-design-system",
@@ -1245,8 +1404,12 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
+            "name": "wix-headless-fast",
+            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
             "name": "wix-manage",
-            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
           },
           {
             "name": "wix-vibe-headless",
