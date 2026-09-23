@@ -668,6 +668,23 @@
         ]
       }
     },
+    "maximem-vity": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vity",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vity",
+            "description": "Use the user's Maximem Vity personal memory through the Vity MCP server: recall their profile, preferences, history, de…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
