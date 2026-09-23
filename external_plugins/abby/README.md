@@ -12,6 +12,8 @@ In Grok Build, open `/plugin`, search for **Abby**, and install.
 On first connection, Grok opens the Abby sign-in page in the browser. Use your
 Abby account. Do not paste an API key or token into chat.
 
+Full setup guide: https://docs.abby.fr/mcp/demarrer
+
 ## Tools
 
 - **Invoicing** — create, finalize, duplicate, cancel (credit note), archive and
