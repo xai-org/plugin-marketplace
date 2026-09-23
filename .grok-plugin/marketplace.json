@@ -369,6 +369,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "sourcetomcp",
+      "description": "Real-time access to your marketing, analytics and product stack — Google Ads, Google Analytics, Search Console, Meta Ads, TikTok Ads, LinkedIn Ads, Reddit Ads, Pinterest, Ahrefs, PostHog, Sheets, Docs and Slides — through one governed MCP server. Sign in with your SourcetoMCP account to connect your sources.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/sourcetomcp"
+      },
+      "homepage": "https://sourcetomcp.com",
+      "keywords": ["sourcetomcp", "sourcetomcp mcp"],
+      "domains": ["sourcetomcp.com"]
     }
   ]
 }

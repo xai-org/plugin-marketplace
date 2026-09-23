@@ -1,0 +1,15 @@
+{
+  "name": "sourcetomcp",
+  "version": "1.0.0",
+  "description": "SourcetoMCP gives Grok governed, real-time access to your marketing, product and finance stack via one hosted MCP server. Sign in with your SourcetoMCP account on first connect.",
+  "author": {
+    "name": "SourcetoMCP",
+    "url": "https://github.com/sourcetomcp"
+  },
+  "homepage": "https://sourcetomcp.com",
+  "license": "Proprietary",
+  "keywords": [
+    "sourcetomcp",
+    "sourcetomcp mcp"
+  ]
+}

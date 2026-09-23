@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sourcetomcp": {
+      "type": "http",
+      "url": "https://sourcetomcp.com/api/mcp"
+    }
+  }
+}

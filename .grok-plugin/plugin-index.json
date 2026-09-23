@@ -900,6 +900,17 @@
         ]
       }
     },
+    "sourcetomcp": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sourcetomcp",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "97b2164821c378f246c3903852057b36a8bd0296",
       "version": "0.8.3",
