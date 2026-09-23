@@ -71,6 +71,24 @@
         ]
       }
     },
+    "beatapi": {
+      "sha": "5abcbb4075b7b3bdb5beec8a3b61ea325bde4f54",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "beatapi",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "beatapi-video",
+            "description": "Use when a user asks an agent to call BeatAPI Model, Social Data, or Workflow capabilities. Prefer bundled MCP tools wh…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
