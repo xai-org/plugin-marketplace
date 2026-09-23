@@ -1353,6 +1353,24 @@
         ]
       }
     },
+    "viral-app": {
+      "sha": "f90bfbd2e8c15f057b70f30f184a8f41a05460c7",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "viral_app",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "viral-app-mcp",
+            "description": "Work with viral.app through its MCP server. Use when the user asks about viral.app data or workflows, social media anal…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f",
       "version": "1.19.2",

@@ -369,6 +369,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "viral-app",
+      "description": "viral.app UGC and creator campaign analytics (hosted OAuth MCP server + skill). Sign in with a viral.app account to query tracked TikTok, Instagram, YouTube, Facebook, and Snapchat accounts and videos, manage tags and workflows, read Creator Hub campaigns and creators, and run live lookups from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fmd-labs/viral-app-agents.git",
+        "sha": "f90bfbd2e8c15f057b70f30f184a8f41a05460c7",
+        "path": "plugins/viral-app"
+      },
+      "homepage": "https://viral.app",
+      "keywords": ["viral.app", "viral app", "viral.app mcp", "viral.app analytics", "viral.app creator hub"],
+      "domains": ["viral.app"]
     }
   ]
 }
