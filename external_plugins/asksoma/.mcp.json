@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "asksoma": {
+      "type": "http",
+      "url": "https://api.asksoma.ai/mcp"
+    }
+  }
+}

@@ -369,6 +369,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "asksoma",
+      "description": "Asksoma : Astrology Horoscope numerology through a hosted MCP connector. Explore Vedic birth charts, Panchang, compatibility and plain-language astrology insights in Grok Build.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/asksoma"
+      },
+      "homepage": "https://asksoma.ai",
+      "keywords": [
+        "asksoma",
+        "asksoma astrology",
+        "asksoma panchang",
+        "asksoma horoscope",
+        "asksoma numerology",
+        "vedic astrology"
+      ],
+      "domains": ["asksoma.ai", "api.asksoma.ai"]
     }
   ]
 }
