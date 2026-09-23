@@ -143,6 +143,24 @@
         ]
       }
     },
+    "cloudbrowser": {
+      "sha": "ef824bc559f958c3d55768e400a0c5b4072f504f",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cloudbrowser",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cloudbrowser",
+            "description": "Use CloudBrowser hosted browsers for a bounded web research or QA task, returning page evidence and cleaning up the ses…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
       "version": "1.0.0",
