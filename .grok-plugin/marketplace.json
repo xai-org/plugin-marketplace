@@ -382,6 +382,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "sonar-aso",
+      "description": "App Store Optimization with Sonar: research keywords, audit listings, analyze competitors and reviews, and manage rank tracking for iOS and Android through the hosted MCP server.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trysonar/mcp.git",
+        "sha": "d5e9e2b6ea9151296150e110e834abb88e9f8934"
+      },
+      "homepage": "https://trysonar.app",
+      "keywords": [
+        "sonar aso",
+        "trysonar",
+        "sonar app store optimization"
+      ],
+      "domains": [
+        "trysonar.app"
+      ]
     }
   ]
 }
