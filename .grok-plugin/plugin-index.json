@@ -237,6 +237,24 @@
         ]
       }
     },
+    "encited": {
+      "sha": "3309bebe73026e49b2528d8d9587dc717d0e985d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "encited",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "encited",
+            "description": "Routes SEO, content, ranking, and AI-search questions to the Encited MCP tools. Use whenever \"Encited\" is mentioned, or…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
