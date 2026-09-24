@@ -407,6 +407,24 @@
         ]
       }
     },
+    "korala": {
+      "sha": "89804e965a2f4ee780f0f1b17062d3b906c51ef2",
+      "version": "0.6.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "korala",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "korala-documents",
+            "description": "Draft a rental agreement, contract or other document, turn it into a Korala signing request for the people the user nam…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",

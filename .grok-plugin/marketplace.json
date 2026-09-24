@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "korala",
+      "description": "Korala document signing (MCP Server + Skills). Draft an agreement, place signature and date fields for each signer, send it for signature once you allow sending, and track who has signed. Signs in with your Korala account; no API keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/korala-ai/claude-plugins.git",
+        "sha": "89804e965a2f4ee780f0f1b17062d3b906c51ef2",
+        "path": "plugins/korala"
+      },
+      "homepage": "https://docs.korala.ai/ai-agents/grok",
+      "keywords": ["korala", "korala signing", "korala signature request", "korala template"],
+      "domains": ["korala.ai"]
     }
   ]
 }
