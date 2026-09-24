@@ -503,6 +503,36 @@
         ]
       }
     },
+    "moomoo-mcp": {
+      "sha": "20773c1da87399575784647f2a76719f6fbbd4d9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "moomoo-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "moomoo-mcp-account",
+            "description": "moomoo Account Trading — Real trading (place/modify/cancel/confirm orders) / Simulated trading / Account / Funds / Posi…"
+          },
+          {
+            "name": "moomoo-mcp-news",
+            "description": "moomoo Information & Research — News Search / Community / Stock Feed / Economic Calendar / Financials / Valuation / Rat…"
+          },
+          {
+            "name": "moomoo-mcp-quote",
+            "description": "moomoo market data — real-time quotes/K-lines/order book/time-sharing/tick-by-tick/snapshots/market state/trading days/…"
+          },
+          {
+            "name": "moomoo-mcp-screen",
+            "description": "moomoo stock screener — multi-factor stock screening / warrant & CBBC screening / option screening / IPO lists"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

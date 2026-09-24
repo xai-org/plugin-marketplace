@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "moomoo-mcp",
+      "description": "Moomoo's official Grok Build integration for multi-market quotes, stock screening, financial news and research, account information, simulated trading, and user-confirmed live trading through the hosted moomoo MCP server.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MoomooOpen/moomoo-agent-plugin.git",
+        "sha": "20773c1da87399575784647f2a76719f6fbbd4d9"
+      },
+      "homepage": "https://open.moomoo.com/mcp-docs/overview",
+      "keywords": ["moomoo", "moomoo mcp", "moomoo openapi", "moomoo trading"],
+      "domains": ["moomoo.com", "open.moomoo.com", "mcp.moomoo.com"]
     }
   ]
 }
