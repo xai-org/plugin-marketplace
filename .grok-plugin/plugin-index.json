@@ -503,6 +503,28 @@
         ]
       }
     },
+    "my-privacy-agent": {
+      "sha": "7945cbdee8bb8d18aaff170d2239ac52f9ed35ef",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "my-privacy-agent",
+            "description": "http"
+          },
+          {
+            "name": "my-privacy-agent-account",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "privacy-removal",
+            "description": "Help a person get their own address, phone number, email, or relatives off people-search and data-broker sites using My…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
