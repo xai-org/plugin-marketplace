@@ -1424,6 +1424,24 @@
           }
         ]
       }
+    },
+    "x1-agent-skills": {
+      "sha": "fdc2bdb5cfbdabff923d3874422c44db7a073359",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "x1",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "handle-capital-call",
+            "description": "Triage, hold, resume, and prepare governed closeout for a capital-call notice through X1 MCP. Use when a user received,…"
+          }
+        ]
+      }
     }
   }
 }
