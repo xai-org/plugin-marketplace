@@ -32,6 +32,15 @@
       "domains": ["sentry.io"]
     },
     {
+      "name": "sealgate",
+      "description": "Connect agents to everything and manage agent access. SealGate handles adding, monitoring, enforcing policies, and blocking data exfiltration at runtime for any MCP. Flexible CLI, API, and MCP interfaces available.",
+      "category": "security",
+      "source": { "type": "local", "path": "./external_plugins/sealgate" },
+      "homepage": "https://sealgate.ai",
+      "keywords": ["sealgate", "sealgate gateway", "sealgate firewall"],
+      "domains": ["sealgate.ai", "dashboard.sealgate.ai"]
+    },
+    {
       "name": "chrome-devtools",
       "description": "Chrome DevTools integration. Control and inspect a live Chrome browser. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions.",
       "category": "development",
