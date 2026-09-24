@@ -382,6 +382,21 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "gomind",
+      "description": "Persistent knowledge graph for AI agents. Remember facts, recall by meaning or graph walk, list collections, and forget via the hosted GoMind MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ingate/gomind.git",
+        "sha": "bce365954fe0e4647f4a4ae5e145c7dbf3aad505",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://gominddb.com/docs",
+      "keywords": ["gomind", "gominddb", "gomind memory"],
+      "domains": ["gominddb.com", "app.gominddb.com", "mcp.gominddb.com"]
     }
+
   ]
 }
