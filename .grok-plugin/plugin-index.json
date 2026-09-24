@@ -215,6 +215,60 @@
         ]
       }
     },
+    "crawlbrulee": {
+      "sha": "d3fa9d6ba178cd3814435283a5f8b0078759a540",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crawlbrulee",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "crawlbrulee",
+            "description": "use when you need web data from a url with crawlbrulee — scraping a page into markdown or html, pulling its links or im…"
+          },
+          {
+            "name": "crawlbrulee-api",
+            "description": "use when you need crawlbrulee's shared api contract — the base url, bearer auth, the full endpoint list, the response_m…"
+          },
+          {
+            "name": "crawlbrulee-cli",
+            "description": "use when driving crawlbrulee from a terminal or a shell script — the `crawlbrulee` / `npx crawlbrulee` command. covers…"
+          },
+          {
+            "name": "crawlbrulee-map",
+            "description": "use when discovering which urls exist on a site with crawlbrulee before scraping them — sitemap plus homepage link disc…"
+          },
+          {
+            "name": "crawlbrulee-mcp",
+            "description": "use when an mcp-aware agent or editor should scrape pages, map sites, run background scrape jobs, or check crawlbrulee…"
+          },
+          {
+            "name": "crawlbrulee-scrape",
+            "description": "use when you need the crawlbrulee scrape contract — turning a url into markdown, cleaned html, raw html, links, images,…"
+          },
+          {
+            "name": "crawlbrulee-scrape-async",
+            "description": "use when a crawlbrulee scrape shouldn't hold the connection open — submitting a background job, polling its status, fet…"
+          },
+          {
+            "name": "crawlbrulee-screenshots",
+            "description": "use when capturing a screenshot of a web page with crawlbrulee — viewport vs full-page, desktop vs mobile, custom viewp…"
+          },
+          {
+            "name": "crawlbrulee-sdk-js",
+            "description": "use when calling crawlbrulee from Node.js, TypeScript, Deno, or Bun code — the `@crawlbrulee/sdk` package. covers const…"
+          },
+          {
+            "name": "crawlbrulee-sdk-python",
+            "description": "use when calling crawlbrulee from Python code, sync or async — the `crawlbrulee` PyPI package. covers the Crawlbrulee a…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
