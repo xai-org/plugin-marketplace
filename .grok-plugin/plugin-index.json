@@ -1406,6 +1406,72 @@
           }
         ]
       }
+    },
+    "yaps": {
+      "sha": "c6fada0dc0293e93f797160097854c65ded45c49",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yaps",
+            "description": "stdio"
+          },
+          {
+            "name": "yaps-memory",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "audio-cleaner",
+            "description": "Remove noise, hiss, and static from an existing speech recording with Yaps Audio Cleaner. Use for voice, podcast, and i…"
+          },
+          {
+            "name": "auto-captions",
+            "description": "Add styled, timed captions to a local video with Yaps and export a new captioned MP4. Use for animated captions, word h…"
+          },
+          {
+            "name": "background-removal",
+            "description": "Remove an image background with Yaps and export a transparent PNG or a cutout on a solid colour. Use for subject cutout…"
+          },
+          {
+            "name": "dictation",
+            "description": "Check Yaps voice dictation readiness or recover a recent dictation through the existing local Yaps MCP tools. Use for v…"
+          },
+          {
+            "name": "memory",
+            "description": "Search, cite, and maintain the user's private local Yaps Markdown vault across tasks. Use for remembered facts, project…"
+          },
+          {
+            "name": "notes",
+            "description": "Create and review speaker-labelled meeting notes through the existing local Yaps MCP tools. Use for meeting or intervie…"
+          },
+          {
+            "name": "read-aloud",
+            "description": "Read text or a text file aloud as a local WAV through the existing Yaps MCP speech tools. Use for text-to-speech, narra…"
+          },
+          {
+            "name": "srt-generator",
+            "description": "Generate a timestamped SRT subtitle file from existing local audio or video with Yaps. Use for subtitles, closed captio…"
+          },
+          {
+            "name": "transcribe",
+            "description": "Transcribe an existing local audio or video file to plain text through the existing Yaps MCP tools. Use for audio-to-te…"
+          },
+          {
+            "name": "translation",
+            "description": "Translate text, Markdown, plain-text files, or SRT subtitles with the local Yaps Accurate Translation engine. Use for p…"
+          },
+          {
+            "name": "video-clipping",
+            "description": "Remove dead air and long pauses from a local video with Yaps Auto Cut, review or tune the cut plan, and export a separa…"
+          },
+          {
+            "name": "video-to-audio",
+            "description": "Extract a local video's soundtrack to MP3, WAV, or M4A with Yaps. Use for video-to-MP3 and audio-only copies. Do not us…"
+          }
+        ]
+      }
     }
   }
 }
