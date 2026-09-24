@@ -408,7 +408,7 @@
       }
     },
     "modem": {
-      "sha": "c6b07f071c0f4d6ce8710c62ba46de1d01159fe4",
+      "sha": "a1b8fa55050d3e44d901ef73a840157bd8dc60c9",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
