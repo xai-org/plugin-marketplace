@@ -407,6 +407,24 @@
         ]
       }
     },
+    "keito": {
+      "sha": "35744aaf4672216b4ab37d99fe871549739c5e96",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "keito",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keito-time-tracking",
+            "description": "Log time, timers, LLM usage, and expenses to Keito and review Keito time. Use for requests about Keito."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
