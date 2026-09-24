@@ -395,6 +395,32 @@
         ]
       }
     },
+    "fiskmas": {
+      "sha": "e93ffd1a7338a8156d5a705a246cf074ede2808f",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fiskmas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fiskmas",
+            "description": "Use Fiskmås, an MCP-native Docker app host, to deploy a containerized HTTP app. Use when the user wants to host, deploy…"
+          },
+          {
+            "name": "fiskmas-debug",
+            "description": "Debug a Fiskmås app that is unhealthy. Use when an app returns 502, is in a crash loop, fails its health check, or when…"
+          },
+          {
+            "name": "fiskmas-docker",
+            "description": "Write a Fiskmås-compatible Dockerfile. Use when building an image to deploy to Fiskmås — PORT, health path, amd64, size…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "fiskmas",
+      "description": "Fiskmås, an MCP-native Docker app host: register, deploy, debug, and scale containerized HTTP apps from Grok. Create a project, push your container to the Fiskmås registry, deploy to a durable host, manage lifecycle and env, read logs and stats, and get guided debugging. Free tier included (1 running project, sleeps after 24 h idle); Plus is $9.99/mo.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pefman/fiskmas-grok-plugin.git",
+        "sha": "e93ffd1a7338a8156d5a705a246cf074ede2808f"
+      },
+      "homepage": "https://fiskmas.dev",
+      "keywords": ["fiskmas", "fiskmas deploy", "deploy to fiskmas", "fiskmas mcp"],
+      "domains": ["fiskmas.dev", "mcp.fiskmas.dev", "registry.fiskmas.dev"]
     }
   ]
 }
