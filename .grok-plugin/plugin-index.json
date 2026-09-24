@@ -1164,6 +1164,18 @@
         ]
       }
     },
+    "toastbuddy": {
+      "sha": "9fd6c68a4e7a5bdc29aa61b5a2361f3eb97c2e41",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toastbuddy",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
       "version": "0.50.0",
