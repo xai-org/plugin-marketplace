@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "calories-club",
+      "description": "Connect Grok Build to Calories Club for food logging, daily nutrition summaries, barcode lookup, water, and weight tracking.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zenandrei/calories-club-grok-plugin.git",
+        "sha": "01c965fcb9687b62ed2162024c2e88194b698cda"
+      },
+      "homepage": "https://caloriesclub.app/en/mcp/",
+      "keywords": ["calories club", "caloriesclub", "calories club mcp"],
+      "domains": ["caloriesclub.app"]
     }
   ]
 }

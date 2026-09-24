@@ -101,6 +101,24 @@
         ]
       }
     },
+    "calories-club": {
+      "sha": "01c965fcb9687b62ed2162024c2e88194b698cda",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calories-club",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calories-club",
+            "description": "Use when the user asks about Calories Club food entries, nutrition totals, barcodes, water, weight, or workouts."
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",
