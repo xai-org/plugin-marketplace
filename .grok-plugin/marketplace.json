@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "markaestro",
+      "description": "Official Markaestro plugin. Plan, schedule, publish, and review social posts on Facebook, Instagram, TikTok, Threads, Pinterest, LinkedIn, and X from Grok: drafts in your brand's voice, scheduling at learned best times, publish tracking, analytics, and Evergreen queues, through Markaestro's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/markaestro/markaestro-agents.git",
+        "sha": "783f7daa7ddce90a2965be148e980ea9d0b2982f",
+        "path": "plugin"
+      },
+      "homepage": "https://markaestro.com/developers/agents",
+      "keywords": ["markaestro", "markaestro mcp", "markaestro social", "markaestro post", "markaestro schedule", "markaestro analytics"],
+      "domains": ["markaestro.com", "app.markaestro.com"]
     }
   ]
 }
