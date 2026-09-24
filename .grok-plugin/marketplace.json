@@ -382,6 +382,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+
+    {
+      "name": "czip",
+      "description": "Compress a long AI-agent session into a persistent, searchable HKP1 pack. New sessions read a small work-map instead of reloading full history, then pull only the message ranges they need. Pure Python stdlib, zero dependencies, fully local.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Jilazem/Czip.git",
+        "sha": "70323181454e21e0bc73ce2bf3e069562c665103"
+      },
+      "homepage": "https://github.com/Jilazem/Czip",
+      "keywords": [
+        "czip",
+        "hkp",
+        "session pack"
+      ],
+      "domains": []
     }
+
   ]
 }
