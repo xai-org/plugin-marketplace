@@ -631,6 +631,18 @@
         ]
       }
     },
+    "opusclip": {
+      "sha": "50440cec136362c162836e4a35468456c2ebd15d",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "opusclip",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
       "components": {

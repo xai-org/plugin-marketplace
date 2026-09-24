@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "opusclip",
+      "description": "Turn long videos into AI-curated short clips from Grok Build. Analyze a video, preview and edit clips, reframe to vertical, caption, export, and schedule posts to connected social accounts through OpusClip's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/opus-pro/opusclip-mcp.git",
+        "sha": "50440cec136362c162836e4a35468456c2ebd15d"
+      },
+      "homepage": "https://www.opus.pro",
+      "keywords": ["opusclip", "opus clip", "opusclip mcp", "opus pro"],
+      "domains": ["opus.pro", "www.opus.pro", "mcp.opus.pro", "help.opus.pro", "clip.opus.pro"]
     }
   ]
 }
