@@ -102,8 +102,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
-      "version": "1.9.0",
+      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
+      "version": "1.10.1",
       "components": {
         "mcpServers": [
           {
@@ -262,8 +262,8 @@
       }
     },
     "figma": {
-      "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
-      "version": "2.2.111",
+      "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f",
+      "version": "2.2.120",
       "components": {
         "mcpServers": [
           {
@@ -278,7 +278,7 @@
           },
           {
             "name": "figma-create-new-file",
-            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+            "description": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this sk…"
           },
           {
             "name": "figma-design-to-code",
@@ -408,8 +408,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
-      "version": "0.0.189",
+      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
+      "version": "0.0.190",
       "components": {
         "skills": [
           {
@@ -529,8 +529,8 @@
       }
     },
     "netlify": {
-      "sha": "b113bc85757a20df478dcbe9ade81ec4b01d580f",
-      "version": "1.5.0",
+      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
+      "version": "1.5.1",
       "components": {
         "mcpServers": [
           {
@@ -602,6 +602,24 @@
         ]
       }
     },
+    "octen": {
+      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "octen-web",
+            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
@@ -614,7 +632,7 @@
       }
     },
     "pstack": {
-      "sha": "032be146865d973682535de75f2287da438550bf",
+      "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
       "components": {
         "agents": [
           {
@@ -831,8 +849,8 @@
       }
     },
     "railway": {
-      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
-      "version": "1.4.0",
+      "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
+      "version": "1.5.5",
       "components": {
         "hooks": [
           {
@@ -901,8 +919,8 @@
       }
     },
     "stripe": {
-      "sha": "82d5d332c2eff45581030dcaf9f8ebabd28d0c88",
-      "version": "0.8.0",
+      "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
+      "version": "0.8.5",
       "components": {
         "agents": [
           {
@@ -965,7 +983,7 @@
           },
           {
             "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions and SDKs"
+            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
@@ -1183,8 +1201,8 @@
       }
     },
     "vercel": {
-      "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8",
-      "version": "0.50.0",
+      "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
+      "version": "0.50.1",
       "components": {
         "agents": [
           {
@@ -1279,8 +1297,16 @@
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
+            "name": "custom-metrics",
+            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
+          },
+          {
+            "name": "domains",
+            "description": "Search, register, connect, transfer, and renew domain names on Vercel using the CLI or Domains Registrar API. Use for d…"
           },
           {
             "name": "env-vars",
@@ -1390,8 +1416,8 @@
       }
     },
     "wix": {
-      "sha": "0bb9e628fae4f2999006cb239bb306b2b7fe8308",
-      "version": "1.19.1",
+      "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
+      "version": "1.20.0",
       "components": {
         "mcpServers": [
           {
