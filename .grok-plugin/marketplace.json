@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "deja",
+      "description": "Recall what you already did in your other coding agents. deja indexes the session transcripts Claude Code, Codex, Cursor, opencode, Zed and twenty-nine more already write to disk, including work from before it was installed, and answers from them locally.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vshulcz/deja-vu.git",
+        "path": "extensions/grok",
+        "sha": "3e2dd73f82db3fae83742e0fcfc46bef7302c238"
+      },
+      "homepage": "https://github.com/vshulcz/deja-vu",
+      "keywords": ["deja", "recall past sessions", "what did I do before", "search my agent history", "session memory"]
     }
   ]
 }
