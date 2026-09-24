@@ -631,6 +631,24 @@
         ]
       }
     },
+    "passfast": {
+      "sha": "36a4e5aacd848341373ed7e4e6e4bac194883158",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "passfast",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "passfast",
+            "description": "Use PassFast MCP to create and manage Apple Wallet and Google Wallet passes. Trigger when the user wants wallet passes,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
       "components": {

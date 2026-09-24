@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "passfast",
+      "description": "Remote HTTPS MCP for Apple Wallet + Google Wallet passes. Paste a sk_live_ secret once, then create, update, and share dual-wallet passes from Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aberkaneso/passfast-mcp.git",
+        "sha": "36a4e5aacd848341373ed7e4e6e4bac194883158"
+      },
+      "homepage": "https://passfa.st/docs/mcp",
+      "keywords": ["passfast", "passfa.st", "passfast mcp", "passfast wallet", "apple wallet passfast", "google wallet passfast"],
+      "domains": ["passfa.st", "www.passfa.st"]
     }
   ]
 }
