@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "wefunder",
+      "description": "Browse startups raising on Wefunder, look up companies and rounds, and read your own syndicate or company data. Read-only MCP server plus skills.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wefunder/agent-plugin.git",
+        "sha": "25b055cfdd2a12822b1f9d8ae82298db475e4a67"
+      },
+      "homepage": "https://github.com/Wefunder/agent-plugin",
+      "keywords": ["wefunder", "wefunder mcp", "community round", "wefunder offerings", "wefunder syndicate"],
+      "domains": ["wefunder.com"]
     }
   ]
 }

@@ -1379,6 +1379,32 @@
         ]
       }
     },
+    "wefunder": {
+      "sha": "25b055cfdd2a12822b1f9d8ae82298db475e4a67",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wefunder",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "browse-deals",
+            "description": "Browse Wefunder offerings using server filters, resolve companies by name, retrieve round details, and optionally show…"
+          },
+          {
+            "name": "founder-investor-insights",
+            "description": "Resolve the connected user's companies first, then read fundraising totals, rounds, investors, semantic matches, or emp…"
+          },
+          {
+            "name": "syndicate-manager",
+            "description": "Resolve an authorized Wefunder syndicate and read its members, deals, investor participation, and activity. Use when a…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
       "version": "1.20.0",
