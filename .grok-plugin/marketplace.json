@@ -382,6 +382,15 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "6zzzzzz",
+      "description": "Bulk domain availability checks against ICANN zone files. Check hundreds of candidate names in one call, or explore one name across popular TLDs with verified-free variations. Hosted MCP, no account or API key.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/6zzzzzz" },
+      "homepage": "https://6zzzzzz.com",
+      "keywords": ["6zzzzzz", "6zzzzzz domain search", "6zzzzzz mcp"],
+      "domains": ["6zzzzzz.com"]
     }
   ]
 }
