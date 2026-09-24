@@ -382,6 +382,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "coderifts",
+      "description": "Signed, offline-verifiable authorization for AI-agent contract changes. Only a granted change can proceed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coderifts/api-governance.git",
+        "sha": "d8baca8784370da0726c5c0ac64ae72a62e41f9c",
+        "path": "plugins/api-governance"
+      },
+      "homepage": "https://coderifts.com",
+      "keywords": [
+        "coderifts",
+        "coderifts mcp",
+        "coderifts preflight",
+        "signed receipt"
+      ],
+      "domains": [
+        "coderifts.com",
+        "app.coderifts.com"
+      ]
     }
   ]
 }
