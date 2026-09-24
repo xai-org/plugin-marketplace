@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "opensea",
+      "description": "OpenSea NFT and token marketplace integration. Query collection floors, stats and trending data, NFT metadata and rarity, wallet holdings, token prices and swap quotes across EVM chains and Solana via the hosted OpenSea MCP server, plus skills for Seaport trading, token swaps, wallet signing setup, and ERC-8257 agent tools.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ProjectOpenSea/opensea-skill.git",
+        "sha": "9cdcb8522d98ccaef08df62491aa5d2269fe1edb"
+      },
+      "homepage": "https://github.com/ProjectOpenSea/opensea-skill",
+      "keywords": ["opensea", "nft", "opensea api", "opensea mcp", "seaport", "floor price"],
+      "domains": ["opensea.io", "docs.opensea.io", "mcp.opensea.io"]
     }
   ]
 }
