@@ -631,6 +631,18 @@
         ]
       }
     },
+    "our-family-dances": {
+      "sha": "09320abc600fd6edbcc914f8a4428b13c80f698d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "our-family-dances",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
       "components": {
