@@ -390,7 +390,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Wefunder/agent-plugin.git",
-        "sha": "25b055cfdd2a12822b1f9d8ae82298db475e4a67"
+        "sha": "e6cb984ebece888551b2a1ffb482c58c26238dd2"
       },
       "homepage": "https://github.com/Wefunder/agent-plugin",
       "keywords": ["wefunder", "wefunder mcp", "community round", "wefunder offerings", "wefunder syndicate"],
