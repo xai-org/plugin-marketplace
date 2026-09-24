@@ -215,6 +215,24 @@
         ]
       }
     },
+    "conjureanything": {
+      "sha": "d56fc49fc6ff4c89d6367ad81a961f1e641a0c46",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "conjureanything",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "conjure-concept",
+            "description": "Turn a product idea into a ConjureAnything concept preview (specs, bill of materials, two images), then optionally scor…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
