@@ -631,6 +631,18 @@
         ]
       }
     },
+    "plane": {
+      "sha": "4e4011636f65b3c30fef0741dc685a00064d70b2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "plane",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
       "components": {
