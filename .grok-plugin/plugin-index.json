@@ -1130,6 +1130,23 @@
         ]
       }
     },
+    "teslemetry": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "teslemetry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "teslemetry",
+            "description": "Read and control Tesla vehicles and energy products through Teslemetry, and write code against the Teslemetry API. Use…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",

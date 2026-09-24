@@ -1,0 +1,19 @@
+{
+  "name": "teslemetry",
+  "version": "1.0.0",
+  "description": "Tesla vehicle and energy data, commands, and real-time telemetry for your own Tesla account, via Teslemetry's hosted MCP at api.teslemetry.com. Sign in with a Teslemetry account on first connect.",
+  "author": {
+    "name": "Teslemetry",
+    "url": "https://teslemetry.com"
+  },
+  "homepage": "https://teslemetry.com",
+  "repository": "https://github.com/Teslemetry",
+  "license": "Proprietary",
+  "keywords": [
+    "teslemetry",
+    "tesla api",
+    "powerwall",
+    "tesla fleet api",
+    "tesla telemetry"
+  ]
+}
