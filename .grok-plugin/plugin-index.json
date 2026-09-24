@@ -1424,6 +1424,24 @@
           }
         ]
       }
+    },
+    "zensched": {
+      "sha": "a4d6c3d273d19c642bacf80fed821b7627806a48",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zensched",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zensched",
+            "description": "Field workforce scheduling via the ZenSched MCP server. Call zensched_guide first, then account_create for a zsc_ key.…"
+          }
+        ]
+      }
     }
   }
 }
