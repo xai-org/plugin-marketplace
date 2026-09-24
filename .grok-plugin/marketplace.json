@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "jev-social",
+      "description": "Read-only Instagram, TikTok, and LinkedIn research. Jev selects bounded operations; the local socai CLI captures evidence in the user's Chrome and returns source-linked reports.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/socai-io/jev-social.git",
+        "sha": "e2590782535433b3a88fd0e5406d54bf70a8647b"
+      },
+      "homepage": "https://socai-io.github.io/jev-social/",
+      "keywords": ["jev social", "socai jev", "socai social research"],
+      "domains": ["socai.io", "socai-io.github.io"]
     }
   ]
 }
