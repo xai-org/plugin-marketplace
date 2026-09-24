@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "robowrite",
+      "description": "Connect Grok to RoboWrite to inspect the signed-in organization, recover existing briefs and drafts, and run the reviewed URL-to-saved-Markdown content workflow through the hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RoboAdApp/robowrite-plugin.git",
+        "sha": "08ec65303cd1c14b458e1a703e443dd3d9e22947"
+      },
+      "homepage": "https://www.robowrite.ai",
+      "keywords": ["robowrite", "robowrite.ai", "roboad"],
+      "domains": ["robowrite.ai", "www.robowrite.ai"]
     }
   ]
 }
