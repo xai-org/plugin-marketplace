@@ -382,6 +382,29 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "websitepublisher",
+      "description": "The AI web platform. Describe a website, app or store to any AI assistant — it goes live on a real URL with auth, payments, forms, integrations and memory built in.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/megberts/websitepublisher-grok.git",
+        "sha": "c5a1dbc14815e123464b6df8488d0438fdf5abae"
+      },
+      "homepage": "https://www.websitepublisher.ai",
+      "keywords": [
+        "websitepublisher",
+        "website-builder",
+        "ai-website-builder",
+        "mcp",
+        "webshop",
+        "cms",
+        "hosting"
+      ],
+      "domains": [
+        "websitepublisher.ai"
+      ]
     }
   ]
 }
