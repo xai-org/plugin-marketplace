@@ -1084,6 +1084,18 @@
         ]
       }
     },
+    "surgeryviz": {
+      "sha": "de3adb70c63fa913fb60c4417429d5f1a1b39dd0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "surgeryviz",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
