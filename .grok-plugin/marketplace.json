@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "modem",
+      "description": "Search customer feedback in Modem, update topics, people, and companies, and run the Modem Agent from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/modem-dev/mcp.git",
+        "sha": "c6b07f071c0f4d6ce8710c62ba46de1d01159fe4",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://modem.dev",
+      "keywords": ["modem", "modem mcp", "modem crm"],
+      "domains": ["modem.dev"]
     }
   ]
 }
