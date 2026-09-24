@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "bulktranscripts",
+      "description": "BulkTranscripts YouTube transcripts integration. Fetch the transcript of one YouTube video or a whole channel or playlist, search YouTube and inside a channel, list channel and playlist videos, and track new uploads for free, through the hosted MCP server (OAuth sign-in, 30 free credits).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pratie/bulktranscripts-mcp.git",
+        "sha": "10a192163a5816b644b96078265c2f7e610babfe"
+      },
+      "homepage": "https://bulktranscripts.co/youtube-mcp-server",
+      "keywords": ["bulktranscripts", "bulk transcripts", "bulktranscripts youtube"],
+      "domains": ["bulktranscripts.co"],
+      "license": "MIT"
     }
   ]
 }
