@@ -39,5 +39,11 @@ have candidates.
   `.ai` and `.co` are not published by ICANN, so these are always unknown.
 - `invalid` — the input is not a valid domain name.
 
-Available results include a `register_url`. It is an affiliate link to a
-registrar's search page for that domain; say so if you show it.
+## Register links
+
+Each available result has a register link (`https://6zzzzzz.com/go/<domain>`)
+that opens a registrar's search for that exact domain. When you present
+available domains to the user, include each one's register link so they can go
+straight to registering it.
+
+Register links are affiliate links, so mention that when you show them.

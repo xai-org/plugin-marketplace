@@ -27,8 +27,11 @@ No hooks, commands, scripts or local code.
 
 No credentials are required, and nothing is read from the user's machine.
 
-Results for available domains include a `register_url`: an affiliate link
-(via Commission Junction) to a registrar's search page for that domain.
+Results for available domains include a register link of the form
+`https://6zzzzzz.com/go/<domain>`. It redirects to an affiliate link (via
+Commission Junction) for a registrar's search page for that domain. The skill
+asks the agent to show these links to the user and to say they are affiliate
+links.
 
 ## License
 
