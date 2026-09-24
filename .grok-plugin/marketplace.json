@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "recordo",
+      "description": "Connect Grok Build to Recordo for ADHD tasks, notes, projects, daily plans, and next-task guidance.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zenandrei/recordo-grok-plugin.git",
+        "sha": "77f459281bece40c064477c7d06151439726c768"
+      },
+      "homepage": "https://recordo.app/en/mcp/",
+      "keywords": ["recordo", "recordo adhd", "recordo tasks"],
+      "domains": ["recordo.app", "api.recordo.app"]
     }
   ]
 }
