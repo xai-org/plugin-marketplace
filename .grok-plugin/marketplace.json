@@ -6,67 +6,22 @@
   },
   "plugins": [
     {
-      "name": "vercel",
-      "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
-      "category": "deployment",
+      "name": "axiom",
+      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
+      "category": "observability",
       "source": {
         "source": "url",
-        "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605"
+        "url": "https://github.com/axiomhq/skills.git",
+        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
       },
-      "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
-    },
-    {
-      "name": "sentry",
-      "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
-      "category": "monitoring",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
-      },
-      "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
-    },
-    {
-      "name": "chrome-devtools",
-      "description": "Chrome DevTools integration. Control and inspect a live Chrome browser. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
-      },
-      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
-    },
-    {
-      "name": "cloudflare",
-      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cloudflare/skills.git",
-        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
-      },
-      "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
-    },
-    {
-      "name": "superpowers",
-      "description": "Core skills library for software development: test-driven development, systematic debugging, collaboration patterns, and proven engineering workflows and techniques.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/obra/superpowers.git",
-        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
-      },
-      "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "homepage": "https://github.com/axiomhq/skills",
+      "keywords": [
+        "axiom"
+      ],
+      "domains": [
+        "axiom.co",
+        "app.axiom.co"
+      ]
     },
     {
       "name": "base44",
@@ -78,8 +33,237 @@
         "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
-      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
-      "domains": ["base44.com", "docs.base44.com"]
+      "keywords": [
+        "base44",
+        "base44 cli",
+        "base44 sdk",
+        "base44 app",
+        "base44 deploy"
+      ],
+      "domains": [
+        "base44.com",
+        "docs.base44.com"
+      ]
+    },
+    {
+      "name": "blindpay",
+      "description": "Official BlindPay MCP plugin for stablecoin payouts, payins, quotes, and receivers. Connects to BlindPay's remote HTTP MCP (full + readonly) over OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blindpaylabs/blindpay-mcp.git",
+        "sha": "d00c65d2b60cbe8601deec109c2eac2f71c1cbbd"
+      },
+      "homepage": "https://blindpay.com",
+      "keywords": [
+        "blindpay",
+        "blindpay mcp",
+        "blindpay payments",
+        "blindpay stablecoin"
+      ],
+      "domains": [
+        "blindpay.com",
+        "mcp.blindpay.com",
+        "api.blindpay.com",
+        "app.blindpay.com"
+      ]
+    },
+    {
+      "name": "browser-use",
+      "description": "Give Grok a real browser \u2014 the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browser-use/plugins.git",
+        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+        "path": "grok"
+      },
+      "homepage": "https://browser-use.com",
+      "keywords": [
+        "browser use",
+        "browser-use",
+        "browser use cloud"
+      ],
+      "domains": [
+        "browser-use.com",
+        "cloud.browser-use.com"
+      ]
+    },
+    {
+      "name": "bruin",
+      "description": "Grok integration for Bruin \u2014 MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": [
+        "bruin",
+        "bruin api",
+        "mettel bruin",
+        "bruin public api",
+        "bruin ticket"
+      ],
+      "domains": [
+        "bruin.com",
+        "api.bruin.com",
+        "apigw.bruin.com"
+      ]
+    },
+    {
+      "name": "chrome-devtools",
+      "description": "Chrome DevTools integration. Control and inspect a live Chrome browser. Record performance traces, analyze network requests, check console messages with source-mapped stack traces, and automate browser actions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
+        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
+      },
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
+    },
+    {
+      "name": "cloudflare",
+      "description": "Skills for the Cloudflare developer platform: Workers, Durable Objects, Agents SDK, MCP servers, Wrangler CLI, and web performance.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cloudflare/skills.git",
+        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+      },
+      "homepage": "https://github.com/cloudflare/skills",
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
+    },
+    {
+      "name": "datadog",
+      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/grok-plugin.git",
+        "sha": "083b4783095520f562534956578c8826613292a9"
+      },
+      "homepage": "https://github.com/datadog-labs/grok-plugin",
+      "keywords": [
+        "datadog",
+        "datadog mcp"
+      ],
+      "domains": [
+        "datadoghq.com",
+        "app.datadoghq.com",
+        "datadoghq.eu"
+      ]
+    },
+    {
+      "name": "exa",
+      "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to find the latest code docs, news, company information, and much more. Use the exa-search skill for deep research, and sign up for Exa to get free credits.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
+        "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
+      },
+      "homepage": "https://exa.ai",
+      "keywords": [
+        "exa",
+        "exa search",
+        "exa ai"
+      ],
+      "domains": [
+        "exa.ai",
+        "dashboard.exa.ai",
+        "docs.exa.ai"
+      ]
+    },
+    {
+      "name": "figma",
+      "description": "Official Figma MCP server and skills for design-to-code workflows. Read design context from Figma files, implement designs, use Code Connect, write to the canvas, and generate Figma designs from web pages.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/figma/mcp-server-guide.git",
+        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
+      },
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "keywords": [
+        "figma",
+        "figma mcp"
+      ],
+      "domains": [
+        "figma.com",
+        "www.figma.com"
+      ]
+    },
+    {
+      "name": "firecrawl",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
+        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
+      },
+      "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
+      "keywords": [
+        "firecrawl",
+        "fire crawl"
+      ],
+      "domains": [
+        "firecrawl.dev",
+        "docs.firecrawl.dev"
+      ]
+    },
+    {
+      "name": "helena",
+      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "9b71516e006144d323f138f1785f55123ec51931"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": [
+        "helena",
+        "enrich labs",
+        "helena ai marketer",
+        "helena marketing ai agent",
+        "helena autonomous marketer",
+        "helena marketing"
+      ],
+      "domains": [
+        "enrichlabs.ai",
+        "agent.enrichlabs.ai"
+      ]
+    },
+    {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": [
+        "modern web",
+        "web best practices",
+        "web guidance"
+      ]
     },
     {
       "name": "mongodb",
@@ -92,8 +276,16 @@
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
-      "domains": ["mongodb.com"]
+      "keywords": [
+        "mongodb community",
+        "mongo",
+        "mongosh",
+        "mongodb local mcp",
+        "enterprise advanced"
+      ],
+      "domains": [
+        "mongodb.com"
+      ]
     },
     {
       "name": "mongodb-atlas",
@@ -106,21 +298,17 @@
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
-    },
-    {
-      "name": "axiom",
-      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
-      "category": "observability",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/axiomhq/skills.git",
-        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
-      },
-      "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom"],
-      "domains": ["axiom.co", "app.axiom.co"]
+      "keywords": [
+        "mongodb atlas",
+        "atlas",
+        "mongodb",
+        "atlas cluster",
+        "atlas mcp"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
     },
     {
       "name": "neon",
@@ -131,21 +319,17 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
-    },
-    {
-      "name": "wix",
-      "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/wix/skills.git",
-        "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66"
-      },
-      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
-      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
-      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+      "keywords": [
+        "neon",
+        "neon postgres",
+        "neon database",
+        "neon branch"
+      ],
+      "domains": [
+        "neon.tech",
+        "neon.com",
+        "console.neon.tech"
+      ]
     },
     {
       "name": "netlify",
@@ -157,64 +341,19 @@
         "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
-      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
-      "domains": ["netlify.com", "app.netlify.com"]
-    },
-    {
-      "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
-      },
-      "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": ["firecrawl", "fire crawl"],
-      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
-    },
-    {
-      "name": "figma",
-      "description": "Official Figma MCP server and skills for design-to-code workflows. Read design context from Figma files, implement designs, use Code Connect, write to the canvas, and generate Figma designs from web pages.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
-      },
-      "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": ["figma", "figma mcp"],
-      "domains": ["figma.com", "www.figma.com"]
-    },
-    {
-      "name": "exa",
-      "description": "Exa is the fastest and most accurate web search for AI. It searches the web in real time, reads relevant pages, and answers with up-to-date sources. Use it to find the latest code docs, news, company information, and much more. Use the exa-search skill for deep research, and sign up for Exa to get free credits.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/exa-labs/exa-grok-plugin.git",
-        "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
-      },
-      "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai"],
-      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
-    },
-    {
-      "name": "tavily",
-      "description": "Web search, content extraction, website crawling, URL discovery, and deep research via Tavily's hosted MCP server and official skills. Connect with OAuth to access current, source-grounded web information directly from Grok Build.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
-      },
-      "homepage": "https://www.tavily.com",
-      "keywords": ["tavily", "tavily search", "tavily ai"],
-      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+      "keywords": [
+        "netlify",
+        "netlify deploy",
+        "deploy to netlify"
+      ],
+      "domains": [
+        "netlify.com",
+        "app.netlify.com"
+      ]
     },
     {
       "name": "octen",
-      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser \u2014 nothing to install, no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
@@ -222,63 +361,35 @@
         "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
       },
       "homepage": "https://octen.ai",
-      "keywords": ["octen", "octen search", "octen ai"],
-      "domains": ["octen.ai", "docs.octen.ai"]
+      "keywords": [
+        "octen",
+        "octen search",
+        "octen ai"
+      ],
+      "domains": [
+        "octen.ai",
+        "docs.octen.ai"
+      ]
     },
     {
-      "name": "railway",
-      "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
-      "category": "deployment",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
-        "path": "plugins/railway"
-      },
-      "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": ["railway", "railway deploy", "deploy to railway"],
-      "domains": ["railway.com", "railway.app"]
-    },
-    {
-      "name": "stripe",
-      "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
+      "name": "omneky",
+      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
       "source": {
-        "source": "url",
-        "url": "https://github.com/stripe/ai.git",
-        "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
-        "path": "providers/grok/plugin"
+        "type": "local",
+        "path": "./external_plugins/omneky"
       },
-      "homepage": "https://github.com/stripe/ai",
-      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
-      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
-    },
-    {
-      "name": "tinyfish",
-      "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "89457fba3fa44c7b2227807948628011983ab668",
-        "path": "grok"
-      },
-      "homepage": "https://www.tinyfish.ai",
-      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
-      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
-    },
-    {
-      "name": "supabase",
-      "description": "Official Supabase plugin for Grok Build with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
-      "category": "database",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
-      },
-      "homepage": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
-      "domains": ["supabase.com"]
+      "homepage": "https://www.omneky.com",
+      "keywords": [
+        "omneky",
+        "omneky ads",
+        "omneky mcp"
+      ],
+      "domains": [
+        "omneky.com",
+        "mcp.omneky.com",
+        "app.omneky.com"
+      ]
     },
     {
       "name": "pstack",
@@ -291,34 +402,11 @@
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
-      "keywords": ["pstack", "poteto-mode", "poteto"]
-    },
-    {
-      "name": "browser-use",
-      "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/browser-use/plugins.git",
-        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
-        "path": "grok"
-      },
-      "homepage": "https://browser-use.com",
-      "keywords": ["browser use", "browser-use", "browser use cloud"],
-      "domains": ["browser-use.com", "cloud.browser-use.com"]
-    },
-    {
-      "name": "datadog",
-      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
-      "category": "observability",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/datadog-labs/grok-plugin.git",
-        "sha": "083b4783095520f562534956578c8826613292a9"
-      },
-      "homepage": "https://github.com/datadog-labs/grok-plugin",
-      "keywords": ["datadog", "datadog mcp"],
-      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+      "keywords": [
+        "pstack",
+        "poteto-mode",
+        "poteto"
+      ]
     },
     {
       "name": "quo",
@@ -330,58 +418,202 @@
         "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
       },
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
-      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
-      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+      "keywords": [
+        "quo",
+        "quo mcp",
+        "quo business phone",
+        "openphone"
+      ],
+      "domains": [
+        "quo.com",
+        "mcp.quo.com",
+        "support.quo.com",
+        "my.quo.com"
+      ]
     },
     {
-      "name": "bruin",
-      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "name": "railway",
+      "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/railwayapp/railway-skills.git",
+        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
+        "path": "plugins/railway"
+      },
+      "homepage": "https://github.com/railwayapp/railway-skills",
+      "keywords": [
+        "railway",
+        "railway deploy",
+        "deploy to railway"
+      ],
+      "domains": [
+        "railway.com",
+        "railway.app"
+      ]
+    },
+    {
+      "name": "sentry",
+      "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getsentry/plugin-grok.git",
+        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
+      },
+      "homepage": "https://github.com/getsentry/sentry-for-ai",
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
+    },
+    {
+      "name": "stripe",
+      "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
+        "url": "https://github.com/stripe/ai.git",
+        "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
+        "path": "providers/grok/plugin"
       },
-      "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
-      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+      "homepage": "https://github.com/stripe/ai",
+      "keywords": [
+        "stripe",
+        "stripe payments",
+        "stripe connect",
+        "stripe mcp",
+        "stripe billing"
+      ],
+      "domains": [
+        "stripe.com",
+        "docs.stripe.com",
+        "dashboard.stripe.com"
+      ]
     },
     {
-      "name": "omneky",
-      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
-      "category": "development",
+      "name": "supabase",
+      "description": "Official Supabase plugin for Grok Build with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
+      "category": "database",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/omneky"
+        "source": "url",
+        "url": "https://github.com/supabase-community/supabase-plugin.git",
+        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
       },
-      "homepage": "https://www.omneky.com",
-      "keywords": ["omneky", "omneky ads", "omneky mcp"],
-      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+      "homepage": "https://github.com/supabase-community/supabase-plugin",
+      "keywords": [
+        "supabase",
+        "supabase mcp",
+        "supabase auth",
+        "supabase storage",
+        "supabase edge functions"
+      ],
+      "domains": [
+        "supabase.com"
+      ]
     },
     {
-      "name": "modern-web-guidance",
-      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "name": "superpowers",
+      "description": "Core skills library for software development: test-driven development, systematic debugging, collaboration patterns, and proven engineering workflows and techniques.",
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
       },
-      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
-      "keywords": ["modern web", "web best practices", "web guidance"]
+      "homepage": "https://github.com/obra/superpowers",
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
-      "name": "helena",
-      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
-      "category": "productivity",
+      "name": "tavily",
+      "description": "Web search, content extraction, website crawling, URL discovery, and deep research via Tavily's hosted MCP server and official skills. Connect with OAuth to access current, source-grounded web information directly from Grok Build.",
+      "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
-        "sha": "9b71516e006144d323f138f1785f55123ec51931"
+        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
+        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
       },
-      "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
-      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+      "homepage": "https://www.tavily.com",
+      "keywords": [
+        "tavily",
+        "tavily search",
+        "tavily ai"
+      ],
+      "domains": [
+        "tavily.com",
+        "www.tavily.com",
+        "app.tavily.com",
+        "docs.tavily.com"
+      ]
+    },
+    {
+      "name": "tinyfish",
+      "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites \u2014 including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
+        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "path": "grok"
+      },
+      "homepage": "https://www.tinyfish.ai",
+      "keywords": [
+        "tinyfish",
+        "tinyfish agent",
+        "tinyfish web agent",
+        "agentql"
+      ],
+      "domains": [
+        "tinyfish.ai",
+        "agent.tinyfish.ai",
+        "docs.tinyfish.ai"
+      ]
+    },
+    {
+      "name": "vercel",
+      "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vercel/vercel-plugin.git",
+        "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605"
+      },
+      "homepage": "https://github.com/vercel/vercel-plugin",
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
+    },
+    {
+      "name": "wix",
+      "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wix/skills.git",
+        "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66"
+      },
+      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
+      "keywords": [
+        "wix",
+        "wix cli",
+        "wix mcp",
+        "wix apps",
+        "wix headless"
+      ],
+      "domains": [
+        "wix.com",
+        "dev.wix.com",
+        "manage.wix.com"
+      ]
     }
   ]
 }
