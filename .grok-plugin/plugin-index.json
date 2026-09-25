@@ -407,6 +407,24 @@
         ]
       }
     },
+    "hive": {
+      "sha": "034f7a874b8b9ad74fa42de47db6ce60e23dec7d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hive",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hive",
+            "description": "Use when the user wants to work with their social media accounts through Hive — drafting or scheduling posts, checking…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
