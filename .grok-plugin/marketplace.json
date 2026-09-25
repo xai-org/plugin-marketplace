@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "deck",
+      "description": "Deck in Grok Build — the AI PM that Autonomously Improves your Product. Find the highest-leverage problem, rank what to act on, draft initiative and Project briefs, check NPS, and analyse Competitors.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getdeck-io/plugins.git",
+        "sha": "53e6e8160effd2a450e7acbfcd2e294f77ab7067"
+      },
+      "homepage": "https://getdeck.io",
+      "keywords": ["deck", "getdeck", "deck ai pm", "deck nps", "deck competitors", "deck mcp"],
+      "domains": ["getdeck.io", "mcp.getdeck.io", "docs.getdeck.io"]
     }
   ]
 }

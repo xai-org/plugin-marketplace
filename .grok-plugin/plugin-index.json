@@ -237,6 +237,48 @@
         ]
       }
     },
+    "deck": {
+      "sha": "53e6e8160effd2a450e7acbfcd2e294f77ab7067",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deck",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "competitive-analyst",
+            "description": "Use when the user asks about competitors, competitive landscape, rival products, win/loss vs another vendor, competitor…"
+          },
+          {
+            "name": "discovery-partner",
+            "description": "Finds the highest-leverage problem to work on using Deck evidence. Use when the user is exploring what to build, evalua…"
+          },
+          {
+            "name": "feedback-analyst",
+            "description": "Investigates a problem in depth before the AI PM acts. Use when the user wants to thoroughly investigate a customer pro…"
+          },
+          {
+            "name": "initiative-brief-generator",
+            "description": "Turn a chosen Deck problem into an initiative the team can run. Use when users want an initiative outline, evidence sum…"
+          },
+          {
+            "name": "nps-breakdown",
+            "description": "Check whether the product is improving, and what to fix first. Use when users ask for NPS score, promoter/passive/detra…"
+          },
+          {
+            "name": "prioritisation-advisor",
+            "description": "Ranks what to act on next and says why, using Deck evidence. Use when the user is ranking features, comparing roadmap o…"
+          },
+          {
+            "name": "project-brief-generator",
+            "description": "Turn a chosen Deck problem into delivery-ready Project scope. Use when users want a Project brief from a Project page,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
