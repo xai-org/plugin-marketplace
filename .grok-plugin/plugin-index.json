@@ -631,6 +631,24 @@
         ]
       }
     },
+    "patch-mcp": {
+      "sha": "ab0a480fab041711a39c0bbda31c43d98effe16e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "patch-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "patch-mcp",
+            "description": "Make a real phone call on the user's behalf with the Patch MCP tools (place_call, get_call, list_calls, end_call). Use…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
