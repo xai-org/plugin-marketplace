@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "telepathy",
+      "description": "Cross-agent messaging for coding sessions on one machine. Grok, Claude Code, Codex, OpenCode, Gemini CLI, Copilot CLI and other local agent sessions can list, message and wake each other. Local only: no network calls, no telemetry.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Winterrks/telepathy.git",
+        "sha": "b54cd59bdee91d1749e486ccfe93758f530a380a",
+        "path": "plugin"
+      },
+      "homepage": "https://github.com/Winterrks/telepathy",
+      "keywords": ["telepathy", "telepathy plugin", "telepathy mcp"]
     }
   ]
 }

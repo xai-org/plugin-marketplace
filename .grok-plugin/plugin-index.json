@@ -1130,6 +1130,35 @@
         ]
       }
     },
+    "telepathy": {
+      "sha": "b54cd59bdee91d1749e486ccfe93758f530a380a",
+      "version": "0.7.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "telepathy",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "using-telepathy",
+            "description": "Use when working alongside other coding-agent sessions on this machine (Claude Code, Codex, Gemini CLI, OpenCode and ot…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
