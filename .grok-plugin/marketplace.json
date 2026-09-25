@@ -382,6 +382,21 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "medicine-support-hub",
+      "description": "Egyptian medicine catalog search, indicative EGP costs, same-INN price compare, insurance hints, and signed-in support, prescription, and personal watchlist tools via remote MCP (OAuth 2.1); catalog tools remain public.",
+      "category": "productivity",
+      "version": "0.3.3",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/minasami/medicine-support-hub.git",
+        "sha": "86f7804b71cd4e3065f53286503c0a5c70ef32f9",
+        "path": "apps/mcp-server/marketplaces/grok/medicine-support-hub"
+      },
+      "homepage": "https://medicinesupport.app",
+      "keywords": ["medicine-support-hub", "medicinesupport", "egyptian medicines", "egp medicine prices", "mcp"],
+      "domains": ["medicinesupport.app", "mcp.medicinesupport.app", "msh-mcp.vercel.app"]
     }
   ]
 }
