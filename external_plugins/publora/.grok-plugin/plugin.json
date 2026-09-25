@@ -1,0 +1,14 @@
+{
+  "name": "publora",
+  "version": "1.0.0",
+  "description": "Schedule and publish social media posts to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram through Publora's hosted MCP server. Sign in with a Publora account on first connect.",
+  "author": {
+    "name": "Publora",
+    "url": "https://github.com/publora"
+  },
+  "homepage": "https://publora.com",
+  "repository": "https://github.com/publora/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["publora", "publora mcp", "publora social"],
+  "logo": "assets/logo.svg"
+}
