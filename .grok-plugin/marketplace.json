@@ -385,12 +385,12 @@
     },
     {
       "name": "wefunder",
-      "description": "Browse startups raising on Wefunder, look up companies and rounds, and read your own syndicate or company data. Read-only MCP server plus skills.",
+      "description": "Browse startups raising on Wefunder, look up companies and rounds, and read your own syndicate or company data. Read by default: it can never invest or move money; following companies is an optional permission. Remote MCP server plus skills.",
       "category": "finance",
       "source": {
         "source": "url",
         "url": "https://github.com/Wefunder/agent-plugin.git",
-        "sha": "e6cb984ebece888551b2a1ffb482c58c26238dd2"
+        "sha": "ca20b3c63ab1318a19601b0d808690e899b79f7b"
       },
       "homepage": "https://github.com/Wefunder/agent-plugin",
       "keywords": ["wefunder", "wefunder mcp", "community round", "wefunder offerings", "wefunder syndicate"],

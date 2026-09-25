@@ -1380,7 +1380,7 @@
       }
     },
     "wefunder": {
-      "sha": "e6cb984ebece888551b2a1ffb482c58c26238dd2",
+      "sha": "ca20b3c63ab1318a19601b0d808690e899b79f7b",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
