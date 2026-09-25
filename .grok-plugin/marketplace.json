@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "yaps",
+      "description": "Supercharge Grok with powerful local AI tools from Yaps: transcription, speaker-labelled meeting notes, captions, subtitles, translation, text to speech, audio cleanup, background removal, Auto Cut, and private Markdown memory. Runs on your own computer through the Yaps desktop app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/richawo/yaps-plugins.git",
+        "path": "grok/yaps",
+        "sha": "c6fada0dc0293e93f797160097854c65ded45c49"
+      },
+      "homepage": "https://yaps.ai",
+      "keywords": ["yaps", "yaps ai", "yaps local ai", "yaps transcription", "yaps captions", "yaps memory"],
+      "domains": ["yaps.ai", "www.yaps.ai"]
     }
   ]
 }
