@@ -47,12 +47,12 @@
     },
     {
       "name": "blindpay",
-      "description": "Official BlindPay MCP plugin for stablecoin payouts, payins, quotes, and receivers. Connects to BlindPay's remote HTTP MCP (full + readonly) over OAuth.",
-      "category": "productivity",
+      "description": "Official BlindPay MCP plugin for Grok Build: stablecoin payouts, payins, quotes, and receivers. Connects to BlindPay's remote HTTP MCP (full + readonly) over OAuth.",
+      "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/blindpaylabs/blindpay-mcp.git",
-        "sha": "d00c65d2b60cbe8601deec109c2eac2f71c1cbbd"
+        "sha": "1a52d43fe658374d21f647a7c6a23ad3ac6cca71"
       },
       "homepage": "https://blindpay.com",
       "keywords": [

@@ -72,7 +72,7 @@
       }
     },
     "blindpay": {
-      "sha": "d00c65d2b60cbe8601deec109c2eac2f71c1cbbd",
+      "sha": "1a52d43fe658374d21f647a7c6a23ad3ac6cca71",
       "version": "1.8.0",
       "components": {
         "mcpServers": [
