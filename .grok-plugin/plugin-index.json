@@ -503,6 +503,18 @@
         ]
       }
     },
+    "my-forever-songs": {
+      "sha": "0796ed44911bcfa1f4f6321e71182a5250fc46e3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "my-forever-songs",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
