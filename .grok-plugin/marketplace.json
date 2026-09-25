@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "b2bleads",
+      "description": "B2BLeads business discovery: search and enrich B2B company contacts (name, address, phone, website, email) by industry, location, rating, and company size, and look up a contact email for a single website.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/B2BLeadsAPI/b2bleads-grok-plugin.git",
+        "sha": "b98b94469c0a46bf83438b5ddd189e57bc7e4ba8"
+      },
+      "homepage": "https://b2bleadsapi.com",
+      "keywords": ["b2bleads", "b2bleadsapi", "b2b lead search", "b2bleads mcp"],
+      "domains": ["b2bleadsapi.com"]
     }
   ]
 }
