@@ -71,6 +71,18 @@
         ]
       }
     },
+    "beehiiv": {
+      "sha": "0984e4b38d6eede0a675414c121352afd2267a33",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "beehiiv",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
