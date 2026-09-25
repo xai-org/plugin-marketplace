@@ -390,7 +390,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/MichaelRobotics/whop-apps-gateway-plugin.git",
-        "sha": "c80e36d3500bc0902b30e9936a4b40160af98858"
+        "sha": "ba0320a1c476d333ee6b5579a1809d309a9e9425"
       },
       "homepage": "https://github.com/MichaelRobotics/whop-apps-gateway-plugin",
       "keywords": ["whop", "whop apps", "whop mcp"],
