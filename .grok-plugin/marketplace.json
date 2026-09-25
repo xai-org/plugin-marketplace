@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "doctorsim",
+      "description": "Travel eSIMs, Mobile top-ups and digital gift cards. Agents browse catalogs, preview prices, and place orders via doctorSIM REST API v2 and MCP.",
+      "category": "commerce",
+      "source": {
+          "source": "url",
+          "url": "https://github.com/doctorsim/agents.git",
+          "sha": "80f196c64d9a91bdef500826088fc929cd5823ec",
+          "path": "grok-plugin"
+      },
+      "homepage": "https://www.doctorsim.com/en-us/developers-agents.html",
+      "keywords": ["doctorsim","doctor sim","mobile topup","gift card","travel esim","esim"],
+      "domains": ["doctorsim.com", "www.doctorsim.com", "api.doctorsim.com"]
     }
   ]
 }
