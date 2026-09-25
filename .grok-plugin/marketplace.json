@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "ternivo-connect",
+      "description": "Ternivo Connect social media management integration. Check account health, preflight content, publish or schedule approved posts, verify delivery, retry failed destinations, review analytics and inbox activity, and diagnose provider issues from Grok.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ternivo-connect"
+      },
+      "homepage": "https://ternivo.app/social-delivery",
+      "keywords": ["ternivo", "ternivo connect", "ternivo social publishing", "ternivo mcp"],
+      "domains": ["ternivo.app", "app.ternivo.app"]
     }
   ]
 }
