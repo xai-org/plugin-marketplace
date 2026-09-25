@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "browserless",
+      "description": "Browser automation for the web: scrape pages to markdown, search, map and crawl sites, drive a real browser through a ReAct agent loop with captcha solving, residential proxies, saved logins, Lighthouse audits, exports, and session replays.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browserless/browserless-mcp.git",
+        "sha": "6dfe46a690fe07951a7a69abad9f981cb8d03c98",
+        "path": "grok"
+      },
+      "homepage": "https://browserless.io",
+      "keywords": ["browserless", "browserql", "bql", "browserless agent"],
+      "domains": ["browserless.io", "docs.browserless.io", "mcp.browserless.io", "account.browserless.io"]
     }
   ]
 }
