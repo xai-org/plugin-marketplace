@@ -407,6 +407,40 @@
         ]
       }
     },
+    "lesuto": {
+      "sha": "ccc9e5d11bf1c53f50eeeb8b64ccc4056340c0a3",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lesuto",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "lesuto-analytics",
+            "description": "Read this Lesuto channel's dashboard numbers. Use for how the store is doing, revenue, order count, average order value…"
+          },
+          {
+            "name": "lesuto-catalog",
+            "description": "Search and inspect this channel catalog on Lesuto Seller. Use for lesuto seller products and catalog. Do not treat this…"
+          },
+          {
+            "name": "lesuto-connect",
+            "description": "Book and manage Lesuto Connect meetings for this merchant channel. Use for lesuto connect, booking invites, and upcomin…"
+          },
+          {
+            "name": "lesuto-orders",
+            "description": "Read and manage orders on this Lesuto Seller channel. Use for lesuto seller orders, fulfillment, and recent sales. Do n…"
+          },
+          {
+            "name": "lesuto-organizations",
+            "description": "Read Lesuto company umbrellas. Use when the merchant asks how the organization, company, or group of businesses is doin…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
