@@ -631,6 +631,24 @@
         ]
       }
     },
+    "pallyy": {
+      "sha": "c5166f616a9a00c5ae599581df37358c9792e32d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pallyy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pallyy",
+            "description": "Schedule, review and publish social media posts through the user's Pallyy account via the Pallyy MCP server. Use when t…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
