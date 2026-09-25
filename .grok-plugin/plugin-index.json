@@ -1380,7 +1380,7 @@
       }
     },
     "whop-apps-gateway": {
-      "sha": "ba0320a1c476d333ee6b5579a1809d309a9e9425",
+      "sha": "c80e36d3500bc0902b30e9936a4b40160af98858",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
