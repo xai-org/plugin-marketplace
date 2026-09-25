@@ -407,6 +407,18 @@
         ]
       }
     },
+    "modem": {
+      "sha": "b64d6e6e3aed2392624f2d2ed643d30ed739161a",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "modem",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
