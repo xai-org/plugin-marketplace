@@ -503,6 +503,17 @@
         ]
       }
     },
+    "mycheck": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mycheck",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
