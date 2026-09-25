@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "insumer",
+      "description": "InsumerAPI wallet auth for condition-based access. Get an API key, attest wallet conditions (token balances across 37 chains, plus NFT ownership, EAS attestations and Farcaster IDs where supported), pull signed wallet trust profiles, and verify every signed response offline against the public JWKS.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/insumerapi/insumer-agent-skills.git",
+        "sha": "e143a2feee165c915708569e631823a4a9510aef"
+      },
+      "homepage": "https://insumermodel.com",
+      "keywords": ["insumer", "insumerapi", "insumer api"],
+      "domains": ["insumermodel.com", "api.insumermodel.com"]
     }
   ]
 }
