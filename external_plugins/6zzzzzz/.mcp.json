@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "6zzzzzz": {
+      "type": "http",
+      "url": "https://6zzzzzz.com/mcp"
+    }
+  }
+}
