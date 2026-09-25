@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "dogabot",
+      "description": "Hosted dogabot MCP — research crypto markets, manage automations, run backtests, and place paper or live terminal orders from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dogabot/dogabot-mcp-server.git",
+        "sha": "e276c36f97d179c0918e77c117d81a9a00c979d5"
+      },
+      "homepage": "https://dogabot.com/mcp-server",
+      "keywords": ["dogabot"],
+      "domains": ["dogabot.com", "mcp.dogabot.com", "app.dogabot.com"]
     }
   ]
 }
