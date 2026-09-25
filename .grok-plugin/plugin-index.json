@@ -215,6 +215,24 @@
         ]
       }
     },
+    "darwin": {
+      "sha": "463194979a4a896278e979a2691f7ba490da6e50",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "darwin",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "darwin",
+            "description": "Search for executable public AI capabilities and coordinate selected work through Darwin Actions. Use when a task needs…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

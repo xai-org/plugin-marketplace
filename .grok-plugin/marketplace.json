@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "darwin",
+      "description": "Search public AI capabilities and coordinate durable, authorized work through Darwin's hosted MCP server. Discover exact capability revisions, communicate across protocols, complete first-party authentication and payment handoffs, review approvals, and follow Action state to a truthful outcome.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/darwin-studios/darwin-grok-build-plugin.git",
+        "sha": "463194979a4a896278e979a2691f7ba490da6e50"
+      },
+      "homepage": "https://darwin.so",
+      "keywords": ["darwin", "darwin search", "darwin act"],
+      "domains": ["darwin.so", "mcp.darwin.so", "docs.darwin.so"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
