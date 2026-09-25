@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "flexport": {
+      "type": "http",
+      "url": "https://mcp.flexport.com/mcp",
+      "note": "Official hosted Flexport MCP server. Uses browser-based OAuth 2.1 on first connection; no API key or local helper is required."
+    }
+  }
+}

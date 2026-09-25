@@ -1,0 +1,16 @@
+{
+  "name": "flexport",
+  "version": "1.0.0",
+  "description": "Connect your Flexport account to Grok via the hosted MCP at mcp.flexport.com: look up shipments, check rates, search your network, and book freight using natural language. Requires MCP enabled for your organization by a Flexport admin.",
+  "author": {
+    "name": "Flexport",
+    "url": "https://github.com/flexport"
+  },
+  "homepage": "https://www.flexport.com",
+  "license": "Proprietary",
+  "keywords": [
+    "flexport",
+    "flexport mcp",
+    "flexport shipment tracking"
+  ]
+}

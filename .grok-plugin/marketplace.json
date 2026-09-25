@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "flexport",
+      "description": "Connect your Flexport account directly to Grok to streamline logistics operations. Flexport MCP empowers your team to monitor active shipments, search live rates, execute bookings, and manage supply chain workflows using natural language. By bringing real-time freight visibility and operational capabilities directly to Grok, your team can make faster supply chain decisions, get instant answers, and manage global logistics effortlessly.",
+      "category": "logistics",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/flexport"
+      },
+      "homepage": "https://www.flexport.com",
+      "keywords": ["flexport", "flexport mcp", "flexport shipment tracking"],
+      "domains": ["flexport.com", "www.flexport.com", "app.flexport.com", "mcp.flexport.com"]
     }
   ]
 }
