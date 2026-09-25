@@ -872,6 +872,18 @@
         ]
       }
     },
+    "secureai": {
+      "sha": "c4281f53f4c04ce73f0c34980ced4c689f8ccb9a",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "secureai",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
