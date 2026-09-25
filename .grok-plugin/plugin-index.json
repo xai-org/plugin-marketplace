@@ -1010,6 +1010,24 @@
         ]
       }
     },
+    "superdb": {
+      "sha": "24cc304f8c82ffd9c0d446a25e1f179adc796fae",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "superdb",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "superdb",
+            "description": "Use ao criar um app novo (web ou mobile) que precisa de banco de dados + login, ou ao migrar um projeto Supabase para o…"
+          }
+        ]
+      }
+    },
     "superpowers": {
       "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
       "version": "6.4.1",
