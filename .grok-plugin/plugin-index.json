@@ -407,6 +407,24 @@
         ]
       }
     },
+    "jobs-by-workable": {
+      "sha": "31d64bf7c668fb0a2d4f212c6af0393c5da507d2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jobs-by-workable",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "jobs-by-workable",
+            "description": "Search jobs and manage a candidate profile on the Jobs by Workable job board. Use this skill when the user asks to find…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
