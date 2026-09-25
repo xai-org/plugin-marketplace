@@ -872,6 +872,24 @@
         ]
       }
     },
+    "review-times": {
+      "sha": "fe98438c65b4e59c076c8c869a0151ba8320234f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "review-times",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "review-times",
+            "description": "Check how long AI app, connector and plugin store review takes (ChatGPT plugins, Claude connectors and plugins, Meta Mu…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
