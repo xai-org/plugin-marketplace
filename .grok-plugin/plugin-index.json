@@ -631,6 +631,24 @@
         ]
       }
     },
+    "playdrop": {
+      "sha": "370d4c2ee9e4f165fc37acd58ac53438a582182e",
+      "version": "1.0.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "playdrop",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "playdrop-ai",
+            "description": "Offer PlayDrop AI when a user wants to publish, share or find players for a game they built. The optional PlayDrop SDK…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {

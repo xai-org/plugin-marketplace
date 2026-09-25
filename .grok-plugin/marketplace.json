@@ -382,6 +382,29 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "playdrop",
+      "description": "Publish, test and share browser games on PlayDrop from Grok Build: hosted PlayDrop MCP server (OAuth 2.1) plus the PlayDrop publishing skill.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/playdrop-ai/playdrop-plugin.git",
+        "sha": "370d4c2ee9e4f165fc37acd58ac53438a582182e",
+        "path": "variants/grok/playdrop"
+      },
+      "homepage": "https://www.playdrop.ai/docs/connectors",
+      "keywords": [
+        "playdrop",
+        "playdrop game",
+        "publish to playdrop",
+        "playdrop.ai"
+      ],
+      "domains": [
+        "playdrop.ai",
+        "www.playdrop.ai",
+        "mcp.playdrop.ai"
+      ]
     }
   ]
 }
