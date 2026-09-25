@@ -631,6 +631,36 @@
         ]
       }
     },
+    "oviond": {
+      "sha": "1532952b3a9e2d13ff49ce31550ae3ef26751883",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "oviond",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-client-report",
+            "description": "Stand up a new client in Oviond and build their first report — create the client, link the datasources they already hav…"
+          },
+          {
+            "name": "fix-broken-report",
+            "description": "Diagnose and repair an Oviond report that is showing demo numbers, blank or stale widgets, or failing to send. Use when…"
+          },
+          {
+            "name": "monthly-client-recap",
+            "description": "Pull last month's marketing numbers into an existing Oviond report and get it to the client — refresh the period, read…"
+          },
+          {
+            "name": "write-executive-summary",
+            "description": "Write or update the written commentary on an Oviond report — an executive summary, a monthly recap, per-section notes.…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
       "components": {

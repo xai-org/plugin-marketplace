@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "oviond",
+      "description": "Oviond client marketing reporting. Build white-label reports, connect marketing datasources, and schedule delivery.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oviond/grok-plugin.git",
+        "sha": "1532952b3a9e2d13ff49ce31550ae3ef26751883"
+      },
+      "homepage": "https://www.oviond.com",
+      "keywords": ["oviond", "oviond mcp", "oviond report", "oviond client reporting"],
+      "domains": ["oviond.com"]
     }
   ]
 }
