@@ -1379,6 +1379,40 @@
         ]
       }
     },
+    "waveline": {
+      "sha": "89591554d3f56e290f2f959288f46eba299d4d85",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "waveline",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "call-contact-names",
+            "description": "Present Waveline call search results, call history, and call reviews with contact names instead of phone numbers whenev…"
+          },
+          {
+            "name": "call-sentiment",
+            "description": "Find Waveline calls with good, bad, positive, negative, neutral, or mixed sentiment using saved recording analysis. Als…"
+          },
+          {
+            "name": "find-calls-and-messages",
+            "description": "Answer Waveline questions about calls, missed calls, voicemails, texts, conversations awaiting a reply, and a teammate'…"
+          },
+          {
+            "name": "inbox-hours",
+            "description": "Configure Waveline inbox hours, lunch breaks, and public-holiday closures through the connected inbox settings tools, p…"
+          },
+          {
+            "name": "manage-waveline",
+            "description": "Manage Waveline inbox primary numbers, personal default inbox and availability, ring groups, voicemail greeting choices…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
       "version": "1.20.0",

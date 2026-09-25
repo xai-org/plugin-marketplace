@@ -382,6 +382,29 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "waveline",
+      "description": "Official Waveline MCP for Grok Build. Ask about business calls, missed calls, voicemails, texts and contacts by inbox, teammate or customer; read transcripts and call analytics; manage inbox settings; and send explicitly approved texts through Waveline's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PNW-SS/waveline-plugins.git",
+        "sha": "89591554d3f56e290f2f959288f46eba299d4d85",
+        "path": "plugins/waveline"
+      },
+      "homepage": "https://waveline.tel",
+      "keywords": [
+        "waveline",
+        "waveline calls",
+        "waveline texts",
+        "waveline mcp"
+      ],
+      "domains": [
+        "waveline.tel",
+        "api.waveline.tel",
+        "app.waveline.tel"
+      ]
     }
   ]
 }
