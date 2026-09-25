@@ -382,6 +382,31 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "attri",
+      "description": "Attri link attribution and site analytics (MCP server + skills): short-link and campaign attribution, site traffic, Search Console queries and pages joined to what visitors did on the site, and the posture review that ranks what to fix first by the visits it could move.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/attri-io/attri-mcp.git",
+        "sha": "9816f323e49e20425800ecb231fc455b37f31d7f"
+      },
+      "homepage": "https://attri.io/docs/api/assistants",
+      "keywords": [
+        "attri",
+        "attribution",
+        "utm",
+        "short links",
+        "search console",
+        "seo",
+        "site analytics",
+        "posture review"
+      ],
+      "domains": [
+        "attri.io",
+        "app.attri.io"
+      ]
     }
   ]
 }
