@@ -390,7 +390,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/LightningFlow/secureai-adapters.git",
-        "sha": "a807b528c13894239654038090200ba1f65788c4",
+        "sha": "c4281f53f4c04ce73f0c34980ced4c689f8ccb9a",
         "path": "grok/plugin"
       },
       "homepage": "https://github.com/LightningFlow/secureai-adapters",
