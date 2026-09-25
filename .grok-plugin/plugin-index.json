@@ -43,6 +43,11 @@
         ]
       }
     },
+    "b2bleads": {
+      "sha": "b98b94469c0a46bf83438b5ddd189e57bc7e4ba8",
+      "version": "1.0.0",
+      "components": {}
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
