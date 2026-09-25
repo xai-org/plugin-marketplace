@@ -872,6 +872,24 @@
         ]
       }
     },
+    "seenpaid": {
+      "sha": "370290dea59f490264687072363e0b3423308609",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "seenpaid",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seenpaid",
+            "description": "Schedule and publish social media posts to X, LinkedIn, Bluesky, Threads, TikTok, Mastodon, Discord and 14 more platfor…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",
