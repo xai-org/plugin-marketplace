@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "review-times",
+      "description": "Live review times for AI app, connector and plugin stores (ChatGPT, Claude, Muse, Grok, Cursor) through Review Times' hosted MCP server: typical wait, pace and how review works for each store, and reporting your own submission. No key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stevysmith/review-times-plugin.git",
+        "sha": "fe98438c65b4e59c076c8c869a0151ba8320234f"
+      },
+      "homepage": "https://reviewtimes.fyi",
+      "keywords": ["reviewtimes", "review times", "reviewtimes.fyi"],
+      "domains": ["reviewtimes.fyi"]
     }
   ]
 }
