@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "maximem-vity",
+      "description": "Maximem Vity — personal AI memory over MCP. Recall what you've told your tools, look up what you know, save facts, and write in your voice. One memory across Claude Code, Cursor, Grok, and more.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/maximem-vity"
+      },
+      "homepage": "https://www.maximem.ai",
+      "keywords": ["maximem vity", "vity", "memory", "personal memory", "ai memory", "recall", "voice"],
+      "domains": ["maximem.ai", "app.maximem.ai", "vity-mcp.maximem.ai"]
     }
   ]
 }

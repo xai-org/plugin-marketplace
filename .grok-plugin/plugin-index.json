@@ -407,6 +407,17 @@
         ]
       }
     },
+    "maximem-vity": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vity",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
