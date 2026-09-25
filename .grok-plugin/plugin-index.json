@@ -602,6 +602,18 @@
         ]
       }
     },
+    "neverapply": {
+      "sha": "eed4c4fc469b941992083aa51c975806fed65efa",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neverapply",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
