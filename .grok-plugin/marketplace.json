@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "whop-apps-gateway",
+      "description": "Connect Whop, then discover and run Whop apps that opted into this gateway. Sign in with Whop OAuth. No API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MichaelRobotics/whop-apps-gateway-plugin.git",
+        "sha": "ba0320a1c476d333ee6b5579a1809d309a9e9425"
+      },
+      "homepage": "https://github.com/MichaelRobotics/whop-apps-gateway-plugin",
+      "keywords": ["whop", "whop apps", "whop mcp"],
+      "domains": ["whop.com", "whop-apps-gateway.vercel.app"]
     }
   ]
 }
