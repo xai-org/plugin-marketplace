@@ -1379,6 +1379,24 @@
         ]
       }
     },
+    "wave": {
+      "sha": "c120cad198523434e097c8abc2d2e72151cdb94c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wave",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wave",
+            "description": "Search and synthesize the user's Wave meetings, calls, and recordings — meeting prep, weekly reviews, verbatim quotes,…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
       "version": "1.20.0",
