@@ -407,6 +407,24 @@
         ]
       }
     },
+    "kleap": {
+      "sha": "8c0c84193110577dc15b36f826420c44fe202a11",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kleap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kleap-builder",
+            "description": "Build, inspect, edit, publish, and maintain websites, apps, internal tools, and other web products with Kleap. Use when…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
