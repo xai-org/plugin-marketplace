@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "neverapply",
+      "description": "NeverApply job search integration. Search jobs, see explained matches against your profile, review your application history, and prepare resume or interview drafts from your NeverApply account through its hosted MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kasovy/neverapply-mcp.git",
+        "sha": "eed4c4fc469b941992083aa51c975806fed65efa"
+      },
+      "homepage": "https://neverapply.co/features/mcp",
+      "keywords": ["neverapply", "neverapply jobs", "neverapply matches"],
+      "domains": ["neverapply.co"]
     }
   ]
 }
