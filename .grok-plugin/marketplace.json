@@ -382,6 +382,21 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "layrcake",
+      "description": "The unified GTM API for AI agents: find and enrich leads, verify emails, spot buying intent, provision sending and launch human-approved email campaigns from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Layrcake-dev/layrcake-mcp.git",
+        "sha": "406dccc23f04f37a0320277f6792faf10e26c94a"
+      },
+      "homepage": "https://docs.layrcake.dev/agent.html",
+      "keywords": ["layrcake", "layrcake gtm", "layrcake mcp"],
+      "domains": ["layrcake.dev"],
+      "version": "1.0.0",
+      "author": { "name": "Layrcake", "url": "https://layrcake.dev" }
     }
   ]
 }
