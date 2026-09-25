@@ -334,6 +334,20 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "clawcall",
+      "description": "ClawCall phone calling integration (hosted MCP server + skill). Place real US phone calls, handle phone menus and hold queues, bridge the user into a live call, and retrieve call results, transcripts, recordings, and history with OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ClawCall-Dev/ClawCall.git",
+        "sha": "d1abff3f2ef4e54b88cad8bc6c8a477f658a1360",
+        "path": "grok"
+      },
+      "homepage": "https://clawcall.dev",
+      "keywords": ["clawcall", "claw call", "clawcall phone", "clawcall mcp"],
+      "domains": ["clawcall.dev", "api.clawcall.dev"]
+    },
+    {
       "name": "bruin",
       "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
