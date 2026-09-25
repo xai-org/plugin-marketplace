@@ -407,6 +407,24 @@
         ]
       }
     },
+    "maeve-agent": {
+      "sha": "40f3519d6472f7d3948046c58cbdfa6c3acdad15",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "maeve",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "maeve-social-scheduler",
+            "description": "Use Maeve MCP, CLI or public API to create and schedule social content, manage media, inspect performance, and handle c…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",

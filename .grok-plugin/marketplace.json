@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "maeve-agent",
+      "description": "Maeve Social is an all-in-one social media management platform you can control through your AI agent. Create, schedule and publish content across Instagram, Facebook, TikTok, LinkedIn, X and more. Manage your content calendar, media, approvals and social analytics from one workspace.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jared-james/maeve-agent.git",
+        "sha": "40f3519d6472f7d3948046c58cbdfa6c3acdad15"
+      },
+      "homepage": "https://maevesocial.com",
+      "keywords": ["maeve", "maeve social", "maeve social media", "maeve mcp"],
+      "domains": ["maevesocial.com", "api.maevesocial.com"]
     }
   ]
 }
