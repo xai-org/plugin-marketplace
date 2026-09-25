@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "trypost",
+      "description": "TryPost social media scheduling. Draft, schedule, publish, preview, and track posts across Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Threads, Pinterest, Bluesky, Mastodon, Telegram, and Discord.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trypostit/trypost-agent.git",
+        "sha": "117967dea502524091d85d8a0b8c1078779f33a6"
+      },
+      "homepage": "https://trypost.it",
+      "keywords": ["trypost", "trypost mcp", "trypost scheduler"],
+      "domains": ["trypost.it", "app.trypost.it"]
     }
   ]
 }
