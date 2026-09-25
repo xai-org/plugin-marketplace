@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "picmim",
+      "description": "Picmim social media management integration (MCP Server + Skill). Plan, draft, schedule, publish, manage media and inbox activity, and analyze connected social accounts through Picmim's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mckrosekri/picmim-mcp.git",
+        "sha": "8d3298cc600ee807e1e764ae4e58ad582dd86430"
+      },
+      "homepage": "https://picmim.com/mcp-clients.md",
+      "keywords": ["picmim", "picmim mcp", "picmim social media", "picmim social scheduler"],
+      "domains": ["picmim.com"]
     }
   ]
 }

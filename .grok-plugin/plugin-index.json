@@ -631,6 +631,24 @@
         ]
       }
     },
+    "picmim": {
+      "sha": "8d3298cc600ee807e1e764ae4e58ad582dd86430",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "picmim",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "social-workspace",
+            "description": "Use Picmim to review social performance, plan content, find calendar gaps, create drafts, or schedule posts in a connec…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
