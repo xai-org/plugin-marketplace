@@ -407,6 +407,34 @@
         ]
       }
     },
+    "insumer": {
+      "sha": "23d0d22175ac3b02da7561e4e609cc5a693642ee",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "insumer-attest",
+            "description": "Wallet auth via InsumerAPI: condition-based access with ES256-signed, JWKS-verifiable boolean responses (token balances…"
+          },
+          {
+            "name": "insumer-auth",
+            "description": "InsumerAPI wallet auth: get an InsumerAPI key, configure INSUMER_API_KEY, check or top up InsumerAPI credits, or debug…"
+          },
+          {
+            "name": "insumer-jwks-verify",
+            "description": "Offline ES256 verification of InsumerAPI signed responses against the public JWKS. Use when the user receives a signed…"
+          },
+          {
+            "name": "insumer-trust",
+            "description": "InsumerAPI wallet trust profile: a curated multi-dimensional condition-based access bundle for a single wallet. 45 base…"
+          },
+          {
+            "name": "insumer-trust-batch",
+            "description": "InsumerAPI batch wallet trust profiles: the same curated bundle as insumer-trust, for up to 10 wallets in a single call…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
