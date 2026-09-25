@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "secureai",
+      "description": "Show local SecureAI Core status and control supported protection in Grok Build. Remote Grok Bot traffic requires a separately deployed relay and is not routed by this plugin alone.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LightningFlow/secureai-adapters.git",
+        "sha": "a807b528c13894239654038090200ba1f65788c4",
+        "path": "grok/plugin"
+      },
+      "homepage": "https://github.com/LightningFlow/secureai-adapters",
+      "keywords": ["secureai", "lightningflow secureai"],
+      "domains": ["lightningflow.ai"]
     }
   ]
 }
