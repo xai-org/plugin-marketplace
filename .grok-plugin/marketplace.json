@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "wunjo-design",
+      "description": "Vector design in Wunjo Design through its hosted MCP server: documents and pages, shapes and paths, text laid out from real font metrics, placed images, brand components, export slices, and a render of the page so the agent can see its own work. Connects over HTTP and signs in with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/wunjo-design"
+      },
+      "homepage": "https://wunjo.online/product/design#mcp",
+      "keywords": ["wunjo", "wunjo design", "wunjo mcp"],
+      "domains": ["wunjo.online", "mcp.wunjo.online", "app.wunjo.online"]
     }
   ]
 }
