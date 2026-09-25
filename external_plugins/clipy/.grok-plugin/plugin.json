@@ -1,0 +1,13 @@
+{
+  "name": "clipy",
+  "version": "1.0.0",
+  "description": "Read and create Clipy screen recordings: transcripts, AI summaries, timestamped key moments, and cross-library search via the hosted MCP at clipy.online, plus a skill for turning screenshots or tool-native video into a shareable proof link.",
+  "author": {
+    "name": "Clipy",
+    "url": "https://clipy.online"
+  },
+  "homepage": "https://clipy.online",
+  "license": "MIT",
+  "keywords": ["clipy", "clipy recording", "clipy proof", "arec"],
+  "logo": "assets/logo.svg"
+}
