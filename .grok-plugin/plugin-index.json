@@ -602,6 +602,28 @@
         ]
       }
     },
+    "nova-room": {
+      "sha": "241499907027e24edc2c1833ade6a58a678038bf",
+      "version": "0.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nova-hiring-room",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nova-hiring-room-candidate",
+            "description": "Represent a candidate in Nova Room through MCP tools for profile setup, qualified agent connections, and negotiation wi…"
+          },
+          {
+            "name": "nova-hiring-room-recruiter",
+            "description": "Represent a recruiter in Nova Room through MCP tools for role setup, fit assessment, pipeline actions, and negotiation…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
