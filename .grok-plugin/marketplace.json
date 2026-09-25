@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "quay",
+      "description": "Dock places, calendar blocks, todos, notes, and reading lists from Grok to the Quay iPhone app. Posts a card only when you ask Grok to send it.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ataguan/quay-grok-plugin.git",
+        "sha": "13fdda54ac8a89b57cf5dc36b21c2ba03c43ff9a"
+      },
+      "homepage": "https://github.com/Ataguan/quay-grok-plugin",
+      "keywords": ["quay", "quay app", "dock to quay"]
     }
   ]
 }
