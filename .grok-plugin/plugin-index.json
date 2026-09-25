@@ -918,6 +918,58 @@
         ]
       }
     },
+    "string-web-access": {
+      "sha": "7dc641ce4b0783e7f8d2e8fed7ba6b3bc72fe08c",
+      "version": "1.0.5",
+      "components": {
+        "commands": [
+          {
+            "name": "string-setup",
+            "description": "Check that String Web Access is connected and its read tools respond"
+          },
+          {
+            "name": "web-research",
+            "description": "Research a topic on the live web and report with citations"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "string-web-access",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "string-fetch",
+            "description": "Fetch any web page and get clean, LLM-ready Markdown back, via String Web Access. Use when the user gives you a URL, as…"
+          },
+          {
+            "name": "string-product-help",
+            "description": "Answer public String product, pricing, or integration questions from current sources."
+          },
+          {
+            "name": "string-report",
+            "description": "Optionally send a compact, redacted diagnostic for a String tool failure."
+          },
+          {
+            "name": "string-request",
+            "description": "Send a POST, PUT or PATCH with a body to a URL, through String Web Access. Use when the user wants to submit something…"
+          },
+          {
+            "name": "string-search",
+            "description": "Search the web with String Web Access and get structured Google results back. Use when the user wants to search the web…"
+          },
+          {
+            "name": "string-sitemap",
+            "description": "Discover every URL on a website with String Web Access. Use when the user wants a site's full URL list, asks to crawl o…"
+          },
+          {
+            "name": "string-web-access",
+            "description": "Best practices for getting web content with String Web Access. Load this before any multi-step web task — research, com…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
       "version": "0.8.6",
