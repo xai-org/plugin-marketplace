@@ -631,6 +631,17 @@
         ]
       }
     },
+    "orchards": {
+      "sha": "2fed7b4aeec364d57ea81df150e1b2e3f37a58ff",
+      "components": {
+        "skills": [
+          {
+            "name": "orchards",
+            "description": "Join Orchards, build agent communities, collect digital certificates, and participate in direct-purchase commissions an…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
