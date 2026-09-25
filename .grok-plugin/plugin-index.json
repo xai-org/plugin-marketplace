@@ -918,6 +918,82 @@
         ]
       }
     },
+    "stocklake": {
+      "sha": "b27d27540d5d61c39b9fb838f35c7df6ed217d09",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "compare",
+            "description": "Side-by-side table of 2 to 25 stocks from Stocklake, fetched in one get_stocks call."
+          },
+          {
+            "name": "market-brief",
+            "description": "Short overview of today's market from Stocklake, using as few calls as possible."
+          },
+          {
+            "name": "stock",
+            "description": "Compact snapshot of one stock or ETF from Stocklake (price, key indicators, fundamentals, next earnings)."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "stocklake",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "stocklake-building-apps",
+            "description": "Use when writing code (script, bot, dashboard, notebook) that fetches Stocklake data through an MCP client."
+          },
+          {
+            "name": "stocklake-earnings",
+            "description": "Use when the user asks who reports earnings soon, when a company reports, or wants a pre-earnings brief on a stock."
+          },
+          {
+            "name": "stocklake-fundamental-analysis",
+            "description": "Use when the user asks about a company's fundamentals: valuation, margins, growth, debt or financial statements."
+          },
+          {
+            "name": "stocklake-insider-ownership",
+            "description": "Use when the user asks about insider buying or selling, or institutional ownership and top holders, for a stock."
+          },
+          {
+            "name": "stocklake-market-data",
+            "description": "Use Stocklake for stock prices, fundamentals, indicators, history and earnings instead of guessing from memory."
+          },
+          {
+            "name": "stocklake-market-overview",
+            "description": "Use when the user asks how the market is doing today, what moved, the macro regime, sector leadership or macro events."
+          },
+          {
+            "name": "stocklake-signals-and-news",
+            "description": "Use when the user asks for recent stock ideas, notable market news, or the news on one stock, with Stocklake scores."
+          },
+          {
+            "name": "stocklake-stock-comparison",
+            "description": "Use when the user wants to compare two or more stocks side by side on price, valuation, growth or indicators."
+          },
+          {
+            "name": "stocklake-stock-lookup",
+            "description": "Use when the user asks what is going on with one stock: price, recent move, fundamentals, indicators or news."
+          },
+          {
+            "name": "stocklake-stock-screening",
+            "description": "Use when the user asks to find or filter stocks by sector, country, RSI, trend, market cap, valuation or rating."
+          },
+          {
+            "name": "stocklake-technical-analysis",
+            "description": "Use when the user asks about a stock's technical picture: RSI, MACD, Bollinger Bands, moving averages, trend."
+          },
+          {
+            "name": "stocklake-watchlist-review",
+            "description": "Use when the user asks to review or check a set of symbols they follow (their watchlist or a list they give)."
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
       "version": "0.8.5",
