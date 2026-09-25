@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "firsttouch",
+      "description": "FirstTouch CRM integration. Manage audiences, outreach flows, contact enrollments, tasks, and HubSpot list imports through the hosted FirstTouch MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/First-Touch-Inc/mcp.git",
+        "sha": "ff5e6a65a3407bd16d6cefd274326d93fe6db24e"
+      },
+      "homepage": "https://www.firsttouch.com",
+      "keywords": ["firsttouch", "firsttouch mcp", "firsttouch audiences", "firsttouch outreach flows", "firsttouch contact enrollment", "firsttouch hubspot import"],
+      "domains": ["firsttouch.com", "www.firsttouch.com", "mcp.firsttouch.com"]
     }
   ]
 }
