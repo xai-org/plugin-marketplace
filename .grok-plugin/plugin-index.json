@@ -395,6 +395,30 @@
         ]
       }
     },
+    "giskard": {
+      "sha": "432e95b6710b8e693d8d0a64b28959ede785d270",
+      "version": "1.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "giskard-to-collibra",
+            "description": "Export Giskard scan results into Collibra AI Governance. Use this whenever the user asks to export, push, sync, or impo…"
+          },
+          {
+            "name": "hub-agent-setup",
+            "description": "Connect a local or remote AI agent to Giskard Hub through an authenticated, non-streaming HTTPS endpoint. Use when a us…"
+          },
+          {
+            "name": "rag-evaluator",
+            "description": "Generates tailored giskard.checks evaluation suites for RAG (Retrieval-Augmented Generation) systems. Use whenever a us…"
+          },
+          {
+            "name": "scenario-generator",
+            "description": "Generates tailored giskard.checks test scenarios and suites for AI agents. Use when user describes their agent and fear…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

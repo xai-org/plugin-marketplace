@@ -382,6 +382,27 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "giskard",
+      "description": "Evaluate and red-team AI agents with Giskard: generate adversarial scenarios and RAG evaluation suites, connect agents to Giskard Hub, and export scan results to Collibra AI Governance.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Giskard-AI/giskard-skills.git",
+        "sha": "432e95b6710b8e693d8d0a64b28959ede785d270"
+      },
+      "homepage": "https://github.com/Giskard-AI/giskard-skills",
+      "keywords": [
+        "giskard",
+        "giskard skills",
+        "giskard hub",
+        "giskard checks"
+      ],
+      "domains": [
+        "giskard.ai",
+        "docs.giskard.ai"
+      ]
     }
   ]
 }
