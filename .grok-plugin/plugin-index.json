@@ -408,8 +408,8 @@
       }
     },
     "jev-conductor-router": {
-      "sha": "c1f1911460c291a2470d90def1e89e0f69f0ad64",
-      "version": "0.2.0",
+      "sha": "467ce88ab862c0aab94b69ee9778b6164a4ed59d",
+      "version": "0.2.1",
       "components": {
         "mcpServers": [
           {

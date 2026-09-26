@@ -390,10 +390,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/JussCubs/jev-conductor-router.git",
-        "sha": "c1f1911460c291a2470d90def1e89e0f69f0ad64"
+        "sha": "467ce88ab862c0aab94b69ee9778b6164a4ed59d"
       },
       "homepage": "https://github.com/JussCubs/jev-conductor-router",
-      "keywords": ["conductor", "jev", "routing", "mcp"],
+      "keywords": ["conductor", "jev", "typesafe", "orbio"],
       "domains": ["conductor.build", "api.conductor.build"]
     }
   ]
