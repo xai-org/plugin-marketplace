@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "relaydesk",
+      "description": "Connect Grok Build to computers, servers, and VMs you own or administer through RelayDesk's hosted OAuth MCP service.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mave-studios/relaydesk-grok-plugin.git",
+        "sha": "531cf4cbe090cb42c0f3ea3d413e0f431771df53"
+      },
+      "homepage": "https://relay-desk-mjq6.vercel.app",
+      "keywords": ["relaydesk", "relay desk", "relaydesk mcp", "relaydesk remote computer"],
+      "domains": ["relay-desk-mjq6.vercel.app"]
     }
   ]
 }
