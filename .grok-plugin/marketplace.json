@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "paperoffice",
+      "description": "PaperOffice document operations for Grok Build (hosted MCP server). Search, read and create documents in your own PaperOffice account; reach import, classification, signatures, storage and audit through the Documents Operations catalog. Every tool states whether it reads, writes or deletes. EU hosted, OAuth 2.1.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/paperoffice-ai/paperoffice-grok-plugin.git",
+        "sha": "5514bb15cf88a42752996526b0586c46fbe69ee0"
+      },
+      "homepage": "https://paperoffice.ai/en/developer/mcp/",
+      "keywords": ["paperoffice", "paperoffice mcp", "paperoffice documents"],
+      "domains": ["paperoffice.ai", "app.paperoffice.ai", "mcp.paperoffice.ai", "api.paperoffice.ai"]
     }
   ]
 }

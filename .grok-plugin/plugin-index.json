@@ -631,6 +631,18 @@
         ]
       }
     },
+    "paperoffice": {
+      "sha": "5514bb15cf88a42752996526b0586c46fbe69ee0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "paperoffice",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
