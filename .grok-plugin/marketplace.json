@@ -390,7 +390,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/socai-io/jev-social.git",
-        "sha": "e2590782535433b3a88fd0e5406d54bf70a8647b"
+        "sha": "c411ae1532dd37ab94f8164f13552ed05f4c9ecc"
       },
       "homepage": "https://socai-io.github.io/jev-social/",
       "keywords": ["jev social", "socai jev", "socai social research"],

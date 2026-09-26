@@ -408,8 +408,8 @@
       }
     },
     "jev-social": {
-      "sha": "e2590782535433b3a88fd0e5406d54bf70a8647b",
-      "version": "0.1.5",
+      "sha": "c411ae1532dd37ab94f8164f13552ed05f4c9ecc",
+      "version": "0.1.8",
       "components": {
         "skills": [
           {
