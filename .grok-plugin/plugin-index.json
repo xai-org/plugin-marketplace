@@ -632,7 +632,7 @@
       }
     },
     "pstack": {
-      "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
+      "sha": "ecc249f1e306fc64ddf83c7bed16cacf7c2239db",
       "components": {
         "agents": [
           {
@@ -919,8 +919,8 @@
       }
     },
     "stripe": {
-      "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
-      "version": "0.8.6",
+      "sha": "d547667fd443b3c8575a3dffbfd7758df883addf",
+      "version": "0.9.0",
       "components": {
         "agents": [
           {
@@ -1011,8 +1011,8 @@
       }
     },
     "superpowers": {
-      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
-      "version": "6.4.1",
+      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "version": "6.4.2",
       "components": {
         "hooks": [
           {
@@ -1165,8 +1165,8 @@
       }
     },
     "vercel": {
-      "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
-      "version": "0.50.1",
+      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
+      "version": "0.51.0",
       "components": {
         "agents": [
           {
@@ -1274,7 +1274,7 @@
           },
           {
             "name": "env-vars",
-            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, Secret or Config va…"
           },
           {
             "name": "eve",
@@ -1346,7 +1346,7 @@
           },
           {
             "name": "vercel-connect",
-            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+            "description": "Vercel Connect expert guidance for securely obtaining scoped credentials for third-party services on behalf of apps or…"
           },
           {
             "name": "vercel-firewall",
@@ -1380,8 +1380,8 @@
       }
     },
     "wix": {
-      "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
-      "version": "1.20.0",
+      "sha": "ed3549fdea1de6f8b12738f2ef8233028b1b9bf9",
+      "version": "1.20.1",
       "components": {
         "mcpServers": [
           {
