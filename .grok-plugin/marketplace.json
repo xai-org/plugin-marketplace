@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "transcribe-so",
+      "description": "transcribe.so transcription integration. Transcribe YouTube videos, podcasts, meetings and files into speaker-labelled, timestamped transcripts, search who said what, ask cited questions, and export subtitles, captions and clips directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shsunmoonlee/transcribe-agent.git",
+        "sha": "6f69448acbea61bda1cf16a37d60aa5844f545e6"
+      },
+      "homepage": "https://transcribe.so/agent",
+      "keywords": ["transcribe.so", "transcribe so"],
+      "domains": ["transcribe.so"]
     }
   ]
 }
