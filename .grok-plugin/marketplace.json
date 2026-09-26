@@ -371,6 +371,18 @@
       "keywords": ["modern web", "web best practices", "web guidance"]
     },
     {
+      "name": "eqcheck",
+      "description": "EqCheck communication tools (MCP). Check how a support reply reads across six signals (directness, warmth, clarity, pressure, respect for boundaries, ambiguity), then get a plan to reframe it toward the right tone before you send.",
+      "category": "customer-support",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/eqcheck"
+      },
+      "homepage": "https://eqcheck.app",
+      "keywords": ["eqcheck", "eqcheck rewrite", "eqcheck tone check", "reframe reply before sending"],
+      "domains": ["eqcheck.app"]
+    },
+    {
       "name": "helena",
       "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
       "category": "productivity",

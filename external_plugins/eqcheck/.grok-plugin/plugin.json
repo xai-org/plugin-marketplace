@@ -1,0 +1,13 @@
+{
+  "name": "eqcheck",
+  "version": "0.1.0",
+  "description": "EqCheck communication tools (MCP). Check how a draft reads across six signals (directness, warmth, clarity, pressure, respect for boundaries, ambiguity), then get a plan to reframe it toward the right tone without losing your intent.",
+  "author": {
+    "name": "EqCheck",
+    "url": "https://eqcheck.app"
+  },
+  "homepage": "https://eqcheck.app",
+  "license": "Proprietary",
+  "keywords": ["eqcheck", "eqcheck rewrite", "eqcheck tone check", "reframe reply tone"],
+  "logo": "assets/logo.png"
+}
