@@ -395,6 +395,24 @@
         ]
       }
     },
+    "gander": {
+      "sha": "93aea77190f9c6bd72835520a4c7c1c9c34e5e64",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gander",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gander",
+            "description": "Use this skill when the user wants to preview, share, or manage markdown files with the gander CLI, or when saving an a…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
