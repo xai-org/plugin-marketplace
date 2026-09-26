@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "traderspy",
+      "description": "Read-only crypto futures research: AI-generated signals with their resolved outcomes, smart-money and whale positions across Binance, Hyperliquid, Bybit and OKX, live prices, candles, 19 technical indicators over up to three timeframes, funding and open interest, a market screener and condition backtests. Bundles the hosted TraderSpy MCP server (mcp.traderspy.app) and six skills. Every tool is read-only — the plugin has no order, withdrawal or transfer tool.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/target1m/traderspy-mcp.git",
+        "sha": "069aae5a84640d671f92705a2e3bc0b62efca1e0"
+      },
+      "homepage": "https://traderspy.app/mcp",
+      "keywords": ["traderspy", "trader spy", "traderspy signals", "traderspy smart money"],
+      "domains": ["traderspy.app", "mcp.traderspy.app", "blog.traderspy.app"]
     }
   ]
 }
