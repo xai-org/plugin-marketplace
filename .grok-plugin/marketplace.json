@@ -382,6 +382,27 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "ai-powerups",
+      "description": "Upgrade the AI you already use. One connection gives it live data across travel, markets, research, reading, code, food, fitness and social — with real follow-ups and real links — plus a performance stage, Stock to Stage 3+, that puts more behind every answer. You choose what's on.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RoeySmallTree/ai-power-apps.git",
+        "sha": "3207c51cd054b34bf0c546b50d901084a64d88e1"
+      },
+      "homepage": "https://powerups-ai.store/docs",
+      "keywords": [
+        "ai power ups",
+        "ai powerups",
+        "powerups-ai",
+        "sharpen review"
+      ],
+      "domains": [
+        "powerups-ai.store",
+        "api.powerups-ai.store"
+      ]
     }
   ]
 }
