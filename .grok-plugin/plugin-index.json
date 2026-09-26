@@ -215,6 +215,17 @@
         ]
       }
     },
+    "commandcode-usage": {
+      "sha": "877f7ccb2aa1dbce2a951ae79c310ed2214a264f",
+      "components": {
+        "commands": [
+          {
+            "name": "quota",
+            "description": "Show Command Code plan usage (5-hour / weekly / monthly windows)"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
