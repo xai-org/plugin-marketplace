@@ -407,6 +407,24 @@
         ]
       }
     },
+    "jev-conductor-router": {
+      "sha": "c1f1911460c291a2470d90def1e89e0f69f0ad64",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jev-conductor-router",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "conductor-jev-router",
+            "description": "Decide with Jev whether a coding task needs a Conductor cloud workspace, route a harness and model, and operate that wo…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",
