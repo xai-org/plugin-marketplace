@@ -503,6 +503,24 @@
         ]
       }
     },
+    "my-privacy-agent": {
+      "sha": "f09288cd634f0b8c90594d8d453f04e2d2d6bd93",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "my-privacy-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "my-privacy-agent",
+            "description": "Help someone get their home address, phone number or email off people-search and data-broker sites. Use when the user a…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

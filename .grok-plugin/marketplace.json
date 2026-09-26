@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "my-privacy-agent",
+      "description": "Get a home address, phone number or email off people-search and data-broker sites. Verified step-by-step opt-out guides, the documented removal route for 950+ sites (form or email, the parent company that processes requests, sibling sites one request covers), and search over the public privacy library. Read-only: it never looks anyone up and holds no personal data.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/myprivacyagent/myprivacyagent-plugin.git",
+        "sha": "f09288cd634f0b8c90594d8d453f04e2d2d6bd93"
+      },
+      "homepage": "https://myprivacyagent.com/for/grok",
+      "keywords": ["my privacy agent", "myprivacyagent", "privacy agent opt-out"],
+      "domains": ["myprivacyagent.com"]
     }
   ]
 }
