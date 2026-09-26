@@ -631,6 +631,17 @@
         ]
       }
     },
+    "phasio": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "phasio",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {

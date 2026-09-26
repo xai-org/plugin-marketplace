@@ -1,0 +1,19 @@
+{
+  "name": "phasio",
+  "version": "1.0.0",
+  "description": "Query your quotes, parts, pricing, and manufacturing shop floor via the hosted Phasio MCP at m-api.eu.phas.io. Sign in with a Phasio account on first connect.",
+  "author": {
+    "name": "Phasio",
+    "url": "https://github.com/phas-io"
+  },
+  "homepage": "https://phas.io",
+  "license": "Proprietary",
+  "keywords": [
+    "phasio",
+    "phasio mcp",
+    "phasio manufacturing",
+    "phasio cnc",
+    "phasio 3d printing",
+    "phasio additive"
+  ]
+}

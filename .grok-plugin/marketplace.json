@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "phasio",
+      "description": "Query your quotes, parts, pricing, and manufacturing shop floor. Phasio is the operating platform for contract manufacturers across additive, CNC, molding, and more. Requires a Phasio account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/phasio"
+      },
+      "homepage": "https://phas.io",
+      "keywords": ["phasio", "phasio mcp", "phasio manufacturing", "phasio cnc", "phasio 3d printing", "phasio additive"],
+      "domains": ["phas.io", "app.eu.phas.io", "m-api.eu.phas.io"]
     }
   ]
 }
