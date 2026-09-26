@@ -390,7 +390,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Stackcut/stackcut-plugin.git",
-        "sha": "1f5ed548b3bc9b34a791c7d7c766917cb7b17785"
+        "sha": "a9d3f73b408a7c5a7d1dc361f1fd5a47eb380699"
       },
       "homepage": "https://stackcut.io/grok",
       "keywords": ["stackcut", "stackcut plan", "stackcut savings"],

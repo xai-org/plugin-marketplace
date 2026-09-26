@@ -919,8 +919,8 @@
       }
     },
     "stackcut": {
-      "sha": "1f5ed548b3bc9b34a791c7d7c766917cb7b17785",
-      "version": "1.1.0",
+      "sha": "a9d3f73b408a7c5a7d1dc361f1fd5a47eb380699",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
