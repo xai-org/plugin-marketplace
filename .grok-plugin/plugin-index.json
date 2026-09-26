@@ -407,6 +407,30 @@
         ]
       }
     },
+    "invinoveritas": {
+      "sha": "052bcb916a97dde1fb71a109c87b4c87c13a882c",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "verify",
+            "description": "Run an invinoveritas pre-action verdict on a draft post, transaction, diff, or plan before committing it — returns appr…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "invinoveritas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "verify-before-action",
+            "description": "Get an independent, recomputable verdict BEFORE an agent commits an irreversible action — posting to X, signing or send…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
       "version": "0.0.190",

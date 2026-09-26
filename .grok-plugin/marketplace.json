@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "invinoveritas",
+      "description": "Verify before your agent acts: a neutral pre-action verdict (review) with a portable signed proof, free proof verification (verify_proof) and a public verdict ledger. Gate irreversible actions — posting to X, signing an on-chain transaction, shipping a change — before they fire.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/babyblueviper1/invinoveritas-grok-plugin.git",
+        "sha": "052bcb916a97dde1fb71a109c87b4c87c13a882c"
+      },
+      "homepage": "https://api.babyblueviper.com",
+      "keywords": ["verify", "verification", "review", "governance", "pre-action", "proof", "second-opinion", "x-post", "guardrail"],
+      "domains": ["api.babyblueviper.com"]
     }
   ]
 }
