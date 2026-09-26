@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "command-code-usage",
+      "description": "Community plugin (third-party; not affiliated with Command Code or xAI). Shows your Command Code plan usage in the Grok Build status line: the 5-hour and weekly rolling windows with their reset times, the monthly credits or balance, and an estimate of how many more requests the current window holds. Read from local session data, so checking the quota costs no quota.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Jovan1666/commandcode-usage.git",
+        "sha": "38f5e85979af88b0eeec0922440d56fb0310a494",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://github.com/Jovan1666/commandcode-usage",
+      "keywords": ["command code", "command code quota", "command code usage"]
     }
   ]
 }
