@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "admaxxer": {
+      "sha": "c53fa42d9b98986003848191d906a2b023ec5c36",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "admaxxer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "admaxxer",
+            "description": "Admaxxer is ad account analytics and campaign control for AI agents. Read spend, ROAS, MER, attribution and traffic, th…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
