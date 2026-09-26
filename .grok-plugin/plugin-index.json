@@ -1011,8 +1011,8 @@
       }
     },
     "superpowers": {
-      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
-      "version": "6.4.1",
+      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "version": "6.4.2",
       "components": {
         "hooks": [
           {
