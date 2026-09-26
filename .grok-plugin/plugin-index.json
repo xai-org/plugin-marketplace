@@ -1165,8 +1165,8 @@
       }
     },
     "vercel": {
-      "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
-      "version": "0.50.1",
+      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
+      "version": "0.51.0",
       "components": {
         "agents": [
           {
@@ -1274,7 +1274,7 @@
           },
           {
             "name": "env-vars",
-            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, Secret or Config va…"
           },
           {
             "name": "eve",
@@ -1346,7 +1346,7 @@
           },
           {
             "name": "vercel-connect",
-            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+            "description": "Vercel Connect expert guidance for securely obtaining scoped credentials for third-party services on behalf of apps or…"
           },
           {
             "name": "vercel-firewall",
