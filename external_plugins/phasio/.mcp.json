@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "phasio": {
+      "type": "http",
+      "url": "https://m-api.eu.phas.io/api/manufacturer/v1/mcp"
+    }
+  }
+}
