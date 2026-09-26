@@ -101,6 +101,18 @@
         ]
       }
     },
+    "cadence": {
+      "sha": "666116716243a80871eb4422c9a632bd3359b761",
+      "version": "0.4.0",
+      "components": {
+        "skills": [
+          {
+            "name": "cadence",
+            "description": "Use when the user wants to write, draft, rewrite, edit, or improve prose that sounds human instead of AI-generated — es…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",

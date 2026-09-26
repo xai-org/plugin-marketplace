@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "cadence",
+      "description": "Catch robotic-sounding writing and rewrite it in a Cadence voice. Bundles a local deterministic detector and ten seed profiles. Scores prose and names every tell.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wuisabel-gif/Cadence.git",
+        "sha": "666116716243a80871eb4422c9a632bd3359b761"
+      },
+      "homepage": "https://github.com/wuisabel-gif/Cadence",
+      "keywords": ["cadence", "cadence deslop", "deslop"],
+      "domains": ["wuisabel-gif.github.io"]
     }
   ]
 }
