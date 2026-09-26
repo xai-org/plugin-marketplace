@@ -918,6 +918,24 @@
         ]
       }
     },
+    "stackcut": {
+      "sha": "1f5ed548b3bc9b34a791c7d7c766917cb7b17785",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "stackcut",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "stackcut",
+            "description": "Find cheaper ways to run the paid services a codebase or team uses, and pick the cheapest stack for a new project. Use…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
       "version": "0.8.6",

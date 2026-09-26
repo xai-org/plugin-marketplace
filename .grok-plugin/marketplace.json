@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "stackcut",
+      "description": "Cut SaaS spend. Work through your Stackcut savings plan line by line with receipts and sourced prices as proof, find cheaper alternatives to the tools you pay for with step-by-step exit and setup playbooks, and pick the cheapest database, host or email provider at your real volume. Free, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Stackcut/stackcut-plugin.git",
+        "sha": "1f5ed548b3bc9b34a791c7d7c766917cb7b17785"
+      },
+      "homepage": "https://stackcut.io/grok",
+      "keywords": ["stackcut", "stackcut plan", "stackcut savings"],
+      "domains": ["stackcut.io"]
     }
   ]
 }
