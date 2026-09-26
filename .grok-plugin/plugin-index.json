@@ -1008,7 +1008,7 @@
       }
     },
     "ulazai-media": {
-      "sha": "691a22a475e6b27e9def0ad536fc4cf600216d06",
+      "sha": "b9d412a2d51b628b6f37b63f9cf2d09c65212862",
       "version": "0.2.0",
       "components": {
         "mcpServers": [
