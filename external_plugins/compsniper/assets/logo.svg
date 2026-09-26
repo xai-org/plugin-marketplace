@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CompSniper">
+  <rect width="512" height="512" rx="112" fill="#C2461E"/>
+  <g stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" fill="none">
+    <line x1="256" y1="44" x2="256" y2="150"/>
+    <line x1="256" y1="468" x2="256" y2="362"/>
+    <line x1="44" y1="256" x2="150" y2="256"/>
+    <line x1="468" y1="256" x2="362" y2="256"/>
+    <path d="M 371.91 224.94 A 120 120 0 0 0 287.06 140.06"/>
+    <path d="M 224.94 140.06 A 120 120 0 0 0 140.09 224.94"/>
+    <path d="M 140.09 287.06 A 120 120 0 0 0 224.94 371.94"/>
+    <path d="M 287.06 371.94 A 120 120 0 0 0 371.91 287.06"/>
+  </g>
+  <circle cx="256" cy="256" r="30" fill="#FFFFFF"/>
+</svg>
