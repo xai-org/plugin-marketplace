@@ -1164,6 +1164,66 @@
         ]
       }
     },
+    "upload-post": {
+      "sha": "5769d217e9d6b482e16a7cf3d321931b1d2e66ea",
+      "version": "0.2.0",
+      "components": {
+        "agents": [
+          {
+            "name": "autodm-architect",
+            "description": "Designs Instagram comment-to-DM funnels end-to-end — picks the trigger keyword, writes the public reply, drafts the DM…"
+          },
+          {
+            "name": "content-strategist",
+            "description": "Analyses Upload-Post account performance and recommends concrete next posts. Use when the user wants content strategy a…"
+          },
+          {
+            "name": "post-debugger",
+            "description": "Diagnoses failed Upload-Post uploads, expired social tokens, scheduling errors, and AutoDM monitor failures. Reads job…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "upload-post",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analyze-performance",
+            "description": "Pull analytics from Upload-Post (account-level and post-level), summarise what is working, and suggest content moves. U…"
+          },
+          {
+            "name": "autodm-setup",
+            "description": "Set up an Instagram comment-to-DM funnel. The user picks a post, a keyword trigger, a public reply, and a private DM. C…"
+          },
+          {
+            "name": "manage-comments",
+            "description": "Read and reply to comments on published posts across Instagram, Facebook, YouTube and LinkedIn, and reply to Google Bus…"
+          },
+          {
+            "name": "posting-queue",
+            "description": "Configure and inspect the Upload-Post posting queue — the recurring time slots that queued content drips into. Use when…"
+          },
+          {
+            "name": "repurpose-video",
+            "description": "Turn a long video (talking head, podcast, livestream, webinar) into multiple viral short clips and schedule them to Tik…"
+          },
+          {
+            "name": "schedule-campaign",
+            "description": "Schedule a post (text, photo, video, or thread) across multiple platforms at once. Pick the right MCP upload tool per p…"
+          },
+          {
+            "name": "setup",
+            "description": "Onboard a new Upload-Post user. Authenticate the hosted MCP server over OAuth, verify the connection, and confirm that…"
+          },
+          {
+            "name": "whitelabel-connect",
+            "description": "Generate a JWT-authenticated connection URL so a client or end-user can OAuth their social accounts into a profile insi…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
       "version": "0.50.1",
