@@ -215,6 +215,22 @@
         ]
       }
     },
+    "czip": {
+      "sha": "70323181454e21e0bc73ce2bf3e069562c665103",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "czip-oturum-paketle",
+            "description": "Use when: 'oturumu paketle', 'czip'. HKP1 paketle/oku."
+          },
+          {
+            "name": "czip-session-pack",
+            "description": "Use when asked to compress, pack or carry an agent session into a new chat, or to read a previously packed session with…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
