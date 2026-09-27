@@ -382,6 +382,27 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "superlist",
+      "description": "Manage Superlist tasks and lists from Grok Build. Create, update, and complete tasks, organize lists, and review your Today and Inbox views.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superlistapp/superlist-mcp.git",
+        "sha": "62ecafec6c5892c1b23bda2f7fcf8d29308dd67f",
+        "path": "grok"
+      },
+      "homepage": "https://www.superlist.com/mcp",
+      "keywords": [
+        "superlist",
+        "superlist tasks",
+        "superlist mcp"
+      ],
+      "domains": [
+        "superlist.com",
+        "app.superlist.com"
+      ]
     }
   ]
 }
