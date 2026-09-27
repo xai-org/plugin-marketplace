@@ -1165,7 +1165,7 @@
       }
     },
     "upload-post": {
-      "sha": "5769d217e9d6b482e16a7cf3d321931b1d2e66ea",
+      "sha": "36ea2cac12e9d86a9a7c8ccda3f58f99360d12d7",
       "version": "0.2.0",
       "components": {
         "agents": [
