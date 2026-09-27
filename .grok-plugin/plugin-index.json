@@ -215,6 +215,18 @@
         ]
       }
     },
+    "codybeartv-bitcoin-stream": {
+      "sha": "d4d70853d01f87a421bf7ea3b09345775629f3ac",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "codybeartv-bitcoin-stream",
+            "description": "Run and check the CodyBearTV read-only Bitcoin stream. Use when the operator asks for the CodyBearTV Bitcoin tracker, t…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
