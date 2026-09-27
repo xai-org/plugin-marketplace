@@ -631,6 +631,59 @@
         ]
       }
     },
+    "patricia": {
+      "sha": "6b0d911aadc758643bbdeab59c5394c0d9c52c24",
+      "version": "0.4.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "WebFetch|WebSearch|Bash"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "patricia",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "delegating-work",
+            "description": "Delegate work to Patricia and track it through completion. Use when a task needs Patricia, task-status polling, a human…"
+          },
+          {
+            "name": "integrations",
+            "description": "Find, connect, use, share, or disconnect Patricia integrations. Use when a person asks what is connected, asks Patricia…"
+          },
+          {
+            "name": "memory-bridge",
+            "description": "Use, configure, or disable the Patricia memory bridge. The default-on PostToolUse hook notices when a local memory note…"
+          },
+          {
+            "name": "onboard",
+            "description": "Onboard a new Patricia connection and import existing context safely. Use when a person says onboard Patricia, set up P…"
+          },
+          {
+            "name": "using-patricia",
+            "description": "Use the Patricia MCP server correctly. Read this before the first Patricia tool call in a session, and whenever a Patri…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
       "components": {
