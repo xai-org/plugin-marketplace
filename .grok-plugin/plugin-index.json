@@ -1379,6 +1379,32 @@
         ]
       }
     },
+    "vertebrae": {
+      "sha": "a6e4de784eca656534bc09f4989e7ba6ebb5f7df",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vertebrae",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "action-items-to-work",
+            "description": "Turn the action items from a Vertebrae meeting into concrete work in the current environment, such as issues, tickets,…"
+          },
+          {
+            "name": "meeting-context",
+            "description": "Pull the relevant Vertebrae meetings into the current task before acting. Use when the user mentions a meeting, a call,…"
+          },
+          {
+            "name": "meeting-recap",
+            "description": "Recap one or more Vertebrae meetings into decisions, action items with owners, and open questions. Use when asked to re…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
       "version": "1.20.0",
