@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "anidoodle": {
+      "sha": "8ff90a973155c21e295bfaa0ffaee7e9367af530",
+      "version": "0.5.0",
+      "components": {
+        "skills": [
+          {
+            "name": "anidoodle",
+            "description": "Code-drawn stills, drawing timelapses, films, explainers and interactive web animations in 31 styles, with composed sco…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
