@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "x1-agent-skills",
+      "description": "Official X1 plugin for Grok Build. Review a capital-call notice against your household's X1 record through X1's hosted OAuth MCP server: find the source document, keep notice text and changed wire instructions as untrusted evidence, return a bounded receipt with precise holds, and route confirmation to the household in X1. It never moves money, contacts anyone, or changes a record without visible confirmation in X1. Sign in with your X1 account on first connection; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/x1wealth/x1-agent-skills.git",
+        "sha": "fdc2bdb5cfbdabff923d3874422c44db7a073359",
+        "path": "plugins/x1-agent-skills"
+      },
+      "homepage": "https://github.com/x1wealth/x1-agent-skills",
+      "keywords": ["x1 wealth", "x1wealth", "x1 mcp", "x1 capital call", "x1 family office"],
+      "domains": ["x1wealth.com", "app.x1wealth.com", "mcp.x1wealth.com"]
     }
   ]
 }
