@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "gander",
+      "description": "Gander — live review for markdown your agent is still writing. Watch the file, leave inline comments in the browser, @agent so the authoring agent picks them up, and keep iterating on the same link before git. Reviewer needs only a browser; author installs the skill (gander skill). Private by default. https://gander.md · docs: https://gander.md/docs/skill",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gandermd/gander-plugins.git",
+        "sha": "93aea77190f9c6bd72835520a4c7c1c9c34e5e64",
+        "path": "grok"
+      },
+      "homepage": "https://gander.md",
+      "keywords": ["gander", "gander.md", "gander skill"],
+      "domains": ["gander.md"]
     }
   ]
 }
