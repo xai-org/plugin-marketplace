@@ -916,6 +916,23 @@
         ]
       }
     },
+    "simplepost": {
+      "sha": "8be5bbb339290265116e2910a4b75e69ae0cf0a2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "simplepost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "simplepost",
+            "description": "Publish, schedule, draft, preview, inspect, or manage social posts with SimplePost, or integrate SimplePost through MCP…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "f23b5bad7a5b20d403bb11cf425044b85ee7c716",
       "version": "0.9.2",
