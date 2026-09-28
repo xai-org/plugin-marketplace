@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8"
+        "sha": "c632a50838a47a639a160baff8411eb9c6af22bf"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": [
@@ -48,7 +48,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea"
+        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": [
@@ -64,7 +64,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+        "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": [
@@ -83,7 +83,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
+        "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": [
@@ -203,7 +203,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f"
+        "sha": "7d7375b57a9b84224355257b810db94f6c8dd235"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": [
@@ -265,7 +265,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
+        "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": [
@@ -321,13 +321,26 @@
       ]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
+        "sha": "f48070c9542cc8bb22306deb6264c61675a27e70",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -348,7 +361,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+        "sha": "f23b5bad7a5b20d403bb11cf425044b85ee7c716",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -395,7 +408,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
+        "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
       "keywords": [
@@ -416,7 +429,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
+        "sha": "adf3218ca2f5b9971eedc07a76bef22df7701539",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
