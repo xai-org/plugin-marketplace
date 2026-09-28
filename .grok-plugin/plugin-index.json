@@ -1,6 +1,44 @@
 {
   "version": 1,
   "plugins": {
+    "airwallex": {
+      "sha": "b418b9913e4919f85257aa1e25319e59464e8fae",
+      "version": "0.2.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "airwallex-agentos",
+            "description": "http"
+          },
+          {
+            "name": "airwallex-dev",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "awx-best-practices",
+            "description": "Best practices when working with Airwallex APIs and integrations…"
+          },
+          {
+            "name": "beneficiary-creation",
+            "description": "Extract bank details from supplier invoices or documents, validate per-country requirements, and create beneficiaries i…"
+          },
+          {
+            "name": "card-provisioning",
+            "description": "Provision virtual or physical corporate cards in Airwallex Issuing — create cardholders, issue cards with spend limits,…"
+          },
+          {
+            "name": "contract-to-billing",
+            "description": "Extract billing details from purchase orders, contracts, or quotes, then set up Airwallex Billing by creating invoices…"
+          },
+          {
+            "name": "manage-cashflow",
+            "description": "Multi-currency cash management — balances, receivables, obligations, FX exposure, runway, rebalancing, and indicative F…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
