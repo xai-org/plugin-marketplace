@@ -382,6 +382,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "upgrade-audit",
+      "description": "Martial Systems Upgrade Audit. Inventory your GitHub repos, review shipped logic when a new Grok generation ships, write a PDF, then audit, fix, or open a PR. You choose audit, fix, or pr, and whether stalled child agents are killed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/martialsystems/upgrade-audit.git",
+        "sha": "83881929bcf041278713e1d27f31d454840197b4"
+      },
+      "homepage": "https://martialgames.net/tools/upgrade-audit/",
+      "keywords": ["upgrade-audit", "martial systems", "martialsystems"],
+      "domains": ["martialgames.net", "martialsys.net"],
+      "version": "1.6.0",
+      "author": {
+        "name": "Martial Systems LLC",
+        "email": "martialsys@gmail.com"
+      },
+      "tags": ["upgrade-audit", "martial-systems"]
     }
   ]
 }
