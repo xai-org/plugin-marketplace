@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "6zzzzzz": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "6zzzzzz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "6zzzzzz",
+            "description": "Check whether domain names are registered using the 6zzzzzz MCP tools. Use when the user wants to know if a domain is a…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

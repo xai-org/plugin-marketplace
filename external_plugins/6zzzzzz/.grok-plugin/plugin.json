@@ -1,0 +1,16 @@
+{
+  "name": "6zzzzzz",
+  "version": "1.0.0",
+  "description": "Bulk domain availability checks against ICANN zone files via the hosted 6zzzzzz MCP server. Check hundreds of names per call; no account or API key.",
+  "author": {
+    "name": "6zzzzzz",
+    "url": "https://6zzzzzz.com"
+  },
+  "homepage": "https://6zzzzzz.com",
+  "license": "MIT",
+  "keywords": [
+    "6zzzzzz",
+    "6zzzzzz domain search",
+    "6zzzzzz mcp"
+  ]
+}
