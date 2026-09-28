@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "agent-constitution": {
+      "sha": "8e8fd6bf49cb4dbfadacb2ef8b4714634826211f",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "agent-constitution",
+            "description": "Draft a hub-and-spoke seat from the public constitution. Use for a new seat, the rules or the enforcement flow."
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "agent-constitution",
+      "description": "Draft a hub-and-spoke bot seat from a public constitution: five mandates, an evidence split and a seat template.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/geheharidas/agent-constitution.git",
+        "sha": "8e8fd6bf49cb4dbfadacb2ef8b4714634826211f"
+      },
+      "homepage": "https://github.com/geheharidas/agent-constitution",
+      "keywords": ["agent constitution", "swarm constitution", "hub and spoke", "seat template"]
     }
   ]
 }
