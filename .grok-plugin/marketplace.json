@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "jungle-cleaner",
+      "description": "Find what's wasting money in your AWS account and clean it up. Jungle Cleaner's hosted MCP server scans for idle and unused resources, estimates the savings, and checks that a cleanup actually stuck. Sign in with Google or GitHub in the browser — no API key.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JungleCleaner/mcp-plugin.git",
+        "sha": "d14e728ff6adcf2acc995d92c7da57540e825782"
+      },
+      "homepage": "https://junglecleaner.com",
+      "keywords": ["jungle cleaner", "junglecleaner"],
+      "domains": ["junglecleaner.com"]
     }
   ]
 }
