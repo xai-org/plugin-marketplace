@@ -393,6 +393,27 @@
         ]
       }
     },
+    "grok-build-worker": {
+      "sha": "272de8b9c12bbe62d45530d016903ca6f8d4b254",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grok-build-worker",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "Grok build CLI capabilities",
+            "description": "Use when composing a grok-build-worker submit_job: profiles, flags, and the job envelope."
+          },
+          {
+            "name": "Grok build worker",
+            "description": "Use when implementing or reviewing code via the grok-build-worker MCP (submit_job, status, fetch_artifacts, cancel_job)."
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
