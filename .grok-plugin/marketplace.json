@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "seenpaid",
+      "description": "Schedule and publish social media posts to 21 platforms from Grok through seenpaid's hosted MCP server, and optionally see which posts made money via your own Stripe.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seenpaid/seenpaid-mcp.git",
+        "sha": "370290dea59f490264687072363e0b3423308609"
+      },
+      "homepage": "https://seenpaid.com",
+      "keywords": ["seenpaid", "seenpaid scheduler", "seenpaid social media", "seenpaid mcp"],
+      "domains": ["seenpaid.com", "api.seenpaid.com"]
     }
   ]
 }
