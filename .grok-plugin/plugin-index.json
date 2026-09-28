@@ -1162,6 +1162,23 @@
         ]
       }
     },
+    "unitpost": {
+      "sha": "5b524c4d4334777fdf29f52ee593fb669d9c3273",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unitpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "unitpost",
+            "description": "Use when sending transactional or marketing email; managing contacts, segments, topics, templates, Brand Kit (on-brand…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
       "version": "0.51.0",
