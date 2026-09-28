@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "publora",
+      "description": "Draft, schedule and publish social media posts to LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon and Telegram via Publora's hosted MCP server. Sign in with a Publora account over OAuth, no API key to paste.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/publora"
+      },
+      "homepage": "https://publora.com",
+      "keywords": ["publora", "publora mcp", "publora social", "publora schedule"],
+      "domains": ["publora.com", "app.publora.com", "docs.publora.com", "mcp.publora.com"]
     }
   ]
 }
