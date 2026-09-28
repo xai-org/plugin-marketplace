@@ -1164,6 +1164,30 @@
         ]
       }
     },
+    "unbrowse": {
+      "sha": "a82c59dfb05583836ecfa21fdc3f8a2ea73bfb76",
+      "version": "12.1.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "WebSearch|web_search|web_fetch|Bash|playwright__.*|puppeteer__.*|browserbase__.*|chrome-devtools__.*"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "unbrowse",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "unbrowse",
+            "description": "Search and call websites through Unbrowse's hosted API or remote MCP, reuse indexed site tools, read pages, and learn m…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
       "version": "0.50.1",
