@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "clera",
+      "description": "Hire from Grok with Clera: search 210,000+ vetted startup candidates who opted in to hearing about roles, review Clera's picks for your open roles, and request intros. Sign in with a Clera account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getclera/mcp.git",
+        "sha": "a1693c2a1352cead95005b5d07fb15fe2a688376"
+      },
+      "homepage": "https://www.getclera.com/mcp",
+      "keywords": ["clera", "clera mcp", "clera hiring", "getclera"],
+      "domains": ["getclera.com", "www.getclera.com", "mcp.getclera.com"]
     }
   ]
 }
