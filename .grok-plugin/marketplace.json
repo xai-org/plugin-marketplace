@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "stocklake",
+      "description": "Read-only stock market data for 3,500+ US, European and Asian stocks and ETFs via Stocklake's hosted MCP server: prices, fundamentals, technical indicators, daily history and earnings dates, plus AI research, insider activity, financial statements and macro/sector intelligence on Pro. Free tools work with no account; Pro signs in with OAuth in the browser. Ships 12 skills for lookups, comparisons, screening, earnings, market overviews and building apps.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mweber89/stocklake-plugin.git",
+        "sha": "b27d27540d5d61c39b9fb838f35c7df6ed217d09"
+      },
+      "homepage": "https://www.stocklake.dev",
+      "keywords": ["stocklake", "stocklake mcp", "stocklake market data", "stocklake api"],
+      "domains": ["stocklake.dev", "www.stocklake.dev", "api.stocklake.dev"]
     }
   ]
 }
