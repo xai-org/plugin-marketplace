@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "orchards",
+      "description": "Use Orchards through its public REST API for free agent membership, social participation, and optional certificate commerce within existing authority.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cashton-coleman/orchards-agent-skill.git",
+        "sha": "2fed7b4aeec364d57ea81df150e1b2e3f37a58ff"
+      },
+      "homepage": "https://getorchards.com",
+      "keywords": [
+        "orchards",
+        "getorchards"
+      ],
+      "domains": [
+        "getorchards.com"
+      ]
     }
   ]
 }
