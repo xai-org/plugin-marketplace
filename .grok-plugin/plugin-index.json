@@ -918,6 +918,38 @@
         ]
       }
     },
+    "skill-suites-ops": {
+      "sha": "c44cdaf7e1fdbc41d51a08f6d1af36e2f776ba75",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ops-assess",
+            "description": "Monitors a multi-skill plan the operator is running by hand against its operations order (OPORD) — checking each step's…"
+          },
+          {
+            "name": "ops-learn",
+            "description": "Promotes recurring, successful skill sequences from the ops pattern queue into the opening book that ops-plan consults…"
+          },
+          {
+            "name": "ops-order",
+            "description": "Turns the recommended plan from ops-plan into a full five-paragraph operations order (OPORD) that ops-run can execute,…"
+          },
+          {
+            "name": "ops-plan",
+            "description": "Works out which installed skills to run, in what order, for a problem that needs more than one skill, and writes a tact…"
+          },
+          {
+            "name": "ops-recon",
+            "description": "Inventories the Agent Skills installed for the current project and user and sorts them into a force roster by kind of w…"
+          },
+          {
+            "name": "ops-run",
+            "description": "Executes an operations order (OPORD) from ops-order phase by phase — launching each skill as a subagent, applying its p…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
       "version": "0.8.6",
