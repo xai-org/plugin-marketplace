@@ -235,6 +235,45 @@
         ]
       }
     },
+    "etsy-growth-copilot": {
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ads-plan-and-weekly-review",
+            "description": "Plan Etsy Ads spend or run the weekly Etsy Ads review: margins, break-even ROAS, budget steps, and kill or scale decisi…"
+          },
+          {
+            "name": "etsy-core-rules",
+            "description": "Core Etsy seller rules for every other skill in this plugin: title and tag limits, fees, shipping search treatment, Ets…"
+          },
+          {
+            "name": "growth-plan",
+            "description": "Build or review an Etsy shop growth plan: milestones with gates, the seasonal calendar including Q4 and Black Friday, a…"
+          },
+          {
+            "name": "launch-checklist",
+            "description": "Check every field on a new Etsy listing before it goes live: photos, SEO, variations, price, shipping, section, and com…"
+          },
+          {
+            "name": "listing-seo-pack",
+            "description": "Write or rewrite an Etsy listing title, all 13 tags, description, attributes, and photo alt text for search. Use for Et…"
+          },
+          {
+            "name": "product-validation",
+            "description": "Decide whether a new Etsy product idea is worth making and listing. Score candidates on demand, competition, price, mar…"
+          },
+          {
+            "name": "sales-tracker",
+            "description": "Record the weekly Etsy Stats snapshot into a spreadsheet and review week-over-week changes and SEO refresh triggers. Us…"
+          },
+          {
+            "name": "store-audit",
+            "description": "Review an Etsy shop's storefront: featured items, sections, headline, announcement, About, banner, shipping, and stale…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
