@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
+        "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
+        "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
+        "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
