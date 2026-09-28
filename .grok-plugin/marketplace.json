@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "pallyy",
+      "description": "Schedule and publish social media posts from your AI agent. Pallyy's hosted MCP server lists your social sets, creates and updates draft or scheduled posts, imports media, and pins calendar notes across Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, X and Google Business Profile.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pallyysocial/pallyy-agent.git",
+        "sha": "c5166f616a9a00c5ae599581df37358c9792e32d"
+      },
+      "homepage": "https://pallyy.com/docs/api/mcp",
+      "keywords": ["pallyy", "social media scheduler", "schedule social media posts", "social media automation", "instagram", "facebook", "linkedin", "tiktok", "youtube", "pinterest", "threads", "bluesky", "google business profile", "agency", "mcp"],
+      "domains": ["pallyy.com", "app.pallyy.com"]
     }
   ]
 }
