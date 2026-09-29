@@ -406,8 +406,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
-      "version": "0.0.190",
+      "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
+      "version": "0.0.191",
       "components": {
         "skills": [
           {
@@ -858,8 +858,8 @@
       }
     },
     "railway": {
-      "sha": "f48070c9542cc8bb22306deb6264c61675a27e70",
-      "version": "1.6.0",
+      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+      "version": "1.6.1",
       "components": {
         "hooks": [
           {
@@ -928,8 +928,8 @@
       }
     },
     "stripe": {
-      "sha": "f23b5bad7a5b20d403bb11cf425044b85ee7c716",
-      "version": "0.9.2",
+      "sha": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
+      "version": "0.9.3",
       "components": {
         "agents": [
           {
