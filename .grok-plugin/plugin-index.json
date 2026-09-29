@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "ai-powerups": {
+      "sha": "e5690acf7aac485e09cf3d38e7151c844cb2e507",
+      "version": "1.0.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ai-power-apps",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-power-apps",
+            "description": "Use when a task needs live information across travel, shopping, markets, jobs, real estate, news, reading, research, mu…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
