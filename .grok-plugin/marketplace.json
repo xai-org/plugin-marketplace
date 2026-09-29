@@ -382,6 +382,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "compsniper",
+      "description": "Real eBay sold prices and resale intelligence. Search completed eBay sales, get a cleaned median and realistic range across 8 marketplaces, compare products or marketplaces, and export results, via the hosted CompSniper MCP. Sign in with a CompSniper account on first connect.",
+      "category": "data",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/compsniper"
+      },
+      "homepage": "https://compsniper.com",
+      "keywords": [
+        "compsniper",
+        "compsniper mcp",
+        "ebay sold comps",
+        "ebay sold prices",
+        "ebay sold listings api"
+      ],
+      "domains": [
+        "compsniper.com",
+        "mcp.compsniper.com",
+        "api.compsniper.com"
+      ]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "name": "compsniper",
+  "version": "1.0.0",
+  "description": "Real eBay sold prices and resale intelligence. Search completed eBay sales, get a cleaned median and realistic range across 8 marketplaces, compare products or marketplaces, and export results, via the hosted CompSniper MCP. Sign in with a CompSniper account on first connect.",
+  "author": {
+    "name": "CompSniper",
+    "url": "https://github.com/CompSniper"
+  },
+  "homepage": "https://compsniper.com",
+  "license": "Proprietary",
+  "keywords": [
+    "compsniper",
+    "compsniper mcp",
+    "ebay sold comps",
+    "ebay sold prices",
+    "ebay sold listings api"
+  ],
+  "logo": "assets/logo.svg"
+}
