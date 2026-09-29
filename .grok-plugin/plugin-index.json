@@ -71,6 +71,18 @@
         ]
       }
     },
+    "better-design": {
+      "sha": "62a98fc4aee0225694ff764e385b7c238d74c454",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "better-design",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",

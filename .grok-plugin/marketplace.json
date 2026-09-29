@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "better-design",
+      "description": "A design harness for AI coding agents. Find, preview and install design systems, load design principles, and run UI review checks through the Better Design MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/better-designs/better-design-plugin.git",
+        "sha": "62a98fc4aee0225694ff764e385b7c238d74c454"
+      },
+      "homepage": "https://better-design.com",
+      "keywords": ["better-design", "better design"],
+      "domains": ["better-design.com"]
     }
   ]
 }
