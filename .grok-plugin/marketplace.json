@@ -385,12 +385,12 @@
     },
     {
       "name": "better-design",
-      "description": "A design harness for AI coding agents. Find, preview and install design systems, load design principles, and run UI review checks through the Better Design MCP server.",
+      "description": "A design harness for AI coding agents. Find, preview and install design systems, load design principles, and run UI review checks through the Better Design MCP server, with skills for building and reviewing interfaces.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/better-designs/better-design-plugin.git",
-        "sha": "62a98fc4aee0225694ff764e385b7c238d74c454"
+        "sha": "3de854d8473a1ab83f23e4c2cec4c520cc93460d"
       },
       "homepage": "https://better-design.com",
       "keywords": ["better-design", "better design"],

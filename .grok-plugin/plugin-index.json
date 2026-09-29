@@ -72,13 +72,23 @@
       }
     },
     "better-design": {
-      "sha": "62a98fc4aee0225694ff764e385b7c238d74c454",
-      "version": "1.0.0",
+      "sha": "3de854d8473a1ab83f23e4c2cec4c520cc93460d",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
             "name": "better-design",
             "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-with-better-design",
+            "description": "Build or redesign a web or mobile interface on a Better Design design system. Use when the user asks for an app, site,…"
+          },
+          {
+            "name": "review-ui-with-better-design",
+            "description": "Review an interface with Better Design's checks for accessibility, visual design, copy clarity and spacing. Use when th…"
           }
         ]
       }
