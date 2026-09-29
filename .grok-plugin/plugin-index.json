@@ -916,6 +916,64 @@
         ]
       }
     },
+    "softsync": {
+      "sha": "365aa5cc2d636e44a3f52a937a9f976e9aa6b3eb",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "softsync",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "softsync-email",
+            "description": "Write email templates and send them to one contact or a list, and follow or cancel the send. Use when the user wants to…"
+          },
+          {
+            "name": "softsync-enrichment",
+            "description": "Look up facts about a company or person from a website, work email, LinkedIn profile or organisation number, and save t…"
+          },
+          {
+            "name": "softsync-forms",
+            "description": "Create and manage public forms that save every answer as a record, and share their links. Use when the user wants a sig…"
+          },
+          {
+            "name": "softsync-groups-and-views",
+            "description": "Organise records into groups, share them with people, and set up table, board and calendar views. Use when the user wan…"
+          },
+          {
+            "name": "softsync-meetings",
+            "description": "Find calendar events, and manage booking pages: free times, bookings, booking a meeting for someone, rescheduling and c…"
+          },
+          {
+            "name": "softsync-messages",
+            "description": "Read emails, notes and saved meeting summaries linked to records, and search them by content. Use when the user asks wh…"
+          },
+          {
+            "name": "softsync-notes",
+            "description": "Write, edit, share and delete notes on records, such as a summary after a call. Use when the user wants to write someth…"
+          },
+          {
+            "name": "softsync-records",
+            "description": "Find, create, update, merge, delete and restore records such as companies, contacts, deals and tasks, and chart them. U…"
+          },
+          {
+            "name": "softsync-reminders",
+            "description": "Set one-time or repeating reminders, optionally linked to a record. Use when the user says \\\"remind me…\\\" or wants a fo…"
+          },
+          {
+            "name": "softsync-tables",
+            "description": "Read the workspace structure — tables, fields, choices and groups — and add or change tables. Use before any other Soft…"
+          },
+          {
+            "name": "softsync-workflows",
+            "description": "Run the workspace automations — manual workflows and published ones — and check their results. Use when the user wants…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "f23b5bad7a5b20d403bb11cf425044b85ee7c716",
       "version": "0.9.2",
