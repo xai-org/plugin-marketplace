@@ -629,6 +629,17 @@
         ]
       }
     },
+    "openrush": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "openrush",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "adf3218ca2f5b9971eedc07a76bef22df7701539",
       "components": {
