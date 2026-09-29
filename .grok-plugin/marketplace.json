@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "deepledger",
+      "description": "AI staff accountant for QuickBooks. DeepLedger connects QuickBooks to Grok, ChatGPT, Claude and other AI agents, allowing businesses to record bills, invoices, payments, deposits, journal entries and other transactions, run financial reports, manage receivables and payables, and track month-end close using natural language.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DeepLedger/deepledger-plugin.git",
+        "sha": "1d9bd5d6de4a8594569ed58b68c2f113968ec342"
+      },
+      "homepage": "https://deepledger.ai",
+      "keywords": ["deepledger", "deep ledger", "deepledger quickbooks", "deepledger bookkeeping", "deepledger mcp"],
+      "domains": ["deepledger.ai", "mcp.deepledger.ai", "agent.deepledger.ai"]
     }
   ]
 }
