@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "craftcx",
+      "description": "Connect Grok to CraftCX's read-only MCP server to search support conversations, QA findings, customer signals, and support performance. Sign in with your CraftCX account and approve an organization.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/craftcx"
+      },
+      "homepage": "https://craftcx.com/mcp",
+      "keywords": ["craftcx", "craftcx mcp", "craftcx support intelligence"],
+      "domains": ["craftcx.com", "mcp.craftcx.com", "app.craftcx.com"]
     }
   ]
 }
