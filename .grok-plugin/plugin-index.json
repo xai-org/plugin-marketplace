@@ -215,6 +215,22 @@
         ]
       }
     },
+    "council": {
+      "sha": "967ad51ec0837fad6d94232c531bab6b8e8a3281",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "council",
+            "description": "Runs a question, idea, or decision through a configurable council of AI advisors who analyze it independently, peer-rev…"
+          },
+          {
+            "name": "council-setup",
+            "description": "Configures the council used by the council skill — lists and activates presets, shows the active council, customizes a…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
