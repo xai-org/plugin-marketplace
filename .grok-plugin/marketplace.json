@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "jev-conductor-router",
+      "description": "Decide with Jev whether a coding task needs a Conductor cloud workspace, then route and operate it.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JussCubs/jev-conductor-router.git",
+        "sha": "467ce88ab862c0aab94b69ee9778b6164a4ed59d"
+      },
+      "homepage": "https://github.com/JussCubs/jev-conductor-router",
+      "keywords": ["conductor", "jev", "typesafe", "orbio"],
+      "domains": ["conductor.build", "api.conductor.build"]
     }
   ]
 }
