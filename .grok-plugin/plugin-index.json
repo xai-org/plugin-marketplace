@@ -102,8 +102,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
-      "version": "1.9.0",
+      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
+      "version": "1.10.1",
       "components": {
         "mcpServers": [
           {
@@ -144,73 +144,71 @@
       }
     },
     "cloudflare": {
-      "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
-      "version": "1.0.0",
+      "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
+      "version": "1.0.1",
       "components": {
-        "commands": [
-          {
-            "name": "build-agent",
-            "description": "Build an AI agent on Cloudflare using the Agents SDK"
-          },
-          {
-            "name": "build-mcp",
-            "description": "Build a remote MCP server on Cloudflare using McpAgent"
-          }
-        ],
         "mcpServers": [
           {
-            "name": "cloudflare-api",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-bindings",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-builds",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-docs",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-observability",
+            "name": "cloudflare",
             "description": "http"
           }
         ],
         "skills": [
           {
             "name": "agents-sdk",
-            "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real…"
+            "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package."
           },
           {
             "name": "cloudflare",
-            "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agent…"
+            "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architect…"
           },
           {
             "name": "cloudflare-email-service",
-            "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building…"
+            "description": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration."
+          },
+          {
+            "name": "cloudflare-one",
+            "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migration…"
+          },
+          {
+            "name": "cloudflare-one-migrations",
+            "description": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parit…"
           },
           {
             "name": "durable-objects",
-            "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, b…"
+            "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
           },
           {
-            "name": "sandbox-sdk",
-            "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD…"
+            "name": "nextjs-on-cloudflare",
+            "description": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloud…"
+          },
+          {
+            "name": "sandbox-migrate-to-next",
+            "description": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sand…"
+          },
+          {
+            "name": "sandbox-next",
+            "description": "Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next wh…"
+          },
+          {
+            "name": "sandbox-stable",
+            "description": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps…"
+          },
+          {
+            "name": "turnstile-spin",
+            "description": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including serv…"
           },
           {
             "name": "web-perf",
-            "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics…"
+            "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance s…"
           },
           {
             "name": "workers-best-practices",
-            "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing…"
+            "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers."
           },
           {
             "name": "wrangler",
-            "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
           }
         ]
       }
@@ -262,8 +260,8 @@
       }
     },
     "figma": {
-      "sha": "d638a5e055e8d95e0394a94350860398cf424b74",
-      "version": "2.2.111",
+      "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644",
+      "version": "2.2.123",
       "components": {
         "mcpServers": [
           {
@@ -278,7 +276,7 @@
           },
           {
             "name": "figma-create-new-file",
-            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+            "description": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this sk…"
           },
           {
             "name": "figma-design-to-code",
@@ -408,8 +406,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
-      "version": "0.0.189",
+      "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
+      "version": "0.0.191",
       "components": {
         "skills": [
           {
@@ -529,8 +527,8 @@
       }
     },
     "netlify": {
-      "sha": "8524c7692121b66ea7a4a3ab887bd4875d7b739f",
-      "version": "1.4.1",
+      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
+      "version": "1.5.1",
       "components": {
         "mcpServers": [
           {
@@ -541,7 +539,7 @@
         "skills": [
           {
             "name": "netlify-access-control",
-            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+            "description": "Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — ap…"
           },
           {
             "name": "netlify-agent-runner",
@@ -549,11 +547,11 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+            "description": "Store and retrieve unstructured data like file uploads, images, documents, JSON, and cache-like state with Netlify Blob…"
           },
           {
             "name": "netlify-caching",
@@ -561,7 +559,7 @@
           },
           {
             "name": "netlify-config",
-            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+            "description": "Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or pu…"
           },
           {
             "name": "netlify-database",
@@ -569,7 +567,7 @@
           },
           {
             "name": "netlify-deploy",
-            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+            "description": "Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, run…"
           },
           {
             "name": "netlify-edge-functions",
@@ -589,7 +587,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
           },
           {
             "name": "netlify-image-cdn",
@@ -598,6 +596,24 @@
           {
             "name": "netlify-mcp-servers",
             "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          }
+        ]
+      }
+    },
+    "octen": {
+      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "octen-web",
+            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
           }
         ]
       }
@@ -614,7 +630,7 @@
       }
     },
     "pstack": {
-      "sha": "e31650eea443aaea1e84cc15d88c13f40080b275",
+      "sha": "adf3218ca2f5b9971eedc07a76bef22df7701539",
       "components": {
         "agents": [
           {
@@ -831,8 +847,8 @@
       }
     },
     "railway": {
-      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
-      "version": "1.4.0",
+      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+      "version": "1.6.1",
       "components": {
         "hooks": [
           {
@@ -901,8 +917,8 @@
       }
     },
     "stripe": {
-      "sha": "da4991b0a0b9299d423ae2d5856e6d7e2b31b031",
-      "version": "0.7.2",
+      "sha": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
+      "version": "0.9.3",
       "components": {
         "agents": [
           {
@@ -936,6 +952,10 @@
             "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
           },
           {
+            "name": "metronome",
+            "description": "Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable m…"
+          },
+          {
             "name": "stripe-apps",
             "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
           },
@@ -961,14 +981,14 @@
           },
           {
             "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions and SDKs"
+            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
     },
     "supabase": {
-      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
-      "version": "0.1.15",
+      "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151",
+      "version": "0.1.16",
       "components": {
         "mcpServers": [
           {
@@ -989,8 +1009,8 @@
       }
     },
     "superpowers": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
-      "version": "6.3.0",
+      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "version": "6.4.2",
       "components": {
         "hooks": [
           {
@@ -1004,12 +1024,16 @@
             "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
           },
           {
+            "name": "diagnosing-superpowers",
+            "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stum…"
+          },
+          {
             "name": "dispatching-parallel-agents",
             "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
           },
           {
             "name": "executing-plans",
-            "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+            "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose…"
           },
           {
             "name": "finishing-a-development-branch",
@@ -1271,8 +1295,8 @@
       }
     },
     "vercel": {
-      "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517",
-      "version": "0.49.2",
+      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
+      "version": "0.51.0",
       "components": {
         "agents": [
           {
@@ -1367,12 +1391,20 @@
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
+            "name": "custom-metrics",
+            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
           },
           {
+            "name": "domains",
+            "description": "Search, register, connect, transfer, and renew domain names on Vercel using the CLI or Domains Registrar API. Use for d…"
+          },
+          {
             "name": "env-vars",
-            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, Secret or Config va…"
           },
           {
             "name": "eve",
@@ -1411,6 +1443,10 @@
             "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
           },
           {
+            "name": "queues",
+            "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
+          },
+          {
             "name": "react-best-practices",
             "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
           },
@@ -1432,7 +1468,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
           },
           {
             "name": "vercel-cli",
@@ -1440,7 +1476,7 @@
           },
           {
             "name": "vercel-connect",
-            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+            "description": "Vercel Connect expert guidance for securely obtaining scoped credentials for third-party services on behalf of apps or…"
           },
           {
             "name": "vercel-firewall",
@@ -1474,8 +1510,8 @@
       }
     },
     "wix": {
-      "sha": "0bb9e628fae4f2999006cb239bb306b2b7fe8308",
-      "version": "1.19.1",
+      "sha": "7d7375b57a9b84224355257b810db94f6c8dd235",
+      "version": "1.23.0",
       "components": {
         "mcpServers": [
           {
