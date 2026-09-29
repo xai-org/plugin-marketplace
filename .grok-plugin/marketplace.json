@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "unbrowse",
+      "description": "Websites as APIs for Grok Build via Unbrowse's hosted MCP: read any page as clean markdown, run tasks on sites through learned first-party APIs (no browser), and drive a cloud browser with saved logins when nothing matches; it learns the route so the next call is browserless. Includes the Unbrowse skill and a hook that routes web_search/web_fetch and agent-browser navigation to Unbrowse. Sign in with `npx unbrowse login`.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/unbrowse-ai/unbrowse.git",
+        "sha": "a82c59dfb05583836ecfa21fdc3f8a2ea73bfb76",
+        "path": "plugins/grok-build"
+      },
+      "homepage": "https://unbrowse.ai",
+      "keywords": ["unbrowse", "unbrowse mcp", "unbrowse scrape", "unbrowse cloud browser"],
+      "domains": ["unbrowse.ai"]
     }
   ]
 }
