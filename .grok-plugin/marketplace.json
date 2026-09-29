@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "patricia",
+      "description": "Patricia connects your AI client to one Patricia workspace. Read workspace memory and files, inspect connected integrations, and delegate work to Patricia with human approval controls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/patricia-app/patricia-plugin.git",
+        "sha": "6b0d911aadc758643bbdeab59c5394c0d9c52c24"
+      },
+      "homepage": "https://www.patricia.app/mcp",
+      "keywords": ["patricia", "patricia mcp", "patricia memory", "patricia workspace", "patricia delegation", "patricia integrations"],
+      "domains": ["patricia.app", "api.patricia.app"]
     }
   ]
 }
