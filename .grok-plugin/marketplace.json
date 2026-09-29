@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "thermos",
+      "description": "Thermo-nuclear branch review: parallel subagents run a deep correctness and security audit alongside a strict maintainability audit of your diff, then synthesize one deduplicated, prioritized findings list.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cursor/plugins.git",
+        "sha": "ecc249f1e306fc64ddf83c7bed16cacf7c2239db",
+        "path": "thermos"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/thermos",
+      "keywords": ["thermos", "thermo-nuclear", "thermo-nuclear review"]
     }
   ]
 }

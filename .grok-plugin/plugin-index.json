@@ -1128,6 +1128,35 @@
         ]
       }
     },
+    "thermos": {
+      "sha": "ecc249f1e306fc64ddf83c7bed16cacf7c2239db",
+      "components": {
+        "agents": [
+          {
+            "name": "thermo-nuclear-code-quality-review-subagent",
+            "description": "Thermo-nuclear code quality audit (maintainability, structure, 1k-line rule, spaghetti, code-judo). Invoked via Task af…"
+          },
+          {
+            "name": "thermo-nuclear-review-subagent",
+            "description": "Thermo-nuclear branch audit (bugs, breaking changes, security, devex, feature-flag leaks) scoped to the diff. Invoked v…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "thermo-nuclear-code-quality-review",
+            "description": "Run an extremely strict maintainability review for abstraction quality, giant files, and spaghetti-condition growth. Us…"
+          },
+          {
+            "name": "thermo-nuclear-review",
+            "description": "Comprehensive security and correctness audit of a branch's changes. Use for thermo nuclear, thermonuclear, or deep revi…"
+          },
+          {
+            "name": "thermos",
+            "description": "Launch both thermo-nuclear review subagents in parallel, then synthesize their findings. Use for thermos, double thermo…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
