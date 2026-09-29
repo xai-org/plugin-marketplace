@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "braintrust",
+      "description": "Braintrust tracing for Grok coding sessions. Capture session and turn traces, reconstructed LLM spans, tool activity, and usage metrics in Braintrust through the local bt daemon.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/braintrustdata/braintrust-grok-plugin.git",
+        "sha": "3510b450efc8bf877f9b2c54d4c9f761c0b51904"
+      },
+      "homepage": "https://github.com/braintrustdata/braintrust-grok-plugin",
+      "keywords": ["braintrust", "braintrust tracing"],
+      "domains": ["braintrust.dev"]
     }
   ]
 }

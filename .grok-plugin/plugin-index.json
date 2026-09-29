@@ -71,6 +71,71 @@
         ]
       }
     },
+    "braintrust": {
+      "sha": "3510b450efc8bf877f9b2c54d4c9f761c0b51904",
+      "version": "0.0.3",
+      "components": {
+        "hooks": [
+          {
+            "name": "Notification",
+            "description": ".*"
+          },
+          {
+            "name": "PermissionDenied",
+            "description": ".*"
+          },
+          {
+            "name": "PostCompact",
+            "description": ".*"
+          },
+          {
+            "name": "PostToolUse",
+            "description": ".*"
+          },
+          {
+            "name": "PostToolUseFailure",
+            "description": ".*"
+          },
+          {
+            "name": "PreCompact",
+            "description": ".*"
+          },
+          {
+            "name": "PreToolUse",
+            "description": ".*"
+          },
+          {
+            "name": "SessionEnd",
+            "description": ".*"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "StopCancelled",
+            "description": ".*"
+          },
+          {
+            "name": "StopFailure",
+            "description": ".*"
+          },
+          {
+            "name": "SubagentStart",
+            "description": ".*"
+          },
+          {
+            "name": "SubagentStop",
+            "description": ".*"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
