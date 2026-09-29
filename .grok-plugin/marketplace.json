@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "financy",
+      "description": "Read-only access to Israeli bank and credit-card data from Financy (Open Finance): balances, transactions and categories, plus skills for personal spending reviews and small-business cash-flow reports. Sign in with a Financy account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/open-finance-ai/financy-grok-plugin.git",
+        "sha": "297736895c97462cecd1d74a0e0d3e51f143fcee"
+      },
+      "homepage": "https://github.com/open-finance-ai/financy-grok-plugin",
+      "keywords": ["financy", "open finance", "open-finance.ai", "financy mcp"],
+      "domains": ["open-finance.ai", "mcp.open-finance.ai"]
     }
   ]
 }

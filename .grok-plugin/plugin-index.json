@@ -329,6 +329,32 @@
         ]
       }
     },
+    "financy": {
+      "sha": "297736895c97462cecd1d74a0e0d3e51f143fcee",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "financy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "business-cashflow-review",
+            "description": "Review a small business's cash flow from its Financy bank and card data: money in vs. money out, cash position across a…"
+          },
+          {
+            "name": "financy-data-freshness",
+            "description": "Check whether the user's Financy bank and card data is current enough to answer with, before any analysis of balances o…"
+          },
+          {
+            "name": "personal-spending-review",
+            "description": "Review a person's household spending from their Financy bank and card data: spend by category, month-over-month changes…"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
       "version": "1.2.0",
