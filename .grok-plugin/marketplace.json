@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "timequip",
+      "description": "Manage Timequip projects, tasks, comments, tags, and team members, and review dashboards and recent activity.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Timequip/timequip-grok-plugin.git",
+        "sha": "d0a1ffb0d82e033c37e04e326e10312e9eb97b48"
+      },
+      "homepage": "https://timequip.com",
+      "keywords": ["timequip", "tasks", "time tracking", "project management"],
+      "domains": ["timequip.com", "app.timequip.com", "mcp.timequip.com"]
     }
   ]
 }
