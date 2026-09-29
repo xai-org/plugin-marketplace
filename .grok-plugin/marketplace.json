@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "cloudbrowser",
+      "description": "Run bounded web research and QA in your CloudBrowser account, return page evidence, and close the browser. Browser and proxy usage follows your CloudBrowser plan.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CloudBrowser-AI/skills.git",
+        "sha": "ef824bc559f958c3d55768e400a0c5b4072f504f"
+      },
+      "homepage": "https://cloudbrowser.ai/mcp",
+      "keywords": [
+        "cloudbrowser",
+        "cloudbrowser.ai"
+      ],
+      "domains": [
+        "cloudbrowser.ai"
+      ]
     }
   ]
 }
