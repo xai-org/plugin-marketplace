@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "html-css-to-image",
+      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
+        "sha": "13ce1928a3f80d020cabbc7a07410e6c9578231a"
+      },
+      "homepage": "https://htmlcsstoimage.com",
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
     }
   ]
 }
