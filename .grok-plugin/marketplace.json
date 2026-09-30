@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "mermail",
+      "description": "Official Mermail email integration for AI agents (MCP Server + Skills). Provision agent inboxes, read and organize mail, draft and send messages with approval gates, administer workspaces, automate triage, and run scheduling, GTM, support, and x402 workflows.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nudgen-Marketing/mermail-skills.git",
+        "sha": "7c3b9ed637ba7376459af7cf93e74ffe47123d13"
+      },
+      "homepage": "https://mermail.app/agents",
+      "keywords": ["mermail", "mermail email", "mermail inbox", "mermail mcp"],
+      "domains": ["mermail.app", "console.mermail.app", "docs.mermail.app"]
     }
   ]
 }
