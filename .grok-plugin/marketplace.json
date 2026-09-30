@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "medbillanalyzer",
+      "description": "Compare a medical bill with the insurer's Explanation of Benefits (EOB) and list where they disagree. The check is free; the detail behind each finding, a dispute letter and a phone script are a paid unlock.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RMKCapital/medbillanalyzer-plugin.git",
+        "sha": "a108786565903548066d603a17c3321b007457b5"
+      },
+      "homepage": "https://medbillanalyzer.com/grok",
+      "keywords": ["medbillanalyzer", "medbill analyzer"],
+      "domains": ["medbillanalyzer.com", "app.medbillanalyzer.com"]
     }
   ]
 }
