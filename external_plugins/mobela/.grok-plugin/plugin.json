@@ -1,0 +1,12 @@
+{
+  "name": "mobela",
+  "version": "1.0.0",
+  "description": "Your Mobela training data in Grok: workout history, stats, runs, health metrics and calendar, plus building routines that appear instantly in the Mobela app. Sign in with a Mobela account on first connect.",
+  "author": {
+    "name": "Mobela",
+    "url": "https://mobela.app"
+  },
+  "homepage": "https://mobela.app",
+  "license": "Proprietary",
+  "keywords": ["mobela", "mobela workouts", "mobela mcp"]
+}
