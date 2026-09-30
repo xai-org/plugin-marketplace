@@ -71,6 +71,24 @@
         ]
       }
     },
+    "beatdesign": {
+      "sha": "d2ef270174426da119574e9aa096e86edb777b5d",
+      "version": "0.2.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "beatdesign",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "beatdesign-workspace",
+            "description": "Operate a local BeatDesign project through MCP when the user asks to create, organize, generate, inspect, or edit media…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
