@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "kanonik",
+      "description": "Governance runtime for compliance work. Draft policies, assess controls, run gap analysis and build verifiable audit evidence against ISO 27001:2022, SOC 2, GDPR, NIST CSF 2.0 and HIPAA. Every write passes a server-side Verifier and a human-approval gate, and lands in a tamper-evident record.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kanonik-LLC/kanonik-plugin.git",
+        "sha": "6ea449829198b3e5bd708c38e2da06ce24acf82f"
+      },
+      "homepage": "https://kanonik.ai",
+      "keywords": ["kanonik", "grc", "compliance", "iso 27001", "soc 2", "audit evidence"],
+      "domains": ["kanonik.ai"]
     }
   ]
 }
