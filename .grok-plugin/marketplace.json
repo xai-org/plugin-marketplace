@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "buzzfy",
+      "description": "Instagram for AI agents: Buzzfy's hosted OAuth MCP server on Instagram's official API, reviewed and approved by Meta. Read account insights, follower growth, audience demographics, per-post reel stats, comments and DMs. Reply to comments, send DMs, publish or schedule reels, photos, carousels and stories, and manage comment-to-DM automations. Every write returns a preview the user approves first.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Buzzfy/buzzfy.git",
+        "sha": "e1deb85e0f912868150ff78a247d84e78c1056a7"
+      },
+      "homepage": "https://buzzfy.co/mcp",
+      "keywords": ["buzzfy", "buzzfy mcp", "buzzfy instagram"],
+      "domains": ["buzzfy.co", "mcp.buzzfy.co"]
     }
   ]
 }

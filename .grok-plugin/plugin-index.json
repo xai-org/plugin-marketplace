@@ -101,6 +101,40 @@
         ]
       }
     },
+    "buzzfy": {
+      "sha": "e1deb85e0f912868150ff78a247d84e78c1056a7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "buzzfy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "answer-comments-and-dms",
+            "description": "Find Instagram comments and DMs waiting for a reply and answer them in the creator's voice, with the user's approval. U…"
+          },
+          {
+            "name": "get-started",
+            "description": "Connect or reconnect Instagram to Buzzfy, or fix a connection that fails. Use when the user wants to connect their Inst…"
+          },
+          {
+            "name": "instagram-audit",
+            "description": "Audit the user's Instagram account with their real numbers. Use when the user asks for an Instagram audit or review, as…"
+          },
+          {
+            "name": "publish-and-schedule",
+            "description": "Publish or schedule Instagram posts, reels, carousels and stories, and plan when to post. Use when the user wants to po…"
+          },
+          {
+            "name": "reel-checkup",
+            "description": "Check a reel against Buzzfy's research on what makes reels perform. Use when the user asks why a reel flopped or worked…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",
