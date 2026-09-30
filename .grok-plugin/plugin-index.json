@@ -405,6 +405,30 @@
         ]
       }
     },
+    "medbillanalyzer": {
+      "sha": "a108786565903548066d603a17c3321b007457b5",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "check-bill",
+            "description": "Check a medical bill against its Explanation of Benefits (EOB)"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "medbillanalyzer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "check-medical-bill",
+            "description": "Check a medical bill against the patient's Explanation of Benefits (EOB) with the MedBillAnalyzer connector. Use when s…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
