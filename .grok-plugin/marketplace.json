@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "council",
+      "description": "Configurable Council: run a decision past a configurable council of AI advisors who analyze it independently, peer-review each other anonymously, and receive a chairman's synthesized verdict (Karpathy's LLM Council method). Ships default and Council of Elrond presets, and you can build custom councils.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shinytoyrobots/configurable-council.git",
+        "sha": "967ad51ec0837fad6d94232c531bab6b8e8a3281"
+      },
+      "homepage": "https://github.com/shinytoyrobots/configurable-council",
+      "keywords": ["configurable council", "llm council", "council this", "convene the council"]
     }
   ]
 }
