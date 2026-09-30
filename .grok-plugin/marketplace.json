@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "clipugc",
+      "description": "ClipUGC hosted MCP: short vertical UGC videos for mobile apps with AI influencers who keep the same face. Paste an App Store or Google Play link for three free videos, then make clips, hook sets and a 30 day content plan. Sign in with a ClipUGC account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/clipugc"
+      },
+      "homepage": "https://clipugc.com/mcp",
+      "keywords": ["clipugc", "clipugc mcp", "clipugc videos", "clipugc influencer"],
+      "domains": ["clipugc.com"]
     }
   ]
 }

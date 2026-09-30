@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clipugc": {
+      "type": "http",
+      "url": "https://clipugc.com/mcp"
+    }
+  }
+}

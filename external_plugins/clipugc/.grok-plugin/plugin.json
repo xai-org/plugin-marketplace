@@ -1,0 +1,17 @@
+{
+  "name": "clipugc",
+  "version": "1.0.0",
+  "description": "Make short vertical UGC videos for your mobile app with AI influencers who keep the same face, via the hosted ClipUGC MCP at clipugc.com. Paste an App Store or Google Play link for three free videos, then make clips, hook sets and a 30 day content plan. Sign in with a ClipUGC account on first connect.",
+  "author": {
+    "name": "ClipUGC",
+    "url": "https://clipugc.com"
+  },
+  "homepage": "https://clipugc.com/mcp",
+  "license": "Proprietary",
+  "keywords": [
+    "clipugc",
+    "clipugc mcp",
+    "clipugc videos",
+    "clipugc influencer"
+  ]
+}
