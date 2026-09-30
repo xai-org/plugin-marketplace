@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "firmledger",
+      "description": "Search and verify businesses on FirmLedger, a source-backed directory of companies, startups, agencies and organizations. Free access needs no key: search listings, read public profiles, check verification status and compare companies. FirmLedger Pro adds contact details, relationships, moderated news and job search.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/firmledger"
+      },
+      "homepage": "https://firmledger.co.ke",
+      "keywords": ["firmledger", "business directory", "company verification", "verify business", "business records"],
+      "domains": ["firmledger.co.ke"]
     }
   ]
 }
