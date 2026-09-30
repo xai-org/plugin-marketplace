@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "backlinksbeheer",
+      "description": "Read existing backlinks, stored check results, problem links and domain reports from your own Backlinksbeheer account. No writes, new crawls or purchases.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/smrht/backlinksbeheer-agent-plugin.git",
+        "sha": "7d41d7c4e48a74bd08b7f39f67b1019270201a01"
+      },
+      "homepage": "https://backlinksbeheer.nl/plugin/",
+      "keywords": [
+        "backlinksbeheer",
+        "backlinksbeheer monitoring"
+      ],
+      "domains": [
+        "backlinksbeheer.nl"
+      ]
     }
   ]
 }
