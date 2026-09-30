@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "reecopedia",
+      "description": "Cited search over EU product and sustainability law (ESPR, Digital Product Passport, CSRD, CBAM, EU ETS, CWA 18291). Public remote MCP, no authentication.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/halleluiaman-ux/reecopedia-mcp.git",
+        "sha": "48890290ae115be6581ac396975ba2280bf184ae"
+      },
+      "homepage": "https://ia.reeco.eco/reecopedia",
+      "keywords": ["reecopedia", "reeco"],
+      "domains": ["ia.reeco.eco", "reeco.eco"]
     }
   ]
 }
