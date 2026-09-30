@@ -382,6 +382,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "vidiq",
+      "description": "vidIQ tools and skills for researching video ideas, analyzing YouTube performance, and improving titles and thumbnails.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vid-io/vidiq-mcp.git",
+        "sha": "2077aad4f49d69593cfaae76e01bb5392e76cc6f"
+      },
+      "homepage": "https://vidiq.com/mcp/",
+      "keywords": [
+        "vidiq",
+        "vidiq mcp"
+      ],
+      "domains": [
+        "vidiq.com",
+        "mcp.vidiq.com"
+      ]
     }
   ]
 }

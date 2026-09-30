@@ -1377,6 +1377,74 @@
         ]
       }
     },
+    "vidiq": {
+      "sha": "2077aad4f49d69593cfaae76e01bb5392e76cc6f",
+      "version": "0.1.5",
+      "components": {
+        "agents": [
+          {
+            "name": "vidiq-mcp-specialist",
+            "description": "Researches creator opportunities and channel performance with vidIQ MCP, routes requests to the right workflow, and han…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "vidiq",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vidiq-channel-audit",
+            "description": "Audit an authorized YouTube channel over 30, 60, or 90 days. Compare performance, formats, and portfolio patterns; reco…"
+          },
+          {
+            "name": "vidiq-comment-insights",
+            "description": "Find deidentified viewer phrases, questions, objections, and desired outcomes in YouTube comments, with transcripts as…"
+          },
+          {
+            "name": "vidiq-competitor-watchlist",
+            "description": "Audit an authorized YouTube channel's competitor watchlist, identify direct competitors and format references, discover…"
+          },
+          {
+            "name": "vidiq-get-started",
+            "description": "Connect vidIQ MCP, check channels and credits, troubleshoot errors, recover jobs, and choose a workflow. Use for setup,…"
+          },
+          {
+            "name": "vidiq-new-upload-review",
+            "description": "Assess a new YouTube upload against its channel's performance at the same publication age. Recommend whether to wait, i…"
+          },
+          {
+            "name": "vidiq-next-video-planner",
+            "description": "Rank original next-video opportunities for an authorized YouTube channel using channel fit, competitors, outliers, sear…"
+          },
+          {
+            "name": "vidiq-packaging-comparison",
+            "description": "Compare distinct YouTube title-and-thumbnail concepts for the same video when alternative creative directions are expli…"
+          },
+          {
+            "name": "vidiq-packaging-studio",
+            "description": "Create or improve YouTube titles and thumbnails from ideas, scripts, references, or published videos. Use for full pack…"
+          },
+          {
+            "name": "vidiq-retention-analysis",
+            "description": "Analyze an authorized YouTube video's retention to investigate drop-offs, pacing, expectations, or structure. Align fin…"
+          },
+          {
+            "name": "vidiq-shorts-inspiration",
+            "description": "Study Instagram Reels or TikTok to develop original YouTube Shorts concepts. Use for cross-platform hook, pacing, forma…"
+          },
+          {
+            "name": "vidiq-trend-radar",
+            "description": "Assess YouTube trends by urgency, durable demand, maturity, misleading signals, and accessibility to smaller channels.…"
+          },
+          {
+            "name": "vidiq-video-ideas",
+            "description": "Find original YouTube video concepts inspired by outlier title mechanisms across adjacent audiences. Use for breakout i…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
