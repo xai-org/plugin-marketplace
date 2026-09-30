@@ -382,6 +382,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "admaxxer",
+      "description": "Admaxxer is ad account analytics and campaign control for AI agents: one workspace's Meta, Google, TikTok, Shopify and Klaviyo accounts, plus the attribution and web analytics the dashboard reads. The hosted MCP server at https://admaxxer.com/mcp exposes 28 tools (24 read, 4 write). A token is read-only unless minted with the Read + manage scope. Every write is two steps: a preview and confirmToken, then a second call after the person agrees. Anything created lands paused; there is no activate option. No tool deletes anything or changes account-level settings. Auth is a paste bearer from https://admaxxer.com/integrations/mcp or OAuth 2.1 with dynamic client registration. Starter prompts: \"What did I spend on Meta last week and what was the ROAS?\" \"Which channel actually drove last week's revenue?\" \"Pause the Summer Sale campaign (I'll confirm).\"",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fortuneflick/admaxxer-claude-plugin.git",
+        "sha": "c53fa42d9b98986003848191d906a2b023ec5c36"
+      },
+      "homepage": "https://admaxxer.com/documentation/connect-any-ai",
+      "keywords": [
+        "admaxxer",
+        "admaxxer mcp",
+        "admaxxer ad ops",
+        "admaxxer attribution",
+        "admaxxer web analytics",
+        "admaxxer meta google ads",
+        "admaxxer mcp server",
+        "admaxxer mcp connector"
+      ],
+      "domains": ["admaxxer.com"]
     }
   ]
 }
