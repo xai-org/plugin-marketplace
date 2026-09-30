@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "kernel",
+      "description": "cloud browsers for grok, over KERNEL's hosted mcp server. launch stealth chromium sessions in <30ms and drive them with playwright, a persistent browser repl, or computer-use actions. reuse logged-in profiles and managed auth for sites behind a login, route traffic through residential, isp, or mobile proxies, and record mp4 replays. sign in to KERNEL over oauth on first connection. no api key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kernel/skills.git",
+        "sha": "cde722987a7da7dbb71626446198f4bca6b5a6d3",
+        "path": "grok"
+      },
+      "homepage": "https://kernel.sh",
+      "keywords": ["kernel browser", "kernel browsers", "kernel cloud browser", "kernel mcp"],
+      "domains": ["kernel.sh", "www.kernel.sh", "onkernel.com", "docs.onkernel.com", "mcp.onkernel.com", "api.onkernel.com"]
     }
   ]
 }
