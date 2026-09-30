@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "outreserve",
+      "description": "Search OutReserve campgrounds and US RV rentals, inspect listing details, and manage signed-in campground availability alerts through the hosted OutReserve MCP server.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MartijnSch/grok-plugin.git",
+        "sha": "32179d12fdae738ceb192c7ef7df56091cb27a01"
+      },
+      "homepage": "https://outreserve.com/developers/mcp",
+      "keywords": ["outreserve", "outreserve campgrounds", "outreserve rv rentals"],
+      "domains": ["outreserve.com"]
     }
   ]
 }
