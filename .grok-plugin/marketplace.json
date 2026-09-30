@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "banger",
+      "description": "Company email your AI runs. Connect Grok to Banger to set up your domain, create mailboxes, send product email, run Broadcasts and Journeys, and manage contacts, with human Approvals for Journey activation and policy-gated sends, through Banger's OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MuchBetterApps/banger-plugin.git",
+        "sha": "c6ffcb59ed7d6264aa71de1604f7fb3a5350c8be"
+      },
+      "homepage": "https://bangermail.com/banger-mcp/",
+      "keywords": ["banger", "bangermail", "banger mail", "banger email"],
+      "domains": ["bangermail.com"]
     }
   ]
 }
