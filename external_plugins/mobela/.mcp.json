@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mobela": {
+      "type": "http",
+      "url": "https://mobela.app/mcp"
+    }
+  }
+}

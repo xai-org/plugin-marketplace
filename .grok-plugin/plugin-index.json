@@ -405,6 +405,23 @@
         ]
       }
     },
+    "mobela": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mobela",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mobela",
+            "description": "Use when the user asks about their Mobela training (workouts, runs, stats, health, calendar) or wants a Mobela routine…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

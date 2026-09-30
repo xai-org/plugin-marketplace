@@ -382,6 +382,15 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "mobela",
+      "description": "Mobela training data in Grok: workout history, stats, runs, health metrics and calendar, plus building routines that save straight to the Mobela app. Sign in with a Mobela account on first connect.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/mobela" },
+      "homepage": "https://mobela.app",
+      "keywords": ["mobela", "mobela workouts", "mobela routine", "mobela mcp"],
+      "domains": ["mobela.app", "www.mobela.app"]
     }
   ]
 }
