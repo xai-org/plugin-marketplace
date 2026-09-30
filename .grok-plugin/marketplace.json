@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "mycheck",
+      "description": "MyCheck checklists and USCIS case status via the hosted MCP at mcp.mycheck.co. Save a checklist worked out in the conversation to a MyCheck account, add items to one that already exists, read them back, and check where the US immigration cases you track stand. Sign in with a MyCheck account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/mycheck"
+      },
+      "homepage": "https://mycheck.co/ai",
+      "keywords": ["mycheck", "mycheck checklist", "mycheck uscis", "mycheck mcp"],
+      "domains": ["mycheck.co", "mcp.mycheck.co", "app.mycheck.co"]
     }
   ]
 }
