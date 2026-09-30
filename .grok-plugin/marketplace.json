@@ -382,6 +382,25 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "wpvibe",
+      "description": "Connect AI assistants to WordPress to manage content, media, WooCommerce, plugins, and draft themes with approval gates for sensitive actions.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seedprod/wpvibe-integrations.git",
+        "sha": "67beeb949ed6718bfb80403dda866cddc4a58919"
+      },
+      "homepage": "https://wpvibe.ai",
+      "keywords": [
+        "wpvibe",
+        "wpvibe wordpress"
+      ],
+      "domains": [
+        "wpvibe.ai",
+        "mcp.wpvibe.ai"
+      ]
     }
   ]
 }

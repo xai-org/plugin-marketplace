@@ -1430,6 +1430,18 @@
           }
         ]
       }
+    },
+    "wpvibe": {
+      "sha": "67beeb949ed6718bfb80403dda866cddc4a58919",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wpvibe",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
