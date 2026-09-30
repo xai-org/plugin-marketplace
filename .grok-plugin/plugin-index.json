@@ -1162,6 +1162,68 @@
         ]
       }
     },
+    "trayo": {
+      "sha": "fb0f4a13e1fb4db23d70e4e21a462056aa2ff594",
+      "version": "0.6.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trayo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-account-list",
+            "description": "Find similar companies from examples, or build a target account list from ICP criteria. Use when the user asks for \"com…"
+          },
+          {
+            "name": "build-app",
+            "description": "Build a GTM app, dashboard, or internal tool powered by Trayo. Use when the user asks to build an app with Trayo, creat…"
+          },
+          {
+            "name": "discover-signals",
+            "description": "Track a list of companies in Trayo and read what happens at them — import accounts, define a signal, run a discovery, w…"
+          },
+          {
+            "name": "enrich-contacts",
+            "description": "Find work email addresses — and phone numbers when asked — for people in the workspace, and write out a contactable lis…"
+          },
+          {
+            "name": "find-intent-accounts",
+            "description": "Find the companies that fit the workspace's ideal customer profile (ICP) and show buying intent now. Runs the workspace…"
+          },
+          {
+            "name": "find-stakeholders",
+            "description": "Find the right people at one or more companies for a stakeholder definition — the buyer, the champion, the technical ev…"
+          },
+          {
+            "name": "monitor-accounts",
+            "description": "Watch named accounts or accounts that match a definition for selected signals. Backfill their recent history and report…"
+          },
+          {
+            "name": "onboard-workspace",
+            "description": "Configure a brand-new, empty Trayo workspace end to end — a stakeholder definition, a starter account cohort, and a fir…"
+          },
+          {
+            "name": "recent-movers",
+            "description": "Find people who recently changed jobs — who left a company, who joined one, or who moved between two. Use when the user…"
+          },
+          {
+            "name": "research-account",
+            "description": "Research one account — what the company does, why now, who the stakeholders are, and what has happened at it. Use when…"
+          },
+          {
+            "name": "research-person",
+            "description": "Research one person — their role and trajectory, what they are likely up against, and how it ties to what you sell. Use…"
+          },
+          {
+            "name": "scan-for-signal",
+            "description": "Scan a list of accounts for ONE signal — a defined business event such as a new security leader, an office opening, fun…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
       "version": "0.51.0",

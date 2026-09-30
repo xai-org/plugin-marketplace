@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "trayo",
+      "description": "Trayo MCP server plus skills: find companies that fit your ICP and show buying intent, research accounts and people, define buying signals in plain English, run discovery across your account list, find stakeholders and enrich contacts. Signs in with your Trayo account over OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trayoai/trayo-plugin.git",
+        "sha": "fb0f4a13e1fb4db23d70e4e21a462056aa2ff594",
+        "path": "trayo"
+      },
+      "homepage": "https://www.trayo.ai/mcp/",
+      "keywords": ["trayo", "trayo mcp", "trayo signals", "trayo discovery"],
+      "domains": ["trayo.ai", "api.trayo.ai"]
     }
   ]
 }
