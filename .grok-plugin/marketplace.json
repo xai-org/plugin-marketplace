@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "famulor-assistants-history",
+      "description": "Review Famulor assistant configurations, versions, catalogs, and omnichannel call, messaging, and email history through an OAuth-secured, read-only 11-tool MCP profile.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bekservice/Famulor-Skill.git",
+        "sha": "80cca3d60844a62947b0bbdd6eb8e44e861a5256",
+        "path": "claude-store"
+      },
+      "homepage": "https://docs.famulor.io/mcp/overview",
+      "keywords": ["famulor", "famulor assistants", "famulor history", "famulor mcp"],
+      "domains": ["famulor.io", "app.famulor.io", "docs.famulor.io"]
     }
   ]
 }
