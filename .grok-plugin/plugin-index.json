@@ -1377,6 +1377,18 @@
         ]
       }
     },
+    "websitepublisher": {
+      "sha": "c5a1dbc14815e123464b6df8488d0438fdf5abae",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "websitepublisher",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "7d7375b57a9b84224355257b810db94f6c8dd235",
       "version": "1.23.0",
