@@ -405,6 +405,18 @@
         ]
       }
     },
+    "jungle-cleaner": {
+      "sha": "d14e728ff6adcf2acc995d92c7da57540e825782",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jungle-cleaner",
+            "description": "streamable-http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
