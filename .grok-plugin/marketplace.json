@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "docchief",
+      "description": "Official DocChief plugin (remote MCP server). Query and report on corporate records health in your DocChief datarooms: missing approvals, conflicting terms, upcoming deadlines, stale certificates, and equity and governance gaps, with evidence linked to every finding. Get fundraising-ready as a founder, or run diligence on a target as an investor. Sign in with your DocChief account (OAuth). Requires a DocChief account with at least one dataroom.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bummock/docchief-mcp.git",
+        "sha": "a958270ae7b14c86f49ba809135553de0a8a342f",
+        "path": "plugins/docchief"
+      },
+      "homepage": "https://docchief.ai",
+      "keywords": ["docchief", "docchief dataroom", "docchief cap table", "docchief fundraising readiness", "docchief corporate vault"],
+      "domains": ["docchief.ai", "my.docchief.ai"]
     }
   ]
 }

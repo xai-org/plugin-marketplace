@@ -235,6 +235,18 @@
         ]
       }
     },
+    "docchief": {
+      "sha": "a958270ae7b14c86f49ba809135553de0a8a342f",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "docchief",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
