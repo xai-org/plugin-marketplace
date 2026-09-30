@@ -621,6 +621,220 @@
         ]
       }
     },
+    "notfair": {
+      "sha": "5094263b522165647789e9594406bb3ce096c5fe",
+      "version": "0.27.14",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "NotFair",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "backlink-audit",
+            "description": "Backlink / off-page SEO audit. Works WITHOUT a paid tool by default — it uses the Google Search Console Links report (y…"
+          },
+          {
+            "name": "backlink-audit",
+            "description": "Backlink / off-page SEO audit. Works WITHOUT a paid tool by default — it uses the Google Search Console Links report (y…"
+          },
+          {
+            "name": "broken-link-checker",
+            "description": "Scans a website to find broken links (404s, 500s). Crawls internal pages, identifies broken outbound links, and reports…"
+          },
+          {
+            "name": "broken-link-checker",
+            "description": "Scans a website to find broken links (404s, 500s). Crawls internal pages, identifies broken outbound links, and reports…"
+          },
+          {
+            "name": "competitor-pages",
+            "description": "Competitor page gap analysis — take a query you want to win and the pages currently outranking you, and produce a concr…"
+          },
+          {
+            "name": "competitor-pages",
+            "description": "Competitor page gap analysis — take a query you want to win and the pages currently outranking you, and produce a concr…"
+          },
+          {
+            "name": "content-planner",
+            "description": "GSC-driven content calendar. Pulls real Search Console data, finds the highest click-potential opportunities (striking-…"
+          },
+          {
+            "name": "content-planner",
+            "description": "GSC-driven content calendar. Pulls real Search Console data, finds the highest click-potential opportunities (striking-…"
+          },
+          {
+            "name": "content-writer",
+            "description": "Write SEO-optimized blog posts, landing pages, and content improvements following Google's E-E-A-T and Helpful Content…"
+          },
+          {
+            "name": "content-writer",
+            "description": "Write SEO-optimized blog posts, landing pages, and content improvements following Google's E-E-A-T and Helpful Content…"
+          },
+          {
+            "name": "ecommerce-seo",
+            "description": "E-commerce SEO audit for online stores (WooCommerce, Shopify, Magento, custom). Covers category / product listing pages…"
+          },
+          {
+            "name": "ecommerce-seo",
+            "description": "E-commerce SEO audit for online stores (WooCommerce, Shopify, Magento, custom). Covers category / product listing pages…"
+          },
+          {
+            "name": "gemini",
+            "description": "Cross-model second opinion from Google Gemini — a different AI reviewing the same changes, with deep Google ecosystem k…"
+          },
+          {
+            "name": "gemini",
+            "description": "Cross-model second opinion from Google Gemini — a different AI reviewing the same changes, with deep Google ecosystem k…"
+          },
+          {
+            "name": "geo-optimizer",
+            "description": "Generative Engine Optimization (GEO) — make content rank in AI search answers from ChatGPT, Claude, Perplexity, Gemini,…"
+          },
+          {
+            "name": "geo-optimizer",
+            "description": "Generative Engine Optimization (GEO) — make content rank in AI search answers from ChatGPT, Claude, Perplexity, Gemini,…"
+          },
+          {
+            "name": "gohighlevel",
+            "description": "Operate connected GoHighLevel CRM accounts through the NotFair MCP. Use for GoHighLevel, HighLevel, GHL contacts, conve…"
+          },
+          {
+            "name": "gohighlevel",
+            "description": "Operate connected GoHighLevel CRM accounts through the NotFair MCP. Use for GoHighLevel, HighLevel, GHL contacts, conve…"
+          },
+          {
+            "name": "google-ads",
+            "description": "Manage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeti…"
+          },
+          {
+            "name": "google-ads",
+            "description": "Manage Google Ads — performance, keywords, bids, budgets, negatives, campaigns, ads, search terms, QS, location targeti…"
+          },
+          {
+            "name": "google-ads-assets",
+            "description": "Plan, validate, and safely publish Google Ads assets, including sitelinks, callouts, structured snippets, image assets,…"
+          },
+          {
+            "name": "google-ads-assets",
+            "description": "Plan, validate, and safely publish Google Ads assets, including sitelinks, callouts, structured snippets, image assets,…"
+          },
+          {
+            "name": "google-ads-audit",
+            "description": "Google Ads account audit and business context setup. Use for account-health audits and business-context setup. Trigger…"
+          },
+          {
+            "name": "google-ads-audit",
+            "description": "Google Ads account audit and business context setup. Use for account-health audits and business-context setup. Trigger…"
+          },
+          {
+            "name": "google-ads-copy",
+            "description": "Generate and A/B test Google Ads copy. Use when asked to write ad copy, headlines, descriptions, create ad variants, te…"
+          },
+          {
+            "name": "google-ads-copy",
+            "description": "Generate and A/B test Google Ads copy. Use when asked to write ad copy, headlines, descriptions, create ad variants, te…"
+          },
+          {
+            "name": "google-ads-landing",
+            "description": "Score and diagnose Google Ads landing pages. Use when asked to audit a landing page, check landing page quality, diagno…"
+          },
+          {
+            "name": "google-ads-landing",
+            "description": "Score and diagnose Google Ads landing pages. Use when asked to audit a landing page, check landing page quality, diagno…"
+          },
+          {
+            "name": "google-analytics",
+            "description": "Analyze connected Google Analytics 4 traffic, acquisition, engagement, landing pages, ecommerce, events, and conversion…"
+          },
+          {
+            "name": "google-analytics",
+            "description": "Analyze connected Google Analytics 4 traffic, acquisition, engagement, landing pages, ecommerce, events, and conversion…"
+          },
+          {
+            "name": "hreflang-international",
+            "description": "International / multilingual SEO audit focused on hreflang correctness: missing or broken return tags, wrong language/r…"
+          },
+          {
+            "name": "hreflang-international",
+            "description": "International / multilingual SEO audit focused on hreflang correctness: missing or broken return tags, wrong language/r…"
+          },
+          {
+            "name": "image-seo",
+            "description": "Image SEO audit — make a site's images discoverable in Google Images and stop them from dragging down Core Web Vitals.…"
+          },
+          {
+            "name": "image-seo",
+            "description": "Image SEO audit — make a site's images discoverable in Google Images and stop them from dragging down Core Web Vitals.…"
+          },
+          {
+            "name": "keyword-research",
+            "description": "Discover, analyze, and prioritize keywords for SEO and GEO content strategies from a seed keyword or niche. Identifies…"
+          },
+          {
+            "name": "keyword-research",
+            "description": "Discover, analyze, and prioritize keywords for SEO and GEO content strategies from a seed keyword or niche. Identifies…"
+          },
+          {
+            "name": "local-seo",
+            "description": "Local SEO and Google Business Profile audit: diagnose why a business isn't ranking in the local pack / map results and…"
+          },
+          {
+            "name": "local-seo",
+            "description": "Local SEO and Google Business Profile audit: diagnose why a business isn't ranking in the local pack / map results and…"
+          },
+          {
+            "name": "meta-ads",
+            "description": "Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative…"
+          },
+          {
+            "name": "meta-ads",
+            "description": "Manage Meta Ads (Facebook + Instagram) — performance, ROAS, CPM, frequency, audience overlap, learning phase, creative…"
+          },
+          {
+            "name": "meta-ads-audit",
+            "description": "Meta Ads (Facebook + Instagram) account audit and business context setup. Use for account-health audits and business-co…"
+          },
+          {
+            "name": "meta-ads-audit",
+            "description": "Meta Ads (Facebook + Instagram) account audit and business context setup. Use for account-health audits and business-co…"
+          },
+          {
+            "name": "meta-ads-creative",
+            "description": "Create evidence-based Meta ad creative briefs, copy angles, and testable asset concepts for Facebook and Instagram. Use…"
+          },
+          {
+            "name": "meta-ads-creative",
+            "description": "Create evidence-based Meta ad creative briefs, copy angles, and testable asset concepts for Facebook and Instagram. Use…"
+          },
+          {
+            "name": "meta-tags-optimizer",
+            "description": "Optimize title tags, meta descriptions, Open Graph, and Twitter cards for maximum click-through rate. Generates multipl…"
+          },
+          {
+            "name": "meta-tags-optimizer",
+            "description": "Optimize title tags, meta descriptions, Open Graph, and Twitter cards for maximum click-through rate. Generates multipl…"
+          },
+          {
+            "name": "paid-ads",
+            "description": "Coordinate safe, evidence-based paid-media work across Google Ads, Meta Ads, X Ads, LinkedIn Ads, Reddit Ads, TikTok Ad…"
+          },
+          {
+            "name": "paid-ads",
+            "description": "Coordinate safe, evidence-based paid-media work across Google Ads, Meta Ads, X Ads, LinkedIn Ads, Reddit Ads, TikTok Ad…"
+          },
+          {
+            "name": "paid-ads-amazon",
+            "description": "Plan and review Amazon Ads with margin-aware ACoS, product, and search-term guardrails. Use for Amazon advertising, Spo…"
+          },
+          {
+            "name": "paid-ads-amazon",
+            "description": "Plan and review Amazon Ads with margin-aware ACoS, product, and search-term guardrails. Use for Amazon advertising, Spo…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

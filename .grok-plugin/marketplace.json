@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "notfair",
+      "description": "NotFair marketing workspace for Grok Build. Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, GoHighLevel, and WordPress through one hosted OAuth MCP, and run open-source SEO, GEO, and content skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nowork-studio/notfair-plugin.git",
+        "sha": "5094263b522165647789e9594406bb3ce096c5fe"
+      },
+      "homepage": "https://notfair.co",
+      "keywords": ["notfair", "notfair ads", "notfair mcp", "notfair seo", "notfair marketing"],
+      "domains": ["notfair.co"]
     }
   ]
 }
