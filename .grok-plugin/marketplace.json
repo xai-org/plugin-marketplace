@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "allyk-diagnostics",
+      "description": "ALLYK Diagnostics helps founders and entrepreneurs choose the next customer assumption to test. Preview advisory diagnostics, save a review to an ALLYK Roadmap task, and revisit bounded history through a hosted OAuth service.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mayayaiinfra/allyk-diagnostics-grok-plugin.git",
+        "sha": "e45fe38cc57f480bf28118dc185a54d622698b40"
+      },
+      "homepage": "https://allyk.app/plugins",
+      "keywords": ["allyk", "allyk diagnostics", "customer validation", "founder decisions"],
+      "domains": ["allyk.app"]
     }
   ]
 }

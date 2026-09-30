@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "allyk-diagnostics": {
+      "sha": "e45fe38cc57f480bf28118dc185a54d622698b40",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "allyk-diagnostics",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "diagnostics",
+            "description": "Use ALLYK Diagnostics when the user wants to assess an entrepreneurial idea, compare an offer with customer requirement…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
