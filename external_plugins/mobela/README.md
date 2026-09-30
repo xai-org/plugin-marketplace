@@ -38,7 +38,7 @@ Install the plugin. On first use, Grok opens a browser to sign in with your Mobe
 
 ## Support
 
-Docs: [mobela.app/ai](https://mobela.app/ai) · Contact: mobelawellness@gmail.com
+Docs: [mobela.app/ai](https://mobela.app/ai) · Contact: admin@mobela.app
 
 ## License
 
