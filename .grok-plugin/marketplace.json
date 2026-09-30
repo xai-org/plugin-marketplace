@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "convoy",
+      "description": "Convoy lets Grok Bot orchestrate BYO harnesses (Claude, Codex, Grok, and more) as neurons against a GitHub repo or local checkout on one thread, with a fail-closed live MCP wizard.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Deploy-Forward/convoy.git",
+        "sha": "260883d9eee99c2774ea36d706fea14300018419",
+        "path": "plugin/convoy"
+      },
+      "homepage": "https://convoy.bot",
+      "keywords": ["convoy", "convoy wizard", "convoy bot"],
+      "domains": ["convoy.bot"]
     }
   ]
 }
