@@ -1377,6 +1377,18 @@
         ]
       }
     },
+    "voicelab": {
+      "sha": "81477874ff5cf5cbee4c1eb3cf6c5697207eab1a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voicelab",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "7d7375b57a9b84224355257b810db94f6c8dd235",
       "version": "1.23.0",

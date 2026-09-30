@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "voicelab",
+      "description": "Speech AI for agents via the hosted VoiceLab MCP: text-to-speech, speech-to-text with timing, voice isolation, and LLM completions in Uzbek, Russian, and English.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voicelab-uz/grok-plugin.git",
+        "sha": "81477874ff5cf5cbee4c1eb3cf6c5697207eab1a"
+      },
+      "homepage": "https://voicelab.uz",
+      "keywords": ["voicelab", "aisha", "voicelab tts", "voicelab stt", "voicelab mcp"],
+      "domains": ["voicelab.uz", "docs.voicelab.uz", "mcp.voicelab.uz"]
     }
   ]
 }
