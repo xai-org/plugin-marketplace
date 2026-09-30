@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "aevral",
+      "description": "Catch security flaws before you merge. Setup skill for the Aevral GitHub App: authorization, IDOR, and business-logic reviews on pull requests, with a suggested fix you apply.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/better-isms/aevral-plugin.git",
+        "sha": "784f06ecab64143d5abcd64a42735280fa4f3c57"
+      },
+      "homepage": "https://aevral.com",
+      "keywords": ["aevral", "aevral security review", "aevral github app"],
+      "domains": ["aevral.com", "app.aevral.com", "docs.aevral.com"]
     }
   ]
 }
