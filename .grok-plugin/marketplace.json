@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "hypd-ai-ads",
+      "description": "HYPD paid-media analysis. Google Ads, Meta (Facebook) Ads, Google Analytics (GA4) and Merchant Center reporting in plain language, plus keyword and competitor research and landing-page checks. Read-only.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HYPD-AI/ads-mcp-plugin.git",
+        "sha": "66fa5201e694bc6797edef17581761d539d3f663"
+      },
+      "homepage": "https://www.hypd.ai",
+      "keywords": ["hypd", "hypd ai", "hypd google ads", "hypd meta ads", "google ads connector", "google ads agent", "meta ads connector", "facebook ads connector", "google analytics connector", "merchant center connector", "ppc agent"],
+      "domains": ["hypd.ai", "www.hypd.ai", "app.hypd.ai", "docs.hypd.ai", "mcp.hypd.ai"]
     }
   ]
 }
