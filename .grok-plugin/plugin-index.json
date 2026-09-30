@@ -1377,6 +1377,18 @@
         ]
       }
     },
+    "whop-apps-gateway": {
+      "sha": "ba0320a1c476d333ee6b5579a1809d309a9e9425",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "whop-apps-gateway",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
