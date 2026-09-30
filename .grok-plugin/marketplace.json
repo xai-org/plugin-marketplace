@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "buzzbitx",
+      "description": "BuzzBit X marketing automation and CRM. Read your business numbers, look up customers, draft email flows and campaigns (switched off), and hand off sends that wait for your approval in BuzzBit X.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buzzbitx/buzzbitx-plugin.git",
+        "sha": "3bb6826241ccebdc8612bc03172de8f2f58bccbb"
+      },
+      "homepage": "https://www.buzzbitx.com/docs/mcp",
+      "keywords": ["buzzbitx", "buzzbit x"],
+      "domains": ["buzzbitx.com"]
     }
   ]
 }

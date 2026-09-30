@@ -101,6 +101,40 @@
         ]
       }
     },
+    "buzzbitx": {
+      "sha": "3bb6826241ccebdc8612bc03172de8f2f58bccbb",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "buzzbitx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agents",
+            "description": "Use when the user asks about their agents, wants to see what the agents are doing, wants to run one of their agents wit…"
+          },
+          {
+            "name": "brief",
+            "description": "Use when the user asks how the business is doing, what happened yesterday or last week, what is unfinished, or asks for…"
+          },
+          {
+            "name": "connect",
+            "description": "Use when the user wants to connect or sign in to BuzzBit X, when the BuzzBit X tools are missing, or when a BuzzBit X t…"
+          },
+          {
+            "name": "holiday-flows",
+            "description": "Use when the user wants to prepare for an upcoming holiday or seasonal moment — drafts email flows and campaigns for it…"
+          },
+          {
+            "name": "weekly-review",
+            "description": "Use for a weekly or monthly review of the business — what moved, what stalled, what to do next. Reads BuzzBit X and may…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",
