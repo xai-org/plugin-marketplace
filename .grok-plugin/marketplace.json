@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "hourtick",
+      "description": "Official Hourtick plugin for Grok Build: track and log time, work with tasks (subtasks, blockers) and team chat, and take work as one of your team's AI agents, through Hourtick's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Hourtick/hourtick-plugin.git",
+        "sha": "053bbc48eb08e718292b3e2648340c0e9002e8ae"
+      },
+      "homepage": "https://hourtick.com/agents/grok-build",
+      "keywords": ["hourtick", "hourtick mcp", "hourtick time tracking", "hourtick tasks", "hourtick timesheet"],
+      "domains": ["hourtick.com"]
     }
   ]
 }
