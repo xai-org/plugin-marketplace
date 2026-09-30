@@ -629,6 +629,40 @@
         ]
       }
     },
+    "orbita": {
+      "sha": "93fd81945bab60dd74663855176e24f8ae6d79b5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "orbita",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "orbita-broker-setup",
+            "description": "Help a person choose a broker with an official MCP and connect it next to Órbita, step by step. Use it when the person…"
+          },
+          {
+            "name": "orbita-execution",
+            "description": "How to execute Órbita's plan at your own broker, whichever it is. Use it every time you send orders from orbita_get_nex…"
+          },
+          {
+            "name": "orbita-horizonte",
+            "description": "Órbita Horizonte, the long-term portfolio included in the 6-month and annual plans. How it splits the account with Órbi…"
+          },
+          {
+            "name": "orbita-slot-routine",
+            "description": "When to query Órbita and what to do in each slot of a market day. Use it to schedule your agent or when running a slot.…"
+          },
+          {
+            "name": "orbita-strategy",
+            "description": "Mandate and risk rules of Órbita Pulso, Órbita's short-term strategy (long only, USD, 35 US-listed names in aerospace,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
       "components": {
@@ -661,7 +695,7 @@
           },
           {
             "name": "automate-me",
-            "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
+            "description": "Use for \\"automate me\\", \\"create/update/refresh my -mode skill\\", \\"turn/capture my preferences or working style into…"
           },
           {
             "name": "blast-radius",
@@ -681,11 +715,11 @@
           },
           {
             "name": "how",
-            "description": "Use for \\\"how does X work\\\", code walkthroughs before changing something, and placement / ownership / layering question…"
+            "description": "Use for \\"how does X work\\", code walkthroughs before changing something, and placement / ownership / layering question…"
           },
           {
             "name": "interrogate",
-            "description": "Use for \\\"interrogate\\\", \\\"adversarial review\\\", \\\"multi-model review\\\", \\\"challenge this\\\", \\\"stress test this code\\\",…"
+            "description": "Use for \\"interrogate\\", \\"adversarial review\\", \\"multi-model review\\", \\"challenge this\\", \\"stress test this code\\",…"
           },
           {
             "name": "maintain-verification-skill",

@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "orbita",
+      "description": "Órbita's trading desk plan for your agent: exact orders on 35 US stocks sized for your book and your broker, plus a research base of primary sources (SEC filings, federal contracts). Read-only MCP server with skills; it never places orders or sees broker credentials.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/orbitamarkets/side--orbita-plugin.git",
+        "sha": "93fd81945bab60dd74663855176e24f8ae6d79b5"
+      },
+      "homepage": "https://orbita.markets/agents",
+      "keywords": ["orbita", "orbita markets", "orbita desk", "orbita trading plan"],
+      "domains": ["orbita.markets", "mcp.orbita.markets", "app.orbita.markets"]
     }
   ]
 }
