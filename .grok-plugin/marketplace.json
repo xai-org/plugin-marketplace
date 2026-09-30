@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "patch-mcp",
+      "description": "Give Grok a phone line and a way to text you. Patch MCP makes calls from your verified number and returns outcomes, transcripts and recordings. Send SMS and picture messages to your own verified phone and read your replies, with optional SMS consent. Get 5 free calls and 10 free texts; paid calls and texts share a monthly usage allowance. No sign-up: your verified number is your account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manu-labs/patch-mcp-grok-plugin.git",
+        "sha": "ecb198c3c44fb62a05c5094b2af95d5f7fdd0c61"
+      },
+      "homepage": "https://www.patchmcp.com",
+      "keywords": ["patch mcp", "patchmcp", "patch-mcp"],
+      "domains": ["patchmcp.com", "www.patchmcp.com"]
     }
   ]
 }
