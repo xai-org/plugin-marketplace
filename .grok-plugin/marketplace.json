@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "anidoodle",
+      "description": "Illustrations, drawing timelapses, films, explainers and interactive web animations in 31 hand-made styles, drawn entirely in code with original music composed in code. Match a style from a reference image, recreate a photo in any style, keep characters consistent, or learn how a drawing is built. Deterministic renders, no image model and no generated assets.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexgreensh/anidoodle.git",
+        "sha": "8ff90a973155c21e295bfaa0ffaee7e9367af530"
+      },
+      "homepage": "https://github.com/alexgreensh/anidoodle",
+      "keywords": ["anidoodle", "anidoodle illustration", "anidoodle film", "anidoodle style"]
     }
   ]
 }
