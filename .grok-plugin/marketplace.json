@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "foundrole",
+      "description": "Official FoundRole MCP for Grok Build. Search live jobs from company career pages, each checked for ghost-posting risk, pay against market filings, and visa sponsorship history; track applications, set reminders, and get job alerts through FoundRole's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/foundrole/jobs-mcp-proxy.git",
+        "sha": "66a23b354d0931418389c9116daff5921000c481"
+      },
+      "homepage": "https://www.foundrole.com/ai-search-mcp",
+      "keywords": ["foundrole", "foundrole jobs", "foundrole job search", "foundrole job tracker"],
+      "domains": ["foundrole.com", "www.foundrole.com"]
     }
   ]
 }
