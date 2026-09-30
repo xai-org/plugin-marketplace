@@ -629,6 +629,80 @@
         ]
       }
     },
+    "posteverywhere": {
+      "sha": "b4d11c1dfbf203bcf0728eaa2d62c2ff70f1ba5f",
+      "version": "1.1.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "posteverywhere",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agency-clients",
+            "description": "Work safely across several clients or brands in PostEverywhere. Use when the user manages social media for more than on…"
+          },
+          {
+            "name": "approval-workflow",
+            "description": "Draft social media posts for someone else to review before they go live in PostEverywhere. Use when the user works in a…"
+          },
+          {
+            "name": "brand-voice",
+            "description": "Learn how the user writes on social media and write a short voice guide from their own posts in PostEverywhere. Use whe…"
+          },
+          {
+            "name": "connect-social-accounts",
+            "description": "Connect a social media account or channel to PostEverywhere. Use when the user wants to add Instagram, TikTok, YouTube,…"
+          },
+          {
+            "name": "cross-post-video",
+            "description": "Post one video to several platforms with PostEverywhere, with the right title and caption for each. Use when the user w…"
+          },
+          {
+            "name": "fix-failed-posts",
+            "description": "Find and fix social media posts that failed to publish in PostEverywhere. Use when the user says a post didn't go out,…"
+          },
+          {
+            "name": "launch-announcement",
+            "description": "Plan and schedule a multi-day announcement campaign with PostEverywhere. Use when the user is launching a product or fe…"
+          },
+          {
+            "name": "plan-content-calendar",
+            "description": "Plan a week or month of social media posts with PostEverywhere. Use when the user asks for a content calendar, a postin…"
+          },
+          {
+            "name": "recycle-top-posts",
+            "description": "Find the user's best past social media posts in PostEverywhere and schedule fresh versions of them. Use when the user w…"
+          },
+          {
+            "name": "repurpose-content",
+            "description": "Turn one long piece of content into a set of social media posts with PostEverywhere. Use when the user shares a blog po…"
+          },
+          {
+            "name": "review-post-performance",
+            "description": "Review how social media posts performed with PostEverywhere analytics. Use when the user asks how their posts did, what…"
+          },
+          {
+            "name": "schedule-social-posts",
+            "description": "Write, schedule or publish a social media post with PostEverywhere. Use when the user wants to post, cross-post, schedu…"
+          },
+          {
+            "name": "weekly-report",
+            "description": "Write a short weekly or monthly social media report from PostEverywhere data, ready to paste into an email. Use when th…"
+          },
+          {
+            "name": "write-blog-post",
+            "description": "Write and publish a WordPress blog post with PostEverywhere. Use when the user wants a blog post, an article for their…"
+          },
+          {
+            "name": "write-x-thread-or-article",
+            "description": "Write an X (Twitter) thread or a long-form X Article and post it with PostEverywhere. Use when the user asks for a thre…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
       "components": {

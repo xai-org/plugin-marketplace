@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "posteverywhere",
+      "description": "PostEverywhere social media scheduling. Write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord and WordPress, plan content calendars, and review how posts performed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/posteverywhere/claude-plugin.git",
+        "sha": "b4d11c1dfbf203bcf0728eaa2d62c2ff70f1ba5f"
+      },
+      "homepage": "https://posteverywhere.ai",
+      "keywords": ["posteverywhere", "post everywhere", "posteverywhere schedule post"],
+      "domains": ["posteverywhere.ai"]
     }
-  ]
+]
 }
