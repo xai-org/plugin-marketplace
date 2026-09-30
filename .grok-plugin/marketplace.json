@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "authorityprompt",
+      "description": "Manage your company's official AI identity from Grok with AuthorityPrompt. Read verified company facts with their sources, provenance and confidence; run AIO readiness audits; check what LLMs say about the company and where it diverges from the truth; and publish or repair facts with confirmation. Sign in \u2014 each account sees only its own data.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/authorityprompt/grok-authorityprompt-mcp.git",
+        "sha": "dbd109470b4175fb01d08e6dc9834ccde9245095"
+      },
+      "homepage": "https://authorityprompt.com",
+      "keywords": ["authorityprompt", "authority prompt", "authorityprompt audit", "authorityprompt company facts", "authorityprompt aio audit"],
+      "domains": ["authorityprompt.com"]
     }
   ]
 }
