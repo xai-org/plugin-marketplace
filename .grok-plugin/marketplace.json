@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "string-web-access",
+      "description": "Search the web, fetch any URL or send it a request, and map a site's URLs — all returned as clean, LLM-ready Markdown. Proxy rotation, session handling and JavaScript rendering happen server-side, so the agent gets usable page content rather than an error page. Best for sites that rate-limit or geo-gate automated traffic.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/usestring/string-grok-plugin.git",
+        "sha": "7dc641ce4b0783e7f8d2e8fed7ba6b3bc72fe08c"
+      },
+      "homepage": "https://usestring.ai",
+      "keywords": ["string web access", "usestring"],
+      "domains": ["usestring.ai", "portal.usestring.ai", "mcp.usestring.ai", "request.usestring.ai"]
     }
   ]
 }
