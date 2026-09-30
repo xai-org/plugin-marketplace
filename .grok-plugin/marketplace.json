@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "skill-suites-ops",
+      "description": "Plans, orders, runs, and learns from multi-skill efforts across your installed skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shinytoyrobots/skill-suites.git",
+        "sha": "c44cdaf7e1fdbc41d51a08f6d1af36e2f776ba75",
+        "path": "skills/ops"
+      },
+      "homepage": "https://github.com/shinytoyrobots/skill-suites",
+      "keywords": ["skill-suites", "ops-plan", "ops-recon", "ops-order", "ops-run", "ops-assess", "ops-learn"]
     }
   ]
 }
