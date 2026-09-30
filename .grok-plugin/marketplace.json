@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "softsync",
+      "description": "Official SoftSync CRM plugin. Find and update companies, contacts and deals, read emails and meeting summaries, check your calendar and book meetings, write notes, set reminders, manage forms and email templates, and run your automations through SoftSync's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Softsync-Lab/softsync-skills-hub.git",
+        "sha": "365aa5cc2d636e44a3f52a937a9f976e9aa6b3eb"
+      },
+      "homepage": "https://softsync.ai",
+      "keywords": ["softsync", "softsync crm", "softsync mcp"],
+      "domains": ["softsync.ai", "app.softsync.ai", "api.softsync.ai"]
     }
   ]
 }
