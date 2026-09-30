@@ -382,6 +382,26 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "blitzreels",
+      "description": "Create and edit videos with BlitzReels: turn long-form media and supported social URLs into captioned shorts; inspect projects and transcripts; edit timelines, text, B-roll, and audio; generate images, video, voiceovers, music, and sound; reuse characters and Story Kits; build carousels and X-to-video workflows; and export MP4s through the hosted OAuth MCP server.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blitzreels/agent-skills.git",
+        "sha": "0da20c89696705bc392d7e724768aa39ffb479d0"
+      },
+      "homepage": "https://www.blitzreels.com/agents",
+      "keywords": [
+        "blitzreels",
+        "blitz reels",
+        "blitzreels video"
+      ],
+      "domains": [
+        "blitzreels.com",
+        "www.blitzreels.com"
+      ]
     }
   ]
 }
