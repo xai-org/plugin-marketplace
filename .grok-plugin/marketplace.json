@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "portals-plugin-grok",
+      "description": "Build, manage, and publish Portals browser games from Grok Build with eight platform skills and the Portals web-games MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/portals-labs/portals-plugin-grok.git",
+        "sha": "ba32206bc96527019e07e7480b0cb26ba5f31935",
+        "path": "plugins/portals-plugin-grok"
+      },
+      "homepage": "https://github.com/portals-labs/portals-plugin-grok",
+      "keywords": ["portals", "portals web games", "portals sdk", "portals mcp"],
+      "domains": ["portals.to"]
     }
   ]
 }
