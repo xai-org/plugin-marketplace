@@ -405,6 +405,24 @@
         ]
       }
     },
+    "hourtick": {
+      "sha": "053bbc48eb08e718292b3e2648340c0e9002e8ae",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hourtick",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hourtick",
+            "description": "Use when the user wants to track or log time, fill in a timesheet, see hours or billable totals, work with Hourtick tas…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
