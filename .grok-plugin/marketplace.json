@@ -382,6 +382,34 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "axiru-payment-gate",
+      "description": "Set the rules once, stop tapping approve. Axiru checks every purchase or payment Grok Bot wants to make with Link or Stripe against your limits (per-purchase ceiling, daily cap, merchant allowlist, hold threshold) before the card is issued, and keeps a receipt for every decision. Deterministic, no model in the decision path.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AxiruAI/axiru-gate.git",
+        "sha": "bbcf80a776535c8d8664634a60a5af5271e8592e",
+        "path": "packages/grok-bot-plugin"
+      },
+      "homepage": "https://github.com/AxiruAI/axiru-gate/tree/main/packages/grok-bot-plugin",
+      "keywords": ["axiru", "axiru payment gate", "axiru spending limits", "axiru refund gate"],
+      "domains": ["axiru.com"]
+    },
+    {
+      "name": "axiru-payment-gate",
+      "description": "Set the rules once, stop tapping approve. Axiru checks every purchase or payment Grok Bot wants to make with Link or Stripe against your limits (per-purchase ceiling, daily cap, merchant allowlist, hold threshold) before the card is issued, and keeps a receipt for every decision. Deterministic, no model in the decision path.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AxiruAI/axiru-gate.git",
+        "sha": "bbcf80a776535c8d8664634a60a5af5271e8592e",
+        "path": "packages/grok-bot-plugin"
+      },
+      "homepage": "https://github.com/AxiruAI/axiru-gate/tree/main/packages/grok-bot-plugin",
+      "keywords": ["axiru", "axiru payment gate", "axiru spending limits", "axiru refund gate"],
+      "domains": ["axiru.com"]
     }
   ]
 }
