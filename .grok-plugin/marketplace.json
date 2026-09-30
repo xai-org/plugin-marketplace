@@ -203,7 +203,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "7d7375b57a9b84224355257b810db94f6c8dd235"
+        "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": [
@@ -226,7 +226,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
+        "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": [
@@ -265,7 +265,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644"
+        "sha": "2c8af036a758af150ec0244489f6fb3d12e394db"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": [
@@ -361,7 +361,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
+        "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -429,7 +429,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "adf3218ca2f5b9971eedc07a76bef22df7701539",
+        "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
