@@ -382,6 +382,28 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "postdashpro",
+      "description": "PostDashPro is social post scheduling for AI agents: queue posts to 12 networks (X, LinkedIn, Instagram, Facebook, TikTok, YouTube, Threads, Pinterest, Bluesky, Telegram, Discord and Mastodon) from the account the person already connected. The hosted MCP server at https://postdashpro.com/api/mcp exposes 24 tools. A future time queues the post as scheduled; anything else lands as a draft. Nothing publishes instantly; a person reviews every item. There is no tool for unsolicited DMs or follower scraping. Auth is OAuth 2.1 with dynamic client registration, or a paste API key. Starter prompts: \"What accounts do I have connected?\" \"Draft three posts for this week and schedule them for 9am.\" \"What is queued for tomorrow?\"",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fortuneflick/postdashpro-claude-plugin.git",
+        "sha": "e50eb3d8b6e7cc139a0fd464968c36971b0e568c"
+      },
+      "homepage": "https://postdashpro.com/guide",
+      "keywords": [
+        "postdashpro",
+        "postdashpro mcp",
+        "postdashpro social scheduler",
+        "postdashpro ai agent",
+        "postdashpro autopilot",
+        "postdashpro post scheduling",
+        "postdashpro mcp server",
+        "postdashpro mcp connector"
+      ],
+      "domains": ["postdashpro.com"]
     }
   ]
 }
