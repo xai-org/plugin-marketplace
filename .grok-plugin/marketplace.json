@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "meeting-mate",
+      "description": "Official Meeting Mate plugin (hosted MCP + skills). Search meeting recordings, pull transcripts and summaries, extract action items, and manage follow-up tasks from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/meeting-mate"
+      },
+      "homepage": "https://meetingmateapp.com",
+      "keywords": ["meeting mate", "meetingmate", "meeting mate recordings", "meetingmateapp"],
+      "domains": ["meetingmateapp.com", "www.meetingmateapp.com"]
     }
   ]
 }

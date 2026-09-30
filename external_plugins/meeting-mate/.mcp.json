@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "meeting-mate": {
+      "type": "http",
+      "url": "https://meetingmateapp.com/api/mcp",
+      "note": "Official Meeting Mate hosted MCP server. On first connection Grok opens a browser OAuth flow. No API key is required for that path. Tools read and write meeting recordings, transcripts, summaries, action items, and tasks for the signed-in workspace."
+    }
+  }
+}
