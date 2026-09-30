@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "klussenbeheer",
+      "description": "Connect your Klussenbeheer account to find jobs and schedules and make confirmed job updates within existing company permissions.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/smrht/klussenbeheer-agent-plugin.git",
+        "sha": "6cddf143f1b310dcd60ad6542ae9323a9df788d2"
+      },
+      "homepage": "https://samdesk.nl/plugin/",
+      "keywords": [
+        "klussenbeheer",
+        "samdesk klussenbeheer"
+      ],
+      "domains": [
+        "samdesk.nl"
+      ]
     }
   ]
 }
