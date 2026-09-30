@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "lemma-telepath",
+      "description": "Telegram Business inside Grok: search your whole chat archive, read the documents, photos and transcribed voice in it, and reply as yourself. Hosted MCP — sign in with Telegram on first connect, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Lemma-Company/telepath-plugin.git",
+        "sha": "9050b30136b004fc3b13ec427114ddf085dc40e9"
+      },
+      "homepage": "https://telepath.lemma.company",
+      "keywords": ["telepath", "lemma telepath", "telepath telegram"],
+      "domains": ["telepath.lemma.company", "lemma.company"]
     }
   ]
 }
