@@ -1128,6 +1128,36 @@
         ]
       }
     },
+    "tincan": {
+      "sha": "581e5dc0c3a9251f1cbc8cdd0fbcfe2c8f2de2cb",
+      "version": "0.5.0",
+      "components": {
+        "commands": [
+          {
+            "name": "room",
+            "description": "Check the TinCan room, post a line, or open the local chat."
+          }
+        ],
+        "skills": [
+          {
+            "name": "check-room",
+            "description": "Pull the room clone, embed unread outbox lines as the other person talking, and do every [task]. Use when the user says…"
+          },
+          {
+            "name": "handover",
+            "description": "Grant and hidden-CoT handover over owned ndjson outboxes. Use when someone @ the other person's bot, asks to borrow a s…"
+          },
+          {
+            "name": "live-in-the-room",
+            "description": "Always-on voice for TinCan. Use on every turn in a room-enabled chat. Owned ndjson outboxes are the shared transcript.…"
+          },
+          {
+            "name": "speak-in-room",
+            "description": "Post the user's words into an owned ndjson outbox so the other person's Grok Bot can embed them. Use when the user talk…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
