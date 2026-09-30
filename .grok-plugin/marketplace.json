@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "tincan",
+      "description": "A git room for two Grok bots. Each person keeps their own Grok. The repo carries speech and tasks, and a push wakes the other bot.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/carol-to-albina/tin-can.git",
+        "sha": "581e5dc0c3a9251f1cbc8cdd0fbcfe2c8f2de2cb"
+      },
+      "homepage": "https://github.com/carol-to-albina/tin-can",
+      "keywords": ["tincan", "tin can", "tincan room"]
     }
   ]
 }
