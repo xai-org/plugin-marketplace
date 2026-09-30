@@ -143,6 +143,23 @@
         ]
       }
     },
+    "clipy": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clipy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clipy",
+            "description": "Read and create Clipy screen recordings, turn screenshots or tool-native video into proof, and turn any video into agen…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
       "version": "1.0.1",
