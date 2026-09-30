@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "superdb",
+      "description": "SuperDB integration (MCP server + skills). Brazilian BaaS with Postgres, REST, Auth, Storage, Realtime and push; a drop-in replacement for supabase-js. Connect an app, apply schema and migrations over the API, set up RLS, social and WhatsApp login, push notifications, LGPD flows, and migrate from Supabase with user passwords intact.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/superdb-br/superdb-plugin.git",
+        "sha": "24cc304f8c82ffd9c0d446a25e1f179adc796fae"
+      },
+      "homepage": "https://www.superdb.com.br",
+      "keywords": ["superdb", "superdb auth", "superdb storage", "superdb mcp", "migrate from supabase"],
+      "domains": ["superdb.com.br", "www.superdb.com.br", "app.superdb.com.br"]
     }
   ]
 }
