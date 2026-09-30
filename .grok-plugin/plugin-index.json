@@ -43,6 +43,24 @@
         ]
       }
     },
+    "baklater": {
+      "sha": "dc7186f3232889bb3c262abccc3159c798973b28",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "baklater",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "baklater-recommendations",
+            "description": "Save explicit recommendations to BakLater, check whether titles are already saved, and list the user's BakLater collect…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",

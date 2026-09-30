@@ -382,6 +382,22 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "baklater",
+      "description": "Save recommendations privately to BakLater, search saved titles, and list collections through BakLater’s hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hakantaymaz/baklater-grok-plugin.git",
+        "sha": "dc7186f3232889bb3c262abccc3159c798973b28"
+      },
+      "homepage": "https://baklater.com/connect/",
+      "keywords": ["baklater", "baklater recommendations", "baklater mcp"],
+      "domains": ["baklater.com", "api.baklater.com"],
+      "version": "1.0.0",
+      "author": "Hakan Taymaz",
+      "tags": ["oauth", "mcp", "recommendations"]
     }
   ]
 }
