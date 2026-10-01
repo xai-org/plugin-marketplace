@@ -382,6 +382,31 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "docsbot-administration",
+      "description": "Build and manage DocsBot customer support agents from websites, documents, and knowledge bases. Maintain sources, review conversations, and update bot settings through OAuth-authorized named MCP tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/uglyrobot/docsbot-agent-skills.git",
+        "sha": "e8712ff0e64b678c3bc135b6e393279b87baffec",
+        "path": "plugins/docsbot-administration"
+      },
+      "homepage": "https://docsbot.ai/documentation/developer/mcp-server",
+      "keywords": [
+        "docsbot",
+        "docsbot administration",
+        "docsbot agents"
+      ],
+      "domains": [
+        "docsbot.ai",
+        "mcp.docsbot.ai"
+      ],
+      "author": {
+        "name": "DocsBot"
+      },
+      "version": "0.6.3"
     }
   ]
 }

@@ -235,6 +235,24 @@
         ]
       }
     },
+    "docsbot-administration": {
+      "sha": "e8712ff0e64b678c3bc135b6e393279b87baffec",
+      "version": "0.6.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "docsbot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "docsbot-administration",
+            "description": "Use this bundled DocsBot workflow whenever the DocsBot plugin is installed and the user asks to manage DocsBot teams, b…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
