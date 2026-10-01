@@ -382,6 +382,29 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "magicinterview",
+      "description": "Live AI suggestions for what to say next in job interviews, client calls, and meetings, with project, document, conversation, and debug-log retrieval through MagicInterview's remote OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/magicinterview-plugin.git",
+        "sha": "c194b4a47d482f2f5fd3f89c75c7a65a09979d05"
+      },
+      "homepage": "https://magicinterview.app",
+      "version": "1.1.3",
+      "author": {
+        "name": "MagicInterview"
+      },
+      "keywords": [
+        "magicinterview",
+        "magicinterview live meeting assistant",
+        "magicinterview mcp"
+      ],
+      "domains": [
+        "magicinterview.app"
+      ]
     }
   ]
 }
