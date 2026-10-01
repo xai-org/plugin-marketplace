@@ -1,0 +1,19 @@
+{
+  "name": "posty",
+  "version": "1.0.0",
+  "description": "Posty social media scheduling via the hosted MCP at api.posty.hu: write, preview, schedule and publish posts to Facebook, Instagram, X, LinkedIn, TikTok, YouTube, Threads, Bluesky, Telegram, Discord and Slack. Sign in with a Posty account on first connect.",
+  "author": {
+    "name": "Norbert Levente Kiss",
+    "email": "norbert@posty.hu",
+    "url": "https://posty.hu"
+  },
+  "homepage": "https://posty.hu",
+  "repository": "https://github.com/norbertlevente/posty-agent",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "posty",
+    "posty.hu",
+    "posty social",
+    "posty mcp"
+  ]
+}
