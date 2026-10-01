@@ -71,6 +71,18 @@
         ]
       }
     },
+    "bitpanda": {
+      "sha": "643f8cf59667d2cb53d7bbbc7966a4fe56042673",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bitpanda",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",

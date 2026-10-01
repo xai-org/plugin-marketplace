@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "bitpanda",
+      "description": "Bitpanda hosted MCP server. Check your portfolio and performance, browse assets and tickers, request and accept trading quotes, and stake or unstake with Bitpanda Earn. Authenticates with a Bitpanda API key (BITPANDA_API_KEY).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bitpanda/agent-plugins.git",
+        "sha": "643f8cf59667d2cb53d7bbbc7966a4fe56042673",
+        "path": "bitpanda"
+      },
+      "homepage": "https://docs.public.bitpanda.com",
+      "keywords": ["bitpanda", "bitpanda mcp", "bitpanda api", "bitpanda portfolio", "bitpanda earn"],
+      "domains": ["bitpanda.com", "docs.public.bitpanda.com", "mcp.public.bitpanda.com"]
     }
   ]
 }
