@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "metamask-agent-wallet",
+      "description": "MetaMask Agent Wallet skills and session-start readiness for the mm CLI — auth, wallets, swaps, bridges, perps, prediction markets, and earn.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MetaMask/agent-skills.git",
+        "sha": "bfb4123a47fb1cae45133823f62a14f452bdb9cd"
+      },
+      "homepage": "https://github.com/MetaMask/agent-skills",
+      "keywords": ["metamask", "metamask agent wallet", "mm cli", "agent-wallet"],
+      "domains": ["metamask.io"]
     }
   ]
 }
