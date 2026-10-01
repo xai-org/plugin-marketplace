@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "formbase",
+      "description": "formbase.so collects and verifies information from customers for workflows and AI agents: create a request, the recipient completes a prefilled form, and the answers come back under your field keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/formbaseso/formbase-mcp.git",
+        "sha": "96bac3579e707ed1a1959ffd282080bc21e327ee"
+      },
+      "homepage": "https://formbase.so",
+      "keywords": ["formbase", "formbase requests", "formbase forms"],
+      "domains": ["formbase.so", "api.formbase.so", "docs.formbase.so"]
     }
   ]
 }

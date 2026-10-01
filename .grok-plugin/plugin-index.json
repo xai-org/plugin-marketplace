@@ -393,6 +393,24 @@
         ]
       }
     },
+    "formbase": {
+      "sha": "96bac3579e707ed1a1959ffd282080bc21e327ee",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "formbase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "formbase-requests",
+            "description": "Ask a customer for information through formbase (formbase.so) and read the verified answers back. Use when a workflow o…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
