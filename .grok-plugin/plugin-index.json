@@ -405,6 +405,24 @@
         ]
       }
     },
+    "meeem": {
+      "sha": "a62556ab5d3756c28df4283e59154765f4785e52",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meeem",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-apps",
+            "description": "Build or edit websites, web apps and browser games through Meeem, inspect account quota and progress, or change communi…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

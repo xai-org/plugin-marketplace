@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "meeem",
+      "description": "Build and edit Meeem websites, apps and browser games, inspect account quota, and manage owned app visibility through scoped OAuth access.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmsk2007/meeem-mcp.git",
+        "sha": "a62556ab5d3756c28df4283e59154765f4785e52"
+      },
+      "homepage": "https://www.meeem.ai",
+      "keywords": [
+        "meeem"
+      ],
+      "domains": [
+        "meeem.ai",
+        "www.meeem.ai"
+      ]
     }
   ]
 }
