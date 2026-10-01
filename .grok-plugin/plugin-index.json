@@ -917,8 +917,8 @@
       }
     },
     "string-web-access": {
-      "sha": "7dc641ce4b0783e7f8d2e8fed7ba6b3bc72fe08c",
-      "version": "1.0.5",
+      "sha": "76f7972f78404c589b45fff764c7d6affc2b2219",
+      "version": "1.0.6",
       "components": {
         "commands": [
           {
