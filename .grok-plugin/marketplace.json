@@ -359,6 +359,18 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "openrush",
+      "description": "OpenRush marketing data: live SERPs, keywords, backlinks, AI-search visibility and site audits with cited provenance. Sign in with an OpenRush account to use it from Grok.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/openrush"
+      },
+      "homepage": "https://www.openrush.com",
+      "keywords": ["openrush", "openrush mcp", "openrush seo"],
+      "domains": ["openrush.com", "api.openrush.com", "app.openrush.com"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
