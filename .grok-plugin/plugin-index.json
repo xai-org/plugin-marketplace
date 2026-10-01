@@ -405,6 +405,24 @@
         ]
       }
     },
+    "lifemaster": {
+      "sha": "c100d12b724073dbc16ea025676b490a494c5eb0",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lifemaster",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "manage-life",
+            "description": "Use LifeMaster's native agent for expenses, income, goals, habits and other advertised actions, or its direct tasks, pr…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

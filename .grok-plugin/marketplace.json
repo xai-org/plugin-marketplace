@@ -382,6 +382,24 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "lifemaster",
+      "description": "Manage LifeMaster tasks, expenses, calendar and native missions with scoped OAuth access. Use the connected account plan and credits; calls and services need separate permissions.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmsk2007/lifemaster-mcp.git",
+        "sha": "c100d12b724073dbc16ea025676b490a494c5eb0"
+      },
+      "homepage": "https://app.lifemaster.ai",
+      "keywords": [
+        "lifemaster"
+      ],
+      "domains": [
+        "lifemaster.ai",
+        "app.lifemaster.ai"
+      ]
     }
   ]
 }
