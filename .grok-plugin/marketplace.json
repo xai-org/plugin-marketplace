@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "pbx-voice",
+      "description": "Phone calls for agents through your own PBX. Bring the SIP credentials for an extension on a private or hosted PBX, and pbx-voice places wake-up alarms, spoken messages, and short AI conversations that bring back answers. Requires the pbx-voice binary (glibc-based Linux, x64 or arm64) and an xAI API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/calebtt/pbx-voice.git",
+        "sha": "39d96a0a7419ab4e78ef93a99a2addcea6ef7923",
+        "path": "plugin"
+      },
+      "homepage": "https://github.com/calebtt/pbx-voice",
+      "keywords": ["pbx-voice", "pbx voice", "agentic phone calls", "bring your own pbx", "byo pbx"]
     }
   ]
 }
