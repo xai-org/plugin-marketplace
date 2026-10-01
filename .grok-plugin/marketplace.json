@@ -382,6 +382,20 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "bitpanda-fusion",
+      "description": "Bitpanda Fusion hosted MCP server. Query order books, candles, and tickers, check balances and fee tiers, list orders and trades, and place or cancel limit and market orders. Authenticates with a Fusion API key (BITPANDA_FUSION_API_KEY).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bitpanda/agent-plugins.git",
+        "sha": "643f8cf59667d2cb53d7bbbc7966a4fe56042673",
+        "path": "bitpanda-fusion"
+      },
+      "homepage": "https://docs.fusion.bitpanda.com",
+      "keywords": ["bitpanda fusion", "fusion mcp", "bitpanda fusion api", "bitpanda fusion trading"],
+      "domains": ["docs.fusion.bitpanda.com", "mcp.fusion.bitpanda.com"]
     }
   ]
 }
