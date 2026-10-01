@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abby": {
+      "type": "http",
+      "url": "https://api.abby.fr/mcp"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "abby",
+  "version": "1.0.0",
+  "description": "Abby invoicing, quotes, clients, products and URSSAF declarations for French freelancers (micro-entrepreneurs) via the hosted MCP at api.abby.fr. Sign in with an Abby account on first connect.",
+  "author": {
+    "name": "Abby",
+    "url": "https://github.com/abby-inc"
+  },
+  "homepage": "https://www.abby.fr",
+  "license": "Proprietary",
+  "keywords": [
+    "abby",
+    "abby.fr",
+    "abby mcp",
+    "abby facturation"
+  ]
+}

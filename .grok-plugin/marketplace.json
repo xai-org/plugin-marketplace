@@ -382,6 +382,15 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "abby",
+      "description": "Abby invoicing for French freelancers (micro-entrepreneurs). Create, finalize and send invoices and quotes, manage clients and products, and complete URSSAF declarations. Sign in with your Abby account on first connect; no API key needed.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/abby" },
+      "homepage": "https://www.abby.fr",
+      "keywords": ["abby", "abby.fr", "abby facturation", "abby invoice", "abby mcp"],
+      "domains": ["abby.fr", "app.abby.fr", "api.abby.fr"]
     }
   ]
 }
