@@ -382,6 +382,18 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "posty",
+      "description": "Posty social media scheduling. Write, preview, schedule and publish posts to Facebook, Instagram, X, LinkedIn, TikTok, YouTube, Threads, Bluesky, Telegram, Discord and Slack, and manage the content calendar. Sign in with a Posty account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/posty"
+      },
+      "homepage": "https://posty.hu",
+      "keywords": ["posty", "posty.hu", "posty social", "posty mcp"],
+      "domains": ["posty.hu", "api.posty.hu"]
     }
   ]
 }
