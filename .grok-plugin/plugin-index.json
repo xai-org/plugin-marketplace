@@ -1,6 +1,52 @@
 {
   "version": 1,
   "plugins": {
+    "a1-gallery": {
+      "sha": "a94c53f17580ec1ae1459968ca286c6c790f9ad5",
+      "version": "1.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "design-researcher",
+            "description": "Researches a design question across A1 Gallery and returns a grounded brief — measured norms, named example sites, and…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "pairings",
+            "description": "Find real sites using a font or font pairing"
+          },
+          {
+            "name": "reference",
+            "description": "Find real website reference for a design brief"
+          },
+          {
+            "name": "tokens",
+            "description": "Show what real sites measure for a section type"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "a1",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "design-reference",
+            "description": "Answer a design question with evidence from real websites instead of taste — type scale, spacing, container width, pale…"
+          },
+          {
+            "name": "section-rebuild",
+            "description": "Build a page section in code using the values measured off a real site rather than guessing them from a screenshot. Use…"
+          },
+          {
+            "name": "setup",
+            "description": "Connect the A1 Gallery MCP server and check it is working. Use when the plugin is first installed, when a tool returns…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",

@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "a1-gallery",
+      "description": "A1 Gallery design reference. Search a hand-curated gallery of real websites by style, font, colour, section and technology, and read the colours, type sizes, spacing and radius measured off the live page.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bryntay/a1-mcp.git",
+        "sha": "a94c53f17580ec1ae1459968ca286c6c790f9ad5"
+      },
+      "homepage": "https://www.a1.gallery/mcp",
+      "keywords": ["a1 gallery", "a1.gallery", "a1 design reference"],
+      "domains": ["a1.gallery"]
     }
   ]
 }
