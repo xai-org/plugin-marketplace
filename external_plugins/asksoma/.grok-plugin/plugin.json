@@ -1,0 +1,22 @@
+{
+  "name": "asksoma",
+  "version": "1.0.0",
+  "description": "Asksoma : Astrology Horoscope numerology through a hosted MCP connector. Explore Vedic birth charts, Panchang, compatibility and plain-language astrology insights in Grok Build.",
+  "author": {
+    "name": "AskSoma",
+    "url": "https://asksoma.ai"
+  },
+  "homepage": "https://asksoma.ai",
+  "repository": "https://github.com/askSoma/asksoma-ai-companion",
+  "license": "Proprietary",
+  "keywords": [
+    "asksoma",
+    "astrology",
+    "horoscope",
+    "numerology",
+    "vedic astrology",
+    "panchang",
+    "mcp"
+  ],
+  "logo": "assets/ask-soma-icon.webp"
+}
