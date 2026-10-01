@@ -382,6 +382,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "lesuto",
+      "description": "Ask Grok how all your stores and companies are doing. Drill into one when you need to.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lesuto/lesuto-grok-plugin.git",
+        "sha": "ccc9e5d11bf1c53f50eeeb8b64ccc4056340c0a3"
+      },
+      "homepage": "https://www.lesuto.com/integrations/grok-agent",
+      "keywords": ["lesuto", "lesuto connect", "lesuto hub", "lesuto seller"],
+      "domains": ["lesuto.com", "www.lesuto.com", "api.lesuto.com", "hub.lesuto.com"]
     }
   ]
 }
