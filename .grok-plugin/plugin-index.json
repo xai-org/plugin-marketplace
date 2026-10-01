@@ -213,6 +213,24 @@
         ]
       }
     },
+    "cuesync": {
+      "sha": "e12498e8917e73a75709568285284e20d2a84fba",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cuesync",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "manage-meetings",
+            "description": "Use CueSync to inspect upcoming meetings, delegate bounded attendance, manage an owned delegate, and read meeting statu…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

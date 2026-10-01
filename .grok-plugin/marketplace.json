@@ -382,6 +382,23 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "cuesync",
+      "description": "Inspect CueSync meetings, reports and transcripts and manage bounded, permitted meeting attendance through scoped OAuth access.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmsk2007/cuesync-mcp.git",
+        "sha": "e12498e8917e73a75709568285284e20d2a84fba"
+      },
+      "homepage": "https://cuesync.co",
+      "keywords": [
+        "cuesync"
+      ],
+      "domains": [
+        "cuesync.co"
+      ]
     }
   ]
 }
