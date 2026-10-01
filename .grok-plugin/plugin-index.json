@@ -329,6 +329,24 @@
         ]
       }
     },
+    "filtra-ai": {
+      "sha": "30775b3ba03335cfed8dda98516cb87e9f5e81ce",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "filtra-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "filtra-reputacao",
+            "description": "Use Filtra.AI for customer-review reputation audits, professional review responses, product information, and the free trial."
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
       "version": "1.2.0",
