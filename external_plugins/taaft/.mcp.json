@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taaft": {
+      "type": "http",
+      "url": "https://theresanaiforthat.com/mcp/"
+    }
+  }
+}
