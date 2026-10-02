@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "mailows",
+      "description": "Mailows gives AI agents their own real email inboxes, so they can read and send mail without being handed the keys to yours.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailows/mailows-grok-plugin.git",
+        "sha": "fb74e28afa87f8b1383b8cf67112e9dc5d41a3c4"
+      },
+      "homepage": "https://www.mailows.com/mcp-manual",
+      "keywords": ["mailows", "email", "inbox", "agent email", "mcp"],
+      "domains": ["mcp.mailows.com", "mailows.com", "id.namailu.cz", "portal.mailows.com"]
     }
   ]
 }
