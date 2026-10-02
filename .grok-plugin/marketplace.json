@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "wefunder",
+      "description": "Browse startups raising on Wefunder, look up companies and rounds, and read your own syndicate or company data. Read by default: it can never invest or move money; following companies is an optional permission. Remote MCP server plus skills.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wefunder/agent-plugin.git",
+        "sha": "b7ef06e831582d8fed1a48e52baa08671c1dc7c8"
+      },
+      "homepage": "https://github.com/Wefunder/agent-plugin",
+      "keywords": ["wefunder", "wefunder mcp", "community round", "wefunder offerings", "wefunder syndicate"],
+      "domains": ["wefunder.com"]
     }
   ]
 }
