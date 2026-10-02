@@ -403,7 +403,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Searchable-Inc/searchable-plugin.git",
-        "sha": "f934578a6583ef07fff96ece3123c22e72fa25b8"
+        "sha": "6386ed6335d36799e6de8003e57a0d011af88919"
       },
       "homepage": "https://docs.searchable.com/integrations/mcp",
       "keywords": ["searchable", "searchable mcp", "searchable ai visibility"],
