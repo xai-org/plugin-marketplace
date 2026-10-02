@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "upload-post",
+      "description": "Publish, schedule and analyze social media posts on TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Reddit, Bluesky and Google Business through the hosted Upload-Post MCP server (OAuth), with skills for campaigns, posting queue, video repurposing, comment replies and analytics.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Upload-Post/upload-post-plugin.git",
+        "sha": "36ea2cac12e9d86a9a7c8ccda3f58f99360d12d7"
+      },
+      "homepage": "https://www.upload-post.com",
+      "keywords": ["upload-post", "uploadpost", "upload post", "upload-post mcp", "upload-post api", "upload-post schedule"],
+      "domains": ["upload-post.com", "app.upload-post.com", "docs.upload-post.com", "mcp.upload-post.com"]
     }
   ]
 }
