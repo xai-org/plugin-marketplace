@@ -395,6 +395,26 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "hive",
+      "description": "DM automation for Instagram, Messenger, WhatsApp and Telegram: answer comments and story replies, then carry the conversation on into DMs. Also drafts, schedules and publishes posts to ten networks, edits the link in bio page, and reads back the inbox and analytics. Everything happens inside the person's own Hive Publish workspace, and anything that reaches real people is confirmed by the person first. Unlimited contacts, priced per connected account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Jebobbes/hive-mcp.git",
+        "sha": "bee68413ac78730f7479c3329594bae7c36fe363"
+      },
+      "homepage": "https://hivepublish.com/developers",
+      "keywords": [
+        "hive",
+        "hive publish",
+        "hivepublish",
+        "hive dm automation"
+      ],
+      "domains": [
+        "hivepublish.com"
+      ]
     }
   ]
 }
