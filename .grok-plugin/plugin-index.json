@@ -409,6 +409,24 @@
         ]
       }
     },
+    "longwave": {
+      "sha": "46941c4112c5a533ba6942fe308d87a6077397f7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "longwave",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "longwave",
+            "description": "Turn a creator's long-form episode into YouTube Shorts and publish them to that creator's own channel. Also lists the c…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

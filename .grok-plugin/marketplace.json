@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "longwave",
+      "description": "Turn long-form episodes into captioned YouTube Shorts and publish them to the creator's own channel — thumbnails, titles, show notes and a podcast feed included. No API key, no video downloads, no YouTube Studio.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Longwave-Media/longwave-plugin.git",
+        "sha": "46941c4112c5a533ba6942fe308d87a6077397f7"
+      },
+      "homepage": "https://github.com/Longwave-Media/longwave-plugin",
+      "keywords": ["longwave", "longwave shorts", "longwave youtube", "longwave podcast", "longwave mcp"],
+      "domains": ["longwave.media", "www.longwave.media"]
     }
   ]
 }
