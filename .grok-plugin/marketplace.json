@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "jev-social",
+      "description": "Read-only Instagram, TikTok, and LinkedIn research. Jev selects bounded operations; the local socai CLI captures evidence in the user’s Chrome and returns source-linked reports.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/socai-io/jev-social.git",
+        "sha": "2058ea22ad5d6586e1339029bc0cc2715637e0b9"
+      },
+      "homepage": "https://socai-io.github.io/jev-social/",
+      "keywords": ["jev social", "socai jev", "socai social research"],
+      "domains": ["socai.io", "socai-io.github.io"]
     }
   ]
 }

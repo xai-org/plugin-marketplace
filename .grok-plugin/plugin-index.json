@@ -409,6 +409,18 @@
         ]
       }
     },
+    "jev-social": {
+      "sha": "2058ea22ad5d6586e1339029bc0cc2715637e0b9",
+      "version": "0.1.13",
+      "components": {
+        "skills": [
+          {
+            "name": "jev-social",
+            "description": "Run browser-grounded, read-only social research through Jev Social when a user wants posts, profiles, comments, video e…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
