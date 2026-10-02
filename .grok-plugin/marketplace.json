@@ -395,6 +395,24 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "scovell",
+      "description": "Sanctions, PEP and adverse-media screening with reviewable records through Scovell by Rotunda. Sign in with an approved Scovell account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/scovell"
+      },
+      "homepage": "https://scovell.rotundahq.com",
+      "keywords": [
+        "scovell",
+        "scovell screening",
+        "rotunda scovell"
+      ],
+      "domains": [
+        "scovell.rotundahq.com"
+      ]
     }
   ]
 }
