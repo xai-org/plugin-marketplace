@@ -1517,6 +1517,128 @@
         ]
       }
     },
+    "vox-ai": {
+      "sha": "b3f72da9ce868c3643f650ecbfddb7ebd0a46643",
+      "version": "0.2.11",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vox-ai",
+            "description": "http"
+          },
+          {
+            "name": "vox-docs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agents-platform",
+            "description": "연결된 vox.ai Agents MCP에서 조직·현재 도구 capability와 작업 context를 확인하고 agent·Manual 작업을 수행할 때 적용한다. 상담원의 실시간 통화 업무에는 적용하지 않는다."
+          },
+          {
+            "name": "build-first-voice-agent",
+            "description": "URL·파일·설명으로 vox.ai의 첫 Single 음성 에이전트를 만들고 Manual·결과 저장·직접 시험까지 연결할 때 사용한다."
+          },
+          {
+            "name": "cli-authoring",
+            "description": "사용자가 vox.ai 리소스를 저장소 파일·git·CI로 관리하거나 vox CLI 사용을 명시했을 때 적용한다. 일반적인 MCP 구축·수정을 CLI로 전환하지 않는다."
+          },
+          {
+            "name": "configure-call-results",
+            "description": "vox.ai 통화 후 추출·내부 결과 저장을 새로 연결하거나 수정·검증할 때 사용한다. 외부 CRM 작업의 성공과 구분한다."
+          },
+          {
+            "name": "configure-supporting-channel",
+            "description": "vox.ai 채팅·위젯을 구성하거나 음성 업무를 보조 채널로 확장하고 실제 대화·설정 결과를 확인할 때 사용한다."
+          },
+          {
+            "name": "connect-agent-tools",
+            "description": "vox.ai 음성 에이전트가 외부 업무 API를 호출하도록 지원되는 도구를 생성·수정·Manual에 연결할 때 사용한다. 코파일럿 MCP 서버 설치와는 다른 작업이다."
+          },
+          {
+            "name": "connect-phone-service",
+            "description": "vox.ai 에이전트에 이미 가진 번호를 연결·해제하고 실제 인바운드 수신을 확인할 때 사용한다. 번호 획득·해지는 웹에서만 한다."
+          },
+          {
+            "name": "dashboard-navigation",
+            "description": "vox.ai 대시보드 사용법·설정 위치·통화 재생·제품 링크를 안내할 때 적용한다. 제품 업무 실행을 브라우저 조작으로 일괄 우회하지 않는다."
+          },
+          {
+            "name": "edit-manual-safely",
+            "description": "기존 vox.ai 에이전트를 고칠 때 사용한다. 같은 대화에서 고객 피드백을 반영하거나, 새 대화에서 '어제 만든 ○○ 이어서'처럼 기존 에이전트를 이어서 고칠 때, Manual이나 긴 prompt 문구를 일부 수…"
+          },
+          {
+            "name": "explore-agent-context",
+            "description": "기존 vox.ai 에이전트의 설정·Manual·도구·버전을 파악하거나 변경 대상을 식별할 때 사용한다. 전체 통화 성과 분석은 별도 운영 분석 스킬로 처리한다."
+          },
+          {
+            "name": "inspect-call-evidence",
+            "description": "vox.ai 특정 통화의 발화·도구·추출 결과와 당시 버전을 연결해 실패 원인을 확인할 때 사용한다. 기간별 집계는 운영 분석 스킬이 맡는다."
+          },
+          {
+            "name": "knowledge-grounding",
+            "description": "홈페이지·문서·기존 업무 자료를 vox.ai 에이전트의 지식(텍스트·URL)과 응대 근거로 바꿀 때 사용한다. 사실·가정·갱신이 필요한 정보를 구분한다."
+          },
+          {
+            "name": "manual-authoring",
+            "description": "vox.ai Single 에이전트의 Manual(업무 절차)을 한 번에 운영 수준으로 쓸 때 사용한다. 트리거, 단계·분기, 원문 문장, @tool 호출과 성공·실패 처리, Manual 나누기, 프롬프트·지식 분담…"
+          },
+          {
+            "name": "operate-outbound-and-followup",
+            "description": "vox.ai의 단건 발신과 시트 기반 캠페인 실행·중지·재개·취소를 사용자의 명시 업무 범위에서 수행하고 실제 결과를 확인할 때 사용한다."
+          },
+          {
+            "name": "post-call-result-design",
+            "description": "vox.ai 통화 후 추출 필드·내부 저장·업무 성공 기준을 설계할 때 사용한다. 이미 잘못 저장된 통화의 원인 분석은 증거 조회 스킬이 담당한다."
+          },
+          {
+            "name": "prepare-voice-test",
+            "description": "고객이 vox.ai 에이전트를 직접 음성 시험하도록 준비하고 기대 결과와 고객 보고 또는 조회 가능한 통화 근거를 구분할 때 사용한다. 고객용 자동 시뮬레이션 플랫폼은 생성하지 않는다."
+          },
+          {
+            "name": "product-documentation",
+            "description": "vox.ai의 공식 문서에서 SDK·CLI·요금·기능·UI 사용법과 변경된 계약을 조사할 때 적용한다. docs MCP는 제품 데이터 조회·저장이나 desk/operator 실행 연결이 아니다."
+          },
+          {
+            "name": "resume-agent-work",
+            "description": "vox.ai 구축·운영 작업이 연결 단절·권한 만료·부분 성공·불명 응답으로 끊겼을 때 완료된 단계를 보존하고 이어간다."
+          },
+          {
+            "name": "review-call-performance",
+            "description": "vox.ai 일정 기간의 완료 통화를 집계하고 이상 집단·표본 근거로 개선 과제를 찾을 때 사용한다. 상시 감시나 자동 변경은 수행하지 않는다."
+          },
+          {
+            "name": "review-shared-impact",
+            "description": "특정 vox.ai Single의 Manual·지식·도구 변경 범위를 확인할 때 사용한다. 제품이 보장하지 않는 격리나 자동 복제를 약속하지 않는다."
+          },
+          {
+            "name": "tool-integration-design",
+            "description": "vox.ai 음성 에이전트가 외부 API로 실제 조회·예약·접수·전달을 수행하도록 연동 계약과 실패 대응을 설계할 때 사용한다."
+          },
+          {
+            "name": "troubleshoot-agent-tool",
+            "description": "vox.ai 통화 중 외부 도구가 호출되지 않거나 오류·타임아웃·결과 누락이 발생했을 때 실제 call 근거로 원인을 좁힌다."
+          },
+          {
+            "name": "try-and-improve-voice-agent",
+            "description": "vox.ai 에이전트를 직접 말해 보고 피드백·실패 통화를 근거로 수정하고 재시험할 때 사용한다."
+          },
+          {
+            "name": "tune-voice-behavior",
+            "description": "vox.ai 에이전트의 끼어들기·무응답·속도·언어·음성 또는 모델 선택을 실제 시험 근거로 조정할 때 사용한다."
+          },
+          {
+            "name": "voice-agent-design",
+            "description": "vox.ai 음성 에이전트의 목적·대상·방향·채널·완료 기준을 설계하고 Single + Manual 기본·Flow 예외의 에이전트 유형을 고를 때 사용한다. 생성·저장 실행은 Architect 업무 스킬이 담당한다."
+          },
+          {
+            "name": "voice-interaction-design",
+            "description": "vox.ai 음성 대화의 모델·언어·목소리·응답 속도·끼어들기·무응답 대응을 설계할 때 사용한다. 특정 모델이나 파라미터의 현재 지원 여부는 제품 조회로 확인한다."
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
