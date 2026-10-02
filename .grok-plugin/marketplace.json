@@ -147,6 +147,19 @@
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
     },
+      {
+  "name": "brosh",
+  "description": "BROSH AI CRM, manage your data:accounts, contacts, opportunities, tickets. CRUD actions, metadate updates, modifiy fields and tables. CRUD MCP, skills: AI SDR agent, AI Support agent, AI contnet writer. Email Marketing automation",
+  "category": "productivity",
+  "source": {
+    "source": "url",
+    "url": "https://github.com/Ben-Ford-z/brosh-crm-mcp.git",
+    "sha": "d72bdf63a16b2c73c20c2f81d65ee3405fed9831"
+  },
+  "homepage": "https://mcp.brosh.io",
+  "keywords": ["brosh", "brosh crm", "brosh sales"],
+  "domains": ["brosh.io", "mcp.brosh.io"]
+},
     {
       "name": "netlify",
       "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
