@@ -384,6 +384,19 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "siftable",
+      "description": "Siftable hosted MCP integration for planning projects, managing tasks, coordinating executable agent work, and retrieving notes, datasets, calendar, contact, and code-memory context. Sign in with Siftable OAuth; no API key is required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/execufunction-mcp/siftable-plugin.git",
+        "sha": "20a00dfecab7751ba0ef68e9fcf1ab5b31a2e325"
+      },
+      "homepage": "https://siftable.io/docs/mcp.html",
+      "keywords": ["siftable", "siftable mcp", "siftable tasks", "siftable agent work"],
+      "domains": ["siftable.io"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
