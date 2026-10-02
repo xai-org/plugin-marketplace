@@ -71,6 +71,24 @@
         ]
       }
     },
+    "bento": {
+      "sha": "c8fe602d6ecb9b9ba6386c4973d018ef98cec043",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bento",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bento",
+            "description": "Safe first actions in a Bento creator workspace. List accounts, pages, and drafts. Never publish, send, pay out, or del…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",

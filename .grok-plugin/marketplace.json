@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "bento",
+      "description": "Open-source Stan Store / Stanley.ai alternative. Connect a bento.surf creator workspace — pages, Store, Calendar, social publishing, Auto-DMs, and analytics — via the hosted Bento MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bizibeast/bento-surf-open-source.git",
+        "sha": "c8fe602d6ecb9b9ba6386c4973d018ef98cec043",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://bento.surf",
+      "keywords": ["bento", "bento.surf", "bento mcp", "stan store"],
+      "domains": ["bento.surf", "app.bento.surf", "mcp.bento.surf"]
     }
   ]
 }
