@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "fast-gst-refund",
+      "description": "Indian service-export GST refund checklists, cited guides, upload-error explanations and anonymous receipt-allocation checks.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/syllogismos/fast-gst-refund-mcp.git",
+        "sha": "891077e97186d09f01d9bf5410491f192a5678fb",
+        "path": "plugins/fast-gst-refund"
+      },
+      "homepage": "https://fastgstrefund.com/for-agents/",
+      "keywords": ["fast-gst-refund", "fastgstrefund", "fast gst refund"],
+      "domains": ["fastgstrefund.com"]
     }
   ]
 }
