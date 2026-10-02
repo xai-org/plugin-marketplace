@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "desearch",
+      "description": "Desearch MCP server and skill for AI agents: AI search, X search and web search, plus page extraction and X data tools (15 tools). Bring your own Desearch API key from console.desearch.ai.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Desearch-ai/desearch-plugin.git",
+        "sha": "9c5230e1cd74eee55a93e46eee0b7517261dd830"
+      },
+      "homepage": "https://www.desearch.ai",
+      "keywords": ["desearch", "bittensor subnet 22"],
+      "domains": ["desearch.ai", "www.desearch.ai", "console.desearch.ai", "mcp.desearch.ai"]
     }
   ]
 }
