@@ -1497,6 +1497,24 @@
         ]
       }
     },
+    "voidmob": {
+      "sha": "0e5b14463b2e9769c1d5e2afab759acc3c5b1e96",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voidmob",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "voidmob",
+            "description": "Receive an SMS verification code (OTP) on a real US non-VoIP mobile number, rent a number for days or keep a private de…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
