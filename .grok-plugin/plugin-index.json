@@ -834,6 +834,18 @@
         ]
       }
     },
+    "quellpass": {
+      "sha": "1ebcf2a7c26aa0d08d1f5271cac06c7896368b43",
+      "version": "0.3.3",
+      "components": {
+        "skills": [
+          {
+            "name": "quellpass",
+            "description": "Prüfe Aussagen mit unabhängiger Gegenfrage und Originalquellen; erstelle eine Belegakte und auf Auftrag einen Forschung…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",

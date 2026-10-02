@@ -395,6 +395,26 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "quellpass",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/olwulf-commits/quellpass.git",
+        "sha": "1ebcf2a7c26aa0d08d1f5271cac06c7896368b43",
+        "path": "plugins/quellpass"
+      },
+      "description": "QuellPass checks claims against original sources using an independent counter-question and an evidence record. It can prepare a research report on request.",
+      "category": "productivity",
+      "homepage": "https://olwulf-commits.github.io/",
+      "version": "0.3.3",
+      "author": {
+        "name": "Olaf Wulf"
+      },
+      "keywords": [
+        "quellpass",
+        "quellpass source verification"
+      ]
     }
   ]
 }
