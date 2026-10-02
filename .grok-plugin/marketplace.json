@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "orchard",
+      "description": "Orchard parametric CAD integration. Design manufacturable 3D parts and assemblies in your own Orchard editor tab: plan the features, build them in a real CAD kernel, check the geometry against the plan, run stress studies, make engineering drawings, and save to your Orchard account.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/3dorchard/orchard-plugin.git",
+        "sha": "df9084592332a97d4ed9926a888372ab207ceb0f"
+      },
+      "homepage": "https://3dorchard.com",
+      "keywords": ["orchard", "3dorchard", "orchard cad", "cad"],
+      "domains": ["3dorchard.com"]
     }
   ]
 }
