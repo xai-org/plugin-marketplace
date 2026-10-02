@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "wunjo-design",
+      "description": "Vector design in Wunjo Design through its hosted MCP server: documents and pages, shapes and paths, text laid out from real font metrics, placed images, brand components, export slices, and a render of the page so the agent can see its own work. Connects over HTTP and signs in with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/wunjo-design"
+      },
+      "homepage": "https://wunjo.online/product/design#mcp",
+      "keywords": ["wunjo", "wunjo design", "wunjo mcp"],
+      "domains": ["wunjo.online", "mcp.wunjo.online", "app.wunjo.online"]
     }
   ]
 }

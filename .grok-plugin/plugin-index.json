@@ -1550,6 +1550,17 @@
           }
         ]
       }
+    },
+    "wunjo-design": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wunjo-design",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
