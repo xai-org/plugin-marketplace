@@ -395,6 +395,22 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "etsy-growth-copilot",
+      "description": "Etsy seller copilot: listing SEO (titles, 13 tags, descriptions), product validation, launch and store-audit checklists, Etsy Ads break-even planning and weekly review, sales tracking, and a growth plan. Never publishes, changes prices, or spends without the owner's approval.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/etsy-growth-copilot"
+      },
+      "homepage": "https://x.ai/bot/NwUn4nWYCGthWcPTPfnLn",
+      "keywords": ["etsy", "etsy seo", "etsy ads", "ecommerce", "listings", "handmade"],
+      "domains": ["etsy.com"],
+      "author": {
+        "name": "Nir Hendler",
+        "url": "https://github.com/nirhend"
+      }
     }
   ]
 }
