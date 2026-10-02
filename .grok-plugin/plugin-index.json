@@ -920,6 +920,31 @@
         ]
       }
     },
+    "shopify-ai-toolkit": {
+      "sha": "a9549b1f4e9dd18266458eb0820c76fef8a503be",
+      "version": "2.0.1",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Skill|Read"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shopify",
+            "description": "Build anything on Shopify. One skill covering every Shopify developer surface: Use Shopify CLI, Admin API, ShopifyQL, S…"
+          },
+          {
+            "name": "ucp",
+            "description": "Use when the user wants to use the UCP CLI to find, compare, buy, or track products from online merchants, or to set up…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
       "version": "0.9.6",
