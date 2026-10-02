@@ -395,6 +395,15 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "socialrobot",
+      "description": "Schedule and analyze social media posts across 9 platforms (Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, Mastodon) directly from Grok. Remote OAuth MCP server with 17 tools: connected accounts, post creation and scheduling, media upload, analytics, follower demographics, and platform extras. Free on every plan.",
+      "category": "marketing",
+      "source": {"source": "url", "url": "https://github.com/socialrobot-io/socialrobot-mcp.git", "sha": "45ed60cbbfc24d3926db92927afcaf8160d046c2"},
+      "homepage": "https://socialrobot.io",
+      "keywords": ["socialrobot", "socialrobot mcp", "socialrobot scheduler", "social robot"],
+      "domains": ["socialrobot.io", "www.socialrobot.io"]
     }
   ]
 }
