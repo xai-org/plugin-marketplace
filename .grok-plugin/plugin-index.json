@@ -838,6 +838,32 @@
         ]
       }
     },
+    "pumpgtm": {
+      "sha": "ee7d21dd955baabe989c26dc49a8138ef0ed0902",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pumpgtm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-buyers",
+            "description": "Find people who match an ideal customer and start outreach to them on LinkedIn, email or X. Use when the user asks to f…"
+          },
+          {
+            "name": "handle-replies",
+            "description": "Review replies from prospects and answer them. Use when the user asks who replied, what is waiting on them, or to answe…"
+          },
+          {
+            "name": "write-cold-message",
+            "description": "Draft or critique a cold email, LinkedIn message or X DM. Use when the user asks to write, improve or review a cold mes…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
