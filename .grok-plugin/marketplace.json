@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "1a2a5cd21f991d816bcf9ac9184ba14a8b1cb2b8"
+        "sha": "c632a50838a47a639a160baff8411eb9c6af22bf"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea"
+        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+        "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
+        "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "8fc544d319c4a4dfc7ccf3ba4adf328e1fa9866f"
+        "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
+        "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
+        "sha": "2c8af036a758af150ec0244489f6fb3d12e394db"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -213,13 +213,26 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "f974bbb9c1ab688e93d7d2c1d43b7ae162c931da",
+        "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -233,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "97b2164821c378f246c3903852057b36a8bd0296",
+        "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -261,7 +274,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
+        "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
       "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
@@ -274,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "53e579f1481697931fc44f5445171397cfa2b24b",
+        "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +365,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+        "sha": "84ae7251ee919239d5ea85aef25897983f26601e"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -382,6 +395,19 @@
       "homepage": "https://trypost.it",
       "keywords": ["trypost", "trypost mcp", "trypost scheduler"],
       "domains": ["trypost.it", "app.trypost.it"]
+    },
+    {
+      "name": "unity",
+      "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc"
+      },
+      "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
+      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     }
   ]
 }
