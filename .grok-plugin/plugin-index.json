@@ -874,6 +874,24 @@
         ]
       }
     },
+    "scrapecreators": {
+      "sha": "d702e198ee3c1e9b9517529b3ce99d02230ebcb8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scrapecreators",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scrapecreators-research",
+            "description": "Research public social media data with the ScrapeCreators MCP server: profiles, posts, comments, transcripts, ads, and…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
       "version": "1.4.1",
