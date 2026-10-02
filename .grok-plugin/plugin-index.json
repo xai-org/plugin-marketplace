@@ -144,73 +144,71 @@
       }
     },
     "cloudflare": {
-      "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
-      "version": "1.0.0",
+      "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
+      "version": "1.0.1",
       "components": {
-        "commands": [
-          {
-            "name": "build-agent",
-            "description": "Build an AI agent on Cloudflare using the Agents SDK"
-          },
-          {
-            "name": "build-mcp",
-            "description": "Build a remote MCP server on Cloudflare using McpAgent"
-          }
-        ],
         "mcpServers": [
           {
-            "name": "cloudflare-api",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-bindings",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-builds",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-docs",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-observability",
+            "name": "cloudflare",
             "description": "http"
           }
         ],
         "skills": [
           {
             "name": "agents-sdk",
-            "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real…"
+            "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package."
           },
           {
             "name": "cloudflare",
-            "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agent…"
+            "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architect…"
           },
           {
             "name": "cloudflare-email-service",
-            "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building…"
+            "description": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration."
+          },
+          {
+            "name": "cloudflare-one",
+            "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migration…"
+          },
+          {
+            "name": "cloudflare-one-migrations",
+            "description": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parit…"
           },
           {
             "name": "durable-objects",
-            "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, b…"
+            "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
           },
           {
-            "name": "sandbox-sdk",
-            "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD…"
+            "name": "nextjs-on-cloudflare",
+            "description": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloud…"
+          },
+          {
+            "name": "sandbox-migrate-to-next",
+            "description": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sand…"
+          },
+          {
+            "name": "sandbox-next",
+            "description": "Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next wh…"
+          },
+          {
+            "name": "sandbox-stable",
+            "description": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps…"
+          },
+          {
+            "name": "turnstile-spin",
+            "description": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including serv…"
           },
           {
             "name": "web-perf",
-            "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics…"
+            "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance s…"
           },
           {
             "name": "workers-best-practices",
-            "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing…"
+            "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers."
           },
           {
             "name": "wrangler",
-            "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
           }
         ]
       }
@@ -262,8 +260,8 @@
       }
     },
     "figma": {
-      "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644",
-      "version": "2.2.123",
+      "sha": "2c8af036a758af150ec0244489f6fb3d12e394db",
+      "version": "2.2.124",
       "components": {
         "mcpServers": [
           {
@@ -408,8 +406,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
-      "version": "0.0.190",
+      "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
+      "version": "0.0.191",
       "components": {
         "skills": [
           {
@@ -529,8 +527,8 @@
       }
     },
     "netlify": {
-      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
-      "version": "1.5.1",
+      "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122",
+      "version": "1.5.2",
       "components": {
         "mcpServers": [
           {
@@ -553,7 +551,7 @@
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured data like file uploads, images, documents, JSON, and cache-like state with Netlify Blob…"
+            "description": "Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use whe…"
           },
           {
             "name": "netlify-caching",
@@ -573,7 +571,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
+            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
           },
           {
             "name": "netlify-forms",
@@ -593,7 +591,7 @@
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
+            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -632,7 +630,7 @@
       }
     },
     "pstack": {
-      "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
+      "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
       "components": {
         "agents": [
           {
@@ -849,8 +847,8 @@
       }
     },
     "railway": {
-      "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
-      "version": "1.5.5",
+      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+      "version": "1.6.1",
       "components": {
         "hooks": [
           {
@@ -919,8 +917,8 @@
       }
     },
     "stripe": {
-      "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
-      "version": "0.8.6",
+      "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
+      "version": "0.9.4",
       "components": {
         "agents": [
           {
@@ -989,8 +987,8 @@
       }
     },
     "supabase": {
-      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
-      "version": "0.1.15",
+      "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151",
+      "version": "0.1.16",
       "components": {
         "mcpServers": [
           {
@@ -1011,8 +1009,8 @@
       }
     },
     "superpowers": {
-      "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
-      "version": "6.4.1",
+      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "version": "6.4.2",
       "components": {
         "hooks": [
           {
@@ -1164,6 +1162,146 @@
         ]
       }
     },
+    "unity": {
+      "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc",
+      "version": "0.1.6-beta",
+      "components": {
+        "skills": [
+          {
+            "name": "2d-pixel-perfect",
+            "description": "Sets up, diagnoses, and fixes pixel perfect 2D rendering with PixelPerfectCamera in URP or Built-in. Use when a retro-s…"
+          },
+          {
+            "name": "asset-transformer-toolkit",
+            "description": "Imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, edits, and runs RuleSe…"
+          },
+          {
+            "name": "audio-setup-mixers",
+            "description": "Routes Audio Sources into existing Audio Mixer Groups, classifying each source by what it plays. Use when the user asks…"
+          },
+          {
+            "name": "build-gtk",
+            "description": "Builds node-based Editor tools with Unity Graph Toolkit (GTK) on Unity 6.6+: graphs, nodes, ports and validation, State…"
+          },
+          {
+            "name": "build-live-game",
+            "description": "Builds and operates live games with Unity Services. Use when the user asks about backend or live-ops features such as p…"
+          },
+          {
+            "name": "generate-editor-search-query",
+            "description": "Generates Unity Search queries and opens the Search window to find assets or scene objects. Use when the user asks to f…"
+          },
+          {
+            "name": "implement-in-app-purchases",
+            "description": "Implements, configures, and debugs Unity In-App Purchases, including subscriptions, receipt validation, and direct-to-c…"
+          },
+          {
+            "name": "initialize-ai-navigation",
+            "description": "Sets up and configures Unity AI Navigation, including NavMesh surfaces, agents, obstacles, and links. Use when the user…"
+          },
+          {
+            "name": "levelplay-unity-integration",
+            "description": "Integrates the LevelPlay ad mediation SDK via the Ads Mediation package. Use when the user asks about adding rewarded,…"
+          },
+          {
+            "name": "localization",
+            "description": "Sets up and configures Unity Localization, including locales, String and Asset Tables, and CJK fonts. Use when the user…"
+          },
+          {
+            "name": "manage-sprite-atlas",
+            "description": "Manages SpriteAtlas assets through a prebuild pipeline, covering master and variant atlases, packing settings, and plat…"
+          },
+          {
+            "name": "migrate-birp-to-urp",
+            "description": "Plans, executes, and troubleshoots migration from the Built-in Render Pipeline to URP. Use when asked to convert a proj…"
+          },
+          {
+            "name": "new-unity-project",
+            "description": "Guides creating a new Unity project, gathering concept, platforms, and monetization before setting up the project, sour…"
+          },
+          {
+            "name": "optimize-audio",
+            "description": "Optimizes audio memory, CPU cost, and playback quality through import settings and mixer configuration. Use when asked…"
+          },
+          {
+            "name": "optimize-text-mesh-pro",
+            "description": "Optimizes TextMeshPro rendering, memory, and font setup, including font asset stacks, fallback atlases, SDF quality, an…"
+          },
+          {
+            "name": "optimize-web",
+            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads and faster load. Use when a web build is too large or stu…"
+          },
+          {
+            "name": "physics-3d-collision",
+            "description": "Diagnoses 3D PhysX collision and trigger problems. Use when OnCollisionEnter or OnTriggerEnter doesn't fire, objects pa…"
+          },
+          {
+            "name": "setup-multiplayer-services",
+            "description": "Guides real-time online multiplayer with Unity Multiplayer Services. Use when the user asks about network topology, hos…"
+          },
+          {
+            "name": "setup-vivox-voice-chat",
+            "description": "Adds and configures in-game voice and text chat with Unity Vivox. Use when the user asks about voice chat, microphone p…"
+          },
+          {
+            "name": "shader-graph-create-custom-node",
+            "description": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants a new Shader Graph node or to make existing…"
+          },
+          {
+            "name": "sprite-editor",
+            "description": "Edits Unity sprite rectangles, borders, pivots, outlines, and slicing by generating C# scripts. Use when the user works…"
+          },
+          {
+            "name": "sprite-segment-3x3grid",
+            "description": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the…"
+          },
+          {
+            "name": "tilemap-palette-create",
+            "description": "Creates a Tile Palette asset with a rectangular, hexagonal, or isometric Grid layout. Use when the user wants to organi…"
+          },
+          {
+            "name": "tilemap-ruletile-createempty",
+            "description": "Creates an empty RuleTile, HexagonalRuleTile, or IsometricRuleTile asset. Use only when the user wants a blank RuleTile…"
+          },
+          {
+            "name": "tilemap-ruletile-createfromsegment",
+            "description": "Creates RuleTiles from existing terrain or edge sprites so tiles auto-tile while painting, and converts sprite-segment-…"
+          },
+          {
+            "name": "ui",
+            "description": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.…"
+          },
+          {
+            "name": "ui-imgui",
+            "description": "Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scr…"
+          },
+          {
+            "name": "ui-ugui",
+            "description": "Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for…"
+          },
+          {
+            "name": "ui-uitk",
+            "description": "Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolki…"
+          },
+          {
+            "name": "unity-cli",
+            "description": "Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run…"
+          },
+          {
+            "name": "unity-package-management",
+            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor. Use for headless or CI package ins…"
+          },
+          {
+            "name": "urp-postprocessing",
+            "description": "Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjust…"
+          },
+          {
+            "name": "validate-urp-render-graph-renderer-feature",
+            "description": "Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bind…"
+          }
+        ]
+      }
+    },
     "upload-post": {
       "sha": "36ea2cac12e9d86a9a7c8ccda3f58f99360d12d7",
       "version": "0.2.0",
@@ -1225,8 +1363,8 @@
       }
     },
     "vercel": {
-      "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605",
-      "version": "0.50.1",
+      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
+      "version": "0.51.0",
       "components": {
         "agents": [
           {
@@ -1334,7 +1472,7 @@
           },
           {
             "name": "env-vars",
-            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, Secret or Config va…"
           },
           {
             "name": "eve",
@@ -1406,7 +1544,7 @@
           },
           {
             "name": "vercel-connect",
-            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+            "description": "Vercel Connect expert guidance for securely obtaining scoped credentials for third-party services on behalf of apps or…"
           },
           {
             "name": "vercel-firewall",
@@ -1440,8 +1578,8 @@
       }
     },
     "wix": {
-      "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66",
-      "version": "1.20.0",
+      "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
+      "version": "1.26.0",
       "components": {
         "mcpServers": [
           {
@@ -1457,10 +1595,6 @@
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
-          },
-          {
-            "name": "wix-auth",
-            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
           },
           {
             "name": "wix-base44-connector",
@@ -1479,7 +1613,11 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
-            "name": "wix-headless-fast",
+            "name": "wix-headless-cold-start",
+            "description": "The fetch-and-follow entry pages for Wix Headless, addressable by URL in a prompt. headless-kit.md starts a wix-headles…"
+          },
+          {
+            "name": "wix-headless-kit",
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
           },
           {
