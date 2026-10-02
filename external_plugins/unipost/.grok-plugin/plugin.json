@@ -1,0 +1,17 @@
+{
+  "name": "unipost",
+  "version": "1.0.0",
+  "description": "Schedule posts to Instagram, Facebook Pages, TikTok, and YouTube, and see how published posts performed, through UniPost's hosted MCP at mcp.unipost.ai. Sign in with a UniPost account on first connect.",
+  "author": {
+    "name": "Intuico Digital LLC",
+    "url": "https://unipost.ai"
+  },
+  "homepage": "https://unipost.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "unipost",
+    "unipost mcp",
+    "unipost social"
+  ],
+  "logo": "assets/logo.svg"
+}

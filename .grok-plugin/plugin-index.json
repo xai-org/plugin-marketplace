@@ -1162,6 +1162,17 @@
         ]
       }
     },
+    "unipost": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unipost",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc",
       "version": "0.1.6-beta",
