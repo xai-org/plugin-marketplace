@@ -409,6 +409,24 @@
         ]
       }
     },
+    "jithox": {
+      "sha": "2af58b5517c2307310f081948b74e4ff33c927a3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jithox",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pay-invoices-safely",
+            "description": "Use before paying a supplier invoice or when supplier bank details change, including an invoice IBAN that differs from…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

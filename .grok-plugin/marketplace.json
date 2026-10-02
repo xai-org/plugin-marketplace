@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "jithox",
+      "description": "Jithox payment preflight and invoice checks: 8 tools for IBAN, VAT/VIES, Peppol, KBO, payment preflight, invoice review, and changed supplier bank details.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/victor-emmanuel-c/jithox-mcp.git",
+        "sha": "2af58b5517c2307310f081948b74e4ff33c927a3"
+      },
+      "homepage": "https://jithox.com",
+      "keywords": ["verify iban", "iban check", "vat number check", "vies", "peppol", "e-invoicing belgium", "kbo lookup", "supplier bank details change", "invoice review", "payment preflight"],
+      "domains": ["jithox.com"]
     }
   ]
 }
