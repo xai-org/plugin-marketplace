@@ -395,6 +395,32 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "videogen",
+      "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
+      "category": "media",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/videogen"
+      },
+      "homepage": "https://videogen.io/videogen-mcp",
+      "keywords": [
+        "videogen",
+        "videogen mcp",
+        "videogen video"
+      ],
+      "domains": [
+        "videogen.io",
+        "app.videogen.io",
+        "mcp.videogen.io"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "VideoGen",
+        "email": "support@videogen.io",
+        "url": "https://github.com/video-gen"
+      }
     }
   ]
 }
