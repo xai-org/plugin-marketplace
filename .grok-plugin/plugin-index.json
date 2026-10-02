@@ -870,6 +870,18 @@
         ]
       }
     },
+    "searchable": {
+      "sha": "f934578a6583ef07fff96ece3123c22e72fa25b8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "searchable",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
       "version": "1.4.0",

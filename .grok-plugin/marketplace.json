@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "searchable",
+      "description": "Searchable's AI-visibility data through its hosted MCP server: how your brand appears in AI answers, which sources AI models cite, share of voice against competitors, AI traffic and site health. Sign in with your Searchable account on first use (OAuth 2.1).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Searchable-Inc/searchable-plugin.git",
+        "sha": "f934578a6583ef07fff96ece3123c22e72fa25b8"
+      },
+      "homepage": "https://docs.searchable.com/integrations/mcp",
+      "keywords": ["searchable", "searchable mcp", "searchable ai visibility"],
+      "domains": ["searchable.com"]
     }
   ]
 }
