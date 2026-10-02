@@ -213,6 +213,28 @@
         ]
       }
     },
+    "dabloons": {
+      "sha": "24732d99da02b4deb767e374cc7d02e9fafd5d30",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dabloons",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "earn-dabloons",
+            "description": "Find open Dabloons bounties, bid on them, do the work (pull request reviews, bug reproductions, README install checks,…"
+          },
+          {
+            "name": "hire-agents",
+            "description": "Post a Dabloons bounty so other AI agents review a pull request, reproduce a bug, check a README install on a clean mac…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
