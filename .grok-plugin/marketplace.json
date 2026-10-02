@@ -12,11 +12,17 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "c632a50838a47a639a160baff8411eb9c6af22bf"
+        "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
     },
     {
       "name": "sentry",
@@ -28,8 +34,12 @@
         "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
     },
     {
       "name": "chrome-devtools",
@@ -41,7 +51,11 @@
         "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
     },
     {
       "name": "cloudflare",
@@ -50,11 +64,17 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6"
+        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
     },
     {
       "name": "superpowers",
@@ -63,10 +83,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d"
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
       "name": "base44",
@@ -78,8 +100,17 @@
         "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
-      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
-      "domains": ["base44.com", "docs.base44.com"]
+      "keywords": [
+        "base44",
+        "base44 cli",
+        "base44 sdk",
+        "base44 app",
+        "base44 deploy"
+      ],
+      "domains": [
+        "base44.com",
+        "docs.base44.com"
+      ]
     },
     {
       "name": "mongodb",
@@ -92,8 +123,16 @@
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
-      "domains": ["mongodb.com"]
+      "keywords": [
+        "mongodb community",
+        "mongo",
+        "mongosh",
+        "mongodb local mcp",
+        "enterprise advanced"
+      ],
+      "domains": [
+        "mongodb.com"
+      ]
     },
     {
       "name": "mongodb-atlas",
@@ -106,8 +145,17 @@
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
+      "keywords": [
+        "mongodb atlas",
+        "atlas",
+        "mongodb",
+        "atlas cluster",
+        "atlas mcp"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
     },
     {
       "name": "axiom",
@@ -119,8 +167,13 @@
         "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom"],
-      "domains": ["axiom.co", "app.axiom.co"]
+      "keywords": [
+        "axiom"
+      ],
+      "domains": [
+        "axiom.co",
+        "app.axiom.co"
+      ]
     },
     {
       "name": "neon",
@@ -131,8 +184,17 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+      "keywords": [
+        "neon",
+        "neon postgres",
+        "neon database",
+        "neon branch"
+      ],
+      "domains": [
+        "neon.tech",
+        "neon.com",
+        "console.neon.tech"
+      ]
     },
     {
       "name": "wix",
@@ -141,11 +203,21 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d"
+        "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
-      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
-      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+      "keywords": [
+        "wix",
+        "wix cli",
+        "wix mcp",
+        "wix apps",
+        "wix headless"
+      ],
+      "domains": [
+        "wix.com",
+        "dev.wix.com",
+        "manage.wix.com"
+      ]
     },
     {
       "name": "netlify",
@@ -154,11 +226,18 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122"
+        "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
-      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
-      "domains": ["netlify.com", "app.netlify.com"]
+      "keywords": [
+        "netlify",
+        "netlify deploy",
+        "deploy to netlify"
+      ],
+      "domains": [
+        "netlify.com",
+        "app.netlify.com"
+      ]
     },
     {
       "name": "firecrawl",
@@ -170,8 +249,14 @@
         "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": ["firecrawl", "fire crawl"],
-      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+      "keywords": [
+        "firecrawl",
+        "fire crawl"
+      ],
+      "domains": [
+        "firecrawl.dev",
+        "docs.firecrawl.dev"
+      ]
     },
     {
       "name": "figma",
@@ -180,11 +265,17 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "2c8af036a758af150ec0244489f6fb3d12e394db"
+        "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": ["figma", "figma mcp"],
-      "domains": ["figma.com", "www.figma.com"]
+      "keywords": [
+        "figma",
+        "figma mcp"
+      ],
+      "domains": [
+        "figma.com",
+        "www.figma.com"
+      ]
     },
     {
       "name": "exa",
@@ -196,8 +287,16 @@
         "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
       },
       "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai"],
-      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+      "keywords": [
+        "exa",
+        "exa search",
+        "exa ai"
+      ],
+      "domains": [
+        "exa.ai",
+        "dashboard.exa.ai",
+        "docs.exa.ai"
+      ]
     },
     {
       "name": "tavily",
@@ -209,8 +308,17 @@
         "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
       },
       "homepage": "https://www.tavily.com",
-      "keywords": ["tavily", "tavily search", "tavily ai"],
-      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+      "keywords": [
+        "tavily",
+        "tavily search",
+        "tavily ai"
+      ],
+      "domains": [
+        "tavily.com",
+        "www.tavily.com",
+        "app.tavily.com",
+        "docs.tavily.com"
+      ]
     },
     {
       "name": "octen",
@@ -222,8 +330,15 @@
         "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
       },
       "homepage": "https://octen.ai",
-      "keywords": ["octen", "octen search", "octen ai"],
-      "domains": ["octen.ai", "docs.octen.ai"]
+      "keywords": [
+        "octen",
+        "octen search",
+        "octen ai"
+      ],
+      "domains": [
+        "octen.ai",
+        "docs.octen.ai"
+      ]
     },
     {
       "name": "railway",
@@ -232,12 +347,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": ["railway", "railway deploy", "deploy to railway"],
-      "domains": ["railway.com", "railway.app"]
+      "keywords": [
+        "railway",
+        "railway deploy",
+        "deploy to railway"
+      ],
+      "domains": [
+        "railway.com",
+        "railway.app"
+      ]
     },
     {
       "name": "stripe",
@@ -246,12 +368,22 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
+        "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
-      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+      "keywords": [
+        "stripe",
+        "stripe payments",
+        "stripe connect",
+        "stripe mcp",
+        "stripe billing"
+      ],
+      "domains": [
+        "stripe.com",
+        "docs.stripe.com",
+        "dashboard.stripe.com"
+      ]
     },
     {
       "name": "tinyfish",
@@ -264,8 +396,17 @@
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
-      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
-      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+      "keywords": [
+        "tinyfish",
+        "tinyfish agent",
+        "tinyfish web agent",
+        "agentql"
+      ],
+      "domains": [
+        "tinyfish.ai",
+        "agent.tinyfish.ai",
+        "docs.tinyfish.ai"
+      ]
     },
     {
       "name": "supabase",
@@ -274,11 +415,19 @@
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151"
+        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
-      "domains": ["supabase.com"]
+      "keywords": [
+        "supabase",
+        "supabase mcp",
+        "supabase auth",
+        "supabase storage",
+        "supabase edge functions"
+      ],
+      "domains": [
+        "supabase.com"
+      ]
     },
     {
       "name": "pstack",
@@ -287,11 +436,15 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
+        "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
-      "keywords": ["pstack", "poteto-mode", "poteto"]
+      "keywords": [
+        "pstack",
+        "poteto-mode",
+        "poteto"
+      ]
     },
     {
       "name": "browser-use",
@@ -304,8 +457,15 @@
         "path": "grok"
       },
       "homepage": "https://browser-use.com",
-      "keywords": ["browser use", "browser-use", "browser use cloud"],
-      "domains": ["browser-use.com", "cloud.browser-use.com"]
+      "keywords": [
+        "browser use",
+        "browser-use",
+        "browser use cloud"
+      ],
+      "domains": [
+        "browser-use.com",
+        "cloud.browser-use.com"
+      ]
     },
     {
       "name": "datadog",
@@ -317,8 +477,15 @@
         "sha": "083b4783095520f562534956578c8826613292a9"
       },
       "homepage": "https://github.com/datadog-labs/grok-plugin",
-      "keywords": ["datadog", "datadog mcp"],
-      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+      "keywords": [
+        "datadog",
+        "datadog mcp"
+      ],
+      "domains": [
+        "datadoghq.com",
+        "app.datadoghq.com",
+        "datadoghq.eu"
+      ]
     },
     {
       "name": "quo",
@@ -330,8 +497,18 @@
         "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
       },
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
-      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
-      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+      "keywords": [
+        "quo",
+        "quo mcp",
+        "quo business phone",
+        "openphone"
+      ],
+      "domains": [
+        "quo.com",
+        "mcp.quo.com",
+        "support.quo.com",
+        "my.quo.com"
+      ]
     },
     {
       "name": "bruin",
@@ -343,8 +520,18 @@
         "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
-      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+      "keywords": [
+        "bruin",
+        "bruin api",
+        "mettel bruin",
+        "bruin public api",
+        "bruin ticket"
+      ],
+      "domains": [
+        "bruin.com",
+        "api.bruin.com",
+        "apigw.bruin.com"
+      ]
     },
     {
       "name": "omneky",
@@ -355,8 +542,16 @@
         "path": "./external_plugins/omneky"
       },
       "homepage": "https://www.omneky.com",
-      "keywords": ["omneky", "omneky ads", "omneky mcp"],
-      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+      "keywords": [
+        "omneky",
+        "omneky ads",
+        "omneky mcp"
+      ],
+      "domains": [
+        "omneky.com",
+        "mcp.omneky.com",
+        "app.omneky.com"
+      ]
     },
     {
       "name": "modern-web-guidance",
@@ -365,10 +560,14 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "84ae7251ee919239d5ea85aef25897983f26601e"
+        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
-      "keywords": ["modern web", "web best practices", "web guidance"]
+      "keywords": [
+        "modern web",
+        "web best practices",
+        "web guidance"
+      ]
     },
     {
       "name": "helena",
@@ -380,8 +579,40 @@
         "sha": "9b71516e006144d323f138f1785f55123ec51931"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
-      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+      "keywords": [
+        "helena",
+        "enrich labs",
+        "helena ai marketer",
+        "helena marketing ai agent",
+        "helena autonomous marketer",
+        "helena marketing"
+      ],
+      "domains": [
+        "enrichlabs.ai",
+        "agent.enrichlabs.ai"
+      ]
+    },
+    {
+      "name": "traderspy",
+      "description": "Read-only crypto futures research: AI-generated signals with their resolved outcomes, smart-money and whale positions across Binance, Hyperliquid, Bybit and OKX, live prices, candles, 19 technical indicators over up to three timeframes, funding and open interest, a market screener and condition backtests. Bundles the hosted TraderSpy MCP server (mcp.traderspy.app) and six skills. Every tool is read-only — the plugin has no order, withdrawal or transfer tool.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/target1m/traderspy-mcp.git",
+        "sha": "069aae5a84640d671f92705a2e3bc0b62efca1e0"
+      },
+      "homepage": "https://traderspy.app/mcp",
+      "keywords": [
+        "traderspy",
+        "trader spy",
+        "traderspy signals",
+        "traderspy smart money"
+      ],
+      "domains": [
+        "traderspy.app",
+        "mcp.traderspy.app",
+        "blog.traderspy.app"
+      ]
     },
     {
       "name": "unity",
@@ -393,8 +624,27 @@
         "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
-      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
-      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+      "keywords": [
+        "unity",
+        "unity engine",
+        "unity editor",
+        "unity 6",
+        "unity cli",
+        "unity plugin",
+        "unity game development",
+        "ui toolkit",
+        "shader graph",
+        "unity iap",
+        "levelplay"
+      ],
+      "domains": [
+        "unity.com",
+        "unity3d.com",
+        "docs.unity3d.com",
+        "docs.unity.com",
+        "discussions.unity.com",
+        "assetstore.unity.com"
+      ]
     }
   ]
 }
