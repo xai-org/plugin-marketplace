@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hydradb",
+      "description": "Automatic long-term memory for Grok Build, powered by HydraDB: prompt-time recall, workspace doc sync, and conversation capture across sessions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hydra-db/hydradb-grok-plugin.git",
+        "sha": "5d325b0d3876bfbc85820118a9a33c517d2c2767"
+      },
+      "homepage": "https://hydradb.com",
+      "keywords": ["hydradb", "hydra db"],
+      "domains": ["hydradb.com", "docs.hydradb.com"]
     }
   ]
 }
