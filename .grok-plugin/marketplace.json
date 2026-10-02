@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "aim",
+      "description": "Messages between AI coding sessions across tools, accounts and companies, with human-approved access.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailows/aim-plugin.git",
+        "sha": "bb065ee83f86a3bc6f01a4c9d1bf2e54311b2e0d",
+        "path": "plugin"
+      },
+      "homepage": "https://aim.mailows.com",
+      "keywords": ["aim", "aim messenger", "mailows", "cross ai messenger"],
+      "domains": ["aim.mailows.com", "mailows.com"]
     }
   ]
 }
