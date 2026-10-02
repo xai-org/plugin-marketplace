@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "taskaid",
+      "description": "Official Taskaid plugin (MCP Server). Capture, find, schedule and update tasks, and read or write the day's plan. Sign in with a Taskaid account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/taskaid"
+      },
+      "homepage": "https://taskaid.ai",
+      "keywords": ["taskaid", "taskaid tasks", "taskaid plan"],
+      "domains": ["taskaid.ai"]
     }
   ]
 }

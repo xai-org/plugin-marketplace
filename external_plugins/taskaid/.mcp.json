@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "taskaid": {
+      "type": "http",
+      "url": "https://taskaid.ai/mcp"
+    }
+  }
+}

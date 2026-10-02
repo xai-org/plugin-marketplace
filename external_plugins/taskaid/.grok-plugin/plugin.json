@@ -1,0 +1,12 @@
+{
+  "name": "taskaid",
+  "version": "1.0.0",
+  "description": "Capture, find and plan your Taskaid tasks and daily plan through the hosted Taskaid MCP server. Sign in with your Taskaid account on first connect.",
+  "author": {
+    "name": "Taskaid",
+    "url": "https://taskaid.ai"
+  },
+  "homepage": "https://taskaid.ai",
+  "license": "MIT",
+  "keywords": ["taskaid", "taskaid tasks", "taskaid plan"]
+}
