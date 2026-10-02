@@ -633,6 +633,18 @@
         ]
       }
     },
+    "orchard": {
+      "sha": "d458052ee52c93a382fa68fdc9d1aeff095aa409",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "orchard",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
