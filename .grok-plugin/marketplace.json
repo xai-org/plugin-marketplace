@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "unipost",
+      "description": "UniPost social media scheduling. Schedule posts to Instagram, Facebook Pages, TikTok, and YouTube, review what's queued, and pull views, likes, and comments for published posts. Nothing publishes until you approve it in the chat or through UniPost's approval link. Sign in with a UniPost account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/unipost"
+      },
+      "homepage": "https://unipost.ai",
+      "keywords": ["unipost", "unipost mcp", "unipost social", "unipost schedule"],
+      "domains": ["unipost.ai", "mcp.unipost.ai"]
     }
   ]
 }
