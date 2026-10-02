@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "pumpgtm",
+      "description": "Find buyers, run LinkedIn, email and X outreach, and answer replies from Grok. PumpGTM's hosted OAuth MCP server finds buyers showing intent, runs outreach from your own accounts inside each platform's limits, and hands every reply back to a human.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pumpgtm/pumpgtm-mcp.git",
+        "sha": "ee7d21dd955baabe989c26dc49a8138ef0ed0902"
+      },
+      "homepage": "https://pumpgtm.com",
+      "keywords": ["pumpgtm", "pumpgtm mcp", "pumpgtm outbound", "pumpgtm linkedin"],
+      "domains": ["pumpgtm.com", "mcp.pumpgtm.com", "app.pumpgtm.com"]
     }
   ]
 }
