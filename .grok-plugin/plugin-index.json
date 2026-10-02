@@ -409,6 +409,57 @@
         ]
       }
     },
+    "hydradb": {
+      "sha": "5d325b0d3876bfbc85820118a9a33c517d2c2767",
+      "version": "1.1.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit|NotebookEdit"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "auto-recall",
+            "description": "Retrieve relevant HydraDB context (past chats, workspace docs, decisions) before answering substantive questions."
+          },
+          {
+            "name": "doctor",
+            "description": "Inspect HydraDB plugin config, settings, and sync state. Use when asked if HydraDB works or why recall or sync fails."
+          },
+          {
+            "name": "hydradb-context",
+            "description": "Guidance for sessions with injected HydraDB context. Use when <hydradb-context> blocks appear or the user asks about it."
+          },
+          {
+            "name": "ingest",
+            "description": "Ingest the workspace's markdown context into HydraDB now. Use for an immediate sync instead of waiting for auto-sync."
+          },
+          {
+            "name": "last-recall",
+            "description": "Show the most recent auto-recall payload. Use to debug whether recall ran, what HydraDB returned, or what was injected."
+          },
+          {
+            "name": "query",
+            "description": "Query HydraDB in the configured search mode. Use to inspect what HydraDB knows: memories, workspace knowledge, or both."
+          },
+          {
+            "name": "setup",
+            "description": "Configure the HydraDB Grok Build plugin for this workspace. Use to enable memory, fix config, or create a config file."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
