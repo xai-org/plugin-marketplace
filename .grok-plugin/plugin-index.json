@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "allstackd": {
+      "sha": "28fbc29e0d93e3d2fcb3c0d1c407f57b565b78a0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "allstackd",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "allstackd",
+            "description": "Use when the user manages Amazon SES across multiple products or clients, needs portfolio email health, domain verifica…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
