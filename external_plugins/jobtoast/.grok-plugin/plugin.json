@@ -1,0 +1,12 @@
+{
+  "name": "jobtoast",
+  "version": "1.0.0",
+  "description": "Saved jobs, work profile, application answers, interview prep, and cover-letter drafts in Job Toast. Sign in with a Job Toast account on first connect.",
+  "author": {
+    "name": "Job Toast",
+    "url": "https://github.com/colorpulse6"
+  },
+  "homepage": "https://jobtoast.io",
+  "license": "Proprietary",
+  "keywords": ["job toast", "jobtoast", "jobtoast mcp"]
+}
