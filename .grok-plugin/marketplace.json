@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "signatoro",
+      "description": "The same email signature on every email you and your AI agents send. Agents fetch it from one API, always the latest; agents with their own mailbox get your company brand and compliance footnote.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BlastraIO/signatoro-mcp-plugin.git",
+        "sha": "8d5c7d75d91882d585f7b9f8781099bd4b544268"
+      },
+      "homepage": "https://signatoro.com",
+      "keywords": ["signatoro", "signatoro email signature", "signatoro mcp"],
+      "domains": ["signatoro.com"]
     }
   ]
 }
