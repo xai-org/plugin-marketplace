@@ -395,6 +395,24 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "prometheor",
+      "description": "Recall relevant saved Prometheor preferences and project decisions, and save concise durable facts under current consent settings. Host-assisted tools and skill; no background conversation capture.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prometheorhq/prometheor-plugin.git",
+        "sha": "27aaba9739e06af10608dec07ccfa50f6877bd15"
+      },
+      "homepage": "https://prometheor.com",
+      "keywords": [
+        "prometheor"
+      ],
+      "domains": [
+        "prometheor.com",
+        "app.prometheor.com"
+      ]
     }
   ]
 }
