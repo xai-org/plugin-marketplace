@@ -920,6 +920,17 @@
         ]
       }
     },
+    "stophy": {
+      "sha": "d49eab121b3e119f67ea6f45cd840d0daf548481",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "stophy",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
       "version": "0.9.6",
