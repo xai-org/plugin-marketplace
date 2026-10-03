@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "podcaststotext",
+      "description": "Transcribe podcasts, YouTube and TikTok videos and audio files with speaker labels and timestamps through PodcastsToText's hosted MCP server, then generate show notes, chapters and translations. Includes the official skill; connect with OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/marstyl99/podcaststotext-agent.git",
+        "sha": "4633769eeb0162f2cc247beec17da3b3c05b6577"
+      },
+      "homepage": "https://podcaststotext.com/mcp",
+      "keywords": ["podcaststotext", "podcasts to text", "podcaststotext mcp"],
+      "domains": ["podcaststotext.com", "www.podcaststotext.com"]
     }
   ]
 }
