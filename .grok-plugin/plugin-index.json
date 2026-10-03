@@ -397,6 +397,24 @@
         ]
       }
     },
+    "galaxy-plugin": {
+      "sha": "adfb2552bdd93012e5befd75d35f6098b5011762",
+      "version": "0.4.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "galaxy",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "galaxy-analysis",
+            "description": "Work with Galaxy histories, datasets, tools and workflows. Use for Galaxy data inspection, analysis execution, run moni…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
