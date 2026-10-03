@@ -1,0 +1,12 @@
+{
+  "name": "save-this-one",
+  "version": "1.0.0",
+  "description": "Save, search, read, tag, and organize your bookmarks through the hosted Save This One MCP server with OAuth sign-in.",
+  "author": {
+    "name": "Ye Myat Min",
+    "url": "https://github.com/yemyat"
+  },
+  "homepage": "https://savethisone.com/integrations/mcp",
+  "license": "Proprietary",
+  "keywords": ["save this one", "savethisone", "save this one mcp"]
+}
