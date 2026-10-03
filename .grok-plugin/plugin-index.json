@@ -604,6 +604,26 @@
         ]
       }
     },
+    "objekts-production-desk": {
+      "sha": "597eb16e37fef3a6edb8975b3d45abbded75fbfb",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "production-brief",
+            "description": "Turn a commercial, AI-video, VFX, CGI, motion, animation, DOOH, adaptation, tender or hybrid visual-production request…"
+          },
+          {
+            "name": "production-estimate",
+            "description": "Estimate or budget-fit a commercial, AI-video, VFX, CGI, motion, animation, adaptation or hybrid visual-production job…"
+          },
+          {
+            "name": "production-feasibility",
+            "description": "Assess whether a commercial, AI-video, VFX, CGI, motion, animation, transition, DOOH or hybrid visual-production idea i…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

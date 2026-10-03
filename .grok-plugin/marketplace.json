@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "31b69df377b88bed87d37944afc96c656ab23a04"
+        "sha": "1f27a1e8faef6eba484113f63fb4ad7010321dd3"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "objekts-production-desk",
+      "description": "objekts Production Desk is a professional production-preflight system by objekts: it checks reference authority, hard locks, route safety, asset fitness, continuity, versioning and PoC priorities, with optional estimates and human review.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/peach420fuzz/objekts-production-desk.git",
+        "sha": "597eb16e37fef3a6edb8975b3d45abbded75fbfb"
+      },
+      "homepage": "https://objekts.ai/",
+      "keywords": ["objekts", "objekts production desk", "objekts visual production"],
+      "domains": ["objekts.ai", "mcp.objekts.ai"]
     }
   ]
 }
