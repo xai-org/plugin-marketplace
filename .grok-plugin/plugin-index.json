@@ -397,6 +397,28 @@
         ]
       }
     },
+    "firmament": {
+      "sha": "3654f2880599bc0fb5ceab396b01ef7b15457d7c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "firmament",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "firmament",
+            "description": "Find project context and preserve useful learning in the team's Firmament notebook, through the Firmament tools."
+          },
+          {
+            "name": "firmament-gate-authoring",
+            "description": "Create or change a Firmament review gate when a user asks you to keep checking work against a standard. Not for running…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
