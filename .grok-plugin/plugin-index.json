@@ -213,6 +213,24 @@
         ]
       }
     },
+    "command-mail": {
+      "sha": "736a1d8415ddc0ccf89fb3bec476d19c53654808",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "commandmail",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mail-workflow",
+            "description": "Find and read mail in a connected Command Mail account, summarize open replies and follow-ups, or prepare a mail briefi…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
