@@ -403,7 +403,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mailtea-app/mailtea-agent-plugin.git",
-        "sha": "aa838631c288819924ec6b970896905d3070beac"
+        "sha": "172c0a9c8ad5ac2649787073659861fc20d99d2c"
       },
       "homepage": "https://github.com/mailtea-app/mailtea-agent-plugin",
       "keywords": ["mailtea", "mailtea email", "mailtea newsletter", "send with mailtea"],

@@ -410,8 +410,8 @@
       }
     },
     "mailtea": {
-      "sha": "aa838631c288819924ec6b970896905d3070beac",
-      "version": "0.7.0",
+      "sha": "172c0a9c8ad5ac2649787073659861fc20d99d2c",
+      "version": "0.9.0",
       "components": {
         "mcpServers": [
           {
