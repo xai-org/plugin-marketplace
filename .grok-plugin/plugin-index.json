@@ -633,6 +633,24 @@
         ]
       }
     },
+    "organify": {
+      "sha": "56938c87d2ecde4e208fcc74fa18a3b10919ba99",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "organify",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "organify",
+            "description": "Work with Organify workspaces, projects, tasks, sprints and notifications. Use when the user mentions Organify, their p…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
