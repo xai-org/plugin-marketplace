@@ -1086,6 +1086,24 @@
         ]
       }
     },
+    "tareno": {
+      "sha": "afcfb44c0e6d785a46372649d30839edf493180c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tareno",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tareno-social-ops",
+            "description": "Use Tareno to inspect social accounts and posts, analyze performance metrics, derive content strategy, manage media, cr…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
