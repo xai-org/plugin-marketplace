@@ -409,6 +409,24 @@
         ]
       }
     },
+    "mentionedon": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mentionedon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-discovery-readiness",
+            "description": "Use when a user wants to assess supplied AI-discovery signals, prioritize visibility gaps, or summarize dated model-cap…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
