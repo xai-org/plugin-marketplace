@@ -395,6 +395,27 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "afterglow",
+      "description": "Read applicable breakup and separation checklists and save confirmed task progress.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+        "path": "plugins/afterglow"
+      },
+      "homepage": "https://afterglow-lime.vercel.app/developers",
+      "keywords": [
+        "afterglow"
+      ],
+      "domains": [
+        "afterglow-lime.vercel.app"
+      ],
+      "version": "1.0.2",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
