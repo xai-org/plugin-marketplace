@@ -347,6 +347,19 @@
       "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
     },
     {
+      "name": "socialmcp",
+      "description": "Manage social accounts through SocialMCP's hosted OAuth MCP server. Read profiles and posts, draft and publish content across LinkedIn, Facebook Pages, Instagram, X, YouTube, TikTok, Reddit, Pinterest, and Threads. Posts require approval by default.",
+      "category": "social",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/finepher/social-mcp-plugin.git",
+        "sha": "2ba8fdf054d739a0a74c1f070a14667904c5ed93"
+      },
+      "homepage": "https://social-mcp.finepher.com",
+      "keywords": ["socialmcp", "social media", "social media management", "publish social posts", "manage social accounts", "finepher"],
+      "domains": ["social-mcp.finepher.com", "finepher.com"]
+    },
+    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
