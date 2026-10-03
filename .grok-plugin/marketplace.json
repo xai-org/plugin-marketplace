@@ -395,6 +395,26 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "creative-claw",
+      "description": "Generate and edit images, video, and audio with reusable Characters and brand assets through the hosted Creative Claw MCP server.",
+      "category": "creative",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CreativeClawCo/creative-claw-marketplace.git",
+        "sha": "32f2932ce96b7067b7496b839aee82945ec26adc",
+        "path": "plugins/creative-claw"
+      },
+      "homepage": "https://creativeclaw.co",
+      "keywords": [
+        "creativeclaw",
+        "creative claw"
+      ],
+      "domains": [
+        "creativeclaw.co",
+        "app.creativeclaw.co"
+      ]
     }
   ]
 }

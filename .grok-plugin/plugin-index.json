@@ -213,6 +213,88 @@
         ]
       }
     },
+    "creative-claw": {
+      "sha": "32f2932ce96b7067b7496b839aee82945ec26adc",
+      "version": "0.7.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "creative-claw",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "creativeclaw",
+            "description": "Route mixed, ambiguous, cross-modal, or workspace-management requests through Creative Claw. Use when the user asks to…"
+          },
+          {
+            "name": "creativeclaw-build-film",
+            "description": "Produce a complete multi-shot Creative Claw film from planning through an assembled first cut. Use for ads, explainers,…"
+          },
+          {
+            "name": "creativeclaw-clone-voice",
+            "description": "Guide recording, private upload, cloning, testing, and reuse of a consented personal voice with Cartesia or ElevenLabs.…"
+          },
+          {
+            "name": "creativeclaw-create-avatar",
+            "description": "Create a reusable personal avatar or fictional Character from photos or a brief, generate and approve a consistent char…"
+          },
+          {
+            "name": "creativeclaw-create-character",
+            "description": "Save, inspect or update an existing reusable Creative Claw Character and its visual identity. Use creativeclaw-create-a…"
+          },
+          {
+            "name": "creativeclaw-create-reels",
+            "description": "Turn existing long-form video into coherent social clips in the requested aspect ratio, with optional captions. Use whe…"
+          },
+          {
+            "name": "creativeclaw-create-ugc-ad",
+            "description": "Create a scripted creator-style UGC product ad with Creative Claw. Use when the user wants a vertical testimonial, demo…"
+          },
+          {
+            "name": "creativeclaw-edit-media",
+            "description": "Edit existing video or audio with Creative Claw without regenerating it: trim, cut and reorder chosen moments, resize o…"
+          },
+          {
+            "name": "creativeclaw-generate-image",
+            "description": "Generate or edit a single image with Creative Claw and route it to the right image model. Use for image creation and ed…"
+          },
+          {
+            "name": "creativeclaw-generate-music",
+            "description": "Compose scores, beds, jingles, stings, themes, instrumentals, or vocal songs with Creative Claw (Lyria 3.5, ElevenLabs…"
+          },
+          {
+            "name": "creativeclaw-generate-sound-effects",
+            "description": "Generate sound effects, Foley, ambience, loops, UI cues, transitions, impacts, or audio textures with ElevenLabs Sound…"
+          },
+          {
+            "name": "creativeclaw-generate-video",
+            "description": "Generate, animate, extend, reframe, or transform one video clip with Creative Claw. Use for a clear single-clip request…"
+          },
+          {
+            "name": "creativeclaw-generate-voiceover",
+            "description": "Generate narration, dialogue, or expressive speech with Creative Claw, or design a new custom synthetic voice from a de…"
+          },
+          {
+            "name": "creativeclaw-plan-video",
+            "description": "Plan a video as an approved script, shot list, and storyboard with clean generation references. Use before costly multi…"
+          },
+          {
+            "name": "creativeclaw-product-photoshoot",
+            "description": "Create a coherent set of campaign-ready product images with Creative Claw. Use for packshots, ecommerce sets, lifestyle…"
+          },
+          {
+            "name": "creativeclaw-render-html",
+            "description": "Render an exact HTML/CSS layout to a PNG, or a HyperFrames HTML/CSS/JS composition to video, with Creative Claw. Use on…"
+          },
+          {
+            "name": "creativeclaw-submit-feedback",
+            "description": "Send user-approved feedback to the Creative Claw team. Use when the user asks to send feedback or approves an offer to…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
