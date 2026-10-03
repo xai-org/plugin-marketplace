@@ -1,0 +1,16 @@
+{
+  "name": "floatout",
+  "version": "1.0.0",
+  "description": "Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. No auth.",
+  "author": {
+    "name": "Floatout",
+    "url": "https://floatout.xyz"
+  },
+  "homepage": "https://floatout.xyz",
+  "license": "Proprietary",
+  "keywords": [
+    "floatout",
+    "floatout mcp",
+    "floatout hyperliquid"
+  ]
+}
