@@ -409,6 +409,94 @@
         ]
       }
     },
+    "magic-hour": {
+      "sha": "2c69ad9c99bff2990e86fb8b0cf4581d3fb7c48c",
+      "version": "1.4.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ai-media-quality-review",
+            "description": "Inspect generated images, video and audio before delivery using deterministic metadata, contact-sheet, black-frame and…"
+          },
+          {
+            "name": "ai-video-generation",
+            "description": "Create finished AI videos with Magic Hour from a prompt, image, face, character, performance or audio. Use for image-to…"
+          },
+          {
+            "name": "creator-video-remix",
+            "description": "Turn a supplied reference video, format or creative premise into an original finished short with Magic Hour. Use for cr…"
+          },
+          {
+            "name": "magic-hour-body-swap",
+            "description": "Place a supplied person into a scene image with Magic Hour Body Swap, preserving the intended identity and checking pos…"
+          },
+          {
+            "name": "magic-hour-brand-kit",
+            "description": "Create, extend or apply a reusable brand kit with Magic Hour imagery, exact logos and colors, editable layouts and a pr…"
+          },
+          {
+            "name": "magic-hour-campaign-kit",
+            "description": "Finish a product ad with exact copy and layout or create coordinated assets from one approved reference. Use for campai…"
+          },
+          {
+            "name": "magic-hour-character-consistency",
+            "description": "Keep a recurring character recognizable across Magic Hour images, storyboards, and video shots. Use for a mascot, ficti…"
+          },
+          {
+            "name": "magic-hour-character-replace",
+            "description": "Replace a subject in an existing video or transfer its performance onto a reference character with Magic Hour. Use for…"
+          },
+          {
+            "name": "magic-hour-explainer-video",
+            "description": "Turn a source document or brief into a finished narrated explainer using Magic Hour images, speech and video, with a co…"
+          },
+          {
+            "name": "magic-hour-face-swap",
+            "description": "Put a supplied face into an existing video or photo with Magic Hour while preserving the performance, shot and intended…"
+          },
+          {
+            "name": "magic-hour-image-editing",
+            "description": "Edit an existing image with Magic Hour while protecting details outside the requested change. Use for background replac…"
+          },
+          {
+            "name": "magic-hour-image-to-video",
+            "description": "Animate a portrait, character, artwork or scene with Magic Hour, editing and inspecting the start frame when needed bef…"
+          },
+          {
+            "name": "magic-hour-marketplace-images",
+            "description": "Build a product listing image set with Magic Hour, including a clean main image, detail and lifestyle images, and accur…"
+          },
+          {
+            "name": "magic-hour-media",
+            "description": "Generate, edit, and retrieve images, video, and audio with Magic Hour, including recovery of existing projects. Use whe…"
+          },
+          {
+            "name": "magic-hour-music-video",
+            "description": "Turn a supplied song or instrumental into a Magic Hour visualizer, music video or performance clip. Use for release tea…"
+          },
+          {
+            "name": "magic-hour-product-visuals",
+            "description": "Create or edit a Magic Hour product image with controlled composition, geometry, branding and copy space. Use for produ…"
+          },
+          {
+            "name": "magic-hour-talking-video",
+            "description": "Make a portrait speak, react or perform supplied audio with Magic Hour, or lip-sync an existing video to replacement sp…"
+          },
+          {
+            "name": "magic-hour-text-to-video",
+            "description": "Turn an idea into a short Magic Hour video when no exact identity or starting frame is required. Use for original surre…"
+          },
+          {
+            "name": "magic-hour-thumbnails",
+            "description": "Create readable, truthful video thumbnails and covers with Magic Hour, preserving supplied faces and products and testi…"
+          },
+          {
+            "name": "magic-hour-video-editing",
+            "description": "Edit or repurpose existing footage with Magic Hour, choosing between generative visual edits, subtitles, and precise lo…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
