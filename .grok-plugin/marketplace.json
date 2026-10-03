@@ -395,6 +395,15 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "kitcut",
+      "description": "Make animated films from a chat: narrated, scored hand-drawn, painted or collage films from an idea, or from a video template (event and speaker promos, invitations) with a few words and pictures. Run series projects and publish to YouTube. Sign in with a KitCut account.",
+      "category": "media",
+      "source": { "type": "local", "path": "./external_plugins/kitcut" },
+      "homepage": "https://kitcut.ai",
+      "keywords": ["kitcut", "kitcut film", "kitcut mcp"],
+      "domains": ["kitcut.ai"]
     }
   ]
 }

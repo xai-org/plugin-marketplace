@@ -1,0 +1,16 @@
+{
+  "name": "kitcut",
+  "version": "1.0.0",
+  "description": "Make animated films from a chat with KitCut: hand-drawn, painted or collage explainers and promos, narrated and scored, 5 seconds to 8 minutes. Start from a video template (event and speaker promos, invitations) with a few words and pictures, run series projects, and publish to YouTube. Sign in with a KitCut account on first connect.",
+  "author": {
+    "name": "KitCut",
+    "url": "https://kitcut.ai"
+  },
+  "homepage": "https://kitcut.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "kitcut",
+    "kitcut film",
+    "kitcut mcp"
+  ]
+}
