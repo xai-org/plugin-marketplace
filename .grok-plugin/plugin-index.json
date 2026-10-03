@@ -1166,6 +1166,24 @@
         ]
       }
     },
+    "toolrouter": {
+      "sha": "a1c63fd5d19a80a9873e77aac0afbdd581b7dc16",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toolrouter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "toolrouter",
+            "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video ge…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
