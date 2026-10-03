@@ -71,6 +71,17 @@
         ]
       }
     },
+    "brianbooms-mcp": {
+      "sha": "5ba15be4d77318a71316887868290ed215134ccf",
+      "components": {
+        "skills": [
+          {
+            "name": "brianbooms-data-apis",
+            "description": "Pay-per-call data APIs for AI agents on Base via x402 — live catalog at brianbooms.com/agents/"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",

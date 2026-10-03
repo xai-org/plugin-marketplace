@@ -6,6 +6,18 @@
   },
   "plugins": [
     {
+      "name": "brianbooms-mcp",
+      "description": "Pay-per-call data APIs for AI agents on Base via x402 — 29 endpoints, $0.005/call. MCP server: npm i -g brianbooms-mcp",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/brianbooms/brianbooms-mcp.git",
+        "sha": "5ba15be4d77318a71316887868290ed215134ccf"
+      },
+      "homepage": "https://github.com/brianbooms/brianbooms-mcp",
+      "keywords": ["brianbooms", "mcp", "x402", "agent commerce", "data apis"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
