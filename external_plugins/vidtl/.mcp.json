@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vidtl": {
+      "type": "http",
+      "url": "https://vidtl.com/app/mcp"
+    }
+  }
+}
