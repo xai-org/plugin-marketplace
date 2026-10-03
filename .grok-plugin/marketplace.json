@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "unfetch",
+      "description": "Marketing reporting for Google Ads, Meta Ads, Google Analytics 4, and Google Search Console, with keyword, competitor, landing-page, and web research through Unfetch's hosted OAuth MCP server.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/unfetch-com/agent-plugin.git",
+        "sha": "91dc3ea713c941bad73e36afa4925f19f5c50cfb",
+        "path": "agent-plugin/unfetch"
+      },
+      "homepage": "https://unfetch.com/plugin",
+      "keywords": ["unfetch", "unfetch marketing reporting", "unfetch ads reporting", "unfetch mcp"],
+      "domains": ["unfetch.com"]
     }
   ]
 }

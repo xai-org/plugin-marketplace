@@ -1166,6 +1166,24 @@
         ]
       }
     },
+    "unfetch": {
+      "sha": "91dc3ea713c941bad73e36afa4925f19f5c50cfb",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unfetch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "marketing-reporting",
+            "description": "Create reliable, evidence-led marketing reports with Unfetch and reuse existing report artifacts for follow-up analysis."
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
