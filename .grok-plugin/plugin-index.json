@@ -398,8 +398,8 @@
       }
     },
     "formbase": {
-      "sha": "56267e367de359a819207ffa1ffb04f738fead65",
-      "version": "1.0.1",
+      "sha": "07c5bc4e1b57bdf790b7b686212398f47846ef5f",
+      "version": "1.0.2",
       "components": {
         "mcpServers": [
           {
@@ -410,7 +410,7 @@
         "skills": [
           {
             "name": "formbase-requests",
-            "description": "Ask a customer for information through formbase and read the verified answers back. Use when a workflow or AI agent nee…"
+            "description": "Ask a customer for information through formbase and read the verified answers back. Use when you need a confirmation, a…"
           }
         ]
       }
