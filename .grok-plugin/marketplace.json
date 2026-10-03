@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "zensei",
+      "description": "Today's Zensei Index: a 0-100 US stock market risk score (lower is healthier), its ten indicators, and the latest market summary. Read-only remote MCP server, no account needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wegravel/zensei-mcp.git",
+        "sha": "f18e9d18d9ef10d1653b0c4ac46274a2a3065fae"
+      },
+      "homepage": "https://www.zensei.com/mcp",
+      "keywords": ["zensei", "zensei index", "zensei market risk", "zensei score"],
+      "domains": ["zensei.com", "www.zensei.com"]
     }
   ]
 }

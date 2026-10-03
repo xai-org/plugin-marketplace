@@ -1550,6 +1550,18 @@
           }
         ]
       }
+    },
+    "zensei": {
+      "sha": "f18e9d18d9ef10d1653b0c4ac46274a2a3065fae",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zensei",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
