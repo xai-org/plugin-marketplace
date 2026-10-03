@@ -633,6 +633,40 @@
         ]
       }
     },
+    "onelence": {
+      "sha": "dd8a9139002844c4510b01d794d74322631f771e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "onelence",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "daily-growth-brief",
+            "description": "Gives the user a short daily briefing from their OneLence workspace covering today's priorities, which traffic sources…"
+          },
+          {
+            "name": "decision-review",
+            "description": "Explains one OneLence Decision (scale, hold or stop) for a traffic source or affiliate partner, covering the reasons, e…"
+          },
+          {
+            "name": "install-tracking",
+            "description": "Installs OneLence tracking (the @crelora/mark SDK) in the website or app in the current codebase. Covers pageviews and…"
+          },
+          {
+            "name": "record-a-change",
+            "description": "Records a business change the team made outside OneLence (a budget change, new offer or price, tracking fix, new creati…"
+          },
+          {
+            "name": "weekly-review",
+            "description": "Runs a weekly marketing review from OneLence covering how the site performed against the previous week, which sources m…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
