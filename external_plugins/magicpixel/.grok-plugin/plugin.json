@@ -1,0 +1,16 @@
+{
+  "name": "magicpixel",
+  "version": "1.0.0",
+  "description": "MagicPixel AI pixel art via the hosted MCP at magicpixel.art/mcp: generate sprites, variants, new facing directions and merges, browse the community marketplace, and manage your library. Sign in with a MagicPixel account on first connect.",
+  "author": {
+    "name": "MagicPixel",
+    "url": "https://magicpixel.art"
+  },
+  "homepage": "https://magicpixel.art",
+  "license": "Proprietary",
+  "keywords": [
+    "magicpixel",
+    "magicpixel mcp",
+    "magicpixel pixel art"
+  ]
+}
