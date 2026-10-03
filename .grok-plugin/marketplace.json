@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "mailtea",
+      "description": "Mailtea email platform integration. Send transactional email, schedule and publish newsletters, manage contacts and senders, verify sending domains, and check delivery, with skills for email design and publication websites, directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailtea-app/mailtea-agent-plugin.git",
+        "sha": "172c0a9c8ad5ac2649787073659861fc20d99d2c"
+      },
+      "homepage": "https://github.com/mailtea-app/mailtea-agent-plugin",
+      "keywords": ["mailtea", "mailtea email", "mailtea newsletter", "send with mailtea"],
+      "domains": ["mailtea.app", "docs.mailtea.app", "api.mailtea.app"]
     }
   ]
 }
