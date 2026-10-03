@@ -1,0 +1,13 @@
+{
+  "name": "crawlgraph",
+  "version": "1.0.0",
+  "description": "CrawlGraph backlink research and competitor gap prospecting from quarterly Common Crawl snapshots.",
+  "author": {
+    "name": "Petteri Pucilowski",
+    "url": "https://crawlgraph.com"
+  },
+  "homepage": "https://crawlgraph.com",
+  "repository": "https://github.com/pucilpet/crawlgraph-mcp",
+  "license": "MIT",
+  "keywords": ["crawlgraph", "crawlgraph backlinks", "crawlgraph mcp"]
+}
