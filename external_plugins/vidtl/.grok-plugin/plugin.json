@@ -1,0 +1,16 @@
+{
+  "name": "vidtl",
+  "version": "1.0.0",
+  "description": "Edit video in your open VidTL editor through the hosted MCP at vidtl.com/app/mcp: cuts, transcript edits, subtitles, audio cleanup, effects and export. Sign in with a VidTL account on first connect.",
+  "author": {
+    "name": "VidTL",
+    "url": "https://vidtl.com"
+  },
+  "homepage": "https://vidtl.com/video-editor-mcp-cli/",
+  "license": "Proprietary",
+  "keywords": [
+    "vidtl",
+    "vidtl editor",
+    "vidtl mcp"
+  ]
+}
