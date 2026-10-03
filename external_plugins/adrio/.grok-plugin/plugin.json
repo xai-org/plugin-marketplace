@@ -1,0 +1,18 @@
+{
+  "name": "adrio",
+  "version": "1.0.0",
+  "description": "Adrio, the AI media buyer for Meta ads, via the hosted MCP at api.adrio.ai. Create static and video ad creatives, launch them to Facebook and Instagram, and research competitor ads. Sign in with an Adrio account on first connect.",
+  "author": {
+    "name": "Adrio",
+    "email": "info@adrio.ai",
+    "url": "https://github.com/Adrio-AI"
+  },
+  "homepage": "https://adrio.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "adrio",
+    "adrio ads",
+    "adrio spark",
+    "adrio mcp"
+  ]
+}
