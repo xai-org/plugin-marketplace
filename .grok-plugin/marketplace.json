@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "kemory",
+      "description": "Persistent, cross-session memory powered by Kemory. Injects your prior context at session start, recalls past decisions and runbooks before you re-derive them, and stores durable facts as they happen.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SeKondBrainAILabs/kemory-plugin.git",
+        "sha": "6334fa0e891dc6f1b719698c49af7dcf2cb2e6e5",
+        "path": "plugin"
+      },
+      "homepage": "https://get.kemory.sekondbrain.ai/",
+      "keywords": ["kemory", "sekondbrain", "kemory recall", "kemory memory"],
+      "domains": ["kemory.sekondbrain.ai", "api.kemory.s9n.ai"]
     }
   ]
 }
