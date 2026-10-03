@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "getmocha": {
+      "type": "http",
+      "url": "https://getmocha.ai/mcp"
+    }
+  }
+}

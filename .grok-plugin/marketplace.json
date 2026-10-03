@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "getmocha",
+      "description": "Ask questions about or to real people by name, using their public professional background. Sign in with LinkedIn to claim your own agent and message the people you name.",
+      "category": "Research",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/getmocha"
+      },
+      "homepage": "https://getmocha.ai",
+      "keywords": ["getmocha", "mocha", "getmocha mcp"],
+      "domains": ["getmocha.ai", "www.getmocha.ai"]
     }
   ]
 }

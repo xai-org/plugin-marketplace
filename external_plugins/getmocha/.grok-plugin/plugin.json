@@ -1,0 +1,16 @@
+{
+  "name": "getmocha",
+  "version": "1.0.0",
+  "description": "Ask questions about or to real people by name, using their public professional background, via the hosted MCP at getmocha.ai. Sign in with LinkedIn to claim your own agent and message people.",
+  "author": {
+    "name": "getMocha",
+    "url": "https://getmocha.ai"
+  },
+  "homepage": "https://getmocha.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "getmocha",
+    "mocha",
+    "getmocha mcp"
+  ]
+}
