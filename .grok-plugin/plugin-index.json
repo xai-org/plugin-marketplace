@@ -633,6 +633,24 @@
         ]
       }
     },
+    "portravo": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "portravo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "portravo-workflow",
+            "description": "Review construction plan takeoff quantities and export reviewed, priced estimates when a user asks to estimate material…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
