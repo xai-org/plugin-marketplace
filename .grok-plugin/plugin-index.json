@@ -260,8 +260,8 @@
       }
     },
     "figma": {
-      "sha": "2c8af036a758af150ec0244489f6fb3d12e394db",
-      "version": "2.2.124",
+      "sha": "aaa07946b60797706c131ca50e50ca526a44b073",
+      "version": "2.2.126",
       "components": {
         "mcpServers": [
           {
@@ -330,8 +330,8 @@
       }
     },
     "firecrawl": {
-      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
-      "version": "1.2.0",
+      "sha": "fc26fcf97921f5b4db93b06e000b6366e8d67c48",
+      "version": "1.3.0",
       "components": {
         "commands": [
           {
@@ -353,6 +353,10 @@
           {
             "name": "firecrawl-agent",
             "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the…"
+          },
+          {
+            "name": "firecrawl-alexandria",
+            "description": "Get structured data from catalogued providers instead of scraping pages. Firecrawl Alexandria is a library of official…"
           },
           {
             "name": "firecrawl-crawl",
@@ -579,8 +583,8 @@
       }
     },
     "netlify": {
-      "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122",
-      "version": "1.5.2",
+      "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad",
+      "version": "1.6.0",
       "components": {
         "mcpServers": [
           {
@@ -682,7 +686,7 @@
       }
     },
     "pstack": {
-      "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
+      "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
         "agents": [
           {
@@ -923,8 +927,8 @@
       }
     },
     "sentry": {
-      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
-      "version": "1.4.0",
+      "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
+      "version": "1.4.1",
       "components": {
         "mcpServers": [
           {
@@ -969,8 +973,8 @@
       }
     },
     "stripe": {
-      "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
-      "version": "0.9.4",
+      "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
+      "version": "0.9.6",
       "components": {
         "agents": [
           {
@@ -1009,7 +1013,7 @@
           },
           {
             "name": "stripe-apps",
-            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
+            "description": "Build, modify, or review Stripe Apps and extensions using the relevant documentation and reference guides. Use for cust…"
           },
           {
             "name": "stripe-best-practices",
@@ -1215,8 +1219,8 @@
       }
     },
     "unity": {
-      "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc",
-      "version": "0.1.6-beta",
+      "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
+      "version": "0.1.8-beta",
       "components": {
         "skills": [
           {
@@ -1355,8 +1359,8 @@
       }
     },
     "vercel": {
-      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
-      "version": "0.51.0",
+      "sha": "31b69df377b88bed87d37944afc96c656ab23a04",
+      "version": "0.52.0",
       "components": {
         "agents": [
           {
@@ -1487,22 +1491,6 @@
             "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
-            "name": "next-cache-components",
-            "description": "Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from uns…"
-          },
-          {
-            "name": "next-forge",
-            "description": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-for…"
-          },
-          {
-            "name": "next-upgrade",
-            "description": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js vers…"
-          },
-          {
-            "name": "nextjs",
-            "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
-          },
-          {
             "name": "queues",
             "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
           },
@@ -1517,14 +1505,6 @@
           {
             "name": "runtime-cache",
             "description": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Fun…"
-          },
-          {
-            "name": "shadcn",
-            "description": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS…"
-          },
-          {
-            "name": "turbopack",
-            "description": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or underst…"
           },
           {
             "name": "vercel-agent",
