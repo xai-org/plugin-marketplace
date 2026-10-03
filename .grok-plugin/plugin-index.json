@@ -397,6 +397,36 @@
         ]
       }
     },
+    "greenlit-books": {
+      "sha": "c1d4583f7051fd9081d855cccc0cfead8c7cf784",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "greenlit-books",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "answer-from-the-books",
+            "description": "Use when someone asks how, why or what about building, running, securing or trusting AI agents, or about an idea from t…"
+          },
+          {
+            "name": "check-a-claim",
+            "description": "Use when someone asks whether a statement about AI agents is true, where a claim comes from, or wants a source to cite…"
+          },
+          {
+            "name": "check-ai-agent-safety",
+            "description": "Use when someone asks whether a named AI agent, MCP server, coding assistant or AI product is safe to use, or how to se…"
+          },
+          {
+            "name": "recommend-a-book",
+            "description": "Use when someone asks which Greenlit Books title to read, where to start on a topic such as prompt injection, agent rel…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
