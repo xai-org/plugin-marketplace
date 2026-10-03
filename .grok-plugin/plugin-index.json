@@ -101,6 +101,24 @@
         ]
       }
     },
+    "casacaddy": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "casacaddy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "casacaddy-workflow",
+            "description": "Read maintenance guide requirements, prepare confirmed guides and report saved job status when a user asks how to maint…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",
