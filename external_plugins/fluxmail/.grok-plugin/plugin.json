@@ -1,0 +1,16 @@
+{
+  "name": "fluxmail",
+  "version": "1.0.0",
+  "description": "Search and read Gmail, Outlook, Exchange, and IMAP/SMTP mail through a local Fluxmail instance.",
+  "author": {
+    "name": "Richard Chu",
+    "url": "https://github.com/churichard"
+  },
+  "homepage": "https://fluxmail.ai",
+  "repository": "https://github.com/churichard/fluxmail",
+  "license": "Elastic-2.0",
+  "keywords": [
+    "fluxmail",
+    "fluxmail mcp"
+  ]
+}
