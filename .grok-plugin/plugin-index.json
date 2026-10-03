@@ -397,6 +397,18 @@
         ]
       }
     },
+    "github-talent-mcp": {
+      "sha": "51f6e90712b24447547518b2fa128feb50be1542",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "github-talent",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

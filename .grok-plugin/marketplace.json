@@ -395,6 +395,29 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "github-talent-mcp",
+      "description": "Search, score, and rank GitHub developers for technical recruiting. 9 tools: plan_search, search_developers, get_developer_profile, rank_candidates, score_against_jd, compare_candidates, bulk_score, generate_outreach, get_repo_contributors.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/carolinacherry/github-talent-mcp.git",
+        "sha": "51f6e90712b24447547518b2fa128feb50be1542"
+      },
+      "version": "0.5.0",
+      "author": {
+        "name": "Daniel An"
+      },
+      "homepage": "https://github.com/carolinacherry/github-talent-mcp",
+      "keywords": [
+        "talent-mcp",
+        "github-talent",
+        "github talent search",
+        "recruiting",
+        "developer sourcing",
+        "technical hiring"
+      ]
     }
   ]
 }
