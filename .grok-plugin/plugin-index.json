@@ -409,6 +409,24 @@
         ]
       }
     },
+    "influence": {
+      "sha": "52ba1d6cecdd54d308e00627b100581fb5b114d9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "influence",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "influence",
+            "description": "Use saved brand context, generate content and images, review and publish social posts, and read available Insights thro…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
