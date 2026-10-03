@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "floatout": {
+      "type": "http",
+      "url": "https://floatout.xyz/api/mcp"
+    }
+  }
+}
