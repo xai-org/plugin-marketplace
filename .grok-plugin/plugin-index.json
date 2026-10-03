@@ -874,6 +874,18 @@
         ]
       }
     },
+    "search-fragments": {
+      "sha": "7978775eae84267c4fc705053e8b981b4933c025",
+      "version": "0.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "search-fragments",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
       "version": "1.4.1",
