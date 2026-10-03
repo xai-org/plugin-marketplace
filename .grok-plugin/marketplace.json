@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "eqcheck",
+      "description": "EqCheck communication tools (MCP). Check how a support reply reads across six signals (directness, warmth, clarity, pressure, respect for boundaries, ambiguity), then get a plan to reframe it toward the right tone before you send.",
+      "category": "customer-support",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/eqcheck"
+      },
+      "homepage": "https://eqcheck.app",
+      "keywords": ["eqcheck", "eqcheck rewrite", "eqcheck tone check", "reframe reply before sending"],
+      "domains": ["eqcheck.app"]
     }
   ]
 }
