@@ -397,6 +397,24 @@
         ]
       }
     },
+    "formbase": {
+      "sha": "07c5bc4e1b57bdf790b7b686212398f47846ef5f",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "formbase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "formbase-requests",
+            "description": "Ask a customer for information through formbase and read the verified answers back. Use when you need a confirmation, a…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "formbase",
+      "description": "Collect verified customer information with one request. The customer confirms or corrects a branded, prefilled form; answers come back under your field keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/formbaseso/formbase-mcp.git",
+        "sha": "07c5bc4e1b57bdf790b7b686212398f47846ef5f"
+      },
+      "homepage": "https://formbase.so",
+      "keywords": ["formbase", "formbase requests", "formbase forms"],
+      "domains": ["formbase.so", "api.formbase.so", "docs.formbase.so"]
     }
   ]
 }
