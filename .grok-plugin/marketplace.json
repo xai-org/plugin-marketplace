@@ -395,6 +395,26 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "pulse-verity",
+      "description": "Signed Pulse Verity Index crypto prices, asset discovery, batch reads, recorded prints, signature verification and optional private API feedback. BTC, ETH and SOL samples work without an API key.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PulseBet/pulse-verity.git",
+        "sha": "43b555b4db7ae509d4938c1100de6e990699d66a"
+      },
+      "homepage": "https://thepulse.markets/developers",
+      "keywords": [
+        "pulse-verity",
+        "pulse verity",
+        "pulse verity index"
+      ],
+      "domains": [
+        "thepulse.markets",
+        "mcp.thepulse.markets"
+      ]
     }
   ]
 }
