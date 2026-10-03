@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aviasurf": {
+      "sha": "782f9b4b8a63e31e207e549d2b0a37e20bc9d35b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aviasurf",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
       "version": "1.0.0",
