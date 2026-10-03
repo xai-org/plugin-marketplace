@@ -1,0 +1,13 @@
+{
+  "name": "chashmalink",
+  "version": "1.0.0",
+  "description": "Israeli household electricity from measured smart-meter data: rank every electricity plan on the Israeli market by what it saves a specific household, simulate rooftop solar on both Israeli tracks, classify a consumption profile, and read published city and national consumption figures. Read-only hosted MCP at www.chashmalink.com; no account or API key.",
+  "author": {
+    "name": "Chashmalink",
+    "url": "https://www.chashmalink.com"
+  },
+  "homepage": "https://www.chashmalink.com/mcp",
+  "license": "Proprietary",
+  "keywords": ["chashmalink", "חשמלינק", "chashmalink mcp"],
+  "logo": "assets/logo.png"
+}
