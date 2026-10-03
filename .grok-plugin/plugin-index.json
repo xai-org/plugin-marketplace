@@ -633,6 +633,28 @@
         ]
       }
     },
+    "prerenderbuddy": {
+      "sha": "dc1018b803a8b16f82e27339fb4f665a0a587604",
+      "version": "0.2.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prerenderbuddy",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "crawler-visibility-audit",
+            "description": "Audit a public site's crawler-visible HTML, compare crawler and browser-style HTTP responses, and inspect robots.txt, s…"
+          },
+          {
+            "name": "workspace-discoverability-review",
+            "description": "Review an authenticated Prerender Buddy workspace site's setup, health, crawler activity, AI visibility, recommendation…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
