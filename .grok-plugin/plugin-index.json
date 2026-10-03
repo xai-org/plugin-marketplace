@@ -505,6 +505,17 @@
         ]
       }
     },
+    "naia": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "naia",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

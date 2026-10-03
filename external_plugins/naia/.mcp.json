@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "naia": {
+      "type": "http",
+      "url": "https://naia.today/api/v1/mcp"
+    }
+  }
+}
