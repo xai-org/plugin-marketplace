@@ -235,6 +235,24 @@
         ]
       }
     },
+    "dibatto": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dibatto",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dibatto-workflow",
+            "description": "Review saved cited podcast rundowns and transcripts and prepare private episode drafts when a user asks for podcast res…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
