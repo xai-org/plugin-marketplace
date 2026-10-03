@@ -1132,6 +1132,18 @@
         ]
       }
     },
+    "tg-finder": {
+      "sha": "9e9e2305d9f2fda4ae293de5d462c7f195d72477",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tg-finder",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
