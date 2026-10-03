@@ -384,6 +384,18 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "quay",
+      "description": "Dock places, calendar blocks, todos, notes, and reading lists from Grok to the Quay iPhone app. Posts a card only when you ask Grok to send it.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ataguan/quay-grok-plugin.git",
+        "sha": "13fdda54ac8a89b57cf5dc36b21c2ba03c43ff9a"
+      },
+      "homepage": "https://github.com/Ataguan/quay-grok-plugin",
+      "keywords": ["quay", "quay app", "dock to quay"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
