@@ -634,7 +634,7 @@
       }
     },
     "pstack": {
-      "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
+      "sha": "23e4138daa01c42d4969f7a5465f82704e64f798",
       "components": {
         "agents": [
           {
@@ -643,7 +643,7 @@
           },
           {
             "name": "poteto-agent",
-            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Resume an existing `poteto-agent` for the convers…"
+            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Spawn a fresh `poteto-agent` for each new task, a…"
           }
         ],
         "skills": [
@@ -666,6 +666,10 @@
           {
             "name": "automate-me",
             "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
+          },
+          {
+            "name": "benchmark-checklist",
+            "description": "Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) befor…"
           },
           {
             "name": "blast-radius",
@@ -722,6 +726,10 @@
           {
             "name": "principle-experience-first",
             "description": "Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship f…"
+          },
+          {
+            "name": "principle-explain-the-number",
+            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
           },
           {
             "name": "principle-fix-root-causes",
