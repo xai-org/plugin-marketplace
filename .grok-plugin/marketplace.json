@@ -385,12 +385,12 @@
     },
     {
       "name": "formbase",
-      "description": "formbase.so collects and verifies information from customers for workflows and AI agents: create a request, the recipient completes a prefilled form, and the answers come back under your field keys.",
+      "description": "Collect verified customer information for workflows and AI agents: create a request, the recipient completes a prefilled form, the answers come back under your field keys.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/formbaseso/formbase-mcp.git",
-        "sha": "96bac3579e707ed1a1959ffd282080bc21e327ee"
+        "sha": "56267e367de359a819207ffa1ffb04f738fead65"
       },
       "homepage": "https://formbase.so",
       "keywords": ["formbase", "formbase requests", "formbase forms"],
