@@ -6,6 +6,20 @@
   },
   "plugins": [
     {
+      "name": "weavatrix",
+      "description": "Native read-only repository intelligence with 44 evidence-backed methods for code graphs, impact, architecture, APIs, Git history, search, and quality analysis.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Weavatrix/weavatrix.git",
+        "sha": "a4b7c65ede091f691874cb0eadefdd2f47c6392c",
+        "path": "plugins/weavatrix"
+      },
+      "homepage": "https://weavatrix.com",
+      "keywords": ["weavatrix", "weavatrix code graph", "weavatrix mcp"],
+      "domains": ["weavatrix.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",

@@ -1497,6 +1497,24 @@
         ]
       }
     },
+    "weavatrix": {
+      "sha": "a4b7c65ede091f691874cb0eadefdd2f47c6392c",
+      "version": "1.10.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "weavatrix",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "weavatrix",
+            "description": "Use the Weavatrix MCP when a repository task benefits from indexed evidence: codebase orientation, symbol/source search…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
