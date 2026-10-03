@@ -409,6 +409,24 @@
         ]
       }
     },
+    "intakra": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "intakra",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "buying-signal-review",
+            "description": "Use when a user wants to score supplied account-fit and buying-signal evidence or prepare a review-only why-now brief."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
