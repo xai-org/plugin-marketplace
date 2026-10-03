@@ -235,6 +235,24 @@
         ]
       }
     },
+    "dokyumi": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dokyumi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dokyumi-workflow",
+            "description": "Extract PDF or image fields using saved document schemas and review confidence and validation when a user asks to proce…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
