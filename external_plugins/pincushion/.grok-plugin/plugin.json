@@ -1,0 +1,10 @@
+{
+  "name": "pincushion",
+  "version": "0.1.1",
+  "description": "Pincushion visual feedback for Grok Build: connect a project, run a brand-aware Crit, read positioned pins, and implement approved feedback.",
+  "author": { "name": "Pincushion", "url": "https://pincushion.io" },
+  "homepage": "https://pincushion.io",
+  "repository": "https://github.com/jcooley8/pincushion-plugin",
+  "license": "FSL-1.1-Apache-2.0",
+  "keywords": ["pincushion", "pincushion pins", "pincushion critique"]
+}

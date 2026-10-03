@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pincushion": {
+      "command": "npx",
+      "args": ["--yes", "pincushion-mcp@1.11.26", "--project-dir", ".", "--cloud-sync", "--no-auto-register-project"]
+    }
+  }
+}

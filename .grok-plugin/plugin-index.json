@@ -633,6 +633,39 @@
         ]
       }
     },
+    "pincushion": {
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pincushion",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pincushion",
+            "description": "Connect the current app repository to Pincushion and run its first confirmed, brand-aware Crit. Use for Pincushion setu…"
+          },
+          {
+            "name": "pincushion-crit",
+            "description": "Run a Pincushion Crit on an explicitly requested URL using rendered desktop/mobile evidence, discovered navigation rout…"
+          },
+          {
+            "name": "pincushion-implement",
+            "description": "Implement stakeholder-approved Pincushion pins when the user requests fixes, preserving project identity and repository…"
+          },
+          {
+            "name": "pincushion-pins",
+            "description": "Read Pincushion feedback pins for the intended project without creating a critique or changing feedback status."
+          },
+          {
+            "name": "pincushion-ui-checkpoint",
+            "description": "After completing a user-facing UI work batch in a project already connected to Pincushion, suggest one follow-up Pincus…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
