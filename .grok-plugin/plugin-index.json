@@ -920,6 +920,24 @@
         ]
       }
     },
+    "soxoa": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "soxoa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "automation-planning",
+            "description": "Use when a user wants to estimate the illustrative value of automation or prioritize recurring workflows for automate,…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
       "version": "0.9.6",
