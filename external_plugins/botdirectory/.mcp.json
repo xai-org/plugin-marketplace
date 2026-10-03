@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "botdirectory": {
+      "type": "http",
+      "url": "https://botdirectory.org/api/mcp"
+    }
+  }
+}

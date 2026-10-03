@@ -1,0 +1,18 @@
+{
+  "name": "botdirectory",
+  "version": "1.0.0",
+  "description": "Browse and publish Grok bot templates via the hosted MCP at botdirectory.org — the open, ad-free catalog of copy-paste Grok bots. Search proven templates before building a new Grok bot, and publish your own after a one-time LinkedIn sign-in.",
+  "author": {
+    "name": "botdirectory.org",
+    "url": "https://botdirectory.org"
+  },
+  "homepage": "https://botdirectory.org",
+  "license": "Proprietary",
+  "keywords": [
+    "botdirectory",
+    "bot directory",
+    "grok bot template",
+    "grok bot directory",
+    "publish grok bot"
+  ]
+}
