@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "dwellir",
+      "description": "Dwellir blockchain RPC integration. Query chain state across 150+ networks, read Hyperliquid market data, sample WebSocket streams, inspect Dwellir RPC usage, and manage API keys through Dwellir's hosted OAuth MCP server. It cannot sign transactions, trade, or change billing.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dwellir-public/dwellir-skill.git",
+        "sha": "3fd218d451fa7fc07ff08d0bfa98baae5b372f30"
+      },
+      "homepage": "https://www.dwellir.com/docs/agents/plugin",
+      "keywords": ["dwellir", "dwellir rpc", "dwellir api key", "dwellir hyperliquid"],
+      "domains": ["dwellir.com"]
     }
   ]
 }
