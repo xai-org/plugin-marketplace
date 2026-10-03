@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "crawlgraph",
+      "description": "CrawlGraph backlink research and competitor gap prospecting from quarterly Common Crawl snapshots, using a pinned API-key STDIO server and quota-aware skill.",
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/crawlgraph"
+      },
+      "homepage": "https://crawlgraph.com",
+      "keywords": ["crawlgraph", "crawlgraph backlinks", "crawlgraph mcp"],
+      "domains": ["crawlgraph.com"]
     }
   ]
 }

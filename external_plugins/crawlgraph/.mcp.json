@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "crawlgraph": {
+      "command": "npx",
+      "args": ["-y", "crawlgraph-mcp@0.2.2"],
+      "env": {
+        "CRAWLGRAPH_API_KEY": "${CRAWLGRAPH_API_KEY}"
+      }
+    }
+  }
+}
