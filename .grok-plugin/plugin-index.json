@@ -235,6 +235,24 @@
         ]
       }
     },
+    "dododentist": {
+      "sha": "a286c8db46d2e17c84ae2444ad444800e3560d1b",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dododentist",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clinic-administration",
+            "description": "Review a DodoDentist clinic's safe administrative configuration and capacity — clinic metadata, bookable availability,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
