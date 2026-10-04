@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "doctofam",
+      "description": "Read-only clinic administration for AI assistants. Review safe clinic metadata, capacity, catalogs, calendar blocks and aggregate schedules without exposing patient or clinical data.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/doctofam/claude-plugin.git",
+        "sha": "196781e36e872fbf396ae5dc2dcdee90a45cb0d4"
+      },
+      "homepage": "https://www.doctofam.com/developers/#mcp",
+      "keywords": [
+        "doctofam",
+        "doctofam mcp"
+      ],
+      "domains": [
+        "doctofam.com",
+        "www.doctofam.com",
+        "app.doctofam.com",
+        "mcp.doctofam.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Doctofam LLC",
+        "email": "info@doctofam.com",
+        "url": "https://www.doctofam.com/"
+      }
     }
   ]
 }
