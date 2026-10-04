@@ -1497,6 +1497,28 @@
         ]
       }
     },
+    "vocenya": {
+      "sha": "6a3244875a14879bb8ef6280b2f8bb4eafc761fd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vocenya-docs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vocenya-api",
+            "description": "Use the Vocenya REST API, webhooks and platform MCP server for a business account: authenticate with an organization AP…"
+          },
+          {
+            "name": "vocenya-chat-install",
+            "description": "Add the Vocenya website live chat to a site you are building: the one script tag, where it goes in each framework (Next…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",

@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "vocenya",
+      "description": "Vocenya AI receptionist for developers: the public Vocenya Docs MCP server plus skills for the Vocenya REST API, webhooks and the website live chat install.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gadyamedia/vocenya-mcp.git",
+        "sha": "6a3244875a14879bb8ef6280b2f8bb4eafc761fd",
+        "path": "plugins/vocenya"
+      },
+      "homepage": "https://vocenya.com/docs/mcp",
+      "keywords": ["vocenya", "vocenya api", "vocenya mcp", "vocenya live chat"],
+      "domains": ["vocenya.com"]
     }
   ]
 }
