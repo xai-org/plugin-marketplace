@@ -1166,6 +1166,17 @@
         ]
       }
     },
+    "tripsy": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tripsy",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",

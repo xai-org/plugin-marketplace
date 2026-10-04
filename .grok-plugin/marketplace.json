@@ -384,6 +384,18 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "tripsy",
+      "description": "Plan trips and manage itineraries, stays, transport, activities, expenses, and documents through Tripsy's hosted MCP server. Connect with your Tripsy account using OAuth.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/tripsy"
+      },
+      "homepage": "https://tripsy.app",
+      "keywords": ["tripsy", "tripsy mcp", "tripsy itinerary"],
+      "domains": ["tripsy.app", "mcp.tripsy.app", "my.tripsy.app", "tripsy.help"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
