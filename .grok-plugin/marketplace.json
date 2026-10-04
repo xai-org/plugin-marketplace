@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "persuasion-taxonomy",
+      "description": "Plan, check and fix marketing copy against the nine questions every reader asks, with 766 persuasion techniques documented from real ads, copy diagnostics and A/B test math. Connects to Coppica's free hosted Persuasion Taxonomy MCP server. No API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Otha-Labs/persuasion-mcp.git",
+        "sha": "a1dd2654a2b2e31784b1ba7fe10592be7b3ac9de"
+      },
+      "homepage": "https://taxonomy.coppica.com",
+      "keywords": ["persuasion taxonomy", "coppica", "coppica persuasion"],
+      "domains": ["taxonomy.coppica.com"]
     }
   ]
 }

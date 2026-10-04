@@ -633,6 +633,24 @@
         ]
       }
     },
+    "persuasion-taxonomy": {
+      "sha": "a1dd2654a2b2e31784b1ba7fe10592be7b3ac9de",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "persuasion-taxonomy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "persuasion-taxonomy",
+            "description": "Use when writing, reviewing, roasting or improving marketing copy (ads, landing pages, sales pages, emails, subject lin…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
