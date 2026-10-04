@@ -235,6 +235,24 @@
         ]
       }
     },
+    "digiclick-telephony": {
+      "sha": "703308d63caa0ccd6f56374b4838921e7533f5e9",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "telephony",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "digiclick-telephony",
+            "description": "Use the DigiClick telephony MCP tools to answer and place phone calls, send and receive texts, take voicemail and manag…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
