@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "quantral",
+      "description": "Quantral stock sentiment for US and Korean stocks: 0-100 signal scores, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Read-only. Sign in with a Quantral account.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/quantral"
+      },
+      "homepage": "https://quantral.com/mcp",
+      "keywords": ["quantral", "quantral sentiment", "quantral mcp"],
+      "domains": ["quantral.com", "app.quantral.com"]
     }
   ]
 }
