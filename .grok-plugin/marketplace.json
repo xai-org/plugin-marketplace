@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "querysail-gsc",
+      "description": "QuerySail for Google Search Console: read-only search performance, period comparisons, URL inspection and sitemaps from your own Search Console properties, through a hosted MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GidianB/querysail-gsc.git",
+        "sha": "62c841cc2e04c083ea0443ec388559cd29d33f7c"
+      },
+      "homepage": "https://querysail.com/google-search-console",
+      "keywords": ["querysail", "querysail gsc", "querysail search console"],
+      "domains": ["querysail.com", "mcp.querysail.com"]
     }
   ]
 }
