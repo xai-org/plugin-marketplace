@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "c632a50838a47a639a160baff8411eb9c6af22bf"
+        "sha": "31b69df377b88bed87d37944afc96c656ab23a04"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
+        "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122"
+        "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
+        "sha": "fc26fcf97921f5b4db93b06e000b6366e8d67c48"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "2c8af036a758af150ec0244489f6fb3d12e394db"
+        "sha": "aaa07946b60797706c131ca50e50ca526a44b073"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
+        "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
+        "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -395,6 +395,19 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "unity",
+      "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+      },
+      "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
+      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     }
   ]
 }
