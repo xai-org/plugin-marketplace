@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "callmemcp",
+      "description": "Your agent rings your iPhone, reads its text aloud, and returns your spoken answer as text; it can also text you and wait for a reply. Hosted MCP server at callmemcp.com: no OAuth, no API key, nothing installed locally. Needs the Call Me iPhone app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/radres/call-me.git",
+        "sha": "142b95572e2f7ba8642d672e7f7329825a25f9c0",
+        "path": "grok"
+      },
+      "homepage": "https://callmemcp.com",
+      "keywords": ["callmemcp", "call me mcp", "/call-me"],
+      "domains": ["callmemcp.com"]
     }
   ]
 }
