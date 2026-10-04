@@ -874,6 +874,36 @@
         ]
       }
     },
+    "sanction": {
+      "sha": "f0e079be6715b99b8a7d0dc4644ed1fd0543644e",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sanction",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "before-spend",
+            "description": "Use before any purchase, subscription, money transfer, or API credit top-up. Request Sanction authorization; proceed on…"
+          },
+          {
+            "name": "before-tool",
+            "description": "Use before another MCP tool, shell command, deploy, or email send, including a one-off request for human approval. Requ…"
+          },
+          {
+            "name": "handle-escalation",
+            "description": "Use when a Sanction authorization returns next_action wait. Check once, pause for human resolution, then redeem a usabl…"
+          },
+          {
+            "name": "wallet-status",
+            "description": "Use this at the start of long or expensive agentic work, or after a budget error from authorize or log_tokens. Call san…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
       "version": "1.4.1",

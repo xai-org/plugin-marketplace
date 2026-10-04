@@ -395,6 +395,24 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "sanction",
+      "description": "Request one-off human approval before an agent acts. Sanction evaluates spend, tools, credentials and provisioning; the host must ask before acting.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ericlovold/sanction-plugin.git",
+        "sha": "f0e079be6715b99b8a7d0dc4644ed1fd0543644e"
+      },
+      "homepage": "https://getsanction.com",
+      "keywords": [
+        "sanction",
+        "getsanction"
+      ],
+      "domains": [
+        "getsanction.com"
+      ]
     }
   ]
 }
