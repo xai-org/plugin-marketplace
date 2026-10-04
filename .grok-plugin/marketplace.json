@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "wapiworld",
+      "description": "Inspect Wapiworld projects, WhatsApp sender health, recording policy and webhook health, and safely send one exactly confirmed text message.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wapiworld/claude-plugin.git",
+        "sha": "c6967e5a746630b0bd0f9657d59035acb71b91d2"
+      },
+      "homepage": "https://app.wapiworld.com/developers#mcp",
+      "keywords": [
+        "wapiworld",
+        "wapiworld mcp"
+      ],
+      "domains": [
+        "wapiworld.com",
+        "www.wapiworld.com",
+        "app.wapiworld.com",
+        "mcp.wapiworld.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@wapiworld.com",
+        "url": "https://app.wapiworld.com/"
+      }
     }
   ]
 }
