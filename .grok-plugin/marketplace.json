@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "hotelumo",
+      "description": "Read-only hotel operations for AI assistants. Bundles the Hotelumo connector with guidance for property metadata, bookable availability, aggregate schedules, room operations, rate plans, daily rates and extras while keeping guest, individual-stay, payment, access and credential data outside the connector.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hotelumo/claude-plugin.git",
+        "sha": "8ce53353a4372eccd0e17b801dd42ce5cdb0babb"
+      },
+      "homepage": "https://www.hotelumo.com/developers/#mcp",
+      "keywords": [
+        "hotelumo",
+        "hotelumo mcp"
+      ],
+      "domains": [
+        "hotelumo.com",
+        "www.hotelumo.com",
+        "app.hotelumo.com",
+        "mcp.hotelumo.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Hotelumo LLC",
+        "email": "info@hotelumo.com",
+        "url": "https://www.hotelumo.com/"
+      }
     }
   ]
 }
