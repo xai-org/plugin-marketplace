@@ -395,6 +395,31 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "zero-slop",
+      "description": "Edit drafts in your assistant with the Zero Slop writing skill and local checks, or send drafts to the hosted Zero Slop MCP for remote editing.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manavmishra/ZeroSlop.git",
+        "sha": "5dc573740f79b32449ec5f25e9a1c443e7ab8e36",
+        "path": "distribution/plugins/zero-slop"
+      },
+      "homepage": "https://zero-slop.ai",
+      "keywords": [
+        "zero-slop",
+        "zero slop",
+        "zeroslop"
+      ],
+      "domains": [
+        "zero-slop.ai",
+        "mcp.zero-slop.ai"
+      ],
+      "version": "2.12.13",
+      "author": {
+        "name": "Manav Mishra"
+      }
     }
   ]
 }
