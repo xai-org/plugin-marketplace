@@ -110,6 +110,24 @@
         ]
       }
     },
+    "callmemcp": {
+      "sha": "b1bb4fde0f7b064c18de96b9ebc44a71893e8a41",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "callmemcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "call-me",
+            "description": "Reach the user on their phone through Call Me when you need a decision or an answer and they may be away from the keybo…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",
