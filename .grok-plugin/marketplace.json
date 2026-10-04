@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "hogmatix",
+      "description": "Hogmatix social media scheduling: schedule X posts and threads and TikTok and YouTube videos on the accounts connected to your Hogmatix account, check upcoming posts and cancel pending ones. Sign in with a Hogmatix account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/hogmatix"
+      },
+      "homepage": "https://hogmatix.com",
+      "keywords": ["hogmatix", "hogmatix scheduler", "hogmatix mcp"],
+      "domains": ["hogmatix.com"]
     }
   ]
 }

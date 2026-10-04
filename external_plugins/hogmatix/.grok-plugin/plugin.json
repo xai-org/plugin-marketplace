@@ -1,0 +1,17 @@
+{
+  "name": "hogmatix",
+  "version": "1.0.0",
+  "description": "Schedule posts on the X, TikTok and YouTube accounts connected to your Hogmatix account, check upcoming posts and cancel pending ones through the hosted MCP at hogmatix.com. Sign in with a Hogmatix account on first connect.",
+  "author": {
+    "name": "Forge Analytics & Systems Inc.",
+    "url": "https://hogmatix.com"
+  },
+  "homepage": "https://hogmatix.com",
+  "license": "Proprietary",
+  "keywords": [
+    "hogmatix",
+    "hogmatix scheduler",
+    "hogmatix mcp"
+  ],
+  "logo": "assets/logo.png"
+}
