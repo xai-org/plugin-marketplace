@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "supovia",
+      "description": "Customer-support operations across help-center knowledge, unresolved conversations, safe support summaries, approved replies and resolution state. Bundles the Supovia connector with privacy-preserving support workflow guidance.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/supovia/claude-plugin.git",
+        "sha": "bd5edd5a8e920a983cbbe1e6c010aac2746428c3"
+      },
+      "homepage": "https://www.supovia.com/developers/#agent-plugins",
+      "keywords": [
+        "supovia",
+        "supovia mcp"
+      ],
+      "domains": [
+        "supovia.com",
+        "www.supovia.com",
+        "app.supovia.com",
+        "mcp.supovia.com"
+      ],
+      "version": "0.2.1",
+      "author": {
+        "name": "Supovia LLC",
+        "email": "info@supovia.com",
+        "url": "https://www.supovia.com/"
+      }
     }
   ]
 }
