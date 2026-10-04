@@ -1086,6 +1086,27 @@
         ]
       }
     },
+    "svatlas": {
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "svatlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-customers",
+            "description": "Build a target-customer list for a product from the Silicon Valley Atlas startup directory. Use when someone wants to k…"
+          },
+          {
+            "name": "research-startups",
+            "description": "Research AI startups, founders, and funding with the Silicon Valley Atlas directory. Use when someone asks who is build…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
