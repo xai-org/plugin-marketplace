@@ -15,14 +15,8 @@
         "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": [
-        "vercel",
-        "vercel deploy",
-        "deploy to vercel"
-      ],
-      "domains": [
-        "vercel.com"
-      ]
+      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
+      "domains": ["vercel.com"]
     },
     {
       "name": "sentry",
@@ -34,12 +28,8 @@
         "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": [
-        "sentry"
-      ],
-      "domains": [
-        "sentry.io"
-      ]
+      "keywords": ["sentry"],
+      "domains": ["sentry.io"]
     },
     {
       "name": "chrome-devtools",
@@ -51,11 +41,7 @@
         "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": [
-        "chrome devtools",
-        "chrome-devtools",
-        "devtools mcp"
-      ]
+      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
     },
     {
       "name": "cloudflare",
@@ -67,14 +53,8 @@
         "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": [
-        "cloudflare",
-        "wrangler",
-        "cloudflare workers"
-      ],
-      "domains": [
-        "cloudflare.com"
-      ]
+      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
+      "domains": ["cloudflare.com"]
     },
     {
       "name": "superpowers",
@@ -86,9 +66,7 @@
         "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": [
-        "superpowers"
-      ]
+      "keywords": ["superpowers"]
     },
     {
       "name": "base44",
@@ -100,17 +78,8 @@
         "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
-      "keywords": [
-        "base44",
-        "base44 cli",
-        "base44 sdk",
-        "base44 app",
-        "base44 deploy"
-      ],
-      "domains": [
-        "base44.com",
-        "docs.base44.com"
-      ]
+      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
+      "domains": ["base44.com", "docs.base44.com"]
     },
     {
       "name": "mongodb",
@@ -123,16 +92,8 @@
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": [
-        "mongodb community",
-        "mongo",
-        "mongosh",
-        "mongodb local mcp",
-        "enterprise advanced"
-      ],
-      "domains": [
-        "mongodb.com"
-      ]
+      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "domains": ["mongodb.com"]
     },
     {
       "name": "mongodb-atlas",
@@ -145,17 +106,8 @@
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": [
-        "mongodb atlas",
-        "atlas",
-        "mongodb",
-        "atlas cluster",
-        "atlas mcp"
-      ],
-      "domains": [
-        "mongodb.com",
-        "cloud.mongodb.com"
-      ]
+      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
+      "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
       "name": "axiom",
@@ -167,13 +119,8 @@
         "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": [
-        "axiom"
-      ],
-      "domains": [
-        "axiom.co",
-        "app.axiom.co"
-      ]
+      "keywords": ["axiom"],
+      "domains": ["axiom.co", "app.axiom.co"]
     },
     {
       "name": "neon",
@@ -184,17 +131,8 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": [
-        "neon",
-        "neon postgres",
-        "neon database",
-        "neon branch"
-      ],
-      "domains": [
-        "neon.tech",
-        "neon.com",
-        "console.neon.tech"
-      ]
+      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
+      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
       "name": "wix",
@@ -206,18 +144,8 @@
         "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
-      "keywords": [
-        "wix",
-        "wix cli",
-        "wix mcp",
-        "wix apps",
-        "wix headless"
-      ],
-      "domains": [
-        "wix.com",
-        "dev.wix.com",
-        "manage.wix.com"
-      ]
+      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
+      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
     },
     {
       "name": "netlify",
@@ -229,15 +157,8 @@
         "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
-      "keywords": [
-        "netlify",
-        "netlify deploy",
-        "deploy to netlify"
-      ],
-      "domains": [
-        "netlify.com",
-        "app.netlify.com"
-      ]
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     },
     {
       "name": "firecrawl",
@@ -249,14 +170,8 @@
         "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": [
-        "firecrawl",
-        "fire crawl"
-      ],
-      "domains": [
-        "firecrawl.dev",
-        "docs.firecrawl.dev"
-      ]
+      "keywords": ["firecrawl", "fire crawl"],
+      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
     },
     {
       "name": "figma",
@@ -268,14 +183,8 @@
         "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": [
-        "figma",
-        "figma mcp"
-      ],
-      "domains": [
-        "figma.com",
-        "www.figma.com"
-      ]
+      "keywords": ["figma", "figma mcp"],
+      "domains": ["figma.com", "www.figma.com"]
     },
     {
       "name": "exa",
@@ -287,16 +196,8 @@
         "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
       },
       "homepage": "https://exa.ai",
-      "keywords": [
-        "exa",
-        "exa search",
-        "exa ai"
-      ],
-      "domains": [
-        "exa.ai",
-        "dashboard.exa.ai",
-        "docs.exa.ai"
-      ]
+      "keywords": ["exa", "exa search", "exa ai"],
+      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
     },
     {
       "name": "tavily",
@@ -308,17 +209,8 @@
         "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
       },
       "homepage": "https://www.tavily.com",
-      "keywords": [
-        "tavily",
-        "tavily search",
-        "tavily ai"
-      ],
-      "domains": [
-        "tavily.com",
-        "www.tavily.com",
-        "app.tavily.com",
-        "docs.tavily.com"
-      ]
+      "keywords": ["tavily", "tavily search", "tavily ai"],
+      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
       "name": "octen",
@@ -330,15 +222,8 @@
         "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
       },
       "homepage": "https://octen.ai",
-      "keywords": [
-        "octen",
-        "octen search",
-        "octen ai"
-      ],
-      "domains": [
-        "octen.ai",
-        "docs.octen.ai"
-      ]
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
     },
     {
       "name": "railway",
@@ -351,15 +236,8 @@
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": [
-        "railway",
-        "railway deploy",
-        "deploy to railway"
-      ],
-      "domains": [
-        "railway.com",
-        "railway.app"
-      ]
+      "keywords": ["railway", "railway deploy", "deploy to railway"],
+      "domains": ["railway.com", "railway.app"]
     },
     {
       "name": "stripe",
@@ -372,18 +250,8 @@
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": [
-        "stripe",
-        "stripe payments",
-        "stripe connect",
-        "stripe mcp",
-        "stripe billing"
-      ],
-      "domains": [
-        "stripe.com",
-        "docs.stripe.com",
-        "dashboard.stripe.com"
-      ]
+      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
+      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
       "name": "tinyfish",
@@ -396,17 +264,8 @@
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
-      "keywords": [
-        "tinyfish",
-        "tinyfish agent",
-        "tinyfish web agent",
-        "agentql"
-      ],
-      "domains": [
-        "tinyfish.ai",
-        "agent.tinyfish.ai",
-        "docs.tinyfish.ai"
-      ]
+      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
+      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
       "name": "supabase",
@@ -418,16 +277,8 @@
         "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": [
-        "supabase",
-        "supabase mcp",
-        "supabase auth",
-        "supabase storage",
-        "supabase edge functions"
-      ],
-      "domains": [
-        "supabase.com"
-      ]
+      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
+      "domains": ["supabase.com"]
     },
     {
       "name": "pstack",
@@ -440,11 +291,7 @@
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
-      "keywords": [
-        "pstack",
-        "poteto-mode",
-        "poteto"
-      ]
+      "keywords": ["pstack", "poteto-mode", "poteto"]
     },
     {
       "name": "browser-use",
@@ -457,15 +304,8 @@
         "path": "grok"
       },
       "homepage": "https://browser-use.com",
-      "keywords": [
-        "browser use",
-        "browser-use",
-        "browser use cloud"
-      ],
-      "domains": [
-        "browser-use.com",
-        "cloud.browser-use.com"
-      ]
+      "keywords": ["browser use", "browser-use", "browser use cloud"],
+      "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
       "name": "datadog",
@@ -477,15 +317,8 @@
         "sha": "083b4783095520f562534956578c8826613292a9"
       },
       "homepage": "https://github.com/datadog-labs/grok-plugin",
-      "keywords": [
-        "datadog",
-        "datadog mcp"
-      ],
-      "domains": [
-        "datadoghq.com",
-        "app.datadoghq.com",
-        "datadoghq.eu"
-      ]
+      "keywords": ["datadog", "datadog mcp"],
+      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
     },
     {
       "name": "quo",
@@ -497,18 +330,8 @@
         "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
       },
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
-      "keywords": [
-        "quo",
-        "quo mcp",
-        "quo business phone",
-        "openphone"
-      ],
-      "domains": [
-        "quo.com",
-        "mcp.quo.com",
-        "support.quo.com",
-        "my.quo.com"
-      ]
+      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
+      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
       "name": "bruin",
@@ -520,18 +343,8 @@
         "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": [
-        "bruin",
-        "bruin api",
-        "mettel bruin",
-        "bruin public api",
-        "bruin ticket"
-      ],
-      "domains": [
-        "bruin.com",
-        "api.bruin.com",
-        "apigw.bruin.com"
-      ]
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
     },
     {
       "name": "omneky",
@@ -542,16 +355,8 @@
         "path": "./external_plugins/omneky"
       },
       "homepage": "https://www.omneky.com",
-      "keywords": [
-        "omneky",
-        "omneky ads",
-        "omneky mcp"
-      ],
-      "domains": [
-        "omneky.com",
-        "mcp.omneky.com",
-        "app.omneky.com"
-      ]
+      "keywords": ["omneky", "omneky ads", "omneky mcp"],
+      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
       "name": "modern-web-guidance",
@@ -563,11 +368,7 @@
         "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
-      "keywords": [
-        "modern web",
-        "web best practices",
-        "web guidance"
-      ]
+      "keywords": ["modern web", "web best practices", "web guidance"]
     },
     {
       "name": "helena",
@@ -579,18 +380,8 @@
         "sha": "9b71516e006144d323f138f1785f55123ec51931"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": [
-        "helena",
-        "enrich labs",
-        "helena ai marketer",
-        "helena marketing ai agent",
-        "helena autonomous marketer",
-        "helena marketing"
-      ],
-      "domains": [
-        "enrichlabs.ai",
-        "agent.enrichlabs.ai"
-      ]
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
       "name": "unity",
@@ -706,15 +497,8 @@
         "sha": "1aafd49c81becc5eb6d25491b0a9e9634e25af6c"
       },
       "homepage": "https://telepath.lemma.company",
-      "keywords": [
-        "telepath",
-        "lemma telepath",
-        "telepath telegram"
-      ],
-      "domains": [
-        "telepath.lemma.company",
-        "lemma.company"
-      ]
+      "keywords": ["telepath", "lemma telepath", "telepath telegram"],
+      "domains": ["telepath.lemma.company", "lemma.company"]
     }
   ]
 }
