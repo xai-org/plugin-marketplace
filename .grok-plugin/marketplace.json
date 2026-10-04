@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "polyblog",
+      "description": "Multilingual editorial operations for Polyblog. Bundles the OAuth-protected Polyblog connector with a skill for localization audits, topic research, text-only drafting, review and carefully confirmed publishing changes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/polyblog-io/claude-plugin.git",
+        "sha": "f3b03763d23f3481351aad42e511882a621f4c93"
+      },
+      "homepage": "https://www.polyblog.io/developers/#agent-plugins",
+      "keywords": [
+        "polyblog",
+        "polyblog mcp"
+      ],
+      "domains": [
+        "polyblog.io",
+        "www.polyblog.io",
+        "app.polyblog.io",
+        "mcp.polyblog.io"
+      ],
+      "version": "0.2.0",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@polyblog.io",
+        "url": "https://www.polyblog.io/"
+      }
     }
   ]
 }
