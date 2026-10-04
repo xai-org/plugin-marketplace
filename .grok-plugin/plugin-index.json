@@ -1550,6 +1550,40 @@
           }
         ]
       }
+    },
+    "xenition": {
+      "sha": "888090b846d324f81e5cb60b3b92b5247ce6cbd8",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "xenition",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "app-from-idea",
+            "description": "Use when the user wants a working web app, tool, dashboard, booking page, tracker or small SaaS built from an idea — \"m…"
+          },
+          {
+            "name": "deck-from-conversation",
+            "description": "Use when the user wants the conversation so far, a document of theirs, or meeting notes turned into a slide deck — \"mak…"
+          },
+          {
+            "name": "explainer-video",
+            "description": "Use when the user wants a short explainer, product promo, social clip or narrated video about a topic, product or idea,…"
+          },
+          {
+            "name": "weekly-report-automation",
+            "description": "Use when the user wants something done for them on a schedule — \"every Monday send me a summary of…\", \"each morning che…"
+          },
+          {
+            "name": "xenition-workspace",
+            "description": "Use when the user wants to work with their Xenition workspace — create or edit content, ask about or search their own f…"
+          }
+        ]
+      }
     }
   }
 }
