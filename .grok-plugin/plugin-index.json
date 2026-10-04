@@ -409,6 +409,24 @@
         ]
       }
     },
+    "imagelato": {
+      "sha": "3a08439b4079afb75ef72c70ae167f08969c587f",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "imagelato",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "image-asset-workflow",
+            "description": "Review and maintain an organization's image delivery workflow with Imagelato — projects, deterministic resize/reformat…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
