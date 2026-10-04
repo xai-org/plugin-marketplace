@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "hairdora",
+      "description": "Audit salon schedules, availability, clients, appointments, services, quotes, and payment status through HairDora's read-only tenant-scoped connector.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hairdora/claude-plugin.git",
+        "sha": "e89027f6e8f8bb85cfaa74eafa36150f9c5c7a95"
+      },
+      "homepage": "https://www.hairdora.com/developers/#mcp",
+      "keywords": [
+        "hairdora",
+        "hairdora mcp"
+      ],
+      "domains": [
+        "hairdora.com",
+        "www.hairdora.com",
+        "app.hairdora.com",
+        "mcp.hairdora.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "HairDora LLC",
+        "email": "info@hairdora.com",
+        "url": "https://www.hairdora.com/"
+      }
     }
   ]
 }
