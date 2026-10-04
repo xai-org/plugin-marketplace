@@ -1086,6 +1086,18 @@
         ]
       }
     },
+    "switchbooks": {
+      "sha": "edacc3f4ffb7407c1386c12c7f6c38e93bce25a0",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "switchbooks",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",

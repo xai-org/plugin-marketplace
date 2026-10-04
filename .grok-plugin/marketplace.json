@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "switchbooks",
+      "description": "Switchbooks accounting and bookkeeping. Sign in with your Switchbooks account to pull profit and loss, balance sheet, and cash flow reports, search transactions, and inspect accounts, categories, payees, and rules. Read-only by default; bookkeeping changes only when you allow them on the consent screen, and every change can be undone.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drylandbeard/switchbooks-mcp.git",
+        "sha": "edacc3f4ffb7407c1386c12c7f6c38e93bce25a0"
+      },
+      "homepage": "https://switchbooks.ai",
+      "keywords": ["switchbooks", "switchbooks accounting", "switchbooks bookkeeping", "switchbooks mcp"],
+      "domains": ["switchbooks.ai", "app.switchbooks.ai"]
     }
   ]
 }
