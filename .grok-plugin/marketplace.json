@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "invoicevista",
+      "description": "Review owned businesses, product catalogs, plan limits, and aggregate revenue, receivables, quote, and billing operations through InvoiceVista's read-only tenant connector.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/invoicevista/claude-plugin.git",
+        "sha": "6ff1d45490e524916de49cc013a5be649d5eb958"
+      },
+      "homepage": "https://www.invoicevista.com/developers/#mcp",
+      "keywords": [
+        "invoicevista",
+        "invoicevista mcp"
+      ],
+      "domains": [
+        "invoicevista.com",
+        "www.invoicevista.com",
+        "app.invoicevista.com",
+        "mcp.invoicevista.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "InvoiceVista LLC",
+        "email": "info@invoicevista.com",
+        "url": "https://www.invoicevista.com/"
+      }
     }
   ]
 }
