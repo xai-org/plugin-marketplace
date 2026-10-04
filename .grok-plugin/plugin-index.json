@@ -1552,7 +1552,7 @@
       }
     },
     "zero-slop": {
-      "sha": "6a0fd8364db7a6ac493bc64d18b7fe67617f970c",
+      "sha": "5dc573740f79b32449ec5f25e9a1c443e7ab8e36",
       "version": "2.12.13",
       "components": {
         "mcpServers": [
