@@ -397,6 +397,24 @@
         ]
       }
     },
+    "gymflexa": {
+      "sha": "bcdef2ca389569895897dbdd70651ee09759919c",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gymflexa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gym-operations",
+            "description": "Audit GymFlexa gym configuration, opening hours, bookable capacity, service catalogs, and aggregate schedule and record…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
