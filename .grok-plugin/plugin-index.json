@@ -213,6 +213,24 @@
         ]
       }
     },
+    "croncool": {
+      "sha": "f07bc17655395c96a6b28069a96d7ebc919de9f5",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "croncool",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scheduler-operations",
+            "description": "Inspect Croncool scheduled jobs, execution health, durable workflow runs and webhook delivery status, and safely invoke…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
