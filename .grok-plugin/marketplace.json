@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "veterical",
+      "description": "Read-only veterinary-clinic administration for AI assistants. Bundles the Veterical connector with guidance for clinic metadata, capacity, aggregate schedules, non-text calendar blocks, numeric catalog configuration, payment aggregates and plan entitlements while keeping animal, owner and clinical records outside the connector.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/veterical/claude-plugin.git",
+        "sha": "504c79db62cbfe5967c2b16f7be7f71a30697d8b"
+      },
+      "homepage": "https://www.veterical.com/developers/#mcp",
+      "keywords": [
+        "veterical",
+        "veterical mcp"
+      ],
+      "domains": [
+        "veterical.com",
+        "www.veterical.com",
+        "app.veterical.com",
+        "mcp.veterical.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Veterical LLC",
+        "email": "info@veterical.com",
+        "url": "https://www.veterical.com/"
+      }
     }
   ]
 }
