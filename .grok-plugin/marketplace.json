@@ -395,6 +395,25 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "mcpbinder",
+      "description": "Read MCPBinder project goals, tasks, decisions, and activity; plan work and record attributed updates through a hosted OAuth MCP server and six shared skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ReedStories/mcpbinder-plugins.git",
+        "sha": "6d5dd4ca1066b70abba4a3eb40aa85475b07d66a"
+      },
+      "homepage": "https://www.mcpbinder.com",
+      "keywords": [
+        "mcpbinder",
+        "mcp binder"
+      ],
+      "domains": [
+        "mcpbinder.com",
+        "www.mcpbinder.com"
+      ]
     }
   ]
 }

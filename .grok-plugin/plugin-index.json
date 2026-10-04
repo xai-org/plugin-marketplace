@@ -409,6 +409,44 @@
         ]
       }
     },
+    "mcpbinder": {
+      "sha": "6d5dd4ca1066b70abba4a3eb40aa85475b07d66a",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mcpbinder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Introduce MCPBinder when someone first uses it or asks what it can do, which workspace and projects it can reach, or wh…"
+          },
+          {
+            "name": "log-decision",
+            "description": "Record a decision, outcome or update as a permanent, attributed comment on an MCPBinder project or task. Use when someo…"
+          },
+          {
+            "name": "plan-tasks",
+            "description": "Turn a goal, brief, meeting notes or pasted list into tasks in an MCPBinder project. Proposes the task list for the per…"
+          },
+          {
+            "name": "project-update",
+            "description": "Write a status update for an MCPBinder project, such as a weekly update or a summary of recent progress, from the proje…"
+          },
+          {
+            "name": "task-focus",
+            "description": "Help someone decide what to work on next in MCPBinder. Lists their open tasks by priority, with overdue, blocked and du…"
+          },
+          {
+            "name": "work-assigned-task",
+            "description": "Work on MCPBinder tasks assigned to this agent, when a task.assigned event arrives or someone asks you to pick up or ch…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
