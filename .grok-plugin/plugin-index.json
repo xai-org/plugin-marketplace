@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "anew": {
+      "sha": "b3dde1a3bf37445d46862477daadc24024f88f25",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anew",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "anew",
+            "description": "Free webpages: websites that live in the URL. Encode self-contained HTML pages into anew.page URLs, and read the HTML b…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",
