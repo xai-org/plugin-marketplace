@@ -633,6 +633,18 @@
         ]
       }
     },
+    "promptready": {
+      "sha": "efdb514d97b39fe3d4f2d25edde0943da1eb5e31",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "promptready",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {

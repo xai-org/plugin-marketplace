@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "promptready",
+      "description": "Convert PDF and CSV files to Markdown with PromptReady's cloud OCR. Uses the same account and credits as promptready.space; log in once per machine. Files are processed in the cloud and deleted after 3 hours.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hydrojwh/promptready-mcp.git",
+        "sha": "efdb514d97b39fe3d4f2d25edde0943da1eb5e31"
+      },
+      "homepage": "https://promptready.space",
+      "keywords": ["promptready", "promptready pdf", "promptready markdown"],
+      "domains": ["promptready.space"]
     }
   ]
 }
