@@ -235,6 +235,24 @@
         ]
       }
     },
+    "doctofam": {
+      "sha": "196781e36e872fbf396ae5dc2dcdee90a45cb0d4",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "doctofam",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clinic-administration",
+            "description": "Review a DoctoFam clinic's safe administrative configuration and capacity. Use when asked about clinic metadata, bookab…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
