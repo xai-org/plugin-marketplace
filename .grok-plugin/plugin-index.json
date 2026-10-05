@@ -604,6 +604,24 @@
         ]
       }
     },
+    "ocolta": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ocolta",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ocolta-workflow",
+            "description": "Summarize existing categorical document-review signals, confidence and indicator counts when a user asks to inspect a s…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
