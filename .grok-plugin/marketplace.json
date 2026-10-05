@@ -403,7 +403,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Piloxa/piloxa-plugin.git",
-        "sha": "6b51a349b73f9d8a1710a42a8d24a6020319b043"
+        "sha": "a0bece4ef537291bf91299d077daffde11b526e8"
       },
       "homepage": "https://piloxa.com",
       "keywords": ["piloxa", "piloxa certified mail"],
