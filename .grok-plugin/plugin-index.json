@@ -235,6 +235,24 @@
         ]
       }
     },
+    "deepledger": {
+      "sha": "bf041a9e1c62092e63bd595550dd853e81cbaba8",
+      "version": "3.1.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deepledger",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bookkeeping",
+            "description": "Bookkeeping for QuickBooks Online through DeepLedger MCP. Use for payments, expenses, bills, invoices, deposits, transf…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
