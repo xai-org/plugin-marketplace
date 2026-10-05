@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "command-mail",
+      "description": "Command Mail by FYN Labs: one inbox for all your email addresses. Your agent reads, searches and sorts mail, writes and revises drafts, and sends only with your permission, per mailbox.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FYN-Labs/commandmail-plugin.git",
+        "sha": "736a1d8415ddc0ccf89fb3bec476d19c53654808"
+      },
+      "homepage": "https://commandmail.app/en",
+      "keywords": ["command mail", "commandmail", "command mail inbox"],
+      "domains": ["commandmail.app"]
     }
   ]
 }
