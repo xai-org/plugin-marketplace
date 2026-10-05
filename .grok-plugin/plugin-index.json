@@ -259,6 +259,32 @@
         ]
       }
     },
+    "feedback-tools": {
+      "sha": "dbe765217678e7f5d6491a06b378a28029019c02",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "feedback-tools",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bug-reports",
+            "description": "Turn bug themes from feedback.tools into ready-to-paste bug report drafts. Use when the user asks to triage bugs from c…"
+          },
+          {
+            "name": "create-survey",
+            "description": "Create and set up a feedback.tools survey. Use when the user wants to start collecting feedback, add a CSAT, NPS, CES o…"
+          },
+          {
+            "name": "feedback-digest",
+            "description": "Summarize customer feedback from a feedback.tools survey for a period. Use when the user asks for a feedback digest, a…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
       "version": "2.2.127",

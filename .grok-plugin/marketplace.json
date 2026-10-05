@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "feedback-tools",
+      "description": "feedback.tools integration. Read CSAT, NPS and CES survey scores, search customer responses, explore AI themes with bugs, feature requests and emotions, create surveys and import feedback directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/feedback-tools-platform/feedback-tools-mcp.git",
+        "sha": "dbe765217678e7f5d6491a06b378a28029019c02"
+      },
+      "homepage": "https://feedback.tools/docs/mcp",
+      "keywords": ["feedback.tools"],
+      "domains": ["feedback.tools"]
     }
   ]
 }
