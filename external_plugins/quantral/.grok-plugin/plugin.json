@@ -1,0 +1,16 @@
+{
+  "name": "quantral",
+  "version": "1.0.0",
+  "description": "Quantral stock sentiment for US and Korean stocks via the hosted MCP at app.quantral.com: 0-100 signal scores, the posts behind each score, monthly recaps, and rule-based model portfolios tracked against the S&P 500. Read-only. Sign in with a Quantral account on first connect.",
+  "author": {
+    "name": "Quantral",
+    "url": "https://quantral.com"
+  },
+  "homepage": "https://quantral.com/mcp",
+  "license": "Proprietary",
+  "keywords": [
+    "quantral",
+    "quantral sentiment",
+    "quantral mcp"
+  ]
+}
