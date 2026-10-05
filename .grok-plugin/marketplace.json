@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "skyaccess",
+      "description": "SkyAccess private jet empty legs (hosted MCP server + skill). Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sky-access/skyaccess-mcp.git",
+        "sha": "65c42fc68ea3706dbaaa2ac688b06b4c451cd532",
+        "path": "plugins/skyaccess"
+      },
+      "homepage": "https://skyaccess.com",
+      "keywords": ["skyaccess", "skyaccess empty legs", "skyaccess private jet", "skyaccess mcp"],
+      "domains": ["skyaccess.com", "mcp.skyaccess.com"]
     }
   ]
 }
