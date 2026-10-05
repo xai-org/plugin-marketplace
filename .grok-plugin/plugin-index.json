@@ -1513,6 +1513,24 @@
         ]
       }
     },
+    "veterical": {
+      "sha": "504c79db62cbfe5967c2b16f7be7f71a30697d8b",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "veterical",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clinic-administration",
+            "description": "Review a Veterical clinic's safe administrative configuration and capacity — clinic metadata, bookable capacity summari…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
