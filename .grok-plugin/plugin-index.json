@@ -397,6 +397,24 @@
         ]
       }
     },
+    "growsurf": {
+      "sha": "58f04ad4d12d35c2bef0a64916235216351bca53",
+      "version": "0.19.8",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "growsurf",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "growsurf-agent-toolkit",
+            "description": "Use when an agent needs to create, configure, verify, or operate a GrowSurf referral or affiliate program through the G…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

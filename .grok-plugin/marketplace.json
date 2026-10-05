@@ -395,6 +395,31 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "growsurf",
+      "description": "Build and manage GrowSurf referral and affiliate programs through AI assistants.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/growsurf/growsurf-mcp.git",
+        "sha": "58f04ad4d12d35c2bef0a64916235216351bca53"
+      },
+      "homepage": "https://docs.growsurf.com/build-with-ai",
+      "keywords": [
+        "growsurf",
+        "growsurf referral",
+        "growsurf affiliate"
+      ],
+      "domains": [
+        "growsurf.com",
+        "docs.growsurf.com",
+        "mcp.growsurf.com"
+      ],
+      "author": {
+        "name": "GrowSurf",
+        "email": "support@growsurf.com"
+      }
     }
   ]
 }
