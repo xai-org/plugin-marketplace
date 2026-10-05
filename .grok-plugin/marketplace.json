@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "jobfinder",
+      "description": "JobFinder job search: review job matches, read drafted outreach to hiring managers, approve or reject applications and track replies.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/jobfinder"
+      },
+      "homepage": "https://www.jobfinder-ai.com",
+      "keywords": ["jobfinder", "jobfinder-ai", "jobfinder mcp"],
+      "domains": ["jobfinder-ai.com", "app.jobfinder-ai.com", "mcp.jobfinder-ai.com"]
     }
   ]
 }
