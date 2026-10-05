@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "firmament",
+      "description": "A shared notebook for your team. Your AI can look things up in it and add notes when you ask.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spkenny455/firmament-plugin.git",
+        "sha": "3654f2880599bc0fb5ceab396b01ef7b15457d7c"
+      },
+      "homepage": "https://getfirmament.com",
+      "keywords": ["firmament", "firmament notebook", "firmament review gates"],
+      "domains": ["getfirmament.com", "platform.getfirmament.com", "login.getfirmament.com"]
     }
   ]
 }
