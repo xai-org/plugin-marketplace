@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "grok-build-worker",
+      "description": "Local stdio MCP for one-shot Grok Build jobs (submit_job, status, fetch_artifacts, cancel_job). Default mode is review_readonly; pass mode=build for write jobs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OTNworld/grok-plugins.git",
+        "sha": "a687b7160e42cb2e20f24b08cb1fc01574ab2f4f",
+        "path": "plugins/grok-build-worker"
+      },
+      "homepage": "https://github.com/OTNworld/grok-plugins",
+      "keywords": ["grok", "mcp", "build", "worker", "review"]
     }
   ]
 }
