@@ -397,6 +397,43 @@
         ]
       }
     },
+    "grok-build-worker": {
+      "sha": "a687b7160e42cb2e20f24b08cb1fc01574ab2f4f",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grok-build-worker",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "Grok build CLI capabilities",
+            "description": "Use when composing a grok-build-worker submit_job: profiles, flags, and the job envelope."
+          },
+          {
+            "name": "Grok build worker",
+            "description": "Use when implementing or reviewing code via the grok-build-worker MCP (submit_job, status, fetch_artifacts, cancel_job)."
+          },
+          {
+            "name": "Grok build worker artifacts",
+            "description": "Use after a grok-build-worker job settles: fetch_artifacts receipt, diffstat, log excerpt, and where files live."
+          },
+          {
+            "name": "Grok build worker cancel",
+            "description": "Use to stop a running grok-build-worker job (cancel_job: SIGTERM then SIGKILL)."
+          },
+          {
+            "name": "Grok build worker cwd",
+            "description": "Use when submit_job cwd is rejected, or when choosing a workspace path for grok-build-worker (UUID and cwd guards)."
+          },
+          {
+            "name": "Grok build worker failed job",
+            "description": "Use when a grok-build-worker job is failed, cancelled, busy, missing grok, or status stays running too long."
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
