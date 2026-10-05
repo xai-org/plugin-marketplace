@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "shipmail",
+      "description": "Modern email for your business. Inboxes, calendars, newsletters, bookings, an AI assistant, and an API for your agents.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shipmail-to/shipmail-mcp.git",
+        "sha": "172dbd1040b839f556f0dc74c5fc517c674be255"
+      },
+      "homepage": "https://shipmail.to/docs/mcp",
+      "keywords": ["shipmail", "shipmail email", "shipmail mcp", "shipmail inbox"],
+      "domains": ["shipmail.to"]
     }
   ]
 }
