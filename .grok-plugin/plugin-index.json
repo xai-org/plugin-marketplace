@@ -633,6 +633,24 @@
         ]
       }
     },
+    "pbx-voice": {
+      "sha": "39d96a0a7419ab4e78ef93a99a2addcea6ef7923",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pbx-voice",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pbx-voice",
+            "description": "Place real phone calls through the user's own phone extension with the pbx-voice MCP tools, right away or at a set time…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
