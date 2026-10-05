@@ -409,6 +409,144 @@
         ]
       }
     },
+    "magicteams-connectors": {
+      "sha": "66ab0e2e3d8caa44b36c182778ee9df8a07c0526",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ai-ready",
+            "description": "http"
+          },
+          {
+            "name": "court-split",
+            "description": "http"
+          },
+          {
+            "name": "fee-fighter",
+            "description": "http"
+          },
+          {
+            "name": "festival-finder",
+            "description": "http"
+          },
+          {
+            "name": "flight-fix",
+            "description": "http"
+          },
+          {
+            "name": "invoice-gen",
+            "description": "http"
+          },
+          {
+            "name": "league-night",
+            "description": "http"
+          },
+          {
+            "name": "lease-break",
+            "description": "http"
+          },
+          {
+            "name": "party-plan",
+            "description": "http"
+          },
+          {
+            "name": "recipe-scale",
+            "description": "http"
+          },
+          {
+            "name": "report-raja",
+            "description": "http"
+          },
+          {
+            "name": "room-split",
+            "description": "http"
+          },
+          {
+            "name": "sahadeva",
+            "description": "http"
+          },
+          {
+            "name": "service-schedule",
+            "description": "http"
+          },
+          {
+            "name": "sheet-shift",
+            "description": "http"
+          },
+          {
+            "name": "tutor-now",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-ready",
+            "description": "Onboard the user to AIReady - scanning and fixing AI discoverability (crawlers, llms.txt, structured data)."
+          },
+          {
+            "name": "court-split",
+            "description": "Onboard the user to CourtSplit - splitting court costs, settling up and rotation planning."
+          },
+          {
+            "name": "fee-fighter",
+            "description": "Onboard the user to FeeFighter - auditing junk fees, projecting annual costs and drafting dispute letters."
+          },
+          {
+            "name": "festival-finder",
+            "description": "Onboard the user to FestivalFinder - computed Hindu festival dates."
+          },
+          {
+            "name": "flight-fix",
+            "description": "Onboard the user to FlightFix - flight compensation checks, rights, deadlines and claim letters under EU261/UK261."
+          },
+          {
+            "name": "invoice-gen",
+            "description": "Onboard the user to InvoiceGen - freelancer invoices in seconds."
+          },
+          {
+            "name": "league-night",
+            "description": "Onboard the user to LeagueNight - fixtures, standings, match-day plans and season planning."
+          },
+          {
+            "name": "lease-break",
+            "description": "Onboard the user to LeaseBreak - early lease termination cost estimates, comparisons, letters and negotiation."
+          },
+          {
+            "name": "party-plan",
+            "description": "Onboard the user to PartyPlan - budgeting, headcount quantities, timelines and checklists."
+          },
+          {
+            "name": "recipe-scale",
+            "description": "Onboard the user to RecipeScale - scaling recipes, converting kitchen units and merging shopping lists."
+          },
+          {
+            "name": "report-raja",
+            "description": "Onboard the user to ReportRaja - weekly client reports in seconds."
+          },
+          {
+            "name": "room-split",
+            "description": "Onboard the user to RoomSplit - splitting rent and utilities, settling up and drafting a roommate agreement."
+          },
+          {
+            "name": "sahadeva",
+            "description": "Onboard the user to Sahadeva - place resolution first, then panchanga, matching, muhurta, consultations."
+          },
+          {
+            "name": "service-schedule",
+            "description": "Onboard the user to ServiceSchedule - what's due on their car, what it costs and what to check each season."
+          },
+          {
+            "name": "sheet-shift",
+            "description": "Onboard the user to SheetShift - convert and clean tables in seconds."
+          },
+          {
+            "name": "tutor-now",
+            "description": "Onboard the user to TutorNow - what it books and the browse-then-book flow."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
