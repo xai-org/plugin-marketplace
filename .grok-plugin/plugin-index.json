@@ -874,6 +874,17 @@
         ]
       }
     },
+    "sendhq": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sendhq",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
       "version": "1.4.1",

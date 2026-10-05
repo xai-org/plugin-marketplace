@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "sendhq",
+      "description": "SendHQ email API: send and receive email from your verified domains, manage domains, inboxes and templates, and check deliverability.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/sendhq"
+      },
+      "homepage": "https://sendhq.cc",
+      "keywords": ["sendhq", "sendhq email", "sendhq mcp"],
+      "domains": ["sendhq.cc", "app.sendhq.cc", "mcp.sendhq.cc"]
     }
   ]
 }

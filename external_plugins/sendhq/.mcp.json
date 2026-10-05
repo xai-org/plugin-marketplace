@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sendhq": {
+      "type": "http",
+      "url": "https://mcp.sendhq.cc/mcp"
+    }
+  }
+}
