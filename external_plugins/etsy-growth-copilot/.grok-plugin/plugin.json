@@ -1,0 +1,19 @@
+{
+  "name": "etsy-growth-copilot",
+  "version": "1.0.0",
+  "description": "Etsy seller copilot: listing SEO (titles, 13 tags, descriptions), product validation, launch and store-audit checklists, Etsy Ads break-even planning and weekly review, sales tracking, and a growth plan. Never publishes, changes prices, or spends without the owner's approval.",
+  "author": {
+    "name": "Nir Hendler",
+    "url": "https://github.com/nirhend"
+  },
+  "homepage": "https://x.ai/bot/NwUn4nWYCGthWcPTPfnLn",
+  "license": "MIT",
+  "keywords": [
+    "etsy",
+    "etsy seo",
+    "etsy ads",
+    "ecommerce",
+    "listings",
+    "handmade"
+  ]
+}
