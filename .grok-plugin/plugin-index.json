@@ -1513,6 +1513,24 @@
         ]
       }
     },
+    "wapiworld": {
+      "sha": "c6967e5a746630b0bd0f9657d59035acb71b91d2",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wapiworld",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whatsapp-operations",
+            "description": "Operate Wapiworld WhatsApp senders through the Wapiworld MCP connector — inspect tenant-scoped projects, WhatsApp sende…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
       "version": "1.26.0",
