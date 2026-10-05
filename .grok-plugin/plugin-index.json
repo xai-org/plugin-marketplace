@@ -886,6 +886,24 @@
         ]
       }
     },
+    "sanovia": {
+      "sha": "b61dc72d05e000df693c4294e01d42b0cdbb62cd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sanovia",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sanovia",
+            "description": "Find doctors and health practitioners in Italy with the Sanovia MCP server: public profile, visit types with published…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",

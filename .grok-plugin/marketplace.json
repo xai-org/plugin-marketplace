@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "sanovia",
+      "description": "Find doctors and health practitioners in Italy with Sanovia's public, read-only MCP server: public profile, visit types with published prices, and free booking slots. No sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sanovia-app/sanovia-plugin.git",
+        "sha": "b61dc72d05e000df693c4294e01d42b0cdbb62cd"
+      },
+      "homepage": "https://sanovia.app",
+      "keywords": ["sanovia", "sanovia mcp", "sanovia doctors"],
+      "domains": ["sanovia.app"]
     }
   ]
 }
