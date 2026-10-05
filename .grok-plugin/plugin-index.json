@@ -409,6 +409,24 @@
         ]
       }
     },
+    "invoicevista": {
+      "sha": "6ff1d45490e524916de49cc013a5be649d5eb958",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "invoicevista",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "billing-operations",
+            "description": "Review InvoiceVista businesses, product catalogs, plan quotas, and aggregate revenue, receivables, quote-pipeline and b…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
