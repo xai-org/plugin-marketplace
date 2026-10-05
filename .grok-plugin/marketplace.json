@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "tutorializer",
+      "description": "Audit and safely maintain localized product tutorial libraries. Bundles the Tutorializer connector with a workflow skill for projects, tutorial definitions, rendered locale/device outputs, voiceovers and pronunciation rules.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tutorializer/claude-plugin.git",
+        "sha": "71d0d2ecb4294ba8b92cdc9a7745e4905486214f"
+      },
+      "homepage": "https://www.tutorializer.com/developers/#mcp",
+      "keywords": [
+        "tutorializer",
+        "tutorializer mcp"
+      ],
+      "domains": [
+        "tutorializer.com",
+        "www.tutorializer.com",
+        "app.tutorializer.com",
+        "mcp.tutorializer.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@tutorializer.com",
+        "url": "https://www.tutorializer.com/"
+      }
     }
   ]
 }

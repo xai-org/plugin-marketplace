@@ -1178,6 +1178,24 @@
         ]
       }
     },
+    "tutorializer": {
+      "sha": "71d0d2ecb4294ba8b92cdc9a7745e4905486214f",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tutorializer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tutorial-library-audit",
+            "description": "Inspect and safely maintain a Tutorializer product-training library — projects, tutorial definitions, rendered locale/d…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
