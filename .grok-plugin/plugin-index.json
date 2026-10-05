@@ -409,6 +409,42 @@
         ]
       }
     },
+    "mcp-conduct-register": {
+      "sha": "a4185c270c8da875147d128ee85bd34854529a6a",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "conduct",
+            "description": "Look up how an MCP server behaved when it was measured, before you connect to it"
+          },
+          {
+            "name": "nenrin",
+            "description": "Show the recorded, Bitcoin-anchored conduct history of an agent or MCP endpoint"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "hs-verify-gate",
+            "description": "http"
+          },
+          {
+            "name": "jidec-ledger",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nenrin",
+            "description": "Read an AI agent's or MCP server's recorded conduct history (NENRIN résumé) and verify NENRIN evidence yourself, offlin…"
+          },
+          {
+            "name": "verify-mcp-conduct",
+            "description": "Check how an MCP server behaved when it was measured, before connecting to it, using the HORIZON SHIELD conduct registe…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

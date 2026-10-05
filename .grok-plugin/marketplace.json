@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "mcp-conduct-register",
+      "description": "Before you connect an MCP server or trust an AI agent, see how it behaved when it was measured: verdicts from the HORIZON SHIELD conduct register (what passed, and what a verdict does not claim), its Bitcoin-anchored NENRIN history from the gate and outside witnesses, and how to recompute every record yourself. Read-only remote MCP servers, no API key.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ogasurfproject-jpg/mcp-conduct-register-plugin.git",
+        "sha": "a4185c270c8da875147d128ee85bd34854529a6a"
+      },
+      "homepage": "https://shield.the-horizons-innovation.com/verify-directory/",
+      "keywords": ["mcp conduct register", "horizon shield", "horizonshield", "nenrin", "jidec ledger"],
+      "domains": ["gate.horizonshield.dev", "jidec.horizonshield.dev", "ledger.horizonshield.dev"]
     }
   ]
 }
