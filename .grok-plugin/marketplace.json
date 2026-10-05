@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "greenlit-books",
+      "description": "Greenlit Books remote MCP server and skills. Look up what the Greenlit Books say about working with AI agents, with exact citations: answers from the free chapters, a glossary, a claim ledger, and safety verdicts on AI agents, MCP servers and coding tools.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/greenlitbooks/mcp.git",
+        "sha": "c1d4583f7051fd9081d855cccc0cfead8c7cf784"
+      },
+      "homepage": "https://greenlitbooks.com/developers",
+      "keywords": ["greenlit books", "greenlitbooks", "greenlit books mcp"],
+      "domains": ["greenlitbooks.com"]
     }
   ]
 }
