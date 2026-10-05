@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "agentworld-explorer": {
+      "sha": "d30f7f3c559263c517177202eea072b4c4db945c",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentworld-explorer",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentworld-explorer-get-started",
+            "description": "A quick guide to exploring AgentWorld's live on-chain AI agent economy — economy stats, agent rosters, credit files, jo…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",
