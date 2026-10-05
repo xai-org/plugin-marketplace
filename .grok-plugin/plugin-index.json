@@ -633,6 +633,48 @@
         ]
       }
     },
+    "piloxa": {
+      "sha": "a0bece4ef537291bf91299d077daffde11b526e8",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "piloxa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mail-credit-dispute",
+            "description": "Use when the user wants to dispute an error on their credit report with Equifax, Experian or TransUnion, or dispute ina…"
+          },
+          {
+            "name": "mail-debt-validation-letter",
+            "description": "Use when the user has been contacted by a debt collector and wants to dispute the debt or request debt validation or ve…"
+          },
+          {
+            "name": "mail-demand-letter",
+            "description": "Use when the user wants to write and send a demand letter: demanding payment owed, a refund, return of property, repair…"
+          },
+          {
+            "name": "mail-landlord-notice",
+            "description": "Use when a tenant or landlord wants to send a written notice by certified mail: a security deposit demand, a request fo…"
+          },
+          {
+            "name": "mail-letter",
+            "description": "Write or take a letter or document and send it by USPS Certified Mail to a US address. Gathers the recipient and return…"
+          },
+          {
+            "name": "mail-notice-before-lawsuit",
+            "description": "Use when the user wants to send a notice of intent to sue, a final demand before filing in small claims or another cour…"
+          },
+          {
+            "name": "send-certified-mail",
+            "description": "Use when the user wants a letter or document sent by USPS Certified Mail, asks to \"send it certified\", \"mail this lette…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
       "components": {
