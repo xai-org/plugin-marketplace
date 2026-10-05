@@ -622,6 +622,24 @@
         ]
       }
     },
+    "olachill": {
+      "sha": "dd83d290e6f5f89419947ca8e698d23e9230ff6a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olachill",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olachill-travel",
+            "description": "Use OlaChill Travel MCP tools to find bookable Japan products (tours, activities, tickets, ryokan, helicopter, airport…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {

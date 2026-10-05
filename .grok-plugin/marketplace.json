@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "olachill",
+      "description": "OlaChill travel in Japan (hosted MCP Server + Skill). Search and compare tours, activities, attraction tickets, ryokan, helicopter flights, private airport transfers, charter coaches, golf, chauffeured cars and Japan eSIM, check open dates, and look up an existing booking. No API key; a charter quote request is sent only after the user confirms.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dang13021993/olachill-grok-plugin.git",
+        "sha": "dd83d290e6f5f89419947ca8e698d23e9230ff6a"
+      },
+      "homepage": "https://olachill.com/developers",
+      "keywords": ["olachill", "olachill travel", "olachill japan", "olachill tours"],
+      "domains": ["olachill.com"]
     }
   ]
 }
