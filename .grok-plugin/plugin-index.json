@@ -409,6 +409,18 @@
         ]
       }
     },
+    "kuro": {
+      "sha": "a1caa9909d314930ae846ed31fe78f6506eaca04",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kuro",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
