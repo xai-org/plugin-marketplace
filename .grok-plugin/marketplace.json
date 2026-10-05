@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "daoco",
+      "description": "Daoco brand marketing workspace. Read brand context, drafts, and pending decisions, start marketing work, and follow it to a dashboard review link. Sign in with a Daoco account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daocodotorg/daoco-plugin.git",
+        "sha": "99131865c81d41f3f79c30385ade355e6ac016d5"
+      },
+      "homepage": "https://daoco.org",
+      "keywords": ["daoco", "daoco marketing", "daoco mcp"],
+      "domains": ["daoco.org", "backend.daoco.org", "docs.daoco.org"]
     }
   ]
 }

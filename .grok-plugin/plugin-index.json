@@ -213,6 +213,24 @@
         ]
       }
     },
+    "daoco": {
+      "sha": "99131865c81d41f3f79c30385ade355e6ac016d5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "daoco",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "daoco-marketing",
+            "description": "Read Daoco brand context, find drafts and pending decisions, or start and follow marketing work when the user asks to u…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
