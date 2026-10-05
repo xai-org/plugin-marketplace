@@ -395,6 +395,17 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "floatout",
+      "description": "Floatout's public, read-only MCP server. Look up Floatout plans and pricing, read Floatout guides on launching a Hyperliquid perps and prediction market DEX, and query Floatout's Hyperliquid builder-fee research. No auth.",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/floatout"
+      },
+      "homepage": "https://floatout.xyz",
+      "keywords": ["floatout", "floatout mcp", "floatout hyperliquid"],
+      "domains": ["floatout.xyz", "app.floatout.xyz"]
     }
   ]
 }
