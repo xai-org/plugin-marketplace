@@ -1318,6 +1318,40 @@
         ]
       }
     },
+    "user-sage": {
+      "sha": "b5986f7c3e069aeba57b6abdb2d0ab78b441cb13",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "user-sage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "usersage-draft",
+            "description": "Draft UX research studies in User Sage with create_study. Use when the user wants to build a survey, tree test, card so…"
+          },
+          {
+            "name": "usersage-plan",
+            "description": "Plan a UX research study in User Sage before building it. Use when the user has a research question but not yet a metho…"
+          },
+          {
+            "name": "usersage-recruit",
+            "description": "Recruit participants for a User Sage study. Use when the user wants to launch a study: Your Panel (own audience, free),…"
+          },
+          {
+            "name": "usersage-results",
+            "description": "Read back User Sage study results. Use when the user asks what a study found, wants findings across one or many studies…"
+          },
+          {
+            "name": "usersage-workspace",
+            "description": "Work with a User Sage workspace's Projects, personas and AI panels. Use when the user wants to see their Projects, list…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "f42fa617f208b3b192c9ec636cba1fb025924407",
       "version": "0.54.0",

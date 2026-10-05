@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "user-sage",
+      "description": "AI-assisted user testing: plan and draft UX research studies, recruit Your/AI/GenPop panels, and read back findings.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/david-nguyen-chaoticdomain/user-sage-grok.git",
+        "sha": "b5986f7c3e069aeba57b6abdb2d0ab78b441cb13"
+      },
+      "homepage": "https://usersage.com",
+      "keywords": ["user sage", "usersage", "user testing", "usability testing", "ux research"],
+      "domains": ["usersage.com", "mcp.usersage.com"]
     }
   ]
 }
