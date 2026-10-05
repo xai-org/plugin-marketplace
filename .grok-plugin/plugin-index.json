@@ -409,6 +409,96 @@
         ]
       }
     },
+    "kapa": {
+      "sha": "6d627a8a9471b6740c9e87ba4169c7b5c840978b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kapa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kapa-setup-confluence",
+            "description": "Set up a Kapa Confluence source so a Confluence site is ingested. Use when the user wants Kapa to answer from Confluenc…"
+          },
+          {
+            "name": "kapa-setup-custom-qa",
+            "description": "Set up a Kapa custom question and answer source so hand-written answers are ingested. Use when the user wants to write…"
+          },
+          {
+            "name": "kapa-setup-discord",
+            "description": "Set up a Kapa Discord source so a Discord channel's threads are ingested. Use when the user wants Kapa to answer from c…"
+          },
+          {
+            "name": "kapa-setup-discourse",
+            "description": "Set up a Kapa Discourse source so a public forum is ingested. Use when the user wants Kapa to answer from their Discour…"
+          },
+          {
+            "name": "kapa-setup-github-discussions",
+            "description": "Set up a Kapa GitHub discussions source so repository discussions are ingested. Use when the user wants Kapa to answer…"
+          },
+          {
+            "name": "kapa-setup-github-files",
+            "description": "Set up a Kapa GitHub files source so documentation files in a repository are ingested. Use when the user wants Kapa to…"
+          },
+          {
+            "name": "kapa-setup-github-issues",
+            "description": "Set up a Kapa GitHub issues source so repository issues are ingested. Use when the user wants Kapa to answer from probl…"
+          },
+          {
+            "name": "kapa-setup-github-pull-requests",
+            "description": "Set up a Kapa GitHub pull requests source so repository pull requests are ingested. Use when the user wants Kapa to ans…"
+          },
+          {
+            "name": "kapa-setup-google-drive",
+            "description": "Set up a Kapa Google Drive source so documents in a Drive are ingested. Use when the user wants Kapa to answer from fil…"
+          },
+          {
+            "name": "kapa-setup-jira",
+            "description": "Set up a Kapa Jira source so Jira issues are ingested. Use when the user wants Kapa to answer from their Jira issue his…"
+          },
+          {
+            "name": "kapa-setup-jira-service-management",
+            "description": "Set up a Kapa Jira Service Management source so service desk requests are ingested. Use when the user wants Kapa to ans…"
+          },
+          {
+            "name": "kapa-setup-notion",
+            "description": "Set up a Kapa Notion source so a Notion workspace is ingested. Use when the user wants Kapa to answer from their Notion…"
+          },
+          {
+            "name": "kapa-setup-openapi",
+            "description": "Set up a Kapa OpenAPI source so an API specification is ingested. Use when the user wants Kapa to answer questions abou…"
+          },
+          {
+            "name": "kapa-setup-s3",
+            "description": "Set up a Kapa S3 source so files in a bucket are ingested. Use when the user wants Kapa to answer from documents stored…"
+          },
+          {
+            "name": "kapa-setup-slack",
+            "description": "Set up a Kapa Slack source so a Slack channel's threads are ingested. Use when the user wants Kapa to answer from conve…"
+          },
+          {
+            "name": "kapa-setup-web-crawl",
+            "description": "Set up a Kapa web crawl source so a documentation site is ingested. Use when the user wants Kapa to answer from a websi…"
+          },
+          {
+            "name": "kapa-setup-youtube",
+            "description": "Set up a Kapa YouTube source so a channel's video transcripts are ingested. Use when the user wants Kapa to answer from…"
+          },
+          {
+            "name": "kapa-setup-zendesk-helpcenter",
+            "description": "Set up a Kapa Zendesk Help Center source so help center articles are ingested. Use when the user wants Kapa to answer f…"
+          },
+          {
+            "name": "kapa-setup-zendesk-tickets",
+            "description": "Set up a Kapa Zendesk tickets source so support tickets are ingested. Use when the user wants Kapa to answer from their…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

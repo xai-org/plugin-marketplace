@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "kapa",
+      "description": "Kapa's official plugin for coding agents. Set up and inspect a Kapa project: connect knowledge sources across websites and docs, support tickets (Zendesk, Salesforce), internal collaboration tools (Confluence, Notion, Jira), file storage (Google Drive, SharePoint, S3), communication channels (Slack, Discord, Discourse), GitHub repos, and video transcripts; check what was ingested and whether it answers; and pull all analytics, from individual conversations and aggregated trends in top questions to coverage gaps in your knowledge sources and data exports. Wires up the hosted Kapa MCP server and bundles a setup skill per source type.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kapa-ai/kapa-plugin.git",
+        "sha": "6d627a8a9471b6740c9e87ba4169c7b5c840978b"
+      },
+      "homepage": "https://docs.kapa.ai",
+      "keywords": ["kapa", "kapa.ai", "kapa ai", "kapa plugin", "kapa mcp", "kapa project", "kapa source", "kapa setup"],
+      "domains": ["kapa.ai", "docs.kapa.ai", "app.kapa.ai", "mcp.kapa.ai"]
     }
   ]
 }
