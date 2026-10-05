@@ -886,6 +886,24 @@
         ]
       }
     },
+    "senpi-agent": {
+      "sha": "9e27e3d2f310c080be7d89ace93132cda762dfa0",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "senpi-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "senpi-agent",
+            "description": "Work with the user's own Senpi agent through the Senpi MCP connector — market reads, signals, smart-money positioning,…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
