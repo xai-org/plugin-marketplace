@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "aifordatabase",
+      "description": "AI for Database: ask your connected databases questions in plain English, run read-only SQL, browse schemas and set up data alert workflows.",
+      "category": "database",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/aifordatabase"
+      },
+      "homepage": "https://www.aifordatabase.com",
+      "keywords": ["ai for database", "aifordatabase", "aifordatabase mcp"],
+      "domains": ["aifordatabase.com", "app.aifordatabase.com", "mcp.aifordatabase.com"]
     }
   ]
 }
