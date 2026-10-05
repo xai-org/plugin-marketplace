@@ -235,6 +235,45 @@
         ]
       }
     },
+    "datalum": {
+      "sha": "ca4bc7c3db5a76be1962c1de7474b862352555f0",
+      "version": "2.0.4",
+      "components": {
+        "hooks": [
+          {
+            "name": "PermissionDenied",
+            "description": "mcp__.*[Dd]atalum.*__.*|mcp__.*__(list_agents|use_agent|release_agent)$"
+          },
+          {
+            "name": "PostToolUse",
+            "description": "mcp__.*[Dd]atalum.*__.*|mcp__.*__(list_agents|use_agent|release_agent)$"
+          },
+          {
+            "name": "PostToolUseFailure",
+            "description": "mcp__.*[Dd]atalum.*__.*|mcp__.*__(list_agents|use_agent|release_agent)$"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "mcp__.*[Dd]atalum.*__.*|mcp__.*__(list_agents|use_agent|release_agent)$"
+          },
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "datalum",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datalum",
+            "description": "Work with a company's data in Datalum through the agent the person was granted. Use whenever the person mentions Datalu…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
