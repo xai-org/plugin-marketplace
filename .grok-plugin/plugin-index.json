@@ -409,6 +409,24 @@
         ]
       }
     },
+    "magicscreenshots": {
+      "sha": "1b4d113492f401ebb6fce6f90d9a148f7b7d6ede",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "magicscreenshots",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "magicscreenshots",
+            "description": "Search real App Store listing screenshots and preview videos for design inspiration, then generate, restyle or localize…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
@@ -928,6 +946,24 @@
           {
             "name": "sentry-snapshots-cocoa",
             "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
+          }
+        ]
+      }
+    },
+    "sentrydock": {
+      "sha": "39a9e6ce493701cfad62e20f3be5ba4495680052",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sentrydock",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sentrydock",
+            "description": "Search source-linked SentryDock news, prepare briefings, and monitor companies, commodities, policy, geopolitical event…"
           }
         ]
       }
