@@ -395,6 +395,27 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "dibatto",
+      "description": "Review saved podcast rundowns and transcripts, and prepare private episode drafts.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+        "path": "plugins/dibatto"
+      },
+      "homepage": "https://dibatto.com/developers",
+      "keywords": [
+        "dibatto"
+      ],
+      "domains": [
+        "dibatto.com"
+      ],
+      "version": "1.0.4",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
