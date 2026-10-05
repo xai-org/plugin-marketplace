@@ -397,6 +397,32 @@
         ]
       }
     },
+    "hark": {
+      "sha": "d88a073f0e0ec724e24cc419b392b879f4e677d4",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hark",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hark-bot-notes",
+            "description": "Rules for always-on and scheduled agents (dots, Grok Bot routines, background runs) that read or note things in Hark wi…"
+          },
+          {
+            "name": "hark-handoff",
+            "description": "Write the Hark handoff that ends a session, so the next session, agent or teammate picks up without re-deriving anythin…"
+          },
+          {
+            "name": "hark-session",
+            "description": "Hark's session flow for any work on a Hark project. Use when the Hark MCP tools are available and the work concerns a p…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
