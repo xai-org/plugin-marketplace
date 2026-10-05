@@ -932,6 +932,18 @@
         ]
       }
     },
+    "signatoro": {
+      "sha": "8d5c7d75d91882d585f7b9f8781099bd4b544268",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "signatoro",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "c40002aa6047acaa72e290cdbb22d9b77739d798",
       "version": "0.9.9",
