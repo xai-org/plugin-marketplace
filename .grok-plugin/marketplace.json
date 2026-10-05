@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "decodx",
+      "description": "Turn a website or brief into a narrated product video with captions, chapters and a written guide. Connects the hosted decodx MCP server (OAuth) and adds skills for making videos, using the REST API and reading the docs.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/decodx-ai/claude-plugin.git",
+        "sha": "d7aab2d57b189355c4eda089a9bc6a4b0e1b8819"
+      },
+      "homepage": "https://decodx.ai",
+      "keywords": ["decodx", "decodx mcp", "video", "product video", "explainer video", "narrated video", "demo video"],
+      "domains": ["decodx.ai", "api.decodx.ai", "app.decodx.ai"]
     }
   ]
 }

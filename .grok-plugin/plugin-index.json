@@ -235,6 +235,32 @@
         ]
       }
     },
+    "decodx": {
+      "sha": "d7aab2d57b189355c4eda089a9bc6a4b0e1b8819",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "decodx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "decodx-api",
+            "description": "Integrate the decodx REST API into code: create and edit video projects, render them as jobs, collect the MP4, captions…"
+          },
+          {
+            "name": "decodx-docs",
+            "description": "Look up current decodx documentation and API reference before answering or writing code. Use when you need a decodx fac…"
+          },
+          {
+            "name": "decodx-video",
+            "description": "Make narrated product videos, explainers, tutorials and deck-to-video with the decodx MCP server, building scenes as mo…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
