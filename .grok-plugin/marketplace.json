@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "aviasurf",
+      "description": "Official Aviasurf flight search integration for Grok Build. Compare indicative flight prices, explore price calendars, compare airports, discover destinations, inspect routes, and open live flight searches.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aviasurf/aviasurf-grok-plugin.git",
+        "sha": "782f9b4b8a63e31e207e549d2b0a37e20bc9d35b"
+      },
+      "homepage": "https://aviasurf.com",
+      "keywords": ["aviasurf", "aviasurf flights", "aviasurf flight search", "aviasurf mcp"],
+      "domains": ["aviasurf.com", "mcp.aviasurf.com"]
     }
   ]
 }
