@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "vidtl",
+      "description": "Edit video in your open VidTL browser editor: cuts, transcript edits, subtitles, audio cleanup, effects, motion graphics and export. Sign in with a VidTL account to connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/vidtl"
+      },
+      "homepage": "https://vidtl.com/video-editor-mcp-cli/",
+      "keywords": ["vidtl", "vidtl editor", "vidtl mcp"],
+      "domains": ["vidtl.com"]
     }
   ]
 }
