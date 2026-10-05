@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "attri": {
+      "sha": "f75e6ae45179efebda3d2779af58128037fa107d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "attri",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "attri-content-writer",
+            "description": "Turn an open Attri finding into the content it calls for — new title and meta description, a page section, or a merge p…"
+          },
+          {
+            "name": "attri-search-analyst",
+            "description": "Read Attri's ranked findings and Search Console data joined to on-site behaviour, explain what to fix first and why, an…"
+          },
+          {
+            "name": "attri-weekly-review",
+            "description": "Run a weekly review of an Attri workspace — what moved in traffic and search, which findings are new or resolved, what…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
