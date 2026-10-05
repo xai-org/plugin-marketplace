@@ -1,0 +1,16 @@
+{
+  "name": "aifordatabase",
+  "version": "1.0.0",
+  "description": "AI for Database: ask your connected databases questions in plain English, run read-only SQL, browse schemas and set up data alert workflows. Uses the hosted MCP at mcp.aifordatabase.com; sign in with an AI for Database account on first connect.",
+  "author": {
+    "name": "AI for Database",
+    "url": "https://www.aifordatabase.com"
+  },
+  "homepage": "https://www.aifordatabase.com",
+  "license": "Proprietary",
+  "keywords": [
+    "ai for database",
+    "aifordatabase",
+    "aifordatabase mcp"
+  ]
+}
