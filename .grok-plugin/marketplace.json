@@ -395,6 +395,27 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "textpass-de",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/olwulf-commits/textpass.git",
+        "sha": "939602faada1f22e452326442361088ec63bf4db",
+        "path": "plugins/textpass-de"
+      },
+      "description": "TextPass drafts and revises German texts using independent questions and two editorial passes to preserve meaning and refine structure and voice.",
+      "category": "productivity",
+      "homepage": "https://olwulf-commits.github.io/",
+      "version": "1.0.17",
+      "author": {
+        "name": "Olaf Wulf"
+      },
+      "keywords": [
+        "textpass",
+        "textpass-de",
+        "haltung-im-text"
+      ]
     }
   ]
 }

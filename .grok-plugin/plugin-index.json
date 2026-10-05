@@ -1144,6 +1144,22 @@
         ]
       }
     },
+    "textpass-de": {
+      "sha": "939602faada1f22e452326442361088ec63bf4db",
+      "version": "1.0.17",
+      "components": {
+        "skills": [
+          {
+            "name": "haltung-im-text",
+            "description": "Gestaltet ausdrücklich beauftragte Haltung in deutschen Texten. Nutzen, wenn der Auftrag eine Haltung oder Stimme vorgi…"
+          },
+          {
+            "name": "textpass-de",
+            "description": "Überarbeite deutsche Texte oder gestalte ausdrücklich beauftragte Neuentwürfe mit offenen Fragen, freiem Aufbau und Bed…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",
