@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "piloxa",
+      "description": "Send a letter or document by USPS Certified Mail to any U.S. address: Piloxa prints it, mails it, tracks it and keeps the proof (document SHA-256, USPS tracking, electronic return receipt). The person approves the exact total before anything is paid or mailed. Remote MCP server, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Piloxa/piloxa-plugin.git",
+        "sha": "6b51a349b73f9d8a1710a42a8d24a6020319b043"
+      },
+      "homepage": "https://piloxa.com",
+      "keywords": ["piloxa", "piloxa certified mail"],
+      "domains": ["piloxa.com"]
     }
   ]
 }
