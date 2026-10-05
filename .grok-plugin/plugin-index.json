@@ -633,6 +633,24 @@
         ]
       }
     },
+    "otakit": {
+      "sha": "92395e1c78ca9d55f2189b0203affc9d7a146abf",
+      "version": "1.9.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "otakit",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "otakit",
+            "description": "Set up, release, inspect, troubleshoot, or self-host OtaKit for Capacitor OTA updates. Use for OtaKit bundles, releases…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
