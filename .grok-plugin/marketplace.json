@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "shopify-ai-toolkit",
+      "description": "Shopify's official AI Toolkit for building on Shopify. Search Shopify docs and API schemas; write and validate Admin and Storefront GraphQL, Liquid themes, Functions, and UI extensions; and manage stores with the Shopify CLI. Skill scripts and hooks send usage telemetry to shopify.dev; set OPT_OUT_INSTRUMENTATION=true to turn it off.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Shopify/Shopify-AI-Toolkit.git",
+        "sha": "a9549b1f4e9dd18266458eb0820c76fef8a503be"
+      },
+      "homepage": "https://shopify.dev/docs/apps/build/ai-toolkit",
+      "keywords": ["shopify", "shopify ai toolkit", "shopify app", "shopify theme", "shopify liquid", "shopify graphql", "shopify admin api", "shopify storefront api", "shopify functions", "shopify cli", "shopify store"],
+      "domains": ["shopify.dev", "shopify.com", "admin.shopify.com", "myshopify.com"]
     }
   ]
 }
