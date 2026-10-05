@@ -1166,6 +1166,48 @@
         ]
       }
     },
+    "traveler-md": {
+      "sha": "431a39c1ccbf6a2a3eefceda9b51c849a0b9e46b",
+      "version": "1.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "travelermd",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-trip",
+            "description": "Create or enrich a traveler.md trip by assembling what is already known from traveler.md, the current conversation, ava…"
+          },
+          {
+            "name": "post-trip-review",
+            "description": "Debrief a completed traveler.md trip through a brief, adaptive one-question-at-a-time conversation, record trip-specifi…"
+          },
+          {
+            "name": "traveler-onboarding",
+            "description": "Initialize, rebuild, or deepen a user's traveler.md by recovering known trips and durable travel preferences from avail…"
+          },
+          {
+            "name": "travelermd",
+            "description": "The traveler's portable travel memory on the traveler.md MCP server. It stores the preferences they have stated (travel…"
+          },
+          {
+            "name": "trip-interview",
+            "description": "Conduct a fluid, adaptive one-question-at-a-time interview to fill a specific traveler.md trip record with the most use…"
+          },
+          {
+            "name": "trip-organizer",
+            "description": "Clean up and normalize an existing traveler.md trip without losing information. Use when a user asks to organize, tidy,…"
+          },
+          {
+            "name": "trip-readiness-check",
+            "description": "Review an upcoming traveler.md trip for missing, unresolved, contradictory, or time-sensitive pieces before departure.…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
