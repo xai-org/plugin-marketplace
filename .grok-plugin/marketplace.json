@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "xenition",
+      "description": "Your Xenition workspace in the chat (MCP server + skills): create and edit documents, decks, sheets, boards, forms, 3D models and AI images, video and voice; build and deploy web apps; schedule automations; and get grounded answers from your own files.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xenition/xenition-mcp.git",
+        "sha": "888090b846d324f81e5cb60b3b92b5247ce6cbd8",
+        "path": "plugin"
+      },
+      "homepage": "https://xenition.com",
+      "keywords": ["xenition", "xenition workspace", "xenition app builder", "xenition deck", "xenition automation"],
+      "domains": ["xenition.com", "api.xenition.com"]
     }
   ]
 }
