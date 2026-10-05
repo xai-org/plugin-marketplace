@@ -604,6 +604,32 @@
         ]
       }
     },
+    "nibomo": {
+      "sha": "daaaea7c7b0dd194c1c577da3066bdd2b842ffe8",
+      "version": "1.29.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nibomo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-flashcards",
+            "description": "Create flashcards in Nibomo from notes, study material, vocabulary, or concepts the user wants to remember. Use when th…"
+          },
+          {
+            "name": "improve-flashcards",
+            "description": "Audit, edit, and organize existing Nibomo flashcards and saved decks. Use when the user asks to improve wording, split…"
+          },
+          {
+            "name": "study-due-cards",
+            "description": "Run a conversational spaced-repetition study session with existing Nibomo cards. Use when the user asks to study, revie…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

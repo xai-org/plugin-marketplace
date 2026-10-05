@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "nibomo",
+      "description": "Create flashcards from notes, study due cards, and improve your collection with Nibomo's hosted MCP server and three study skills. Connect your Nibomo account through OAuth to read and write cards, decks, tags, and review progress.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kirill-markin/nibomo-plugins.git",
+        "sha": "daaaea7c7b0dd194c1c577da3066bdd2b842ffe8"
+      },
+      "homepage": "https://nibomo.com",
+      "keywords": ["nibomo", "nibomo flashcards", "nibomo mcp"],
+      "domains": ["nibomo.com", "app.nibomo.com", "mcp.nibomo.com"]
     }
   ]
 }
