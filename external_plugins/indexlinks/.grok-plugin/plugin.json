@@ -1,0 +1,16 @@
+{
+  "name": "indexlinks",
+  "version": "1.0.0",
+  "description": "IndexLinks: check how search engines and AI crawlers see a site, send new pages to Bing, Google and AI crawlers, and read verified crawl receipts. Uses the hosted MCP at mcp.indexlinks.app; sign in with a IndexLinks account on first connect.",
+  "author": {
+    "name": "IndexLinks",
+    "url": "https://indexlinks.app"
+  },
+  "homepage": "https://indexlinks.app",
+  "license": "Proprietary",
+  "keywords": [
+    "indexlinks",
+    "indexlinks seo",
+    "indexlinks mcp"
+  ]
+}

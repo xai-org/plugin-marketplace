@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "indexlinks": {
+      "type": "http",
+      "url": "https://mcp.indexlinks.app/mcp"
+    }
+  }
+}

@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "indexlinks",
+      "description": "IndexLinks: check how search engines and AI crawlers see a site, send new pages to Bing, Google and AI crawlers, and read verified crawl receipts.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/indexlinks"
+      },
+      "homepage": "https://indexlinks.app",
+      "keywords": ["indexlinks", "indexlinks seo", "indexlinks mcp"],
+      "domains": ["indexlinks.app", "app.indexlinks.app", "mcp.indexlinks.app"]
     }
   ]
 }
