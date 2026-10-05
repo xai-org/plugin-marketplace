@@ -1,0 +1,16 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "JobFinder job search: review job matches, read drafted outreach to hiring managers, approve or reject applications and track replies. Uses the hosted MCP at mcp.jobfinder-ai.com; sign in with a JobFinder account on first connect.",
+  "author": {
+    "name": "JobFinder",
+    "url": "https://www.jobfinder-ai.com"
+  },
+  "homepage": "https://www.jobfinder-ai.com",
+  "license": "Proprietary",
+  "keywords": [
+    "jobfinder",
+    "jobfinder-ai",
+    "jobfinder mcp"
+  ]
+}

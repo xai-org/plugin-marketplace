@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jobfinder": {
+      "type": "http",
+      "url": "https://mcp.jobfinder-ai.com/mcp"
+    }
+  }
+}
