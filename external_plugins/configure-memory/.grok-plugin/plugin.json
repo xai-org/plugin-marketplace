@@ -1,0 +1,17 @@
+{
+  "name": "configure-memory",
+  "version": "1.0.0",
+  "description": "Use the project decisions, preferences, and goals saved in your Configure profile in your current task. Save new context when you ask.",
+  "author": {
+    "name": "Configure",
+    "url": "https://configure.dev"
+  },
+  "homepage": "https://configure.dev",
+  "repository": "https://github.com/configure-dev/configure-mcp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "configure memory",
+    "configure.dev",
+    "configure profile"
+  ]
+}

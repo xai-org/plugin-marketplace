@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "configure": {
+      "type": "http",
+      "url": "https://mcp.configure.dev/"
+    }
+  }
+}
