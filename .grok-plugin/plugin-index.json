@@ -633,6 +633,24 @@
         ]
       }
     },
+    "podcaststotext": {
+      "sha": "4633769eeb0162f2cc247beec17da3b3c05b6577",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "podcaststotext",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "podcaststotext",
+            "description": "Transcribe podcasts, YouTube and TikTok videos, and audio files to text, then generate show notes, chapters, translatio…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
