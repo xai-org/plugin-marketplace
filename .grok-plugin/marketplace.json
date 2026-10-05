@@ -395,6 +395,25 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "living-memory",
+      "description": "Save memories, recall earlier context, and exchange temporary agent handoffs through your hosted Living Memory World or Free Room. Connect with your Living Memory account via OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nature-Labs-Orz/living-memory-grok-plugin.git",
+        "sha": "bea349b049ee238b423cc48abf957bb51d089805"
+      },
+      "homepage": "https://viibe.to/living-memory",
+      "keywords": [
+        "living-memory",
+        "living memory",
+        "living memory handoff"
+      ],
+      "domains": [
+        "lme.viibe.to"
+      ]
     }
   ]
 }
