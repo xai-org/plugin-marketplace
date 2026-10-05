@@ -395,6 +395,34 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "croncool",
+      "description": "Inspect Croncool scheduled jobs, execution health, durable workflow traces and webhook delivery health, with conservative approval guidance for one configured run-now action.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/croncool/claude-plugin.git",
+        "sha": "f07bc17655395c96a6b28069a96d7ebc919de9f5"
+      },
+      "homepage": "https://www.cron.cool/developers/#mcp",
+      "keywords": [
+        "croncool",
+        "croncool mcp",
+        "cron cool"
+      ],
+      "domains": [
+        "cron.cool",
+        "www.cron.cool",
+        "app.cron.cool",
+        "mcp.cron.cool"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@cron.cool",
+        "url": "https://www.cron.cool/"
+      }
     }
   ]
 }
