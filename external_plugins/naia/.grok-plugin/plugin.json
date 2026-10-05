@@ -1,0 +1,17 @@
+{
+  "name": "naia",
+  "version": "0.1.0",
+  "description": "Connect to Naia for GEO analyses, AI visibility reports, content and execution plans.",
+  "author": {
+    "name": "naia",
+    "email": "ariel@naia.today",
+    "url": "https://naia.today"
+  },
+  "homepage": "https://naia.today/developers",
+  "license": "UNLICENSED",
+  "keywords": [
+    "naia",
+    "naia geo",
+    "naia autopilot"
+  ]
+}
