@@ -395,6 +395,23 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "svatlas",
+      "description": "Search AI startups and founders, find the companies most likely to buy a product, and keep outreach lists, from the sourced Silicon Valley Atlas directory.",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/svatlas"
+      },
+      "homepage": "https://svatlas.io",
+      "keywords": [
+        "svatlas",
+        "sv atlas",
+        "silicon valley atlas"
+      ],
+      "domains": [
+        "svatlas.io"
+      ]
     }
   ]
 }

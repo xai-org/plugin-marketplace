@@ -1,0 +1,17 @@
+{
+  "name": "svatlas",
+  "version": "1.1.0",
+  "description": "Search AI startups and founders, find the companies most likely to buy a product, and keep outreach lists, from the sourced Silicon Valley Atlas directory.",
+  "author": {
+    "name": "Phoenix Horizon, Inc.",
+    "email": "support@getrush.ai",
+    "url": "https://svatlas.io"
+  },
+  "homepage": "https://svatlas.io",
+  "keywords": [
+    "svatlas",
+    "sv atlas",
+    "silicon valley atlas"
+  ],
+  "license": "Proprietary"
+}
