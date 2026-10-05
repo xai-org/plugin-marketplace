@@ -886,6 +886,24 @@
         ]
       }
     },
+    "regsentry": {
+      "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+      "version": "1.1.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "regsentry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "consent-evidence-review",
+            "description": "Use when a user wants to inspect an authorized public site's static tracking signals, grade consent evidence, or obtain…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
