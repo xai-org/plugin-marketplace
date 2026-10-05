@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "dododentist",
+      "description": "Read-only dental-clinic administration for AI assistants. Bundles the DodoDentist connector with guidance for clinic metadata, availability, providers, procedure catalogs, non-identifying calendar blocks and aggregate schedules while keeping patient and clinical data outside the connector.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dododentist/claude-plugin.git",
+        "sha": "a286c8db46d2e17c84ae2444ad444800e3560d1b"
+      },
+      "homepage": "https://www.dododentist.com/developers/#mcp",
+      "keywords": [
+        "dododentist",
+        "dododentist mcp"
+      ],
+      "domains": [
+        "dododentist.com",
+        "www.dododentist.com",
+        "app.dododentist.com",
+        "mcp.dododentist.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "DodoDentist LLC",
+        "email": "info@dododentist.com",
+        "url": "https://www.dododentist.com/"
+      }
     }
   ]
 }
