@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "scrapecreators",
+      "description": "Research public social media profiles, posts, comments, transcripts, ads, and trends via the hosted ScrapeCreators MCP server and a focused research skill. Connect through OAuth using a ScrapeCreators API key; API calls consume account credits.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ScrapeCreators/scrapecreators-grok-plugin.git",
+        "sha": "d702e198ee3c1e9b9517529b3ce99d02230ebcb8"
+      },
+      "homepage": "https://github.com/ScrapeCreators/scrapecreators-grok-plugin",
+      "keywords": ["scrapecreators", "scrape creators", "scrapecreators mcp"],
+      "domains": ["scrapecreators.com", "api.scrapecreators.com", "app.scrapecreators.com", "docs.scrapecreators.com"]
     }
   ]
 }
