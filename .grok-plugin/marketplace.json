@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "stophy",
+      "description": "The web data layer for AI agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stophydotdev/mcp.git",
+        "sha": "d49eab121b3e119f67ea6f45cd840d0daf548481"
+      },
+      "homepage": "https://stophy.dev",
+      "keywords": ["stophy", "stophy mcp", "stophy web data"],
+      "domains": ["stophy.dev", "mcp.stophy.dev", "api.stophy.dev", "docs.stophy.dev"]
     }
   ]
 }
