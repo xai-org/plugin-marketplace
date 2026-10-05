@@ -633,6 +633,24 @@
         ]
       }
     },
+    "plori": {
+      "sha": "6b686243d94f8f90e04ded50574b325b9745520e",
+      "version": "0.2.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "plori",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "plori",
+            "description": "Create and drive plori agents (each an AI agent in its own cloud environment) from any MCP client, the plori CLI, or ov…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {

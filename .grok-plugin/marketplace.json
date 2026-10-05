@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "plori",
+      "description": "plori (plori.ai): a cloud AI agent with its own persistent environment - durable disk, real CLI tools, and memory.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/plori-ai/claude-plugin.git",
+        "sha": "6b686243d94f8f90e04ded50574b325b9745520e",
+        "path": "plugins/plori"
+      },
+      "homepage": "https://plori.ai",
+      "keywords": ["plori", "plori ai", "plori agent", "plori cloud agent", "plori mcp"],
+      "domains": ["plori.ai", "api.plori.ai"]
     }
   ]
 }
