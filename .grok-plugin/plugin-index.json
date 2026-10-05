@@ -505,6 +505,28 @@
         ]
       }
     },
+    "multilocale": {
+      "sha": "7ad7505638052066873fcf511215612828f53f82",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "multilocale",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "localization-workspace",
+            "description": "Review and manage a Multilocale localization workspace — projects, locale coverage, exact phrase translations, duplicat…"
+          },
+          {
+            "name": "localize-an-app",
+            "description": "End-to-end recipe for translating a whole application with Multilocale — choose the ecosystem's own i18n runtime, creat…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
