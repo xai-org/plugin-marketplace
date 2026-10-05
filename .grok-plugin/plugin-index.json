@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "appskyline": {
+      "sha": "6aba75984693ce3250f2f41e0b71d791f1510c9c",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "appskyline",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aso-research",
+            "description": "Research and improve an app's App Store Optimization standing using AppSkyline — keyword ranks and history across the i…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",

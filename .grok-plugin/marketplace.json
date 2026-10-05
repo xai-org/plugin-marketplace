@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "appskyline",
+      "description": "App Store Optimization research across the iOS App Store, macOS App Store, Google Play and Microsoft Store. Bundles the AppSkyline connector with skills for keyword research, rank tracking and store-listing audits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/appskyline/claude-plugin.git",
+        "sha": "6aba75984693ce3250f2f41e0b71d791f1510c9c"
+      },
+      "homepage": "https://www.appskyline.com/developers/#claude-mcp",
+      "keywords": [
+        "appskyline",
+        "appskyline mcp"
+      ],
+      "domains": [
+        "appskyline.com",
+        "www.appskyline.com",
+        "app.appskyline.com",
+        "mcp.appskyline.com"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@appskyline.com",
+        "url": "https://www.appskyline.com/"
+      }
     }
   ]
 }
