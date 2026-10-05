@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "auravms": {
+      "type": "http",
+      "url": "https://mcp.auravms.com/mcp"
+    }
+  }
+}

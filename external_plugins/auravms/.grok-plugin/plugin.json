@@ -1,0 +1,16 @@
+{
+  "name": "auravms",
+  "version": "1.0.0",
+  "description": "AuraVMS procurement: manage suppliers, send RFQs, compare supplier quotes and place purchase orders. Uses the hosted MCP at mcp.auravms.com; sign in with a AuraVMS account on first connect.",
+  "author": {
+    "name": "AuraVMS",
+    "url": "https://www.auravms.com"
+  },
+  "homepage": "https://www.auravms.com",
+  "license": "Proprietary",
+  "keywords": [
+    "auravms",
+    "auravms procurement",
+    "auravms mcp"
+  ]
+}
