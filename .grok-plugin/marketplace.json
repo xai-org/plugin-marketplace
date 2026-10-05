@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "lemma-telepath",
+      "description": "Your Telegram inside Grok: search your whole chat archive, read documents, photos and transcribed voice, and reply as yourself. Hosted MCP — sign in with Telegram on first connect, no API key or Premium required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Lemma-Company/telepath-plugin.git",
+        "sha": "8f73a1f2501b26783db540f11bf981fd769e3425"
+      },
+      "homepage": "https://telepath.lemma.company",
+      "keywords": ["telepath", "lemma telepath", "telepath telegram"],
+      "domains": ["telepath.lemma.company", "lemma.company"]
     }
   ]
 }

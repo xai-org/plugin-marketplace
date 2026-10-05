@@ -409,6 +409,18 @@
         ]
       }
     },
+    "lemma-telepath": {
+      "sha": "8f73a1f2501b26783db540f11bf981fd769e3425",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "telepath",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
