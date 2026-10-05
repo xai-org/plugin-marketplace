@@ -1098,6 +1098,24 @@
         ]
       }
     },
+    "supovia": {
+      "sha": "bd5edd5a8e920a983cbbe1e6c010aac2746428c3",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "supovia",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "support-operations",
+            "description": "Operate a Supovia customer-support workspace safely — triage unresolved conversations from metadata-only activity, insp…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
