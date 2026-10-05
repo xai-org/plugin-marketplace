@@ -395,6 +395,31 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "yourgpt",
+      "description": "Review YourGPT customer conversations and support analytics, audit project knowledge, fix FAQ answer gaps, and test agent personas and models through authenticated MCP workflows.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YourGPT/yourgpt-grok-plugin.git",
+        "sha": "b3cd1a0418dc03b9bb5a87e771cd8707bcbbf3e5"
+      },
+      "homepage": "https://yourgpt.ai",
+      "version": "0.1.3",
+      "author": {
+        "name": "YourGPT",
+        "url": "https://yourgpt.ai"
+      },
+      "keywords": [
+        "yourgpt",
+        "yourgpt support",
+        "yourgpt knowledge",
+        "yourgpt chatbot"
+      ],
+      "domains": [
+        "yourgpt.ai"
+      ]
     }
   ]
 }
