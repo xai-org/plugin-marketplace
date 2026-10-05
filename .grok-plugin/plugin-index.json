@@ -397,6 +397,24 @@
         ]
       }
     },
+    "hairdora": {
+      "sha": "e89027f6e8f8bb85cfaa74eafa36150f9c5c7a95",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hairdora",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "salon-operations",
+            "description": "Audit HairDora salon schedules, opening hours, availability, provider and service coverage, client appointments, quotes…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
