@@ -71,6 +71,24 @@
         ]
       }
     },
+    "bot-store": {
+      "sha": "311fb823f9a984136508d96a3478c5c08810a25f",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bot-store",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bot-store-marketplace",
+            "description": "Find and open Grok Bot templates from bot.store, compare actual marketplace listings and prepare a user-chosen bot's ch…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
