@@ -604,6 +604,24 @@
         ]
       }
     },
+    "nimply": {
+      "sha": "4a54ba1f90381962b77390f0c93fbf28231f6691",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nimply",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nimply",
+            "description": "Use when the user wants to plan, draft, schedule, publish, approve or measure social media posts, or edit their Nimply…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

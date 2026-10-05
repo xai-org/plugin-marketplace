@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "nimply",
+      "description": "Nimply social media management. List connected social accounts, draft and schedule posts into each channel's best slots, run client approvals, upload media, read analytics and manage Nimply Pages link-in-bio pages through Nimply's hosted MCP server (OAuth).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nimply/grok-plugin.git",
+        "sha": "4a54ba1f90381962b77390f0c93fbf28231f6691"
+      },
+      "homepage": "https://developer.nimply.io/docs/integrations/grok",
+      "keywords": ["nimply", "nimply social media", "nimply mcp", "nimply scheduler", "nimply pages"],
+      "domains": ["nimply.io", "app.nimply.io", "developer.nimply.io", "mcp.nimply.io", "nimply.link"]
     }
   ]
 }
