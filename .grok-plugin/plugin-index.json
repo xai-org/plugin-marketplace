@@ -397,6 +397,130 @@
         ]
       }
     },
+    "godmode": {
+      "sha": "d86b3cad66d0becdb4c1a5def9680378ab084fc0",
+      "version": "0.3.34",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit|NotebookEdit|write|search_replace, WebFetch|WebSearch"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Bash|PowerShell|Write|Edit|MultiEdit|NotebookEdit|apply_patch|functions\\.exec|shell_command|run_terminal_command|search…"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "SubagentStop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "godmode",
+            "description": "Coordinate local context continuity, evidence, and guarded coding workflows. Use when starting or resuming substantive…"
+          },
+          {
+            "name": "godmode-budget",
+            "description": "Account for what a session or a release spent and hold it to declared ceilings: check reported tokens, tool calls and s…"
+          },
+          {
+            "name": "godmode-changelog",
+            "description": "Draft and verify release-notes from local commits and changelog fragments. Use when checking that every user-visible up…"
+          },
+          {
+            "name": "godmode-ci",
+            "description": "Run CI's checks locally, in CI's order, before opening a pull request: the task precheck, the fragment gate against the…"
+          },
+          {
+            "name": "godmode-code-of-law",
+            "description": "Use at the start of every session and before every new task - read GODMODE-CODE-OF-LAW.md at the project root when it e…"
+          },
+          {
+            "name": "godmode-codegraph",
+            "description": "Query a local, on-demand code dependency graph to answer who calls, who imports, and what blast radius a change carries…"
+          },
+          {
+            "name": "godmode-continuity",
+            "description": "Reconstruct and preserve private project continuity from local evidence. Use when resuming work, changing branches or w…"
+          },
+          {
+            "name": "godmode-evidence",
+            "description": "Shape a claim so its citations grade the first time: reflect it against the record, cite exit-bearing commands through…"
+          },
+          {
+            "name": "godmode-governance",
+            "description": "Preview and govern protected engineering actions without executing them implicitly. Use before destructive, externally…"
+          },
+          {
+            "name": "godmode-host-sync",
+            "description": "Detect every installed AI CLI host, reconcile Godmode's interception manifests into each one's native format, and drift…"
+          },
+          {
+            "name": "godmode-impact-gate",
+            "description": "Score a staged commit's fan-out and architectural-boundary crossings just before committing: dependents left unfollowed…"
+          },
+          {
+            "name": "godmode-investigation",
+            "description": "Diagnose technical failures with reproducible evidence and bounded hypotheses. Use when a bug, regression, test failure…"
+          },
+          {
+            "name": "godmode-loop-warden",
+            "description": "Bound an iterative fix-and-retry cycle before it starts and stop it when it stops making progress: audit the loop contr…"
+          },
+          {
+            "name": "godmode-memory-gardener",
+            "description": "Garden the local archive at session close or idle time: tell the session as dated prose, list near-duplicate or contrad…"
+          },
+          {
+            "name": "godmode-repair",
+            "description": "Re-pitch an answer that did not land, and record why it did not. Use when the operator says they do not follow, asks fo…"
+          },
+          {
+            "name": "godmode-replicate",
+            "description": "Rebuild a mechanism already studied in a reference implementation, in stdlib under Godmode's own names, then pin it wit…"
+          },
+          {
+            "name": "godmode-research",
+            "description": "Study an outside source repository in a fixed order - licence, tree, the two or three implementing source files, line-c…"
+          },
+          {
+            "name": "godmode-second-look",
+            "description": "Independently recheck a change, session, PR, or diff that already carries an accepted claim or verdict. Use before trus…"
+          },
+          {
+            "name": "godmode-skill-eval",
+            "description": "Score a drafted or hand-edited skill's authored routing rows against the committed baseline, and confirm its bundle val…"
+          },
+          {
+            "name": "godmode-skill-forge",
+            "description": "Create an original, compact project skill after a repeated capability gap is proven. Use when at least three real tasks…"
+          },
+          {
+            "name": "godmode-spec-lifecycle",
+            "description": "Move a specification and its plan through specify, approve, implement, review, and status as one linked, resumable reco…"
+          },
+          {
+            "name": "godmode-triage",
+            "description": "Work the open-asks queue down to zero-or-mapped: list open operator asks and aging obligations, promote rule-shaped ask…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

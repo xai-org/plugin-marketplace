@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "godmode",
+      "description": "A local, tamper-evident record of what a coding agent did, what it claimed, and what was verified. Hash-chained archive, honest claim grading, and a pre-tool gate that classifies every command before it runs.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AIimagined/Godmode.git",
+        "sha": "d86b3cad66d0becdb4c1a5def9680378ab084fc0"
+      },
+      "homepage": "https://github.com/AIimagined/Godmode",
+      "keywords": ["godmode", "godmode continuity", "godmode governance"]
     }
   ]
 }
