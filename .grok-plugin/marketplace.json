@@ -395,6 +395,20 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "onelence",
+      "description": "OneLence marketing analytics for Grok Build. Install and verify OneLence tracking in your codebase, then ask what to scale, hold or stop across ads, search, AI search and affiliate partners through OneLence's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Crelora/onelence-ai-plugins.git",
+        "sha": "dd8a9139002844c4510b01d794d74322631f771e",
+        "path": "plugins/onelence"
+      },
+      "homepage": "https://onelence.com",
+      "keywords": ["onelence", "onelence mcp", "onelence tracking", "onelence analytics"],
+      "domains": ["onelence.com", "mcp.onelence.com", "api.onelence.com"]
     }
   ]
 }
