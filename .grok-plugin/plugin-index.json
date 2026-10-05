@@ -633,6 +633,24 @@
         ]
       }
     },
+    "polyblog": {
+      "sha": "f3b03763d23f3481351aad42e511882a621f4c93",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "polyblog",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "multilingual-editorial-workflow",
+            "description": "Audit and operate multilingual Polyblog content with careful, approval-first editorial workflows. Use when asked to ins…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
