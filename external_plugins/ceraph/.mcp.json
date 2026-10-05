@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "react-native-mcp": {
+      "command": "npx",
+      "args": ["-y", "@ceraph/react-native-mcp@latest"]
+    }
+  }
+}

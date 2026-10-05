@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "ceraph",
+      "description": "Drive and test React Native and Expo apps end-to-end on iOS and Android. Supports real devices, simulators, and emulators. Snapshots, taps, typing, swipes, screenshots, deep links, reloads, builds, and runtime errors.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ceraph"
+      },
+      "homepage": "https://ceraph.dev",
+      "keywords": ["ceraph", "ceraph mcp", "ceraph react native"],
+      "domains": ["ceraph.dev", "mcp.ceraph.dev"]
     }
   ]
 }

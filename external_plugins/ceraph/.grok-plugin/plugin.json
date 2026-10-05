@@ -1,0 +1,12 @@
+{
+  "name": "ceraph",
+  "version": "1.0.0",
+  "description": "Drive and test React Native and Expo apps end-to-end on iOS and Android. Supports real devices, simulators, and emulators.",
+  "author": {
+    "name": "Ike Studios LLC",
+    "url": "https://ceraph.dev"
+  },
+  "homepage": "https://ceraph.dev",
+  "license": "Proprietary",
+  "keywords": ["ceraph", "ceraph mcp", "ceraph react native"]
+}
