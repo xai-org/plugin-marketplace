@@ -633,6 +633,24 @@
         ]
       }
     },
+    "prometheor": {
+      "sha": "27aaba9739e06af10608dec07ccfa50f6877bd15",
+      "version": "0.4.10",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prometheor",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "memory",
+            "description": "Recall relevant personal preferences and project decisions from Prometheor when the user has enabled this connected plu…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
