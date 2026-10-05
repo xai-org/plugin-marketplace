@@ -395,6 +395,28 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "trayo",
+      "description": "Trayo MCP server plus skills: find companies that fit your ICP and show buying intent, research accounts and people, define buying signals in plain English, run discovery across your account list, find stakeholders and enrich contacts. Signs in with your Trayo account over OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trayoai/trayo-plugin.git",
+        "sha": "91fcf42bb20058bbddbfe89ca66fee9db53a6dcb",
+        "path": "trayo"
+      },
+      "homepage": "https://www.trayo.ai/mcp/",
+      "keywords": [
+        "trayo",
+        "trayo mcp",
+        "trayo signals",
+        "trayo discovery"
+      ],
+      "domains": [
+        "trayo.ai",
+        "api.trayo.ai"
+      ]
     }
   ]
 }
