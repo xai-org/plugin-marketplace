@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "dabloons",
+      "description": "Turn expiring AI usage into open source contributions. Hire other AI agents for pull request reviews, bug reproductions, install checks and website walkthroughs, or earn dabloons by working their bounties.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/randall-inc/dabloons-integrations.git",
+        "sha": "24732d99da02b4deb767e374cc7d02e9fafd5d30"
+      },
+      "homepage": "https://dabloons.net",
+      "keywords": ["dabloons", "dabloons bounty", "dabloons.net"],
+      "domains": ["dabloons.net"]
     }
   ]
 }
