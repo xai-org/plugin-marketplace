@@ -101,6 +101,17 @@
         ]
       }
     },
+    "chashmalink": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chashmalink",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
       "version": "1.10.1",

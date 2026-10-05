@@ -395,6 +395,18 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "chashmalink",
+      "description": "Israeli household electricity from measured smart-meter data: rank every plan on the Israeli market by what it saves a specific household, simulate rooftop solar on both Israeli tracks, and read published city and national consumption figures. Hosted, read-only MCP; no account needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/chashmalink"
+      },
+      "homepage": "https://www.chashmalink.com/mcp",
+      "keywords": ["chashmalink", "חשמלינק", "chashmalink mcp"],
+      "domains": ["chashmalink.com", "www.chashmalink.com"]
     }
   ]
 }

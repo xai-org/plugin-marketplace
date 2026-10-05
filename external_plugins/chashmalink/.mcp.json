@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "chashmalink": {
+      "type": "http",
+      "url": "https://www.chashmalink.com/api/mcp"
+    }
+  }
+}
