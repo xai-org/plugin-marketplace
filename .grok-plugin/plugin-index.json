@@ -409,6 +409,24 @@
         ]
       }
     },
+    "hotelumo": {
+      "sha": "8ce53353a4372eccd0e17b801dd42ce5cdb0babb",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hotelumo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hotel-operations",
+            "description": "Review a Hotelumo property's safe operational configuration and capacity — property metadata, bookable availability, ag…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
