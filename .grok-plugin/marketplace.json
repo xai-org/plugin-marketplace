@@ -395,6 +395,15 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "adrio",
+      "description": "Adrio, the AI media buyer for Meta ads. Create static and video ad creatives, launch them to Facebook and Instagram, and research competitor ads. Sign in with an Adrio account to run your Meta advertising from Grok.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/adrio" },
+      "homepage": "https://adrio.ai",
+      "keywords": ["adrio", "adrio ads", "adrio spark", "adrio mcp"],
+      "domains": ["adrio.ai", "api.adrio.ai"]
     }
   ]
 }

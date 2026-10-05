@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adrio": {
+      "type": "http",
+      "url": "https://api.adrio.ai/mcp"
+    }
+  }
+}
