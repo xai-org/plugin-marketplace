@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "voidmob",
+      "description": "VoidMob integration: receive SMS verification codes for your own accounts on US non-VoIP numbers, keep a dedicated number, buy eSIM data for travel and use 4G/5G mobile IPs by country, paid from a prepaid VoidMob balance with a price you approve.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voidmobcom/voidmob-plugin.git",
+        "sha": "0e5b14463b2e9769c1d5e2afab759acc3c5b1e96"
+      },
+      "homepage": "https://github.com/voidmobcom/voidmob-plugin",
+      "keywords": ["voidmob", "voidmob sms", "voidmob esim", "voidmob proxy", "voidmob number"],
+      "domains": ["voidmob.com"]
     }
   ]
 }
