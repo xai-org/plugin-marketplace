@@ -409,6 +409,224 @@
         ]
       }
     },
+    "magicteams-connectors": {
+      "sha": "cca7b34828c2649cc9f08bcdbf6292a6100c6ce5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ai-ready",
+            "description": "http"
+          },
+          {
+            "name": "class-drop",
+            "description": "http"
+          },
+          {
+            "name": "court-split",
+            "description": "http"
+          },
+          {
+            "name": "fee-fighter",
+            "description": "http"
+          },
+          {
+            "name": "festival-finder",
+            "description": "http"
+          },
+          {
+            "name": "flight-fix",
+            "description": "http"
+          },
+          {
+            "name": "grocery-stock",
+            "description": "http"
+          },
+          {
+            "name": "hvacrescue",
+            "description": "http"
+          },
+          {
+            "name": "invoice-gen",
+            "description": "http"
+          },
+          {
+            "name": "league-night",
+            "description": "http"
+          },
+          {
+            "name": "lease-break",
+            "description": "http"
+          },
+          {
+            "name": "meal-kit-match",
+            "description": "http"
+          },
+          {
+            "name": "mow-recur",
+            "description": "http"
+          },
+          {
+            "name": "padel-court",
+            "description": "http"
+          },
+          {
+            "name": "party-plan",
+            "description": "http"
+          },
+          {
+            "name": "pest-blitz",
+            "description": "http"
+          },
+          {
+            "name": "plumb-now",
+            "description": "http"
+          },
+          {
+            "name": "recipe-scale",
+            "description": "http"
+          },
+          {
+            "name": "report-raja",
+            "description": "http"
+          },
+          {
+            "name": "room-split",
+            "description": "http"
+          },
+          {
+            "name": "sahadeva",
+            "description": "http"
+          },
+          {
+            "name": "salon-book",
+            "description": "http"
+          },
+          {
+            "name": "service-schedule",
+            "description": "http"
+          },
+          {
+            "name": "sheet-shift",
+            "description": "http"
+          },
+          {
+            "name": "stay-tonight",
+            "description": "http"
+          },
+          {
+            "name": "tutor-now",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-ready",
+            "description": "Onboard the user to AIReady - scanning and fixing AI discoverability (crawlers, llms.txt, structured data)."
+          },
+          {
+            "name": "class-drop",
+            "description": "Onboard the user to ClassDrop - class search, cost quotes, week plans, booking drafts and reminders."
+          },
+          {
+            "name": "court-split",
+            "description": "Onboard the user to CourtSplit - splitting court costs, settling up and rotation planning."
+          },
+          {
+            "name": "fee-fighter",
+            "description": "Onboard the user to FeeFighter - auditing junk fees, projecting annual costs and drafting dispute letters."
+          },
+          {
+            "name": "festival-finder",
+            "description": "Onboard the user to FestivalFinder - computed Hindu festival dates."
+          },
+          {
+            "name": "flight-fix",
+            "description": "Onboard the user to FlightFix - flight compensation checks, rights, deadlines and claim letters under EU261/UK261."
+          },
+          {
+            "name": "grocery-stock",
+            "description": "Onboard the user to GroceryStock - restock forecasts, shopping lists, basket quotes and budget swaps."
+          },
+          {
+            "name": "hvacrescue",
+            "description": "Onboard the user to HvacRescue - symptom triage, slot finder, job quotes, tech comparison, dispatch drafts and tuneup p…"
+          },
+          {
+            "name": "invoice-gen",
+            "description": "Onboard the user to InvoiceGen - freelancer invoices in seconds."
+          },
+          {
+            "name": "league-night",
+            "description": "Onboard the user to LeagueNight - fixtures, standings, match-day plans and season planning."
+          },
+          {
+            "name": "lease-break",
+            "description": "Onboard the user to LeaseBreak - early lease termination cost estimates, comparisons, letters and negotiation."
+          },
+          {
+            "name": "meal-kit-match",
+            "description": "Onboard the user to MealKitMatch - kit matching, week plans, cost quotes, tier comparison, meal swaps and delivery sche…"
+          },
+          {
+            "name": "mow-recur",
+            "description": "Onboard the user to MowRecur - mow schedules, season quotes, provider comparison, service drafts and reminders."
+          },
+          {
+            "name": "padel-court",
+            "description": "Onboard the user to PadelCourt - court finder, session quotes, membership math, booking drafts, reminders and week plan…"
+          },
+          {
+            "name": "party-plan",
+            "description": "Onboard the user to PartyPlan - budgeting, headcount quantities, timelines and checklists."
+          },
+          {
+            "name": "pest-blitz",
+            "description": "Onboard the user to PestBlitz - pest ID, slot finder, treatment quotes, provider comparison, dispatch drafts and retrea…"
+          },
+          {
+            "name": "plumb-now",
+            "description": "Onboard the user to PlumbNow - issue diagnosis, slot finder, job quotes, plumber comparison, dispatch drafts and mainte…"
+          },
+          {
+            "name": "recipe-scale",
+            "description": "Onboard the user to RecipeScale - scaling recipes, converting kitchen units and merging shopping lists."
+          },
+          {
+            "name": "report-raja",
+            "description": "Onboard the user to ReportRaja - weekly client reports in seconds."
+          },
+          {
+            "name": "room-split",
+            "description": "Onboard the user to RoomSplit - splitting rent and utilities, settling up and drafting a roommate agreement."
+          },
+          {
+            "name": "sahadeva",
+            "description": "Onboard the user to Sahadeva - place resolution first, then panchanga, matching, muhurta, consultations."
+          },
+          {
+            "name": "salon-book",
+            "description": "Onboard the user to SalonBook - slot finder, service quotes, salon comparison, booking drafts and reminders."
+          },
+          {
+            "name": "service-schedule",
+            "description": "Onboard the user to ServiceSchedule - what's due on their car, what it costs and what to check each season."
+          },
+          {
+            "name": "sheet-shift",
+            "description": "Onboard the user to SheetShift - convert and clean tables in seconds."
+          },
+          {
+            "name": "stay-tonight",
+            "description": "Onboard the user to StayTonight - hotel finder, all-in quotes, loyalty math, booking drafts, reminders and trip plans."
+          },
+          {
+            "name": "tutor-now",
+            "description": "Onboard the user to TutorNow - what it books and the browse-then-book flow."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
