@@ -1,0 +1,16 @@
+{
+  "name": "sendhq",
+  "version": "1.0.0",
+  "description": "SendHQ email API: send and receive email from your verified domains, manage domains, inboxes and templates, and check deliverability. Uses the hosted MCP at mcp.sendhq.cc; sign in with a SendHQ account on first connect.",
+  "author": {
+    "name": "SendHQ",
+    "url": "https://sendhq.cc"
+  },
+  "homepage": "https://sendhq.cc",
+  "license": "Proprietary",
+  "keywords": [
+    "sendhq",
+    "sendhq email",
+    "sendhq mcp"
+  ]
+}
