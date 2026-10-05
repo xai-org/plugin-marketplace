@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "rankreactor",
+      "description": "Hosted RankReactor SEO MCP: generate and list SEO articles and UGC videos, and read keywords, analytics, technical SEO, and site-audit metrics. Browser OAuth; no API key in config.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rankreactorai/rankreactorai-mcp.git",
+        "sha": "226afe5f44e8bf220b5a871fff24e0d37aea602a"
+      },
+      "homepage": "https://www.rankreactor.ai",
+      "keywords": ["rankreactor", "rankreactorai", "rankreactor mcp", "rankreactor seo"],
+      "domains": ["rankreactor.ai", "www.rankreactor.ai"]
     }
   ]
 }
