@@ -235,6 +235,36 @@
         ]
       }
     },
+    "dwellir": {
+      "sha": "3fd218d451fa7fc07ff08d0bfa98baae5b372f30",
+      "version": "0.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dwellir",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dwellir",
+            "description": "Connect Dwellir accounts, inspect RPC usage, manage API keys, query blockchain state, and configure developer projects.…"
+          },
+          {
+            "name": "evm",
+            "description": "Use when reading EVM blockchain data through Dwellir endpoints: Ethereum JSON-RPC methods, connection setup (ethers.js,…"
+          },
+          {
+            "name": "hyperliquid-data",
+            "description": "Use when querying Hyperliquid market data, HyperEVM state, order books, funding rates, or building read-only data strea…"
+          },
+          {
+            "name": "substrate",
+            "description": "Use when reading Substrate and Polkadot data through Dwellir endpoints: @polkadot/api connection setup, core RPC method…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
