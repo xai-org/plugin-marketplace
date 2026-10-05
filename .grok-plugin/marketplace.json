@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "vox-ai",
+      "description": "vox.ai is a voice AI platform for phone agents that answer and place calls in Korean. This plugin bundles vox.ai MCP tools and skills to build, test, and operate voice agents: create manuals from your materials, attach them to agents, and verify saved results with real test calls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vox-public/plugin.git",
+        "sha": "b3f72da9ce868c3643f650ecbfddb7ebd0a46643"
+      },
+      "homepage": "https://github.com/vox-public/plugin",
+      "keywords": ["vox.ai", "tryvox"],
+      "domains": ["tryvox.co"]
     }
   ]
 }
