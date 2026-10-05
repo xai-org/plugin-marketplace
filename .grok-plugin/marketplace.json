@@ -395,6 +395,27 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "casacaddy",
+      "description": "Read maintenance requirements, prepare confirmed guides and check device-owned guide jobs.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "ebbb4a0706bc5f8a73a6654718c2ab6685b89176",
+        "path": "plugins/casacaddy"
+      },
+      "homepage": "https://api.casacaddy.com/developers",
+      "keywords": [
+        "casacaddy"
+      ],
+      "domains": [
+        "api.casacaddy.com"
+      ],
+      "version": "1.0.3",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
