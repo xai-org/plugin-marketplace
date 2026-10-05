@@ -395,6 +395,33 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "imagelato",
+      "description": "Image asset workflow review with Imagelato. Bundles the OAuth connector with a skill for auditing projects, deterministic resize/reformat presets, processed batches and webhook delivery health, plus carefully confirmed preset maintenance and single-batch deletion.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imagelato/claude-plugin.git",
+        "sha": "3a08439b4079afb75ef72c70ae167f08969c587f"
+      },
+      "homepage": "https://www.imagelato.com/developers/#claude-mcp",
+      "keywords": [
+        "imagelato",
+        "imagelato mcp"
+      ],
+      "domains": [
+        "imagelato.com",
+        "www.imagelato.com",
+        "app.imagelato.com",
+        "mcp.imagelato.com"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Waiterio LLC",
+        "email": "info@imagelato.com",
+        "url": "https://www.imagelato.com/"
+      }
     }
   ]
 }
