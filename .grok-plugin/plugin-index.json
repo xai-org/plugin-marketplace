@@ -409,6 +409,46 @@
         ]
       }
     },
+    "horizon-shield": {
+      "sha": "f8ce34134888b032ee6cafd1c2f5c03b18d68c92",
+      "version": "1.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "audit",
+            "description": "Audit a Japanese construction or renovation quote against JCCDB fair-price data"
+          },
+          {
+            "name": "red-flags",
+            "description": "Check an estimate or sales pitch for overcharge and high-pressure tactics"
+          },
+          {
+            "name": "verify",
+            "description": "Issue an independently verifiable, tamper-evident fair-price receipt"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "horizon-shield",
+            "description": "http"
+          },
+          {
+            "name": "yakumo-contractors",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-contractor",
+            "description": "Find a verification-passed contractor in Japan, or check a contractor the user named, using the YAKUMO directory. Use w…"
+          },
+          {
+            "name": "horizon-shield",
+            "description": "Audit whether a Japanese construction or renovation estimate is fair. Use when the user shares a construction or renova…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

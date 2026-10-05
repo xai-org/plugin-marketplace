@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "horizon-shield",
+      "description": "Check Japanese construction and renovation estimates against the open JCCDB dataset (425,765 records, CC BY 4.0), get fair-price receipts anyone can recompute, spot overcharge wording, and find contractors that passed the same independent check; also U.S. public construction cost data (USCCDB). Remote MCP servers, no API key. Two tools append a record to a public ledger; the rest only read.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ogasurfproject-jpg/horizon-shield-plugin.git",
+        "sha": "f8ce34134888b032ee6cafd1c2f5c03b18d68c92"
+      },
+      "homepage": "https://shield.the-horizons-innovation.com",
+      "keywords": ["horizon shield", "horizonshield", "jccdb", "usccdb", "yakumo contractors"],
+      "domains": ["shield.the-horizons-innovation.com", "mcp.horizonshield.dev", "hearing.horizonshield.dev"]
     }
   ]
 }
