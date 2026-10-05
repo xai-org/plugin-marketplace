@@ -395,6 +395,25 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "configure-memory",
+      "description": "Use the project decisions, preferences, and goals saved in your Configure profile in your current task. Save new context when you ask.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/configure-memory"
+      },
+      "homepage": "https://configure.dev",
+      "keywords": [
+        "configure memory",
+        "configure.dev",
+        "configure profile"
+      ],
+      "domains": [
+        "configure.dev",
+        "mcp.configure.dev"
+      ]
     }
   ]
 }

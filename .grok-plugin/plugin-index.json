@@ -213,6 +213,23 @@
         ]
       }
     },
+    "configure-memory": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "configure",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "configure-context",
+            "description": "Use the user's saved Configure context when a task depends on earlier project decisions, preferences, or goals, or when…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
