@@ -1,6 +1,28 @@
 {
   "version": 1,
   "plugins": {
+    "attri": {
+      "sha": "98c2f1e91911293538232c0a7c438b21cb314524",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "attri",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "attri-search-analyst",
+            "description": "Read Attri's ranked findings and Search Console data joined to on-site behaviour, explain what to fix first and why, an…"
+          },
+          {
+            "name": "attri-weekly-review",
+            "description": "Run a weekly review of an Attri workspace — what moved in traffic and search, which findings are new or resolved, what…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",

@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "attri",
+      "description": "Attri link attribution and site analytics (MCP server + skills): short-link and campaign attribution, site traffic, Search Console queries and pages joined to what visitors did on the site, and the posture review that ranks what to fix first by the visits it could move.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/attri-io/attri-mcp.git",
+        "sha": "98c2f1e91911293538232c0a7c438b21cb314524"
+      },
+      "homepage": "https://attri.io",
+      "keywords": ["attri", "attri.io", "attri posture review", "attri short links", "attri link attribution"],
+      "domains": ["attri.io", "app.attri.io"]
     }
   ]
 }
