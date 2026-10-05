@@ -409,6 +409,34 @@
         ]
       }
     },
+    "hermoso": {
+      "sha": "d2ec237f9eeab2318681bc1629316d06411b075e",
+      "version": "1.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "hermoso-ad-from-brand",
+            "description": "Make a finished, on-brand ad for a company end-to-end with Hermoso: onboard the brand, write the concept + copy, then r…"
+          },
+          {
+            "name": "hermoso-generate",
+            "description": "Generate on-brand ad creative with Hermoso (images, videos, talking-avatar clips, and multi-scene stitched videos) from…"
+          },
+          {
+            "name": "hermoso-marketing",
+            "description": "Run a brand's whole marketing operation with Hermoso: research the ads already winning, generate the creative, publish…"
+          },
+          {
+            "name": "hermoso-product-photoshoot",
+            "description": "Brand-quality product photography with Hermoso: drop a real product photo into studio, lifestyle, or hero-banner scenes…"
+          },
+          {
+            "name": "hermoso-research",
+            "description": "Competitor + ad-library intelligence with Hermoso: find a brand's competitors, pull their real running ads across Meta/…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",

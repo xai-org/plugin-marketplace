@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "hermoso",
+      "description": "Hermoso marketing skills for Grok: research the ads already winning in a market, generate on-brand image and video ads, publish and schedule to your own social channels, and run paid campaigns, all through the hermoso CLI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hermoso-ai/hermoso.git",
+        "sha": "d2ec237f9eeab2318681bc1629316d06411b075e"
+      },
+      "homepage": "https://hermoso.ai",
+      "keywords": ["hermoso", "hermoso ads", "hermoso mcp", "hermoso cli"],
+      "domains": ["hermoso.ai", "app.hermoso.ai"]
     }
   ]
 }
