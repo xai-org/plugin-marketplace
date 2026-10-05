@@ -604,6 +604,24 @@
         ]
       }
     },
+    "nomac": {
+      "sha": "708aa8e1ae022d1851e1f034da9e6f47535d627a",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nomac",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nomac",
+            "description": "Use a real cloud Mac with Xcode through the NoMac MCP server: start a macOS VM, build and test iOS and macOS apps, use…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
