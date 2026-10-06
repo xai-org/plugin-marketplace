@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "streeq",
+      "description": "STREEQ personal fitness record (hosted MCP server + skill). Read and log workouts, meals, weight and goals, and build or change your own training plan with a preview before it is saved. Sign in with your STREEQ account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/theaverageapp/grok-plugins.git",
+        "sha": "0ad06c92a25b650118172fe3e0dc6afc2586cbf2",
+        "path": "plugins/streeq"
+      },
+      "homepage": "https://streeq.app/connect-ai",
+      "keywords": ["streeq", "streeq.app", "streeq fitness", "streeq workout"],
+      "domains": ["streeq.app", "mcp.streeq.app"]
     }
   ]
 }
