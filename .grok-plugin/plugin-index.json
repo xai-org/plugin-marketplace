@@ -1,6 +1,39 @@
 {
   "version": 1,
   "plugins": {
+    "aiapplyd": {
+      "version": "1.8.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aiapplyd",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "apply-to-a-job",
+            "description": "Send a real job application with AI Applyd. It tailors the resume and cover letter, then fills in and submits the emplo…"
+          },
+          {
+            "name": "find-matching-jobs",
+            "description": "Find jobs that fit the user with AI Applyd, save or skip them, and change what it looks for. Use this skill whenever th…"
+          },
+          {
+            "name": "review-and-send",
+            "description": "Review the applications AI Applyd prepared, change them, and send the ones the user approves. Use this skill whenever t…"
+          },
+          {
+            "name": "tailor-for-a-job",
+            "description": "Tailor the user's resume and cover letter to one job posting with AI Applyd. It gives the posting's keywords, an ATS sc…"
+          },
+          {
+            "name": "track-applications",
+            "description": "Check where the user's job applications stand with AI Applyd, which employers confirmed them, and how many applications…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",

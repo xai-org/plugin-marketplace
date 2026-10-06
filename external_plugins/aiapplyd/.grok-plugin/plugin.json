@@ -1,0 +1,14 @@
+{
+  "name": "aiapplyd",
+  "version": "1.8.3",
+  "description": "AI Applyd job search for Grok Build via the hosted AI Applyd MCP server at mcp.aiapplyd.com. Find jobs that fit your resume, tailor the resume and cover letter for each posting, and apply on the employer's own hiring system, then track where every application stands. Sign in with your AI Applyd account on first connect.",
+  "author": {
+    "name": "AI Applyd",
+    "url": "https://aiapplyd.com"
+  },
+  "homepage": "https://aiapplyd.com/mcps",
+  "repository": "https://github.com/aiapplyd/aiapplyd-mcp",
+  "license": "MIT",
+  "keywords": ["ai applyd", "aiapplyd", "ai applyd jobs", "ai applyd auto-apply"],
+  "logo": "assets/logo.png"
+}
