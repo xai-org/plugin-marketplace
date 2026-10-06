@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
-      "version": "1.0.0",
+      "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -29,16 +29,16 @@
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
+            "name": "metrics-chart",
+            "description": "Render Axiom metrics query results (application/vnd.metrics.v3+json) as line charts. Zero-dependency Unicode/ASCII by d…"
+          },
+          {
             "name": "query-metrics",
             "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
           },
           {
             "name": "spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
-          },
-          {
-            "name": "writing-evals",
-            "description": "Scaffolds evaluation suites for the Axiom AI SDK. Generates eval files, scorers, flag schemas, and config from natural-…"
           }
         ]
       }
@@ -97,6 +97,23 @@
           {
             "name": "bruin-api-integration",
             "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
+          }
+        ]
+      }
+    },
+    "calcom": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calcom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calcom",
+            "description": "Work with Cal.com scheduling through the Cal.com MCP server: check availability, create, reschedule, cancel and confirm…"
           }
         ]
       }
@@ -278,8 +295,8 @@
       }
     },
     "figma": {
-      "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644",
-      "version": "2.2.123",
+      "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+      "version": "2.2.127",
       "components": {
         "mcpServers": [
           {
@@ -348,8 +365,8 @@
       }
     },
     "firecrawl": {
-      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
-      "version": "1.2.0",
+      "sha": "fc26fcf97921f5b4db93b06e000b6366e8d67c48",
+      "version": "1.3.0",
       "components": {
         "commands": [
           {
@@ -371,6 +388,10 @@
           {
             "name": "firecrawl-agent",
             "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the…"
+          },
+          {
+            "name": "firecrawl-alexandria",
+            "description": "Get structured data from catalogued providers instead of scraping pages. Firecrawl Alexandria is a library of official…"
           },
           {
             "name": "firecrawl-crawl",
@@ -424,8 +445,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e",
-      "version": "0.0.190",
+      "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
+      "version": "0.0.191",
       "components": {
         "skills": [
           {
@@ -545,8 +566,8 @@
       }
     },
     "netlify": {
-      "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f",
-      "version": "1.5.1",
+      "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad",
+      "version": "1.6.0",
       "components": {
         "mcpServers": [
           {
@@ -569,7 +590,7 @@
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured data like file uploads, images, documents, JSON, and cache-like state with Netlify Blob…"
+            "description": "Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use whe…"
           },
           {
             "name": "netlify-caching",
@@ -589,7 +610,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
+            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
           },
           {
             "name": "netlify-forms",
@@ -609,7 +630,7 @@
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
+            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -648,7 +669,7 @@
       }
     },
     "pstack": {
-      "sha": "adf3218ca2f5b9971eedc07a76bef22df7701539",
+      "sha": "4e5b1cf2ccb0ea3716f08c8ee0a5856b5ab93536",
       "components": {
         "agents": [
           {
@@ -657,7 +678,7 @@
           },
           {
             "name": "poteto-agent",
-            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Resume an existing `poteto-agent` for the convers…"
+            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Spawn a fresh `poteto-agent` for each new task, a…"
           }
         ],
         "skills": [
@@ -682,12 +703,20 @@
             "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
           },
           {
+            "name": "benchmark-checklist",
+            "description": "Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) befor…"
+          },
+          {
             "name": "blast-radius",
             "description": "Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe becaus…"
           },
           {
             "name": "bro",
             "description": "Restate the last message in plain human language, with no jargon."
+          },
+          {
+            "name": "correct",
+            "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
             "name": "create-verification-skill",
@@ -714,6 +743,10 @@
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
           },
           {
+            "name": "poteto-help",
+            "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Use for /pot…"
+          },
+          {
             "name": "principle-attack-the-premise",
             "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
           },
@@ -736,6 +769,10 @@
           {
             "name": "principle-experience-first",
             "description": "Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship f…"
+          },
+          {
+            "name": "principle-explain-the-number",
+            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -844,10 +881,6 @@
           {
             "name": "unslop",
             "description": "Cut AI tells from any writing. Must always apply."
-          },
-          {
-            "name": "why",
-            "description": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thres…"
           }
         ]
       }
@@ -865,8 +898,8 @@
       }
     },
     "railway": {
-      "sha": "f48070c9542cc8bb22306deb6264c61675a27e70",
-      "version": "1.6.0",
+      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+      "version": "1.6.1",
       "components": {
         "hooks": [
           {
@@ -889,8 +922,8 @@
       }
     },
     "sentry": {
-      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
-      "version": "1.4.0",
+      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
+      "version": "1.4.3",
       "components": {
         "mcpServers": [
           {
@@ -935,8 +968,8 @@
       }
     },
     "stripe": {
-      "sha": "f23b5bad7a5b20d403bb11cf425044b85ee7c716",
-      "version": "0.9.2",
+      "sha": "c40002aa6047acaa72e290cdbb22d9b77739d798",
+      "version": "0.9.9",
       "components": {
         "agents": [
           {
@@ -975,7 +1008,7 @@
           },
           {
             "name": "stripe-apps",
-            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
+            "description": "Build, modify, or review Stripe Apps and extensions using the relevant documentation and reference guides. Use for cust…"
           },
           {
             "name": "stripe-best-practices",
@@ -1180,9 +1213,149 @@
         ]
       }
     },
+    "unity": {
+      "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
+      "version": "0.1.8-beta",
+      "components": {
+        "skills": [
+          {
+            "name": "2d-pixel-perfect",
+            "description": "Sets up, diagnoses, and fixes pixel perfect 2D rendering with PixelPerfectCamera in URP or Built-in. Use when a retro-s…"
+          },
+          {
+            "name": "asset-transformer-toolkit",
+            "description": "Imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, edits, and runs RuleSe…"
+          },
+          {
+            "name": "audio-setup-mixers",
+            "description": "Routes Audio Sources into existing Audio Mixer Groups, classifying each source by what it plays. Use when the user asks…"
+          },
+          {
+            "name": "build-gtk",
+            "description": "Builds node-based Editor tools with Unity Graph Toolkit (GTK) on Unity 6.6+: graphs, nodes, ports and validation, State…"
+          },
+          {
+            "name": "build-live-game",
+            "description": "Builds and operates live games with Unity Services. Use when the user asks about backend or live-ops features such as p…"
+          },
+          {
+            "name": "generate-editor-search-query",
+            "description": "Generates Unity Search queries and opens the Search window to find assets or scene objects. Use when the user asks to f…"
+          },
+          {
+            "name": "implement-in-app-purchases",
+            "description": "Implements, configures, and debugs Unity In-App Purchases, including subscriptions, receipt validation, and direct-to-c…"
+          },
+          {
+            "name": "initialize-ai-navigation",
+            "description": "Sets up and configures Unity AI Navigation, including NavMesh surfaces, agents, obstacles, and links. Use when the user…"
+          },
+          {
+            "name": "levelplay-unity-integration",
+            "description": "Integrates the LevelPlay ad mediation SDK via the Ads Mediation package. Use when the user asks about adding rewarded,…"
+          },
+          {
+            "name": "localization",
+            "description": "Sets up and configures Unity Localization, including locales, String and Asset Tables, and CJK fonts. Use when the user…"
+          },
+          {
+            "name": "manage-sprite-atlas",
+            "description": "Manages SpriteAtlas assets through a prebuild pipeline, covering master and variant atlases, packing settings, and plat…"
+          },
+          {
+            "name": "migrate-birp-to-urp",
+            "description": "Plans, executes, and troubleshoots migration from the Built-in Render Pipeline to URP. Use when asked to convert a proj…"
+          },
+          {
+            "name": "new-unity-project",
+            "description": "Guides creating a new Unity project, gathering concept, platforms, and monetization before setting up the project, sour…"
+          },
+          {
+            "name": "optimize-audio",
+            "description": "Optimizes audio memory, CPU cost, and playback quality through import settings and mixer configuration. Use when asked…"
+          },
+          {
+            "name": "optimize-text-mesh-pro",
+            "description": "Optimizes TextMeshPro rendering, memory, and font setup, including font asset stacks, fallback atlases, SDF quality, an…"
+          },
+          {
+            "name": "optimize-web",
+            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads and faster load. Use when a web build is too large or stu…"
+          },
+          {
+            "name": "physics-3d-collision",
+            "description": "Diagnoses 3D PhysX collision and trigger problems. Use when OnCollisionEnter or OnTriggerEnter doesn't fire, objects pa…"
+          },
+          {
+            "name": "setup-multiplayer-services",
+            "description": "Guides real-time online multiplayer with Unity Multiplayer Services. Use when the user asks about network topology, hos…"
+          },
+          {
+            "name": "setup-vivox-voice-chat",
+            "description": "Adds and configures in-game voice and text chat with Unity Vivox. Use when the user asks about voice chat, microphone p…"
+          },
+          {
+            "name": "shader-graph-create-custom-node",
+            "description": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants a new Shader Graph node or to make existing…"
+          },
+          {
+            "name": "sprite-editor",
+            "description": "Edits Unity sprite rectangles, borders, pivots, outlines, and slicing by generating C# scripts. Use when the user works…"
+          },
+          {
+            "name": "sprite-segment-3x3grid",
+            "description": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the…"
+          },
+          {
+            "name": "tilemap-palette-create",
+            "description": "Creates a Tile Palette asset with a rectangular, hexagonal, or isometric Grid layout. Use when the user wants to organi…"
+          },
+          {
+            "name": "tilemap-ruletile-createempty",
+            "description": "Creates an empty RuleTile, HexagonalRuleTile, or IsometricRuleTile asset. Use only when the user wants a blank RuleTile…"
+          },
+          {
+            "name": "tilemap-ruletile-createfromsegment",
+            "description": "Creates RuleTiles from existing terrain or edge sprites so tiles auto-tile while painting, and converts sprite-segment-…"
+          },
+          {
+            "name": "ui",
+            "description": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.…"
+          },
+          {
+            "name": "ui-imgui",
+            "description": "Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scr…"
+          },
+          {
+            "name": "ui-ugui",
+            "description": "Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for…"
+          },
+          {
+            "name": "ui-uitk",
+            "description": "Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolki…"
+          },
+          {
+            "name": "unity-cli",
+            "description": "Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run…"
+          },
+          {
+            "name": "unity-package-management",
+            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor. Use for headless or CI package ins…"
+          },
+          {
+            "name": "urp-postprocessing",
+            "description": "Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjust…"
+          },
+          {
+            "name": "validate-urp-render-graph-renderer-feature",
+            "description": "Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bind…"
+          }
+        ]
+      }
+    },
     "vercel": {
-      "sha": "c632a50838a47a639a160baff8411eb9c6af22bf",
-      "version": "0.51.0",
+      "sha": "f42fa617f208b3b192c9ec636cba1fb025924407",
+      "version": "0.54.0",
       "components": {
         "agents": [
           {
@@ -1246,7 +1419,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, virtual models, evaluation m…"
           },
           {
             "name": "ai-sdk",
@@ -1254,7 +1427,7 @@
           },
           {
             "name": "auth",
-            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applicati…"
+            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Better Auth, Descope, and Auth0 setup for Next…"
           },
           {
             "name": "bootstrap",
@@ -1301,6 +1474,10 @@
             "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
           },
           {
+            "name": "is-agentic",
+            "description": "Score how ready a website, domain, or public MCP endpoint is for AI agents using Is Agentic, and read or act on the res…"
+          },
+          {
             "name": "knowledge-update",
             "description": "Corrects outdated LLM knowledge about the Vercel platform and introduces new products. Injected at session start."
           },
@@ -1311,22 +1488,6 @@
           {
             "name": "microfrontends",
             "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
-          },
-          {
-            "name": "next-cache-components",
-            "description": "Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from uns…"
-          },
-          {
-            "name": "next-forge",
-            "description": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-for…"
-          },
-          {
-            "name": "next-upgrade",
-            "description": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js vers…"
-          },
-          {
-            "name": "nextjs",
-            "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
           },
           {
             "name": "queues",
@@ -1343,14 +1504,6 @@
           {
             "name": "runtime-cache",
             "description": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Fun…"
-          },
-          {
-            "name": "shadcn",
-            "description": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS…"
-          },
-          {
-            "name": "turbopack",
-            "description": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or underst…"
           },
           {
             "name": "vercel-agent",
@@ -1396,8 +1549,8 @@
       }
     },
     "wix": {
-      "sha": "7d7375b57a9b84224355257b810db94f6c8dd235",
-      "version": "1.23.0",
+      "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
+      "version": "1.26.0",
       "components": {
         "mcpServers": [
           {
@@ -1413,10 +1566,6 @@
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
-          },
-          {
-            "name": "wix-auth",
-            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
           },
           {
             "name": "wix-base44-connector",
@@ -1435,7 +1584,11 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
-            "name": "wix-headless-fast",
+            "name": "wix-headless-cold-start",
+            "description": "The fetch-and-follow entry pages for Wix Headless, addressable by URL in a prompt. headless-kit.md starts a wix-headles…"
+          },
+          {
+            "name": "wix-headless-kit",
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
           },
           {
