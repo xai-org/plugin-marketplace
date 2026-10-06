@@ -361,11 +361,11 @@
     {
       "name": "kampalo",
       "description": "Kampalo ads and SEO workspace for Grok Build. Brief synced Google Ads, Meta Ads, GA4, and Search Console; propose and confirm campaign pauses; manage ads/SEO alerts and ROAS pause rules; generate report JSON.",
-      "category": "development",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/Tekreign/kampalo-cursor-plugin.git",
-        "sha": "fe0d6a60c5cfabda34a8a4cf64af8e3f76a8b062"
+        "sha": "a1c1a5a5bbcca97f2ddeaaf310336cc9bc1581a7"
       },
       "homepage": "https://app.kampalo.com",
       "keywords": ["kampalo", "kampalo ads", "kampalo google ads", "kampalo meta ads", "kampalo kai"],

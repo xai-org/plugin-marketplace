@@ -427,7 +427,7 @@
       }
     },
     "kampalo": {
-      "sha": "fe0d6a60c5cfabda34a8a4cf64af8e3f76a8b062",
+      "sha": "a1c1a5a5bbcca97f2ddeaaf310336cc9bc1581a7",
       "version": "0.3.0",
       "components": {
         "mcpServers": [
