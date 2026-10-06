@@ -402,8 +402,8 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/GidianB/querysail-gsc.git",
-        "sha": "62c841cc2e04c083ea0443ec388559cd29d33f7c"
+        "url": "https://github.com/querysail/querysail-gsc.git",
+        "sha": "b8a42b4c3b35fdbd43fa75b8207a430774453523"
       },
       "homepage": "https://querysail.com/google-search-console",
       "keywords": ["querysail", "querysail gsc", "querysail search console"],
