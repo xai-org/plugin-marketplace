@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/hydra-db/hydradb-grok-plugin.git",
-        "sha": "5d325b0d3876bfbc85820118a9a33c517d2c2767"
+        "sha": "7bd20bf0aac3729403e0af780c0da1449d63fa8c"
       },
       "homepage": "https://hydradb.com",
       "keywords": ["hydradb", "hydra db"],
