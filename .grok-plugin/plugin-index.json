@@ -426,6 +426,128 @@
         ]
       }
     },
+    "mage": {
+      "sha": "41defe37091798133af10cc1503ede01561b4708",
+      "version": "0.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mage-ad-localizer",
+            "description": "Localize static ads into other languages and markets with Mage: translate every line of on-image text naturally (not wo…"
+          },
+          {
+            "name": "mage-ad-multiplier",
+            "description": "Turn one ad into many independent variations with Mage: new talent, wardrobe, setting, background, color story, or head…"
+          },
+          {
+            "name": "mage-ad-resizer",
+            "description": "Adapt a static ad to every placement with Mage: square feed, portrait feed, Stories and Reels, landscape video and disp…"
+          },
+          {
+            "name": "mage-angles",
+            "description": "See an existing image from a new camera angle with Mage: the same subject, pose, light, and scene, shot by a second cam…"
+          },
+          {
+            "name": "mage-character-builder",
+            "description": "Design a new AI character from a list of traits with Mage and save it for reuse: gender, ethnicity, hair, skin, body, e…"
+          },
+          {
+            "name": "mage-character-muse",
+            "description": "Discover and refine a character from a starter image with Mage: keep what works, change the face or details step by ste…"
+          },
+          {
+            "name": "mage-character-sheet",
+            "description": "Turn one image of a character into a full character reference sheet with Mage: a face close-up, front, three-quarter, s…"
+          },
+          {
+            "name": "mage-character-swap",
+            "description": "Replace the whole person in an image with a different character using Mage, keeping the scene, pose, action, and expres…"
+          },
+          {
+            "name": "mage-characters",
+            "description": "Save a person, mascot, or product as a reusable Mage character or reference and keep it consistent across images and vi…"
+          },
+          {
+            "name": "mage-face-swap",
+            "description": "Swap a face from one image onto the person in another with Mage: the whole head (face, hair, skin, neck) is replaced wh…"
+          },
+          {
+            "name": "mage-faceless-video",
+            "description": "Narrated faceless videos with Mage: explainers, history and science shorts, stories, and listicles in a consistent illu…"
+          },
+          {
+            "name": "mage-generate",
+            "description": "Generate images, video, and audio with Mage's models through the Mage connector (MCP): pick the right model, quote the…"
+          },
+          {
+            "name": "mage-inpaint",
+            "description": "Change one region of an image with Mage and leave the rest identical: the region is marked with a red overlay, then rep…"
+          },
+          {
+            "name": "mage-lipsync",
+            "description": "Make the subject of a single image speak an audio clip with Mage: lip movements sync to the audio with natural expressi…"
+          },
+          {
+            "name": "mage-marketplace-cards",
+            "description": "Marketplace listing images with Mage: a compliant main image on pure white, secondary images (infographic, multiple ang…"
+          },
+          {
+            "name": "mage-music-video",
+            "description": "Make saved characters perform a music video to an audio track with Mage: one to three performers sing and dance in sync…"
+          },
+          {
+            "name": "mage-outfit-swap",
+            "description": "Put the clothing, footwear, and accessories from one image onto the person in another with Mage, keeping the person, po…"
+          },
+          {
+            "name": "mage-product-photoshoot",
+            "description": "Brand-quality product photos from one product image with Mage: studio packshots, lifestyle scenes, close-ups with hands…"
+          },
+          {
+            "name": "mage-recreate",
+            "description": "Turn a reference image into a detailed generation prompt with Mage, then make new images in that look: composition, sub…"
+          },
+          {
+            "name": "mage-refine",
+            "description": "Make one focused improvement to an existing image with Mage, keeping the subject, pose, light, and composition: the Ref…"
+          },
+          {
+            "name": "mage-relight",
+            "description": "Relight a photo with Mage: a new light source from a chosen direction, soft or hard, at a chosen brightness and color,…"
+          },
+          {
+            "name": "mage-scene-builder",
+            "description": "Build a video scene with two characters using Mage: two character images or saved @handles, plus a ready-made multi-sho…"
+          },
+          {
+            "name": "mage-ugc-video",
+            "description": "Creator-style (UGC) product videos with Mage: a presenter talking to the camera about the user's product in a review, u…"
+          },
+          {
+            "name": "mage-video-character-swap",
+            "description": "Replace the whole person in a video with a different character using Mage: face, hair, body, and the complete outfit ch…"
+          },
+          {
+            "name": "mage-video-editor",
+            "description": "Edit an existing video with a prompt using Mage: describe the change and it is applied across the clip while the motion…"
+          },
+          {
+            "name": "mage-video-face-swap",
+            "description": "Swap a face into a video with Mage: the new identity (face, hair, skin, neck) is applied in every frame while the origi…"
+          },
+          {
+            "name": "mage-youtube-thumbnail",
+            "description": "High-click-through YouTube thumbnails and vertical video covers with Mage: a truthful information-gap concept, up to th…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
