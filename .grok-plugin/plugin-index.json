@@ -426,6 +426,24 @@
         ]
       }
     },
+    "innflow": {
+      "sha": "fbed111e7f8bd169f7b4cbe5e6764d387e5929c4",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "innflow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "innflow-workflows",
+            "description": "Find, inspect, troubleshoot, run, or author workflows in a connected Innflow workspace. Use for Innflow automations and…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "650eb83619134adb947b1ee8755e6511270bc444",
       "version": "0.0.192",

@@ -407,6 +407,25 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "innflow",
+      "description": "Inspect Innflow workflows, troubleshoot failed executions, and run authorized automations. Create workflow drafts when authoring is enabled for the connected workspace.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/innflow-ai/innflow-codex-plugin.git",
+        "sha": "fbed111e7f8bd169f7b4cbe5e6764d387e5929c4",
+        "path": "plugins/innflow"
+      },
+      "homepage": "https://innflow.ai",
+      "keywords": [
+        "innflow",
+        "innflow workflows"
+      ],
+      "domains": [
+        "innflow.ai"
+      ]
     }
   ]
 }
