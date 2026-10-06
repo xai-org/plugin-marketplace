@@ -1,0 +1,23 @@
+{
+  "name": "running-workout",
+  "description": "Running coach for Garmin athletes. Connects Grok to Running Workout, which reads your Garmin activities and training profile, tracks race goals and training plans, and builds structured running, cycling and swimming workouts that it schedules on your Garmin Connect calendar.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Running Workout",
+    "url": "https://www.runningworkout.fr/?lang=en"
+  },
+  "homepage": "https://www.runningworkout.fr/?lang=en",
+  "repository": "https://github.com/nicolas-ship-it-now/running-workout-plugin",
+  "license": "MIT",
+  "keywords": [
+    "running",
+    "garmin",
+    "training plan",
+    "workout",
+    "marathon",
+    "coach",
+    "cycling",
+    "swimming",
+    "grok build"
+  ]
+}
