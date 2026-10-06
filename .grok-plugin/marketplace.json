@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "mirabello",
+      "description": "Mirabello Immigration Intelligence: source-cited data on citizenship and residency by investment (98 programmes), immigration pathways in 194 countries, visa requirements, naturalisation fast tracks, tax residency and wealth protection, via a public remote MCP server, plus a Mira advisor skill. No key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mirabello-consultancy/mcp-server.git",
+        "sha": "37ec53d8176f623d8990d0950f894032e6cf902c"
+      },
+      "homepage": "https://www.mirabelloconsultancy.com/mcp",
+      "keywords": ["mirabello", "mirabello immigration intelligence", "mirabello mcp"],
+      "domains": ["mirabelloconsultancy.com"]
     }
   ]
 }

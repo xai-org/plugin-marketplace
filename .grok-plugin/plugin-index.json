@@ -426,6 +426,24 @@
         ]
       }
     },
+    "mirabello": {
+      "sha": "37ec53d8176f623d8990d0950f894032e6cf902c",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mirabello",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mira",
+            "description": "Answer questions about second citizenship, residency and golden visas, immigration pathways, visas, naturalisation, tax…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
       "version": "0.0.191",
