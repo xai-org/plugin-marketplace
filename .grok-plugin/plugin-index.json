@@ -1587,6 +1587,18 @@
           }
         ]
       }
+    },
+    "zenmode": {
+      "sha": "9e50ab5234723e6e95ec7e4f60df11324ae72d5a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zenmode",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
