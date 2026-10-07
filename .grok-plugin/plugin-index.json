@@ -252,6 +252,18 @@
         ]
       }
     },
+    "dotsy": {
+      "sha": "4ec99c0365fed576f422acf8b7a2921456370eb9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dotsy",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

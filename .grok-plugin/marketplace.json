@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "dotsy",
+      "description": "AI-first website builder over MCP. Build, edit, import, and publish sites from Grok with your own AI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Dotsy-ai/cursor-plugin.git",
+        "sha": "4ec99c0365fed576f422acf8b7a2921456370eb9"
+      },
+      "homepage": "https://dotsy.ai",
+      "keywords": ["dotsy", "website builder", "hosting", "mcp"],
+      "domains": ["dotsy.ai", "mcp.dotsy.ai"]
     }
   ]
 }
