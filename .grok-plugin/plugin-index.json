@@ -276,6 +276,18 @@
         ]
       }
     },
+    "factorytalk-import-preflight-regevidencehub": {
+      "sha": "052783c8f19a716919527b5f06e844f581559ce5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "FactoryTalk Import Preflight — RegEvidenceHub",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
       "version": "2.2.127",
