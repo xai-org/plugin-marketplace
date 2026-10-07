@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knowngood": {
+      "type": "http",
+      "url": "https://knowngood.sh/mcp"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "knowngood",
+  "version": "1.7.0",
+  "description": "Known Good finds agent-ready websites. Every capability is probe-verified and dated; placement cannot be bought.",
+  "author": {
+    "name": "Known Good",
+    "url": "https://knowngood.sh"
+  },
+  "homepage": "https://knowngood.sh",
+  "license": "MIT",
+  "keywords": [
+    "knowngood",
+    "known good",
+    "knowngood.sh",
+    "knowngood mcp"
+  ],
+  "logo": "assets/logo.png"
+}
