@@ -426,6 +426,23 @@
         ]
       }
     },
+    "knowngood": {
+      "version": "1.7.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "knowngood",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "knowngood",
+            "description": "Find websites where an agent can actually do a task, and check what a given site supports for agents, through the Known…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "650eb83619134adb947b1ee8755e6511270bc444",
       "version": "0.0.192",
