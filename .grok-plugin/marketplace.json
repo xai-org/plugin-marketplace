@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "centricmem",
+      "description": "Hosted librarian for agent memory. Organise and retrieve Markdown cards via host MCP. Authenticate with a /connect?device= link; never paste keys in chat.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zeyu-j/centricmem-skill.git",
+        "sha": "ff537852cd8ffacbe6886eee1851a338e3936a8d"
+      },
+      "homepage": "https://centricmem.com",
+      "keywords": ["centricmem", "centricmem librarian", "centricmem mcp"],
+      "domains": ["centricmem.com", "mem.centricmem.com"]
     }
   ]
 }
