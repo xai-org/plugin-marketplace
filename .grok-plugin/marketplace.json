@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "dokladbot",
+      "description": "DokladBot Czech accounting integration. Ask about your own receipts, invoices, overdue payments, VAT summaries, Czech tax deadlines, bank transactions and data box from Grok. Write actions only create drafts that wait for approval in the DokladBot dashboard.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OndrejKnedla/dokladbot-claude-plugin.git",
+        "sha": "1641dfa521db55e00f23293728d05ceb710e5a0c"
+      },
+      "homepage": "https://dokladbot.cz/funkce/ai-asistent",
+      "keywords": ["dokladbot", "dokladbot ucetnictvi", "dokladbot faktury", "dokladbot dph"],
+      "domains": ["dokladbot.cz"]
     }
   ]
 }

@@ -252,6 +252,42 @@
         ]
       }
     },
+    "dokladbot": {
+      "sha": "1641dfa521db55e00f23293728d05ceb710e5a0c",
+      "version": "1.0.1",
+      "components": {
+        "commands": [
+          {
+            "name": "dph",
+            "description": "Souhrn DPH za obdobi z DokladBotu"
+          },
+          {
+            "name": "faktura",
+            "description": "Pripravit navrh faktury v DokladBotu (ceka na schvaleni v dashboardu)"
+          },
+          {
+            "name": "splatnosti",
+            "description": "Faktury po splatnosti - kdo dluzi a kolik"
+          },
+          {
+            "name": "terminy",
+            "description": "Nejblizsi danove terminy (DPH, zalohy, dan z prijmu)"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "dokladbot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dokladbot",
+            "description": "Use when the user asks about their Czech accounting - invoices, receipts, VAT (DPH), tax deadlines, overdue invoices, b…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
