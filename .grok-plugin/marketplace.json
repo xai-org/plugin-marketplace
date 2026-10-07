@@ -301,14 +301,14 @@
       "source": {
         "source": "url",
         "url": "https://github.com/huaiwen/NetEaseEmailConnector.git",
-        "sha": "066c98d1de08900e96ded5395f0c415dd583be48",
+        "sha": "f770f39a2f3c3c174646e8f329a37cf9b2748c74",
         "path": "plugins/netease-email"
       },
       "homepage": "https://github.com/huaiwen/NetEaseEmailConnector",
       "keywords": [
         "netease-email-connector"
       ],
-      "version": "0.2.2",
+      "version": "0.2.3",
       "author": {
         "name": "huaiwen"
       }
