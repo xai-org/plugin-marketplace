@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "attention",
+      "description": "Official Attention Plugin. Pull sales calls, deal and opportunity details, forecasting data, and AI insights, review scorecards, teams and CRM fields, and chat with the Attention super agent. Sign in with your Attention account via OAuth on first connect.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/attentiontech/attention.git",
+        "sha": "95681231bef3e4ed0538fafae6dc92fcbc8a0099"
+      },
+      "homepage": "https://docs.attention.com/attention-mcp-server",
+      "keywords": ["attention", "attention ai", "attention.com", "attention mcp", "attention calls", "attention super agent"],
+      "domains": ["attention.com", "docs.attention.com"]
     }
   ]
 }
