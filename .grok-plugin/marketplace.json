@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mcp-server-for-wordpress",
+      "description": "Connect Grok to your WordPress site via the miniOrange MCP gateway. Grok can use the abilities exposed by your WordPress Abilities API to perform actions on your site. Sign in with OAuth on first connect; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/miniOrangeDev/miniorange-grok-plugins.git",
+        "sha": "a9892ca145eb3ab530f4f5effcdbab1fec369ede",
+        "path": "plugins/mcp-server-for-wordpress"
+      },
+      "homepage": "https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress",
+      "keywords": ["miniorange", "miniorange mcp", "miniorange wordpress", "miniorange secure mcp server"],
+      "domains": ["gateway.miniorange.ai"]
     }
   ]
 }
