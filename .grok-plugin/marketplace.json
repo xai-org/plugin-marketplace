@@ -407,6 +407,29 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "pandadoc",
+      "description": "PandaDoc document workflow integration. Connect your PandaDoc account through OAuth to create, send, sign, and track documents with PandaDoc's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PandaDoc/mcp-server-guide.git",
+        "sha": "2ee7f45a14063132fc7486723abbf5bc4f90171e"
+      },
+      "homepage": "https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server",
+      "keywords": [
+        "pandadoc",
+        "pandadoc documents",
+        "pandadoc proposals",
+        "pandadoc contracts",
+        "pandadoc signatures"
+      ],
+      "domains": [
+        "pandadoc.com",
+        "app.pandadoc.com",
+        "mcp.pandadoc.com"
+      ]
     }
   ]
 }
