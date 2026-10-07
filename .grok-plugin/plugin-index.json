@@ -1195,6 +1195,32 @@
         ]
       }
     },
+    "twiniti-loop": {
+      "sha": "869c4882d4bf7b2f56fb89dfb9883f7dc3548039",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "twiniti-loop",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "loop-campaigns",
+            "description": "Use when listing Loop segments, estimating size, creating a campaign draft, or reading campaign status via MCP. Not for…"
+          },
+          {
+            "name": "loop-contacts",
+            "description": "Use when searching, reading, creating, upserting, or updating Twiniti Loop contacts or a contact timeline via MCP."
+          },
+          {
+            "name": "loop-mcp",
+            "description": "Use when working with Twiniti Loop via MCP — contacts, segments, campaign drafts. Always prefer Loop MCP tools; never N…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
