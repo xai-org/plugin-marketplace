@@ -230,6 +230,24 @@
         ]
       }
     },
+    "cryptowisser-news": {
+      "sha": "cda7fe7f289f3154b90929418136d3e32e4b532c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cryptowisser-news",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "crypto-news",
+            "description": "Answer questions about crypto news with Cryptowisser's reporting. Use when the user asks what's happening in crypto, wa…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
