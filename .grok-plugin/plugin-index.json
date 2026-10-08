@@ -1335,6 +1335,38 @@
         ]
       }
     },
+    "uploads": {
+      "sha": "a6f424c2b9341098cb5e15cb0f8755536c9a7111",
+      "version": "0.4.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "uploads",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "annotate-screenshots",
+            "description": "Bake hand-drawn boxes, arrows, labels, freeform strokes, and redactions onto a screenshot so a PR reviewer or teammate…"
+          },
+          {
+            "name": "github-screenshots",
+            "description": "Embed screenshots, images, diagrams, GIFs, and screen recordings in GitHub PRs and issues — or stage them ahead of a PR…"
+          },
+          {
+            "name": "uploads-cli",
+            "description": "Reference for the uploads CLI and its stdio/hosted MCP tools — exact flags, keys, and contracts for put and attach, scr…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
       "version": "0.54.1",
