@@ -945,6 +945,24 @@
         ]
       }
     },
+    "streeq": {
+      "sha": "0ad06c92a25b650118172fe3e0dc6afc2586cbf2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "streeq",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "streeq",
+            "description": "Use STREEQ tools after the user is signed in. Review workouts, meals, and self-managed plans. Do not invent fitness dat…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",
