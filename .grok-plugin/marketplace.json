@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "maeve-agent",
+      "description": "Maeve Social is an all-in-one social media management platform you can control through your AI agent. Create, schedule and publish content across Instagram, Facebook, TikTok, LinkedIn, X and more. Manage your content calendar, media, approvals and social analytics from one workspace.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/maevesocial/maeve-agent.git",
+        "sha": "8a87cee2ce4e821ce64f1622e9dd5792f9a34873"
+      },
+      "homepage": "https://maevesocial.com",
+      "keywords": ["maeve", "maeve social", "maeve social media", "maeve mcp"],
+      "domains": ["maevesocial.com", "api.maevesocial.com"]
     }
   ]
 }
