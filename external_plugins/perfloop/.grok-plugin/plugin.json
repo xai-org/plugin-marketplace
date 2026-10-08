@@ -1,0 +1,12 @@
+{
+  "name": "perfloop",
+  "version": "1.0.0",
+  "description": "Always-on performance engineering for teams where performance is the product. Connects Grok Build to the Perfloop MCP server at app.perfloop.ai/mcp. Sign in with your Perfloop account on first connect.",
+  "author": {
+    "name": "Perfloop",
+    "url": "https://perfloop.ai"
+  },
+  "homepage": "https://perfloop.ai/docs/work/mcp",
+  "license": "MIT",
+  "keywords": ["perfloop", "perfloop mcp", "perfloop case", "perfloop inbox"]
+}
