@@ -426,6 +426,23 @@
         ]
       }
     },
+    "hive": {
+      "sha": "80a6f58a5c2bcc5bffc39a2e796b5ae357f56f80",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hive",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hive",
+            "description": "Work with a connected Hive workspace to plan and publish social posts, edit Hive Bio, manage Honeycomb automations, rea…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "650eb83619134adb947b1ee8755e6511270bc444",
       "version": "0.0.192",

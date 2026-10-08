@@ -407,6 +407,30 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "hive",
+      "description": "Plan and publish social posts, manage DM automations and Hive Bio, and read inbox and analytics in your connected Hive workspace. Access follows your permissions, role, plan and connected accounts. Hive requests separate approval when the connection policy requires it, and always for workspace administration.",
+      "category": "productivity",
+      "version": "1.1.3",
+      "author": {
+        "name": "Hive Publish"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HivePublish/hive-mcp.git",
+        "sha": "80a6f58a5c2bcc5bffc39a2e796b5ae357f56f80"
+      },
+      "homepage": "https://hivepublish.com/developers",
+      "keywords": [
+        "hive",
+        "hive publish",
+        "hivepublish",
+        "hive dm automation"
+      ],
+      "domains": [
+        "hivepublish.com"
+      ]
     }
   ]
 }
