@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "knowngood",
+      "description": "Known Good directory of agent-ready websites (hosted MCP server + skill). Find sites where an agent can do a task, fetch one site's dated verification report, or check a site live for WebMCP tools. Every capability is probe-verified and dated; no sign-in needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/knowngood"
+      },
+      "homepage": "https://knowngood.sh",
+      "keywords": ["knowngood", "known good", "knowngood.sh", "knowngood mcp", "agent-ready websites"],
+      "domains": ["knowngood.sh"],
+      "version": "1.7.0",
+      "author": { "name": "Known Good", "url": "https://knowngood.sh" }
     }
   ]
 }
