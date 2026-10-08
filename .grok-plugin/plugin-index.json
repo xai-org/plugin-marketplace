@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
-      "version": "1.0.0",
+      "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -29,16 +29,16 @@
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
+            "name": "metrics-chart",
+            "description": "Render Axiom metrics query results (application/vnd.metrics.v3+json) as line charts. Zero-dependency Unicode/ASCII by d…"
+          },
+          {
             "name": "query-metrics",
             "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
           },
           {
             "name": "spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
-          },
-          {
-            "name": "writing-evals",
-            "description": "Scaffolds evaluation suites for the Axiom AI SDK. Generates eval files, scorers, flag schemas, and config from natural-…"
           }
         ]
       }
@@ -97,6 +97,23 @@
           {
             "name": "bruin-api-integration",
             "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
+          }
+        ]
+      }
+    },
+    "calcom": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calcom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calcom",
+            "description": "Work with Cal.com scheduling through the Cal.com MCP server: check availability, create, reschedule, cancel and confirm…"
           }
         ]
       }
@@ -260,8 +277,8 @@
       }
     },
     "figma": {
-      "sha": "aaa07946b60797706c131ca50e50ca526a44b073",
-      "version": "2.2.126",
+      "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+      "version": "2.2.127",
       "components": {
         "mcpServers": [
           {
@@ -330,8 +347,8 @@
       }
     },
     "firecrawl": {
-      "sha": "fc26fcf97921f5b4db93b06e000b6366e8d67c48",
-      "version": "1.3.0",
+      "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448",
+      "version": "1.3.2",
       "components": {
         "commands": [
           {
@@ -410,8 +427,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "84ae7251ee919239d5ea85aef25897983f26601e",
-      "version": "0.0.191",
+      "sha": "650eb83619134adb947b1ee8755e6511270bc444",
+      "version": "0.0.192",
       "components": {
         "skills": [
           {
@@ -634,7 +651,7 @@
       }
     },
     "pstack": {
-      "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
+      "sha": "d0ef80d86795816da932a153458c5dbe192d294e",
       "components": {
         "agents": [
           {
@@ -643,7 +660,7 @@
           },
           {
             "name": "poteto-agent",
-            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Resume an existing `poteto-agent` for the convers…"
+            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Spawn a fresh `poteto-agent` for each new task, a…"
           }
         ],
         "skills": [
@@ -668,12 +685,20 @@
             "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
           },
           {
+            "name": "benchmark-checklist",
+            "description": "Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) befor…"
+          },
+          {
             "name": "blast-radius",
             "description": "Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe becaus…"
           },
           {
             "name": "bro",
             "description": "Restate the last message in plain human language, with no jargon."
+          },
+          {
+            "name": "correct",
+            "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
             "name": "create-verification-skill",
@@ -700,6 +725,10 @@
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
           },
           {
+            "name": "poteto-help",
+            "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto…"
+          },
+          {
             "name": "principle-attack-the-premise",
             "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
           },
@@ -722,6 +751,10 @@
           {
             "name": "principle-experience-first",
             "description": "Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship f…"
+          },
+          {
+            "name": "principle-explain-the-number",
+            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -830,10 +863,6 @@
           {
             "name": "unslop",
             "description": "Cut AI tells from any writing. Must always apply."
-          },
-          {
-            "name": "why",
-            "description": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thres…"
           }
         ]
       }
@@ -893,8 +922,8 @@
       }
     },
     "sentry": {
-      "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67",
-      "version": "1.4.1",
+      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
+      "version": "1.4.3",
       "components": {
         "mcpServers": [
           {
@@ -939,8 +968,8 @@
       }
     },
     "stripe": {
-      "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
-      "version": "0.9.6",
+      "sha": "9b91884e43839591abd6ee3c70667b2e71d5e687",
+      "version": "0.9.11",
       "components": {
         "agents": [
           {
@@ -1325,8 +1354,8 @@
       }
     },
     "vercel": {
-      "sha": "31b69df377b88bed87d37944afc96c656ab23a04",
-      "version": "0.52.0",
+      "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
+      "version": "0.54.1",
       "components": {
         "agents": [
           {
@@ -1390,7 +1419,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, virtual models, evaluation m…"
           },
           {
             "name": "ai-sdk",
@@ -1398,7 +1427,7 @@
           },
           {
             "name": "auth",
-            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applicati…"
+            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Better Auth, Descope, and Auth0 setup for Next…"
           },
           {
             "name": "bootstrap",
@@ -1443,6 +1472,10 @@
           {
             "name": "flags-sdk",
             "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
+          },
+          {
+            "name": "is-agentic",
+            "description": "Score how ready a website, domain, or public MCP endpoint is for AI agents using Is Agentic, and read or act on the res…"
           },
           {
             "name": "knowledge-update",
@@ -1516,8 +1549,8 @@
       }
     },
     "wix": {
-      "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d",
-      "version": "1.26.0",
+      "sha": "6461e8dd0a4e2649d211cdbc65c699c6e44f86a2",
+      "version": "1.30.0",
       "components": {
         "mcpServers": [
           {
@@ -1557,6 +1590,10 @@
           {
             "name": "wix-headless-kit",
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
+            "name": "wix-headless-templates",
+            "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
           },
           {
             "name": "wix-manage",
