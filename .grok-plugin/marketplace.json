@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "c632a50838a47a639a160baff8411eb9c6af22bf"
+        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
+        "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+        "sha": "8f26649612042662c1ea8318ff27a49a7c24531f"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d"
+        "sha": "6461e8dd0a4e2649d211cdbc65c699c6e44f86a2"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "c840ee705c1fd1a3b74378a04b9770b3090a4122"
+        "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
+        "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "2c8af036a758af150ec0244489f6fb3d12e394db"
+        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "a188b0d644166d57b93dc6fb338a0e2e8c37b5fc",
+        "sha": "9b91884e43839591abd6ee3c70667b2e71d5e687",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "fae2c6ed95821bd85f614a73e4842e13229fa5e5",
+        "sha": "d0ef80d86795816da932a153458c5dbe192d294e",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -365,7 +365,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "84ae7251ee919239d5ea85aef25897983f26601e"
+        "sha": "650eb83619134adb947b1ee8755e6511270bc444"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -390,20 +390,36 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "9c01e8d21cfefa28bc0a18f92ec910a738a1b1bc"
+        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
-      "name": "hive",
-      "description": "DM automation for Instagram, Messenger, WhatsApp and Telegram: answer comments and story replies, then carry the conversation on into DMs. Also drafts, schedules and publishes posts to ten networks, edits the link in bio page, and reads back the inbox and analytics. Everything happens inside the person's own Hive Publish workspace, and anything that reaches real people is confirmed by the person first. Unlimited contacts, priced per connected account.",
+      "name": "calcom",
+      "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
       "source": {
+        "type": "local",
+        "path": "./external_plugins/calcom"
+      },
+      "homepage": "https://cal.com/docs/mcp-server",
+      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "hive",
+      "description": "Plan and publish social posts, manage DM automations and Hive Bio, and read inbox and analytics in your connected Hive workspace. Access follows your permissions, role, plan and connected accounts. Hive requests separate approval when the connection policy requires it, and always for workspace administration.",
+      "category": "productivity",
+      "version": "1.1.3",
+      "author": {
+        "name": "Hive Publish"
+      },
+      "source": {
         "source": "url",
-        "url": "https://github.com/Jebobbes/hive-mcp.git",
-        "sha": "bee68413ac78730f7479c3329594bae7c36fe363"
+        "url": "https://github.com/HivePublish/hive-mcp.git",
+        "sha": "80a6f58a5c2bcc5bffc39a2e796b5ae357f56f80"
       },
       "homepage": "https://hivepublish.com/developers",
       "keywords": [
