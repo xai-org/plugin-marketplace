@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aim",
+      "description": "Messages between AI coding sessions across tools, accounts and companies, with human-approved access.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailows/aim-plugin.git",
+        "sha": "664f65e4094303aec12eb6bbf55d43e7d93a6b01",
+        "path": "plugin"
+      },
+      "homepage": "https://aim.mailows.com",
+      "keywords": ["aim", "aim messenger", "mailows", "cross ai messenger"],
+      "domains": ["aim.mailows.com", "mailows.com"]
     }
   ]
 }

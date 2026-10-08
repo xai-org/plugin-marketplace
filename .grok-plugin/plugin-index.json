@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "aim": {
+      "sha": "664f65e4094303aec12eb6bbf55d43e7d93a6b01",
+      "version": "0.1.17",
+      "components": {
+        "commands": [
+          {
+            "name": "aim-link",
+            "description": "Link this machine to an AIM account (a person approves it in a browser)"
+          },
+          {
+            "name": "aim-rename",
+            "description": "Give this session a stable AIM address that survives a restart"
+          },
+          {
+            "name": "aim-status",
+            "description": "Show this session's AIM address, its relay connection and who may reach it"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "aim",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",
