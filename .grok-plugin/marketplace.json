@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "mcp-server-for-wordpress",
+      "description": "Connect Grok to your WordPress site via the miniOrange MCP gateway. Grok can use the abilities exposed by your WordPress Abilities API to perform actions on your site. Sign in with OAuth on first connect; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/miniOrangeDev/miniorange-grok-plugins.git",
+        "sha": "a10077e2d283aadf3a0829f14a42206639c7082c",
+        "path": "plugins/mcp-server-for-wordpress"
+      },
+      "homepage": "https://plugins.miniorange.com/mcp-server-ai-policy-enforcement-wordpress",
+      "keywords": ["miniorange", "miniorange mcp", "miniorange wordpress", "miniorange secure mcp server"],
+      "domains": ["gateway.miniorange.ai"]
     }
   ]
 }
