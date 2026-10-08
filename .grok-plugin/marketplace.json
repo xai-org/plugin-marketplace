@@ -407,6 +407,24 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "sequencer",
+      "description": "Create product ads, animate images, quote AI media costs, and edit Sequencer projects.",
+      "category": "creativity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sequencer-media/sequencer-grok.git",
+        "sha": "e7b128ecb8e5082fbf94c0574be34aeb89938d11"
+      },
+      "homepage": "https://sequencer.media/plugin?source=grok",
+      "keywords": [
+        "sequencer"
+      ],
+      "domains": [
+        "sequencer.media",
+        "mcp.sequencer.media"
+      ]
     }
   ]
 }
