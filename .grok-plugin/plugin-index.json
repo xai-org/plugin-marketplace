@@ -414,6 +414,23 @@
         ]
       }
     },
+    "full-self-browsing": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fsb",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fsb",
+            "description": "Use Full Self Browsing when the task needs the user's signed in Chrome, supervised browser interaction, or explicitly r…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
