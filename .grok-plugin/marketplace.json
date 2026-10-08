@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "bukujanji",
+      "description": "Bukujanji for Business (hosted MCP server + skill). Manage a Bukujanji outlet: schedule and class seats, availability, customers and packages, sales and payment reports, catalog, promos and vouchers. Sign in with the outlet owner's Bukujanji account; every change is previewed and needs confirmation.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bukujanji/bukujanji-ai-connector.git",
+        "sha": "3e0a88c523f5ac02c33e08207d07785d11384ad8"
+      },
+      "homepage": "https://github.com/bukujanji/bukujanji-ai-connector",
+      "keywords": ["bukujanji", "bukujanji outlet", "bukujanji booking", "bukujanji for business"],
+      "domains": ["bukujanji.com", "www.bukujanji.com", "merchant.bukujanji.com", "api.bukujanji.com"]
     }
   ]
 }

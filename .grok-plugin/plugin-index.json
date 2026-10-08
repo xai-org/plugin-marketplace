@@ -101,6 +101,24 @@
         ]
       }
     },
+    "bukujanji": {
+      "sha": "3e0a88c523f5ac02c33e08207d07785d11384ad8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bukujanji",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bukujanji-outlet",
+            "description": "Use when the user asks about their Bukujanji outlet (schedule, class sessions, availability, customers, packages, sales…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
