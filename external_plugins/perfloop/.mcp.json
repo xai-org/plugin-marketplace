@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "perfloop": {
+      "type": "http",
+      "url": "https://app.perfloop.ai/mcp"
+    }
+  }
+}
