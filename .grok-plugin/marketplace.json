@@ -407,6 +407,22 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "unfenced",
+      "description": "Read specific web pages, compare up to 20 URLs, and list links through Unfenced. Requires an admitted Unfenced account during private preview.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/unfenced-ai/unfenced.git",
+        "sha": "a40264c35ff2ea4136b9a86b6ad94ffe40582317",
+        "path": "plugins/grok/unfenced"
+      },
+      "homepage": "https://unfenced.ai/mcp",
+      "keywords": ["unfenced", "unfenced web reading"],
+      "domains": ["unfenced.ai"],
+      "version": "0.1.0",
+      "author": { "name": "Unfenced", "url": "https://unfenced.ai" }
     }
   ]
 }
