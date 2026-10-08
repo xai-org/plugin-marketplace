@@ -407,6 +407,22 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "reelsfarm",
+      "description": "Create AI avatars, product scenes, UGC videos, and slideshows, then schedule and publish short-form social content.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mateohysa/reelsfarm-agent-plugin.git",
+        "sha": "088ac12c23ef5d1da69757de71b1293a0444b834"
+      },
+      "homepage": "https://reelsfarm.com/mcp",
+      "keywords": ["reelsfarm", "reelsfarm mcp", "reelsfarm ugc", "reelsfarm video", "reelsfarm slideshows", "reelsfarm scheduling"],
+      "domains": ["reelsfarm.com", "mcp.reelsfarm.com"],
+      "author": {
+        "name": "ReelsFarm"
+      }
     }
   ]
 }

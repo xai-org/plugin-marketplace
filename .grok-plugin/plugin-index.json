@@ -903,6 +903,39 @@
         ]
       }
     },
+    "reelsfarm": {
+      "sha": "088ac12c23ef5d1da69757de71b1293a0444b834",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "reelsfarm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "reelsfarm-avatars",
+            "description": "Create or revise ReelsFarm AI avatars and infographic template images, and save approved images as reusable characters.…"
+          },
+          {
+            "name": "reelsfarm-product-scenes",
+            "description": "Create ReelsFarm Product Studio scenes and product template images from an approved avatar or template layout and a pro…"
+          },
+          {
+            "name": "reelsfarm-publishing",
+            "description": "Preflight, schedule, or publish approved ReelsFarm content to an exact connected social account. Use for TikTok, YouTub…"
+          },
+          {
+            "name": "reelsfarm-slideshows",
+            "description": "Create, revise, finalize, and export ReelsFarm slideshow drafts from approved text and image assets. Use for educationa…"
+          },
+          {
+            "name": "reelsfarm-ugc-videos",
+            "description": "Assemble ReelsFarm UGC videos from saved hooks, demos, ordered clips, music, and captions, or generate videos in the Re…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
