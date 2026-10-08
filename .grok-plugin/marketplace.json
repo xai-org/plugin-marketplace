@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "perfloop",
+      "description": "Always-on performance engineering for teams where performance is the product. Hosted Perfloop MCP server: submit a branch or pull request, read Cases and their measurements, steer work, and decide Inbox items. Sign in with your Perfloop account.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/perfloop"
+      },
+      "homepage": "https://perfloop.ai/docs/work/mcp",
+      "keywords": ["perfloop", "perfloop mcp", "perfloop case", "perfloop inbox"],
+      "domains": ["perfloop.ai", "app.perfloop.ai"]
     }
   ]
 }

@@ -646,6 +646,17 @@
         ]
       }
     },
+    "perfloop": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "perfloop",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
