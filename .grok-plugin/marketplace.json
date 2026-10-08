@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "release-notes-index",
+      "description": "Release Notes Index integration. Search changelogs, look up what changed in a product or library, track breaking changes and version updates, and compare release activity across companies via the hosted MCP server, the /releases command, and auto-triggering skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buildinternet/releases.git",
+        "path": "plugins/claude/releases",
+        "sha": "331f43ca1813147d2b8bfa85c063da5e0362d547"
+      },
+      "homepage": "https://releases.sh",
+      "keywords": ["release notes index", "releases index", "releases.sh", "releases cli"],
+      "domains": ["releases.sh", "agents.releases.sh", "api.releases.sh"]
     }
   ]
 }
