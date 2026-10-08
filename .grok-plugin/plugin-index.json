@@ -1526,6 +1526,18 @@
         ]
       }
     },
+    "waste-rules-regevidencehub": {
+      "sha": "052783c8f19a716919527b5f06e844f581559ce5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "Waste Rules — RegEvidenceHub",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "729aea746648521e654a19575ccfee54b67f8519",
       "version": "1.31.1",
