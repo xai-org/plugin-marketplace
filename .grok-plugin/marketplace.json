@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "zenmode",
+      "description": "ZenMode LinkedIn outreach integration (hosted MCP server). Read campaigns, contacts and conversation history, add or remove leads, pause or exclude a contact, and change campaign targeting. Read only unless you choose Read and change; no tool sends a LinkedIn message or connection request. Sign in with your ZenMode account; needs a ZenMode plan (Practitioner and above).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zenmode87/zenmode-mcp.git",
+        "sha": "9e50ab5234723e6e95ec7e4f60df11324ae72d5a"
+      },
+      "homepage": "https://www.zen-mode.io/integrations/mcp",
+      "keywords": ["zenmode", "zenmode mcp", "zenmode linkedin outreach", "zenmode campaigns"],
+      "domains": ["zen-mode.io", "www.zen-mode.io"]
     }
   ]
 }
