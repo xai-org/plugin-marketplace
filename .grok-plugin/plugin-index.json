@@ -1115,6 +1115,24 @@
         ]
       }
     },
+    "sync-socials": {
+      "sha": "bb68a8803a97cac5f4ba94fe7b7cba6d200784ca",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sync-socials",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "social-publishing",
+            "description": "Operate a connected Sync Socials workspace from Grok Build. Use when the user asks to save social drafts in Sync Social…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
