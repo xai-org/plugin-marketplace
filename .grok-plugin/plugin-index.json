@@ -276,6 +276,28 @@
         ]
       }
     },
+    "feedbackpulse": {
+      "sha": "e91f4ce8837d70205feb778812b5cfd6114ea54c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "feedbackpulse",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "review-cycle-status",
+            "description": "Check FeedbackPulse performance and peer review progress. Use when someone asks how a review cycle is going, which depa…"
+          },
+          {
+            "name": "survey-results",
+            "description": "Read FeedbackPulse employee survey results, eNPS scores and comment themes. Use when someone asks how a survey went, wh…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
       "version": "2.2.127",
