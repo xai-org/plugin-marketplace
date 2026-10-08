@@ -646,6 +646,18 @@
         ]
       }
     },
+    "opc-ua-nodeset-compatibility-gate-regevidencehub": {
+      "sha": "052783c8f19a716919527b5f06e844f581559ce5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "OPC UA NodeSet Compatibility Gate — RegEvidenceHub",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
