@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "adsgpt",
+      "description": "Official AdsGPT plugin (hosted MCP server + skills). Create, review and optimize Google Ads campaigns: performance reports, wasted spend and negative keywords, budget and status changes, and new campaigns planned in a conversation, approved once and launched paused. Sign in with your AdsGPT account; every change asks for approval.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wortise/agent-plugins.git",
+        "sha": "f85e546873ba11ea7fdc0f849f677b3b3b408dc6",
+        "path": "plugins/adsgpt"
+      },
+      "homepage": "https://docs.adsgpt.dev",
+      "keywords": ["adsgpt", "adsgpt ads", "adsgpt mcp", "adsgpt campaign"],
+      "domains": ["adsgpt.dev", "app.adsgpt.dev", "mcp.adsgpt.dev", "docs.adsgpt.dev"]
     }
   ]
 }
