@@ -1587,6 +1587,18 @@
           }
         ]
       }
+    },
+    "xro-8-5": {
+      "sha": "641e8e5d3ecfa3eb9f4da9c6e0215320ccf670bb",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "xro-8-5",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
