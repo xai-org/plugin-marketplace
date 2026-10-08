@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "regaffairs-ai",
+      "description": "RegAffairs AI integration (hosted MCP server). Cited answers on chemical, food, pharma, cosmetic, pesticide and biocide rules: check a CAS or EC number for SVHC, CLP, REACH, TSCA and Prop 65 status, food additives, cosmetic ingredients, pesticide MRLs and GMP guidance, each claim linked to its official source. Sign in with your RegAffairs AI account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/regaffairs-ai"
+      },
+      "homepage": "https://regaffairsai.com/docs/mcp",
+      "keywords": ["regaffairs", "regaffairs ai", "regaffairsai", "regaffairs ai mcp"],
+      "domains": ["regaffairsai.com", "mcp.regaffairsai.com"]
     }
   ]
 }

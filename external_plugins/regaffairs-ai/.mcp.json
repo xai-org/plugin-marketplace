@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "regaffairs-ai": {
+      "type": "http",
+      "url": "https://mcp.regaffairsai.com/mcp"
+    }
+  }
+}
