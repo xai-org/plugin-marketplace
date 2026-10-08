@@ -646,6 +646,24 @@
         ]
       }
     },
+    "ouroboros-continuity": {
+      "sha": "86f6e2aa69dc99a215f3f15cf6795938e57d0656",
+      "version": "0.5.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "continuity",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "story-bible",
+            "description": "Retrieve and preserve Continuity story projects, canon, approved scenes, and provisional checkpoints. Use for resuming…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
