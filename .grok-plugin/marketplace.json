@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "search-fragments",
+      "description": "Turn half-remembered fragments into a named answer: songs, films, books, TV, people, historical events, inventions, sport moments, places, art and culture. Also checks short factual claims. Every answer cites public sources. Free, no account needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Searchfragments/search-fragments-plugin.git",
+        "sha": "7978775eae84267c4fc705053e8b981b4933c025"
+      },
+      "homepage": "https://searchfragments.com",
+      "keywords": ["search fragments", "searchfragments"],
+      "domains": ["searchfragments.com"]
     }
   ]
 }
