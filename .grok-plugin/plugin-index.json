@@ -252,6 +252,48 @@
         ]
       }
     },
+    "emailit": {
+      "sha": "39150f6a30e9319377ab34c2dbb441effe35ba65",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "emailit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "emailit",
+            "description": "This skill should be used when the user asks to \"send an email with Emailit\", \"check if an email was delivered\", \"list…"
+          },
+          {
+            "name": "emailit-campaigns",
+            "description": "This skill should be used when the user asks to \"create a campaign\", \"send a newsletter\", \"schedule a campaign\", \"build…"
+          },
+          {
+            "name": "emailit-deliverability",
+            "description": "This skill should be used when the user asks \"why did my email bounce\", \"why are my emails going to spam\", \"was this em…"
+          },
+          {
+            "name": "emailit-domain-setup",
+            "description": "This skill should be used when the user asks to \"add a sending domain\", \"verify my domain in Emailit\", \"set up SPF\", \"s…"
+          },
+          {
+            "name": "emailit-get-started",
+            "description": "This skill should be used when the user asks to \"set up Emailit\", \"connect Emailit\", \"get started with Emailit\", \"send…"
+          },
+          {
+            "name": "emailit-sdk",
+            "description": "This skill should be used when the user asks to \"integrate Emailit\", \"send email from my app\", \"add Emailit to Node\", \"…"
+          },
+          {
+            "name": "emailit-webhooks",
+            "description": "This skill should be used when the user asks to \"set up an Emailit webhook\", \"receive bounce notifications\", \"verify th…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
