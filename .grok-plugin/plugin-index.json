@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "adsgpt": {
+      "sha": "f85e546873ba11ea7fdc0f849f677b3b3b408dc6",
+      "version": "1.0.12",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adsgpt",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adsgpt-agent",
+            "description": "The rules for working with the ad accounts connected to AdsGPT on any platform, such as reporting only what the tools r…"
+          },
+          {
+            "name": "adsgpt-create-campaign",
+            "description": "Create an ad campaign with the user on one or more platforms connected to AdsGPT, as a blueprint (one campaign plan the…"
+          },
+          {
+            "name": "adsgpt-google-ads",
+            "description": "Read and change the Google Ads accounts connected to AdsGPT with its google_ads_* tools (performance reports, GAQL quer…"
+          },
+          {
+            "name": "adsgpt-optimize",
+            "description": "Review how the user's ads perform on the platforms connected to AdsGPT and improve them, such as reports of a period, s…"
+          },
+          {
+            "name": "adsgpt-write-ads",
+            "description": "Write the copy of ads for a campaign of a brand connected to AdsGPT, such as the headlines, long headlines and descript…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",
