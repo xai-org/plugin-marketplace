@@ -414,6 +414,24 @@
         ]
       }
     },
+    "greca-house": {
+      "sha": "2c2d35796083c505c9a2ede47334ed130a0b7a3f",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "greca-house",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "greek-property-search",
+            "description": "Help someone look for property in Greece with Greca House listings, research and buying-cost estimates, stating the sco…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
