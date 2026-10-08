@@ -407,6 +407,24 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "scovell",
+      "description": "Sanctions, PEP and adverse-media screening with reviewable records through Scovell by Rotunda. Sign in with an approved Scovell account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/scovell"
+      },
+      "homepage": "https://scovell.rotundahq.com",
+      "keywords": [
+        "scovell",
+        "scovell screening",
+        "rotunda scovell"
+      ],
+      "domains": [
+        "scovell.rotundahq.com"
+      ]
     }
   ]
 }
