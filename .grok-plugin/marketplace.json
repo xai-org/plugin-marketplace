@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "greca-house",
+      "description": "Greca House, an independent Athens real-estate brokerage (hosted MCP server + skill). Search its current Greek property listings, read listing details, dated Greca House asking-price research by area and Greek buying-cost estimates. Read-only; no account or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grecahouse/greca-house-claude-plugin.git",
+        "sha": "2c2d35796083c505c9a2ede47334ed130a0b7a3f"
+      },
+      "homepage": "https://grecahouse.com/en",
+      "keywords": ["greca house", "grecahouse", "greca house listings", "greca house property"],
+      "domains": ["grecahouse.com"]
     }
   ]
 }
