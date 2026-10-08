@@ -407,6 +407,28 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "mage",
+      "description": "Official Mage MCP connection and 27 creative skills for images, video, audio, product photography, ad variations, and consistent characters. Connect your Mage account with OAuth, estimate the cost in Gems, generate, and retrieve results.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mage-space/skills.git",
+        "sha": "41defe37091798133af10cc1503ede01561b4708"
+      },
+      "homepage": "https://www.mage.space/mcp",
+      "keywords": [
+        "mage",
+        "mage.space",
+        "mage mcp"
+      ],
+      "domains": [
+        "mage.space",
+        "www.mage.space",
+        "mcp.mage.space",
+        "docs.mage.space"
+      ]
     }
   ]
 }
