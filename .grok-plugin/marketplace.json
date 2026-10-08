@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "skyvern",
+      "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skyvern-AI/skyvern-grok-plugin.git",
+        "sha": "6fae60f5476857b8e3796bd253854809851ebc3b"
+      },
+      "homepage": "https://www.skyvern.com",
+      "keywords": ["skyvern", "skyvern browser", "skyvern mcp"],
+      "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
     }
   ]
 }

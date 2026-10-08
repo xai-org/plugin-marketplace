@@ -945,6 +945,24 @@
         ]
       }
     },
+    "skyvern": {
+      "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skyvern",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skyvern",
+            "description": "Drive a real cloud browser with the Skyvern MCP tools. Use when a task needs a live website: opening JavaScript-rendere…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",
