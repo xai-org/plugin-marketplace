@@ -899,6 +899,38 @@
         ]
       }
     },
+    "release-notes-index": {
+      "sha": "331f43ca1813147d2b8bfa85c063da5e0362d547",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "releases",
+            "description": "Look up changelogs and release notes"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "releases",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analyzing-releases",
+            "description": "Analyze release trends across multiple companies to produce competitive intelligence. Use when asked to compare compani…"
+          },
+          {
+            "name": "releases-cli",
+            "description": "Use the `releases` CLI to search, browse, and read the Release Notes Index from the terminal — the keyless, agent-frien…"
+          },
+          {
+            "name": "releases-mcp",
+            "description": "Use when the user asks about recent releases, changelogs, what's new in a library, breaking changes, version updates, o…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
