@@ -1191,6 +1191,24 @@
         ]
       }
     },
+    "trainedby": {
+      "sha": "0ad06c92a25b650118172fe3e0dc6afc2586cbf2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trainedby",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "trainedby",
+            "description": "Use TRAINEDBY coaching tools after the user is signed in. Review roster, client evidence, and coach-controlled drafts.…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",

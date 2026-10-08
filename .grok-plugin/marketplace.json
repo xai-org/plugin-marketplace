@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "trainedby",
+      "description": "TRAINEDBY coaching tools for personal trainers (hosted MCP server + skill). Review your client roster, check-ins, workouts and food logs, and prepare plan drafts that you approve before anything reaches a client. Sign in with your TRAINEDBY coach account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/theaverageapp/grok-plugins.git",
+        "sha": "0ad06c92a25b650118172fe3e0dc6afc2586cbf2",
+        "path": "plugins/trainedby"
+      },
+      "homepage": "https://www.trainedby.fit/connect-ai",
+      "keywords": ["trainedby", "trainedby.fit", "trainedby coach", "trainedby clients"],
+      "domains": ["trainedby.fit", "www.trainedby.fit", "mcp.trainedby.fit"]
     }
   ]
 }
