@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aeon",
+      "description": "Aeon autonomous agent integration (hosted MCP server). Run and manage your Aeon agent from Grok: list and run skills, follow runs and read their output, search memory, edit strategy and voice, install skill packs and change settings. Sign in with GitHub; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aeonfun/aeon-mcp.git",
+        "sha": "a4d6d683f9d8489b51c22437ace612fdd93b2df3"
+      },
+      "homepage": "https://www.aeon.fun/connect",
+      "keywords": ["aeon", "aeon agent", "aeon mcp", "aeon skill", "aeon.fun"],
+      "domains": ["aeon.fun", "www.aeon.fun"]
     }
   ]
 }
