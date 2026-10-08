@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "heyreagent",
+      "description": "HeyReagent for your own LinkedIn account (hosted MCP server + skill). Read your inbox and see who is waiting on a reply, send messages and connection invitations, search people and companies, and read, publish and comment on posts. Sign in with your HeyReagent account; no API key needed. An independent service, not made by or affiliated with LinkedIn.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/linglistack/heyreagent-linkedin-mcp.git",
+        "sha": "a42c9b917da297e50b9f530d9c06fd8391fadf33"
+      },
+      "homepage": "https://heyreagent.com/linkedin-mcp?utm_source=grok-plugins&utm_medium=listing",
+      "keywords": ["heyreagent", "heyreagent mcp", "heyreagent linkedin", "heyreagent agent"],
+      "domains": ["heyreagent.com", "api.heyreagent.com"]
     }
   ]
 }

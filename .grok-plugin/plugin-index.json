@@ -426,6 +426,24 @@
         ]
       }
     },
+    "heyreagent": {
+      "sha": "a42c9b917da297e50b9f530d9c06fd8391fadf33",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "heyreagent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "heyreagent",
+            "description": "Work with the user's own LinkedIn account through the HeyReagent MCP server. Use when the user asks who is waiting on a…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "650eb83619134adb947b1ee8755e6511270bc444",
       "version": "0.0.192",
