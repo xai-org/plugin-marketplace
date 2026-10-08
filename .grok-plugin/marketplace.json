@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "twiniti-loop",
+      "description": "Twiniti Loop marketing CRM integration (Streamable HTTP MCP + skills). Search and update contacts, manage segments, and create campaign drafts over your regional Loop endpoint. Configure your MCP URL and agent token at install time — no secrets in the repo.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Twiniti-Hub/Twiniti-crm-loop-plugin.git",
+        "sha": "869c4882d4bf7b2f56fb89dfb9883f7dc3548039"
+      },
+      "homepage": "https://loop.twiniti.ai",
+      "keywords": ["twiniti", "loop", "crm", "mcp", "contacts", "segments", "campaigns"],
+      "domains": ["loop.twiniti.ai", "loop.eu.twiniti.ai", "loop.us.twiniti.ai", "loop.uk.twiniti.ai"]
     }
   ]
 }
