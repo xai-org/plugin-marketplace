@@ -422,6 +422,59 @@
         ]
       }
     },
+    "kumodeck": {
+      "sha": "bcf81555bb2f32f2bca306a0070a0f23ba3d3cce",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kumodeck",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chat",
+            "description": "Add in-game chat (a lobby, a party or a match channel with saved history) to this game, using realtime channels for liv…"
+          },
+          {
+            "name": "deploy",
+            "description": "公開して / publish a web app or game on KUMODeck. Publish a web app or game on KUMODeck (and its Functions) to the developm…"
+          },
+          {
+            "name": "functions-d1",
+            "description": "サーバー側で API を作って / KUMODeck の DB を使って保存して — protected or shared data. Write the project's own server code and SQL databa…"
+          },
+          {
+            "name": "leaderboard",
+            "description": "Add a leaderboard (top scores, weekly / daily rankings, \"my rank\") to this game, built in the game's own Functions and…"
+          },
+          {
+            "name": "limits",
+            "description": "What can stop an app or game on KUMODeck, why, and the way around it: sizes, counts and rates (Cloudflare's own limits,…"
+          },
+          {
+            "name": "multiplayer",
+            "description": "Make this game playable online on KUMODeck rooms with no server code to write. First asks one short plain-word question…"
+          },
+          {
+            "name": "start",
+            "description": "Start here to make a new web app or game with KUMODeck as its backend and publish it — from a request like 'Build \"X\" o…"
+          },
+          {
+            "name": "troubleshoot",
+            "description": "Fix errors from KUMODeck (the kumodeck CLI, the SDK calls in a web app or game, its own Functions) by their error code…"
+          },
+          {
+            "name": "user-data",
+            "description": "KUMODeck の DB を使って保存して — user-writable settings, drafts and solo progress. Store each user's data in the cloud with kum…"
+          },
+          {
+            "name": "user-login",
+            "description": "Add user sign-in to this app or game with kumo.auth — use it as a guest first, then keep the data by adding an email +…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",

@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "kumodeck",
+      "description": "KUMODeck web games and apps (hosted MCP server + skills). Build a browser game or web app from the chat and put it online on KUMODeck: publishing and rollbacks, player saves, sign-in, online multiplayer rooms, leaderboards, chat, and server code with a SQL database. Sign in with your KUMODeck account; no API key needed.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kumodeck/kumodeck-plugin.git",
+        "sha": "bcf81555bb2f32f2bca306a0070a0f23ba3d3cce"
+      },
+      "homepage": "https://kumodeck.com",
+      "keywords": ["kumodeck", "kumodeck mcp", "kumodeck deploy", "kumodeck game", "kumodeck multiplayer"],
+      "domains": ["kumodeck.com", "mcp.kumodeck.com"]
     }
   ]
 }
