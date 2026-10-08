@@ -252,6 +252,92 @@
         ]
       }
     },
+    "dodopayments": {
+      "sha": "9258be0e2c043dac25c4419ec66a02a930eda311",
+      "version": "0.6.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dodo-knowledge",
+            "description": "http"
+          },
+          {
+            "name": "dodopayments-api",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "better-auth-integration",
+            "description": "Guide only for applications using @dodopayments/better-auth, covering authenticated customer sync, checkout, portal acc…"
+          },
+          {
+            "name": "billing-sdk",
+            "description": "Guide for building billing UI with BillingSDK - the open-source React component library for pricing tables, subscriptio…"
+          },
+          {
+            "name": "checkout-integration",
+            "description": "Guide for starting hosted Checkout Sessions, payment links, and overlay or inline checkout for one-time and recurring p…"
+          },
+          {
+            "name": "credit-based-billing",
+            "description": "Complete guide for giving customers included, free, prepaid, promotional, or top-up credits using grants, balances, led…"
+          },
+          {
+            "name": "customer-management",
+            "description": "Guide for managing customer records, saved payment methods, monetary wallets, and hosted customer-portal sessions; subs…"
+          },
+          {
+            "name": "discounts-and-promotions",
+            "description": "Guide for implementing discount codes and promotional pricing with Dodo Payments, including CRUD operations, eligibilit…"
+          },
+          {
+            "name": "dodo-best-practices",
+            "description": "Guide for initial Dodo Payments setup, including SDK installation, test and live environments, API keys, and the canoni…"
+          },
+          {
+            "name": "framework-adapters",
+            "description": "Guide for mounting official @dodopayments/* checkout, portal, and verified-webhook route handlers in supported web fram…"
+          },
+          {
+            "name": "license-keys",
+            "description": "Guide for implementing license key management with Dodo Payments - activation, validation, and access control for softw…"
+          },
+          {
+            "name": "localized-pricing",
+            "description": "Guide for implementing localized pricing, adaptive currency, and purchasing power parity with Dodo Payments"
+          },
+          {
+            "name": "mobile-checkout",
+            "description": "Guide for implementing mobile in-app checkout with Dodo Payments across React Native, Flutter, iOS, and Android platfor…"
+          },
+          {
+            "name": "product-catalog-management",
+            "description": "Guide for creating and managing products, pricing, add-ons, product collections, images, and digital product delivery"
+          },
+          {
+            "name": "refunds-and-disputes",
+            "description": "Guide for issuing refunds, handling disputes and chargebacks, and reconciling customer access with Dodo Payments"
+          },
+          {
+            "name": "subscription-integration",
+            "description": "Guide for managing recurring subscriptions after checkout, including trials, lifecycle states, plan changes, cancellati…"
+          },
+          {
+            "name": "testing-and-go-live",
+            "description": "Guide for test-mode payment scenarios, renewal simulation, local webhook delivery tests, test and live catalog migratio…"
+          },
+          {
+            "name": "usage-based-billing",
+            "description": "Guide for charging directly per measured API call, token, storage unit, or other consumption using meters, stable usage…"
+          },
+          {
+            "name": "webhook-integration",
+            "description": "Complete guide for setting up and handling Dodo Payments webhooks for real-time payment event notifications."
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
