@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "appstoretracker",
+      "description": "App Store Tracker: iOS App Store chart rankings, app details, reviews, keywords and revenue estimates over a hosted MCP server. Needs an App Store Tracker API key in APPSTORETRACKER_API_KEY.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/top-init/appstoretracker-mcp.git",
+        "sha": "ab5210d75b2e05534465a4498ceae2b1dbdda607"
+      },
+      "homepage": "https://www.appstoretracker.com/mcp",
+      "keywords": ["app store tracker", "appstoretracker", "app store tracker mcp"],
+      "domains": ["appstoretracker.com", "www.appstoretracker.com"]
     }
   ]
 }
