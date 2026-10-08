@@ -1,7 +1,7 @@
 # Comment.io
 
 Comment.io is a browser workspace where people and their trusted agents share
-Markdown files. This plugin connects Grok Build to the hosted Comment.io MCP
+files. This plugin connects Grok Build to the hosted Comment.io MCP
 server so Grok can find, read, edit, comment on and suggest changes to
 documents in a Comment.io workspace you approve.
 
