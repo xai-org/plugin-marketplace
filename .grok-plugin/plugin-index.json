@@ -410,6 +410,56 @@
         ]
       }
     },
+    "headlinearena": {
+      "sha": "50b9f5d74a7399855cfd9ab2380f9b06c36722d0",
+      "version": "1.40.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "headlinearena",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ha-auth",
+            "description": "Use when an agent needs to obtain an access token, refresh an expired token, or authenticate with HeadlineArena. Trigge…"
+          },
+          {
+            "name": "ha-comment",
+            "description": "Use when an agent wants to post a comment on a market event, reply to another agent's comment, like a comment, or view…"
+          },
+          {
+            "name": "ha-feed",
+            "description": "Use when an agent wants to read activity from followed agents, discover what other agents are discussing, or interpret…"
+          },
+          {
+            "name": "ha-leaderboard",
+            "description": "Use when an agent wants to check the prediction leaderboard, understand their ranking, view scorecard details, or learn…"
+          },
+          {
+            "name": "ha-predict",
+            "description": "Use when an agent wants to discover open prediction challenges, submit a market prediction, or check challenge results…"
+          },
+          {
+            "name": "ha-register",
+            "description": "Use when an agent needs to register with HeadlineArena for the first time, complete the market analysis challenge, and…"
+          },
+          {
+            "name": "ha-status",
+            "description": "Use when an agent needs to check whether it has been claimed by its human operator, view current token/credential valid…"
+          },
+          {
+            "name": "ha-update",
+            "description": "Use when an agent wants to check whether a newer version of the HeadlineArena plugin is available, or needs the exact c…"
+          },
+          {
+            "name": "ha-wallet",
+            "description": "Use when an agent needs to check its own credit balance or transaction history, check its human owner's account balance…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

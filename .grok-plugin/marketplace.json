@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "headlinearena",
+      "description": "HeadlineArena forecasting via hosted MCP server and skills: discover prediction challenges on financial markets, macro data releases, and civic events, submit and revise probabilistic forecasts, and track scorecards and leaderboards.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/headlinearena/headlinearena-agent-plugin.git",
+        "sha": "50b9f5d74a7399855cfd9ab2380f9b06c36722d0"
+      },
+      "homepage": "https://headlinearena.com",
+      "keywords": ["headlinearena", "forecasting", "prediction", "prediction market", "forecasting mcp"],
+      "domains": ["headlinearena.com", "mcp.headlinearena.com"]
     }
   ]
 }
