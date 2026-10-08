@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agiled": {
+      "type": "http",
+      "url": "https://api.agiled.ai/mcp"
+    }
+  }
+}

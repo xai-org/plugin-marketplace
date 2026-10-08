@@ -1,0 +1,13 @@
+{
+  "name": "agiled",
+  "version": "1.0.0",
+  "description": "Manage Agiled clients, projects, tasks, invoices, and time through the hosted Agiled MCP server. Sign in with your Agiled account on first connect.",
+  "author": {
+    "name": "Agiled by ZTABS",
+    "email": "hello@agiled.app",
+    "url": "https://agiled.app"
+  },
+  "homepage": "https://agiled.app",
+  "license": "MIT",
+  "keywords": ["agiled", "agiled crm", "agiled projects", "agiled mcp"]
+}
