@@ -1191,6 +1191,24 @@
         ]
       }
     },
+    "unfenced": {
+      "sha": "e26922dd6bd197b7bbbe67256e454c4487e5bd4e",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unfenced",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "unfenced-web-reading",
+            "description": "Read and compare specific web pages with the connected Unfenced service, returning readable content and source links."
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
