@@ -1583,6 +1583,28 @@
           }
         ]
       }
+    },
+    "zero-slop": {
+      "sha": "43b71836bf2feb8395a84aaeea809bd7ef65e385",
+      "version": "2.12.22",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zero-slop",
+            "description": "http"
+          },
+          {
+            "name": "zero-slop-local",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zero-slop",
+            "description": "Edit drafts into natural prose, inspect AI-sounding patterns, or review how a specified audience might respond passage…"
+          }
+        ]
+      }
     }
   }
 }

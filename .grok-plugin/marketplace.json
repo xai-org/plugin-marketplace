@@ -397,6 +397,31 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "zero-slop",
+      "description": "Edit drafts in your assistant with the Zero Slop writing skill and local checks, or send drafts to the hosted Zero Slop MCP for remote editing.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manavmishra/ZeroSlop.git",
+        "sha": "43b71836bf2feb8395a84aaeea809bd7ef65e385",
+        "path": "distribution/plugins/zero-slop"
+      },
+      "homepage": "https://zero-slop.ai",
+      "keywords": [
+        "zero-slop",
+        "zero slop",
+        "zeroslop"
+      ],
+      "domains": [
+        "zero-slop.ai",
+        "mcp.zero-slop.ai"
+      ],
+      "version": "2.12.22",
+      "author": {
+        "name": "Manav Mishra"
+      }
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
