@@ -407,6 +407,29 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "morphed",
+      "description": "Create images, videos, and coherent product campaigns with your Morphed workspace, saved brand context, and credits.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iambilalazhar/morphed-mcp.git",
+        "sha": "9dc9f8e84c0210a7da756ee33187fde9e4a0ebcb"
+      },
+      "homepage": "https://morphed.app/mcp",
+      "keywords": [
+        "morphed",
+        "morphed creative workspace"
+      ],
+      "domains": [
+        "morphed.app",
+        "api.morphed.app"
+      ],
+      "version": "0.2.0",
+      "author": {
+        "name": "Bilal Azhar",
+        "email": "hello@morphed.app"
+      }
     }
   ]
 }

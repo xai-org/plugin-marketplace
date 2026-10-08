@@ -522,6 +522,28 @@
         ]
       }
     },
+    "morphed": {
+      "sha": "9dc9f8e84c0210a7da756ee33187fde9e4a0ebcb",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "morphed",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "morphed-generate",
+            "description": "Create AI images or videos in Morphed. Use when the user asks to generate, edit, animate, or iterate on visual media wi…"
+          },
+          {
+            "name": "morphed-product-campaign",
+            "description": "Build a coherent product image and video campaign in Morphed. Use for launch assets, ads, social variants, product phot…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
