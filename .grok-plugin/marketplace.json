@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "ouroboros-continuity",
+      "description": "Continuity by Ouroboros Apps (hosted MCP server + skill): a story bible and series memory for fiction writers. Save and search canon for characters, places, timelines and plot threads, record approved scenes, save checkpoints between sessions, and run continuity audits. Sign in with your Continuity account (OAuth); no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LAHutchins91/continuity-mcp.git",
+        "sha": "86f6e2aa69dc99a215f3f15cf6795938e57d0656"
+      },
+      "homepage": "https://continuitywriter.com",
+      "keywords": ["continuity writer", "continuitywriter", "continuity story bible", "continuity series bible", "continuity canon", "ouroboros continuity"],
+      "domains": ["continuitywriter.com", "www.continuitywriter.com"]
     }
   ]
 }
