@@ -1,0 +1,13 @@
+{
+  "name": "comment-io",
+  "version": "1.0.0",
+  "description": "Comment.io for Grok Build via the hosted Comment.io MCP server at comment.io/mcp. Find, read, edit and comment on Markdown documents in a Comment.io workspace through one run tool. Sign in with your Comment.io account on first connect.",
+  "author": {
+    "name": "Comment, Inc.",
+    "email": "support@comment.io",
+    "url": "https://comment.io"
+  },
+  "homepage": "https://comment.io",
+  "license": "MIT",
+  "keywords": ["comment.io", "comment io", "commentio"]
+}

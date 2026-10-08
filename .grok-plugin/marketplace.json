@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "comment-io",
+      "description": "Comment.io integration (hosted MCP server). Find, read, edit, comment on and suggest changes to Markdown documents in a Comment.io workspace shared by people and their agents, through one restricted run tool that executes Comment.io commands on Comment.io's servers. Sign in with your Comment.io account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/comment-io"
+      },
+      "homepage": "https://comment.io",
+      "keywords": ["comment.io", "comment io", "commentio"],
+      "domains": ["comment.io"]
     }
   ]
 }
