@@ -407,6 +407,26 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "agiled",
+      "description": "Manage Agiled clients, projects, tasks, invoices, and time through the hosted Agiled MCP server and a workspace skill. Sign in with your Agiled account; access follows your workspace permissions.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/agiled"
+      },
+      "homepage": "https://agiled.app",
+      "keywords": [
+        "agiled",
+        "agiled crm",
+        "agiled projects",
+        "agiled mcp"
+      ],
+      "domains": [
+        "agiled.app",
+        "agiled.ai"
+      ]
     }
   ]
 }

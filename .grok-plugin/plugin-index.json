@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "agiled": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agiled",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agiled-workspace",
+            "description": "Find and manage clients, projects, tasks, invoices, and time in Agiled when the user asks to work with their Agiled wor…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
       "version": "1.1.0",
