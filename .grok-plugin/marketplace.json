@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "sync-socials",
+      "description": "Create social drafts, manage media, schedule approved posts, and check publishing results in your Sync Socials workspace.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DamianoTobasco/sync-socials-agent.git",
+        "sha": "bb68a8803a97cac5f4ba94fe7b7cba6d200784ca",
+        "path": "plugins/grok-sync-socials"
+      },
+      "homepage": "https://sync-socials.com/ai-social-media-agent.html",
+      "keywords": ["sync-socials", "sync socials"],
+      "domains": ["sync-socials.com", "app.sync-socials.com"]
     }
   ]
 }
