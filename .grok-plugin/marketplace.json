@@ -407,6 +407,26 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "full-self-browsing",
+      "description": "Connect Grok to Full Self Browsing in your signed in Chrome for supervised browser actions, DOM reads, application capabilities and tab ownership.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/full-self-browsing"
+      },
+      "homepage": "https://www.full-selfbrowsing.com",
+      "keywords": [
+        "full self browsing",
+        "full self-browsing",
+        "fsb mcp",
+        "fsb-mcp-server",
+        "fsb extension"
+      ],
+      "domains": [
+        "full-selfbrowsing.com"
+      ]
     }
   ]
 }
