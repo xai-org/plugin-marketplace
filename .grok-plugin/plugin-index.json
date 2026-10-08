@@ -39,6 +39,24 @@
         ]
       }
     },
+    "ball-ranks": {
+      "sha": "106f00d0aade4ae4512a351a10649bbf248d81d8",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ball-ranks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Use Ball Ranks for published fantasy basketball and football rankings and player projections."
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",

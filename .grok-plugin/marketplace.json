@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "ball-ranks",
+      "description": "Ball Ranks (https://ballranks.com) provides read-only fantasy basketball and football rankings, weekly rankings, and player projections through its hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ollynov/ball-ranks-plugin.git",
+        "sha": "106f00d0aade4ae4512a351a10649bbf248d81d8"
+      },
+      "homepage": "https://ballranks.com",
+      "keywords": ["ball ranks", "ballranks", "ball ranks fantasy sports"],
+      "domains": ["ballranks.com"]
     }
   ]
 }
