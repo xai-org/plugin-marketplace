@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "firmledger",
+      "description": "Search and verify businesses on FirmLedger, a source-backed directory of companies, startups, agencies and organizations. Free access needs no key: search listings, read public profiles, check verification status and compare companies. FirmLedger Pro adds contact details, relationships, moderated news and job search.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/firmledger"
+      },
+      "homepage": "https://firmledger.co.ke",
+      "keywords": ["firmledger", "business directory", "company verification", "verify business", "business records"],
+      "domains": ["firmledger.co.ke"]
     }
   ]
 }
