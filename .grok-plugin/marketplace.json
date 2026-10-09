@@ -407,6 +407,23 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "velith",
+      "description": "AI-native book publishing pipeline. Run the full author workflow from ideation to EPUB/PDF export: outline architecture, chapter drafting with continuity checks, style editing, and cover metadata, all as agent skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/epicsagas/Velith.git",
+        "sha": "918bf4fc29d89b5e18a895f522e7407672a23be2"
+      },
+      "homepage": "https://github.com/epicsagas/Velith",
+      "keywords": [
+        "velith",
+        "velith book",
+        "velith publishing",
+        "velith epub"
+      ]
     }
   ]
 }
