@@ -67,6 +67,17 @@
         ]
       }
     },
+    "brosh": {
+      "sha": "d72bdf63a16b2c73c20c2f81d65ee3405fed9831",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brosh-crm",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
