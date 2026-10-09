@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "yantrikdb",
+      "description": "Persistent cognitive memory for AI agents — semantic recall, a knowledge graph, contradiction detection, and procedural learning that survives across sessions. Local-first: one SQLite file, no account, no telemetry.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yantrikos/yantrikdb-mcp.git",
+        "sha": "c31ae3020b7d4c2948606f708e78dbf3d7dd8ea4"
+      },
+      "homepage": "https://yantrikdb.com",
+      "keywords": ["yantrikdb", "yantrikdb mcp", "yantrikdb memory"],
+      "domains": ["yantrikdb.com"]
     }
   ]
 }
