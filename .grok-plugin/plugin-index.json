@@ -646,6 +646,18 @@
         ]
       }
     },
+    "pandadoc": {
+      "sha": "2ee7f45a14063132fc7486723abbf5bc4f90171e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pandadoc",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
