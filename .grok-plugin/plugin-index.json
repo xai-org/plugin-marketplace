@@ -945,6 +945,194 @@
         ]
       }
     },
+    "socialforge": {
+      "sha": "a160e9da9d3b328c0cee1f6b099106c6922edd9b",
+      "version": "1.29.0",
+      "components": {
+        "agents": [
+          {
+            "name": "carousel-builder",
+            "description": "Renders multi-slide carousels from HTML/CSS templates using Playwright. Handles slide content injection, brand styling,…"
+          },
+          {
+            "name": "compliance-checker",
+            "description": "Enforces brand compliance rules — banned phrases, required disclaimers, image rules, data claim verification, and platf…"
+          },
+          {
+            "name": "copy-adapter",
+            "description": "Adapts social media copy per platform — character limits, hashtags, CTAs, tone shifts, and bilingual formatting. Handle…"
+          },
+          {
+            "name": "image-compositor",
+            "description": "Produces images and videos for social posts with human-in-the-loop approval at every creative stage."
+          },
+          {
+            "name": "quality-reviewer",
+            "description": "Reviews generated creative for brand consistency, visual quality, copy accuracy, and platform compliance before approva…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "brand-setup",
+            "description": "Create or update a brand profile: colors, fonts, logo, voice, platforms. \\\"set up a new client brand\\\""
+          },
+          {
+            "name": "check-approvals",
+            "description": "Check pending approvals and send reminders where overdue. \\\"who still owes an approval\\\""
+          },
+          {
+            "name": "client-review",
+            "description": "Send internally approved posts to the client by Slack or email with reminders; internal pass -> review. \\\"send these to…"
+          },
+          {
+            "name": "cost-report",
+            "description": "Report this month's generation cost by provider and post. \\\"what have we spent so far\\\""
+          },
+          {
+            "name": "edit-image",
+            "description": "Edit a generated image: background, lighting, colors or composition. \\\"change the background on this image\\\""
+          },
+          {
+            "name": "edit-post",
+            "description": "Edit an existing post's copy, visual direction or metadata. \\\"tweak the copy on P07\\\""
+          },
+          {
+            "name": "finalize",
+            "description": "Finalize the month and package approved content for delivery. \\\"close out the month\\\""
+          },
+          {
+            "name": "generate-all",
+            "description": "Generate creative, copy and previews for every calendar post (generation step only). \\\"generate all the posts\\\""
+          },
+          {
+            "name": "generate-post",
+            "description": "Produce one post end to end by ID: image, approval, copy, compliance, previews; visual only -> compose-creative. \\\"do p…"
+          },
+          {
+            "name": "new-month",
+            "description": "Start a new month for a brand: folder and settings; a calendar to load -> parse-calendar; ideas -> ideate-month. \\\"star…"
+          },
+          {
+            "name": "preview-batch",
+            "description": "Render preview mockups for all generated posts in one batch. \\\"preview all the posts\\\""
+          },
+          {
+            "name": "reactive-post",
+            "description": "Create a quick off-calendar post reacting to a trend or news event. \\\"react to this trending topic\\\""
+          },
+          {
+            "name": "review",
+            "description": "Open the review gallery to approve or flag every post this month. \\\"let me go through the month's posts\\\""
+          },
+          {
+            "name": "revision",
+            "description": "Apply revision feedback to a post and regenerate what changed. \\\"apply the client's feedback\\\""
+          },
+          {
+            "name": "status",
+            "description": "Show production status for the active brand and month. \\\"where are we on this month\\\""
+          },
+          {
+            "name": "swap-asset",
+            "description": "Swap the brand asset used in a post's image composition. \\\"use a different photo for this post\\\""
+          },
+          {
+            "name": "switch-brand",
+            "description": "Switch the active brand context for all following commands. \\\"switch to the other client\\\""
+          },
+          {
+            "name": "sync-calendar",
+            "description": "Re-sync the calendar from its source (Notion, Drive or file). \\\"refresh the calendar from Notion\\\""
+          }
+        ],
+        "skills": [
+          {
+            "name": "adapt-copy",
+            "description": "Adapt post copy per platform: character limits, hashtags, tone and the right CTA mechanism. \\\"rewrite this caption for…"
+          },
+          {
+            "name": "assemble-document",
+            "description": "Assemble the month-end delivery manifest: approved posts, copy, files and metadata as one JSON. \\\"build the delivery ma…"
+          },
+          {
+            "name": "brand-manager",
+            "description": "Set up or update a brand profile: colors, fonts, logo, voice, platforms, compliance rules. \\\"update our brand colors\\\""
+          },
+          {
+            "name": "build-review-gallery",
+            "description": "Build the shareable HTML review gallery of every generated post for team or client. \\\"make me a gallery page\\\""
+          },
+          {
+            "name": "c2pa-sign",
+            "description": "Embed C2PA content credentials and an AI-disclosure record in AI-generated assets. \\\"sign these images for AI disclosur…"
+          },
+          {
+            "name": "compose-creative",
+            "description": "Compose just the creative (image or video) for a calendar post, in four modes. \\\"make the visual for this post\\\""
+          },
+          {
+            "name": "create-previews",
+            "description": "Create platform previews: post mockups on LinkedIn, Instagram, X and TikTok before publishing. \\\"show how this will loo…"
+          },
+          {
+            "name": "finalize-month",
+            "description": "Finalize the month: package approved content into the delivery folder with copy files and manifest. \\\"package the month…"
+          },
+          {
+            "name": "full-pipeline",
+            "description": "Run the full pipeline for the month, from calendar parse to delivery, pausing between phases. \\\"produce the whole month…"
+          },
+          {
+            "name": "generate-video",
+            "description": "Create a short video from a concept through staged first frame, last frame, motion and render. \\\"turn this concept into…"
+          },
+          {
+            "name": "ideate-month",
+            "description": "Plan next month's content calendar from a theme, signals and last month's results. \\\"what should we post next month\\\""
+          },
+          {
+            "name": "index-assets",
+            "description": "Index the brand photo library with AI vision so assets are searchable and matchable. \\\"catalogue our brand photos\\\""
+          },
+          {
+            "name": "ingest-performance",
+            "description": "Turn a platform analytics export into per-post performance records and ranked winners. \\\"which of last month's posts wo…"
+          },
+          {
+            "name": "manage-reviews",
+            "description": "Manage reviews: internal and client approvals, sign-offs, revisions and reminders. \\\"who hasn't approved yet\\\""
+          },
+          {
+            "name": "match-assets",
+            "description": "Match indexed brand assets to calendar posts and assign each a creative mode. \\\"which photo goes with which post\\\""
+          },
+          {
+            "name": "model-check",
+            "description": "Find the best current model for a capability from the live catalogue and record its source. \\\"which model should we use…"
+          },
+          {
+            "name": "parse-calendar",
+            "description": "Parse a content calendar or plan from DOCX, XLSX, Notion or pasted text into structured posts. \\\"load this month's cale…"
+          },
+          {
+            "name": "price-check",
+            "description": "Price a generation run from live provider rates before any spend. \\\"how much will this cost\\\""
+          },
+          {
+            "name": "render-carousels",
+            "description": "Render multi-slide carousels from HTML templates into platform-ready images or PDF. \\\"build the carousel slides\\\""
+          },
+          {
+            "name": "research-month",
+            "description": "Turn supplied comment exports and competitor ads into a what's-working brief before planning a month. \\\"analyse these c…"
+          },
+          {
+            "name": "setup",
+            "description": "One-time setup of image and video generation credentials, verified before use. \\\"set up my API keys\\\""
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",

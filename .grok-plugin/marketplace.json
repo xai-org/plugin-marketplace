@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "socialforge",
+      "description": "Open-source social media production: a monthly content calendar in, on-brand copy, images, carousels and video out, with human approval at every creative stage, sourced per-platform limits and a delivery audit. 21 skills, 5 agents; no hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/socialforge.git",
+        "sha": "a160e9da9d3b328c0cee1f6b099106c6922edd9b"
+      },
+      "homepage": "https://github.com/indranilbanerjee/socialforge",
+      "keywords": ["socialforge", "social forge"]
     }
   ]
 }
