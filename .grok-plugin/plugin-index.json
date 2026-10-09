@@ -248,6 +248,96 @@
         ]
       }
     },
+    "dodopayments": {
+      "sha": "8616a7c353a2b678936643544ec932d59cf45e4a",
+      "version": "0.6.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dodo-knowledge",
+            "description": "http"
+          },
+          {
+            "name": "dodopayments-api",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "better-auth-integration",
+            "description": "Dodo Payments plugin for Better Auth (@dodopayments/better-auth) covering customer sync on signup, authenticated checko…"
+          },
+          {
+            "name": "billing-sdk",
+            "description": "BillingSDK, the open-source React and shadcn component library for Dodo Payments billing UI. Use when building pricing…"
+          },
+          {
+            "name": "checkout-integration",
+            "description": "Dodo Payments checkout via hosted Checkout Sessions (client.checkoutSessions.create), static payment links, and overlay…"
+          },
+          {
+            "name": "credit-based-billing",
+            "description": "Dodo Payments credit-based billing with credit entitlements, grants, balances, ledger deductions, rollover, expiry, low…"
+          },
+          {
+            "name": "customer-management",
+            "description": "Dodo Payments customer management, covering customer CRUD, saved payment methods, real-money customer wallets and ledge…"
+          },
+          {
+            "name": "discounts-and-promotions",
+            "description": "Dodo Payments discount codes and promotional pricing, covering discount CRUD, percentage and flat amounts, eligibility…"
+          },
+          {
+            "name": "dodo-best-practices",
+            "description": "Starting point for any Dodo Payments integration, covering Merchant of Record basics, SDK installation and client setup…"
+          },
+          {
+            "name": "dodo-mcp-usage",
+            "description": "How and when to use the Dodo Payments MCP servers (dodo-knowledge for docs search, dodopayments-api for the live API vi…"
+          },
+          {
+            "name": "framework-adapters",
+            "description": "Official @dodopayments/* framework adapters that mount Checkout, CustomerPortal, and Webhooks route handlers. Use when…"
+          },
+          {
+            "name": "license-keys",
+            "description": "Dodo Payments license keys for software products, covering activation, validation, and deactivation via client.licenses…"
+          },
+          {
+            "name": "localized-pricing",
+            "description": "Dodo Payments multi-currency pricing, covering fixed localized prices per country or currency, Adaptive Currency live F…"
+          },
+          {
+            "name": "mobile-checkout",
+            "description": "Dodo Payments in-app checkout for React Native, Flutter, native iOS, and Android using SFSafariViewController or Chrome…"
+          },
+          {
+            "name": "product-catalog-management",
+            "description": "Dodo Payments product catalog management, covering products with one_time_price, recurring_price, or usage_based_price,…"
+          },
+          {
+            "name": "refunds-and-disputes",
+            "description": "Dodo Payments refunds and disputes, covering full and partial refunds, refund statuses, dispute and chargeback lifecycl…"
+          },
+          {
+            "name": "subscription-integration",
+            "description": "Dodo Payments subscription lifecycle after checkout, covering trials, statuses like active, on_hold, and cancelled, pla…"
+          },
+          {
+            "name": "testing-and-go-live",
+            "description": "Dodo Payments test mode and production launch, covering test cards and payment methods, success and decline scenarios,…"
+          },
+          {
+            "name": "usage-based-billing",
+            "description": "Dodo Payments usage-based billing that charges per measured unit, covering meters, usage event ingestion by event_name,…"
+          },
+          {
+            "name": "webhook-integration",
+            "description": "Dodo Payments webhook handling, covering endpoint setup, Standard Webhooks signature verification on the raw body, paym…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

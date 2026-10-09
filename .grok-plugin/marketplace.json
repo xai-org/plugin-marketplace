@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "dodopayments",
+      "description": "Dodo Payments integration for Grok Build: agent skills for checkout, subscriptions, webhooks, framework adapters, usage- and credit-based billing, license keys and go-live, plus the Dodo Payments API (OAuth) and documentation MCP servers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dodopayments/dodo-agent-plugin.git",
+        "sha": "8616a7c353a2b678936643544ec932d59cf45e4a"
+      },
+      "homepage": "https://docs.dodopayments.com/developer-resources/agent-skills",
+      "keywords": ["dodopayments", "dodo payments", "dodo payments checkout", "dodo payments webhooks", "dodo payments mcp"],
+      "domains": ["dodopayments.com", "docs.dodopayments.com", "app.dodopayments.com", "mcp.dodopayments.com"]
     }
   ]
 }
