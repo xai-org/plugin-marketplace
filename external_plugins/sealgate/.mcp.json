@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sealgate": {
+      "type": "http",
+      "url": "https://mcp.sealgate.ai/mcp"
+    }
+  }
+}
