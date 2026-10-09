@@ -1191,6 +1191,44 @@
         ]
       }
     },
+    "traderspy": {
+      "sha": "859c45f6c10bc11969f8bb6da8c3630ec5e49f5a",
+      "version": "1.9.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "traderspy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "market-briefing",
+            "description": "Build a concise crypto market briefing from live TraderSpy data in a handful of tool calls — BTC/ETH/SOL price and 24h…"
+          },
+          {
+            "name": "market-screener",
+            "description": "Scan the whole crypto futures market in one call and test what a setup did historically, using TraderSpy's screener and…"
+          },
+          {
+            "name": "position-check",
+            "description": "Health-check crypto futures positions the user describes or pastes in chat (\"I'm long ETH from 2,400 at 10x\") with Trad…"
+          },
+          {
+            "name": "smart-money",
+            "description": "Track what top crypto futures traders — \"smart money\", whales, elite accounts — are doing across Binance, Hyperliquid,…"
+          },
+          {
+            "name": "technical-analysis",
+            "description": "Read one crypto futures pair (or a few) properly with TraderSpy — 19 indicators (RSI, MACD, EMA/SMA stacks, Bollinger,…"
+          },
+          {
+            "name": "trading-signals",
+            "description": "Query, explain and evaluate TraderSpy's AI crypto futures signals — the newest signals, signals for one coin, what a si…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
