@@ -397,6 +397,20 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "kemory",
+      "description": "Persistent, cross-session memory powered by Kemory. Injects your prior context at session start, recalls past decisions and runbooks before you re-derive them, and stores durable facts as they happen.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SeKondBrainAILabs/kemory-plugin.git",
+        "sha": "6334fa0e891dc6f1b719698c49af7dcf2cb2e6e5",
+        "path": "plugin"
+      },
+      "homepage": "https://get.kemory.sekondbrain.ai/",
+      "keywords": ["kemory", "sekondbrain", "kemory recall", "kemory memory"],
+      "domains": ["kemory.sekondbrain.ai", "api.kemory.s9n.ai"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
