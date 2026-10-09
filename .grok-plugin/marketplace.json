@@ -359,6 +359,18 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "pincushion",
+      "description": "Pincushion visual feedback for Grok Build (MCP Server + Skills). Connect a project, run brand-aware Crits, read positioned feedback pins, and implement approved feedback.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/pincushion"
+      },
+      "homepage": "https://pincushion.io",
+      "keywords": ["pincushion", "pincushion crit", "pincushion pins", "pincushion critique"],
+      "domains": ["pincushion.io"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
