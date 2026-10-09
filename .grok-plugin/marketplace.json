@@ -407,6 +407,26 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "creative-claw",
+      "description": "Generate and edit images, video, and audio with reusable Characters and brand assets through the hosted Creative Claw MCP server.",
+      "category": "creative",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CreativeClawCo/creative-claw-marketplace.git",
+        "sha": "32f2932ce96b7067b7496b839aee82945ec26adc",
+        "path": "plugins/creative-claw"
+      },
+      "homepage": "https://creativeclaw.co",
+      "keywords": [
+        "creativeclaw",
+        "creative claw"
+      ],
+      "domains": [
+        "creativeclaw.co",
+        "app.creativeclaw.co"
+      ]
     }
   ]
 }
