@@ -422,6 +422,24 @@
         ]
       }
     },
+    "meadow": {
+      "sha": "831e604cd32f15761745f8f379555dffcb824e3a",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meadow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "meadow",
+            "description": "Work with a Meadow social publishing workspace through the Meadow MCP server. Use when the user asks about their Meadow…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
