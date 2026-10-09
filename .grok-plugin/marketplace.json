@@ -407,6 +407,27 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aimport",
+      "description": "AImport.ar: official Argentine import data (ARCA customs) by company, origin country, price and NCM tariff line, month by month; importer rankings, emerging products, effective tariff, landed cost and Canton Fair guidance. Remote MCP server with OAuth; read-only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NikoReef/aimport-mcp.git",
+        "sha": "78bcca73bb496b9293063b3181cf8b02077a370b"
+      },
+      "homepage": "https://aimport.ar",
+      "keywords": [
+        "argentina imports",
+        "argentina customs",
+        "ncm",
+        "argentine importers",
+        "canton fair"
+      ],
+      "domains": [
+        "aimport.ar"
+      ]
     }
   ]
 }
