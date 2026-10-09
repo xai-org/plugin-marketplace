@@ -3,7 +3,7 @@
     "easypost": {
       "type": "http",
       "url": "https://app-api.easypost.com/mcp",
-      "note": "Official EasyPost hosted MCP server. On first connection you are prompted to sign in to easypost.com and authorize in the browser (OAuth protected resource; no API key to paste). Platforms and agents that already have a merchant's production EasyPost API key can skip the sign-in and send it directly as Authorization: Bearer. All tools are read-only and run in production mode. Tools: whoami, list_shipments, get_shipment, list_trackers, get_tracker, get_address, list_carrier_accounts, carrier_metadata, pickups, refunds, insurances, claims."
+      "note": "Official EasyPost hosted MCP server. On first connection you are prompted to sign in to easypost.com and authorize in the browser (OAuth protected resource; no API key to paste). All tools are read-only. See the plugin README for the tool catalog."
     }
   }
 }
