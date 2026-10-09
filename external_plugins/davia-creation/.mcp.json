@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "davia-creation": {
+      "type": "http",
+      "url": "https://tale-mcp-208104258932.us-east4.run.app/mcp"
+    }
+  }
+}
