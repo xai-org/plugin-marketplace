@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "agent-shield",
+      "description": "Scan text for prompt injection, leaked secrets, exposed PII, and SSRF-risk URLs before your agent acts on it.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/startekenterprises-ai/agent-shield.git",
+        "sha": "02b85a4a96d88952f759e0722e3c1695aeed086b",
+        "path": "grok"
+      },
+      "homepage": "https://agent-shield.startekenterprises.com",
+      "keywords": ["security", "prompt-injection", "mcp"]
     }
   ]
 }
