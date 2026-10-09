@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "attention": {
+      "sha": "95681231bef3e4ed0538fafae6dc92fcbc8a0099",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "attention",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "conversations",
+            "description": "Search, browse, and analyze sales conversations from Attention. Use when the user wants to find conversations, view tra…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
