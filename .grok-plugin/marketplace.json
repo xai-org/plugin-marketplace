@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "mrscraper",
+      "description": "MrScraper web scraping and structured data extraction (MCP Server + Skills). Fetch raw page HTML through MrScraper's Web Unblocker, run managed AI extraction or site mapping, discover pages through Google search, rerun saved scrapers, and inspect stored results and account usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mrscraper-com/mrscraper-grok-plugin.git",
+        "sha": "96bee699801fbdf012a579416045e511047b20cb",
+        "path": "plugins/mrscraper"
+      },
+      "homepage": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "keywords": ["mrscraper", "mr scraper", "mrscraper mcp"],
+      "domains": ["mrscraper.com", "app.mrscraper.com", "docs.mrscraper.com"]
     }
   ]
 }

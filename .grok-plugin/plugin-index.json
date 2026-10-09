@@ -518,6 +518,36 @@
         ]
       }
     },
+    "mrscraper": {
+      "sha": "96bee699801fbdf012a579416045e511047b20cb",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mrscraper",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mrscraper",
+            "description": "Connect, authenticate, route, and troubleshoot MrScraper MCP, and use saved scrapers, stored results, and account tools…"
+          },
+          {
+            "name": "mrscraper-fetch",
+            "description": "Retrieve raw HTML from a known public URL with MrScraper. Use for reading, inspecting, summarizing, archiving, or analy…"
+          },
+          {
+            "name": "mrscraper-scrape",
+            "description": "Run MrScraper's general, listing, or map agents for managed structured extraction or bounded URL discovery within a kno…"
+          },
+          {
+            "name": "mrscraper-serp",
+            "description": "Discover public pages through Google with MrScraper using a search query or Google search URL. Use when no target URL i…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
