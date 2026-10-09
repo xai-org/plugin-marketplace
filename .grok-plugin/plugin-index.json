@@ -1336,7 +1336,7 @@
       }
     },
     "uploads": {
-      "sha": "a6f424c2b9341098cb5e15cb0f8755536c9a7111",
+      "sha": "95ef759db58e9d4e416143a193eab3656f1873cb",
       "version": "0.4.0",
       "components": {
         "hooks": [

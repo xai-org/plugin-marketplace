@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/buildinternet/uploads.git",
-        "sha": "a6f424c2b9341098cb5e15cb0f8755536c9a7111",
+        "sha": "95ef759db58e9d4e416143a193eab3656f1873cb",
         "path": "plugins/claude/uploads"
       },
       "homepage": "https://uploads.sh",
