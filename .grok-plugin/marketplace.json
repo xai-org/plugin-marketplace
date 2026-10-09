@@ -384,6 +384,18 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "phasio",
+      "description": "Query your quotes, parts, pricing, and manufacturing shop floor. Phasio is the operating platform for contract manufacturers across additive, CNC, molding, and more. Requires a Phasio account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/phasio"
+      },
+      "homepage": "https://phas.io",
+      "keywords": ["phasio", "phasio mcp", "phasio manufacturing", "phasio cnc", "phasio 3d printing", "phasio additive"],
+      "domains": ["phas.io", "app.eu.phas.io", "m-api.eu.phas.io"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
