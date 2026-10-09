@@ -410,6 +410,34 @@
         ]
       }
     },
+    "fxmacrodata": {
+      "sha": "b22ee84d61879d17dc25023ae40f39021246af8d",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "macro-brief",
+            "description": "Macro briefing for a currency - policy rate, inflation, jobs, growth and the next scheduled releases"
+          },
+          {
+            "name": "pair-brief",
+            "description": "Macro view of an FX pair - rate differential, inflation gap, spot and upcoming event risk"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "fxmacrodata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fxmacrodata",
+            "description": "Use FXMacroData tools for currency pairs, FX spot rates, central-bank policy rates, CPI/inflation, GDP, jobs data, bond…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "fxmacrodata",
+      "description": "Official-source macroeconomic and FX data from FXMacroData's hosted MCP server: release calendars with publication times, CPI, GDP, payrolls and policy-rate histories, central-bank decisions, FX rates, COT positioning and commodities across 22 currencies. Includes a skill plus macro-brief and pair-brief commands. USD data works without an account.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fxmacrodata/claude-plugin-fxmacrodata.git",
+        "sha": "b22ee84d61879d17dc25023ae40f39021246af8d"
+      },
+      "homepage": "https://fxmacrodata.com/documentation/mcp-server?utm_source=github&utm_medium=referral&utm_campaign=plugin-marketplace&utm_content=listing",
+      "keywords": ["fxmacrodata", "fxmacrodata mcp", "fx macro data"],
+      "domains": ["fxmacrodata.com", "api.fxmacrodata.com", "mcp.fxmacrodata.com"]
     }
   ]
 }
