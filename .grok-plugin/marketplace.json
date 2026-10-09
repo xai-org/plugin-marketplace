@@ -407,6 +407,30 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "magicinterview",
+      "description": "Live AI suggestions for what to say next in job interviews, client calls, and meetings, with project, document, conversation, and debug-log retrieval through MagicInterview's remote OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/magicinterview-plugin.git",
+        "sha": "0ea0301a8b3803b81b3abc4c5e5cecd8bc979df5"
+      },
+      "homepage": "https://magicinterview.ai",
+      "version": "1.2.0",
+      "author": {
+        "name": "MagicInterview"
+      },
+      "keywords": [
+        "magicinterview",
+        "magicinterview live meeting assistant",
+        "magicinterview mcp"
+      ],
+      "domains": [
+        "magicinterview.ai",
+        "magicinterview.app"
+      ]
     }
   ]
 }
