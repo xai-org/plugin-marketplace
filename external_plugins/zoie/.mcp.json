@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zoie": {
+      "type": "http",
+      "url": "https://mcp-us.zoie.ai"
+    }
+  }
+}

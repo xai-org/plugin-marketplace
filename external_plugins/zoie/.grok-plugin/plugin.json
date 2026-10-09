@@ -1,0 +1,13 @@
+{
+  "name": "zoie",
+  "version": "1.0.0",
+  "description": "Zoie CRM via the hosted Zoie MCP server at mcp-us.zoie.ai. Search and update leads, read conversations, notes and activity, check appointments, manage campaigns, and send confirmed SMS, WhatsApp or email replies. Sign in with your Zoie account on first connect.",
+  "author": {
+    "name": "Zoie",
+    "url": "https://zoie.ai"
+  },
+  "homepage": "https://docs.zoie.ai/docs/mcp/overview",
+  "license": "Proprietary",
+  "keywords": ["zoie", "zoie crm", "zoie mcp", "zoie leads", "zoie campaigns"],
+  "logo": "assets/logo.svg"
+}
