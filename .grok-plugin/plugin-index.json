@@ -899,6 +899,23 @@
         ]
       }
     },
+    "rutter": {
+      "sha": "d051e86e9d4d560f8693324ff35b1bd70a9435e0",
+      "version": "0.5.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "rutter",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
