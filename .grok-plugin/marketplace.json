@@ -397,6 +397,18 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "estimatiz",
+      "description": "French property valuation from official DVF sales data, with address search, comparable sales, estimate ranges, and shareable reports.",
+      "category": "data",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/estimatiz"
+      },
+      "homepage": "https://www.estimatiz.fr/api-documentation",
+      "keywords": ["estimatiz", "estimatiz property valuation", "estimatiz mcp"],
+      "domains": ["estimatiz.fr", "www.estimatiz.fr"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",

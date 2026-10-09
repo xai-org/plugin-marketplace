@@ -1,0 +1,16 @@
+{
+  "name": "estimatiz",
+  "version": "1.0.0",
+  "description": "Search French addresses and estimate residential property values from official DVF sales data through the public Estimatiz MCP server.",
+  "author": {
+    "name": "SAS ESTIMATIZ",
+    "url": "https://www.estimatiz.fr"
+  },
+  "homepage": "https://www.estimatiz.fr/api-documentation",
+  "license": "Proprietary",
+  "keywords": [
+    "estimatiz",
+    "estimatiz property valuation",
+    "estimatiz mcp"
+  ]
+}
