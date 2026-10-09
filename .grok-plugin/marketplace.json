@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "sato-hub",
+      "description": "Build crypto and onchain agents from a mapped, daily-rebuilt index: frameworks, MCP servers, wallets, x402 and stablecoin payment rails, ERC-8004 identity and agent skills, each with a Sato Score and dated evidence. Sato Check shows what a crypto package, MCP server or skill does with your keys and money before you install it. Hosted MCP server, no key, no account; nothing signs or moves funds.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/satohubai/sato-hub-grok-plugin.git",
+        "sha": "5cbd6de34a29b386f6c51b77d783c110900274d2"
+      },
+      "homepage": "https://satohub.ai/mcp",
+      "keywords": ["sato hub", "satohub", "sato check", "sato score", "sato route"],
+      "domains": ["satohub.ai", "www.satohub.ai"]
     }
   ]
 }

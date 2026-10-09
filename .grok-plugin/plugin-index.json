@@ -899,6 +899,24 @@
         ]
       }
     },
+    "sato-hub": {
+      "sha": "5cbd6de34a29b386f6c51b77d783c110900274d2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "satohub",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sato-hub",
+            "description": "Query Sato Hub, the scored, daily-rebuilt index of onchain-agent tooling (frameworks, MCP servers, wallets, x402 and st…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
