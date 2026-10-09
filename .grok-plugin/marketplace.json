@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "adstudio",
+      "description": "Adstudio ad-account access (hosted MCP server + skills). Ask about your live Google Ads, Meta Ads and TikTok Ads accounts: how last week went against the week before, where budget went without converting, why your CPA jumped, which ads are carrying the account and which are worn out. Get the answer, with the numbers behind it, without opening a single dashboard. Sign in with your Adstudio account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/useadstudio/adstudio-mcp.git",
+        "sha": "f80064e1e9c49459fcf8ff57bb8ca5a97c4e7bbf",
+        "path": "grok"
+      },
+      "homepage": "https://docs.useadstudio.com/en/features/mcp",
+      "keywords": ["adstudio", "adstudio ads", "adstudio mcp", "useadstudio"],
+      "domains": ["useadstudio.com", "docs.useadstudio.com"]
     }
   ]
 }
