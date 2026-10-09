@@ -407,6 +407,27 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "openpost",
+      "description": "Draft and review social posts through OpenPost, then schedule or publish with explicit approval.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getopenpost/openpost-agent-plugin.git",
+        "sha": "da813c9d26dbbadfb225e6c1d291a7c813b9ab46"
+      },
+      "homepage": "https://openpo.st",
+      "keywords": [
+        "openpost",
+        "openpost social publishing",
+        "openpost scheduling"
+      ],
+      "domains": [
+        "openpo.st",
+        "app.openpo.st"
+      ],
+      "license": "AGPL-3.0-only"
     }
   ]
 }
