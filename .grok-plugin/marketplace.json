@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "flixter",
+      "description": "Flixter AI film and series production studio. Connect with OAuth 2.1 to Flixter's hosted MCP to manage productions, cast, locations, props, costumes, episodes, scenes, and shots, and queue priced render batches for approval in Flixter's task manager.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/golan-adept/flixter-grok-plugin.git",
+        "sha": "da4ab115a29e44aff01a8e885e7293d649f53f87"
+      },
+      "homepage": "https://flixter.ai",
+      "keywords": ["flixter", "flixter mcp", "flixter studio"],
+      "domains": ["flixter.ai", "api.flixter.ai"]
     }
   ]
 }
