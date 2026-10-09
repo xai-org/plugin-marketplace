@@ -407,6 +407,27 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "pampaia",
+      "description": "PampaIA.ar: official Argentine agriculture data (crops, campaigns and yields by province and department, livestock, grain and cattle markets, agro exports and export duties, weather and river levels), cited with source and period. Remote MCP server with OAuth; read-only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NikoReef/pampaia-mcp.git",
+        "sha": "e26e68f83a6a3071d20c244a5c57f17c3a61277a"
+      },
+      "homepage": "https://pampaia.ar",
+      "keywords": [
+        "argentina agriculture",
+        "argentina crops",
+        "soybean argentina",
+        "argentina livestock",
+        "agro exports"
+      ],
+      "domains": [
+        "pampaia.ar"
+      ]
     }
   ]
 }

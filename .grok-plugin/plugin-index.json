@@ -646,6 +646,18 @@
         ]
       }
     },
+    "pampaia": {
+      "sha": "e26e68f83a6a3071d20c244a5c57f17c3a61277a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pampaia",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
