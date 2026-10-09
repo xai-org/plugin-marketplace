@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aigov-ai-governance",
+      "description": "Institutional AI agent governance for public sector and enterprises: structured AI agent audits, action-gate policies, EU AI Act classification (incl. Digital Omnibus dates), public-sector readiness, DPIA drafts, and contract review. Skills only — no MCP, hooks, or network calls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Aigov-consulting/aigov-ai-governance-plugin.git",
+        "sha": "5e5d1633beb991955b80e1da16e0f10ede8352ae"
+      },
+      "homepage": "https://aigov.consulting",
+      "keywords": ["aigov", "aigov consulting", "aigov agent governance", "ai agent audit", "eu ai act", "action gate policy", "dpia"],
+      "domains": ["aigov.consulting", "www.aigov.consulting"]
     }
   ]
 }

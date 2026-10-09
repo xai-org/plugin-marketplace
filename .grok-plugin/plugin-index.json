@@ -1,6 +1,38 @@
 {
   "version": 1,
   "plugins": {
+    "aigov-ai-governance": {
+      "sha": "5e5d1633beb991955b80e1da16e0f10ede8352ae",
+      "version": "2.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "action-gate-policy",
+            "description": "Use when writing a decision-before-action policy for AI agents: action classes, human-approval matrix, audit-log schema…"
+          },
+          {
+            "name": "agent-audit",
+            "description": "Use when auditing an AI agent or multi-agent setup (Grok Team Bots, Slack/Gmail-connected agents, MCP tools, workplace…"
+          },
+          {
+            "name": "ai-act-classifier",
+            "description": "Use for fast EU AI Act risk classification: prohibited Art 5, high-risk Annex I/III, GPAI, limited-risk Art 50, or mini…"
+          },
+          {
+            "name": "contract-review",
+            "description": "Use when reviewing a contract, MoU, NDA, MSA, or AI/vendor offer for governance risks — especially AI provider vs deplo…"
+          },
+          {
+            "name": "dpia-draft",
+            "description": "Use when drafting a GDPR data protection impact assessment (DPIA) for an AI system or AI agent that processes personal…"
+          },
+          {
+            "name": "public-sector-ai-readiness",
+            "description": "Use when a government or public-sector buyer moves an AI pilot to scale: procurement clauses, accountability, FRIA Art…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
