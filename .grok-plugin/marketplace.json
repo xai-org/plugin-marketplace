@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "digital-marketing-pro",
+      "description": "Open-source marketing plugin for agencies and in-house teams: 164 skills and 24 agents for strategy, SEO, AEO and GEO, paid media, content, CRM and analytics. A live write the plugin sends itself fires only against a single-use approval record for that exact request, created after you type yes; writes through MCP tools rely on that typed yes and your host's permission prompt. No hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/digital-marketing-pro.git",
+        "sha": "f06d2db3aad70893d958bd2d9a4a7ae20368c632"
+      },
+      "homepage": "https://github.com/indranilbanerjee/digital-marketing-pro",
+      "keywords": ["digital marketing pro", "digital-marketing-pro"]
     }
   ]
 }
