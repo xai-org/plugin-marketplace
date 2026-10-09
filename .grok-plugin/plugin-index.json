@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
-      "version": "1.0.0",
+      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
+      "version": "1.1.2",
       "components": {
         "mcpServers": [
           {
@@ -29,16 +29,12 @@
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "query-metrics",
-            "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
+            "name": "metrics-chart",
+            "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
             "name": "spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
-          },
-          {
-            "name": "writing-evals",
-            "description": "Scaffolds evaluation suites for the Axiom AI SDK. Generates eval files, scorers, flag schemas, and config from natural-…"
           }
         ]
       }
@@ -89,9 +85,38 @@
         ]
       }
     },
+    "bruin": {
+      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
+      "version": "1.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "bruin-api-integration",
+            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
+          }
+        ]
+      }
+    },
+    "calcom": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calcom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calcom",
+            "description": "Work with Cal.com scheduling through the Cal.com MCP server: check availability, create, reschedule, cancel and confirm…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
-      "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3",
-      "version": "1.8.0",
+      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
+      "version": "1.10.1",
       "components": {
         "mcpServers": [
           {
@@ -113,6 +138,10 @@
             "description": "Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome De…"
           },
           {
+            "name": "cookie-debugging",
+            "description": "Uses Chrome DevTools MCP for inspecting, debugging, and testing cookies, session state, authentication issues, and cook…"
+          },
+          {
             "name": "debug-optimize-lcp",
             "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever…"
           },
@@ -128,73 +157,93 @@
       }
     },
     "cloudflare": {
-      "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
-      "version": "1.0.0",
+      "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
+      "version": "1.0.1",
       "components": {
-        "commands": [
-          {
-            "name": "build-agent",
-            "description": "Build an AI agent on Cloudflare using the Agents SDK"
-          },
-          {
-            "name": "build-mcp",
-            "description": "Build a remote MCP server on Cloudflare using McpAgent"
-          }
-        ],
         "mcpServers": [
           {
-            "name": "cloudflare-api",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-bindings",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-builds",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-docs",
-            "description": "http"
-          },
-          {
-            "name": "cloudflare-observability",
+            "name": "cloudflare",
             "description": "http"
           }
         ],
         "skills": [
           {
             "name": "agents-sdk",
-            "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real…"
+            "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package."
           },
           {
             "name": "cloudflare",
-            "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agent…"
+            "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architect…"
           },
           {
             "name": "cloudflare-email-service",
-            "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building…"
+            "description": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration."
+          },
+          {
+            "name": "cloudflare-one",
+            "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migration…"
+          },
+          {
+            "name": "cloudflare-one-migrations",
+            "description": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parit…"
           },
           {
             "name": "durable-objects",
-            "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, b…"
+            "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
           },
           {
-            "name": "sandbox-sdk",
-            "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD…"
+            "name": "nextjs-on-cloudflare",
+            "description": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloud…"
+          },
+          {
+            "name": "sandbox-migrate-to-next",
+            "description": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sand…"
+          },
+          {
+            "name": "sandbox-next",
+            "description": "Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next wh…"
+          },
+          {
+            "name": "sandbox-stable",
+            "description": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps…"
+          },
+          {
+            "name": "turnstile-spin",
+            "description": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including serv…"
           },
           {
             "name": "web-perf",
-            "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics…"
+            "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance s…"
           },
           {
             "name": "workers-best-practices",
-            "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing…"
+            "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers."
           },
           {
             "name": "wrangler",
-            "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI,…"
+            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
+          }
+        ]
+      }
+    },
+    "datadog": {
+      "sha": "083b4783095520f562534956578c8826613292a9",
+      "version": "0.7.21",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datadog-grok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datadog-app",
+            "description": "Use ONLY when the user explicitly asks to create, scaffold, or initialize a new Datadog App project — they must use act…"
+          },
+          {
+            "name": "ddconfig",
+            "description": "Configures or troubleshoots the plugin's Datadog MCP server. Use when the user wants to change the Datadog domain, swit…"
           }
         ]
       }
@@ -224,8 +273,8 @@
       }
     },
     "figma": {
-      "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce",
-      "version": "2.2.107",
+      "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
+      "version": "2.2.127",
       "components": {
         "mcpServers": [
           {
@@ -240,7 +289,7 @@
           },
           {
             "name": "figma-create-new-file",
-            "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `create_new_file` tool call. NEVER call `create_ne…"
+            "description": "Always use this skill when the user wants to create a new Figma Design, FigJam, or Slides file. You MUST invoke this sk…"
           },
           {
             "name": "figma-design-to-code",
@@ -294,8 +343,8 @@
       }
     },
     "firecrawl": {
-      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
-      "version": "1.2.0",
+      "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448",
+      "version": "1.3.2",
       "components": {
         "commands": [
           {
@@ -317,6 +366,10 @@
           {
             "name": "firecrawl-agent",
             "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the…"
+          },
+          {
+            "name": "firecrawl-alexandria",
+            "description": "Get structured data from catalogued providers instead of scraping pages. Firecrawl Alexandria is a library of official…"
           },
           {
             "name": "firecrawl-crawl",
@@ -353,6 +406,34 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "helena": {
+      "sha": "9b71516e006144d323f138f1785f55123ec51931",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "helena",
+            "description": "http"
+          }
+        ]
+      }
+    },
+    "modern-web-guidance": {
+      "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
+      "version": "0.0.193",
+      "components": {
+        "skills": [
+          {
+            "name": "chrome-extensions",
+            "description": "Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,…"
+          },
+          {
+            "name": "modern-web-guidance",
+            "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS task…"
           }
         ]
       }
@@ -463,8 +544,8 @@
       }
     },
     "netlify": {
-      "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c",
-      "version": "1.3.0",
+      "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad",
+      "version": "1.6.0",
       "components": {
         "mcpServers": [
           {
@@ -475,7 +556,7 @@
         "skills": [
           {
             "name": "netlify-access-control",
-            "description": "Picks the right Netlify protection layer for a deployed site and disambiguates the three unrelated things people call \"…"
+            "description": "Picks the right Netlify site-protection layer and disambiguates the three unrelated \"auth\" concepts users conflate — ap…"
           },
           {
             "name": "netlify-agent-runner",
@@ -483,11 +564,11 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use OpenAI, Anthropic, Google Gemini, or OpenRouter models from Netlify Functions or Edge Functions without managing pr…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
           },
           {
             "name": "netlify-blobs",
-            "description": "Store and retrieve unstructured objects, file uploads, and cache-like state on Netlify using the @netlify/blobs key/val…"
+            "description": "Store and retrieve unstructured objects, files, and cache-like state on Netlify with the @netlify/blobs module. Use whe…"
           },
           {
             "name": "netlify-caching",
@@ -495,7 +576,7 @@
           },
           {
             "name": "netlify-config",
-            "description": "Configure Netlify projects via netlify.toml and the _headers/_redirects files — covering build settings and deploy cont…"
+            "description": "Configure Netlify builds and routing via netlify.toml, _redirects, and _headers. Use when setting a build command or pu…"
           },
           {
             "name": "netlify-database",
@@ -503,11 +584,11 @@
           },
           {
             "name": "netlify-deploy",
-            "description": "Create and manage Netlify deploys — Git continuous deployment, CLI manual/anonymous deploys, Deploy to Netlify buttons,…"
+            "description": "Create, configure, and manage Netlify deploys from code — reach for this when setting up Git continuous deployment, run…"
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write, configure, and deploy Netlify Edge Functions (Deno runtime at the network edge) in TypeScript/JavaScript. Use wh…"
+            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
           },
           {
             "name": "netlify-forms",
@@ -523,11 +604,11 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add authentication and user management to a Netlify site with @netlify/identity — signup/login/logout, OAuth social log…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transform, resize, crop, reformat, and optimize images on demand via Netlify Image CDN's /.netlify/images endpoint. Use…"
+            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -536,8 +617,37 @@
         ]
       }
     },
+    "octen": {
+      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "octen-web",
+            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+          }
+        ]
+      }
+    },
+    "omneky": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omneky",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
-      "sha": "efa2a531985e0a8084d36ff3cf87233be8a9f34b",
+      "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
         "agents": [
           {
@@ -546,7 +656,7 @@
           },
           {
             "name": "poteto-agent",
-            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Resume an existing `poteto-agent` for the convers…"
+            "description": "Routing target for `/poteto-mode` and any request for poteto's style. Spawn a fresh `poteto-agent` for each new task, a…"
           }
         ],
         "skills": [
@@ -571,12 +681,20 @@
             "description": "Use for \\\"automate me\\\", \\\"create/update/refresh my -mode skill\\\", \\\"turn/capture my preferences or working style into…"
           },
           {
+            "name": "benchmark-checklist",
+            "description": "Vet a perf measurement (limiter, tuning, limits, errors, repeatability, relevance, and whether the work happened) befor…"
+          },
+          {
             "name": "blast-radius",
             "description": "Find what a change could break somewhere else before it ships, beyond the diff, and prove the one fact it's safe becaus…"
           },
           {
             "name": "bro",
             "description": "Restate the last message in plain human language, with no jargon."
+          },
+          {
+            "name": "correct",
+            "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
             "name": "create-verification-skill",
@@ -603,6 +721,14 @@
             "description": "Spawn Comment Sicko, fix accepted findings, and offer encodings for claimed constraints."
           },
           {
+            "name": "poteto-help",
+            "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto…"
+          },
+          {
+            "name": "principle-attack-the-premise",
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
+          },
+          {
             "name": "principle-boundary-discipline",
             "description": "Apply when wiring validation, error handling, or framework adapters. Concentrate guards at system boundaries (CLI, conf…"
           },
@@ -621,6 +747,10 @@
           {
             "name": "principle-experience-first",
             "description": "Apply when product, UX, or feature-scope tradeoffs come up. Choose user delight over implementation convenience; ship f…"
+          },
+          {
+            "name": "principle-explain-the-number",
+            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -680,7 +810,11 @@
           },
           {
             "name": "principle-subtract-before-you-add",
-            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead weight, redundant validators, and stub references…"
+            "description": "Apply when sequencing an addition, refactor, or rewrite. Remove dead code, redundant validators, and stub references fi…"
+          },
+          {
+            "name": "principle-test-behavior-not-implementation",
+            "description": "Apply when you write, change, or keep a test. Call the code the way its users do and assert the result they observe aga…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -696,7 +830,7 @@
           },
           {
             "name": "setup-pstack",
-            "description": "Configure which models pstack uses per role. Detects your available models and writes an always-applied rule that overr…"
+            "description": "Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an a…"
           },
           {
             "name": "show-me-your-work",
@@ -725,17 +859,25 @@
           {
             "name": "unslop",
             "description": "Cut AI tells from any writing. Must always apply."
-          },
+          }
+        ]
+      }
+    },
+    "quo": {
+      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
           {
-            "name": "why",
-            "description": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thres…"
+            "name": "quo",
+            "description": "http"
           }
         ]
       }
     },
     "railway": {
-      "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
-      "version": "1.3.7",
+      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
+      "version": "1.6.1",
       "components": {
         "hooks": [
           {
@@ -752,14 +894,14 @@
         "skills": [
           {
             "name": "use-railway",
-            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services and da…"
+            "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services, datab…"
           }
         ]
       }
     },
     "sentry": {
-      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
-      "version": "1.4.0",
+      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
+      "version": "1.4.3",
       "components": {
         "mcpServers": [
           {
@@ -804,8 +946,8 @@
       }
     },
     "stripe": {
-      "sha": "cf681787184a493e7106b0ae1ee88a1fede65017",
-      "version": "0.6.3",
+      "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
+      "version": "0.9.12",
       "components": {
         "agents": [
           {
@@ -839,12 +981,16 @@
             "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, on…"
           },
           {
+            "name": "metronome",
+            "description": "Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable m…"
+          },
+          {
             "name": "stripe-apps",
-            "description": "Use when building, modifying, or reviewing a Stripe App — or when the user describes something that implies one (e.g. \"…"
+            "description": "Build, modify, or review Stripe Apps and extensions using the relevant documentation and reference guides. Use for cust…"
           },
           {
             "name": "stripe-best-practices",
-            "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup…"
+            "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
           },
           {
             "name": "stripe-directory",
@@ -855,19 +1001,45 @@
             "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
           },
           {
+            "name": "stripe-pay",
+            "description": "Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whet…"
+          },
+          {
             "name": "stripe-projects",
             "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
           },
           {
             "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions and SDKs"
+            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
+          }
+        ]
+      }
+    },
+    "supabase": {
+      "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151",
+      "version": "0.1.16",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "supabase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "supabase",
+            "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Stor…"
+          },
+          {
+            "name": "supabase-postgres-best-practices",
+            "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changi…"
           }
         ]
       }
     },
     "superpowers": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
-      "version": "6.3.0",
+      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "version": "6.4.2",
       "components": {
         "hooks": [
           {
@@ -881,12 +1053,16 @@
             "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
           },
           {
+            "name": "diagnosing-superpowers",
+            "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stum…"
+          },
+          {
             "name": "dispatching-parallel-agents",
             "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
           },
           {
             "name": "executing-plans",
-            "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+            "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose…"
           },
           {
             "name": "finishing-a-development-branch",
@@ -1015,6 +1191,146 @@
         ]
       }
     },
+    "unity": {
+      "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
+      "version": "0.1.8-beta",
+      "components": {
+        "skills": [
+          {
+            "name": "2d-pixel-perfect",
+            "description": "Sets up, diagnoses, and fixes pixel perfect 2D rendering with PixelPerfectCamera in URP or Built-in. Use when a retro-s…"
+          },
+          {
+            "name": "asset-transformer-toolkit",
+            "description": "Imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, edits, and runs RuleSe…"
+          },
+          {
+            "name": "audio-setup-mixers",
+            "description": "Routes Audio Sources into existing Audio Mixer Groups, classifying each source by what it plays. Use when the user asks…"
+          },
+          {
+            "name": "build-gtk",
+            "description": "Builds node-based Editor tools with Unity Graph Toolkit (GTK) on Unity 6.6+: graphs, nodes, ports and validation, State…"
+          },
+          {
+            "name": "build-live-game",
+            "description": "Builds and operates live games with Unity Services. Use when the user asks about backend or live-ops features such as p…"
+          },
+          {
+            "name": "generate-editor-search-query",
+            "description": "Generates Unity Search queries and opens the Search window to find assets or scene objects. Use when the user asks to f…"
+          },
+          {
+            "name": "implement-in-app-purchases",
+            "description": "Implements, configures, and debugs Unity In-App Purchases, including subscriptions, receipt validation, and direct-to-c…"
+          },
+          {
+            "name": "initialize-ai-navigation",
+            "description": "Sets up and configures Unity AI Navigation, including NavMesh surfaces, agents, obstacles, and links. Use when the user…"
+          },
+          {
+            "name": "levelplay-unity-integration",
+            "description": "Integrates the LevelPlay ad mediation SDK via the Ads Mediation package. Use when the user asks about adding rewarded,…"
+          },
+          {
+            "name": "localization",
+            "description": "Sets up and configures Unity Localization, including locales, String and Asset Tables, and CJK fonts. Use when the user…"
+          },
+          {
+            "name": "manage-sprite-atlas",
+            "description": "Manages SpriteAtlas assets through a prebuild pipeline, covering master and variant atlases, packing settings, and plat…"
+          },
+          {
+            "name": "migrate-birp-to-urp",
+            "description": "Plans, executes, and troubleshoots migration from the Built-in Render Pipeline to URP. Use when asked to convert a proj…"
+          },
+          {
+            "name": "new-unity-project",
+            "description": "Guides creating a new Unity project, gathering concept, platforms, and monetization before setting up the project, sour…"
+          },
+          {
+            "name": "optimize-audio",
+            "description": "Optimizes audio memory, CPU cost, and playback quality through import settings and mixer configuration. Use when asked…"
+          },
+          {
+            "name": "optimize-text-mesh-pro",
+            "description": "Optimizes TextMeshPro rendering, memory, and font setup, including font asset stacks, fallback atlases, SDF quality, an…"
+          },
+          {
+            "name": "optimize-web",
+            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads and faster load. Use when a web build is too large or stu…"
+          },
+          {
+            "name": "physics-3d-collision",
+            "description": "Diagnoses 3D PhysX collision and trigger problems. Use when OnCollisionEnter or OnTriggerEnter doesn't fire, objects pa…"
+          },
+          {
+            "name": "setup-multiplayer-services",
+            "description": "Guides real-time online multiplayer with Unity Multiplayer Services. Use when the user asks about network topology, hos…"
+          },
+          {
+            "name": "setup-vivox-voice-chat",
+            "description": "Adds and configures in-game voice and text chat with Unity Vivox. Use when the user asks about voice chat, microphone p…"
+          },
+          {
+            "name": "shader-graph-create-custom-node",
+            "description": "Generates custom Shader Graph nodes from HLSL code. Use when the user wants a new Shader Graph node or to make existing…"
+          },
+          {
+            "name": "sprite-editor",
+            "description": "Edits Unity sprite rectangles, borders, pivots, outlines, and slicing by generating C# scripts. Use when the user works…"
+          },
+          {
+            "name": "sprite-segment-3x3grid",
+            "description": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the…"
+          },
+          {
+            "name": "tilemap-palette-create",
+            "description": "Creates a Tile Palette asset with a rectangular, hexagonal, or isometric Grid layout. Use when the user wants to organi…"
+          },
+          {
+            "name": "tilemap-ruletile-createempty",
+            "description": "Creates an empty RuleTile, HexagonalRuleTile, or IsometricRuleTile asset. Use only when the user wants a blank RuleTile…"
+          },
+          {
+            "name": "tilemap-ruletile-createfromsegment",
+            "description": "Creates RuleTiles from existing terrain or edge sprites so tiles auto-tile while painting, and converts sprite-segment-…"
+          },
+          {
+            "name": "ui",
+            "description": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.…"
+          },
+          {
+            "name": "ui-imgui",
+            "description": "Generates and modifies Unity IMGUI editor code such as EditorWindows, custom Inspectors, PropertyDrawers, and OnGUI scr…"
+          },
+          {
+            "name": "ui-ugui",
+            "description": "Understands, edits, and generates Unity uGUI Canvas hierarchies, RectTransforms, Layout Groups, and prefab UI. Use for…"
+          },
+          {
+            "name": "ui-uitk",
+            "description": "Understands, edits, and generates Unity UI Toolkit UXML and USS with flex layouts. Use for requests involving UI Toolki…"
+          },
+          {
+            "name": "unity-cli",
+            "description": "Controls the Unity Editor and projects from the command line, driving a running Editor to edit scenes and assets or run…"
+          },
+          {
+            "name": "unity-package-management",
+            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor. Use for headless or CI package ins…"
+          },
+          {
+            "name": "urp-postprocessing",
+            "description": "Sets up, configures, and debugs URP post-processing with the Volume framework. Use for bloom, tonemapping, color adjust…"
+          },
+          {
+            "name": "validate-urp-render-graph-renderer-feature",
+            "description": "Reviews a Unity 6 URP ScriptableRendererFeature that uses the Render Graph API, checking resource wiring, material bind…"
+          }
+        ]
+      }
+    },
     "velith": {
       "sha": "918bf4fc29d89b5e18a895f522e7407672a23be2",
       "version": "0.6.0",
@@ -1126,8 +1442,8 @@
       }
     },
     "vercel": {
-      "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2",
-      "version": "0.48.2",
+      "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
+      "version": "0.54.1",
       "components": {
         "agents": [
           {
@@ -1167,6 +1483,10 @@
         ],
         "hooks": [
           {
+            "name": "PostToolUse",
+            "description": "Skill"
+          },
+          {
             "name": "SessionEnd"
           },
           {
@@ -1187,7 +1507,7 @@
           },
           {
             "name": "ai-gateway",
-            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, BYOK, budgets, spend reporti…"
+            "description": "Vercel AI Gateway guidance for setup, model discovery, authentication, routing, fallbacks, virtual models, evaluation m…"
           },
           {
             "name": "ai-sdk",
@@ -1195,7 +1515,7 @@
           },
           {
             "name": "auth",
-            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Descope, and Auth0 setup for Next.js applicati…"
+            "description": "Authentication integration guidance — Clerk (native Vercel Marketplace), Better Auth, Descope, and Auth0 setup for Next…"
           },
           {
             "name": "bootstrap",
@@ -1218,12 +1538,20 @@
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
+            "name": "custom-metrics",
+            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
           },
           {
+            "name": "domains",
+            "description": "Search, register, connect, transfer, and renew domain names on Vercel using the CLI or Domains Registrar API. Use for d…"
+          },
+          {
             "name": "env-vars",
-            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, OIDC tokens, or man…"
+            "description": "Vercel environment variable expert guidance. Use when working with .env files, vercel env commands, Secret or Config va…"
           },
           {
             "name": "eve",
@@ -1231,7 +1559,11 @@
           },
           {
             "name": "flags-sdk",
-            "description": "Flags SDK and Vercel Flags expert guidance. Use when declaring feature flags with flag(), wiring provider adapters (Ver…"
+            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
+          },
+          {
+            "name": "is-agentic",
+            "description": "Score how ready a website, domain, or public MCP endpoint is for AI agents using Is Agentic, and read or act on the res…"
           },
           {
             "name": "knowledge-update",
@@ -1246,20 +1578,8 @@
             "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
-            "name": "next-cache-components",
-            "description": "Next.js 16 Cache Components guidance — PPR, use cache directive, cacheLife, cacheTag, updateTag, and migration from uns…"
-          },
-          {
-            "name": "next-forge",
-            "description": "next-forge expert guidance — production-grade Turborepo monorepo SaaS starter by Vercel. Use when working in a next-for…"
-          },
-          {
-            "name": "next-upgrade",
-            "description": "Upgrade Next.js to the latest version following official migration guides and codemods. Use when upgrading Next.js vers…"
-          },
-          {
-            "name": "nextjs",
-            "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Serve…"
+            "name": "queues",
+            "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
           },
           {
             "name": "react-best-practices",
@@ -1274,16 +1594,8 @@
             "description": "Vercel Runtime Cache API guidance — ephemeral per-region key-value cache with tag-based invalidation. Shared across Fun…"
           },
           {
-            "name": "shadcn",
-            "description": "shadcn/ui expert guidance — CLI, component installation, composition patterns, custom registries, theming, Tailwind CSS…"
-          },
-          {
-            "name": "turbopack",
-            "description": "Turbopack expert guidance. Use when configuring the Next.js bundler, optimizing HMR, debugging build issues, or underst…"
-          },
-          {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — AI-powered code review, incident investigation, and SDK installation. Automates PR analysis and…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
           },
           {
             "name": "vercel-cli",
@@ -1291,7 +1603,7 @@
           },
           {
             "name": "vercel-connect",
-            "description": "Vercel Connect expert guidance — securely obtain scoped OAuth tokens for third-party services (Slack, GitHub, MCP serve…"
+            "description": "Vercel Connect expert guidance for securely obtaining scoped credentials for third-party services on behalf of apps or…"
           },
           {
             "name": "vercel-firewall",
@@ -1299,7 +1611,7 @@
           },
           {
             "name": "vercel-functions",
-            "description": "Vercel Functions expert guidance — Serverless Functions, Edge Functions, Fluid Compute, streaming, Cron Jobs, and runti…"
+            "description": "Vercel Functions expert guidance — Node.js/Bun/Python runtimes, Fluid Compute, long-duration (30 min) functions, large…"
           },
           {
             "name": "vercel-sandbox",
@@ -1325,8 +1637,8 @@
       }
     },
     "wix": {
-      "sha": "6277ddff7bc62102d06d969d76e41f81eb86d48e",
-      "version": "1.17.0",
+      "sha": "729aea746648521e654a19575ccfee54b67f8519",
+      "version": "1.31.1",
       "components": {
         "mcpServers": [
           {
@@ -1344,12 +1656,8 @@
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
           },
           {
-            "name": "wix-auth",
-            "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token…"
-          },
-          {
             "name": "wix-base44-connector",
-            "description": "Build on Wix from the Base44 builder sandbox — this file is the complete guide (site context, doc discovery, API contra…"
+            "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
             "name": "wix-design-system",
@@ -1364,8 +1672,20 @@
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
           {
+            "name": "wix-headless-cold-start",
+            "description": "The fetch-and-follow entry pages for Wix Headless, addressable by URL in a prompt. headless-kit.md starts a wix-headles…"
+          },
+          {
+            "name": "wix-headless-kit",
+            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
+            "name": "wix-headless-templates",
+            "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
+          },
+          {
             "name": "wix-manage",
-            "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Rou…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
           },
           {
             "name": "wix-vibe-headless",
