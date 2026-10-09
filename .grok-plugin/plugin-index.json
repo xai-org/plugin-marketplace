@@ -422,6 +422,18 @@
         ]
       }
     },
+    "log10x": {
+      "sha": "36700caeba9da35ad3aa00d2d6f7840526f9b74c",
+      "version": "1.30.45",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "log10x",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
