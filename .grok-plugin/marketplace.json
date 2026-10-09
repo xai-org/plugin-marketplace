@@ -359,6 +359,18 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "jobtoast",
+      "description": "Saved jobs, a work profile, application answers, interview prep, and cover-letter drafts in Job Toast. Sign in with your Job Toast account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/jobtoast"
+      },
+      "homepage": "https://jobtoast.io",
+      "keywords": ["job toast", "jobtoast", "jobtoast mcp"],
+      "domains": ["jobtoast.io", "www.jobtoast.io"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",

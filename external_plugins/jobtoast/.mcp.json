@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jobtoast": {
+      "type": "http",
+      "url": "https://jobtoast.io/mcp"
+    }
+  }
+}
