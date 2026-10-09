@@ -945,6 +945,24 @@
         ]
       }
     },
+    "sonilo": {
+      "sha": "71e4ef1fd9b7939071324ef59b584e7a9522c59c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sonilo_platform",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sonilo-workflows",
+            "description": "Create licensed music, sound effects, mixed videos, translated subtitles, and dubbed videos with a Sonilo Platform acco…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",
