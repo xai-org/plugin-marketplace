@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "zoie",
+      "description": "Zoie CRM integration (hosted MCP server + skill). Search and update leads, read conversations, notes and activity, check appointments, manage outreach campaigns, and send confirmed SMS, WhatsApp, email, Messenger or Instagram replies. Sign in with your Zoie account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/zoie"
+      },
+      "homepage": "https://docs.zoie.ai/docs/mcp/overview",
+      "keywords": ["zoie", "zoie crm", "zoie mcp", "zoie leads", "zoie campaigns"],
+      "domains": ["zoie.ai", "us.zoie.ai", "mcp-us.zoie.ai", "api-us.zoie.ai", "docs.zoie.ai"]
     }
   ]
 }
