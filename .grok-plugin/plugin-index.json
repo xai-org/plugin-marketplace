@@ -863,6 +863,162 @@
         ]
       }
     },
+    "questmaster-vtt": {
+      "sha": "5421f53f7acdf5f482dd3e857c93dca59f725f63",
+      "version": "0.1.7",
+      "components": {
+        "agents": [
+          {
+            "name": "campaign-architect",
+            "description": "Builds larger pieces of a QuestMaster campaign in one pass (a campaign skeleton, an arc with its beats and threads, a r…"
+          },
+          {
+            "name": "continuity-checker",
+            "description": "Read-only continuity review of a QuestMaster campaign or of a proposed draft. Finds contradictions with canon, name col…"
+          },
+          {
+            "name": "encounter-designer",
+            "description": "Designs story-tied QuestMaster encounters (combat, social, exploration or puzzle) for the actual party, rated by QuestM…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "questmaster-vtt",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-world",
+            "description": "A workflow for building places and powers in a QuestMaster campaign. Settlements, dungeons, wilderness sites and planes…"
+          },
+          {
+            "name": "campaign-audit",
+            "description": "A read-only continuity and thread-health check for a QuestMaster campaign that reports threads overdue for payoff, orph…"
+          },
+          {
+            "name": "campaign-kickoff",
+            "description": "A session-zero interview procedure that turns a DM's answers into a drafted campaign skeleton in QuestMaster (profile,…"
+          },
+          {
+            "name": "create-item",
+            "description": "A workflow for making magic items, cursed objects, artifacts and story-heavy gear for a QuestMaster campaign, with orig…"
+          },
+          {
+            "name": "design-encounter",
+            "description": "Encounter design for QuestMaster covering combat, social, exploration and puzzle scenes. Builds a playable encounter wi…"
+          },
+          {
+            "name": "develop-plot",
+            "description": "Plot development for QuestMaster at session and arc scale. Turns the campaign's own threads and the players' past choic…"
+          },
+          {
+            "name": "generate-lore",
+            "description": "A workflow for writing in-world lore for a QuestMaster campaign (histories, myths, prophecies, rumors, inscriptions, le…"
+          },
+          {
+            "name": "generate-npc",
+            "description": "A workflow for creating a play-ready NPC in a QuestMaster campaign, with a performable voice, a want, a fear, a secret…"
+          },
+          {
+            "name": "genre-cosmic-horror",
+            "description": "Genre pack for cosmic horror, giving the assistant the investigation spiral, rules for making knowledge cost the invest…"
+          },
+          {
+            "name": "genre-dungeon-crawl",
+            "description": "Genre pack for dungeon crawls, giving the assistant jaquaysed layouts with loops, multiple paths and verticality, facti…"
+          },
+          {
+            "name": "genre-fey-fairytale",
+            "description": "Genre pack for fey and fairytale campaigns, giving the assistant bargain logic with exact wording and prices, binding r…"
+          },
+          {
+            "name": "genre-gothic-horror",
+            "description": "Genre pack for gothic horror, giving the assistant the dread ladder (unease, wrongness, revelation, confrontation), the…"
+          },
+          {
+            "name": "genre-grimdark",
+            "description": "Genre pack for grimdark campaigns, giving the assistant structures for scarcity, compromised allies, victories that cos…"
+          },
+          {
+            "name": "genre-heist",
+            "description": "Genre pack for heist campaigns and single jobs, built on target, crew, plan, complication and twist, with legwork sessi…"
+          },
+          {
+            "name": "genre-high-fantasy-epic",
+            "description": "Genre pack for high fantasy epics, giving the assistant prophecy written as an open question rather than an answer, a c…"
+          },
+          {
+            "name": "genre-mystery",
+            "description": "Genre pack for mystery and investigation campaigns, built on the three-clue rule, a clue-to-scene graph, and red herrin…"
+          },
+          {
+            "name": "genre-political-intrigue",
+            "description": "Genre pack for political intrigue campaigns, built on the faction web, the leverage economy, favours that are always de…"
+          },
+          {
+            "name": "genre-swashbuckling",
+            "description": "Genre pack for swashbuckling campaigns, giving the assistant set-piece escalation as the signature structure, rivals wi…"
+          },
+          {
+            "name": "genre-war-campaign",
+            "description": "Genre pack for war campaigns, giving the assistant fronts with clocks as the signature structure, missions where the pa…"
+          },
+          {
+            "name": "genre-wilderness-hexcrawl",
+            "description": "Genre pack for wilderness exploration where travel is the play, giving the assistant route choices with real costs, wea…"
+          },
+          {
+            "name": "homebrew-mechanics",
+            "description": "A procedure for authoring homebrew rules content in QuestMaster with structured effects the app can use at the table (c…"
+          },
+          {
+            "name": "questmaster-vtt",
+            "description": "The operating contract for working in a Dungeon Master's QuestMaster VTT campaign through its tools: read before writin…"
+          },
+          {
+            "name": "recap-session",
+            "description": "Session recaps for QuestMaster. Turns a DM's raw notes, in any format, into a structured DM-only recap drafted onto the…"
+          },
+          {
+            "name": "run-improv",
+            "description": "Fast improv support for QuestMaster. When players go off-script, gives the DM a one-line stalling move and two or three…"
+          },
+          {
+            "name": "session-prep",
+            "description": "A procedure for turning an unplayed QuestMaster session into a run sheet the DM can run from, with a strong start, scen…"
+          },
+          {
+            "name": "style-dm-prep-notes",
+            "description": "Style rules for DM-facing prep notes that can be run at a glance during play. Gives the assistant a scannable format wi…"
+          },
+          {
+            "name": "style-handouts",
+            "description": "Style rules for player handouts written as physical objects in the world, such as letters, wanted posters, notices, map…"
+          },
+          {
+            "name": "style-in-world-documents",
+            "description": "Style rules for texts that exist inside the game world, such as chronicles, sermons, decrees, ledgers, inscriptions, so…"
+          },
+          {
+            "name": "style-npc-voice",
+            "description": "Style rules for giving non-player characters voices a DM can perform at the table. Gives the assistant a compact voice…"
+          },
+          {
+            "name": "style-read-aloud",
+            "description": "Style rules for boxed read-aloud text, the short passages a DM reads word for word when the party enters a place or a s…"
+          },
+          {
+            "name": "style-recap",
+            "description": "Style rules for session recaps, a Previously on paragraph the DM can read aloud to open the next session plus a decisio…"
+          },
+          {
+            "name": "weave-the-map",
+            "description": "A procedure for weaving a QuestMaster campaign's geography together, from a continent map's places down to modules, are…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",

@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "questmaster-vtt",
+      "description": "QuestMaster VTT's official plugin for tabletop RPG Game Masters. Connects to your QuestMaster VTT campaigns and drafts NPCs, factions, plot, sessions, rated encounters, items, maps and table screens for you to approve, with 13 prep workflows, 12 genre packs and 6 writing styles. Live play stays with the GM.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ascendedent/questmaster-vtt-plugin.git",
+        "sha": "5421f53f7acdf5f482dd3e857c93dca59f725f63",
+        "path": "plugins/questmaster-vtt"
+      },
+      "homepage": "https://questmastervtt.com/help/agents",
+      "keywords": ["questmaster", "questmaster vtt", "questmastervtt"],
+      "domains": ["questmastervtt.com"]
     }
   ]
 }
