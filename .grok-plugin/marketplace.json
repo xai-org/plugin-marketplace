@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "beatapi",
+      "description": "Discover and run BeatAPI model, social data, and workflow capabilities from Grok Build using your own BeatAPI API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BeatAPI/beatapi-agent-plugin.git",
+        "sha": "5abcbb4075b7b3bdb5beec8a3b61ea325bde4f54"
+      },
+      "homepage": "https://beatapi.io",
+      "keywords": ["beatapi", "beatapi social data", "beatapi models"],
+      "domains": ["beatapi.io", "api.beatapi.io"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
