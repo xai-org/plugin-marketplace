@@ -1,0 +1,13 @@
+{
+  "name": "regaffairs-ai",
+  "version": "1.0.0",
+  "description": "RegAffairs AI for Grok Build via the hosted MCP server at mcp.regaffairsai.com. Cited answers on chemical, food, pharma, cosmetic, pesticide and biocide rules: look up a CAS or EC number and see SVHC, CLP, REACH and TSCA status, each claim linked to its official source. Sign in with your RegAffairs AI account on first connect.",
+  "author": {
+    "name": "RegAffairs AI",
+    "url": "https://regaffairsai.com"
+  },
+  "homepage": "https://regaffairsai.com/docs/mcp",
+  "license": "MIT",
+  "keywords": ["regaffairs", "regaffairs ai", "regaffairsai", "regaffairs ai mcp"],
+  "logo": "assets/logo.svg"
+}
