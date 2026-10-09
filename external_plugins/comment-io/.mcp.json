@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "comment-io": {
+      "type": "http",
+      "url": "https://comment.io/mcp",
+      "oauth": {
+        "clientId": "https://comment.io/oauth/clients/grok-build.json"
+      }
+    }
+  }
+}
