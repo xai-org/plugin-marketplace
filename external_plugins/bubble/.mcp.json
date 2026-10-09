@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bubble": {
+      "type": "http",
+      "url": "https://mcp.bubble.io/mcp",
+      "oauth": {
+        "clientId": "https://mcp.bubble.io/oauth/clients/grok-build.json"
+      }
+    }
+  }
+}

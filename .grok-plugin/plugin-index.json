@@ -97,6 +97,17 @@
         ]
       }
     },
+    "bubble": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bubble",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {

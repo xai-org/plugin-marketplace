@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "bubble",
+      "description": "Build and edit your Bubble apps with Grok: pages, elements, workflows, data types, and records, straight into your editor.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/bubble"
+      },
+      "homepage": "https://manual.bubble.io/help-guides/ai/bubble-mcp",
+      "keywords": ["bubble.io", "bubble io", "bubble app", "bubble editor", "bubble mcp", "bubble no-code", "bubble workflow", "bubble backend workflow", "bubble plugin", "bubble page", "bubble element", "bubble data type", "bubble database", "bubble api", "bubble repeating group", "bubble workload units"],
+      "domains": ["bubble.io", "bubbleapps.io"]
     }
   ]
 }
