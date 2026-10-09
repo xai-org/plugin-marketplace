@@ -1,0 +1,13 @@
+{
+  "name": "folioandkit",
+  "version": "1.0.0",
+  "description": "FolioandKit for Grok Build via the hosted MCP server at www.folioandkit.com/mcp. Manage brand deals, rate checks, contracts, invoices and your media kit in your FolioandKit account. Sign in with your FolioandKit account on first connect.",
+  "author": {
+    "name": "FolioandKit",
+    "url": "https://www.folioandkit.com"
+  },
+  "homepage": "https://folioandkit.com/docs/mcp",
+  "license": "Proprietary",
+  "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "folioandkit kit ai"],
+  "logo": "assets/logo.svg"
+}

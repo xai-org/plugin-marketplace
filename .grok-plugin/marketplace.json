@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "folioandkit",
+      "description": "Manage your creator business from your AI assistant: brand deals, rate checks, contracts, invoices and your media kit, in your FolioandKit account. A business tool for UK content creators. Sign in with your FolioandKit account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/folioandkit"
+      },
+      "homepage": "https://www.folioandkit.com",
+      "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "folioandkit kit ai"],
+      "domains": ["folioandkit.com", "www.folioandkit.com"]
     }
   ]
 }
