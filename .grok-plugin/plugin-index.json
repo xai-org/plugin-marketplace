@@ -410,6 +410,66 @@
         ]
       }
     },
+    "grok-community-skills": {
+      "sha": "7e8544c231bb6e5abae61506e05f2f80ae07724b",
+      "version": "1.2.0",
+      "components": {
+        "agents": [
+          {
+            "name": "untrusted-content-reader",
+            "description": "Read-only helper that opens untrusted content (a web page, a downloaded file, an email export, a document from someone…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          }
+        ],
+        "skills": [
+          {
+            "name": "auto-backup-restore",
+            "description": "Scheduled encrypted backups to a local drive and the cloud, with versioning, integrity checks, and safe restore. Use wh…"
+          },
+          {
+            "name": "batch-task-runner",
+            "description": "Chain file operations (rename, convert, resize, compress, zip) described in plain language, with a dry-run preview befo…"
+          },
+          {
+            "name": "cloudflare-infra-worker",
+            "description": "Act as a conservative Cloudflare infrastructure, DNS, Workers/Pages, security and SRE engineer: inspect, diagnose, plan…"
+          },
+          {
+            "name": "context-translator-summarizer",
+            "description": "Translate meaning (not word-for-word) from a document, URL, or pasted text, then produce a bullet summary and a domain…"
+          },
+          {
+            "name": "meal-planner-grocery",
+            "description": "Plan meals from what's in the fridge, suggest simple recipes, and build a grocery list that minimises waste. Use when t…"
+          },
+          {
+            "name": "meeting-sync-bot",
+            "description": "Collect availability from multiple people across timezones, find the best slots, and send calendar invites. Use when th…"
+          },
+          {
+            "name": "one-command-task-capturer",
+            "description": "Capture any task, reminder, or idea in one sentence. Keeps a single structured list with duplicate detection and a week…"
+          },
+          {
+            "name": "smart-inbox-triage",
+            "description": "Categorises email, extracts action items and due dates, and delivers a short daily digest. Use when the user mentions:…"
+          },
+          {
+            "name": "subscription-tracker",
+            "description": "Scan bank statements, track recurring charges, flag upcoming renewals, and draft cancellation requests. Use when the us…"
+          },
+          {
+            "name": "universal-file-finder",
+            "description": "Search local files by name, content, size, date, and type using natural language. Use when the user mentions: find file…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

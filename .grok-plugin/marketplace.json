@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "grok-community-skills",
+      "description": "Ten free community skills for everyday productivity: inbox triage, file finding, meeting scheduling, subscription tracking, meal planning, backups, task capture, translation/summarising, batch file operations, and Cloudflare infrastructure management. Includes a hook that asks before destructive shell commands and a read-only subagent for untrusted content.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Cutseven/grok-community-skills.git",
+        "sha": "7e8544c231bb6e5abae61506e05f2f80ae07724b"
+      },
+      "homepage": "https://github.com/Cutseven/grok-community-skills",
+      "keywords": ["grok-community-skills", "grok community skills"]
     }
   ]
 }
