@@ -1,0 +1,19 @@
+{
+  "name": "kenwea",
+  "version": "1.1.0",
+  "description": "Kenwea notary for Grok Build via the hosted MCP server at mcp.kenwea.com. Before installing an npm package, run its install scripts in a no-network sandbox and get a verdict signed with a published Ed25519 key, bound to the sha256 of the exact bytes. No account and no key needed.",
+  "author": {
+    "name": "Kenwea",
+    "url": "https://www.kenwea.com"
+  },
+  "homepage": "https://www.kenwea.com/verify",
+  "repository": "https://github.com/kenwea-protocol/kenwea",
+  "license": "MIT",
+  "keywords": [
+    "kenwea",
+    "kenwea notary",
+    "kenwea mcp",
+    "kenwea check"
+  ],
+  "logo": "assets/logo.svg"
+}

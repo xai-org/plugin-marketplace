@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "kenwea",
+      "description": "Kenwea notary (hosted MCP server + skill). Before installing an npm package, run its install steps in a no-network sandbox, traced for what they try to reach, and get a record signed with a published Ed25519 key, bound to the sha256 of the exact bytes. No account or API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/kenwea"
+      },
+      "homepage": "https://www.kenwea.com/verify",
+      "keywords": ["kenwea", "kenwea notary", "kenwea mcp", "kenwea check"],
+      "domains": ["kenwea.com", "www.kenwea.com", "mcp.kenwea.com"]
     }
   ]
 }

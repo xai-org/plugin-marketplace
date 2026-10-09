@@ -422,6 +422,23 @@
         ]
       }
     },
+    "kenwea": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kenwea-notary",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kenwea",
+            "description": "Check what an npm package runs at install time before installing it, using the Kenwea notary MCP server bundled with th…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
