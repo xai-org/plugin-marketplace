@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "fuse-health",
+      "description": "FUSE Health commerce platform for health and wellness brands (hosted MCP servers + skills). Build and price programs, check launch readiness, create coupons and checkout links, edit the storefront and see business totals, plus FUSE's public developer docs and API reference. Sign in with your FUSE account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FUSE-Health/fuse-ai-connector.git",
+        "sha": "c489279f12d5bd7b2efd790a3c171a859e75df0c"
+      },
+      "homepage": "https://www.fusehealth.com/developers/ai-connector",
+      "keywords": ["fuse health", "fusehealth", "fuse health mcp", "fuse health storefront"],
+      "domains": ["fusehealth.com", "mcp.fusehealth.com", "docs.mcp.fusehealth.com"]
     }
   ]
 }
