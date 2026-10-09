@@ -359,6 +359,19 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "minty",
+      "description": "Minty shopping savings integration for coupons, cashback, and store offers through the hosted Minty MCP server.",
+      "category": "shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/addshoppers/minty-mcp-public.git",
+        "sha": "d8e97288477569e467a78b525d237a47c1f0954d"
+      },
+      "homepage": "https://github.com/addshoppers/minty-mcp-public",
+      "keywords": ["minty", "minty coupons", "minty cashback", "minty mcp"],
+      "domains": ["minty.com", "mcp.minty.com"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
