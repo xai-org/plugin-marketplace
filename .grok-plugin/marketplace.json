@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "commonpaper",
+      "description": "Official Common Paper integration (MCP Server + Skill). Sign in with your Common Paper account to search, draft, and send contracts (NDAs, CSAs, DPAs and more), track signature status and renewals, and manage templates and custom terms.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CommonPaper/ai-plugin.git",
+        "sha": "3c377f45ff68ed2670683f9f7b02c5e9456cdfc3"
+      },
+      "homepage": "https://github.com/CommonPaper/ai-plugin",
+      "keywords": ["common paper", "commonpaper", "common paper contracts"],
+      "domains": ["commonpaper.com", "app.commonpaper.com"]
     }
   ]
 }
