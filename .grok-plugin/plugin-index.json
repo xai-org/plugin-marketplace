@@ -1526,6 +1526,24 @@
         ]
       }
     },
+    "weavatrix-refactor": {
+      "sha": "139f6ba40b3724ead90ae16ca6ca19e4410a1212",
+      "version": "1.0.11",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "weavatrix-refactor",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "weavatrix-refactor",
+            "description": "Use Weavatrix Refactor only when the user explicitly requests repository source changes that benefit from a proven refa…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "729aea746648521e654a19575ccfee54b67f8519",
       "version": "1.31.1",
