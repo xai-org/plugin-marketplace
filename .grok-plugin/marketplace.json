@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "freelaw-studio",
+      "description": "Freelaw Studio law-office workflows through hosted MCP and OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Freelaw-S-A/freelaw-studio-agent-plugin.git",
+        "sha": "97d3fdcc33633d0337d0abd0b690969fef421244",
+        "path": "plugins/freelaw-studio"
+      },
+      "homepage": "https://freelaw.ai/developers",
+      "keywords": ["freelaw", "freelaw studio", "freelaw mcp"],
+      "domains": ["freelaw.ai", "www.freelaw.ai", "app.freelaw.ai"]
     }
   ]
 }

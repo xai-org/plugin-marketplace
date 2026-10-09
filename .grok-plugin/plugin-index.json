@@ -410,6 +410,78 @@
         ]
       }
     },
+    "freelaw-studio": {
+      "sha": "97d3fdcc33633d0337d0abd0b690969fef421244",
+      "version": "0.4.3",
+      "components": {
+        "commands": [
+          {
+            "name": "conectar",
+            "description": "Conectar este agente ao Freelaw Studio pelo MCP público."
+          },
+          {
+            "name": "intimacoes",
+            "description": "Ler intimações e publicações do Freelaw Studio."
+          },
+          {
+            "name": "os",
+            "description": "Abrir ou acompanhar uma OS / delegação no Freelaw Studio."
+          },
+          {
+            "name": "permissoes",
+            "description": "Descobrir o que este token do Freelaw Studio pode fazer agora."
+          },
+          {
+            "name": "peticao",
+            "description": "Gerar, acompanhar ou baixar uma petição no Freelaw Studio."
+          },
+          {
+            "name": "prazos",
+            "description": "Listar e validar prazos do Freelaw Studio."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "freelaw-studio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clientes",
+            "description": "Find, create and update client records in a connected Freelaw Studio office. Use for buscar cliente, cadastrar cliente…"
+          },
+          {
+            "name": "delegacoes",
+            "description": "Create and follow services (OS / delegações) in a connected Freelaw Studio office, approve deliveries, request revision…"
+          },
+          {
+            "name": "documentos",
+            "description": "Upload and confirm files on a specified Freelaw Studio OS when the user asks to attach them there. Do not activate for…"
+          },
+          {
+            "name": "peticoes",
+            "description": "Start, poll and download a petition generation workflow explicitly requested in Freelaw Studio, or retrieve a document…"
+          },
+          {
+            "name": "prazos",
+            "description": "Read, validate and manage legal deadlines recorded in a connected Freelaw Studio office and turn them into tasks. Do no…"
+          },
+          {
+            "name": "processos",
+            "description": "Read and update process records in a connected Freelaw Studio office and request tribunal autos downloads. Use for list…"
+          },
+          {
+            "name": "publicacoes",
+            "description": "Read official-diary publications and intimações recorded in a connected Freelaw Studio office, mark them read or prepar…"
+          },
+          {
+            "name": "studio",
+            "description": "Operate a connected Freelaw Studio office through public API/MCP: clients, processes, tasks, delegations, documents, pe…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
