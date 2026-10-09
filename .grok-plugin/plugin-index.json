@@ -410,6 +410,56 @@
         ]
       }
     },
+    "fullenrich": {
+      "sha": "5c727120c6ca6ef89d3b17dbd6916b1bee73fdcb",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fullenrich",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "full-crm",
+            "description": "Use when the user wants to move already enriched contacts into a CRM and has a separate CRM MCP connected. Orchestrates…"
+          },
+          {
+            "name": "full-csv",
+            "description": "Use when the user uploads a CSV file containing contacts (LinkedIn URLs, names + companies, or any combination) and wan…"
+          },
+          {
+            "name": "full-lookalike",
+            "description": "Use when the user has a LinkedIn profile and wants to find similar people \\u2014 same type of role, seniority, industry…"
+          },
+          {
+            "name": "full-meeting",
+            "description": "Use when the user has an upcoming meeting and wants a comprehensive brief on the person they're meeting. Acts as a seni…"
+          },
+          {
+            "name": "full-org",
+            "description": "Use when the user wants to map a company's team structure, visualize the org chart, and identify the right people to co…"
+          },
+          {
+            "name": "full-outreach",
+            "description": "Use when the user wants to craft hyper-personalized outreach messages for B2B contacts. Acts as a senior outreach strat…"
+          },
+          {
+            "name": "full-prospecting",
+            "description": "Use when the user wants to find and enrich B2B contacts matching an ICP. Triggers on: \\\"find me contacts\\\", \\\"build a p…"
+          },
+          {
+            "name": "full-sequence",
+            "description": "Use when the user wants to design and deploy a multi-touch outreach sequence. Acts as a senior outbound strategist: des…"
+          },
+          {
+            "name": "full-talent",
+            "description": "Use when the user wants to source candidates for a role. Acts as a senior talent acquisition partner and headhunter: ru…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

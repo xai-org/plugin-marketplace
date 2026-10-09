@@ -407,6 +407,31 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "fullenrich",
+      "description": "Search B2B people and companies, enrich work emails and phone numbers, and export CSV or JSON through FullEnrich’s hosted MCP server. Includes nine guided skills. FullEnrich account required; enrichment and exports consume credits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FullEnrich/fullenrich-skills.git",
+        "sha": "5c727120c6ca6ef89d3b17dbd6916b1bee73fdcb"
+      },
+      "homepage": "https://github.com/FullEnrich/fullenrich-skills",
+      "version": "1.0.4",
+      "author": {
+        "name": "FullEnrich",
+        "url": "https://fullenrich.com"
+      },
+      "keywords": [
+        "fullenrich",
+        "fullenrich mcp",
+        "fullenrich enrichment"
+      ],
+      "domains": [
+        "fullenrich.com",
+        "mcp.fullenrich.com"
+      ]
     }
   ]
 }
