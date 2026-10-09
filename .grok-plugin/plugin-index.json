@@ -248,6 +248,18 @@
         ]
       }
     },
+    "energyia": {
+      "sha": "c87df55bf9501d28a2ced6189858e0312bba5fc6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "energyia",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

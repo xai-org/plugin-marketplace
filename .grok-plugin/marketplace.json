@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "energyia",
+      "description": "EnergyIA.AR: official Argentine energy and mining data (oil & gas production by field and operator, mining projects and exports, power plants, fuel prices, energy trade with export prices by company, RIGI investment projects), normalized and cited with source and period. Remote MCP server with OAuth; read-only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NikoReef/energyia-mcp.git",
+        "sha": "c87df55bf9501d28a2ced6189858e0312bba5fc6"
+      },
+      "homepage": "https://energyia.ar",
+      "keywords": ["argentina energy", "vaca muerta", "oil and gas argentina", "argentina mining", "rigi"],
+      "domains": ["energyia.ar"]
     }
   ]
 }
