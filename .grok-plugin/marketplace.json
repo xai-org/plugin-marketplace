@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "orchraft",
+      "description": "A clan of orcs hauling a solo dev's mundane chores, so the code wins the glory.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/karloows/orchraft.git",
+        "sha": "32d3c4474a6af75ff5a41c7890f2a9291c768a3d"
+      },
+      "homepage": "https://github.com/karloows/orchraft",
+      "keywords": ["orchraft"]
     }
   ]
 }

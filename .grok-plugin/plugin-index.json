@@ -646,6 +646,130 @@
         ]
       }
     },
+    "orchraft": {
+      "sha": "32d3c4474a6af75ff5a41c7890f2a9291c768a3d",
+      "version": "1.2.1",
+      "components": {
+        "agents": [
+          {
+            "name": "chronicler",
+            "description": "Drafts or updates README, ROADMAP, design, and other standalone Markdown documents from verified repository sources."
+          },
+          {
+            "name": "forgehand",
+            "description": "Implements requested code changes while preserving project conventions. Use for coding, debugging, and tests; never for…"
+          },
+          {
+            "name": "loremaster",
+            "description": "Adds or repairs comments and docstrings while preserving code behavior. Edits files only; never ships work."
+          },
+          {
+            "name": "rune-reader",
+            "description": "Reports the live branch, pull request, checks, and review state without changing anything."
+          },
+          {
+            "name": "scout",
+            "description": "Explains repository code, diffs, errors, policies, and dependencies from real sources. Read-only."
+          },
+          {
+            "name": "tactician",
+            "description": "Drafts grounded implementation plans from repository conventions and precedent. Read-only; use before non-trivial code…"
+          },
+          {
+            "name": "trialmaster",
+            "description": "Reviews code and pull requests against the repository's policies and reports actionable findings without posting a revi…"
+          },
+          {
+            "name": "warpath",
+            "description": "Orchestrates fix, ship, and roast cycles until the latest pull-request review is clean; approval-sensitive and never me…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "Bash"
+          },
+          {
+            "name": "SessionStart",
+            "description": "startup|resume|clear|compact"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chronicle",
+            "description": "Have the AI draft or update a standalone Markdown doc — a feature write-up, design doc, or a section of README/ROADMAP…"
+          },
+          {
+            "name": "forgehand",
+            "description": "Have the AI implement a requested code change and run focused validation without committing, pushing, or changing GitHu…"
+          },
+          {
+            "name": "herald",
+            "description": "Have the AI draft release notes for a tag or the unreleased work since the last one, grounded in the pull requests and…"
+          },
+          {
+            "name": "land",
+            "description": "Have the AI finish a topic branch end to end by merging its PR, removing the branch, and syncing the local base branch.…"
+          },
+          {
+            "name": "lore",
+            "description": "Have the AI add or fix code comments and docstrings across a diff or file so they match this repo's lore policy, in wha…"
+          },
+          {
+            "name": "muster",
+            "description": "Have the AI report actionable open-PR state across every repo the connected GitHub account owns — failing/pending check…"
+          },
+          {
+            "name": "plunder",
+            "description": "Have the AI report this repo's real shipping signal — PRs opened, review findings `roast` caught and whether they were…"
+          },
+          {
+            "name": "quest",
+            "description": "Have the AI triage, create, or update a GitHub issue before implementation starts. Use when the user says quest, asks t…"
+          },
+          {
+            "name": "reckoning",
+            "description": "Have the AI list every review finding that was consciously declined rather than fixed, across the whole repo's pull req…"
+          },
+          {
+            "name": "roast",
+            "description": "Have the AI review the current pull request's diff against the target repository's own policies and commit history — no…"
+          },
+          {
+            "name": "runes",
+            "description": "Have the AI summarize where the current branch's work actually stands — its PR, checks, and unresolved review findings…"
+          },
+          {
+            "name": "shaman",
+            "description": "Have the AI run a read-only orchraft setup preflight. Use when the user says shaman, asks whether orchraft is ready, or…"
+          },
+          {
+            "name": "ship",
+            "description": "Have the AI branch, commit, push, and create or update a pull request in the current repository. Use when the user says…"
+          },
+          {
+            "name": "warchief",
+            "description": "Have the AI choose the next orchraft lifecycle step and hand off to the right skill, without performing git or GitHub m…"
+          },
+          {
+            "name": "warpath",
+            "description": "Run the fix, ship, and roast cycle for an open pull request until the latest roast reports zero findings. Use when the…"
+          },
+          {
+            "name": "warplan",
+            "description": "Have the AI draft an implementation plan grounded in this repo's own conventions, policies, and precedent before code g…"
+          },
+          {
+            "name": "watchtower",
+            "description": "Have the AI surface a short read-only status nudge about open PR work without mutating git or GitHub. Use when the user…"
+          },
+          {
+            "name": "yap",
+            "description": "Have the AI explain something — a PR/diff, a file or module, an error or log, a repo policy, or a dependency/changelog…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
