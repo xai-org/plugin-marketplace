@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "timelinesai-whatsapp",
+      "description": "Ask questions across your TimelinesAI WhatsApp inbox from Grok: find chats and read their history, then reply, label and assign. Regular WhatsApp and WhatsApp Business API numbers. Hosted MCP server, sign in with OAuth; 34 tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InitechSoftware/whatsapp-mcp-by-timelinesai.git",
+        "sha": "1ad0538b16a52af7dd151d473b5b8e0fea02c796"
+      },
+      "homepage": "https://timelines.ai/whatsapp-mcp",
+      "keywords": ["timelinesai", "timelines ai", "timelinesai whatsapp", "timelinesai mcp"],
+      "domains": ["timelines.ai", "app.timelines.ai", "mcp.services.timelines.ai"]
     }
   ]
 }
