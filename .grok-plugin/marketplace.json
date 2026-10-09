@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "hypnothera",
+      "description": "Hypnothera personalized hypnosis audio (hosted MCP server + skill). Turn what Grok knows about your goals into a guided hypnosis session or multi-day journey on hypnothera.ai, search a free library of ready-made sessions, and render audio in the voice you choose. Builds a short, anonymous brief you approve first and never sends chat logs. Sign in with your Hypnothera account.",
+      "category": "lifestyle",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/La-Salida/hypnothera-skill.git",
+        "sha": "c32aad593bff0bacdb2bd31efc0efb1e72391fe5"
+      },
+      "homepage": "https://hypnothera.ai/tools/agent-skill",
+      "keywords": ["hypnothera", "hypnothera session", "hypnothera journey", "hypnothera hypnosis"],
+      "domains": ["hypnothera.ai"]
     }
   ]
 }

@@ -422,6 +422,24 @@
         ]
       }
     },
+    "hypnothera": {
+      "sha": "c32aad593bff0bacdb2bd31efc0efb1e72391fe5",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hypnothera",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "personal-session",
+            "description": "Create a personalized hypnosis session or multi-day journey on hypnothera.ai from what this agent already knows about t…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
