@@ -1157,6 +1157,49 @@
         ]
       }
     },
+    "thedesignagent": {
+      "sha": "172bf7af81aacee139068744b86ddf272112c7ed",
+      "version": "0.6.4",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit|MultiEdit"
+          },
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "the_design_agent",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brief",
+            "description": "Get a TheDesignAgent build brief for a screen before building it."
+          },
+          {
+            "name": "design-loop",
+            "description": "Use when building, changing or reviewing a UI screen, page or component. Gets a TheDesignAgent build brief before build…"
+          },
+          {
+            "name": "design-md",
+            "description": "Use when creating or updating a project's DESIGN.md, the design system file TheDesignAgent and coding agents read for b…"
+          },
+          {
+            "name": "review",
+            "description": "Score a UI with TheDesignAgent's ux and visual reviews and list what to fix."
+          },
+          {
+            "name": "setup",
+            "description": "Set up a repo for TheDesignAgent - register the project and create DESIGN.md if it's missing. Use before the first TheD…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "89457fba3fa44c7b2227807948628011983ab668",
       "version": "1.0.0",

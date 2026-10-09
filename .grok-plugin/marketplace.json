@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "thedesignagent",
+      "description": "TheDesignAgent: a design agent in your coding agent's loop. A build brief before Grok builds a screen (Discover), then a scored UX and visual review of the result (Ux, Visual), judged against the page's job, with project memory shared across sessions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CMBurnett/the-design-agent-plugin.git",
+        "sha": "172bf7af81aacee139068744b86ddf272112c7ed"
+      },
+      "homepage": "https://www.thedesignagent.ai",
+      "keywords": ["thedesignagent", "the design agent", "tda design review", "thedesignagent ux review", "thedesignagent visual review", "thedesignagent brief"],
+      "domains": ["thedesignagent.ai", "www.thedesignagent.ai"]
     }
   ]
 }
