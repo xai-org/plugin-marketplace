@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "prismic",
+      "description": "Official Prismic plugin. Install the skill and sign in with OAuth to the hosted MCP to read and update documents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prismicio/skills.git",
+        "sha": "05ed2339f1c69e41c00b8a7b077763fa063b5898"
+      },
+      "homepage": "https://prismic.io/docs/mcp",
+      "keywords": ["prismic", "prismic mcp", "prismic slice"],
+      "domains": ["prismic.io", "mcp.prismic.io"]
     }
   ]
 }
