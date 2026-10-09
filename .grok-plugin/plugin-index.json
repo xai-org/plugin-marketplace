@@ -410,6 +410,48 @@
         ]
       }
     },
+    "grokbot-discord-fleet": {
+      "sha": "c217ccd6681d23890ad2c33af72294d2ea8b6c84",
+      "version": "0.3.27",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "discord-fleet-manage",
+            "description": "stdio"
+          },
+          {
+            "name": "discord-fleet-status",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "discord-fleet-boundary",
+            "description": "use this when any Discord fleet work comes up — status, manage, wake questions, or channel binding"
+          },
+          {
+            "name": "discord-fleet-bridge-setup",
+            "description": "use this when the user explicitly asks to set up, deploy, or verify the Discord wake bridge (operator-driven; not silen…"
+          },
+          {
+            "name": "discord-fleet-callback-setup",
+            "description": "use when installer wants wake dual-deliver / self-callback without host vault, or after plugin install when bridge call…"
+          },
+          {
+            "name": "discord-fleet-hop-shorthand",
+            "description": "use this when Discord wake inbound hits a Grok bot, or when preparing callback context — decode/encode short hop ids (d…"
+          },
+          {
+            "name": "discord-fleet-manage",
+            "description": "use this when planning Discord channel bindings or running confirm-gated Discord REST manage actions (inspect, history,…"
+          },
+          {
+            "name": "discord-fleet-status",
+            "description": "use this when checking Discord fleet health, bridge /healthz, Discord bot identity, guilds, or channel lists"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
