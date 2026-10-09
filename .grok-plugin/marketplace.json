@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "toolrouter",
+      "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video generation, audio, company and economic data, and supported connected-account actions including X and LinkedIn posting. Use when ToolRouter is connected or the user chooses it for an external task.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Humanleap/toolrouter-agent-plugin.git",
+        "sha": "e5edac7f0def25fb9db314bf6ba66bc277d18f79"
+      },
+      "homepage": "https://toolrouter.com",
+      "keywords": ["toolrouter", "toolrouter mcp", "toolrouter skills", "toolrouter web search", "toolrouter scraper"],
+      "domains": ["toolrouter.com", "api.toolrouter.com"]
     }
   ]
 }

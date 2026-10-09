@@ -1191,6 +1191,36 @@
         ]
       }
     },
+    "toolrouter": {
+      "sha": "e5edac7f0def25fb9db314bf6ba66bc277d18f79",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toolrouter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ad-library-scraper",
+            "description": "Search public ad libraries through ToolRouter's MCP server - Meta (Facebook and Instagram) Ad Library, Google Ads Trans…"
+          },
+          {
+            "name": "ecommerce-scraper",
+            "description": "Scrape product pages and search marketplace listings through ToolRouter's MCP server - product title, price, variants,…"
+          },
+          {
+            "name": "social-media-scraper",
+            "description": "Scrape public social media data through ToolRouter's MCP server - profiles, posts, videos, comments, search and trends…"
+          },
+          {
+            "name": "toolrouter",
+            "description": "Discover and run ToolRouter tools through one MCP connection for web search, scraping, SEO research, image and video ge…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
