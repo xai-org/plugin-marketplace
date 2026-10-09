@@ -899,6 +899,18 @@
         ]
       }
     },
+    "relaydesk": {
+      "sha": "7860ec47c1d923ed7b9fee5a5810c04b42dd85d7",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "relaydesk",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
