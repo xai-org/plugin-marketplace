@@ -272,6 +272,24 @@
         ]
       }
     },
+    "fast-gst-refund": {
+      "sha": "8607b2d4832dbd4d1db4f7a20f9f6a690a677dc8",
+      "version": "1.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fast-gst-refund",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gst-refund-preparation",
+            "description": "Prepare Indian service-export GST refund working using checklists, source-backed guides, Statement 3 and Annexure B iss…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
       "version": "2.2.127",

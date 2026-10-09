@@ -407,6 +407,26 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "fast-gst-refund",
+      "description": "Prepare Indian GST refund records, validate entries and generate Statement 3 and Annexure B JSON.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/syllogismos/fast-gst-refund-mcp.git",
+        "sha": "8607b2d4832dbd4d1db4f7a20f9f6a690a677dc8",
+        "path": "plugins/fast-gst-refund"
+      },
+      "homepage": "https://fastgstrefund.com/for-agents/",
+      "keywords": [
+        "fast-gst-refund",
+        "fastgstrefund",
+        "fast gst refund"
+      ],
+      "domains": [
+        "fastgstrefund.com"
+      ]
     }
   ]
 }
