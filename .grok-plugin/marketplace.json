@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "log10x",
+      "description": "Double your logging capacity, or cut your Splunk, Datadog, Elastic or ClickHouse bill by half. The 10x plugin gives your coding agent the tools to automatically and losslessly compact, tier down or offload to S3 the logs that drive the bill. Everything runs in your network and plugs into your existing log forwarder, or into serverless on AWS and Azure.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/log-10x/log10x-plugin.git",
+        "sha": "36700caeba9da35ad3aa00d2d6f7840526f9b74c"
+      },
+      "homepage": "https://doc.log10x.com/apps/mcp/",
+      "keywords": ["log10x", "log10x mcp", "10x engine"],
+      "domains": ["log10x.com", "doc.log10x.com"]
     }
   ]
 }
