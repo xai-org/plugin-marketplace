@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "cloudish",
+      "description": "Cloudish deployment integration (skill). Inspect a project, prepare a Dockerfile, and deploy it to Cloudish, which builds the container server-side and serves it at a live URL with optional persistent volumes, encrypted secrets, and OIDC sign-in for the app's users. The agent can mint its own Cloudish API key with no signup; a human can claim it later.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cloudishai/skills.git",
+        "sha": "86e9b0cc7f66878341dc1a21ef8c78942ae5af07"
+      },
+      "homepage": "https://cloudish.ai",
+      "keywords": ["cloudish", "cloudish deploy", "deploy to cloudish", "cloudish api key"],
+      "domains": ["cloudish.ai", "www.cloudish.ai"]
     }
   ]
 }

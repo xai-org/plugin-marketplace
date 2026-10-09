@@ -226,6 +226,18 @@
         ]
       }
     },
+    "cloudish": {
+      "sha": "86e9b0cc7f66878341dc1a21ef8c78942ae5af07",
+      "version": "0.1.3",
+      "components": {
+        "skills": [
+          {
+            "name": "cloudish",
+            "description": "Deploy and run apps on Cloudish, the cloud an AI agent deploys to. Builds a Dockerfile, source folder, or container ima…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
