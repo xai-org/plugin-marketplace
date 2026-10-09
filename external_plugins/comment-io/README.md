@@ -42,10 +42,11 @@ that belongs to a workspace. No API key is needed.
 `.mcp.json` names Comment.io's OAuth client document for Grok Build,
 `https://comment.io/oauth/clients/grok-build.json`, as the client ID. That
 document registers loopback redirects (`http://127.0.0.1/callback`,
-`http://localhost/callback`) and no client secret. Comment.io has no dynamic
-client registration; with `oauth.clientId` set, Grok Build uses this client ID
-instead of registering one. It listens on a free loopback port, redirects to
-`http://127.0.0.1:<port>/callback`, and sends no client secret because
+`http://localhost/callback`) and no client secret. This plugin sets
+`oauth.clientId` explicitly, so Grok Build uses Comment.io's Grok Build client
+document as its client ID instead of registering a client. It listens on a
+free loopback port, redirects to `http://127.0.0.1:<port>/callback`, and
+sends no client secret because
 `clientSecretEnvVar` is not set. With Grok Build 1.0.46 the authorization
 request carried this client ID, S256 PKCE and `resource=https://comment.io/mcp`.
 
