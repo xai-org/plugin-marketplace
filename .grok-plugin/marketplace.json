@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "meadow",
+      "description": "Meadow social publishing integration (hosted MCP server + skill). Review your Meadow projects, connected social accounts, posts and cached analytics, upload media, save drafts, and publish or schedule posts you confirm to Instagram, TikTok, YouTube, X, LinkedIn, Bluesky and more.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MalikElate/meadow-plugin.git",
+        "sha": "831e604cd32f15761745f8f379555dffcb824e3a"
+      },
+      "homepage": "https://findmeadow.com",
+      "keywords": ["meadow", "findmeadow", "meadow social", "meadow scheduler", "meadow post"],
+      "domains": ["findmeadow.com", "app.findmeadow.com"]
     }
   ]
 }
