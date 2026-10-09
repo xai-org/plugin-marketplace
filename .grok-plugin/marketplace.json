@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "uploads",
+      "description": "Host screenshots, GIFs, recordings, and files on uploads.sh and embed them in GitHub PRs and issues.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buildinternet/uploads.git",
+        "sha": "95ef759db58e9d4e416143a193eab3656f1873cb",
+        "path": "plugins/claude/uploads"
+      },
+      "homepage": "https://uploads.sh",
+      "keywords": ["uploads", "uploads.sh", "screenshots", "github", "file-hosting", "images", "mcp"],
+      "domains": ["uploads.sh", "agents.uploads.sh", "api.uploads.sh", "storage.uploads.sh"]
     }
   ]
 }
