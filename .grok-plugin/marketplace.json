@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "magic-hour",
+      "description": "Create and finish AI images and videos with Magic Hour's reusable media workflows. Uses your existing Magic Hour MCP or API connection; generation requires account credits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/magichourhq/skills.git",
+        "sha": "2c69ad9c99bff2990e86fb8b0cf4581d3fb7c48c"
+      },
+      "homepage": "https://github.com/magichourhq/skills",
+      "keywords": ["magic hour", "magic hour video", "magic hour images", "magic hour mcp"],
+      "domains": ["magichour.ai", "mcp.magichour.ai", "docs.magichour.ai"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
