@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "lotgen",
+      "description": "Official plugin for LOTGEN (hosted MCP server + skills). Plan, price and render ad, UGC, explainer and faceless video on your own model-provider keys, priced in dollars and seconds; fix a take without re-rendering it, assemble a captioned episode, and share a review link with a client. Sign in with your LOTGEN account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ascendedent/lotgen-skills.git",
+        "sha": "eab8aee7fb211547108d4ba170709225638946c2",
+        "path": "plugins/lotgen"
+      },
+      "homepage": "https://lotgen.ai",
+      "keywords": ["lotgen", "lotgen lot", "lotgen render", "lotgen review link", "lotgen mcp"],
+      "domains": ["lotgen.ai", "mcp.lotgen.ai"]
     }
   ]
 }
