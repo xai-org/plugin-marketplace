@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "atlassian-twg-cli": {
+      "sha": "d464e72e7750589e0f0867f171d2dd1d6eece924",
+      "version": "1.0.12",
+      "components": {
+        "skills": [
+          {
+            "name": "twg-setup",
+            "description": "Install, upgrade, authenticate, or repair `twg` for your coding agent, including missing CLI or skills and doctor/auth…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
