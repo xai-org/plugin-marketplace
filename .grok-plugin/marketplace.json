@@ -417,7 +417,7 @@
         "path": "./external_plugins/folioandkit"
       },
       "homepage": "https://www.folioandkit.com",
-      "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "kit ai", "kit ai agent"],
+      "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "folioandkit kit ai"],
       "domains": ["folioandkit.com", "www.folioandkit.com"]
     }
   ]

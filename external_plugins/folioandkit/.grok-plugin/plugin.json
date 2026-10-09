@@ -8,5 +8,6 @@
   },
   "homepage": "https://folioandkit.com/docs/mcp",
   "license": "Proprietary",
-  "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "kit ai", "kit ai agent"]
+  "keywords": ["folioandkit", "folio and kit", "folioandkit mcp", "folioandkit kit ai"],
+  "logo": "assets/logo.svg"
 }

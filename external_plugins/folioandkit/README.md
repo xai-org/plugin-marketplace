@@ -27,7 +27,7 @@ Network endpoints:
 
 - `https://www.folioandkit.com/mcp` — hosted MCP server (streamable HTTP)
 - `https://www.folioandkit.com` — OAuth 2.0 authorization server and sign-in
-  page (discovered from the server's OAuth metadata)
+  page (powered by Clerk; discovered from the server's OAuth metadata)
 
 Credentials: a FolioandKit account.
 
