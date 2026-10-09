@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "picmim",
+      "description": "Picmim social media management integration (MCP Server + Skill). Plan, draft, schedule, publish, manage media and inbox activity, and analyze connected social accounts through Picmim's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mckrosekri/picmim-mcp.git",
+        "sha": "8d3298cc600ee807e1e764ae4e58ad582dd86430"
+      },
+      "homepage": "https://picmim.com/mcp-clients.md",
+      "keywords": ["picmim", "picmim mcp", "picmim social media", "picmim social scheduler"],
+      "domains": ["picmim.com"]
     }
   ]
 }
