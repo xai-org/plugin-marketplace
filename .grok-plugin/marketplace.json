@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "heygrc",
+      "description": "GRC compliance review for your pull requests. Reviews each PR against ISO 27001, SOC 2, GDPR and the EU AI Act, grounded in your company profile. Public repos are free.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/better-isms/heygrc-plugin.git",
+        "sha": "3b7d1b2022d686068f5e7096e278e5d2fa4107c2"
+      },
+      "homepage": "https://heygrc.com",
+      "keywords": ["heygrc", "heygrc review", "iso 27001", "soc 2", "gdpr"],
+      "domains": ["heygrc.com", "docs.heygrc.com", "app.heygrc.com"]
     }
   ]
 }
