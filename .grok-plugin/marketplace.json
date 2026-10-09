@@ -407,6 +407,25 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "rjalpha",
+      "description": "Read-only, tier-aware access to RJAlpha crypto and macro analyses through its hosted MCP service.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nordrune/rjalpha-grok-plugin.git",
+        "sha": "3656489f2853f0fef32c4ab4876f43881a2c9095"
+      },
+      "homepage": "https://rjalpha.app",
+      "keywords": [
+        "rjalpha",
+        "rjalpha analysis",
+        "rjalpha crypto analysis"
+      ],
+      "domains": [
+        "rjalpha.app"
+      ]
     }
   ]
 }
