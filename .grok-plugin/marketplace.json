@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "formstep",
+      "description": "Collect verified customer information with one request. The customer confirms or corrects a branded, prefilled form; answers come back under your field keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/formstep/formstep-mcp.git",
+        "sha": "44c70be85e591cdbed16eefa3939939998a97bb0"
+      },
+      "homepage": "https://formstep.io",
+      "keywords": ["formstep", "formstep requests", "formstep forms"],
+      "domains": ["formstep.io", "api.formstep.io", "docs.formstep.io"]
     }
   ]
 }

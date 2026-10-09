@@ -410,6 +410,24 @@
         ]
       }
     },
+    "formstep": {
+      "sha": "44c70be85e591cdbed16eefa3939939998a97bb0",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "formstep",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "formstep-requests",
+            "description": "Ask a customer for information through Formstep and read the verified answers back. Use when you need a confirmation, a…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
