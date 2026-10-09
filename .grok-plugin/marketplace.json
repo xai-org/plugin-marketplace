@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "ternivo-connect",
+      "description": "Ternivo Connect social media management integration. Check account health, preflight content, publish or schedule approved posts, verify delivery, retry failed destinations, review analytics and inbox activity, and diagnose provider issues from Grok.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ternivo-connect"
+      },
+      "homepage": "https://ternivo.app/social-delivery",
+      "keywords": ["ternivo", "ternivo connect", "ternivo social publishing", "ternivo mcp"],
+      "domains": ["ternivo.app", "app.ternivo.app"]
     }
   ]
 }
