@@ -1191,6 +1191,56 @@
         ]
       }
     },
+    "toflow": {
+      "sha": "2e8c46911a941f192f901137f60cf8bbc70f1653",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toflow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "toflow-build-report",
+            "description": "Query CRM data into a saved report and add it to a dashboard. Use this when the user wants a custom view of their data…"
+          },
+          {
+            "name": "toflow-create-sequence",
+            "description": "Build a multi-channel outreach sequence in toflow.ai (email, LinkedIn, WhatsApp) and enroll people into it. Use this wh…"
+          },
+          {
+            "name": "toflow-enrich-contacts",
+            "description": "Find verified emails and phone numbers for people in the CRM, one at a time or in bulk across a list, or run a custom A…"
+          },
+          {
+            "name": "toflow-get-started",
+            "description": "Confirm the active toflow.ai workspace, connected sending accounts, and account load before doing any prospecting or ou…"
+          },
+          {
+            "name": "toflow-manage-activities",
+            "description": "Log calls, create follow-up tasks, and attach notes to CRM records (people, companies, deals). Use this whenever the us…"
+          },
+          {
+            "name": "toflow-manage-conversations",
+            "description": "Send LinkedIn connection requests, direct messages, and premium/InMail-style messages, send WhatsApp messages, and mana…"
+          },
+          {
+            "name": "toflow-manage-crm",
+            "description": "Create, search, and update CRM records (people, companies, deals), manage custom attributes, categories, and deal pipel…"
+          },
+          {
+            "name": "toflow-manage-email",
+            "description": "Read, draft, send, reply to, and forward emails from connected toflow.ai sending accounts, and check open-tracking and…"
+          },
+          {
+            "name": "toflow-prospect-and-list",
+            "description": "Search LinkedIn for prospects with Sales Navigator-style filters, pull people from existing connections or post engagem…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",

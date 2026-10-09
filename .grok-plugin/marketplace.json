@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "toflow",
+      "description": "AI-native multi-channel B2B outreach and sales automation platform. Prospect, enrich, and run outreach across email, LinkedIn, and WhatsApp.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/toflow-ai/toflow-mcp.git",
+        "sha": "2e8c46911a941f192f901137f60cf8bbc70f1653"
+      },
+      "homepage": "https://toflow.ai",
+      "keywords": ["toflow", "toflow.ai", "outreach", "prospect", "enrich", "linkedin automation", "email automation", "sales automation"],
+      "domains": ["toflow.ai"]
     }
   ]
 }
