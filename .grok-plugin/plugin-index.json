@@ -945,6 +945,18 @@
         ]
       }
     },
+    "skycloak": {
+      "sha": "4eabbff334957e0d4108bf7c204539e2f325eabb",
+      "version": "0.9.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skycloak",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",
