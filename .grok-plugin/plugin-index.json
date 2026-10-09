@@ -422,6 +422,120 @@
         ]
       }
     },
+    "lotgen": {
+      "sha": "eab8aee7fb211547108d4ba170709225638946c2",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lotgen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "lotgen-assets",
+            "description": "What a LOTGEN lot is ABOUT, and getting files in and out — reading a product page into a brief, saving products and the…"
+          },
+          {
+            "name": "lotgen-campaign",
+            "description": "Build a whole campaign in LOTGEN — many SKUs, one format, one brand — from a product library or a set of URLs, and stop…"
+          },
+          {
+            "name": "lotgen-casting",
+            "description": "How to describe a person so the same person comes back in every frame. Use when the user says \"it is a different woman…"
+          },
+          {
+            "name": "lotgen-continuity",
+            "description": "Making many shots read as one film rather than a pile of clips — the lot look appended to every shot, chaining each sho…"
+          },
+          {
+            "name": "lotgen-cost",
+            "description": "Money in LOTGEN — what a render will cost before it costs it, what a provider will silently change about a shot, what a…"
+          },
+          {
+            "name": "lotgen-explainer",
+            "description": "Build a narrated explainer in LOTGEN — how something works, why it matters, its history, two things compared, or a myth…"
+          },
+          {
+            "name": "lotgen-faceless",
+            "description": "Build a faceless episode in LOTGEN: one 9:16 Short for a brand's organic series on TikTok, Reels and Shorts with nobody…"
+          },
+          {
+            "name": "lotgen-hook",
+            "description": "The craft of the first second: what has to be legible in frame one, why a slow establishing shot loses a feed, and how…"
+          },
+          {
+            "name": "lotgen-light",
+            "description": "How to describe light so a generative video model actually renders it, given that LOTGEN already appends a lighting cla…"
+          },
+          {
+            "name": "lotgen-lot",
+            "description": "How to build a lot in LOTGEN and how to write a shot that renders what you meant. Use whenever the user wants to make a…"
+          },
+          {
+            "name": "lotgen-models",
+            "description": "Choosing which provider and which model a shot renders on — the judgement this product deliberately does not make for y…"
+          },
+          {
+            "name": "lotgen-motion",
+            "description": "How to make a clip MOVE — the camera and the subject, and the fact that a shot always has both. Use when the user says…"
+          },
+          {
+            "name": "lotgen-platform",
+            "description": "Framing for the surface the piece will actually be watched on, and why the shape of the frame is a decision taken at pl…"
+          },
+          {
+            "name": "lotgen-post",
+            "description": "Fix a rendered take without rendering it again — restyle it, edit an object out or in, remove the person and keep the r…"
+          },
+          {
+            "name": "lotgen-product",
+            "description": "Making a physical product look like itself on screen — hero angle, material, reflection, scale, label text, surface, an…"
+          },
+          {
+            "name": "lotgen-prompt",
+            "description": "The craft of writing ONE shot so the model renders what you meant, and of revising it after a bad take instead of re-ro…"
+          },
+          {
+            "name": "lotgen-refs",
+            "description": "Making a LOTGEN lot look like a particular thing — reference images, the picture a clip opens on, reusable reference pa…"
+          },
+          {
+            "name": "lotgen-review",
+            "description": "Take a finished LOTGEN lot the last mile — render it, mount the right takes, send a client a review link, read the verd…"
+          },
+          {
+            "name": "lotgen-runway",
+            "description": "Runway's seven recipes in LOTGEN — a whole finished piece from named inputs, with no model to pick and no prompt vocabu…"
+          },
+          {
+            "name": "lotgen-script",
+            "description": "The craft of writing words somebody says out loud in LOTGEN — a spoken line, a UGC hook, a voiceover, an explainer's na…"
+          },
+          {
+            "name": "lotgen-social",
+            "description": "The two feed-native formats in LOTGEN — a photodump camera roll of one person, and an invented AI influencer who can fr…"
+          },
+          {
+            "name": "lotgen-troubleshoot",
+            "description": "Work out why a LOTGEN render disappointed, and fix it without paying twice. Use when the user says \"it came back wrong\"…"
+          },
+          {
+            "name": "lotgen-vocabulary",
+            "description": "What LOTGEN's ids actually MEAN, so an agent picks the right vertical, capture style, format and look instead of the on…"
+          },
+          {
+            "name": "lotgen-voice",
+            "description": "Anything spoken in LOTGEN — choosing a voice, putting narration over a silent clip, making a face say something, and vo…"
+          },
+          {
+            "name": "lotgen-workspace",
+            "description": "Living with LOTGEN lots after they exist — reading one before changing it, adding and reordering shots, writing without…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
