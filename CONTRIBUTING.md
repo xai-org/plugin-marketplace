@@ -36,6 +36,7 @@ For the catalog schema, source types, and SHA pinning mechanics, read the [READM
    ```bash
    python3 scripts/validate-catalog.py
    python3 scripts/generate-plugin-index.py --check
+   python3 -m unittest discover -s scripts -p "test_*.py"
    ```
 6. **Open the PR.** Fill in the template, then wait for CI + code-owner review.
 

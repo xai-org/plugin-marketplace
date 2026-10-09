@@ -28,3 +28,6 @@ jobs:
 
       - name: Check plugin index is up to date
         run: python3 scripts/generate-plugin-index.py --check
+
+      - name: Run tests
+        run: python3 -m unittest discover -s scripts -p "test_*.py" -v
