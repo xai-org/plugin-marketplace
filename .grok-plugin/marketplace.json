@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aevral",
+      "description": "AI security review for your GitHub pull requests. Reviews look for access control, business logic, injection, XSS, SSRF, path traversal, unsafe deserialization, token and session flaws, and LLM-integration risks, with a suggested fix you apply. Public repos are free.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/better-isms/aevral-plugin.git",
+        "sha": "aaaa8688dbd1546dca8c883cd67984bbc9b950a5"
+      },
+      "homepage": "https://aevral.com",
+      "keywords": ["aevral", "security review", "code review", "pull request"],
+      "domains": ["aevral.com", "docs.aevral.com", "app.aevral.com"]
     }
   ]
 }

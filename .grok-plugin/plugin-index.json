@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "aevral": {
+      "sha": "aaaa8688dbd1546dca8c883cd67984bbc9b950a5",
+      "version": "0.2.3",
+      "components": {
+        "agents": [
+          {
+            "name": "aevral-review",
+            "description": "Sets up the Aevral GitHub App so this repository's pull requests get a security review. Use when the user asks to insta…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "review",
+            "description": "Set up the Aevral GitHub App so pull requests get a security review for authorization, IDOR, and business-logic flaws.…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
