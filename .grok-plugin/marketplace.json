@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "rutter",
+      "description": "One memory across Claude Code, Grok, Codex, and Antigravity: search your markdown notes and recall what past AI sessions decided, with receipts. Runs entirely on your machine.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shinytoyrobots/rutter.git",
+        "sha": "d051e86e9d4d560f8693324ff35b1bd70a9435e0"
+      },
+      "homepage": "https://shinytoyrobots.github.io/rutter/",
+      "keywords": ["rutter", "rutter memory", "rutter notes", "rutter session recall"]
     }
   ]
 }
