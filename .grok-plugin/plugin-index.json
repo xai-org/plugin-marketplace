@@ -410,6 +410,32 @@
         ]
       }
     },
+    "fuse-health": {
+      "sha": "c489279f12d5bd7b2efd790a3c171a859e75df0c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fuse",
+            "description": "http"
+          },
+          {
+            "name": "fuse-docs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fuse-launch-program",
+            "description": "Walk a FUSE brand through building a program (an offering it sells), pricing it, checking it is ready to sell and putti…"
+          },
+          {
+            "name": "fuse-storefront-integration",
+            "description": "Wire a custom storefront or website (Next.js, React, any server) to FUSE checkout links or embedded checkout, using the…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
