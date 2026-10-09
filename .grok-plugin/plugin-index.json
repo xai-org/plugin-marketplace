@@ -226,6 +226,194 @@
         ]
       }
     },
+    "contentforge": {
+      "sha": "9e17acf26f608e8f15ce8832bea81793870b4dd0",
+      "version": "4.5.0",
+      "components": {
+        "agents": [
+          {
+            "name": "batch-orchestrator",
+            "description": "Orchestrates multi-content production as a sequential, checkpointed queue of full ContentForge pipeline runs."
+          },
+          {
+            "name": "content-drafter",
+            "description": "Creates initial content drafts from research findings and content brief, establishing structure and narrative flow."
+          },
+          {
+            "name": "fact-checker",
+            "description": "Verifies all claims, statistics, citations, and factual assertions for accuracy before content moves to drafting."
+          },
+          {
+            "name": "humanizer",
+            "description": "Adds natural voice, storytelling elements, and human authenticity to content, reducing AI-sounding patterns."
+          },
+          {
+            "name": "output-manager",
+            "description": "Handles final content formatting, delivery to output channels, and tracking sheet updates."
+          },
+          {
+            "name": "researcher",
+            "description": "Conducts deep research using web search, academic databases, and industry sources to build the knowledge foundation for…"
+          },
+          {
+            "name": "reviewer",
+            "description": "Reviews content against quality standards, brief requirements, and brand guidelines before final output."
+          },
+          {
+            "name": "scientific-validator",
+            "description": "Universal draft-vs-research hallucination and citation-integrity audit — runs on ALL content types, not just scientific…"
+          },
+          {
+            "name": "seo-geo-optimizer",
+            "description": "Optimizes content for search engine visibility and AI engine discoverability with keyword placement, meta content, and…"
+          },
+          {
+            "name": "social-adapter",
+            "description": "Extracts key points from content and adapts for social media platforms."
+          },
+          {
+            "name": "structurer-proofreader",
+            "description": "Optimizes content structure for readability and engagement, and catches grammar, spelling, and formatting errors."
+          },
+          {
+            "name": "translator",
+            "description": "Translates content while preserving brand voice, citations, and SEO across languages."
+          },
+          {
+            "name": "visual-asset-annotator",
+            "description": "Identifies visual opportunities in content, generates data charts from verified research, optionally generates AI image…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "audit-content",
+            "description": "Audit your content library for freshness decay and coverage gaps. \\\"audit my content library\\\""
+          },
+          {
+            "name": "brand-setup",
+            "description": "Set up brand voice, terminology and compliance rules by interview. \\\"set up a new brand\\\""
+          },
+          {
+            "name": "content-brief",
+            "description": "Generate a content brief for a keyword or topic: intent, competitors, outline. \\\"brief this keyword\\\""
+          },
+          {
+            "name": "create-content",
+            "description": "Create a full content piece through the 10-phase pipeline. \\\"create content about X\\\""
+          },
+          {
+            "name": "output-folder",
+            "description": "Print the path to the ContentForge output folder and open it. \\\"where is my output folder\\\""
+          },
+          {
+            "name": "publish",
+            "description": "Publish finished content to Webflow or WordPress with a preview first. \\\"publish to our CMS\\\""
+          },
+          {
+            "name": "resume",
+            "description": "Resume an interrupted ContentForge pipeline run from its last checkpoint. \\\"pick up where the pipeline stopped\\\""
+          },
+          {
+            "name": "social-adapt",
+            "description": "Repurpose an article into social posts for 8 platforms. \\\"make social posts from this blog\\\""
+          },
+          {
+            "name": "translate",
+            "description": "Translate content into 15 languages, keeping brand voice and citations. \\\"localize this article\\\""
+          }
+        ],
+        "skills": [
+          {
+            "name": "batch-process",
+            "description": "Batch-produce many content pieces as one resumable queue, highest priority first. \\\"write these 15 posts\\\""
+          },
+          {
+            "name": "cf-add-integration",
+            "description": "Add a custom MCP connector for any external API or service. \\\"hook up our internal CMS\\\""
+          },
+          {
+            "name": "cf-aeo-check",
+            "description": "Re-check a published piece's AEO: cited in AI Overviews and AI answers, tracked over time. \\\"did AI cite our article\\\""
+          },
+          {
+            "name": "cf-analytics",
+            "description": "Show content analytics: quality-score trends, slowest pipeline phase and alerts over 7-90 days. \\\"how is production goi…"
+          },
+          {
+            "name": "cf-audit",
+            "description": "Audit a content library for stale posts and topic gaps; ranks what to refresh or retire. \\\"which posts need refreshing\\\""
+          },
+          {
+            "name": "cf-brief",
+            "description": "Write a research-backed content brief from a keyword or topic: intent, competitors, outline. \\\"brief me on this topic\\\""
+          },
+          {
+            "name": "cf-calendar",
+            "description": "Build a 30/60/90-day content calendar with production windows, owners and conflicts. \\\"plan next quarter's content\\\""
+          },
+          {
+            "name": "cf-connect",
+            "description": "Connect a registry MCP connector (Webflow, WordPress, Notion) with endpoint and credential steps. \\\"connect WordPress\\\""
+          },
+          {
+            "name": "cf-cowork-setup",
+            "description": "One-time setup for team use in Cowork: shared Drive folders and routing. \\\"set up ContentForge for our team\\\""
+          },
+          {
+            "name": "cf-environment",
+            "description": "Detect the runtime environment (Cowork or local) and what works there: connectors, file locations, limits. \\\"am I runni…"
+          },
+          {
+            "name": "cf-help",
+            "description": "Show help for ContentForge: live version, skills, examples and troubleshooting. \\\"how do I use ContentForge\\\""
+          },
+          {
+            "name": "cf-integrations",
+            "description": "Show which MCP integrations are connected versus available, with quick wins. \\\"what integrations are connected\\\""
+          },
+          {
+            "name": "cf-publish",
+            "description": "Publish a reviewed piece to Webflow or WordPress as draft, scheduled or live. \\\"push this live to WordPress\\\""
+          },
+          {
+            "name": "cf-social-adapt",
+            "description": "Repurpose an article into platform-native social posts for LinkedIn, X, Instagram and more. \\\"turn this article into Li…"
+          },
+          {
+            "name": "cf-style-guide",
+            "description": "Import a brand voice profile from an existing style guide (PDF, docx, URL). \\\"import our brand guidelines\\\""
+          },
+          {
+            "name": "cf-switch-backend",
+            "description": "Switch tracking and delivery between Google Sheets, Airtable and local files, migrating records. \\\"move tracking to Air…"
+          },
+          {
+            "name": "cf-template",
+            "description": "Create a custom content-type template: sections, word counts, citation minimums. \\\"make a template for our case studies…"
+          },
+          {
+            "name": "cf-translate",
+            "description": "Translate a finished piece into 15 languages, keeping brand voice and citations; literal, adapted or transcreated. \\\"tr…"
+          },
+          {
+            "name": "cf-variants",
+            "description": "Generate scored A/B variants of a headline, opening line, hook or CTA, with a test plan. \\\"give me headline options to…"
+          },
+          {
+            "name": "cf-video-script",
+            "description": "Write a timestamped video script with B-roll and on-screen text for YouTube, Shorts or Reels. \\\"turn this into a video…"
+          },
+          {
+            "name": "content-refresh",
+            "description": "Refresh an existing piece with current stats, sources and fixed citations at light, medium or heavy scope. \\\"update thi…"
+          },
+          {
+            "name": "contentforge",
+            "description": "Produce ONE fact-checked, brand-compliant article through the full ContentForge pipeline; several pieces -> batch-proce…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

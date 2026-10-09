@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "contentforge",
+      "description": "Open-source long-form content pipeline: research, fact-check, draft, humanize, SEO and review in ten gated phases, delivered as a real .docx, with a run auditor that re-derives every gate and a published quality contract. 22 skills, 13 agents; no hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/contentforge.git",
+        "sha": "9e17acf26f608e8f15ce8832bea81793870b4dd0"
+      },
+      "homepage": "https://github.com/indranilbanerjee/contentforge",
+      "keywords": ["contentforge", "content forge"]
     }
   ]
 }
