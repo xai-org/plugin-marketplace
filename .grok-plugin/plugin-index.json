@@ -1583,6 +1583,18 @@
           }
         ]
       }
+    },
+    "zite": {
+      "sha": "7b59a22376a0110551446a84de225f2bf2603d14",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zite",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
