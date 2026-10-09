@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "openrush": {
+      "type": "http",
+      "url": "https://api.openrush.com/mcp"
+    }
+  }
+}

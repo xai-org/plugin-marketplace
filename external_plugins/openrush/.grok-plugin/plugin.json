@@ -1,0 +1,13 @@
+{
+  "name": "openrush",
+  "version": "1.0.0",
+  "description": "OpenRush marketing data for Grok: live Google SERPs, keywords, backlinks, AI-search visibility and site audits with cited provenance, via the hosted MCP at api.openrush.com. Sign in with an OpenRush account on first connect.",
+  "author": {
+    "name": "OpenRush",
+    "url": "https://www.openrush.com"
+  },
+  "homepage": "https://www.openrush.com",
+  "license": "Proprietary",
+  "keywords": ["openrush", "openrush mcp", "openrush seo"],
+  "logo": "assets/logo.png"
+}
