@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "cryptowisser-news",
+      "description": "Up-to-date crypto news from Cryptowisser's newsroom: the latest headlines, news on any coin, company or person, this week's biggest stories and full articles, all with source links.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cryptowisser-com/cryptowisser-news-plugin.git",
+        "sha": "cda7fe7f289f3154b90929418136d3e32e4b532c"
+      },
+      "homepage": "https://www.cryptowisser.com/mcp/",
+      "keywords": ["cryptowisser", "cryptowisser news"],
+      "domains": ["cryptowisser.com", "www.cryptowisser.com"]
     }
   ]
 }
