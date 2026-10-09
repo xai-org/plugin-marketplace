@@ -1,0 +1,18 @@
+{
+  "name": "easypost",
+  "version": "1.0.0",
+  "description": "EasyPost shipping, tracking, insurance, and claims via the hosted MCP at app-api.easypost.com/mcp. Authenticates with a production EasyPost API key read from the EASYPOST_API_KEY environment variable.",
+  "author": {
+    "name": "EasyPost",
+    "url": "https://github.com/EasyPost"
+  },
+  "homepage": "https://www.easypost.com",
+  "license": "Proprietary",
+  "keywords": [
+    "easypost",
+    "easypost mcp",
+    "easypost shipping",
+    "easypost tracking",
+    "easypost claims"
+  ]
+}

@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "easypost",
+      "description": "EasyPost shipping, tracking, insurance, and claims via EasyPost's hosted MCP server. Set EASYPOST_API_KEY to a production EasyPost API key before launching Grok; the plugin forwards it as a Bearer token on every request. Read-only tools for shipments, trackers, addresses, carrier accounts, pickups, refunds, insurances, and claims.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/easypost"
+      },
+      "homepage": "https://www.easypost.com",
+      "keywords": ["easypost", "easypost mcp", "easypost shipping", "easypost tracking", "easypost claims"],
+      "domains": ["easypost.com", "www.easypost.com", "app.easypost.com", "app-api.easypost.com"]
     }
   ]
 }

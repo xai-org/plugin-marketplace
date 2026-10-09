@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "easypost": {
+      "type": "http",
+      "url": "https://app-api.easypost.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${EASYPOST_API_KEY}"
+      }
+    }
+  }
+}
