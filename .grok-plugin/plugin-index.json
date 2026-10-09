@@ -422,6 +422,36 @@
         ]
       }
     },
+    "make": {
+      "sha": "5a54d333da38e655bda10cbf4f310a317d324033",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "make",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "make-scenario-building",
+            "description": "Use when creating a new Make scenario or editing an existing one — finding modules, connections and account-dependent v…"
+          },
+          {
+            "name": "make-scenario-explore",
+            "description": "Use when orienting in a Make account — listing organizations, teams and scenarios, explaining what an existing scenario…"
+          },
+          {
+            "name": "make-scenario-operations",
+            "description": "Use when running a scenario, switching it on or off, reviewing or debugging executions, or investigating a webhook that…"
+          },
+          {
+            "name": "make-scenario-reference",
+            "description": "Load when a Make scenario tool answers 403, refuses a write for a reason you cannot explain, or no tool seems to cover…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",

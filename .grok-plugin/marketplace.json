@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "make",
+      "description": "Build Make automations and AI Agents from Grok. Turn recurring work you spot in Grok into Make automations and AI Agents that keep running in the cloud. Build, run, and manage them from Grok Build, connected to the apps and data they need, without switching tools. Everything stays visible in Make's visual landscape, so you can inspect and change it anytime.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/integromat/make-skills.git",
+        "sha": "5a54d333da38e655bda10cbf4f310a317d324033",
+        "path": "plugins/make-skills-grok"
+      },
+      "homepage": "https://github.com/integromat/make-skills",
+      "keywords": ["make.com", "make scenario", "make automation", "make mcp", "integromat"],
+      "domains": ["make.com", "mcp.make.com", "we.make.com", "eu1.make.com", "eu2.make.com", "us1.make.com", "us2.make.com"]
     }
   ]
 }
