@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "equibles",
+      "description": "Financial research with SEC filings, company financials, institutional holdings, earnings calls, prices, options, and macroeconomic data.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daniel3303/stock-market-mcp-server.git",
+        "sha": "cfafcd475ed8b6020478a7df15c04b2ac8a249b0"
+      },
+      "homepage": "https://equibles.com",
+      "keywords": ["equibles", "equibles mcp"],
+      "domains": ["equibles.com", "mcp.equibles.com"]
     }
   ]
 }
