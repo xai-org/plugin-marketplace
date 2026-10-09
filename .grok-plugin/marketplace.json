@@ -334,6 +334,17 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "relayshield",
+      "description": "Counterparty screening for agents. Scans the instruction files a repository gives an agent (README, AGENTS.md, CLAUDE.md, .cursorrules, MCP manifests) for text that would make it fetch and execute remote code, ignore prior instructions, or open credential files, then checks every domain those instructions reference against indicators collected from criminal channels. Also screens MCP servers for typosquat distance and registration age.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RelayShield/relayshield-plugin.git",
+        "sha": "72fe82cd0d15c94a3ddecac8fbfaddcf1c4c339f"
+      },
+      "homepage": "https://relayshield.net",
+      "keywords": ["relayshield", "agent bait scan", "mcp registry risk", "relayshield scan"],
+      "domains": ["relayshield.net", "api.relayshield.net"]
       "name": "bruin",
       "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
