@@ -323,7 +323,7 @@
     {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
-      "category": "productivity",
+      "category": "communication",
       "source": {
         "source": "url",
         "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
