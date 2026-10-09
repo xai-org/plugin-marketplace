@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "attentionwatch",
+      "description": "Read-only AI Product and Launch discovery with organic Trending, public Offers, and clearly labeled paid Attention Market outcomes.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/montorox/attentionwatch-grok-plugin.git",
+        "sha": "ffd271c3afa2e0956f0901f9d0b3509e972c5e8a"
+      },
+      "homepage": "https://attentionwatch.com",
+      "keywords": ["attentionwatch", "attention watch", "attentionwatch ai", "attentionwatch products"],
+      "domains": ["attentionwatch.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
