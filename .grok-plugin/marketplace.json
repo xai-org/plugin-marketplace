@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "bestax",
+      "description": "Build React apps with Bestax, React components for Bulma v1. Agent Skills for layouts, forms, theming, icons, custom components, smaller CSS builds and migrating from raw Bulma classes or other React Bulma libraries, plus the bestax-mcp server for component props, examples and CSS variables.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/allxsmith/bestax-skills.git",
+        "sha": "d5c884778a0320f6174c529e7bad44170c7e0d27"
+      },
+      "homepage": "https://bestax.io/docs/guides/llms",
+      "keywords": ["bestax", "bestax-bulma", "@allxsmith/bestax-bulma", "bestax-mcp", "bestax-migrate", "create-bestax"],
+      "domains": ["bestax.io"]
     }
   ]
 }

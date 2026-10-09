@@ -67,6 +67,48 @@
         ]
       }
     },
+    "bestax": {
+      "sha": "d5c884778a0320f6174c529e7bad44170c7e0d27",
+      "version": "1.0.315",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bestax",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bestax-custom-component",
+            "description": "Build a custom React component in the bestax/Bulma style. In an app using @allxsmith/bestax-bulma — compose existing co…"
+          },
+          {
+            "name": "bestax-form",
+            "description": "Build forms with @allxsmith/bestax-bulma — Field/Control/Label/Help composition, inputs, selects, checkboxes, radios, s…"
+          },
+          {
+            "name": "bestax-icons",
+            "description": "Use icons in an app built with @allxsmith/bestax-bulma — the Icon/IconText components and the five supported libraries…"
+          },
+          {
+            "name": "bestax-layout-scaffold",
+            "description": "Scaffold a complete, responsive page layout with @allxsmith/bestax-bulma — app shells/dashboards, marketing/landing pag…"
+          },
+          {
+            "name": "bestax-migrate",
+            "description": "Migrate an existing React app to @allxsmith/bestax-bulma on Bulma v1, from raw Bulma CSS classes on plain JSX (classNam…"
+          },
+          {
+            "name": "bestax-optimize",
+            "description": "Reduce the built CSS size of an app using @allxsmith/bestax-bulma — measure raw and gzip size, then apply the cheapest…"
+          },
+          {
+            "name": "bestax-theming",
+            "description": "Customize colors, branding, dark mode, and visual tokens of an app built with @allxsmith/bestax-bulma. Use when changin…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
