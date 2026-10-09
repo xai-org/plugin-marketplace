@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "running-workout": {
+      "type": "http",
+      "url": "https://www.runningworkout.fr/mcp"
+    }
+  }
+}

@@ -899,6 +899,23 @@
         ]
       }
     },
+    "running-workout": {
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "running-workout",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "coach",
+            "description": "Running coach that works through the Running Workout MCP tools (the athlete's Garmin activities, goals, constraints, tr…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
       "version": "1.4.3",
