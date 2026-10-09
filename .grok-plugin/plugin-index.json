@@ -226,6 +226,17 @@
         ]
       }
     },
+    "darkmoon": {
+      "sha": "eb39b74ce0e8810ea657cb05062d300807abe5bb",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "darkmoon",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

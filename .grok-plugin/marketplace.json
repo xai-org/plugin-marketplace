@@ -397,6 +397,19 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "darkmoon",
+      "description": "Drive a self-hosted Darkmoon Pro instance from Grok Build over MCP: start an authorized autonomous AI pentest run, poll its status, list campaigns and read findings. Requires your own Darkmoon Pro dashboard; run_pentest is not read only.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ASCIT31/darkmoon-mcp-server.git",
+        "sha": "eb39b74ce0e8810ea657cb05062d300807abe5bb"
+      },
+      "homepage": "https://github.com/ASCIT31/Dark-Moon",
+      "keywords": ["darkmoon", "darkmoon pentest", "darkmoon mcp", "darkmoon pro"],
+      "domains": ["dark-moon.org"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
