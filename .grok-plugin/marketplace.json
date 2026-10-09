@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "mailows",
+      "description": "Mailows gives AI agents their own real email inboxes, so they can read and send mail without being handed the keys to yours.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailows/mailows-grok-plugin.git",
+        "sha": "fb74e28afa87f8b1383b8cf67112e9dc5d41a3c4"
+      },
+      "homepage": "https://www.mailows.com/mcp-manual",
+      "keywords": ["mailows", "email", "inbox", "agent email", "mcp"],
+      "domains": ["mcp.mailows.com", "mailows.com", "id.namailu.cz", "portal.mailows.com"]
     }
   ]
 }
