@@ -321,6 +321,34 @@
       "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
     },
     {
+      "name": "hypergrok",
+      "description": "Turn Grok Build into a 7-role Hyperliquid trading desk. Ships seven specialist agents and seventeen skills for market data, risk, ticketed execution and review, plus read-only Python diagnostics. Every exchange send requires native approval coverage, Risk PASS and the exact approved ticket.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/galleonlabs/hypergrok-trading-desk.git",
+        "sha": "5eb1d9a82157440d64f25a72cd06d9f3977dc472"
+      },
+      "homepage": "https://github.com/galleonlabs/hypergrok-trading-desk",
+      "keywords": [
+        "hypergrok",
+        "hyperliquid",
+        "grok bot",
+        "hypergrok trading desk"
+      ],
+      "domains": [
+        "galleonlabs.io"
+      ],
+      "version": "1.5.0",
+      "author": {
+        "name": "Galleon Labs"
+      },
+      "tags": [
+        "hyperliquid",
+        "trading-desk"
+      ]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",
