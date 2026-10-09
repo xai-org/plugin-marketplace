@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "contextstream",
+      "description": "Persistent project memory for Grok Build via ContextStream's hosted MCP server. Recall decisions, lessons, and prior-session context; write durable facts back. Sign in on first connection.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/contextstream/grok-plugin.git",
+        "sha": "25e5abade0cb07b0ce6df155396cc3620793645a"
+      },
+      "homepage": "https://contextstream.io",
+      "keywords": ["contextstream", "contextstream memory", "contextstream mcp"],
+      "domains": ["contextstream.io", "mcp.contextstream.io"]
     }
   ]
 }
