@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "plane",
+      "description": "Plane project management (hosted MCP server + skill). Find, create and update work items and epics, plan cycles, modules and milestones, comment and mention teammates, write pages, and manage releases, intake and customers, with PQL queries over work items. Sign in with your Plane account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/plane"
+      },
+      "homepage": "https://developers.plane.so/dev-tools/mcp-server",
+      "keywords": ["plane", "plane.so", "plane mcp", "plane work item", "plane cycle", "makeplane"],
+      "domains": ["plane.so", "app.plane.so", "mcp.plane.so", "docs.plane.so", "developers.plane.so"]
     }
   ]
 }
