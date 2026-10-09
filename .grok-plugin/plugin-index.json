@@ -1526,6 +1526,23 @@
         ]
       }
     },
+    "videogen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "videogen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "videogen",
+            "description": "Create, edit, caption, and export videos or generate media through the VideoGen MCP connector when the user asks to use…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "729aea746648521e654a19575ccfee54b67f8519",
       "version": "1.31.1",

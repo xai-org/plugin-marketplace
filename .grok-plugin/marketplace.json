@@ -407,6 +407,32 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "videogen",
+      "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
+      "category": "media",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/videogen"
+      },
+      "homepage": "https://videogen.io/videogen-mcp",
+      "keywords": [
+        "videogen",
+        "videogen mcp",
+        "videogen video"
+      ],
+      "domains": [
+        "videogen.io",
+        "app.videogen.io",
+        "mcp.videogen.io"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "VideoGen",
+        "email": "support@videogen.io",
+        "url": "https://github.com/video-gen"
+      }
     }
   ]
 }
