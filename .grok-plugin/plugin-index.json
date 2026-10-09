@@ -646,6 +646,24 @@
         ]
       }
     },
+    "outreserve": {
+      "sha": "32179d12fdae738ceb192c7ef7df56091cb27a01",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "outreserve",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "outreserve-travel",
+            "description": "Search and compare OutReserve campgrounds or US RV rentals, open listing details, and create or inspect campground avai…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
