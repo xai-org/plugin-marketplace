@@ -1,0 +1,19 @@
+{
+  "name": "easypost",
+  "version": "1.0.0",
+  "description": "EasyPost shipping, tracking, insurance, and claims via the hosted MCP at app-api.easypost.com/mcp. Sign in with an EasyPost account on first connect.",
+  "author": {
+    "name": "EasyPost",
+    "url": "https://github.com/EasyPost"
+  },
+  "homepage": "https://www.easypost.com",
+  "license": "Proprietary",
+  "keywords": [
+    "easypost",
+    "shipping",
+    "tracking",
+    "shipment",
+    "carrier",
+    "label"
+  ]
+}

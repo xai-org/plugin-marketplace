@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "easypost",
+      "description": "EasyPost shipping, tracking, insurance, and claims via EasyPost's hosted MCP server. Sign in with your EasyPost account to look up shipments, trackers, carrier accounts, pickups, refunds, and insurance claims from Grok. Agents already holding a production EasyPost API key can skip the sign-in and send it as a Bearer token. All tools are read-only.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/easypost"
+      },
+      "homepage": "https://www.easypost.com",
+      "keywords": ["easypost", "shipping", "tracking", "shipment", "carrier", "label"],
+      "domains": ["easypost.com", "www.easypost.com", "app.easypost.com"]
     }
   ]
 }
