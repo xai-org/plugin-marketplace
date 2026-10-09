@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/dodopayments/dodo-agent-plugin.git",
-        "sha": "9258be0e2c043dac25c4419ec66a02a930eda311"
+        "sha": "8616a7c353a2b678936643544ec932d59cf45e4a"
       },
       "homepage": "https://docs.dodopayments.com/developer-resources/agent-skills",
       "keywords": ["dodopayments", "dodo payments", "dodo payments checkout", "dodo payments webhooks", "dodo payments mcp"],
