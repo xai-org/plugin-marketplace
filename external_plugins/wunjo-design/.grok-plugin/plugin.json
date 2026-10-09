@@ -1,0 +1,18 @@
+{
+  "name": "wunjo-design",
+  "version": "1.0.0",
+  "description": "Vector design in Wunjo Design through the hosted MCP at mcp.wunjo.online: create documents, draw shapes and paths, set real type, place images, reuse brand components, and render the page to check the work. Sign in with a Wunjo account on first connect.",
+  "author": {
+    "name": "Wlad Radchenko",
+    "url": "https://github.com/wladradchenko"
+  },
+  "homepage": "https://wunjo.online/product/design#mcp",
+  "repository": "https://github.com/wladradchenko/mcp.wunjo.online",
+  "license": "MIT",
+  "keywords": [
+    "wunjo",
+    "wunjo design",
+    "wunjo mcp"
+  ],
+  "logo": "assets/logo.png"
+}
