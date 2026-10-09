@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "maximem-vity",
+      "description": "Maximem Vity personal AI memory (hosted MCP server + skill). Recall what you've told your tools, look up what you know, stage new facts for review, and write in your own voice. One memory shared across Grok, Claude Code, Cursor, and more. Requires a Vity API key from app.maximem.ai.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/maximem-vity"
+      },
+      "homepage": "https://www.maximem.ai",
+      "keywords": ["maximem vity", "vity", "maximem", "personal memory", "ai memory", "remember this", "write as me"],
+      "domains": ["maximem.ai", "app.maximem.ai", "vity-mcp.maximem.ai", "docs.maximem.ai"]
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "name": "maximem-vity",
+  "version": "1.0.0",
+  "description": "Maximem Vity personal AI memory for Grok Build via the hosted Vity MCP server at vity-mcp.maximem.ai, plus a skill that teaches Grok when to recall, search, stage memories and write in your voice. One memory shared across Grok, Claude Code, Cursor, and more. Requires a Vity API key (mx_...) from app.maximem.ai.",
+  "author": {
+    "name": "Maximem",
+    "url": "https://maximem.ai"
+  },
+  "homepage": "https://www.maximem.ai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "maximem",
+    "vity",
+    "memory",
+    "personal memory",
+    "mcp",
+    "voice"
+  ],
+  "logo": "assets/logo.svg"
+}
