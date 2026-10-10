@@ -945,6 +945,24 @@
         ]
       }
     },
+    "socialbu": {
+      "sha": "8f1f3eb093afa9b5ee0f9f4b0f40ae468b7077c3",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "socialbu",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "socialbu",
+            "description": "Use SocialBu through its MCP server when the user wants to inspect connected social accounts, create or schedule posts,…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",

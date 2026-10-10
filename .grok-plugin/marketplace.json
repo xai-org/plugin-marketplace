@@ -397,6 +397,21 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "socialbu",
+      "description": "Connect to SocialBu to create and schedule social media posts, manage connected accounts and queues, review analytics, and work with automations, curated content, media, and social listening.",
+      "category": "productivity",
+      "version": "1.0.2",
+      "author": { "name": "SocialBu" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/socialbu/socialbu-agent.git",
+        "sha": "8f1f3eb093afa9b5ee0f9f4b0f40ae468b7077c3"
+      },
+      "homepage": "https://socialbu.com/mcp-server",
+      "keywords": ["socialbu", "socialbu mcp", "socialbu scheduling"],
+      "domains": ["socialbu.com"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
