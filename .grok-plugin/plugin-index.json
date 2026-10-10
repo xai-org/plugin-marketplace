@@ -157,8 +157,8 @@
       }
     },
     "cloudflare": {
-      "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6",
-      "version": "1.0.1",
+      "sha": "0871daceb347e3c51693fbe9c77555468df7e410",
+      "version": "1.0.2",
       "components": {
         "mcpServers": [
           {
@@ -170,6 +170,10 @@
           {
             "name": "agents-sdk",
             "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package."
+          },
+          {
+            "name": "basin",
+            "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for…"
           },
           {
             "name": "cloudflare",
@@ -190,6 +194,10 @@
           {
             "name": "durable-objects",
             "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+          },
+          {
+            "name": "k2",
+            "description": "Build and troubleshoot Cloudflare K2 or K2 Streams durable logs. Use for stream setup, producing from Workers or HTTP,…"
           },
           {
             "name": "nextjs-on-cloudflare",
