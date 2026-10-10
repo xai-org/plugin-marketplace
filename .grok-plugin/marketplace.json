@@ -407,6 +407,27 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "cueframe",
+      "description": "Compose, edit, caption and render video with CueFrame’s hosted MCP server and 18 workflow skills.",
+      "category": "creativity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cueframe-ai/cueframe-mcp.git",
+        "sha": "171c40480c7dd836b9f692aacab09dad679c6790"
+      },
+      "homepage": "https://cueframe.ai/mcp",
+      "keywords": [
+        "cueframe",
+        "cueframe video",
+        "cueframe mcp"
+      ],
+      "domains": [
+        "cueframe.ai",
+        "api.cueframe.ai",
+        "docs.cueframe.ai"
+      ]
     }
   ]
 }
