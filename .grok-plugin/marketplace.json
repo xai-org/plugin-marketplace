@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "gsc-wizard",
+      "description": "Google Search Console analysis and SEO workflows powered by GSC Wizard: rankings, content decay, cannibalization, CTR curves, and opportunity scoring, all computed server-side.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gscwizard/grok-plugin.git",
+        "sha": "045c795b6b1a79385e1bb6ff7e0a41b9da834271"
+      },
+      "homepage": "https://gscwizard.com",
+      "keywords": ["gsc wizard", "gscwizard", "gsc wizard mcp"],
+      "domains": ["gscwizard.com", "mcp.gscwizard.com"]
     }
   ]
 }
