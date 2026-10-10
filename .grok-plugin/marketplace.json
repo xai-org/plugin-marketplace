@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cueframe-ai/cueframe-mcp.git",
-        "sha": "553ee2578e0d31aedc04a430477f4d173eddd624"
+        "sha": "171c40480c7dd836b9f692aacab09dad679c6790"
       },
       "homepage": "https://cueframe.ai/mcp",
       "keywords": [

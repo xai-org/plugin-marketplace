@@ -227,7 +227,7 @@
       }
     },
     "cueframe": {
-      "sha": "553ee2578e0d31aedc04a430477f4d173eddd624",
+      "sha": "171c40480c7dd836b9f692aacab09dad679c6790",
       "version": "0.2.2",
       "components": {
         "hooks": [
