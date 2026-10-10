@@ -8,7 +8,7 @@ description: Review the applications AI Applyd prepared, change them, and send t
 1. Call `aiapplyd_get_applications` with `status: "waiting_for_review"` to list the review queue. It returns 20 per page, so pass `page` for more.
 2. For each application, show the job title, the company, the application id and the tracking link.
 3. To read one application in full, call `aiapplyd_get_applications` with `application_id`. It shows the tailored resume, the cover letter and the screening answers that will be sent.
-4. Wait for a clear decision on each application. Never approve on your own judgment.
+4. Wait for a clear decision on each application. Never approve on your own judgment. Before an approve, refine or re_prepare, call `aiapplyd_get_account` to check the plan and balance. Explain the application or AI-credit use and get approval for that action. Do not buy credits or upgrade the plan.
 5. Call `aiapplyd_review_application` with `decision` and `application_ids` (1 to 25 in one call, so a batch approve is one call). The decisions:
    - "approve" submits each application to the employer under the user's name. It spends one application per job and cannot be undone.
    - "reject" skips it. Nothing is sent and nothing is spent.

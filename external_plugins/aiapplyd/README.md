@@ -1,36 +1,36 @@
 # AI Applyd plugin for Grok Build
 
-Connect Grok Build to [AI Applyd](https://aiapplyd.com), the job search app that finds roles
-that fit your resume, tailors the resume and cover letter for each one, and submits the
-application on the employer's own hiring system.
+Find jobs matched to your resume, tailor each application, and apply on the employer's own hiring site from Grok Build. AI Applyd supports 34 hiring systems, including Workday, Greenhouse, Lever and Ashby. Send automatically or hold applications for your review and approval. Track each application and the employer confirmation it receives.
 
-## Installation
+## Connect your account
 
-In Grok Build, open `/plugin`, search for **AI Applyd**, and install.
+Open `/plugin` in Grok Build and find AI Applyd in the marketplace. The connector opens AI Applyd sign-in in your browser. Sign in with Google or an email link. Do not paste passwords, API keys or access tokens into chat.
 
-On first connection, Grok opens the AI Applyd sign-in in your browser. Sign in with Google or an
-email link. No API key is needed and nothing should be pasted into chat.
+The plugin connects to `https://mcp.aiapplyd.com/mcp` over Streamable HTTP with OAuth 2.1, PKCE and dynamic client registration. The only service domains are `aiapplyd.com` and `mcp.aiapplyd.com`. Setup guides for compatible clients are at https://aiapplyd.com/mcps.
 
-## What you get
+## Ten workflow skills
 
-- **MCP server** `aiapplyd` at `https://mcp.aiapplyd.com/mcp` (Streamable HTTP, OAuth 2.1 with
-  PKCE and dynamic client registration).
-- **Skills** that show Grok how to use the tools well:
-  - `find-matching-jobs`: pull your matched jobs and skip the ones that do not fit.
-  - `tailor-for-a-job`: rewrite your resume and cover letter for one posting.
-  - `apply-to-a-job`: apply to a job, in auto mode or held for your review.
-  - `review-and-send`: approve, reject or refine applications waiting for review.
-  - `track-applications`: see where every application stands and what the employer confirmed.
+- `setup-job-search`: add your resume, set job preferences and check account readiness.
+- `find-matching-jobs`: read matched roles, save or skip them and refine your search.
+- `tailor-for-a-job`: compare your resume with a role and prepare tailored application documents.
+- `write-cover-letter`: write a letter from your saved resume-builder document or revise an existing application's letter.
+- `prepare-for-interview`: practise role-specific questions, answer guidance and STAR examples.
+- `translate-resume`: translate a saved resume-builder document for another language.
+- `build-resume-document`: create a private editable draft to finish and export in the resume builder.
+- `apply-to-a-job`: submit an application or prepare it for review.
+- `review-and-send`: inspect prepared documents, request changes and approve applications you want to send.
+- `track-applications`: read status, employer confirmations and your remaining allowance.
 
-Sending an application to an employer always asks you to confirm first, and it needs a paid
-AI Applyd plan. Matching, resume and cover letter work, and tracking run on any account.
+The hosted server exposes 17 tools. These skills guide their use without running hooks, shell scripts or bundled executable code.
 
-## Links
+## Account access and actions
 
-- Setup guide for every app: https://aiapplyd.com/mcps
-- Source and manifests: https://github.com/aiapplyd/aiapplyd-mcp
-- Support: ava@aiapplyd.com
+Connect an AI Applyd account to use its saved resume, preferences and application history. Account reads do not generate AI content. AI generation uses the account's AI token balance and action limits. Sending an application uses its application allowance.
 
-## License
+Applying sends the user's information to an employer. The skills require clear authorization for the named jobs and distinguish automatic sending from review mode. Review mode holds the application until the user approves it. A submit click is not employer confirmation; report only the evidence returned by AI Applyd.
 
-MIT
+## Release and support
+
+This package matches the ten skills in [AI Applyd 1.8.4](https://github.com/aiapplyd/aiapplyd-mcp/releases/tag/v1.8.4). Source: https://github.com/aiapplyd/aiapplyd-mcp. Support: https://aiapplyd.com/support.
+
+MIT licensed.

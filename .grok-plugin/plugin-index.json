@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "aiapplyd": {
-      "version": "1.8.3",
+      "version": "1.8.4",
       "components": {
         "mcpServers": [
           {
@@ -16,20 +16,40 @@
             "description": "Send a real job application with AI Applyd. It tailors the resume and cover letter, then fills in and submits the emplo…"
           },
           {
+            "name": "build-resume-document",
+            "description": "Create a private editable resume draft in the AI Applyd resume builder. Use this skill whenever the user wants a format…"
+          },
+          {
             "name": "find-matching-jobs",
             "description": "Find jobs that fit the user with AI Applyd, save or skip them, and change what it looks for. Use this skill whenever th…"
+          },
+          {
+            "name": "prepare-for-interview",
+            "description": "Prepare for a specific job interview with AI Applyd and practice answers grounded in the user's experience. Use this sk…"
           },
           {
             "name": "review-and-send",
             "description": "Review the applications AI Applyd prepared, change them, and send the ones the user approves. Use this skill whenever t…"
           },
           {
+            "name": "setup-job-search",
+            "description": "Set up an AI Applyd account for job matching with the user's resume and job preferences. Use this skill whenever the us…"
+          },
+          {
             "name": "tailor-for-a-job",
-            "description": "Tailor the user's resume and cover letter to one job posting with AI Applyd. It gives the posting's keywords, an ATS sc…"
+            "description": "Score and tailor the user's resume to one job posting with AI Applyd. Use this skill whenever the user asks how well th…"
           },
           {
             "name": "track-applications",
             "description": "Check where the user's job applications stand with AI Applyd, which employers confirmed them, and how many applications…"
+          },
+          {
+            "name": "translate-resume",
+            "description": "Translate a saved AI Applyd resume-builder document into another language. Use this skill whenever the user needs a res…"
+          },
+          {
+            "name": "write-cover-letter",
+            "description": "Write or revise a cover letter for one job with AI Applyd. Use this skill whenever the user asks for a cover letter, a…"
           }
         ]
       }

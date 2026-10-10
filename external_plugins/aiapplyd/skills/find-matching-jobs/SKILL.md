@@ -5,7 +5,7 @@ description: Find jobs that fit the user with AI Applyd, save or skip them, and 
 
 # Find matching jobs
 
-Start here. Call `aiapplyd_get_account` first. If its readiness shows no resume on file, call `aiapplyd_set_resume` before anything else, with exactly one of `resume_text` (the full text), `resume_url` (an https link to a PDF, DOCX or text file) or `document_id` (a saved resume from the account, which is free). If the tool says no account is connected, share the sign-up link it gives and stop. If `aiapplyd_set_resume` says the resume is still being read, call `aiapplyd_get_account` again in a minute, and apply only once it shows the resume on file.
+Start here. Call `aiapplyd_get_account` first. If its readiness shows no resume on file, call `aiapplyd_set_resume` before anything else, with exactly one of `resume_text` (the full text), `resume_url` (an https link to a PDF, DOCX or text file) or `document_id` (a saved resume from the account, which is free). If the tool says no account is connected, share the sign-up link it gives and stop. If `aiapplyd_set_resume` says the resume is still being read, call `aiapplyd_get_account` again in a minute, and apply only once it shows the resume on file. A new import can use AI credits. Get approval for that import before calling it. Do not buy credits or upgrade the account.
 
 1. Call `aiapplyd_get_matches` to list the user's matched jobs, best first. Use `limit` (1 to 50) and `page` to see more, and `saved_only: true` for the jobs they saved.
 2. To narrow the list, call `aiapplyd_get_matches` with `query` (text in the job title), `location` (a city or country) or `remote_only: true`.

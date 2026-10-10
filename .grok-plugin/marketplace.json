@@ -410,15 +410,27 @@
     },
     {
       "name": "aiapplyd",
-      "description": "AI Applyd job search (hosted MCP server + skills). Find jobs that fit your resume, tailor the resume and cover letter for each posting, apply on the employer's own hiring system, and track every application. Sign in with your AI Applyd account; no API key needed.",
+      "description": "Find jobs matched to your resume, tailor each application, and apply on employers' hiring sites across 34 hiring systems. Send automatically or review and approve first, track employer confirmations, and prepare for interviews. Includes resume scoring, translation, editable resume drafts and account setup. Connect your AI Applyd account.",
       "category": "productivity",
       "source": {
         "type": "local",
         "path": "./external_plugins/aiapplyd"
       },
       "homepage": "https://aiapplyd.com/mcps",
-      "keywords": ["ai applyd", "aiapplyd", "ai applyd mcp", "ai applyd jobs", "ai applyd auto-apply"],
-      "domains": ["aiapplyd.com", "mcp.aiapplyd.com"]
+      "keywords": [
+        "ai applyd",
+        "aiapplyd",
+        "ai applyd jobs",
+        "ai applyd auto-apply",
+        "aiapplyd resume",
+        "aiapplyd cover letter",
+        "aiapplyd interview",
+        "aiapplyd application tracking"
+      ],
+      "domains": [
+        "aiapplyd.com",
+        "mcp.aiapplyd.com"
+      ]
     }
   ]
 }
