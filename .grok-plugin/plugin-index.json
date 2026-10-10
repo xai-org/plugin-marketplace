@@ -422,6 +422,28 @@
         ]
       }
     },
+    "keenable": {
+      "sha": "78881644be1e3980f9e720177e10897285198e64",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "keenable",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keenable-deep-research",
+            "description": "Run comprehensive multi-source web research with Keenable and synthesize a cited answer. Use for literature reviews, ma…"
+          },
+          {
+            "name": "keenable-web",
+            "description": "Search and read the web with Keenable. Use for current information, source discovery, and extracting clean content from…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",

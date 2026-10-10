@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "keenable",
+      "description": "Keyless web search and page-content extraction via Keenable's hosted MCP server: no signup or API key needed (rate-limited per IP). search_web_pages returns ranked results with snippets; fetch_page_content reads any URL as clean markdown. Includes web-research and deep-research skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/keenableai/keenable-grok-plugin.git",
+        "sha": "78881644be1e3980f9e720177e10897285198e64"
+      },
+      "homepage": "https://keenable.ai",
+      "keywords": ["keenable", "keenable search", "keenable ai"],
+      "domains": ["keenable.ai", "docs.keenable.ai", "api.keenable.ai"]
     }
   ]
 }
