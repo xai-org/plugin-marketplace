@@ -1038,8 +1038,8 @@
       }
     },
     "superpowers": {
-      "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
-      "version": "6.4.2",
+      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+      "version": "7.0.0",
       "components": {
         "hooks": [
           {
@@ -1050,7 +1050,7 @@
         "skills": [
           {
             "name": "brainstorming",
-            "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying…"
+            "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying be…"
           },
           {
             "name": "diagnosing-superpowers",
