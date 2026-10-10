@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "stacktree",
+      "description": "Turn HTML an agent produces into a live page on a private, unguessable URL. Gate it with a passcode or a company email domain that viewers pass without creating an account, set an expiry or burn-after-read, and replace the page in place so the link you already shared keeps showing the current version. Publishing one 24-hour page needs no account at all.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stevysmith/stacktree-mcp.git",
+        "sha": "d2690e04c7437fb8751a6b468f1b3f27b8352506"
+      },
+      "homepage": "https://stacktr.ee",
+      "keywords": ["stacktree", "stacktr.ee", "publish to stacktree"],
+      "domains": ["stacktr.ee"]
     }
   ]
 }
