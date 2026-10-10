@@ -650,7 +650,7 @@
     {
       "name": "loxtep",
       "description": "The AI-first, governed data layer for your business. Connect your data (Postgres, Shopify, Stripe, webhooks) and query it from your agent over hosted MCP, with audit and field masking on by default.",
-      "category": "data",
+      "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/LoxtepInc/loxtep-plugins-skills.git",
