@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "sonilo",
+      "description": "Sonilo licensed audio for video (hosted MCP server + skill). Generate music, sound effects, newly mixed videos, translated subtitles, and dubbing from text, a video URL, or a local file. Sign in with your Sonilo Platform account; no API key needed.",
+      "category": "creativity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sonilo-ai/sonilo-grok-plugin.git",
+        "sha": "6f3d69dc31543d181d35da94bb77d0a41550d1bb",
+        "path": "plugins/sonilo"
+      },
+      "homepage": "https://platform.sonilo.com",
+      "keywords": ["sonilo", "sonilo music", "sonilo sfx", "sonilo dubbing", "sonilo mcp"],
+      "domains": ["sonilo.com", "platform.sonilo.com", "api.sonilo.com"]
     }
   ]
 }
