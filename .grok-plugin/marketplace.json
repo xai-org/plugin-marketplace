@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "agentisend",
+      "description": "AgentiSend is a transactional email API for AI agents: send receipts, password resets, sign-in codes and alerts from your own verified domain, with a message log, spend budgets, a free preflight and refusals that name the fix. The hosted MCP server at https://api.agentisend.com/mcp exposes 84 tools (44 on tools/list; the rest via list_more_tools) for sending, domain setup, templates, contacts, broadcasts, webhooks and delivery logs. A send is one message or a batch of up to 500 items with per-item results. preflight_email runs every gate a real send runs, sends nothing, and costs nothing. Every refusal returns a code, a message and the fix. A loop guard holds repeated sends for a person. You can cap what each agent spends, and stop all sending with a kill switch. There is no tool for unsolicited mail. Sign in with OAuth 2.1 and dynamic client registration, or use an API key. Starter prompts: \"Send this receipt to the customer.\" \"Preflight this send and tell me what would stop it.\" \"What can I spend today?\"",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fortuneflick/agentisend-claude-plugin.git",
+        "sha": "5496c270851b7d66dcdaf344d246fc227f54451f"
+      },
+      "homepage": "https://agentisend.com/docs/guides/mcp",
+      "keywords": ["agentisend", "agentisend email", "agentisend mcp", "agentisend transactional email", "agentisend agent budget", "agentisend deliverability", "agentisend mcp server", "agentisend mcp connector"],
+      "domains": ["agentisend.com"]
     }
   ]
 }

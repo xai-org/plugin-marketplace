@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "agentisend": {
+      "sha": "5496c270851b7d66dcdaf344d246fc227f54451f",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentisend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentisend",
+            "description": "AgentiSend is a transactional email API. Check what you may spend, preflight a send for free, and ask a person when a s…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
