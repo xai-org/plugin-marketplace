@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "wellness-project",
+      "description": "Wellness Project health and fitness integration (hosted MCP server + setup skill). Read and log workouts, nutrition, sleep, recovery, body metrics, labs, and goals synced from Apple Health, Fitbit, Oura, and Health Connect. Sign in with your Wellness Project account over OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/turnnoblindeye/wellness-project-mcp.git",
+        "sha": "4ca0723c523f27f458a88a093824e4278180b32d"
+      },
+      "homepage": "https://wellnessproject.ai",
+      "keywords": ["wellness project", "wellnessproject", "wellness project mcp"],
+      "domains": ["wellnessproject.ai"]
     }
   ]
 }
