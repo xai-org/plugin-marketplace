@@ -248,6 +248,24 @@
         ]
       }
     },
+    "eonik": {
+      "sha": "014a2282374a10d20416a855aac0dee77c2a35a8",
+      "version": "3.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "eonik",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eonik",
+            "description": "Make a brand's adapts with eonik: every size a media plan asks for, made from the designer's master with the brand's fo…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
