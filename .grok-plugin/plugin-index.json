@@ -945,6 +945,24 @@
         ]
       }
     },
+    "shapeless": {
+      "sha": "3a3c0985e86c28ee864d60788997801c63e0fcef",
+      "version": "0.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shapeless",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shapeless",
+            "description": "Drive the user's ShapelessAI account - draft and publish social posts, run durable content jobs, manage standing agents…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
       "version": "0.9.12",

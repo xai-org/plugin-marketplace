@@ -407,6 +407,20 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "shapeless",
+      "description": "ShapelessAI, the AI social media team for founders: make and publish posts, carousels and short video to LinkedIn, X, Instagram, TikTok, YouTube, Facebook, Threads and Bluesky from Grok. Ships the hosted ShapelessAI MCP server (sign in with OAuth, no API key) plus a skill for jobs, posts, agents and Brand Memory. Every draft waits for approval before it publishes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FirstClassTree/shapelessai.git",
+        "sha": "3a3c0985e86c28ee864d60788997801c63e0fcef",
+        "path": "plugins/shapeless"
+      },
+      "homepage": "https://shapelessai.com",
+      "keywords": ["shapeless", "shapelessai", "shapeless ai"],
+      "domains": ["shapelessai.com"]
     }
   ]
 }
