@@ -226,6 +226,98 @@
         ]
       }
     },
+    "cueframe": {
+      "sha": "553ee2578e0d31aedc04a430477f4d173eddd624",
+      "version": "0.2.2",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|clear|compact"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "cueframe",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-music-bed",
+            "description": "Retrofits a music bed (and ambience or SFX) onto an existing composition — license-aware search, correct mix hierarchy,…"
+          },
+          {
+            "name": "brand-reel",
+            "description": "Produces a 12–20 second 9:16 brand-identity reel — three-beat arc, bespoke cards in the brand's own type and palette, f…"
+          },
+          {
+            "name": "clip-a-talking-head",
+            "description": "Cuts a podcast, talk, or interview into shorts that open on the strongest sentence, reframe to the active speaker, and…"
+          },
+          {
+            "name": "composing-video",
+            "description": "Use when an agent is asked to make ANY video with CueFrame — a product launch, announcement, promo, teaser, social clip…"
+          },
+          {
+            "name": "cueframe-brand-demo",
+            "description": "Use when turning a local app into a brand-consistent product demo with CueFrame — extract the brand straight from the r…"
+          },
+          {
+            "name": "cueframe-cli",
+            "description": "Use when editing, clipping, or rendering video via the CueFrame CLI — e.g. \"make a 9:16 short from this podcast\", \"pull…"
+          },
+          {
+            "name": "cueframe-component-authoring",
+            "description": "Use when authoring, forking, or customizing a CueFrame motion-graphics component/primitive/graphic — e.g. \"customize th…"
+          },
+          {
+            "name": "cueframe-compose-loop",
+            "description": "Use when an AI agent should DRIVE CueFrame to a high-quality clip itself — author a composition, look at rendered frame…"
+          },
+          {
+            "name": "cueframe-connect",
+            "description": "Use when CueFrame is not connected yet, the user asks how to connect or authenticate CueFrame, or another CueFrame skil…"
+          },
+          {
+            "name": "cueframe-product-video",
+            "description": "Use when turning a screen recording (with cursor/click events) into a polished, auto-zooming product video or demo reel…"
+          },
+          {
+            "name": "cueframe-scene-shot",
+            "description": "Author a CueFrame 3D world-object shot as canonical SceneShotSpecV2 JSON. Use for slabs, pages, phones, laptops, captur…"
+          },
+          {
+            "name": "cueframe-storyboard",
+            "description": "Use BEFORE composing when starting a NEW video from scratch and you need to plan its structure — turning a rough ask (\"…"
+          },
+          {
+            "name": "every-format-from-one-edit",
+            "description": "Derives content-aware 9:16, 1:1, and 4:5 siblings from one finished composition — same edit, every platform, no re-edit…"
+          },
+          {
+            "name": "extracting-brand-kits",
+            "description": "Use when the user says \"make my video look like THIS\" with a reference video, screenshots, or a moodboard — build a Cue…"
+          },
+          {
+            "name": "launch-video",
+            "description": "Turns screen recordings and product footage into a 30–90 second 16:9 launch film — payoff-first hook, real product surf…"
+          },
+          {
+            "name": "make-a-social-reel",
+            "description": "Turns footage into a finished 9:16 social reel — hook inside 2 seconds, poster-grade type, a decided music bed, one fin…"
+          },
+          {
+            "name": "rebrand-a-video",
+            "description": "Swaps the brand kit under an existing video and re-renders — tokens, bumpers, logo, captions, and motion re-theme autom…"
+          },
+          {
+            "name": "video-craft-standards",
+            "description": "Craft defaults and applicable review checklists for CueFrame videos (social reel, launch film, brand reel, talking-head…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
