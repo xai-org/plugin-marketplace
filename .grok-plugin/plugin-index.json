@@ -422,6 +422,97 @@
         ]
       }
     },
+    "loxtep": {
+      "sha": "9e84c128bfd2b915e85f0d3c323a9916124d5bd0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "loxtep",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bind-external-warehouse"
+          },
+          {
+            "name": "bot-event-batch-processing"
+          },
+          {
+            "name": "connect-external-system"
+          },
+          {
+            "name": "data-product-modeling"
+          },
+          {
+            "name": "data-workflows"
+          },
+          {
+            "name": "define-data-product-shape"
+          },
+          {
+            "name": "discover-govern-lineage"
+          },
+          {
+            "name": "governance-policies"
+          },
+          {
+            "name": "loxtep-agent-workspace"
+          },
+          {
+            "name": "loxtep-analytics"
+          },
+          {
+            "name": "loxtep-auth"
+          },
+          {
+            "name": "loxtep-deployments"
+          },
+          {
+            "name": "loxtep-instances"
+          },
+          {
+            "name": "loxtep-journey-orchestrator"
+          },
+          {
+            "name": "loxtep-mcp-session"
+          },
+          {
+            "name": "loxtep-ontology"
+          },
+          {
+            "name": "loxtep-procedures"
+          },
+          {
+            "name": "loxtep-process-intel"
+          },
+          {
+            "name": "loxtep-queue-tracing"
+          },
+          {
+            "name": "loxtep-sdk"
+          },
+          {
+            "name": "loxtep-semantic-layer"
+          },
+          {
+            "name": "loxtep-workspace"
+          },
+          {
+            "name": "mcp-integration"
+          },
+          {
+            "name": "org-semantics-quality"
+          },
+          {
+            "name": "promote-data-product"
+          },
+          {
+            "name": "semantic-ontology-mapping"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
