@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
+        "sha": "d73344bee8cf22e53b9d5f4cf5749d38ba38c174",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
