@@ -407,6 +407,30 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "aiapplyd",
+      "description": "Find jobs matched to your resume, tailor each application, and apply on employers' hiring sites across 34 hiring systems. Send automatically or review and approve first, track employer confirmations, and prepare for interviews. Includes resume scoring, translation, editable resume drafts and account setup. Connect your AI Applyd account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/aiapplyd"
+      },
+      "homepage": "https://aiapplyd.com/mcps",
+      "keywords": [
+        "ai applyd",
+        "aiapplyd",
+        "ai applyd jobs",
+        "ai applyd auto-apply",
+        "aiapplyd resume",
+        "aiapplyd cover letter",
+        "aiapplyd interview",
+        "aiapplyd application tracking"
+      ],
+      "domains": [
+        "aiapplyd.com",
+        "mcp.aiapplyd.com"
+      ]
     }
   ]
 }

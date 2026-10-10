@@ -1,0 +1,23 @@
+{
+  "name": "aiapplyd",
+  "version": "1.8.4",
+  "description": "Find jobs matched to your resume, tailor each application, and apply on employers' hiring sites across 34 hiring systems. Send automatically or review and approve first, track employer confirmations, and prepare for interviews. Includes resume scoring, translation, editable resume drafts and account setup. Connect your AI Applyd account.",
+  "author": {
+    "name": "AI Applyd",
+    "url": "https://aiapplyd.com"
+  },
+  "homepage": "https://aiapplyd.com/mcps",
+  "repository": "https://github.com/aiapplyd/aiapplyd-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ai applyd",
+    "aiapplyd",
+    "ai applyd jobs",
+    "ai applyd auto-apply",
+    "aiapplyd resume",
+    "aiapplyd cover letter",
+    "aiapplyd interview",
+    "aiapplyd application tracking"
+  ],
+  "logo": "assets/logo.png"
+}
