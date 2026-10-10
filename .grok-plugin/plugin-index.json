@@ -410,6 +410,24 @@
         ]
       }
     },
+    "fuxux": {
+      "sha": "a4891c08e98524c6e2700e0bf817e10eef92f871",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fuxux",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "social-media-posts",
+            "description": "Draft, schedule, publish, edit and review social media posts through the user's Fuxux account. Use when the user wants…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

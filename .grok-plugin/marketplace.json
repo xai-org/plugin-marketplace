@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "fuxux",
+      "description": "Fuxux social media scheduler (hosted MCP server + skill). Draft, schedule and publish posts to Instagram, Facebook, TikTok, YouTube, LinkedIn, X, Threads, Bluesky, Pinterest, Discord, Kick and Twitch, and check your posting queue. Sign in with your Fuxux account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/abogitoff/fuxux-claude-plugin.git",
+        "sha": "a4891c08e98524c6e2700e0bf817e10eef92f871"
+      },
+      "homepage": "https://www.fuxux.com/mcp",
+      "keywords": ["fuxux", "fuxux scheduler", "fuxux social media scheduler", "fuxux mcp"],
+      "domains": ["fuxux.com", "www.fuxux.com"]
     }
   ]
 }
