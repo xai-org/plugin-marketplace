@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "626547c06881a20b3322bdc2ed6e6451b33a4fb6"
+        "sha": "0871daceb347e3c51693fbe9c77555468df7e410"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d"
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "47d1f147cc134043593574b69e6483e1f6ae16ad"
+        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
+        "sha": "e9deec62821ca59aa6ca18b4d243c9ced389cd54",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "sha": "df5734f8ff3affa362c29ed3e1980add8b4d1372",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
+        "sha": "d73344bee8cf22e53b9d5f4cf5749d38ba38c174",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
