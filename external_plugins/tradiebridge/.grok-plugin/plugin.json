@@ -1,0 +1,14 @@
+{
+  "name": "tradiebridge",
+  "version": "1.0.0",
+  "description": "Ask questions of a backup your trade business owns: Simpro, Xero, Deputy, Verizon Connect, The Fleet Office and Moveware, through TradieBridge's hosted MCP server.",
+  "author": {
+    "name": "TradieBridge",
+    "url": "https://tradiebridge.com"
+  },
+  "homepage": "https://tradiebridge.com",
+  "repository": "https://github.com/tradiebridge/tradiebridge-plugin",
+  "license": "MIT",
+  "keywords": ["tradiebridge", "simpro", "xero", "deputy", "moveware", "mcp"],
+  "logo": "assets/logo.svg"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tradiebridge": {
+      "type": "http",
+      "url": "https://app.tradiebridge.com/mcp"
+    }
+  }
+}

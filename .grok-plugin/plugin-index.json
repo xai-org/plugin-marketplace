@@ -1191,6 +1191,23 @@
         ]
       }
     },
+    "tradiebridge": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tradiebridge",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tradiebridge",
+            "description": "Answer questions from a trade business's TradieBridge backup of Simpro, Xero, Deputy, Verizon Connect, The Fleet Office…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
