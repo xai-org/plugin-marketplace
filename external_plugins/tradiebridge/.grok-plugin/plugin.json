@@ -1,0 +1,19 @@
+{
+  "name": "tradiebridge",
+  "version": "1.0.0",
+  "description": "Ask questions of the backup your trade business owns of the systems it runs on (job management, accounting, payroll, rostering and fleet), through TradieBridge's hosted MCP server.",
+  "author": {
+    "name": "TradieBridge",
+    "url": "https://tradiebridge.com"
+  },
+  "homepage": "https://tradiebridge.com",
+  "repository": "https://github.com/tradiebridge/tradiebridge-plugin",
+  "license": "MIT",
+  "keywords": [
+    "tradiebridge",
+    "tradiebridge mcp",
+    "tradiebridge backup",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}

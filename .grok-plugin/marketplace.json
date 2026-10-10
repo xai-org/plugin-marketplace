@@ -407,6 +407,18 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "tradiebridge",
+      "description": "TradieBridge integration (hosted MCP server + skill). Ask questions of a trade business's own backup of the systems it runs on (job management, accounting, payroll, rostering and fleet): jobs, quotes, invoices, timesheets, rosters and vehicles. Sign in with a TradieBridge account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/tradiebridge"
+      },
+      "homepage": "https://tradiebridge.com",
+      "keywords": ["tradiebridge", "tradiebridge mcp", "tradiebridge backup"],
+      "domains": ["tradiebridge.com", "app.tradiebridge.com", "docs.tradiebridge.com"]
     }
   ]
 }
