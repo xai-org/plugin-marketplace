@@ -350,6 +350,24 @@
         ]
       }
     },
+    "eonik": {
+      "sha": "79d9c0723361c1b808160a4b5b6915601214b5bc",
+      "version": "4.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "eonik",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eonik",
+            "description": "Do a brand's creative work with eonik, in the eonik app on the person's computer: the adapts a media plan asks for, exa…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
