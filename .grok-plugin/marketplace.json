@@ -397,6 +397,25 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "sdp-platform",
+      "description": "Official SDP Platform plugin. Build websites with Latte components and administer product, listing, course, and custom-order catalogs through hosted MCP. Authenticate with OAuth; never invent catalog ids.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sharasolns/sdp-plugins.git",
+        "sha": "edfe8ce78b6d84c1c3a58b546dd294b6e088ddc6"
+      },
+      "homepage": "https://github.com/sharasolns/sdp-plugins",
+      "keywords": [
+        "sdp",
+        "sdp-platform",
+        "sdp website builder",
+        "sdp listings"
+      ],
+      "domains": [
+        "sdp-platform.com",
+        "sdp-api.sdp-platform.com"
+      ]
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
