@@ -1158,8 +1158,8 @@
       }
     },
     "tinyfish": {
-      "sha": "89457fba3fa44c7b2227807948628011983ab668",
-      "version": "1.0.0",
+      "sha": "df5734f8ff3affa362c29ed3e1980add8b4d1372",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -1179,6 +1179,10 @@
           {
             "name": "tinyfish-browser",
             "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
+          },
+          {
+            "name": "tinyfish-monitor",
+            "description": "Watch a web page or a web topic over time with TinyFish Monitors. Use when the user wants to track, watch, or be alerte…"
           },
           {
             "name": "tinyfish-research",

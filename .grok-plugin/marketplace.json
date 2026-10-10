@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "sha": "df5734f8ff3affa362c29ed3e1980add8b4d1372",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
