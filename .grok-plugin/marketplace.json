@@ -407,6 +407,26 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "eonik",
+      "description": "Make a brand's ads in every size its media plan needs, made in the eonik app on the user's Mac with the brand's fonts, rules and layout kept the same on every size, then checked, sent for approval and delivered. Also answers questions about the brand, its competitors' ads and its own ad results. Never spends.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eonik-ai/eonik-mcp-skill.git",
+        "sha": "014a2282374a10d20416a855aac0dee77c2a35a8"
+      },
+      "homepage": "https://www.eonik.ai/mcp",
+      "keywords": [
+        "eonik",
+        "eonik.ai"
+      ],
+      "domains": [
+        "eonik.ai",
+        "www.eonik.ai",
+        "api.eonik.ai"
+      ]
     }
   ]
 }
