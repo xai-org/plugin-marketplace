@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "memoir",
+      "description": "Personal memory through Memoir's hosted MCP server. Save life details you choose to share, recall them across conversations, amend a Memory, or remove it from future recall. Includes an evening-capture skill; sign in with a Memoir account using OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FlorentLP/memoir-cursor-plugin.git",
+        "sha": "0ec1b45b24e20f2bc6a3666b54df0ecac953b423"
+      },
+      "homepage": "https://memoir.florent-tech.com",
+      "keywords": ["memoir", "memoir memory", "memoir mcp"],
+      "domains": ["memoir.florent-tech.com", "app.memoir.florent-tech.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",

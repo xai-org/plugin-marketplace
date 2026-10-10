@@ -422,6 +422,24 @@
         ]
       }
     },
+    "memoir": {
+      "sha": "0ec1b45b24e20f2bc6a3666b54df0ecac953b423",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "memoir",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "evening-capture",
+            "description": "Evening capture. Use when the Person wants to tell Memoir about today or wrap up the day in one true sentence."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
       "version": "0.0.193",
