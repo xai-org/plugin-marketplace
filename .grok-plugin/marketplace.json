@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "inspify-ai",
+      "description": "INSPIFY AI Creative Agency for marketing teams (hosted MCP server + skills). Create brand storybooks from a brief, publish them on the brand's own domain, run messaging and link campaigns, share tracked links, and read how they perform. Uses a token issued by INSPIFY.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/inspify-ai/mcp.git",
+        "sha": "340eba8004455023b08c33a135c4f863a76fdd3a"
+      },
+      "homepage": "https://www.inspify.ai/login",
+      "keywords": ["inspify", "inspify ai", "inspify creative agency", "inspify storybook", "inspify campaigns", "inspify hub"],
+      "domains": ["inspify.ai", "www.inspify.ai", "mcp.inspify.ai", "inspify.com"]
     }
   ]
 }
