@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "8f26649612042662c1ea8318ff27a49a7c24531f",
-      "version": "1.1.0",
+      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
+      "version": "1.1.2",
       "components": {
         "mcpServers": [
           {
@@ -30,11 +30,7 @@
           },
           {
             "name": "metrics-chart",
-            "description": "Render Axiom metrics query results (application/vnd.metrics.v3+json) as line charts. Zero-dependency Unicode/ASCII by d…"
-          },
-          {
-            "name": "query-metrics",
-            "description": "Runs metrics queries against Axiom MetricsDB via scripts. Discovers available metrics, tags, and tag values. Use when a…"
+            "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
             "name": "spl-to-apl",
@@ -427,8 +423,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "650eb83619134adb947b1ee8755e6511270bc444",
-      "version": "0.0.192",
+      "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
+      "version": "0.0.193",
       "components": {
         "skills": [
           {
@@ -651,7 +647,7 @@
       }
     },
     "pstack": {
-      "sha": "d0ef80d86795816da932a153458c5dbe192d294e",
+      "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
       "components": {
         "agents": [
           {
@@ -1000,8 +996,8 @@
       }
     },
     "stripe": {
-      "sha": "9b91884e43839591abd6ee3c70667b2e71d5e687",
-      "version": "0.9.11",
+      "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
+      "version": "0.9.12",
       "components": {
         "agents": [
           {
@@ -1581,8 +1577,8 @@
       }
     },
     "wix": {
-      "sha": "6461e8dd0a4e2649d211cdbc65c699c6e44f86a2",
-      "version": "1.30.0",
+      "sha": "729aea746648521e654a19575ccfee54b67f8519",
+      "version": "1.31.1",
       "components": {
         "mcpServers": [
           {
