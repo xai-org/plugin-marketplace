@@ -407,6 +407,19 @@
       "homepage": "https://cal.com/docs/mcp-server",
       "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "logospell",
+      "description": "AI image generation for your agent (MCP server). One call returns a cohesive image set, a character set, a transparent-background set, or a single illustration; sets can be extended, resized, re-framed, or exported as platform icons.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/logospell/logospell-mcp-server.git",
+        "sha": "be454c7456b89a10c0cff2507c633a817b1d471b"
+      },
+      "homepage": "https://logospell.com",
+      "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell illustration"],
+      "domains": ["logospell.com", "mcp.logospell.com"]
     }
   ]
 }
