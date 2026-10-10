@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "31b69df377b88bed87d37944afc96c656ab23a04"
+        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "3d0347fbc4f2bfd39a30c9a2107f52f3efc54d67"
+        "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "4895cc9094b4fef2cf7cb7a2c408644aa58ab19d"
+        "sha": "729aea746648521e654a19575ccfee54b67f8519"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "fc26fcf97921f5b4db93b06e000b6366e8d67c48"
+        "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "aaa07946b60797706c131ca50e50ca526a44b073"
+        "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "27db051dba7cee2e13d2dbf6d65939cf412f5b3c",
+        "sha": "08d371a9fbe098ecc943713a70a669ef05cfa6d6",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "c47b12849e43f18d5c374c7069c744cc55b0ea00",
+        "sha": "ccb5507cec1546dc88135c1139c811e6c59115ba",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -365,7 +365,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "84ae7251ee919239d5ea85aef25897983f26601e"
+        "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -410,6 +410,18 @@
       "homepage": "https://socialbu.com/mcp-server",
       "keywords": ["socialbu", "socialbu mcp", "socialbu scheduling"],
       "domains": ["socialbu.com"]
+    },
+    {
+      "name": "calcom",
+      "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/calcom"
+      },
+      "homepage": "https://cal.com/docs/mcp-server",
+      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     }
   ]
 }
