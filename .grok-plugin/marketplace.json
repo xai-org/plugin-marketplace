@@ -410,7 +410,7 @@
     },
     {
       "name": "tradiebridge",
-      "description": "TradieBridge integration (hosted MCP server + skill). Ask questions of a trade business's own backup of Simpro, Xero, Deputy, Verizon Connect, The Fleet Office and Moveware: jobs, quotes, invoices, timesheets, rosters, vehicles and removal jobs. Sign in with a TradieBridge account; no API key needed.",
+      "description": "TradieBridge integration (hosted MCP server + skill). Ask questions of a trade business's own backup of the systems it runs on (job management, accounting, payroll, rostering and fleet): jobs, quotes, invoices, timesheets, rosters and vehicles. Sign in with a TradieBridge account; no API key needed.",
       "category": "productivity",
       "source": {
         "type": "local",

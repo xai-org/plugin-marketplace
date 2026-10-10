@@ -1,18 +1,18 @@
 ---
 name: tradiebridge
 description: >-
-  Answer questions from a trade business's TradieBridge backup of Simpro, Xero,
-  Deputy, Verizon Connect, The Fleet Office or Moveware through the TradieBridge
-  MCP server. Use when the user mentions TradieBridge, or asks about their own
-  jobs, quotes, invoices, customers, timesheets, rosters, vehicles, trips or
-  removal jobs held in one of those systems.
+  Answer questions from a trade business's TradieBridge backup of the systems it
+  runs on, through the TradieBridge MCP server. Use when the user mentions
+  TradieBridge, or asks about their own business records: jobs, quotes,
+  invoices, payments, customers, timesheets, rosters, staff or vehicles.
 ---
 
 # TradieBridge
 
-TradieBridge copies a trade business's records out of the systems it runs on (Simpro, Xero, Deputy,
-Verizon Connect, The Fleet Office and Moveware) into a backup the business owns. The `tradiebridge`
-MCP server reads that backup. It never writes to a source system.
+TradieBridge copies a trade business's records out of the systems it runs on (job management,
+accounting, payroll, rostering and fleet) into a backup the business owns. The `tradiebridge` MCP
+server reads that backup. It never writes to a source system. Never assume which sources a company
+holds: `list_connections` names them.
 
 The first call opens a TradieBridge sign-in in the browser. The user needs a TradieBridge account
 with at least one source connected (https://app.tradiebridge.com).

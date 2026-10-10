@@ -1,9 +1,10 @@
 # TradieBridge plugin
 
 Connects Cursor, Grok Build and Claude Code to [TradieBridge](https://tradiebridge.com): a backup a
-trade business owns of its Simpro, Xero, Deputy, Verizon Connect, The Fleet Office and Moveware
-records. Ask about jobs, quotes, invoices, payments, customers, timesheets, rosters, vehicles, trips
-and removal jobs, answered from your own copy.
+trade business owns of the systems it runs on (job management, accounting, payroll, rostering and
+fleet). Ask about jobs, quotes, invoices, payments, customers, timesheets, rosters and vehicles,
+answered from your own copy. The sources TradieBridge backs up are listed at
+[tradiebridge.com](https://tradiebridge.com).
 
 ## What it ships
 
@@ -47,7 +48,7 @@ The server is the source of truth for tool names and schemas.
 - The plugin calls one endpoint: `https://app.tradiebridge.com/mcp`, with OAuth discovery at
   `https://app.tradiebridge.com/.well-known/oauth-protected-resource`.
 - The plugin stores no credential. Your MCP client keeps the OAuth token.
-- TradieBridge never writes to Simpro, Xero or any other source. Agents never receive tax file
+- TradieBridge never writes to a source system. Agents never receive tax file
   numbers, bank details or birth dates.
 - Every tool call is recorded for 90 days. See the [privacy policy](https://tradiebridge.com/privacy)
   and [terms](https://tradiebridge.com/terms).
