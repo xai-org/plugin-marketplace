@@ -93,6 +93,32 @@
         ]
       }
     },
+    "cafecito-beans": {
+      "sha": "ac1295c1f2cfc79c368bd99acdf2600e369c21f1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cafecito-beans",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "beans-research",
+            "description": "Find what publishers have reported with Cafecito Beans MCP. Use for article research, recent coverage, headlines, trend…"
+          },
+          {
+            "name": "beans-source-monitoring",
+            "description": "Track a publisher or document type with Cafecito Beans MCP. Use for source-specific coverage and searches for earnings…"
+          },
+          {
+            "name": "beans-story-coverage",
+            "description": "Compare publisher coverage of the same story with Cafecito Beans MCP. Use when a user asks who covered an event, which…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
