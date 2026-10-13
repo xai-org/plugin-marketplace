@@ -498,7 +498,7 @@
       "homepage": "https://knowngood.sh",
       "keywords": ["knowngood", "known good", "knowngood.sh", "knowngood mcp", "agent-ready websites"],
       "domains": ["knowngood.sh"],
-      "version": "1.7.0",
+      "version": "1.9.0",
       "author": { "name": "Known Good", "url": "https://knowngood.sh" }
     }
   ]
