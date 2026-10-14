@@ -1723,6 +1723,18 @@
         ]
       }
     },
+    "webability": {
+      "sha": "84e5f90b64dbcd2c74b8b4deec11665090f236b0",
+      "version": "1.9.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "webability",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",

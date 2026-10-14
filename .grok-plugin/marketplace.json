@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "webability",
+      "description": "Accessibility for your coding agent. Scan pages and HTML for WCAG 2.2 AA, ADA and Section 508 issues, get source-level fixes, and verify each fix. Hosted MCP server, free, no install.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/snayyar00/webability-mcp.git",
+        "sha": "84e5f90b64dbcd2c74b8b4deec11665090f236b0"
+      },
+      "homepage": "https://www.webability.io/mcp",
+      "keywords": ["webability", "webability accessibility", "webability mcp"],
+      "domains": ["webability.io", "mcp.webability.io"]
     }
   ]
 }
