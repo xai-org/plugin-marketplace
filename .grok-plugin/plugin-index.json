@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aeon": {
+      "sha": "a4d6d683f9d8489b51c22437ace612fdd93b2df3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aeon",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
