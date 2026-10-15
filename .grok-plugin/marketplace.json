@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "communitymentions",
+      "description": "Which subreddits AI answers (OpenAI models, Perplexity, Gemini) cite: subreddits that fit a product, with citation counts, and one subreddit's most-cited threads. Read-only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rdoyle99/communitymentions-plugin.git",
+        "sha": "8a994fa36e98a66577db1fe8d1a1aef01c49fe9e"
+      },
+      "homepage": "https://communitymentions.com",
+      "keywords": ["subreddits", "reddit marketing", "which subreddits", "ai search", "reddit ai citations"],
+      "domains": ["communitymentions.com"]
     }
   ]
 }

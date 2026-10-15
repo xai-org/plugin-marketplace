@@ -238,6 +238,23 @@
         ]
       }
     },
+    "communitymentions": {
+      "sha": "8a994fa36e98a66577db1fe8d1a1aef01c49fe9e",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "communitymentions",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "communitymentions",
+            "description": "Find the subreddits that fit a product and see how often AI answers (OpenAI models, Perplexity, Gemini) cite them and w…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
