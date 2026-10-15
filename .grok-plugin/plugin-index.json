@@ -422,6 +422,152 @@
         ]
       }
     },
+    "gdex": {
+      "sha": "073f01eb2cb727a92b33c330ad8dd1500b26e405",
+      "version": "4.11.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gdex",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "gdex-authentication",
+            "description": "Managed-custody authentication — shared API key login, session keypair generation, encrypted computedData payloads, AES…"
+          },
+          {
+            "name": "gdex-bridge",
+            "description": "Cross-chain bridging — get estimates and execute native token transfers between EVM chains, Solana, and Sui via ChangeN…"
+          },
+          {
+            "name": "gdex-content-coins",
+            "description": "List Zora content coins and creator coins on Base — social posts and creator tokens tradable on GDEX — requires API key…"
+          },
+          {
+            "name": "gdex-copy-trading",
+            "description": "Copy trade setup — discover top wallets, create/manage copy trades, view transaction history, and browse supported DEXe…"
+          },
+          {
+            "name": "gdex-hl-anomaly",
+            "description": "Scored, time-stamped anomaly events for HyperLiquid perps (oracle divergence, funding extremity, liquidity shock) again…"
+          },
+          {
+            "name": "gdex-hl-market-risk",
+            "description": "HyperLiquid core-perp risk via GDEX: funding, open interest, oracle premium, leverage caps, delisting for ~234 markets,…"
+          },
+          {
+            "name": "gdex-hl-outcomes",
+            "description": "HyperLiquid HIP-3 outcome / event markets — list markets, place outcome orders, and manage outcome positions"
+          },
+          {
+            "name": "gdex-hl-referral",
+            "description": "HyperLiquid referral info and reward claims — distinct from the HL copy-trading referral flows"
+          },
+          {
+            "name": "gdex-limit-orders",
+            "description": "Limit buy, limit sell, update/delete, and list limit orders via managed-custody encrypted payloads"
+          },
+          {
+            "name": "gdex-livestream-discovery",
+            "description": "Solana livestream-token discovery — currently-live streams, per-token live status, and big-buy alert feeds"
+          },
+          {
+            "name": "gdex-onboarding",
+            "description": "Start here — GDEX overview, architecture, supported chains, available skills, and quickstart for cross-chain DeFi tradi…"
+          },
+          {
+            "name": "gdex-perp-copy-trading",
+            "description": "HyperLiquid perpetual futures copy trading — discover top perp traders, create/manage perp copy trades, fill history, o…"
+          },
+          {
+            "name": "gdex-perp-funding",
+            "description": "Deposit and withdraw USDC to/from HyperLiquid for perpetual futures trading — constraints, amounts, and managed-custody…"
+          },
+          {
+            "name": "gdex-perp-trading",
+            "description": "HyperLiquid perpetual futures — open/close positions, set leverage, place market and limit orders with TP/SL, and manag…"
+          },
+          {
+            "name": "gdex-portfolio",
+            "description": "Cross-chain portfolio overview, chain-specific token balances, and paginated trade history"
+          },
+          {
+            "name": "gdex-retailer-onboarding",
+            "description": "Retailer partner integrations — list branded onboarding partners that white-label the GDEX trading stack"
+          },
+          {
+            "name": "gdex-sdk-debugging",
+            "description": "Troubleshoot GDEX SDK errors — error codes, encryption debugging, chain-specific quirks, HL gotchas, and copy trade pit…"
+          },
+          {
+            "name": "gdex-spot-trading",
+            "description": "Buy and sell tokens on Solana, Sui, and EVM chains with automatic DEX routing, slippage control, and percentage-based s…"
+          },
+          {
+            "name": "gdex-token-discovery",
+            "description": "Token details, trending tokens, OHLCV candlestick data, and top traders — requires API key auth (Bearer token)"
+          },
+          {
+            "name": "gdex-token-import",
+            "description": "Import user-defined custom tokens so they appear in token details, balances, and portfolio across the platform"
+          },
+          {
+            "name": "gdex-token-risk",
+            "description": "GDEX token screen on 12 chains: price, liquidity, volume plus honeypot, taxes, LP lock, holder concentration. Determini…"
+          },
+          {
+            "name": "gdex-transfers",
+            "description": "Native and ERC20/SPL token transfers via GDEX managed custody — send assets to any recipient on supported chains"
+          },
+          {
+            "name": "gdex-trending-promotion",
+            "description": "Paid trending-slot promotion — book featured slots on the trending feed and check booking status"
+          },
+          {
+            "name": "gdex-ui-install-setup",
+            "description": "React and Next.js project setup for GDEX — SDK initialization, context providers, environment variables, and TypeScript…"
+          },
+          {
+            "name": "gdex-ui-page-layouts",
+            "description": "Full page layout compositions for GDEX — trading page, portfolio page, copy trading page, and bridge page with responsi…"
+          },
+          {
+            "name": "gdex-ui-portfolio-dashboard",
+            "description": "React component patterns for GDEX portfolio dashboards — token balances, trade history, chain selectors, and live data…"
+          },
+          {
+            "name": "gdex-ui-theming",
+            "description": "CSS theming system for GDEX trading UIs — dark/light modes, trading colors, responsive breakpoints, and Tailwind CSS co…"
+          },
+          {
+            "name": "gdex-ui-trading-components",
+            "description": "React component patterns for GDEX trading UIs — order entry forms, position tables, copy trade panels, orderbook displa…"
+          },
+          {
+            "name": "gdex-ui-wallet-connection",
+            "description": "React patterns for GDEX wallet connection — connect buttons, account displays, chain switching, and API key vs wallet a…"
+          },
+          {
+            "name": "gdex-wallet-setup",
+            "description": "Generate EVM control wallets offline, create session keypairs, get wallet info — first step for users without wallets"
+          },
+          {
+            "name": "gdex-watchlist-social",
+            "description": "Watchlist, comments, and sentiment voting — social community features around individual tokens"
+          },
+          {
+            "name": "gdex-xstocks",
+            "description": "List tokenised equities (xStocks) — real-world stocks traded as tokens on GDEX — requires API key auth (Bearer token)"
+          },
+          {
+            "name": "gvault",
+            "description": "GVault (GMACL, Gemach's Enzyme vault on Ethereum) — NAV, share price, holdings and return both cumulative and annualise…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
