@@ -1,0 +1,14 @@
+{
+  "name": "xpntl",
+  "version": "1.0.0",
+  "description": "Connect Grok to xpntl — the coordination layer for human + AI engineering teams. Read and create issues, comment and @-mention, move work across workflow states and cycles, manage projects, labels, and workspace docs, and check your agent inbox.",
+  "author": {
+    "name": "xpntl",
+    "url": "https://xpntl.dev"
+  },
+  "homepage": "https://xpntl.dev",
+  "repository": "https://github.com/xpntl/xpntl",
+  "license": "BSL-1.1",
+  "keywords": ["xpntl", "issue tracker", "project management", "mcp", "agents", "kanban"],
+  "logo": "assets/logo.svg"
+}

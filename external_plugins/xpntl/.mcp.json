@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xpntl": {
+      "type": "http",
+      "url": "https://api.xpntl.dev/mcp"
+    }
+  }
+}
