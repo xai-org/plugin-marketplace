@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "kuro",
+      "description": "Create AI images, video clips, voice-overs, music and editable storyboard films with Kuro.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meetkuro/kuro-mcp.git",
+        "sha": "a1caa9909d314930ae846ed31fe78f6506eaca04"
+      },
+      "homepage": "https://meetkuro.com/",
+      "keywords": ["kuro", "meetkuro", "kuro creative"],
+      "domains": ["meetkuro.com", "app.meetkuro.com", "api.meetkuro.com"]
     }
   ]
 }
