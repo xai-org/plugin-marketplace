@@ -1036,7 +1036,7 @@
       }
     },
     "specstream": {
-      "sha": "a72fd2d7216b0f2184fefa51fcb525b89afe2de1",
+      "sha": "d62eac8deb008f106d6df8036d2724e1a483e0d3",
       "version": "1.0.0",
       "components": {
         "commands": [
