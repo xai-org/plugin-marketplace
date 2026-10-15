@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "adstudio": {
+      "sha": "f80064e1e9c49459fcf8ff57bb8ca5a97c4e7bbf",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adstudio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ad-account-performance-review",
+            "description": "Summarize how a Google Ads, Meta Ads or TikTok Ads account performed over a period (last week, last month, a custom dat…"
+          },
+          {
+            "name": "campaign-diagnosis",
+            "description": "Explain why a Google Ads, Meta Ads or TikTok Ads campaign's CPA, ROAS, conversions or spend changed by decomposing the…"
+          },
+          {
+            "name": "creative-audit",
+            "description": "Rank the ads and creatives in a Google Ads, Meta Ads or TikTok Ads account, campaign, ad group or ad set by performance…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
