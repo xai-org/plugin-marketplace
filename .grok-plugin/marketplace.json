@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "skysay",
+      "description": "Connect to your Skysay workspace to manage voice agents, phone numbers, calls, SMS and campaigns through a hosted MCP server. Requires a Skysay account and authentication; calling, messaging and number provisioning are usage-priced. Availability, capabilities and verification requirements vary by country. 100+ countries covered.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/skysay-ai/skysay-mcp.git",
+        "sha": "6e53063d624caf84546a6defe6df151cac7ad22e"
+      },
+      "homepage": "https://skysay.ai/docs/mcp",
+      "keywords": ["skysay", "skysay mcp"],
+      "domains": ["skysay.ai", "api.skysay.ai"]
     }
   ]
 }

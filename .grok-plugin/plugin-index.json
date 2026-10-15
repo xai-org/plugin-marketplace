@@ -1026,6 +1026,18 @@
         ]
       }
     },
+    "skysay": {
+      "sha": "6e53063d624caf84546a6defe6df151cac7ad22e",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skysay",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
