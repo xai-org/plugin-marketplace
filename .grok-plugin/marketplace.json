@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "book-a-sponsor",
+      "description": "Newsletter sponsor data: the brands that sponsor newsletters like yours (with where and when each ad ran), brands sponsoring newsletters by topic, and what newsletters charge for a sponsor slot.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rdoyle99/book-a-sponsor-plugin.git",
+        "sha": "34ffdeb72c862c76de901437975fb768819df0e1"
+      },
+      "homepage": "https://bookasponsor.com",
+      "keywords": ["newsletter sponsors", "newsletter sponsorship", "find sponsors for my newsletter", "newsletter ad rates", "newsletter monetization"],
+      "domains": ["bookasponsor.com"]
     }
   ]
 }

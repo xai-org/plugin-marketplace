@@ -67,6 +67,23 @@
         ]
       }
     },
+    "book-a-sponsor": {
+      "sha": "34ffdeb72c862c76de901437975fb768819df0e1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "book-a-sponsor",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "book-a-sponsor",
+            "description": "Find the brands that sponsor newsletters like a given one, list brands sponsoring newsletters by topic, and look up wha…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
