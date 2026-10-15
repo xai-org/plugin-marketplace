@@ -680,6 +680,18 @@
         ]
       }
     },
+    "paperoffice": {
+      "sha": "d34a8791708d17da06b893a999f5d225ae48d98e",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "paperoffice",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
