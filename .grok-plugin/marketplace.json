@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "conferencedb",
+      "description": "Conference sponsors, exhibitors and published sponsorship packages (read-only): events by topic, place and date, a conference's companies, and the conferences a company attends.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rdoyle99/conferencedb-plugin.git",
+        "sha": "6ae21487edd38f40f3478dd7c7f9c6590c697a1b"
+      },
+      "homepage": "https://conferencedatabase.com",
+      "keywords": ["conferences", "trade shows", "conference sponsors", "exhibitors", "sponsorship"],
+      "domains": ["conferencedatabase.com"]
     }
   ]
 }
