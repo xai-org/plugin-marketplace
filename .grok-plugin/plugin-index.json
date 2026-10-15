@@ -1026,6 +1026,18 @@
         ]
       }
     },
+    "signatoro": {
+      "sha": "638e0a3d3567f4104b523edf398420c77864e4c2",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "signatoro",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

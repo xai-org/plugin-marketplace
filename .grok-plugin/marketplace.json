@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "signatoro",
+      "description": "One email signature for humans and AI agents. Signatoro is the agentic email signature platform: save your signature once, and your people and every AI agent you connect use the same one.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BlastraIO/signatoro-mcp-plugin.git",
+        "sha": "638e0a3d3567f4104b523edf398420c77864e4c2"
+      },
+      "homepage": "https://signatoro.com",
+      "keywords": ["signatoro", "signatoro email signature", "signatoro mcp"],
+      "domains": ["signatoro.com"]
     }
   ]
 }
