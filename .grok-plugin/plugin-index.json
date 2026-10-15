@@ -1035,6 +1035,42 @@
         ]
       }
     },
+    "specstream": {
+      "sha": "d62eac8deb008f106d6df8036d2724e1a483e0d3",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "get-started",
+            "description": "Try SpecStream with a free first list in Grok Build"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "specstream",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "specstream-approve-work",
+            "description": "Approve an exact SpecStream price, up to the maximum the person set. This starts paid work."
+          },
+          {
+            "name": "specstream-compile",
+            "description": "Get the whole list from the live web by asking in plain words (leads, companies, grants, jobs, places). Reads the reque…"
+          },
+          {
+            "name": "specstream-continue-work",
+            "description": "Read the finished SpecStream rows with the page behind each fact, send them where the person works, and start new work…"
+          },
+          {
+            "name": "specstream-review-work",
+            "description": "Get the real SpecStream price for the exact request. Nothing runs."
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
       "version": "0.9.18",

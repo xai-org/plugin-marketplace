@@ -447,6 +447,20 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "specstream",
+      "description": "Official SpecStream integration (MCP Server + Skills). Ask for any list in plain words (lead lists, company lists, grants, jobs, places) and get the whole list from the live web, every row with the page behind it. Sign in with OAuth, see the exact price first, and pay only for matching rows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/specstream/specstream-tools.git",
+        "sha": "d62eac8deb008f106d6df8036d2724e1a483e0d3",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://specstream.ai",
+      "keywords": ["specstream", "specstream lists", "specstream ai"],
+      "domains": ["specstream.ai", "api.specstream.ai"]
     }
   ]
 }
