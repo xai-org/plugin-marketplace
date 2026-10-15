@@ -447,6 +447,25 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "prompeteer",
+      "description": "Generates contextual prompts and agent skills tuned to 140+ AI platforms, with a 16-dimension Prompt Score and a saved prompt vault. Free to start.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prompeteer/prompeteer-mcp.git",
+        "sha": "2a6adb08296816192600f909f4278cc743527b72"
+      },
+      "homepage": "https://prompeteer.ai/connect",
+      "keywords": [
+        "prompeteer",
+        "prompeteer.ai",
+        "promptdrive"
+      ],
+      "domains": [
+        "prompeteer.ai"
+      ]
     }
   ]
 }
