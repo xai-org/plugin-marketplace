@@ -1426,6 +1426,18 @@
         ]
       }
     },
+    "varosity": {
+      "sha": "460a89782bb358bb8e8570590d801eee50485858",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "varosity",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
       "version": "0.54.1",

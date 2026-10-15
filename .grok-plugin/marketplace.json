@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "varosity",
+      "description": "Generate video, images, voice and music with 60+ AI models (Veo 3.1, Kling 3.0, Seedance, Grok Imagine, FLUX, GPT Image 2, ElevenLabs, Suno) through Varosity's hosted MCP server. Sign in with OAuth or a Varosity API key; pay per generation with Varosity credits or bring your own provider keys. Each result reports the remaining balance.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/varosity-ai/grok-bot.git",
+        "sha": "460a89782bb358bb8e8570590d801eee50485858"
+      },
+      "homepage": "https://varosity.ai/grok-bot",
+      "keywords": ["varosity", "varosity ai"],
+      "domains": ["varosity.ai"]
     }
   ]
 }
