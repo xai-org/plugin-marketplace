@@ -260,6 +260,70 @@
         ]
       }
     },
+    "docflow": {
+      "sha": "c9dfeedf1e10010163ce5a85521f841dfa0539b6",
+      "version": "0.10.0",
+      "components": {
+        "skills": [
+          {
+            "name": "add-convention",
+            "description": "Assess and add a CONVENTION (a reusable rule, practice, or naming/process standard) to a documentation-led repo — decid…"
+          },
+          {
+            "name": "agent-wave",
+            "description": "Run a bounded wave over the plan/todo queue in a documentation-led repo, using available parallel agents or sequential…"
+          },
+          {
+            "name": "audit",
+            "description": "Audit a documentation-led repo against its own conventions — contiguous ADR numbering, INDEX sync, plan/ coverage, requ…"
+          },
+          {
+            "name": "bootstrap",
+            "description": "Scaffold or retrofit documentation-led conventions (AGENTS.md, CLAUDE.md, CONVENTIONS.md, ADR catalogue, plan/ queue, _…"
+          },
+          {
+            "name": "brainstorm",
+            "description": "Decompose a problem, feature, or goal into candidate ADRs and plan items for a documentation-led repo — one decision pe…"
+          },
+          {
+            "name": "new-adr",
+            "description": "Author a new ADR — record a DECISION (what the system must do, or how it is built) in a documentation-led repo. Picks t…"
+          },
+          {
+            "name": "new-plan",
+            "description": "Queue a UNIT OF WORK in the plan/todo queue of a documentation-led repo, tracing to an existing ADR — names the owning…"
+          },
+          {
+            "name": "rollup",
+            "description": "Generate the federation roll-up catalogue for a multi-repo product — aggregate every member repo's ADR metadata into on…"
+          },
+          {
+            "name": "ship-item",
+            "description": "Ship a plan/todo item in a documentation-led repo — run the verify gate, integrate per the repo's model (fast-forward o…"
+          },
+          {
+            "name": "workspace-dispatch",
+            "description": "Dispatch an already scoped WORKSPACE outcome: check current grants, native claims, dependencies and resources, write a…"
+          },
+          {
+            "name": "workspace-scope",
+            "description": "Record a WORKSPACE outcome and its authority: ideas, decisions, work, deliveries, criteria, grants and recommendations,…"
+          },
+          {
+            "name": "workspace-setup",
+            "description": "Create or deliberately adopt a multi-repository Docflow WORKSPACE with a registry and portable memory. Use for workspac…"
+          },
+          {
+            "name": "workspace-status",
+            "description": "Read-only briefing and fresh-session recovery for a WORKSPACE: priorities, owners, current authority, delivery progress…"
+          },
+          {
+            "name": "workspace-sync",
+            "description": "Reconcile returned WORKSPACE receipts and maintain delivery observations from checked native evidence, observing member…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

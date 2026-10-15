@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "docflow",
+      "description": "ADR-driven documentation workflow: scaffold an Architecture Decision Record (ADR) catalogue, a plan/ queue, and AGENTS.md conventions into any repo, then author, queue, ship, audit, and roll up ADRs with lifecycle skills, across one repo or a multi-repo product.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EvolveHQ/docflow.git",
+        "sha": "c9dfeedf1e10010163ce5a85521f841dfa0539b6",
+        "path": "plugins/docflow"
+      },
+      "homepage": "https://github.com/EvolveHQ/docflow",
+      "keywords": ["docflow", "evolvehq docflow"]
     }
   ]
 }
