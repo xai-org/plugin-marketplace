@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "heyyumi",
+      "description": "Verified Korean restaurant, cafe, and bar data for AI agents — search and filter real venues by location, cuisine, and 40+ attributes, then request a table reservation in-chat at partner venues. Covers Seoul, Gyeonggi, Busan, Jeju, Incheon, Daejeon, Sejong, and North/South Chungcheong.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hmp-dev/heyyumi-mcp.git",
+        "sha": "8b2c2c85fb699b4174ae816903ff3762dc3cf85a"
+      },
+      "homepage": "https://heyyumi.ai/mcp",
+      "keywords": ["heyyumi", "yumi", "heyyumi korean restaurants", "yumi restaurant reservation"],
+      "domains": ["heyyumi.ai"]
     }
   ]
 }
