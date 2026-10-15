@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "watchgoose-monitoring",
+      "description": "Audit cron and scheduled-job monitoring coverage, set up Watchgoose checks for one job or a batch, review monitoring health and triage missed runs.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeware/watchgoose-plugin.git",
+        "sha": "3f0218400e25c77b6fb41bab45fc52abb7503c13"
+      },
+      "homepage": "https://watchgoose.com/docs/mcp/",
+      "keywords": ["watchgoose", "watchgoose mcp", "watchgoose monitoring"],
+      "domains": ["watchgoose.com", "mcp.watchgoose.com"]
     }
   ]
 }
