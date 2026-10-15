@@ -6,29 +6,6 @@
   },
   "plugins": [
     {
-      "name": "olostep",
-      "description": "Web scraping, search, crawling, URL discovery, batch extraction, and AI-grounded answers via Olostep's hosted MCP server. Turn any website into clean markdown, HTML, JSON, or text - with JS rendering, geo-targeting, and structured parsers - directly from Grok Build.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/olostep/olostep-grok-plugin.git",
-        "sha": "617ab62b82cdf0c3d5fef1593e33913e5dc35750"
-      },
-      "homepage": "https://github.com/olostep/olostep-grok-plugin",
-      "keywords": [
-        "olostep",
-        "olostep scrape",
-        "olostep search",
-        "web scraping"
-      ],
-      "domains": [
-        "olostep.com",
-        "www.olostep.com",
-        "docs.olostep.com",
-        "mcp.olostep.com"
-      ]
-    },
-    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
@@ -233,12 +210,7 @@
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
-      "domains": [
-        "tavily.com",
-        "www.tavily.com",
-        "app.tavily.com",
-        "docs.tavily.com"
-      ]
+      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
       "name": "octen",
@@ -278,13 +250,7 @@
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": [
-        "stripe",
-        "stripe payments",
-        "stripe connect",
-        "stripe mcp",
-        "stripe billing"
-      ],
+      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
@@ -481,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "olostep",
+      "description": "Web scraping, search, crawling, URL discovery, batch extraction, and AI-grounded answers via Olostep's hosted MCP server. Turn any website into clean markdown, HTML, JSON, or text, with JS rendering, geo-targeting, and structured parsers, directly from Grok Build.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/olostep/olostep-grok-plugin.git",
+        "sha": "617ab62b82cdf0c3d5fef1593e33913e5dc35750"
+      },
+      "homepage": "https://www.olostep.com",
+      "keywords": ["olostep", "olostep scrape", "olostep search", "olostep crawl", "olostep mcp"],
+      "domains": ["olostep.com", "www.olostep.com", "docs.olostep.com", "mcp.olostep.com"]
     }
   ]
 }
