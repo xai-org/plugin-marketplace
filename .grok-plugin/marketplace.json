@@ -447,6 +447,31 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "walletfollow",
+      "description": "Read-only Hyperliquid wallet, market and copy-portfolio research with source freshness and coverage.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AperiAnalytics/walletfollow-plugin.git",
+        "sha": "0c68b925285e8ab833a3be4a2ef5e6b6071b4ddf",
+        "path": "plugins/walletfollow"
+      },
+      "homepage": "https://walletfollow.ai",
+      "keywords": [
+        "walletfollow",
+        "walletfollow research"
+      ],
+      "domains": [
+        "walletfollow.ai",
+        "mcp.walletfollow.ai"
+      ],
+      "version": "1.0.1",
+      "author": {
+        "name": "WalletFollow",
+        "url": "https://walletfollow.ai"
+      }
     }
   ]
 }
