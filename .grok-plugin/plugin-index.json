@@ -1201,6 +1201,28 @@
         ]
       }
     },
+    "tavilio": {
+      "sha": "b73bdc1e7ca3e5b1b880d6ed90879f6f7ac32ae2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavilio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "First steps after connecting Tavilio. Confirms which venue is connected, summarizes what it runs, and suggests a few us…"
+          },
+          {
+            "name": "tavilio",
+            "description": "Run a restaurant, café, studio or event venue on Tavilio — its bookings, events, menu and products, opening hours and w…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",

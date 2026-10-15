@@ -447,6 +447,19 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "tavilio",
+      "description": "Tavilio venue management (hosted MCP server + skills). Manage a restaurant's, café's, studio's or event venue's bookings, events, menu and products, opening hours and website. Sign in with your Tavilio account and approve one venue; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/once-ui-system/tavilio-grok-plugin.git",
+        "sha": "b73bdc1e7ca3e5b1b880d6ed90879f6f7ac32ae2"
+      },
+      "homepage": "https://www.tavilio.app",
+      "keywords": ["tavilio", "tavilio bookings", "tavilio venue", "tavilio mcp"],
+      "domains": ["tavilio.app", "www.tavilio.app"]
     }
   ]
 }
