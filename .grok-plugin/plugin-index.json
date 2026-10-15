@@ -843,7 +843,7 @@
       }
     },
     "saymd": {
-      "sha": "73a175a3c169fd28999d479013f6a683f2f9615a",
+      "sha": "98924ce499a2874e34d67ffc3bbf3fb46dafd6a0",
       "version": "0.1.2",
       "components": {
         "commands": [
