@@ -447,6 +447,20 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "aiapplyd",
+      "description": "Find jobs matched to your resume, tailor each application, and apply on employers' own hiring sites across 34 hiring systems. Send automatically or review first, track employer confirmations, read and answer recruiter replies, follow up, save searches, and prepare for interviews. Connect your AI Applyd account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aiapplyd/aiapplyd-mcp.git",
+        "sha": "8a3fa3f267ca27428ef2f08b56c37af926901dce",
+        "path": "plugins/aiapplyd"
+      },
+      "homepage": "https://aiapplyd.com/mcps",
+      "keywords": ["ai applyd", "aiapplyd", "ai applyd jobs", "ai applyd auto-apply", "aiapplyd resume", "aiapplyd cover letter", "aiapplyd interview", "aiapplyd application tracking"],
+      "domains": ["aiapplyd.com", "mcp.aiapplyd.com"]
     }
   ]
 }

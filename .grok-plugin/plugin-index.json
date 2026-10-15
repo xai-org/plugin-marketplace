@@ -1,6 +1,76 @@
 {
   "version": 1,
   "plugins": {
+    "aiapplyd": {
+      "sha": "8a3fa3f267ca27428ef2f08b56c37af926901dce",
+      "version": "1.9.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aiapplyd",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "apply-to-a-job",
+            "description": "Send a real job application with AI Applyd. It tailors the resume and cover letter, then fills in and submits the emplo…"
+          },
+          {
+            "name": "build-resume-document",
+            "description": "Create a private editable resume draft in the AI Applyd resume builder. Use this skill whenever the user wants a format…"
+          },
+          {
+            "name": "find-matching-jobs",
+            "description": "Find jobs that fit the user with AI Applyd, save or skip them, and change what it looks for. Use this skill whenever th…"
+          },
+          {
+            "name": "follow-up-on-applications",
+            "description": "Follow up with employers on applications that have gone quiet, using AI Applyd. Use this skill whenever the user asks w…"
+          },
+          {
+            "name": "handle-recruiter-replies",
+            "description": "Read the emails employers sent about the user's applications, explain what each employer wants, and send the user's rep…"
+          },
+          {
+            "name": "manage-saved-searches",
+            "description": "Save the user's current AI Applyd job preferences as a named search and turn email alerts for its new matches on or off…"
+          },
+          {
+            "name": "prepare-for-interview",
+            "description": "Prepare for a specific job interview with AI Applyd and practice answers grounded in the user's experience. Use this sk…"
+          },
+          {
+            "name": "review-and-send",
+            "description": "Review the applications AI Applyd prepared, change them, and send the ones the user approves. Use this skill whenever t…"
+          },
+          {
+            "name": "setup-job-search",
+            "description": "Set up an AI Applyd account for job matching with the user's resume and job preferences. Use this skill whenever the us…"
+          },
+          {
+            "name": "tailor-for-a-job",
+            "description": "Score and tailor the user's resume to one job posting with AI Applyd. Use this skill whenever the user asks how well th…"
+          },
+          {
+            "name": "track-applications",
+            "description": "Check where the user's job applications stand with AI Applyd, which employers confirmed them, and how many applications…"
+          },
+          {
+            "name": "translate-resume",
+            "description": "Translate the user's resume into another language with AI Applyd, from a resume shared in the chat, the resume on file…"
+          },
+          {
+            "name": "using-ai-applyd",
+            "description": "Map of the AI Applyd tools. It says which tool fits each job-search request, in what order to call them, which actions…"
+          },
+          {
+            "name": "write-cover-letter",
+            "description": "Write or revise a cover letter for one job with AI Applyd. Use this skill whenever the user asks for a cover letter, a…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
