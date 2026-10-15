@@ -1620,6 +1620,28 @@
         ]
       }
     },
+    "walletfollow": {
+      "sha": "0c68b925285e8ab833a3be4a2ef5e6b6071b4ddf",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "walletfollow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "walletfollow-connect",
+            "description": "Connect or troubleshoot the WalletFollow research plugin in Claude or Codex, including OAuth, API permissions and quota…"
+          },
+          {
+            "name": "walletfollow-research",
+            "description": "Research Hyperliquid wallets, market observations, published copy portfolios and permitted WalletFollow account reports…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",
