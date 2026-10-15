@@ -423,8 +423,8 @@
       }
     },
     "gdex": {
-      "sha": "073f01eb2cb727a92b33c330ad8dd1500b26e405",
-      "version": "4.11.3",
+      "sha": "62acf7af3c2b91edd9d69a05ea1f25497ba36a8c",
+      "version": "4.11.4",
       "components": {
         "mcpServers": [
           {
