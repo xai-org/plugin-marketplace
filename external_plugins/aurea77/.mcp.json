@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aurea77": {
+      "type": "http",
+      "url": "https://api.aurea77.com/mcp/aurea77-grok"
+    }
+  }
+}

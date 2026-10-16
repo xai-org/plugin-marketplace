@@ -449,17 +449,23 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
-      "name": "clerk",
-      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
-      "category": "development",
+      "name": "aurea77",
+      "description": "Aurea77 athlete-account workflows for sporting events, preparation, recorded registrations and results, equipment, and insights.",
+      "category": "productivity",
       "source": {
-        "source": "url",
-        "url": "https://github.com/clerk/skills.git",
-        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
+        "type": "local",
+        "path": "./external_plugins/aurea77"
       },
-      "homepage": "https://clerk.com/docs",
-      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
-      "domains": ["clerk.com", "dashboard.clerk.com"]
+      "homepage": "https://aurea77.com",
+      "keywords": [
+        "aurea77",
+        "aurea77 events",
+        "aurea77 equipment"
+      ],
+      "domains": [
+        "aurea77.com",
+        "api.aurea77.com"
+      ]
     }
   ]
 }
