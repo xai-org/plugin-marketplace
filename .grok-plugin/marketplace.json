@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "empiriolabs",
+      "description": "Official EmpirioLabs AI integration. Run 200+ AI models as tools through the EmpirioLabs AI remote MCP server: chat, image, video, speech, music and 3D generation, web search with citations, batches and async jobs, GPU Cloud and hosted agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EmpirioLabs-AI/mcp.git",
+        "sha": "998a1a7bc5f473d5dbe39b6991166ac4a62a3081"
+      },
+      "homepage": "https://docs.empiriolabs.ai/mcp",
+      "keywords": ["empiriolabs", "empiriolabs ai", "empiriolabs models", "empiriolabs image generation", "empiriolabs video generation", "empiriolabs mcp"],
+      "domains": ["empiriolabs.ai", "mcp.empiriolabs.ai", "api.empiriolabs.ai", "docs.empiriolabs.ai", "platform.empiriolabs.ai"]
     }
   ]
 }
