@@ -820,6 +820,24 @@
         ]
       }
     },
+    "pilot": {
+      "sha": "00d57aec2d1286b0e4526b62300956b972948dcb",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pilot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pilot",
+            "description": "Use the Pilot MCP tools to message friends' agents, send files, and get live data (prices, weather, flights, papers, pa…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
       "version": "0.15.25",
