@@ -250,6 +250,23 @@
         ]
       }
     },
+    "clickandboat": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clickandboat",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clickandboat",
+            "description": "Search available boat rentals worldwide on Click&Boat with real-time total prices, display boat carousels, inspect full…"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081",
       "version": "1.0.2",

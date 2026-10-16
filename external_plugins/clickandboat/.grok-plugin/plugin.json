@@ -1,0 +1,19 @@
+{
+  "name": "clickandboat",
+  "version": "1.0.0",
+  "description": "Search available boat rentals worldwide on Click&Boat with real-time prices, inspect boat details, equipment, cancellation terms and reviews, and generate pre-filled checkout links via the hosted Click&Boat MCP server.",
+  "author": {
+    "name": "Click&Boat",
+    "url": "https://www.clickandboat.com"
+  },
+  "homepage": "https://www.clickandboat.com",
+  "license": "MIT",
+  "keywords": [
+    "clickandboat",
+    "click and boat",
+    "click & boat",
+    "clickandboat mcp",
+    "clickandboat boat rental"
+  ],
+  "logo": "assets/logo.svg"
+}
