@@ -753,6 +753,40 @@
         ]
       }
     },
+    "npmscan": {
+      "sha": "5cbf977cfe0d30f5b85dc22136005734c204920d",
+      "version": "3.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "npmscan",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ci-pr-gate",
+            "description": "Turn a dependency change — a before/after package.json/lockfile snapshot, or one or more named \"bump X from A to B\" upg…"
+          },
+          {
+            "name": "dependency-audit",
+            "description": "Audit a project's npm dependencies for known vulnerabilities and risky install scripts before installing, upgrading, or…"
+          },
+          {
+            "name": "incident-response",
+            "description": "Turn a flagged npm supply-chain finding — or just a vague, non-technical description of one (\"this package looks sketch…"
+          },
+          {
+            "name": "new-dependency-evaluation",
+            "description": "Help decide what to add as a NEW npm dependency — comparing 2-5 named candidates for the same job, evaluating one named…"
+          },
+          {
+            "name": "package-trust-check",
+            "description": "Investigate whether one specific npm package is trustworthy — maintainer/ownership takeover signals, publish-provenance…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

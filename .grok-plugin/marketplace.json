@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "npmscan",
+      "description": "Official NPMScan integration (MCP server + skills). Check npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers, risky install scripts, and publish provenance before installing; audit a package.json, lockfile, SBOM, or GitHub repo; compare candidate packages; and get prioritized remediation, incident-response playbooks, and a CI-ready PASS/WARN/FAIL gate. Uses npmscan.com's free, read-only MCP server; no account or API key needed.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/salemalem/npmscan-mcp-plugin.git",
+        "sha": "5cbf977cfe0d30f5b85dc22136005734c204920d"
+      },
+      "homepage": "https://npmscan.com/docs/mcp",
+      "keywords": ["npmscan", "npmscan mcp", "npmscan audit", "npmscan package check", "npmscan supply chain"],
+      "domains": ["npmscan.com"]
     }
   ]
 }
