@@ -460,6 +460,24 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "scovell",
+      "description": "Sanctions, PEP and adverse-media screening with reviewable records through Scovell by Rotunda. Sign in with an approved Scovell account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/scovell"
+      },
+      "homepage": "https://scovell.rotundahq.com",
+      "keywords": [
+        "scovell",
+        "scovell screening",
+        "rotunda scovell"
+      ],
+      "domains": [
+        "scovell.rotundahq.com"
+      ]
     }
   ]
 }

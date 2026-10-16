@@ -1074,6 +1074,17 @@
         ]
       }
     },
+    "scovell": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scovell",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",
