@@ -1,0 +1,13 @@
+{
+  "name": "tripsy",
+  "version": "1.0.0",
+  "description": "Plan trips and manage itineraries, stays, transport, activities, expenses, and documents through Tripsy's hosted MCP server. Connect with your Tripsy account using OAuth.",
+  "author": {
+    "name": "Tripsy",
+    "url": "https://github.com/tripsyapp"
+  },
+  "homepage": "https://tripsy.app",
+  "repository": "https://github.com/tripsyapp/cli",
+  "license": "MIT",
+  "keywords": ["tripsy", "tripsy mcp", "tripsy itinerary"]
+}
