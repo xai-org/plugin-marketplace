@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "notfair",
+      "description": "NotFair marketing workspace for Grok Build. Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, GoHighLevel, and WordPress through one hosted OAuth MCP, and run open-source SEO, GEO, and content skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nowork-studio/notfair-plugin.git",
+        "sha": "5094263b522165647789e9594406bb3ce096c5fe"
+      },
+      "homepage": "https://notfair.co",
+      "keywords": ["notfair", "notfair ads", "notfair mcp", "notfair seo", "notfair marketing"],
+      "domains": ["notfair.co"]
     }
   ]
 }
