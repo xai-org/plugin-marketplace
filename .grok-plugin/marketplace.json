@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "voicelab",
+      "description": "Speech AI for agents via the hosted VoiceLab MCP (33 tools): text-to-speech, speech-to-text with timing, dubbing, voice isolation, meetings, and agents in Uzbek, Russian, and English.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voicelab-uz/grok-plugin.git",
+        "sha": "81477874ff5cf5cbee4c1eb3cf6c5697207eab1a"
+      },
+      "homepage": "https://voicelab.uz",
+      "keywords": ["voicelab", "aisha", "voicelab tts", "voicelab stt", "voicelab mcp"],
+      "domains": ["voicelab.uz", "docs.voicelab.uz", "mcp.voicelab.uz"]
     }
   ]
 }

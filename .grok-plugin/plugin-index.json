@@ -1723,6 +1723,18 @@
         ]
       }
     },
+    "voicelab": {
+      "sha": "81477874ff5cf5cbee4c1eb3cf6c5697207eab1a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voicelab",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",
