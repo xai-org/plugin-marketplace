@@ -654,6 +654,23 @@
         ]
       }
     },
+    "ncstatutes": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ncstatutes",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ncstatutes",
+            "description": "Look up the North Carolina General Statutes through the ncstatutes MCP server: read a section by citation, search the s…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
