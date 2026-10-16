@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "string-web-access",
+      "description": "Search the web, fetch any URL or send it a request, and map a site's URLs — all returned as clean, LLM-ready Markdown.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/usestring/string-grok-plugin.git",
+        "sha": "0b53f04bdc189deda9b5a08d756c0f1026c8624e"
+      },
+      "homepage": "https://usestring.ai",
+      "keywords": ["string web access", "usestring"],
+      "domains": ["usestring.ai", "portal.usestring.ai", "mcp.usestring.ai", "request.usestring.ai"]
     }
   ]
 }
