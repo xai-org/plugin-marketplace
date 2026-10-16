@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "pipe0",
+      "description": "Prospect leads, enrich contacts with work emails and phone numbers, and build GTM automations with pipe0.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pipe-0/grokbot-plugin.git",
+        "sha": "c127aaddeea86c72021b253b825a609a70f15a4d"
+      },
+      "homepage": "https://pipe0.com/docs/sdks/mcp",
+      "keywords": ["pipe0", "pipe0 mcp", "pipe0 sheets", "pipe0 enrichment", "pipe0 search"],
+      "domains": ["pipe0.com", "api.pipe0.com"]
     }
   ]
 }
