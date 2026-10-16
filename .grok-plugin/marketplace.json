@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "horizon-shield",
+      "description": "Check Japanese construction and renovation estimates against the open JCCDB dataset (526,128 records, CC BY 4.0), get fair-price receipts anyone can recompute, spot overcharge wording, and find contractors that passed the same independent check; also U.S. public construction cost data (USCCDB). Remote MCP servers, no API key. Two tools append a record to a public ledger; the rest only read.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/horizonshield/horizon-shield-plugin.git",
+        "sha": "b3981fc5e21dc295ec52d8128d5ade0c1b1b2dc4"
+      },
+      "homepage": "https://shield.the-horizons-innovation.com",
+      "keywords": ["horizon shield", "horizonshield", "jccdb", "usccdb", "yakumo contractors"],
+      "domains": ["shield.the-horizons-innovation.com", "mcp.horizonshield.dev", "hearing.horizonshield.dev"]
     }
   ]
 }
