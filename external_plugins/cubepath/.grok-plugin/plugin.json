@@ -1,0 +1,22 @@
+{
+  "name": "cubepath",
+  "version": "1.1.0",
+  "description": "Manage your CubePath cloud infrastructure from Grok Build through the hosted CubePath MCP server: servers and their metrics, DNS, CDN, networking, Kubernetes, managed databases and object storage. Sign in with your CubePath account on first connect.",
+  "author": {
+    "name": "CubePath",
+    "email": "support@cubepath.com",
+    "url": "https://cubepath.com"
+  },
+  "homepage": "https://mcp.cubepath.com",
+  "license": "Proprietary",
+  "keywords": [
+    "cubepath",
+    "cubepath cloud",
+    "cubepath mcp",
+    "cubepath vps",
+    "cubepath dns",
+    "cubepath cdn",
+    "cubepath kubernetes"
+  ],
+  "logo": "assets/logo.png"
+}
