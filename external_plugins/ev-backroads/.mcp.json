@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ev-backroads": {
+      "type": "http",
+      "url": "https://evbackroads-mcp.sean-1b3.workers.dev/mcp"
+    }
+  }
+}

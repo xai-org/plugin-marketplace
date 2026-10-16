@@ -1,0 +1,15 @@
+{
+  "name": "ev-backroads",
+  "version": "1.0.0",
+  "description": "Search 200 EV Backroads public trails; get road approach links for Shafer Trail and Elephant Hill only. Other 198 entries have no verified directions.",
+  "author": {
+    "name": "EV Backroads",
+    "url": "https://www.evbackroads.com"
+  },
+  "homepage": "https://www.evbackroads.com",
+  "license": "MIT",
+  "keywords": [
+    "ev backroads",
+    "evbackroads"
+  ]
+}
