@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "flixter",
+      "description": "Flixter AI film and series production studio. Connect with OAuth 2.1 to Flixter's hosted MCP to manage productions, cast, locations, props, costumes, episodes, scenes, and shots, and queue priced render batches for approval in Flixter's task manager.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/golan-adept/flixter-grok-plugin.git",
+        "sha": "e1edc1d685fc68212f0ea14627cfe1f25edea7a3"
+      },
+      "homepage": "https://flixter.ai",
+      "keywords": ["flixter", "flixter mcp", "flixter studio"],
+      "domains": ["flixter.ai", "api.flixter.ai"]
     }
   ]
 }
