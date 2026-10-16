@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "fplai",
+      "description": "FPLai (fplai.app) Fantasy Premier League assistant (hosted MCP server + skills). Review your squad, compare players and read saved gameweek analyses. Sign in with your FPLai account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FPLai-app/fplai-grok-plugin.git",
+        "sha": "ee3ca3005bd12866695d2445763c9f7dc0d537b2"
+      },
+      "homepage": "https://fplai.app",
+      "keywords": ["fplai", "fplai.app", "fplai fantasy premier league", "fplai fpl assistant"],
+      "domains": ["fplai.app", "www.fplai.app", "mcp.fplai.app"]
     }
   ]
 }
