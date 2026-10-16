@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "mailtea",
+      "description": "Mailtea email platform integration. Send transactional email, schedule and publish newsletters, manage contacts and senders, verify sending domains, and check delivery, with skills for email design and publication websites, directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mailtea-app/mailtea-agent-plugin.git",
+        "sha": "004880cc3ca62327946cb6432a52676843e6dec8"
+      },
+      "homepage": "https://github.com/mailtea-app/mailtea-agent-plugin",
+      "keywords": ["mailtea", "mailtea email", "mailtea newsletter", "send with mailtea"],
+      "domains": ["mailtea.app", "docs.mailtea.app", "api.mailtea.app"]
     }
   ]
 }
