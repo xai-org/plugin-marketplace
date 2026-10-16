@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "sleek",
+      "description": "Design your mobile app UI with AI, then have your coding agent build the real app from it. Sleek's hosted MCP server (OAuth) lets Grok Build create projects, run Sleek's design agent to generate or edit iOS and Android screens, render them as images, and fetch each screen's HTML to build from.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sleekdotdesign/mcp.git",
+        "sha": "f02ec5c822216e4638847580d458e9785f22f119"
+      },
+      "homepage": "https://sleek.design/agents",
+      "keywords": ["sleek.design", "sleek design", "sleek mcp"],
+      "domains": ["sleek.design"]
     }
   ]
 }
