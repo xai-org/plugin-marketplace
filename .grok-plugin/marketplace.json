@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "schedulin",
+      "description": "Social media scheduling via Schedulin's hosted MCP. Draft, schedule, queue and publish posts to TikTok, Instagram, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Reddit and Telegram; manage media and tags; and read post analytics. Sign in with your Schedulin account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/schedulin"
+      },
+      "homepage": "https://www.schedulin.app/mcp",
+      "keywords": ["schedulin", "schedulin.app", "schedulin mcp"],
+      "domains": ["schedulin.app", "www.schedulin.app", "mcp.schedulin.app", "api.schedulin.app"]
     }
   ]
 }
