@@ -378,6 +378,24 @@
         ]
       }
     },
+    "famulor": {
+      "sha": "49d10588f1c9d5b10744b5d4db3fa64c10f31e60",
+      "version": "2.1.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "famulor",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "famulor-skill",
+            "description": "Operate a Famulor workspace through its hosted MCP server, including assistants, conversation history, campaigns, messa…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
       "version": "2.2.157",

@@ -397,6 +397,19 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "famulor",
+      "description": "Operate Famulor assistants, calls, campaigns, messaging, telephony, knowledge, dashboards, automations, and workspace settings through the OAuth-secured MCP server and guided skill.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bekservice/Famulor-Skill.git",
+        "sha": "49d10588f1c9d5b10744b5d4db3fa64c10f31e60"
+      },
+      "homepage": "https://docs.famulor.io/mcp/overview",
+      "keywords": ["famulor", "famulor assistants", "famulor voice agents", "famulor mcp"],
+      "domains": ["famulor.io", "app.famulor.io", "docs.famulor.io"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
