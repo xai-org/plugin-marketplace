@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "mrscraper",
+      "description": "MrScraper web scraping (MCP Server + Skills). Retrieve public web pages as HTML, Markdown, or screenshots through MrScraper's Scraper API, discover pages through Google search, and check account token usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mrscraper-com/mrscraper-grok-plugin.git",
+        "sha": "ff2e700f6200400d0467a1365dff5652c22db987",
+        "path": "plugins/mrscraper"
+      },
+      "homepage": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "keywords": ["mrscraper", "mr scraper", "mrscraper mcp"],
+      "domains": ["mrscraper.com", "app.mrscraper.com", "docs.mrscraper.com"]
     }
   ]
 }

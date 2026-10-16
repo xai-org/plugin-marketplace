@@ -654,6 +654,32 @@
         ]
       }
     },
+    "mrscraper": {
+      "sha": "ff2e700f6200400d0467a1365dff5652c22db987",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mrscraper",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mrscraper",
+            "description": "Connect, authenticate, route, and troubleshoot MrScraper MCP, and check account usage with the status tool. For known p…"
+          },
+          {
+            "name": "mrscraper-fetch",
+            "description": "Retrieve a known public URL with MrScraper's scraperAPI tool as HTML, Markdown, a screenshot, or a combination. Use for…"
+          },
+          {
+            "name": "mrscraper-serp",
+            "description": "Discover public pages through Google with MrScraper's webSearch tool using a search query or Google search URL. Use whe…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
