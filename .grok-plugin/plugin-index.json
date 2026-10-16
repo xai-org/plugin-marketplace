@@ -115,8 +115,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
-      "version": "1.10.1",
+      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
+      "version": "1.11.0",
       "components": {
         "mcpServers": [
           {
@@ -152,6 +152,100 @@
           {
             "name": "troubleshooting",
             "description": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_p…"
+          }
+        ]
+      }
+    },
+    "clerk": {
+      "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clerk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clerk",
+            "description": "Clerk authentication router. Use when user asks about Clerk CLI operations,"
+          },
+          {
+            "name": "clerk-android",
+            "description": "Implement Clerk authentication for native Android apps using Kotlin and"
+          },
+          {
+            "name": "clerk-astro-patterns",
+            "description": "'Astro patterns with Clerk — middleware, SSR pages, island components,"
+          },
+          {
+            "name": "clerk-backend-api",
+            "description": "Clerk Backend REST API explorer and executor. Browse tags, inspect endpoint schemas, and execute authenticated requests…"
+          },
+          {
+            "name": "clerk-billing",
+            "description": "Clerk Billing for subscription management - render Clerk's PricingTable"
+          },
+          {
+            "name": "clerk-chrome-extension-patterns",
+            "description": "'Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel"
+          },
+          {
+            "name": "clerk-cli",
+            "description": "Operate the Clerk CLI (`clerk` binary) for authentication, user/org/session management, impersonation, local webhook te…"
+          },
+          {
+            "name": "clerk-custom-ui",
+            "description": "Custom authentication flows and component appearance - hooks (useSignIn,"
+          },
+          {
+            "name": "clerk-expo",
+            "description": "Add Clerk authentication to Expo and React Native apps using @clerk/expo."
+          },
+          {
+            "name": "clerk-nextjs-patterns",
+            "description": "Advanced Next.js patterns - middleware, Server Actions, caching with"
+          },
+          {
+            "name": "clerk-nuxt-patterns",
+            "description": "'Nuxt 3 auth patterns with @clerk/nuxt - middleware, composables, server"
+          },
+          {
+            "name": "clerk-orgs",
+            "description": "Clerk Organizations for B2B and multi-tenant apps - org switching,"
+          },
+          {
+            "name": "clerk-react-patterns",
+            "description": "'React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider"
+          },
+          {
+            "name": "clerk-react-router-patterns",
+            "description": "'React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders,"
+          },
+          {
+            "name": "clerk-setup",
+            "description": "Set up Clerk authentication in any project with the Clerk CLI and official framework quickstarts. Use when adding Clerk…"
+          },
+          {
+            "name": "clerk-swift",
+            "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit"
+          },
+          {
+            "name": "clerk-tanstack-patterns",
+            "description": "'TanStack React Start auth patterns with @clerk/tanstack-react-start"
+          },
+          {
+            "name": "clerk-testing",
+            "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow"
+          },
+          {
+            "name": "clerk-vue-patterns",
+            "description": "'Vue 3 patterns with Clerk — composables (useAuth, useUser,"
+          },
+          {
+            "name": "clerk-webhooks",
+            "description": "Clerk webhooks for real-time events and data syncing. Verify with verifyWebhook"
           }
         ]
       }
@@ -285,8 +379,8 @@
       }
     },
     "figma": {
-      "sha": "f0493295acf5f7cbdebcbcc483c06de814420cb1",
-      "version": "2.2.127",
+      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
+      "version": "2.2.157",
       "components": {
         "mcpServers": [
           {
@@ -298,6 +392,10 @@
           {
             "name": "figma-code-connect",
             "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
+          },
+          {
+            "name": "figma-code-workflows",
+            "description": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standal…"
           },
           {
             "name": "figma-create-new-file",
@@ -330,6 +428,10 @@
           {
             "name": "figma-shaders",
             "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
+          },
+          {
+            "name": "figma-spec",
+            "description": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD…"
           },
           {
             "name": "figma-swiftui",
@@ -434,9 +536,31 @@
         ]
       }
     },
+    "html-css-to-image": {
+      "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hcti",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hcti-image-generation",
+            "description": "Let AI agents capture live website screenshots, render HTML/CSS, and populate reusable templates as images or PDFs—with…"
+          },
+          {
+            "name": "hcti-open-graph-images",
+            "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
-      "sha": "a97286845f2baba38988f9e5fe2b2a1351021e50",
-      "version": "0.0.193",
+      "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
+      "version": "0.0.194",
       "components": {
         "skills": [
           {
@@ -658,8 +782,47 @@
         ]
       }
     },
+    "pi-security": {
+      "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pi-security",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ingest-markdown-report",
+            "description": "Submit one security report to Pi from inline Markdown and a .md or .markdown filename after tenant verification and fre…"
+          },
+          {
+            "name": "investigate-finding",
+            "description": "Investigate Pi Security findings by listing, locating, explaining, summarizing, or comparing exact FND-XXX IDs, UUIDs,…"
+          },
+          {
+            "name": "remediation-guidance",
+            "description": "Fetch existing Pi remediation guidance for a finding or vulnerable package, and optionally prepare one missing package…"
+          },
+          {
+            "name": "review-security-posture",
+            "description": "Review Pi Security posture by combining threat-model application context with Code Gatekeeper pull-request and issue re…"
+          },
+          {
+            "name": "secure-development-playbook",
+            "description": "Retrieve Pi secure-development guidance once for a stable engineering task, reconcile it with current repository eviden…"
+          },
+          {
+            "name": "security-design-review",
+            "description": "Start one Pi Security design review from a supported Confluence or Notion URL or inline Markdown after tenant verificat…"
+          }
+        ]
+      }
+    },
     "pstack": {
-      "sha": "1b6d44ff26d4e242f4e8f68c391e6d2f7ca16def",
+      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+      "version": "0.15.25",
       "components": {
         "agents": [
           {
@@ -721,12 +884,16 @@
             "description": "Use for \\\"how does X work\\\", code walkthroughs before changing something, and placement / ownership / layering question…"
           },
           {
+            "name": "in-your-own-words",
+            "description": "Restate in your own words what you think the user's goals are and what problem they're trying to solve. Use for /in-you…"
+          },
+          {
             "name": "interrogate",
             "description": "Use for \\\"interrogate\\\", \\\"adversarial review\\\", \\\"multi-model review\\\", \\\"challenge this\\\", \\\"stress test this code\\\",…"
           },
           {
             "name": "ketchup",
-            "description": "Catch the user up on everything in this chat since their last message, in plain words. Give each action item an executi…"
+            "description": "Catch the user up on what changed in this chat since their last message, in a few plain sentences and small visuals. Gi…"
           },
           {
             "name": "maintain-verification-skill",
@@ -742,7 +909,7 @@
           },
           {
             "name": "principle-attack-the-premise",
-            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Write the premise down and test it direc…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -770,7 +937,7 @@
           },
           {
             "name": "principle-fix-root-causes",
-            "description": "Apply when debugging. Trace each symptom to its root cause and fix it there; reproduce first, ask why until you reach i…"
+            "description": "Apply when debugging. Trace each symptom back to the first place the system went wrong and fix it there. A guard is a f…"
           },
           {
             "name": "principle-foundational-thinking",
@@ -830,7 +997,7 @@
           },
           {
             "name": "principle-test-behavior-not-implementation",
-            "description": "Apply when you write, change, or keep a test. Call the code as its users do and assert the exact result they see. Rewri…"
+            "description": "Apply when you write, change, or keep a test. Assert what the code's users can observe, so that the test fails when tha…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -849,6 +1016,10 @@
             "description": "Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an a…"
           },
           {
+            "name": "sharpen",
+            "description": "Sharpen a task before starting: the expert approach, what the user is really after, and the right level of specificatio…"
+          },
+          {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
           },
@@ -863,14 +1034,6 @@
           {
             "name": "teach",
             "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
-          },
-          {
-            "name": "technical-writing",
-            "description": "Layered technical-writing standard: Diátaxis structure, Google developer style sentences, STE instruction rules, Global…"
-          },
-          {
-            "name": "typescript-best-practices",
-            "description": "TypeScript best practices. Use when reading or editing any .ts or .tsx file."
           }
         ]
       }
@@ -888,8 +1051,8 @@
       }
     },
     "railway": {
-      "sha": "4db2ee90245d61be0ffea28280164373ac3f96c0",
-      "version": "1.6.1",
+      "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
+      "version": "1.7.0",
       "components": {
         "hooks": [
           {
@@ -912,8 +1075,8 @@
       }
     },
     "sentry": {
-      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
-      "version": "1.4.3",
+      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
+      "version": "1.4.5",
       "components": {
         "mcpServers": [
           {
@@ -957,9 +1120,27 @@
         ]
       }
     },
+    "skyvern": {
+      "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skyvern",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skyvern",
+            "description": "Drive a real cloud browser with the Skyvern MCP tools. Use when a task needs a live website: opening JavaScript-rendere…"
+          }
+        ]
+      }
+    },
     "slatemark": {
-      "sha": "6035ab8b5c2004e2bb88ad4f226deedddc1a09ac",
-      "version": "2.1.1",
+      "sha": "74477c4720c22232a2d41429f8d96b05796081c9",
+      "version": "2.1.2",
       "components": {
         "commands": [
           {
@@ -1002,8 +1183,8 @@
       }
     },
     "stripe": {
-      "sha": "15e3db59ba17ff4ff08d787333ea803b47f38674",
-      "version": "0.9.16",
+      "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
+      "version": "0.9.20",
       "components": {
         "agents": [
           {
@@ -1072,8 +1253,8 @@
       }
     },
     "supabase": {
-      "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151",
-      "version": "0.1.16",
+      "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
+      "version": "0.1.17",
       "components": {
         "mcpServers": [
           {
@@ -1214,8 +1395,8 @@
       }
     },
     "tinyfish": {
-      "sha": "df5734f8ff3affa362c29ed3e1980add8b4d1372",
-      "version": "1.1.0",
+      "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
+      "version": "1.1.1",
       "components": {
         "mcpServers": [
           {
