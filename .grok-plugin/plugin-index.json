@@ -1138,6 +1138,50 @@
         ]
       }
     },
+    "slatemark": {
+      "sha": "74477c4720c22232a2d41429f8d96b05796081c9",
+      "version": "2.1.2",
+      "components": {
+        "commands": [
+          {
+            "name": "catalyst-map",
+            "description": "Map sourced events in a requested window, preserving estimated dates and coverage gaps."
+          },
+          {
+            "name": "earnings-setup",
+            "description": "Review an earnings event using sourced dates, current option premiums, and supported historical reactions."
+          },
+          {
+            "name": "position-review",
+            "description": "Review current evidence against a held position's recorded thesis and framework rules."
+          },
+          {
+            "name": "post-mortem",
+            "description": "Review a completed trade against recorded intent and preserve the user's own explanation."
+          },
+          {
+            "name": "pre-trade-brief",
+            "description": "Review a proposed trade against relevant evidence, the user's framework, and recorded intent."
+          },
+          {
+            "name": "regime-check",
+            "description": "Review the cross-asset backdrop using Slatemark's composite read, the cross-asset panel, and relevant follow-ups."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "slatemark",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analytical-framework",
+            "description": "Use this skill for market research or trading questions when the Slatemark tools are connected. Triggers include: marke…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
       "version": "0.9.20",

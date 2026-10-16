@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "slatemark",
+      "description": "Check your risk before you take the trade. Connect a supported AI client to delayed market data, technical calculations, SEC filings, and macroeconomic research. Your private journal and installed skills are optional context. Slatemark supplies factual tool results; your AI client creates the response. Available tools depend on plan and configuration. A Slatemark account is required; Free includes one active AI-client connection.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pdassoc-io/slatemark-plugin.git",
+        "sha": "74477c4720c22232a2d41429f8d96b05796081c9",
+        "path": "plugin"
+      },
+      "homepage": "https://slatemark.ai",
+      "keywords": ["slatemark", "slatemark-mcp", "slatemark-journal"],
+      "domains": ["slatemark.ai"]
     }
   ]
 }
