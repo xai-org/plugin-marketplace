@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "hermoso",
+      "description": "Hermoso marketing skills for Grok: research the ads already winning in a market, generate on-brand image and video ads, publish and schedule to your own social channels, and run paid campaigns, all through the hermoso CLI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hermoso-ai/hermoso.git",
+        "sha": "9a5c04d200737960fad649e0977d1a97386b746d"
+      },
+      "homepage": "https://hermoso.ai",
+      "keywords": ["hermoso", "hermoso ads", "hermoso mcp", "hermoso cli"],
+      "domains": ["hermoso.ai", "app.hermoso.ai"]
     }
   ]
 }
