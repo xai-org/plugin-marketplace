@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "mcp-conduct-register",
+      "description": "Before you connect an MCP server or trust an AI agent, see how it behaved when it was measured: verdicts from the HORIZON SHIELD conduct register (what passed, and what a verdict does not claim), its Bitcoin-anchored NENRIN history from the gate and outside witnesses, and how to recompute every record yourself. Read-only remote MCP servers, no API key.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/horizonshield/mcp-conduct-register-plugin.git",
+        "sha": "a4185c270c8da875147d128ee85bd34854529a6a"
+      },
+      "homepage": "https://shield.the-horizons-innovation.com/verify-directory/",
+      "keywords": ["mcp conduct register", "horizon shield", "horizonshield", "nenrin", "jidec ledger"],
+      "domains": ["gate.horizonshield.dev", "jidec.horizonshield.dev", "ledger.horizonshield.dev"]
     }
   ]
 }
