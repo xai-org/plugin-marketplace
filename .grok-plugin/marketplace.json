@@ -468,7 +468,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/makepartsnow/makepartsnow-grok.git",
-        "sha": "b2223e505319d60cb79c33d2b273a0880fe1efaa"
+        "sha": "26c5605cc8e0c5a675d3ad6dc18931b43157c95c"
       },
       "homepage": "https://makepartsnow.com/developers#ai-assistants",
       "keywords": ["make parts now", "makepartsnow", "make parts now quote", "makepartsnow quote"],
