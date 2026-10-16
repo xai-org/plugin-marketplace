@@ -409,6 +409,19 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "desearch",
+      "description": "Desearch MCP server and skill for AI agents: AI search, X search and web search, plus page extraction and X data tools (15 tools). Bring your own Desearch API key from console.desearch.ai.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Desearch-ai/desearch-plugin.git",
+        "sha": "c610ee183c9db5ff3266ea968af67b9d69aff6d9"
+      },
+      "homepage": "https://www.desearch.ai",
+      "keywords": ["desearch", "bittensor subnet 22"],
+      "domains": ["desearch.ai", "www.desearch.ai", "console.desearch.ai", "mcp.desearch.ai"]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
