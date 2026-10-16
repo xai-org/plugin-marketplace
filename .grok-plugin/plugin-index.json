@@ -782,6 +782,18 @@
         ]
       }
     },
+    "optionkrafter": {
+      "sha": "536b8b78d1177f7e215651dc6e676f20e8295458",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "optionkrafter",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

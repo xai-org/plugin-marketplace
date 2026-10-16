@@ -460,6 +460,30 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "optionkrafter",
+      "description": "OptionKrafter options backtesting. Run a historical backtest of 13 strategies including the wheel on All US tickers \u2014 real option chains, minute by minute since April 2023 \u2014 and read the realistic result, with the pure-mid reference, back in chat. Sign in with your OptionKrafter account on first connect.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/optionkrafter/agent-plugin.git",
+        "sha": "536b8b78d1177f7e215651dc6e676f20e8295458"
+      },
+      "homepage": "https://optionkrafter.com/learn/connect",
+      "version": "1.0.2",
+      "author": {
+        "name": "OptionKrafter (SynapseSkytech LLC)"
+      },
+      "keywords": [
+        "optionkrafter",
+        "optionkrafter backtest",
+        "optionkrafter mcp"
+      ],
+      "domains": [
+        "optionkrafter.com",
+        "mcp.optionkrafter.com"
+      ]
     }
   ]
 }
