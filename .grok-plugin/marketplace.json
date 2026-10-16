@@ -460,6 +460,32 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "easygerber",
+      "description": "AI printed circuit board (PCB) design with EasyGerber: search published electronic components, edit schematics, generate layouts with automatic placement and routing, inspect 3D previews, and export Gerber manufacturing files, bills of materials (BOM), placement files, and editable EasyGerber designs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EasyGerber/easygerber-agent-plugin.git",
+        "sha": "ca459c87a43e91ae9bc92bafa713b179d2be0ece",
+        "path": "claude"
+      },
+      "homepage": "https://easygerber.com/agents",
+      "keywords": [
+        "easygerber",
+        "easy gerber",
+        "easygerber ai pcb design",
+        "easygerber circuit boards",
+        "easygerber schematic",
+        "easygerber pcb layout",
+        "easygerber gerber export",
+        "easygerber bom"
+      ],
+      "domains": [
+        "easygerber.com",
+        "www.easygerber.com"
+      ]
     }
   ]
 }

@@ -354,6 +354,24 @@
         ]
       }
     },
+    "easygerber": {
+      "sha": "ca459c87a43e91ae9bc92bafa713b179d2be0ece",
+      "version": "0.3.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "easygerber",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "easygerber",
+            "description": "Create, inspect, revise, and export EasyGerber circuit boards using its remote MCP tools, including boards based on fir…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
