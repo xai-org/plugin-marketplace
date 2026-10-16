@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "empiriolabs",
+      "description": "Official EmpirioLabs AI integration. Run 200+ AI models as tools through the EmpirioLabs AI remote MCP server: chat, image, video, speech, music and 3D generation, web search with citations, batches and async jobs, GPU Cloud and hosted agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EmpirioLabs-AI/mcp.git",
+        "sha": "6e733481bd6183a321a0009b9d5f55a8a22ab790"
+      },
+      "homepage": "https://docs.empiriolabs.ai/mcp",
+      "keywords": ["empiriolabs", "empiriolabs ai", "empiriolabs models", "empiriolabs image generation", "empiriolabs video generation", "empiriolabs mcp"],
+      "domains": ["empiriolabs.ai", "mcp.empiriolabs.ai", "api.empiriolabs.ai", "docs.empiriolabs.ai", "platform.empiriolabs.ai"]
     }
   ]
 }

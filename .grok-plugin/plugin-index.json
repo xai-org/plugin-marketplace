@@ -354,6 +354,18 @@
         ]
       }
     },
+    "empiriolabs": {
+      "sha": "6e733481bd6183a321a0009b9d5f55a8a22ab790",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "empiriolabs",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
