@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "clickandboat",
+      "description": "Click&Boat live boat and yacht rentals search (hosted MCP server + skill). Search available boats for rent worldwide with real-time prices, inspect boat details, equipment, cancellation terms and reviews, and generate pre-filled booking links. No sign-in required.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/clickandboat"
+      },
+      "homepage": "https://www.clickandboat.com",
+      "keywords": ["clickandboat", "click and boat", "click & boat", "clickandboat mcp", "clickandboat boat rental"],
+      "domains": ["clickandboat.com", "www.clickandboat.com"]
     }
   ]
 }
