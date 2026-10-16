@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605"
+        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
+        "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
+        "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66"
+        "sha": "b9875104d249a6a6f403e369140b679cfdb78e87"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
+        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
+        "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "38308b7bbc676a9e9d57795ad4793fa9682d1644"
+        "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -232,7 +232,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
+        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "af7c088ac40115e23ab5fa60b5b968d71e801b97",
+        "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
@@ -274,7 +274,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/supabase-community/supabase-plugin.git",
-        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
+        "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
       "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "fadd23794c0075468eb8964b0fd93e06e09486ad",
+        "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -365,7 +365,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+        "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -382,6 +382,84 @@
       "homepage": "https://enrichlabs.ai",
       "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "unity",
+      "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+      },
+      "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
+      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "calcom",
+      "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/calcom"
+      },
+      "homepage": "https://cal.com/docs/mcp-server",
+      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "skyvern",
+      "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skyvern-AI/skyvern-grok-plugin.git",
+        "sha": "6fae60f5476857b8e3796bd253854809851ebc3b"
+      },
+      "homepage": "https://www.skyvern.com",
+      "keywords": ["skyvern", "skyvern browser", "skyvern mcp"],
+      "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
+    },
+    {
+      "name": "html-css-to-image",
+      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
+        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+      },
+      "homepage": "https://htmlcsstoimage.com",
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
+    },
+    {
+      "name": "pi-security",
+      "description": "Official Pi Security integration (MCP Server + Skills). Investigate findings, review security posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pi-sloane/grok-plugin.git",
+        "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+        "path": "plugins/pi-security"
+      },
+      "homepage": "https://www.pi.security/",
+      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clerk/skills.git",
+        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
+      },
+      "homepage": "https://clerk.com/docs",
+      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
       "name": "gander",
