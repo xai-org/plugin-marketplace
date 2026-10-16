@@ -1723,6 +1723,10 @@
         ]
       }
     },
+    "verify-before-done": {
+      "sha": "ca8a3edded5606ac9005e2462df813fb466c520a",
+      "components": {}
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",
