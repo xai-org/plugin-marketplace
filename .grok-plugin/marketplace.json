@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "job-to-paid",
+      "description": "Quotes, change orders, invoices and payment follow-ups for trades and service businesses, in any currency or tax setup. Runs locally: no account, no server, no network calls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nettylabs/job-to-paid.git",
+        "sha": "7c4df311c84b3a24f18f455793b428a08e382a23"
+      },
+      "homepage": "https://github.com/nettylabs/job-to-paid",
+      "keywords": ["job to paid", "job-to-paid", "jobtopaid"]
     }
   ]
 }

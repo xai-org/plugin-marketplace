@@ -558,6 +558,36 @@
         ]
       }
     },
+    "job-to-paid": {
+      "sha": "7c4df311c84b3a24f18f455793b428a08e382a23",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "invoice",
+            "description": "Bill a finished job (quote + approved change orders + extras, progress, or time and materials) with Job to Paid."
+          },
+          {
+            "name": "job-to-paid-setup",
+            "description": "Set up Job to Paid for your business in about 5 minutes (business details, taxes, rates, payment methods, reminders)."
+          },
+          {
+            "name": "money-brief",
+            "description": "Who owes me, quotes waiting, unbilled work, and today's follow-ups ready for one-tap approval (Job to Paid)."
+          },
+          {
+            "name": "quote",
+            "description": "Turn a voice note, photos or rough notes into a professional quote (with good/better/best options) using Job to Paid."
+          }
+        ],
+        "skills": [
+          {
+            "name": "job-to-paid",
+            "description": "Quotes, change orders, invoices and getting paid for trades and service businesses (plumbers, electricians, HVAC, build…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
       "version": "0.0.194",
