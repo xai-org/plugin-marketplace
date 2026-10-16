@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "revyl": {
+      "sha": "3e53f47b6a9c8ee4aba1b8a05db86d63b628dffc",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "revyl-workspace",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "revyl-workspace",
+            "description": "Open a mobile app's Revyl Atlas map or a live cloud device session inside Grok, or start and stop a device session the…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "8ab90531580d3b2386a9bd2cd8969a1d1249b8e8",
       "version": "1.4.4",
