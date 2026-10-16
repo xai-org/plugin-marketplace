@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "mage",
+      "description": "Official Mage MCP connection and 27 creative skills for images, video, audio, product photography, ad variations, and consistent characters. Connect your Mage account with OAuth, estimate the cost in Gems, generate, and retrieve results.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mage-space/skills.git",
+        "sha": "5aef16d5ffeefb09e1e46a20a4adaf704575d841"
+      },
+      "homepage": "https://www.mage.space/mcp",
+      "keywords": ["mage", "mage.space", "mage mcp"],
+      "domains": ["mage.space", "www.mage.space", "mcp.mage.space", "docs.mage.space"]
     }
   ]
 }
