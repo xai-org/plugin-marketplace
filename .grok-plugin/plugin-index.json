@@ -1074,6 +1074,52 @@
         ]
       }
     },
+    "searcherries": {
+      "sha": "16f812afd7669ecc6220d533659e8c0c22be82b2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "searcherries",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "action-plan",
+            "description": "Prioritized next steps for a Searcherries project: up to five tasks with dated evidence, an owner and a success measure…"
+          },
+          {
+            "name": "competitor-gap",
+            "description": "Compare a Searcherries project with one competitor: the questions the competitor wins, what AI platforms praise it for,…"
+          },
+          {
+            "name": "content-gaps",
+            "description": "Pages to publish or update for a Searcherries project: the customer questions where the brand is missing from AI answer…"
+          },
+          {
+            "name": "geo-audit",
+            "description": "Full GEO audit of a Searcherries project: visibility score and change, the questions where the brand is invisible, the…"
+          },
+          {
+            "name": "improve-ai-visibility",
+            "description": "Use when the user wants AI assistants and AI search to recommend their brand more often, asks why competitors appear in…"
+          },
+          {
+            "name": "page-brief",
+            "description": "Brief for one page of the website, existing or planned: the search queries and AI questions it should answer, its curre…"
+          },
+          {
+            "name": "question-review",
+            "description": "Review the customer questions a Searcherries project tracks: which ones produce off-topic or brand-free AI answers, how…"
+          },
+          {
+            "name": "weekly-report",
+            "description": "One-page status report for a Searcherries project: AI visibility and named share against the previous period, search an…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",

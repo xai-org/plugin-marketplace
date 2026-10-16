@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "searcherries",
+      "description": "Connect Grok Build to your AI visibility and SEO data from Searcherries: how AI assistants answer your customers' questions, which competitors and sources they name, plus Google Search Console, Bing Webmaster Tools and GA4 AI-traffic data, with GEO workflows that turn the evidence into page changes. Sign in with your Searcherries account through the hosted OAuth MCP server; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eduardmur/searcherries-grok-plugin.git",
+        "sha": "16f812afd7669ecc6220d533659e8c0c22be82b2"
+      },
+      "homepage": "https://searcherries.com",
+      "keywords": ["searcherries", "ai visibility", "geo", "seo", "search console"],
+      "domains": ["searcherries.com", "app.searcherries.com"]
     }
   ]
 }
