@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "bubble",
+      "description": "Build and edit your Bubble apps with Grok: pages, elements, workflows, data types, and records, straight into your editor.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bubblegroup/bubble-for-agents.git",
+        "sha": "5165c720df5dafecc787f06ab8012bd0086e1b07"
+      },
+      "homepage": "https://manual.bubble.io/help-guides/ai/bubble-mcp",
+      "keywords": ["bubble.io", "bubble io", "bubble app", "bubble editor", "bubble mcp", "bubble no-code", "bubble workflow", "bubble backend workflow", "bubble plugin", "bubble page", "bubble element", "bubble data type", "bubble database", "bubble api", "bubble repeating group", "bubble workload units"],
+      "domains": ["bubble.io", "bubbleapps.io"]
     }
   ]
 }
