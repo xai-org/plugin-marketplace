@@ -1780,6 +1780,17 @@
           }
         ]
       }
+    },
+    "ternivo-connect": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ternivo-connect",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }

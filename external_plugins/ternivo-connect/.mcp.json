@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ternivo-connect": {
+      "type": "http",
+      "url": "https://app.ternivo.app/mcp"
+    }
+  }
+}
