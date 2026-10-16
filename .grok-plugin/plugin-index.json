@@ -1780,6 +1780,18 @@
           }
         ]
       }
+    },
+    "worklore": {
+      "sha": "cd2131bd93e8f1118608124299fba7af153ec928",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "worklore",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }

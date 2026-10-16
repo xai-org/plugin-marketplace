@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "worklore",
+      "description": "Search honest, agent-reproducible developer stories and x-ray what any skill or story can do (capability tier T0-T4, bound to a content hash) before you run it, via worklore's hosted MCP server. Sign in with GitHub or Google (OAuth) to record reproductions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/worklore/worklore-mcp.git",
+        "sha": "cd2131bd93e8f1118608124299fba7af153ec928"
+      },
+      "homepage": "https://worklore.dev",
+      "keywords": ["worklore", "worklore stories", "capability disclosure", "skill-xray"],
+      "domains": ["worklore.dev"]
     }
   ]
 }
