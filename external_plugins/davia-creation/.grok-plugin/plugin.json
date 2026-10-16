@@ -1,0 +1,12 @@
+{
+  "name": "davia-creation",
+  "version": "1.0.0",
+  "description": "Create and edit private Davia Tale game drafts through Davia's hosted MCP server. Sign in with your Davia account on first connect.",
+  "author": {
+    "name": "Davia",
+    "url": "https://davia.ai"
+  },
+  "homepage": "https://davia.ai/wiki/for-creators/create-with-your-assistant",
+  "license": "Proprietary",
+  "keywords": ["davia", "davia creation", "davia tale"]
+}
