@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "toflow",
+      "description": "AI-native multi-channel B2B outreach and sales automation platform. Prospect, enrich, and run outreach across email, LinkedIn, and WhatsApp.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/toflow-ai/toflow-mcp.git",
+        "sha": "2e8c46911a941f192f901137f60cf8bbc70f1653"
+      },
+      "homepage": "https://toflow.ai",
+      "keywords": ["toflow", "toflow.ai", "outreach", "prospect", "enrich", "linkedin automation", "email automation", "sales automation"],
+      "domains": ["toflow.ai"]
     }
   ]
 }
