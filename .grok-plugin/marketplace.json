@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "stockwaves-xstock-check",
+      "description": "Pre-trade check for tokenized US stocks (xStocks, Ondo, Coinbase B20) before an agent buys one: real issuer token or impersonator, fair value net of the dividend share multiplier, market hours, liquidity, freeze authority. Skills only, no hooks or scripts; free verdict, full signals $0.03 over x402.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kaditang/stockwaves-skills.git",
+        "sha": "3b7b4424a2917ae52e2371f6091cd76a8049527e"
+      },
+      "homepage": "https://stockwaves.net",
+      "keywords": ["stockwaves", "stockwaves xstock check", "stockwaves tokenized stock check"],
+      "domains": ["stockwaves.net"]
     }
   ]
 }

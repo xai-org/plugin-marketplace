@@ -1138,6 +1138,18 @@
         ]
       }
     },
+    "stockwaves-xstock-check": {
+      "sha": "3b7b4424a2917ae52e2371f6091cd76a8049527e",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "xstock-pre-trade-check",
+            "description": "Use before buying, swapping into, quoting, or holding a tokenized US stock on-chain (xStocks like AAPLx/TSLAx/SPYx, Ond…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
       "version": "0.9.20",
