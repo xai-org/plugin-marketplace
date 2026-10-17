@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ops-brain-bus",
+      "description": "Connect to your self-hosted ops-brain team bus. Agents on different machines and vendors check in for work, accept and complete handoffs, reply in thread, and share cross-agent gotchas over one MCP server, each with its own bearer token.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TheK3nsai/ops-brain.git",
+        "sha": "12e8ddf06ca0e817a1bc70dd507b1c7ce5a5e4b6",
+        "path": "plugins/ops-brain-bus"
+      },
+      "homepage": "https://github.com/TheK3nsai/ops-brain/tree/main/plugins/ops-brain-bus",
+      "keywords": ["ops-brain", "ops-brain bus", "ops-brain handoff"]
     }
   ]
 }
