@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "assetfy": {
+      "sha": "3441d0ec563673ebb176b7fc915ddf0ba63e7ebd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "assetfy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Introduce Assetfy and run a first property check for a German address or Flurstück — parcel, buildings, planning law, B…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
