@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "canopy": {
+      "type": "streamable-http",
+      "url": "https://canopy-mcp-production.up.railway.app/mcp/grok"
+    }
+  }
+}

@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "canopy",
+      "description": "Book plumbers, HVAC techs and electricians that use Canopy, right from your chat.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/canopy"
+      },
+      "homepage": "https://canopy.coppoak.com",
+      "keywords": ["canopy", "canopy by copp oak", "book with canopy"],
+      "domains": ["canopy.coppoak.com", "canopy.link"]
     }
   ]
 }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Canopy placeholder icon">
+  <title>Canopy (PLACEHOLDER ART: Ben must supply final logo)</title>
+  <rect width="512" height="512" rx="112" fill="#2F6B3A"/>
+  <path d="M256 104c-92 0-160 62-160 136 0 18 14 28 30 24 34-9 68-14 130-14s96 5 130 14c16 4 30-6 30-24 0-74-68-136-160-136z" fill="#E9F5EC"/>
+  <rect x="240" y="244" width="32" height="132" rx="16" fill="#E9F5EC"/>
+  <rect x="176" y="368" width="160" height="32" rx="16" fill="#E9F5EC"/>
+</svg>
