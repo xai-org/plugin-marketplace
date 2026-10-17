@@ -1724,8 +1724,8 @@
       }
     },
     "voicecheap": {
-      "sha": "d4b4d91612dc669ba149769cd689096791be55a5",
-      "version": "0.1.0",
+      "sha": "96a6a7615c30648c76337a04b473e07b6443443e",
+      "version": "0.1.1",
       "components": {
         "mcpServers": [
           {
@@ -1736,7 +1736,7 @@
         "skills": [
           {
             "name": "voicecheap",
-            "description": "Use when the user asks to manage their VoiceCheap projects, translate or dub their media, export transcripts or subtitl…"
+            "description": "Use when the user asks to connect to or work with their VoiceCheap account for audio/video or YouTube transcription, su…"
           }
         ]
       }
