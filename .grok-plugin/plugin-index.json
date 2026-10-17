@@ -1304,6 +1304,56 @@
         ]
       }
     },
+    "tana": {
+      "sha": "b150454b835e5f9b0749d223e9906a7ea0bb9812",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tana",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-to-meeting",
+            "description": "Add something to a meeting in Tana so it is there when the meeting starts: a link, an agenda item, questions, a list of…"
+          },
+          {
+            "name": "ask-tana",
+            "description": "Answer a quick factual question from the team's Tana meetings and docs in one or two sentences, with the source: what w…"
+          },
+          {
+            "name": "create-from-meeting",
+            "description": "Turn a Tana meeting into something new: a 'here's what we agreed' recap for a client, a brief, a slides outline, a stor…"
+          },
+          {
+            "name": "do-my-tasks",
+            "description": "Work through the user's open tasks in Tana: list what is assigned to them, including action items from their recent mee…"
+          },
+          {
+            "name": "find-prior-art",
+            "description": "Search the team's Tana meetings and docs for earlier discussion of a topic: past feedback, bug reports, decisions, obje…"
+          },
+          {
+            "name": "implement-from-meeting",
+            "description": "Turn what was discussed in a Tana meeting into working code. Builds the spec from the transcript and the screen-share s…"
+          },
+          {
+            "name": "prep-meeting",
+            "description": "Prepare the user for an upcoming meeting: who is coming, what the invite says, what happened the last times with these…"
+          },
+          {
+            "name": "schedule-meeting",
+            "description": "Set up a meeting in Tana and the user's calendar: check the user's calendar for a free slot, then create the event with…"
+          },
+          {
+            "name": "tana-meeting",
+            "description": "Find and fully read a Tana meeting: the transcript, every screen-share screenshot, attendees, attached docs and outcome…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
