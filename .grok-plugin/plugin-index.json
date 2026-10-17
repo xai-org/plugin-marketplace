@@ -1723,6 +1723,24 @@
         ]
       }
     },
+    "voicecheap": {
+      "sha": "d4b4d91612dc669ba149769cd689096791be55a5",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voicecheap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "voicecheap",
+            "description": "Use when the user asks to manage their VoiceCheap projects, translate or dub their media, export transcripts or subtitl…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",

@@ -460,6 +460,25 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "voicecheap",
+      "description": "Connect your VoiceCheap account to manage video translation, dubbing, transcripts, subtitles and speech.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VoiceCheap/voicecheap-mcp.git",
+        "sha": "d4b4d91612dc669ba149769cd689096791be55a5"
+      },
+      "homepage": "https://www.voicecheap.ai/docs/ai/model-context-protocol",
+      "keywords": [
+        "voicecheap",
+        "voicecheap dubbing",
+        "voicecheap subtitles"
+      ],
+      "domains": [
+        "voicecheap.ai"
+      ]
     }
   ]
 }
