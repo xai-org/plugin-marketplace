@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "appie": {
+      "sha": "906374e88f676a33630debf04ed42b878b73de44",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "appie",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "appie-article-writer",
+            "description": "Write short light articles or long deeply-researched articles with Appie.run Content Writer. Use when the user asks to…"
+          },
+          {
+            "name": "appie-chatbot",
+            "description": "Create, train, and chat with project chatbots via Appie.run. Use when the user asks to create a chatbot, add knowledge…"
+          },
+          {
+            "name": "appie-linkedin-growth",
+            "description": "Track LinkedIn profiles and list leads via Appie.run. Use when the user asks to track or stop tracking a LinkedIn profi…"
+          },
+          {
+            "name": "appie-reddit-marketing",
+            "description": "Find Reddit threads that mention your keywords or competitors and draft replies via Appie.run. Use when the user asks t…"
+          },
+          {
+            "name": "appie-url-shortener",
+            "description": "Create and manage short links via Appie.run AI Marketing Stack. Use when the user asks to shorten a URL, create a short…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
