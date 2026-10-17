@@ -1,0 +1,13 @@
+{
+  "name": "strategyx",
+  "version": "1.0.0",
+  "description": "StrategyX strategy execution for Grok Build via the hosted StrategyX MCP server at mcp.strategyx.app. Review actions, tactical projects, success factors, focus goals, KPI reports and approvals, look up people and departments, and add items and notes. Sign in with your StrategyX account on first connect.",
+  "author": {
+    "name": "StrategyX",
+    "url": "https://www.strategyexe.com"
+  },
+  "homepage": "https://www.strategyexe.com",
+  "license": "Proprietary",
+  "keywords": ["strategyx", "strategyx actions", "strategyx kpi", "strategyx mcp"],
+  "logo": "assets/logo.png"
+}
