@@ -460,6 +460,31 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "voicecheap",
+      "description": "Transcribe media; create subtitles, speech, voices, images and thumbnails; translate, dub and lip-sync video with VoiceCheap.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VoiceCheap/voicecheap-mcp.git",
+        "sha": "96a6a7615c30648c76337a04b473e07b6443443e"
+      },
+      "homepage": "https://www.voicecheap.ai/docs/ai/model-context-protocol",
+      "keywords": [
+        "voicecheap",
+        "voicecheap transcription",
+        "voicecheap subtitles",
+        "voicecheap speech",
+        "voicecheap voice creation",
+        "voicecheap images",
+        "voicecheap thumbnails",
+        "voicecheap dubbing",
+        "voicecheap lip sync"
+      ],
+      "domains": [
+        "voicecheap.ai"
+      ]
     }
   ]
 }
