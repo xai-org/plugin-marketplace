@@ -1350,6 +1350,17 @@
         ]
       }
     },
+    "timecamp": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "timecamp",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
       "version": "1.1.1",
