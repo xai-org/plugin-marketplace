@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "assetfy",
+      "description": "Official Assetfy plugin: official real estate data for Germany and Austria through the hosted, read-only Assetfy MCP server. Look up a Flurstück (cadastral parcel) by address or coordinate, the Bebauungsplan (zoning plan) with its documents, the Bodenrichtwert (official land value), GRZ/GFZ, buildings with eaves and ridge height, terrain, 3D building models and property listings. Sign in with your Assetfy account (OAuth).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/assetfy-com/assetfy-ai-plugins.git",
+        "sha": "3441d0ec563673ebb176b7fc915ddf0ba63e7ebd",
+        "path": "plugins/assetfy"
+      },
+      "homepage": "https://assetfy.com/produkt/ai-mcp-anbindung/",
+      "keywords": ["assetfy", "assetfy flurstück", "assetfy bebauungsplan", "assetfy bodenrichtwert"],
+      "domains": ["assetfy.com", "mcp.assetfy.com"]
     }
   ]
 }
