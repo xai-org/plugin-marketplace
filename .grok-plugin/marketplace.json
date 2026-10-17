@@ -384,6 +384,19 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "insumer",
+      "description": "InsumerAPI wallet auth for condition-based access. Get an API key, attest wallet conditions (token balances across 37 chains, plus NFT ownership, EAS attestations and Farcaster IDs where supported), pull signed wallet trust profiles, and verify every signed response offline against the public JWKS.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/insumerapi/insumer-agent-skills.git",
+        "sha": "6cffd9fae631f628fd80dd1058381d10143040dd"
+      },
+      "homepage": "https://insumermodel.com",
+      "keywords": ["insumer", "insumerapi", "insumer api"],
+      "domains": ["insumermodel.com", "api.insumermodel.com"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
