@@ -1,0 +1,10 @@
+{
+  "name": "kling-ai-grok-plugin",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Grok Build plugin and remote MCP configuration for Kling AI",
+  "engines": {
+    "node": ">=20"
+  }
+}
