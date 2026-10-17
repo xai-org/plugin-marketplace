@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "plumbline",
+      "description": "Software-design skills based on A Philosophy of Software Design: a red-flags scan, design reviews, design-it-twice, and an apply-fixes skill that applies findings one at a time with tests. Read-only reviews, no network calls.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tomymaritano/plumbline.git",
+        "sha": "e8e3c2fa68652a14d0ce8d20cc916b0b57ad0a0c"
+      },
+      "homepage": "https://tomymaritano.github.io/plumbline/",
+      "keywords": ["plumbline", "plumbline red flags", "plumbline design review", "plumbline apply fixes"]
     }
   ]
 }

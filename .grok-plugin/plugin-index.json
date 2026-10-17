@@ -820,6 +820,97 @@
         ]
       }
     },
+    "plumbline": {
+      "sha": "e8e3c2fa68652a14d0ce8d20cc916b0b57ad0a0c",
+      "version": "1.7.0",
+      "components": {
+        "agents": [
+          {
+            "name": "clean-room-alternative",
+            "description": "Generates a design alternative in isolation, without seeing the first design. Used by the design-it-twice skill when th…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Edit|Write|MultiEdit"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "abstraction-quality",
+            "description": "Evaluates whether abstractions provide a genuinely different way of thinking or are structurally shallow. Use when adja…"
+          },
+          {
+            "name": "apply-fixes",
+            "description": "Applies the findings of a design review one fix at a time, running the project's tests after each and reverting any fix…"
+          },
+          {
+            "name": "code-evolution",
+            "description": "Evaluates whether changes to existing code maintain or degrade design quality. Use when the user asks to review a diff…"
+          },
+          {
+            "name": "comments-docs",
+            "description": "Reviews comment quality and documentation practices: the four comment types, comments-first workflow, and comment rot.…"
+          },
+          {
+            "name": "complexity-recognition",
+            "description": "Diagnoses whether complexity exists and where it comes from, using the three-symptom, two-root-cause framework. Use whe…"
+          },
+          {
+            "name": "deep-modules",
+            "description": "Measures module depth: whether the interface is simple relative to the implementation behind it. Use when an interface…"
+          },
+          {
+            "name": "design-it-twice",
+            "description": "Generates and compares at least two fundamentally different design alternatives on concrete criteria before committing.…"
+          },
+          {
+            "name": "design-review",
+            "description": "Orchestrates a structured design review, running the other skills as a diagnostic funnel from complexity triage to a fu…"
+          },
+          {
+            "name": "diagnose",
+            "description": "Routes a vague symptom or complaint to the most relevant Plumbline skill via a decision tree. Use when someone describe…"
+          },
+          {
+            "name": "error-design",
+            "description": "Reviews error handling and exception design, applying the \\\"define errors out of existence\\\" principle. Use when review…"
+          },
+          {
+            "name": "general-vs-special",
+            "description": "Evaluates whether interfaces are appropriately general-purpose. Use when checking interface generality, when if-branche…"
+          },
+          {
+            "name": "information-hiding",
+            "description": "Checks for information leakage across module boundaries, including temporal decomposition and false encapsulation. Use…"
+          },
+          {
+            "name": "module-boundaries",
+            "description": "Evaluates where module boundaries are drawn and whether modules should be merged or split. Use when deciding whether to…"
+          },
+          {
+            "name": "naming-obviousness",
+            "description": "Reviews naming quality and code obviousness via the isolation test, scope-length principle, and consistency audit. Use…"
+          },
+          {
+            "name": "pull-complexity-down",
+            "description": "Checks whether complexity is pushed to callers or absorbed by implementations — the direction complexity flows. Use whe…"
+          },
+          {
+            "name": "red-flags",
+            "description": "Scans code against 18 design smells (the book's 14 named Red Flags plus 4 additional signals) and produces a structured…"
+          },
+          {
+            "name": "strategic-mindset",
+            "description": "Assesses whether code reflects strategic or tactical thinking, including the 10-20% investment rule and tactical-tornad…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
       "version": "0.15.25",
