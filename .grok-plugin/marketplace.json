@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "curlshot",
+      "description": "CurlShot screenshot API integration with its hosted MCP server and an agent skill. Capture any public web page as PNG, JPEG, WebP or PDF (full page, device presets, dark mode, ad and cookie-banner blocking), or record it scrolling as MP4, WebM or GIF.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SergiuPogor/curlshot-mcp.git",
+        "sha": "06ea9d6b64020bbe902fab585625ec014345765c"
+      },
+      "homepage": "https://curlshot.com",
+      "keywords": ["curlshot", "curlshot api", "curlshot screenshot", "curlshot mcp"],
+      "domains": ["curlshot.com"]
     }
   ]
 }
