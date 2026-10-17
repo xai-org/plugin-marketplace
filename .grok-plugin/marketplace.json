@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "gm-labs-data",
+      "description": "GM Labs Data: US government filings (TTB alcohol permits, UCC-1 liens, DOT bid results), new liquor licenses and new business/LLC formations, ATS job listings (Greenhouse, Lever, Ashby) and full-page screenshots from GM Labs' pay-per-result Apify Actors via Apify's hosted MCP. Bring your own APIFY_TOKEN.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GM-Data-Labs/gm-labs-data-plugin.git",
+        "sha": "1e27523373e945be372a4ed7cb288e38ee165912"
+      },
+      "homepage": "https://github.com/GM-Data-Labs/gm-labs-data-plugin",
+      "keywords": ["gm labs data", "gm labs apify"]
     }
   ]
 }
