@@ -524,6 +524,36 @@
         ]
       }
     },
+    "fplai": {
+      "sha": "ee3ca3005bd12866695d2445763c9f7dc0d537b2",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fplai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fplai-compare-players",
+            "description": "Compare two or more FPL players using FPLai projections. Use when the user asks who to pick between players."
+          },
+          {
+            "name": "fplai-link-team",
+            "description": "Link the user's own Fantasy Premier League team to their FPLai account from the chat. Use when no FPL team is linked, w…"
+          },
+          {
+            "name": "fplai-run-analysis",
+            "description": "Run a fresh FPLai analysis for the user's linked FPL team. Use only when the user explicitly asks for a new analysis; i…"
+          },
+          {
+            "name": "fplai-squad-review",
+            "description": "Review the user's current Fantasy Premier League squad using their saved FPLai analysis (captain, transfer, chips). Use…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
