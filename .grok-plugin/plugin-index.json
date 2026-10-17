@@ -354,6 +354,24 @@
         ]
       }
     },
+    "dayalogs": {
+      "sha": "3c9d929aa5e69da7b25622df5365f73a03b4a197",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dayalogs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dayalogs",
+            "description": "Create and run surveys with Dayalogs through the Dayalogs MCP server: design schema-first questionnaires, validate and…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "dayalogs",
+      "description": "Official Dayalogs integration. Design, validate and preview schema-first surveys, manage audiences, links and quotas, run email campaigns, and export responses through the hosted Dayalogs MCP server. Sign in with your Dayalogs account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dayalogs/dayalogs-plugin.git",
+        "sha": "3c9d929aa5e69da7b25622df5365f73a03b4a197"
+      },
+      "homepage": "https://www.dayalogs.com/help/mcp-setup",
+      "keywords": ["dayalogs", "dayalogs surveys", "dayalogs survey", "dayalogs mcp"],
+      "domains": ["dayalogs.com", "www.dayalogs.com"]
     }
   ]
 }
