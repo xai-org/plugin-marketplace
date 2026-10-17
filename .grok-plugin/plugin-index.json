@@ -332,6 +332,48 @@
         ]
       }
     },
+    "costory": {
+      "sha": "607562e9b5c51803b4c69c1568b950506a925155",
+      "version": "0.12.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "costory",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bigquery",
+            "description": "Use when the user asks about BigQuery costs, SKUs, on-demand Analysis vs capacity slots/editions, leftover on-demand, p…"
+          },
+          {
+            "name": "cost-change-investigation",
+            "description": "Use when investigating a cost change to explain what changed, when, and the best-supported drivers with contribution, t…"
+          },
+          {
+            "name": "dashboards",
+            "description": "Use when creating or extending Costory dashboards, generating interesting FinOps overviews (suggest_groupby + suggest_u…"
+          },
+          {
+            "name": "query",
+            "description": "Use when exploring Costory cost, usage, metric, formula, budget, or external-metric data with the query tool — scope vs…"
+          },
+          {
+            "name": "recipes",
+            "description": "Use when a user states a FinOps *outcome* rather than a tool. Route to one recipe card, then hand off: bill jump → expl…"
+          },
+          {
+            "name": "reports",
+            "description": "Use when creating, previewing, updating, scheduling, or exploring Costory reports. Route by intent: scheduled Slack/Tea…"
+          },
+          {
+            "name": "virtual-dimensions",
+            "description": "Use when creating, editing, previewing, or publishing Costory virtual dimensions (custom cost axes) with ordered CEL ru…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
