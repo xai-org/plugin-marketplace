@@ -1780,6 +1780,17 @@
           }
         ]
       }
+    },
+    "zyfai": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zyfai",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }

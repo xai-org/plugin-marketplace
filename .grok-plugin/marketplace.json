@@ -460,6 +460,27 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "zyfai",
+      "description": "Zyfai DeFi yield integration. Discover USDC strategies, inspect portfolio positions and yields, and prepare user-authorised account actions through a hosted MCP connector.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/zyfai"
+      },
+      "homepage": "https://zyf.ai",
+      "keywords": [
+        "zyfai",
+        "zyfai yield",
+        "zyfai defi",
+        "zyfai portfolio"
+      ],
+      "domains": [
+        "zyf.ai",
+        "mcp.zyf.ai",
+        "docs.zyf.ai"
+      ]
     }
   ]
 }
