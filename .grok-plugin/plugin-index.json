@@ -332,6 +332,28 @@
         ]
       }
     },
+    "cue": {
+      "sha": "79daa2d11b0d7ecc9ec28a5118d83d6835bd4f91",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cue",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "account-profile",
+            "description": "Check the Cue account, plan, and entitlement connected to the current user."
+          },
+          {
+            "name": "improve-prompt",
+            "description": "Score and improve a draft AI prompt with Cue before it is sent."
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
