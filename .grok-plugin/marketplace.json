@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "meridian",
+      "description": "Meridian project management office (PMO) integration. Ask about projects, risks, milestones, change requests, status reports, stakeholders, retrospectives, access reviews and timesheets, and log time or save status reports, through the hosted Meridian MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meridian4pm/meridian-grok-plugin.git",
+        "sha": "0c69a5b5347cddb92eb4f8bed70fe87c5a75312a"
+      },
+      "homepage": "https://www.meridian4pm.com/mcp-server",
+      "keywords": ["meridian", "meridian pmo", "meridian4pm", "meridian mcp"],
+      "domains": ["meridian4pm.com"]
     }
   ]
 }
