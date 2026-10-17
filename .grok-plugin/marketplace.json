@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "wineauction",
+      "description": "WineAuction market-data integration. Research live and closed wine auctions, search lots, and retrieve normalized hammer-price history through the hosted WineAuction MCP server.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/antyser/wineauction-grok-plugin.git",
+        "sha": "40bc3c9738fbae607d432feb42ef4175456e0ac0"
+      },
+      "homepage": "https://wineauction.ai/mcp",
+      "keywords": ["wineauction", "wineauction.ai", "wine auction mcp"],
+      "domains": ["wineauction.ai"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
