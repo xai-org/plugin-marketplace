@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "opencase",
+      "description": "Official OpenCase integration (MCP Server + Skills). Check every citation and quotation in legal writing against the law itself, flag cases with negative treatment, and answer legal questions with verified authority.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/opencase-com/opencase-plugin.git",
+        "sha": "ddef5940fe3f11bf1d3f99f4b260191d79901500"
+      },
+      "homepage": "https://www.opencase.com",
+      "keywords": ["opencase", "opencase cite check", "opencase citations", "opencase legal research", "opencase case validity"],
+      "domains": ["opencase.com", "www.opencase.com"]
     }
   ]
 }

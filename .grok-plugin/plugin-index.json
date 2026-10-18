@@ -782,6 +782,33 @@
         ]
       }
     },
+    "opencase": {
+      "sha": "ddef5940fe3f11bf1d3f99f4b260191d79901500",
+      "version": "1.0.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "Stop"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "opencase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cite-check",
+            "description": "Cite-check a brief, motion, memo, opinion, or contract with OpenCase. Use when someone asks to check, verify, or audit…"
+          },
+          {
+            "name": "verify-before-finishing",
+            "description": "Verify legal citations with OpenCase before giving an answer that relies on them. Use whenever a response you are about…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
