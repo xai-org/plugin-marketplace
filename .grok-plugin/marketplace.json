@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "ppl",
+      "description": "ppl, the personal CRM for AI agents. Durable memory of the people who matter: briefings, notes, reminders, tasks, calls, gifts, and journal entries over a hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ppl-crm/ppl-grok-plugin.git",
+        "sha": "d60db65c809767c39dadab6957421f90b1657b38"
+      },
+      "homepage": "https://withppl.com/agents",
+      "keywords": ["ppl", "ppl crm", "personal crm", "agent memory", "contact management"],
+      "domains": ["withppl.com"]
     }
   ]
 }

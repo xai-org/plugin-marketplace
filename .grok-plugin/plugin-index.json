@@ -820,6 +820,23 @@
         ]
       }
     },
+    "ppl": {
+      "sha": "d60db65c809767c39dadab6957421f90b1657b38",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ppl",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ppl"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
       "version": "0.15.25",
