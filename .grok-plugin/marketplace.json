@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "keepp",
+      "description": "Official Keepp plugin. Build a small business website or link-in-bio page from Grok, at keepp.link/yourname or your own domain: link in bio, a shop with Stripe checkout, bookings, forms and chat, set up by asking. Connects Keepp's hosted MCP server over HTTP with OAuth sign-in in the browser (no API key), plus a skill for the HTTP API route.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thinslatelabs/keepp-skill.git",
+        "sha": "802feb500e1635ba519e4ad38835993e43d83c00",
+        "path": "plugins/keepp"
+      },
+      "homepage": "https://keepp.link/developers",
+      "keywords": ["keepp", "keepp.link", "keepp website", "keepp link in bio", "keepp page"],
+      "domains": ["keepp.link", "api.keepp.link"]
     }
   ]
 }
