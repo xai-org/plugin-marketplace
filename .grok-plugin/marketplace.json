@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "brainrot-finance",
+      "description": "Brainrot Finance (MCP Server + Skill). Live quotes and price history for stocks, ETFs, crypto, currencies, Indian mutual funds, gold and silver, and private and pre-IPO companies, plus the signed-in user's own investment portfolios valued live in their base currency. Sign in with a Brainrot account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Brainrot-Creations/plugins.git",
+        "sha": "16f3e256a7941e79e3749742a6064ee0b2980183",
+        "path": "plugins/brainrot-finance"
+      },
+      "homepage": "https://finance.brainrotcreations.com",
+      "keywords": ["brainrot finance", "brainrot portfolio", "brainrotcreations finance"],
+      "domains": ["finance.brainrotcreations.com", "mcp.finance.brainrotcreations.com"]
     }
   ]
 }

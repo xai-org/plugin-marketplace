@@ -67,6 +67,24 @@
         ]
       }
     },
+    "brainrot-finance": {
+      "sha": "16f3e256a7941e79e3749742a6064ee0b2980183",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brainrot-finance",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "setup",
+            "description": "Set up Brainrot Finance after installing it - confirm the user is signed in and create their first portfolio (base curr…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
