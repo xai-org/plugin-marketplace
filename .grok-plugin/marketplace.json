@@ -460,6 +460,27 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "perilscore",
+      "description": "PerilScore US property catastrophe-risk scoring, fire-protection context, and authenticated underwriting reports via hosted MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PerilScore/perilscore-agent-plugin.git",
+        "sha": "1eb89ed29dcf21dd26b589b15bc5e2fc2f0ed220"
+      },
+      "homepage": "https://perilscore.com",
+      "keywords": [
+        "perilscore",
+        "perilscore property risk",
+        "perilscore underwriting",
+        "perilscore mcp"
+      ],
+      "domains": [
+        "perilscore.com",
+        "app.perilscore.com"
+      ]
     }
   ]
 }
