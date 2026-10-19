@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TheK3nsai/ops-brain.git",
-        "sha": "12e8ddf06ca0e817a1bc70dd507b1c7ce5a5e4b6",
+        "sha": "d26a6d1bb4d80f92463e332c36c59a0f967f42ac",
         "path": "plugins/ops-brain-bus"
       },
       "homepage": "https://github.com/TheK3nsai/ops-brain/tree/main/plugins/ops-brain-bus",
