@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "dreamwork",
+      "description": "Job search, application materials, and application tracking for AI assistants.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dreamworkhq/mcp.git",
+        "sha": "986d3eeca665fc829442fa3258dcf7161af79b75"
+      },
+      "homepage": "https://www.dreamworkhq.com/agents?utm_source=xai&utm_medium=mcp_directory&utm_campaign=mcp_distribution",
+      "keywords": ["dreamwork", "dreamworkhq"],
+      "domains": ["dreamworkhq.com", "www.dreamworkhq.com", "mcp.dreamworkhq.com"],
+      "author": { "name": "Dreamwork" },
+      "version": "1.11.0"
     }
   ]
 }

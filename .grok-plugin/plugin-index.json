@@ -362,6 +362,18 @@
         ]
       }
     },
+    "dreamwork": {
+      "sha": "986d3eeca665fc829442fa3258dcf7161af79b75",
+      "version": "1.11.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dreamwork",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
