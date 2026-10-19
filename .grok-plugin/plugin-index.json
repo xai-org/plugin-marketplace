@@ -354,6 +354,28 @@
         ]
       }
     },
+    "dflow": {
+      "sha": "1aca7d548dee7b7c8566b1b3d0134ff6615d1ec6",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dflow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dflow-deploy",
+            "description": "Deploy a git app, Docker image, database, local archive, or template onto a dFlow worker node. Use when the user wants…"
+          },
+          {
+            "name": "dflow-mcp",
+            "description": "Connect to dFlow MCP and operate a workspace. Use when the user wants OAuth setup, logs, domains, scale, database backu…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "dflow",
+      "description": "Deploy apps and databases on dFlow from your agent. Inspect logs, set variables, and attach databases with the same permissions as the dashboard.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dflow-sh/plugin.git",
+        "sha": "1aca7d548dee7b7c8566b1b3d0134ff6615d1ec6"
+      },
+      "homepage": "https://dflow.sh",
+      "keywords": ["dflow", "dflow.sh", "dflow deploy"],
+      "domains": ["dflow.sh"]
     }
   ]
 }
