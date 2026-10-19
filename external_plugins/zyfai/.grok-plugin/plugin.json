@@ -1,0 +1,17 @@
+{
+  "name": "zyfai",
+  "version": "1.0.0",
+  "description": "Explore DeFi yield strategies and inspect Zyfai portfolios using a hosted MCP connector.",
+  "author": {
+    "name": "Zyfai",
+    "url": "https://zyf.ai"
+  },
+  "homepage": "https://zyf.ai",
+  "repository": "https://github.com/ondefy/zyfai-mcp-server",
+  "keywords": [
+    "zyfai",
+    "zyfai yield",
+    "zyfai defi"
+  ],
+  "license": "ISC"
+}
