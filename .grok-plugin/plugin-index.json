@@ -332,6 +332,36 @@
         ]
       }
     },
+    "configquote": {
+      "sha": "5aa1a08dfd2833b256070ecd04007ac92825bb83",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "configquote",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "configquote-workflows",
+            "description": "Use ConfigQuote MCP tools to manage tenant product configurations and quote workflows."
+          },
+          {
+            "name": "create-quote",
+            "description": "Create and optionally send ConfigQuote quotes from product selections or manual line items."
+          },
+          {
+            "name": "edit-quote",
+            "description": "Edit an existing ConfigQuote quote — update customer details, notes, addresses, or line items. Also covers adding produ…"
+          },
+          {
+            "name": "generate-3d-model",
+            "description": "Generate a parametric 3D model from a text description and store it in the tenant's ConfigQuote model library. Supports…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

@@ -460,6 +460,21 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "configquote",
+      "description": "ConfigQuote helps merchants sell products that need options, rules, or custom pricing before checkout. Shoppers configure products on the storefront and request a quote; merchants manage pricing logic, approvals, and quote workflows from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ConfigQuote/configquote-agent-plugins.git",
+        "sha": "5aa1a08dfd2833b256070ecd04007ac92825bb83",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://configquote.com/",
+      "keywords": ["configquote", "configquote quotes", "configquote configurator"],
+      "domains": ["configquote.com"]
     }
+
   ]
 }
