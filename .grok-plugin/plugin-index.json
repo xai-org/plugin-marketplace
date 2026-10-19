@@ -1074,6 +1074,28 @@
         ]
       }
     },
+    "screenrig": {
+      "sha": "c451e3b02514e4b4d7c672a4495e4b63530fed65",
+      "version": "26.10.624",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "screenrig-views",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "screenrig",
+            "description": "Operate screenRIG screens and advertising with the bundled CLI. Use to upload or generate media, compose slides, place…"
+          },
+          {
+            "name": "screenrig-dashboard",
+            "description": "Build and refresh consistent 16:9 dashboard images from recurring JSON, CSV, or messy reports. Preserve schemas, observ…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",

@@ -460,6 +460,29 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "screenrig",
+      "description": "Manage screenRIG digital signage: pair Players, prepare media, publish playlists, and inspect screens through the bundled CLI and authenticated MCP tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/screenrig/plugin.git",
+        "sha": "c451e3b02514e4b4d7c672a4495e4b63530fed65",
+        "path": "plugins/screenrig"
+      },
+      "homepage": "https://screenrig.ai",
+      "keywords": [
+        "screenrig",
+        "screenrig screens",
+        "screenrig playlists"
+      ],
+      "domains": [
+        "screenrig.ai"
+      ],
+      "author": {
+        "name": "screenRIG"
+      }
     }
   ]
 }
