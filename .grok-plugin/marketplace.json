@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "blck-alpaca",
+      "description": "Official Blck Alpaca Agentic Audit (hosted MCP server + skill). Check a public website for AI-agent readiness and GEO: a score out of 100, the evidence behind every check and the three fixes with the biggest impact, each linked to a Knowledge Base guide where one exists. Also answers questions on SEO, GEO, AI agents and social media from the Blck Alpaca Knowledge Base in German, English and Slovak, with the source cited. Read-only, no account or API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blckalpaca-studio/knowledge-base-mcp.git",
+        "sha": "b91939eb85c2ca32a93f3228d5289144ffb1df4a",
+        "path": "plugins/blck-alpaca"
+      },
+      "homepage": "https://blckalpaca.at/en/agentic-check",
+      "keywords": ["blck alpaca", "blckalpaca", "blck alpaca agentic audit", "blck alpaca knowledge base"],
+      "domains": ["blckalpaca.at"]
     }
   ]
 }
