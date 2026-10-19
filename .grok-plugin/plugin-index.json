@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "account-executive-jobs": {
+      "sha": "1ad81d0023e736a1f190c2a69b102c32b6c5d341",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "account-executive-jobs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "account-executive-jobs",
+            "description": "Use when someone wants to find account executive or sales jobs, apply to a job hosted on AccountExecutiveJobs.com, revi…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",

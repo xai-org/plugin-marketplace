@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "account-executive-jobs",
+      "description": "Account Executive Jobs integration. Search account executive and sales jobs and apply after confirmation, or manage your company's job posts and review applicants on AccountExecutiveJobs.com.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/854Labs/account-executive-jobs.git",
+        "sha": "1ad81d0023e736a1f190c2a69b102c32b6c5d341"
+      },
+      "homepage": "https://accountexecutivejobs.com",
+      "keywords": ["account executive jobs", "accountexecutivejobs", "aejobs"],
+      "domains": ["accountexecutivejobs.com", "mcp.accountexecutivejobs.com"]
     }
   ]
 }
