@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "posteverywhere",
+      "description": "Social media scheduler. Write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Bluesky, Telegram, Discord, WordPress and Google Business Profile, plan a content calendar, cross-post video and see how posts performed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/posteverywhere/grok-plugin.git",
+        "sha": "2bca1c6ea277c2ccb58d6538f007a3a94419498e"
+      },
+      "homepage": "https://posteverywhere.ai",
+      "keywords": ["social media scheduler", "schedule social media posts", "content calendar", "social media management", "cross-post", "instagram", "tiktok", "linkedin", "x twitter", "youtube shorts", "google business profile", "posteverywhere"],
+      "domains": ["posteverywhere.ai"]
     }
   ]
 }
