@@ -460,6 +460,21 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "dreamwork",
+      "description": "Job search, application materials, and application tracking for AI assistants.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dreamworkhq/mcp.git",
+        "sha": "10090461f55e46cd5f39243affc35196619e51ad"
+      },
+      "homepage": "https://www.dreamworkhq.com/agents?utm_source=xai&utm_medium=mcp_directory&utm_campaign=mcp_distribution",
+      "keywords": ["dreamwork", "dreamworkhq"],
+      "domains": ["dreamworkhq.com", "www.dreamworkhq.com", "mcp.dreamworkhq.com"],
+      "author": { "name": "Dreamwork" },
+      "version": "1.8.1"
     }
   ]
 }
