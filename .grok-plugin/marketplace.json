@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "outstand",
+      "description": "Outstand social media publishing (hosted MCP server + skill). Publish and schedule posts to X, LinkedIn, Instagram, TikTok, YouTube, Facebook, Threads, Bluesky, Pinterest, Google Business Profile, Vimeo and Reddit, reply to comments, manage connected accounts and media, and read post and account analytics. Sign in with your Outstand account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Outstand-so/outstand-agent.git",
+        "sha": "8272e1891ad81b33faa3167f2b0669eee7bb5ca4"
+      },
+      "homepage": "https://www.outstand.so",
+      "keywords": ["outstand", "outstand.so", "outstand mcp", "outstand social", "outstand api"],
+      "domains": ["outstand.so", "www.outstand.so", "mcp.outstand.so", "api.outstand.so"]
     }
   ]
 }
