@@ -771,6 +771,18 @@
         ]
       }
     },
+    "offpeak": {
+      "sha": "6c07bc1cacf955fbd4b245dd0968bbfbb659b61a",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "offpeak",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {

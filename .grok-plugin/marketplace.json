@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "offpeak",
+      "description": "Search US jobs by driving commute, pay, and seniority. Connect an Offpeak account to save filters, bookmark jobs, and save searches with optional email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vicentesurraco/offpeak-mcp.git",
+        "sha": "6c07bc1cacf955fbd4b245dd0968bbfbb659b61a"
+      },
+      "homepage": "https://offpeak.fyi",
+      "keywords": ["offpeak", "offpeak jobs", "offpeak commute"],
+      "domains": ["offpeak.fyi"]
     }
   ]
 }
