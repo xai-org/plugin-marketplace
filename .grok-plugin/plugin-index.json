@@ -1038,6 +1038,24 @@
         ]
       }
     },
+    "pumpdata": {
+      "sha": "03cae8f6b80e4c27d55b0116a10ae309cdda153e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pumpdata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pumpdata",
+            "description": "Before an alpha call or a buy on pump.fun: the base rate for the market-cap band (how often coins like this one paid),…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",

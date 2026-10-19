@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "pumpdata",
+      "description": "pumpdata: base rates, wallet records since day one, launch and deployer records, similar launches by name and an honest replay for pump.fun coins, from every pump.fun trade, ever, via the hosted pumpdata.fun MCP server and skill. Read-only data; paid per call in USDC over x402, no key or account; yesterday's base rates free. Not affiliated with pump.fun.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pumpdatafun/pumpdata-plugin.git",
+        "sha": "03cae8f6b80e4c27d55b0116a10ae309cdda153e"
+      },
+      "homepage": "https://pumpdata.fun",
+      "keywords": ["pumpdata", "pumpdata.fun", "pump data", "pumpdata mcp"],
+      "domains": ["pumpdata.fun"]
     }
   ]
 }
