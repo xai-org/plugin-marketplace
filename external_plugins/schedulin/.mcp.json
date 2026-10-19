@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "schedulin": {
+      "type": "http",
+      "url": "https://mcp.schedulin.app/mcp"
+    }
+  }
+}
