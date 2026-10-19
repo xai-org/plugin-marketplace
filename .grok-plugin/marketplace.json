@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "ddg-services",
+      "description": "DDG Agent Services catalog over a remote MCP server: discover and call 376 pay-per-call x402 routes (USDC on Base), quote payment challenges, and check service status. No account or API key required.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/0xcircuitbreaker/ddg-agent-plugins.git",
+        "sha": "8a35f8d46802f6264fa1cfa0b5a45291a1fb9c45",
+        "path": "plugins/ddg-services"
+      },
+      "homepage": "https://agents.daedalusdevelopmentgroup.com",
+      "keywords": ["ddg", "ddg agent services", "daedalus", "daedalus development group"],
+      "domains": ["daedalusdevelopmentgroup.com", "agents.daedalusdevelopmentgroup.com", "mcp.daedalusdevelopmentgroup.com"]
     }
   ]
 }

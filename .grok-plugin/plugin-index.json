@@ -354,6 +354,18 @@
         ]
       }
     },
+    "ddg-services": {
+      "sha": "8a35f8d46802f6264fa1cfa0b5a45291a1fb9c45",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ddg-agent-services",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
