@@ -332,6 +332,29 @@
         ]
       }
     },
+    "coderifts": {
+      "sha": "6f45ae5a476d4ac9467eb744a9095f673fc3f1f4",
+      "version": "1.2.9",
+      "components": {
+        "hooks": [
+          {
+            "name": "modules"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "coderifts",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "coderifts",
+            "description": "Before merging or shipping a change to an API or tool contract, preflight the change set, then branch on execution_acti…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
