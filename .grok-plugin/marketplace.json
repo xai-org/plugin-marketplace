@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "kernelcad",
+      "description": "CAD parts from a description: editable .kcad.ts models, DFM checks, STEP/STL/3MF/DXF exports and a 3D Studio viewer over the hosted kernelCAD MCP. No local CAD install.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/w1ne/kernelCAD-web.git",
+        "sha": "6617c8918275a7a7f7055a0a8cdafff2432a37ce",
+        "path": "plugins/kernelcad"
+      },
+      "homepage": "https://kernelcad.com",
+      "keywords": ["kernelcad", "kernelcad mcp", "kernelcad step"],
+      "domains": ["kernelcad.com", "app.kernelcad.com"]
     }
   ]
 }
