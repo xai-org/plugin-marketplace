@@ -114,6 +114,23 @@
         ]
       }
     },
+    "canopy": {
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "canopy",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "book-with-canopy",
+            "description": "Book appointments with plumbers, HVAC techs, electricians and other home-service businesses that use Canopy. Use when t…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
       "version": "1.11.0",
