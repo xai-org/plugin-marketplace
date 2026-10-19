@@ -654,6 +654,18 @@
         ]
       }
     },
+    "mycheck": {
+      "sha": "bad433fc478b8707d5bc45b2516efbbdd1278d59",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mycheck",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

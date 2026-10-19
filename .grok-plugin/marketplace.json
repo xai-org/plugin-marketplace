@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "mycheck",
+      "description": "MyCheck checklists and USCIS case status via the hosted MCP at mcp.mycheck.co. Save a checklist worked out in the conversation to a MyCheck account, add items to one that already exists, read them back, and check where the US immigration cases you track stand. Sign in with a MyCheck account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SFDIFY-LLC/mycheck-grok-plugin.git",
+        "sha": "bad433fc478b8707d5bc45b2516efbbdd1278d59"
+      },
+      "homepage": "https://mycheck.co/ai",
+      "keywords": ["mycheck", "mycheck checklist", "mycheck uscis", "mycheck mcp"],
+      "domains": ["mycheck.co", "mcp.mycheck.co", "app.mycheck.co"]
     }
   ]
 }
