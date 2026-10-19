@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "9bot": {
+      "sha": "dba26f41bca59df56cbc5cf473b27f1380922f47",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "9bot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "whatsapp-community-management",
+            "description": "Manage, automate, analyze, and operate WhatsApp groups, communities, and channels connected to the user's 9bot account.…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",

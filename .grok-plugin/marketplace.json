@@ -460,6 +460,7 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
-    }
+    },
+    {"name": "9bot", "description": "Official 9bot plugin. Manage, automate and analyze WhatsApp groups, communities and channels with 9bot through its hosted remote MCP server (Streamable HTTP, OAuth 2.1 with dynamic client registration). Requires a 9bot account (7-day free trial, then paid).", "category": "productivity", "source": {"source": "url", "url": "https://github.com/9-bot/mcp.git", "sha": "dba26f41bca59df56cbc5cf473b27f1380922f47"}, "homepage": "https://9bot.com.br/en/", "keywords": ["9bot", "9bot mcp", "9bot whatsapp"], "domains": ["9bot.com.br", "mcp.9bot.com.br"]}
   ]
 }
