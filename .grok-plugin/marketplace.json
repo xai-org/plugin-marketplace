@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "medbillanalyzer",
+      "description": "Compare a medical bill with the insurer's Explanation of Benefits (EOB) and list where they disagree. The check is free; $10 per bill unlocks the detail behind each finding, a dispute letter and a phone script.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RMKCapital/medbillanalyzer-plugin.git",
+        "sha": "a108786565903548066d603a17c3321b007457b5"
+      },
+      "homepage": "https://medbillanalyzer.com/grok",
+      "keywords": ["medbillanalyzer", "medbill analyzer", "medical bill", "explanation of benefits", "eob", "health insurance"],
+      "domains": ["medbillanalyzer.com", "app.medbillanalyzer.com"]
     }
   ]
 }
