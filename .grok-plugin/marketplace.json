@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "emailit",
+      "description": "Emailit email platform integration (hosted MCP server + skills). Send transactional email, manage sending domains, contacts, audiences, and templates, run campaigns and automations, and debug deliverability. Sign in with OAuth in the browser, no API key to paste.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/emailit/plugins.git",
+        "sha": "39150f6a30e9319377ab34c2dbb441effe35ba65"
+      },
+      "homepage": "https://emailit.com/docs/mcp/grok/",
+      "keywords": ["emailit", "emailit mcp", "emailit api", "emailit smtp", "emailit email"],
+      "domains": ["emailit.com", "api.emailit.com", "dash.emailit.com"]
     }
   ]
 }
