@@ -1,0 +1,11 @@
+{
+  "name": "veritaset",
+  "version": "1.0.0",
+  "description": "Veritaset: verified, dated consumer mobile plan prices in 32 European markets and the US (preview), plus home internet offers in 7 markets (preview), via the hosted Veritaset MCP server at veritaset.com/mcp. Compare plans for a person's data, minutes, contract and travel needs, estimate savings from real usage, and read any plan's full record with the operator's source link and check date. No account or key needed.",
+  "author": { "name": "Veritaset", "url": "https://veritaset.com" },
+  "homepage": "https://veritaset.com/agents/",
+  "repository": "https://veritaset.com",
+  "license": "MIT",
+  "keywords": ["veritaset", "veritaset mobile plans", "veritaset prices", "veritaset compare"],
+  "logo": "assets/logo.svg"
+}

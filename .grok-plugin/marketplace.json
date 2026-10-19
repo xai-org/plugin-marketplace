@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "veritaset",
+      "description": "Verified, dated consumer mobile plan prices in 32 European markets and the US (preview), plus home internet offers in 7 markets, from the hosted Veritaset MCP server. Compare plans for a person's needs, estimate savings from real usage, and cite the operator's source link and check date. No key needed.",
+      "category": "data",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/veritaset"
+      },
+      "homepage": "https://veritaset.com/agents/",
+      "keywords": ["veritaset", "veritaset mobile plans", "veritaset prices"],
+      "domains": ["veritaset.com"]
     }
   ]
 }
