@@ -332,6 +332,24 @@
         ]
       }
     },
+    "dashly": {
+      "sha": "1ee03f74841c23a64422b5f62ae9487d27196b6e",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dashly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dashly-tracking",
+            "description": "Use when a person wants to track something by telling you (meals and calories, water, habits, mood, workouts, weight, t…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

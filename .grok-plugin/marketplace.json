@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "dashly",
+      "description": "Official Dashly plugin. Track calories, habits, mood, workouts, spending and tasks by telling Grok, and see each one as a live tile against its goal on your Dashly dashboard. Connects Dashly's hosted MCP server over HTTP with OAuth sign-in in the browser (no API key), plus a skill on how to log well.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thinslatelabs/dashly-skill.git",
+        "sha": "1ee03f74841c23a64422b5f62ae9487d27196b6e",
+        "path": "plugins/dashly"
+      },
+      "homepage": "https://dashly.si/connect",
+      "keywords": ["dashly", "dashly.si", "dashly tracker", "dashly dashboard"],
+      "domains": ["dashly.si"]
     }
   ]
 }
