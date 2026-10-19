@@ -67,6 +67,24 @@
         ]
       }
     },
+    "blck-alpaca": {
+      "sha": "b91939eb85c2ca32a93f3228d5289144ffb1df4a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blckalpaca",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentic-audit",
+            "description": "Audit a public website for AI-agent readiness and GEO, explain the findings with sources from the Blck Alpaca Knowledge…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
       "version": "0.1.0",
