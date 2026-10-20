@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "shipstatic",
+      "description": "Official ShipStatic integration (MCP Server + Skill). Ask your agent to put your site, page or app online, and get a link you can share right away. Free, no account needed, with built-in password protection.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shipstatic/plugin.git",
+        "sha": "d144b685f1c8cf1ace0d1c40f635c1f50e5f9547"
+      },
+      "homepage": "https://shipstatic.com",
+      "keywords": ["shipstatic", "publish with shipstatic", "deploy to shipstatic", "shipstatic link"],
+      "domains": ["shipstatic.com", "my.shipstatic.com"]
     }
   ]
 }
