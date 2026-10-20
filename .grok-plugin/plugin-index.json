@@ -558,6 +558,24 @@
         ]
       }
     },
+    "magic-hour": {
+      "sha": "854467662915b9bff33ea35f6d1d609a064046ef",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "magic-hour",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "magic-hour",
+            "description": "Create and edit images and videos with Magic Hour. Use when the user wants to generate an image, turn an image into a v…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
       "version": "0.0.194",

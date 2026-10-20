@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "magic-hour",
+      "description": "Create and edit images and video with Magic Hour from your agent: text-to-image, image-to-video, face swap, lip sync, talking photo, and more. Connects to Magic Hour's remote MCP server; requires a Magic Hour account or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/magichourhq/magic-hour-grok-plugin.git",
+        "sha": "854467662915b9bff33ea35f6d1d609a064046ef"
+      },
+      "homepage": "https://magichour.ai/",
+      "keywords": ["magic hour", "magichour", "magic hour ai"],
+      "domains": ["magichour.ai"]
     }
   ]
 }
