@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "codetopo",
+      "description": "Domain-blind code graphs for AI agents. Indexes a repository into a deterministic graph and answers structural questions over MCP — symbols, calls, blast radius, and proof-checked snapshots. Read-only: code is parsed, never executed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/codetopo"
+      },
+      "homepage": "https://aimlds.org/codetopo",
+      "keywords": ["codetopo", "codetopo mcp", "codetopo code graph"],
+      "domains": ["aimlds.org"]
     }
   ]
 }

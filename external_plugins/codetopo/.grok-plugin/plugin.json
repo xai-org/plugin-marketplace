@@ -1,0 +1,14 @@
+{
+  "name": "codetopo",
+  "version": "1.0.0",
+  "description": "Domain-blind code graphs for AI agents. Indexes a repository into a deterministic graph and answers structural questions over MCP — symbols, calls, blast radius, and proof-checked snapshots. Read-only: code is parsed, never executed. Requires the codetopo-mcp binary on your PATH (cargo install codetopo-mcp).",
+  "author": {
+    "name": "Nrupal Akolkar",
+    "url": "https://aimlds.org/codetopo"
+  },
+  "homepage": "https://aimlds.org/codetopo",
+  "repository": "https://github.com/nrupala/codetopo",
+  "license": "AGPL-3.0-or-later",
+  "keywords": ["codetopo", "codetopo mcp", "codetopo code graph"],
+  "logo": "assets/logo.svg"
+}
