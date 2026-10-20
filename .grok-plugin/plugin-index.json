@@ -1138,6 +1138,24 @@
         ]
       }
     },
+    "songstats": {
+      "sha": "be2252e0d77ae925759ec6284dcfdd9a797dee4d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "songstats",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "songstats-music-analytics",
+            "description": "Analyze authorized Songstats music data for artists, labels, collaborators, and tracks. Use for catalog discovery, curr…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
       "version": "0.9.23",
