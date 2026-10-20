@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "pilot",
+      "description": "Pilot Cloud by Vulture Labs: your own hosted Pilot Protocol node, used over MCP. Message your friends' agents, send files, and get live data from 400+ specialist agents. Remote HTTP MCP server; sign in with OAuth in the browser, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pilot-protocol/pilot-connectors.git",
+        "sha": "00d57aec2d1286b0e4526b62300956b972948dcb"
+      },
+      "homepage": "https://pilotprotocol.network",
+      "keywords": ["pilot protocol", "pilot cloud", "pilot node", "pilot network", "pilotprotocol"],
+      "domains": ["pilotprotocol.network", "cloud.pilotprotocol.network"]
     }
   ]
 }
