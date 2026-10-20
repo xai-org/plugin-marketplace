@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "appie",
+      "description": "Official Appie.run integration (hosted MCP server). Find Reddit threads and draft replies, track LinkedIn profiles and leads, write articles in your brand voice, read and update brand context, train and query website chatbots, and create trackable short links. Requires an Appie.run project API key in APPIE_API_KEY.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/appierun/appie-mcp.git",
+        "sha": "906374e88f676a33630debf04ed42b878b73de44"
+      },
+      "homepage": "https://appie.run",
+      "keywords": ["appie", "appie.run", "appie mcp", "appie article", "appie chatbot", "appie short link", "appie reddit", "appie linkedin"],
+      "domains": ["appie.run", "s.appie.run"]
     }
   ]
 }
