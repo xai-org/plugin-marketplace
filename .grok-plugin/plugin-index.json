@@ -558,6 +558,18 @@
         ]
       }
     },
+    "mailows": {
+      "sha": "fb74e28afa87f8b1383b8cf67112e9dc5d41a3c4",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mailows",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",
