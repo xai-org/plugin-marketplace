@@ -332,6 +332,51 @@
         ]
       }
     },
+    "cubepath": {
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cubepath",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cdn",
+            "description": "Set up and run CubePath CDN zones, including plans and pricing, origins (web servers, external S3 buckets or CubePath O…"
+          },
+          {
+            "name": "databases",
+            "description": "Create and operate CubePath managed databases (MySQL, PostgreSQL and Valkey), including plans and prices, replicas, log…"
+          },
+          {
+            "name": "dns",
+            "description": "Host and manage domains in CubePath DNS, including creating or importing zones, verifying nameservers, adding, changing…"
+          },
+          {
+            "name": "get-started",
+            "description": "First steps with the CubePath plugin. Use when the user connects CubePath for the first time or asks what they can do w…"
+          },
+          {
+            "name": "kubernetes",
+            "description": "Create and operate CubePath managed Kubernetes clusters, including versions, worker plans and prices, node pools and au…"
+          },
+          {
+            "name": "networking",
+            "description": "Manage CubePath networking, including private networks with static routes and BGP, public and floating IPs with reverse…"
+          },
+          {
+            "name": "object-storage",
+            "description": "Manage CubePath Object Storage (S3 compatible), including tiers and pricing, buckets, versioning, Object Lock, lifecycl…"
+          },
+          {
+            "name": "servers",
+            "description": "Deploy, inspect and operate CubePath VPS and dedicated (baremetal) servers, including plans and prices, OS images, powe…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

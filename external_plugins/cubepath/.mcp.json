@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cubepath": {
+      "type": "http",
+      "url": "https://mcp.cubepath.com/mcp"
+    }
+  }
+}

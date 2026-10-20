@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "cubepath",
+      "description": "CubePath cloud integration (hosted MCP server + skills). List and operate your VPS and dedicated servers and their metrics, DNS zones and records, CDN, private networks, floating IPs, firewalls, load balancers, NAT gateways, managed Kubernetes, managed databases and object storage. Sign in with your CubePath account; no API key needed.",
+      "category": "deployment",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/cubepath"
+      },
+      "homepage": "https://mcp.cubepath.com",
+      "keywords": ["cubepath", "cubepath cloud", "cubepath mcp", "cubepath vps", "cubepath dns", "cubepath cdn", "cubepath kubernetes"],
+      "domains": ["cubepath.com", "my.cubepath.com", "mcp.cubepath.com", "api.cubepath.com"]
     }
   ]
 }
