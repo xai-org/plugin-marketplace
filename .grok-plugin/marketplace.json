@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "yachtworld",
+      "description": "YachtWorld live boat and yacht listings search (hosted MCP server + skill). Search current boats and yachts for sale worldwide, research market asking prices and availability, and get full details for a specific listing. No sign-in required.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/yachtworld"
+      },
+      "homepage": "https://www.yachtworld.com",
+      "keywords": ["yachtworld", "yacht world", "yachtworld mcp", "yachtworld listings", "yachts for sale"],
+      "domains": ["yachtworld.com", "www.yachtworld.com", "yachtworld-mcp.live.boatsgroup.com"]
     }
   ]
 }

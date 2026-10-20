@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "yachtworld": {
+      "type": "http",
+      "url": "https://yachtworld-mcp.live.boatsgroup.com/mcp"
+    }
+  }
+}

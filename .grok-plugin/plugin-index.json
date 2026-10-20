@@ -1780,6 +1780,23 @@
           }
         ]
       }
+    },
+    "yachtworld": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yachtworld",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yachtworld",
+            "description": "Search and research boats and yachts for sale with the YachtWorld MCP server: find current worldwide listings, compare…"
+          }
+        ]
+      }
     }
   }
 }
