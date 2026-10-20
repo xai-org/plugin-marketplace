@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "snapbooks",
+      "description": "Snapbooks accounting integration for Norwegian companies (hosted MCP server + skills). Look up journal entries, supplier and sales invoices, bank transactions and account balances, check what is left before the VAT return, review supplier invoices, and prepare entries, invoices and payroll changes for approval. Sign in with your Snapbooks account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/snapbooks-app/snapbooks-ai-plugin.git",
+        "sha": "5187c41b965b87c604d9d0a778b5c1684408e334"
+      },
+      "homepage": "https://github.com/snapbooks-app/snapbooks-ai-plugin",
+      "keywords": ["snapbooks", "snapbooks accounting", "snapbooks regnskap", "snapbooks bokføring"],
+      "domains": ["snapbooks.no", "snapbooks.com", "app.snapbooks.no", "api.snapbooks.com"]
     }
   ]
 }
