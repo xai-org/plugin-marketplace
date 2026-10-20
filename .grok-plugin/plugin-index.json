@@ -378,6 +378,18 @@
         ]
       }
     },
+    "ezerwright-website-auditor": {
+      "sha": "b0b5d6f7116178e6ce766bd9c2c2278a12fad387",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ezerwright-website-auditor",
+            "description": "Read-only public HTTPS website audit for SEO basics, header signals, contact-readiness and HTML accessibility indicator…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
       "version": "2.2.157",
