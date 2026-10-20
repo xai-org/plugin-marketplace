@@ -1723,6 +1723,24 @@
         ]
       }
     },
+    "voicecheap": {
+      "sha": "96a6a7615c30648c76337a04b473e07b6443443e",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voicecheap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "voicecheap",
+            "description": "Use when the user asks to connect to or work with their VoiceCheap account for audio/video or YouTube transcription, su…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
       "version": "1.31.2",
