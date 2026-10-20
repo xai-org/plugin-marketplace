@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "boattrader",
+      "description": "Boat Trader live boat-listings search (hosted MCP server + skill). Search current U.S. boats for sale, research market asking prices and availability, and get full details for a specific listing. No sign-in required.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/boattrader"
+      },
+      "homepage": "https://www.boattrader.com",
+      "keywords": ["boattrader", "boat trader", "boattrader mcp", "boattrader listings", "boats for sale"],
+      "domains": ["boattrader.com", "www.boattrader.com", "boattrader-mcp.live.boatsgroup.com"]
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "name": "boattrader",
+  "version": "1.0.0",
+  "description": "Boat Trader live boat-listings search for Grok Build via the hosted Boat Trader MCP server. Search current U.S. boats for sale, research market asking prices and availability, and pull full details for a specific listing. No sign-in required.",
+  "author": {
+    "name": "Boats Group",
+    "url": "https://www.boatsgroup.com"
+  },
+  "homepage": "https://www.boattrader.com",
+  "license": "MIT",
+  "keywords": ["boattrader", "boat trader", "boattrader mcp", "boattrader listings", "boats for sale"]
+}

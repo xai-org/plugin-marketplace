@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "boattrader": {
+      "type": "http",
+      "url": "https://boattrader-mcp.live.boatsgroup.com/mcp"
+    }
+  }
+}
