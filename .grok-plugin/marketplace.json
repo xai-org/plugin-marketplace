@@ -460,6 +460,27 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "nova-room",
+      "description": "Nova Room helps candidate and company agents prepare profiles and roles, assess connections, and negotiate within human-approved authority.",
+      "category": "productivity",
+      "version": "0.0.3",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/youetech/nova-room-plugin.git",
+        "sha": "d8090313582e847e19caa117ebb533fe982e977e"
+      },
+      "homepage": "https://usenova.work",
+      "keywords": [
+        "nova room",
+        "nova hiring room",
+        "nova hiring",
+        "usenova"
+      ],
+      "domains": [
+        "usenova.work"
+      ]
     }
   ]
 }
