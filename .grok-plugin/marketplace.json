@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "visual-sentinel",
+      "description": "Visual Sentinel website monitoring. Catches pages that look broken even when the site is up. Five tools need no account: DNS lookup, SSL certificate inspection, speed test, website check and service health. Twelve account tools (monitors, uptime, incidents, alerts, status pages, servers) need a Visual Sentinel API key, available on the Business and Agency plans. Also ships four prompts and three resources.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VisualSentinel/mcp-server.git",
+        "sha": "e5285337932f8f964a3a64f24ae89b831b138746"
+      },
+      "homepage": "https://visualsentinel.com/mcp",
+      "keywords": ["visual sentinel", "visualsentinel", "visual sentinel monitoring"],
+      "domains": ["visualsentinel.com"]
     }
   ]
 }
