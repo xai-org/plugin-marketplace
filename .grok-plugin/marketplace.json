@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "revyl",
+      "description": "Official Revyl integration (hosted MCP server + skill). Open Revyl Atlas, your team's shared record of how your app behaves, browse its screens and flows, and start, screenshot and stop live iOS and Android cloud devices from Grok. Sign in with your Revyl account on first connection; no API key or local install needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RevylAI/revyl-cli.git",
+        "sha": "3e53f47b6a9c8ee4aba1b8a05db86d63b628dffc",
+        "path": "plugins/revyl-grok"
+      },
+      "homepage": "https://revyl.com",
+      "keywords": ["revyl", "revyl atlas", "revyl device", "revyl session", "revyl mcp"],
+      "domains": ["revyl.com", "revyl.ai", "app.revyl.ai", "docs.revyl.ai"]
     }
   ]
 }
