@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "bouncelens",
+      "description": "BounceLens Email Check (MCP server + skill). Check email addresses for typos (gmial.com → gmail.com), disposable domains, dead domains, bad syntax, role addresses and duplicates before you send to them or import them. Runs locally over npx, no API key or account; the only network calls are DNS-over-HTTPS lookups of the domain.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bouncelens/mcp-email-check.git",
+        "sha": "a0dffa0c10c7de0b50760fb2f3a0529f72a01390"
+      },
+      "homepage": "https://bouncelens.com/",
+      "keywords": ["bouncelens", "bouncelens email check", "bouncelens email verification"],
+      "domains": ["bouncelens.com"]
     }
   ]
 }

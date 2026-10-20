@@ -67,6 +67,24 @@
         ]
       }
     },
+    "bouncelens": {
+      "sha": "a0dffa0c10c7de0b50760fb2f3a0529f72a01390",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bouncelens",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bouncelens-email-check",
+            "description": "Check email addresses with the BounceLens MCP tools before they are sent to, imported or saved. Use when the user asks…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
