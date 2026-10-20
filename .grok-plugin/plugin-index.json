@@ -1138,6 +1138,18 @@
         ]
       }
     },
+    "sleek": {
+      "sha": "f02ec5c822216e4638847580d458e9785f22f119",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sleek",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
       "version": "0.9.23",
