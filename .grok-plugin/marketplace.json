@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "bulktranscripts",
+      "description": "BulkTranscripts YouTube transcripts integration. Fetch the transcript of one YouTube video or a whole channel or playlist, search YouTube and inside a channel, list channel and playlist videos, and track new uploads for free, through the hosted MCP server (OAuth sign-in, 30 free credits).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pratie/bulktranscripts-mcp.git",
+        "sha": "7a0a53ddcc4563fdc24e32160402e98a8dcea155"
+      },
+      "homepage": "https://bulktranscripts.co/youtube-mcp-server",
+      "keywords": ["bulktranscripts", "bulk transcripts", "bulktranscripts youtube"],
+      "domains": ["bulktranscripts.co"],
+      "license": "MIT"
     }
   ]
 }
