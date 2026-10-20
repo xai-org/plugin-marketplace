@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "opensea",
+      "description": "OpenSea NFT and token marketplace integration. Query collection floors, stats and trending data, NFT metadata and rarity, wallet holdings, token prices and swap quotes across EVM chains and Solana via the hosted OpenSea MCP server, plus skills for Seaport trading, token swaps, wallet signing setup, and ERC-8257 agent tools.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ProjectOpenSea/opensea-skill.git",
+        "sha": "42418c8dc305784bd67bb19e39796d37eb3bafc4"
+      },
+      "homepage": "https://github.com/ProjectOpenSea/opensea-skill",
+      "keywords": ["opensea", "nft", "opensea api", "opensea mcp", "seaport", "floor price"],
+      "domains": ["opensea.io", "docs.opensea.io", "mcp.opensea.io"]
     }
   ]
 }

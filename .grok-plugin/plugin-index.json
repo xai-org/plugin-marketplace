@@ -782,6 +782,40 @@
         ]
       }
     },
+    "opensea": {
+      "sha": "42418c8dc305784bd67bb19e39796d37eb3bafc4",
+      "version": "2.26.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "opensea",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "opensea-api",
+            "description": "Query OpenSea marketplace data via the official CLI, SDK, MCP server, or shell scripts. Get floor prices, collection st…"
+          },
+          {
+            "name": "opensea-marketplace",
+            "description": "Buy and sell NFTs through OpenSea on EVM chains and Solana. Fulfill listings, accept or create offers, cancel orders, m…"
+          },
+          {
+            "name": "opensea-swaps",
+            "description": "Swap ERC20 tokens across supported chains via OpenSea's cross-chain DEX aggregator. Get quotes with optimal routing, ch…"
+          },
+          {
+            "name": "opensea-tool-sdk",
+            "description": "Build, register, and gate AI-callable tool endpoints using the OpenSea Tool Registry (ERC-8257) on Base. Scaffold HTTPS…"
+          },
+          {
+            "name": "opensea-wallet",
+            "description": "Set up and configure wallet signing providers for OpenSea transactions. Supports Privy, Turnkey, Fireblocks, Bankr, and…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
