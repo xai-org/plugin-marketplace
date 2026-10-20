@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "soorgla",
+      "description": "Soorgla Turkish law research (hosted MCP server + skill). Search 11M+ Turkish court decisions and current legislation, read statute articles and their history, and answer with links to the original texts. Read-only; sign in with your Soorgla account, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/soorgla/soorgla-plugin.git",
+        "sha": "776f7f4a404b398c5ed0ec03af0876b7e10db4d7"
+      },
+      "homepage": "https://soorgla.com/ekle/",
+      "keywords": ["soorgla", "soorgla mcp", "soorgla hukuk", "soorgla.com"],
+      "domains": ["soorgla.com", "mcp.soorgla.com"]
     }
   ]
 }
