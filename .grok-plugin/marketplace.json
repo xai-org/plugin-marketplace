@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "socialstats",
+      "description": "Explore authorized creator, audience, social performance, and post analytics with Socialstats.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Songstats/socialstats-ai-plugin.git",
+        "sha": "2d10fcfb204e54a60c5d667101f283a02d32fbb2"
+      },
+      "homepage": "https://socialstats.com",
+      "keywords": ["socialstats", "socialstats analytics"],
+      "domains": ["socialstats.com"]
     }
   ]
 }

@@ -1138,6 +1138,24 @@
         ]
       }
     },
+    "socialstats": {
+      "sha": "2d10fcfb204e54a60c5d667101f283a02d32fbb2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "socialstats",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "socialstats-creator-analytics",
+            "description": "Analyze authorized Socialstats creator and public-content data. Use for accessible creator discovery, current or histor…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
       "version": "0.9.23",
