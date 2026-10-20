@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "celigo",
+      "description": "Official Celigo plugin. Build and troubleshoot integrations on Celigo integrator.io with 24 skills for flows, connections, mappings, scripts, and B2B/EDI, plus the hosted Celigo MCP server with OAuth sign-in.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/celigo/ai.git",
+        "sha": "1e919c746635c3b46f51f2028f5752ce5ad7a871"
+      },
+      "homepage": "https://github.com/celigo/ai",
+      "keywords": ["celigo", "celigo integration", "celigo flow", "celigo mcp", "integrator.io"],
+      "domains": ["celigo.com", "docs.celigo.com", "developer.celigo.com", "integrator.io", "api.integrator.io", "eu.integrator.io", "api.eu.integrator.io", "au.integrator.io", "api.au.integrator.io", "ca.integrator.io", "api.ca.integrator.io"]
     }
   ]
 }

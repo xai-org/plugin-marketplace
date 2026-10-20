@@ -114,6 +114,138 @@
         ]
       }
     },
+    "celigo": {
+      "sha": "1e919c746635c3b46f51f2028f5752ce5ad7a871",
+      "version": "0.3.0",
+      "components": {
+        "commands": [
+          {
+            "name": "celigo-handlebars",
+            "description": "Author or debug a Celigo Handlebars expression (mapping, HTTP body, SQL, URI, filter, or file path) using the helper ca…"
+          },
+          {
+            "name": "celigo-mapping",
+            "description": "Build a Celigo field mapping (Mapper 2.0 / Transformation 2.0) -- extracts, lookups, conditionals, and response mapping."
+          },
+          {
+            "name": "celigo-plan-integration",
+            "description": "Plan a new Celigo integration from requirements -- systems, data, schedule, error handling -- and produce a bottom-up b…"
+          },
+          {
+            "name": "celigo-review-config",
+            "description": "Review a Celigo resource config (flow, export, import, connection, mapping) that I paste in, and flag issues against be…"
+          },
+          {
+            "name": "celigo-sql",
+            "description": "Write SQL for a Celigo RDBMS export or import (Snowflake, SQL Server, Postgres, MySQL, Oracle, BigQuery), with the righ…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "Celigo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "building-apis",
+            "description": "Build Celigo APIs -- custom HTTP endpoints that let external systems push or query data synchronously through Celigo in…"
+          },
+          {
+            "name": "building-b2b",
+            "description": "Build Celigo B2B Manager EDI integrations -- trading partner onboarding, EDI profiles, file definitions, X12/EDIFACT fl…"
+          },
+          {
+            "name": "building-flows",
+            "description": "Build Celigo flows -- pipelines that move data from source systems to destination systems on a schedule or in response…"
+          },
+          {
+            "name": "building-mcp-servers",
+            "description": "Build Celigo MCP server resources -- endpoints that expose Tools and builder-mode APIs to external AI agents and MCP cl…"
+          },
+          {
+            "name": "building-tools",
+            "description": "Build Celigo tool resources -- reusable building blocks that encapsulate lookups, imports, transforms, and branching be…"
+          },
+          {
+            "name": "configuring-ai-agents",
+            "description": "Configure Celigo AI agent and guardrail imports -- LLM-powered steps that classify, extract, validate, or generate data…"
+          },
+          {
+            "name": "configuring-connections",
+            "description": "Configure Celigo connections and iClients -- credential and configuration objects that authenticate to external systems…"
+          },
+          {
+            "name": "configuring-exports",
+            "description": "Configure Celigo export resources -- the data source step that fetches records from external systems. Use when creating…"
+          },
+          {
+            "name": "configuring-filters",
+            "description": "Configure Celigo filter rules on exports, imports, and flow branches that control which records continue through the pi…"
+          },
+          {
+            "name": "configuring-guardrails",
+            "description": "Configure Celigo guardrail resources -- safety and compliance checks that validate data flowing through integrations. U…"
+          },
+          {
+            "name": "configuring-imports",
+            "description": "Configure Celigo imports -- the destination step that writes records to external systems. Use when creating imports, ch…"
+          },
+          {
+            "name": "configuring-lookup-caches",
+            "description": "Configure Celigo lookup cache resources -- in-memory key-value stores used for fast lookups, deduplication, cross-refer…"
+          },
+          {
+            "name": "getting-started",
+            "description": "Orientation for Celigo integrations -- core concepts, build order, account discovery, planning discipline, sandbox awar…"
+          },
+          {
+            "name": "managing-api-tokens",
+            "description": "Manage Celigo API tokens (the accesstoken resource) -- bearer credentials that authenticate inbound programmatic calls…"
+          },
+          {
+            "name": "managing-integrations",
+            "description": "Manage Celigo integrations -- the named containers that group flows, APIs, Tools, connections, scripts, and settings so…"
+          },
+          {
+            "name": "managing-on-premise-agents",
+            "description": "Manage Celigo on-premise agents -- lightweight software you install on a host inside your own network that opens a secu…"
+          },
+          {
+            "name": "managing-stacks",
+            "description": "Configure Celigo stacks -- pointers to your own compute environment (a self-hosted `server` or an AWS `lambda`) where C…"
+          },
+          {
+            "name": "managing-users",
+            "description": "Manage Celigo account users -- inviting users, updating permissions, configuring access levels (administrator, manage,…"
+          },
+          {
+            "name": "troubleshooting-flows",
+            "description": "Diagnose and resolve Celigo flow failures -- total failures, partial errors, stuck jobs, empty runs, and performance is…"
+          },
+          {
+            "name": "using-marketplace-templates",
+            "description": "Find, install, and reuse pre-built integration blueprints from the Celigo Marketplace -- Templates (unlocked, fully edi…"
+          },
+          {
+            "name": "writing-handlebars",
+            "description": "Write Handlebars template expressions for Celigo integrations -- dynamic values in mappings, HTTP bodies, SQL queries,…"
+          },
+          {
+            "name": "writing-mappings",
+            "description": "Write field mappings and transforms in Celigo integrations. Covers Mapper 2.0 (imports), Transformation 2.0 (exports),…"
+          },
+          {
+            "name": "writing-scripts",
+            "description": "Write Celigo JavaScript hook scripts -- preSavePage, preMap, postMap, postSubmit, postResponseMap, filter, transform, b…"
+          },
+          {
+            "name": "writing-sql",
+            "description": "Write SQL queries for Celigo RDBMS exports and imports -- SELECT, INSERT, UPDATE, UPSERT, MERGE, delta, once, and bulk…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
       "version": "1.11.0",
