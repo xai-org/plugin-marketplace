@@ -460,6 +460,20 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "userproof",
+      "description": "Records real visitor sessions on your site, finds dead clicks, rage clicks and errors on click, and returns the one highest-impact conversion fix with the file and line to change, then checks the fix after you ship. Setup runs from the terminal with an email; free for 3 sites.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GetUserProof/userproof.git",
+        "sha": "f7a8841b5e05f144ee9f6c3420b88e8a482eb944",
+        "path": "plugin"
+      },
+      "homepage": "https://getuserproof.com",
+      "keywords": ["userproof", "userproof session replay", "userproof dead clicks", "userproof rage clicks", "userproof conversion fix"],
+      "domains": ["getuserproof.com", "api.getuserproof.com"]
     }
   ]
 }
