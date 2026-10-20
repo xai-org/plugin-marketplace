@@ -460,6 +460,19 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "crossmint",
+      "description": "Manage Crossmint organizations, projects, environments and API keys from your AI assistant. Sign in with your Crossmint account to access the platform directly from Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Crossmint/crossmint-mcp.git",
+        "sha": "e0fc0a072ad4a6f2f4f6dce92f78d35f854155f4"
+      },
+      "homepage": "https://docs.crossmint.com/mcp-server/connect",
+      "keywords": ["crossmint", "nft", "blockchain", "web3"],
+      "domains": ["crossmint.com"]
     }
   ]
 }
