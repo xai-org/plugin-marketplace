@@ -460,6 +460,18 @@
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "verify-before-done",
+      "description": "Verify Before Done: never claim done without checking the real result, plus Upgrade Audit, a read-only logic audit of your repos after a model upgrade with a verifier pass and PDF report.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/martialsystems/verify-before-done.git",
+        "sha": "ca8a3edded5606ac9005e2462df813fb466c520a"
+      },
+      "homepage": "https://github.com/martialsystems/verify-before-done",
+      "keywords": ["verify-before-done", "upgrade-audit", "martial systems"]
     }
   ]
 }
