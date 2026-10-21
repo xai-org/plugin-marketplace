@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "7b0a6f61b254b0149bb644cadfb588a5c46df0c2"
+        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
+        "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "45f187b1e3202c9f32ddba913be5d68751c3caa3"
+        "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+        "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d"
+        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "572357b791a91a5138c050e08eb718b150be21cb"
+        "sha": "39857c32742803d7e591c3a1ef66a2b50a6b9cd6"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "32a261b6b2437464aca7e51bf9b48bcac1e2835c"
+        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -167,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
+        "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "ae7e5e5f80da20f1dd7445e0c6ae5ac58a5b0bce"
+        "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -213,13 +213,26 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -233,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+        "sha": "1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -247,12 +260,25 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "89457fba3fa44c7b2227807948628011983ab668",
+        "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
       "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+    },
+    {
+      "name": "supabase",
+      "description": "Official Supabase plugin for Grok Build with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/supabase-community/supabase-plugin.git",
+        "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
+      },
+      "homepage": "https://github.com/supabase-community/supabase-plugin",
+      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
+      "domains": ["supabase.com"]
     },
     {
       "name": "pstack",
@@ -261,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "93b00b89ef425a9c1bac0d0b317dfc49c930ac99",
+        "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -274,12 +300,25 @@
       "source": {
         "source": "url",
         "url": "https://github.com/browser-use/plugins.git",
-        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+        "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
         "path": "grok"
       },
       "homepage": "https://browser-use.com",
       "keywords": ["browser use", "browser-use", "browser use cloud"],
       "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "datadog",
+      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/grok-plugin.git",
+        "sha": "083b4783095520f562534956578c8826613292a9"
+      },
+      "homepage": "https://github.com/datadog-labs/grok-plugin",
+      "keywords": ["datadog", "datadog mcp"],
+      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
     },
     {
       "name": "quo",
@@ -301,12 +340,166 @@
       "source": {
         "source": "url",
         "url": "https://github.com/rafaelob/iajus-plugin-public.git",
-        "sha": "97c322773a5b8a0b31c5bb5bc2bf68db76c3975b",
+        "sha": "6dc34007e2b01ebca7f54e68faa737ad292c11fd",
         "path": "plugins/iajus-juris"
       },
       "homepage": "https://iajus.com.br",
       "keywords": ["iajus", "iajus legal research", "iajus jurisprudencia", "iajus legislacao"],
-      "domains": ["iajus.com.br", "mcp.iajus.com.br"]
+      "domains": ["iajus.com.br", "mcp.iajus.com.br", "app.iajus.com.br"]
+    },
+    {
+      "name": "bruin",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+    },
+    {
+      "name": "omneky",
+      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/omneky"
+      },
+      "homepage": "https://www.omneky.com",
+      "keywords": ["omneky", "omneky ads", "omneky mcp"],
+      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "helena",
+      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "9b71516e006144d323f138f1785f55123ec51931"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+    },
+    {
+      "name": "unity",
+      "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
+        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+      },
+      "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
+      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "calcom",
+      "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/calcom"
+      },
+      "homepage": "https://cal.com/docs/mcp-server",
+      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "skyvern",
+      "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skyvern-AI/skyvern-grok-plugin.git",
+        "sha": "6fae60f5476857b8e3796bd253854809851ebc3b"
+      },
+      "homepage": "https://www.skyvern.com",
+      "keywords": ["skyvern", "skyvern browser", "skyvern mcp"],
+      "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
+    },
+    {
+      "name": "html-css-to-image",
+      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
+        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+      },
+      "homepage": "https://htmlcsstoimage.com",
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
+    },
+    {
+      "name": "pi-security",
+      "description": "Official Pi Security integration (MCP Server + Skills). Investigate findings, review security posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pi-sloane/grok-plugin.git",
+        "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+        "path": "plugins/pi-security"
+      },
+      "homepage": "https://www.pi.security/",
+      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clerk/skills.git",
+        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
+      },
+      "homepage": "https://clerk.com/docs",
+      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "videogen",
+      "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
+      "category": "media",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/videogen"
+      },
+      "homepage": "https://videogen.io/videogen-mcp",
+      "keywords": [
+        "videogen",
+        "videogen mcp",
+        "videogen video"
+      ],
+      "domains": [
+        "videogen.io",
+        "app.videogen.io",
+        "mcp.videogen.io"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "VideoGen",
+        "email": "support@videogen.io",
+        "url": "https://github.com/video-gen"
+      }
     }
   ]
 }
