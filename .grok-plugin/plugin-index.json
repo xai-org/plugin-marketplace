@@ -1740,6 +1740,24 @@
         ]
       }
     },
+    "vstok-recommendations": {
+      "sha": "60f7db4ee8eb95acf4a3b9aa1d4976a9fbce2094",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vstok",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vstok-recommendations",
+            "description": "Review VStok projects, verified recommendations and execution status without starting or claiming an execution."
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "39857c32742803d7e591c3a1ef66a2b50a6b9cd6",
       "version": "1.33.0",
