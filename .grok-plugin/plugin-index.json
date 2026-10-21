@@ -354,6 +354,28 @@
         ]
       }
     },
+    "desearch": {
+      "sha": "74058549ff68e6f3d63d21dc09a949651d579ec6",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "desearch",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "desearch",
+            "description": "Choose which Desearch MCP tool to call. Use when the task needs AI search, web search, a page as text or HTML, X posts,…"
+          },
+          {
+            "name": "desearch-people-search",
+            "description": "Find people and creators on X, YouTube, LinkedIn, or TikTok who match a plain-language description with the Desearch Pe…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
