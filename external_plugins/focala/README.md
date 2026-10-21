@@ -1,69 +1,86 @@
-# Focala plugin for Grok Build
+# Focala for Grok Build
 
-Connect Grok Build to [Focala](https://focala.ai) to explore your workspace's
-AI search visibility, competitor rankings, monitored prompts, recommendations,
-buyer insights, content performance, traffic, and tasks.
+Ask Grok about your brand's AI search visibility, compare competitors, and turn
+insights from your [Focala](https://focala.ai) workspace into next steps.
 
-## Installation and authentication
+## Get connected
 
-Once listed in the xAI marketplace, open `/plugin` in Grok Build, search for
-**Focala**, and install. On first connection, follow the OAuth sign-in flow,
-select your Focala workspace, and approve the connection's access. A Focala
-account and workspace membership are required. Available data depends on your
-workspace's monitoring and connected integrations.
+You need a Focala account and access to a workspace with monitored prompts.
 
-No API key, client secret, or manually copied bearer token is required. Never
-paste credentials into chat. The MCP client obtains and manages OAuth tokens.
-Each connection is limited to one workspace and the signed-in member's permissions.
-Use read access for analytics. Manage access also exposes prompt and task creation
-and updates to eligible editors/admins; viewers cannot use write tools.
+1. Open `/plugin` in Grok Build, search for **Focala**, and install it.
+2. When prompted to connect, sign in to Focala in your browser.
+3. Select the workspace you want Grok to use and approve the connection.
+4. Return to Grok and ask: **“Give me an overview of my Focala workspace.”**
 
-## Example requests
+Choose **read access** to explore reports and tasks. Choose **manage access** if
+you also want Grok to create or update monitored prompts and tasks. Managing
+prompts and tasks requires an editor or admin role; viewers have read access.
 
-- How has my brand's AI visibility changed over the last 30 days?
-- Which competitors rank ahead of my brand on monitored prompts?
-- What are my highest-priority AI visibility recommendations?
-- Show my AI referral traffic for the last 30 days by engine.
-- Show my workspace's open tasks, including their status and priority.
+You do not need an API key. Complete sign-in in your browser; never paste your
+password or access tokens into chat.
 
-Answers use existing observations; a question does not start a new monitoring run.
-Missing data is not zero performance, recommendation impact scores are estimates,
-and before/after content metrics do not establish causation. The server supplies
-tool descriptions and connection instructions, including permission requirements.
+## Ask about your performance
 
-## Network access and data
+Try these requests, adding a date range, engine, or competitor when useful:
 
-This package contains only metadata and an HTTP MCP configuration. It installs
-no executable scripts, hooks, or local MCP process and requests no local files
-or environment variables. Tool calls send requested arguments to Focala and
-return data from the authorized workspace to Grok.
+- “How has my brand's AI visibility changed over the last 30 days?”
+- “Which competitors rank ahead of my brand on monitored prompts?”
+- “Which prompts have the biggest visibility gaps?”
+- “What are my highest-priority AI visibility recommendations?”
+- “Show my AI referral traffic for the last 30 days by engine.”
+- “Which content pages are getting traffic from AI search?”
+- “Show my open tasks, including their status and priority.”
 
-Network endpoints used by the connection:
+Ask follow-up questions to explore the evidence behind a result or turn findings
+into a prioritized action plan.
 
-- `https://app.focala.ai/api/mcp` — hosted MCP over Streamable HTTP.
-- `https://app.focala.ai/.well-known/oauth-protected-resource/api/mcp` — resource discovery.
-- `https://app.focala.ai/.well-known/oauth-authorization-server/api/auth/connect/global`
-  — OAuth authorization server discovery.
-- `https://app.focala.ai/api/auth/connect/global` — browser authorization gateway;
-  sign-in and workspace consent use Focala's application and WorkOS AuthKit.
-- `https://respectable-bicycle-26.authkit.app/oauth2/authorize`, `/oauth2/token`,
-  and `/oauth2/register` — WorkOS authorization, token exchange/refresh, and
-  dynamic client registration, as advertised by Focala's discovery metadata.
+## Manage prompts and tasks
 
-OAuth uses authorization code with PKCE (S256). No credentials are bundled.
-Focala's hosted service enforces workspace isolation, connection access, member
-roles, and rate limits. Task assignment can send the normal Focala notification;
-task completion can run verification, and prompt creation uses normal scheduled
-monitoring. Review requested changes before approving a write.
+With manage access and an editor or admin role, you can ask:
 
-## Support and policies
+- “Create a task called Improve our comparison page copy.”
+- “Add a monitored prompt: What are the best alternatives to [competitor]?”
 
-- [Support](https://focala.ai/contact)
-- [Privacy policy](https://focala.ai/privacy-policy)
-- [Terms of service](https://focala.ai/tos)
+Be specific about the changes you want. Assigning a task can notify the assignee,
+and completing a task can run Focala's normal verification. New prompts follow
+your workspace's monitoring schedule.
+
+## Understand your results
+
+Grok uses the workspace you selected when connecting. Reports depend on its
+monitored prompts, available observations, and connected integrations. Asking a
+question does not start a new monitoring run.
+
+Missing data does not mean zero performance. Recommendation impact scores are
+estimates, and a change in traffic after a content update does not prove the
+update caused it.
+
+## If something is missing
+
+- **No results:** check that your selected Focala workspace has monitored prompts
+  and observations for the requested dates. Try a wider date range.
+- **Traffic reports are unavailable:** check your workspace's connected analytics
+  integrations in Focala.
+- **You cannot create or update a task or prompt:** check that your connection has
+  manage access and your workspace role is editor or admin.
+- **Sign-in is requested again:** follow the browser sign-in flow to reconnect.
+
+## Your data and connection
+
+The plugin connects to `https://app.focala.ai/api/mcp` to retrieve workspace data
+and carry out requested changes. Focala's discovery and authorization endpoints
+on `app.focala.ai` and its sign-in provider,
+`https://respectable-bicycle-26.authkit.app` (authorization, registration, and
+token endpoints), handle account connection. Each connection is limited to one
+workspace and your permissions. Requested workspace data is returned to Grok.
+
+## Help
+
+[Contact support](https://focala.ai/contact) ·
+[Privacy policy](https://focala.ai/privacy-policy) ·
+[Terms of service](https://focala.ai/tos)
 
 ## License
 
-The files in this plugin package are licensed under [MIT](LICENSE).
-This license does not cover the Focala application or hosted service, whose use
-is governed by Focala's terms of service.
+The plugin files are [MIT licensed](LICENSE). Use of Focala's hosted service is
+governed by its terms of service.
