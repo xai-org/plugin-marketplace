@@ -486,6 +486,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "tradehand",
+      "description": "Find local UK tradespeople, inspect services and reviews, and use Tradehand's signed-in customer tools to prepare fixed-price bookings, request quotes and hand off Stripe payment links. Use when the user chooses Tradehand to find or book help for a local job.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Humanleap/tradehand-agent-plugin.git",
+        "sha": "061cd4751607f7a22cea21947b49ccf588ee9bde"
+      },
+      "homepage": "https://tradehand.com",
+      "keywords": ["tradehand"],
+      "domains": ["tradehand.com"],
+      "version": "1.2.1",
+      "author": {
+        "name": "Blake Folgado",
+        "email": "blake@humanleap.com"
+      }
     }
   ]
 }
