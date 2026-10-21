@@ -486,6 +486,35 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "podpitch",
+      "description": "Find relevant podcasts without an account. Existing customers can connect PodPitch for private campaigns, drafts, inbox replies and outreach.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PodPitch/podpitch-plugins.git",
+        "sha": "87f37a38b67900ed156d15f5ccbabec7f9df53d8",
+        "path": "claude/podpitch"
+      },
+      "homepage": "https://podpitch.com",
+      "keywords": [
+        "podpitch",
+        "podcast discovery",
+        "podcast guests",
+        "media outreach",
+        "public relations"
+      ],
+      "domains": [
+        "podpitch.com",
+        "api.podpitch.com",
+        "app.podpitch.com"
+      ],
+      "author": {
+        "name": "PodPitch",
+        "email": "neal@podpitch.com",
+        "url": "https://podpitch.com"
+      }
     }
   ]
 }
