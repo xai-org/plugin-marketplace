@@ -1,0 +1,12 @@
+{
+  "name": "focala",
+  "version": "0.1.0",
+  "description": "Track AI search visibility, compare competitors, and prioritize AEO, GEO, and SEO improvements using your Focala workspace data.",
+  "author": {
+    "name": "Focala",
+    "url": "https://github.com/Focala"
+  },
+  "homepage": "https://focala.ai",
+  "license": "MIT",
+  "keywords": ["focala", "focala analytics", "focala mcp"]
+}
