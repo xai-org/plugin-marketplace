@@ -558,6 +558,36 @@
         ]
       }
     },
+    "iajus-pt": {
+      "sha": "315b1dbf52e3b4b27dead3698a6dde68e44cd539",
+      "version": "2.0.14",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "iajus-pt",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "estado-corpus-pt",
+            "description": "Consulta a cobertura do acervo português da IAJUS com consultar_acervo e distingue zero medido de secção não medida ou…"
+          },
+          {
+            "name": "fora-de-ambito-pt",
+            "description": "Distingue pesquisa jurisprudencial portuguesa de legislação, vigência, doutrina, leitura da íntegra e relações entre de…"
+          },
+          {
+            "name": "pesquisar-jurisprudencia-pt",
+            "description": "Pesquisa jurisprudência portuguesa com pesquisar_decisoes e pesquisar_precedentes, escolhendo a modalidade e os filtros…"
+          },
+          {
+            "name": "verificar-citacoes-pt",
+            "description": "Confere citações de jurisprudência portuguesa uma a uma contra os registos e fontes devolvidos por pesquisar_decisoes e…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",
