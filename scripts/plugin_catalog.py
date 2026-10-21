@@ -4,7 +4,7 @@
 One extract path given a plugin root on disk (already resolved at a known
 sha / local path):
 
-  - load manifest (.grok-plugin/plugin.json or .claude-plugin/plugin.json)
+  - load manifest (.grok-plugin/, .claude-plugin/ or .cursor-plugin/ plugin.json)
   - read version if present
   - scan components (skills, commands, agents, mcpServers, hooks, lspServers)
 
@@ -28,8 +28,14 @@ FETCH_ATTEMPTS = 3
 
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 
+# Manifest lookup order. The Grok CLI reads the first two at install time.
+# `.cursor-plugin/plugin.json` is read here only for catalog metadata
+# (version, declared component paths): plugins sourced from the Cursor
+# plugin repo keep their manifest there, and without it the bump workflow
+# sees no version and advances the pin on every upstream commit.
 MANIFEST_PATHS = [
     Path(".grok-plugin/plugin.json"),
+    Path(".cursor-plugin/plugin.json"),
     Path(".claude-plugin/plugin.json"),
 ]
 
