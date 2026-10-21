@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "log10x",
+      "description": "Double your logging capacity, or cut your Splunk, Datadog, Elastic or ClickHouse bill by half. The 10x plugin gives your coding agent the tools to automatically and losslessly compact, tier down or offload to S3 the logs that drive the bill. Everything runs in your network and plugs into your existing log forwarder, or into serverless on AWS and Azure.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/log-10x/log10x-plugin.git",
+        "sha": "9cae961a65f90b6a46849720319b8fe94919177c"
+      },
+      "homepage": "https://doc.log10x.com/apps/mcp/",
+      "keywords": ["log10x", "log10x mcp", "10x engine"],
+      "domains": ["log10x.com", "doc.log10x.com"]
     }
   ]
 }
