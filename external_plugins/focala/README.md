@@ -69,11 +69,8 @@ update caused it.
 ## Your data and connection
 
 The plugin connects to `https://app.focala.ai/api/mcp` to retrieve workspace data
-and carry out requested changes. Focala's discovery and authorization endpoints
-on `app.focala.ai` and its sign-in provider,
-`https://respectable-bicycle-26.authkit.app` (authorization, registration, and
-token endpoints), handle account connection. Each connection is limited to one
-workspace and your permissions. Requested workspace data is returned to Grok.
+and carry out requested changes. Each connection is limited to one workspace
+and your permissions. Requested workspace data is returned to Grok.
 
 ## Help
 
