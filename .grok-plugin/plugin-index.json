@@ -524,6 +524,24 @@
         ]
       }
     },
+    "golf": {
+      "sha": "f8e9fbf260dc5632b8ccb2b251bebada2d7e6597",
+      "version": "1.0.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "golf",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "golf",
+            "description": "Use Golf Intelligence course search, scorecard, mapped course data, detail, and green slope imagery when building a gol…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

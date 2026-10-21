@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "golf",
+      "description": "Golf Course Data by Stracka. Proprietary StrackaGolf course data only, updated daily. Search is free. Scorecards, GPS, and 3D greens via API.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/golf-data/golf.git",
+        "sha": "f8e9fbf260dc5632b8ccb2b251bebada2d7e6597"
+      },
+      "homepage": "https://github.com/golf-data/golf",
+      "keywords": ["golf", "golf course data", "stracka", "golf app"],
+      "domains": ["golfintelligence.com", "console.golfintelligence.com", "mcp.golfintelligence.com"]
     }
   ]
 }
