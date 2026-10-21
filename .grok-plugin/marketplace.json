@@ -486,6 +486,29 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "remote-desktop-commander",
+      "description": "Remote Desktop Commander: use files, terminal and processes on your own computers from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/desktop-commander/remote-desktop-commander.git",
+        "sha": "b2d18b9c56fd8fbf5c280394ea805e77b2675871"
+      },
+      "homepage": "https://mcp.desktopcommander.app",
+      "keywords": [
+        "desktop commander",
+        "remote desktop commander"
+      ],
+      "domains": [
+        "desktopcommander.app",
+        "mcp.desktopcommander.app"
+      ],
+      "author": {
+        "name": "Desktop Commander",
+        "url": "https://desktopcommander.app"
+      }
     }
   ]
 }
