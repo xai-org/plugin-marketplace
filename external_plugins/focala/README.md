@@ -6,6 +6,7 @@ insights from your [Focala](https://focala.ai) workspace into next steps.
 ## Get connected
 
 You need a Focala account and access to a workspace with monitored prompts.
+New to Focala? A free trial is available at [focala.ai](https://focala.ai).
 
 1. Open `/plugin` in Grok Build, search for **Focala**, and install it.
 2. When prompted to connect, sign in to Focala in your browser.
