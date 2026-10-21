@@ -1,0 +1,16 @@
+{
+  "name": "sealgate",
+  "description": "Connect agents to everything and manage agent access. SealGate handles adding, monitoring, enforcing policies, and blocking data exfiltration at runtime for any MCP. Flexible CLI, API, and MCP interfaces available.",
+  "version": "0.1.0",
+  "author": {
+    "name": "SealGate",
+    "url": "https://sealgate.ai"
+  },
+  "homepage": "https://sealgate.ai",
+  "license": "SEE LICENSE AT https://sealgate.ai",
+  "keywords": [
+    "sealgate",
+    "sealgate gateway",
+    "sealgate firewall"
+  ]
+}
