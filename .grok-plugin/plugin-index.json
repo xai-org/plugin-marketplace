@@ -332,6 +332,18 @@
         ]
       }
     },
+    "cloudish": {
+      "sha": "e560d7af4f2566a4aa10f0539492d9b600a482d4",
+      "version": "0.1.6",
+      "components": {
+        "skills": [
+          {
+            "name": "cloudish",
+            "description": "Cloudish deploys apps as long-lived containers with a public URL, such as websites, APIs, bots, workers and MCP servers…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
