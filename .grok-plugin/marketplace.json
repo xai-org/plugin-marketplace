@@ -409,6 +409,25 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "eryx",
+      "description": "Connect Grok Build to an authorized Eryx B2B lead-discovery workspace. Inspect projects, ranked leads, discovery runs, usage, and remaining credits through a hosted MCP server with OAuth.",
+      "category": "sales",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/novolgit/eryx-mcp-plugin.git",
+        "sha": "2ae004e672040876bfbe23f22d6e94877f34e8e8"
+      },
+      "homepage": "https://eryx.digital",
+      "keywords": [
+        "eryx",
+        "eryx b2b leads",
+        "eryx lead discovery"
+      ],
+      "domains": [
+        "eryx.digital"
+      ]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
