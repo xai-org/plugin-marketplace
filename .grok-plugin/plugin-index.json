@@ -558,6 +558,78 @@
         ]
       }
     },
+    "iajus": {
+      "sha": "6dc34007e2b01ebca7f54e68faa737ad292c11fd",
+      "version": "3.0.18",
+      "components": {
+        "agents": [
+          {
+            "name": "conferente-citacoes",
+            "description": "Confere individualmente se citações de decisões, precedentes e normas são sustentadas por registro e fonte disponíveis."
+          },
+          {
+            "name": "elaborador-tese",
+            "description": "Constrói e testa uma tese jurídica com fundamentos e vulnerabilidades apoiados em fontes consultadas."
+          },
+          {
+            "name": "legislacao-juris",
+            "description": "Especialista em pesquisar, ler e conferir legislação brasileira federal, estadual e municipal sem presumir disponibilid…"
+          },
+          {
+            "name": "memorialista-juris",
+            "description": "Redige memorial, parecer ou nota técnica com fundamentos rastreáveis em jurisprudência e legislação consultadas nesta s…"
+          },
+          {
+            "name": "pesquisador-juris",
+            "description": "Pesquisador jurídico IAJUS para levantar e citar jurisprudência ou legislação brasileira em uma pesquisa de mais de uma…"
+          },
+          {
+            "name": "precedentes-vinculantes",
+            "description": "Localiza precedentes qualificados brasileiros e confere o estado e o histórico que o retorno efetivamente informa."
+          },
+          {
+            "name": "processo-juris",
+            "description": "Localiza decisões associadas a um número CNJ e mapeia relações disponíveis no acervo, sem simular andamento processual."
+          },
+          {
+            "name": "refutador-tese",
+            "description": "Testa uma tese jurídica procurando fundamentos contrários reais e distingue evidência adversa de lacuna de medição."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "iajus",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "consultar-legislacao",
+            "description": "Pesquisa, lê e confere normas brasileiras. Use para texto de lei, dispositivo, identificação normativa, vigência ou alt…"
+          },
+          {
+            "name": "consultar-legislacao-estadual",
+            "description": "Consulta normas estaduais e municipais brasileiras quando a conexão IAJUS oferece a rota e os filtros territoriais corr…"
+          },
+          {
+            "name": "corpus-status",
+            "description": "Consulta cobertura e atualização declaradas pelo read-model do corpus IAJUS, sempre preservando as_of, limites e estado…"
+          },
+          {
+            "name": "pesquisa-juridica-lex",
+            "description": "Solicita pesquisa jurídica integrada ao Lex (recurso beta, com limites por conta), com consulta, contexto e restrições…"
+          },
+          {
+            "name": "pesquisar-jurisprudencia",
+            "description": "Pesquisa decisões, precedentes qualificados, informativos e relações jurídicas brasileiras no IAJUS. Use para acórdãos,…"
+          },
+          {
+            "name": "verificar-citacoes",
+            "description": "Verifica uma a uma citações de decisões, precedentes e normas contra registros e fontes disponíveis. Use para checar ex…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",

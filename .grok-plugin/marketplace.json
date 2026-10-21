@@ -334,6 +334,20 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "iajus",
+      "description": "Brazilian legal research through the hosted IAJUS MCP server. Search case law, qualified and binding precedents, and federal, state, and municipal legislation, with citations and official-source links when available.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rafaelob/iajus-plugin-public.git",
+        "sha": "6dc34007e2b01ebca7f54e68faa737ad292c11fd",
+        "path": "plugins/iajus-juris"
+      },
+      "homepage": "https://iajus.com.br",
+      "keywords": ["iajus", "iajus legal research", "iajus jurisprudencia", "iajus legislacao"],
+      "domains": ["iajus.com.br", "mcp.iajus.com.br", "app.iajus.com.br"]
+    },
+    {
       "name": "bruin",
       "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
