@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "serpapi",
+      "description": "Multi-engine search via SerpApi's hosted MCP server. One search tool spans 130+ engines \u2014 Google (web, images, news, shopping, maps/local, finance, flights, hotels, jobs, scholar), Bing, Yahoo, Yandex, Baidu, Naver, DuckDuckGo, YouTube, eBay, Amazon, Walmart, and more. Returns structured JSON (prices, ratings, addresses, knowledge graph data), not just links and snippets. The same tool reads web pages via the Extract API: scrape a URL to structured content and Markdown, map a site's URLs, or crawl several pages. The serpapi CLI is available as an optional fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/serpapi/serpapi-grok-plugin.git",
+        "sha": "8b9eff976285cb1dcae3444ca085bf598c5955c2"
+      },
+      "homepage": "https://github.com/serpapi/serpapi-grok-plugin",
+      "keywords": ["serpapi", "serp api"],
+      "domains": ["serpapi.com"]
     }
   ]
 }

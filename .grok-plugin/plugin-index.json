@@ -1120,6 +1120,28 @@
         ]
       }
     },
+    "serpapi": {
+      "sha": "8b9eff976285cb1dcae3444ca085bf598c5955c2",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "serpapi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "serpapi-extract",
+            "description": "Read web pages via the SerpApi Extract API — scrape a URL into structured content and Markdown, map a website's URLs fr…"
+          },
+          {
+            "name": "serpapi-search",
+            "description": "Multi-engine search via SerpApi — one tool spanning 130+ engines: Google (web, images, news, shopping, maps/local, fina…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
