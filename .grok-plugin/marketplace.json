@@ -486,6 +486,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mrscraper",
+      "description": "MrScraper web scraping (MCP Server + Skills). Retrieve public web pages as HTML, Markdown, or screenshots through MrScraper's Scraper API, discover pages through Google search, and check account token usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mrscraper-com/mrscraper-grok-plugin.git",
+        "sha": "b1d1a0de1a114849ea8f7a5d9c48535f76112258",
+        "path": "plugins/mrscraper"
+      },
+      "homepage": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "keywords": ["mrscraper", "mr scraper", "mrscraper mcp"],
+      "domains": ["mrscraper.com", "app.mrscraper.com", "docs.mrscraper.com"]
     }
   ]
 }
