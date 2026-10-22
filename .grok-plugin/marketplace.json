@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "b9875104d249a6a6f403e369140b679cfdb78e87"
+        "sha": "39857c32742803d7e591c3a1ef66a2b50a6b9cd6"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5"
+        "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
+        "sha": "1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "d457567332aa6989e753ea289f30ea2bfbc80bc0",
+        "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -365,7 +365,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55"
+        "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -408,6 +408,35 @@
       "homepage": "https://olachill.com/developers",
       "keywords": ["olachill", "olachill travel", "olachill japan", "olachill tours"],
       "domains": ["olachill.com"]
+      "homepage": "https://clerk.com/docs",
+      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
+      "name": "videogen",
+      "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
+      "category": "media",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/videogen"
+      },
+      "homepage": "https://videogen.io/videogen-mcp",
+      "keywords": [
+        "videogen",
+        "videogen mcp",
+        "videogen video"
+      ],
+      "domains": [
+        "videogen.io",
+        "app.videogen.io",
+        "mcp.videogen.io"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "VideoGen",
+        "email": "support@videogen.io",
+        "url": "https://github.com/video-gen"
+      }
     }
   ]
 }

@@ -379,8 +379,8 @@
       }
     },
     "figma": {
-      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
-      "version": "2.2.157",
+      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
+      "version": "2.2.163",
       "components": {
         "mcpServers": [
           {
@@ -559,8 +559,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
-      "version": "0.0.194",
+      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
+      "version": "0.0.195",
       "components": {
         "skills": [
           {
@@ -839,8 +839,8 @@
       }
     },
     "pstack": {
-      "sha": "d457567332aa6989e753ea289f30ea2bfbc80bc0",
-      "version": "0.15.28",
+      "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
+      "version": "0.15.29",
       "components": {
         "agents": [
           {
@@ -1043,7 +1043,7 @@
           },
           {
             "name": "sharpen",
-            "description": "Sharpen a task before starting: the expert approach, what the user is really after, and the right level of specificatio…"
+            "description": "Make a task deeper, not bigger, then rewrite the prompt. Use for /sharpen."
           },
           {
             "name": "show-me-your-work",
@@ -1157,8 +1157,8 @@
       }
     },
     "stripe": {
-      "sha": "2f68b6e13ceab52310058fd60d3ea24adaf8df32",
-      "version": "0.9.23",
+      "sha": "1bcd18aa0e69b0e4dad9e268b873c7e245d6da5e",
+      "version": "0.9.25",
       "components": {
         "agents": [
           {
@@ -1741,9 +1741,26 @@
         ]
       }
     },
+    "videogen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "videogen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "videogen",
+            "description": "Create, edit, caption, and export videos or generate media through the VideoGen MCP connector when the user asks to use…"
+          }
+        ]
+      }
+    },
     "wix": {
-      "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
-      "version": "1.31.2",
+      "sha": "39857c32742803d7e591c3a1ef66a2b50a6b9cd6",
+      "version": "1.33.0",
       "components": {
         "mcpServers": [
           {
