@@ -354,6 +354,24 @@
         ]
       }
     },
+    "easygerber": {
+      "sha": "fb61fbb68621d15ecb4861fe849346d733cc8f76",
+      "version": "0.3.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "easygerber",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "easygerber",
+            "description": "Create, inspect, revise, export, or explicitly delete EasyGerber circuit boards, or submit user-requested EasyGerber fe…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

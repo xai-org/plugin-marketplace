@@ -486,6 +486,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "easygerber",
+      "description": "AI PCB design, layout, and routing",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EasyGerber/easygerber-agent-plugin.git",
+        "sha": "fb61fbb68621d15ecb4861fe849346d733cc8f76",
+        "path": "claude"
+      },
+      "homepage": "https://easygerber.com/agents",
+      "keywords": [
+        "easygerber"
+      ],
+      "domains": [
+        "easygerber.com",
+        "www.easygerber.com"
+      ]
     }
   ]
 }
