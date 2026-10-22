@@ -7,6 +7,16 @@ Enforces, for every plugin with `"source": {"source": "url", ...}`:
   - `sha` is a 40-character lowercase hex string (full commit SHA, not a
     tag, branch, or abbreviation)
 
+For every plugin with `"source": {"type": "local", "path": ...}`:
+
+  - `path` is a relative path inside the repository
+  - the directory exists and holds a plugin manifest
+    (`.grok-plugin/plugin.json` or `.claude-plugin/plugin.json`)
+
+Across the catalog:
+
+  - plugin names are unique
+
 This is the catalog-level enforcement layer for SHA pinning. Without a
 pin, the installer would fall back to `git clone --branch <ref>` (or HEAD),
 which means a vendor force-push or repo compromise immediately ships to
@@ -36,6 +46,14 @@ CATALOG_PATHS = [
     Path(".claude-plugin/marketplace.json"),
 ]
 
+# Manifest lookup order matches the Grok CLI plugin installer.
+MANIFEST_PATHS = [
+    Path(".grok-plugin/plugin.json"),
+    Path(".claude-plugin/plugin.json"),
+]
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 
 def validate_entry(entry: dict, idx: int) -> list[str]:
     """Return a list of human-readable error strings for a single plugin entry."""
@@ -46,6 +64,9 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
     # String-form sources like "./plugins/foo" are local paths; no sha needed.
     if not isinstance(source, dict):
         return errors
+
+    if source.get("type") == "local":
+        return validate_local_source(name, source)
 
     if source.get("source") != "url":
         return errors
@@ -92,6 +113,41 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
     return errors
 
 
+def validate_local_source(name: str, source: dict) -> list[str]:
+    """Checks for `{"type": "local", "path": ...}` entries.
+
+    The CLI resolves these against the marketplace checkout, so a path that
+    does not exist or has no manifest is a plugin that silently fails to
+    install for every user of the catalog.
+    """
+    path = source.get("path")
+    if not isinstance(path, str) or not path.strip():
+        return [f"plugin '{name}': local source `path` must be a non-empty string."]
+
+    if path.startswith("/") or "\\" in path or ".." in path.split("/"):
+        return [
+            f"plugin '{name}': local source `path` {path!r} must be a relative "
+            f"path inside the repository (no leading '/', no '..', no backslashes)."
+        ]
+
+    resolved = (REPO_ROOT / path).resolve()
+    try:
+        inside = resolved.is_relative_to(REPO_ROOT)
+    except ValueError:
+        inside = False
+    if not inside:
+        return [f"plugin '{name}': local source `path` {path!r} resolves outside the repository."]
+
+    if not resolved.is_dir():
+        return [f"plugin '{name}': local source `path` {path!r} does not exist in the repository."]
+
+    if not any((resolved / manifest).is_file() for manifest in MANIFEST_PATHS):
+        expected = " or ".join(str(m) for m in MANIFEST_PATHS)
+        return [f"plugin '{name}': local source `path` {path!r} has no plugin manifest ({expected})."]
+
+    return []
+
+
 def validate_file(path: Path) -> list[str]:
     try:
         data = json.loads(path.read_text())
@@ -103,10 +159,20 @@ def validate_file(path: Path) -> list[str]:
         return [f"{path}: `plugins` must be an array, got {type(plugins).__name__}"]
 
     errors: list[str] = []
+    seen: dict[str, int] = {}
     for idx, entry in enumerate(plugins):
         if not isinstance(entry, dict):
             errors.append(f"{path}: plugin index {idx} must be an object")
             continue
+        name = entry.get("name")
+        if isinstance(name, str) and name:
+            if name in seen:
+                errors.append(
+                    f"{path}: plugin '{name}' appears twice (indexes {seen[name]} and {idx}); "
+                    f"the installer resolves a name to one entry."
+                )
+            else:
+                seen[name] = idx
         errors.extend(f"{path}: {e}" for e in validate_entry(entry, idx))
     return errors
 
