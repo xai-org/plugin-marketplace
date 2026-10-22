@@ -494,7 +494,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Lemma-Company/telepath-plugin.git",
-        "sha": "1aafd49c81becc5eb6d25491b0a9e9634e25af6c"
+        "sha": "8f73a1f2501b26783db540f11bf981fd769e3425"
       },
       "homepage": "https://telepath.lemma.company",
       "keywords": ["telepath", "lemma telepath", "telepath telegram"],
