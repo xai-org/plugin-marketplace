@@ -332,6 +332,28 @@
         ]
       }
     },
+    "conversiontools": {
+      "sha": "3d8ab402fd33e6cbda66aed2cf5f2910995e9643",
+      "version": "1.10.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "conversiontools",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "convert",
+            "description": "Convert files between 140+ formats using Conversion Tools. Two surfaces are available - the `ctio` CLI (preferred when…"
+          },
+          {
+            "name": "parse-integration",
+            "description": "Extract structured data from documents (invoices, receipts, purchase orders, bills of lading, bank statements, contract…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
