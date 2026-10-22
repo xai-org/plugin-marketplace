@@ -408,6 +408,68 @@
       "homepage": "https://olachill.com/developers",
       "keywords": ["olachill", "olachill travel", "olachill japan", "olachill tours"],
       "domains": ["olachill.com"]
+    },
+    {
+      "name": "calcom",
+      "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/calcom"
+      },
+      "homepage": "https://cal.com/docs/mcp-server",
+      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+    },
+    {
+      "name": "skyvern",
+      "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skyvern-AI/skyvern-grok-plugin.git",
+        "sha": "6fae60f5476857b8e3796bd253854809851ebc3b"
+      },
+      "homepage": "https://www.skyvern.com",
+      "keywords": ["skyvern", "skyvern browser", "skyvern mcp"],
+      "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
+    },
+    {
+      "name": "html-css-to-image",
+      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
+        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+      },
+      "homepage": "https://htmlcsstoimage.com",
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
+    },
+    {
+      "name": "pi-security",
+      "description": "Official Pi Security integration (MCP Server + Skills). Investigate findings, review security posture, get remediation guidance, start design reviews, import Markdown reports, and apply secure-development guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pi-sloane/grok-plugin.git",
+        "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
+        "path": "plugins/pi-security"
+      },
+      "homepage": "https://www.pi.security/",
+      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clerk/skills.git",
+        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
+      },
       "homepage": "https://clerk.com/docs",
       "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
       "domains": ["clerk.com", "dashboard.clerk.com"]
