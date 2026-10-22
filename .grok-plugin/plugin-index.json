@@ -820,6 +820,24 @@
         ]
       }
     },
+    "plori": {
+      "sha": "381c4c76a0a9c81cd2181c7af18ba9df84413cd1",
+      "version": "0.2.17",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "plori",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "plori",
+            "description": "Runs tasks on Plori cloud agents that continue after the chat ends, such as background or parallel builds, scheduled au…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
       "version": "0.15.29",

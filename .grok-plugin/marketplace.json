@@ -486,6 +486,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "plori",
+      "description": "plori (plori.ai): a cloud AI agent with its own persistent environment - durable disk, real CLI tools, and memory.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/plori-ai/claude-plugin.git",
+        "sha": "381c4c76a0a9c81cd2181c7af18ba9df84413cd1",
+        "path": "plugins/plori"
+      },
+      "homepage": "https://plori.ai",
+      "keywords": ["plori", "plori ai", "plori agent", "plori cloud agent", "plori mcp"],
+      "domains": ["plori.ai", "api.plori.ai"]
     }
   ]
 }
