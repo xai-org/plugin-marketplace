@@ -486,6 +486,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo", "react native", "android development", "ios development", "deploy to app store", "deploy to play store", "verify in ios simulator", "verify in android emulator"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     }
   ]
 }
