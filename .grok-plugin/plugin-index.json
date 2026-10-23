@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "scripe": {
+      "sha": "19af45ac128c1d9051fb60b52fe148e910dc772c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scripe",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scripe",
+            "description": "Plan, write, schedule and measure LinkedIn posts for a team in Scripe (scripe.io) through its hosted MCP server. Use wh…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",
