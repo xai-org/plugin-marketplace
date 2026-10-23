@@ -558,6 +558,24 @@
         ]
       }
     },
+    "mcprush": {
+      "sha": "47b8136e12af489045b55fd09294e69638bba249",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mcprush",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mcprush",
+            "description": "Find MCP servers and agent skills in the mcprush.com catalogue, compare them by what they do and their security grade,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",

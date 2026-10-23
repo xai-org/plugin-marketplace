@@ -486,6 +486,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mcprush",
+      "description": "Search the mcprush.com catalogue of MCP servers and agent skills: what each one does, its security grade and price, and the exact command that adds it to Grok Build or another client. Read-only; sign in with an mcprush.com account.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mcprush/mcprush-grok-plugin.git",
+        "sha": "47b8136e12af489045b55fd09294e69638bba249"
+      },
+      "homepage": "https://github.com/mcprush/mcprush-grok-plugin",
+      "keywords": [
+        "mcprush",
+        "mcprush.com"
+      ],
+      "domains": [
+        "mcprush.com"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "mcprush.com",
+        "email": "support@mcprush.com",
+        "url": "https://github.com/mcprush"
+      }
     }
   ]
 }
