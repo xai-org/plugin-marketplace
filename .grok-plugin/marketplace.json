@@ -254,6 +254,19 @@
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
+      "name": "rjalpha",
+      "description": "Read-only, tier-aware access to RJAlpha crypto and macro analyses through its hosted MCP service.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nordrune/rjalpha-grok-plugin.git",
+        "sha": "3656489f2853f0fef32c4ab4876f43881a2c9095"
+      },
+      "homepage": "https://rjalpha.app",
+      "keywords": ["rjalpha", "rjalpha analysis", "rjalpha crypto analysis"],
+      "domains": ["rjalpha.app"]
+    },
+    {
       "name": "tinyfish",
       "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
       "category": "development",

@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "rjalpha": {
+      "sha": "3656489f2853f0fef32c4ab4876f43881a2c9095",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rjalpha",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "rjalpha",
+            "description": "Use RJAlpha's read-only MCP tools for tier-aware crypto and macro analyses, market snapshots, alt league rankings, risk…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",
