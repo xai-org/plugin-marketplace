@@ -1,0 +1,14 @@
+{
+  "name": "jenni",
+  "version": "1.0.0",
+  "description": "JENNi for Grok Build via the hosted MCP server at shop.jennipro.com/mcp. Search the catalog, inspect ZIP-specific buying options, and begin JENNi-hosted checkout for shopper review and confirmation.",
+  "author": {
+    "name": "JENNi",
+    "url": "https://shop.jennipro.com"
+  },
+  "homepage": "https://shop.jennipro.com",
+  "repository": "https://shop.jennipro.com/.well-known/mcp.json",
+  "license": "MIT",
+  "keywords": ["jenni", "shopping", "ecommerce", "local delivery", "instant commerce", "retail", "mcp"],
+  "logo": "assets/logo.svg"
+}
