@@ -422,6 +422,26 @@
       "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
     },
     {
+      "name": "full-self-browsing",
+      "description": "Connect Grok to Full Self Browsing in your signed in Chrome for supervised browser actions, DOM reads, application capabilities and tab ownership.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/full-self-browsing"
+      },
+      "homepage": "https://www.full-selfbrowsing.com",
+      "keywords": [
+        "full self browsing",
+        "full self-browsing",
+        "fsb mcp",
+        "fsb-mcp-server",
+        "fsb extension"
+      ],
+      "domains": [
+        "full-selfbrowsing.com"
+      ]
+    },
+    {
       "name": "html-css-to-image",
       "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
       "category": "development",
