@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "evolink",
+      "description": "Generate images, video, music and speech with 150+ models through EvoLink's hosted MCP server; search models and get a cost quote before each paid task. Sign in with your EvoLink account; no API key needed.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Evolink-AI/mcp-plugin.git",
+        "sha": "7fd8e2a4522e2b7a21451f70f916c8fc1bdf69e4"
+      },
+      "homepage": "https://evolink.ai/mcp",
+      "keywords": ["evolink", "evolink mcp", "evolink ai"],
+      "domains": ["evolink.ai", "mcp.evolink.ai"]
     }
   ]
 }
