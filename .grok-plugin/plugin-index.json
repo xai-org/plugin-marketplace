@@ -1740,6 +1740,17 @@
         ]
       }
     },
+    "wever-labs": {
+      "sha": "932c7e12c9bc6a6733d14ec1407109f11e5eab7b",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "io.github.CodeWever/wever-labs-products",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
       "version": "1.33.1",
