@@ -486,6 +486,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "trendsagi",
+      "description": "TrendsAGI live trend intelligence for paid media and growth teams (hosted MCP server + skill). Find topics accelerating in your market before auctions get crowded, check whether a trend is still rising before moving budget, pull audience and marketing angles into ad copy, and review evidence-backed recommendations. Read-only; sign in with your TrendsAGI account, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TrendsAGI/TrendsAGI.git",
+        "sha": "376419f203e4126b2ed07768d0038ea2496e33f2",
+        "path": "plugins/trendsagi"
+      },
+      "homepage": "https://trendsagi.com/mcp",
+      "keywords": ["trendsagi", "trendsagi mcp", "trendsagi trends", "trendsagi paid media"],
+      "domains": ["trendsagi.com", "api.trendsagi.com", "app.trendsagi.com"]
     }
   ]
 }

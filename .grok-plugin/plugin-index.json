@@ -1388,6 +1388,24 @@
         ]
       }
     },
+    "trendsagi": {
+      "sha": "376419f203e4126b2ed07768d0038ea2496e33f2",
+      "version": "1.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trendsagi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "trendsagi",
+            "description": "Use TrendsAGI's live trend data to help paid media and growth teams decide what to target and when: find topics acceler…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
