@@ -486,6 +486,15 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "pgxai-andromeda",
+      "description": "Official PGxAI Andromeda MCP server and skill for Grok Build: look up what published drug labeling and other sources say about drug-drug interactions, gene-drug (pharmacogenomic) associations and drug-disease questions, with links to the original sources. An educational reference for clinicians and clinical educators.",
+      "category": "healthcare",
+      "source": {"source": "url", "url": "https://github.com/PGxAI-Inc/pgxai-mcp-andromeda-plugin-prod.git", "sha": "6c04531cde23af2aebc95f8201b36f96e27e279c"},
+      "homepage": "https://pgx.ai/andromeda",
+      "keywords": ["pgxai andromeda", "pgxai", "andromeda drug interaction reference", "pgxai pharmacogenomics reference", "pgxai drug interactions"],
+      "domains": ["pgx.ai", "app.pgx.ai"]
     }
   ]
 }
