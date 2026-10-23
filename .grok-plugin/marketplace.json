@@ -462,6 +462,18 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "slate-stone",
+      "description": "Slate Stone Financial: search and read a catalog of professional Excel financial models (cash flow, budgeting, valuation, real estate, retirement and tax planning) through the hosted Slate Stone MCP server. Read-only; requires an All-Access subscription key.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/slate-stone"
+      },
+      "homepage": "https://slatestonefinancial.com/ai/",
+      "keywords": ["slate stone", "slatestone", "slate stone financial", "slate stone models"],
+      "domains": ["slatestonefinancial.com", "mcp.slatestonefinancial.com"]
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",

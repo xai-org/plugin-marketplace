@@ -1,0 +1,12 @@
+{
+  "name": "slate-stone",
+  "version": "1.0.0",
+  "description": "Slate Stone Financial models for Grok Build via the hosted Slate Stone MCP server. Search and read the Slate Stone catalog of professional Excel financial models (cash flow, budgeting, valuation, real estate, retirement and tax planning, industry models). Read-only. Requires an active Slate Stone All-Access subscription and its API key.",
+  "author": {
+    "name": "Slate Stone Financial",
+    "url": "https://slatestonefinancial.com"
+  },
+  "homepage": "https://slatestonefinancial.com/ai/",
+  "license": "Proprietary (plugin configuration: MIT)",
+  "keywords": ["slate stone", "slatestone", "slate stone financial", "slate stone models"]
+}

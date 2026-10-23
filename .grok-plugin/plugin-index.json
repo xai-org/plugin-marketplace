@@ -1138,6 +1138,23 @@
         ]
       }
     },
+    "slate-stone": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "slate-stone",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "slate-stone",
+            "description": "Use when the user asks about Slate Stone Financial models, wants to find a Slate Stone model for a planning task, or as…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "326ea8b521de0ce42e69d43451ef47a6e87206ef",
       "version": "0.9.26",
