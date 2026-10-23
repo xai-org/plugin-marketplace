@@ -1,6 +1,31 @@
 {
   "version": 1,
   "plugins": {
+    "aurea77": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aurea77",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "aurea77-equipment-community",
+            "description": "Read, add or edit the linked athlete's equipment, read awarded badges, and read visible Aurea77 post text."
+          },
+          {
+            "name": "aurea77-event-journey",
+            "description": "Read or update the connected athlete's existing event registrations, BIB, preparation, travel, stays, pickup logistics…"
+          },
+          {
+            "name": "aurea77-setup",
+            "description": "Help an athlete connect their own Aurea77 account and choose a sporting-event task after installing Aurea77."
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
