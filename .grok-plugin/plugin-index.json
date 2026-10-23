@@ -753,6 +753,52 @@
         ]
       }
     },
+    "nitrosend": {
+      "sha": "4bbc3999ed9a7840259717960d73c6915eceb472",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nitrosend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analytics",
+            "description": "Inspect Nitrosend account, campaign, flow, or message performance and turn live metrics into bounded recommendations. U…"
+          },
+          {
+            "name": "build-flow",
+            "description": "Build email/SMS automation flows with triggers, steps, waits, splits, and webhooks. Covers welcome series, cart abandon…"
+          },
+          {
+            "name": "compose-email",
+            "description": "Create or edit email templates with Nitrosend's section-based designer. Guides through layout, content, and brand styli…"
+          },
+          {
+            "name": "email-marketing-bible",
+            "description": "Apply durable email-marketing principles without treating static benchmarks, laws, vendor features, or prices as curren…"
+          },
+          {
+            "name": "import-contacts",
+            "description": "Import contacts into Nitrosend from inline records or CSV. Handles email opt-in, SMS TCPA compliance, list assignment,…"
+          },
+          {
+            "name": "send-campaign",
+            "description": "End-to-end campaign workflow: create, design, target audience, preview, test, approve, and send or schedule an email or…"
+          },
+          {
+            "name": "send-transactional",
+            "description": "Send transactional emails or SMS for app-triggered communications: receipts, password resets, OTPs, order confirmations…"
+          },
+          {
+            "name": "setup",
+            "description": "Guided Nitrosend onboarding. Walks through remote MCP connection, Brand Kit identity setup, brand-subdomain preparation…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

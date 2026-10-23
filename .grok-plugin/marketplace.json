@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "nitrosend",
+      "description": "Official Nitrosend plugin for Grok Build. Connect a Nitrosend account over hosted OAuth MCP to draft campaigns, build flows, manage contacts and segments, and use agent inboxes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nitrosend/cursor.git",
+        "sha": "4bbc3999ed9a7840259717960d73c6915eceb472"
+      },
+      "homepage": "https://nitrosend.com/mcp",
+      "keywords": ["nitrosend", "nitrosend email", "nitrosend mcp", "nitrosend campaigns", "nitrosend flows"],
+      "domains": ["nitrosend.com", "app.nitrosend.com", "api.nitrosend.com", "docs.nitrosend.com"]
     }
   ]
 }
