@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "qqq-ai-visibility",
+      "description": "Official QQQ AI Visibility Checker integration (remote MCP server + skill). Check whether AI crawlers can read a website, its technical readiness for AI search, and the latest public report of brand mentions and citations in ChatGPT, Gemini and Perplexity. Free, read-only, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meelis545/qqq-ai-visibility-mcp.git",
+        "sha": "15f91af6ba9fc5cf320b017acbd73a1b787c0951"
+      },
+      "homepage": "https://qqq.ee/en/mcp-server/",
+      "keywords": ["qqq ai visibility", "qqq ai visibility checker", "qqq geo check", "qqq.ee"],
+      "domains": ["qqq.ee"]
     }
   ]
 }

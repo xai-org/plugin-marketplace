@@ -1038,6 +1038,24 @@
         ]
       }
     },
+    "qqq-ai-visibility": {
+      "sha": "15f91af6ba9fc5cf320b017acbd73a1b787c0951",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "qqq-ai-visibility",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "qqq-ai-visibility",
+            "description": "Check whether a website is visible to AI search (ChatGPT, Gemini, Perplexity, Claude) with the QQQ AI Visibility Checke…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
