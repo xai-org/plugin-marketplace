@@ -558,6 +558,24 @@
         ]
       }
     },
+    "insitu-sales": {
+      "sha": "852b9a830da3a85cce826369c2192ed7820e759f",
+      "version": "1.0.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "insitu_sales",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "insitu-storefront-authoring",
+            "description": "Use when creating, remixing, or revising a static InSitu B2B buyer storefront for mobile and desktop."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",
