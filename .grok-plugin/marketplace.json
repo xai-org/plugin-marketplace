@@ -486,6 +486,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "rheono",
+      "description": "Pre-ship security check for a live app: TLS handshake, security headers, cookie flags, exposed paths. Read-only, no payloads, remote MCP server.",
+      "category": "security",
+      "source": {
+        "type": "url",
+        "url": "https://github.com/rheono/rheono-plugin.git",
+        "sha": "14ddf5137c79a10b4e7e00f774e505ecbcd10d29"
+      },
+      "homepage": "https://rheono.dev/docs/mcp",
+      "keywords": ["rheono", "rheono security", "preflight check", "security headers"],
+      "domains": ["rheono.dev"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Rheono",
+        "email": "security@rheono.dev",
+        "url": "https://github.com/rheono"
+      }
     }
-  ]
+]
 }

@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "rheono": {
+      "sha": "14ddf5137c79a10b4e7e00f774e505ecbcd10d29",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rheono",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "preflight",
+            "description": "Check a live URL's security posture before deploying, handing over, or shipping. Use when a deploy is about to happen,…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",
