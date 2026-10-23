@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "wave",
+      "description": "Wave AI note taker (hosted MCP server + skill). Search and summarize your Wave meetings, phone calls and in-person recordings: semantic search across transcripts and summaries, meeting prep, weekly recaps, speaker-labeled quotes, what a specific person said (Voice ID), and action items, folders and sharing you can manage. Sign in with your Wave account via OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mohrer-associates/wave-grok-plugin.git",
+        "sha": "c86de7641e1a495c08b80509296067d384ea21a9"
+      },
+      "homepage": "https://wave.co",
+      "keywords": ["wave ai", "wave notes", "wave meeting notes", "wave recordings", "wave transcript"],
+      "domains": ["wave.co", "app.wave.co", "mcp.wave.co"]
     }
   ]
 }
