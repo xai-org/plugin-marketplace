@@ -462,6 +462,20 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "iajus-pt",
+      "description": "Portuguese case-law research through the hosted IAJUS MCP server, with citation verification, corpus coverage and source provenance. Service access is subject to IAJUS plans and terms.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rafaelob/iajus-plugin-public-pt.git",
+        "sha": "315b1dbf52e3b4b27dead3698a6dde68e44cd539",
+        "path": "plugins/iajus-pt"
+      },
+      "homepage": "https://iajus.pt",
+      "keywords": ["iajus portugal", "iajus jurisprudencia pt", "iajus dgsi"],
+      "domains": ["iajus.pt", "pt.mcp.iajus.com.br", "app.iajus.com.br"]
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",
