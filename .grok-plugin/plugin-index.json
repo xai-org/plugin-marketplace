@@ -1138,6 +1138,48 @@
         ]
       }
     },
+    "soclo": {
+      "sha": "4926101106f4521b1b228a25088db02ed8b5185d",
+      "version": "1.0.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "soclo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ad-results",
+            "description": "Use Soclo when the user wants real connected campaign or social performance, with missing metrics reported honestly."
+          },
+          {
+            "name": "batch-from-photo",
+            "description": "Use Soclo when the user selects a saved photo from their library and wants multiple individually quoted video ideas."
+          },
+          {
+            "name": "customer-voice-ads",
+            "description": "Use Soclo when the user wants supplied customer feedback or selected messages turned into evidence-based advert ideas."
+          },
+          {
+            "name": "hook-variants",
+            "description": "Use Soclo when the user wants distinct opening hooks as separately quoted full video adverts from a reviewed plan."
+          },
+          {
+            "name": "launch-campaign",
+            "description": "Use Soclo when the user wants a connected campaign launch reviewed with exact current targeting, budget and separate sp…"
+          },
+          {
+            "name": "plan-my-week",
+            "description": "Use Soclo when the user wants a practical weekly marketing plan from their saved brand, library assets and connected de…"
+          },
+          {
+            "name": "research-to-ads",
+            "description": "Use Soclo when the user wants cited market or product research turned into a saved advert storyboard and an exact quote."
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
       "version": "0.9.27",
