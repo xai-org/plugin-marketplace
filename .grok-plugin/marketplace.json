@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ball-ranks",
+      "description": "Ball Ranks Fantasy Sports (https://ballranks.com) provides read-only fantasy basketball and football rankings, weekly rankings, and player projections through its hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ollynov/ball-ranks-plugin.git",
+        "sha": "8872d9a8ae25544fa7f4653e3f9865b160c6bdd1"
+      },
+      "homepage": "https://ballranks.com",
+      "keywords": ["ball ranks", "ballranks", "ball ranks fantasy sports"],
+      "domains": ["ballranks.com"]
     }
   ]
 }
