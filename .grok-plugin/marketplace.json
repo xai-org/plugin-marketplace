@@ -486,6 +486,33 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "deed-page",
+      "description": "deed.page integration with a hosted MCP server and a publishing skill. Publish an HTML file or static folder to a permanent https://<slug>.deed.page/ URL, then update, version, or delete it. No account or API key needed to publish.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/f-o-x11/deed-page-skill.git",
+        "sha": "432d3f8ba80c203d1b48ce95a61260a31f76cfe0"
+      },
+      "homepage": "https://deed.page",
+      "keywords": [
+        "deed.page",
+        "deed-page",
+        "deed page",
+        "deed.page publish",
+        "deed.page mcp"
+      ],
+      "domains": [
+        "deed.page"
+      ],
+      "version": "1.1.0",
+      "author": {
+        "name": "Avatar 8 LLC",
+        "email": "ops@avatar33.com",
+        "url": "https://deed.page"
+      }
     }
   ]
 }
