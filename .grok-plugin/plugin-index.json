@@ -771,6 +771,18 @@
         ]
       }
     },
+    "offerhunt": {
+      "sha": "a6659f4699f6d057caa9b35c275a1167e15343d9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "offerhunt",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
