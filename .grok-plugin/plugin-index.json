@@ -67,6 +67,18 @@
         ]
       }
     },
+    "briefkraft": {
+      "sha": "3e8cb4585a1e5c8f457ff01a78a477479f9dfb89",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "briefkraft",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

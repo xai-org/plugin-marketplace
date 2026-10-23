@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "briefkraft",
+      "description": "Briefkraft social media integration with a hosted MCP server: performance analytics, content calendar, AI weekly strategy, competitor inspiration and post drafts in your brand voice for LinkedIn, Instagram, X, TikTok and YouTube.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klemel2001/briefkraft-grok-plugin.git",
+        "sha": "3e8cb4585a1e5c8f457ff01a78a477479f9dfb89"
+      },
+      "homepage": "https://briefkraft.co/ai-connector",
+      "keywords": ["briefkraft", "briefkraft social media", "briefkraft mcp"],
+      "domains": ["briefkraft.co", "www.briefkraft.co"]
     }
   ]
 }
