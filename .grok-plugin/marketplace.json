@@ -486,6 +486,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "eurobase",
+      "description": "Eurobase integration (hosted MCP server, OAuth). Create projects from GitHub repositories, deploy, redeploy and roll back, publish Functions, and read deployments, logs, diagnoses and usage for the projects you choose on the Eurobase consent page. Secret values stay in the Eurobase dashboard.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eurobase-dev/plugins.git",
+        "sha": "d464e4e6608a35a10d2c665a7ec7cab2a9a61908",
+        "path": "plugins/eurobase"
+      },
+      "homepage": "https://eurobase.dev/docs/agents",
+      "keywords": [
+        "eurobase",
+        "eurobase deploy",
+        "eurobase mcp"
+      ],
+      "domains": [
+        "eurobase.dev",
+        "api.eurobase.dev"
+      ]
     }
   ]
 }

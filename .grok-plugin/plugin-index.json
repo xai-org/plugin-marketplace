@@ -354,6 +354,18 @@
         ]
       }
     },
+    "eurobase": {
+      "sha": "d464e4e6608a35a10d2c665a7ec7cab2a9a61908",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "eurobase",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
