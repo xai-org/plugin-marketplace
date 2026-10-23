@@ -332,6 +332,24 @@
         ]
       }
     },
+    "contextflo": {
+      "sha": "69eb6407321cda0bc899fe20d1cd77db49bf84c9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "contextflo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "contextflo-data",
+            "description": "Answer questions about the user's business data (revenue, signups, churn, orders, campaigns, any metric or table) throu…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
