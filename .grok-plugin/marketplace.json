@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ausca",
+      "description": "Discover Ausca pay-per-call agent services, inspect binding terms, and verify results and receipts over MCP. Paid calls need an explicit x402 client decision.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/auscahq/ausca-plugin.git",
+        "sha": "02d3429c358259810ca884adbf7a7af5012987c4"
+      },
+      "homepage": "https://ausca.com/docs/mcp",
+      "keywords": ["ausca", "ausca services", "ausca x402", "ausca browser session", "ausca agent inbox"],
+      "domains": ["ausca.com"]
     }
   ]
 }
