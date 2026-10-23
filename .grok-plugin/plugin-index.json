@@ -524,6 +524,24 @@
         ]
       }
     },
+    "firedrill": {
+      "sha": "90ebadd8353b2edf58003993b15ef2c49e053792",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "firedrill",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "firedrill-simulations",
+            "description": "Use Firedrill to explore or test an AI agent or application through simulations, controlled dependencies, and retained…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
