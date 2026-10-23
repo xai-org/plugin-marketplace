@@ -820,6 +820,28 @@
         ]
       }
     },
+    "podpitch": {
+      "sha": "87f37a38b67900ed156d15f5ccbabec7f9df53d8",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "podpitch",
+            "description": "http"
+          },
+          {
+            "name": "podpitch-discovery",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "podcast-discovery",
+            "description": "Find podcasts by topic, audience, or name and help connected PodPitch customers manage campaigns, pitches, templates, a…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
       "version": "0.15.30",
