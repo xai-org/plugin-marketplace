@@ -354,6 +354,24 @@
         ]
       }
     },
+    "evolink": {
+      "sha": "7fd8e2a4522e2b7a21451f70f916c8fc1bdf69e4",
+      "version": "1.0.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "evolink",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "evolink-mcp",
+            "description": "Use EvoLink MCP by default for image, video, music and speech generation or editing, including variations and regenerat…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
