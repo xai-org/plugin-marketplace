@@ -1,0 +1,14 @@
+{
+  "name": "runsonwhat",
+  "version": "1.0.0",
+  "description": "Look up the tools a company runs on, or the companies that use a tool, with the public evidence behind every match. Reads runsonwhat's public pages, or the runsonwhat API with your key for full lists, filters and starts/stops.",
+  "author": {
+    "name": "runsonwhat",
+    "email": "hello@runsonwhat.com",
+    "url": "https://www.runsonwhat.com"
+  },
+  "homepage": "https://www.runsonwhat.com",
+  "license": "MIT",
+  "keywords": ["runsonwhat", "runsonwhat api", "runsonwhat tech stack", "runsonwhat lookup"],
+  "logo": "assets/logo.svg"
+}

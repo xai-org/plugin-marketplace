@@ -486,6 +486,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "runsonwhat",
+      "description": "Look up the tools a company runs on, or the companies that use a tool, with the public evidence behind every match (DNS, certificates, website code, subprocessor lists). Reads runsonwhat's public pages with no setup, or the runsonwhat API with your key for full company lists, filters by country, industry and size, and recent starts and stops.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/runsonwhat"
+      },
+      "homepage": "https://www.runsonwhat.com",
+      "keywords": [
+        "runsonwhat",
+        "runsonwhat api",
+        "runsonwhat tech stack",
+        "runsonwhat lookup"
+      ],
+      "domains": [
+        "runsonwhat.com",
+        "www.runsonwhat.com"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "runsonwhat",
+        "email": "hello@runsonwhat.com",
+        "url": "https://www.runsonwhat.com"
+      }
     }
   ]
 }

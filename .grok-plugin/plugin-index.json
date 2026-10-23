@@ -1074,6 +1074,17 @@
         ]
       }
     },
+    "runsonwhat": {
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "runsonwhat",
+            "description": "Look up the software a company runs on, or the companies that use a tool, with runsonwhat (runsonwhat.com). Use wheneve…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
