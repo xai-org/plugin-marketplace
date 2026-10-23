@@ -1138,6 +1138,24 @@
         ]
       }
     },
+    "sourcey": {
+      "sha": "be72e280d89ad5f8379dc74f0f835f03ede78b94",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sourcey",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sourcey-research",
+            "description": "Research Sourcey startup offers and Agent Readiness records with source evidence, freshness and eligibility caveats."
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "326ea8b521de0ce42e69d43451ef47a6e87206ef",
       "version": "0.9.26",

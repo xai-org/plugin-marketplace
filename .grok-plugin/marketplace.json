@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "sourcey",
+      "description": "Explore sourced startup offers and Agent Readiness records through Sourcey's public MCP; inspect evidence and eligibility before recommending.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sourcey/mcp-server.git",
+        "sha": "be72e280d89ad5f8379dc74f0f835f03ede78b94"
+      },
+      "homepage": "https://sourcey.com/mcp",
+      "keywords": ["sourcey", "sourcey offers", "sourcey credits", "sourcey agent readiness"],
+      "domains": ["sourcey.com", "mcp.sourcey.com"]
     }
   ]
 }
