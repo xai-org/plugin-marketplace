@@ -486,6 +486,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "clutch",
+      "description": "Official Clutch.co MCP server: trusted B2B service providers with verified client reviews. Find and compare agencies, consultants and vendors, read verified client reviews, browse fixed-price service packages, and message providers.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/clutch"
+      },
+      "homepage": "https://clutch.co/about-mcp",
+      "keywords": [
+        "clutch",
+        "clutch.co",
+        "clutch reviews",
+        "clutch providers",
+        "clutch agencies"
+      ],
+      "domains": [
+        "clutch.co",
+        "bot.clutch.co"
+      ]
     }
   ]
 }
