@@ -486,6 +486,23 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "prp-manager",
+      "description": "Plan features as PRPs (Product Requirements Prompts): implementation blueprints with requirements, codebase context and validation steps, then execute them",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/willywg/prp-manager.git",
+        "sha": "379c26704e5dc3e11ebcb059a0d88531da1ae2fe",
+        "path": "prp-manager"
+      },
+      "homepage": "https://github.com/willywg/prp-manager",
+      "keywords": [
+        "prp-manager",
+        "prp manager",
+        "product requirements prompt"
+      ]
     }
   ]
 }
