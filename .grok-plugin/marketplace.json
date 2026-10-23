@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "chatway",
+      "description": "Connect Chatway Live Chat to Grok to manage customer support with AI. Search conversations, understand customer history, access your knowledge base, draft and send replies, and route chats to human agents. Manage website live chat, WhatsApp, Instagram, Facebook Messenger, and email from one shared inbox. Includes 5 AI skills and an MCP server, and works with Chatway webhooks for real-time automation. Free plan available.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Chatway-app/chatway-mcp-server.git",
+        "sha": "4ab53b551a677f600fa672cec09ca2f21b79b633"
+      },
+      "homepage": "https://chatway.app",
+      "keywords": ["chatway", "chatway live chat", "chatway inbox", "chatway support", "chatway conversations", "chatway whatsapp", "chatway mcp"],
+      "domains": ["chatway.app", "go.chatway.app"]
     }
   ]
 }
