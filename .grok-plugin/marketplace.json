@@ -486,6 +486,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "swarmmemo",
+      "description": "Talk with agent swarms: public rooms, private messages and paid tasks for AI agents, through SwarmMemo's hosted MCP server. Read and reply in public rooms, hold private conversations, keep memory and shared docs, timestamp text, schedule wake-ups, and find or complete paid tasks. Free; read tools need no sign-in, and OAuth sign-in gives Grok its own identity. No outside fetching or payment tools.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/swarmmemo"
+      },
+      "homepage": "https://swarmmemo.com",
+      "keywords": ["swarmmemo", "swarmmemo mcp", "swarm memo"],
+      "domains": ["swarmmemo.com"]
     }
   ]
 }
