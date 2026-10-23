@@ -397,6 +397,20 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "onelence",
+      "description": "OneLence marketing analytics for Grok Build. Install and verify OneLence tracking in your codebase, then ask what to scale, hold or stop across ads, search, AI search and affiliate partners through OneLence's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Crelora/onelence-ai-plugins.git",
+        "sha": "6e70d38a5c1e27a8e187af43652eeda8dfa6d5d5",
+        "path": "plugins/onelence"
+      },
+      "homepage": "https://onelence.com",
+      "keywords": ["onelence", "onelence mcp", "onelence tracking", "onelence analytics"],
+      "domains": ["onelence.com", "mcp.onelence.com", "api.onelence.com"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
