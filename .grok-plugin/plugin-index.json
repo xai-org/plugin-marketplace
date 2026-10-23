@@ -524,6 +524,36 @@
         ]
       }
     },
+    "fridge-door": {
+      "sha": "b879ad79be9892466613f77cdab96f083bbf7274",
+      "version": "1.0.1",
+      "components": {
+        "commands": [
+          {
+            "name": "fridge-door-setup",
+            "description": "Set up Fridge Door for your household in one go (who lives there and your country), then pick your daily routines."
+          },
+          {
+            "name": "fridge-sheet",
+            "description": "Print this week's one-page fridge sheet: events, dinners, everyone's chores with tick boxes, the kids' stars."
+          },
+          {
+            "name": "household-today",
+            "description": "Today at home in one glance: events, tasks due, tonight's dinner, lists, birthdays, bills and news for you."
+          },
+          {
+            "name": "plan-meals",
+            "description": "Plan the week's dinners from your own recipes, around busy evenings, and make the grocery list for them (Fridge Door)."
+          }
+        ],
+        "skills": [
+          {
+            "name": "fridge-door",
+            "description": "Household organizer for any home in any country: calendar, chores, grocery lists, meals, notes, budget and reminders. F…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

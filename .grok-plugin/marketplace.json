@@ -486,6 +486,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "fridge-door",
+      "description": "Family calendar, chores, grocery lists, recipes, meal plans, notes and a household budget, for any household in any country. Runs locally; no account needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nettylabs/fridge-door.git",
+        "sha": "b879ad79be9892466613f77cdab96f083bbf7274"
+      },
+      "homepage": "https://github.com/nettylabs/fridge-door",
+      "keywords": ["fridge door", "fridge-door", "fridgedoor"]
     }
   ]
 }
