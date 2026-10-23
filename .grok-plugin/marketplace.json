@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ops-brain-bus",
+      "description": "Connect to your self-hosted ops-brain team bus. Agents on different machines and vendors check in for work, accept and complete handoffs, reply in thread, and share cross-agent gotchas over one MCP server, each with its own bearer token.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TheK3nsai/ops-brain.git",
+        "sha": "d26a6d1bb4d80f92463e332c36c59a0f967f42ac",
+        "path": "plugins/ops-brain-bus"
+      },
+      "homepage": "https://github.com/TheK3nsai/ops-brain/tree/main/plugins/ops-brain-bus",
+      "keywords": ["ops-brain", "ops-brain bus", "ops-brain handoff"]
     }
   ]
 }

@@ -782,6 +782,24 @@
         ]
       }
     },
+    "ops-brain-bus": {
+      "sha": "d26a6d1bb4d80f92463e332c36c59a0f967f42ac",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ops-brain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ops-brain-bus",
+            "description": "Work the ops-brain handoff bus. Use at the start of a session, when the user mentions handoffs, the bus, another agent…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
