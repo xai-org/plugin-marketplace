@@ -486,6 +486,34 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "spacefast",
+      "description": "Spacefast publishing integration (hosted MCP server + skill). Publish sites and apps you build to a live URL, update existing Spaces, check deployments, build logs and analytics, and connect custom domains. Sign in with your Spacefast account; no API key needed.",
+      "category": "deployment",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/spacefast"
+      },
+      "homepage": "https://spacefast.com/docs/agents/mcp-server",
+      "keywords": [
+        "spacefast",
+        "spacefast publish",
+        "publish to spacefast",
+        "spacefast mcp",
+        "spacefast space"
+      ],
+      "domains": [
+        "spacefast.com",
+        "mcp.spacefast.com",
+        "space.fast",
+        "view.fast"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Spacefast by Automattic",
+        "url": "https://spacefast.com"
+      }
     }
   ]
 }

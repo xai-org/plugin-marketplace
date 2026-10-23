@@ -1138,6 +1138,23 @@
         ]
       }
     },
+    "spacefast": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "spacefast",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "spacefast",
+            "description": "Publish sites, apps and files to the web with Spacefast through the hosted Spacefast MCP server: create a new Space or…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "326ea8b521de0ce42e69d43451ef47a6e87206ef",
       "version": "0.9.26",
