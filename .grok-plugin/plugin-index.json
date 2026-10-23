@@ -1304,6 +1304,124 @@
         ]
       }
     },
+    "taplio": {
+      "sha": "5199c1640fbe4a10c483d39282270da42f089d33",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taplio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "linkedin-analytics-interpreter",
+            "description": "Translate raw LinkedIn analytics (impressions, engagement rate, profile visits, follower growth, top posts) into a clea…"
+          },
+          {
+            "name": "linkedin-audience-persona-builder",
+            "description": "Build a sharp, post-ready persona of the user's target LinkedIn audience : role, pains, jobs to be done, vocabulary, as…"
+          },
+          {
+            "name": "linkedin-carousel-builder",
+            "description": "Turn a topic, framework, or long-form idea into a LinkedIn carousel script (cover slide + value slides + CTA slide). Re…"
+          },
+          {
+            "name": "linkedin-comment-opportunity-finder",
+            "description": "Find the LinkedIn posts the user should comment on today to earn visibility, followers, and inbound. Pulls live candida…"
+          },
+          {
+            "name": "linkedin-comment-reply-manager",
+            "description": "Clear the comment inbox under the user's own LinkedIn posts. Pulls the comments that still need an answer (already answ…"
+          },
+          {
+            "name": "linkedin-connection-request-hook",
+            "description": "Write the note of a LinkedIn connection request that gets accepted and noticed. Adapts to the context : cold outreach,…"
+          },
+          {
+            "name": "linkedin-content-calendar-planner",
+            "description": "Generate a 4-week LinkedIn content calendar tuned to the user's pillars, posting cadence, and audience. Returns a day-b…"
+          },
+          {
+            "name": "linkedin-content-pillars-builder",
+            "description": "Define 3 to 5 LinkedIn content pillars consistent with the user's positioning, plus 5 to 10 post topics for each pillar…"
+          },
+          {
+            "name": "linkedin-cta-optimizer",
+            "description": "Rewrite the closing of a LinkedIn post to maximize the chosen outcome (comments, shares, profile visits, DM, link click…"
+          },
+          {
+            "name": "linkedin-daily-engagement-routine",
+            "description": "Run the user's daily 15-minute LinkedIn engagement session end to end : answer what is waiting under their own posts, p…"
+          },
+          {
+            "name": "linkedin-dm-opener",
+            "description": "Write the first DM after a LinkedIn connection request is accepted, or after a comment exchange turns into a connection…"
+          },
+          {
+            "name": "linkedin-engagement-tracker",
+            "description": "Audit the user's LinkedIn commenting activity from the Taplio comment queue and history : what is still in draft, what…"
+          },
+          {
+            "name": "linkedin-engagement-watchlist-builder",
+            "description": "Build the bench of creators the user should engage with every day. Samples the Taplio curated feeds that match their ni…"
+          },
+          {
+            "name": "linkedin-hook-generator",
+            "description": "Generate 10 LinkedIn hooks for a given topic, using proven hook patterns (curiosity, contrarian, number, question, tens…"
+          },
+          {
+            "name": "linkedin-niche-creator-finder",
+            "description": "Identify the top LinkedIn creators in a given niche, with their angle, format mix, posting frequency, and what makes th…"
+          },
+          {
+            "name": "linkedin-niche-definer",
+            "description": "Help the user define (or sharpen) their LinkedIn niche : audience, problem they solve, unique angle, and one-line posit…"
+          },
+          {
+            "name": "linkedin-post-performance-critic",
+            "description": "Cold-read a LinkedIn post draft and audit it across 6 dimensions (hook, structure, scannability, specificity, CTA, voic…"
+          },
+          {
+            "name": "linkedin-post-writer",
+            "description": "Write a publish-ready LinkedIn post from a raw idea. Pick a format (storytelling, opinion, listicle, contrarian, experi…"
+          },
+          {
+            "name": "linkedin-profile-optimizer",
+            "description": "Audit a LinkedIn profile (headline, banner copy, About, featured section, experience) and return prioritized fixes with…"
+          },
+          {
+            "name": "linkedin-repurposer",
+            "description": "Convert an existing piece of content (blog post, tweet, YouTube video transcript, podcast snippet, Notion doc) into a n…"
+          },
+          {
+            "name": "linkedin-smart-comment-writer",
+            "description": "Write a LinkedIn comment that gets noticed by the post author and the audience, save it as a Taplio comment draft, and,…"
+          },
+          {
+            "name": "linkedin-story-extractor",
+            "description": "Extract a publishable LinkedIn story from a raw user experience. The user dumps an experience (a project, a failure, a…"
+          },
+          {
+            "name": "linkedin-swipe-file-builder",
+            "description": "Help the user assemble a personal swipe file of high-performing LinkedIn posts, organized by hook pattern, format, and…"
+          },
+          {
+            "name": "linkedin-trending-topics-scanner",
+            "description": "Surface the topics that are heating up right now in a given LinkedIn niche, with concrete angles the user can post abou…"
+          },
+          {
+            "name": "linkedin-viral-post-analyzer",
+            "description": "Decode why a specific LinkedIn post performed unusually well. Breaks the post down into hook, structure, format, emotio…"
+          },
+          {
+            "name": "linkedin-warm-lead-finder",
+            "description": "Turn the comments under the user's own LinkedIn posts into a ranked warm-lead list. Reads the recent threads, matches e…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
