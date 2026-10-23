@@ -1074,6 +1074,22 @@
         ]
       }
     },
+    "scrapingbee": {
+      "sha": "dca2ddf437b1e4a80d6b9968cbe833a3aa57cb99",
+      "version": "1.6.0",
+      "components": {
+        "skills": [
+          {
+            "name": "scrapingbee-cli",
+            "description": "Fetch and read any web page, search the web, crawl a site, or pull structured data out of pages. Use whenever a task ne…"
+          },
+          {
+            "name": "scrapingbee-cli-guard",
+            "description": "Security monitor for scrapingbee-cli. Monitors audit log for suspicious activity. Stops unauthorized schedules. ALWAYS…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",
