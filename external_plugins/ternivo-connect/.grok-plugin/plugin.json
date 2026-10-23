@@ -1,0 +1,17 @@
+{
+  "name": "ternivo-connect",
+  "version": "1.0.0",
+  "description": "Manage social media with Ternivo Connect from Grok: check account health, preflight content, publish or schedule approved posts, verify delivery, retry failures, review analytics and inbox activity, and diagnose provider issues.",
+  "author": {
+    "name": "Ternivo, LLC",
+    "url": "https://ternivo.app"
+  },
+  "homepage": "https://ternivo.app/social-delivery",
+  "license": "Proprietary",
+  "keywords": [
+    "ternivo",
+    "ternivo connect",
+    "ternivo social publishing",
+    "ternivo mcp"
+  ]
+}
