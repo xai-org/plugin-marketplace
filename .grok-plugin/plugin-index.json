@@ -558,6 +558,32 @@
         ]
       }
     },
+    "igdrasil": {
+      "sha": "3b26a46b46e785391e8e3b54594f210c8315bf05",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "igdrasil",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "monthly-finance-review",
+            "description": "Monthly review of an Igdrasil company's headline figures, profit and loss, and bank balances. Use when the user asks ho…"
+          },
+          {
+            "name": "open-invoice-review",
+            "description": "List open (unpaid) customer invoices in Igdrasil and find supporting documents. Use for collections follow-up or \"who o…"
+          },
+          {
+            "name": "swedish-vat-review",
+            "description": "Review a company's Swedish VAT (moms) position in Igdrasil for a declaration period, including rutor and the amount to…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",

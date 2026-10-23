@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "igdrasil",
+      "description": "Igdrasil: Swedish BAS accounting (bokföring) from Igdrasil (hosted MCP server + 3 read-only skills). Read reports, VAT, open invoices, documents and bank reconciliation. Changes can be prepared for review; only a person applies them in the Igdrasil app. No payments, filings or payroll. Sign in with your Igdrasil account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Igdrasil-AB/igdrasil-agent-plugin.git",
+        "sha": "3b26a46b46e785391e8e3b54594f210c8315bf05"
+      },
+      "homepage": "https://igdrasil.se",
+      "keywords": ["igdrasil", "igdrasil bokföring", "igdrasil bokforing", "igdrasil accounting", "bokföring"],
+      "domains": ["igdrasil.se", "accounting.igdrasil.se"]
     }
   ]
 }
