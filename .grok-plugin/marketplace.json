@@ -486,6 +486,33 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "palomaceo",
+      "description": "Run a restaurant or shop on PalomaCEO.ai from Grok Build: social posts, the menu in Paloma, the website and ordering page, online ordering and delivery settings, and sales reports, through the hosted PalomaCEO.ai MCP server. Every change waits for the owner's Approve in the PalomaCEO.ai app. Needs a PalomaCEO.ai API key.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/palomaceo"
+      },
+      "homepage": "https://palomaceo.ai",
+      "keywords": [
+        "palomaceo",
+        "palomaceo.ai",
+        "paloma ceo",
+        "palomaceo mcp"
+      ],
+      "domains": [
+        "palomaceo.ai",
+        "app.palomaceo.ai",
+        "mcp.palomaceo.ai"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "PalomaCEO.ai",
+        "email": "support@palomaceo.ai",
+        "url": "https://palomaceo.ai"
+      }
     }
   ]
 }
