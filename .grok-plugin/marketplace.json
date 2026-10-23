@@ -321,6 +321,20 @@
       "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
     },
     {
+      "name": "needful-things",
+      "description": "Needful Things marketplace integration (hosted MCP server + skills). Browse categories and listings by region, read your posting credits and posts, and prepare drafts and publication or extension proposals that you approve in the app. Sign in with your Needful Things account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Twiniti-Hub/needful-things-plugin.git",
+        "sha": "aa88565f78e318689a0ecb23585842ec58794af0",
+        "path": "needful-things"
+      },
+      "homepage": "https://plugins.needfulthingsapp.com/needful-things/",
+      "keywords": ["needful things", "needful-things", "needful things marketplace", "needful things listings"],
+      "domains": ["nt-market-eu-prd.onrender.com", "nt-market-uk-prd.onrender.com", "nt-market-us-prd.onrender.com"]
+    },
+    {
       "name": "quo",
       "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
       "category": "productivity",

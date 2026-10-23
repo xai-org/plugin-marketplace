@@ -654,6 +654,32 @@
         ]
       }
     },
+    "needful-things": {
+      "sha": "aa88565f78e318689a0ecb23585842ec58794af0",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "needful-things",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nt-discovery",
+            "description": "Use when the user wants to browse Needful Things — list categories, search listings near them, open a listing, or read…"
+          },
+          {
+            "name": "nt-drafts",
+            "description": "Use when the user wants to create or edit a Needful Things post, publish it, or extend an active post — drafts plus app…"
+          },
+          {
+            "name": "nt-mcp",
+            "description": "Use when connecting Grok Build to Needful Things, choosing a region, checking scopes, or troubleshooting the Needful Th…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
