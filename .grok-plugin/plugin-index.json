@@ -558,6 +558,18 @@
         ]
       }
     },
+    "local-commander": {
+      "sha": "26ca71e0d09526780e11692e541b9e25d496e328",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "local-commander",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",
