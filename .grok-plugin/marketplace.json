@@ -486,6 +486,22 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "litgrok",
+      "description": "Evidence-first workflow for Grok Build: plan before code, run each step with tests and proof, review changes, research with sources and hand work off between sessions. Ships skills, project rules and bounded lifecycle hooks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wjgoarxiv/litgrok.git",
+        "sha": "9c749c4ca446055471d534bdef9da120bee0ef59"
+      },
+      "homepage": "https://github.com/wjgoarxiv/litgrok",
+      "keywords": [
+        "litgrok",
+        "lit-loop",
+        "litfamily"
+      ]
     }
   ]
 }
