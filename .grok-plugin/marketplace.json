@@ -462,6 +462,24 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "scovell",
+      "description": "Sanctions, PEP and adverse-media screening with reviewable records through Scovell by Rotunda. Sign in with an approved Scovell account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/scovell"
+      },
+      "homepage": "https://scovell.rotundahq.com",
+      "keywords": [
+        "scovell",
+        "scovell screening",
+        "rotunda scovell"
+      ],
+      "domains": [
+        "scovell.rotundahq.com"
+      ]
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",
