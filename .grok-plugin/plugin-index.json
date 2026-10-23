@@ -1350,6 +1350,24 @@
         ]
       }
     },
+    "the-agent-forge": {
+      "sha": "d4fd1841dda7b6248ca5b6c1813ebacd3dd7b421",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "the-agent-forge",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "forge",
+            "description": "Check a skill, MCP server, package or API on The Agent Forge before installing or trusting it, and scan a skill file fo…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
       "version": "1.1.1",
