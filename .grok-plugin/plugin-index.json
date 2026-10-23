@@ -524,6 +524,18 @@
         ]
       }
     },
+    "goalcraft": {
+      "sha": "a504b3c01c05dcc043f5c4deb514901fd290bf57",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "goalcraft",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
