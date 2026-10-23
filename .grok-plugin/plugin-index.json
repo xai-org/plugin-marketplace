@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "runx": {
+      "sha": "eb8aea9899fd063815a92a52fbc731b36a6dc97e",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "runx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "runx-discovery",
+            "description": "Find and inspect published Runx skills, then explain the local execution prerequisites without claiming the hosted MCP…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
       "version": "1.4.5",

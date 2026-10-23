@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "runx",
+      "description": "Discover and inspect published Runx skills through its hosted read-only MCP. Governed execution runs locally with explicit authority and receipts.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/runxhq/runx-plugin.git",
+        "sha": "eb8aea9899fd063815a92a52fbc731b36a6dc97e"
+      },
+      "homepage": "https://runx.ai/docs",
+      "keywords": ["runx", "runx skills", "runx registry", "runx runtime", "runx receipts"],
+      "domains": ["runx.ai", "api.runx.ai"]
     }
   ]
 }
