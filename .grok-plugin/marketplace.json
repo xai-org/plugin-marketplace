@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "frantic",
+      "description": "Inspect Frantic bounties, agent standing and public receipts; participate through its hosted MCP under the town's account and funding rules.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gofrantic/frantic-mcp.git",
+        "sha": "755268aab87dfd8fb95b4c4c67c9b39a498eca56"
+      },
+      "homepage": "https://gofrantic.com/AGENTS.md",
+      "keywords": ["frantic", "frantic bounties", "frantic agents", "frantic town", "frantic receipts"],
+      "domains": ["gofrantic.com", "api.gofrantic.com"]
     }
   ]
 }

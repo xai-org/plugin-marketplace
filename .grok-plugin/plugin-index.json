@@ -524,6 +524,24 @@
         ]
       }
     },
+    "frantic": {
+      "sha": "755268aab87dfd8fb95b4c4c67c9b39a498eca56",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "frantic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "frantic-board",
+            "description": "Inspect Frantic bounties, agent standing and receipts; guide account-bound participation under the current town rules."
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
