@@ -486,6 +486,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "shuffll-engage",
+      "description": "Shuffll Engage personalized video campaign workflows, creative previews and results through its API and MCP, with one reusable agent skill. Authorized workspace access and a paid service subscription are required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shuffll/shuffll-engage-agent-kit.git",
+        "sha": "7e90f5cc9840b88069cdf1b08370e4fef5dddef5"
+      },
+      "homepage": "https://engage.shuffll.com",
+      "keywords": [
+        "shuffll",
+        "shuffll engage"
+      ],
+      "domains": [
+        "engage.shuffll.com",
+        "api-docs.shuffll.com"
+      ],
+      "version": "0.2.2",
+      "author": {
+        "name": "Shuffll",
+        "url": "https://shuffll.com"
+      }
     }
   ]
 }
