@@ -486,6 +486,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "sugra-api",
+      "description": "Skills for the Sugra API: find the right endpoint, call it with the right parameters over HTTPS or MCP, and cite the source and date of every figure.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Sugra-Systems/sugra-api-plugins.git",
+        "sha": "00e939b6182c00b4727e124dcf4ba8c288401c3f",
+        "path": "xai"
+      },
+      "homepage": "https://github.com/Sugra-Systems/sugra-api-plugins",
+      "keywords": ["sugra", "sugra.ai", "sugra api", "mcp.sugra.ai"],
+      "domains": ["sugra.ai", "docs.sugra.ai", "app.sugra.ai", "mcp.sugra.ai", "sugra.systems"]
     }
   ]
 }

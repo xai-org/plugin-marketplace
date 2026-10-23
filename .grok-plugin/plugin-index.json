@@ -1208,6 +1208,38 @@
         ]
       }
     },
+    "sugra-api": {
+      "sha": "00e939b6182c00b4727e124dcf4ba8c288401c3f",
+      "version": "1.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "auth-and-quota",
+            "description": "Use a Sugra key, stay inside the daily quota, and act on each error over HTTPS or MCP. Use when the user needs a key, b…"
+          },
+          {
+            "name": "cross-domain-briefing",
+            "description": "Compose one briefing from two or three Sugra directions over HTTPS or MCP. Use when a question spans Finance, Macro, En…"
+          },
+          {
+            "name": "discover-and-call",
+            "description": "Find the right Sugra operation, call it over HTTPS or MCP, and check that the result answers the question. Use when the…"
+          },
+          {
+            "name": "envelope-and-attribution",
+            "description": "Parse Sugra API payloads over HTTPS or MCP, keep source attribution, and tell observation time from request time. Use w…"
+          },
+          {
+            "name": "live-docs",
+            "description": "Find current Sugra documentation. Use when an endpoint, parameter, default, or version might be stale. Canonical docs a…"
+          },
+          {
+            "name": "using-sugra-api",
+            "description": "Work with the Sugra API over HTTPS and MCP. Use when the task needs Sugra data, a key, product directions (Finance, Mac…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
       "version": "0.1.17",
