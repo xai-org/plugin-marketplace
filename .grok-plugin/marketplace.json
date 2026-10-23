@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "goldsky",
+      "description": "Official Goldsky integration. Build, deploy, and debug Goldsky Turbo pipelines, subgraphs, Compose apps, and Edge RPC endpoints, query wallet balances and transfers through Goldsky Feeds, and search the Goldsky docs over MCP.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/goldsky-io/goldsky-agent.git",
+        "sha": "0dbf1d3f9e4a5f1e41d29752b506dffcf30a3171"
+      },
+      "homepage": "https://goldsky.com",
+      "keywords": ["goldsky", "goldsky pipeline", "goldsky turbo", "goldsky mirror", "goldsky subgraph", "goldsky compose", "goldsky edge", "goldsky rpc", "goldsky boost", "goldsky feeds", "goldsky cli"],
+      "domains": ["goldsky.com", "app.goldsky.com", "docs.goldsky.com"]
     }
   ]
 }

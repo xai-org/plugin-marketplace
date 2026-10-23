@@ -524,6 +524,108 @@
         ]
       }
     },
+    "goldsky": {
+      "sha": "0dbf1d3f9e4a5f1e41d29752b506dffcf30a3171",
+      "version": "1.7.14",
+      "components": {
+        "agents": [
+          {
+            "name": "goldsky",
+            "description": "Goldsky Turbo pipeline expert. Builds, debugs, and manages blockchain data pipelines."
+          }
+        ],
+        "commands": [
+          {
+            "name": "get-started",
+            "description": "Install Goldsky skills, the docs MCP, and the CLIs, log in, then ask what the user wants to do"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "goldsky-docs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "auth-setup",
+            "description": "Set up Goldsky CLI authentication and project configuration. Use this skill when the user needs to: install the goldsky…"
+          },
+          {
+            "name": "boost",
+            "description": "Configure and troubleshoot Goldsky Boost, the free RPC caching CDN in front of a provider the user already pays for. Us…"
+          },
+          {
+            "name": "compose",
+            "description": "Always load this skill whenever the conversation is about Goldsky Compose (the offchain-to-onchain TypeScript framework…"
+          },
+          {
+            "name": "compose-doctor",
+            "description": "Diagnose an existing Goldsky Compose app with failing tasks, crashloops, missed events, cron not firing, HTTP 500s, wal…"
+          },
+          {
+            "name": "datasets",
+            "description": "Use this skill when the user needs to look up or verify Goldsky blockchain dataset names, chain prefixes, dataset types…"
+          },
+          {
+            "name": "edge",
+            "description": "Configure and troubleshoot Goldsky Edge, Goldsky's managed EVM RPC endpoint service. Use for Edge RPC, Goldsky RPC endp…"
+          },
+          {
+            "name": "feeds",
+            "description": "Query Goldsky Feeds for one wallet's balances and transfers. Use for wallet holdings, portfolio value, transfer history…"
+          },
+          {
+            "name": "mirror",
+            "description": "Use this skill when the user asks about Goldsky Mirror pipelines — creating, deploying, operating, or troubleshooting M…"
+          },
+          {
+            "name": "mirror-doctor",
+            "description": "Diagnose and fix broken Goldsky Mirror pipelines. Use this skill whenever a user has a Mirror pipeline that is failing,…"
+          },
+          {
+            "name": "onchain-automation",
+            "description": "Route event-driven onchain automation that detects activity, applies logic, and submits a transaction in response. Use…"
+          },
+          {
+            "name": "secrets",
+            "description": "Use this skill when a user wants to store, manage, or work with Goldsky secrets — the named credential objects used by…"
+          },
+          {
+            "name": "subgraph-builder",
+            "description": "Build, author, and deploy Goldsky Subgraphs — hosted GraphQL APIs over onchain data. Use when the user wants to create,…"
+          },
+          {
+            "name": "subgraph-doctor",
+            "description": "Diagnose and fix broken Goldsky Subgraphs. Use this skill whenever a user has a subgraph that is failing, stalled, stuc…"
+          },
+          {
+            "name": "subgraph-migrate",
+            "description": "Migrate a subgraph from The Graph to Goldsky as a drop-in replacement — no code changes required. Use this skill when t…"
+          },
+          {
+            "name": "turbo-builder",
+            "description": "Build and deploy new Goldsky Turbo pipelines: requirements, dataset selection, YAML, validation, and deployment. Use fo…"
+          },
+          {
+            "name": "turbo-doctor",
+            "description": "Diagnose and fix broken Goldsky Turbo pipelines interactively. Triggers on: pipeline in error state, stuck starting, co…"
+          },
+          {
+            "name": "turbo-operations",
+            "description": "Turbo pipeline operations reference — lifecycle commands (pause, resume, restart, delete), pipeline states, checkpoint…"
+          },
+          {
+            "name": "turbo-pipelines",
+            "description": "Turbo pipeline YAML reference and architecture guide. Covers: YAML field syntax (start_at, from, version, primary_key),…"
+          },
+          {
+            "name": "turbo-transforms",
+            "description": "Write SQL, TypeScript, and dynamic table transforms for Turbo pipelines. Covers: decoding EVM logs with _gs_log_decode,…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
