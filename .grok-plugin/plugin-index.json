@@ -524,6 +524,24 @@
         ]
       }
     },
+    "gurusup": {
+      "sha": "4709ca345cb55a1fab809b6b53523c5c0600be6e",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gurusup-brain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "using-brain",
+            "description": "Use for questions about the user's company - customers, projects, people, decisions, meetings, policies, sales, support…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

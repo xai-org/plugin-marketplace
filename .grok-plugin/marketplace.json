@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "gurusup",
+      "description": "Gurusup is your company's memory in your AI. Search decisions, people, customers and projects across every connected source (Slack, HubSpot, Notion, documents), with the sources behind each answer.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gurusup/gurusup-brain-plugin.git",
+        "sha": "4709ca345cb55a1fab809b6b53523c5c0600be6e"
+      },
+      "homepage": "https://gurusup.com/brain/mcp",
+      "keywords": ["gurusup", "gurusup memory", "gurusup knowledge"],
+      "domains": ["gurusup.com", "mcp.brain.gurusup.com"]
     }
   ]
 }
