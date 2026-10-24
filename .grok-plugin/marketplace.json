@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "taskaid",
+      "description": "Official Taskaid integration (MCP Server). Task management between you and your agents. Sign in with your Taskaid account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/satriahq/taskaid-plugins.git",
+        "sha": "fd9be5c93d0a5f6c6086b3d524378b9c52099625"
+      },
+      "homepage": "https://taskaid.ai",
+      "keywords": ["taskaid", "taskaid tasks", "taskaid plan"],
+      "domains": ["taskaid.ai"]
     }
   ]
 }
