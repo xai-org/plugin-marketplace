@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "doola",
+      "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/doolahq/plugins.git",
+        "sha": "d332682bdc134fb424f429d29ccd5fac40c774c5",
+        "path": "doola"
+      },
+      "homepage": "https://mcp.doola.com",
+      "keywords": [
+        "doola",
+        "doola formation",
+        "doola.com",
+        "mcp.doola.com"
+      ],
+      "domains": [
+        "doola.com",
+        "mcp.doola.com"
+      ]
     }
   ]
 }
