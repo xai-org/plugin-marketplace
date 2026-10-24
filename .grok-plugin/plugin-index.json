@@ -1740,6 +1740,18 @@
         ]
       }
     },
+    "wendor": {
+      "sha": "652ebe58d2727b347ec756df97a2d159318f6852",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wendor",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
       "version": "1.33.1",
