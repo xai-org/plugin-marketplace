@@ -524,6 +524,52 @@
         ]
       }
     },
+    "grokbot-discord-fleet": {
+      "sha": "41cc56984fbfb3d3003ef93f08e26da3a360f324",
+      "version": "0.3.33",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "discord-fleet",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "discord-bridge-dual-deliver",
+            "description": "Use when a Discord bridge wake arrives (last line \"⟂ d:<slug>:<msgId> …\" or first line d:<slug>:<msgId>) — decode it, t…"
+          },
+          {
+            "name": "discord-fleet-boundary",
+            "description": "use this when any Discord fleet work comes up — status, manage, wake questions, or channel binding"
+          },
+          {
+            "name": "discord-fleet-bridge-setup",
+            "description": "use this when the user explicitly asks to set up, deploy, or verify the Discord wake bridge (operator-driven; not silen…"
+          },
+          {
+            "name": "discord-fleet-callback-setup",
+            "description": "use when installer wants wake dual-deliver / self-callback without host vault, or after plugin install when bridge call…"
+          },
+          {
+            "name": "discord-fleet-hop-shorthand",
+            "description": "use only when encoding a Discord hop id (d:<slug>:<msgId>) for another agent or for callback correlation. Not for inbou…"
+          },
+          {
+            "name": "discord-fleet-manage",
+            "description": "use this when planning Discord channel bindings, reading Discord state (inspect, history, permissions), or running conf…"
+          },
+          {
+            "name": "discord-fleet-status",
+            "description": "use this when checking Discord fleet health, bridge /healthz, Discord bot identity, guilds, or channel lists"
+          },
+          {
+            "name": "discord-wake-on-sleep",
+            "description": "Wake on sleep (recommended) — standard setup step right after bridge + callback setup so Discord messages can wake a sl…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
