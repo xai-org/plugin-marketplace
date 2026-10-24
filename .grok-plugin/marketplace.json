@@ -486,6 +486,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "taasky",
+      "description": "Agree a meeting time, a visit or a price with another person through the hosted Taasky MCP server (MCP server + skill). Your agent opens a room with private limits, the other side joins with their own agent or in a browser, and nothing is agreed until both people confirm. No sign-up or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/taasky/plugin.git",
+        "sha": "8a716e035a6d801f1f09c3df16e7ef3a086666e4"
+      },
+      "homepage": "https://taasky.ai",
+      "keywords": [
+        "taasky",
+        "taasky negotiation",
+        "taasky rooms"
+      ],
+      "domains": [
+        "taasky.ai",
+        "mcp.taasky.ai",
+        "app.taasky.ai",
+        "docs.taasky.ai"
+      ]
     }
   ]
 }

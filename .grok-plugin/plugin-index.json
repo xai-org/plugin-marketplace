@@ -1304,6 +1304,24 @@
         ]
       }
     },
+    "taasky": {
+      "sha": "8a716e035a6d801f1f09c3df16e7ef3a086666e4",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taasky",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "taasky",
+            "description": "Negotiate terms with another person or their agent through Taasky: meeting times, visits, shift swaps, prices, dates, a…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
