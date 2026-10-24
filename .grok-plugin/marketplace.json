@@ -486,6 +486,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "magicinterview",
+      "description": "Know what to say next in interviews and meetings. Bring CV context and Notion notes. Live audio runs in the full app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgentsAILtd/magicinterview-plugin.git",
+        "sha": "849d46d8e697cb36ccd7799cba1be2954a28b39c"
+      },
+      "homepage": "https://magicinterview.ai",
+      "version": "1.4.5",
+      "author": {
+        "name": "MagicInterview"
+      },
+      "keywords": [
+        "magicinterview",
+        "magicinterview live meeting assistant",
+        "magicinterview mcp"
+      ],
+      "domains": [
+        "magicinterview.ai",
+        "magicinterview.app"
+      ]
     }
   ]
 }
