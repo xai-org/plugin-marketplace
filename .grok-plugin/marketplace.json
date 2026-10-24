@@ -384,6 +384,19 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "simplepost",
+      "description": "Publish, schedule, draft, preview, inspect, and manage social posts through SimplePost.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/simple-post/core.git",
+        "sha": "8be5bbb339290265116e2910a4b75e69ae0cf0a2"
+      },
+      "homepage": "https://simplepost.social",
+      "keywords": ["simplepost", "simplepost social publishing", "simplepost scheduling", "simplepost mcp"],
+      "domains": ["simplepost.social", "app.simplepost.social"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
