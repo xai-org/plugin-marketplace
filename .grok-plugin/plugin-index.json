@@ -1120,6 +1120,24 @@
         ]
       }
     },
+    "shapeless": {
+      "sha": "9cbaa942da7b7d0130f7748f7f6ad442363c150d",
+      "version": "0.2.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shapeless",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shapelessai",
+            "description": "Drive the user's ShapelessAI account - draft and publish social posts, run durable content jobs, manage standing agents…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
