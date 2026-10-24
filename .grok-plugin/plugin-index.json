@@ -332,6 +332,40 @@
         ]
       }
     },
+    "cryptyx": {
+      "sha": "229f88218174c188b76346d1f7d8df883465aa62",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cryptyx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cryptyx",
+            "description": "Ground crypto decisions in CRYPTYX intelligence. Use when the user names a coin, mentions their holdings or watchlist,…"
+          },
+          {
+            "name": "cryptyx-build-setup",
+            "description": "Go all the way down the CRYPTYX stack - from one reading to a multi-factor, multi-horizon setup of your own, tested on…"
+          },
+          {
+            "name": "cryptyx-exchange-bridge",
+            "description": "Use an exchange connection (Coinbase, Kraken, Binance, Hyperliquid) together with CRYPTYX - read which coins the user h…"
+          },
+          {
+            "name": "cryptyx-holdings",
+            "description": "THE STUDY for the coins a user holds or watches - where each coin stands on tactical (7-14 day) and structural (60-180…"
+          },
+          {
+            "name": "cryptyx-investigate",
+            "description": "Going deeper after THE STUDY - what else stands out across a few coins, a setup's composition and track record, how one…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
