@@ -486,6 +486,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "perture",
+      "description": "Connect Grok Build to Perture for authorized brand context, interface review, and scoped Brand Page editing through its hosted MCP server.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perture/perture-grok-build-plugin.git",
+        "sha": "a227f6b02f4665aad79f527a3302ade0e3570775"
+      },
+      "homepage": "https://app.perture.co/",
+      "keywords": ["perture", "perture brand", "perture design system"],
+      "domains": ["perture.co", "app.perture.co"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Perture",
+        "email": "supportperture@gmail.com",
+        "url": "https://app.perture.co/"
+      }
     }
   ]
 }
