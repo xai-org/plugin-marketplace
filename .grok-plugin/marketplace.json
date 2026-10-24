@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+        "sha": "cf38a9202b7bf8e352fe3df115af1b0ddecd0b33",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
+        "sha": "9580c23696ac8d7abed0c166f2f9918800afb819",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
