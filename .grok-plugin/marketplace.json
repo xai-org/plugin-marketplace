@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "aeon",
+      "description": "Aeon autonomous agent integration (hosted MCP server). Run and manage your Aeon agent from Grok: list and run skills, follow runs and read their output, search memory, edit strategy and voice, install skill packs and change settings. Sign in with GitHub; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aeonfun/aeon-mcp.git",
+        "sha": "af7de89b4345f98edc74f701267ce0f904ec9ef9"
+      },
+      "homepage": "https://www.aeon.fun/connect",
+      "keywords": ["aeon", "aeon agent", "aeon mcp", "aeon skill", "aeon.fun"],
+      "domains": ["aeon.fun", "www.aeon.fun"]
     }
   ]
 }
