@@ -782,6 +782,24 @@
         ]
       }
     },
+    "perture": {
+      "sha": "a227f6b02f4665aad79f527a3302ade0e3570775",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "perture",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "perture",
+            "description": "Use the authenticated Perture MCP connection when the user asks for brand context, interface review, or a scoped Brand…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
