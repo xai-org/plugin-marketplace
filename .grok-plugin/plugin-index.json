@@ -559,8 +559,8 @@
       }
     },
     "medicine-support-hub": {
-      "sha": "1ea2ff56019cd83eaecd33e28b6f840bd2e271d8",
-      "version": "0.3.3",
+      "sha": "e7938b0a224dce37c59e4f8c2451c1f388e8de05",
+      "version": "0.4.2",
       "components": {
         "mcpServers": [
           {
