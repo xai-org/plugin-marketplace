@@ -1805,6 +1805,43 @@
           }
         ]
       }
+    },
+    "mobivate": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mobivate-mcp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "authenticate",
+            "description": "Configure your Mobivate API key"
+          },
+          {
+            "name": "sms",
+            "description": "Send a single SMS message (single recipient)"
+          },
+          {
+            "name": "campaign",
+            "description": "Send a Batch SMS campaign (multiple recipients)"
+          },
+          {
+            "name": "history",
+            "description": "Get message logs from previous campaigns"
+          },
+          {
+            "name": "schedule-sms",
+            "description": "Schedule a single SMS message for later send"
+          },
+          {
+            "name": "schedule-campaign",
+            "description": "Schedule a Batch SMS campaign for later send"
+          }
+        ]
+      }
     }
   }
 }

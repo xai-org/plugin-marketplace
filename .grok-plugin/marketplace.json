@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mobivate",
+      "description": "Official Mobivate Bulk SMS integration. Send immediatelly or schedule individual or group/bulk SMS; manage contacts; review message history.",
+      "category": "productivity",
+      "source": {
+"source": "url",
+"url": "https://github.com/mobivate/grok-skill.git",
+"sha": "a5960aca054f6745b18fe7da4dab9b743341bada"
+      },
+      "homepage": "https://mobivate.com",
+      "keywords": ["mobivate","sms","bulksms","bulk sms","cpaas","marketing","broadcast","message","messaging"],
+      "domains": ["mobivate.com", "hub.mobivate.com","vortex.mobivatebulksms.com"]
     }
   ]
 }
