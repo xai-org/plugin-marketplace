@@ -1,0 +1,18 @@
+{
+  "name": "ipgeolocation-io-mcp",
+  "version": "2.0.1",
+  "description": "Official IPGeolocation.io MCP server with 17 tools for accurate IP geolocation, company information, ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
+  "author": {
+    "name": "IPGeolocation.io",
+    "email": "support@ipgeolocation.io",
+    "url": "https://ipgeolocation.io"
+  },
+  "homepage": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
+  "repository": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ipgeolocation",
+    "ipgeolocation.io",
+    "ipgeolocation-io-mcp"
+  ]
+}

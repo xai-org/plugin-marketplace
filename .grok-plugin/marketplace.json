@@ -486,6 +486,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ipgeolocation-io-mcp",
+      "description": "Official IPGeolocation.io MCP server with 17 tools for accurate IP geolocation, company information, ASN and network data, IP security (VPN, proxy, Tor, bot, hosting and spam detection), abuse contacts, time zones, astronomy, currency data and user-agent parsing.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ipgeolocation-io-mcp"
+      },
+      "homepage": "https://ipgeolocation.io/integrations/ipgeolocation-io-mcp",
+      "keywords": [
+        "ipgeolocation",
+        "ipgeolocation.io",
+        "ipgeolocation-io-mcp"
+      ],
+      "domains": [
+        "ipgeolocation.io",
+        "api.ipgeolocation.io"
+      ]
     }
   ]
 }
