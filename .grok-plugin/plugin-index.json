@@ -524,6 +524,58 @@
         ]
       }
     },
+    "fxmacrodata": {
+      "sha": "2b8e4299581f55f02c015f339b6b781e3aede965",
+      "version": "1.0.1",
+      "components": {
+        "commands": [
+          {
+            "name": "connection-check",
+            "description": "Check the hosted FXMacroData connection and no-key USD catalogue"
+          },
+          {
+            "name": "currency-context",
+            "description": "Research currency history alongside policy, curves, positioning and commodity context"
+          },
+          {
+            "name": "macro-brief",
+            "description": "Build a sourced macro brief from available releases and indicator history"
+          },
+          {
+            "name": "macro-research",
+            "description": "Route a macro research question through available FXMacroData tools with provenance"
+          },
+          {
+            "name": "pair-brief",
+            "description": "Macro view of an FX pair - rate differential, inflation gap, spot and upcoming event risk"
+          },
+          {
+            "name": "release-context",
+            "description": "Review scheduled macro releases and recent publication or revision changes"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "fxmacrodata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fxmacrodata",
+            "description": "Use FXMacroData tools for currency pairs, FX spot rates, central-bank policy rates, CPI/inflation, GDP, jobs data, bond…"
+          },
+          {
+            "name": "macro-evidence",
+            "description": "Research macro releases, currency drivers, policy curves and positioning using FXMacroData tools and explicit source ev…"
+          },
+          {
+            "name": "research-provenance",
+            "description": "Preserve source, revision and publication-time evidence in macroeconomic research. Use when comparing releases, reviewi…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
