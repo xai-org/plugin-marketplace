@@ -1074,6 +1074,24 @@
         ]
       }
     },
+    "recordo": {
+      "sha": "77f459281bece40c064477c7d06151439726c768",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "recordo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "recordo",
+            "description": "Use when the user asks to work with their Recordo ADHD tasks, notes, projects, daily schedule, or next task."
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
