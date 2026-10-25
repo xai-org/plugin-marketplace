@@ -115,8 +115,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
-      "version": "1.11.0",
+      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
+      "version": "1.12.0",
       "components": {
         "mcpServers": [
           {
@@ -839,8 +839,8 @@
       }
     },
     "pstack": {
-      "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
-      "version": "0.15.29",
+      "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
+      "version": "0.15.30",
       "components": {
         "agents": [
           {
@@ -1050,8 +1050,8 @@
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
           },
           {
-            "name": "swarm",
-            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
+            "name": "statechart",
+            "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
           }
         ]
       }
@@ -1093,8 +1093,8 @@
       }
     },
     "sentry": {
-      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
-      "version": "1.4.5",
+      "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
+      "version": "1.4.6",
       "components": {
         "mcpServers": [
           {
@@ -1157,8 +1157,8 @@
       }
     },
     "stripe": {
-      "sha": "579b067ffb461b82afc845c47b17fc8e8910488c",
-      "version": "0.9.24",
+      "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+      "version": "0.9.27",
       "components": {
         "agents": [
           {
@@ -1249,8 +1249,8 @@
       }
     },
     "superpowers": {
-      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
-      "version": "7.0.0",
+      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "version": "7.0.1",
       "components": {
         "hooks": [
           {
@@ -1759,8 +1759,8 @@
       }
     },
     "wix": {
-      "sha": "d6320a21a2fc05333a7a894282207aec6aabfb06",
-      "version": "1.32.0",
+      "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
+      "version": "1.33.1",
       "components": {
         "mcpServers": [
           {
@@ -1790,6 +1790,10 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
+            "name": "wix-export",
+            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+          },
+          {
             "name": "wix-headless",
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
@@ -1804,6 +1808,10 @@
           {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
+          },
+          {
+            "name": "wix-import",
+            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
           },
           {
             "name": "wix-manage",
