@@ -486,6 +486,21 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "pallyy",
+      "description": "Schedule social media posts from your AI agent. Pallyy's hosted MCP server lists your social sets, creates and updates draft or scheduled posts, imports media, and pins calendar notes across Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest, Threads, Bluesky, X and Google Business Profile.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pallyysocial/pallyy-agent.git",
+        "sha": "318ade2166f0e1c879f7f6147f2be3cf78a7c46e"
+      },
+      "homepage": "https://pallyy.com/docs/api/mcp",
+      "keywords": ["pallyy", "pallyy mcp", "pallyy scheduler", "schedule social media posts", "social media scheduler", "social media automation", "agency"],
+      "domains": ["pallyy.com", "app.pallyy.com"],
+      "version": "1.0.0",
+      "author": { "name": "Pallyy", "email": "hello@pallyy.com", "url": "https://pallyy.com" }
     }
   ]
 }
