@@ -395,6 +395,19 @@
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+    },
+    {
+      "name": "ranla",
+      "description": "Official Ranla plugin for Grok Build. An AI growth agent for the signups you already have — instrument lifecycle events, inspect audience and campaigns, talk to Ranla, and approve growth work. The same workspace also sends transactional email. Hosted MCP with browser OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Super-Send/ranla-grok-plugin.git",
+        "sha": "274a5f3cad4e09cf41d8a69884f3ad31e500efe3"
+      },
+      "homepage": "https://ranla.ai",
+      "keywords": ["ranla", "ranla mcp", "ranla campaigns", "ranla email"],
+      "domains": ["ranla.ai", "app.ranla.ai", "docs.ranla.ai", "mcp.ranla.ai"]
     }
   ]
 }
