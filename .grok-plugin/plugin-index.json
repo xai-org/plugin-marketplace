@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "affixio-tool-gate": {
+      "sha": "027e361e614e4fbc1ef50baefd368235bd98bb2c",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "affixio-tool-gate",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
