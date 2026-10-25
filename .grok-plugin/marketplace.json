@@ -486,6 +486,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mandarinclips",
+      "description": "MandarinClips MCP integration. Search 180,000+ authentic Chinese cinema dialogue clips, pull HSK 3.0 grammar guides and pragmatic expression guides, and build cinema-backed lesson materials for TCSL teaching. Free tier works anonymously.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/IndexFlowing/MandarinClips-mcp.git",
+        "sha": "2ad95186ee87f3508e673352a6315c638dcc44f3"
+      },
+      "homepage": "https://www.mandarinclips.com",
+      "keywords": [
+        "mandarinclips",
+        "mandarin clips",
+        "chinese cinema",
+        "tcsl",
+        "hsk"
+      ],
+      "domains": [
+        "mandarinclips.com"
+      ]
     }
   ]
 }

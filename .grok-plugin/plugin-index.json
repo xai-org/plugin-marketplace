@@ -558,6 +558,18 @@
         ]
       }
     },
+    "mandarinclips": {
+      "sha": "2ad95186ee87f3508e673352a6315c638dcc44f3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mandarinclips",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
       "version": "0.0.195",
