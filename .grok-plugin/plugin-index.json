@@ -68,8 +68,8 @@
       }
     },
     "browser-use": {
-      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
-      "version": "0.1.0",
+      "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
+      "version": "0.1.1",
       "components": {
         "mcpServers": [
           {
@@ -115,8 +115,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
-      "version": "1.11.0",
+      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
+      "version": "1.12.0",
       "components": {
         "mcpServers": [
           {
@@ -379,8 +379,8 @@
       }
     },
     "figma": {
-      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
-      "version": "2.2.157",
+      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
+      "version": "2.2.163",
       "components": {
         "mcpServers": [
           {
@@ -559,8 +559,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
-      "version": "0.0.194",
+      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
+      "version": "0.0.195",
       "components": {
         "skills": [
           {
@@ -821,8 +821,8 @@
       }
     },
     "pstack": {
-      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
-      "version": "0.15.25",
+      "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
+      "version": "0.15.30",
       "components": {
         "agents": [
           {
@@ -835,14 +835,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "Make Bot UI",
-            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
-          },
-          {
-            "name": "Poteto Mode",
-            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
-          },
           {
             "name": "architect",
             "description": "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use fo…"
@@ -872,6 +864,10 @@
             "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
+            "name": "create-formal-verification-skill",
+            "description": "Generate a project-local skill that formally verifies the code where a bug costs the most and tests reach the least, in…"
+          },
+          {
             "name": "create-verification-skill",
             "description": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or plat…"
           },
@@ -893,11 +889,19 @@
           },
           {
             "name": "ketchup",
-            "description": "Catch the user up on what changed in this chat since their last message, in a few plain sentences and small visuals. Gi…"
+            "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
+          },
+          {
+            "name": "maintain-formal-verification-skill",
+            "description": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched…"
           },
           {
             "name": "maintain-verification-skill",
             "description": "Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, on…"
+          },
+          {
+            "name": "make-bot-ui",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
           },
           {
             "name": "no-comments",
@@ -906,6 +910,10 @@
           {
             "name": "poteto-help",
             "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto…"
+          },
+          {
+            "name": "poteto-mode",
+            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
           },
           {
             "name": "principle-attack-the-premise",
@@ -1017,23 +1025,15 @@
           },
           {
             "name": "sharpen",
-            "description": "Sharpen a task before starting: the expert approach, what the user is really after, and the right level of specificatio…"
+            "description": "Make a task deeper, not bigger, then rewrite the prompt. Use for /sharpen."
           },
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
           },
           {
-            "name": "swarm",
-            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
-          },
-          {
-            "name": "tdd",
-            "description": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious ch…"
-          },
-          {
-            "name": "teach",
-            "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
+            "name": "statechart",
+            "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
           }
         ]
       }
@@ -1075,8 +1075,8 @@
       }
     },
     "sentry": {
-      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
-      "version": "1.4.5",
+      "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
+      "version": "1.4.6",
       "components": {
         "mcpServers": [
           {
@@ -1165,8 +1165,8 @@
       }
     },
     "stripe": {
-      "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
-      "version": "0.9.20",
+      "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+      "version": "0.9.27",
       "components": {
         "agents": [
           {
@@ -1257,8 +1257,8 @@
       }
     },
     "superpowers": {
-      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
-      "version": "7.0.0",
+      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "version": "7.0.1",
       "components": {
         "hooks": [
           {
@@ -1749,9 +1749,26 @@
         ]
       }
     },
+    "videogen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "videogen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "videogen",
+            "description": "Create, edit, caption, and export videos or generate media through the VideoGen MCP connector when the user asks to use…"
+          }
+        ]
+      }
+    },
     "wix": {
-      "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
-      "version": "1.31.2",
+      "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
+      "version": "1.33.1",
       "components": {
         "mcpServers": [
           {
@@ -1781,6 +1798,10 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
+            "name": "wix-export",
+            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+          },
+          {
             "name": "wix-headless",
             "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
           },
@@ -1795,6 +1816,10 @@
           {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
+          },
+          {
+            "name": "wix-import",
+            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
           },
           {
             "name": "wix-manage",
