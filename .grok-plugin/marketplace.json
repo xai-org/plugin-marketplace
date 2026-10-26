@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "paperoffice",
+      "description": "PaperOffice for Grok Build (hosted MCP server): search, read, extract and organize the business documents in your own PaperOffice account, create PDFs, handle approval tasks and keep your knowledge base current. 52 individually listed tools, each marked read-only, writes data or destructive. EU hosted, OAuth 2.1.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/paperoffice-ai/paperoffice-grok-plugin.git",
+        "sha": "d34a8791708d17da06b893a999f5d225ae48d98e"
+      },
+      "homepage": "https://paperoffice.ai/en/developer/mcp/",
+      "keywords": ["paperoffice", "paperoffice mcp", "paperoffice documents"],
+      "domains": ["paperoffice.ai", "app.paperoffice.ai", "mcp.paperoffice.ai", "api.paperoffice.ai"]
     }
   ]
 }
