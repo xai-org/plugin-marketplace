@@ -486,6 +486,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "respira-for-wordpress",
+      "description": "Respira for WordPress: read and edit a live WordPress site in the page builder's own format (Elementor, Divi, Bricks, Gutenberg and more). An edit to a published page lands on a draft copy a person approves, and every write saves a snapshot first. Needs the Respira plugin on the site and a Respira account.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/respira-press/respira-wordpress-mcp.git",
+        "sha": "0926754c89df12ecca00be4d0f5709b0cf54e41c"
+      },
+      "homepage": "https://www.respira.press/integrations/grok",
+      "keywords": ["respira", "respira wordpress", "respira mcp"],
+      "domains": ["respira.press"]
     }
   ]
 }

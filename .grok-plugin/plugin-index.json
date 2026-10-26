@@ -1074,6 +1074,18 @@
         ]
       }
     },
+    "respira-for-wordpress": {
+      "sha": "0926754c89df12ecca00be4d0f5709b0cf54e41c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "respira-wordpress",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
