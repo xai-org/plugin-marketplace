@@ -397,6 +397,18 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "wunjo-design",
+      "description": "Vector design in Wunjo Design through its hosted MCP server: documents and pages, shapes and paths, text laid out from real font metrics, placed images, brand components, export slices, and a render of the page so the agent can see its own work. Connects over HTTP and signs in with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/wunjo-design"
+      },
+      "homepage": "https://wunjo.online/product/design#mcp",
+      "keywords": ["wunjo", "wunjo design", "wunjo mcp"],
+      "domains": ["wunjo.online", "mcp.wunjo.online", "app.wunjo.online"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
