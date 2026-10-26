@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "affitor",
+      "description": "Affitor affiliate programs, read-only (hosted MCP): partners, commissions, earnings, payouts and billing for brands and the partners who promote them.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/affitor"
+      },
+      "homepage": "https://affitor.com/docs/api-reference/mcp",
+      "keywords": ["affitor", "affitor affiliate", "affitor partners", "affitor commissions"],
+      "domains": ["affitor.com"]
     }
   ]
 }
