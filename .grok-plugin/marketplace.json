@@ -486,6 +486,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "byob",
+      "description": "BYOB (byobgh.com) integration via its remote MCP server. Sign in with your BYOB account to search the catalogue and stock, manage orders, deliveries, returns and commissions. Tools follow your BYOB role (sales agent, rider, warehouse, admin).",
+      "category": "commerce",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pedmindset/byob-mcp.git",
+        "sha": "514cafc809e6d289e894ba27970748a5f70e66cc"
+      },
+      "homepage": "https://byobgh.com",
+      "keywords": ["byob", "byobgh", "byob ghana", "byob order"],
+      "domains": ["byobgh.com"],
+      "author": {
+        "name": "PED Solution Studio",
+        "email": "emmanuel@pedsolution.com",
+        "url": "https://byobgh.com"
+      }
     }
   ]
 }

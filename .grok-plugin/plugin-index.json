@@ -97,6 +97,18 @@
         ]
       }
     },
+    "byob": {
+      "sha": "514cafc809e6d289e894ba27970748a5f70e66cc",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "byob",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
