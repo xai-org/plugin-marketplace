@@ -496,11 +496,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fiskmas-dev/fiskmas-grok-plugin.git",
-<<<<<<< HEAD
         "sha": "6da960d64232e707077d3c6cec2e3ba114c8a016"
-=======
-        "sha": "b6028bd19656a698ee7b06dc75ffa0fc37e817b4"
->>>>>>> b76cbbf (chore(plugins): point fiskmas source at fiskmas-dev org (1.1.1))
       },
       "homepage": "https://fiskmas.dev",
       "keywords": ["fiskmas", "fiskmas deploy", "deploy to fiskmas", "fiskmas mcp"],
