@@ -546,6 +546,28 @@
         ]
       }
     },
+    "magicinterview": {
+      "sha": "849d46d8e697cb36ccd7799cba1be2954a28b39c",
+      "version": "1.4.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "magicinterview",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "magicinterview-get-started",
+            "description": "Guide a new MagicInterview user from a free preview or assistant connection to their first saved interview or meeting.…"
+          },
+          {
+            "name": "magicinterview-prepare-meeting",
+            "description": "Set up MagicInterview live help for job interviews, client calls, sales conversations, and other meetings. Connect the…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
