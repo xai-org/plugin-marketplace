@@ -97,6 +97,18 @@
         ]
       }
     },
+    "bubble": {
+      "sha": "5165c720df5dafecc787f06ab8012bd0086e1b07",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bubble",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
