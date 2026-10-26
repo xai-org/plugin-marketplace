@@ -398,14 +398,13 @@
     },
     {
       "name": "famulor",
-      "description": "Operate Famulor assistants, calls, campaigns, messaging, telephony, knowledge, dashboards, automations, and workspace settings through the OAuth-secured MCP server and guided skill.",
+      "description": "Operate Famulor voice, WhatsApp and webchat AI assistants: assistants, calls, campaigns, messaging, telephony, knowledge, dashboards, automations, and workspace settings through Famulor's hosted OAuth MCP server and a guided skill. Sign in with your Famulor account; no API key needed.",
       "category": "productivity",
       "source": {
-        "source": "url",
-        "url": "https://github.com/bekservice/Famulor-Skill.git",
-        "sha": "49d10588f1c9d5b10744b5d4db3fa64c10f31e60"
+        "type": "local",
+        "path": "./external_plugins/famulor"
       },
-      "homepage": "https://docs.famulor.io/mcp/overview",
+      "homepage": "https://www.famulor.io",
       "keywords": ["famulor", "famulor assistants", "famulor voice agents", "famulor mcp"],
       "domains": ["famulor.io", "app.famulor.io", "docs.famulor.io"]
     },

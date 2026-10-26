@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 32 32" role="img" aria-labelledby="title desc">
+  <title id="title">Famulor</title>
+  <desc id="desc">Famulor assistant mark on a cyan rounded square.</desc>
+  <rect width="32" height="32" rx="9" fill="#1FD5FA"/>
+  <rect x="4" y="9" width="24" height="14" rx="7" fill="#0F1113"/>
+  <circle cx="21" cy="16" r="5.2" fill="#FFFFFF"/>
+</svg>
