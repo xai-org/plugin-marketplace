@@ -15,8 +15,14 @@
         "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
-      "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
-      "domains": ["vercel.com"]
+      "keywords": [
+        "vercel",
+        "vercel deploy",
+        "deploy to vercel"
+      ],
+      "domains": [
+        "vercel.com"
+      ]
     },
     {
       "name": "sentry",
@@ -28,8 +34,12 @@
         "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
-      "keywords": ["sentry"],
-      "domains": ["sentry.io"]
+      "keywords": [
+        "sentry"
+      ],
+      "domains": [
+        "sentry.io"
+      ]
     },
     {
       "name": "chrome-devtools",
@@ -41,7 +51,11 @@
         "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
+      "keywords": [
+        "chrome devtools",
+        "chrome-devtools",
+        "devtools mcp"
+      ]
     },
     {
       "name": "cloudflare",
@@ -53,8 +67,14 @@
         "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
       },
       "homepage": "https://github.com/cloudflare/skills",
-      "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
-      "domains": ["cloudflare.com"]
+      "keywords": [
+        "cloudflare",
+        "wrangler",
+        "cloudflare workers"
+      ],
+      "domains": [
+        "cloudflare.com"
+      ]
     },
     {
       "name": "superpowers",
@@ -66,7 +86,9 @@
         "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
       },
       "homepage": "https://github.com/obra/superpowers",
-      "keywords": ["superpowers"]
+      "keywords": [
+        "superpowers"
+      ]
     },
     {
       "name": "base44",
@@ -78,8 +100,17 @@
         "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
-      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
-      "domains": ["base44.com", "docs.base44.com"]
+      "keywords": [
+        "base44",
+        "base44 cli",
+        "base44 sdk",
+        "base44 app",
+        "base44 deploy"
+      ],
+      "domains": [
+        "base44.com",
+        "docs.base44.com"
+      ]
     },
     {
       "name": "mongodb",
@@ -92,8 +123,16 @@
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
-      "domains": ["mongodb.com"]
+      "keywords": [
+        "mongodb community",
+        "mongo",
+        "mongosh",
+        "mongodb local mcp",
+        "enterprise advanced"
+      ],
+      "domains": [
+        "mongodb.com"
+      ]
     },
     {
       "name": "mongodb-atlas",
@@ -106,8 +145,17 @@
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
-      "domains": ["mongodb.com", "cloud.mongodb.com"]
+      "keywords": [
+        "mongodb atlas",
+        "atlas",
+        "mongodb",
+        "atlas cluster",
+        "atlas mcp"
+      ],
+      "domains": [
+        "mongodb.com",
+        "cloud.mongodb.com"
+      ]
     },
     {
       "name": "axiom",
@@ -119,8 +167,13 @@
         "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
       },
       "homepage": "https://github.com/axiomhq/skills",
-      "keywords": ["axiom"],
-      "domains": ["axiom.co", "app.axiom.co"]
+      "keywords": [
+        "axiom"
+      ],
+      "domains": [
+        "axiom.co",
+        "app.axiom.co"
+      ]
     },
     {
       "name": "neon",
@@ -131,8 +184,17 @@
         "path": "./external_plugins/neon"
       },
       "homepage": "https://neon.com",
-      "keywords": ["neon", "neon postgres", "neon database", "neon branch"],
-      "domains": ["neon.tech", "neon.com", "console.neon.tech"]
+      "keywords": [
+        "neon",
+        "neon postgres",
+        "neon database",
+        "neon branch"
+      ],
+      "domains": [
+        "neon.tech",
+        "neon.com",
+        "console.neon.tech"
+      ]
     },
     {
       "name": "wix",
@@ -144,8 +206,18 @@
         "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
-      "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
-      "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+      "keywords": [
+        "wix",
+        "wix cli",
+        "wix mcp",
+        "wix apps",
+        "wix headless"
+      ],
+      "domains": [
+        "wix.com",
+        "dev.wix.com",
+        "manage.wix.com"
+      ]
     },
     {
       "name": "netlify",
@@ -157,12 +229,19 @@
         "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
-      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
-      "domains": ["netlify.com", "app.netlify.com"]
+      "keywords": [
+        "netlify",
+        "netlify deploy",
+        "deploy to netlify"
+      ],
+      "domains": [
+        "netlify.com",
+        "app.netlify.com"
+      ]
     },
     {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
+      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server \u2014 keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
       "category": "development",
       "source": {
         "source": "url",
@@ -170,8 +249,14 @@
         "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
-      "keywords": ["firecrawl", "fire crawl"],
-      "domains": ["firecrawl.dev", "docs.firecrawl.dev"]
+      "keywords": [
+        "firecrawl",
+        "fire crawl"
+      ],
+      "domains": [
+        "firecrawl.dev",
+        "docs.firecrawl.dev"
+      ]
     },
     {
       "name": "figma",
@@ -183,8 +268,14 @@
         "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
-      "keywords": ["figma", "figma mcp"],
-      "domains": ["figma.com", "www.figma.com"]
+      "keywords": [
+        "figma",
+        "figma mcp"
+      ],
+      "domains": [
+        "figma.com",
+        "www.figma.com"
+      ]
     },
     {
       "name": "exa",
@@ -196,8 +287,16 @@
         "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8"
       },
       "homepage": "https://exa.ai",
-      "keywords": ["exa", "exa search", "exa ai"],
-      "domains": ["exa.ai", "dashboard.exa.ai", "docs.exa.ai"]
+      "keywords": [
+        "exa",
+        "exa search",
+        "exa ai"
+      ],
+      "domains": [
+        "exa.ai",
+        "dashboard.exa.ai",
+        "docs.exa.ai"
+      ]
     },
     {
       "name": "tavily",
@@ -209,12 +308,21 @@
         "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
       },
       "homepage": "https://www.tavily.com",
-      "keywords": ["tavily", "tavily search", "tavily ai"],
-      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+      "keywords": [
+        "tavily",
+        "tavily search",
+        "tavily ai"
+      ],
+      "domains": [
+        "tavily.com",
+        "www.tavily.com",
+        "app.tavily.com",
+        "docs.tavily.com"
+      ]
     },
     {
       "name": "octen",
-      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser \u2014 nothing to install, no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
@@ -222,8 +330,15 @@
         "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
       },
       "homepage": "https://octen.ai",
-      "keywords": ["octen", "octen search", "octen ai"],
-      "domains": ["octen.ai", "docs.octen.ai"]
+      "keywords": [
+        "octen",
+        "octen search",
+        "octen ai"
+      ],
+      "domains": [
+        "octen.ai",
+        "docs.octen.ai"
+      ]
     },
     {
       "name": "railway",
@@ -236,8 +351,15 @@
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
-      "keywords": ["railway", "railway deploy", "deploy to railway"],
-      "domains": ["railway.com", "railway.app"]
+      "keywords": [
+        "railway",
+        "railway deploy",
+        "deploy to railway"
+      ],
+      "domains": [
+        "railway.com",
+        "railway.app"
+      ]
     },
     {
       "name": "stripe",
@@ -250,12 +372,22 @@
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
-      "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
+      "keywords": [
+        "stripe",
+        "stripe payments",
+        "stripe connect",
+        "stripe mcp",
+        "stripe billing"
+      ],
+      "domains": [
+        "stripe.com",
+        "docs.stripe.com",
+        "dashboard.stripe.com"
+      ]
     },
     {
       "name": "tinyfish",
-      "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites — including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
+      "description": "Web search, content extraction, and goal-driven browser automation via TinyFish's hosted MCP server. Search and fetch pages for free, then drive real multi-step workflows on live sites \u2014 including authenticated ones, using saved Browser Context Profiles and password-manager credentials. Sign in with your TinyFish account on first connection; no API key needed.",
       "category": "development",
       "source": {
         "source": "url",
@@ -264,8 +396,17 @@
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
-      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
-      "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
+      "keywords": [
+        "tinyfish",
+        "tinyfish agent",
+        "tinyfish web agent",
+        "agentql"
+      ],
+      "domains": [
+        "tinyfish.ai",
+        "agent.tinyfish.ai",
+        "docs.tinyfish.ai"
+      ]
     },
     {
       "name": "supabase",
@@ -277,8 +418,16 @@
         "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
-      "domains": ["supabase.com"]
+      "keywords": [
+        "supabase",
+        "supabase mcp",
+        "supabase auth",
+        "supabase storage",
+        "supabase edge functions"
+      ],
+      "domains": [
+        "supabase.com"
+      ]
     },
     {
       "name": "pstack",
@@ -291,11 +440,15 @@
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
-      "keywords": ["pstack", "poteto-mode", "poteto"]
+      "keywords": [
+        "pstack",
+        "poteto-mode",
+        "poteto"
+      ]
     },
     {
       "name": "browser-use",
-      "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
+      "description": "Give Grok a real browser \u2014 the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
       "category": "development",
       "source": {
         "source": "url",
@@ -304,8 +457,15 @@
         "path": "grok"
       },
       "homepage": "https://browser-use.com",
-      "keywords": ["browser use", "browser-use", "browser use cloud"],
-      "domains": ["browser-use.com", "cloud.browser-use.com"]
+      "keywords": [
+        "browser use",
+        "browser-use",
+        "browser use cloud"
+      ],
+      "domains": [
+        "browser-use.com",
+        "cloud.browser-use.com"
+      ]
     },
     {
       "name": "datadog",
@@ -317,8 +477,15 @@
         "sha": "083b4783095520f562534956578c8826613292a9"
       },
       "homepage": "https://github.com/datadog-labs/grok-plugin",
-      "keywords": ["datadog", "datadog mcp"],
-      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+      "keywords": [
+        "datadog",
+        "datadog mcp"
+      ],
+      "domains": [
+        "datadoghq.com",
+        "app.datadoghq.com",
+        "datadoghq.eu"
+      ]
     },
     {
       "name": "quo",
@@ -330,12 +497,22 @@
         "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
       },
       "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
-      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
-      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+      "keywords": [
+        "quo",
+        "quo mcp",
+        "quo business phone",
+        "openphone"
+      ],
+      "domains": [
+        "quo.com",
+        "mcp.quo.com",
+        "support.quo.com",
+        "my.quo.com"
+      ]
     },
     {
       "name": "bruin",
-      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "description": "Grok integration for Bruin \u2014 MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
       "source": {
         "source": "url",
@@ -343,8 +520,18 @@
         "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
-      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+      "keywords": [
+        "bruin",
+        "bruin api",
+        "mettel bruin",
+        "bruin public api",
+        "bruin ticket"
+      ],
+      "domains": [
+        "bruin.com",
+        "api.bruin.com",
+        "apigw.bruin.com"
+      ]
     },
     {
       "name": "omneky",
@@ -355,8 +542,16 @@
         "path": "./external_plugins/omneky"
       },
       "homepage": "https://www.omneky.com",
-      "keywords": ["omneky", "omneky ads", "omneky mcp"],
-      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+      "keywords": [
+        "omneky",
+        "omneky ads",
+        "omneky mcp"
+      ],
+      "domains": [
+        "omneky.com",
+        "mcp.omneky.com",
+        "app.omneky.com"
+      ]
     },
     {
       "name": "modern-web-guidance",
@@ -368,7 +563,11 @@
         "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
-      "keywords": ["modern web", "web best practices", "web guidance"]
+      "keywords": [
+        "modern web",
+        "web best practices",
+        "web guidance"
+      ]
     },
     {
       "name": "helena",
@@ -380,8 +579,18 @@
         "sha": "9b71516e006144d323f138f1785f55123ec51931"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
-      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
+      "keywords": [
+        "helena",
+        "enrich labs",
+        "helena ai marketer",
+        "helena marketing ai agent",
+        "helena autonomous marketer",
+        "helena marketing"
+      ],
+      "domains": [
+        "enrichlabs.ai",
+        "agent.enrichlabs.ai"
+      ]
     },
     {
       "name": "unity",
@@ -393,8 +602,27 @@
         "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
-      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
-      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+      "keywords": [
+        "unity",
+        "unity engine",
+        "unity editor",
+        "unity 6",
+        "unity cli",
+        "unity plugin",
+        "unity game development",
+        "ui toolkit",
+        "shader graph",
+        "unity iap",
+        "levelplay"
+      ],
+      "domains": [
+        "unity.com",
+        "unity3d.com",
+        "docs.unity3d.com",
+        "docs.unity.com",
+        "discussions.unity.com",
+        "assetstore.unity.com"
+      ]
     },
     {
       "name": "calcom",
@@ -405,8 +633,19 @@
         "path": "./external_plugins/calcom"
       },
       "homepage": "https://cal.com/docs/mcp-server",
-      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
-      "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
+      "keywords": [
+        "cal.com",
+        "calcom",
+        "cal.com mcp",
+        "cal.com scheduling",
+        "cal.com booking"
+      ],
+      "domains": [
+        "cal.com",
+        "app.cal.com",
+        "mcp.cal.com",
+        "api.cal.com"
+      ]
     },
     {
       "name": "skyvern",
@@ -418,12 +657,20 @@
         "sha": "6fae60f5476857b8e3796bd253854809851ebc3b"
       },
       "homepage": "https://www.skyvern.com",
-      "keywords": ["skyvern", "skyvern browser", "skyvern mcp"],
-      "domains": ["skyvern.com", "app.skyvern.com", "api.skyvern.com"]
+      "keywords": [
+        "skyvern",
+        "skyvern browser",
+        "skyvern mcp"
+      ],
+      "domains": [
+        "skyvern.com",
+        "app.skyvern.com",
+        "api.skyvern.com"
+      ]
     },
     {
       "name": "html-css-to-image",
-      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images—without managing a browser.",
+      "description": "HTML/CSS to Image API integration with a hosted OAuth MCP server and purpose-built skills. Generate images and PDFs, capture webpages, work with reusable templates, manage rendering resources, and automate dynamic Open Graph images\u2014without managing a browser.",
       "category": "development",
       "source": {
         "source": "url",
@@ -431,8 +678,26 @@
         "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
       },
       "homepage": "https://htmlcsstoimage.com",
-      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
-      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
+      "keywords": [
+        "html/css to image",
+        "html css to image",
+        "html-to-image",
+        "html to image api",
+        "hcti",
+        "image generation",
+        "screenshot",
+        "url screenshot",
+        "pdf",
+        "image templates",
+        "open graph image",
+        "social preview"
+      ],
+      "domains": [
+        "htmlcsstoimage.com",
+        "docs.htmlcsstoimage.com",
+        "hcti.io",
+        "mcp.hcti.io"
+      ]
     },
     {
       "name": "pi-security",
@@ -445,8 +710,18 @@
         "path": "plugins/pi-security"
       },
       "homepage": "https://www.pi.security/",
-      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
-      "domains": ["pi.security", "mcp.pi.security"]
+      "keywords": [
+        "pi security",
+        "pi security appsec",
+        "pi security findings",
+        "pi security remediation",
+        "pi security threat modeling",
+        "pi security design review"
+      ],
+      "domains": [
+        "pi.security",
+        "mcp.pi.security"
+      ]
     },
     {
       "name": "clerk",
@@ -458,8 +733,20 @@
         "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
       },
       "homepage": "https://clerk.com/docs",
-      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
-      "domains": ["clerk.com", "dashboard.clerk.com"]
+      "keywords": [
+        "clerk",
+        "clerk auth",
+        "clerk authentication",
+        "clerk user management",
+        "clerk organizations",
+        "clerk billing",
+        "clerk webhooks",
+        "clerk mcp"
+      ],
+      "domains": [
+        "clerk.com",
+        "dashboard.clerk.com"
+      ]
     },
     {
       "name": "videogen",
@@ -486,6 +773,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "wendor",
+      "description": "Wendor smart vending-machine platform integration. Query sales, machine status, inventory levels, due refills, product catalog and support tickets from the Wendor Dashboard through its hosted MCP server, directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wendor-in/wendor-mcp.git",
+        "sha": "652ebe58d2727b347ec756df97a2d159318f6852"
+      },
+      "homepage": "https://wendor.ai",
+      "keywords": [
+        "wendor",
+        "wendor vending",
+        "wendor dashboard"
+      ],
+      "domains": [
+        "wendor.ai"
+      ]
     }
   ]
 }
