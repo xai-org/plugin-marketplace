@@ -1034,6 +1034,34 @@
           {
             "name": "statechart",
             "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
+          },
+          {
+            "name": "swarm",
+            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
+          },
+          {
+            "name": "tdd",
+            "description": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious ch…"
+          },
+          {
+            "name": "teach",
+            "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
+          },
+          {
+            "name": "technical-writing",
+            "description": "Layered technical-writing standard: Diátaxis structure, Google developer style sentences, STE instruction rules, Global…"
+          },
+          {
+            "name": "typescript-best-practices",
+            "description": "TypeScript best practices. Use when reading or editing any .ts or .tsx file."
+          },
+          {
+            "name": "unslop",
+            "description": "Cut AI tells from any writing."
+          },
+          {
+            "name": "why",
+            "description": "Use for 'why does X work this way', 'why we picked Y', design rationale, regressions, postmortems, or data-backed thres…"
           }
         ]
       }

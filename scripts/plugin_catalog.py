@@ -20,7 +20,9 @@ import subprocess
 import time
 from pathlib import Path
 
-MAX_ITEMS_PER_CATEGORY = 50
+# A silent slice hid pstack skills past 50. The cap stays so one plugin
+# cannot bloat the committed index, and exceeding it fails generation.
+MAX_ITEMS_PER_CATEGORY = 200
 MAX_STRING_LEN = 120
 MAX_TEXT_READ_BYTES = 64 * 1024
 MAX_JSON_BYTES = 1 << 20
@@ -320,9 +322,12 @@ def extract_plugin(root: Path) -> dict:
     }
     components = {}
     for key in sorted(categories):
-        items = sorted(categories[key], key=lambda i: i["name"])[
-            :MAX_ITEMS_PER_CATEGORY
-        ]
+        items = sorted(categories[key], key=lambda i: i["name"])
+        if len(items) > MAX_ITEMS_PER_CATEGORY:
+            raise RuntimeError(
+                f"{root}: {key} has {len(items)} items, "
+                f"above the {MAX_ITEMS_PER_CATEGORY} item cap"
+            )
         if items:
             components[key] = items
 
