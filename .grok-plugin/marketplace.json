@@ -6,6 +6,21 @@
   },
   "plugins": [
     {
+      "name": "firedrill",
+      "description": "Firedrill is a free simulation platform for AI agents. Coding agents can prepare scenarios, manage synthetic dependencies, and inspect saved evidence on the user's behalf through remote MCP. Actual agent execution uses a separately authorized customer-owned runner.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/firedrill-tools/firedrill-plugin.git",
+        "sha": "90ebadd8353b2edf58003993b15ef2c49e053792"
+      },
+      "homepage": "https://firedrill.run/agents",
+      "keywords": ["firedrill", "firedrill simulations", "firedrill reports"],
+      "domains": ["firedrill.run", "mcp.firedrill.run", "docs.firedrill.run"],
+      "version": "1.0.0",
+      "author": { "name": "Firedrill" }
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
