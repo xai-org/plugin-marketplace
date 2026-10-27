@@ -546,6 +546,36 @@
         ]
       }
     },
+    "mobbin": {
+      "sha": "1eda2331cecc3f0e55a9c82ae375a8313652d01e",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mobbin",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "best-practices",
+            "description": "Tells your agent what Mobbin can and can't do and how the Mobbin skills work together, so it picks the right one or say…"
+          },
+          {
+            "name": "plain-writing",
+            "description": "Makes every report a Mobbin skill writes read like a person wrote it, in plain interface terms. Use only when a Mobbin…"
+          },
+          {
+            "name": "redesign-screen",
+            "description": "Redesign any screen from patterns real apps ship. Share a screenshot, your code or a design file, and the skill finds h…"
+          },
+          {
+            "name": "search",
+            "description": "Gets better results from every Mobbin search, so the references match what you're working on. Use before every call to…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",

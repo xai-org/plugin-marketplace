@@ -473,6 +473,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mobbin",
+      "description": "Give your AI agent 600,000+ real app screens, and the skills to use them. Includes the Mobbin MCP and a skill that redesigns your screen from patterns real apps ship, in your own design system, with the references behind every change.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mobbin/skills.git",
+        "sha": "1eda2331cecc3f0e55a9c82ae375a8313652d01e"
+      },
+      "homepage": "https://docs.mobbin.com/mcp/introduction",
+      "keywords": ["mobbin", "mobbin mcp", "mobbin design", "mobbin ui", "mobbin ux", "mobbin screens", "mobbin redesign"],
+      "domains": ["mobbin.com", "api.mobbin.com", "docs.mobbin.com"],
+      "author": {
+        "name": "Mobbin",
+        "email": "support@mobbin.com",
+        "url": "https://mobbin.com"
+      }
     }
   ]
 }
