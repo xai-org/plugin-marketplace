@@ -808,6 +808,36 @@
         ]
       }
     },
+    "pingroom-cli": {
+      "sha": "ea64a8d3eee796aaf40ffdbd6ec9bd38caf0fe6d",
+      "version": "1.3.0",
+      "components": {
+        "skills": [
+          {
+            "name": "pingroom-cli",
+            "description": "Use the `pingroom` CLI to reach humans from terminals, scripts, CI, and Claude Code hooks — send pings with file attach…"
+          }
+        ]
+      }
+    },
+    "pingroom-mcp": {
+      "sha": "ea64a8d3eee796aaf40ffdbd6ec9bd38caf0fe6d",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pingroom",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pingroom-mcp",
+            "description": "Reach a human through PingRoom — the event platform whose MCP connector this session has. Use this skill whenever the t…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "519d36aa98955bf680db01bcde5fdfba686dc901",
       "version": "0.15.34",
