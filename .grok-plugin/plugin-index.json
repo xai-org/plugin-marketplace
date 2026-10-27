@@ -642,6 +642,17 @@
         ]
       }
     },
+    "multi-ai-local-memory": {
+      "sha": "4049f5a6902820a2bf58b484761b6305b44884e1",
+      "components": {
+        "skills": [
+          {
+            "name": "multi-ai-local-memory",
+            "description": "Connect supported AI models, agents, and clients to one user-owned local shared memory through Multi-AI Local Memory. D…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

@@ -473,6 +473,22 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "multi-ai-local-memory",
+      "description": "Share one user-owned local memory across supported AI models, agents, clients, and local memory software.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/a7904282000/multi-ai-local-memory-grok-plugin.git",
+        "sha": "4049f5a6902820a2bf58b484761b6305b44884e1"
+      },
+      "homepage": "https://github.com/a7904282000/multi-ai-local-memory",
+      "keywords": [
+        "multi-ai local memory",
+        "multi-ai-local-memory"
+      ],
+      "version": "1.0.0-beta.1"
     }
   ]
 }
