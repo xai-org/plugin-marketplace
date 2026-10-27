@@ -512,6 +512,29 @@
         ]
       }
     },
+    "foster-skills": {
+      "sha": "7bcf6cc0a96fb99cb90649cc604e34fdad9d5c82",
+      "components": {
+        "skills": [
+          {
+            "name": "foster-draft-review",
+            "description": "Review an essay or personal-writing draft with a structure-first HTML map of its through-line, paragraph jobs, and revi…"
+          },
+          {
+            "name": "foster-fuzz",
+            "description": "Fuzz-test the app, project or site at hand by driving its real UI like a crowd of realistic users. Maps every screen, f…"
+          },
+          {
+            "name": "foster-project-checkin",
+            "description": "Brief Greg on an AI-run project as an IC engineer briefing a director of engineering. Gathers recent activity (git, PRs…"
+          },
+          {
+            "name": "foster-research-paper",
+            "description": "Pipeline from a research question to a published post on the personal research site (github.com/gregorymfoster/research…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

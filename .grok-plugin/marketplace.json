@@ -473,6 +473,29 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "foster-skills",
+      "description": "Personal agent skills from Greg Foster: research posts with cited sources, structure-first draft reviews, five-minute project check-in decks, and fuzz testing apps through their real UI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gregorymfoster/foster-skills.git",
+        "sha": "7bcf6cc0a96fb99cb90649cc604e34fdad9d5c82"
+      },
+      "homepage": "https://github.com/gregorymfoster/foster-skills",
+      "keywords": [
+        "foster-skills",
+        "foster-fuzz",
+        "foster-project-checkin",
+        "foster-draft-review",
+        "foster-research-paper"
+      ],
+      "version": "2.3.1",
+      "author": {
+        "name": "Greg Foster",
+        "url": "https://github.com/gregorymfoster"
+      }
     }
   ]
 }
