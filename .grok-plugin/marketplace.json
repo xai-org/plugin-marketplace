@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "zenrows",
+      "description": "Live web data for Grok: fetch any public page as markdown, pull structured fields from it, run batch jobs over many URLs, crawl a site from one start page, and drive a hosted browser for pages that need clicks, logins or pagination. Sign in with your Zenrows account over OAuth on first connection; no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ZenRows/grok-zenrows.git",
+        "sha": "ac8e033a2a87f0664f57009c25d98742cf209aab"
+      },
+      "homepage": "https://www.zenrows.com",
+      "keywords": ["zenrows", "zen rows", "zenrows scraper"],
+      "domains": ["zenrows.com", "app.zenrows.com", "docs.zenrows.com"]
     }
   ]
 }

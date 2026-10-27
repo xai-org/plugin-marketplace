@@ -1805,6 +1805,56 @@
           }
         ]
       }
+    },
+    "zenrows": {
+      "sha": "ac8e033a2a87f0664f57009c25d98742cf209aab",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zenrows",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zenrows",
+            "description": "Overview of the Zenrows tools for live web data. Use when a task needs the current content of a URL, specific fields fr…"
+          },
+          {
+            "name": "zenrows-batch",
+            "description": "Fetch a list of URLs the user already has as one managed Zenrows job, with retries and per-task results. Use when the u…"
+          },
+          {
+            "name": "zenrows-browser",
+            "description": "Drive a page through steps before its content is available: clicking, filling forms, logging in, paginating, or multi-s…"
+          },
+          {
+            "name": "zenrows-capture-api-calls",
+            "description": "Discover the background API or XHR endpoints a page calls, or reverse-engineer how it loads its data. Use when the user…"
+          },
+          {
+            "name": "zenrows-crawl",
+            "description": "Collect the URLs, and optionally the pages, behind one start URL by following its links, for example \"every product in…"
+          },
+          {
+            "name": "zenrows-extract",
+            "description": "Pull specific data fields from one page rather than its full content: prices, product attributes, article fields, or ta…"
+          },
+          {
+            "name": "zenrows-getting-started",
+            "description": "First-run setup and troubleshooting for the Zenrows plugin in Grok Build. Use when the plugin was just installed, a Zen…"
+          },
+          {
+            "name": "zenrows-map",
+            "description": "Discover the URLs that exist on a site without fetching page content, usually from its sitemap. Use when the user wants…"
+          },
+          {
+            "name": "zenrows-scrape",
+            "description": "Retrieve the content of one specific web page. Use when the user wants to read, fetch, summarize, or get what a single…"
+          }
+        ]
+      }
     }
   }
 }
