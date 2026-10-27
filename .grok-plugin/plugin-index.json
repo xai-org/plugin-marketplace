@@ -512,6 +512,18 @@
         ]
       }
     },
+    "forever-in-our-hearts": {
+      "sha": "9d711bb2519754039b926686a0b3957cefc375b6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "forever-in-our-hearts",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

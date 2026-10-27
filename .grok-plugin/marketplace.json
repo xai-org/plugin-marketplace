@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "forever-in-our-hearts",
+      "description": "Search public online memorials, funeral notices and partner funeral homes from Forever In Our Hearts, with links to each page. Read-only remote MCP server, no account or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Forever-In-Our-Hearts/memorials-mcp-server.git",
+        "sha": "9d711bb2519754039b926686a0b3957cefc375b6"
+      },
+      "homepage": "https://foreverinourhearts.co/mcp",
+      "keywords": ["forever in our hearts", "foreverinourhearts"],
+      "domains": ["foreverinourhearts.co", "foreverinourhearts.com.au"]
     }
   ]
 }
