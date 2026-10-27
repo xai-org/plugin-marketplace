@@ -342,6 +342,24 @@
         ]
       }
     },
+    "diffci": {
+      "sha": "6b9b669730fc5e19de548423e5fe1f5f31abdba3",
+      "version": "0.3.13",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "diffci",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "diffci-verify",
+            "description": "Select and verify affected tests after editing code in a local Git repository, using DiffCI MCP tools or the DiffCI CLI…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

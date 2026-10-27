@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "diffci",
+      "description": "DiffCI change-aware CI verification plugin. Inspect local Git changes, select affected tests conservatively, and run verification with a full fallback when evidence is incomplete.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DiffCI/core.git",
+        "sha": "6b9b669730fc5e19de548423e5fe1f5f31abdba3",
+        "path": "integrations/agent-plugin"
+      },
+      "homepage": "https://diffci.com/mcp-server",
+      "keywords": ["diffci", "diffci verification", "diffci affected tests"],
+      "domains": ["diffci.com"]
     }
   ]
 }
