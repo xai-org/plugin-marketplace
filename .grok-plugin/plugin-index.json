@@ -770,6 +770,18 @@
         ]
       }
     },
+    "paytm-travel": {
+      "sha": "c36fbfc21d0b95906ecf660331161a462b24271e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "paytm-travel",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

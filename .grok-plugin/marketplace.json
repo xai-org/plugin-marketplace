@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "paytm-travel",
+      "description": "Search and compare live Paytm flights and buses, then continue securely to Paytm to complete booking.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/paytmcheckin/paytm-travel-mcp.git",
+        "sha": "c36fbfc21d0b95906ecf660331161a462b24271e"
+      },
+      "homepage": "https://paytmcheckin.com/ai",
+      "keywords": ["paytm travel", "paytm flights", "paytm bus", "paytm checkin"],
+      "domains": ["travel.paytm.com", "paytmcheckin.com", "paytm.com"]
     }
   ]
 }
