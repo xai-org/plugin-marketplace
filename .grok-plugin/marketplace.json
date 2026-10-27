@@ -6,6 +6,20 @@
   },
   "plugins": [
     {
+      "name": "feedbackpulse",
+      "description": "Official FeedbackPulse plugin with a hosted MCP server and skills. Read employee survey results, eNPS, performance and peer review progress, recognition and employee data. Signs in with OAuth on first use, so no API key is needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FeedbackPulseApp/feedbackpulse-plugin.git",
+        "sha": "e91f4ce8837d70205feb778812b5cfd6114ea54c",
+        "path": "plugins/feedbackpulse"
+      },
+      "homepage": "https://feedbackpulse.com",
+      "keywords": ["feedbackpulse", "feedback pulse", "feedbackpulse enps", "feedbackpulse survey"],
+      "domains": ["feedbackpulse.com", "app.feedbackpulse.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
