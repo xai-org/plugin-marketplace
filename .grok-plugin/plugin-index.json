@@ -524,6 +524,24 @@
         ]
       }
     },
+    "heyyumi": {
+      "sha": "d3c43ff40ce5d7a3c80595fab43ab7d5845efea5",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "find-restaurant",
+            "description": "Find (and optionally book) a Korean restaurant, cafe, or bar with HeyYumi — real, cross-verified venues with in-chat re…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "heyyumi",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",
