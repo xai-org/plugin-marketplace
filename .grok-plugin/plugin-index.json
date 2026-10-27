@@ -546,6 +546,18 @@
         ]
       }
     },
+    "mcp-server-for-wordpress": {
+      "sha": "a10077e2d283aadf3a0829f14a42206639c7082c",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wordpress",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
