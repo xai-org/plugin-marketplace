@@ -54,6 +54,9 @@ INDEX_PATH = Path(".grok-plugin/plugin-index.json")
 INDEX_SCRIPT = Path("scripts/generate-plugin-index.py")
 SHA_RE = plugin_catalog.SHA_RE
 ALLOWED_HOSTS = {"github.com", "gitlab.com", "bitbucket.org"}
+# generate-plugin-index fetches every pin. Each git call is already bounded;
+# this only caps the outer process so one regen cannot outlive the CI job.
+INDEX_REGEN_TIMEOUT_S = 30 * 60
 
 
 def run(
@@ -63,18 +66,24 @@ def run(
     check: bool = True,
     capture: bool = True,
     env: dict[str, str] | None = None,
+    timeout: float = plugin_catalog.GIT_COMMAND_TIMEOUT_S,
 ) -> subprocess.CompletedProcess[str]:
     merged = os.environ.copy()
     if env:
         merged.update(env)
-    result = subprocess.run(
-        cmd,
-        cwd=cwd or REPO_ROOT,
-        check=False,
-        capture_output=capture,
-        text=True,
-        env=merged,
-    )
+    merged["GIT_TERMINAL_PROMPT"] = "0"
+    try:
+        result = subprocess.run(
+            cmd,
+            cwd=cwd or REPO_ROOT,
+            check=False,
+            capture_output=capture,
+            text=True,
+            env=merged,
+            timeout=timeout,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError(f"`{' '.join(cmd)}` timed out after {timeout:g}s") from exc
     if check and result.returncode != 0:
         stderr = (result.stderr or "").strip()
         stdout = (result.stdout or "").strip()
@@ -192,6 +201,7 @@ def regenerate_index() -> None:
         check=True,
         capture=False,
         env=env,
+        timeout=INDEX_REGEN_TIMEOUT_S,
     )
 
 

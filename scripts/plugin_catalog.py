@@ -15,12 +15,17 @@ Used by generate-plugin-index.py (full catalog) and bump-plugin-shas.py
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
 import time
 from pathlib import Path
 
 MAX_ITEMS_PER_CATEGORY = 50
+# A stalled remote must fail this process. Without a bound, validate CI
+# waited until GitHub's 6-hour job limit. GIT_TERMINAL_PROMPT=0 makes git
+# exit instead of waiting on a username prompt.
+GIT_COMMAND_TIMEOUT_S = 120
 MAX_STRING_LEN = 120
 MAX_TEXT_READ_BYTES = 64 * 1024
 MAX_JSON_BYTES = 1 << 20
@@ -334,7 +339,21 @@ def extract_plugin(root: Path) -> dict:
 
 
 def run_git(cmd: list[str], url: str, sha: str) -> None:
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    env = os.environ.copy()
+    env["GIT_TERMINAL_PROMPT"] = "0"
+    try:
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            env=env,
+            timeout=GIT_COMMAND_TIMEOUT_S,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError(
+            f"timed out after {GIT_COMMAND_TIMEOUT_S}s fetching {url} at {sha}: "
+            f"`{' '.join(cmd)}`"
+        ) from exc
     if result.returncode != 0:
         raise RuntimeError(
             f"failed to fetch {url} at {sha}: `{' '.join(cmd)}` exited "
