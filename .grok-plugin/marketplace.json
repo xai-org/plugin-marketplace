@@ -473,6 +473,31 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "loomaly",
+      "description": "One MCP for all of your SEO: rankings, AI search, fixes and reports. Your coding agent gets the top issue with evidence and fix steps, changes the repo, and Loomaly re-checks the live page after deploy. Loomaly never changes the site itself.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/loomaly/loomaly.git",
+        "sha": "afc7affba517f8e1a77c2a08163760aa0e8e9ea1",
+        "path": "loomaly"
+      },
+      "homepage": "https://loomaly.com",
+      "keywords": [
+        "loomaly",
+        "loomaly seo",
+        "loomaly mcp",
+        "loomaly site audit",
+        "loomaly aeo",
+        "loomaly technical seo",
+        "loomaly ai seo"
+      ],
+      "domains": [
+        "loomaly.com",
+        "docs.loomaly.com"
+      ]
     }
   ]
 }
