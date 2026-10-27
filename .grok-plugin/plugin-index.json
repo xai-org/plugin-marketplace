@@ -85,18 +85,6 @@
         ]
       }
     },
-    "bruin": {
-      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
-      "version": "1.1.0",
-      "components": {
-        "skills": [
-          {
-            "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
-          }
-        ]
-      }
-    },
     "calcom": {
       "version": "1.0.0",
       "components": {
@@ -115,8 +103,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
-      "version": "1.11.0",
+      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
+      "version": "1.12.0",
       "components": {
         "mcpServers": [
           {
@@ -577,8 +565,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
-      "version": "0.0.195",
+      "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
+      "version": "0.0.196",
       "components": {
         "skills": [
           {
@@ -839,8 +827,8 @@
       }
     },
     "pstack": {
-      "sha": "88d47514b82e7c44f00f2b2a72ff6dd12158038c",
-      "version": "0.15.29",
+      "sha": "99b609a72323b70204eab407c622f436e858e112",
+      "version": "0.15.32",
       "components": {
         "agents": [
           {
@@ -908,6 +896,10 @@
           {
             "name": "ketchup",
             "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
+          },
+          {
+            "name": "ketchup-video",
+            "description": "Catch the user up like /ketchup, with a short silent video of slides for what happened and the waiting calls as text un…"
           },
           {
             "name": "maintain-formal-verification-skill",
@@ -1048,10 +1040,6 @@
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
-          },
-          {
-            "name": "swarm",
-            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
           }
         ]
       }
@@ -1093,8 +1081,8 @@
       }
     },
     "sentry": {
-      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
-      "version": "1.4.5",
+      "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
+      "version": "1.4.6",
       "components": {
         "mcpServers": [
           {
@@ -1157,8 +1145,8 @@
       }
     },
     "stripe": {
-      "sha": "579b067ffb461b82afc845c47b17fc8e8910488c",
-      "version": "0.9.24",
+      "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
+      "version": "0.9.30",
       "components": {
         "agents": [
           {
@@ -1249,8 +1237,8 @@
       }
     },
     "superpowers": {
-      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
-      "version": "7.0.0",
+      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "version": "7.0.1",
       "components": {
         "hooks": [
           {
@@ -1759,8 +1747,8 @@
       }
     },
     "wix": {
-      "sha": "d6320a21a2fc05333a7a894282207aec6aabfb06",
-      "version": "1.32.0",
+      "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9",
+      "version": "1.36.0",
       "components": {
         "mcpServers": [
           {
@@ -1769,10 +1757,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
-          },
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
@@ -1790,8 +1774,16 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
+            "name": "wix-export",
+            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+          },
+          {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
+          },
+          {
             "name": "wix-headless",
-            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+            "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
           {
             "name": "wix-headless-cold-start",
@@ -1802,16 +1794,32 @@
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
           },
           {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
+          },
+          {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
           },
           {
+            "name": "wix-import",
+            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
+          },
+          {
             "name": "wix-manage",
-            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, donations, payments, CMS, and…"
+          },
+          {
+            "name": "wix-readme",
+            "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
+          },
+          {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
           },
           {
             "name": "wix-vibe-headless",
-            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+            "description": "Connect an existing front end to a live Wix site using client-only REST and its public WIX_CLIENT_ID, without an SDK or…"
           }
         ]
       }
