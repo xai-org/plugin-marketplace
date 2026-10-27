@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ncstatutes": {
+      "type": "http",
+      "url": "https://mcp.ncstatutes.com/mcp"
+    }
+  }
+}

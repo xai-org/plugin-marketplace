@@ -135,6 +135,18 @@
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
+      "name": "ncstatutes",
+      "description": "North Carolina General Statutes via the hosted ncstatutes.com MCP server (MCP server + skill). Search the statute book by topic, read any section by citation, trace amendment history back to the 1800s, diff versions, see enacted-but-not-yet-effective changes, and follow cross-references. Free and read-only; no account or API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ncstatutes"
+      },
+      "homepage": "https://ncstatutes.com",
+      "keywords": ["ncstatutes", "nc statutes", "north carolina general statutes", "n.c.g.s.", "ncgs"],
+      "domains": ["ncstatutes.com", "mcp.ncstatutes.com"]
+    },
+    {
       "name": "wix",
       "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
       "category": "development",
