@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "goalcraft",
+      "description": "Goalcraft: your long goals as funnels on a live dashboard, with your AI agents working each stage. Create funnels, report progress after each run, add results, and ask the person for a decision through Goalcraft's hosted MCP server. Connects over HTTP and signs in with OAuth in the browser; nothing to install, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/oponfil/goalcraft.git",
+        "sha": "a504b3c01c05dcc043f5c4deb514901fd290bf57",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://goalcraft.ai",
+      "keywords": ["goalcraft", "goalcraft funnel", "goalcraft dashboard"],
+      "domains": ["goalcraft.ai"]
     }
   ]
 }
