@@ -473,6 +473,34 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "evaboot",
+      "description": "Evaboot turns LinkedIn Sales Navigator into a clean lead list (hosted MCP server + skills). Describe your audience in plain language to build the Sales Navigator search, export its leads and accounts, find and verify professional emails, and push results to your CRM. Set up a weekly pipeline that exports only new leads and feeds them to your outreach campaign. Sign in with your Evaboot account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/evaboot-labs/evaboot-plugin.git",
+        "sha": "37bb0d5944ab744235a67e62213eb2b70ccc5604"
+      },
+      "homepage": "https://evaboot.com/mcp",
+      "keywords": [
+        "evaboot",
+        "evaboot sales navigator",
+        "evaboot leads",
+        "evaboot email finder"
+      ],
+      "domains": [
+        "evaboot.com",
+        "dash.evaboot.com",
+        "mcp.evaboot.com"
+      ],
+      "version": "1.2.0",
+      "author": {
+        "name": "Evaboot",
+        "email": "support@evaboot.com",
+        "url": "https://evaboot.com"
+      }
     }
   ]
 }

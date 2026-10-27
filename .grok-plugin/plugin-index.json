@@ -342,6 +342,40 @@
         ]
       }
     },
+    "evaboot": {
+      "sha": "37bb0d5944ab744235a67e62213eb2b70ccc5604",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "evaboot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-pipeline",
+            "description": "Use when the user wants a lead generation system that keeps running - Sales Navigator saved searches with intent filter…"
+          },
+          {
+            "name": "define-icp-and-value-prop",
+            "description": "Use when the user wants to define who they sell to and what they offer, or to create or replace the Evaboot ICP and val…"
+          },
+          {
+            "name": "intent-detection",
+            "description": "Use when the user wants the last week of Sales Navigator alerts or intents for their leads and accounts."
+          },
+          {
+            "name": "qualify-leads",
+            "description": "Use when the user wants leads judged against their Evaboot ICP, including an export that just finished."
+          },
+          {
+            "name": "write-outreach-messages",
+            "description": "Use when the user wants a first LinkedIn message for a named person, from a profile or from an intent."
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
