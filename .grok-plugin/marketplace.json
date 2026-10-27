@@ -473,6 +473,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "iris-chat",
+      "description": "Use the Iris CLI to create a separate messaging identity, exchange private messages, and listen and reply without an email or phone signup.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/irislib/iris-chat-rs.git",
+        "sha": "43a1066894f1948adb3febc1e3a91a31ccccef14",
+        "path": "plugins/iris-chat"
+      },
+      "homepage": "https://irischat.org/",
+      "keywords": [
+        "iris-chat",
+        "iris chat",
+        "iris messaging"
+      ],
+      "domains": [
+        "irischat.org",
+        "chat.iris.to"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Sirius Business Ltd",
+        "url": "https://irischat.org/"
+      }
     }
   ]
 }
