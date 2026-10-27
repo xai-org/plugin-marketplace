@@ -1126,6 +1126,32 @@
         ]
       }
     },
+    "snapbooks": {
+      "sha": "5187c41b965b87c604d9d0a778b5c1684408e334",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "snapbooks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "month-end-check",
+            "description": "Use when the user wants to close a month or VAT period in Snapbooks, asks what is left before the VAT return, or wants…"
+          },
+          {
+            "name": "snapbooks-bookkeeping",
+            "description": "Use when the user asks anything about their bookkeeping in Snapbooks — looking up journal entries, documents, bank tran…"
+          },
+          {
+            "name": "supplier-invoice-review",
+            "description": "Use when the user asks to review, check or explain supplier invoices or receipts in Snapbooks — what they are, whether…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
       "version": "0.9.31",
