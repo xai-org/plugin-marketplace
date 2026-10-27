@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "openstory",
+      "description": "OpenStory turns a script into an entire film, episode, or micro-drama, generates single images and video clips, and mints a library style from references. Sign in with OAuth to the hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/openstory-so/skills.git",
+        "sha": "06c8588fdce9d59a4ece55c0726c708a5609ed1a"
+      },
+      "homepage": "https://openstory.so",
+      "keywords": [
+        "openstory",
+        "openstory sequence",
+        "openstory style"
+      ],
+      "domains": [
+        "openstory.so"
+      ]
     }
   ]
 }
