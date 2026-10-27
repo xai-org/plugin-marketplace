@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e"
+        "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
+        "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
+        "sha": "99b609a72323b70204eab407c622f436e858e112",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -334,19 +334,6 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
-      "name": "bruin",
-      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
-      },
-      "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
-      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
-    },
-    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
@@ -365,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809"
+        "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]

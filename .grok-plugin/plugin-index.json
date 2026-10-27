@@ -85,18 +85,6 @@
         ]
       }
     },
-    "bruin": {
-      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
-      "version": "1.1.0",
-      "components": {
-        "skills": [
-          {
-            "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
-          }
-        ]
-      }
-    },
     "calcom": {
       "version": "1.0.0",
       "components": {
@@ -559,8 +547,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
-      "version": "0.0.195",
+      "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
+      "version": "0.0.196",
       "components": {
         "skills": [
           {
@@ -839,8 +827,8 @@
       }
     },
     "pstack": {
-      "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
-      "version": "0.15.30",
+      "sha": "99b609a72323b70204eab407c622f436e858e112",
+      "version": "0.15.32",
       "components": {
         "agents": [
           {
@@ -908,6 +896,10 @@
           {
             "name": "ketchup",
             "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
+          },
+          {
+            "name": "ketchup-video",
+            "description": "Catch the user up like /ketchup, with a short silent video of slides for what happened and the waiting calls as text un…"
           },
           {
             "name": "maintain-formal-verification-skill",
@@ -1048,10 +1040,6 @@
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
-          },
-          {
-            "name": "statechart",
-            "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
           }
         ]
       }
@@ -1157,8 +1145,8 @@
       }
     },
     "stripe": {
-      "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
-      "version": "0.9.27",
+      "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
+      "version": "0.9.30",
       "components": {
         "agents": [
           {
@@ -1759,8 +1747,8 @@
       }
     },
     "wix": {
-      "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
-      "version": "1.33.1",
+      "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9",
+      "version": "1.36.0",
       "components": {
         "mcpServers": [
           {
@@ -1769,10 +1757,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
-          },
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
@@ -1794,8 +1778,12 @@
             "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
           },
           {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
+          },
+          {
             "name": "wix-headless",
-            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+            "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
           {
             "name": "wix-headless-cold-start",
@@ -1804,6 +1792,10 @@
           {
             "name": "wix-headless-kit",
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
           },
           {
             "name": "wix-headless-templates",
@@ -1815,11 +1807,19 @@
           },
           {
             "name": "wix-manage",
-            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, donations, payments, CMS, and…"
+          },
+          {
+            "name": "wix-readme",
+            "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
+          },
+          {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
           },
           {
             "name": "wix-vibe-headless",
-            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+            "description": "Connect an existing front end to a live Wix site using client-only REST and its public WIX_CLIENT_ID, without an SDK or…"
           }
         ]
       }
