@@ -1108,6 +1108,18 @@
         ]
       }
     },
+    "showdoclive": {
+      "sha": "dd855dbcfce79ff78df621074344ff01f611a122",
+      "version": "1.8.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "showdoclive",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

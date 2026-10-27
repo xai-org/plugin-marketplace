@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "showdoclive",
+      "description": "Live production playbooks (ShowDocs) for technical crew: sections, files, run of show, schedules, AV signal-flow diagrams built from real equipment ports (wireless shown as dotted RF links), address book and crew share links. Live show control is rehearsal-only. Hosted MCP server at mcp.showdoclive.com; sign in with a ShowDocLive Pro or Team account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ShowDocLive/showdoclive-plugin.git",
+        "sha": "dd855dbcfce79ff78df621074344ff01f611a122"
+      },
+      "homepage": "https://showdoclive.com",
+      "keywords": ["showdoclive", "showdoclive mcp", "showdoc"],
+      "domains": ["showdoclive.com", "mcp.showdoclive.com"]
     }
   ]
 }
