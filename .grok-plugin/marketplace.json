@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "empir3",
+      "description": "Empir3 Bridge connects Grok to a local Chrome browser, Windows desktop controls, browser recording and replay, and the user’s authenticated AI CLIs through MCP, with read-only defaults and local capability switches.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/empir3hq/empir3-bridge.git",
+        "sha": "a840b26b69d61543c08a8c5d84285a1c5514c1e6",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://github.com/empir3hq/empir3-bridge",
+      "keywords": [
+        "empir3",
+        "empir3 bridge",
+        "empir3 browser"
+      ],
+      "domains": [
+        "empir3.com",
+        "app.empir3.com"
+      ]
     }
   ]
 }
