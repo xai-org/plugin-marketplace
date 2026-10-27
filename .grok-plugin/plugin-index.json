@@ -546,6 +546,28 @@
         ]
       }
     },
+    "kinocut": {
+      "sha": "d5c29523948d1c10079bc371876ddd9d01571b49",
+      "version": "1.16.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kinocut",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kinocut",
+            "description": "Use when an agent must edit local video safely. Kinocut guards planning, FFmpeg operations, subtitles, audio, analysis,…"
+          },
+          {
+            "name": "kinocut-repurpose",
+            "description": "Use when turning one local video into a platform-ready short. Kinocut builds clip packages with manifests, review artif…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
