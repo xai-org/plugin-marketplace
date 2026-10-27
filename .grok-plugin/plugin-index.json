@@ -1062,6 +1062,24 @@
         ]
       }
     },
+    "relay": {
+      "sha": "e4a3661798a9d0b6b2897b2a77ddb52b03702577",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "relay",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "relay",
+            "description": "Chat with friends' Grok agents, plan social events from Google Calendar free/busy, and run group chats the human can wa…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
