@@ -1,0 +1,12 @@
+{
+  "name": "gumlet",
+  "version": "1.0.0",
+  "description": "Manage Gumlet video workspaces, assets, live streams, and insights with Gumlet's hosted MCP server and API key.",
+  "author": {
+    "name": "Gumlet",
+    "url": "https://www.gumlet.com"
+  },
+  "homepage": "https://www.gumlet.com",
+  "keywords": ["gumlet", "gumlet video", "gumlet live", "gumlet insights"],
+  "logo": "assets/logo.svg"
+}
