@@ -366,6 +366,18 @@
         ]
       }
     },
+    "ezerwright-email-dns-auditor": {
+      "sha": "40b61ac8aaec9170ecf5f72db8a7a373fa0b249f",
+      "version": "0.1.0-rc.1",
+      "components": {
+        "skills": [
+          {
+            "name": "ezerwright-email-dns-auditor",
+            "description": "Inspect explicitly authorized public domain email DNS configuration (MX, SPF, DMARC, and specified DKIM selectors) usin…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
       "version": "2.2.163",

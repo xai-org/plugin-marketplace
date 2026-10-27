@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ezerwright-email-dns-auditor",
+      "description": "Read-only, owner-authorized analysis of public MX, SPF, DMARC and specified DKIM DNS records, with conservative findings and configuration guidance.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ezerwright/ezerwright-email-dns-auditor.git",
+        "sha": "40b61ac8aaec9170ecf5f72db8a7a373fa0b249f"
+      },
+      "homepage": "https://github.com/ezerwright/ezerwright-email-dns-auditor",
+      "keywords": [
+        "ezerwright",
+        "ezerwright email dns auditor",
+        "ezerwright email authentication"
+      ],
+      "domains": [
+        "ezerwright.com"
+      ]
     }
   ]
 }
