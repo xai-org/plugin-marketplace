@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "ausca": {
+      "sha": "02d3429c358259810ca884adbf7a7af5012987c4",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ausca",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ausca-service-selection",
+            "description": "Find an Ausca service, inspect its binding terms, and distinguish discovery, paid invocation and verified results."
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
       "version": "1.1.2",
