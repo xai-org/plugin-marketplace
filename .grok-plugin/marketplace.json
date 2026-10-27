@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "wever-labs",
+      "description": "Wever Labs tools for agent work, delegated authority, commerce, receipts, verification, handoffs, and operations.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CodeWever/wever-labs-mcp-registry.git",
+        "sha": "932c7e12c9bc6a6733d14ec1407109f11e5eab7b"
+      },
+      "homepage": "https://weverlabs.com",
+      "keywords": ["wever", "wever labs", "wever labs mcp"],
+      "domains": ["weverlabs.com"]
     }
   ]
 }

@@ -1728,6 +1728,17 @@
         ]
       }
     },
+    "wever-labs": {
+      "sha": "932c7e12c9bc6a6733d14ec1407109f11e5eab7b",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "io.github.CodeWever/wever-labs-products",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9",
       "version": "1.36.0",
