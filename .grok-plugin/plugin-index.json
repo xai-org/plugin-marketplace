@@ -1108,6 +1108,24 @@
         ]
       }
     },
+    "shuffll-engage": {
+      "sha": "7e90f5cc9840b88069cdf1b08370e4fef5dddef5",
+      "version": "0.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shuffll-engage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shuffll-engage",
+            "description": "Use when working with Shuffll Engage video campaigns, published templates, creative journeys, previews, recipient segme…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
