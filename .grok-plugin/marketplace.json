@@ -473,6 +473,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "tachyon",
+      "description": "Read-only view of this Windows PC's NVIDIA GPU through Tachyon's local MCP server: why work is slow, VRAM forecast, crash flight recorder and render job history. Needs Tachyon 1.0.1+ on Windows; no network access.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/formray/tachyon-plugin.git",
+        "sha": "c4a2549379f4d82088397a98924c3fcf875576f0"
+      },
+      "homepage": "https://github.com/formray/tachyon",
+      "keywords": [
+        "tachyon",
+        "tachyon gpu",
+        "tachyon mcp",
+        "formray tachyon"
+      ],
+      "version": "1.0.1",
+      "author": {
+        "name": "Formray",
+        "url": "https://github.com/formray"
+      }
     }
   ]
 }

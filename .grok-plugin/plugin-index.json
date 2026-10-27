@@ -1292,6 +1292,24 @@
         ]
       }
     },
+    "tachyon": {
+      "sha": "c4a2549379f4d82088397a98924c3fcf875576f0",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tachyon",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tachyon-gpu",
+            "description": "Reads the local NVIDIA GPU through Tachyon's read-only MCP server and explains it - why a render, game or model is slow…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
