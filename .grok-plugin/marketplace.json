@@ -449,6 +449,24 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "affixio-tool-gate",
+      "description": "Local-first MCP policy gate for sensitive agent tool calls. Evaluate an explicit tool allowlist, amount cap, and blocked patterns before execution, then return a locally signed allow or deny decision with a SHA-256 argument digest rather than raw tool arguments.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AffixIO/affixio-mcp.git",
+        "sha": "027e361e614e4fbc1ef50baefd368235bd98bb2c"
+      },
+      "homepage": "https://github.com/AffixIO/affixio-mcp",
+      "keywords": ["affixio", "affixio tool gate", "affixio mcp"],
+      "domains": ["affix-io.com", "api.affix-io.com"],
+      "version": "0.1.0",
+      "author": {
+        "name": "AffixIO",
+        "url": "https://github.com/AffixIO"
+      }
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",
