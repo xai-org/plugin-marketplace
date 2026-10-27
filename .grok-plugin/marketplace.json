@@ -473,6 +473,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "leash",
+      "description": "Use connected accounts through Leash protections, with activity history and supported undo.",
+      "category": "security",
+      "version": "1.0.2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/open-leash/leash-plugin.git",
+        "sha": "2ea71e12b8f2ead10cc06e8da6b3f40e6198b5c5"
+      },
+      "homepage": "https://openleash.com",
+      "keywords": [
+        "privacy",
+        "security",
+        "personal-assistant",
+        "undo"
+      ],
+      "domains": [
+        "openleash.com",
+        "secure.openleash.com"
+      ]
     }
   ]
 }
