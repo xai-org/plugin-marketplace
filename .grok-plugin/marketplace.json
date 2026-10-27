@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "scripe",
+      "description": "Scripe for Grok: plan, write, schedule and measure your team's LinkedIn posts. Content calendars for every profile and company page, posts in each person's voice, scheduling and LinkedIn analytics, through Scripe's hosted MCP server (OAuth sign-in, no install).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Scripe-GmbH/scripe-agent.git",
+        "sha": "19af45ac128c1d9051fb60b52fe148e910dc772c"
+      },
+      "homepage": "https://scripe.io/integrations/mcp-api",
+      "keywords": [
+        "scripe",
+        "scripe linkedin",
+        "scripe content calendar",
+        "scripe posts"
+      ],
+      "domains": [
+        "scripe.io"
+      ]
     }
   ]
 }
