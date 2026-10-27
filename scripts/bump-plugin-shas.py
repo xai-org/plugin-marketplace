@@ -163,12 +163,14 @@ def open_pr_for_branch(branch: str) -> str | None:
     return url or None
 
 
-def replace_sha_in_catalog(name: str, old_sha: str, new_sha: str) -> None:
-    path = REPO_ROOT / CATALOG_PATH
+def replace_sha_in_catalog(
+    name: str, old_sha: str, new_sha: str, target_path: Path | None = None
+) -> None:
+    path = target_path or (REPO_ROOT / CATALOG_PATH)
     text = path.read_text(encoding="utf-8")
     name_json = json.dumps(name)
     pattern = re.compile(
-        rf'("name"\s*:\s*{re.escape(name_json)}[\s\S]*?"sha"\s*:\s*")'
+        rf'("name"\s*:\s*{re.escape(name_json)}(?:(?!["\']name["\']\s*:)[\s\S])*?"sha"\s*:\s*")'
         rf"{re.escape(old_sha)}"
         rf'(")',
         re.MULTILINE,
