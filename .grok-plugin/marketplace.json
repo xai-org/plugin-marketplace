@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "flixter",
+      "description": "Flixter AI film and series production studio. Connect with OAuth 2.1 to Flixter's hosted MCP to manage productions, cast, locations, props, costumes, episodes, scenes, and shots, and queue priced render batches for approval in Flixter's task manager.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/golan-adept/flixter-grok-plugin.git",
+        "sha": "90b897c6e1a2ca2f164950ad34fd8a751f823b48"
+      },
+      "homepage": "https://flixter.ai",
+      "keywords": ["flixter", "flixter mcp", "flixter studio"],
+      "domains": ["flixter.ai", "api.flixter.ai"]
     }
   ]
 }

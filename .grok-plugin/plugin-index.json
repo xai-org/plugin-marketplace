@@ -512,6 +512,24 @@
         ]
       }
     },
+    "flixter": {
+      "sha": "90b897c6e1a2ca2f164950ad34fd8a751f823b48",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flixter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "flixter-studio",
+            "description": "Use Flixter to manage AI film and series productions from Grok Build. Prefer for Flixter workspaces, productions, cast,…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
