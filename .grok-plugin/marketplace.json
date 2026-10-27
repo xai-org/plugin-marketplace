@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "contextflo",
+      "description": "Contextflo analytics integration (hosted MCP server + skill). Query BigQuery, Snowflake, Postgres, Redshift, Databricks and more with your team's table descriptions, saved queries and metrics, so answers match the numbers your team already agreed on. Sign in with your Contextflo account; no API key needed.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/contextflo/cursor-plugin.git",
+        "sha": "69eb6407321cda0bc899fe20d1cd77db49bf84c9",
+        "path": "plugins/contextflo"
+      },
+      "homepage": "https://contextflo.com",
+      "keywords": ["contextflo", "contextflo mcp", "contextflo analytics"],
+      "domains": ["contextflo.com", "mcp.contextflo.com"]
     }
   ]
 }
