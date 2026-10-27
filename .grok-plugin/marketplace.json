@@ -473,6 +473,31 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "nostr-vpn",
+      "description": "Use the nvpn CLI to inspect and join an authorized Nostr VPN private mesh without a VPN provider account.",
+      "category": "networking",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmalmi/nostr-vpn.git",
+        "sha": "ffc8a77d342dd8db5e680fef92921a9706adf9f8",
+        "path": "plugins/nostr-vpn"
+      },
+      "homepage": "https://nostrvpn.org/",
+      "keywords": [
+        "nostr-vpn",
+        "nostr vpn",
+        "nvpn"
+      ],
+      "domains": [
+        "nostrvpn.org"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Sirius Business Ltd",
+        "url": "https://nostrvpn.org/"
+      }
     }
   ]
 }

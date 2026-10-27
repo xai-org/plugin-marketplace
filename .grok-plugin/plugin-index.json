@@ -741,6 +741,18 @@
         ]
       }
     },
+    "nostr-vpn": {
+      "sha": "ffc8a77d342dd8db5e680fef92921a9706adf9f8",
+      "version": "0.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "nostr-vpn",
+            "description": "Connect an authorized machine to a Nostr VPN private mesh, review device join requests, and verify access with the nvpn…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
