@@ -1,0 +1,12 @@
+{
+  "name": "spacefast",
+  "version": "1.0.0",
+  "description": "Spacefast publishing for Grok Build via the hosted Spacefast MCP server at mcp.spacefast.com. Publish what you build to a live URL, update existing Spaces, check deployments and build logs, and connect custom domains. Sign in with your Spacefast account on first connect.",
+  "author": {
+    "name": "Spacefast by Automattic",
+    "url": "https://spacefast.com"
+  },
+  "homepage": "https://spacefast.com/docs/agents/mcp-server",
+  "license": "MIT",
+  "keywords": ["spacefast", "spacefast publish", "spacefast mcp", "publish to spacefast", "spacefast space"]
+}
