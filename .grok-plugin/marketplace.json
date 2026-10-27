@@ -473,6 +473,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mainmind",
+      "description": "Mainmind makes working across AI harnesses and projects simple. It keeps your knowledge, tools and credentials in one place, where they compound with every task, and your agents can message each other across harnesses. You sign in as yourself at mainmind.app; the plugin ships no keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/codeyogi911/mainmind-plugins.git",
+        "sha": "3b784cbb759cffc3a7ee1402b26044ee946b8d65",
+        "path": "plugins/mainmind-grok"
+      },
+      "homepage": "https://mainmind.app",
+      "keywords": [
+        "mainmind",
+        "mainmind space",
+        "mainmind agent"
+      ],
+      "domains": [
+        "mainmind.app"
+      ],
+      "author": {
+        "name": "Shashwat Jain",
+        "url": "https://mainmind.app"
+      }
     }
   ]
 }

@@ -546,6 +546,52 @@
         ]
       }
     },
+    "mainmind": {
+      "sha": "3b784cbb759cffc3a7ee1402b26044ee946b8d65",
+      "version": "0.22.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mainmind",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connections-and-secrets",
+            "description": "Connect a business account to a Mainmind space without pasting a secret. Load when someone wants to add, replace or ret…"
+          },
+          {
+            "name": "continue-everywhere",
+            "description": "Move an existing agent or bot from another app or folder into Mainmind, so the person can continue with it in any app.…"
+          },
+          {
+            "name": "continue-with-my-agent",
+            "description": "Continue with a Mainmind agent in this app, with its instructions, what it remembers and where it left off. Load when t…"
+          },
+          {
+            "name": "mainmind-start",
+            "description": "Start with Mainmind, and the working discipline for the Mainmind connection. Load BEFORE answering any question about w…"
+          },
+          {
+            "name": "make-an-agent",
+            "description": "Make a new standing agent that lives in Mainmind and that the person can continue with in any AI app. Load when the per…"
+          },
+          {
+            "name": "morning-brief",
+            "description": "Start-of-day digest over your Mainmind connection. Load when the owner or a teammate opens with \"what needs my attentio…"
+          },
+          {
+            "name": "sync",
+            "description": "Sync a Mainmind agent, so the person finds it the same in every app. One call sends what it learned, its tasks and wher…"
+          },
+          {
+            "name": "write-knowledge",
+            "description": "Write or change a page in a Mainmind space so a person and an AI can both follow it. Load this yourself, without being…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
