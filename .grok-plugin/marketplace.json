@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "flashdata",
+      "description": "Google web, news, image, shopping, video and places search, plus YouTube transcripts, captions, channel research, metadata, suggestions, license labels and asynchronous delivery to your own storage. Includes 15 task Skills and hosted MCP. Bring your own FlashData API key; data queries consume paid FlashData Credits.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rocosen/flashdata-mcp.git",
+        "sha": "3788c3d72693df5c2615aa4e27faa958d9da28e7",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://flashdata.dev/mcp?utm_source=grok-build&utm_medium=integration&utm_campaign=intent_gtm_2026q4&utm_content=combined",
+      "keywords": [
+        "flashdata",
+        "flashdata search",
+        "flashdata youtube"
+      ],
+      "domains": [
+        "flashdata.dev",
+        "data.flashdata.dev"
+      ]
     }
   ]
 }

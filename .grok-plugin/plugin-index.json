@@ -512,6 +512,80 @@
         ]
       }
     },
+    "flashdata": {
+      "sha": "3788c3d72693df5c2615aa4e27faa958d9da28e7",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flashdata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "google-images-flashdata",
+            "description": "Find Google Images results with image URLs, dimensions and original source pages. Build an attributable image research…"
+          },
+          {
+            "name": "google-news-flashdata",
+            "description": "Search Google News for articles, publishers, date labels and source links. Turn a topic into a traceable news briefing.…"
+          },
+          {
+            "name": "google-places-flashdata",
+            "description": "Search for local businesses and places with addresses, available ratings and review counts. Build location-specific res…"
+          },
+          {
+            "name": "google-search-flashdata",
+            "description": "Search Google for ranked web pages, titles, URLs and snippets. Build localized SERP snapshots for research and comparis…"
+          },
+          {
+            "name": "google-shopping-flashdata",
+            "description": "Search Google Shopping for products, merchants and price labels. Collect comparable offer snapshots with product IDs an…"
+          },
+          {
+            "name": "google-video-search-flashdata",
+            "description": "Search Google Videos across websites. Retrieve video titles, links, sources and available durations for a cross-site vi…"
+          },
+          {
+            "name": "youtube-autocomplete-flashdata",
+            "description": "Get YouTube search suggestions for a query prefix, language and region. Build keyword idea sheets from actual autocompl…"
+          },
+          {
+            "name": "youtube-captions-flashdata",
+            "description": "Retrieve YouTube uploader captions with timed segments. Prepare subtitle exports and inspect the language and caption-t…"
+          },
+          {
+            "name": "youtube-channel-flashdata",
+            "description": "Read a YouTube channel profile and recent videos by handle. Capture channel identifiers and a bounded recent-upload inv…"
+          },
+          {
+            "name": "youtube-cloud-storage-flashdata",
+            "description": "Deliver YouTube video, audio or clips to your own S3 or other supported cloud storage. Track asynchronous delivery and…"
+          },
+          {
+            "name": "youtube-extended-search-flashdata",
+            "description": "Search larger YouTube video result sets, with up to 700 requested results. Map recurring channels and topics from struc…"
+          },
+          {
+            "name": "youtube-metadata-flashdata",
+            "description": "Read YouTube video details, descriptions, statistics and available chapters. Inspect formats or prepare timestamped cha…"
+          },
+          {
+            "name": "youtube-search-flashdata",
+            "description": "Search YouTube videos by keyword with date, duration, feature and sorting filters. Return video IDs, channels and avail…"
+          },
+          {
+            "name": "youtube-trainability-flashdata",
+            "description": "Inspect a YouTube video’s Creative Commons license classification. Record the returned license-label signal for a separ…"
+          },
+          {
+            "name": "youtube-transcript-flashdata",
+            "description": "Retrieve available YouTube transcript text with start and end timestamps. Build cited summaries, searchable notes and t…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
