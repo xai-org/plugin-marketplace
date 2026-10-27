@@ -342,6 +342,24 @@
         ]
       }
     },
+    "deed-page": {
+      "sha": "ad901ca70fb76d079bd5989e15af50bd89d6a2cb",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deed-page",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deed-page",
+            "description": "Publish files to a permanent deed.page URL. No account."
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
