@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clutch": {
+      "type": "http",
+      "url": "https://bot.clutch.co/mcp"
+    }
+  }
+}

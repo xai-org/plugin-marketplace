@@ -1,0 +1,13 @@
+{
+  "name": "clutch",
+  "version": "1.0.3",
+  "description": "Official Clutch.co MCP server: trusted B2B service providers with verified client reviews. Find and compare agencies, consultants and vendors, read verified client reviews, browse fixed-price service packages, and message providers through the hosted Clutch MCP server at bot.clutch.co.",
+  "author": {
+    "name": "Clutch",
+    "url": "https://clutch.co"
+  },
+  "homepage": "https://clutch.co/about-mcp",
+  "license": "MIT",
+  "keywords": ["clutch", "clutch.co", "clutch reviews", "clutch providers", "clutch agencies"],
+  "logo": "assets/logo.svg"
+}
