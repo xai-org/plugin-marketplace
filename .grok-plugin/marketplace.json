@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "wavemaker",
+      "description": "Wavemaker creative studio. Generate and edit images, video, music, voice, sound effects, ads and HTML5 banners from Grok, and check them against YouTube, TikTok, Meta and Google Ads specs.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AdwaveInc/wavemaker-plugins.git",
+        "sha": "dc81e642f17dfe6d3222819fa8a937e920c2c110"
+      },
+      "homepage": "https://wavemaker.io",
+      "keywords": [
+        "wavemaker",
+        "wavemaker video",
+        "wavemaker banner",
+        "wavemaker ad"
+      ],
+      "domains": [
+        "wavemaker.io"
+      ]
     }
   ]
 }

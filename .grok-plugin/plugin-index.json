@@ -1736,6 +1736,24 @@
         ]
       }
     },
+    "wavemaker": {
+      "sha": "dc81e642f17dfe6d3222819fa8a937e920c2c110",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wavemaker",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wavemaker",
+            "description": "Create and edit images, video, music, voice and ads with Wavemaker, a complete creative studio for agents. Use this whe…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "975357e593b371336088e88b9d28712d42bbe068",
       "version": "1.36.1",
