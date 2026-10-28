@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "moose-tracker",
+      "description": "Moose Tracker gives your assistant a real synthesizer and music tracker, not an AI music generator. Your assistant writes notes in a compact text format and Moose Tracker's engine plays them: analog-style and FM synthesis, samples and drum kits, envelopes, filters and effects. It can design its own sounds and compose full songs, and a free, rule-based scorecard (key, sections, length, genre fit across 99 genres, harsh-tone warnings) checks a draft before rendering, so the assistant spends fewer tokens judging its own work. Get WAV sound effects for games and apps (original clicks, taps, toggles, notifications and haptic-friendly UI sounds), Ogg or WAV songs that play once or loop seamlessly, stems, or a browser link. No sign-in; we do not keep your song text.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moose-tracker/moose-tracker-plugin.git",
+        "sha": "f6991ea960f750693e26f6dfb2a4976aec93ce0b"
+      },
+      "homepage": "https://moosetracker.app/about.html",
+      "keywords": ["moose tracker", "moosetracker", "moose tracker synth", "moose tracker music tracker", "moose tracker chiptune"],
+      "domains": ["moosetracker.app", "mcp.moosetracker.app"]
     }
   ]
 }

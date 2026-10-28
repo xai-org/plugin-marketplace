@@ -650,6 +650,24 @@
         ]
       }
     },
+    "moose-tracker": {
+      "sha": "f6991ea960f750693e26f6dfb2a4976aec93ce0b",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "moose-tracker",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "moose-tracker",
+            "description": "Make game and app sound effects (UI clicks, taps, toggles, notifications, haptic-friendly sounds) and retro synth, chip…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
