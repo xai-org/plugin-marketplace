@@ -473,6 +473,29 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "uteamup",
+      "description": "Connect Grok Build to UteamUP CMMS for work orders, assets, maintenance, and inventory through role-controlled MCP access.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/UteamUP/uteamup-mcp.git",
+        "sha": "48cad677694d10260501613f2bd2a61d807fcd23"
+      },
+      "homepage": "https://uteamup.com",
+      "keywords": [
+        "uteamup",
+        "uteamup cmms",
+        "uteamup mcp",
+        "uteamup work orders",
+        "uteamup maintenance"
+      ],
+      "domains": [
+        "uteamup.com",
+        "app.uteamup.com",
+        "api.uteamup.com"
+      ]
     }
   ]
 }

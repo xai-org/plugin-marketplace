@@ -1524,6 +1524,18 @@
         ]
       }
     },
+    "uteamup": {
+      "sha": "48cad677694d10260501613f2bd2a61d807fcd23",
+      "version": "2.3.0-beta.9",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "uteamup",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
       "version": "0.54.1",
