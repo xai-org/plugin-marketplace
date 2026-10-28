@@ -110,6 +110,24 @@
         ]
       }
     },
+    "carbone": {
+      "sha": "6e8c805daf42f4583dee6e8f46271a9da8e85893",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "carbone",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "carbone",
+            "description": "Carbone templating: merge JSON data into a DOCX (Word), XLSX (Excel), PPTX (PowerPoint), ODT, ODS, HTML, Markdown or PD…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",

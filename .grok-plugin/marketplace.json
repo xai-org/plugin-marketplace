@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "carbone",
+      "description": "Carbone document generation. Design templates in Word, Excel, PowerPoint, HTML or Markdown with the Carbone skill, then generate PDF, DOCX, XLSX and PPTX documents from JSON data through the hosted Carbone MCP server (https://mcp.carbone.io, OAuth sign-in with a Carbone account).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/carboneio/carbone-agent-plugin.git",
+        "sha": "6e8c805daf42f4583dee6e8f46271a9da8e85893"
+      },
+      "homepage": "https://github.com/carboneio/carbone-agent-plugin",
+      "keywords": [
+        "carbone",
+        "carbone template",
+        "carbone render",
+        "carbone mcp"
+      ],
+      "domains": [
+        "carbone.io"
+      ]
     }
   ]
 }
