@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+        {
+      "name": "yield-xyz-agentkit",
+      "description": "Discover and execute on-chain yield across 4,000+ opportunities on 85+ networks, including staking, lending and RWAs. Fetch yields, balances and risk, and build, sign and submit transactions through the Yield.xyz API.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stakekit/agentkit.git",
+        "sha": "3aa4c9bba8e2b3ed60c3d83cf7db4979c111a305",
+        "path": "plugins/yield-xyz-agentkit"
+      },
+      "homepage": "https://github.com/stakekit/agentkit",
+      "keywords": ["yield.xyz", "yield xyz", "yield agentkit", "defi yield", "staking"],
+      "domains": ["yield.xyz", "docs.yield.xyz", "mcp.yield.xyz"]
     }
   ]
 }

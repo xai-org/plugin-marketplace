@@ -1805,6 +1805,24 @@
           }
         ]
       }
+    },
+    "yield-xyz-agentkit": {
+      "sha": "3aa4c9bba8e2b3ed60c3d83cf7db4979c111a305",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "yield-xyz-agentkit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "yield-xyz-agentkit",
+            "description": "Discover and act on 4,000+ DeFi yield opportunities via Yield.xyz AgentKit Skills, find yields, check APY enter/exit po…"
+          }
+        ]
+      }
     }
   }
 }
