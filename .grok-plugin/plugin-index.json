@@ -350,6 +350,24 @@
         ]
       }
     },
+    "docsy": {
+      "sha": "67eda44848868115024051e687b5a009b4383e05",
+      "version": "1.0.9",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "docsy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-docs",
+            "description": "Retrieve current, version-specific library and API documentation from Docsy before implementing or answering library-sp…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

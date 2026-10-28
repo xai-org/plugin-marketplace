@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "docsy",
+      "description": "Read-only, version-aware official SDK and framework documentation for coding agents, with publisher source links and OAuth 2.1 remote MCP access.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getremcp/docsy-plugin.git",
+        "sha": "67eda44848868115024051e687b5a009b4383e05"
+      },
+      "homepage": "https://docsy.remcp.site",
+      "keywords": [
+        "docsy",
+        "docsy mcp",
+        "docsy documentation"
+      ],
+      "domains": [
+        "docsy.remcp.site"
+      ],
+      "version": "1.0.9",
+      "author": "getremcp"
     }
   ]
 }
