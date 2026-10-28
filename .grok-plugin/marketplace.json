@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "grafana-cloud",
+      "description": "Official Grafana Cloud integration (hosted MCP Server + Skills). Query metrics, logs, traces and profiles, manage dashboards, alerts and incidents, and ask Grafana Assistant. OAuth sign-in, nothing to install.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/grafana/ai-marketplace.git",
+        "sha": "77a6f1a277c35d3205dc34abf78d85e49ca5ccf1",
+        "path": "plugins/grafana-cloud-mcp"
+      },
+      "homepage": "https://github.com/grafana/ai-marketplace/tree/main/plugins/grafana-cloud-mcp",
+      "keywords": ["grafana cloud", "grafana cloud mcp", "grafana assistant"],
+      "domains": ["grafana.net"]
     }
   ]
 }
