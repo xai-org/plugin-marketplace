@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "getmattered",
+      "description": "Find jobs matched to your resume, tailor each application, and apply on employers' own hiring sites across 34 hiring systems. Send automatically or review first, track employer confirmations, read and answer recruiter replies, follow up, save searches, and prepare for interviews. Connect your GetMattered account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getmattered/getmattered-mcp.git",
+        "sha": "00a33cfcf44090eee424fbb83579eff9e76a016d",
+        "path": "plugins/getmattered"
+      },
+      "homepage": "https://getmattered.com/mcps",
+      "keywords": ["getmattered", "get mattered", "getmattered jobs", "getmattered auto-apply", "getmattered resume", "getmattered cover letter", "getmattered interview", "getmattered application tracking"],
+      "domains": ["getmattered.com", "mcp.getmattered.com"]
     }
   ]
 }

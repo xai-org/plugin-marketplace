@@ -512,6 +512,76 @@
         ]
       }
     },
+    "getmattered": {
+      "sha": "00a33cfcf44090eee424fbb83579eff9e76a016d",
+      "version": "1.10.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "getmattered",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "apply-to-a-job",
+            "description": "Send a real job application with GetMattered. It tailors the resume and cover letter, then fills in and submits the emp…"
+          },
+          {
+            "name": "build-resume-document",
+            "description": "Get the PDF of the user's resume on file, share it when asked, or create a private editable draft in the GetMattered re…"
+          },
+          {
+            "name": "find-matching-jobs",
+            "description": "Find jobs that fit the user with GetMattered, save or skip them, and change what it looks for. Use this skill whenever…"
+          },
+          {
+            "name": "follow-up-on-applications",
+            "description": "Follow up with employers on applications that have gone quiet, using GetMattered. Use this skill whenever the user asks…"
+          },
+          {
+            "name": "handle-recruiter-replies",
+            "description": "Read the emails employers sent about the user's applications, explain what each employer wants, and send the user's rep…"
+          },
+          {
+            "name": "manage-saved-searches",
+            "description": "Save the user's current GetMattered job preferences as a named search and turn email alerts for its new matches on or o…"
+          },
+          {
+            "name": "prepare-for-interview",
+            "description": "Prepare for a specific job interview with GetMattered and practice answers grounded in the user's experience. Use this…"
+          },
+          {
+            "name": "review-and-send",
+            "description": "Review the applications GetMattered prepared, change them, and send the ones the user approves. Use this skill whenever…"
+          },
+          {
+            "name": "setup-job-search",
+            "description": "Set up a GetMattered account for job matching with the user's resume and job preferences. Use this skill whenever the u…"
+          },
+          {
+            "name": "tailor-for-a-job",
+            "description": "Score and tailor the user's resume to one job posting with GetMattered. Use this skill whenever the user asks how well…"
+          },
+          {
+            "name": "track-applications",
+            "description": "Check where the user's job applications stand with GetMattered, which employers confirmed them, and how many applicatio…"
+          },
+          {
+            "name": "translate-resume",
+            "description": "Translate the user's resume into another language with GetMattered, from a resume shared in the chat, the resume on fil…"
+          },
+          {
+            "name": "using-getmattered",
+            "description": "Map of the GetMattered tools. It says which tool fits each job-search request, in what order to call them, which action…"
+          },
+          {
+            "name": "write-cover-letter",
+            "description": "Write or revise a cover letter for one job with GetMattered. Use this skill whenever the user asks for a cover letter,…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
