@@ -473,6 +473,22 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "task-lifecycle",
+      "description": "Plan, review, confirm: governed Feature, Bugfix and Docs work for AI coding hosts.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/devcodex-labs/task-lifecycle.git",
+        "sha": "48793bdc3d8b1f1cb08f9edacb25111f10b31832"
+      },
+      "homepage": "https://github.com/devcodex-labs/task-lifecycle",
+      "keywords": [
+        "task-lifecycle",
+        "task lifecycle",
+        "devcodex task-lifecycle"
+      ]
     }
   ]
 }
