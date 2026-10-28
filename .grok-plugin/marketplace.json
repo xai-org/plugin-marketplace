@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "cueframe",
+      "description": "Compose, edit, caption and render video with CueFrame’s hosted MCP server and 19 workflow skills.",
+      "category": "creativity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cueframe-ai/cueframe-mcp.git",
+        "sha": "abdad70389a47d8914cfd9f1966681804afef67d"
+      },
+      "homepage": "https://cueframe.ai/mcp",
+      "keywords": [
+        "cueframe",
+        "cueframe video",
+        "cueframe mcp"
+      ],
+      "domains": [
+        "cueframe.ai",
+        "api.cueframe.ai",
+        "docs.cueframe.ai"
+      ]
     }
   ]
 }
