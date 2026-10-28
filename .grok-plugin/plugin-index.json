@@ -342,6 +342,17 @@
         ]
       }
     },
+    "depth-first-dev": {
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "depth-first-dev",
+            "description": "Deepen coding tasks without expanding scope; implement and refactor with business evidence and junior-readable code. Us…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

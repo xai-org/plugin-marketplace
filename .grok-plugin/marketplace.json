@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "depth-first-dev",
+      "description": "Deepen coding tasks without expanding scope. Build business-correct solutions with straightforward code and explanations a junior developer can maintain.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/depth-first-dev"
+      },
+      "homepage": "https://github.com/xai-org/plugin-marketplace/tree/main/external_plugins/depth-first-dev",
+      "keywords": [
+        "depth-first-dev",
+        "depth first dev"
+      ]
     }
   ]
 }

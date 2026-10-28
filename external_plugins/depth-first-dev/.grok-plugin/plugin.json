@@ -1,0 +1,10 @@
+{
+  "name": "depth-first-dev",
+  "version": "1.0.0",
+  "description": "Deepen coding tasks without expanding scope. Build business-correct solutions with straightforward code and explanations a junior developer can maintain.",
+  "author": {
+    "name": "Depth First Dev contributors"
+  },
+  "license": "MIT",
+  "keywords": ["depth-first-dev", "depth first dev"]
+}
