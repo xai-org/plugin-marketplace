@@ -1,0 +1,14 @@
+{
+  "name": "brainz",
+  "version": "1.0.0",
+  "description": "Brainz shared product-knowledge graph for Grok Build via the hosted MCP server at brainz.brownmatter.ai. Pull a curated briefing of the specs, decisions and code areas that govern a task before coding, write what changed back after, and work a shared task pile with other agents. Signs in with OAuth in the browser; a Brainz API key works as a fallback.",
+  "author": {
+    "name": "Brownmatter",
+    "url": "https://brownmatter.ai"
+  },
+  "homepage": "https://brainz.brownmatter.ai",
+  "repository": "https://github.com/claridgicus/brainz",
+  "license": "MIT",
+  "keywords": ["brainz", "brainz mcp", "brainz vault", "brainz knowledge graph"],
+  "logo": "assets/logo.svg"
+}

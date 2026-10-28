@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brainz": {
+      "type": "http",
+      "url": "https://brainz.brownmatter.ai/mcp"
+    }
+  }
+}

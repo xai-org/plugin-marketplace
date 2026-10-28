@@ -67,6 +67,23 @@
         ]
       }
     },
+    "brainz": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brainz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brainz",
+            "description": "Work with a Brainz vault through the Brainz MCP server: pull a curated briefing of the specs, decisions and code areas…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

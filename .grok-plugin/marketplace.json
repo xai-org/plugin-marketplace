@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "brainz",
+      "description": "Brainz shared product-knowledge graph (hosted MCP server + skill). Pull a briefing of the specs, decisions and code areas that govern a task before coding, write what changed back after, and claim and complete tasks from a shared work pile. Sign in with your Brainz account in the browser (OAuth); a Brainz API key works as a fallback.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/brainz"
+      },
+      "homepage": "https://brainz.brownmatter.ai",
+      "keywords": [
+        "brainz",
+        "brainz mcp",
+        "brainz vault",
+        "brainz knowledge graph"
+      ],
+      "domains": [
+        "brainz.brownmatter.ai"
+      ]
     }
   ]
 }
