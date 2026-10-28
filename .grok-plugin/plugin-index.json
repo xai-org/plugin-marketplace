@@ -749,6 +749,88 @@
         ]
       }
     },
+    "objekts-production-desk": {
+      "sha": "24a6576049b0eb6a82decc7c303ead757b08989e",
+      "version": "0.1.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "objekts-production-desk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agency-tender-poc",
+            "description": "Turn an agency tender or pitch brief into the smallest useful visual-production proof: feasibility, lookdev, hero-shot…"
+          },
+          {
+            "name": "ai-vfx-production-preflight",
+            "description": "AI/VFX production preflight and VFX shoot preparation for films, series, commercials and hybrid shoots: break down shot…"
+          },
+          {
+            "name": "character-continuity-production",
+            "description": "Production methodology for recurring AI characters: identity, face, body, wardrobe, pose, camera and temporal continuit…"
+          },
+          {
+            "name": "commercial-production-scope",
+            "description": "Scope commercial visual production correctly: whole production vs bounded shots, master vs derived versions, recomposit…"
+          },
+          {
+            "name": "objekts-adaptive-content",
+            "description": "Classify campaign adaptations as exports, crops, recompositions or new production units while preserving master visual…"
+          },
+          {
+            "name": "objekts-agency-access-fit",
+            "description": "Classify a creative agency's recurring AI/VFX, CGI, motion and lookdev needs against the public terms of Agency Access…"
+          },
+          {
+            "name": "objekts-material-agency",
+            "description": "Art-direct material in AI/VFX imagery as behavior and consequence rather than decorative texture."
+          },
+          {
+            "name": "objekts-product-fidelity",
+            "description": "Control exact product identity in AI-assisted imagery through explicit acceptance fields, source authority and method r…"
+          },
+          {
+            "name": "objekts-production-continuity",
+            "description": "Design continuity for AI/VFX visual production by separating source authority, locked invariants and allowed variables…"
+          },
+          {
+            "name": "objekts-proof-of-concept",
+            "description": "Choose the smallest visual-production test that collapses the most expensive uncertainty before production scale."
+          },
+          {
+            "name": "objekts-source-authority",
+            "description": "Assign references by authority domain so exact product, identity, geometry and graphics are not overwritten by mood/sty…"
+          },
+          {
+            "name": "objekts-visual-authorship",
+            "description": "Evaluate visual authorship from exact evidence instead of category aesthetics or adjective stacks. Use when comparing a…"
+          },
+          {
+            "name": "product-fidelity-production",
+            "description": "Plan AI/CGI product films where exact product geometry, packaging, materials, logo and color must survive across shots.…"
+          },
+          {
+            "name": "production-brief",
+            "description": "Turn a commercial, AI-video, VFX, CGI, motion, animation, DOOH, adaptation, tender or hybrid visual-production request…"
+          },
+          {
+            "name": "production-estimate",
+            "description": "Estimate or budget-fit a commercial, AI-video, VFX, CGI, motion, animation, adaptation or hybrid visual-production job…"
+          },
+          {
+            "name": "production-feasibility",
+            "description": "Assess whether a commercial, AI-video, VFX, CGI, motion, animation, transition, DOOH or hybrid visual-production idea i…"
+          },
+          {
+            "name": "visual-production-evidence-brief",
+            "description": "Assess an AI/VFX, CGI or commercial-film brief, verify source-backed production evidence, and prepare a precise human p…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

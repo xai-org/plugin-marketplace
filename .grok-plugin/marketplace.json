@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "objekts-production-desk",
+      "description": "KOUNT by objekts is a production-preflight system by objekts: it checks reference authority, hard locks, route safety, asset fitness, continuity, versioning and PoC priorities, with optional estimates and human review.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/peach420fuzz/objekts-production-desk.git",
+        "sha": "24a6576049b0eb6a82decc7c303ead757b08989e"
+      },
+      "homepage": "https://objekts.ai/",
+      "keywords": [
+        "objekts",
+        "kount by objekts",
+        "objekts visual production"
+      ],
+      "domains": [
+        "objekts.ai",
+        "mcp.objekts.ai"
+      ]
     }
   ]
 }
