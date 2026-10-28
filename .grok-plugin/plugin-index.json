@@ -359,8 +359,8 @@
       }
     },
     "doola": {
-      "sha": "d332682bdc134fb424f429d29ccd5fac40c774c5",
-      "version": "0.1.0",
+      "sha": "240bbe114fb233a309d190ef5a6e99f36c4483f6",
+      "version": "0.2.0",
       "components": {
         "mcpServers": [
           {

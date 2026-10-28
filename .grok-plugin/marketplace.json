@@ -490,12 +490,12 @@
     },
     {
       "name": "doola",
-      "description": "Form a Wyoming LLC end to end from a conversation: company name, industry, members, ownership, and filing with the Wyoming Secretary of State.",
+      "description": "Form a US LLC or C-Corp in any of the 50 states or DC, end to end from a conversation: entity type and state, company name, industry, members or officers, ownership, and the state filing.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/doolahq/plugins.git",
-        "sha": "d332682bdc134fb424f429d29ccd5fac40c774c5",
+        "sha": "240bbe114fb233a309d190ef5a6e99f36c4483f6",
         "path": "doola"
       },
       "homepage": "https://mcp.doola.com",
