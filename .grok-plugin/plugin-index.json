@@ -342,6 +342,84 @@
         ]
       }
     },
+    "deepread": {
+      "sha": "5db6a9e9aba73bf86f116e1b68615769e1a09ac7",
+      "version": "3.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deepread",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deepread-api",
+            "description": "Full DeepRead API reference. All endpoints, auth, request/response formats, blueprints, webhooks, error handling, and c…"
+          },
+          {
+            "name": "deepread-bank-statements",
+            "description": "Extract structured data from bank statements — account holder, period, opening/closing balances, and every transaction…"
+          },
+          {
+            "name": "deepread-byok",
+            "description": "Bring Your Own Key to DeepRead, an Enterprise feature. Connect your OpenAI, Google, or OpenRouter API key and DeepRead'…"
+          },
+          {
+            "name": "deepread-form-fill",
+            "description": "AI-powered PDF form filling via DeepRead. Upload any PDF form + your data as JSON — AI detects fields, maps data semant…"
+          },
+          {
+            "name": "deepread-id-documents",
+            "description": "Extract structured data from passports, driver's licenses, and national ID cards for KYC/onboarding — name, document nu…"
+          },
+          {
+            "name": "deepread-insurance",
+            "description": "Extract structured data from insurance claims, policies, EOBs, and loss reports. Pre-built schemas for claimant info, c…"
+          },
+          {
+            "name": "deepread-invoice",
+            "description": "Extract structured data from invoices, receipts, and bills using DeepRead. Pre-built schemas for vendor, line items, to…"
+          },
+          {
+            "name": "deepread-legal",
+            "description": "Extract structured data from contracts, legal agreements, court filings, and compliance documents. Pre-built schemas fo…"
+          },
+          {
+            "name": "deepread-medical",
+            "description": "Extract structured data from medical records, lab reports, prescriptions, and clinical documents. Pre-built schemas for…"
+          },
+          {
+            "name": "deepread-pay-stubs",
+            "description": "Extract structured data from pay stubs and earnings statements — employer, employee, pay period, gross/net pay, taxes,…"
+          },
+          {
+            "name": "deepread-pii",
+            "description": "Redact PII from documents before sharing or sending to LLMs. 14 PII types (names, SSN, credit cards, medical records, e…"
+          },
+          {
+            "name": "deepread-purchase-orders",
+            "description": "Extract structured data from purchase orders — PO number, buyer/supplier, line items, quantities, prices, delivery date…"
+          },
+          {
+            "name": "deepread-resume-parser",
+            "description": "Parse resumes and CVs into structured JSON — contact info, work history, education, skills, and total years of experien…"
+          },
+          {
+            "name": "deepread-setup",
+            "description": "Get started with DeepRead. Automatically obtains an API key via OAuth device authorization flow, then walks through OCR…"
+          },
+          {
+            "name": "deepread-shipping-docs",
+            "description": "Extract structured data from bills of lading, packing lists, and shipping manifests — shipper, consignee, carrier, trac…"
+          },
+          {
+            "name": "deepread-tax-forms",
+            "description": "Extract structured data from W-2s, 1099s, 1040s, and other tax forms — employer/payer, recipient, wages, withholdings,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
