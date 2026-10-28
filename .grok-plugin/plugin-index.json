@@ -524,6 +524,23 @@
         ]
       }
     },
+    "hogmatix": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hogmatix",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "schedule-social-posts",
+            "description": "Schedule posts on X, TikTok or YouTube through a connected Hogmatix account, including videos or images from the user's…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",
