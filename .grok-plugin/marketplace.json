@@ -473,6 +473,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "doola",
+      "description": "Form a US LLC or C-Corp in any of the 50 states or DC, end to end from a conversation: entity type and state, company name, industry, members or officers, ownership, and the state filing.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/doolahq/plugins.git",
+        "sha": "240bbe114fb233a309d190ef5a6e99f36c4483f6",
+        "path": "doola"
+      },
+      "homepage": "https://mcp.doola.com",
+      "keywords": [
+        "doola",
+        "doola formation",
+        "doola.com",
+        "mcp.doola.com"
+      ],
+      "domains": [
+        "doola.com",
+        "mcp.doola.com"
+      ]
     }
   ]
 }
