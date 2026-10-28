@@ -1728,6 +1728,40 @@
         ]
       }
     },
+    "watchgoose-monitoring": {
+      "sha": "3f0218400e25c77b6fb41bab45fc52abb7503c13",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "watchgoose",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "watchgoose-batch-monitor-scheduled-jobs",
+            "description": "Use when proposing new Watchgoose checks for multiple scheduled jobs from an audit, list or CSV, rather than configurin…"
+          },
+          {
+            "name": "watchgoose-cron-coverage-audit",
+            "description": "Use when reviewing whether a repository's cron jobs, backups, scheduled tasks, or recurring workers have Watchgoose mon…"
+          },
+          {
+            "name": "watchgoose-missed-run-triage",
+            "description": "Use when investigating a Watchgoose check that is down, late, paused, unarmed, missing heartbeats, or showing unexpecte…"
+          },
+          {
+            "name": "watchgoose-monitor-scheduled-job",
+            "description": "Use when configuring Watchgoose monitoring for a cron job, scheduled backup, recurring worker, or systemd timer, or whe…"
+          },
+          {
+            "name": "watchgoose-monitoring-health-review",
+            "description": "Use when asking whether existing Watchgoose monitoring is actually working, or reviewing neglected, unarmed or paused c…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "975357e593b371336088e88b9d28712d42bbe068",
       "version": "1.36.1",
