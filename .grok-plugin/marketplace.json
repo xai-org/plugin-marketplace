@@ -473,6 +473,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "xero-connector-by-meridian",
+      "description": "Xero Connector by Meridian connects Grok to authorized Xero organisations for accounting queries, financial reports, and consented record updates.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PilotHQ/xero-connector-by-meridian.git",
+        "sha": "1d667094dbbaf1cc17ee66fc04ca8dd02059b961"
+      },
+      "homepage": "https://starter.meridian.pilot.com/help/xero",
+      "keywords": [
+        "xero connector by meridian",
+        "meridian xero"
+      ],
+      "domains": [
+        "xero-connector.meridian.pilot.com"
+      ]
     }
   ]
 }

@@ -1813,6 +1813,18 @@
           }
         ]
       }
+    },
+    "xero-connector-by-meridian": {
+      "sha": "1d667094dbbaf1cc17ee66fc04ca8dd02059b961",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "xero-connector-by-meridian",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
