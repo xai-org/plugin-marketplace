@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "quickbooks-connector-by-meridian",
+      "description": "QBO Connector by Meridian connects Grok to authorized QuickBooks Online companies for accounting queries, financial reports, and consented record updates.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PilotHQ/quickbooks-connector-by-meridian.git",
+        "sha": "0d45290083311726c358e511ef7c22a63d4a7d00"
+      },
+      "homepage": "https://starter.meridian.pilot.com/help/qbo",
+      "keywords": [
+        "qbo connector by meridian",
+        "quickbooks connector by meridian",
+        "meridian quickbooks"
+      ],
+      "domains": [
+        "qbo-connector.meridian.pilot.com"
+      ]
     }
   ]
 }

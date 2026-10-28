@@ -1034,6 +1034,18 @@
         ]
       }
     },
+    "quickbooks-connector-by-meridian": {
+      "sha": "0d45290083311726c358e511ef7c22a63d4a7d00",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quickbooks-connector-by-meridian",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
