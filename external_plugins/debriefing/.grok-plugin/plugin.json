@@ -1,0 +1,20 @@
+{
+  "name": "debriefing",
+  "version": "1.0.0",
+  "description": "Competitive intelligence from your Debriefing workspace. Connects the Debriefing MCP server and adds three skills: a weekly competitor review, a battlecard built from evidence-backed signals, and a guide to the Debriefing API and MCP tools.",
+  "author": {
+    "name": "Debriefing",
+    "url": "https://debriefing.io"
+  },
+  "homepage": "https://debriefing.io/developers?tab=mcp",
+  "repository": "https://github.com/0xrome/debriefing-plugin",
+  "license": "MIT",
+  "keywords": [
+    "debriefing",
+    "debriefing.io",
+    "debriefing mcp",
+    "debriefing competitive intelligence",
+    "debriefing battlecard"
+  ],
+  "logo": "assets/logo.svg"
+}

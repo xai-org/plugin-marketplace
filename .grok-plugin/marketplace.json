@@ -473,6 +473,31 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "debriefing",
+      "description": "Debriefing competitive intelligence (hosted MCP server + skills). Read what your competitors changed, with the source evidence behind each signal, plus digests and battlecards. Write a weekly competitor review or a sales battlecard that cites its sources. Sign in with your Debriefing account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/debriefing"
+      },
+      "homepage": "https://debriefing.io/developers?tab=mcp",
+      "keywords": [
+        "debriefing",
+        "debriefing.io",
+        "debriefing mcp",
+        "debriefing competitive intelligence",
+        "debriefing battlecard"
+      ],
+      "domains": [
+        "debriefing.io"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Debriefing",
+        "url": "https://debriefing.io"
+      }
     }
   ]
 }

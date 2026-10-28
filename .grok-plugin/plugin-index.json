@@ -350,6 +350,31 @@
         ]
       }
     },
+    "debriefing": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "debriefing",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "battlecard-from-signals",
+            "description": "Build a sales battlecard for one competitor from the evidence-backed signals in a Debriefing workspace. It reads the co…"
+          },
+          {
+            "name": "debriefing-api",
+            "description": "Work on a Debriefing workspace (competitors, evidence-backed signals, digests, battlecards, company profile, and team)…"
+          },
+          {
+            "name": "weekly-competitor-review",
+            "description": "Write a weekly competitor review from a Debriefing workspace. It reads what changed in the last 7 days, ranks the compe…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
