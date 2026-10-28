@@ -520,6 +520,18 @@
         ]
       }
     },
+    "hashtree-git": {
+      "sha": "abaaf6975b0563019f0aa22505f898917eeaf79c",
+      "version": "0.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "hashtree-git",
+            "description": "Publish, clone, and share Git repositories with Hashtree and Iris Git without a hosting account. Use when a user choose…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

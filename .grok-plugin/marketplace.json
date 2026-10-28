@@ -473,6 +473,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "hashtree-git",
+      "description": "Use Git and git-remote-htree to publish, clone, and collaborate on Hashtree repositories without a hosting account.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mmalmi/hashtree.git",
+        "sha": "abaaf6975b0563019f0aa22505f898917eeaf79c",
+        "path": "plugins/hashtree-git"
+      },
+      "homepage": "https://git.iris.to/",
+      "keywords": [
+        "hashtree",
+        "hashtree git",
+        "git-remote-htree",
+        "iris git"
+      ],
+      "domains": [
+        "git.iris.to"
+      ],
+      "version": "0.1.1",
+      "author": {
+        "name": "Sirius Business Ltd",
+        "url": "https://git.iris.to/"
+      }
     }
   ]
 }
