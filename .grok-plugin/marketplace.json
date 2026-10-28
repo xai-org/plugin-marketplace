@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "bankbridge",
+      "description": "Official BankBridge integration (remote MCP server, skill and 19 slash commands). Ask about your own US bank, credit card and investment accounts with read-only, live data: spending, subscriptions, cashflow, price creep and holdings. Paid, $5/month per connected bank.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bankbridge-money/bankbridge-plugin.git",
+        "sha": "ca412d8f938c2446514180e930735c7d5424140b"
+      },
+      "homepage": "https://bankbridge.money",
+      "keywords": ["bankbridge", "bankbridge mcp", "bankbridge bank data", "bankbridge spending", "bankbridge subscriptions"],
+      "domains": ["bankbridge.money"]
     }
   ]
 }

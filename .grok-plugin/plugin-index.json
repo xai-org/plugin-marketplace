@@ -47,6 +47,102 @@
         ]
       }
     },
+    "bankbridge": {
+      "sha": "ca412d8f938c2446514180e930735c7d5424140b",
+      "version": "0.4.0",
+      "components": {
+        "commands": [
+          {
+            "name": "balances",
+            "description": "Quick balance snapshot — every account, a rolling total, and credit utilization at a glance."
+          },
+          {
+            "name": "budget-draft",
+            "description": "Draft a realistic monthly budget based on your actual last-3-months spending."
+          },
+          {
+            "name": "cashflow-trend",
+            "description": "Multi-month cashflow trend — income, expenses, net, savings rate as a table + quick-read takeaways."
+          },
+          {
+            "name": "category-deep-dive",
+            "description": "Pick a category, get every transaction in it plus patterns — frequency, top merchants, largest, weekly cadence."
+          },
+          {
+            "name": "category-pie",
+            "description": "Pie chart of spending by category. Writes spending-pie.png (or falls back to ASCII if no plotting library)."
+          },
+          {
+            "name": "compare-months",
+            "description": "Side-by-side month comparison. Spot what changed, not just the totals."
+          },
+          {
+            "name": "dividends",
+            "description": "Dividends received — YTD breakdown by ticker, run rate, and upcoming expected dividends where knowable."
+          },
+          {
+            "name": "duplicate-check",
+            "description": "Find duplicate or suspicious transactions — same merchant + same amount within 48 hours."
+          },
+          {
+            "name": "fraud-check",
+            "description": "Broader suspicious-transaction finder — duplicates, unfamiliar merchants, unusual amounts, off-hours charges."
+          },
+          {
+            "name": "monthly-chart",
+            "description": "Plot a bar chart of your income vs expenses for the last 6 months. Writes cashflow.png."
+          },
+          {
+            "name": "monthly-check",
+            "description": "Full monthly financial review — cashflow, top spending, subscriptions, investment delta."
+          },
+          {
+            "name": "monthly-report",
+            "description": "Full written markdown report for a given month — narrative, not just tables. Meant for sharing or archiving."
+          },
+          {
+            "name": "portfolio-health",
+            "description": "Portfolio health check — total value, gain/loss, concentration, and any single position > 20% of portfolio."
+          },
+          {
+            "name": "price-creep",
+            "description": "Find recurring charges whose price has crept up over the last 12 months. Spot Netflix hikes before your credit card doe…"
+          },
+          {
+            "name": "spending-by",
+            "description": "Flexible group-by. \"/spending-by merchant last 90 days\" or \"/spending-by category march\" — group and slice however you…"
+          },
+          {
+            "name": "subscriptions",
+            "description": "Audit every recurring charge you're paying for. Flag small-ticket items you might have forgotten."
+          },
+          {
+            "name": "tax-prep",
+            "description": "Export a year's worth of transactions to CSV, grouped by category. Useful for tax prep or bookkeeping."
+          },
+          {
+            "name": "weekly-review",
+            "description": "Last 7 days at a glance — total spend, biggest charges, and anything new or unusual."
+          },
+          {
+            "name": "year-in-review",
+            "description": "Spotify Wrapped for your money — full-year cashflow, spending rank, top merchants, recurring tax, and a few fun stats."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "bankbridge",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bankbridge",
+            "description": "Answer questions about the user's own money with live, read-only data from their connected US banks, credit cards and b…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
