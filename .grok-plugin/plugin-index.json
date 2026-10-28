@@ -827,8 +827,8 @@
       }
     },
     "pstack": {
-      "sha": "99b609a72323b70204eab407c622f436e858e112",
-      "version": "0.15.32",
+      "sha": "519d36aa98955bf680db01bcde5fdfba686dc901",
+      "version": "0.15.34",
       "components": {
         "agents": [
           {
@@ -1145,8 +1145,8 @@
       }
     },
     "stripe": {
-      "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
-      "version": "0.9.30",
+      "sha": "acbfbb292b3d88d209d4511006c2a89a46c11f8e",
+      "version": "0.9.31",
       "components": {
         "agents": [
           {
@@ -1747,8 +1747,8 @@
       }
     },
     "wix": {
-      "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9",
-      "version": "1.36.0",
+      "sha": "975357e593b371336088e88b9d28712d42bbe068",
+      "version": "1.36.1",
       "components": {
         "mcpServers": [
           {
