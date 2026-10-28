@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "noomoo",
+      "description": "Development contour: deterministic documentation checks and quality gates from specification to a verified pull request.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TaskForceNow/noomoo.git",
+        "sha": "e142ea25e630e170f24ecc2ea3d15b3e177d1b0e",
+        "path": "plugin"
+      },
+      "homepage": "https://noomoo.dev",
+      "keywords": ["noomoo", "noomoo gate", "noomoo task"],
+      "domains": ["noomoo.dev"],
+      "version": "3.0.1",
+      "author": {
+        "name": "Task Force",
+        "url": "https://github.com/TaskForceNow"
+      }
     }
   ]
 }

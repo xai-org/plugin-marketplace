@@ -749,6 +749,67 @@
         ]
       }
     },
+    "noomoo": {
+      "sha": "e142ea25e630e170f24ecc2ea3d15b3e177d1b0e",
+      "version": "3.0.1",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Edit|Write"
+          },
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "skills": [
+          {
+            "name": "architect",
+            "description": "Write a decision record, an architecture slice or a data document with noomoo scaffold."
+          },
+          {
+            "name": "doctor",
+            "description": "Check the noomoo installation in this repository. Read-only, works before setup."
+          },
+          {
+            "name": "intake",
+            "description": "Turn raw material or a forwarded message into an intake proposal for the owner."
+          },
+          {
+            "name": "report",
+            "description": "Write a report of findings or of a change made to a live system, with its evidence."
+          },
+          {
+            "name": "rollback",
+            "description": "Roll back the noomoo installation by its manifest; shows the plan, applies on a yes."
+          },
+          {
+            "name": "setup",
+            "description": "Install noomoo into this repository; shows the plan, applies on a yes."
+          },
+          {
+            "name": "spec",
+            "description": "Describe a new piece of work as requirement, use case, feature and task before building it."
+          },
+          {
+            "name": "start",
+            "description": "Show where the project stands and what to do next, from noomoo next; use after install."
+          },
+          {
+            "name": "status",
+            "description": "Show the project status: guard, last check, open work, attention. Read-only."
+          },
+          {
+            "name": "task",
+            "description": "Carry one task from its document to a pull request through noomoo gates."
+          },
+          {
+            "name": "validate",
+            "description": "Check the project documentation with noomoo validate. Writes nothing."
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
