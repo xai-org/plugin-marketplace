@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "magister-marketing",
+      "description": "Connect Grok Build to authorized Magister Marketing projects, plans, audits, content, social, and advertising workflows.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Magister-Marketing/magister-mcp.git",
+        "sha": "6830903ba4e00ddb382edf9addcb72effa593487"
+      },
+      "homepage": "https://magistermarketing.com/mcp",
+      "keywords": ["magister", "magister marketing", "magister mcp"],
+      "domains": ["magistermarketing.com", "mcp.magistermarketing.com"]
     }
   ]
 }
