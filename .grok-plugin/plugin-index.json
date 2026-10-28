@@ -532,6 +532,24 @@
         ]
       }
     },
+    "hookpost": {
+      "sha": "c2ab36f13149f08c6b8f6ddd32eed2dec58ea8a1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hookpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hookpost",
+            "description": "Draft, schedule and review social media posts in the user's Hookpost workspace through the hookpost MCP server. Use whe…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",

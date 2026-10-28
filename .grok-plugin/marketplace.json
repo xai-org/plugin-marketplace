@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "hookpost",
+      "description": "Draft and schedule social media posts on your connected channels (LinkedIn, X, Instagram, Threads, YouTube, Pinterest and more) through Hookpost's hosted MCP server. Lists channels, reads each network's rules, writes per-network posts and saves them as drafts or schedules them. Sign in with your Hookpost account on first connection; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jatinder14/hookpost-mcp.git",
+        "sha": "c2ab36f13149f08c6b8f6ddd32eed2dec58ea8a1",
+        "path": "grok/hookpost"
+      },
+      "homepage": "https://hookpost.hookstep.in",
+      "keywords": ["hookpost", "hookpost mcp", "hookpost scheduler", "hookstep"],
+      "domains": ["hookpost.hookstep.in", "hookstep.in"],
+      "author": {
+        "name": "Hookstep",
+        "email": "support@hookstep.in",
+        "url": "https://hookpost.hookstep.in"
+      }
     }
   ]
 }
