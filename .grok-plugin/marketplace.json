@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "justgains",
+      "description": "JustGains fitness integration (hosted MCP server). Build and save workouts, read completed workouts, lift history and personal bests, check training progress and streaks, plan routes, and log meals and bodyweight in your JustGains account. Sign in with your JustGains account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JustGains/justgains-connector.git",
+        "sha": "244391b41c4e738b661c7de4e7582b2bdf7bacc9"
+      },
+      "homepage": "https://justgains.com/learn/use-justgains-in-grok",
+      "keywords": ["justgains", "justgains workout", "justgains food diary", "justgains app"],
+      "domains": ["justgains.com"]
     }
   ]
 }
