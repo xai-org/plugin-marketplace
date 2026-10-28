@@ -1108,6 +1108,24 @@
         ]
       }
     },
+    "skydropx": {
+      "sha": "7c497776d705ca2752044bd6bd211bb853f0ca5d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skydropx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skydropx",
+            "description": "Use the Skydropx MCP tools to quote, buy, track and cancel shipments in Mexico, schedule pickups and manage store order…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

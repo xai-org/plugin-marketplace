@@ -473,6 +473,35 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "skydropx",
+      "description": "Skydropx shipping for Mexico (hosted MCP server + skill). Quote with Estafeta, DHL, FedEx, UPS, Paquetexpress and more, buy and track labels, schedule pickups, create labels for store orders and use your address book. Sign in with your Skydropx account.",
+      "category": "logistics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skydropx/mcp.git",
+        "sha": "7c497776d705ca2752044bd6bd211bb853f0ca5d"
+      },
+      "homepage": "https://github.com/Skydropx/mcp",
+      "keywords": [
+        "skydropx",
+        "skydropx mcp",
+        "skydropx envios",
+        "skydropx shipping",
+        "skydropx guias"
+      ],
+      "domains": [
+        "skydropx.com",
+        "app.skydropx.com",
+        "mcp.skydropx.com"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Skydropx",
+        "email": "hola@skydropx.com",
+        "url": "https://www.skydropx.com"
+      }
     }
   ]
 }
