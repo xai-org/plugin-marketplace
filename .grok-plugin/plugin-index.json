@@ -546,6 +546,18 @@
         ]
       }
     },
+    "kanonik": {
+      "sha": "81adcc9abd8727b07ee0c6f7c1171dd797e13d86",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kanonik",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
