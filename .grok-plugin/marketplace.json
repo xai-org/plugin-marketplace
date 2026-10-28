@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "querysail-ga4",
+      "description": "QuerySail for Google Analytics: GA4 reports, period comparisons, realtime users and custom fields from your own Google Analytics properties, through a hosted MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/querysail/querysail-ga4.git",
+        "sha": "94e9de8041683071f3711a32131ede24b12cec24"
+      },
+      "homepage": "https://querysail.com/google-analytics",
+      "keywords": ["querysail", "querysail ga4", "querysail google analytics"],
+      "domains": ["querysail.com", "mcp.querysail.com"]
     }
   ]
 }
