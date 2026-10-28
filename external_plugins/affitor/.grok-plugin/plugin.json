@@ -1,0 +1,16 @@
+{
+  "name": "affitor",
+  "version": "0.1.0",
+  "description": "Read your Affitor affiliate program via the hosted MCP at mcp.affitor.com: partners, commissions, earnings, payouts and billing. Read-only. Sign in with an Affitor account on first connect.",
+  "author": {
+    "name": "Affitor",
+    "url": "https://github.com/Affitor"
+  },
+  "homepage": "https://affitor.com",
+  "license": "Proprietary",
+  "keywords": [
+    "affitor",
+    "affitor affiliate",
+    "affitor mcp"
+  ]
+}

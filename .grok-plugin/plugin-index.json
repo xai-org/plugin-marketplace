@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "affitor": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "affitor",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
