@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "connectmachine",
+      "description": "ConnectMachine professional network integration. Find contacts by how you remember them, save people from the conversation, tag them to events and networks, and draft follow-ups with the context of where you met.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/connectmachine/claude-plugin.git",
+        "sha": "58bf1f15694169b74ffba37c48c57d2eb8d79d65"
+      },
+      "homepage": "https://www.connectmachine.ai/docs/mcp/",
+      "keywords": ["connectmachine", "connect machine", "connectmachine contacts"],
+      "domains": ["connectmachine.ai"]
     }
   ]
 }

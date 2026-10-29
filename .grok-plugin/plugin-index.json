@@ -328,6 +328,32 @@
         ]
       }
     },
+    "connectmachine": {
+      "sha": "58bf1f15694169b74ffba37c48c57d2eb8d79d65",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "connectmachine",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connectmachine",
+            "description": "Work with the user's ConnectMachine network of professional contacts, networks, events and digital business cards. Use…"
+          },
+          {
+            "name": "follow-up",
+            "description": "Draft follow-up messages for people in the user's ConnectMachine network, using where and when they met."
+          },
+          {
+            "name": "save-contact",
+            "description": "Save a person to ConnectMachine from what the user describes, with where and when they met."
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
