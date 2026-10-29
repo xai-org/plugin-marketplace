@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "adsgpt",
+      "description": "Official AdsGPT plugin (hosted MCP server + skills). Create, review and optimize Google Ads campaigns: performance reports, wasted spend and negative keywords, budget, status and targeting changes, and new campaigns created paused from a conversation. Sign in with your AdsGPT account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adsgpt-dev/agent-plugins.git",
+        "sha": "150a485eb59b9bb4a677589565693a7450a06ea1",
+        "path": "plugins/adsgpt"
+      },
+      "homepage": "https://docs.adsgpt.dev",
+      "keywords": ["adsgpt", "adsgpt ads", "adsgpt mcp", "adsgpt campaign"],
+      "domains": ["adsgpt.dev", "app.adsgpt.dev", "mcp.adsgpt.dev", "docs.adsgpt.dev"]
     }
   ]
 }
