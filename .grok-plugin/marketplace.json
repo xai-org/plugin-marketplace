@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "soclo",
+      "description": "Plan, make and publish on-brand marketing with your Soclo Brand Kit and saved library. Review exact quotes before paid media generation and approve publishing separately.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/socialiserapp-design/soclo-plugin.git",
+        "sha": "4926101106f4521b1b228a25088db02ed8b5185d"
+      },
+      "homepage": "https://soclo.app/mcp",
+      "keywords": [
+        "soclo",
+        "soclo marketing",
+        "soclo brand kit"
+      ],
+      "domains": [
+        "soclo.app"
+      ]
     }
   ]
 }
