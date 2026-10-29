@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "trademarkiq",
+      "description": "TrademarkIQ trademark intelligence over the full Brazilian INPI database plus international trademark data. Search marks, check availability and collision risk, classify activities into Nice classes, browse RPI gazettes and case law, and query your portfolio. 31 read-only tools via a remote MCP server (OAuth).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trademarkiq/trademarkiq-plugin.git",
+        "sha": "f4260646ffb7b4a8826a6dd7f1f1bd7124ee8233"
+      },
+      "homepage": "https://trademarkiq.com.br",
+      "keywords": [
+        "trademarkiq",
+        "trademarkiq mcp",
+        "trademarkiq inpi"
+      ],
+      "domains": [
+        "trademarkiq.com.br",
+        "mcp.trademarkiq.com.br"
+      ]
     }
   ]
 }
