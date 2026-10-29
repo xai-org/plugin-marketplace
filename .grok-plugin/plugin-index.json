@@ -75,6 +75,24 @@
         ]
       }
     },
+    "bestprice-shopping": {
+      "sha": "5d1c1c8db99958245014a124f47e7fa93b699693",
+      "version": "2.8.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bestprice-shopping",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bestprice-shopping",
+            "description": "Use for physical-product shopping in Greece without naming BestPrice: what to buy, known products, cheapest delivered p…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

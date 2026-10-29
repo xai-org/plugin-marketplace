@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "bestprice-shopping",
+      "description": "Read-only shopping for Greece from BestPrice.gr: product recommendations, product search, current merchant offers with delivered totals, and price history.",
+      "category": "shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TheBestCo/bestprice-mcp.git",
+        "sha": "5d1c1c8db99958245014a124f47e7fa93b699693"
+      },
+      "homepage": "https://www.bestprice.gr/mcp",
+      "keywords": [
+        "bestprice",
+        "bestprice.gr",
+        "bestprice shopping"
+      ],
+      "domains": [
+        "bestprice.gr",
+        "www.bestprice.gr",
+        "mcp.bestprice.gr"
+      ]
     }
   ]
 }
