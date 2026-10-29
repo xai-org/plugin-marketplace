@@ -778,6 +778,24 @@
         ]
       }
     },
+    "pgxai-andromeda": {
+      "sha": "6c04531cde23af2aebc95f8201b36f96e27e279c",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pgxai-andromeda",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "medication-evidence-reference",
+            "description": "Reference assistant for clinicians and clinical educators. Looks up what published drug labeling and other referenced s…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
