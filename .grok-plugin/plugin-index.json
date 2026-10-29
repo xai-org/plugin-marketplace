@@ -1116,6 +1116,18 @@
         ]
       }
     },
+    "skript-by-objekts": {
+      "sha": "66f0f3fa23af16a7bc16c1bc28edf8a86e2164f5",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "script-workshop",
+            "description": "Use SKRIPT by objekts to develop original screenplays from an idea or synopsis, compare genuinely different story direc…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

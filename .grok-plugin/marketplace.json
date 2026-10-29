@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "skript-by-objekts",
+      "description": "SKRIPT by objekts develops original screenplays from an idea or synopsis, compares story directions, writes complete drafts and revises weak scenes. Beta 0.2.0.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/peach420fuzz/plugin-marketplace.git",
+        "sha": "66f0f3fa23af16a7bc16c1bc28edf8a86e2164f5",
+        "path": "external_plugins/skript-by-objekts"
+      },
+      "homepage": "https://remake.objekts.ai/skript/",
+      "keywords": [
+        "skript by objekts",
+        "objekts skript"
+      ],
+      "domains": [
+        "https://remake.objekts.ai/skript/"
+      ],
+      "version": "0.2.0",
+      "author": "objekts"
     }
   ]
 }
