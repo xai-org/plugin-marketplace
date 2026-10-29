@@ -778,6 +778,60 @@
         ]
       }
     },
+    "orshot": {
+      "sha": "3fda9a8915d09a1ac45047983d2876167ed018ff",
+      "version": "1.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "orshot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "orshot",
+            "description": "Image, PDF and video generation from Orshot templates, through the hosted MCP server (OAuth, no API key) or the REST AP…"
+          },
+          {
+            "name": "orshot-ad-creative",
+            "description": "Static ad creative generator with Orshot: Facebook and Instagram ad creatives, Meta story ads, catalog ads and display…"
+          },
+          {
+            "name": "orshot-blog-images",
+            "description": "Featured image and OG image generator for blog posts with Orshot: an on-brand cover for every post (WordPress featured…"
+          },
+          {
+            "name": "orshot-carousel",
+            "description": "TikTok slideshow and carousel generator with Orshot: faceless TikTok photo-mode slideshows, Instagram carousels and Lin…"
+          },
+          {
+            "name": "orshot-design",
+            "description": "Design craft for Orshot studio templates: one focal point, a 2-font type system, 60-30-10 color, copy that still fits w…"
+          },
+          {
+            "name": "orshot-pdf-generator",
+            "description": "Invoice and certificate PDF generator with the Orshot API: design an invoice, receipt, quote, certificate, report, prop…"
+          },
+          {
+            "name": "orshot-social-media-content",
+            "description": "Social media post generator with Orshot: on-brand Instagram, LinkedIn, Facebook, X, Pinterest and TikTok posts and stor…"
+          },
+          {
+            "name": "orshot-social-media-scheduler",
+            "description": "Social media scheduler and auto-poster with Orshot: schedule posts or auto-post to Instagram, TikTok, LinkedIn, X, Face…"
+          },
+          {
+            "name": "orshot-video-generator",
+            "description": "Faceless video and YouTube Shorts maker with Orshot: product and promo reels, real estate listing reels, tips and listi…"
+          },
+          {
+            "name": "orshot-youtube-thumbnail",
+            "description": "YouTube thumbnail maker with Orshot: thumbnails built from a frame of the video, the host's face cutout and the hook wo…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

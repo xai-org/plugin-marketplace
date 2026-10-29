@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "orshot",
+      "description": "Automate Videos, PDFs and Images from templates for marketing, post to social platforms, and track and grow engagement. Bundles the hosted Orshot MCP server (OAuth, no API key) and one skill per use case: blog images, videos and reels, ad creatives, YouTube thumbnails, PDFs, carousels and social posts.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Orshot-HQ/orshot-agent-skills.git",
+        "sha": "3fda9a8915d09a1ac45047983d2876167ed018ff"
+      },
+      "homepage": "https://orshot.com/agents/grok-bot",
+      "keywords": [
+        "orshot",
+        "orshot templates",
+        "orshot studio"
+      ],
+      "domains": [
+        "orshot.com",
+        "mcp.orshot.com",
+        "api.orshot.com"
+      ]
     }
   ]
 }
