@@ -473,6 +473,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "emem",
+      "description": "emem is the machine-maintained, external memory of our physical world. Browse available emem tools, resolve signed memory tokens, verify receipts, and check citations. Responses are grounded in signed facts and machine-readable receipts so users can inspect supporting evidence. Anonymous read operations do not require an emem account, API key or sign-in.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vortx-AI/emem.git",
+        "sha": "5616109b5f2ad484c15449c4e60d6abbeb7a1352",
+        "path": "plugins/emem"
+      },
+      "homepage": "https://emem.dev",
+      "keywords": [
+        "emem",
+        "emem verify",
+        "emem earth memory",
+        "emem recall",
+        "verifiable-memory"
+      ],
+      "domains": [
+        "emem.dev"
+      ]
     }
   ]
 }

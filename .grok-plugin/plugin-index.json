@@ -350,6 +350,96 @@
         ]
       }
     },
+    "emem": {
+      "sha": "5616109b5f2ad484c15449c4e60d6abbeb7a1352",
+      "version": "2.4.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "emem",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "emem-device-traces",
+            "description": "Reads and checks the signed activity records (OS traces) emem holds for devices such as robots, drones, satellites and…"
+          },
+          {
+            "name": "emem-document-evidence",
+            "description": "Turns a scanned document into signed, checkable evidence with emem. Runs OCR on an image, then parses a pesticide-resid…"
+          },
+          {
+            "name": "emem-eudr-due-diligence",
+            "description": "Produces a signed, Annex II shaped Due Diligence Statement under the EU Deforestation Regulation (EU 2023/1115) for one…"
+          },
+          {
+            "name": "emem-field-signals",
+            "description": "Answers agronomy questions about one farm field with signed evidence from emem. Gets the field's boundary polygons, che…"
+          },
+          {
+            "name": "emem-field-tokens",
+            "description": "Fetches a native-resolution raster field over an area from emem, or the same field over several dates, as a signed and…"
+          },
+          {
+            "name": "emem-find-similar",
+            "description": "Returns the top-K places most similar to a seed place by cosine over a stored 128-D surface-texture embedding (Sentinel…"
+          },
+          {
+            "name": "emem-locate-and-recall",
+            "description": "Resolves a place name to an emem cell64 address and recalls signed Earth-observation facts there (weather, vegetation i…"
+          },
+          {
+            "name": "emem-long-horizon-memory",
+            "description": "Keeps an agent's working state in signed emem notes that outlive its context window, so a later session, or the same ag…"
+          },
+          {
+            "name": "emem-multi-agent-handoff",
+            "description": "Hands work between agents so it arrives as checkable evidence rather than prose someone has to trust, and checks what o…"
+          },
+          {
+            "name": "emem-recall-polygon",
+            "description": "Recalls signed Earth-observation facts at sampled cells inside an area (a named region, a bounding box, or a GeoJSON bo…"
+          },
+          {
+            "name": "emem-referential-drift",
+            "description": "Stops two agents, or one agent across two sessions, from reporting different numbers for the same reading. Pins a value…"
+          },
+          {
+            "name": "emem-research-grade-citation",
+            "description": "Prepares emem facts for use in research, where a reviewer needs to know exactly what a number is, how it was read, and…"
+          },
+          {
+            "name": "emem-shared-identity",
+            "description": "Makes two agents refer to the same object. Finds an existing canonical identity for a thing (a field, a corridor, an as…"
+          },
+          {
+            "name": "emem-sign-and-attest",
+            "description": "Writes to emem with the agent's own Ed25519 key, either a signed note in its namespace that other agents can verify it…"
+          },
+          {
+            "name": "emem-tokenise-files",
+            "description": "Turns a file into signed, resolvable tokens with emem. Cuts the file into units (markdown sections, or byte ranges), co…"
+          },
+          {
+            "name": "emem-transparency-log",
+            "description": "Audits emem's append-only RFC 6962 transparency log offline. Verifies a signed tree head, proves a log entry or a memor…"
+          },
+          {
+            "name": "emem-urban",
+            "description": "Answers urban-analysis questions with signed emem facts and says what each number measures. Covers Overture buildings,…"
+          },
+          {
+            "name": "emem-verify-before-publish",
+            "description": "Checks a draft before it is sent. Finds every emem citation in the text, confirms each resolves and verifies, checks th…"
+          },
+          {
+            "name": "emem-verify-receipt",
+            "description": "Verifies an emem receipt's Ed25519 signature offline by rebuilding its canonical BLAKE3 preimage (v1 or v2) and checkin…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
