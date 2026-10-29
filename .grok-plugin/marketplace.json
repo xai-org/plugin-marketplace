@@ -473,6 +473,39 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "scrapingbee",
+      "description": "Fetch and read any web page, search the web, crawl a site, or pull structured data out of pages with the ScrapingBee CLI. Handles JavaScript rendering, CAPTCHAs and anti-bot blocking that plain HTTP tools fail on; JSON endpoints for Google, Amazon, Walmart and YouTube; batch, crawl and scheduled jobs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ScrapingBee/scrapingbee-cli",
+        "sha": "dca2ddf437b1e4a80d6b9968cbe833a3aa57cb99",
+        "path": "plugins/scrapingbee-cli"
+      },
+      "homepage": "https://www.scrapingbee.com/documentation/cli/",
+      "keywords": [
+        "scrapingbee",
+        "web scraping",
+        "scraping",
+        "crawl",
+        "search",
+        "serp",
+        "amazon",
+        "youtube",
+        "data extraction"
+      ],
+      "domains": [
+        "scrapingbee.com",
+        "app.scrapingbee.com",
+        "mcp.scrapingbee.com"
+      ],
+      "version": "1.6.0",
+      "author": {
+        "name": "ScrapingBee",
+        "url": "https://www.scrapingbee.com"
+      }
     }
   ]
 }
