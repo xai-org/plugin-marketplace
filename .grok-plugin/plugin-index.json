@@ -520,6 +520,32 @@
         ]
       }
     },
+    "grokbuild-grokbots": {
+      "sha": "d511eb07528038c87bd091bc8c74501870c25043",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grokbots",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "grokbots-roster",
+            "description": "Use when the user wants to configure which Grok Bots Grok Build or Cursor can reach. Covers the plugin variables (GROKB…"
+          },
+          {
+            "name": "grokbots-routine-setup",
+            "description": "Use inside a Grok Bot when the user wants Grok Build, Cursor or a script to be able to wake this bot or send it prompts…"
+          },
+          {
+            "name": "grokbots-send",
+            "description": "Use when you are working in Grok Build or Cursor and need to wake a Grok Bot or hand it a prompt or task, e.g. \"tell my…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

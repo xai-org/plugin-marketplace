@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "grokbuild-grokbots",
+      "description": "One grokbots MCP server plus setup skills that let Grok Build (or Cursor) wake a Grok Bot or send it a prompt through that bot's own webhook-triggered routine. Keeps a roster of bots, gates every send behind confirm=true, and has an optional read-only mode. Each installer uses their own routine URL and key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matthew-rutledge-dev/grokbuild-grokbots.git",
+        "sha": "d511eb07528038c87bd091bc8c74501870c25043"
+      },
+      "homepage": "https://github.com/matthew-rutledge-dev/grokbuild-grokbots",
+      "keywords": ["grokbuild-grokbots", "grokbuild grokbots", "grok build grokbots"]
     }
   ]
 }
