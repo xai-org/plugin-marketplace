@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "econdash",
+      "description": "750+ indicators in ten categories: macroeconomics, financial markets, labor, demographics, real estate, commodities and energy, transport and logistics, healthcare, education, technology and internet. 290+ countries and regions, from the World Bank, IMF, FRED, Eurostat, OECD, WHO and other public sources. Every figure comes with its source, licence and a link to the EconDash chart.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/econdash/econdash-plugin.git",
+        "sha": "f3d96883f11ac6157680ac8d23048203ec1b2f42"
+      },
+      "homepage": "https://econdash.org/docs/mcp",
+      "keywords": ["econdash", "econdash data", "econdash mcp", "econdash chart", "econdash indicators"],
+      "domains": ["econdash.org", "mcp.econdash.org"]
     }
   ]
 }

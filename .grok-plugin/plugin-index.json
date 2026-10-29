@@ -350,6 +350,32 @@
         ]
       }
     },
+    "econdash": {
+      "sha": "f3d96883f11ac6157680ac8d23048203ec1b2f42",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "econdash",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cite-economic-data",
+            "description": "Use when the user needs a citation, a source, or wants to verify where an economic or social statistic comes from."
+          },
+          {
+            "name": "compare-economies",
+            "description": "Use when the user wants to compare countries on an economic or social indicator, or rank countries, for example which c…"
+          },
+          {
+            "name": "macro-research",
+            "description": "Use when the user asks for an overview of a country's economy, recent economic performance, or a macro snapshot (growth…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
