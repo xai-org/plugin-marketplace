@@ -490,7 +490,7 @@
     },
     {
       "name": "mrscraper",
-      "description": "MrScraper web scraping (MCP Server + Skills). Retrieve public web pages as HTML, Markdown, or screenshots through MrScraper's Scraper API, discover pages through Google search, and check account token usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
+      "description": "MrScraper web scraping (MCP Server + Skills). Retrieve public web pages as HTML, Markdown, or screenshots through MrScraper's Scraper API, discover pages through web search, and check account token usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
