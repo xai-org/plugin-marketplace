@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "remode",
+      "description": "Remode fashion shopping assistant (hosted MCP server + skill). Find clothing, shoes, bags and accessories from a photo link or a description, compare one product's price across shops and second-hand, and start Hunts that keep watching an exact item for a lower price, a restock or a second-hand listing. Search works without an account; Hunts ask you to sign in to Remode.",
+      "category": "shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/remode-app/remode-grok-plugin.git",
+        "sha": "dda6c81f63a6009a3fe8f8ee78b508442441fdf3"
+      },
+      "homepage": "https://remode.app",
+      "keywords": ["remode", "remode app", "remode fashion", "remode hunt", "colette and carrie"],
+      "domains": ["remode.app"]
     }
   ]
 }

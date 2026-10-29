@@ -1070,6 +1070,24 @@
         ]
       }
     },
+    "remode": {
+      "sha": "dda6c81f63a6009a3fe8f8ee78b508442441fdf3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "remode",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "remode",
+            "description": "Find a fashion item from a photo or description, check its price new and second-hand, and watch it with Remode. Use whe…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
