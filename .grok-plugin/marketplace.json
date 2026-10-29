@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "privatedao-agent-exchange",
+      "description": "PrivateDAO Agent Exchange MCP marketplace for verification, intelligence, receipts, and PrivatePAY x402 USDC on Solana. Free read-only tools; paid jobs are quote-first.",
+      "category": "business",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/x-pact-pro/PrivateDAO.git",
+        "sha": "87fd0cfe9b08e5918951ff34ba900cfec9b0e655",
+        "path": "plugins/privatedao-agent-exchange"
+      },
+      "homepage": "https://agents.privatedao.org/",
+      "keywords": ["privatedao", "privatedao agent exchange", "privatepay x402", "pdao"],
+      "domains": ["agents.privatedao.org", "privatedao.org"]
     }
   ]
 }
