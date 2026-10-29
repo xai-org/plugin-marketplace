@@ -778,6 +778,28 @@
         ]
       }
     },
+    "omphalis": {
+      "sha": "317522e215005f661d6f1ddf9ed164f4d9d9ea23",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "omphalis",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "omphalis-ask-library",
+            "description": "Answer a question from the user's own Omphalis Library, with citations back to the saved sources, or find a passage, it…"
+          },
+          {
+            "name": "omphalis-save-source",
+            "description": "Save an article, PDF, YouTube video, podcast episode or a written note to the user's Omphalis Library, then optionally…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

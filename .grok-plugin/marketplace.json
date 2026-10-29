@@ -473,6 +473,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "omphalis",
+      "description": "Omphalis is a workspace for understanding articles, PDFs, videos and podcasts. Save sources to your Omphalis Library and ask questions answered from them, with citations, over the hosted Omphalis MCP server (OAuth sign-in, no API key).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Voxiven/omphalis-plugin.git",
+        "sha": "317522e215005f661d6f1ddf9ed164f4d9d9ea23"
+      },
+      "homepage": "https://omphalis.ai",
+      "keywords": ["omphalis", "omphalis library", "omphalis mcp", "omphalis ask", "omphalis notebook"],
+      "domains": ["omphalis.ai", "app.omphalis.ai"],
+      "author": {
+        "name": "Voxiven LLC",
+        "email": "hello@omphalis.ai",
+        "url": "https://omphalis.ai"
+      }
     }
   ]
 }
