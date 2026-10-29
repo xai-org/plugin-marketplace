@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet.git",
-        "sha": "1ac4c8b4d2360791a75d7d328bae0f6264d108cf"
+        "sha": "edcfdd19754df0e295d5409629176525e312c1b8"
       },
       "homepage": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet",
       "keywords": ["grokbot-discord-fleet", "grokbot discord fleet", "grok bot discord fleet"]
