@@ -1736,6 +1736,24 @@
         ]
       }
     },
+    "wandera": {
+      "sha": "93b0743edf8b0a30bfb7854ae9df2ce5f76cd2fc",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wandera",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Set up Wandera and make a first AI video. Use when the user has just installed Wandera or asks how to start making vide…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
       "version": "1.36.3",

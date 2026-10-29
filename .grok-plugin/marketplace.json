@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "wandera",
+      "description": "Wandera AI video and Meta ads. Generate short videos with models such as Seedance, Kling and Veo, compare them side by side, and turn the winner into a paused Facebook or Instagram video ad. Sign in with a Wandera account.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ansh-chopra/wandera-plugin.git",
+        "sha": "93b0743edf8b0a30bfb7854ae9df2ce5f76cd2fc"
+      },
+      "homepage": "https://wandera.ai/mcp",
+      "keywords": ["wandera", "wandera video", "wandera ads", "wandera mcp"],
+      "domains": ["wandera.ai", "api.wandera.ai"],
+      "version": "1.0.2",
+      "author": {
+        "name": "Zero Billion",
+        "email": "ansh@zerobillion.ai",
+        "url": "https://www.zerobillion.ai"
+      }
     }
   ]
 }
