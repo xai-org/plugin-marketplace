@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "local-commander",
+      "description": "Give your AI hands on every computer you own. One chat, all your machines — even from your phone.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netbka/local-commander-plugins.git",
+        "path": "grok-build",
+        "sha": "26ca71e0d09526780e11692e541b9e25d496e328"
+      },
+      "homepage": "https://localcmd.app",
+      "keywords": [
+        "local-commander",
+        "localcmd"
+      ],
+      "domains": [
+        "localcmd.app"
+      ]
     }
   ]
 }
