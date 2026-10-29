@@ -473,6 +473,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "eachlabs",
+      "description": "Generate and edit images, video, music and voice with each::labs models, and run your organization's each::labs workflows, from a conversation. Cut, crop, resize and convert media. Sign in with your each::labs account; no API key needed.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eachlabs/plugin.git",
+        "sha": "1cf56db477ae641605868d864a5a903b1cd7dd46"
+      },
+      "homepage": "https://www.eachlabs.ai",
+      "keywords": [
+        "eachlabs",
+        "each::labs",
+        "each labs"
+      ],
+      "domains": [
+        "eachlabs.ai",
+        "www.eachlabs.ai",
+        "mcp.eachlabs.ai"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "each::labs",
+        "url": "https://www.eachlabs.ai"
+      }
     }
   ]
 }

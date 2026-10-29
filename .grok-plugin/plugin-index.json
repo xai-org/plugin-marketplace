@@ -350,6 +350,68 @@
         ]
       }
     },
+    "eachlabs": {
+      "sha": "1cf56db477ae641605868d864a5a903b1cd7dd46",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "eachlabs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bytedance-seedance-2-0",
+            "description": "Generate cinematic videos with native synchronized audio using ByteDance Seedance 2.0 (Fast) via EachLabs. Supports tex…"
+          },
+          {
+            "name": "eachlabs-face-swap",
+            "description": "Swap faces between images using EachLabs AI. Use when the user wants to replace or swap faces in photos. Use for any re…"
+          },
+          {
+            "name": "eachlabs-fashion-ai",
+            "description": "Generate fashion model imagery, virtual try-on, runway videos, and campaign visuals using EachLabs AI. Use when the use…"
+          },
+          {
+            "name": "eachlabs-image-edit",
+            "description": "Edit, transform, upscale, and enhance images using EachLabs AI models. Supports image editing, style transfer, backgrou…"
+          },
+          {
+            "name": "eachlabs-image-generation",
+            "description": "Generate new images from text prompts using EachLabs AI models. Supports text-to-image with multiple model families inc…"
+          },
+          {
+            "name": "eachlabs-music",
+            "description": "Generate songs, instrumentals, lyrics, and podcasts using EachLabs Mureka AI models. Also supports song extension, stem…"
+          },
+          {
+            "name": "eachlabs-product-visuals",
+            "description": "Generate professional e-commerce product photography and videos using EachLabs AI models. Product shots, background rep…"
+          },
+          {
+            "name": "eachlabs-video-edit",
+            "description": "Edit, transform, extend, upscale, and enhance videos using EachLabs AI models. Supports lip sync, video translation, su…"
+          },
+          {
+            "name": "eachlabs-video-generation",
+            "description": "Generate new videos from text prompts, images, or reference inputs using EachLabs AI models. Supports text-to-video, im…"
+          },
+          {
+            "name": "eachlabs-voice-audio",
+            "description": "Text-to-speech, speech-to-text, voice conversion, and audio processing using EachLabs AI models. Supports ElevenLabs TT…"
+          },
+          {
+            "name": "eachlabs-workflows",
+            "description": "Run and inspect multi-step AI workflows that chain multiple EachLabs models into one call. List the organization's work…"
+          },
+          {
+            "name": "gpt-image-v2",
+            "description": "Generate and edit images using OpenAI's GPT Image v2 via EachLabs. Supports text-to-image (gpt-image-v2-text-to-image)…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
