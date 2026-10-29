@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "tana",
+      "description": "Read and act on your Tana meetings: transcripts, screen-share screenshots, decisions, tasks and calendar, through the Tana MCP server plus skills. Every write becomes a proposal the user approves in Tana.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tanainc/tana-plugin.git",
+        "sha": "b150454b835e5f9b0749d223e9906a7ea0bb9812"
+      },
+      "homepage": "https://github.com/tanainc/tana-plugin",
+      "keywords": ["tana", "tana meetings", "tana meeting notes", "tana transcript"],
+      "domains": ["tana.inc", "home.tana.inc"]
     }
   ]
 }
