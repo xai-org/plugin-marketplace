@@ -473,6 +473,23 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "iching-takashima",
+      "description": "I Ching cast step by step by Takashima Donsho's method, in Chinese, English and Japanese. Every count is shown and reproducible; returns the classic text, Legge's translation, and Takashima's commentary and recorded cases. Offline; makes no predictions.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/windyinwind/iching-takashima.git",
+        "sha": "6235b60a4d56c6692e04144cf2504dba2daf3088"
+      },
+      "homepage": "https://github.com/windyinwind/iching-takashima",
+      "keywords": ["iching-takashima", "takashima method", "takashima donsho", "高岛略筮", "高島流", "高島呑象"],
+      "version": "1.4.0",
+      "author": {
+        "name": "Liam Wei",
+        "url": "https://github.com/windyinwind"
+      }
     }
   ]
 }
