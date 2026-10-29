@@ -1300,6 +1300,18 @@
         ]
       }
     },
+    "taskaid": {
+      "sha": "fd9be5c93d0a5f6c6086b3d524378b9c52099625",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taskaid",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
