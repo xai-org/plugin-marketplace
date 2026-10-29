@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "webz-io",
+      "description": "Search news, blogs, and forum discussions with Webz.io, and aggregate matching content with three segmentation tools. Connects to seven hosted MCP servers using OAuth.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Webhose/webz-news-search.git",
+        "sha": "52db9198834a81fe8771f13596108da3ea357e11",
+        "path": "packages/grok-plugin"
+      },
+      "homepage": "https://github.com/Webhose/webz-news-search/tree/master/packages/grok-plugin",
+      "keywords": ["webz", "webz.io", "webz-io", "webz news search", "webz news", "webz blogs", "webz forums", "webz segmentation"],
+      "domains": ["webz.io", "docs.webz.io", "news-search-mcp.webz.io", "news-mcp.webz.io", "blogs-mcp.webz.io", "forums-mcp.webz.io", "seg-news-mcp.webz.io", "seg-blogs-mcp.webz.io", "seg-forums-mcp.webz.io"]
     }
   ]
 }

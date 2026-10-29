@@ -1736,6 +1736,42 @@
         ]
       }
     },
+    "webz-io": {
+      "sha": "52db9198834a81fe8771f13596108da3ea357e11",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "webz-blogs",
+            "description": "http"
+          },
+          {
+            "name": "webz-blogs-segmentation",
+            "description": "http"
+          },
+          {
+            "name": "webz-forums",
+            "description": "http"
+          },
+          {
+            "name": "webz-forums-segmentation",
+            "description": "http"
+          },
+          {
+            "name": "webz-news",
+            "description": "http"
+          },
+          {
+            "name": "webz-news-search",
+            "description": "http"
+          },
+          {
+            "name": "webz-news-segmentation",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "975357e593b371336088e88b9d28712d42bbe068",
       "version": "1.36.1",
