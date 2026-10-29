@@ -650,6 +650,24 @@
         ]
       }
     },
+    "namestation": {
+      "sha": "ffa00739e3a9301dcc5ba006f81ae992d9b8d70b",
+      "version": "1.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "namestation",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "namestation-naming",
+            "description": "Generate brand names, find domains that are actually available, screen names for trademarks, and save shareable shortli…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

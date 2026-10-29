@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "namestation",
+      "description": "Official NameStation integration. Generate brand and business names with domains checked live, screen a shortlist against USPTO and EUIPO trademarks, and save picks to a NameStation list you can share.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NameStation/plugins.git",
+        "sha": "ffa00739e3a9301dcc5ba006f81ae992d9b8d70b"
+      },
+      "homepage": "https://www.namestation.com/integrations",
+      "keywords": ["namestation", "name station", "namestation names", "namestation domains", "namestation name generator", "namestation mcp"],
+      "domains": ["namestation.com", "www.namestation.com", "api.namestation.com"]
     }
   ]
 }
