@@ -676,6 +676,24 @@
         ]
       }
     },
+    "lfg-alarm": {
+      "sha": "ba7b6afb27ef9a737986a3e5a57b4b2b66482d91",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lfg-alarm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "lfg-alarm",
+            "description": "Put a real alarm on your person's phone, and on their friends', family's or community's phones, through LFG Alarm's MCP…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
