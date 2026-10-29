@@ -473,6 +473,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "synergieloc",
+      "description": "Buildings and real-estate tools via the hosted Synergieloc MCP server (200+ tools, list served live). Describe a building in JSON and get a checked scene, dimensioned DXF, IFC 4 model, BIM rule checks, clash detection, quantities, cost estimates and a 4K walkthrough, checked against the code of the declared country (France, EU, US, UK, Germany, China); plus French building-permit drafts and French rental management (IRL rent review, service-charge settlement, receipts). Core tools work without a key; a free key unlocks the rest.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/assoujojo82-coder/synergieloc-mcp.git",
+        "sha": "356392962a74d2387a821a27455a18437e697e9c",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://synergieloc.fr/en/api-ia",
+      "keywords": [
+        "synergieloc",
+        "synergieloc cao",
+        "synergieloc bim",
+        "synergieloc mcp"
+      ],
+      "domains": [
+        "synergieloc.fr"
+      ],
+      "author": {
+        "name": "Synergieloc",
+        "email": "contact@synergieloc.fr",
+        "url": "https://synergieloc.fr"
+      }
     }
   ]
 }
