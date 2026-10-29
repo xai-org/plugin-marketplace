@@ -473,6 +473,36 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "deepread",
+      "description": "DeepRead document AI (MCP server + skills). Read PDFs, scans, photos and office files into Markdown and structured JSON fields, fill PDF forms, and redact personal data through your DeepRead account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/deepread-tech/skills.git",
+        "sha": "5db6a9e9aba73bf86f116e1b68615769e1a09ac7"
+      },
+      "homepage": "https://www.deepread.tech",
+      "keywords": [
+        "deepread",
+        "deepread ocr",
+        "deepread extract",
+        "deepread form fill",
+        "deepread pii"
+      ],
+      "domains": [
+        "deepread.tech",
+        "www.deepread.tech",
+        "api.deepread.tech",
+        "mcp.deepread.tech"
+      ],
+      "version": "3.1.0",
+      "author": {
+        "name": "DeepRead Technologies",
+        "email": "support@deepread.tech",
+        "url": "https://github.com/deepread-tech"
+      }
     }
   ]
 }
