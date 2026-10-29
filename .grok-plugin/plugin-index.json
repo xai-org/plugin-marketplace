@@ -47,6 +47,24 @@
         ]
       }
     },
+    "ayudas-espana": {
+      "sha": "7905d06f5352eaca634942d8793da3940786b437",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ayudas-espana",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ayudas-espana",
+            "description": "Use for Explora ayudas de BDNS, comprueba fechas y beneficiarios y distingue convocatorias de posibles concesiones dire…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
@@ -71,6 +89,42 @@
           {
             "name": "base44-troubleshooter",
             "description": "Troubleshoot production issues using backend function logs. Use when investigating app errors, debugging function calls…"
+          }
+        ]
+      }
+    },
+    "boe-impact": {
+      "sha": "45ac30bd95b092fce7dd29c3021cd185b656c509",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "boe-impact",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "boe-impact",
+            "description": "Use for Compara artículos del BOE entre dos fechas y separa el cambio textual de sus posibles implicaciones prácticas.…"
+          }
+        ]
+      }
+    },
+    "borme-intelligence": {
+      "sha": "2b4d47ab2574f36376c8ca42f6c7f734d1d2637a",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "borme-intelligence",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "borme-intelligence",
+            "description": "Use for Consulta actos de una sociedad en el BORME por provincia y fecha, con rangos de hasta siete días y fuentes veri…"
           }
         ]
       }
@@ -106,6 +160,24 @@
           {
             "name": "calcom",
             "description": "Work with Cal.com scheduling through the Cal.com MCP server: check availability, create, reschedule, cancel and confirm…"
+          }
+        ]
+      }
+    },
+    "catastro-pro": {
+      "sha": "f106f866fbad6e5de3ec0ace914c6384a681c558",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "catastro-pro",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "catastro-pro",
+            "description": "Use for Convierte una referencia catastral en una ficha con superficies, uso, construcción y coordenadas claramente ide…"
           }
         ]
       }
@@ -550,6 +622,42 @@
           {
             "name": "hcti-open-graph-images",
             "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          }
+        ]
+      }
+    },
+    "ine-evidence": {
+      "sha": "7f0ecea6411f8c60e48d2d7979b43c4c2681f01d",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ine-evidence",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ine-evidence",
+            "description": "Use for Encuentra series del INE y presenta sus cifras con periodo, unidad, definición y límites de comparación. ine, e…"
+          }
+        ]
+      }
+    },
+    "licita-espana": {
+      "sha": "ce7ce3f8db88adf8721abd421be3656f77b996bb",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "licita-espana",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "licita-espana",
+            "description": "Use for Encuentra licitaciones y convierte sus pliegos en una decisión documentada: requisitos, plazos y próximos pasos…"
           }
         ]
       }
@@ -1130,6 +1238,24 @@
           {
             "name": "skyvern",
             "description": "Drive a real cloud browser with the Skyvern MCP tools. Use when a task needs a live website: opening JavaScript-rendere…"
+          }
+        ]
+      }
+    },
+    "spain-open-data": {
+      "sha": "2a234de5f65549a6044326de18ad860cd90ee438",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "spain-open-data",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "spain-open-data",
+            "description": "Use for Encuentra datasets españoles y compara publicador, formatos, licencia y fecha antes de integrarlos en tu trabaj…"
           }
         ]
       }

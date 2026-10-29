@@ -473,6 +473,139 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ayudas-espana",
+      "description": "Compare Spanish public grant calls with dates, beneficiaries, bases and explicit eligibility limits.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/ayudas-espana.git",
+        "sha": "7905d06f5352eaca634942d8793da3940786b437"
+      },
+      "homepage": "https://github.com/samihalawa/ayudas-espana",
+      "keywords": [
+        "ayudas-espana"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
+    },
+    {
+      "name": "boe-impact",
+      "description": "Find and compare BOE text versions at article level, retaining source dates and legal applicability limits.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/boe-impact.git",
+        "sha": "45ac30bd95b092fce7dd29c3021cd185b656c509"
+      },
+      "homepage": "https://github.com/samihalawa/boe-impact",
+      "keywords": [
+        "boe-impact"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
+    },
+    {
+      "name": "borme-intelligence",
+      "description": "Review published BORME corporate acts for a named company and date range, with registry sources and explicit gaps.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/borme-intelligence.git",
+        "sha": "2b4d47ab2574f36376c8ca42f6c7f734d1d2637a"
+      },
+      "homepage": "https://github.com/samihalawa/borme-intelligence",
+      "keywords": [
+        "borme-intelligence"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
+    },
+    {
+      "name": "catastro-pro",
+      "description": "Build a non-protected cadastral fact sheet from a reference, keeping ownership title and planning permission unverified.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/catastro-pro.git",
+        "sha": "f106f866fbad6e5de3ec0ace914c6384a681c558"
+      },
+      "homepage": "https://github.com/samihalawa/catastro-pro",
+      "keywords": [
+        "catastro-pro"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
+    },
+    {
+      "name": "ine-evidence",
+      "description": "Find INE tables and series and calculate traceable changes while preserving units, dates and missing values.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/ine-evidence.git",
+        "sha": "7f0ecea6411f8c60e48d2d7979b43c4c2681f01d"
+      },
+      "homepage": "https://github.com/samihalawa/ine-evidence",
+      "keywords": [
+        "ine-evidence"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
+    },
+    {
+      "name": "licita-espana",
+      "description": "Triage published Spanish tenders by deadline, classification and official source, with explicit partial-feed coverage.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/licita-espana.git",
+        "sha": "ce7ce3f8db88adf8721abd421be3656f77b996bb"
+      },
+      "homepage": "https://github.com/samihalawa/licita-espana",
+      "keywords": [
+        "licita-espana"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "name": "Sami Halawa",
+        "email": "sami@samihalawa.com"
+      }
+    },
+    {
+      "name": "spain-open-data",
+      "description": "Find and compare Spanish public datasets by licence metadata, freshness and usable access links.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/samihalawa/spain-open-data.git",
+        "sha": "2a234de5f65549a6044326de18ad860cd90ee438"
+      },
+      "homepage": "https://github.com/samihalawa/spain-open-data",
+      "keywords": [
+        "spain-open-data"
+      ],
+      "version": "0.4.0",
+      "author": {
+        "email": "sami@samihalawa.com",
+        "name": "Sami Halawa"
+      }
     }
   ]
 }
