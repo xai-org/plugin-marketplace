@@ -1,0 +1,17 @@
+{
+  "name": "cockatoo",
+  "version": "1.0.0",
+  "description": "Create, edit, preview and publish hosted business websites with owner-approved access.",
+  "author": {
+    "name": "Cockatoo",
+    "url": "https://cockatoo.com.au"
+  },
+  "homepage": "https://cockatoo.com.au/agents/",
+  "repository": "https://github.com/louisblythe/cockatoo-mcp",
+  "license": "MIT",
+  "keywords": [
+    "cockatoo",
+    "cockatoo websites",
+    "cockatoo mcp"
+  ]
+}
