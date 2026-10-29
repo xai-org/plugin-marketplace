@@ -816,6 +816,24 @@
         ]
       }
     },
+    "promoat": {
+      "sha": "432f587383206ed4888005a39b04a9e9114236d9",
+      "version": "1.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "promoat",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "promoat-partner-api",
+            "description": "Operate the Promoat Partner API end to end through the Promoat MCP tools — make AI presenter (UGC-style) vertical video…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
