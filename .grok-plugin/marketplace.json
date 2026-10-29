@@ -473,6 +473,34 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "masheev",
+      "description": "Masheev is the AI-first unified inbox for customer communication: WhatsApp, SMS, phone calls with AI voice agents, email, Instagram and website live chat in one omnichannel workspace. Build it into your app with the chat widget, React SDK, webhooks and API, then run the inbox from Grok: triage conversations, find contacts and tune AI agents.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/masheev/skills.git",
+        "sha": "21d3a39002ef1c0ff85a4205db1979c49fbbee55"
+      },
+      "homepage": "https://docs.masheev.com/agents",
+      "keywords": [
+        "masheev",
+        "masheev inbox",
+        "masheev widget",
+        "masheev whatsapp",
+        "masheev sms",
+        "masheev voice agent",
+        "masheev ai agent",
+        "masheev api",
+        "masheev mcp"
+      ],
+      "domains": [
+        "masheev.com",
+        "app.masheev.com",
+        "docs.masheev.com",
+        "api.masheev.com"
+      ]
     }
   ]
 }

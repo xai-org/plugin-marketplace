@@ -554,6 +554,80 @@
         ]
       }
     },
+    "masheev": {
+      "sha": "21d3a39002ef1c0ff85a4205db1979c49fbbee55",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "masheev",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "masheev-agent-tuning",
+            "description": "Review and improve a Masheev AI agent from an AI assistant connected to the Masheev MCP server. Use when asked why the…"
+          },
+          {
+            "name": "masheev-ai-agents",
+            "description": "Use when configuring Masheev AI agents — system prompts, model selection, tool assignment, knowledge base integration,…"
+          },
+          {
+            "name": "masheev-api",
+            "description": "Use when calling the Masheev API for contacts, conversations, messages, inboxes, AI agents, knowledge base, or any serv…"
+          },
+          {
+            "name": "masheev-automations",
+            "description": "Use when building automation rules and workflows in Masheev. Covers triggers (conversation.created, message.created, SL…"
+          },
+          {
+            "name": "masheev-channels",
+            "description": "Use when integrating WhatsApp, SMS, email, voice, Instagram, or Google Reviews channels with Masheev. Covers channel-sp…"
+          },
+          {
+            "name": "masheev-cli",
+            "description": "Operate a Masheev workspace from the terminal with the masheev CLI. Use when asked to log in to Masheev from a shell, s…"
+          },
+          {
+            "name": "masheev-client-tools",
+            "description": "Use when defining client-side tools that the Masheev AI agent can invoke in the browser. Covers ClientToolDefinition wi…"
+          },
+          {
+            "name": "masheev-inbox-triage",
+            "description": "Triage a Masheev customer inbox from an AI assistant connected to the Masheev MCP server. Use when asked to \"go through…"
+          },
+          {
+            "name": "masheev-integrate",
+            "description": "Plan and implement Masheev for a business in an existing application. Use when asked to integrate Masheev, connect it t…"
+          },
+          {
+            "name": "masheev-mcp",
+            "description": "Connect an AI assistant or coding agent to a Masheev workspace through the hosted Masheev MCP server (OAuth, no API key…"
+          },
+          {
+            "name": "masheev-react-sdk",
+            "description": "Use when building custom chat UIs with the Masheev React SDK instead of the default widget. Covers the useMasheev hook,…"
+          },
+          {
+            "name": "masheev-reply-with-review",
+            "description": "Draft and send replies to Masheev customer conversations with a human review step. Use when asked to \"reply to this cus…"
+          },
+          {
+            "name": "masheev-webhooks",
+            "description": "Use when setting up, verifying, or handling Masheev webhook events in your backend. Covers creating webhook subscriptio…"
+          },
+          {
+            "name": "masheev-widget",
+            "description": "Use when installing, configuring, or troubleshooting the Masheev chat widget in any web application. Covers adding the…"
+          },
+          {
+            "name": "masheev-workflows",
+            "description": "Use when building multi-step conversational workflows with Masheev. Covers WorkflowConfig, WorkflowStepConfig, step def…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
