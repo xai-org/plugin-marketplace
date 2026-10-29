@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "bool",
+      "description": "Make your own apps and tools with Bool. Connects to Bool's hosted MCP so agents can build, edit, and publish full-stack web apps.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/codehs/bool-plugin.git",
+        "sha": "bc5a4d517c8f3c16af48e58f9fcd067938c6855f"
+      },
+      "homepage": "https://bool.com",
+      "keywords": ["build a bool app", "bool app builder", "deploy with bool", "remix a bool"],
+      "domains": ["bool.com"]
     }
   ]
 }
