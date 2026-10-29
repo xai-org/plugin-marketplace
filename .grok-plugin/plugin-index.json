@@ -1034,6 +1034,36 @@
         ]
       }
     },
+    "qualisend": {
+      "sha": "b028d172e50d773c45c2b4e3337099cc57634851",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "qualisend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-email-validation",
+            "description": "Add email address validation to an application - signup forms, waitlists, checkout, CRM imports, or an API endpoint. Us…"
+          },
+          {
+            "name": "diagnose-delivery",
+            "description": "Work out why a specific email bounced, was delayed, or landed in spam. Use when the user has a bounce message, an SMTP…"
+          },
+          {
+            "name": "email-deliverability",
+            "description": "Check and fix whether a domain's email reaches the inbox - SPF, DKIM, DMARC, MTA-STS, MX and blacklist status. Use when…"
+          },
+          {
+            "name": "verify-emails",
+            "description": "Check whether email addresses are real and safe to send to. Use when the user has a list, CSV, database column, array,…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",

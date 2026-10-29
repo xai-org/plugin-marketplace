@@ -473,6 +473,29 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "qualisend",
+      "description": "Qualisend email verification and deliverability (hosted MCP server + skills). Verify one address or a list of up to 1,000, check credits, and on Pro review a domain's SPF and DMARC, generate DNS records, read message headers and explain SMTP codes. Sign in with your Qualisend account; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/qualisend/agent-plugins.git",
+        "sha": "b028d172e50d773c45c2b4e3337099cc57634851"
+      },
+      "homepage": "https://www.qualisend.com/mcp",
+      "keywords": [
+        "qualisend",
+        "qualisend email verification",
+        "qualisend email verifier",
+        "qualisend mcp",
+        "qualisend deliverability"
+      ],
+      "domains": [
+        "qualisend.com",
+        "www.qualisend.com",
+        "app.qualisend.com"
+      ]
     }
   ]
 }
