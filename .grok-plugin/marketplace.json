@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "linkbunny-placement-checker",
+      "description": "Check whether one public HTTPS page links to an expected URL, including anchor text, rel attributes and nofollow status. Free, with no account or API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hboon/linkbunny-placement-checker-cursor.git",
+        "sha": "57f051fc11b36edb27a8485721b233db90c24d0f"
+      },
+      "homepage": "https://getlinkbunny.com/tools/backlink-placement-checker",
+      "keywords": ["linkbunny", "linkbunny placement checker"],
+      "domains": ["getlinkbunny.com", "mcp.getlinkbunny.com"]
     }
   ]
 }

@@ -554,6 +554,18 @@
         ]
       }
     },
+    "linkbunny-placement-checker": {
+      "sha": "57f051fc11b36edb27a8485721b233db90c24d0f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "linkbunny-placement-checker",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
