@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "webly",
+      "description": "Website hosting for AI agents (hosted MCP server + skill). Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve. Supports custom domains and version history.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Webly-AI/webly-plugin.git",
+        "sha": "bbbbcfcc4dc21c696a38f48285af4d26d286d3f1"
+      },
+      "homepage": "https://webly.ai",
+      "keywords": [
+        "webly",
+        "webly.ai",
+        "webly.site",
+        "publish to webly"
+      ],
+      "domains": [
+        "webly.ai",
+        "webly.site"
+      ]
     }
   ]
 }
