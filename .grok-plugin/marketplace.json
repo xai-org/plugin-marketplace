@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "mnemoverse",
+      "description": "Persistent memory for AI agents, shared across tools: save decisions, preferences and lessons, and recall them in Grok, Claude Code, Cursor or any MCP client. Hosted MCP server with an OAuth sign-in in the browser, no API key to paste. Rating a recalled memory as helpful or misleading re-ranks what comes back next.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mnemoverse/claude-plugin.git",
+        "sha": "83cd86375b54f3b1b90783138bb99ba4b2345bbb"
+      },
+      "homepage": "https://mnemoverse.com/docs/api/remote-mcp-server",
+      "keywords": [
+        "mnemoverse",
+        "mnemoverse memory",
+        "mnemoverse mcp"
+      ],
+      "domains": [
+        "mnemoverse.com",
+        "mcp.mnemoverse.com"
+      ]
     }
   ]
 }
