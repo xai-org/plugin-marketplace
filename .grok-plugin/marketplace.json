@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "make-parts-now",
+      "description": "Make Parts Now 3D printing and CNC machining quotes in Grok Build. Get an instant price and ship date for custom parts from a CAD file (STL, STEP, 3MF, OBJ) in SLS nylon, FDM plastic, aluminum or brass, made in the US, change the quote, and get a checkout link to order on makepartsnow.com.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/makepartsnow/makepartsnow-grok.git",
+        "sha": "26c5605cc8e0c5a675d3ad6dc18931b43157c95c"
+      },
+      "homepage": "https://makepartsnow.com/developers#ai-assistants",
+      "keywords": ["make parts now", "makepartsnow", "make parts now quote", "makepartsnow quote"],
+      "domains": ["makepartsnow.com"]
     }
   ]
 }
