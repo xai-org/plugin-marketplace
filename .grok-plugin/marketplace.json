@@ -473,6 +473,32 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "languals",
+      "description": "Language tutor via the hosted Languals MCP server: CEFR level estimates, sentence corrections explained in the learner's language and translations with usage notes, without a key; tutor conversations, session notes, progress, flashcard reviews and pronunciation with a Languals account (OAuth).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/assoujojo82-coder/languals-mcp.git",
+        "sha": "b53d656cd3772c7239048329e842a6e91856e5f8",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://languals.fr",
+      "keywords": [
+        "languals",
+        "language tutor",
+        "cefr",
+        "pronunciation"
+      ],
+      "domains": [
+        "languals.fr"
+      ],
+      "author": {
+        "name": "Languals",
+        "email": "contact@languals.fr",
+        "url": "https://languals.fr"
+      }
     }
   ]
 }
