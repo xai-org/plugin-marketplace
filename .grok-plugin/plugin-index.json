@@ -521,8 +521,8 @@
       }
     },
     "grokbot-discord-fleet": {
-      "sha": "41cc56984fbfb3d3003ef93f08e26da3a360f324",
-      "version": "0.3.33",
+      "sha": "1ac4c8b4d2360791a75d7d328bae0f6264d108cf",
+      "version": "0.3.34",
       "components": {
         "mcpServers": [
           {
