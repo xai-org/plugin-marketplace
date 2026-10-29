@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "skryvo",
+      "description": "Official Skryvo integration. Write social posts in your brand's saved voice, design their pictures in the brand's look, schedule them to the accounts you connected in Skryvo (LinkedIn, X, Bluesky, Threads, Telegram and more) and read how they performed. Nothing goes out without your go-ahead.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skryvo/agent.git",
+        "sha": "9c378a8aa690436035ef354292b9a495a1d13e83"
+      },
+      "homepage": "https://skryvo.ai/agents",
+      "keywords": ["skryvo", "skryvo post", "skryvo schedule", "skryvo brand voice"],
+      "domains": ["skryvo.ai", "app.skryvo.ai"]
     }
   ]
 }
