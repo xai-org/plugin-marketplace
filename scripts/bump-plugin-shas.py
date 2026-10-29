@@ -38,6 +38,7 @@ import subprocess
 import sys
 import tempfile
 from datetime import datetime, timezone
+from urllib.parse import quote
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -138,24 +139,57 @@ def remote_branch_exists(branch: str) -> bool:
     return bool((result.stdout or "").strip())
 
 
+def slug_from_remote_url(url: str) -> str:
+    """Return owner/repo from an origin URL."""
+    text = url.strip()
+    if text.endswith(".git"):
+        text = text[:-4]
+    if text.startswith("git@github.com:"):
+        slug = text.split(":", 1)[1]
+    else:
+        marker = "github.com/"
+        index = text.find(marker)
+        if index == -1:
+            raise RuntimeError(f"origin url {url!r} is not a github.com remote")
+        slug = text[index + len(marker) :]
+    slug = slug.strip("/")
+    owner, sep, repo = slug.partition("/")
+    if not sep or not owner or not repo or "/" in repo:
+        raise RuntimeError(f"origin url {url!r} is not owner/repo")
+    return f"{owner}/{repo}"
+
+
+def repository_slug() -> str:
+    """owner/repo for this checkout. Actions sets GITHUB_REPOSITORY."""
+    slug = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    if slug.count("/") == 1 and ":" not in slug and " " not in slug:
+        return slug
+    result = run(["git", "remote", "get-url", "origin"], check=True)
+    return slug_from_remote_url(result.stdout or "")
+
+
 def open_pr_for_branch(branch: str) -> str | None:
-    """Return open PR URL for head branch, or None if none.
+    """Return the open same-repo PR URL for branch, or None.
+
+    `gh pr list --head <branch>` matches that branch name on every fork.
+    The pulls API `head=owner:branch` filter does not. A GET with the
+    query in the URL is required: `gh api -f` posts and tries to create
+    a pull request.
 
     Raises on `gh` failure so we never treat API errors as "no PR".
     """
+    slug = repository_slug()
+    owner = slug.split("/", 1)[0]
+    head = quote(f"{owner}:{branch}", safe="/:")
     result = run(
         [
             "gh",
-            "pr",
-            "list",
-            "--head",
-            branch,
-            "--state",
-            "open",
-            "--json",
-            "url",
+            "api",
+            "--method",
+            "GET",
+            f"repos/{slug}/pulls?state=open&head={head}",
             "--jq",
-            ".[0].url // empty",
+            ".[0].html_url // empty",
         ],
         check=True,
     )

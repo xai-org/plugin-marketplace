@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v
+
       - name: Validate catalog
         run: python3 scripts/validate-catalog.py
 
