@@ -75,6 +75,18 @@
         ]
       }
     },
+    "best-electrician-jobs": {
+      "sha": "27860ed843b8ae486bb48830388d3cf6f01e670a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "best-electrician-jobs",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

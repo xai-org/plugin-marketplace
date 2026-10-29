@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "best-electrician-jobs",
+      "description": "Employers manage their electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring. Remote MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/854Labs/best-electrician-jobs.git",
+        "sha": "27860ed843b8ae486bb48830388d3cf6f01e670a"
+      },
+      "homepage": "https://www.bestelectricianjobs.com/ai",
+      "keywords": ["best electrician jobs", "electrician hiring", "electrical contractor jobs", "job posts", "applicants"],
+      "domains": ["bestelectricianjobs.com", "www.bestelectricianjobs.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "854 Labs",
+        "email": "support@bestelectricianjobs.com",
+        "url": "https://github.com/854Labs"
+      }
     }
   ]
 }
