@@ -473,6 +473,27 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "drint",
+      "description": "Official Drint integration for packaging and print design. Search Drint's 3D packaging mockups (boxes, paper bags, cartons, bottles, jars, labels) and open them in an interactive 3D view, list Drint structures and FEFCO / ECMA codes, and get print-ready PDF, AI or SVG dielines at an exact size (DXF / CF2 on Pro). Hosted remote MCP server at https://drint.io/mcp; account tools sign in with OAuth.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drint-io/drint-mcp.git",
+        "sha": "83497ba5da2dee82460339ce2b6ba949617c5824"
+      },
+      "homepage": "https://drint.io/help/mcp",
+      "keywords": [
+        "drint",
+        "drint mockup",
+        "drint dieline",
+        "drint 3d studio",
+        "drint packaging"
+      ],
+      "domains": [
+        "drint.io"
+      ]
     }
   ]
 }

@@ -350,6 +350,18 @@
         ]
       }
     },
+    "drint": {
+      "sha": "83497ba5da2dee82460339ce2b6ba949617c5824",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "drint",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
