@@ -1736,6 +1736,46 @@
         ]
       }
     },
+    "virlo": {
+      "sha": "4dc14db1cb9495c14b8dc74ff9a047a7e57ebf4e",
+      "version": "0.4.3",
+      "components": {
+        "commands": [
+          {
+            "name": "creator-deep-dive",
+            "description": "Deep-dive analysis of a specific creator (platform + username) using Virlo."
+          },
+          {
+            "name": "genre-monitor",
+            "description": "Stand up a recurring TikTok genre/scene monitor and read discovery signals (sounds, hashtags, rising creators) using Vi…"
+          },
+          {
+            "name": "niche-analysis",
+            "description": "Full niche analysis (research agent + creators + recurring monitor) for a given niche, using Virlo."
+          },
+          {
+            "name": "trend-scout",
+            "description": "Discover what's trending right now across TikTok, YouTube Shorts, and Instagram Reels using Virlo."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "virlo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "short-form-trend-research",
+            "description": "Turns live Virlo trend data into a short-form content plan for TikTok, YouTube Shorts, and Instagram Reels: which trend…"
+          },
+          {
+            "name": "virlo",
+            "description": "Looks up live short-form video data on TikTok, YouTube Shorts, and Instagram Reels through the Virlo MCP server: emergi…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
       "version": "1.36.3",

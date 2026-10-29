@@ -473,6 +473,28 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "virlo",
+      "description": "Short-form video intelligence for TikTok, YouTube Shorts, and Instagram Reels: emerging trends and breakout videos in any niche, creator lookups with outlier videos and audience data, trending sounds, hashtags and hooks, plus one-shot or recurring niche research agents. Read-only — ranks results by how far a video beat its own creator's baseline.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Virlo-AI/virlo-grok-plugin.git",
+        "sha": "4dc14db1cb9495c14b8dc74ff9a047a7e57ebf4e"
+      },
+      "homepage": "https://virlo.ai",
+      "keywords": [
+        "virlo",
+        "virlo mcp",
+        "virlo trends",
+        "virlo creator lookup",
+        "virlo niche research"
+      ],
+      "domains": [
+        "virlo.ai",
+        "dev.virlo.ai"
+      ]
     }
   ]
 }
