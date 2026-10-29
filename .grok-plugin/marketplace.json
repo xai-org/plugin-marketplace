@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "socialforge",
+      "description": "Open-source social media production: a monthly content calendar in, on-brand copy, images, carousels and video out, with every paid generation quoted before it runs, human approval at every creative stage, sourced per-platform limits and a delivery audit. 21 skills, 5 agents; no hooks, and no MCP server connects by default.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/indranilbanerjee/socialforge.git",
+        "sha": "552dba358f148de8439795c5e8becb57f9943ec8"
+      },
+      "homepage": "https://github.com/indranilbanerjee/socialforge",
+      "keywords": ["socialforge", "social forge"]
     }
   ]
 }
