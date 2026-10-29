@@ -214,15 +214,15 @@
     },
     {
       "name": "octen",
-      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "description": "Live web and news search with storyline clustering, company and person profiles, local place lookup, fast URL lookup, broad multi-angle search, image search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+        "sha": "4619a5960abfe3f6a3cffde011ecf0b7981a6760"
       },
       "homepage": "https://octen.ai",
-      "keywords": ["octen", "octen search", "octen ai"],
+      "keywords": ["octen", "octen search", "octen ai", "octen business search", "octen place search", "octen pulse search"],
       "domains": ["octen.ai", "docs.octen.ai"]
     },
     {

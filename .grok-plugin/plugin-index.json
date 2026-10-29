@@ -750,7 +750,7 @@
       }
     },
     "octen": {
-      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
+      "sha": "4619a5960abfe3f6a3cffde011ecf0b7981a6760",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -762,7 +762,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, image search, and clean U…"
           }
         ]
       }
