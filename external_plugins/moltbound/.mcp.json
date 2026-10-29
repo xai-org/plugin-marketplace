@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moltbound": {
+      "type": "http",
+      "url": "https://moltbound.dev/kapi/mcp"
+    }
+  }
+}

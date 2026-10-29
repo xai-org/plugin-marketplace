@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mb-mark-grad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00e5a3"/>
+      <stop offset="0.6" stop-color="#e8c47a"/>
+      <stop offset="1" stop-color="#788cff"/>
+    </linearGradient>
+    <linearGradient id="mb-core-grad" x1="16" y1="16" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#00e5a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="10" fill="#0b0d13"/>
+  <path d="M24 6L39.5 15V33L24 42L8.5 33V15L24 6Z" stroke="url(#mb-mark-grad)" stroke-width="2.6" stroke-linejoin="round"/>
+  <path d="M15 21C17 17.5 20.2 15.5 24 15.5C27.8 15.5 31 17.5 33 21" stroke="#f0f6fc" stroke-width="2.2" stroke-linecap="round" opacity="0.92"/>
+  <path d="M18 25C19.5 23 21.5 21.8 24 21.8C26.5 21.8 28.5 23 30 25" stroke="#f0f6fc" stroke-width="2.2" stroke-linecap="round" opacity="0.92"/>
+  <path d="M24 28L27.5 31.5L24 35L20.5 31.5L24 28Z" fill="url(#mb-core-grad)"/>
+  <circle cx="24" cy="31.5" r="1.2" fill="#0b0d13"/>
+</svg>

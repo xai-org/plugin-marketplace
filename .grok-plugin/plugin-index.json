@@ -570,6 +570,23 @@
         ]
       }
     },
+    "moltbound": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "moltbound",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "moltbound",
+            "description": "Get simulated quotes for US services (car, home, renters, pet, travel, life, health, energy, internet, mobile and more)…"
+          }
+        ]
+      }
+    },
     "mongodb": {
       "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
       "version": "1.2.1",

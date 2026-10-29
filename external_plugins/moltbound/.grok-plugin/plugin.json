@@ -1,0 +1,13 @@
+{
+  "name": "moltbound",
+  "version": "1.0.0",
+  "description": "Get quotes for 20 US services (car, home, pet, travel, energy and more) from Moltbound, the consent and checkout rail for AI agents, over MCP. Keyless; any purchase needs the person's own passkey approval. Sandbox now open with simulated data.",
+  "author": {
+    "name": "Moltbound",
+    "url": "https://moltbound.dev"
+  },
+  "homepage": "https://moltbound.dev/for-agents",
+  "license": "MIT",
+  "keywords": ["moltbound", "quotes", "insurance", "consent", "passkey", "mcp", "a2a"],
+  "logo": "assets/logo.svg"
+}

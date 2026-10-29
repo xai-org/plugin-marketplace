@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "moltbound",
+      "description": "Consent and checkout rail for AI agents: quotes for 20 US services (car, home, pet, travel, energy and more) via a keyless MCP server, with a skill for the passkey-approval checkout flow. Sandbox now open with simulated data: fictional partners, nothing bought for real.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/moltbound"
+      },
+      "homepage": "https://moltbound.dev/for-agents",
+      "keywords": ["moltbound", "moltbound sandbox"],
+      "domains": ["moltbound.dev"]
     }
   ]
 }
