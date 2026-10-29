@@ -1,0 +1,14 @@
+{
+  "name": "palomaceo",
+  "version": "1.0.0",
+  "description": "Run a restaurant or shop on PalomaCEO.ai from Grok Build through the hosted PalomaCEO.ai MCP server: social posts, the menu in Paloma, the website and ordering page, online ordering and delivery settings, and sales reports. Every change waits in the owner's Inbox in the PalomaCEO.ai app until they tap Approve. Needs a PalomaCEO.ai API key in PALOMACEO_API_KEY.",
+  "author": {
+    "name": "PalomaCEO.ai",
+    "email": "support@palomaceo.ai",
+    "url": "https://palomaceo.ai"
+  },
+  "homepage": "https://palomaceo.ai",
+  "license": "Proprietary",
+  "keywords": ["palomaceo", "palomaceo.ai", "paloma ceo", "palomaceo mcp"],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "palomaceo": {
+      "type": "http",
+      "url": "https://mcp.palomaceo.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${PALOMACEO_API_KEY}"
+      }
+    }
+  }
+}
