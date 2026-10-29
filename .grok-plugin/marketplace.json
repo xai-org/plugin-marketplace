@@ -473,6 +473,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "tickertrac-assistant",
+      "description": "Review saved investment theses, check cited evidence and preserve how your reasoning changes. Manage TickerTrac updates with your approval.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/emoreno619/tickertrac-grok-build.git",
+        "sha": "2ce903f8393d45b71ca1f57165cd7aa46de6bbfc"
+      },
+      "homepage": "https://tickertrac.com/assistants?source=grok_build&medium=organic&campaign=assistant-connect-202610&creative=directory-v1",
+      "keywords": [
+        "tickertrac",
+        "tickertrac assistant",
+        "tickertrac research"
+      ],
+      "domains": [
+        "tickertrac.com",
+        "app.tickertrac.com"
+      ],
+      "author": {
+        "name": "TickerTrac"
+      },
+      "version": "1.7.0"
     }
   ]
 }

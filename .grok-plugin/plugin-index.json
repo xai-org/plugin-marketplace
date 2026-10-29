@@ -1346,6 +1346,32 @@
         ]
       }
     },
+    "tickertrac-assistant": {
+      "sha": "2ce903f8393d45b71ca1f57165cd7aa46de6bbfc",
+      "version": "1.7.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tickertrac",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tickertrac-delivery",
+            "description": "Inspect and configure TickerTrac email digests and phone notifications, preview retained updates, inspect delivery stat…"
+          },
+          {
+            "name": "tickertrac-evidence-check",
+            "description": "Check one assumption, expectation or claim the user states against the exact evidence TickerTrac has retained for a sav…"
+          },
+          {
+            "name": "tickertrac-thesis-review",
+            "description": "Weekly or catch-up review of the user's saved TickerTrac theses from retained evidence only. Reports which saved Compan…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
       "version": "1.1.1",
