@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "nordsynk",
+      "description": "Nordsynk for Fortnox, the Swedish accounting system (hosted MCP server + skill) from Nordbeam AB. Read invoices, supplier invoices, vouchers, ledgers and reports in the Fortnox companies you approve, and prepare changes that wait for your approval in the browser. Sign in with your Nordsynk account on first connection; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nordbeam/nordsynk-fortnox-mcp.git",
+        "sha": "5831dff1b34e0e867249813ff01026010669b8ab"
+      },
+      "homepage": "https://nordsynk.se/fortnox-mcp",
+      "keywords": ["nordsynk", "nordsynk fortnox", "nordsynk mcp"],
+      "domains": ["nordsynk.se", "mcp.nordsynk.se"]
     }
   ]
 }

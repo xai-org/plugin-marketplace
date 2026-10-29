@@ -749,6 +749,24 @@
         ]
       }
     },
+    "nordsynk": {
+      "sha": "5831dff1b34e0e867249813ff01026010669b8ab",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nordsynk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nordsynk-fortnox",
+            "description": "Use when the user asks about their Fortnox bookkeeping or wants accounting work done in Fortnox (the Swedish accounting…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
