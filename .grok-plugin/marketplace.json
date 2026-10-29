@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "gocharting-lipi",
+      "description": "GoCharting's skill for Lipi, its chart-script language: write indicators and strategies from a description, adapt scripts written in other languages, fix editor errors and draft publish descriptions. Instructions and documentation only; no network calls.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoChartingOSS/gocharting-lipi.git",
+        "sha": "665c00ac0dd022a5bc00c0ee043e0391204e3097"
+      },
+      "homepage": "https://github.com/GoChartingOSS/gocharting-lipi",
+      "keywords": [
+        "gocharting",
+        "gocharting lipi",
+        "lipi script",
+        "lipi indicator"
+      ],
+      "domains": [
+        "gocharting.com"
+      ]
     }
   ]
 }

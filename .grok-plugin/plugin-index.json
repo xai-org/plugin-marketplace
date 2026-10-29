@@ -520,6 +520,18 @@
         ]
       }
     },
+    "gocharting-lipi": {
+      "sha": "665c00ac0dd022a5bc00c0ee043e0391204e3097",
+      "version": "0.5.2",
+      "components": {
+        "skills": [
+          {
+            "name": "gocharting-lipi",
+            "description": "Use this skill whenever the user wants a script for GoCharting charts, in GoCharting's Lipi language: converting an ind…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
