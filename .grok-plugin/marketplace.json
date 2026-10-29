@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "cockatoo",
+      "description": "Create, edit, preview and publish hosted business websites with owner-approved access.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/cockatoo"
+      },
+      "homepage": "https://cockatoo.com.au/agents/",
+      "keywords": [
+        "cockatoo",
+        "cockatoo websites",
+        "cockatoo mcp"
+      ],
+      "domains": [
+        "cockatoo.com.au",
+        "app.cockatoo.com.au"
+      ]
     }
   ]
 }

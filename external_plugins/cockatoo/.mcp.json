@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cockatoo": {
+      "type": "http",
+      "url": "https://app.cockatoo.com.au/mcp"
+    }
+  }
+}
