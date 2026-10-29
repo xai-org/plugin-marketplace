@@ -1070,6 +1070,24 @@
         ]
       }
     },
+    "remake-by-objekts": {
+      "sha": "181e8623817de6aa09007f000dfca39045231a77",
+      "version": "0.39.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "remake",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "remake",
+            "description": "REMAKE by objekts gives a clear, candid professional review of an idea, script, images, ad, music video, animation or c…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",

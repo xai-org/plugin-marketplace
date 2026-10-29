@@ -473,6 +473,26 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "remake-by-objekts",
+      "description": "REMAKE by objekts reviews supplied film ideas, scripts, images and cuts, explains consequential weaknesses, and scopes concrete creative and production work. Beta 0.39.0.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/peach420fuzz/plugin-marketplace.git",
+        "sha": "181e8623817de6aa09007f000dfca39045231a77"
+      },
+      "homepage": "https://remake.objekts.ai/",
+      "keywords": [
+        "remake by objekts",
+        "objekts remake"
+      ],
+      "domains": [
+        "remake.objekts.ai"
+      ],
+      "version": "0.39.0",
+      "author": "objekts"
     }
   ]
 }
