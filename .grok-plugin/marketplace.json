@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "talaria",
+      "description": "Talaria observability for agents. Instrument agent code, observe production errors, traces, and replays over hosted MCP, triage issues, and verify that fixes hold after release.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/newtalaria/talaria-agent-plugin.git",
+        "sha": "1103195ab33821e082a1ce2ac81f72fb6045e9fc"
+      },
+      "homepage": "https://www.newtalaria.com/mcp",
+      "keywords": ["talaria", "talaria mcp", "newtalaria"],
+      "domains": ["newtalaria.com", "www.newtalaria.com", "api.newtalaria.com"]
     }
   ]
 }

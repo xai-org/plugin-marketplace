@@ -1300,6 +1300,40 @@
         ]
       }
     },
+    "talaria": {
+      "sha": "1103195ab33821e082a1ce2ac81f72fb6045e9fc",
+      "version": "0.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "talaria",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "talaria-get-started",
+            "description": "Connect Talaria MCP, confirm the org and project, and run a first smoke read (docs or search_errors). Use when the user…"
+          },
+          {
+            "name": "talaria-instrument",
+            "description": "Add Talaria to an app: detect stack, confirm org/project, run setup_project (development ingest key), wire the SDK from…"
+          },
+          {
+            "name": "talaria-observe-performance",
+            "description": "Read Talaria project health and performance: get_project_stats, search_traces / get_trace, list_suspect_spans, list_dat…"
+          },
+          {
+            "name": "talaria-triage-issue",
+            "description": "Investigate one Talaria production issue: search_errors → get_error pack → optional get_trace / get_replay / get_suspec…"
+          },
+          {
+            "name": "talaria-verify-fix",
+            "description": "Check whether a Talaria fix held after a release: list_releases / get_release, optional wait_for_event or search_events…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
