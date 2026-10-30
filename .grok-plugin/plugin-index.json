@@ -350,6 +350,334 @@
         ]
       }
     },
+    "digital-marketing-pro": {
+      "sha": "cc45ca06eaf48abde3bb60fb79d31c41229c58db",
+      "version": "3.41.0",
+      "components": {
+        "agents": [
+          {
+            "name": "agency-operations",
+            "description": "Agency operations across many client brands: portfolio dashboards, client reports, onboarding, SOPs, credential switchi…"
+          },
+          {
+            "name": "analytics-analyst",
+            "description": "Marketing analytics: KPI definition, dashboards, attribution reporting, performance analysis, and turning data into dec…"
+          },
+          {
+            "name": "brand-guardian",
+            "description": "Brand and compliance review before publishing: voice consistency, GDPR, CAN-SPAM and FTC rules, WCAG accessibility, inc…"
+          },
+          {
+            "name": "competitive-intel",
+            "description": "Competitive intelligence on competitors: teardowns (content, SEO, ads, pricing, positioning), ongoing monitoring and sh…"
+          },
+          {
+            "name": "content-creator",
+            "description": "Writes and refines marketing content: blog posts, ad copy, emails, social posts, landing pages, press releases, video s…"
+          },
+          {
+            "name": "crm-manager",
+            "description": "CRM operations: contacts, lead imports, deals, pipelines and campaign sync with Salesforce, HubSpot, Zoho or Pipedrive."
+          },
+          {
+            "name": "cro-specialist",
+            "description": "Conversion rate optimization (CRO): landing page audits, A/B test design, forms, pricing pages, checkout flows, signifi…"
+          },
+          {
+            "name": "email-specialist",
+            "description": "Email marketing: campaign strategy, automation flows, deliverability, list segmentation, lifecycle and win-back sequenc…"
+          },
+          {
+            "name": "execution-coordinator",
+            "description": "Execution of approved actions on live platforms: publish, send, launch ads, schedule posts, sync CRM, behind the approv…"
+          },
+          {
+            "name": "growth-engineer",
+            "description": "Growth engineering: product-led growth, referral programs, viral loops, activation and retention experiments; page CRO…"
+          },
+          {
+            "name": "influencer-manager",
+            "description": "Influencer and creator marketing: discovery, campaign briefs, FTC disclosure checks, UGC, contracts, authenticity and p…"
+          },
+          {
+            "name": "intelligence-curator",
+            "description": "Intelligence curation: interprets marketing learnings, finds patterns, scores confidence, writes playbooks, resolves co…"
+          },
+          {
+            "name": "journey-orchestrator",
+            "description": "Customer journey design: cross-channel touchpoint sequences, branching journey logic, nurture flows and simulated outco…"
+          },
+          {
+            "name": "localization-specialist",
+            "description": "Localization: translation, transcreation and cultural adaptation of campaigns, multilingual SEO (hreflang), RTL/Indic/C…"
+          },
+          {
+            "name": "market-intelligence",
+            "description": "Macro market intelligence: economic, cultural, industry and regulatory signals, platform algorithm changes; competitors…"
+          },
+          {
+            "name": "marketing-scientist",
+            "description": "Marketing science: marketing mix modeling, incrementality and geo-lift test design, causal inference, saturation curves…"
+          },
+          {
+            "name": "marketing-strategist",
+            "description": "Marketing strategy: campaign plans, budget allocation, go-to-market, positioning, channel mix and funnel design."
+          },
+          {
+            "name": "media-buyer",
+            "description": "Paid media buying: campaign setup, targeting, bidding, budget pacing and optimization on Google, Meta, LinkedIn, TikTok…"
+          },
+          {
+            "name": "memory-manager",
+            "description": "Memory storage plumbing: dedup-and-store, index, look up and sync knowledge, report memory health; interpreting → intel…"
+          },
+          {
+            "name": "performance-monitor-agent",
+            "description": "Live campaign performance monitoring: anomaly detection, budget pacing, deliverability and real-time metrics from conne…"
+          },
+          {
+            "name": "pr-outreach",
+            "description": "Digital PR and media outreach: press releases, journalist pitches, newsjacking, thought leadership and E-E-A-T authorit…"
+          },
+          {
+            "name": "quality-assurance",
+            "description": "Quality assurance before publishing: runs the eval suite, scores hallucination and claim risk, validates output structu…"
+          },
+          {
+            "name": "seo-specialist",
+            "description": "SEO, AEO and GEO: keyword research, technical audits, on-page and local SEO, link building, and visibility in AI answer…"
+          },
+          {
+            "name": "social-media-manager",
+            "description": "Social media management: content calendars, community engagement, trend response, platform algorithms, social listening…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "doctor",
+            "description": "Run the readiness doctor: which audit and launch actions are live or blocked. \\\"why is this action blocked\\\""
+          },
+          {
+            "name": "engagement",
+            "description": "Drive the 12-Part engagement by subcommand: start, next, status, validate, loop. \\\"advance to the next part\\\""
+          },
+          {
+            "name": "execute-action",
+            "description": "Execute an audit or launch action against its real API; writes need an approval record. \\\"actually fire this action\\\""
+          },
+          {
+            "name": "output-folder",
+            "description": "Open the DMP output folder for a brand, where deliverables are saved. \\\"where did my deliverables save\\\""
+          },
+          {
+            "name": "resume",
+            "description": "Resume an interrupted DMP workflow from its checkpoint. \\\"pick up where we left off\\\""
+          }
+        ],
+        "skills": [
+          {
+            "name": "ab-test-plan",
+            "description": "Plan an A/B test by script: sample size per variant, days to run, stopping rules. \\\"how many visitors per variant\\\""
+          },
+          {
+            "name": "ad-creative",
+            "description": "Write ad copy variants to each platform's specs, policy-checked and in brand voice. \\\"write ad copy for Meta\\\""
+          },
+          {
+            "name": "add-integration",
+            "description": "Add a custom MCP integration: scaffold the server, write .mcp.json, test it. \\\"add a new MCP server\\\""
+          },
+          {
+            "name": "aeo-audit",
+            "description": "Run a one-time AEO audit of six AI answer engines, scored per surface. \\\"check our AI search visibility\\\""
+          },
+          {
+            "name": "aeo-geo",
+            "description": "Plan AEO/GEO strategy to get cited by AI: content, entities, schema, 90-day plan. \\\"how do we get cited by AI\\\""
+          },
+          {
+            "name": "agency-dashboard",
+            "description": "Build the agency dashboard across all client brands: health, pacing, risk. \\\"how are all our clients doing\\\""
+          },
+          {
+            "name": "agent-readiness-audit",
+            "description": "Audit agent readiness by script: AI-crawler rules, product schema, no-JS HTML, feeds. \\\"can AI agents use our site\\\""
+          },
+          {
+            "name": "analytics-insights",
+            "description": "Design the analytics layer with script-backed benchmarks: KPI trees, report templates, MMM, cookieless. \\\"define our KP…"
+          },
+          {
+            "name": "anomaly-scan",
+            "description": "Scan connected platforms for anomalies against stored baselines, with likely causes. \\\"why did our CPA spike\\\""
+          },
+          {
+            "name": "attribution-model",
+            "description": "Design an attribution model and credit rules. Real path data → attribution-report. \\\"set up multi-touch attribution\\\""
+          },
+          {
+            "name": "attribution-report",
+            "description": "Run attribution on real conversion paths, comparing models. \\\"which channels actually drive revenue\\\""
+          },
+          {
+            "name": "audience-intelligence",
+            "description": "Research audiences: personas, JTBD maps, RFM segments. One persona doc → audience-profile. \\\"run a JTBD analysis\\\""
+          },
+          {
+            "name": "audience-profile",
+            "description": "Profile 2-4 buyer personas as narrative documents: drivers, objections, journey. \\\"create a buyer persona\\\""
+          },
+          {
+            "name": "autopilot-status",
+            "description": "Show autopilot status: health, auto-corrections, guardrails, escalations. \\\"what did the autopilot change\\\""
+          },
+          {
+            "name": "backlink-gap",
+            "description": "Find backlink gap domains linking to competitors, not you, scored by script. \\\"who links to our competitors but not us\\\""
+          },
+          {
+            "name": "brand-setup",
+            "description": "Set up or update the brand profile every skill reads: voice, audience, compliance. \\\"set up a new brand\\\""
+          },
+          {
+            "name": "budget-optimizer",
+            "description": "Optimize channel budget with diminishing-returns models. Pacing → budget-tracker. \\\"is our channel split right\\\""
+          },
+          {
+            "name": "budget-tracker",
+            "description": "Project ad budget pacing by script from live accounts or given numbers: month-end overspend. \\\"are we overspending this…"
+          },
+          {
+            "name": "c2pa-metadata",
+            "description": "Embed C2PA provenance in AI-generated images, video or PDF by script. \\\"add content credentials to this asset\\\""
+          },
+          {
+            "name": "campaign-audit",
+            "description": "Audit all campaigns running for a brand across channels, with 4-tier triage. \\\"we just inherited this account\\\""
+          },
+          {
+            "name": "campaign-orchestrator",
+            "description": "Orchestrate a campaign lifecycle: briefs, budget models, UTMs, post-mortems. \\\"set up UTM naming conventions\\\""
+          },
+          {
+            "name": "campaign-plan",
+            "description": "Write a multi-channel campaign plan: objectives, channel mix, budget, timeline, KPIs. \\\"build the Q3 campaign plan\\\""
+          },
+          {
+            "name": "campaign-status",
+            "description": "Show status of every tracked campaign: health, spend, executions, pending approvals. \\\"what campaigns are running right…"
+          },
+          {
+            "name": "case-study-plan",
+            "description": "Plan a case study: narrative, interview questions, formats. \\\"turn this client win into a case study\\\""
+          },
+          {
+            "name": "check",
+            "description": "Run the scored pre-publish gate via eval-runner.py: claims, brand voice, compliance, AI tells. \\\"check this before we p…"
+          },
+          {
+            "name": "churn-risk",
+            "description": "Score churn risk per segment by script, with tiered retention playbooks. \\\"which customers are about to churn\\\""
+          },
+          {
+            "name": "client-onboarding",
+            "description": "Build a client onboarding pack: kickoff agenda, discovery questions, 30-60-90. \\\"we just signed a new client\\\""
+          },
+          {
+            "name": "client-proposal",
+            "description": "Draft a client proposal or RFP response: scope, deliverables, KPIs, pricing tiers. \\\"respond to this RFP\\\""
+          },
+          {
+            "name": "client-report",
+            "description": "Write a white-labeled report for one client from tracked data. All clients → agency-dashboard. \\\"prepare the monthly cl…"
+          },
+          {
+            "name": "client-validation-document",
+            "description": "Produce the Part 5 client validation document: evidence-cited findings for client decisions. \\\"prepare v1 findings for…"
+          },
+          {
+            "name": "cohort-analysis",
+            "description": "Run cohort analysis: retention matrix and LTV by cohort. Churn scoring → churn-risk. \\\"build a retention matrix\\\""
+          },
+          {
+            "name": "competitor-alerts",
+            "description": "Configure competitor alerts: change thresholds per competitor, urgency routing, digests. \\\"set up competitor alerts\\\""
+          },
+          {
+            "name": "competitor-analysis",
+            "description": "Analyze 2-5 competitors once: positioning, content, SEO, ads, pricing. Ongoing → competitor-monitor. \\\"how do we stack…"
+          },
+          {
+            "name": "competitor-monitor",
+            "description": "Monitor competitors over time: baseline sites, pricing and ads by script, flag changes. \\\"track our competitors over ti…"
+          },
+          {
+            "name": "competitor-pages",
+            "description": "Build competitor comparison pages: X-vs-Y, alternatives and roundups, with schema. \\\"create a vs page\\\""
+          },
+          {
+            "name": "connect",
+            "description": "Connect a known MCP integration: check the registry and status, return exact setup steps. \\\"connect Google Ads\\\""
+          },
+          {
+            "name": "content-brief",
+            "description": "Write an executable content brief: keyword map, outline, intent, SEO checklist. \\\"write a brief for this topic\\\""
+          },
+          {
+            "name": "content-calendar",
+            "description": "Build a content calendar: topics by platform and date, pillar and funnel tags. \\\"plan next month's content\\\""
+          },
+          {
+            "name": "content-decay-scan",
+            "description": "Scan content for decay by script and rank refreshes by recoverable traffic. \\\"which content is losing traffic\\\""
+          },
+          {
+            "name": "content-engine",
+            "description": "Draft content in brand voice through a gated pipeline: blogs, ads, emails. Brief only → content-brief. \\\"write a blog p…"
+          },
+          {
+            "name": "content-repurpose",
+            "description": "Repurpose one content piece into 10+ channel formats with drafts and a calendar. \\\"repurpose this blog post\\\""
+          },
+          {
+            "name": "context-engine",
+            "description": "Load shared marketing context: brand profile, benchmarks, compliance rules, specs. \\\"load my brand context\\\""
+          },
+          {
+            "name": "continuous-improvement-loop",
+            "description": "Run the Part 12 continuous improvement loop into a quarterly brief for leadership. \\\"produce the quarterly improvement…"
+          },
+          {
+            "name": "counter-narrative",
+            "description": "Build a counter-narrative playbook for a competitor's rebrand, category claim or attack. \\\"respond to their attack camp…"
+          },
+          {
+            "name": "cowork-setup",
+            "description": "Set up DMP for team use in Cowork: sandbox check, Drive folders, saved routing. \\\"set up DMP for my team in Cowork\\\""
+          },
+          {
+            "name": "creative-health",
+            "description": "Score ad creative fatigue against baseline, predict days left, brief refreshes. \\\"are our ads fatiguing\\\""
+          },
+          {
+            "name": "creative-testing-framework",
+            "description": "Plan a creative testing roadmap with script-computed sample sizes. Fatigue → creative-health. \\\"build a creative testin…"
+          },
+          {
+            "name": "credential-switch",
+            "description": "Switch the active credential profile to another client, validating keys first, approval-gated. \\\"activate Acme's API ke…"
+          },
+          {
+            "name": "crisis-response",
+            "description": "Respond to a breaking PR crisis: severity, holding statement, stakeholder messages, timeline. \\\"draft a holding stateme…"
+          },
+          {
+            "name": "crm-sync",
+            "description": "Sync contacts and deals with a connected CRM, deduped, approval-gated. \\\"sync deals to Salesforce\\\""
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
