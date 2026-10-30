@@ -1,0 +1,15 @@
+{
+  "name": "famulor",
+  "version": "2.1.6",
+  "description": "Operate Famulor voice, WhatsApp and webchat AI assistants from Grok Build: assistants, calls, campaigns, messaging, telephony, knowledge, dashboards, automations, and workspace settings through Famulor's hosted OAuth MCP server.",
+  "author": {
+    "name": "Famulor",
+    "email": "support@famulor.io",
+    "url": "https://www.famulor.io"
+  },
+  "homepage": "https://docs.famulor.io/mcp/overview",
+  "repository": "https://github.com/bekservice/Famulor-Skill",
+  "license": "MIT",
+  "keywords": ["famulor", "famulor mcp", "famulor assistants", "famulor voice agents"],
+  "logo": "assets/logo.svg"
+}

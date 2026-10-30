@@ -384,6 +384,18 @@
       "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
     },
     {
+      "name": "famulor",
+      "description": "Operate Famulor voice, WhatsApp and webchat AI assistants: assistants, calls, campaigns, messaging, telephony, knowledge, dashboards, automations, and workspace settings through Famulor's hosted OAuth MCP server and a guided skill. Sign in with your Famulor account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/famulor"
+      },
+      "homepage": "https://www.famulor.io",
+      "keywords": ["famulor", "famulor assistants", "famulor voice agents", "famulor mcp"],
+      "domains": ["famulor.io", "app.famulor.io", "docs.famulor.io"]
+    },
+    {
       "name": "calcom",
       "description": "Cal.com scheduling integration (hosted MCP server + skill). Check availability, book, reschedule and cancel meetings, manage event types, schedules, attendees and team memberships, and reach any Cal.com API v2 operation. Sign in with your Cal.com account; no API key needed.",
       "category": "productivity",
