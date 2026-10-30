@@ -520,6 +520,24 @@
         ]
       }
     },
+    "grafana-cloud": {
+      "sha": "77a6f1a277c35d3205dc34abf78d85e49ca5ccf1",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "grafana-cloud",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "grafana-cloud-mcp-tools",
+            "description": "Connect to and use the Grafana Cloud MCP server effectively, including natural-language Grafana Assistant questions and…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
