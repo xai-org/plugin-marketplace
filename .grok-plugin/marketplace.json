@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "opencheap",
+      "description": "OpenCheap model API integration (hosted MCP server + skill). Every major AI model behind one OpenAI-compatible API, routed per request to the cheapest healthy provider. Find models and their price per million tokens, create model keys with monthly caps, set budgets, read balance and usage, and set up gateways with fallbacks, cache, limits and guardrails. Sign in with your OpenCheap account; no API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/opencheap"
+      },
+      "homepage": "https://opencheap.si",
+      "keywords": ["opencheap", "opencheap.si", "opencheap mcp", "opencheap gateway", "opencheap api key"],
+      "domains": ["opencheap.si", "app.opencheap.si", "api.opencheap.si", "docs.opencheap.si"]
     }
   ]
 }
