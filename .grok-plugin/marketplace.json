@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "archboard",
+      "description": "Archboard diagrams (hosted MCP server + skill). Create, read and edit architecture, Kubernetes, C4, flowchart and ER diagrams on a live canvas your team keeps editing. Sign in with your Archboard account; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getarchboard/archboard-plugin.git",
+        "sha": "6f4091cd0affda4abffd698cc2140fb3a150f8f9"
+      },
+      "homepage": "https://getarchboard.app/ai-agents",
+      "keywords": ["archboard", "archboard mcp", "archboard diagram"],
+      "domains": ["getarchboard.app"]
     }
   ]
 }
