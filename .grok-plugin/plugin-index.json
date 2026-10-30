@@ -1134,6 +1134,46 @@
         ]
       }
     },
+    "string-web-access": {
+      "sha": "23ee6428c873e0dba4765c0d0211126c709e443b",
+      "version": "2.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "string-setup",
+            "description": "Check that String Web Access is connected and its read tools respond"
+          },
+          {
+            "name": "web-research",
+            "description": "Research a topic on the live web and report with citations"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "string-web-access",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "map-site",
+            "description": "List the pages on one website with String, after the user approves a cost quote. Use when the user wants a site or a se…"
+          },
+          {
+            "name": "read-page",
+            "description": "Read a public web page with String, then summarize it, answer from it, or pull its facts into a table. Use when the use…"
+          },
+          {
+            "name": "send-request",
+            "description": "Send a POST, PUT or PATCH request the user asks for with String, such as a GraphQL query or a call to a JSON API, and s…"
+          },
+          {
+            "name": "web-search",
+            "description": "Search the public web with String and answer with cited sources. Use when the user wants current information, news or f…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
       "version": "0.9.33",

@@ -473,6 +473,33 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "string-web-access",
+      "description": "Search the web, fetch any URL or send it a request, and map a site's URLs — all returned as clean, LLM-ready Markdown.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/usestring/string-grok-plugin.git",
+        "sha": "23ee6428c873e0dba4765c0d0211126c709e443b"
+      },
+      "homepage": "https://usestring.ai",
+      "keywords": [
+        "string web access",
+        "string web search",
+        "string web fetch",
+        "string web request",
+        "string sitemap",
+        "string site crawl",
+        "string mcp",
+        "usestring"
+      ],
+      "domains": [
+        "usestring.ai",
+        "portal.usestring.ai",
+        "mcp.usestring.ai",
+        "request.usestring.ai"
+      ]
     }
   ]
 }
