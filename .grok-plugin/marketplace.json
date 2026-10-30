@@ -473,6 +473,31 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "speakai-mcp",
+      "description": "Capture meetings, search thousands of recordings, run async voice and video surveys, and create clips with Speak AI from Grok: transcription, AI insights and analysis across your recorded conversations.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/speakai/speakai-mcp.git",
+        "sha": "362e1e2c840e56d13be3e46b2402e1b04e33ae5a",
+        "path": "plugins/speakai-mcp"
+      },
+      "homepage": "https://docs.speakai.co/mcp",
+      "keywords": [
+        "speak ai",
+        "speakai",
+        "speak ai transcription",
+        "speak ai meeting notes",
+        "speak ai research analysis",
+        "speak ai sales coaching",
+        "speak ai voice survey",
+        "speak ai video survey"
+      ],
+      "domains": [
+        "speakai.co"
+      ]
     }
   ]
 }
