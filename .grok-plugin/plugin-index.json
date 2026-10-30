@@ -554,6 +554,148 @@
         ]
       }
     },
+    "layer": {
+      "sha": "5ef0a9fa2d8f9b197c35977e5c3a4e63d05dd405",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "layer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "layer",
+            "description": "Use when generating or editing game and entertainment assets on Layer through MCP: images, video, 3D meshes, audio, spr…"
+          },
+          {
+            "name": "layer-3d",
+            "description": "Use when producing 3D assets with Layer: generating a mesh from text or an image, retopologising or remeshing, retextur…"
+          },
+          {
+            "name": "layer-art-direction",
+            "description": "Use when a Layer brief needs a direction before generating at volume: exploring a look with a moodboard, choosing betwe…"
+          },
+          {
+            "name": "layer-audio",
+            "description": "Use when generating audio with Layer: sound effects for a game or trailer, music and background tracks, or speech and v…"
+          },
+          {
+            "name": "layer-environments",
+            "description": "Use when producing game environments with Layer: background and environment concept art, a side-scroller parallax backg…"
+          },
+          {
+            "name": "layer-game-assets",
+            "description": "Use when producing in-game characters and props with Layer: heroes, NPCs, enemies, bosses, mascots, creatures, items an…"
+          },
+          {
+            "name": "layer-game-ui",
+            "description": "Use when making game UI with Layer: buttons, panels, frames, dialogue boxes, tabs, tooltips, HUD elements, ability and…"
+          },
+          {
+            "name": "layer-image",
+            "description": "Use when generating a still image with Layer: concept art, key art, illustrations, marketing images, icons, or any text…"
+          },
+          {
+            "name": "layer-image-editing",
+            "description": "Use when changing an image that already exists on Layer rather than generating a new one: editing or replacing part of…"
+          },
+          {
+            "name": "layer-live-ops",
+            "description": "Use when producing content for a live game with Layer: item evolution and upgrade chains, weapon or gear tiers, currenc…"
+          },
+          {
+            "name": "layer-localization",
+            "description": "Use when one approved Layer asset must ship in several languages: dubbing a trailer or ad, voice-over in another langua…"
+          },
+          {
+            "name": "layer-motion-graphics",
+            "description": "Use when making motion graphics with Layer: a logo reveal or sting, an idle logo loop, animated titles, lower thirds, a…"
+          },
+          {
+            "name": "layer-motion-templates",
+            "description": "Use when one Layer video edit must be rendered many times with different media: an ad template filled per hook, per lan…"
+          },
+          {
+            "name": "layer-pixel-art",
+            "description": "Use when making pixel art with Layer: sprites, retro game characters, pixel icons, pixel tiles, or a sprite sheet and w…"
+          },
+          {
+            "name": "layer-quality",
+            "description": "Use when judging Layer output before it ships: scoring generated files against a workspace's output scoring rules, read…"
+          },
+          {
+            "name": "layer-reference-sets",
+            "description": "Use when a look must hold across many Layer generations: training a custom style or LoRA on a studio's own artwork, cur…"
+          },
+          {
+            "name": "layer-sprite-animation",
+            "description": "Use when animating a hand-painted, vector-style or HD 2D game character with Layer: idle, walk, run, attack, hit or dea…"
+          },
+          {
+            "name": "layer-store-assets",
+            "description": "Use when making store listing art for a game or app with Layer: an app icon and icon variants, a screenshot set with ca…"
+          },
+          {
+            "name": "layer-talking-characters",
+            "description": "Use when a character or presenter on Layer has to speak on camera: a talking-head presenter, a UGC-style ad, a characte…"
+          },
+          {
+            "name": "layer-textures",
+            "description": "Use when generating a texture with Layer that must repeat without a visible seam: ground, terrain, walls, fabric, folia…"
+          },
+          {
+            "name": "layer-tilesets",
+            "description": "Use when making game tiles with Layer that must snap together on a grid: isometric tiles, hex tiles, diamond or top-dow…"
+          },
+          {
+            "name": "layer-typography",
+            "description": "Use when exact words must appear on a Layer asset: a title, logo lockup, CTA, button label, price, or caption set in a…"
+          },
+          {
+            "name": "layer-ua-creatives",
+            "description": "Use when making user acquisition or performance marketing creative for a game with Layer: static ad concepts, hook vari…"
+          },
+          {
+            "name": "layer-vfx",
+            "description": "Use when generating game visual effects with Layer: spell and skill effects, hit impacts, explosions, pickups and power…"
+          },
+          {
+            "name": "layer-video",
+            "description": "Use when generating video with Layer: text-to-video, animating a still image, extending a clip, adding camera motion, g…"
+          },
+          {
+            "name": "layer-video-continuity",
+            "description": "Use when a Layer video has more than one shot and they must cut together: a trailer, ad, cutscene or short story where…"
+          },
+          {
+            "name": "layer-video-direction",
+            "description": "Use when directing a single generated shot on Layer: choosing the camera move, lens, framing, lighting and pacing, appl…"
+          },
+          {
+            "name": "layer-video-fixes",
+            "description": "Use when a generated or supplied clip on Layer is nearly right and should be repaired, not rerolled: extending it, inse…"
+          },
+          {
+            "name": "layer-video-looks",
+            "description": "Use when giving a Layer video cut one consistent finish: a colour wash in brand colours, a retro CRT or VHS look, film…"
+          },
+          {
+            "name": "layer-video-timeline",
+            "description": "Use when assembling assets a user already has into one finished video with Layer: sequencing clips, adding transitions,…"
+          },
+          {
+            "name": "layer-workflow-import",
+            "description": "Use when bringing a workflow built in another tool into Layer: an exported workflow file, a node-graph JSON from any no…"
+          },
+          {
+            "name": "layer-workflows",
+            "description": "Use when running a saved Layer Blueprint workflow rather than a single generation: discovering what workflows a workspa…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",

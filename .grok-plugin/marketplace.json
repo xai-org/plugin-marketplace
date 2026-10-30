@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "layer",
+      "description": "Layer game-asset generation for Grok Build: 32 craft skills (sprites, tilesets, seamless textures, video, audio, 3D, store and ad creative) and Layer's hosted MCP server. Sign in with a Layer account; every generation is priced in Creative Units before it runs.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/layerai/skills.git",
+        "sha": "5ef0a9fa2d8f9b197c35977e5c3a4e63d05dd405",
+        "path": "plugins/layer"
+      },
+      "homepage": "https://github.com/layerai/skills",
+      "keywords": ["layer ai", "layer.ai", "layer mcp", "layer skills"],
+      "domains": ["layer.ai", "app.layer.ai", "mcp.app.layer.ai"]
     }
   ]
 }
