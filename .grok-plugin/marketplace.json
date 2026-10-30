@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "fairvalid",
+      "description": "FairValid email verification. Submit authorized checks, monitor asynchronous jobs, read results and inspect workspace credits through the hosted OAuth MCP service.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moonlitnayeem/fairvalid-ai.git",
+        "sha": "b360f0ba53db724a0c4300f5f22970a3d7d80208"
+      },
+      "homepage": "https://fairvalid.com/help/mcp",
+      "keywords": [
+        "fairvalid",
+        "fairvalid email verification"
+      ],
+      "domains": [
+        "fairvalid.com",
+        "mcp.fairvalid.com"
+      ]
     }
   ]
 }
