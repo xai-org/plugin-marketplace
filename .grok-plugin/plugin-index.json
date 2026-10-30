@@ -554,6 +554,24 @@
         ]
       }
     },
+    "medicine-support-hub": {
+      "sha": "e7938b0a224dce37c59e4f8c2451c1f388e8de05",
+      "version": "0.4.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "medicine-support-hub",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "msh-catalog",
+            "description": "Search Egyptian medicine catalog, estimate indicative EGP costs, compare same-INN prices, and use insurance hints via M…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
