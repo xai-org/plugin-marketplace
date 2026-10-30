@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "focala": {
+      "type": "http",
+      "url": "https://app.focala.ai/api/mcp"
+    }
+  }
+}

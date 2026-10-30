@@ -473,6 +473,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "focala",
+      "description": "Track AI search visibility, compare competitors, and prioritize AEO, GEO, and SEO improvements using your Focala workspace data.",
+      "category": "marketing",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/focala"
+      },
+      "homepage": "https://focala.ai",
+      "keywords": [
+        "focala",
+        "focala analytics",
+        "focala mcp"
+      ],
+      "domains": [
+        "focala.ai",
+        "app.focala.ai"
+      ],
+      "version": "0.1.0",
+      "author": {
+        "name": "Focala",
+        "url": "https://github.com/Focala"
+      }
     }
   ]
 }
