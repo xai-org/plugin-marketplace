@@ -1,0 +1,13 @@
+{
+  "name": "aurea77",
+  "version": "1.0.0",
+  "description": "Manage your sporting-event journey, preparation, recorded registrations and results, equipment, and insights using your own Aurea77 account.",
+  "author": {
+    "name": "Pedro Lima",
+    "url": "https://www.pedrolima.info"
+  },
+  "homepage": "https://aurea77.com",
+  "license": "Proprietary",
+  "keywords": ["aurea77", "aurea77 events", "aurea77 equipment"],
+  "logo": "assets/icon.png"
+}
