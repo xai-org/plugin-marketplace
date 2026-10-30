@@ -374,6 +374,112 @@
         ]
       }
     },
+    "expo": {
+      "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+      "version": "1.13.13",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "expo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eas-app-stores",
+            "description": "Build and submit iOS and Android apps with EAS to TestFlight, the App Store, or Google Play. Supports Expo and other Re…"
+          },
+          {
+            "name": "eas-hosting",
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+          },
+          {
+            "name": "eas-observe",
+            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, mar…"
+          },
+          {
+            "name": "eas-simulator",
+            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+          },
+          {
+            "name": "eas-update",
+            "description": "Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when sett…"
+          },
+          {
+            "name": "eas-update-insights",
+            "description": "Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split…"
+          },
+          {
+            "name": "eas-workflows",
+            "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or…"
+          },
+          {
+            "name": "expo-animation",
+            "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right —…"
+          },
+          {
+            "name": "expo-app-clip",
+            "description": "Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appcl…"
+          },
+          {
+            "name": "expo-brownfield",
+            "description": "Integrate Expo and React Native into an existing native iOS or Android app. Use for brownfield, embedding a React Nativ…"
+          },
+          {
+            "name": "expo-data-fetching",
+            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+          },
+          {
+            "name": "expo-design-system",
+            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight…"
+          },
+          {
+            "name": "expo-dom",
+            "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incremental…"
+          },
+          {
+            "name": "expo-examples",
+            "description": "Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI…"
+          },
+          {
+            "name": "expo-module",
+            "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Co…"
+          },
+          {
+            "name": "expo-native-ui",
+            "description": "Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, m…"
+          },
+          {
+            "name": "expo-overview",
+            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+          },
+          {
+            "name": "expo-project-structure",
+            "description": "Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or decidin…"
+          },
+          {
+            "name": "expo-router",
+            "description": "Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link…"
+          },
+          {
+            "name": "expo-ui",
+            "description": "Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for…"
+          },
+          {
+            "name": "expo-upgrade",
+            "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+          },
+          {
+            "name": "expo-web-to-native",
+            "description": "Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
       "version": "2.2.174",
