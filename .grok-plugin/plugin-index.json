@@ -1222,6 +1222,18 @@
         ]
       }
     },
+    "siftable": {
+      "sha": "20a00dfecab7751ba0ef68e9fcf1ab5b31a2e325",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "siftable",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
