@@ -1736,6 +1736,44 @@
         ]
       }
     },
+    "viralswipefile": {
+      "sha": "11ca12a0133beca08291938cbeb174d6a155e36c",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "viralswipefile",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brief-from-saved-videos",
+            "description": "Read the videos the user's team saved on Viral Swipe File and turn them into a content or UGC brief - shared hooks, for…"
+          },
+          {
+            "name": "find-viral-videos",
+            "description": "Find viral TikToks and Instagram Reels in the Viral Swipe File library by niche, format, platform or creator, and quote…"
+          },
+          {
+            "name": "get-started",
+            "description": "Set up Viral Swipe File after installation, check its connection when asked, and help the user try a first question. Us…"
+          },
+          {
+            "name": "research-a-niche",
+            "description": "Find which formats and hooks work in one niche on TikTok or Instagram Reels, using the Viral Swipe File library - count…"
+          },
+          {
+            "name": "what-to-post",
+            "description": "Decide what to post next on TikTok or Instagram Reels for a client, brand or account, with post ideas built on real vir…"
+          },
+          {
+            "name": "write-hooks",
+            "description": "Write new hooks, scripts or video ideas for TikTok or Instagram Reels from real viral videos in the Viral Swipe File li…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
       "version": "1.36.3",
