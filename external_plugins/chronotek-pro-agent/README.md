@@ -48,4 +48,4 @@ Workforce records returned by tools are shared with Grok/xAI to answer your requ
 
 Published by The Chrono-Tek Company, Inc. See the [Chronotek website](https://www.chronotek.com) for product and support information. Include the client version, time of failure, and a sanitized correlation ID in a support request. Never include passwords, authorization codes, tokens, or customer records in public issues.
 
-The connector configuration and documentation are MIT licensed; see [LICENSE](LICENSE). Chronotek names and branding remain the property of their respective owner. Listing does not imply endorsement by xAI.
+The connector package is proprietary licensed; see [LICENSE](LICENSE). The license permits authorized use with Chronotek and the GitHub/xAI distribution needed for this integration. Selling, reselling, broader sublicensing, and other redistribution require prior written permission. Chronotek names and the included icon may be used solely to identify this integration. Listing does not imply endorsement by xAI.

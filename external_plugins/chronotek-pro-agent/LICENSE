@@ -1,21 +1,19 @@
-MIT License
+Chronotek Pro Agent Connector License (Proprietary)
 
-Copyright (c) 2026 The Chrono-Tek Company, Inc.
+Copyright (c) 2026 The Chrono-Tek Company, Inc. All rights reserved except as expressly granted below.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Scope. This license covers the Chronotek Pro Agent connector package's configuration, manifest, documentation, and included branding assets. It does not license Chronotek's hosted service, private server source code, customer data, or any third-party software. Service access requires an authorized Chronotek account and remains subject to the applicable service terms.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. User permission. You may download, inspect, install, and use the connector to access Chronotek through an authorized application. You may make copies necessary for that use and adjust connection settings for your own authorized installation. These permissions are non-exclusive, non-transferable, and do not include a right to sublicense the connector.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Marketplace distribution. GitHub and xAI may host, reproduce, review, and distribute the unmodified connector package, including technical packaging changes needed for their repository and marketplace systems, solely to offer this Chronotek integration. Users receiving the connector obtain their permissions directly under this license. Repository viewing, forking, and other rights separately granted under applicable platform agreements are unaffected.
+
+4. Commercial and redistribution restrictions. Except for the platform distribution expressly permitted above, you may not sell, resell, rent, sublicense, or redistribute the connector, whether alone or bundled with another product, without prior written permission from The Chrono-Tek Company, Inc. Ordinary subscription charges for the host application or Chronotek service are not considered a sale of the connector itself.
+
+5. Branding. You may display the included Chronotek name and icon solely to identify this connector and its connection to Chronotek. No permission is granted to use Chronotek branding for another product, imply an endorsement, or separately sell, sublicense, or distribute the branding assets.
+
+6. Notices. Retain this license and the copyright notices in permitted copies. This license does not modify any separate written agreement with Chronotek.
+
+7. Disclaimer. THE CONNECTOR IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE CONNECTOR OR ITS USE.
+
+Permissions beyond this license require prior written approval from The Chrono-Tek Company, Inc.
