@@ -520,6 +520,44 @@
         ]
       }
     },
+    "graffalo": {
+      "sha": "2ebc38dc0578dfe008837531d0ca25094eb12f40",
+      "version": "0.1.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "graffalo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "graffalo-database-schema",
+            "description": "Build or refine Graffalo database diagrams with addressable table rows, foreign-key connections and explicit cardinalit…"
+          },
+          {
+            "name": "graffalo-diagram-from-source",
+            "description": "Create or enrich a Graffalo diagram from supplied documents, source files, or URLs, retaining evidence, uncertainty, ri…"
+          },
+          {
+            "name": "graffalo-repo-architecture",
+            "description": "Create or update a Graffalo architecture diagram from repository evidence, preserving services, boundaries and actual d…"
+          },
+          {
+            "name": "graffalo-review",
+            "description": "Inspect and improve an existing Graffalo diagram while preserving its meaning, stable IDs, rich fields, ports and unrel…"
+          },
+          {
+            "name": "graffalo-sequence-diagram",
+            "description": "Create or refine Graffalo sequence diagrams for protocol handshakes, API calls and ordered interactions. Use for partic…"
+          },
+          {
+            "name": "graffalo-setup",
+            "description": "Check an installed Graffalo connection, identify the connected account and explain its capabilities. Use for first setu…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
