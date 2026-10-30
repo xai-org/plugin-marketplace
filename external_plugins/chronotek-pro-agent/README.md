@@ -2,27 +2,44 @@
 
 Connect Grok Build to Chronotek Pro's hosted MCP service for workforce operations. Review time and attendance, schedules, coverage, and exceptions; perform supported actions within your Chronotek permissions and approval requirements. Requires an eligible Chronotek account with Agent access.
 
-## Preview status
-
-This submission is a draft pending deployment of Chronotek's dedicated `chronotek-grok-build` OAuth registration and end-to-end testing in Grok Build. Previous testing in Grok web, Grok Bot, or Cursor does not certify Grok Build. Do not treat catalog validation as production certification.
+Tested October 30, 2026 with Grok Build 1.0.70 (`f50904eaee6c`) against Chronotek's production service using isolated demo identities. The owner confirmed sign-in, reads, an explicitly approved profile change and restoration, restart persistence, continued access after more than 35 minutes, read-only tool restrictions, and reconnection after authorization replacement. Reconnection required the credential reset described below. Marketplace review and listing remain pending.
 
 ## Install and connect
 
 Use a Grok Build release supporting remote HTTP MCP servers with `oauth.clientId`, `oauth.scopes`, and `oauth.callbackPort` settings. These settings were verified against Grok Build source commit `2bdd1d6a6369de0e8c68132ea4539e9abd9e14a8`.
 
-1. After the OAuth registration is deployed, install from a checkout of this marketplace branch:
+1. Install from a checkout of this marketplace branch:
 
    ```sh
    grok plugin install ./external_plugins/chronotek-pro-agent --trust
    ```
 
-2. Open `/mcps`, select the `chronotek` server, and press `i` to start OAuth sign-in.
-3. Sign in on Chronotek's own authorization page and review the requested access before consenting. This plugin contains no client secret or shared login.
-4. Start with a permitted read, such as “Show my Chronotek company and region access,” before requesting changes.
+2. Enable the plugin:
 
-Once the plugin is accepted into the marketplace and certification is complete, the catalog install command will be `grok plugin install chronotek-pro-agent --trust`.
+   ```sh
+   grok plugin enable chronotek-pro-agent
+   ```
 
-The connector uses public client `chronotek-grok-build`, PKCE, and callback `http://127.0.0.1:8788/callback`. Ensure local port 8788 is available. If authentication fails, use `/mcps` to inspect status and retry after resolving the port conflict. Dynamic client registration is not required. Do not substitute another application's OAuth client ID.
+3. Open `/mcps`, select the `chronotek` server, and press `i` to start OAuth sign-in.
+4. Sign in on Chronotek's own authorization page and review the requested access before consenting. This plugin contains no client secret or shared login.
+5. Start with a permitted read, such as “Show my Chronotek company and region access,” before requesting changes.
+
+Once the plugin is accepted into the marketplace, the catalog install command will be `grok plugin install chronotek-pro-agent --trust`; enable it with the command above.
+
+The connector uses public client `chronotek-grok-build`, PKCE, and callback `http://127.0.0.1:8788/callback`. Ensure local port 8788 is available. Dynamic client registration is not required. Do not substitute another application's OAuth client ID.
+
+## Reconnect after authorization replacement
+
+In Grok Build 1.0.70, replacing the same Chronotek user's connection through another configuration left the old `chronotek` connection unable to authenticate, even after a restart. Pressing `i` can try its saved refresh token before opening browser sign-in. The following reset restored browser sign-in in the tested installation.
+
+For this plugin's default setup, with no separately configured native MCP entry named `chronotek`, exit Grok with `/quit`. Run these commands one at a time in your terminal; stop if either fails:
+
+```sh
+grok mcp add --scope user --transport http chronotek https://admin.mychronotek.com/mcp
+grok mcp remove --scope user chronotek
+```
+
+The temporary native entry is removed immediately. Grok's removal command clears saved OAuth credentials for the server name `chronotek`; the installed plugin remains installed. Restart with `grok -c`, open `/mcps`, select `chronotek`, press `i`, and complete browser sign-in. Then verify the intended identity and granted scopes with a fresh profile read. This is a local credential reset; it does not itself revoke server-side authorization. Automatic recovery after revocation was not successful in this test.
 
 ## Examples
 
@@ -40,7 +57,7 @@ Chronotek enforces account eligibility, company and region boundaries, roles, gr
 | `https://admin.mychronotek.com/.well-known/oauth-protected-resource` | Protected-resource discovery. |
 | `https://auth.mychronotek.com` | Chronotek authorization-server discovery, browser sign-in, consent, token refresh, and revocation. |
 
-Requested scopes are `agent.read`, `agent.write`, and `offline_access`: read operations, permitted write operations, and continued access through refresh tokens. Actual permissions are limited by the signed-in account and granted consent. A read-only setup may remove `agent.write` before connecting. Grok Build manages OAuth tokens through its normal credential storage. Disconnect/revoke access through the host and Chronotek's connector controls when no longer needed.
+Requested scopes are `agent.read`, `agent.write`, and `offline_access`: read operations, permitted write operations, and continued access through refresh tokens. Actual permissions are limited by the signed-in account and granted consent. A read-only setup may remove `agent.write` before connecting. Grok Build manages OAuth tokens through its normal credential storage. Disable the plugin in Grok to stop using its tools; contact Chronotek support for help revoking server-side access when no longer needed.
 
 Workforce records returned by tools are shared with Grok/xAI to answer your requests. Review your organization's policies and the providers' privacy terms before connecting customer or employee data. This package adds no telemetry. It ships one static remote MCP configuration, this documentation, a manifest, a license, and an approved icon. It contains no executable server, shell commands, lifecycle hooks, skills, agents, filesystem readers, or bundled credentials.
 
