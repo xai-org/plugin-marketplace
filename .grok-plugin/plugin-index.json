@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081",
-      "version": "1.0.2",
+      "sha": "ed2d6ba89033ba8015591005ed9382cef550417f",
+      "version": "1.0.3",
       "components": {
         "mcpServers": [
           {
@@ -264,6 +264,10 @@
           {
             "name": "basin",
             "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for…"
+          },
+          {
+            "name": "cf-cli",
+            "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Clo…"
           },
           {
             "name": "cloudflare",
@@ -284,6 +288,10 @@
           {
             "name": "durable-objects",
             "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+          },
+          {
+            "name": "gateway-workers",
+            "description": "Build, debug, or review Cloudflare Workers invoked by the Forward action in Gateway HTTP policies, including the Gatewa…"
           },
           {
             "name": "k2",
@@ -323,7 +331,7 @@
           },
           {
             "name": "wrangler",
-            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
+            "description": "Run or troubleshoot Wrangler CLI commands in projects that have a wrangler.jsonc, wrangler.json, or wrangler.toml file,…"
           }
         ]
       }
