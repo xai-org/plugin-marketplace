@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "viralswipefile",
+      "description": "Official Viral Swipe File integration (MCP server + skills). Know what to post next on TikTok and Instagram Reels: search a curated library of viral videos by niche and format, and write hooks and content ideas from real posts.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/viralswipefile/viralswipefile-plugin.git",
+        "sha": "11ca12a0133beca08291938cbeb174d6a155e36c"
+      },
+      "homepage": "https://viralswipefile.com/mcp",
+      "keywords": ["viralswipefile", "viral swipe file", "viral swipe file hooks", "viral swipe file videos", "viral swipe file formats"],
+      "domains": ["viralswipefile.com"]
     }
   ]
 }
