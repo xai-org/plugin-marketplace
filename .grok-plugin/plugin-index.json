@@ -93,6 +93,24 @@
         ]
       }
     },
+    "bsvkey": {
+      "sha": "fb79b6d0cc800c03f75c51615db5a1635e189585",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bsvkey-inference",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bsvkey-inference",
+            "description": "Use when the user wants to buy Claude or Grok inference per token or per call through BSVKey (inference.bsvkey.com), pa…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {

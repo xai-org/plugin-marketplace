@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bsvkey",
+      "description": "BSVKey Inference: buy Claude and Grok inference by the token, paid in Bitcoin BSV or per call in XRP, with no account, card or subscription. MCP tools for live prices, a prepaid channel, and per-call payment in BSV (x402) or XRP, plus a skill for choosing how to pay. Every call returns a signed receipt.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BSVKey/bsvkey-grok-plugin.git",
+        "sha": "fb79b6d0cc800c03f75c51615db5a1635e189585"
+      },
+      "homepage": "https://inference.bsvkey.com",
+      "keywords": [
+        "bsvkey",
+        "bsvkey inference",
+        "bsv inference"
+      ],
+      "domains": [
+        "bsvkey.com",
+        "inference.bsvkey.com"
+      ]
     }
   ]
 }
