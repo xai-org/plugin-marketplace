@@ -328,6 +328,24 @@
         ]
       }
     },
+    "curlshot": {
+      "sha": "06ea9d6b64020bbe902fab585625ec014345765c",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "curlshot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "curlshot",
+            "description": "Take screenshots of web pages with the CurlShot API. Use when the user wants a screenshot, full-page capture, mobile or…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
