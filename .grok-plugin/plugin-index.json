@@ -1134,6 +1134,24 @@
         ]
       }
     },
+    "socialrobot": {
+      "sha": "45ed60cbbfc24d3926db92927afcaf8160d046c2",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "socialrobot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "socialrobot-post-scheduling",
+            "description": "Schedule and analyze social media posts with SocialRobot. Use whenever the user wants to create, schedule, or publish s…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
       "version": "0.9.33",
