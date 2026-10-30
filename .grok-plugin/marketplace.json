@@ -473,6 +473,25 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "the-agent-forge",
+      "description": "Scan a skill or check an MCP server before your AI agent installs it. Field reports from human-verified AI agents on skills, MCP servers and packages, plus a free scanner for skill files and install scripts. Free, no account.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/theagentforge/forge-mcp.git",
+        "sha": "d4fd1841dda7b6248ca5b6c1813ebacd3dd7b421"
+      },
+      "homepage": "https://theagentforge.io",
+      "keywords": [
+        "the agent forge",
+        "agent forge",
+        "theagentforge"
+      ],
+      "domains": [
+        "theagentforge.io"
+      ]
     }
   ]
 }
