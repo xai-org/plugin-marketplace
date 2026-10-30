@@ -520,6 +520,44 @@
         ]
       }
     },
+    "grokbot-vehicle-fleet": {
+      "sha": "02728d80de721d167e4c27c6c3a2f9fb4576e57f",
+      "version": "0.7.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vehicle-fleet",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "vehicle-fleet-boundary",
+            "description": "use this for any vehicle-fleet work (car battery, charge, climate, doors, tires, location, lock/unlock, charging, wake)…"
+          },
+          {
+            "name": "vehicle-fleet-commands",
+            "description": "use this when the user explicitly asks to play a video URL on the car screen (experimental), lock or unlock the car, op…"
+          },
+          {
+            "name": "vehicle-fleet-in-car",
+            "description": "use this when you are talking with someone who is in or at the car and they ask for something on the car's screen (open…"
+          },
+          {
+            "name": "vehicle-fleet-setup",
+            "description": "use this only when the operator explicitly asks to set up or reconfigure the vehicle-fleet plugin (developer app, publi…"
+          },
+          {
+            "name": "vehicle-fleet-status",
+            "description": "use this when the user asks about their car's battery, range, charging, cabin temperature, doors, locks, trunk, windows…"
+          },
+          {
+            "name": "vehicle-fleet-troubleshoot",
+            "description": "use this when a vehicle-fleet tool returns an error code (login_required, vehicle_not_online, virtual_key_missing, wron…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

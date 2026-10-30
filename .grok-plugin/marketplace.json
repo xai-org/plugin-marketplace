@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "grokbot-vehicle-fleet",
+      "description": "One vehicle-fleet MCP server plus skills for Grok Build. Read vehicle status (battery, charge, climate, doors, tires, location) and energy-site status through the official Fleet API, using your own developer app, OAuth tokens and command proxy. Read-only by default; optional confirm-gated vehicle and energy-site commands. Community plugin, not affiliated with Tesla.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet.git",
+        "sha": "02728d80de721d167e4c27c6c3a2f9fb4576e57f"
+      },
+      "homepage": "https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet",
+      "keywords": ["grokbot-vehicle-fleet", "grokbot vehicle fleet", "grok bot vehicle fleet"]
     }
   ]
 }
