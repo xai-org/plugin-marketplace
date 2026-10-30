@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "qencode",
+      "description": "Video pipeline for AI agents: analyze with AI, transcode to MP4/HLS/DASH, edit, protect and deliver.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Qencode-Corp/mcp.git",
+        "sha": "83befc3d3b9d7015b5fac21e7065132d3c09bd83"
+      },
+      "homepage": "https://qencode.com",
+      "keywords": ["qencode", "qencode transcoding", "qencode mcp"],
+      "domains": ["qencode.com", "mcp.qencode.com", "docs.qencode.com"]
     }
   ]
 }
