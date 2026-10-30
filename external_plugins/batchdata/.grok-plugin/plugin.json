@@ -1,0 +1,15 @@
+{
+  "name": "batchdata",
+  "version": "1.0.0",
+  "description": "BatchData U.S. real estate data for AI agents via the hosted BatchData MCP server: property lookup, comparables, property search, skip tracing, phone and address checks. Sign in with your BatchData account on first connect.",
+  "author": {
+    "name": "BatchData",
+    "email": "support@batchservice.com",
+    "url": "https://batchdata.io"
+  },
+  "homepage": "https://batchdata.io/mcp-server",
+  "repository": "https://github.com/batchdataco/batchdata-mcp-server",
+  "license": "MIT",
+  "keywords": ["batchdata", "batchdata mcp", "batchdata real estate", "batchdata skip trace"],
+  "logo": "assets/logo.png"
+}
