@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "blindpay",
+      "description": "Official BlindPay integration (MCP Server). Look up and run stablecoin payouts, payins, quotes, transfers and receivers through BlindPay's hosted MCP server, with a full endpoint and a read-only one, over OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blindpaylabs/blindpay-mcp.git",
+        "sha": "a7001337f8e270a8c5deb42620c09c399a40bd56"
+      },
+      "homepage": "https://blindpay.com/docs",
+      "keywords": ["blindpay", "blindpay mcp", "blindpay payments", "blindpay payouts", "blindpay stablecoin"],
+      "domains": ["blindpay.com", "app.blindpay.com", "api.blindpay.com", "mcp.blindpay.com"]
     }
   ]
 }
