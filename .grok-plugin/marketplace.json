@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "domain-scan",
+      "description": "Domain Scan by CYBERACE: domain security scans, reverse IPv4 lookups, certificate-based subdomain discovery, and monitoring signup links. Four public tools via a remote HTTPS MCP server, with no local executable code.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnriqueITE/domainscan-mcp-grok-plugin.git",
+        "sha": "8e02f619ab12a3f3f75cf118773bfb27723095e9"
+      },
+      "homepage": "https://domainscan.tools",
+      "keywords": ["domain-scan", "domainscan", "Domain Scan by CYBERACE", "CYBERACE Domain Scan"],
+      "domains": ["domainscan.tools", "api.domainscan.tools"]
     }
   ]
 }

@@ -350,6 +350,24 @@
         ]
       }
     },
+    "domain-scan": {
+      "sha": "8e02f619ab12a3f3f75cf118773bfb27723095e9",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "domain-scan",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "domain-scan",
+            "description": "Use for Domain Scan security checks, reverse IPv4 lookups, subdomain discovery from public certificate records, or moni…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
