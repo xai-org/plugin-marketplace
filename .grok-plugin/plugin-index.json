@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
-      "version": "1.2.0",
+      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -13,20 +13,20 @@
         ],
         "skills": [
           {
-            "name": "axiom-agent-created-orgs",
-            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
-          },
-          {
             "name": "axiom-alerting",
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-building-dashboards",
+            "name": "axiom-build-dashboard",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "axiom-controlling-costs",
+            "name": "axiom-control-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
+          },
+          {
+            "name": "axiom-create-org",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
           },
           {
             "name": "axiom-ingest",
