@@ -778,6 +778,24 @@
         ]
       }
     },
+    "ops-brain-bus": {
+      "sha": "108063a416a6110e3962e389b6ec8491854aeb4c",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ops-brain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ops-brain-bus",
+            "description": "Work the ops-brain handoff bus when the user asks to check pending work, send a handoff, retrieve a reply, or coordinat…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
