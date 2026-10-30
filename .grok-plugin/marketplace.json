@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "chronotek-pro-agent",
+      "description": "Chronotek Pro workforce operations through its hosted MCP service. Review time and attendance, schedules, coverage, and exceptions, and take permitted actions with approval. Requires an eligible Chronotek account and OAuth consent.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/chronotek-pro-agent"
+      },
+      "homepage": "https://www.chronotek.com",
+      "keywords": ["chronotek", "chronotek pro", "chronotek pro agent"],
+      "domains": ["chronotek.com", "mychronotek.com"]
     }
   ]
 }
