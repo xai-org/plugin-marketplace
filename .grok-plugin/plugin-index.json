@@ -152,6 +152,18 @@
         ]
       }
     },
+    "chui": {
+      "sha": "f66633ad2410ab58740b48410182f5dbaab96411",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chui",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "clerk": {
       "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf",
       "version": "1.0.0",

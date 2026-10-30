@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "chui",
+      "description": "Official Chui integration (hosted MCP server). Chui records meetings on a phone, a watch, a computer or the web and summarises each in the language it was held in: search what was said, read summaries and transcripts, and correct, share and organise meetings, people and settings in conversation. Sign in with your Chui account (Apple, Google or Microsoft) on first connection; no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/generativechaos/chui-plugin.git",
+        "sha": "f66633ad2410ab58740b48410182f5dbaab96411"
+      },
+      "homepage": "https://chui.io",
+      "keywords": ["chui", "chui.io", "chui meetings", "chui mcp"],
+      "domains": ["chui.io", "mcp.chui.io"]
     }
   ]
 }
