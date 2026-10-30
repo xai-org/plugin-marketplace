@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
-      "version": "1.1.2",
+      "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -13,28 +13,36 @@
         ],
         "skills": [
           {
+            "name": "axiom-agent-created-orgs",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
+          },
+          {
             "name": "axiom-alerting",
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-sre",
-            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
-          },
-          {
-            "name": "building-dashboards",
+            "name": "axiom-building-dashboards",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "controlling-costs",
+            "name": "axiom-controlling-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "metrics-chart",
+            "name": "axiom-ingest",
+            "description": "Send data to Axiom. Picks an org from ~/.axiom.toml, or provisions a temporary one when none is configured, creates the…"
+          },
+          {
+            "name": "axiom-metrics-chart",
             "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
-            "name": "spl-to-apl",
+            "name": "axiom-spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
           }
         ]
       }
@@ -81,18 +89,6 @@
           {
             "name": "browser-use",
             "description": "Browser Use — direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/…"
-          }
-        ]
-      }
-    },
-    "bruin": {
-      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
-      "version": "1.1.0",
-      "components": {
-        "skills": [
-          {
-            "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
           }
         ]
       }
@@ -379,8 +375,8 @@
       }
     },
     "figma": {
-      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
-      "version": "2.2.163",
+      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
+      "version": "2.2.174",
       "components": {
         "mcpServers": [
           {
@@ -559,8 +555,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
-      "version": "0.0.195",
+      "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
+      "version": "0.0.196",
       "components": {
         "skills": [
           {
@@ -783,8 +779,8 @@
       }
     },
     "ops-brain-bus": {
-      "sha": "d26a6d1bb4d80f92463e332c36c59a0f967f42ac",
-      "version": "0.1.0",
+      "sha": "108063a416a6110e3962e389b6ec8491854aeb4c",
+      "version": "0.2.0",
       "components": {
         "mcpServers": [
           {
@@ -795,7 +791,7 @@
         "skills": [
           {
             "name": "ops-brain-bus",
-            "description": "Work the ops-brain handoff bus. Use at the start of a session, when the user mentions handoffs, the bus, another agent…"
+            "description": "Work the ops-brain handoff bus when the user asks to check pending work, send a handoff, retrieve a reply, or coordinat…"
           }
         ]
       }
@@ -839,8 +835,8 @@
       }
     },
     "pstack": {
-      "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
-      "version": "0.15.30",
+      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+      "version": "0.15.36",
       "components": {
         "agents": [
           {
@@ -910,6 +906,10 @@
             "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
           },
           {
+            "name": "ketchup-video",
+            "description": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text…"
+          },
+          {
             "name": "maintain-formal-verification-skill",
             "description": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched…"
           },
@@ -959,7 +959,7 @@
           },
           {
             "name": "principle-explain-the-number",
-            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
+            "description": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a thr…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -1048,10 +1048,6 @@
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
-          },
-          {
-            "name": "statechart",
-            "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
           }
         ]
       }
@@ -1157,8 +1153,8 @@
       }
     },
     "stripe": {
-      "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
-      "version": "0.9.27",
+      "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
+      "version": "0.9.33",
       "components": {
         "agents": [
           {
@@ -1759,8 +1755,8 @@
       }
     },
     "wix": {
-      "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
-      "version": "1.33.1",
+      "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
+      "version": "1.36.3",
       "components": {
         "mcpServers": [
           {
@@ -1769,10 +1765,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
-          },
           {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
@@ -1794,8 +1786,12 @@
             "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
           },
           {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
+          },
+          {
             "name": "wix-headless",
-            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+            "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
           {
             "name": "wix-headless-cold-start",
@@ -1804,6 +1800,10 @@
           {
             "name": "wix-headless-kit",
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+          },
+          {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
           },
           {
             "name": "wix-headless-templates",
@@ -1815,11 +1815,19 @@
           },
           {
             "name": "wix-manage",
-            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, donations, payments, CMS, and…"
+          },
+          {
+            "name": "wix-readme",
+            "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
+          },
+          {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
           },
           {
             "name": "wix-vibe-headless",
-            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+            "description": "Connect an existing front end to a live Wix site using client-only REST and its public WIX_CLIENT_ID, without an SDK or…"
           }
         ]
       }
