@@ -1,0 +1,23 @@
+{
+  "name": "mobivate",
+  "version": "1.0.0",
+  "description": "Send SMS messages via Mobivate.",
+  "author": {
+    "name": "Mobivate",
+    "email": "support@mobivate.com",
+    "url": "https://github.com/mobivate"
+  },
+  "homepage": "https://mobivate.com",
+  "license": "MIT",
+  "keywords": [
+    "mobivate",
+    "mobivate sms",
+    "mobivate bulksms",
+    "sms",
+    "bulk sms",
+    "marketing",
+    "cpaas",
+    "campaigns",
+    "communicate"
+  ]
+}
