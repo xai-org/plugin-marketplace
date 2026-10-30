@@ -1813,6 +1813,24 @@
           }
         ]
       }
+    },
+    "marketnow": {
+      "sha": "bec353eddcd1d0bfe85fd363a861187023aa40c4",
+      "version": "1.15.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "marketnow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "marketnow",
+            "description": "MarketNow is the trust layer for AI agents on MCP. Use it to (1) verify agent credentials in 9 formats (ATC, JWT/OAuth, API key, Ed25519 trust cards, signed receipts, etc.); (2) scam-check URLs and domains against community blocklists; (3) fingerprint MCP tool definitions to detect tampering; (4) search a 68,388-server registry with install-risk flags before adding a server."
+          }
+        ]
+      }
     }
   }
 }

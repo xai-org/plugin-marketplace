@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "marketnow",
+      "description": "Free trust layer for AI agents on MCP: verify agent credentials (9 formats), scam-check domains, fingerprint MCP tool definitions, and search a 68,388-server registry with install-risk flags. Hosted, stateless, no auth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alicelabs-llc/marketnow-agent.git",
+        "sha": "bec353eddcd1d0bfe85fd363a861187023aa40c4"
+      },
+      "homepage": "https://marketnow.site",
+      "keywords": ["marketnow", "marketnow mcp", "marketnow trust", "mcp trust check"],
+      "domains": ["marketnow.site"]
     }
   ]
 }
