@@ -75,6 +75,17 @@
         ]
       }
     },
+    "batchdata": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "batchdata",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

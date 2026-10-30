@@ -473,6 +473,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "batchdata",
+      "description": "BatchData U.S. real estate data for AI agents via its hosted MCP server: property lookup, comparables, property search, skip tracing, phone and address checks. Requires a BatchData account and OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/batchdata"
+      },
+      "homepage": "https://batchdata.io/mcp-server",
+      "keywords": ["batchdata", "batchdata mcp", "batchdata real estate"],
+      "domains": ["batchdata.io", "batchdata.com"]
     }
   ]
 }
