@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "querysail-gsc",
+      "description": "QuerySail for Google Search Console: search performance, period comparisons, URL inspection and sitemaps from your own Search Console properties, through a hosted MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/querysail/querysail-gsc.git",
+        "sha": "03c9dc9675380855726a2088deeb3d6e74f8f84e"
+      },
+      "homepage": "https://querysail.com/google-search-console",
+      "keywords": ["querysail", "querysail gsc", "querysail search console"],
+      "domains": ["querysail.com", "mcp.querysail.com"]
     }
   ]
 }
