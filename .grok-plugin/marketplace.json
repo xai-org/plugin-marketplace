@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "ezerwright-website-auditor",
+      "description": "Read-only, user-authorized checks of one public HTTPS webpage for SEO basics, security-header presence, HTML accessibility indicators and contact-readiness.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ezerwright/ezerwright-website-auditor.git",
+        "sha": "b0b5d6f7116178e6ce766bd9c2c2278a12fad387"
+      },
+      "homepage": "https://github.com/ezerwright/ezerwright-website-auditor",
+      "keywords": ["ezerwright", "ezerwright website auditor", "ezerwright audit"],
+      "domains": ["ezerwright.com"]
     }
   ]
 }
