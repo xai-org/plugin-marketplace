@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "streamlivr": {
+      "url": "https://api.streamlivr.com/mcp"
+    }
+  }
+}
