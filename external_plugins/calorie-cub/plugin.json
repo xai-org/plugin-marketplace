@@ -1,0 +1,17 @@
+{
+  "name": "calorie-cub",
+  "version": "1.0.0",
+  "description": "Log meals, check calories and macros, save private recipes, and track weight in your Calorie Cub diary through its hosted MCP server. OAuth sign-in required.",
+  "author": {
+    "name": "Intuico Digital, LLC",
+    "email": "aj@intuicodigital.com",
+    "url": "https://caloriecub.com"
+  },
+  "homepage": "https://caloriecub.com/auth.md",
+  "license": "Proprietary",
+  "keywords": [
+    "calorie cub",
+    "caloriecub",
+    "calorie cub diary"
+  ]
+}
