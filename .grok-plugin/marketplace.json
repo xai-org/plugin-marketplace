@@ -473,6 +473,30 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "lfg-alarm",
+      "description": "Real alarms that ring on your phone, and your friends' phones, set from Grok: a time, an event, a social post, a price move, a public trade or a webhook. Ring your phone when a long build or deploy finishes. Rocco, LFG Alarm's agent, watches the web and rings when it happens.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lfg-gm/lfg-alarm-mcp.git",
+        "sha": "7c234fbf843df034bdfc300d3c4932d620365715"
+      },
+      "homepage": "https://lfg.gm/agents/grok-build",
+      "keywords": [
+        "lfg alarm",
+        "lfg.gm",
+        "lfg alarm clock"
+      ],
+      "domains": [
+        "lfg.gm"
+      ],
+      "author": {
+        "name": "LFG Alarm",
+        "email": "connect@lfg.gm",
+        "url": "https://lfg.gm"
+      }
     }
   ]
 }
