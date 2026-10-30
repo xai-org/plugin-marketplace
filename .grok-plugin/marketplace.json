@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "prospre",
+      "description": "Prospre meal planning and macro tracking. Log a day of food by describing it, plan the week from what you actually ate, fix the diary, read and tick off the grocery list, and move your targets as your weight moves, in your own Prospre account over its OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prospre/prospre-plugin.git",
+        "sha": "e328509f1c0fac152e18c48ba2448a8bbfff28a7"
+      },
+      "homepage": "https://www.prospre.io",
+      "keywords": ["prospre", "prospre meal plan", "prospre macros", "prospre diary"],
+      "domains": ["prospre.io"]
     }
   ]
 }

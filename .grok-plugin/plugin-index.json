@@ -922,6 +922,44 @@
         ]
       }
     },
+    "prospre": {
+      "sha": "e328509f1c0fac152e18c48ba2448a8bbfff28a7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prospre",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adjust-targets",
+            "description": "Review weight progress against the goal and change Prospre nutrition targets or the weight goal. Use when the user says…"
+          },
+          {
+            "name": "fix-diary",
+            "description": "Correct entries already in the Prospre diary. Use when the user says they ate more or less than logged, skipped a meal,…"
+          },
+          {
+            "name": "get-started",
+            "description": "Connect a Prospre account and show what the assistant can do with it. Use when the user asks what Prospre can do here,…"
+          },
+          {
+            "name": "log-day",
+            "description": "Log a whole day of food in Prospre from a spoken or typed description. Use when the user lists what they ate or plan to…"
+          },
+          {
+            "name": "plan-week",
+            "description": "Plan the coming days or week in Prospre from what the user actually ate. Use when the user asks for a meal plan, wants…"
+          },
+          {
+            "name": "shop",
+            "description": "Read and tick off the Prospre grocery list, or turn it into an online order. Use when the user asks what to buy, says t…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
