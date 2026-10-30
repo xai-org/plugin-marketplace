@@ -778,6 +778,23 @@
         ]
       }
     },
+    "opencheap": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "opencheap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "opencheap",
+            "description": "Run an OpenCheap account through the OpenCheap MCP server: find models and their price per million tokens, create model…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

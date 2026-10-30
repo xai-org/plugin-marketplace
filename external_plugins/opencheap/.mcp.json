@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "opencheap": {
+      "type": "http",
+      "url": "https://app.opencheap.si/api/v1/mcp"
+    }
+  }
+}

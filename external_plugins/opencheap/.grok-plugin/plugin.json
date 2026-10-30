@@ -1,0 +1,20 @@
+{
+  "name": "opencheap",
+  "version": "1.0.0",
+  "description": "OpenCheap for Grok Build via the hosted OpenCheap MCP server at app.opencheap.si. Every major AI model behind one OpenAI-compatible API, routed per request to the cheapest healthy provider. Find models and prices, create model keys with monthly caps, set budgets, read balance and usage, and set up gateways with fallbacks, cache, limits and guardrails. Sign in with your OpenCheap account on first connect.",
+  "author": {
+    "name": "OpenCheap",
+    "url": "https://opencheap.si"
+  },
+  "homepage": "https://docs.opencheap.si/mcp",
+  "repository": "https://github.com/myonlyklinn/opencheap-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "opencheap",
+    "opencheap.si",
+    "opencheap mcp",
+    "opencheap gateway",
+    "opencheap api key"
+  ],
+  "logo": "assets/logo.svg"
+}
