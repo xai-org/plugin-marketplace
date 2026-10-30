@@ -473,6 +473,19 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "adswipefile",
+      "description": "Official AdSwipeFile integration (MCP server + skills). Search the AdSwipeFile library of winning Facebook and Instagram ads by brand, niche and format, see what a brand is running, and write hooks and angles from real ads.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adswipefile/adswipefile-plugin.git",
+        "sha": "25f0a435335033280568b53f68f5661e8424d865"
+      },
+      "homepage": "https://adswipefile.com/docs/mcp",
+      "keywords": ["adswipefile", "ad swipe file", "adswipefile ads", "adswipefile ad library", "adswipefile hooks"],
+      "domains": ["adswipefile.com"]
     }
   ]
 }

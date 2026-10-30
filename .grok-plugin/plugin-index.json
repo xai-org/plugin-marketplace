@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "adswipefile": {
+      "sha": "25f0a435335033280568b53f68f5661e8424d865",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adswipefile",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "competitor-ads",
+            "description": "Show what ads a brand or competitor is running in the AdSwipeFile ad library, and sum up the formats, hooks, angles and…"
+          },
+          {
+            "name": "find-winning-ads",
+            "description": "Find winning Facebook and Instagram ads in the AdSwipeFile ad library by niche, format, brand or keyword, and present t…"
+          },
+          {
+            "name": "get-started",
+            "description": "Set up AdSwipeFile after installation, check its connection when asked, and help the user ask a first question about wi…"
+          },
+          {
+            "name": "review-saved-ads",
+            "description": "List the ads the user saved on adswipefile.com and find what they have in common: formats, niches, hooks, angles and of…"
+          },
+          {
+            "name": "write-hooks-from-ads",
+            "description": "Read winning ads in the AdSwipeFile ad library, name the hook and angle each one uses, and write original hooks, headli…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
