@@ -152,6 +152,36 @@
         ]
       }
     },
+    "citation": {
+      "sha": "cd9d705aad9bbe06535bee9fa38daeacc9d26be9",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "citation",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "citation-draft",
+            "description": "Create or revise a saved Citation draft using MCP or CLI, preserving rich content, citation links and concurrent edits.…"
+          },
+          {
+            "name": "citation-evidence",
+            "description": "Review saved Citation links, source metadata and evidence gaps using MCP or CLI. Use for citation integrity checks, wit…"
+          },
+          {
+            "name": "citation-format",
+            "description": "Format saved Citation references in a requested style using MCP or CLI. Use for bibliographies, inline citations, or re…"
+          },
+          {
+            "name": "citation-research",
+            "description": "Gather and review sources in a Citation document using its MCP tools or CLI. Use when the user wants a source collectio…"
+          }
+        ]
+      }
+    },
     "clerk": {
       "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf",
       "version": "1.0.0",

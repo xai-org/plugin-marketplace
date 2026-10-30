@@ -473,6 +473,24 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "citation",
+      "description": "Connect Grok Build to your Citation workspace to search saved research, revise drafts when requested, format references and export TXT, BibTeX or RIS.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Reload-Apps/citation-plugins.git",
+        "sha": "cd9d705aad9bbe06535bee9fa38daeacc9d26be9"
+      },
+      "homepage": "https://citation.co/",
+      "keywords": [
+        "citation",
+        "citation.co"
+      ],
+      "domains": [
+        "citation.co"
+      ]
     }
   ]
 }
