@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "craftcx": {
+      "type": "http",
+      "url": "https://mcp.craftcx.com/mcp"
+    }
+  }
+}
