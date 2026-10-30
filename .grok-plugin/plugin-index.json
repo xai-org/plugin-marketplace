@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "archboard": {
+      "sha": "6f4091cd0affda4abffd698cc2140fb3a150f8f9",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "archboard",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "archboard-diagramming",
+            "description": "Guide for drawing, reading and editing Archboard diagrams with the Archboard MCP tools: workflow, document format, layo…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
