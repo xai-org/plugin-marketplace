@@ -520,6 +520,36 @@
         ]
       }
     },
+    "futu-mcp": {
+      "sha": "a1cfd82087453e0089a11fedc45f36ea85039930",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "futu-mcp",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "futu-mcp-account",
+            "description": "富途账户交易 — 真实交易(下单/改单/撤单/确认)/模拟交易/账户/资金/持仓/订单/成交"
+          },
+          {
+            "name": "futu-mcp-news",
+            "description": "富途资讯研究 — 新闻搜索/社区/个股动态/经济日历/财报/估值/评级/股东/内部人/公司研究/资金流向"
+          },
+          {
+            "name": "futu-mcp-quote",
+            "description": "富途行情数据 — 实时报价/K线/盘口/分时/逐笔/快照/市场状态/交易日/自选股/板块"
+          },
+          {
+            "name": "futu-mcp-screen",
+            "description": "富途选股筛选器 — 股票多因子筛选/窝轮牛熊证筛选/期权筛选/IPO列表"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

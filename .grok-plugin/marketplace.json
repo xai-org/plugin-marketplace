@@ -396,6 +396,19 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "futu-mcp",
+      "description": "Futu quotes, stock screening, news, and account trading. Connects to the hosted MCP at mcp.futunn.com and signs in with a Futu account on first use.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FutunnOpen/futu-agent-plugin.git",
+        "sha": "a1cfd82087453e0089a11fedc45f36ea85039930"
+      },
+      "homepage": "https://www.futunn.com",
+      "keywords": ["futu", "futunn", "futu mcp"],
+      "domains": ["futunn.com", "www.futunn.com", "mcp.futunn.com", "open.futunn.com"]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
