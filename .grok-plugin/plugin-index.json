@@ -765,8 +765,8 @@
       }
     },
     "mrscraper": {
-      "sha": "b1d1a0de1a114849ea8f7a5d9c48535f76112258",
-      "version": "0.2.1",
+      "sha": "0c56aa1457263f5d63338ab4a42ee7439e9c4e4e",
+      "version": "0.2.2",
       "components": {
         "mcpServers": [
           {
@@ -785,7 +785,7 @@
           },
           {
             "name": "mrscraper-serp",
-            "description": "Discover public pages through Google with MrScraper's webSearch tool using a search query or Google search URL. Use whe…"
+            "description": "Discover public pages through web search with MrScraper's webSearch tool using a search query or a search results URL.…"
           }
         ]
       }
