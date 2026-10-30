@@ -473,6 +473,22 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "vidbyte-memory",
+      "description": "Correction-driven memory for coding agents: every correction the user gives becomes a slim fact, a pytest test that fails if the mistake comes back, and a git commit in their own repo, with a Stop hook that keeps the turn going until tests pass. No API key, database or service.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cerredz/vidbyte-memory.git",
+        "sha": "82e073de090d2d5204237d84cdffbfd42f5fb0c6"
+      },
+      "homepage": "https://github.com/cerredz/vidbyte-memory",
+      "keywords": [
+        "vidbyte-memory",
+        "vidbyte memory",
+        "install vidbyte-memory"
+      ]
     }
   ]
 }

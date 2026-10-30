@@ -1719,6 +1719,65 @@
         ]
       }
     },
+    "vidbyte-memory": {
+      "sha": "82e073de090d2d5204237d84cdffbfd42f5fb0c6",
+      "version": "0.2.0",
+      "components": {
+        "agents": [
+          {
+            "name": "feedback-fact",
+            "description": "Feedback subagent 1. Decides whether one piece of human feedback becomes a long-lasting fact, rule or hint, and writes…"
+          },
+          {
+            "name": "feedback-test",
+            "description": "Feedback subagent 2. Turns one piece of human feedback into deterministic tests in tests/, or a verifier agent when no…"
+          },
+          {
+            "name": "feedback-update",
+            "description": "Feedback subagent 3. Finds existing memory entries that one piece of human feedback contradicts, narrows or confirms, a…"
+          },
+          {
+            "name": "verifier",
+            "description": "Runs one verification agent from verifiers/ against artifacts and returns PASS or FAIL with quoted locations. Launch fr…"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "Stop"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-fact",
+            "description": "Use when the feedback-fact subagent admits a fact, rule or hint from human feedback, or when the owner says \"collect fa…"
+          },
+          {
+            "name": "create-test",
+            "description": "Use when turning human feedback into a deterministic test in tests/. Lists the ways a rule can be checked by code, the…"
+          },
+          {
+            "name": "create-verifier",
+            "description": "Use when a rule needs judgment a deterministic test cannot encode, such as tone or fit to the owner's taste. Writes a v…"
+          },
+          {
+            "name": "handle-feedback",
+            "description": "Use when any human feedback arrives: a correction, a rejection, a strong confirmation, \"remember this\", or \"collect fac…"
+          },
+          {
+            "name": "install-memory",
+            "description": "Use when the owner asks to add vidbyte-memory to a repo, or to repair a partial install. Runs the installer, which copi…"
+          },
+          {
+            "name": "update-memory",
+            "description": "Use when an existing memory entry must be superseded, retired, merged or confirmed, or when a run produced a failure, d…"
+          },
+          {
+            "name": "verify-generation",
+            "description": "Use on every generative step. Runs 3 to 5 verification rounds with the full suite (tests plus the matching verifier age…"
+          }
+        ]
+      }
+    },
     "videogen": {
       "version": "1.0.0",
       "components": {
