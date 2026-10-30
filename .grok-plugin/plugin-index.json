@@ -93,6 +93,18 @@
         ]
       }
     },
+    "browserless": {
+      "sha": "6dfe46a690fe07951a7a69abad9f981cb8d03c98",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "browserless",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
