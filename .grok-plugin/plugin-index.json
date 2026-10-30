@@ -1919,6 +1919,18 @@
           }
         ]
       }
+    },
+    "zambo": {
+      "sha": "1eef20db22ac46712633f5cb67c954055d817ba7",
+      "version": "4.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zambo",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
