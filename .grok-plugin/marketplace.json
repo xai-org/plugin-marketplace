@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "graffalo",
+      "description": "Create, inspect and refine connected Graffalo diagrams with architecture, database, sequence and source-backed workflows.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/monomyth/graffalo-plugins.git",
+        "sha": "2ebc38dc0578dfe008837531d0ca25094eb12f40"
+      },
+      "homepage": "https://graffalo.io",
+      "keywords": [
+        "graffalo",
+        "graffalo diagrams"
+      ],
+      "domains": [
+        "graffalo.io"
+      ]
     }
   ]
 }
