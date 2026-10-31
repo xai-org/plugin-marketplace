@@ -660,6 +660,68 @@
         ]
       }
     },
+    "luch": {
+      "sha": "f3b854fc4c8697eb0a6054410b2c8524aae95681",
+      "version": "0.1.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "luch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "luch-browser",
+            "description": "'Navigate, read and safely operate an isolated LUCH server-browser session. RU: автономный браузер,"
+          },
+          {
+            "name": "luch-capabilities",
+            "description": "'Find what LUCH can actually do now across authorized browsers, tabs, screenshots, local computers,"
+          },
+          {
+            "name": "luch-computer",
+            "description": "'Operate a connected, permitted user computer: screen, pointing/click, keyboard and native apps only"
+          },
+          {
+            "name": "luch-control",
+            "description": "'Choose and operate authorized LUCH tools based on actual availability and user permissions. RU: подключение"
+          },
+          {
+            "name": "luch-files",
+            "description": "'Find, inspect and edit user-authorized files and folders through LUCH-connected devices, with safe"
+          },
+          {
+            "name": "luch-local-browser",
+            "description": "'Work in the user-authorized, paired local browser tab or profile when local login/session/files are"
+          },
+          {
+            "name": "luch-safety",
+            "description": "'Apply least privilege and accurate capability claims when LUCH operates an external system. RU: безопасность,"
+          },
+          {
+            "name": "luch-server",
+            "description": "'Inspect an authorized server and execute bounded low-risk diagnostic commands through LUCH. RU: команды"
+          },
+          {
+            "name": "luch-services",
+            "description": "'Operate an explicitly linked and supported user service only through verified available MCP APIs or"
+          },
+          {
+            "name": "luch-tabs",
+            "description": "'Control user-authorized browser tabs and window state: list, open, activate and close only session-owned"
+          },
+          {
+            "name": "luch-troubleshooting",
+            "description": "'Diagnose LUCH authorization, connection, device routing and host-surface failures without bypassing"
+          },
+          {
+            "name": "luch-workflows",
+            "description": "'Coordinate a multi-step authorized workflow across browser, server, files and computer with live evidence,"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",
