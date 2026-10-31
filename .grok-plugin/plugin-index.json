@@ -1176,6 +1176,24 @@
         ]
       }
     },
+    "replo": {
+      "sha": "3a9a145321aeb4832a370bdd4657e5472d6b719c",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "replo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "replo",
+            "description": "Use for user-requested work in Replo through the Replo connector: sites and pages, brands, products, orders, files, ass…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
