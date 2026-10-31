@@ -93,6 +93,52 @@
         ]
       }
     },
+    "bulkpublish": {
+      "sha": "256039e578a195aa8fd746deea386575c4e4fc1e",
+      "version": "1.14.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bulkpublish",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bulk-publish",
+            "description": "Upload media files (local or URL), manage media library, and batch-create posts via BulkPublish. Use when the user want…"
+          },
+          {
+            "name": "check-quota",
+            "description": "Check BulkPublish plan limits and current usage. Use when the user asks about their plan, limits, or remaining quota."
+          },
+          {
+            "name": "get-analytics",
+            "description": "Pull analytics, engagement metrics, and performance data from BulkPublish. Use when the user asks about post performanc…"
+          },
+          {
+            "name": "manage-channels",
+            "description": "List connected social media channels and check their health via BulkPublish. Use when the user asks about their connect…"
+          },
+          {
+            "name": "manage-inbox",
+            "description": "Read, triage and answer BulkPublish Inbox conversations (DMs, reviews, comment threads) and comments on published posts…"
+          },
+          {
+            "name": "platform-reference",
+            "description": "Complete reference for the 15 BulkPublish platforms — post types, media requirements, required fields, character limits…"
+          },
+          {
+            "name": "schedule-post",
+            "description": "Create, schedule, or publish social media posts via BulkPublish MCP. Use when the user wants to post to social media."
+          },
+          {
+            "name": "using-bulkpublish",
+            "description": "Schedule, publish and analyse social media posts across 15 networks through BulkPublish. Use whenever the user wants to…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
