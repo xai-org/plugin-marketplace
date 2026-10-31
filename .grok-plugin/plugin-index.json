@@ -1919,6 +1919,18 @@
           }
         ]
       }
+    },
+    "wolfsms": {
+      "sha": "901490d319dcc29c659712b4bc106c1292cac9a5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wolfsms",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
