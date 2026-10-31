@@ -922,6 +922,52 @@
         ]
       }
     },
+    "postey": {
+      "sha": "5a49ca42a94e8e9a58d6c23b8cc0215e94e28091",
+      "version": "3.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postey",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postey",
+            "description": "Create, schedule, and manage social media posts via Postey across X, LinkedIn, Instagram, TikTok, YouTube, Threads, Blu…"
+          },
+          {
+            "name": "postey-analytics",
+            "description": "Read what a post or an account actually did, say what the numbers support, and turn that into the next content decision…"
+          },
+          {
+            "name": "postey-engagement",
+            "description": "Read and reply to the comments your posts actually got, and see which automations are running, without sounding like a…"
+          },
+          {
+            "name": "postey-ideas",
+            "description": "Decide what to post. Turn something trending, or one rough idea, into a per-platform set of drafts — using hooks that e…"
+          },
+          {
+            "name": "postey-ops",
+            "description": "Know whether the things you scheduled actually went out, find the ones that failed, and fix them. Publishing is asynchr…"
+          },
+          {
+            "name": "postey-teams",
+            "description": "Run content past a reviewer before it goes out: who is on the team, what they said on a draft, how a share link gets a…"
+          },
+          {
+            "name": "postey-video",
+            "description": "Turn one video into posts everywhere with Postey: transcribe it, write a caption per platform, upload with a cover fram…"
+          },
+          {
+            "name": "postey-voice",
+            "description": "Learn how the user actually writes — from the posts they published, and from what they approved, edited or rejected — a…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
