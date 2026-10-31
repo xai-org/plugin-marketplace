@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "goalz",
+      "description": "Goalz football-manager integration for Grok Build. Connect to Goalz's hosted OAuth MCP server and use the Goalz Manager skill for your club and game account; available actions depend on the scopes the client requests and you grant.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/geby85/goalz-plugins.git",
+        "sha": "c19a3eda21aa60213cf776c1460fc832117126a7",
+        "path": "packages/grok-build"
+      },
+      "homepage": "https://www.goalz.de/agenten.php",
+      "keywords": ["goalz", "goalz football manager", "goalz.de"],
+      "domains": ["goalz.de", "www.goalz.de"]
     }
   ]
 }

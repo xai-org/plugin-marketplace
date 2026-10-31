@@ -626,6 +626,24 @@
         ]
       }
     },
+    "goalz": {
+      "sha": "c19a3eda21aa60213cf776c1460fc832117126a7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "goalz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "goalz-manager",
+            "description": "Use the Goalz MCP connection to read and manage the signed-in manager's football club, fixtures, training, transfers, m…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
