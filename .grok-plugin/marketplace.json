@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "atlas-tasker",
+      "description": "Atlas Tasker: a local-first, git-backed ticket board for humans and agents. The plugin launches your installed `tracker` binary as a stdio MCP server (`tracker mcp serve`) to read board status and create, update, claim and complete tickets stored as Markdown in your own repo. No hosted service, account or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/myrrazor/atlas-tasker.git",
+        "sha": "fe3d0f8a8598027fa4c6c3648b116f981881f355"
+      },
+      "homepage": "https://github.com/myrrazor/atlas-tasker",
+      "keywords": [
+        "atlas tasker",
+        "atlas-tasker",
+        "atlas tasker board",
+        "atlas tasker tickets",
+        "atlas tasker mcp"
+      ],
+      "version": "1.18.1",
+      "author": {
+        "name": "myrrazor",
+        "url": "https://github.com/myrrazor"
+      }
     }
   ]
 }
