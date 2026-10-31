@@ -487,6 +487,22 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "litgrok",
+      "description": "Evidence-first workflow for Grok Build: plan before code, run each step with tests and proof, review changes, research with sources and hand work off between sessions. Ships skills, project rules and bounded lifecycle hooks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wjgoarxiv/litgrok.git",
+        "sha": "41c490dbac7b34de027764466f97385ab760eaef"
+      },
+      "homepage": "https://github.com/wjgoarxiv/litgrok",
+      "keywords": [
+        "litgrok",
+        "lit-loop",
+        "litfamily"
+      ]
     }
   ]
 }
