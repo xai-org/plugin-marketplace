@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/myrrazor/atlas-tasker.git",
-        "sha": "fe3d0f8a8598027fa4c6c3648b116f981881f355"
+        "sha": "e4de606d9164614d1fef6c0401c2e2de6c994357"
       },
       "homepage": "https://github.com/myrrazor/atlas-tasker",
       "keywords": [
@@ -505,7 +505,7 @@
         "atlas tasker tickets",
         "atlas tasker mcp"
       ],
-      "version": "1.18.1",
+      "version": "1.18.3",
       "author": {
         "name": "myrrazor",
         "url": "https://github.com/myrrazor"

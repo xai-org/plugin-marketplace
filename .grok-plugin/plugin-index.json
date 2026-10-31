@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "atlas-tasker": {
-      "sha": "fe3d0f8a8598027fa4c6c3648b116f981881f355",
-      "version": "1.18.1",
+      "sha": "e4de606d9164614d1fef6c0401c2e2de6c994357",
+      "version": "1.18.3",
       "components": {
         "mcpServers": [
           {
