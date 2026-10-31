@@ -855,6 +855,262 @@
         ]
       }
     },
+    "octagon-ai": {
+      "sha": "3781846dece34aa190c1965b2a9d4e355c645634",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octagon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analyst-estimates",
+            "description": "Retrieve analyst financial estimates including Revenue and EPS projections with low/high ranges and analyst coverage. U…"
+          },
+          {
+            "name": "balance-sheet",
+            "description": "Retrieve detailed balance sheet statement data including Total Assets, Current Assets, Non-Current Assets, Liabilities,…"
+          },
+          {
+            "name": "balance-sheet-growth",
+            "description": "Retrieve year-over-year growth in balance sheet items including Total Assets, Total Liabilities, Shareholders Equity, C…"
+          },
+          {
+            "name": "batch-market-cap",
+            "description": "Retrieve market capitalization data for multiple companies at once using Octagon. Use when comparing valuations across…"
+          },
+          {
+            "name": "cash-flow-growth",
+            "description": "Retrieve year-over-year growth in cash flow metrics including Operating Cash Flow, Free Cash Flow, and Net Cash Flow. U…"
+          },
+          {
+            "name": "cash-flow-statement",
+            "description": "Retrieve real-time or historical cash flow statement data including Net Income, Operating Cash Flow, Investing Cash Flo…"
+          },
+          {
+            "name": "commodities-list",
+            "description": "Retrieve the full catalog of tradable commodities across energy, metals, and agriculture using Octagon. Use when resear…"
+          },
+          {
+            "name": "commodities-quote",
+            "description": "Retrieve real-time commodity price quotes using Octagon. Use when checking current commodity prices, analyzing day rang…"
+          },
+          {
+            "name": "company-market-cap",
+            "description": "Retrieve market capitalization data for a single company using Octagon. Use when you need the current market value, val…"
+          },
+          {
+            "name": "earnings-analyst-master",
+            "description": "Comprehensive earnings call analyst skill that orchestrates all Octagon earnings analysis skills. Use when analyzing ea…"
+          },
+          {
+            "name": "earnings-analyst-questions",
+            "description": "Identify key themes and concerns raised by analysts during earnings calls, including specific analyst attribution and t…"
+          },
+          {
+            "name": "earnings-call-analysis",
+            "description": "Analyze earnings call transcripts to extract forward-looking guidance, strategic focus areas, supply chain insights, an…"
+          },
+          {
+            "name": "earnings-call-insights",
+            "description": "Analyze earnings call transcripts to extract key insights about future guidance, strategic priorities, management comme…"
+          },
+          {
+            "name": "earnings-capital-allocation",
+            "description": "Extract management's commentary on capital allocation, investment priorities, shareholder returns, and strategic invest…"
+          },
+          {
+            "name": "earnings-competitive-review",
+            "description": "Analyze management's discussion of competitive landscape, market positioning, and strategic differentiation from earnin…"
+          },
+          {
+            "name": "earnings-conf-call-sentiment",
+            "description": "Analyze the overall sentiment and tone of management during earnings conference calls, including confidence levels, opt…"
+          },
+          {
+            "name": "earnings-cost-mgmt",
+            "description": "Analyze cost reduction initiatives and operational efficiency measures from earnings transcripts, including headcount a…"
+          },
+          {
+            "name": "earnings-financial-guidance",
+            "description": "Extract and analyze financial guidance and forward-looking statements from earnings transcripts, including segment guid…"
+          },
+          {
+            "name": "earnings-market-expansion",
+            "description": "Identify market expansion and geographic growth plans discussed in earnings calls, including new market launches, inter…"
+          },
+          {
+            "name": "earnings-mgmt-comments",
+            "description": "Extract management's commentary on specific topics from earnings call transcripts, including product development, strat…"
+          },
+          {
+            "name": "earnings-product-pipeline",
+            "description": "Extract product development and pipeline updates from earnings calls, including clinical trial progress, regulatory sub…"
+          },
+          {
+            "name": "earnings-qa-analysis",
+            "description": "Analyze the Q&A section of earnings call transcripts for strategic insights, analyst concerns, and management responses…"
+          },
+          {
+            "name": "earnings-revenue-guidance",
+            "description": "Extract specific revenue guidance and growth projections from earnings call transcripts, including segment breakdown, c…"
+          },
+          {
+            "name": "esg-benchmark-comparison",
+            "description": "Retrieve ESG benchmark comparison metrics by sector using Octagon. Use when comparing ESG performance across industries…"
+          },
+          {
+            "name": "esg-ratings",
+            "description": "Retrieve ESG ratings and scores using Octagon. Use when analyzing Environmental, Social, and Governance ratings, MSCI E…"
+          },
+          {
+            "name": "financial-analyst-master",
+            "description": "Comprehensive equity research analyst skill that orchestrates all Octagon financial analysis skills. Use when conductin…"
+          },
+          {
+            "name": "financial-growth",
+            "description": "Retrieve comprehensive year-over-year growth in key financial metrics including Revenue, Gross Profit, Operating Income…"
+          },
+          {
+            "name": "financial-health-scores",
+            "description": "Retrieve financial health scores including Altman Z-Score and Piotroski Score for public companies. Use when assessing…"
+          },
+          {
+            "name": "financial-metrics-analysis",
+            "description": "Analyze year-over-year growth in income statement items and financial metrics using Octagon. Use when retrieving YoY Re…"
+          },
+          {
+            "name": "forex-list",
+            "description": "Retrieve a full listing of actively traded currency pairs in the global forex market using Octagon. Use when researchin…"
+          },
+          {
+            "name": "get-started",
+            "description": "Introduce Octagon AI, explain how to connect it, and suggest first research requests. Use when the user is new to Octag…"
+          },
+          {
+            "name": "historical-financial-ratings",
+            "description": "Retrieve historical financial ratings and key metric scores over time using Octagon. Use when analyzing overall ratings…"
+          },
+          {
+            "name": "historical-market-cap",
+            "description": "Retrieve historical market capitalization data for any stock using Octagon. Use when tracking market cap changes over t…"
+          },
+          {
+            "name": "income-statement",
+            "description": "Retrieve real-time income statement data including Revenue, Net Income, and EPS Diluted for public companies. Use when…"
+          },
+          {
+            "name": "income-statement-growth",
+            "description": "Retrieve year-over-year growth in income statement items including Revenue, Gross Profit, Operating Income, Net Income,…"
+          },
+          {
+            "name": "industry-pe-ratios",
+            "description": "Retrieve industry-specific P/E ratios using Octagon. Use when comparing company valuations to specific industry peers,…"
+          },
+          {
+            "name": "industry-performance-snapshot",
+            "description": "Retrieve a daily overview of industry performance using Octagon. Use when analyzing daily price movements, average chan…"
+          },
+          {
+            "name": "market-analyst-master",
+            "description": "Comprehensive market analyst skill that orchestrates all Octagon stock performance and market data skills. Use when con…"
+          },
+          {
+            "name": "octagon-research-router",
+            "description": "Choose the right Octagon workflow for a financial research request. Use when a request spans several kinds of analysis,…"
+          },
+          {
+            "name": "octagon-status",
+            "description": "Check whether Octagon is connected and summarize the Octagon tools that are currently available. Use when the user asks…"
+          },
+          {
+            "name": "price-target-consensus",
+            "description": "Retrieve consensus price targets for any stock using Octagon. Use when you need the average, median, high, and low anal…"
+          },
+          {
+            "name": "price-target-summary",
+            "description": "Retrieve analysts' price target summary for any stock using Octagon. Use when evaluating analyst sentiment, upside/down…"
+          },
+          {
+            "name": "ratings-snapshot",
+            "description": "Retrieve ratings snapshot with overall rating and key metric scores including DCF, ROE, ROA, Debt-to-Equity, P/E, and P…"
+          },
+          {
+            "name": "revenue-geographic-segmentation",
+            "description": "Retrieve detailed revenue breakdown by geographic segment for public companies. Use when analyzing regional exposure, g…"
+          },
+          {
+            "name": "revenue-product-segmentation",
+            "description": "Retrieve detailed revenue breakdown by product segment for public companies. Use when analyzing product mix, revenue co…"
+          },
+          {
+            "name": "sec-10k-analysis",
+            "description": "Analyze 10-K annual filings for public companies using Octagon. Use when extracting key financial metrics, risk factors…"
+          },
+          {
+            "name": "sec-10q-analysis",
+            "description": "Analyze 10-Q quarterly filings for public companies using Octagon. Use when extracting quarterly performance metrics, r…"
+          },
+          {
+            "name": "sec-8k-analysis",
+            "description": "Analyze 8-K filings to extract material events and corporate changes using Octagon. Use when tracking real-time corpora…"
+          },
+          {
+            "name": "sec-amendments-review",
+            "description": "Review amendments to SEC filings using Octagon. Use when tracking material changes, corrections, restatements, and upda…"
+          },
+          {
+            "name": "sec-analyst-master",
+            "description": "Comprehensive SEC filing analyst skill that orchestrates all Octagon SEC analysis skills. Use when conducting due dilig…"
+          }
+        ]
+      }
+    },
+    "octagon-prediction-markets": {
+      "sha": "3781846dece34aa190c1965b2a9d4e355c645634",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "octagon-predictions",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "event-brief",
+            "description": "Write a cited analyst brief on one prediction-market event, covering resolution criteria, the current market-implied pr…"
+          },
+          {
+            "name": "get-started",
+            "description": "Introduce Octagon Prediction Markets, explain what prediction-market data is and how to connect, and suggest first requ…"
+          },
+          {
+            "name": "mispricing-analysis",
+            "description": "Compare a prediction market's implied probability with Octagon's independent model estimate and report the mispricing,…"
+          },
+          {
+            "name": "octagon-status",
+            "description": "Check whether Octagon is connected and summarize the prediction-market tools that are currently available. Use when the…"
+          },
+          {
+            "name": "prediction-markets-analysis",
+            "description": "Research a prediction market on Kalshi or Polymarket with the Octagon prediction-markets agent. Returns a cited report…"
+          },
+          {
+            "name": "probability-history",
+            "description": "Analyze how a prediction market's probability has moved over time, including the largest moves, regime changes, and the…"
+          },
+          {
+            "name": "trust-score",
+            "description": "Explain and retrieve the Octagon Trust Score for a Kalshi or Polymarket market: a 0–100 score of whether the market can…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
