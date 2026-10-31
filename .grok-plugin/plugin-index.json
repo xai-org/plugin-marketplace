@@ -328,6 +328,40 @@
         ]
       }
     },
+    "cryptyx": {
+      "sha": "406a587da0ba3e192c39dbd8c266fda38b2ada8c",
+      "version": "0.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cryptyx",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cryptyx",
+            "description": "CRYPTYX — Digital Asset Intelligence. Institutional-grade quantitative intelligence for digital assets, in plain Englis…"
+          },
+          {
+            "name": "cryptyx-build-setup",
+            "description": "Go all the way down the CRYPTYX stack - from one reading to a multi-factor, multi-horizon setup of your own, tested on…"
+          },
+          {
+            "name": "cryptyx-exchange-bridge",
+            "description": "Use an exchange connection (Coinbase, Kraken, Binance, Hyperliquid) together with CRYPTYX - read which coins the user h…"
+          },
+          {
+            "name": "cryptyx-holdings",
+            "description": "The coin study for the coins a user holds or watches - where each coin stands on its shorter and longer horizons, what…"
+          },
+          {
+            "name": "cryptyx-investigate",
+            "description": "Going deeper after the coin study - what else stands out across a few coins, a setup's composition and track record, ho…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
