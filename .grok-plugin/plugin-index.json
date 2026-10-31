@@ -660,6 +660,60 @@
         ]
       }
     },
+    "kilobat": {
+      "sha": "4230df33cd93e8232a3e5e9b0af269bfade0fe59",
+      "version": "0.7.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kilobat",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kilobat",
+            "description": "Entry point for Kilobat, the macOS network utility with a CLI and MCP server. Read first for any Mac network task, such…"
+          },
+          {
+            "name": "kilobat-setup",
+            "description": "Set up the Kilobat plugin on a Mac, verify its bundled CLI and MCP connection, explain permissions and local data handl…"
+          },
+          {
+            "name": "mac-agent-runs",
+            "description": "Keep a Mac awake for long AI agent runs, builds and downloads with Kilobat, with the lid closed when the user allows it…"
+          },
+          {
+            "name": "mac-app-firewall",
+            "description": "Control which apps on a Mac may use the internet with Kilobat's firewall. Covers allowing or blocking apps, choosing wh…"
+          },
+          {
+            "name": "mac-bandwidth-monitor",
+            "description": "See which apps and processes use the internet on a Mac, how much they upload and download, and where they connect, with…"
+          },
+          {
+            "name": "mac-dns-troubleshooting",
+            "description": "Diagnose and fix DNS on a Mac with Kilobat. Measures lookup time, benchmarks the system resolver against Cloudflare, Go…"
+          },
+          {
+            "name": "mac-hotspot-data-saver",
+            "description": "Save mobile data on a Mac tethered to a phone hotspot, on plane or hotel Wi-Fi, or with a data cap. Uses Kilobat to sho…"
+          },
+          {
+            "name": "mac-network-troubleshooting",
+            "description": "Diagnose slow or unreliable internet on a Mac with Kilobat's CLI or MCP server. Measures Wi-Fi signal, router and inter…"
+          },
+          {
+            "name": "mac-wifi-troubleshooting",
+            "description": "Fix weak, slow, stuttering or dropping Wi-Fi on a Mac with Kilobat. Measures signal and noise, finds crowded channels,…"
+          },
+          {
+            "name": "video-call-network-check",
+            "description": "Check whether a Mac's connection can handle Zoom, Google Meet, Teams, FaceTime or Slack calls, game streaming or remote…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
       "version": "0.0.196",

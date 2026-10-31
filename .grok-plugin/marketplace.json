@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kilobat",
+      "description": "Kilobat for macOS: diagnose slow internet, Wi-Fi, DNS and latency, identify bandwidth users, save hotspot data and monitor long agent runs. Includes 43 local MCP tools, 10 skills and a signed Intel/Apple-silicon CLI; macOS 14+.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/seifip/kilobat-plugin.git",
+        "sha": "4230df33cd93e8232a3e5e9b0af269bfade0fe59"
+      },
+      "homepage": "https://kilobat.app",
+      "keywords": [
+        "kilobat",
+        "kilobat wifi",
+        "kilobat network",
+        "kilobat bandwidth"
+      ],
+      "domains": [
+        "kilobat.app"
+      ],
+      "version": "0.7.2"
     }
   ]
 }
