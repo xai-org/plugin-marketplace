@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "rystic",
+      "description": "Rystic API simulators. Start, seed and reset stateful simulators of Stripe, GitHub, Slack, Shopify and other APIs on your machine, move their clock, inspect state, calls and sent webhooks, diff state and save runs as test cases.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Rystic-Inc/rystic.git",
+        "sha": "f69aa15d70c08fc30b1f5b7c848c7c66d155909f"
+      },
+      "homepage": "https://www.rystic.ai/docs/mcp-server",
+      "keywords": ["rystic", "rystic simulator", "rystic mcp"],
+      "domains": ["rystic.ai"],
+      "version": "0.1.0",
+      "author": {
+        "name": "Rystic",
+        "email": "help@rystic.ai",
+        "url": "https://www.rystic.ai"
+      }
     }
   ]
 }
