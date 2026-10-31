@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "fragment",
+      "description": "Fragment helps coding agents build prepaid credits, wallets, payouts, escrow and spending limits on a Fragment ledger. The ledger refuses bad changes itself: balances can't go negative and nothing is credited twice, even if the app's code has a bug. Includes tested code in TypeScript, Python and Ruby, and six judged recipes. Payments stay on Stripe or your bank; the plugin never moves money.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fragment-dev/fragment-plugins.git",
+        "sha": "af2d1c7d4ace77c90a802918f188e97bb703a963",
+        "path": "plugins/fragment"
+      },
+      "homepage": "https://fragment.dev",
+      "keywords": ["fragment", "fragment ledger", "fragment.dev"],
+      "domains": ["fragment.dev"]
     }
   ]
 }
