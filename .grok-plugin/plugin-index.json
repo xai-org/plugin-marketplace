@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "agentisend": {
-      "sha": "0b20dabf68f60056a128d61eb4fd7041dc570dd2",
+      "sha": "2fc2cd8c0458dae6adada47c66c0ba92fb01f7b0",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
@@ -20,8 +20,8 @@
       }
     },
     "axiom": {
-      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
-      "version": "1.1.2",
+      "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -31,28 +31,36 @@
         ],
         "skills": [
           {
+            "name": "axiom-agent-created-orgs",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
+          },
+          {
             "name": "axiom-alerting",
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-sre",
-            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
-          },
-          {
-            "name": "building-dashboards",
+            "name": "axiom-building-dashboards",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "controlling-costs",
+            "name": "axiom-controlling-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "metrics-chart",
+            "name": "axiom-ingest",
+            "description": "Send data to Axiom. Picks an org from ~/.axiom.toml, or provisions a temporary one when none is configured, creates the…"
+          },
+          {
+            "name": "axiom-metrics-chart",
             "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
-            "name": "spl-to-apl",
+            "name": "axiom-spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
           }
         ]
       }
@@ -384,9 +392,115 @@
         ]
       }
     },
+    "expo": {
+      "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+      "version": "1.13.13",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "expo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eas-app-stores",
+            "description": "Build and submit iOS and Android apps with EAS to TestFlight, the App Store, or Google Play. Supports Expo and other Re…"
+          },
+          {
+            "name": "eas-hosting",
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+          },
+          {
+            "name": "eas-observe",
+            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, mar…"
+          },
+          {
+            "name": "eas-simulator",
+            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+          },
+          {
+            "name": "eas-update",
+            "description": "Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when sett…"
+          },
+          {
+            "name": "eas-update-insights",
+            "description": "Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split…"
+          },
+          {
+            "name": "eas-workflows",
+            "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or…"
+          },
+          {
+            "name": "expo-animation",
+            "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right —…"
+          },
+          {
+            "name": "expo-app-clip",
+            "description": "Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appcl…"
+          },
+          {
+            "name": "expo-brownfield",
+            "description": "Integrate Expo and React Native into an existing native iOS or Android app. Use for brownfield, embedding a React Nativ…"
+          },
+          {
+            "name": "expo-data-fetching",
+            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+          },
+          {
+            "name": "expo-design-system",
+            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight…"
+          },
+          {
+            "name": "expo-dom",
+            "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incremental…"
+          },
+          {
+            "name": "expo-examples",
+            "description": "Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI…"
+          },
+          {
+            "name": "expo-module",
+            "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Co…"
+          },
+          {
+            "name": "expo-native-ui",
+            "description": "Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, m…"
+          },
+          {
+            "name": "expo-overview",
+            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+          },
+          {
+            "name": "expo-project-structure",
+            "description": "Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or decidin…"
+          },
+          {
+            "name": "expo-router",
+            "description": "Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link…"
+          },
+          {
+            "name": "expo-ui",
+            "description": "Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for…"
+          },
+          {
+            "name": "expo-upgrade",
+            "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+          },
+          {
+            "name": "expo-web-to-native",
+            "description": "Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into…"
+          }
+        ]
+      }
+    },
     "figma": {
-      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
-      "version": "2.2.163",
+      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
+      "version": "2.2.174",
       "components": {
         "mcpServers": [
           {
@@ -827,8 +941,8 @@
       }
     },
     "pstack": {
-      "sha": "99b609a72323b70204eab407c622f436e858e112",
-      "version": "0.15.32",
+      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+      "version": "0.15.36",
       "components": {
         "agents": [
           {
@@ -899,7 +1013,7 @@
           },
           {
             "name": "ketchup-video",
-            "description": "Catch the user up like /ketchup, with a short silent video of slides for what happened and the waiting calls as text un…"
+            "description": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text…"
           },
           {
             "name": "maintain-formal-verification-skill",
@@ -951,7 +1065,7 @@
           },
           {
             "name": "principle-explain-the-number",
-            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
+            "description": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a thr…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -1145,8 +1259,8 @@
       }
     },
     "stripe": {
-      "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
-      "version": "0.9.30",
+      "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
+      "version": "0.9.33",
       "components": {
         "agents": [
           {
@@ -1747,8 +1861,8 @@
       }
     },
     "wix": {
-      "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9",
-      "version": "1.36.0",
+      "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
+      "version": "1.36.3",
       "components": {
         "mcpServers": [
           {
