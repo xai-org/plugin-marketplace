@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "insitu-sales",
+      "description": "Official inSitu Sales integration (hosted MCP server + storefront authoring skill) for manufacturers, wholesalers, and distributors running field sales, van sales, and DSD. Find customers and products; review pricing, inventory, visits, orders, estimates, and invoices; generate customer statements; get order recommendations; and create or update sales records, connected to ERPs like QuickBooks, NetSuite, Odoo, SAP Business One, Xero, and Dynamics 365 Business Central. Sign in with your inSitu Sales account via OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/inSitu-Sales/insitusales-agent-plugin.git",
+        "sha": "852b9a830da3a85cce826369c2192ed7820e759f",
+        "path": "plugins/insitu-sales"
+      },
+      "homepage": "https://www.insitusales.com",
+      "keywords": ["insitu sales", "insitusales", "insitu sales mcp", "insitu sales order", "insitu sales invoice"],
+      "domains": ["insitusales.com", "www.insitusales.com", "api.insitusales.com"]
     }
   ]
 }
