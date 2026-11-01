@@ -1240,6 +1240,18 @@
         ]
       }
     },
+    "slicktrip": {
+      "sha": "e01a67fe25e731c44be51fbcc193d05650b37c8c",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "slicktrip",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
       "version": "0.9.33",
