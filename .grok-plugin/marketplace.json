@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "looot",
+      "description": "looot remote MCP server and skill: search, price and run business-data lookups (work email, company and people enrichment, Google results, web pages) from one prepaid account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/loootai/looot-plugin.git",
+        "sha": "0c0b6549deee728a8ddd86e67af72e01c5029c69",
+        "path": "plugins/claude-code/looot"
+      },
+      "homepage": "https://looot.ai",
+      "keywords": ["looot"],
+      "domains": ["looot.ai", "docs.looot.ai"]
     }
   ]
 }
