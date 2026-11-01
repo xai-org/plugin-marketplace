@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/fragment-dev/fragment-plugins.git",
-        "sha": "a1e69479ba35c21400ffdead61358d7637e77c98",
+        "sha": "632f69687b6058eda705c017a9aa957e4ec91f98",
         "path": "plugins/fragment"
       },
       "homepage": "https://fragment.dev",
