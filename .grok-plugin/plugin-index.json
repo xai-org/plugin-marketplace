@@ -627,8 +627,8 @@
       }
     },
     "fragment": {
-      "sha": "97fee16074fd39e481b1f77d819c3aa6dd3ebdea",
-      "version": "0.1.7",
+      "sha": "a1e69479ba35c21400ffdead61358d7637e77c98",
+      "version": "0.1.8",
       "components": {
         "mcpServers": [
           {
