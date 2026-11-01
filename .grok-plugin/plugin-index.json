@@ -627,8 +627,8 @@
       }
     },
     "fragment": {
-      "sha": "632f69687b6058eda705c017a9aa957e4ec91f98",
-      "version": "0.1.9",
+      "sha": "eafbc3909d069c5dba5a1d0b16d203aebe30c879",
+      "version": "0.1.10",
       "components": {
         "mcpServers": [
           {
@@ -647,7 +647,7 @@
           },
           {
             "name": "money-flow-spec",
-            "description": "Writes the requirements spec for a money flow (credits, wallets, payouts, escrow, lending, spending limits) before any…"
+            "description": "Writes the requirements spec for a money flow (credits, wallets, payouts, escrow, lending, spending limits): parties, s…"
           },
           {
             "name": "money-flows",
