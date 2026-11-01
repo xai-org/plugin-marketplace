@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "thumblifyai",
+      "description": "ThumblifyAI is an AI thumbnail maker for creating YouTube thumbnails with AI. Generate thumbnails from text prompts, recreate designs, match styles, and train AI on your face to create personalized YouTube thumbnails featuring your own likeness.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heyalizaid/thumblifyai-plugin.git",
+        "sha": "066ed67edfbcac9d8fee65dcb4b61877ccf038ae"
+      },
+      "homepage": "https://thumblifyai.com",
+      "keywords": ["thumblifyai", "thumblifyai thumbnails", "thumblifyai mcp"],
+      "domains": ["thumblifyai.com", "api.thumblifyai.com"]
     }
   ]
 }
