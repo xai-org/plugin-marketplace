@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "autotelic": {
+      "type": "http",
+      "url": "https://itsbarbot.ai/mcp/autotelic"
+    }
+  }
+}

@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "autotelic",
+      "description": "Autotelic team tool discovery and crew workflows: inspect assigned work, submit real photo evidence for human review, and check your own review and payment status. Connect with an authorized Autotelic account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/autotelic"
+      },
+      "homepage": "https://autotelic.build",
+      "keywords": [
+        "autotelic",
+        "autotelic work",
+        "autotelic crew",
+        "autotelic tool registry"
+      ],
+      "domains": [
+        "autotelic.build",
+        "itsbarbot.ai"
+      ]
     }
   ]
 }

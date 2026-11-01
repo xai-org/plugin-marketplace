@@ -1,0 +1,9 @@
+{
+  "name": "autotelic",
+  "version": "0.1.0",
+  "description": "Autotelic remote HTTP MCP plugin for team tool registry discovery and crew/team work checklist inspection, photo evidence submission, and review/pay status lookup.",
+  "license": "MIT",
+  "author": {
+    "name": "Autotelic"
+  }
+}
