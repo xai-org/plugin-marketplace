@@ -1843,8 +1843,8 @@
       }
     },
     "wix": {
-      "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
-      "version": "1.36.3",
+      "sha": "e0e40f08e298899681f90881cdc00485399e1650",
+      "version": "1.37.0",
       "components": {
         "mcpServers": [
           {
@@ -1871,7 +1871,7 @@
           },
           {
             "name": "wix-export",
-            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+            "description": "Export an existing Wix Studio 2 site, or create a new one, into a local folder with the Wix CLI, start its local previe…"
           },
           {
             "name": "wix-harmony-editor",
@@ -1899,7 +1899,7 @@
           },
           {
             "name": "wix-import",
-            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
+            "description": "Import local site code into a Wix Studio 2 site with the Wix CLI, either into the site the folder was exported from or…"
           },
           {
             "name": "wix-manage",
