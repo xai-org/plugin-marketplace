@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "nz-openbank-mcp",
+      "description": "Unofficial plugin for Akahu open finance in New Zealand. Ask about your connected NZ bank accounts, balances and transactions through your own Akahu Personal App. Runs locally over stdio, starts read-only, and asks before every write.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thatskiff33/nz-openbank-mcp.git",
+        "sha": "26773d264b9c9bbdbd72e5028404e2067d03f78b",
+        "path": "plugin"
+      },
+      "homepage": "https://github.com/thatskiff33/nz-openbank-mcp",
+      "keywords": ["akahu", "akahu api", "nz open banking"]
     }
   ]
 }
