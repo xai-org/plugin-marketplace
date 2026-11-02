@@ -770,7 +770,7 @@
     },
     {
       "name": "mangrove-agent",
-      "description": "Mangrove Agent lets AI agents trade safely. Over 100 strategy tools, backtesting and live execution across more than a dozen exchange venues, with built-in guardrails: circuit breakers, drawdown limits, automatic risk-based position sizing and automatically generated stop-loss and take-profit orders. Free API key or x402 pay per call.",
+      "description": "Mangrove gives trading agents guardrails. Built-in risk management on every order: circuit breakers, drawdown limits, automatic risk-based position sizing and automatically generated stop-loss and take-profit orders. Over 100 tools for strategy R&D, backtesting and live execution across more than a dozen exchange venues. Free API key or x402 pay per call.",
       "category": "finance",
       "source": {
         "source": "url",
