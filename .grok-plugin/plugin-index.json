@@ -1,6 +1,28 @@
 {
   "version": 1,
   "plugins": {
+    "agentcontinuity": {
+      "sha": "0aeaf3528a78440d3b0b28dd3d3aa05ce7b8fced",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentcontinuity",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "continuity",
+            "description": "Preserve authorized agent work context and recover it across sessions using AgentContinuity memory, checkpoints and ver…"
+          },
+          {
+            "name": "setup",
+            "description": "Set up or troubleshoot the AgentContinuity connection. Use when the user wants to connect AgentContinuity, has no Agent…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
