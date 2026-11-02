@@ -1222,6 +1222,24 @@
         ]
       }
     },
+    "silvertongue": {
+      "sha": "2a321a7bc9305e0cf2ae8aabbe7c8ba30fc5ab4b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "silvertongue",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "silvertongue",
+            "description": "Write the user's own point in a famous person's writing voice, using Silvertongue's studied voice profiles. Use when so…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

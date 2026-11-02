@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "silvertongue",
+      "description": "Write like anyone famous: search 50 studied writing voices and write your post, reply or thread in one with your own model, with every source linked. Read-only hosted MCP, no account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/auscaster/silvertongue.git",
+        "sha": "2a321a7bc9305e0cf2ae8aabbe7c8ba30fc5ab4b"
+      },
+      "homepage": "https://auscaster.com/silvertongue",
+      "keywords": ["silvertongue", "silvertongue voices", "silvertongue writing voices", "silvertongue mcp"],
+      "domains": ["silvertongue.dev", "mcp.silvertongue.dev", "silvertongue.auscaster.com"]
     }
   ]
 }
