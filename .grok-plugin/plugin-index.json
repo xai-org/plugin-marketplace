@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aiagentcycle": {
+      "sha": "93c63326e09fd77659a7276d1feec02c214a2dad",
+      "version": "0.3.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aiagentcycle",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",

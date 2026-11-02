@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "aiagentcycle",
+      "description": "Read-only, source-linked AIAgentCycle company knowledge in Dutch and English through the hosted AIAgentCycle MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aiagentcycle/aiagentcycle-mcp.git",
+        "sha": "93c63326e09fd77659a7276d1feec02c214a2dad"
+      },
+      "homepage": "https://aiagentcycle.com",
+      "keywords": ["aiagentcycle", "aiagentcycle knowledge", "aiagentcycle mcp"],
+      "domains": ["aiagentcycle.com", "mcp.aiagentcycle.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
