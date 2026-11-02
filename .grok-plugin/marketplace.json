@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "haulforza",
+      "description": "Trucking business OS: loads, drivers, brokers, rates and monthly revenue/driver pay/expenses for carriers and dispatchers; create loads and update status with confirmation.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/haulforza"
+      },
+      "homepage": "https://www.haulforza.com",
+      "keywords": ["haulforza", "haulforza loads", "haulforza dispatch", "haulforza drivers", "haulforza trucking"],
+      "domains": ["haulforza.com", "www.haulforza.com"],
+      "author": {
+        "name": "HaulForza LLC",
+        "email": "support@haulforza.com",
+        "url": "https://www.haulforza.com"
+      }
     }
   ]
 }

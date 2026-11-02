@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "haulforza": {
+      "type": "http",
+      "url": "https://www.haulforza.com/mcp"
+    }
+  }
+}
