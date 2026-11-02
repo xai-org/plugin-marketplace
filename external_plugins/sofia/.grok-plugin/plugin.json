@@ -1,0 +1,14 @@
+{
+  "name": "sofia",
+  "version": "1.0.0",
+  "description": "Sofia, the social media assistant for independent businesses, through the hosted Sofia MCP server at mcp.sofia-post.com. Draft, schedule and publish posts on the networks connected in Sofia, reuse the media library, prepare campaign plans for review and read publication statistics. Sign in with your Sofia account on first connect.",
+  "author": {
+    "name": "BADJI DIGITAL SERVICES",
+    "email": "support@sofia-post.com",
+    "url": "https://www.sofia-post.com"
+  },
+  "homepage": "https://www.sofia-post.com",
+  "license": "MIT",
+  "keywords": ["sofia-post", "sofia post", "sofia social media", "sofia mcp"],
+  "logo": "assets/logo.png"
+}
