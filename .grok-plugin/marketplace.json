@@ -397,7 +397,7 @@
     },
     {
       "name": "desearch",
-      "description": "Desearch MCP server and skills for AI agents: AI search, X search and web search, page extraction, X data tools, and People Search for finding people and creators on X, YouTube, LinkedIn, and TikTok (22 tools). Bring your own Desearch API key from console.desearch.ai.",
+      "description": "Desearch MCP server and skills for AI agents: AI search, X search and web search, the Search API, page extraction, X data tools, public YouTube (with transcripts), Reddit, Threads, TikTok, Facebook, and Instagram data, People Search for finding people and creators on X, YouTube, LinkedIn, and TikTok, and Company Search for finding companies with their public contacts and leaders (39 tools). Bring your own Desearch API key from console.desearch.ai.",
       "category": "development",
       "source": {
         "source": "url",
