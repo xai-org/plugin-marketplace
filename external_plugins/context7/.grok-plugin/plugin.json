@@ -1,0 +1,14 @@
+{
+  "name": "context7",
+  "version": "1.0.0",
+  "description": "Fetch current, version-specific library documentation and code examples through the Context7 MCP server.",
+  "author": {
+    "name": "Upstash",
+    "email": "context7@upstash.com",
+    "url": "https://upstash.com"
+  },
+  "homepage": "https://context7.com",
+  "repository": "https://github.com/upstash/context7",
+  "license": "MIT",
+  "keywords": ["context7", "context 7", "use context7"]
+}
