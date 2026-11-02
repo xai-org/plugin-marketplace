@@ -490,7 +490,7 @@
     },
     {
       "name": "stophy",
-      "description": "One API to search the web, read what people say, and look up products, places, jobs and homes. Pay only for answers.",
+      "description": "One API to search the web, read what people say, and look up products, places, jobs and homes.",
       "category": "development",
       "source": {
         "source": "url",
