@@ -495,12 +495,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/goldsky-io/goldsky-agent.git",
-        "sha": "6f78c088d6be383cfa01f71b25c1e0bdf67e817b"
+        "sha": "418430b6aebd38868b40d106a685e4b5ce60653e"
       },
       "homepage": "https://goldsky.com",
       "keywords": ["goldsky", "goldsky pipeline", "goldsky turbo", "goldsky mirror", "goldsky subgraph", "goldsky edge", "goldsky rpc", "goldsky boost", "goldsky feeds", "goldsky cli"],
       "domains": ["goldsky.com", "app.goldsky.com", "docs.goldsky.com"],
-      "version": "1.8.2"
+      "version": "1.8.3"
     }
   ]
 }

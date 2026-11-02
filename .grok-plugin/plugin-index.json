@@ -627,8 +627,8 @@
       }
     },
     "goldsky": {
-      "sha": "6f78c088d6be383cfa01f71b25c1e0bdf67e817b",
-      "version": "1.8.2",
+      "sha": "418430b6aebd38868b40d106a685e4b5ce60653e",
+      "version": "1.8.3",
       "components": {
         "agents": [
           {
