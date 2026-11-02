@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TayDa64/theShow.git",
-        "sha": "8934bf0480664070a62c8e611dfd7dd9a887b338"
+        "sha": "400599e40d91d2055a453eee66c0b320ec1bfedb"
       },
       "homepage": "https://github.com/TayDa64/theShow",
       "keywords": ["theshow", "the show plugin", "storyforge", "storyforge studio", "continuity film", "ai film pipeline"]
