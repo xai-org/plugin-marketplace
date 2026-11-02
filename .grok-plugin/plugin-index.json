@@ -768,15 +768,11 @@
         "skills": [
           {
             "name": "neon",
-            "description": "Overview of the Neon platform for apps and agents, spanning Postgres, Auth, Data API, and the new services: Object Stor…"
+            "description": "Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions,…"
           },
           {
             "name": "neon-postgres",
-            "description": "Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autos…"
-          },
-          {
-            "name": "neon-postgres-branches",
-            "description": "Choose and create the right Neon branch type for testing and development. Use when users ask about Neon branching, migr…"
+            "description": "Guides and best practices for working with Lakebase Postgres on Neon: connections, pooled vs direct, schema migrations,…"
           }
         ]
       }
