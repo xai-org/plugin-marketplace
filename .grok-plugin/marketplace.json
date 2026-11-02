@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/auscaster/silvertongue.git",
-        "sha": "2a321a7bc9305e0cf2ae8aabbe7c8ba30fc5ab4b"
+        "sha": "8bdb1574d80c6b602d8db9d43c4c435fbd8bbd7a"
       },
       "homepage": "https://auscaster.com/silvertongue",
       "keywords": ["silvertongue", "silvertongue voices", "silvertongue writing voices", "silvertongue mcp"],
