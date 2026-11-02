@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "goodqa",
+      "description": "GoodQA tickets, projects and follow-ups through its protected MCP server. OAuth requires an enabled organization; Grok Build sign-in remains unverified.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ericmacdougall/goodqa-grok-plugin.git",
+        "sha": "da6b57b02cbde5e0f0fde68f32afb9ab689aeac4"
+      },
+      "homepage": "https://goodqa.app/developers",
+      "keywords": [
+        "goodqa",
+        "goodqa tickets",
+        "goodqa projects"
+      ],
+      "domains": [
+        "goodqa.app"
+      ],
+      "version": "0.1.0",
+      "author": {
+        "name": "GoodQA",
+        "url": "https://goodqa.app"
+      }
     }
   ]
 }
