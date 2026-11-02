@@ -494,10 +494,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mobbin/skills.git",
-        "sha": "1eda2331cecc3f0e55a9c82ae375a8313652d01e"
+        "sha": "79124d92763f6e85107386227a96bbc40479710e"
       },
-      "homepage": "https://docs.mobbin.com/mcp/introduction",
-      "keywords": ["mobbin", "mobbin mcp", "mobbin design", "mobbin ui", "mobbin ux", "mobbin screens", "mobbin redesign"],
+      "homepage": "https://mobbin.com/mcp",
+      "keywords": ["mobbin", "mobbin mcp", "mobbin design", "mobbin ui", "mobbin ux", "mobbin screens", "mobbin redesign", "mobbin inspiration", "mobbin flows", "mobbin patterns"],
       "domains": ["mobbin.com", "api.mobbin.com", "docs.mobbin.com"],
       "author": {
         "name": "Mobbin",
