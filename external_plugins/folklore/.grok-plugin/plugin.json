@@ -1,0 +1,17 @@
+{
+  "name": "folklore",
+  "version": "1.0.0",
+  "description": "ACMG/AMP germline variant classification, gene profiles, disease associations and literature.",
+  "author": {
+    "name": "Helena Bioinformatics",
+    "url": "https://helena.bio"
+  },
+  "homepage": "https://folklore.helena.bio/integrations/mcp",
+  "repository": "https://github.com/helena-bioinformatics/folklore-mcp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "folklore",
+    "folklore mcp",
+    "helena bioinformatics folklore"
+  ]
+}

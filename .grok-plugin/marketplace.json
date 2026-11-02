@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "folklore",
+      "description": "ACMG/AMP germline variant classification, gene profiles, disease associations and literature.",
+      "category": "research",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/folklore"
+      },
+      "homepage": "https://folklore.helena.bio/integrations/mcp",
+      "keywords": [
+        "folklore",
+        "folklore mcp",
+        "helena bioinformatics folklore"
+      ],
+      "domains": [
+        "folklore.helena.bio"
+      ]
     }
   ]
 }
