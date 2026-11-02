@@ -350,6 +350,52 @@
         ]
       }
     },
+    "docspring": {
+      "sha": "43a5c483f02b327678d2b2d3dba309a406c7051b",
+      "version": "1.5.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "docspring",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "docspring",
+            "description": "Connects to DocSpring, the service that fills PDF and Word templates with data, generates PDFs from HTML templates and…"
+          },
+          {
+            "name": "docspring-api-integration",
+            "description": "Writes application code that generates PDFs with DocSpring through its official 4.x API clients (API v2), covering clie…"
+          },
+          {
+            "name": "docspring-embedded-forms",
+            "description": "Puts DocSpring forms and the template editor in a browser. Sets up hosted form links, embedded web forms (DocSpring.cre…"
+          },
+          {
+            "name": "docspring-html-templates",
+            "description": "Creates, restyles and fixes DocSpring HTML/CSS templates (Liquid HTML, SCSS, headers, footers, page size and margins),…"
+          },
+          {
+            "name": "docspring-page-designer",
+            "description": "Creates and changes DocSpring page designs, templates whose PDFs DocSpring lays out from a JSON layout of sections, tex…"
+          },
+          {
+            "name": "docspring-pdf-templates",
+            "description": "Turns a user's PDF form into a working DocSpring PDF template. Creates it from a link or file, detects or imports its f…"
+          },
+          {
+            "name": "docspring-signature-requests",
+            "description": "Collects e-signatures with DocSpring signature requests. Sends a PDF template to one or more signers, whom DocSpring em…"
+          },
+          {
+            "name": "docspring-word-templates",
+            "description": "Creates and fixes DocSpring Word templates, Word documents (.docx) with Liquid tags that DocSpring fills in with submis…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
