@@ -1,0 +1,11 @@
+{
+  "name": "nitrozen",
+  "version": "1.0.0",
+  "description": "Nitrozen for Grok Build via the hosted Nitrozen MCP server at mcp.nitrozen.io. Write, publish and read product changelogs from your AI assistant. Sign in with your Nitrozen account on first connect.",
+  "author": { "name": "Nitrozen", "url": "https://nitrozen.io" },
+  "homepage": "https://nitrozen.io/docs/mcp",
+  "repository": "https://github.com/nitrozenio/nitrozen-mcp",
+  "license": "MIT",
+  "keywords": ["nitrozen", "nitrozen.io", "nitrozen mcp", "nitrozen changelog"],
+  "logo": "assets/logo.png"
+}

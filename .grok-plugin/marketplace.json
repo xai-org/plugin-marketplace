@@ -487,6 +487,47 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "renewroster",
+      "description": "RenewRoster domain and SSL certificate expiry tracking for agencies (hosted MCP server). See which client domains and certificates expire soon, view the monthly renewal report with who pays, look up domain registration expiry or a live certificate, and add, re-check or stop tracking assets. Sign in with your RenewRoster account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/renewroster"
+      },
+      "homepage": "https://renewroster.com/docs/mcp",
+      "keywords": [
+        "renewroster",
+        "renew roster",
+        "renewroster mcp",
+        "renewroster domains",
+        "renewroster ssl"
+      ],
+      "domains": [
+        "renewroster.com",
+        "app.renewroster.com"
+      ]
+    },
+    {
+      "name": "nitrozen",
+      "description": "Nitrozen product changelogs (hosted MCP server). List changelog projects, draft and publish Markdown entries with categories, update or remove entries, and read any project's public changelog. Sign in with your Nitrozen account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/nitrozen"
+      },
+      "homepage": "https://nitrozen.io/docs/mcp",
+      "keywords": [
+        "nitrozen",
+        "nitrozen.io",
+        "nitrozen mcp",
+        "nitrozen changelog"
+      ],
+      "domains": [
+        "nitrozen.io",
+        "mcp.nitrozen.io"
+      ]
     }
   ]
 }

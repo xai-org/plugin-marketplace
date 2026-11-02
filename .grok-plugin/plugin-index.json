@@ -855,6 +855,17 @@
         ]
       }
     },
+    "nitrozen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nitrozen",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
@@ -1172,6 +1183,17 @@
           {
             "name": "use-railway",
             "description": "Operate Railway infrastructure: sign up for or sign in to a Railway account, create projects, provision services, datab…"
+          }
+        ]
+      }
+    },
+    "renewroster": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "renewroster",
+            "description": "http"
           }
         ]
       }

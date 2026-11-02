@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "renewroster": {
+      "type": "http",
+      "url": "https://app.renewroster.com/mcp"
+    }
+  }
+}
