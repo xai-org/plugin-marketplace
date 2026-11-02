@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ericmacdougall/goodqa-grok-plugin.git",
-        "sha": "da6b57b02cbde5e0f0fde68f32afb9ab689aeac4"
+        "sha": "de5cbe92cdbb88fc301c7c3eca726219b8fec33f"
       },
       "homepage": "https://goodqa.app/developers",
       "keywords": [
