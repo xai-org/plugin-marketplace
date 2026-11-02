@@ -1,6 +1,22 @@
 {
   "version": 1,
   "plugins": {
+    "add-domain-websites": {
+      "sha": "b588cda144dee985c149a1c7e59a553a18508fb1",
+      "version": "1.0.4",
+      "components": {
+        "skills": [
+          {
+            "name": "check-domain-availability-dns",
+            "description": "Check domain availability, compare first-year registration and annual renewal estimates, and diagnose DNS records for a…"
+          },
+          {
+            "name": "frontend-business-websites",
+            "description": "Design and build a responsive frontend website or accessible landing page for a small business or creator from the firs…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
