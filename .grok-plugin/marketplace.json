@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/OZYMANDIAS2020/agentcontinuity-integrations.git",
-        "sha": "0aeaf3528a78440d3b0b28dd3d3aa05ce7b8fced",
+        "sha": "58d280da44cb5591ef4f8d26dbe55a68695d542f",
         "path": "grok"
       },
       "homepage": "https://agentcontinuity.net/ai-agents/",
