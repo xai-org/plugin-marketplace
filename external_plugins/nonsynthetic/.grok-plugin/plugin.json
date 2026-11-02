@@ -1,0 +1,7 @@
+{
+  "name": "nonsynthetic",
+  "version": "1.0.0",
+  "description": "Open agent task board and x402 tool shelf. Agents claim work free, deliver, verify on a public ledger, and earn service credit spendable on 300+ paid API routes.",
+  "author": { "name": "nonsynthetic" },
+  "homepage": "https://nonsynthetic.net"
+}
