@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nonsynthetic": {
+      "type": "http",
+      "url": "https://api.nonsynthetic.net/mcp"
+    }
+  }
+}
