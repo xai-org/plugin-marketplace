@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "ai-search-visibility-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-ai-visibility",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-visibility",
+            "description": "AI search visibility for SEO and GEO - check brand mentions in ChatGPT, Perplexity and Google AI Overviews, and see whi…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
       "version": "1.2.0",
@@ -43,6 +61,24 @@
           {
             "name": "axiom-sre",
             "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
+          }
+        ]
+      }
+    },
+    "backlink-checker-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-backlinks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "backlinks",
+            "description": "Backlink checker for SEO - backlinks, referring domains and anchor text for any website or competitor. Link analysis fo…"
           }
         ]
       }
@@ -626,6 +662,60 @@
         ]
       }
     },
+    "google-rank-checker-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-rank-tracker",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "rank-tracker",
+            "description": "Google rank checker for SEO - live keyword rankings and positions for any website, ranked keywords, ranking competitors…"
+          }
+        ]
+      }
+    },
+    "google-search-console-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-search-console",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "search-console",
+            "description": "Free Google Search Console (GSC) for SEO - your own Search Console search analytics, keywords, search rankings, clicks,…"
+          }
+        ]
+      }
+    },
+    "google-search-console-indexing-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-url-indexing",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "url-indexing",
+            "description": "Google Search Console indexing for SEO - Google index checker, request indexing via IndexNow, Bing and sitemap resubmis…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
@@ -656,6 +746,42 @@
           {
             "name": "hcti-open-graph-images",
             "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          }
+        ]
+      }
+    },
+    "keyword-research-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-keyword-research",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keyword-research",
+            "description": "Keyword research for SEO - monthly search volume, keyword difficulty, CPC, keyword ideas, related keywords and competit…"
+          }
+        ]
+      }
+    },
+    "local-seo-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-local-seo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "local-seo",
+            "description": "Local SEO for Google Maps - check Maps rankings for any keyword and location, with Google Business Profile ratings and…"
           }
         ]
       }
@@ -1218,6 +1344,60 @@
           {
             "name": "sentry-snapshots-cocoa",
             "description": "Full Sentry Snapshots setup for Apple/Cocoa projects. Use when asked to \"setup SnapshotPreviews\", \"setup Apple snapshot…"
+          }
+        ]
+      }
+    },
+    "seo-site-audit-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-site-audit",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "site-audit",
+            "description": "SEO site audit and technical SEO checker - on-page SEO checks, page speed, Lighthouse and Core Web Vitals scores for up…"
+          }
+        ]
+      }
+    },
+    "seo-tools-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-seo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seo",
+            "description": "SEO tools in one connection - keyword research, search volume, live Google SERP, rank tracking, backlinks, site audit,…"
+          }
+        ]
+      }
+    },
+    "serp-api-by-crakseo": {
+      "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-serp-api",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "serp-api",
+            "description": "SERP API for SEO - live Google search results and keyword rankings by location and device, with SERP features, Google A…"
           }
         ]
       }

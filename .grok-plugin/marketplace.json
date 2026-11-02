@@ -487,6 +487,137 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seo-tools-by-crakseo",
+      "description": "SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking by CrakSEO. SEO tools in one connection: keyword research, search volume, live Google SERP, rank tracking, backlinks, site audit, local SEO and AI search visibility. Hosted MCP server at https://crakseo.com/mcp/seo; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "seo-tools-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/seo",
+      "keywords": ["crakseo", "crakseo seo tools", "crakseo mcp"],
+      "domains": ["crakseo.com", "docs.crakseo.com"]
+    },
+    {
+      "name": "google-search-console-by-crakseo",
+      "description": "Free Google Search Console (GSC) & Bing Webmaster Tools by CrakSEO. Free Google Search Console (GSC) for SEO: your own Search Console search analytics, keywords, search rankings, clicks, impressions, URL inspection and Bing Webmaster Tools. Hosted MCP server at https://crakseo.com/mcp/search-console; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "google-search-console-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/search-console",
+      "keywords": ["crakseo search console", "crakseo gsc"]
+    },
+    {
+      "name": "serp-api-by-crakseo",
+      "description": "SERP API: Live Google Search Results by CrakSEO. SERP API for SEO: live Google search results and keyword rankings by location and device, with SERP features, Google AI Overview sources, Google Maps and Bing. Hosted MCP server at https://crakseo.com/mcp/serp-api; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "serp-api-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/serp-api",
+      "keywords": ["crakseo serp api", "crakseo serp"]
+    },
+    {
+      "name": "keyword-research-by-crakseo",
+      "description": "Keyword Research: Search Volume, Keyword Difficulty & CPC by CrakSEO. Keyword research for SEO: monthly search volume, keyword difficulty, CPC, keyword ideas, related keywords and competitor keyword gaps for any topic and country. Hosted MCP server at https://crakseo.com/mcp/keyword-research; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "keyword-research-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/keyword-research",
+      "keywords": ["crakseo keyword research", "crakseo keywords"]
+    },
+    {
+      "name": "backlink-checker-by-crakseo",
+      "description": "Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO. Backlink checker for SEO: backlinks, referring domains and anchor text for any website or competitor. Link analysis for backlink audits and link building. Hosted MCP server at https://crakseo.com/mcp/backlinks; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "backlink-checker-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/backlinks",
+      "keywords": ["crakseo backlink checker", "crakseo backlinks"]
+    },
+    {
+      "name": "google-rank-checker-by-crakseo",
+      "description": "Google Rank Checker: Keyword Rankings & Rank Tracking by CrakSEO. Google rank checker for SEO: live keyword rankings and positions for any website, ranked keywords, ranking competitors and keyword gaps. On-demand rank tracking. Hosted MCP server at https://crakseo.com/mcp/rank-tracker; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "google-rank-checker-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/rank-tracker",
+      "keywords": ["crakseo rank checker", "crakseo rank tracker"]
+    },
+    {
+      "name": "seo-site-audit-by-crakseo",
+      "description": "SEO Site Audit: Technical SEO Checker & Page Speed by CrakSEO. SEO site audit and technical SEO checker: on-page SEO checks, page speed, Lighthouse and Core Web Vitals scores for up to 5 URLs per call. Hosted MCP server at https://crakseo.com/mcp/site-audit; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "seo-site-audit-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/site-audit",
+      "keywords": ["crakseo site audit", "crakseo seo audit"]
+    },
+    {
+      "name": "local-seo-by-crakseo",
+      "description": "Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO. Local SEO for Google Maps: check Maps rankings for any keyword and location, with Google Business Profile ratings and review counts for you and local competitors. Hosted MCP server at https://crakseo.com/mcp/local-seo; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "local-seo-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/local-seo",
+      "keywords": ["crakseo local seo", "crakseo google maps"]
+    },
+    {
+      "name": "ai-search-visibility-by-crakseo",
+      "description": "AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews by CrakSEO. AI search visibility for SEO and GEO: check brand mentions in ChatGPT, Perplexity and Google AI Overviews, and see which sources and citations AI answers use. Hosted MCP server at https://crakseo.com/mcp/ai-visibility; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "ai-search-visibility-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/ai-visibility",
+      "keywords": ["crakseo ai visibility", "crakseo ai search"]
+    },
+    {
+      "name": "google-search-console-indexing-by-crakseo",
+      "description": "Google Search Console Indexing: Index Checker, IndexNow & Force Indexing by CrakSEO. Google Search Console indexing for SEO: Google index checker, request indexing via IndexNow, Bing and sitemap resubmission, and force indexing for pages Google won't index. Hosted MCP server at https://crakseo.com/mcp/url-indexing; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LoganOneal/crakseo-mcp-plugins.git",
+        "sha": "2915a68d478bccc45e5be6c0bba66b99ab9c95d6",
+        "path": "google-search-console-indexing-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/url-indexing",
+      "keywords": ["crakseo url indexing", "crakseo indexing"]
     }
   ]
 }
