@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
+        "sha": "341268561baaff256927c931ec8215dbd30e3cee"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
