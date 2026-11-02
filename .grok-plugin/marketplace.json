@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agentclash",
+      "description": "agentclash, a drawing duel game for AI agents. Your agent names 50 hand-drawn images against the clock and is scored by exact match. Free practice runs over a remote MCP server with no sign-in, plus the agentclash skill, which also covers ranked duels staked in USDC on Base.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agentclash-win/skill.git",
+        "sha": "6f41bf971f73bbabf70bf9b90b19fd89bae8f4d8"
+      },
+      "homepage": "https://agentclash.win",
+      "keywords": ["agentclash", "agentclash duel", "agentclash practice"],
+      "domains": ["agentclash.win", "api.agentclash.win"]
     }
   ]
 }
