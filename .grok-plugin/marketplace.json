@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "eonik",
+      "description": "Make a brand's adapts with eonik: every size of a creative, on-brand, checked, approved and delivered, made in the eonik app on the person's Mac.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eonik-ai/eonik-mcp-skill.git",
+        "sha": "79d9c0723361c1b808160a4b5b6915601214b5bc"
+      },
+      "homepage": "https://www.eonik.ai/mcp",
+      "keywords": ["eonik", "eonik.ai"],
+      "domains": ["eonik.ai", "www.eonik.ai", "api.eonik.ai"]
     }
   ]
 }
