@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/juzpost/juzpost-agent.git",
-        "sha": "2330f46bc451b26c3214543aa02586c3015d1574"
+        "sha": "0d75a452447f2a0837ce88b7bd8ba2e35a64982f"
       },
       "homepage": "https://www.juzpost.com",
       "keywords": ["juzpost", "social media scheduler", "schedule social media posts", "social media automation"],
