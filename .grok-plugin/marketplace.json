@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "adwave",
+      "description": "Adwave self-serve advertising. Makes ads from a business's website and runs them on streaming TV, Meta, Google Search, YouTube and Reddit from a prepaid wallet, US and Canada only. It creates and changes real ad campaigns that spend the wallet; spending tools are marked destructive so hosts can ask first.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AdwaveInc/adwave-agent-plugin.git",
+        "sha": "0b5ab18aa6ebcde1a33f7dcd399a8c07cebf342c"
+      },
+      "homepage": "https://waverunner.adwave.com/docs/mcp",
+      "keywords": [
+        "adwave",
+        "adwave ads"
+      ],
+      "domains": [
+        "adwave.com",
+        "waverunner.adwave.com"
+      ]
     }
   ]
 }
