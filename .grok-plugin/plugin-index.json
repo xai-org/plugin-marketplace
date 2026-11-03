@@ -669,7 +669,7 @@
       }
     },
     "juzpost": {
-      "sha": "c4bb5278fa72de90caf17cd58b55f58a373e4922",
+      "sha": "2330f46bc451b26c3214543aa02586c3015d1574",
       "version": "0.4.0",
       "components": {
         "commands": [
