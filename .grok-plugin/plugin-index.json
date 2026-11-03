@@ -772,8 +772,8 @@
       }
     },
     "offerhunt": {
-      "sha": "a6659f4699f6d057caa9b35c275a1167e15343d9",
-      "version": "1.0.0",
+      "sha": "df335abb7de1bddf60a3b97eab4ebd23eb520580",
+      "version": "1.0.1",
       "components": {
         "mcpServers": [
           {

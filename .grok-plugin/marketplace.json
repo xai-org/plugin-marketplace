@@ -494,7 +494,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/harry-the-nerd/offerhunt-grok-plugin.git",
-        "sha": "a6659f4699f6d057caa9b35c275a1167e15343d9"
+        "sha": "df335abb7de1bddf60a3b97eab4ebd23eb520580"
       },
       "homepage": "https://www.offerhunt.ai",
       "keywords": [
@@ -506,7 +506,7 @@
         "offerhunt.ai",
         "www.offerhunt.ai"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Fluey AI, Inc.",
         "email": "contact@fluey.ai",
