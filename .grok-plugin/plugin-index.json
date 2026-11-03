@@ -1,18 +1,6 @@
 {
   "version": 1,
   "plugins": {
-    "holos33-mcp": {
-      "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1",
-      "version": "1.0.2",
-      "components": {
-        "mcpServers": [
-          {
-            "name": "holos33",
-            "description": "http"
-          }
-        ]
-      }
-    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
@@ -653,6 +641,18 @@
         "mcpServers": [
           {
             "name": "helena",
+            "description": "http"
+          }
+        ]
+      }
+    },
+    "holos33-mcp": {
+      "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "holos33",
             "description": "http"
           }
         ]
