@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
+        "sha": "1a33048817d06df12882cb881dfc754e7039954a"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
+        "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "82e597a2f8ef3994b3502087dbf089ffe23f6ad9"
+        "sha": "c17fd871be8f8477e52844054706f5fc9fda2efc"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
+        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "57e355b6b00f54b7a667948b9648cc05bc353e06",
+        "sha": "b3ab9149225f837894b7de08c1b14650d7cc64eb",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "99b609a72323b70204eab407c622f436e858e112",
+        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
+        "sha": "341268561baaff256927c931ec8215dbd30e3cee"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -418,7 +418,7 @@
         "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
       },
       "homepage": "https://htmlcsstoimage.com",
-      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
       "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
     },
     {
@@ -475,13 +475,27 @@
       }
     },
     {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
       "name": "flixter",
       "description": "Flixter AI film and series production studio. Connect with OAuth 2.1 to Flixter's hosted MCP to manage productions, cast, locations, props, costumes, episodes, scenes, and shots, and queue priced render batches for approval in Flixter's task manager.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/golan-adept/flixter-grok-plugin.git",
-        "sha": "90b897c6e1a2ca2f164950ad34fd8a751f823b48"
+        "sha": "edb64d02c54652ad552b289e507cf9ee979affe4"
       },
       "homepage": "https://flixter.ai",
       "keywords": ["flixter", "flixter mcp", "flixter studio"],
