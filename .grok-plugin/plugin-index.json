@@ -358,6 +358,32 @@
         ]
       }
     },
+    "deacon": {
+      "sha": "d5e1005ea2f96d7e441ccd887b11cbb0c03838c8",
+      "version": "1.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deacon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deacon-connect",
+            "description": "Connect this coding agent to Deacon's MCP server, so it can read what the founder's visitors asked and reported, and he…"
+          },
+          {
+            "name": "deacon-goals",
+            "description": "Send goals to Deacon from a web app so the founder's dashboard counts the moments that matter, such as sign ups, paywal…"
+          },
+          {
+            "name": "deacon-install",
+            "description": "Install the Deacon support widget on a website or web app: place one script tag on every page, tell Deacon who is signe…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
