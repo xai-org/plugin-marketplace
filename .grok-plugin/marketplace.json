@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/aiagentcycle/holos33-mcp.git",
-        "sha": "a792f34c56ba33daa7c9bd6b8864acf8c5fd9f41"
+        "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1"
       },
       "homepage": "https://holos33.com",
       "keywords": ["holos33", "holos33 knowledge", "holos33 mcp"],

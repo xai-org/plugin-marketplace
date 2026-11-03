@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "holos33-mcp": {
-      "sha": "a792f34c56ba33daa7c9bd6b8864acf8c5fd9f41",
+      "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1",
       "version": "1.0.2",
       "components": {
         "mcpServers": [
