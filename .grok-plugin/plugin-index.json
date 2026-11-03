@@ -635,8 +635,8 @@
       }
     },
     "graffalo": {
-      "sha": "2ebc38dc0578dfe008837531d0ca25094eb12f40",
-      "version": "0.1.6",
+      "sha": "b5b1235ba0fce2d97f872a8d759d895dd9120c6d",
+      "version": "0.1.9",
       "components": {
         "mcpServers": [
           {
