@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mrscraper-com/mrscraper-grok-plugin.git",
-        "sha": "0c56aa1457263f5d63338ab4a42ee7439e9c4e4e",
+        "sha": "d7e635eef4cebb09d93103430cd8a027fec67760",
         "path": "plugins/mrscraper"
       },
       "homepage": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
