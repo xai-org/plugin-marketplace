@@ -566,6 +566,18 @@
         ]
       }
     },
+    "finwise": {
+      "sha": "88ad5daeae837ef997b16037ad7630c4d7e32a54",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "finwise",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448",
       "version": "1.3.2",

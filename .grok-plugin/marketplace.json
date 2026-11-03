@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "finwise",
+      "description": "Official FinWise MCP for Grok Build. Ask about your spending, budgets and net worth across your linked bank accounts, and update categories, budgets and recurring bills through FinWise's hosted OAuth MCP server. It can't move money. Sign in with your FinWise account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FinWiseApp/finwise-plugin.git",
+        "sha": "88ad5daeae837ef997b16037ad7630c4d7e32a54"
+      },
+      "homepage": "https://finwiseapp.io/mcp",
+      "keywords": ["finwise", "finwise budget", "finwiseapp"],
+      "domains": ["finwiseapp.io", "app.finwiseapp.io"]
     }
   ]
 }
