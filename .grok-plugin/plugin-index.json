@@ -668,6 +668,18 @@
         ]
       }
     },
+    "jaksa": {
+      "sha": "86f4ebcba2ffcb38dbe37a0c1fb84030463dffeb",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "jaksa",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
