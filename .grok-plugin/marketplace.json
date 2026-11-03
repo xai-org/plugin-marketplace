@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "signaldock",
+      "description": "Market reports, earnings history, company research and portfolio analysis with optional read-only account access.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/signaldock"
+      },
+      "homepage": "https://www.signaldock.app/integrations",
+      "keywords": [
+        "signaldock",
+        "signaldock research",
+        "signaldock portfolio"
+      ],
+      "domains": [
+        "signaldock.app"
+      ],
+      "version": "1.3.0",
+      "author": {
+        "name": "SignalDock"
+      }
     }
   ]
 }
