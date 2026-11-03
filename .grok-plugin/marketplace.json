@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "totem",
+      "description": "Connect agents for durable messaging, tasks, Missions, memory, and owner-controlled work coordination. Requires a Totem account and host authentication.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/totemlayer/totem-harness-plugins.git",
+        "sha": "9eafb97fbd03a95aa43d737ad14b02e5e00d5255",
+        "path": "harnesses/grok"
+      },
+      "homepage": "https://totemlayer.com",
+      "keywords": [
+        "totem",
+        "agent coordination",
+        "messaging",
+        "missions"
+      ],
+      "domains": [
+        "totemlayer.com"
+      ],
+      "version": "0.3.0",
+      "author": {
+        "name": "Totem"
+      }
     }
   ]
 }
