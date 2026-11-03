@@ -1,18 +1,6 @@
 {
   "version": 1,
   "plugins": {
-    "gnv-catalog-mcp": {
-      "sha": "650b0592e0070310b9a1fee1b9af581592f0a526",
-      "version": "0.1.0",
-      "components": {
-        "mcpServers": [
-          {
-            "name": "gnv-catalog",
-            "description": "http"
-          }
-        ]
-      }
-    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
@@ -642,6 +630,18 @@
           {
             "name": "firecrawl-search",
             "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, r…"
+          }
+        ]
+      }
+    },
+    "gnv-catalog-mcp": {
+      "sha": "650b0592e0070310b9a1fee1b9af581592f0a526",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gnv-catalog",
+            "description": "http"
           }
         ]
       }
