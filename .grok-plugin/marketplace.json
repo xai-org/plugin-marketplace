@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postey",
+      "description": "Official Postey plugin (MCP Server + Skills). Draft, schedule and publish social posts across X, LinkedIn, Instagram, TikTok, YouTube, Threads, Bluesky, Facebook and Pinterest. One draft per network against each one's real limits, nothing publishes until you approve, and every flow ends with a share link. Sign in with your Postey account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/posteyai/skills.git",
+        "sha": "5a49ca42a94e8e9a58d6c23b8cc0215e94e28091"
+      },
+      "homepage": "https://postey.ai/mcp",
+      "keywords": ["postey", "postey ai", "postey mcp"],
+      "domains": ["postey.ai", "app.postey.ai"]
     }
   ]
 }
