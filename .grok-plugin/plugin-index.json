@@ -1499,7 +1499,8 @@
       }
     },
     "totem": {
-      "sha": "9eafb97fbd03a95aa43d737ad14b02e5e00d5255",
+      "sha": "d03abf766a8a7abd5e1f347cf4ab04486e5aed2c",
+      "version": "0.3.0",
       "components": {
         "mcpServers": [
           {
