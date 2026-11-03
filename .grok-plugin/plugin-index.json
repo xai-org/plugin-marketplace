@@ -930,6 +930,18 @@
         ]
       }
     },
+    "ponder": {
+      "sha": "4f620cbe7b3204d588637910d883b5fa5a0eaf4a",
+      "version": "1.1.2",
+      "components": {
+        "skills": [
+          {
+            "name": "ponder",
+            "description": "Convergent multi-pass deliberation and code review ledger that enumerates units, grades every unit against a lens rubri…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
