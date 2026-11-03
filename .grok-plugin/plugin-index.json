@@ -790,8 +790,8 @@
       }
     },
     "netlify": {
-      "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e",
-      "version": "1.7.0",
+      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -834,7 +834,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
+            "description": "Write, route, cache, and debug Netlify Edge Functions, the Deno-based TypeScript or JavaScript handlers in netlify/edge…"
           },
           {
             "name": "netlify-forms",
@@ -850,7 +850,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity, covering signup/login/logout, Google/GitHub/GitLab/Bi…"
           },
           {
             "name": "netlify-image-cdn",
