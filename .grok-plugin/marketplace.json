@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
+        "sha": "1a33048817d06df12882cb881dfc754e7039954a"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005"
+        "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f"
+        "sha": "c17fd871be8f8477e52844054706f5fc9fda2efc"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
+        "sha": "b3ab9149225f837894b7de08c1b14650d7cc64eb",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
+        "sha": "341268561baaff256927c931ec8215dbd30e3cee"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -496,7 +496,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
