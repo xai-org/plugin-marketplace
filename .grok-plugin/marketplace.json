@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hugeicons",
+      "description": "Hugeicons integration for Grok Build (MCP server + skills). Search 6,000+ icons by meaning, get the exact install command and import for React, Vue, Angular, Svelte, SolidJS, React Native, Flutter and the web font, and migrate a project to Hugeicons from lucide, Heroicons or react-icons.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hugeicons/hugeicons.git",
+        "sha": "16870319916749a610239a91c7bce935136857f5",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://hugeicons.com",
+      "keywords": [
+        "hugeicons",
+        "hugeicons icons",
+        "hugeicons react",
+        "hugeicons flutter",
+        "hugeicons mcp",
+        "hugeicons migrate"
+      ],
+      "domains": ["hugeicons.com"]
     }
   ]
 }
