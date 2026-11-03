@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "holos33-mcp": {
+      "sha": "a792f34c56ba33daa7c9bd6b8864acf8c5fd9f41",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "holos33",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
