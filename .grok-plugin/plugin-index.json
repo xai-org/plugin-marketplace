@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "add-domain-websites": {
-      "sha": "b588cda144dee985c149a1c7e59a553a18508fb1",
+      "sha": "7c47ca9afb9e46e325be4a66006eee25717e4612",
       "version": "1.0.4",
       "components": {
         "skills": [
