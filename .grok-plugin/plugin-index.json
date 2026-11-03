@@ -668,6 +668,38 @@
         ]
       }
     },
+    "juzpost": {
+      "sha": "c4bb5278fa72de90caf17cd58b55f58a373e4922",
+      "version": "0.4.0",
+      "components": {
+        "commands": [
+          {
+            "name": "post",
+            "description": "Draft and schedule one social media post with JuzPost from a short brief, with confirmation before it is scheduled."
+          },
+          {
+            "name": "queue",
+            "description": "Show the JuzPost queue: scheduled, failed and draft posts, with the reason for any failure."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "juzpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "setup",
+            "description": "Connect or reconnect JuzPost, answer \"what can JuzPost do\", pick the workspace, and handle sign-in, disconnected-connec…"
+          },
+          {
+            "name": "social-media-scheduler",
+            "description": "Draft, schedule and publish social media posts to YouTube, Instagram, Facebook, TikTok, X, LinkedIn, Pinterest, Bluesky…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
