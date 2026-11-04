@@ -1460,6 +1460,62 @@
         ]
       }
     },
+    "theshow": {
+      "sha": "400599e40d91d2055a453eee66c0b320ec1bfedb",
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "board",
+            "description": "Board a film as stills before rendering. About two cents a frame."
+          },
+          {
+            "name": "character",
+            "description": "Create or update a character, with reference photos for face continuity."
+          },
+          {
+            "name": "check",
+            "description": "Check a render's progress, or list recent films if no job is named."
+          },
+          {
+            "name": "continue",
+            "description": "Continue an earlier theShow film with more shots, keeping its cast and look."
+          },
+          {
+            "name": "film",
+            "description": "Start a new theShow film. Opens the configuration card, then boards and renders it."
+          },
+          {
+            "name": "films",
+            "description": "List films rendered with theShow, newest first. Free."
+          },
+          {
+            "name": "render",
+            "description": "Render a planned shot list from JSON, with frame-to-frame continuity."
+          },
+          {
+            "name": "retry",
+            "description": "Re-render one bad shot of a finished film and splice it back in."
+          },
+          {
+            "name": "scene",
+            "description": "Plan a storyboard for one scene. Free, renders nothing."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "theshow",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "theshow",
+            "description": "Controlled continuity-first video generation using theShow (StoryForge) pipeline. Plan characters and storyboards, gene…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
       "version": "1.1.1",
