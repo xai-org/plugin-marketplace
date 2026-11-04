@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/back4app/back4app-plugin.git",
-        "sha": "d9bc3711e4efc97123b617777ffd2dd80b6c5a0f"
+        "sha": "b4118069afc847f56ac1ed12b0e6db186bfbf178"
       },
       "homepage": "https://github.com/back4app/back4app-plugin",
       "keywords": ["back4app", "back4app deploy", "deploy to back4app"],
