@@ -668,6 +668,24 @@
         ]
       }
     },
+    "labwired": {
+      "sha": "b059a3820202095179668face11e9b7694bbfd0a",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "labwired",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "electronics-lab",
+            "description": "Design an electronic circuit, select supported microcontroller parts, simulate firmware, or turn a circuit into a PCB l…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",

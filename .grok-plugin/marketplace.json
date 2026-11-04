@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "labwired",
+      "description": "Build and verify embedded electronics in simulation: wire MCU firmware to sensors and actuators, run Renode-style chip and board sims, and take a design from schematic intent through PCB checks.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/w1ne/labwired-core.git",
+        "sha": "b059a3820202095179668face11e9b7694bbfd0a",
+        "path": "plugins/labwired"
+      },
+      "homepage": "https://labwired.com",
+      "keywords": ["labwired", "labwired mcp", "labwired simulation", "embedded simulation", "firmware simulation", "MCU simulation", "Renode-style chip simulation"],
+      "domains": ["labwired.com", "api.labwired.com", "app.labwired.com"]
     }
   ]
 }
