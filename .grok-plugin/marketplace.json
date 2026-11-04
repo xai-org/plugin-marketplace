@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "slicktrip",
+      "description": "Official SlickTrip plugin: live flight, hotel and seat prices, cheapest-day calendars, and price-drop and seat alerts, through SlickTrip's hosted MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sliktrip/slicktrip-mcp.git",
+        "sha": "e01a67fe25e731c44be51fbcc193d05650b37c8c"
+      },
+      "homepage": "https://slicktrip.com/connector",
+      "keywords": [
+        "slicktrip"
+      ],
+      "domains": [
+        "slicktrip.com"
+      ]
     }
   ]
 }
