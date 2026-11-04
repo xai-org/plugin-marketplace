@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/meelis545/qqq-ai-visibility-mcp.git",
-        "sha": "15f91af6ba9fc5cf320b017acbd73a1b787c0951"
+        "sha": "39bb400912e6d2da700be209419c22a9265492c4"
       },
       "homepage": "https://qqq.ee/en/mcp-server/",
       "keywords": ["qqq ai visibility", "qqq ai visibility checker", "qqq geo check", "qqq.ee"],

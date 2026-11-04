@@ -1141,8 +1141,8 @@
       }
     },
     "qqq-ai-visibility": {
-      "sha": "15f91af6ba9fc5cf320b017acbd73a1b787c0951",
-      "version": "1.1.0",
+      "sha": "39bb400912e6d2da700be209419c22a9265492c4",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
