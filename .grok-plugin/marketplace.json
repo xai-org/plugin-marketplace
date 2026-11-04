@@ -499,7 +499,7 @@
         "path": "plugins/labwired"
       },
       "homepage": "https://labwired.com",
-      "keywords": ["labwired", "labwired mcp", "labwired simulation", "embedded simulation", "firmware simulation", "MCU simulation", "Renode-style chip simulation"],
+      "keywords": ["labwired","labwired electronics","labwired firmware simulation","labwired circuit simulation","labwired pcb layout","labwired mcu simulation","labwired kicad"],
       "domains": ["labwired.com", "api.labwired.com", "app.labwired.com"]
     }
   ]
