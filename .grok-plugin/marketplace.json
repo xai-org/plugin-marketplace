@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "juzpost",
+      "description": "JuzPost, a free social media scheduler with low-cost paid plans. Schedule and publish posts to YouTube, Instagram, Facebook, TikTok, X, LinkedIn, Pinterest, Bluesky, Threads, Tumblr and WordPress through the hosted JuzPost MCP server, with OAuth sign-in on first use.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/juzpost/juzpost-agent.git",
+        "sha": "0d75a452447f2a0837ce88b7bd8ba2e35a64982f"
+      },
+      "homepage": "https://www.juzpost.com",
+      "keywords": ["juzpost", "social media scheduler", "schedule social media posts", "social media automation"],
+      "domains": ["juzpost.com", "www.juzpost.com"]
     }
   ]
 }
