@@ -475,6 +475,20 @@
       }
     },
     {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "0d035556e37737de83199d8e623641bad7a7cced",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
       "name": "mobivate",
       "description": "Official Mobivate Bulk SMS integration. Send immediately or schedule individual or group/bulk SMS; manage contacts; review message history.",
       "category": "productivity",
