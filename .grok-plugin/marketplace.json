@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pageree",
+      "description": "Pageree lets your AI assistant publish landing pages that collect leads, then read how visitors behave and improve each page with you.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Pageree/agent-plugin.git",
+        "sha": "41b73796b21a2794df663346a3e8a519f3d4550f"
+      },
+      "homepage": "https://pageree.com",
+      "keywords": ["pageree", "pageree landing page"],
+      "domains": ["pageree.com", "pageree.app"]
     }
   ]
 }
