@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "1a33048817d06df12882cb881dfc754e7039954a"
+        "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "5091f72943e6cb4ca439c98ee4783d6085de1318",
+        "sha": "8f4c6295246b771bdfbffd4a50171f75a03507c8",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
