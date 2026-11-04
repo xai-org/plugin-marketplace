@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "1a33048817d06df12882cb881dfc754e7039954a",
-      "version": "1.0.3",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
