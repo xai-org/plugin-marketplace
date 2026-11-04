@@ -165,15 +165,15 @@
         "skills": [
           {
             "name": "clerk",
-            "description": "Clerk authentication router. Use when user asks about Clerk CLI operations,"
+            "description": "Clerk authentication router. Use when user asks about Clerk CLI operations, adding authentication, setting up Clerk, cu…"
           },
           {
             "name": "clerk-android",
-            "description": "Implement Clerk authentication for native Android apps using Kotlin and"
+            "description": "Implement Clerk authentication for native Android apps using Kotlin and Jetpack Compose with clerk-android source-guide…"
           },
           {
             "name": "clerk-astro-patterns",
-            "description": "'Astro patterns with Clerk — middleware, SSR pages, island components,"
+            "description": "Astro patterns with Clerk — middleware, SSR pages, island components, API routes, static vs SSR rendering. Triggers on:…"
           },
           {
             "name": "clerk-backend-api",
@@ -181,11 +181,11 @@
           },
           {
             "name": "clerk-billing",
-            "description": "Clerk Billing for subscription management - render Clerk's PricingTable"
+            "description": "Clerk Billing for subscription management - render Clerk's PricingTable and in-app checkout drawer, configure subscript…"
           },
           {
             "name": "clerk-chrome-extension-patterns",
-            "description": "'Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel"
+            "description": "Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel setup, syncHost for OAuth/SAML via web app, creat…"
           },
           {
             "name": "clerk-cli",
@@ -193,31 +193,31 @@
           },
           {
             "name": "clerk-custom-ui",
-            "description": "Custom authentication flows and component appearance - hooks (useSignIn,"
+            "description": "Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use fo…"
           },
           {
             "name": "clerk-expo",
-            "description": "Add Clerk authentication to Expo and React Native apps using @clerk/expo."
+            "description": "Add Clerk authentication to Expo and React Native apps using @clerk/expo. Use for Expo setup, prebuilt native component…"
           },
           {
             "name": "clerk-nextjs-patterns",
-            "description": "Advanced Next.js patterns - middleware, Server Actions, caching with"
+            "description": "Advanced Next.js patterns - middleware, Server Actions, caching with Clerk."
           },
           {
             "name": "clerk-nuxt-patterns",
-            "description": "'Nuxt 3 auth patterns with @clerk/nuxt - middleware, composables, server"
+            "description": "Nuxt 3 auth patterns with @clerk/nuxt - middleware, composables, server API routes, SSR. Triggers on: Nuxt auth, useAut…"
           },
           {
             "name": "clerk-orgs",
-            "description": "Clerk Organizations for B2B and multi-tenant apps - org switching,"
+            "description": "Clerk Organizations for B2B and multi-tenant apps - org switching, roles and permissions, verified domains, and enterpr…"
           },
           {
             "name": "clerk-react-patterns",
-            "description": "'React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider"
+            "description": "React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Rou…"
           },
           {
             "name": "clerk-react-router-patterns",
-            "description": "'React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders,"
+            "description": "React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders, clerkMiddleware, protected routes, SSR use…"
           },
           {
             "name": "clerk-setup",
@@ -225,23 +225,23 @@
           },
           {
             "name": "clerk-swift",
-            "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit"
+            "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use…"
           },
           {
             "name": "clerk-tanstack-patterns",
-            "description": "'TanStack React Start auth patterns with @clerk/tanstack-react-start"
+            "description": "TanStack React Start auth patterns with @clerk/tanstack-react-start - createServerFn, beforeLoad guards, loaders, Vite…"
           },
           {
             "name": "clerk-testing",
-            "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow"
+            "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests."
           },
           {
             "name": "clerk-vue-patterns",
-            "description": "'Vue 3 patterns with Clerk — composables (useAuth, useUser,"
+            "description": "Vue 3 patterns with Clerk — composables (useAuth, useUser, useClerk, useOrganization), Vue Router guards, Pinia auth st…"
           },
           {
             "name": "clerk-webhooks",
-            "description": "Clerk webhooks for real-time events and data syncing. Verify with verifyWebhook"
+            "description": "Clerk webhooks for real-time events and data syncing. Verify with verifyWebhook from the framework-specific package. Ha…"
           }
         ]
       }
