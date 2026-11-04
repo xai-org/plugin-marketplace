@@ -930,6 +930,24 @@
         ]
       }
     },
+    "postel": {
+      "sha": "adaa9363ffbaf6b74a5a11e15f88acb0392d6406",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postel",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postel-writing",
+            "description": "Use when the user wants to find what's going viral in their niche and write their own version, draft posts and threads…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
