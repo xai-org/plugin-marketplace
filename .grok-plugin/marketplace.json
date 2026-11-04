@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "model-salt",
+      "description": "Model Salt (MCP server + skill). Before a creative task the model calls model_salt and gets back a few choices to settle this time (a palette, a pose, a name, an opening line), drawn from randomness outside the model (random.org atmospheric noise, a quantum random number generator and the drand beacon), so one prompt gives different answers that still do what was asked.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/modelsalt/model-salt.git",
+        "sha": "11246adff64293f5ccfb05adaca7cd73c382136f",
+        "path": "plugin"
+      },
+      "homepage": "https://modelsalt.com",
+      "keywords": ["model salt", "model-salt", "model_salt"],
+      "domains": ["modelsalt.com"]
     }
   ]
 }

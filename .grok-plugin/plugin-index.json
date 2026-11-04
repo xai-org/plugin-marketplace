@@ -668,6 +668,24 @@
         ]
       }
     },
+    "model-salt": {
+      "sha": "11246adff64293f5ccfb05adaca7cd73c382136f",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "model-salt",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "model-salt",
+            "description": "Use before any creative or open-ended request (a picture, an SVG, a story, a poem, an email, a design, a name, a taglin…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
