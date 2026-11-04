@@ -1499,7 +1499,7 @@
       }
     },
     "ugt": {
-      "sha": "71e09cbf7a4637445c4b2becbadf8ae93e3c57fd",
+      "sha": "f99fe786d00728b8fd91e93c6709a17735938e46",
       "version": "0.2.1",
       "components": {
         "mcpServers": [

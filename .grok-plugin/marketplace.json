@@ -495,10 +495,10 @@
       "source": {
         "source": "url",
         "url": "https://github.com/auscaster/ugt.git",
-        "sha": "71e09cbf7a4637445c4b2becbadf8ae93e3c57fd"
+        "sha": "f99fe786d00728b8fd91e93c6709a17735938e46"
       },
       "homepage": "https://usegithubthing.com",
-      "keywords": ["ugt", "use the github thing", "usegithubthing"],
+      "keywords": ["ugt", "use the github thing", "usegithubthing", "github", "open source", "run github projects"],
       "domains": ["usegithubthing.com", "mcp.usegithubthing.com", "api.usegithubthing.com"]
     }
   ]
