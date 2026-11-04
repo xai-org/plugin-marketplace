@@ -410,8 +410,8 @@
       }
     },
     "living-memory": {
-      "sha": "bea349b049ee238b423cc48abf957bb51d089805",
-      "version": "1.0.1",
+      "sha": "edc48bb764bb8806cd4665062cf1cd60009b6fac",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
