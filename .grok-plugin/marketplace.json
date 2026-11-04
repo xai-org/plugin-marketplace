@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postonce",
+      "description": "Post one video or image to LinkedIn, X, Threads, Bluesky, Facebook, Instagram, TikTok, YouTube and Pinterest from Grok, with a native caption for each, and schedule posts through each platform's official API.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/postoncehq/postonce-skills.git",
+        "sha": "2518535c765661ce85bc6c8631afa4c97a4fe84b"
+      },
+      "homepage": "https://postonce.to/mcp",
+      "keywords": ["postonce", "postonce.to", "postonce mcp"],
+      "domains": ["postonce.to"]
     }
   ]
 }
