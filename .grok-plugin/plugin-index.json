@@ -47,6 +47,36 @@
         ]
       }
     },
+    "bagel": {
+      "sha": "9a176b6f7d3c712b841cedb7873f8409328aac06",
+      "version": "0.2.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bagel",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "authoring-pipelines",
+            "description": "Use when the user wants a bagel data pipeline — reducing a log to windows around events (\"keep 30s around every hard br…"
+          },
+          {
+            "name": "exporting-visualizations",
+            "description": "Use when the user wants to SEE robot data — visualize, plot, replay, or export a log or query result from bagel to a vi…"
+          },
+          {
+            "name": "operating-live-sinks",
+            "description": "Use when subscribing to live robot data (MQTT, rosbridge) through bagel, managing standing pipelines that survive resta…"
+          },
+          {
+            "name": "triaging-robot-logs",
+            "description": "Use when investigating a robot log or flight log with bagel — finding events, anomalies, or \"what happened around X\" in…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",

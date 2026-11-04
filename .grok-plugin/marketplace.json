@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bagel",
+      "description": "Query ROS 1/2 bags, MCAP, PX4/ArduPilot/Betaflight logs, CAN/MDF4 and live robot data in plain English. Every answer is DuckDB SQL over the real messages. Also authors data-reduction pipelines and exports to Rerun, Lichtblick, PlotJuggler and LeRobot. Runs locally: `uvx bagel-mcp`.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Extelligence-ai/bagel.git",
+        "sha": "9a176b6f7d3c712b841cedb7873f8409328aac06",
+        "path": "plugin"
+      },
+      "homepage": "https://trybagel.com/",
+      "keywords": ["ros", "rosbag", "mcap", "px4", "ardupilot", "robotics", "drone logs"],
+      "domains": ["trybagel.com"]
     }
   ]
 }
