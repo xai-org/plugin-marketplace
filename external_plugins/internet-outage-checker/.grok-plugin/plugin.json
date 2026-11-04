@@ -1,0 +1,20 @@
+{
+  "name": "internet-outage-checker",
+  "version": "1.0.0",
+  "description": "Check whether a UK broadband provider is down and where, plus its outages over the last 30 days, from FindBroadband's outage tracker. Hosted MCP server, no account or API key needed.",
+  "author": {
+    "name": "FindBroadband",
+    "url": "https://www.findbroadbanddeals.com"
+  },
+  "homepage": "https://www.findbroadbanddeals.com/ai-assistants",
+  "repository": "https://github.com/FindBroadband/mcp",
+  "license": "MIT",
+  "keywords": [
+    "broadband outage",
+    "internet down",
+    "is my broadband down",
+    "uk broadband",
+    "findbroadband"
+  ],
+  "logo": "assets/logo.png"
+}

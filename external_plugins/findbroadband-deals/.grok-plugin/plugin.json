@@ -1,0 +1,20 @@
+{
+  "name": "findbroadband-deals",
+  "version": "1.0.0",
+  "description": "Compare the UK broadband deals available at an exact address, priced on their true whole-contract cost, and check whether a bill or renewal quote is too high. Hosted MCP server, no account or API key needed.",
+  "author": {
+    "name": "FindBroadband",
+    "url": "https://www.findbroadbanddeals.com"
+  },
+  "homepage": "https://www.findbroadbanddeals.com/ai-assistants",
+  "repository": "https://github.com/FindBroadband/mcp",
+  "license": "MIT",
+  "keywords": [
+    "broadband deals",
+    "compare broadband",
+    "uk broadband",
+    "am i overpaying",
+    "findbroadband"
+  ],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "findbroadband": {
+      "type": "http",
+      "url": "https://www.findbroadbanddeals.com/api/mcp/standard"
+    }
+  }
+}
