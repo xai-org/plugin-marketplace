@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "docspring",
+      "description": "Fill PDF and Word templates, generate PDFs from HTML templates and collect e-signatures with DocSpring's skills and MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DocSpring/skills.git",
+        "sha": "43a5c483f02b327678d2b2d3dba309a406c7051b"
+      },
+      "homepage": "https://docspring.com/docs/mcp/skills/",
+      "keywords": ["docspring", "docspring api", "docspring template", "docspring mcp"],
+      "domains": ["docspring.com", "app.docspring.com", "app-eu.docspring.com", "sync.api.docspring.com", "sync.api-eu.docspring.com"]
     }
   ]
 }
