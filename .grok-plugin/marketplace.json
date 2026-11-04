@@ -490,12 +490,12 @@
     },
     {
       "name": "fragment",
-      "description": "Fragment helps coding agents build prepaid credits, wallets, payouts, escrow and spending limits on a Fragment ledger. The ledger refuses bad changes itself: balances can't go negative and nothing is credited twice, even if the app's code has a bug. Includes tested code in TypeScript, Python and Ruby, and six judged recipes. Payments stay on Stripe or your bank; the plugin never moves money.",
+      "description": "Fragment helps coding agents build prepaid credits, wallets, payouts, escrow and spending limits on a Fragment ledger. The ledger checks every entry posted through your entry types: balances can't go negative and nothing is credited twice. Includes tested code in TypeScript, Python and Ruby, and six judged recipes. Payments stay on Stripe or your bank; the plugin never moves money.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/fragment-dev/fragment-plugins.git",
-        "sha": "eafbc3909d069c5dba5a1d0b16d203aebe30c879",
+        "sha": "0cb4b5f265823222044989a63038d7fb16ce7b78",
         "path": "plugins/fragment"
       },
       "homepage": "https://fragment.dev",
