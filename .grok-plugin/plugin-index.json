@@ -863,6 +863,18 @@
         ]
       }
     },
+    "nz-openbank-mcp": {
+      "sha": "26773d264b9c9bbdbd72e5028404e2067d03f78b",
+      "version": "0.1.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "akahu",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",
