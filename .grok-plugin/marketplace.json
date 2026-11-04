@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ugt",
+      "description": "Give your AI app any GitHub link and the job you want done. UGT gets the project running on your computer and hands you the result.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/auscaster/ugt.git",
+        "sha": "f99fe786d00728b8fd91e93c6709a17735938e46"
+      },
+      "homepage": "https://usegithubthing.com",
+      "keywords": ["ugt", "use the github thing", "usegithubthing", "github", "open source", "run github projects"],
+      "domains": ["usegithubthing.com", "mcp.usegithubthing.com", "api.usegithubthing.com"]
     }
   ]
 }
