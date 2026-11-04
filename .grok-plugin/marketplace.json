@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "impreza-host",
+      "description": "Read-only access to an Impreza Host account: list servers, catalog apps, deployments, invoices and the privacy report. It cannot order, pay, register or transfer.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/imprezahost/impreza-mcp.git",
+        "sha": "6036953d2edcbba8c964e0aa56279b623e02b718",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://docs.imprezahost.com/use-with-grok.html",
+      "keywords": ["impreza", "impreza host", "imprezahost"],
+      "domains": ["imprezahost.com", "docs.imprezahost.com", "portal.imprezahost.com", "mcp.imprezahost.com", "impreza.host"],
+      "author": {
+        "name": "ImpCom International Ltd",
+        "url": "https://impreza.host/"
+      }
     }
   ]
 }

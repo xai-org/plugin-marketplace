@@ -668,6 +668,24 @@
         ]
       }
     },
+    "impreza-host": {
+      "sha": "6036953d2edcbba8c964e0aa56279b623e02b718",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "impreza",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "read-the-account",
+            "description": "Read what an Impreza Host account already has. Use when someone asks which servers, apps or deployments exist. Do not o…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
