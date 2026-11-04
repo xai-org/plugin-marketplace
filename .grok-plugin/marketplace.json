@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ugc-chart",
+      "description": "Find the right Trybe creators for your brand with many more data points: 30-day sales ranges, approval rate, sample delivery, sales per approved video, rank in category, similar creators and the weekly Top 50. Free, read-only remote MCP server plus a skill. Just ask in plain words.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ugcchart/ugc-chart-mcp.git",
+        "sha": "05bae5f3dde0d456ee224a855b6f216502b14d2b"
+      },
+      "homepage": "https://ugcchart.com/docs/connect",
+      "keywords": ["ugc chart", "ugcchart", "trybe creators", "trybe ugc creators", "trybe creator sales"],
+      "domains": ["ugcchart.com"],
+      "author": {
+        "name": "UGC Chart",
+        "email": "hello@ugcchart.com",
+        "url": "https://github.com/ugcchart"
+      }
     }
   ]
 }
