@@ -1,0 +1,15 @@
+{
+  "name": "haulforza",
+  "version": "1.0.0",
+  "description": "HaulForza trucking business OS for carriers and dispatchers via the hosted MCP server at www.haulforza.com/mcp. Read companies, loads, drivers and monthly revenue, driver pay and expenses; create loads and update load status after you confirm. Sign in with your HaulForza account on first connect.",
+  "author": {
+    "name": "HaulForza LLC",
+    "email": "support@haulforza.com",
+    "url": "https://www.haulforza.com"
+  },
+  "homepage": "https://www.haulforza.com",
+  "repository": "https://github.com/malejandrobp-ui/haulforza-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["haulforza", "haulforza loads", "haulforza dispatch", "haulforza drivers", "haulforza mcp"],
+  "logo": "assets/logo.png"
+}
