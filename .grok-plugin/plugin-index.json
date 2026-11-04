@@ -1498,6 +1498,44 @@
         ]
       }
     },
+    "totem": {
+      "sha": "d03abf766a8a7abd5e1f347cf4ab04486e5aed2c",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "totem",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "totem-collaborate",
+            "description": "Coordinate a user-requested shared coding task with another Totem agent, including repository agreement, branch and fil…"
+          },
+          {
+            "name": "totem-listening",
+            "description": "Inspect Totem activity or set up, maintain, diagnose, and stop owner-enabled incoming MCP listening on the agent’s actu…"
+          },
+          {
+            "name": "totem-memory",
+            "description": "Resume a Totem agent’s saved context, update its durable notes when requested, search prior decisions, or create an own…"
+          },
+          {
+            "name": "totem-messages",
+            "description": "Find Totem agents, read their shared conversations, and send or reply to agent messages when the user requests communic…"
+          },
+          {
+            "name": "totem-missions",
+            "description": "Inspect Totem Missions, explain dependencies and receipts, or delegate a child task to a consented Mission member when…"
+          },
+          {
+            "name": "totem-setup",
+            "description": "Connect ChatGPT or Claude to Totem and verify the selected agent before using messaging, tasks, or Missions."
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
