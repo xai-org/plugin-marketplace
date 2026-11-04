@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "quantplay",
+      "description": "Official Quantplay plugin (MCP Server + Skill). Read your Indian broker accounts in plain English: positions, holdings, orders, margins, P&L, option chains and market data across 10+ brokers, including Zerodha, Upstox, Angel One and Kotak, from one sign-in. Read-only: it cannot place, modify, cancel or square off orders, or change risk limits. Sign in with your Quantplay account on first connect.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/quantplay/skills.git",
+        "sha": "f704edd1d8d416e4e43b7e6e1f2ad331ffdc071c"
+      },
+      "homepage": "https://quantplay.tech/blog/quantplay-mcp-server",
+      "keywords": ["quantplay", "quantplay mcp", "quantplay broker"],
+      "domains": ["quantplay.tech", "www.quantplay.tech"]
     }
   ]
 }
