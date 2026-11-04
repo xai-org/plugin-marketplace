@@ -1184,6 +1184,27 @@
         ]
       }
     },
+    "rankwise": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rankwise",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "audit-to-briefs",
+            "description": "Turn a Rankwise AI visibility audit into content briefs. It reads the domain's scorecard, which tracked questions AI en…"
+          },
+          {
+            "name": "read-share-of-voice",
+            "description": "Read a domain's AI share of voice from Rankwise and explain it. It reads the latest share of voice snapshot and its his…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",

@@ -1,0 +1,21 @@
+{
+  "name": "rankwise",
+  "version": "1.0.0",
+  "description": "AI search visibility from your Rankwise workspace. Connects the Rankwise MCP server and adds two skills: turn an AI visibility audit into content briefs, and read a domain's AI share of voice.",
+  "author": {
+    "name": "Rankwise",
+    "url": "https://tryrankwise.com"
+  },
+  "homepage": "https://tryrankwise.com/api-docs#mcp",
+  "repository": "https://github.com/0xrome/rankwise-plugin",
+  "license": "MIT",
+  "keywords": [
+    "rankwise",
+    "tryrankwise",
+    "tryrankwise.com",
+    "rankwise mcp",
+    "rankwise ai visibility",
+    "rankwise share of voice"
+  ],
+  "logo": "assets/logo.svg"
+}
