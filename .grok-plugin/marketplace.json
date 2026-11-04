@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "scholar-sidekick",
+      "description": "Catch AI-fabricated citations: verifyCitation and auditBibliography cross-check a claimed title against the real record at its DOI, PMID, arXiv ID or ISBN, which catches the real-DOI + invented-title pattern that DOI resolution misses. Also checks retraction and open-access status, and formats or exports citations in 10,000+ CSL styles. Hosted MCP server, free, no API key.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mlava/scholar-sidekick-mcp.git",
+        "sha": "2cc6f742f410231cb2d5a563f0750f0bd9307da3",
+        "path": "grok-plugin"
+      },
+      "homepage": "https://scholar-sidekick.com/mcp",
+      "keywords": ["scholar-sidekick", "scholar sidekick"],
+      "domains": ["scholar-sidekick.com"]
     }
   ]
 }
