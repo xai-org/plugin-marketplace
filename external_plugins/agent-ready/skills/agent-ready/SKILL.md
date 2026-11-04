@@ -1,6 +1,6 @@
 ---
 name: agent-ready
-description: Use when the user wants to check how readable a public website is to AI agents and AI search (ChatGPT, Claude, Perplexity, Gemini, Grok, MCP clients) with Agent Ready (https://agent-ready.dev). Activates for "scan this site with Agent Ready", "what's the agent-ready score for <URL>", "check my llms.txt", "is my MCP server card valid", "audit our agent readability", and similar audit requests against a public URL. Read-only; it does not edit the target site.
+description: Scan any public URL with Agent Ready (agent-ready.dev) for AI agent readability, with a 0-100 score and fixes. Use when the user wants to check how readable a website is to AI agents and AI search (ChatGPT, Claude, Perplexity, Gemini, Grok, MCP clients). Activates for "scan this site with Agent Ready", "what's the agent-ready score for <URL>", "check my llms.txt", "is my MCP server card valid", "audit our agent readability", and similar audit requests against a public URL. Read-only; it does not edit the target site.
 ---
 
 # Agent Ready

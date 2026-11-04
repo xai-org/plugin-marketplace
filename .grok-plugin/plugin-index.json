@@ -13,7 +13,7 @@
         "skills": [
           {
             "name": "agent-ready",
-            "description": "Use when the user wants to check how readable a public website is to AI agents and AI search (ChatGPT, Claude, Perplexi…"
+            "description": "Scan any public URL with Agent Ready (agent-ready.dev) for AI agent readability, with a 0-100 score and fixes. Use when…"
           }
         ]
       }
