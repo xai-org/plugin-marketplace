@@ -1230,6 +1230,24 @@
         ]
       }
     },
+    "shipstatic": {
+      "sha": "b63fe96a7c7a0b8fa99a3996249cff888869fa53",
+      "version": "3.1.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shipstatic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "publish-online",
+            "description": "Publish a site, page, report, dashboard, slide deck, document, portfolio or small web app at a ShipStatic link anyone c…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
