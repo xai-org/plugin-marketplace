@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mnemoverse",
+      "description": "Persistent memory for AI agents, shared across tools: save decisions, preferences and lessons, and recall them in Grok, Claude Code, Cursor or any MCP client. Hosted MCP server with an OAuth sign-in in the browser, no API key to paste. Rating a recalled memory as helpful or misleading re-ranks what comes back next.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mnemoverse/claude-plugin.git",
+        "sha": "3201dd0a7dc0c79c805df7fb9a1040c0e56a18ef"
+      },
+      "homepage": "https://mnemoverse.com/docs/api/remote-mcp-server",
+      "keywords": [
+        "mnemoverse",
+        "mnemoverse memory",
+        "mnemoverse mcp"
+      ],
+      "domains": [
+        "mnemoverse.com",
+        "mcp.mnemoverse.com"
+      ]
     }
   ]
 }
