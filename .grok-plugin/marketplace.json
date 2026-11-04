@@ -406,6 +406,8 @@
       "homepage": "https://meetingmateapp.com",
       "keywords": ["meeting mate", "meetingmate", "meeting mate recordings", "meetingmateapp"],
       "domains": ["meetingmateapp.com", "www.meetingmateapp.com"]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
