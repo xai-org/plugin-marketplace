@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "zambo",
+      "description": "The verifiable work layer for AI. 153 tools behind one keyless MCP endpoint, HANDOVER continuity across AIs (wrap up in one AI, pick up in another), and a verifiable AER-1 receipt for every call, checkable at zambo.dev/verify. Free tier: 20 calls + 1 wrap-up free every day; picking up in another AI is always free.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zambodotdev/zambo-grok-plugin.git",
+        "sha": "1eef20db22ac46712633f5cb67c954055d817ba7"
+      },
+      "homepage": "https://github.com/zambodotdev/zambo-grok-plugin",
+      "keywords": [
+        "zambo",
+        "zambo receipt",
+        "aer-1",
+        "handover"
+      ],
+      "domains": ["zambo.dev"],
+      "version": "4.1.1"
     }
   ]
 }
