@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "cloudcrane",
+      "description": "Ask Grok for a small phone app and publish it through CloudCrane's hosted MCP server: it installs on your home screen from a link, runs offline, and keeps what you save on the phone. Sign in with OAuth; nothing to install.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cloudcrane-dev/cloudcrane-mcp.git",
+        "sha": "53dcebaaa5d84c03026b8f703d74b4456f2ac1b4"
+      },
+      "homepage": "https://cloudcrane.ai",
+      "keywords": [
+        "cloudcrane",
+        "cloudcrane app",
+        "cloudcrane mcp"
+      ],
+      "domains": [
+        "cloudcrane.ai"
+      ]
     }
   ]
 }
