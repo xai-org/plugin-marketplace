@@ -1498,6 +1498,24 @@
         ]
       }
     },
+    "ugc-chart": {
+      "sha": "05bae5f3dde0d456ee224a855b6f216502b14d2b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ugc-chart",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ugc-chart",
+            "description": "Find the right Trybe creators for a brand with many more data points. Search, compare and check Trybe UGC creators by s…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
