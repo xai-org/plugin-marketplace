@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "c17fd871be8f8477e52844054706f5fc9fda2efc"
+        "sha": "01275f7490d8195ccc9e30831d04580711000ca9"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
+        "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "b3ab9149225f837894b7de08c1b14650d7cc64eb",
+        "sha": "5091f72943e6cb4ca439c98ee4783d6085de1318",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
