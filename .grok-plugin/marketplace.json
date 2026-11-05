@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "gnv-catalog-mcp",
+      "description": "Read-only public Good Nature Vibe product catalog and shop knowledge through six hosted MCP tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aiagentcycle/gnv-catalog-mcp.git",
+        "sha": "650b0592e0070310b9a1fee1b9af581592f0a526"
+      },
+      "homepage": "https://goodnaturevibe.com",
+      "keywords": ["good nature vibe", "good nature vibe catalog", "gnv catalog mcp"],
+      "domains": ["goodnaturevibe.com", "catalog-mcp.goodnaturevibe.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
