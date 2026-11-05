@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/revnu-app/revnu-plugin.git",
-        "sha": "4e194a0692d5355cc4d7e0c1b82698ec1d65025c"
+        "sha": "1bcc5f95c3dcf6094f6213d68315c8430739bdad"
       },
       "homepage": "https://revnu.com/mcp",
       "keywords": ["revnu", "revnu growth agent", "revnu mcp"],

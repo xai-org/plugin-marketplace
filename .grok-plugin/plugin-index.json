@@ -1185,8 +1185,8 @@
       }
     },
     "revnu": {
-      "sha": "4e194a0692d5355cc4d7e0c1b82698ec1d65025c",
-      "version": "1.2.4",
+      "sha": "1bcc5f95c3dcf6094f6213d68315c8430739bdad",
+      "version": "1.2.5",
       "components": {
         "mcpServers": [
           {
