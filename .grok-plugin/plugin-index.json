@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "adwave": {
+      "sha": "0b5ab18aa6ebcde1a33f7dcd399a8c07cebf342c",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adwave",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adwave",
+            "description": "Plans, launches and manages paid ad campaigns for a business with Adwave. Adwave makes the ads from the business's webs…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
