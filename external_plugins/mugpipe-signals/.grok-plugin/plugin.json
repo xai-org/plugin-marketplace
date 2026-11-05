@@ -1,0 +1,13 @@
+{
+  "name": "mugpipe-signals",
+  "version": "1.0.0",
+  "description": "Mugpipe Signals: Google Search Console and GA4 reports inside Grok via the hosted MCP at mcp.mugpipe.com. Sign in with Google on first connect; read-only access.",
+  "author": {
+    "name": "Mugpipe",
+    "url": "https://mugpipe.com"
+  },
+  "homepage": "https://mugpipe.com",
+  "license": "Proprietary",
+  "keywords": ["mugpipe", "mugpipe signals", "mugpipe mcp"],
+  "logo": "assets/logo.png"
+}
