@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "contracko",
+      "description": "Contracko contract management: import contracts, review terms, and track renewal deadlines through its remote OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/contracko/contracko-skills.git",
+        "sha": "8a6c10f8233544d2143921a57c1d115896f8bb1f"
+      },
+      "homepage": "https://contracko.com/mcp/contract-management",
+      "keywords": ["contracko"],
+      "domains": ["contracko.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
