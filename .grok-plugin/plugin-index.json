@@ -930,6 +930,44 @@
         ]
       }
     },
+    "postonce": {
+      "sha": "2518535c765661ce85bc6c8631afa4c97a4fe84b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postonce",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "analyze-my-posts",
+            "description": "Find out why some of the user's own posts beat their usual numbers and others miss, by discovering the hooks and format…"
+          },
+          {
+            "name": "content-calendar",
+            "description": "Plan one to four weeks of social posts across every connected platform, draft each one natively, and schedule them all…"
+          },
+          {
+            "name": "hook-vault",
+            "description": "Write scroll-stopping opening lines from 100 hook templates taken from real viral posts on TikTok, Instagram Reels, You…"
+          },
+          {
+            "name": "post-everywhere",
+            "description": "Turn one idea, draft, blog post, link or video into a native post for every connected platform (LinkedIn, X, Threads, B…"
+          },
+          {
+            "name": "postonce",
+            "description": "Publish or schedule social posts, inspect delivery, and manage automatic crossposting through a connected PostOnce MCP…"
+          },
+          {
+            "name": "viral-formats",
+            "description": "Pick and script a proven short-form video format from 49 formats ranked by how consistently they go viral on TikTok, In…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
