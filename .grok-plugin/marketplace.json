@@ -490,7 +490,7 @@
     },
     {
       "name": "kernelcad",
-      "description": "Create and edit parametric CAD parts, brackets, enclosures and assemblies. Inspect a 3D model, check supported manufacturing constraints and export STEP, STL, 3MF, DXF or PDF.",
+      "description": "Create editable parametric CAD parts and assemblies from a prompt, including mounting plates, brackets and enclosures. Inspect geometry, check supported manufacturing constraints, and export STEP, STL, 3MF, DXF or PDF.",
       "category": "design",
       "source": {
         "source": "url",
@@ -501,8 +501,13 @@
       "homepage": "https://kernelcad.com",
       "keywords": [
         "kernelcad",
-        "kernelcad mcp",
-        "kernelcad step"
+        "kernelcad parametric cad",
+        "kernelcad mounting plate",
+        "kernelcad bracket design",
+        "kernelcad enclosure design",
+        "kernelcad step export",
+        "kernelcad 3d printing",
+        "kernelcad mcp"
       ],
       "domains": [
         "kernelcad.com",
