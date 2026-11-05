@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "1a33048817d06df12882cb881dfc754e7039954a",
-      "version": "1.0.3",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
@@ -808,8 +808,8 @@
       }
     },
     "netlify": {
-      "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e",
-      "version": "1.7.0",
+      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -852,7 +852,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
+            "description": "Write, route, cache, and debug Netlify Edge Functions, the Deno-based TypeScript or JavaScript handlers in netlify/edge…"
           },
           {
             "name": "netlify-forms",
@@ -868,7 +868,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity, covering signup/login/logout, Google/GitHub/GitLab/Bi…"
           },
           {
             "name": "netlify-image-cdn",
@@ -1267,8 +1267,8 @@
       }
     },
     "stripe": {
-      "sha": "b3ab9149225f837894b7de08c1b14650d7cc64eb",
-      "version": "0.9.37",
+      "sha": "8f4c6295246b771bdfbffd4a50171f75a03507c8",
+      "version": "0.9.39",
       "components": {
         "agents": [
           {
@@ -1359,8 +1359,8 @@
       }
     },
     "superpowers": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "version": "7.0.1",
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "version": "7.0.2",
       "components": {
         "hooks": [
           {
@@ -1869,8 +1869,8 @@
       }
     },
     "wix": {
-      "sha": "c17fd871be8f8477e52844054706f5fc9fda2efc",
-      "version": "1.39.0",
+      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
+      "version": "1.41.0",
       "components": {
         "mcpServers": [
           {
@@ -1889,7 +1889,7 @@
           },
           {
             "name": "wix-create-studio-two-site",
-            "description": "Create a new, blank Wix Studio 2 site with the Wix CLI in its own local folder, start its local preview and share the l…"
+            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
           },
           {
             "name": "wix-design-system",
@@ -1901,7 +1901,7 @@
           },
           {
             "name": "wix-export",
-            "description": "Export an existing Wix Studio 2 site into a local folder with the Wix CLI, start its local preview and share the localh…"
+            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
           },
           {
             "name": "wix-harmony-editor",
@@ -1929,7 +1929,7 @@
           },
           {
             "name": "wix-import",
-            "description": "Import local site code into a Wix Studio 2 site with the Wix CLI, either into the site the folder was exported from or…"
+            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
