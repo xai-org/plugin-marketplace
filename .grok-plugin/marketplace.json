@@ -490,7 +490,7 @@
     },
     {
       "name": "labwired",
-      "description": "Build and verify embedded electronics in simulation: wire MCU firmware to sensors and actuators, run Renode-style chip and board sims, and take a design from schematic intent through PCB checks.",
+      "description": "Design embedded circuits and two-layer PCB layouts, then test supported ESP32 and MCU firmware in simulation and check boards with KiCad DRC. Suited to sensor boards, schematic-to-PCB work, and repeatable firmware runs.",
       "category": "development",
       "source": {
         "source": "url",
@@ -499,7 +499,7 @@
         "path": "plugins/labwired"
       },
       "homepage": "https://labwired.com",
-      "keywords": ["labwired","labwired electronics","labwired firmware simulation","labwired circuit simulation","labwired pcb layout","labwired mcu simulation","labwired kicad"],
+      "keywords": ["labwired","labwired electronics","labwired pcb design","labwired two-layer pcb","labwired esp32 sensor pcb","labwired firmware simulation","labwired circuit simulation","labwired kicad drc"],
       "domains": ["labwired.com", "api.labwired.com", "app.labwired.com"]
     }
   ]
