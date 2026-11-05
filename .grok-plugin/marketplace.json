@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tooljet",
+      "description": "Build and edit ToolJet dashboards, internal tools and business applications with visual components, connected data and workflows. Sign in to ToolJet Cloud through OAuth to authorize your workspace.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ToolJet/tooljet-mcp.git",
+        "sha": "56ee8489adb4e8c3f6de587f63df27d54c4b8083"
+      },
+      "homepage": "https://tooljet.com/mcp",
+      "keywords": [
+        "tooljet",
+        "tooljet apps",
+        "tooljet mcp"
+      ],
+      "domains": [
+        "tooljet.com",
+        "app.tooljet.ai"
+      ]
     }
   ]
 }

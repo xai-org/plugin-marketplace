@@ -1498,6 +1498,24 @@
         ]
       }
     },
+    "tooljet": {
+      "sha": "56ee8489adb4e8c3f6de587f63df27d54c4b8083",
+      "version": "0.11.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tooljet",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tooljet-app-builder",
+            "description": "Build ToolJet apps end-to-end via tooljet-mcp: plan pages, create or reuse data/query/component resources, wire behavio…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",
