@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/agent-blueprint/agent-blueprint-skills.git",
-        "sha": "fc42dcc535d26266897bf8c4ff8ffd185d88a848",
+        "sha": "ec6742ab31977913e1c6b830348b9c2da9bdbb70",
         "path": "plugins/agent-blueprint"
       },
       "homepage": "https://agentblueprint.ai/agents",

@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "agent-blueprint": {
-      "sha": "fc42dcc535d26266897bf8c4ff8ffd185d88a848",
-      "version": "0.1.0",
+      "sha": "ec6742ab31977913e1c6b830348b9c2da9bdbb70",
+      "version": "0.2.0",
       "components": {
         "skills": [
           {
