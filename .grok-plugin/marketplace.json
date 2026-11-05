@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "segwise",
+      "description": "Analyze advertising and creative performance using your organization's Segwise data. Compare campaigns, creatives, and creative tags through the hosted MCP service with Segwise OAuth sign-in.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SegwiseHQ/segwise-mcp.git",
+        "sha": "031628b29644d5d3d637acca6799e250bd9dcd11"
+      },
+      "homepage": "https://github.com/SegwiseHQ/segwise-mcp",
+      "keywords": [
+        "segwise",
+        "segwise analytics",
+        "segwise mcp"
+      ],
+      "domains": [
+        "segwise.ai",
+        "mcp.segwise.ai"
+      ]
     }
   ]
 }
