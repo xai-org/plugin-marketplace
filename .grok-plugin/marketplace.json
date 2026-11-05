@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ponder",
+      "description": "Convergent multi-pass deliberation and code review ledger for coding agents. Enumerates units, grades every unit across four perspectives (Skeptic, Builder, Dreamer, Empath), and enforces a 100% coverage gate before stopping.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Quinnod345/ponder.git",
+        "sha": "4f620cbe7b3204d588637910d883b5fa5a0eaf4a"
+      },
+      "homepage": "https://github.com/Quinnod345/ponder",
+      "keywords": ["ponder", "ponder review", "ponder deliberation"]
     }
   ]
 }
