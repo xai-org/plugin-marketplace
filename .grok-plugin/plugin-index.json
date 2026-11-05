@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "1a33048817d06df12882cb881dfc754e7039954a",
-      "version": "1.0.3",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
@@ -1249,8 +1249,8 @@
       }
     },
     "stripe": {
-      "sha": "5091f72943e6cb4ca439c98ee4783d6085de1318",
-      "version": "0.9.38",
+      "sha": "8f4c6295246b771bdfbffd4a50171f75a03507c8",
+      "version": "0.9.39",
       "components": {
         "agents": [
           {
@@ -1341,8 +1341,8 @@
       }
     },
     "superpowers": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "version": "7.0.1",
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "version": "7.0.2",
       "components": {
         "hooks": [
           {
