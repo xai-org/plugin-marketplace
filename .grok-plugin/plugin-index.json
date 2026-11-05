@@ -765,8 +765,8 @@
       }
     },
     "neatlisting": {
-      "sha": "9306cca389961fe0d7800a3b81e23039a6686171",
-      "version": "1.0.2",
+      "sha": "a818406a94b203ddab24ee5644cb37883e7a1dde",
+      "version": "1.0.3",
       "components": {
         "mcpServers": [
           {
