@@ -6,6 +6,19 @@
   },
   "plugins": [
     {
+      "name": "holos33-mcp",
+      "description": "Read-only, source-linked public Holos33 knowledge through eleven hosted MCP tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aiagentcycle/holos33-mcp.git",
+        "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1"
+      },
+      "homepage": "https://holos33.com",
+      "keywords": ["holos33", "holos33 knowledge", "holos33 mcp"],
+      "domains": ["holos33.com", "mcp.holos33.com"]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",

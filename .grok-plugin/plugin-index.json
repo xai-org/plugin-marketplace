@@ -646,6 +646,18 @@
         ]
       }
     },
+    "holos33-mcp": {
+      "sha": "6a28df92e7c477daf8787e65dcea77cf6e9ce9e1",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "holos33",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",
