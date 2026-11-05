@@ -1231,8 +1231,8 @@
       }
     },
     "serpapi": {
-      "sha": "8b9eff976285cb1dcae3444ca085bf598c5955c2",
-      "version": "0.2.0",
+      "sha": "6c1bd456334d2a33ae3f9e5b682cbb69e77b6067",
+      "version": "0.3.0",
       "components": {
         "mcpServers": [
           {
@@ -1243,7 +1243,7 @@
         "skills": [
           {
             "name": "serpapi-extract",
-            "description": "Read web pages via the SerpApi Extract API — scrape a URL into structured content and Markdown, map a website's URLs fr…"
+            "description": "Read web pages via the SerpApi Extract API — scrape a URL into Markdown, map a website's URLs from its links and sitema…"
           },
           {
             "name": "serpapi-search",
