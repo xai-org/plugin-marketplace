@@ -487,6 +487,34 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "octagon-ai",
+      "description": "Octagon AI research on public companies (MCP server + skills). Cited answers from SEC filings (10-K, 10-Q, 8-K, S-1, proxies), ten years of earnings call transcripts, financial statements and ratios, stock prices, analyst estimates, and price targets. Requires a free Octagon account; sign in with OAuth on first use.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OctagonAI/octagon-claude-plugin.git",
+        "sha": "3781846dece34aa190c1965b2a9d4e355c645634",
+        "path": "grok/plugins/octagon-ai"
+      },
+      "homepage": "https://www.octagonai.co/",
+      "keywords": ["octagon", "octagon ai", "octagon research", "octagon sec filings", "octagon earnings calls"],
+      "domains": ["octagonai.co", "www.octagonai.co", "docs.octagonagents.com"]
+    },
+    {
+      "name": "octagon-prediction-markets",
+      "description": "Octagon research on Kalshi and Polymarket prediction markets (MCP server + skills). Cited event briefs: current odds with timestamps, probability history and what moved it, how similar events resolved, the market's 0-100 Trust Score, and where the market-implied probability diverges from an independent model estimate. Research only: no bets, trades, or account linking. Requires a free Octagon account; OAuth on first use.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OctagonAI/octagon-claude-plugin.git",
+        "sha": "3781846dece34aa190c1965b2a9d4e355c645634",
+        "path": "grok/plugins/octagon-prediction-markets"
+      },
+      "homepage": "https://www.octagonai.co/",
+      "keywords": ["octagon", "octagon prediction markets", "octagon kalshi", "octagon polymarket", "octagon trust score"],
+      "domains": ["octagonai.co", "www.octagonai.co"]
     }
   ]
 }
