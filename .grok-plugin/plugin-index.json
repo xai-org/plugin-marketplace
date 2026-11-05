@@ -764,6 +764,24 @@
         ]
       }
     },
+    "neatlisting": {
+      "sha": "9306cca389961fe0d7800a3b81e23039a6686171",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neatlisting",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "google-business-profile",
+            "description": "Manage Google Business Profile (formerly Google My Business) listings through NeatListing. Use when the user wants to c…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
