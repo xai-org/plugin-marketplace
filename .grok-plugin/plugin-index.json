@@ -669,7 +669,7 @@
       }
     },
     "kernelcad": {
-      "sha": "e68b41d754293cd0a2014d62e2f0883747e18e18",
+      "sha": "0a1478c4435397af9ca6da80a3cf6e98acef80a7",
       "version": "0.17.4",
       "components": {
         "mcpServers": [

@@ -490,29 +490,42 @@
     },
     {
       "name": "kernelcad",
-      "description": "Create editable parametric CAD parts and assemblies from a prompt, including mounting plates, brackets and enclosures. Inspect geometry, check supported manufacturing constraints, and export STEP, STL, 3MF, DXF or PDF.",
+      "description": "KernelCAD is parametric CAD for manufacturing: create editable mechanical parts and assemblies from a prompt, including mounting plates, brackets, fixtures, gears, and enclosures. Inspect the 3D model, run supported geometry and manufacturability checks, and export STEP, STL, 3MF, DXF, or PDF drawings for 3D printing, CNC machining, and fabrication.",
       "category": "design",
       "source": {
         "source": "url",
         "url": "https://github.com/w1ne/kernelCAD-web.git",
-        "sha": "e68b41d754293cd0a2014d62e2f0883747e18e18",
+        "sha": "0a1478c4435397af9ca6da80a3cf6e98acef80a7",
         "path": "plugins/kernelcad"
       },
       "homepage": "https://kernelcad.com",
       "keywords": [
         "kernelcad",
+        "kernelcad manufacturing cad",
+        "kernelcad cad for manufacturing",
         "kernelcad parametric cad",
+        "kernelcad mechanical design",
+        "kernelcad dfm review",
+        "kernelcad 3d printing",
+        "kernelcad cnc machining",
+        "kernelcad fabrication",
+        "kernelcad fixture design",
         "kernelcad mounting plate",
         "kernelcad bracket design",
         "kernelcad enclosure design",
         "kernelcad step export",
-        "kernelcad 3d printing",
+        "kernelcad engineering drawings",
         "kernelcad mcp"
       ],
       "domains": [
         "kernelcad.com",
         "app.kernelcad.com"
-      ]
+      ],
+      "author": {
+        "name": "KernelCAD",
+        "url": "https://kernelcad.com"
+      },
+      "version": "0.17.4"
     }
   ]
 }
