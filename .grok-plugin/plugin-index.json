@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005",
-      "version": "1.2.0",
+      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -13,20 +13,20 @@
         ],
         "skills": [
           {
-            "name": "axiom-agent-created-orgs",
-            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
-          },
-          {
             "name": "axiom-alerting",
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-building-dashboards",
+            "name": "axiom-build-dashboard",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "axiom-controlling-costs",
+            "name": "axiom-control-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
+          },
+          {
+            "name": "axiom-create-org",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
           },
           {
             "name": "axiom-ingest",
@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081",
-      "version": "1.0.2",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
@@ -264,6 +264,10 @@
           {
             "name": "basin",
             "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for…"
+          },
+          {
+            "name": "cf-cli",
+            "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Clo…"
           },
           {
             "name": "cloudflare",
@@ -284,6 +288,10 @@
           {
             "name": "durable-objects",
             "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+          },
+          {
+            "name": "gateway-workers",
+            "description": "Build, debug, or review Cloudflare Workers invoked by the Forward action in Gateway HTTP policies, including the Gatewa…"
           },
           {
             "name": "k2",
@@ -323,7 +331,7 @@
           },
           {
             "name": "wrangler",
-            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
+            "description": "Run or troubleshoot Wrangler CLI commands in projects that have a wrangler.jsonc, wrangler.json, or wrangler.toml file,…"
           }
         ]
       }
@@ -387,8 +395,8 @@
       }
     },
     "expo": {
-      "sha": "0d035556e37737de83199d8e623641bad7a7cced",
-      "version": "1.13.13",
+      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+      "version": "1.14.3",
       "components": {
         "mcpServers": [
           {
@@ -673,8 +681,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f",
-      "version": "0.0.196",
+      "sha": "341268561baaff256927c931ec8215dbd30e3cee",
+      "version": "0.0.197",
       "components": {
         "skills": [
           {
@@ -794,8 +802,8 @@
       }
     },
     "netlify": {
-      "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e",
-      "version": "1.7.0",
+      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -838,7 +846,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
+            "description": "Write, route, cache, and debug Netlify Edge Functions, the Deno-based TypeScript or JavaScript handlers in netlify/edge…"
           },
           {
             "name": "netlify-forms",
@@ -854,7 +862,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity, covering signup/login/logout, Google/GitHub/GitLab/Bi…"
           },
           {
             "name": "netlify-image-cdn",
@@ -1253,8 +1261,8 @@
       }
     },
     "stripe": {
-      "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
-      "version": "0.9.33",
+      "sha": "8f4c6295246b771bdfbffd4a50171f75a03507c8",
+      "version": "0.9.39",
       "components": {
         "agents": [
           {
@@ -1345,8 +1353,8 @@
       }
     },
     "superpowers": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "version": "7.0.1",
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "version": "7.0.2",
       "components": {
         "hooks": [
           {
@@ -1855,8 +1863,8 @@
       }
     },
     "wix": {
-      "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f",
-      "version": "1.36.3",
+      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
+      "version": "1.41.0",
       "components": {
         "mcpServers": [
           {
@@ -1874,6 +1882,10 @@
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
+            "name": "wix-create-studio-two-site",
+            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
+          },
+          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
@@ -1883,7 +1895,7 @@
           },
           {
             "name": "wix-export",
-            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
           },
           {
             "name": "wix-harmony-editor",
@@ -1911,7 +1923,7 @@
           },
           {
             "name": "wix-import",
-            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
+            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
