@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
-      "version": "1.1.2",
+      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -17,24 +17,32 @@
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-sre",
-            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
-          },
-          {
-            "name": "building-dashboards",
+            "name": "axiom-build-dashboard",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "controlling-costs",
+            "name": "axiom-control-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "metrics-chart",
+            "name": "axiom-create-org",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
+          },
+          {
+            "name": "axiom-ingest",
+            "description": "Send data to Axiom. Picks an org from ~/.axiom.toml, or provisions a temporary one when none is configured, creates the…"
+          },
+          {
+            "name": "axiom-metrics-chart",
             "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
-            "name": "spl-to-apl",
+            "name": "axiom-spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
           }
         ]
       }
@@ -68,8 +76,8 @@
       }
     },
     "browser-use": {
-      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
-      "version": "0.1.0",
+      "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
+      "version": "0.1.1",
       "components": {
         "mcpServers": [
           {
@@ -81,18 +89,6 @@
           {
             "name": "browser-use",
             "description": "Browser Use — direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/…"
-          }
-        ]
-      }
-    },
-    "bruin": {
-      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
-      "version": "1.1.0",
-      "components": {
-        "skills": [
-          {
-            "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
           }
         ]
       }
@@ -115,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
-      "version": "1.11.0",
+      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
+      "version": "1.12.0",
       "components": {
         "mcpServers": [
           {
@@ -251,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081",
-      "version": "1.0.2",
+      "sha": "1a33048817d06df12882cb881dfc754e7039954a",
+      "version": "1.0.3",
       "components": {
         "mcpServers": [
           {
@@ -268,6 +264,10 @@
           {
             "name": "basin",
             "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for…"
+          },
+          {
+            "name": "cf-cli",
+            "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Clo…"
           },
           {
             "name": "cloudflare",
@@ -288,6 +288,10 @@
           {
             "name": "durable-objects",
             "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+          },
+          {
+            "name": "gateway-workers",
+            "description": "Build, debug, or review Cloudflare Workers invoked by the Forward action in Gateway HTTP policies, including the Gatewa…"
           },
           {
             "name": "k2",
@@ -327,7 +331,7 @@
           },
           {
             "name": "wrangler",
-            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
+            "description": "Run or troubleshoot Wrangler CLI commands in projects that have a wrangler.jsonc, wrangler.json, or wrangler.toml file,…"
           }
         ]
       }
@@ -378,9 +382,115 @@
         ]
       }
     },
+    "expo": {
+      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+      "version": "1.14.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "expo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eas-app-stores",
+            "description": "Build and submit iOS and Android apps with EAS to TestFlight, the App Store, or Google Play. Supports Expo and other Re…"
+          },
+          {
+            "name": "eas-hosting",
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+          },
+          {
+            "name": "eas-observe",
+            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, mar…"
+          },
+          {
+            "name": "eas-simulator",
+            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+          },
+          {
+            "name": "eas-update",
+            "description": "Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when sett…"
+          },
+          {
+            "name": "eas-update-insights",
+            "description": "Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split…"
+          },
+          {
+            "name": "eas-workflows",
+            "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or…"
+          },
+          {
+            "name": "expo-animation",
+            "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right —…"
+          },
+          {
+            "name": "expo-app-clip",
+            "description": "Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appcl…"
+          },
+          {
+            "name": "expo-brownfield",
+            "description": "Integrate Expo and React Native into an existing native iOS or Android app. Use for brownfield, embedding a React Nativ…"
+          },
+          {
+            "name": "expo-data-fetching",
+            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+          },
+          {
+            "name": "expo-design-system",
+            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight…"
+          },
+          {
+            "name": "expo-dom",
+            "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incremental…"
+          },
+          {
+            "name": "expo-examples",
+            "description": "Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI…"
+          },
+          {
+            "name": "expo-module",
+            "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Co…"
+          },
+          {
+            "name": "expo-native-ui",
+            "description": "Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, m…"
+          },
+          {
+            "name": "expo-overview",
+            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+          },
+          {
+            "name": "expo-project-structure",
+            "description": "Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or decidin…"
+          },
+          {
+            "name": "expo-router",
+            "description": "Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link…"
+          },
+          {
+            "name": "expo-ui",
+            "description": "Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for…"
+          },
+          {
+            "name": "expo-upgrade",
+            "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+          },
+          {
+            "name": "expo-web-to-native",
+            "description": "Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into…"
+          }
+        ]
+      }
+    },
     "figma": {
-      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
-      "version": "2.2.157",
+      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
+      "version": "2.2.174",
       "components": {
         "mcpServers": [
           {
@@ -559,8 +669,8 @@
       }
     },
     "keepp": {
-      "sha": "802feb500e1635ba519e4ad38835993e43d83c00",
-      "version": "2.1.3",
+      "sha": "14a3459a1717130ef67197a590993e68e54d4224",
+      "version": "2.1.5",
       "components": {
         "mcpServers": [
           {
@@ -577,8 +687,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "b31dc0a43ff5d19bcf386a3476a216f3b39a6f55",
-      "version": "0.0.194",
+      "sha": "341268561baaff256927c931ec8215dbd30e3cee",
+      "version": "0.0.197",
       "components": {
         "skills": [
           {
@@ -698,8 +808,8 @@
       }
     },
     "netlify": {
-      "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e",
-      "version": "1.7.0",
+      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -742,7 +852,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
+            "description": "Write, route, cache, and debug Netlify Edge Functions, the Deno-based TypeScript or JavaScript handlers in netlify/edge…"
           },
           {
             "name": "netlify-forms",
@@ -758,7 +868,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity, covering signup/login/logout, Google/GitHub/GitLab/Bi…"
           },
           {
             "name": "netlify-image-cdn",
@@ -839,8 +949,8 @@
       }
     },
     "pstack": {
-      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
-      "version": "0.15.25",
+      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+      "version": "0.15.36",
       "components": {
         "agents": [
           {
@@ -853,14 +963,6 @@
           }
         ],
         "skills": [
-          {
-            "name": "Make Bot UI",
-            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
-          },
-          {
-            "name": "Poteto Mode",
-            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
-          },
           {
             "name": "architect",
             "description": "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use fo…"
@@ -890,6 +992,10 @@
             "description": "Find the mistakes agents keep repeating in this repo and make each one impossible. Try architecture first, then types,…"
           },
           {
+            "name": "create-formal-verification-skill",
+            "description": "Generate a project-local skill that formally verifies the code where a bug costs the most and tests reach the least, in…"
+          },
+          {
             "name": "create-verification-skill",
             "description": "Generate a project-local verification skill that drives your app the way a user does — any language, framework, or plat…"
           },
@@ -911,11 +1017,23 @@
           },
           {
             "name": "ketchup",
-            "description": "Catch the user up on what changed in this chat since their last message, in a few plain sentences and small visuals. Gi…"
+            "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
+          },
+          {
+            "name": "ketchup-video",
+            "description": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text…"
+          },
+          {
+            "name": "maintain-formal-verification-skill",
+            "description": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched…"
           },
           {
             "name": "maintain-verification-skill",
             "description": "Periodic pass that keeps a project's verification skill and feature map honest: parallel source readers per feature, on…"
+          },
+          {
+            "name": "make-bot-ui",
+            "description": "Use when building a custom UI (page, dashboard, buttons) that should wake a Grok Bot over a webhook, when the user must…"
           },
           {
             "name": "no-comments",
@@ -924,6 +1042,10 @@
           {
             "name": "poteto-help",
             "description": "Guides users through pstack setup, /poteto-mode, and picking the skill, playbook, or principle for a task. Type /poteto…"
+          },
+          {
+            "name": "poteto-mode",
+            "description": "poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified…"
           },
           {
             "name": "principle-attack-the-premise",
@@ -951,7 +1073,7 @@
           },
           {
             "name": "principle-explain-the-number",
-            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
+            "description": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a thr…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -1035,23 +1157,11 @@
           },
           {
             "name": "sharpen",
-            "description": "Sharpen a task before starting: the expert approach, what the user is really after, and the right level of specificatio…"
+            "description": "Make a task deeper, not bigger, then rewrite the prompt. Use for /sharpen."
           },
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
-          },
-          {
-            "name": "swarm",
-            "description": "Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, race…"
-          },
-          {
-            "name": "tdd",
-            "description": "Use only when the user explicitly asks for TDD, a failing test, or a regression test, OR when the bug has an obvious ch…"
-          },
-          {
-            "name": "teach",
-            "description": "Explain a body of work plainly so a person actually understands it. Runs the `how` and `why` skills and weaves what the…"
           }
         ]
       }
@@ -1093,8 +1203,8 @@
       }
     },
     "sentry": {
-      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
-      "version": "1.4.5",
+      "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
+      "version": "1.4.6",
       "components": {
         "mcpServers": [
           {
@@ -1157,8 +1267,8 @@
       }
     },
     "stripe": {
-      "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
-      "version": "0.9.20",
+      "sha": "5091f72943e6cb4ca439c98ee4783d6085de1318",
+      "version": "0.9.38",
       "components": {
         "agents": [
           {
@@ -1249,8 +1359,8 @@
       }
     },
     "superpowers": {
-      "sha": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
-      "version": "7.0.0",
+      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "version": "7.0.1",
       "components": {
         "hooks": [
           {
@@ -1741,9 +1851,26 @@
         ]
       }
     },
+    "videogen": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "videogen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "videogen",
+            "description": "Create, edit, caption, and export videos or generate media through the VideoGen MCP connector when the user asks to use…"
+          }
+        ]
+      }
+    },
     "wix": {
-      "sha": "b9875104d249a6a6f403e369140b679cfdb78e87",
-      "version": "1.31.2",
+      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
+      "version": "1.41.0",
       "components": {
         "mcpServers": [
           {
@@ -1753,16 +1880,16 @@
         ],
         "skills": [
           {
-            "name": "replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
-          },
-          {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
           },
           {
             "name": "wix-base44-connector",
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
+          },
+          {
+            "name": "wix-create-studio-two-site",
+            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
           },
           {
             "name": "wix-design-system",
@@ -1773,8 +1900,16 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
+            "name": "wix-export",
+            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
+          },
+          {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
+          },
+          {
             "name": "wix-headless",
-            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+            "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
           {
             "name": "wix-headless-cold-start",
@@ -1785,16 +1920,32 @@
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
           },
           {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
+          },
+          {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
           },
           {
+            "name": "wix-import",
+            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
+          },
+          {
             "name": "wix-manage",
-            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, donations, payments, CMS, and…"
+          },
+          {
+            "name": "wix-readme",
+            "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
+          },
+          {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
           },
           {
             "name": "wix-vibe-headless",
-            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+            "description": "Connect an existing front end to a live Wix site using client-only REST and its public WIX_CLIENT_ID, without an SDK or…"
           }
         ]
       }
