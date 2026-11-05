@@ -47,6 +47,24 @@
         ]
       }
     },
+    "back4app": {
+      "sha": "b4118069afc847f56ac1ed12b0e6db186bfbf178",
+      "version": "0.1.19",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "back4app",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "back4app-web-deployment",
+            "description": "Deploy a folder of code to Back4app Web Deployment and get a public HTTPS address. For anything that runs in a containe…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",

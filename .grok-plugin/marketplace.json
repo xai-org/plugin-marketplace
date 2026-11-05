@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "back4app",
+      "description": "Back4app Web Deployment (MCP server + skill). Deploy anything that runs in a container, from web apps and websites to APIs and backends, and get a live HTTPS address. Follow builds, read logs, deploy new versions, set environment variables and roll back directly from Grok. No account needed to start.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/back4app/back4app-plugin.git",
+        "sha": "b4118069afc847f56ac1ed12b0e6db186bfbf178"
+      },
+      "homepage": "https://github.com/back4app/back4app-plugin",
+      "keywords": ["back4app", "back4app deploy", "deploy to back4app"],
+      "domains": ["back4app.com", "b4a.run"]
     }
   ]
 }
