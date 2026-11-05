@@ -495,12 +495,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/chenhao233/pmnote-agent-plugin.git",
-        "sha": "629d6f360fb6fae8879f79bb0f149bf4167349b6"
+        "sha": "8426b276625f9ca0a4d67c2530de8279e1cb0f7c"
       },
       "homepage": "https://pmnote.ai",
       "keywords": ["PMNote", "Hao游戏PM笔记"],
       "domains": ["pmnote.ai"],
-      "version": "1.5.4",
+      "version": "1.5.5",
       "author": {"name": "Hao"}
     }
   ]
