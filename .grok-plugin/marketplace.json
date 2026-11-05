@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/logospell/logospell-mcp-server.git",
-        "sha": "f3dc7e92db520be9e3119dcf6a0b46d2afe0f3a9"
+        "sha": "8e5479e8ff3228e8e05b0233dd5d49c2ea769399"
       },
       "homepage": "https://logospell.com",
       "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell character set", "logospell illustration set", "logospell concept set", "logospell logo variations"],
