@@ -1498,6 +1498,24 @@
         ]
       }
     },
+    "tokenrip": {
+      "sha": "c6b19bbcb8d4b0ee8b1b493b00b3889bec9c38f6",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tokenrip",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tokenrip",
+            "description": "Works from Tokenrip, the shared workspace your AI agents work from, which keeps the person's documents, tables, tasks a…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
       "version": "0.1.8-beta",

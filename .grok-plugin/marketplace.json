@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tokenrip",
+      "description": "Tokenrip is a shared workspace AI agents work from. Claude, ChatGPT, Codex, Grok and Muse use it. People approve what needs them and see the rest get done.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tokenrip/claude-plugin.git",
+        "sha": "c6b19bbcb8d4b0ee8b1b493b00b3889bec9c38f6"
+      },
+      "homepage": "https://tokenrip.com",
+      "keywords": ["tokenrip"],
+      "domains": ["tokenrip.com"],
+      "author": {
+        "name": "Quintel, LLC",
+        "email": "support@tokenrip.com",
+        "url": "https://tokenrip.com"
+      }
     }
   ]
 }
