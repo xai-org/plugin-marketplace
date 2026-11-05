@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wisprs",
+      "description": "Official Wisprs MCP for Grok Build. Transcribe audio, video and YouTube links, then search, summarize, translate and export transcripts through Wisprs' hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wisprs/wisprs-ai-connectors.git",
+        "sha": "7da201f3c1543b00b1e72ee984fdfdf3eaf6a88c"
+      },
+      "homepage": "https://wisprs.co/mcp/setup",
+      "keywords": ["wisprs", "wisprs transcript", "wisprs mcp"],
+      "domains": ["wisprs.co"]
     }
   ]
 }

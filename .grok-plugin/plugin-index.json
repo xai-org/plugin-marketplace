@@ -1854,6 +1854,28 @@
         ]
       }
     },
+    "wisprs": {
+      "sha": "7da201f3c1543b00b1e72ee984fdfdf3eaf6a88c",
+      "version": "0.30.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wisprs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "setup",
+            "description": "First-run walkthrough after installing Wisprs. Gets one transcript made and shows what to do with it next. Runs once, w…"
+          },
+          {
+            "name": "wisprs",
+            "description": "Transcribe, search, export, summarize, chapter, repurpose, and translate recordings with Wisprs. Use for durable transc…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
       "version": "1.41.0",
