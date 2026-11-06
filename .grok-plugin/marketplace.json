@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mugpipe-signals",
+      "description": "Google Search Console + GA4 reports in Grok via Mugpipe's hosted MCP. Weekly performance, CTR opportunities, top queries and pages. Sign in with Google (read-only).",
+      "category": "monitoring",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/mugpipe-signals"
+      },
+      "homepage": "https://mugpipe.com",
+      "keywords": ["mugpipe", "mugpipe signals", "mugpipe mcp"],
+      "domains": ["mugpipe.com", "mcp.mugpipe.com"]
     }
   ]
 }
