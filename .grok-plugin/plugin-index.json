@@ -668,6 +668,24 @@
         ]
       }
     },
+    "markaestro": {
+      "sha": "f5169790521c9712e9bcc6ac0b9a6b26c661d953",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "markaestro",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "markaestro",
+            "description": "Schedule, publish, and review social posts through Markaestro (Facebook, Instagram, TikTok, Threads, Pinterest, LinkedI…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
