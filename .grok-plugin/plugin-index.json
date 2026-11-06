@@ -1,6 +1,33 @@
 {
   "version": 1,
   "plugins": {
+    "autotelic": {
+      "version": "0.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "find-tool",
+            "description": "Find authorized Autotelic tools for team tasks or route crew/team work requests to discovered work tools."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "autotelic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "check-registry-first",
+            "description": "Find authorized Autotelic tools for team operational workflows, interpret recorded health evidence, report capability g…"
+          },
+          {
+            "name": "submit-work-evidence",
+            "description": "Inspect assigned Autotelic work checklists, submit user-provided photo evidence for Cockpit QC review, and check submis…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
