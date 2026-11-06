@@ -892,6 +892,24 @@
         ]
       }
     },
+    "pageree": {
+      "sha": "41b73796b21a2794df663346a3e8a519f3d4550f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pageree",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "landing-page-guru-skill",
+            "description": "Build, audit, or improve landing pages with clear offers, persuasive evidence-backed copy, distinctive responsive desig…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
