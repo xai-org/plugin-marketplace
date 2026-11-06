@@ -490,7 +490,7 @@
     },
     {
       "name": "kolpulse-discovery",
-      "description": "KOL Pulse Discovery: what oncologists said about a clinical trial at one conference, with whole quotes, x.com source links and Open Payments context.",
+      "description": "Follow practice-changing social media discussions and treatment controversies from recent oncology and hematology meetings (ESMO, WCLC, ASCO GU, EHA, IMS, and others). Name a clinical trial and a meeting, or start from a tumor type to pick one recent meeting. See what verified global KOLs posted — verbatim quotes, inline tweet links, Open Payments context, and links to KOL Pulse trial pages. One conference at a time. Not medical advice.",
       "category": "research",
       "source": {
         "source": "url",
