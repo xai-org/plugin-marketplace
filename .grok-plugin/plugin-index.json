@@ -1414,6 +1414,28 @@
         ]
       }
     },
+    "taskbullet-agent": {
+      "sha": "57d7130de2e9324da2c55ad8d529387b81b77a82",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taskbullet-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "escalate-to-va",
+            "description": "Escalate work a language model cannot finish to a TaskBullet human virtual assistant. Call get_balance first, confirm s…"
+          },
+          {
+            "name": "place-human-call",
+            "description": "Place one US or Canada phone call with a TaskBullet human. Check get_balance, confirm the hold, validate_call, then pla…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",

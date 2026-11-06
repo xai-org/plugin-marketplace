@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "taskbullet-agent",
+      "description": "Escalate unfinished agent work to a TaskBullet human VA with skill escalate-to-va, and place US/Canada phone calls with skill place-human-call, over hosted MCP (get_balance, delegate_task, list_tasks, get_task, confirm_task, cancel_task, reopen_task, place_call, validate_call, get_call, get_call_events, update_call, cancel_call, get_transcript).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GriffMurder/taskbullet-agent-plugin.git",
+        "sha": "57d7130de2e9324da2c55ad8d529387b81b77a82"
+      },
+      "homepage": "https://taskbullet.com/docs/agent-api",
+      "keywords": ["taskbullet", "taskbullet agent", "taskbullet va", "taskbullet virtual assistant", "taskbullet phone call"],
+      "domains": ["taskbullet.com"]
     }
   ]
 }
