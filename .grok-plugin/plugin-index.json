@@ -634,6 +634,48 @@
         ]
       }
     },
+    "fragment": {
+      "sha": "b13c0e3e43569c5639dd3495472bc03302a76fcf",
+      "version": "0.1.12",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fragment",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-budgets",
+            "description": "Enforces hard spending budgets for AI agents and teams: a spend limit or budget cap on paid tools and APIs, refused bef…"
+          },
+          {
+            "name": "judge-a-flow",
+            "description": "Proves a ledger-backed money flow works by writing an independent judge from the spec alone, fixing its fingerprint bef…"
+          },
+          {
+            "name": "ledger-rules",
+            "description": "Designs a Fragment ledger schema whose entry types enforce a money flow's invariants as ledger conditions — no negative…"
+          },
+          {
+            "name": "marketplace-payouts",
+            "description": "Builds marketplace payouts and fee splits: what you owe sellers, creators or contractors, your platform fee, scheduled…"
+          },
+          {
+            "name": "money-flow-spec",
+            "description": "Writes the requirements spec for a money flow (credits, wallets, payouts, escrow, lending, spending limits): parties, s…"
+          },
+          {
+            "name": "money-flows",
+            "description": "Load this before designing or writing any code that keeps balances of money or credits in an app, even for a quick sket…"
+          },
+          {
+            "name": "prepaid-credits",
+            "description": "Adds prepaid credits or a credit balance to an app: purchases, usage drawn from the balance, promo credits, refunds and…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
