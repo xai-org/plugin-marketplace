@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "welder-social-manager",
+      "description": "Welder social publishing (hosted MCP server + 5 skills). Post and schedule videos, photos, carousels and text to TikTok, Instagram, YouTube, Facebook Pages, Threads, Bluesky and X, read post analytics and comments. Sign in with your Welder account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Endless-River-Labs/welder-plugins.git",
+        "sha": "2f6b56721f69118ff45b4f8bdc4758235c80bfda"
+      },
+      "homepage": "https://weldergtm.com",
+      "keywords": ["welder", "weldergtm", "welder social", "welder autoposting", "welder mcp"],
+      "domains": ["weldergtm.com"],
+      "version": "1.3.0",
+      "author": {
+        "name": "Endless River Labs Ltd",
+        "email": "hello@weldergtm.com",
+        "url": "https://weldergtm.com"
+      }
     }
   ]
 }
