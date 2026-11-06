@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "uqual-loan-readiness": {
+      "type": "http",
+      "url": "https://uqual.com/mcp"
+    }
+  }
+}
