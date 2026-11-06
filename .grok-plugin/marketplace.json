@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vitalikgpt/catalogue-app-plugin.git",
-        "sha": "6012688379d4cbaf651e1268d0d350865fbc0e7b"
+        "sha": "55b96900799f3d56d7e158e34a07b1bd81003e4a"
       },
       "homepage": "https://gramnews.org/studio",
       "keywords": ["catalogue app", "catalogue_app", "@catalogue_app"],
