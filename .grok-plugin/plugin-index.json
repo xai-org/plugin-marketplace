@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aimport": {
+      "sha": "78bcca73bb496b9293063b3181cf8b02077a370b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "aimport",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
