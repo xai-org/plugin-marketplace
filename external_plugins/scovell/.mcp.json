@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scovell": {
+      "type": "http",
+      "url": "https://scovell.rotundahq.com/mcp"
+    }
+  }
+}
