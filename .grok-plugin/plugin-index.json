@@ -111,7 +111,7 @@
       }
     },
     "catalogue-app": {
-      "sha": "55b96900799f3d56d7e158e34a07b1bd81003e4a",
+      "sha": "0221f8bdadd6320ac3aafe8f9c932bb33b4a5dbd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -154,6 +154,10 @@
             "description": "Format text in Telegram — bold, italic, strikethrough, underline, spoiler (hidden text), monospace code, quotes and lin…"
           },
           {
+            "name": "telegram-group-moderation",
+            "description": "Moderate a Telegram group or channel for free with @catalogue_app — delete service messages (\"joined\", \"left\", \"pinned\"…"
+          },
+          {
             "name": "telegram-id",
             "description": "Find a Telegram ID — the user's own numeric Telegram user ID, or the ID of a public channel, group or bot — with Catalo…"
           },
@@ -172,6 +176,10 @@
           {
             "name": "telegram-search",
             "description": "Search Telegram entities — mini apps, bots, channels, group chats, emoji and sticker packs — in the Catalogue App datab…"
+          },
+          {
+            "name": "telegram-secretary",
+            "description": "Telegram secretary for a personal account via @catalogue_app — see messages someone deleted or edited in your private c…"
           },
           {
             "name": "telegram-stars-gifts",
