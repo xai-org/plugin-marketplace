@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "job-to-paid",
+      "description": "Quotes, change orders, invoices and payment follow-ups for trades and service businesses, in any currency or tax setup. Runs locally: no account, no server, no network calls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nettylabs/job-to-paid.git",
+        "sha": "ce5a39d4fc7494bc3a4433b1cdd9d6542b7dedf7"
+      },
+      "homepage": "https://github.com/nettylabs/job-to-paid",
+      "keywords": ["job to paid", "job-to-paid", "jobtopaid"]
     }
   ]
 }
