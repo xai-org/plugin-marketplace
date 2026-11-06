@@ -111,7 +111,7 @@
       }
     },
     "catalogue-app": {
-      "sha": "ca90c1159e427ee7ec47764016d3a195a371d116",
+      "sha": "354c6003b967c67ab5c5f5faf03fb35cf59e3fce",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
