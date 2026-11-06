@@ -1184,6 +1184,24 @@
         ]
       }
     },
+    "scholar-sidekick": {
+      "sha": "2cc6f742f410231cb2d5a563f0750f0bd9307da3",
+      "version": "0.8.13",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "scholar-sidekick",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "scholar-sidekick",
+            "description": "This skill should be used when the user mentions a scholarly identifier (DOI, PMID, PMCID, ISBN, arXiv, ISSN, NASA ADS…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
