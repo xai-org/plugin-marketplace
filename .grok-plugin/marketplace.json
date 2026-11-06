@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kolpulse-discovery",
+      "description": "KOL Pulse Discovery: what oncologists said about a clinical trial at one conference, with whole quotes, x.com source links and Open Payments context.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Uptempo/kolpulse-grok-plugin.git",
+        "sha": "d083bf58b35cc22f4d1cc2335af228d3fabc4fcb"
+      },
+      "homepage": "https://kolpulse.com",
+      "keywords": ["kolpulse", "kol pulse", "kolpulse.com", "kolpulse discovery"],
+      "domains": ["kolpulse.com"]
     }
   ]
 }

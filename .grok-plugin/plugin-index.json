@@ -668,6 +668,24 @@
         ]
       }
     },
+    "kolpulse-discovery": {
+      "sha": "d083bf58b35cc22f4d1cc2335af228d3fabc4fcb",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kolpulse-discovery",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kolpulse-discovery",
+            "description": "Use when the user asks about KOL Pulse or kolpulse.com conference intelligence: what oncologists said about a named cli…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
