@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "agent-ready": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agent-ready",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-ready",
+            "description": "Scan any public URL with Agent Ready (agent-ready.dev) for AI agent readability, with a 0-100 score and fixes. Use when…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",

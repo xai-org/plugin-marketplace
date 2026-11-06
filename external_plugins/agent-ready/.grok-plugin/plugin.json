@@ -1,0 +1,15 @@
+{
+  "name": "agent-ready",
+  "version": "1.0.0",
+  "description": "Agent Ready (https://agent-ready.dev) for Grok Build via the hosted, no-auth Agent Ready MCP server. Scan any public URL for AI agent readability: a 0-100 score against the Vercel Agent Readability Spec, an llms.txt score, and 72 checks (llms.txt, robots.txt, sitemaps, JSON-LD, markdown mirrors, MCP server cards, A2A, agents.json, x402, NLWeb) each with a fix. No API key needed.",
+  "author": {
+    "name": "Agent Ready",
+    "email": "support@agent-ready.dev",
+    "url": "https://agent-ready.dev"
+  },
+  "homepage": "https://agent-ready.dev",
+  "repository": "https://github.com/mlava/agent-ready-mcp",
+  "license": "MIT",
+  "keywords": ["agent-ready", "agent-ready.dev", "agent-ready scan", "agent-ready score"],
+  "logo": "assets/logo.png"
+}

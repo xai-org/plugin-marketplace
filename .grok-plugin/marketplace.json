@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agent-ready",
+      "description": "Agent Ready (https://agent-ready.dev): scan any public URL for AI agent readability via the hosted, no-auth Agent Ready MCP server. Returns a 0-100 score against the Vercel Agent Readability Spec, an llms.txt score, and 72 checks (llms.txt, robots.txt, JSON-LD, markdown mirrors, MCP server cards, A2A, agents.json, x402, NLWeb), each with a fix. No API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/agent-ready"
+      },
+      "homepage": "https://agent-ready.dev",
+      "keywords": ["agent-ready", "agent-ready.dev", "agent-ready scan", "agent-ready score"],
+      "domains": ["agent-ready.dev"]
     }
   ]
 }

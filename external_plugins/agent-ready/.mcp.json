@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-ready": {
+      "type": "http",
+      "url": "https://agent-ready.dev/api/apps/mcp"
+    }
+  }
+}
