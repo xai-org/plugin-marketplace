@@ -6,13 +6,13 @@ This connection package defines one hosted Streamable HTTP MCP server:
 
 `https://api.helena.bio/folklore/v1/mcp`
 
-Access is free and anonymous. No account or API key is required. The configuration contains no local server command, shell hook, executable package, credential or filesystem access. It connects to the public hosted endpoint; the scientific backend is not bundled.
+The supplied connection exposes 11 public tools without an account or API key. Clients configured separately with a Folklore Bearer API key can access 18 additional case, approved-source and report tools at the same endpoint. The configuration contains no local server command, shell hook, executable package, credential or filesystem access. It connects to the public hosted endpoint; the scientific backend is not bundled.
 
 ## Versions and tools
 
-The connection package version is 1.0.0. The hosted Folklore MCP adapter is 1.7.0 with eleven tools: `classify_germline_variant`, `search_variant_literature`, `get_publication_details`, `search_literature_corpus`, `get_gene_disease_associations`, `search_disease_genes`, `resolve_gene`, `get_gene_profile`, `get_gene_section` and `search_gene_literature`, plus the separate `support_helena` helper, used only when explicitly requested.
+The connection package version is 1.0.0. The hosted Folklore MCP adapter is 2.0.0 with eleven public tools: `classify_germline_variant`, `search_variant_literature`, `get_publication_details`, `search_literature_corpus`, `get_gene_disease_associations`, `search_disease_genes`, `resolve_gene`, `get_gene_profile`, `get_gene_section` and `search_gene_literature`, plus the separate `support_helena` helper, used only when explicitly requested.
 
-Classification accepts one public GRCh38 germline nuclear SNV or simple indel smaller than 50 bp. Do not send patient, phenotype, family or private-case information or genomic files. Results require qualified professional review and are not patient diagnoses or treatment recommendations. Preserve source attribution, snapshot identity and unavailable outcomes in gene and disease results.
+Classification accepts one public GRCh38 germline nuclear SNV or simple indel smaller than 50 bp. Keep patient, phenotype, family or private-case information and genomic files out of the public connection. Results require qualified professional review and are not patient diagnoses or treatment recommendations. Preserve source attribution, snapshot identity and unavailable outcomes in gene and disease results.
 
 ## Connection and verification
 
