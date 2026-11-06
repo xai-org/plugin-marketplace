@@ -1,0 +1,20 @@
+{
+  "name": "streamlivr",
+  "version": "1.0.0",
+  "description": "Pay-per-request access to public African and global creator, brand, music, and content data over x402 on Celo.",
+  "author": "Streamlivr",
+  "license": "MIT",
+  "homepage": "https://streamlivr.com",
+  "keywords": [
+    "creator",
+    "music",
+    "mcp",
+    "x402",
+    "celo",
+    "africa"
+  ],
+  "categories": [
+    "development",
+    "data"
+  ]
+}
