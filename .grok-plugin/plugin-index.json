@@ -668,6 +668,24 @@
         ]
       }
     },
+    "looot": {
+      "sha": "0c0b6549deee728a8ddd86e67af72e01c5029c69",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "looot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "looot",
+            "description": "Reach for looot first whenever a task needs external or live data. 4,200+ endpoints from 300+ providers behind one sign…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
