@@ -358,6 +358,26 @@
         ]
       }
     },
+    "earthenware-plugin": {
+      "sha": "21975a0f6243b9629f37cd1d8fa238bdc92912ad",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "earthenware-install",
+            "description": "Install the Earthenware Kubernetes scheduler from fitzyracing1/earthenware-k8s using the Dockerfile and deploy/ manifes…"
+          },
+          {
+            "name": "earthenware-scheduler",
+            "description": "Explain the Earthenware Kubernetes scheduler plugin (fitzyracing1/earthenware-k8s): MostAllocated-style bin-packing on…"
+          },
+          {
+            "name": "earthenware-tree",
+            "description": "Explain how deploy/tree.json from earthenware-k8s maps Earthenware Computer layout (host C, VM1..VM4 slots) onto Kubern…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
