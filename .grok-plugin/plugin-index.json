@@ -668,6 +668,51 @@
         ]
       }
     },
+    "mangrove-agent": {
+      "sha": "772f4c16790594b7a97dbbf8734bb1f55803e8e0",
+      "version": "0.3.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "mcp__plugin_mangrove-agent_mangrove-agent__execute_swap"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "mangrove-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "connect-kraken",
+            "description": "Use when the user wants to connect their Kraken account to trade through the agent WITHOUT creating or handling an API…"
+          },
+          {
+            "name": "setup-kraken",
+            "description": "Use when the user wants to connect their own Kraken account to the agent - \"set up Kraken\", \"connect my Kraken\", \"trade…"
+          },
+          {
+            "name": "setup-robinhood",
+            "description": "Connect Robinhood as Mangrove Agent's execution venue, inspect the connection and strategy routing, and explain setup o…"
+          },
+          {
+            "name": "trading-bot",
+            "description": "Use when the user asks what the trading agent can do, how to use it, or how risk controls work. The mangrove-agent oper…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
