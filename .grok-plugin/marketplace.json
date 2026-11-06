@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "logospell",
+      "description": "AI image generation for your agent (MCP server). One call returns an image, character, illustration or concept set, or logo variations, all but illustration sets on a solid color or transparent; every set can be edited or exported for the web, iOS, Android and Flutter.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/logospell/logospell-mcp-server.git",
+        "sha": "a4674e44ea69fb18a5a254d2f7badfbcc9d0b84e"
+      },
+      "homepage": "https://logospell.com",
+      "keywords": ["logospell", "logospell mcp", "logospell image set", "logospell character set", "logospell illustration set", "logospell concept set", "logospell logo variations"],
+      "domains": ["logospell.com", "mcp.logospell.com"]
     }
   ]
 }
