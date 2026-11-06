@@ -1148,6 +1148,24 @@
         ]
       }
     },
+    "quantplay": {
+      "sha": "f704edd1d8d416e4e43b7e6e1f2ad331ffdc071c",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "quantplay",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "quantplay",
+            "description": "Read a user's Indian broker accounts through Quantplay: positions, holdings, orders, margins, P&L history, option chain…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
