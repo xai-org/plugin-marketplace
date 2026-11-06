@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "serpapi",
+      "description": "Multi-engine search via SerpApi's hosted MCP server. One search tool spans 130+ engines \u2014 Google (web, images, news, shopping, maps/local, finance, flights, hotels, jobs, scholar), Bing, Yahoo, Yandex, Baidu, Naver, DuckDuckGo, YouTube, eBay, Amazon, Walmart, and more. Returns structured JSON (prices, ratings, addresses, knowledge graph data), not just links and snippets. A dedicated extract tool reads web pages via the Extract API: scrape a URL to Markdown or structured JSON, map a site's URLs, or crawl several pages. The serpapi CLI is available as an optional fallback.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/serpapi/serpapi-grok-plugin.git",
+        "sha": "6c1bd456334d2a33ae3f9e5b682cbb69e77b6067"
+      },
+      "homepage": "https://github.com/serpapi/serpapi-grok-plugin",
+      "keywords": ["serpapi", "serp api"],
+      "domains": ["serpapi.com"]
     }
   ]
 }
