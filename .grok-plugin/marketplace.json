@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "neatlisting",
+      "description": "Manage Google Business Profiles (Google My Business) from Grok Build through NeatListing's hosted MCP server: hours, holiday hours, posts, photos, review replies, booking links, menus and performance, with one tool per profile setting, warnings before high-risk edits and a change log. Sign in with Google on first use; no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/neatlisting/neatlisting.git",
+        "sha": "a818406a94b203ddab24ee5644cb37883e7a1dde",
+        "path": "plugin"
+      },
+      "homepage": "https://neatlisting.com/setup",
+      "keywords": ["neatlisting", "neatlisting mcp"],
+      "domains": ["neatlisting.com", "app.neatlisting.com"]
     }
   ]
 }
