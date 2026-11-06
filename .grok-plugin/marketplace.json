@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "grokbot-discord-fleet",
+      "description": "One Discord fleet MCP server (discord-fleet) plus skills for Grok Build. Check bot health, guilds, channels and an optional self-hosted bridge, read channel history, and run confirm-gated Discord post and moderation actions with your own Discord bot token. Optional read-only mode hides the write tools. Does not include the wake bridge.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet.git",
+        "sha": "bc1f7c21e1ff16a710bb01de66b9318efa933815"
+      },
+      "homepage": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet",
+      "keywords": ["grokbot-discord-fleet", "grokbot discord fleet", "grok bot discord fleet"]
     }
   ]
 }
