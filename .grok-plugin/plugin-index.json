@@ -75,6 +75,22 @@
         ]
       }
     },
+    "blindpay": {
+      "sha": "d3553d57ac1584c8646dd4a8d87a610ff82b81f1",
+      "version": "1.10.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "blindpay",
+            "description": "http"
+          },
+          {
+            "name": "blindpay-readonly",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
