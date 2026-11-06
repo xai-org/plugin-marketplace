@@ -110,6 +110,28 @@
         ]
       }
     },
+    "canopy": {
+      "sha": "7aecbb52f470b785a4960eabc898591acdc34ec7",
+      "version": "2.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "canopy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "amazon-price-and-deals",
+            "description": "Look up live Amazon prices, Buy Box offers, coupons, and current deals with the Canopy MCP server. Use when the user as…"
+          },
+          {
+            "name": "amazon-product-research",
+            "description": "Research live Amazon listings with the Canopy MCP server, including product search, product details, variants, stock an…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",
