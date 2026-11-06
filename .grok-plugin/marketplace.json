@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "add-domain-websites",
+      "description": "Business Websites by Add Domain. Build and launch a small-business website from the first brief: working enquiry, booking-request or order paths, phone-first responsive design, truthful content, search and share previews, optional own-domain launch step with read-only availability checks, and an owner handover. Skills only: no hooks, scripts or MCP servers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vitaliiphangan-code/add-domain-website-skills.git",
+        "sha": "dcd548648e95f2ce9ea752ba7ac2f318777f4008"
+      },
+      "homepage": "https://github.com/vitaliiphangan-code/add-domain-website-skills",
+      "keywords": ["add domain", "adddomain", "add domain websites", "business websites by add domain"],
+      "domains": ["adddomain.net", "www.adddomain.net"],
+      "version": "1.1.1",
+      "author": {
+        "name": "Add Domain",
+        "url": "https://www.adddomain.net/about"
+      }
     }
   ]
 }
