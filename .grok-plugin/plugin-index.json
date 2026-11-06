@@ -246,6 +246,18 @@
         ]
       }
     },
+    "cloudcrane": {
+      "sha": "53dcebaaa5d84c03026b8f703d74b4456f2ac1b4",
+      "version": "2.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cloudcrane",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
       "version": "1.0.4",
