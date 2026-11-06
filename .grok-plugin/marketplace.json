@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postel",
+      "description": "Postel's hosted MCP server and writing skill: find posts that went viral in your niche, write your version in your own voice, and save, schedule or publish it to X, LinkedIn, Bluesky and Mastodon after you approve. OAuth sign-in to your Postel account; research works without one.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/robinfaraj/postel-mcp.git",
+        "sha": "adaa9363ffbaf6b74a5a11e15f88acb0392d6406"
+      },
+      "homepage": "https://www.postel.app/postel-mcp-server?utm_source=grok-build&utm_medium=listing&utm_campaign=agent-distribution",
+      "keywords": ["postel", "postel.app"],
+      "domains": ["postel.app", "www.postel.app"]
     }
   ]
 }
