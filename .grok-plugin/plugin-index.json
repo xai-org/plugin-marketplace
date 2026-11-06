@@ -668,6 +668,36 @@
         ]
       }
     },
+    "makernice": {
+      "sha": "5544ed7376cc314e910eb085656c63ab2c52b189",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "makernice",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cost-planner",
+            "description": "Plan which Makernice models, resolutions and durations fit a budget before generating anything. Use when the user gives…"
+          },
+          {
+            "name": "makernice-setup",
+            "description": "First-run guide for the Makernice video and image tools. Use when the user has just connected Makernice, asks how it wo…"
+          },
+          {
+            "name": "product-video",
+            "description": "Plan and generate short product and e-commerce videos with Makernice, such as product showcases, ad clips and marketpla…"
+          },
+          {
+            "name": "trend-remix",
+            "description": "Turn the user's photos into a video using a Makernice trend template, a preset effect with a fixed model, motion and le…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",

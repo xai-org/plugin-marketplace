@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "makernice",
+      "description": "Generate AI videos and images with 17 models; every job is priced in USD before it runs.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/makernice/makernice-plugin.git",
+        "sha": "5544ed7376cc314e910eb085656c63ab2c52b189"
+      },
+      "homepage": "https://makernice.com/mcp/",
+      "keywords": ["makernice"],
+      "domains": ["makernice.com"]
     }
   ]
 }
