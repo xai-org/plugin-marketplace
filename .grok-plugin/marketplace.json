@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "revnu",
+      "description": "Official Revnu plugin (MCP server + skills). Revnu is an AI growth agent: find customers and leads, run cold email, LinkedIn outreach and ads, get found in Google and AI answers, and report results, from Grok. Sends, spend and publishing follow the account's approval settings.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/revnu-app/revnu-plugin.git",
+        "sha": "1bcc5f95c3dcf6094f6213d68315c8430739bdad"
+      },
+      "homepage": "https://revnu.com/mcp",
+      "keywords": ["revnu", "revnu growth agent", "revnu mcp"],
+      "domains": ["revnu.com"]
     }
   ]
 }

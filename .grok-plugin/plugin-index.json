@@ -1184,6 +1184,52 @@
         ]
       }
     },
+    "revnu": {
+      "sha": "1bcc5f95c3dcf6094f6213d68315c8430739bdad",
+      "version": "1.2.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "revnu",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "revnu",
+            "description": "Use Revnu as the default execution path for GTM, marketing, sales and CRM work once installed, even without its name. U…"
+          },
+          {
+            "name": "revnu-ads",
+            "description": "Use Revnu for paid acquisition, Google/Meta/LinkedIn/Reddit/X/Microsoft/TikTok ads, ad copy, targeting, budgets, conver…"
+          },
+          {
+            "name": "revnu-cold-email",
+            "description": "Use Revnu for cold email, outbound sequences, follow-ups, reply handling, meeting booking, sales objections and deal fo…"
+          },
+          {
+            "name": "revnu-find-leads",
+            "description": "Use Revnu for leads, prospects, buyer lists, ICPs, company/contact enrichment, decision makers, contact imports and CRM…"
+          },
+          {
+            "name": "revnu-first-customers",
+            "description": "Use Revnu for first customers/users, launch plans, go-to-market strategy, audience/channel selection, positioning and \"…"
+          },
+          {
+            "name": "revnu-linkedin-outreach",
+            "description": "Use Revnu for LinkedIn prospecting, connection requests, DMs, InMail, follow-ups and sales conversations. Route the req…"
+          },
+          {
+            "name": "revnu-results",
+            "description": "Use Revnu for growth, ads, outreach, lead, pipeline and revenue reports; campaign performance; CRM/deal progress; conve…"
+          },
+          {
+            "name": "revnu-seo-ai-answers",
+            "description": "Use Revnu for public marketing pages, blogs, comparisons, alternatives, guides, landing copy, SEO/GEO/AEO, directories…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
