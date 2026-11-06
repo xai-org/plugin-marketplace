@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "listar",
+      "description": "Listar B2B contact data. Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/listar-app/claude-plugin.git",
+        "sha": "7ce82384ff60d2b826e84f2dacefc85017465c9f"
+      },
+      "homepage": "https://listar.fr/en/claude-code-plugin",
+      "keywords": ["listar", "listar b2b", "listar contacts", "listar mcp"],
+      "domains": ["listar.fr", "api.listar.fr"],
+      "author": {
+        "name": "Listar SAS",
+        "email": "alexandre@listar-app.com",
+        "url": "https://listar.fr"
+      }
     }
   ]
 }
