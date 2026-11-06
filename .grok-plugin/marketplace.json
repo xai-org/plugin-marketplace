@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "corpusiq",
+      "description": "AI intelligence layer for business data. Ask one question in plain English across the business systems you have connected and get an answer that cites the source record behind every number.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/corpusiq"
+      },
+      "homepage": "https://www.corpusiq.io",
+      "keywords": ["corpusiq", "corpusiq mcp", "business data", "business intelligence", "cross-system reporting"],
+      "domains": ["corpusiq.io", "www.corpusiq.io", "mcp2.corpusiq.io"],
+      "version": "1.0.0",
+      "author": {
+        "name": "CorpusIQ",
+        "url": "https://www.corpusiq.io"
+      }
     }
   ]
 }
