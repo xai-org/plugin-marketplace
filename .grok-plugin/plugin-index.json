@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "001b3a883fddd8170003aa12c236205fb9eecad6",
-      "version": "1.1.2",
+      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -17,24 +17,32 @@
             "description": "Create and manage Axiom monitors and notifiers via the v2 public API. Use when building alerting, routing notifications…"
           },
           {
-            "name": "axiom-sre",
-            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
-          },
-          {
-            "name": "building-dashboards",
+            "name": "axiom-build-dashboard",
             "description": "Designs and builds Axiom dashboards via API. Covers chart types, APL and metrics/MPL query patterns, SmartFilters, layo…"
           },
           {
-            "name": "controlling-costs",
+            "name": "axiom-control-costs",
             "description": "Analyzes Axiom query patterns to find unused data, then builds dashboards and monitors for cost optimization. Use when…"
           },
           {
-            "name": "metrics-chart",
+            "name": "axiom-create-org",
+            "description": "Provision a temporary Axiom organization with one unauthenticated API call, store its one-time token securely, and hand…"
+          },
+          {
+            "name": "axiom-ingest",
+            "description": "Send data to Axiom. Picks an org from ~/.axiom.toml, or provisions a temporary one when none is configured, creates the…"
+          },
+          {
+            "name": "axiom-metrics-chart",
             "description": "Render saved Axiom metrics v2 or v3 JSON as line charts in a terminal or transcript. Uses Unicode/ASCII by default and…"
           },
           {
-            "name": "spl-to-apl",
+            "name": "axiom-spl-to-apl",
             "description": "Translates Splunk SPL queries to Axiom APL. Provides command mappings, function equivalents, and syntax transformations…"
+          },
+          {
+            "name": "axiom-sre",
+            "description": "Expert SRE investigator for incidents and debugging. Uses hypothesis-driven methodology and systematic triage. Can quer…"
           }
         ]
       }
@@ -81,18 +89,6 @@
           {
             "name": "browser-use",
             "description": "Browser Use — direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/…"
-          }
-        ]
-      }
-    },
-    "bruin": {
-      "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7",
-      "version": "1.1.0",
-      "components": {
-        "skills": [
-          {
-            "name": "bruin-api-integration",
-            "description": "Help a client build, debug, or extend an integration with the Bruin Public API, MetTel's REST API for tickets, inventor…"
           }
         ]
       }
@@ -251,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081",
-      "version": "1.0.2",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
@@ -268,6 +264,10 @@
           {
             "name": "basin",
             "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for…"
+          },
+          {
+            "name": "cf-cli",
+            "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Clo…"
           },
           {
             "name": "cloudflare",
@@ -288,6 +288,10 @@
           {
             "name": "durable-objects",
             "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination."
+          },
+          {
+            "name": "gateway-workers",
+            "description": "Build, debug, or review Cloudflare Workers invoked by the Forward action in Gateway HTTP policies, including the Gatewa…"
           },
           {
             "name": "k2",
@@ -327,7 +331,7 @@
           },
           {
             "name": "wrangler",
-            "description": "Run or troubleshoot Wrangler CLI commands and configure Worker projects for local development, Previews, deployment, an…"
+            "description": "Run or troubleshoot Wrangler CLI commands in projects that have a wrangler.jsonc, wrangler.json, or wrangler.toml file,…"
           }
         ]
       }
@@ -378,9 +382,115 @@
         ]
       }
     },
+    "expo": {
+      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+      "version": "1.14.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "expo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "eas-app-stores",
+            "description": "Build and submit iOS and Android apps with EAS to TestFlight, the App Store, or Google Play. Supports Expo and other Re…"
+          },
+          {
+            "name": "eas-hosting",
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+          },
+          {
+            "name": "eas-observe",
+            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, mar…"
+          },
+          {
+            "name": "eas-simulator",
+            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+          },
+          {
+            "name": "eas-update",
+            "description": "Configure and use EAS Update for over-the-air JavaScript and asset updates with expo-updates and EAS CLI. Use when sett…"
+          },
+          {
+            "name": "eas-update-insights",
+            "description": "Check the health of published EAS Update: crash rates, install/launch counts, unique users, payload size, and the split…"
+          },
+          {
+            "name": "eas-workflows",
+            "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or…"
+          },
+          {
+            "name": "expo-animation",
+            "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right —…"
+          },
+          {
+            "name": "expo-app-clip",
+            "description": "Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appcl…"
+          },
+          {
+            "name": "expo-brownfield",
+            "description": "Integrate Expo and React Native into an existing native iOS or Android app. Use for brownfield, embedding a React Nativ…"
+          },
+          {
+            "name": "expo-data-fetching",
+            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+          },
+          {
+            "name": "expo-design-system",
+            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+          },
+          {
+            "name": "expo-dev-client",
+            "description": "Build and distribute Expo development clients locally or via TestFlight for internal testing. For production TestFlight…"
+          },
+          {
+            "name": "expo-dom",
+            "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incremental…"
+          },
+          {
+            "name": "expo-examples",
+            "description": "Expo's official example projects - the expo/examples repo of ~70 `with-*` integrations (Stripe, Clerk, Supabase, OpenAI…"
+          },
+          {
+            "name": "expo-module",
+            "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Co…"
+          },
+          {
+            "name": "expo-native-ui",
+            "description": "Build beautiful, native-feeling Expo screens. Covers Apple HIG styling, semantic colors, native controls, SF Symbols, m…"
+          },
+          {
+            "name": "expo-overview",
+            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+          },
+          {
+            "name": "expo-project-structure",
+            "description": "Folder structure for a new Expo app. Use when scaffolding or laying out a new Expo project with Expo Router, or decidin…"
+          },
+          {
+            "name": "expo-router",
+            "description": "Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link…"
+          },
+          {
+            "name": "expo-ui",
+            "description": "Build native UI with the @expo/ui package: real SwiftUI on iOS and Jetpack Compose on Android. Default to @expo/ui for…"
+          },
+          {
+            "name": "expo-upgrade",
+            "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
+          },
+          {
+            "name": "expo-web-to-native",
+            "description": "Migrate an existing web React app to a native iOS/Android app with Expo. Use when the user wants to turn a website into…"
+          }
+        ]
+      }
+    },
     "figma": {
-      "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179",
-      "version": "2.2.163",
+      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
+      "version": "2.2.174",
       "components": {
         "mcpServers": [
           {
@@ -559,8 +669,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809",
-      "version": "0.0.195",
+      "sha": "341268561baaff256927c931ec8215dbd30e3cee",
+      "version": "0.0.197",
       "components": {
         "skills": [
           {
@@ -680,8 +790,8 @@
       }
     },
     "netlify": {
-      "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e",
-      "version": "1.7.0",
+      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
+      "version": "1.8.0",
       "components": {
         "mcpServers": [
           {
@@ -724,7 +834,7 @@
           },
           {
             "name": "netlify-edge-functions",
-            "description": "Write and configure Netlify Edge Functions — TypeScript/JavaScript handlers running in a Deno runtime at the network ed…"
+            "description": "Write, route, cache, and debug Netlify Edge Functions, the Deno-based TypeScript or JavaScript handlers in netlify/edge…"
           },
           {
             "name": "netlify-forms",
@@ -740,7 +850,7 @@
           },
           {
             "name": "netlify-identity",
-            "description": "Add user authentication to a Netlify site with @netlify/identity — signup/login/logout, Google/GitHub/GitLab/Bitbucket…"
+            "description": "Add user authentication to a Netlify site with @netlify/identity, covering signup/login/logout, Google/GitHub/GitLab/Bi…"
           },
           {
             "name": "netlify-image-cdn",
@@ -821,8 +931,8 @@
       }
     },
     "pstack": {
-      "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
-      "version": "0.15.30",
+      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+      "version": "0.15.36",
       "components": {
         "agents": [
           {
@@ -892,6 +1002,10 @@
             "description": "Catch the user up on what changed in this chat since their last message, in plain words and small visuals. List every i…"
           },
           {
+            "name": "ketchup-video",
+            "description": "Catch the user up like /ketchup, with a short subtitled video of slides for what happened and the waiting calls as text…"
+          },
+          {
             "name": "maintain-formal-verification-skill",
             "description": "Bring a project's formal verification back in line with the code after the code changes: find the commits that touched…"
           },
@@ -941,7 +1055,7 @@
           },
           {
             "name": "principle-explain-the-number",
-            "description": "Apply before you trust, report, or act on a number you measured: a speedup, a regression, a throughput, a latency, or a…"
+            "description": "Apply before you measure, and before you trust, report, or act on a number you measured: a speedup, a regression, a thr…"
           },
           {
             "name": "principle-fix-root-causes",
@@ -1030,10 +1144,6 @@
           {
             "name": "show-me-your-work",
             "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
-          },
-          {
-            "name": "statechart",
-            "description": "Draw what an app's user sees as a Mermaid statechart from a TLA+ model. States are gray if they work, red if still wron…"
           }
         ]
       }
@@ -1139,8 +1249,8 @@
       }
     },
     "stripe": {
-      "sha": "8a8818e856376003701bb0d4a569c26bacac1d0e",
-      "version": "0.9.27",
+      "sha": "7882018f33773950265a9613d12e963853cfb526",
+      "version": "0.9.40",
       "components": {
         "agents": [
           {
@@ -1231,8 +1341,8 @@
       }
     },
     "superpowers": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "version": "7.0.1",
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "version": "7.0.2",
       "components": {
         "hooks": [
           {
@@ -1351,8 +1461,8 @@
       }
     },
     "tinyfish": {
-      "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
-      "version": "1.1.1",
+      "sha": "576b285dddc33b56fd11ce304570645735500660",
+      "version": "2.0.0",
       "components": {
         "mcpServers": [
           {
@@ -1374,23 +1484,27 @@
             "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
           },
           {
+            "name": "tinyfish-datasets",
+            "description": "Build a table of many entities found on the web with TinyFish Datasets — companies, products, places, people — each row…"
+          },
+          {
             "name": "tinyfish-monitor",
             "description": "Watch a web page or a web topic over time with TinyFish Monitors. Use when the user wants to track, watch, or be alerte…"
           },
           {
-            "name": "tinyfish-research",
-            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+            "name": "tinyfish-web",
+            "description": "Choose between reading the web for free and acting on it at a cost with TinyFish. Use when a web task may need interact…"
           },
           {
-            "name": "tinyfish-web",
-            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+            "name": "tinyfish-websearch",
+            "description": "Free web search and page reading with TinyFish search and fetch_content. Use for any question needing current web infor…"
           }
         ]
       }
     },
     "unity": {
-      "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
-      "version": "0.1.8-beta",
+      "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
+      "version": "0.1.9-beta",
       "components": {
         "skills": [
           {
@@ -1399,7 +1513,7 @@
           },
           {
             "name": "asset-transformer-toolkit",
-            "description": "Imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, edits, and runs RuleSe…"
+            "description": "In the Unity Editor, imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, e…"
           },
           {
             "name": "audio-setup-mixers",
@@ -1411,7 +1525,19 @@
           },
           {
             "name": "build-live-game",
-            "description": "Builds and operates live games with Unity Services. Use when the user asks about backend or live-ops features such as p…"
+            "description": "Builds and operates a live game's backend with Unity Gaming Services. Make sure to use this skill when the user wants t…"
+          },
+          {
+            "name": "craft-game-floors",
+            "description": "Makes a Unity game look and feel finished: art style, lighting, juice, sound, menus, saves and look scoring. Use when b…"
+          },
+          {
+            "name": "create-2d-physics",
+            "description": "Creates and fixes Unity 2D physics in both systems, 2D Physics Core and the legacy Rigidbody 2D system. Use when the us…"
+          },
+          {
+            "name": "create-tile-palette-or-rule-tiles",
+            "description": "Create a 2D tile palette from sprites or textures, or make tiles change based on their neighbours. Use for tile palette…"
           },
           {
             "name": "generate-editor-search-query",
@@ -1455,7 +1581,7 @@
           },
           {
             "name": "optimize-web",
-            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads and faster load. Use when a web build is too large or stu…"
+            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads, faster loading, and smoother browser performance. Use wh…"
           },
           {
             "name": "physics-3d-collision",
@@ -1482,18 +1608,6 @@
             "description": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the…"
           },
           {
-            "name": "tilemap-palette-create",
-            "description": "Creates a Tile Palette asset with a rectangular, hexagonal, or isometric Grid layout. Use when the user wants to organi…"
-          },
-          {
-            "name": "tilemap-ruletile-createempty",
-            "description": "Creates an empty RuleTile, HexagonalRuleTile, or IsometricRuleTile asset. Use only when the user wants a blank RuleTile…"
-          },
-          {
-            "name": "tilemap-ruletile-createfromsegment",
-            "description": "Creates RuleTiles from existing terrain or edge sprites so tiles auto-tile while painting, and converts sprite-segment-…"
-          },
-          {
             "name": "ui",
             "description": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.…"
           },
@@ -1515,7 +1629,7 @@
           },
           {
             "name": "unity-package-management",
-            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor. Use for headless or CI package ins…"
+            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor, with the Pipeline package commands…"
           },
           {
             "name": "urp-postprocessing",
@@ -1773,8 +1887,8 @@
       }
     },
     "wix": {
-      "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e",
-      "version": "1.33.1",
+      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
+      "version": "1.41.0",
       "components": {
         "mcpServers": [
           {
@@ -1784,16 +1898,16 @@
         ],
         "skills": [
           {
-            "name": "replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next workflow step by inspecting migration project artifacts. Use whe…"
-          },
-          {
             "name": "wix-app",
             "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Edito…"
           },
           {
             "name": "wix-base44-connector",
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
+          },
+          {
+            "name": "wix-create-studio-two-site",
+            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
           },
           {
             "name": "wix-design-system",
@@ -1805,11 +1919,15 @@
           },
           {
             "name": "wix-export",
-            "description": "Export a Wix Studio 2 site, or create a new one, with the origami CLI, each in its own local folder, then continue stra…"
+            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
+          },
+          {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
           },
           {
             "name": "wix-headless",
-            "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer…"
+            "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
           {
             "name": "wix-headless-cold-start",
@@ -1820,20 +1938,32 @@
             "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
           },
           {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
+          },
+          {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
           },
           {
             "name": "wix-import",
-            "description": "Import local site code into an existing or new Wix Studio 2 site with the origami CLI. Works from an exported Origami s…"
+            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
-            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, payments, CMS, and more. Open…"
+            "description": "REST recipes to configure and manage a Wix site's business solutions — stores, bookings, donations, payments, CMS, and…"
+          },
+          {
+            "name": "wix-readme",
+            "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
+          },
+          {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
           },
           {
             "name": "wix-vibe-headless",
-            "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vi…"
+            "description": "Connect an existing front end to a live Wix site using client-only REST and its public WIX_CLIENT_ID, without an SDK or…"
           }
         ]
       }
