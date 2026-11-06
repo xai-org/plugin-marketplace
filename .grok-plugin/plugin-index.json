@@ -110,6 +110,36 @@
         ]
       }
     },
+    "catalogue-app": {
+      "sha": "ca90c1159e427ee7ec47764016d3a195a371d116",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "catalogue-app",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "telegram-bot-api",
+            "description": "Knowledge base and toolset for writing Telegram bots and Mini Apps against the Bot API — managed bots, webhooks, Telegr…"
+          },
+          {
+            "name": "telegram-bot-builder",
+            "description": "Create a Telegram bot for the user in one click with Catalogue App (@catalogue_app) — no @BotFather, no token, no serve…"
+          },
+          {
+            "name": "telegram-packs",
+            "description": "Find or make Telegram custom emoji and sticker packs with Catalogue App (@catalogue_app). Use when the user wants emoji…"
+          },
+          {
+            "name": "telegram-search",
+            "description": "Search Telegram entities — mini apps, bots, channels, group chats, emoji and sticker packs — in the Catalogue App datab…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",
