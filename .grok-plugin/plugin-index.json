@@ -489,8 +489,8 @@
       }
     },
     "fairvalid": {
-      "sha": "b360f0ba53db724a0c4300f5f22970a3d7d80208",
-      "version": "1.0.0",
+      "sha": "f5f04f4354a5c2fe075728f0d664b90d8848640d",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -502,6 +502,10 @@
           {
             "name": "email-verification",
             "description": "Verify user-provided email addresses with FairValid, inspect existing verification jobs, explain results, or check Fair…"
+          },
+          {
+            "name": "fairmatch-leads",
+            "description": "Use FairMatch by FairValid to discover business leads, inspect supported filters, quote selected leads, unlock verified…"
           }
         ]
       }

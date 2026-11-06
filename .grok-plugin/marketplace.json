@@ -490,17 +490,19 @@
     },
     {
       "name": "fairvalid",
-      "description": "FairValid email verification. Submit authorized checks, monitor asynchronous jobs, read results and inspect workspace credits through the hosted OAuth MCP service.",
+      "description": "FairValid email verification and FairMatch lead discovery. Check verification jobs, quote selected leads, unlock verified work emails with explicit credit-limit approval, and inspect workspace credits through hosted OAuth MCP.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/moonlitnayeem/fairvalid-ai.git",
-        "sha": "b360f0ba53db724a0c4300f5f22970a3d7d80208"
+        "sha": "f5f04f4354a5c2fe075728f0d664b90d8848640d"
       },
       "homepage": "https://fairvalid.com/help/mcp",
       "keywords": [
         "fairvalid",
-        "fairvalid email verification"
+        "fairvalid email verification",
+        "fairmatch",
+        "fairvalid fairmatch"
       ],
       "domains": [
         "fairvalid.com",
