@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "termalin",
+      "description": "Termalin: SSH, SFTP, databases and monitoring for your own Linux servers through the hosted Termalin MCP server. Run commands and background jobs, read and write files, query databases, read metrics and alerts on the servers you connected, without handing an SSH key to the agent. Sign in with your Termalin account on first connect.",
+      "category": "devops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/termalinapp/termalin-plugin.git",
+        "sha": "030ba76459ff545bf3c00eeec9029529974cceb8"
+      },
+      "homepage": "https://termal.in/mcp/",
+      "keywords": ["termalin", "termal.in", "termalin ssh", "termalin mcp"],
+      "domains": ["termal.in"]
     }
   ]
 }
