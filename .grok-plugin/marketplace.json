@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "internet-outage-checker",
+      "description": "Check whether a UK broadband provider is down and where, plus its outages over the last 30 days, from FindBroadband's outage tracker. Hosted MCP server, no account or API key needed.",
+      "category": "monitoring",
+      "source": { "type": "local", "path": "./external_plugins/internet-outage-checker" },
+      "homepage": "https://www.findbroadbanddeals.com/ai-assistants",
+      "keywords": ["broadband outage", "internet down", "is my broadband down", "uk broadband", "findbroadband"],
+      "domains": ["findbroadbanddeals.com", "www.findbroadbanddeals.com"]
+    },
+    {
+      "name": "findbroadband-deals",
+      "description": "Compare the UK broadband deals available at an exact address, priced on their true whole-contract cost, and check whether a bill or renewal quote is too high. Hosted MCP server, no account or API key needed.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/findbroadband-deals" },
+      "homepage": "https://www.findbroadbanddeals.com/ai-assistants",
+      "keywords": ["broadband deals", "compare broadband", "uk broadband", "am i overpaying", "findbroadband"],
+      "domains": ["findbroadbanddeals.com", "www.findbroadbanddeals.com"]
     }
   ]
 }
