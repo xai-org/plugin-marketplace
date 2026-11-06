@@ -668,6 +668,28 @@
         ]
       }
     },
+    "listar": {
+      "sha": "7ce82384ff60d2b826e84f2dacefc85017465c9f",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "listar",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "enrich-csv",
+            "description": "Enrich a local CSV or spreadsheet of people or companies with Listar, writing the professional phone, email and decisio…"
+          },
+          {
+            "name": "get-started",
+            "description": "How to use Listar to find the decision makers of a company, the people who hold a role (including who just took the job…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
