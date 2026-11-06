@@ -1,6 +1,26 @@
 {
   "version": 1,
   "plugins": {
+    "agent-blueprint": {
+      "sha": "ec6742ab31977913e1c6b830348b9c2da9bdbb70",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "agent-cost-estimate",
+            "description": "Estimate the tokens and dollar cost of an AI agent task or recurring agent job, using measured runs of ten everyday job…"
+          },
+          {
+            "name": "agent-one-page",
+            "description": "Write a one-page summary of an AI agent for a boss, security reviewer or finance approver, covering what it may do and…"
+          },
+          {
+            "name": "draw-my-agent",
+            "description": "Draw a one-page picture of what this agent can read and change, connection by connection, with who has to approve, its…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
