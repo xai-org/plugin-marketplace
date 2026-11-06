@@ -110,6 +110,92 @@
         ]
       }
     },
+    "catalogue-app": {
+      "sha": "398b47be29bb4ccfbe02d0ffe4cbe865316187a1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "catalogue-app",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "telegram-account-security",
+            "description": "Secure a Telegram account — two-step verification password, log out of all other devices, see active sessions, what to…"
+          },
+          {
+            "name": "telegram-bot-api",
+            "description": "Knowledge base and toolset for writing Telegram bots and Mini Apps against the Bot API — managed bots, webhooks, Telegr…"
+          },
+          {
+            "name": "telegram-bot-api-updates",
+            "description": "Recent Telegram Bot API changes (versions 9.x–10.x, 2025–2026) that older code samples and models miss — managed bots,…"
+          },
+          {
+            "name": "telegram-bot-builder",
+            "description": "Create a Telegram bot for the user in one click with Catalogue App (@catalogue_app) — no @BotFather, no token, no serve…"
+          },
+          {
+            "name": "telegram-channel-analytics",
+            "description": "Telegram channel and group statistics — subscribers and their growth chart, joins and leaves, views and reactions on re…"
+          },
+          {
+            "name": "telegram-channel-posting",
+            "description": "Post to a Telegram channel with URL buttons, schedule posts, and set up autoposting from RSS, YouTube or another public…"
+          },
+          {
+            "name": "telegram-emoji-art",
+            "description": "Make Telegram emoji art — split a picture, logo, GIF, video or video message into a grid of custom emoji that together…"
+          },
+          {
+            "name": "telegram-formatting",
+            "description": "Format text in Telegram — bold, italic, strikethrough, underline, spoiler (hidden text), monospace code, quotes and lin…"
+          },
+          {
+            "name": "telegram-group-moderation",
+            "description": "Moderate a Telegram group or channel for free with @catalogue_app — delete service messages (\"joined\", \"left\", \"pinned\"…"
+          },
+          {
+            "name": "telegram-id",
+            "description": "Find a Telegram ID — the user's own numeric Telegram user ID, or the ID of a public channel, group or bot — with Catalo…"
+          },
+          {
+            "name": "telegram-packs",
+            "description": "Find or make Telegram custom emoji and sticker packs with Catalogue App (@catalogue_app). Use when the user wants emoji…"
+          },
+          {
+            "name": "telegram-privacy",
+            "description": "Telegram privacy settings — hide your phone number, last seen and online status (\"был недавно\"), profile photo, who can…"
+          },
+          {
+            "name": "telegram-save-media",
+            "description": "Save photos, videos, files, voice and video messages (circles, \"кружки\") from Telegram to the phone or computer, export…"
+          },
+          {
+            "name": "telegram-search",
+            "description": "Search Telegram entities — mini apps, bots, channels, group chats, emoji and sticker packs — in the Catalogue App datab…"
+          },
+          {
+            "name": "telegram-secretary",
+            "description": "Telegram secretary for a personal account via @catalogue_app — see messages someone deleted or edited in your private c…"
+          },
+          {
+            "name": "telegram-stars-gifts",
+            "description": "Telegram Stars, Premium and gifts — how to buy Stars, gift Premium, send, convert or sell gifts, upgrade a gift to a co…"
+          },
+          {
+            "name": "telegram-whats-new",
+            "description": "What changed in Telegram in 2025–2026 — features an assistant trained earlier may not know: gift marketplace, offers, a…"
+          },
+          {
+            "name": "telegram-widgets",
+            "description": "Send interactive Catalogue App widgets into any Telegram chat — profile card, wallet, weather, Gram price, channel anal…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",
