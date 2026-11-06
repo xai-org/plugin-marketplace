@@ -1460,6 +1460,40 @@
         ]
       }
     },
+    "termalin": {
+      "sha": "030ba76459ff545bf3c00eeec9029529974cceb8",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "termalin",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "database-access",
+            "description": "Explore and query databases on the user's servers (Postgres, MySQL/MariaDB, Redis, MongoDB, SQLite) through Termalin wi…"
+          },
+          {
+            "name": "deploy-check",
+            "description": "Verify a server after a deployment, update or restart — services up, ports listening, logs clean, site answering, certi…"
+          },
+          {
+            "name": "incident-triage",
+            "description": "Work through a server alert or outage step by step — disk full, high load, service down, OOM, certificate expiring, ser…"
+          },
+          {
+            "name": "run-commands",
+            "description": "Run shell commands and edit files on the user's servers through Termalin safely. Use whenever a task needs ssh_exec, ss…"
+          },
+          {
+            "name": "server-health",
+            "description": "Answer \"how are my servers doing\", \"is everything up\", \"anything wrong with prod\" from Termalin's monitoring data. Use…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
