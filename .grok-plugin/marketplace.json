@@ -494,7 +494,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/geby85/goalz-plugins.git",
-        "sha": "c19a3eda21aa60213cf776c1460fc832117126a7",
+        "sha": "ef120cc2ab84530805347e2e06133a89d19cc024",
         "path": "packages/grok-build"
       },
       "homepage": "https://www.goalz.de/agenten.php",

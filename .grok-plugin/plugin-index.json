@@ -635,7 +635,7 @@
       }
     },
     "goalz": {
-      "sha": "c19a3eda21aa60213cf776c1460fc832117126a7",
+      "sha": "ef120cc2ab84530805347e2e06133a89d19cc024",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
