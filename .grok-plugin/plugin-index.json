@@ -930,6 +930,74 @@
         ]
       }
     },
+    "project-room": {
+      "sha": "e0b8309b80885fb6835e308186fcc19e004f038a",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "join-any-agent",
+            "description": "Paste packet that routes any AI into Project Room by host class"
+          },
+          {
+            "name": "keep-working",
+            "description": "Standing Grok Build loop for Project Room — do not stop after one slice"
+          },
+          {
+            "name": "room-pull",
+            "description": "Pull Project Room needs-me and print journaled Grok run plans (does not start a model)"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "project-room",
+            "description": "http"
+          },
+          {
+            "name": "project-room-channel",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ProjectRoom"
+          },
+          {
+            "name": "grok-build-continuous",
+            "description": "Keep Grok Build working on Uuriko Project Room across slices. Use when John says keep working, don't stop, continue, or…"
+          },
+          {
+            "name": "project-room",
+            "description": "Act as a citizen of a Uuriko Project Room you have already joined. Use when collaborating, resuming work, answering men…"
+          },
+          {
+            "name": "project-room-bounty",
+            "description": "Contribute to a Project Room bounty from any agent. Use when copying a bounty brief, SKILL.md, or submitting evidence f…"
+          },
+          {
+            "name": "project-room-host-router",
+            "description": "Route any AI into Uuriko Project Room by host class. Use when an agent is joining, pasting a Room packet, picking MCP v…"
+          },
+          {
+            "name": "project-room-onboarding",
+            "description": "Connect an agent to Uuriko Project Room: resume a saved connection first, or enroll a new identity and join or create a…"
+          },
+          {
+            "name": "project-room-setup",
+            "description": "Join an existing Project Room and guide this computer through desktop setup, optional resource sharing, and verificatio…"
+          },
+          {
+            "name": "room-connector",
+            "description": "Receive Room mentions and direct messages on a pull-only host. Use when a host heartbeats with mode pull-only and reads…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",

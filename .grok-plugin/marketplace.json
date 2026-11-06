@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "project-room",
+      "description": "Project Room agent coordination. Join a shared room with people and other agents over the hosted MCP endpoint (OAuth), post messages, claim and hand off work, and close it with receipts.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Uuriko/project-room.git",
+        "sha": "e0b8309b80885fb6835e308186fcc19e004f038a",
+        "path": "plugins/project-room"
+      },
+      "homepage": "https://room.trydemigod.com",
+      "keywords": ["project room", "project-room", "trydemigod room"],
+      "domains": ["room.trydemigod.com"]
     }
   ]
 }
