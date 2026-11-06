@@ -774,10 +774,10 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/fitzyracing1/earthenware-plugin.git",
-        "sha": "21975a0f6243b9629f37cd1d8fa238bdc92912ad"
+        "url": "https://github.com/Almeidafly/earthenware-plugin.git",
+        "sha": "fb60f69512ad6f1f9d2a871df2a40c5d7a5a9e60"
       },
-      "homepage": "https://github.com/fitzyracing1/earthenware-plugin",
+      "homepage": "https://github.com/Almeidafly/earthenware-plugin",
       "keywords": [
         "earthenware",
         "earthenware-k8s",
