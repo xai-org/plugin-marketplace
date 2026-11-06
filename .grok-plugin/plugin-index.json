@@ -111,7 +111,7 @@
       }
     },
     "catalogue-app": {
-      "sha": "354c6003b967c67ab5c5f5faf03fb35cf59e3fce",
+      "sha": "6012688379d4cbaf651e1268d0d350865fbc0e7b",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -136,6 +136,10 @@
           {
             "name": "telegram-search",
             "description": "Search Telegram entities — mini apps, bots, channels, group chats, emoji and sticker packs — in the Catalogue App datab…"
+          },
+          {
+            "name": "telegram-widgets",
+            "description": "Send interactive Catalogue App widgets into any Telegram chat — a profile card with the user's Telegram account details…"
           }
         ]
       }
