@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Uptempo/kolpulse-grok-plugin.git",
-        "sha": "d083bf58b35cc22f4d1cc2335af228d3fabc4fcb"
+        "sha": "ceccc01b705d127242a256fd55f0ac41fb8d4d5f"
       },
       "homepage": "https://kolpulse.com",
       "keywords": ["kolpulse", "kol pulse", "kolpulse.com", "kolpulse discovery"],
