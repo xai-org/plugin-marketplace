@@ -1935,6 +1935,56 @@
           }
         ]
       }
+    },
+    "xmemo": {
+      "sha": "0911b308965f310ad95da850de9d5571556b09c0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "xmemo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "xmemo-audit-progress",
+            "description": "Audit implementation or project progress against the approved XMemo plan, last checkpoint, decisions, TODOs, and curren…"
+          },
+          {
+            "name": "xmemo-brainstorm",
+            "description": "Run a structured brainstorm grounded in XMemo goals, constraints, decisions, lessons, and failed approaches. Use for pr…"
+          },
+          {
+            "name": "xmemo-checkpoint",
+            "description": "Preserve a concise XMemo checkpoint after sustained material work, a completed phase, a blocker, an interruption, or a…"
+          },
+          {
+            "name": "xmemo-distill-session",
+            "description": "Turn an important Grok Build conversation or work session into concise, retrieval-ready XMemo outcomes. Use to preserve…"
+          },
+          {
+            "name": "xmemo-handoff-work",
+            "description": "Prepare or receive a professional XMemo handoff between Grok Build sessions and compatible AI agents. Use when switchin…"
+          },
+          {
+            "name": "xmemo-memory-steward",
+            "description": "Coordinate XMemo memory across Grok Build sessions and compatible AI agents. Use when a task mixes recall, durable capt…"
+          },
+          {
+            "name": "xmemo-plan-project",
+            "description": "Design or revise evidence-gated PROJECT_PLAN.md and EXECUTION_PLAN.md artifacts using XMemo context and the live Grok B…"
+          },
+          {
+            "name": "xmemo-resume-work",
+            "description": "Resume a project or unfinished task by recovering XMemo's latest verified checkpoint, relevant decisions, TODOs, blocke…"
+          },
+          {
+            "name": "xmemo-review-plan",
+            "description": "Review an architecture, implementation, launch, or agent-produced plan against XMemo goals, settled decisions, constrai…"
+          }
+        ]
+      }
     }
   }
 }
