@@ -1502,6 +1502,24 @@
         ]
       }
     },
+    "unitpost": {
+      "sha": "4d5d1edba0a98b655af1337bbb2bc4a9cf9161f9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "unitpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "unitpost",
+            "description": "Use when sending transactional or marketing email; sending SMS text messages (consent, senders, country reach, sms_send…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",
