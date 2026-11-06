@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "host0",
+      "description": "Publish files, sites and apps with a shared database to a link you can share, and manage them from your agent.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/host0-ai/skills.git",
+        "sha": "8edcdda0ed904bc133c674b0f96a310f928dd868"
+      },
+      "homepage": "https://host0.ai",
+      "keywords": ["host0", "host0.ai", "host0.app"],
+      "domains": ["host0.ai", "host0.app", "mcp.host0.ai"]
     }
   ]
 }

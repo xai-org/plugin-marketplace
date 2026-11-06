@@ -646,6 +646,23 @@
         ]
       }
     },
+    "host0": {
+      "sha": "8edcdda0ed904bc133c674b0f96a310f928dd868",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "host0",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "host0",
+            "description": "host0 lets agents publish websites and apps to live URLs in seconds. Publish a folder and get a live URL at {slug}.host…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",
