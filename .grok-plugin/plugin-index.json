@@ -1184,6 +1184,152 @@
         ]
       }
     },
+    "runware": {
+      "sha": "d325002f8ff0504040f7b46b1a058cb9d6ed7769",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "runware",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-audio-to-video",
+            "description": "Add sound to a silent video - sound effects, narration, or a music bed. Use when the user says \"this clip has no audio\"…"
+          },
+          {
+            "name": "animate-image",
+            "description": "Turn a still image into motion. Use when the user says \"animate this photo\", \"make this picture move\", \"bring this illu…"
+          },
+          {
+            "name": "bring-your-own-model",
+            "description": "Upload and use your own LoRA or checkpoint on Runware. Use when the user says \"import my LoRA\", \"upload my checkpoint\",…"
+          },
+          {
+            "name": "character-consistency",
+            "description": "Keep the same character, person, or product looking identical across new scenes, poses, outfits, and styles. Use when t…"
+          },
+          {
+            "name": "cinematic-video",
+            "description": "Make video that looks shot, not generated, with deliberate framing, lens, camera motion, lighting, and color grade. Use…"
+          },
+          {
+            "name": "composite-scene",
+            "description": "Merge several real images into one coherent picture without manual cut-out or masking. Use when the user says \"put this…"
+          },
+          {
+            "name": "controlled-generation",
+            "description": "Lock the composition of a generated image to a structural guide while you change everything else. Use when the user say…"
+          },
+          {
+            "name": "dialogue-audio",
+            "description": "Generate a two-speaker conversation as a single audio file. Use when the user says \"make a podcast snippet\", \"two peopl…"
+          },
+          {
+            "name": "edit-image",
+            "description": "Modify an image the user already has, by instruction or by mask. Use when the user says \"remove the person/wires/waterm…"
+          },
+          {
+            "name": "edit-video",
+            "description": "Restyle or relight an existing video, changing the whole frame's look while the motion carries. Use when the user says…"
+          },
+          {
+            "name": "game-assets-2d",
+            "description": "Generate 2D game art that stays visually consistent across a whole set: sprites, die-cut stickers, item icons, parallax…"
+          },
+          {
+            "name": "image-to-3d-asset",
+            "description": "Turn a photo or a text prompt into a real 3D model: a textured mesh you can drop into a game engine, AR scene, or produ…"
+          },
+          {
+            "name": "llm-agent",
+            "description": "Build a chat, reasoning, or tool-calling agent on top of Runware-hosted LLMs. Use when the user says \"make an agent tha…"
+          },
+          {
+            "name": "logos-and-vectors",
+            "description": "Make true scalable vector art (logos, icons, app glyphs, scalable illustrations) or convert a raster image into clean e…"
+          },
+          {
+            "name": "multi-shot-video",
+            "description": "Tell a short story across several cuts in one video call, not one continuous take. Use when the user says \"a reel that…"
+          },
+          {
+            "name": "music",
+            "description": "Generate music from a text description - full songs with vocals and lyrics, instrumental beds, jingles, intros, and bac…"
+          },
+          {
+            "name": "photoreal-stills",
+            "description": "Generate images that read as real photographs, not AI renders: candid portraits, editorial, documentary, food, architec…"
+          },
+          {
+            "name": "product-ad-video",
+            "description": "Turn a product image into a short ad or promo video, the highest-polish commercial outcome: a hero product still in mot…"
+          },
+          {
+            "name": "product-photography",
+            "description": "Turn a plain product shot or packshot into clean studio, lifestyle, or hero imagery for e-commerce and ads. Use when th…"
+          },
+          {
+            "name": "reframe-video",
+            "description": "Convert a video to a new aspect ratio without cropping the subject. Use when the user says \"make this 16:9 clip vertica…"
+          },
+          {
+            "name": "replace-in-video",
+            "description": "Swap one on-camera element in an existing video while everything else stays put. Use when the user says \"recast this ch…"
+          },
+          {
+            "name": "restore-and-upscale",
+            "description": "Improve image quality and resolution. Use when the user says \"upscale this\", \"make it sharper / higher-res\", \"deblur\",…"
+          },
+          {
+            "name": "runware-models",
+            "description": "Pick the right Runware model for a task and keep that choice current. Use when an agent needs to decide \"which model fo…"
+          },
+          {
+            "name": "runware-prompting",
+            "description": "Write effective prompts for Runware's image and video models. Use whenever an agent is composing a prompt and wants mod…"
+          },
+          {
+            "name": "runware-run",
+            "description": "How to actually call the Runware API correctly for any task - inspect the model's schema, send the right fields, run sy…"
+          },
+          {
+            "name": "talking-avatar",
+            "description": "Make a person, portrait, or avatar talk on camera. Use when the user says \"make this photo talk\", \"talking head video\",…"
+          },
+          {
+            "name": "text-in-image",
+            "description": "Generate images where the copy has to be exactly right: posters, packaging, ads, social graphics, UI mockups, menus, si…"
+          },
+          {
+            "name": "train-style-model",
+            "description": "Fine-tune a reusable brand, style, or character model (a LoRA) from a small set of reference images, then generate on-b…"
+          },
+          {
+            "name": "ugc-ad",
+            "description": "Make a creator-style or UGC ad video: a direct-to-camera testimonial, a product demo, an unboxing, or a faceless voiceo…"
+          },
+          {
+            "name": "video-upscale",
+            "description": "Increase a video's resolution and restore lost detail, up to 4K. Use when the user says \"upscale this video\", \"make thi…"
+          },
+          {
+            "name": "vision-understanding",
+            "description": "Turn images, video, audio, or documents into text. Use when the user says \"what's in this image\", \"describe / caption t…"
+          },
+          {
+            "name": "voice-cloning",
+            "description": "Create a custom voice and speak text in it. Use when the user says \"clone my voice\", \"make it sound like this recording…"
+          },
+          {
+            "name": "voiceover",
+            "description": "Generate spoken voiceover and narration from a script, one speaker, with control over emotion, pacing, and voice. Use w…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
