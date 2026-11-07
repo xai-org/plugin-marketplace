@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "google-rank-checker-by-crakseo",
+      "description": "Google Rank Checker: Keyword Rankings & Rank Tracking by CrakSEO. Google rank checker for SEO: live keyword rankings and positions for any website, ranked keywords, ranking competitors and keyword gaps. On-demand rank tracking. Hosted MCP server at https://crakseo.com/mcp/rank-tracker; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "google-rank-checker-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/rank-tracker",
+      "keywords": ["crakseo rank checker", "crakseo rank tracker"]
     }
   ]
 }
