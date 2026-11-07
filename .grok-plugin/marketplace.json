@@ -5,6 +5,29 @@
     "name": "xAI"
   },
   "plugins": [
+    
+{
+  "name": "adneuron",
+  "description": "AdNeuron AI advertising copilot. Connect Google Ads and Meta Ads to analyze performance, manage campaigns, and optimize advertising through Grok Build.",
+  "category": "marketing",
+  "source": {
+    "source": "url",
+    "url": "https://github.com/Adneuron-ai/adneuron-grok-build-plugin.git",
+    "sha": "4f584f7c7bf771b617154df625f18289875e5e6a"
+  },
+  "homepage": "https://adneuron.ai",
+  "keywords": [
+    "adneuron",
+    "adneuron ai",
+    "adneuron ads",
+    "adneuron mcp"
+  ],
+  "domains": [
+    "adneuron.ai",
+    "mcp.adneuron.ai"
+  ]
+},
+
     {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
