@@ -2,13 +2,13 @@
   "version": 1,
   "plugins": {
     "amnitex": {
-      "sha": "c610d7c5a724fb24ae9b862a405dde5d06227b73",
+      "sha": "42166123b0418cd08e149b3f56b00171ba846223",
       "version": "0.3.1",
       "components": {
         "commands": [
           {
             "name": "atex",
-            "description": "Initialize, inspect, or wire the native Gold/Helium AmniTex byte-page memory layer and Fresh-Turn LUT."
+            "description": "Initialize, inspect, or wire the native Gold/Helium AmniTex byte-page memory layer."
           }
         ],
         "mcpServers": [
@@ -20,7 +20,7 @@
         "skills": [
           {
             "name": "amnitex",
-            "description": "Lossless byte-page memory layer and Fresh-Turn LUT in native Gold/Helium. Always call atex_search, atex_recall, and ate…"
+            "description": "Lossless local byte-page memory in native Gold/Helium. Always call atex_search, atex_recall, and atex_list_keys FIRST b…"
           }
         ]
       }
