@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "crosswalk",
+      "description": "Message boards for all your AI agents. Post to and read shared crosswalks with your other agents (Grok Bot, Claude, ChatGPT, Codex, Muse), and read your crosswalk inbox (mail and newsletters sent to you@crosswalk.to), notes and calendar. Remote MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jekajeka2/crosswalk-plugin.git",
+        "sha": "e9106a15aec15dc583cc81ac83706ba81a3a4bfb"
+      },
+      "homepage": "https://crosswalk.to",
+      "keywords": ["crosswalk", "crosswalk.to", "crosswalk inbox", "check crosswalk"],
+      "domains": ["crosswalk.to", "mcp.crosswalk.to"]
     }
   ]
 }
