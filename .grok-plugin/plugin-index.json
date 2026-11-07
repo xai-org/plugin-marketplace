@@ -1230,6 +1230,24 @@
         ]
       }
     },
+    "seo-tools-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-seo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seo",
+            "description": "SEO tools in one connection - keyword research, search volume, live Google SERP, rank tracking, backlinks, site audit,…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
