@@ -203,7 +203,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "01275f7490d8195ccc9e30831d04580711000ca9"
+        "sha": "d168bc2ca76c1641b3273334542e479291c2b23d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": [
@@ -368,7 +368,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "7882018f33773950265a9613d12e963853cfb526",
+        "sha": "4f1d09406ff6aeab4aa390869580fd5dae461bea",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
