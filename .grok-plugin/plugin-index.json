@@ -892,6 +892,18 @@
         ]
       }
     },
+    "onda": {
+      "sha": "9f465a6294582d64a9ebf5e493f4a2b41e037453",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "onda-library",
+            "description": "Use when the user asks about a meeting ONDA recorded - what was decided, who said what, finding a recording, reading a…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
