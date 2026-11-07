@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "labwired",
+      "description": "Design embedded circuits and two-layer PCB layouts, then test supported ESP32 and MCU firmware in simulation and check boards with KiCad DRC. Suited to sensor boards, schematic-to-PCB work, and repeatable firmware runs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/w1ne/labwired-core.git",
+        "sha": "b059a3820202095179668face11e9b7694bbfd0a",
+        "path": "plugins/labwired"
+      },
+      "homepage": "https://labwired.com",
+      "keywords": ["labwired","labwired electronics","labwired pcb design","labwired two-layer pcb","labwired esp32 sensor pcb","labwired firmware simulation","labwired circuit simulation","labwired kicad drc"],
+      "domains": ["labwired.com", "api.labwired.com", "app.labwired.com"]
     }
   ]
 }
