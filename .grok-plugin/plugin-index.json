@@ -892,6 +892,18 @@
         ]
       }
     },
+    "pandadoc": {
+      "sha": "2ee7f45a14063132fc7486723abbf5bc4f90171e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pandadoc",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
