@@ -668,6 +668,24 @@
         ]
       }
     },
+    "keyword-research-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-keyword-research",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keyword-research",
+            "description": "Keyword research for SEO - monthly search volume, keyword difficulty, CPC, keyword ideas, related keywords and competit…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
