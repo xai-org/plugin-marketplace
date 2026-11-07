@@ -19,6 +19,29 @@
       "domains": ["vercel.com"]
     },
     {
+      "name": "cue",
+      "description": "Score and improve AI prompts with Cue before you send them. Get a clear score, feedback on missing context, and an improved rewrite that preserves your intent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KingMonkey1/cue-grok-plugin-marketplace.git",
+        "sha": "79daa2d11b0d7ecc9ec28a5118d83d6835bd4f91",
+        "path": "plugins/cue"
+      },
+      "homepage": "https://cue-prompt.com",
+      "keywords": [
+        "cue",
+        "cue live",
+        "cue prompt improvement",
+        "cue prompt feedback"
+      ],
+      "domains": [
+        "cue-prompt.com",
+        "api.cue-prompt.com",
+        "cue-mcp-production.up.railway.app"
+      ]
+    },
+    {
       "name": "sentry",
       "description": "Sentry error monitoring integration. Access error reports, analyze stack traces, search issues by fingerprint, and debug production errors directly from your development environment.",
       "category": "monitoring",
