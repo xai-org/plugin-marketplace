@@ -668,6 +668,36 @@
         ]
       }
     },
+    "kernelcad": {
+      "sha": "0a1478c4435397af9ca6da80a3cf6e98acef80a7",
+      "version": "0.17.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kernelcad",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kernelcad-cookbooks",
+            "description": "Find and run kernelCAD cookbook recipes (machined housing, NEMA motor plate, robot arm, planetary gearbox, T-slot frame…"
+          },
+          {
+            "name": "kernelcad-design-loop",
+            "description": "Build or revise a CAD model with the hosted kernelCAD MCP — write .kcad.ts source, evaluate, review with design_loop un…"
+          },
+          {
+            "name": "kernelcad-export",
+            "description": "Export a kernelCAD model to STEP, STL, 3MF, GLB, OBJ, PLY, USD, DXF or G-code through the hosted MCP, and check it befo…"
+          },
+          {
+            "name": "kernelcad-studio-paint",
+            "description": "Show a kernelCAD model in Studio and act on the user's painted review marks. Use when the user wants to see the model,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
