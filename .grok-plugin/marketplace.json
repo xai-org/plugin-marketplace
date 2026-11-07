@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "gwc-bridge",
+      "description": "Work on your own computer from Grok Build through GWC Bridge: read, search and edit files and documents in folders you share, run commands and delegate tasks, with GWC Studio or GWC for VS Code on that computer and the permissions you set there.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GWCCORP/gwc-bridge-grok-plugin.git",
+        "sha": "e7117b163bc7ef8bf1d2bfc814d764f540d76cea"
+      },
+      "homepage": "https://gwc-corp.com/bridge",
+      "keywords": ["gwc", "gwc bridge", "gwc studio", "gwc for vs code"],
+      "domains": ["gwc-corp.com", "mcp.gwc-corp.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "GWC",
+        "email": "support@gwc-corp.com",
+        "url": "https://gwc-corp.com"
+      }
     }
   ]
 }
