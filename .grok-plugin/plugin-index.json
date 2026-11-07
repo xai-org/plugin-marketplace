@@ -668,6 +668,18 @@
         ]
       }
     },
+    "iris": {
+      "sha": "577beb1e1dba00501fa0654a1930114d17aad7f6",
+      "version": "0.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "iris-archive",
+            "description": "Use when the user asks about a business conversation Iris (Tuval AI) archived - what a customer asked, what was agreed…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
