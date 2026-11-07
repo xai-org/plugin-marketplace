@@ -668,6 +668,24 @@
         ]
       }
     },
+    "living-memory": {
+      "sha": "edc48bb764bb8806cd4665062cf1cd60009b6fac",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "living-memory",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "living-memory",
+            "description": "Use when the user asks to remember a fact in Living Memory, recall saved Living Memory context, inspect their connected…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",

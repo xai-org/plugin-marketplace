@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "living-memory",
+      "description": "Save memories, recall earlier context, and exchange temporary agent handoffs through your hosted Living Memory World or Free Room. Connect with your Living Memory account via OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nature-Labs-Orz/living-memory-grok-plugin.git",
+        "sha": "edc48bb764bb8806cd4665062cf1cd60009b6fac"
+      },
+      "homepage": "https://viibe.to/living-memory",
+      "keywords": [
+        "living-memory",
+        "living memory",
+        "living memory handoff"
+      ],
+      "domains": [
+        "lme.viibe.to"
+      ]
     }
   ]
 }
