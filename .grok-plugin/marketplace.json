@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mcp-proton-mail",
+      "description": "Unofficial, not affiliated with Proton AG. Search and read Proton Mail, write drafts and tidy the mailbox through Proton Mail Bridge on your own computer, with a preview you approve before mail is moved, deleted or sent. Runs locally via uvx; nothing is hosted.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/mcp-proton-mail"
+      },
+      "homepage": "https://manajev.com/proton-mail-mcp/",
+      "keywords": [
+        "mcp-proton-mail",
+        "proton-mail-mcp",
+        "proton mail bridge mcp"
+      ],
+      "author": {
+        "name": "Dmitri Manajev",
+        "url": "https://github.com/legalaspro"
+      }
     }
   ]
 }

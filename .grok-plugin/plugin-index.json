@@ -668,6 +668,17 @@
         ]
       }
     },
+    "mcp-proton-mail": {
+      "version": "1.30.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "proton-mail",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
