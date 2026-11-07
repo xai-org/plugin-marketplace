@@ -67,7 +67,7 @@ def contained(path: Path, root: Path) -> bool:
 
 
 def read_text_limited(path: Path) -> str:
-    with open(path, encoding="utf-8", errors="replace") as f:
+    with open(path, encoding="utf-8-sig", errors="replace") as f:
         return f.read(MAX_TEXT_READ_BYTES)
 
 
@@ -181,15 +181,17 @@ def scan_skills(root: Path, manifest: dict) -> list[dict]:
                 skill_md = child / "SKILL.md"
                 if skill_md.is_file() and contained(skill_md, root):
                     skill_dirs[child.resolve()] = child.name
+    root_skill_md = root / "SKILL.md"
+    if root_skill_md.is_file() and contained(root_skill_md, root):
+        skill_dirs.setdefault(root.resolve(), root.name)
     for entry in as_list(manifest.get("skills")):
         if isinstance(entry, str):
             candidate = resolve_inside(root, entry)
-            if (
-                candidate
-                and (candidate / "SKILL.md").is_file()
-                and contained(candidate / "SKILL.md", root)
-            ):
-                skill_dirs.setdefault(candidate, candidate.name)
+            if candidate and contained(candidate, root):
+                if candidate.is_file() and candidate.name == "SKILL.md":
+                    skill_dirs.setdefault(candidate.parent.resolve(), candidate.parent.name)
+                elif (candidate / "SKILL.md").is_file():
+                    skill_dirs.setdefault(candidate.resolve(), candidate.name)
     items = []
     for skill_dir, dirname in skill_dirs.items():
         fm = parse_frontmatter(skill_dir / "SKILL.md")
