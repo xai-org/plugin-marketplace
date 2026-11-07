@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "meridian",
+      "description": "Meridian project management office (PMO) integration. Ask about projects, risks, milestones, change requests, status reports, stakeholders, retrospectives, access reviews and timesheets, log time, run your timer or save status reports, through the hosted Meridian MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meridian4pm/meridian-grok-plugin.git",
+        "sha": "25e8c5956b125f4a03c6914d7f4f923a4a57618f"
+      },
+      "homepage": "https://www.meridian4pm.com/mcp-server",
+      "keywords": ["meridian", "meridian pmo", "meridian4pm", "meridian mcp"],
+      "domains": ["meridian4pm.com"]
     }
   ]
 }
