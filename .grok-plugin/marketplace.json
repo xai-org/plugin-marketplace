@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "google-search-console-indexing-by-crakseo",
+      "description": "Google Search Console Indexing: Index Checker, IndexNow & Force Indexing by CrakSEO. Google Search Console indexing for SEO: Google index checker, request indexing via IndexNow, Bing and sitemap resubmission, and force indexing for pages Google won't index. Hosted MCP server at https://crakseo.com/mcp/url-indexing; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "google-search-console-indexing-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/url-indexing",
+      "keywords": ["crakseo url indexing", "crakseo indexing"]
     }
   ]
 }
