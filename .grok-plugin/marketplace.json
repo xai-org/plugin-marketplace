@@ -396,6 +396,20 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "anchorbrowser",
+      "description": "Anchor Browser cloud browsers for agents via Anchor's hosted MCP servers. Run web tasks that get past bot detection, call verified site actions, run saved automations, use managed logins with MFA, open browser sessions with residential proxies and captcha solving, and drive a live browser step by step. Sign in with your Anchor account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anchorbrowser/anchor-mcp-plugin.git",
+        "sha": "de6a60a13c1c5273b382169c92ea5de679aaa5ca",
+        "path": "grok"
+      },
+      "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
+      "keywords": ["anchor browser", "anchorbrowser", "anchor mcp", "anchor web task"],
+      "domains": ["anchorbrowser.io", "app.anchorbrowser.io", "docs.anchorbrowser.io", "api.anchorbrowser.io"]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
