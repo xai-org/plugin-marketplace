@@ -436,6 +436,20 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
+      "name": "costory",
+      "description": "FinOps agent MCP: one allocated view of cloud, AI and data costs across providers, shared by your whole team with SSO. Starter $300/mo, 30-day free trial. Your agent finds savings, explains every change in spend and issues recommendations that your coding agent can implement.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/costory-io/costory-finops-mcp-skills.git",
+        "path": "plugins/costory",
+        "sha": "b91a7a220f12c16e1bac3a64f26a84215cca199f"
+      },
+      "homepage": "https://www.costory.io",
+      "keywords": ["costory", "costory finops", "costory mcp", "costory cost allocation"],
+      "domains": ["costory.io", "app.costory.io", "docs.costory.io"]
+    },
+    {
       "name": "clerk",
       "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
       "category": "development",
