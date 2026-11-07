@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "shapeless",
+      "description": "ShapelessAI, the AI social media team for founders: make and publish posts, carousels and short video to LinkedIn, X, Instagram, TikTok, YouTube, Facebook, Threads and Bluesky from Grok. Ships the hosted ShapelessAI MCP server (sign in with OAuth, no API key) plus a skill for jobs, posts, agents and Brand Memory. Every draft waits for approval before it publishes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FirstClassTree/shapelessai.git",
+        "sha": "1bacacaaf7cad924bc386a50abcd4a28bc5cd731",
+        "path": "plugins/shapeless"
+      },
+      "homepage": "https://shapelessai.com",
+      "keywords": ["shapeless", "shapelessai", "shapeless ai"],
+      "domains": ["shapelessai.com"]
     }
   ]
 }

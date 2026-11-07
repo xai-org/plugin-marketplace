@@ -1230,6 +1230,28 @@
         ]
       }
     },
+    "shapeless": {
+      "sha": "1bacacaaf7cad924bc386a50abcd4a28bc5cd731",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shapeless",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "First run of ShapelessAI right after install. Connect the person's first social account and get their first post drafte…"
+          },
+          {
+            "name": "shapelessai",
+            "description": "Drive the user's ShapelessAI account - draft and publish social posts, run durable content jobs, manage standing agents…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
