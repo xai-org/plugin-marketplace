@@ -634,6 +634,24 @@
         ]
       }
     },
+    "gwc-bridge": {
+      "sha": "e7117b163bc7ef8bf1d2bfc814d764f540d76cea",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gwc-bridge",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Set up or check GWC Bridge in Grok Build with the user's existing GWC account, intended computer and shared folder, the…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
