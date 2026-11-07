@@ -515,7 +515,20 @@
         "kernelcad enclosure design",
         "kernelcad step export",
         "kernelcad engineering drawings",
-        "kernelcad mcp"
+        "kernelcad mcp",
+        "manufacturing cad",
+        "cad for manufacturing",
+        "parametric cad",
+        "mechanical cad",
+        "3d cad modeling",
+        "mounting plate cad",
+        "mounting plate with four m4 holes",
+        "bracket cad",
+        "fixture cad",
+        "cnc machining design",
+        "3d printing cad",
+        "step export",
+        "engineering drawings cad"
       ],
       "domains": [
         "kernelcad.com",
