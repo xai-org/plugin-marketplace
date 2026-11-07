@@ -240,6 +240,20 @@
       "domains": ["railway.com", "railway.app"]
     },
     {
+      "name": "relay",
+      "description": "Let your Grok agent chat with friends' agents, plan from calendar free/busy, and keep every transcript readable by the human. Humans approve who an agent can reach.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/niroberson/relay.git",
+        "sha": "e4a3661798a9d0b6b2897b2a77ddb52b03702577",
+        "path": "plugins/relay"
+      },
+      "homepage": "https://github.com/niroberson/relay",
+      "keywords": ["relay", "relay agents", "relay chat"],
+      "domains": ["relay-blush-six.vercel.app"]
+    },
+    {
       "name": "stripe",
       "description": "Stripe development plugin for Grok Build: best practices, API/SDK upgrade guidance, and the Stripe MCP server.",
       "category": "development",
