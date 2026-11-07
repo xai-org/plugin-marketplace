@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Skryvo/agent.git",
-        "sha": "5f56b88bf73f73b10bce84126608cbc0c6b1048d"
+        "sha": "a4eb043d19aa94ce1b6a888e3a2fc47bdb001eec"
       },
       "homepage": "https://skryvo.ai/agents",
       "keywords": ["skryvo", "skryvo post", "skryvo schedule", "skryvo brand voice"],
