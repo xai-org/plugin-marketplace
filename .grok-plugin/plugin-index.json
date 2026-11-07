@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "adneuron": {
+      "sha": "4f584f7c7bf771b617154df625f18289875e5e6a",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adneuron",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
