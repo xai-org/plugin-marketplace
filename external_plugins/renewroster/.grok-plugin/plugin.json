@@ -1,0 +1,10 @@
+{
+  "name": "renewroster",
+  "version": "1.0.0",
+  "description": "RenewRoster for Grok Build via the hosted RenewRoster MCP server at app.renewroster.com. Track client domain and SSL certificate expiry dates, renewals and who pays, for agencies. Sign in with your RenewRoster account on first connect.",
+  "author": { "name": "RenewRoster", "url": "https://renewroster.com" },
+  "homepage": "https://renewroster.com/docs/mcp",
+  "license": "MIT",
+  "keywords": ["renewroster", "renew roster", "renewroster mcp", "renewroster domains", "renewroster ssl"],
+  "logo": "assets/logo.svg"
+}
