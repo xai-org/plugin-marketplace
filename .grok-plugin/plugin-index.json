@@ -634,6 +634,24 @@
         ]
       }
     },
+    "google-search-console-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-search-console",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "search-console",
+            "description": "Free Google Search Console (GSC) for SEO - your own Search Console search analytics, keywords, search rankings, clicks,…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
