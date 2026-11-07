@@ -358,6 +358,36 @@
         ]
       }
     },
+    "desearch": {
+      "sha": "16ace11fc4ad8b64f716134086a11c11f0afcbf9",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "desearch",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "desearch",
+            "description": "Choose which Desearch MCP tool to call. Use when the task needs AI search, web search, the Search API, a page as text o…"
+          },
+          {
+            "name": "desearch-company-search",
+            "description": "Find companies that match a plain-language description, or enrich domains the user already has, with their public email…"
+          },
+          {
+            "name": "desearch-people-search",
+            "description": "Find people and creators on X, YouTube, LinkedIn, or TikTok who match a plain-language description with the Desearch Pe…"
+          },
+          {
+            "name": "desearch-social",
+            "description": "Read public YouTube, Reddit, Threads, TikTok, Facebook, and Instagram data with the Desearch MCP tools youtube, reddit,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
