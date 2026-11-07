@@ -213,6 +213,19 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "xro-8-5",
+      "description": "Xro 8.5 by ULTRAXAS — live web search with citations and Xro chat for Grok Build, via the public xro-search MCP at ai.ultraxas.com.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ULTRAXAS/xro-8-5.git",
+        "sha": "641e8e5d3ecfa3eb9f4da9c6e0215320ccf670bb"
+      },
+      "homepage": "https://ultraxas.com",
+      "keywords": ["xro", "xro 8.5", "xro search", "ultraxas", "search"],
+      "domains": ["ultraxas.com"]
+    },
+    {
       "name": "octen",
       "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
       "category": "development",
