@@ -1230,6 +1230,28 @@
         ]
       }
     },
+    "skryvo": {
+      "sha": "5f56b88bf73f73b10bce84126608cbc0c6b1048d",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skryvo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skryvo-api",
+            "description": "Write, schedule, list, cancel and measure social media posts through Skryvo's API with a Skryvo API key. Use in agents…"
+          },
+          {
+            "name": "social-publishing",
+            "description": "Plan, write, schedule and review social media posts with Skryvo. Use when the person asks to write or schedule posts fo…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
