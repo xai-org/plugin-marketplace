@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "saascity",
+      "description": "SaaSCity launch planning (hosted MCP server + skill). Audit a homepage before launch, pick launch directories from 1,600+ with Ahrefs DR, link type and price, and draft a SaaSCity listing for a human to review. Keyless, no account needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/saascity"
+      },
+      "homepage": "https://saascity.io/mcp",
+      "keywords": ["saascity", "saascity.io", "saascity mcp", "saascity launch", "saascity directories"],
+      "domains": ["saascity.io"]
     }
   ]
 }
