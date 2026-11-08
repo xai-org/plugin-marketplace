@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hornlib",
+      "description": "Interactive French Horn F/Bb double horn valve fingering chart, pitch transposer, overtone harmonic series analyzer, orchestral audition excerpt guide, and daily brass warmup suite via HornLib MCP.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HornLib/mcp-server.git",
+        "sha": "50d9ea46d30f57c4ce679e60e745fc04c185c419"
+      },
+      "homepage": "https://hornlib.com",
+      "keywords": ["hornlib", "french horn", "fingering chart", "music theory", "brass transposition", "mcp"],
+      "domains": ["hornlib.com"],
+      "version": "1.0.3",
+      "author": {
+        "name": "HornLib",
+        "email": "admin@hornlib.com",
+        "url": "https://github.com/HornLib"
+      }
     }
   ]
 }
