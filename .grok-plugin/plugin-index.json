@@ -336,6 +336,32 @@
         ]
       }
     },
+    "conversiontools": {
+      "sha": "154042c9a7ca1b90758b3677c79bf1b5b405d993",
+      "version": "1.13.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "conversiontools",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "convert",
+            "description": "Convert files between 140+ formats using Conversion Tools. Two surfaces are available - the `ctio` CLI (preferred when…"
+          },
+          {
+            "name": "parse-integration",
+            "description": "Extract structured data from documents (invoices, receipts, purchase orders, bills of lading, bank statements, contract…"
+          },
+          {
+            "name": "voice",
+            "description": "Turn text, scripts and documents into natural speech, clone the user's own voice, or transcribe recordings, with Voice…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
