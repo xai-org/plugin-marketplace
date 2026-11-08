@@ -490,8 +490,8 @@
     },
     {
       "name": "amnitex",
-      "version": "0.3.2",
-      "description": "Lossless local byte-page memory for MCP assistants in native Gold/Helium: 1.66 µs keyword lookup over a spatial TexGrid; stores every conversation turn for exact recall.",
+      "version": "0.3.3",
+      "description": "Lossless local byte-page memory for MCP assistants in native Gold/Helium: exact-match nonce lookup through an RGBA texture LUT; stores every conversation turn for exact recall.",
       "author": {
         "name": "Amniscient, LLC",
         "url": "https://amni-scient.com"
@@ -500,7 +500,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Amnibro/amnitex.git",
-        "sha": "0eb9374eed0d7693f8ef24d8cf9806f1a1131088"
+        "sha": "b9a3854fc583e89397d3976eeba1400da260ccd9"
       },
       "homepage": "https://amni-scient.com/amnitex-lut.html",
       "keywords": ["amnitex", "atex", "amni-scient"],
