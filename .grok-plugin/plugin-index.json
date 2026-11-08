@@ -2,13 +2,22 @@
   "version": 1,
   "plugins": {
     "amnitex": {
-      "sha": "42166123b0418cd08e149b3f56b00171ba846223",
-      "version": "0.3.1",
+      "sha": "0eb9374eed0d7693f8ef24d8cf9806f1a1131088",
+      "version": "0.3.2",
       "components": {
         "commands": [
           {
             "name": "atex",
             "description": "Initialize, inspect, or wire the native Gold/Helium AmniTex byte-page memory layer."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "clear|compact"
+          },
+          {
+            "name": "Stop"
           }
         ],
         "mcpServers": [
