@@ -668,6 +668,50 @@
         ]
       }
     },
+    "mockingbird": {
+      "sha": "a3d1ae5e48dd0934e9d0612ac056edc2fe5f3584",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "find-winning-ads",
+            "description": "Find winning Meta ads in Mockingbird's library for a product or industry, shortlisted by angle. Spends no credits."
+          },
+          {
+            "name": "make-ads",
+            "description": "Make 1 to 10 brand-new Meta ads from scratch for one of the user's brands, each on a different angle, after confirming…"
+          },
+          {
+            "name": "remake-ad",
+            "description": "Remake a winning Meta ad (from the library or uploaded) in the user's brand, in 4:5, 1:1 and/or 9:16, after confirming…"
+          },
+          {
+            "name": "test-batch",
+            "description": "Plan and make this week's batch of Meta ads to test, one buyer or angle per ad, mixing library remakes and new ads."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "mockingbird",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mockingbird",
+            "description": "Makes static Meta ads (Facebook and Instagram) through the Mockingbird connector: searches a hand-picked library of win…"
+          },
+          {
+            "name": "remake-winning-ads",
+            "description": "Finds proven Meta ads in Mockingbird's hand-picked library that fit the user's product, explains in one line why each w…"
+          },
+          {
+            "name": "weekly-test-batch",
+            "description": "Plans and makes a batch of Meta ads to test this week, built so each ad is a genuinely different message for a differen…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
