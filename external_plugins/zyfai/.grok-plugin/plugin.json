@@ -9,9 +9,7 @@
   "homepage": "https://zyf.ai",
   "repository": "https://github.com/ondefy/zyfai-mcp-server",
   "keywords": [
-    "zyfai",
-    "zyfai yield",
-    "zyfai defi"
+    "zyfai"
   ],
   "license": "ISC"
 }
