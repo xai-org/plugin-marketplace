@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "airprompter": {
+      "sha": "6656134e2bbd5a9d06b8f33cb382c5fb555d426c",
+      "version": "0.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "airprompter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "airprompter",
+            "description": "Create, run, find, edit, import, or export AirPrompter workflows, skills, and prompts, or diagnose its connection. Use…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
