@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "luch",
+      "description": "Connect Grok Build to user-authorized LUCH browser, file, and device tools over OAuth MCP. Requires an enabled LUCH account and device-specific consent.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lenar2/luch-claude-plugin.git",
+        "sha": "f3b854fc4c8697eb0a6054410b2c8524aae95681"
+      },
+      "homepage": "https://luch.lenarsalimov.ru/",
+      "keywords": ["luch", "luch ai", "luch mcp", "luch device"],
+      "domains": ["luch.lenarsalimov.ru", "api.lenarsalimov.ru"],
+      "version": "0.1.6"
     }
   ]
 }
