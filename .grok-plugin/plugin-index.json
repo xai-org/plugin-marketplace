@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "amnitex": {
-      "sha": "b9a3854fc583e89397d3976eeba1400da260ccd9",
-      "version": "0.3.3",
+      "sha": "d4dffaf553f0e26e0c6bd929ce1e814b1e680eda",
+      "version": "0.3.4",
       "components": {
         "commands": [
           {
