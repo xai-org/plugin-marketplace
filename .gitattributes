@@ -1,0 +1,8 @@
+# Third-party OOXML schemas (ECMA-376 / ISO-IEC 29500 XSDs) vendored with the
+# docx/pptx default skills. Collapsed in diffs and excluded from language stats.
+default-skills/*/scripts/office/schemas/** linguist-vendored
+
+# Pre-built PPTX design templates and the generated taxonomy index. Bulk assets,
+# not meant for line-by-line review.
+default-skills/pptx/templates/** linguist-vendored
+default-skills/pptx/template_taxonomy.json linguist-generated
