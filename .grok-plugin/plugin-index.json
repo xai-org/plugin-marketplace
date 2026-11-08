@@ -668,6 +668,18 @@
         ]
       }
     },
+    "logix-ton-one-per-timer": {
+      "sha": "bfa349589a291bc2ffba45a40a74de3047084827",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "logix-ton-one-per-timer",
+            "description": "Studio 5000 / CompactLogix / ControlLogix rule: one TON (or TOF/RTO) per TIMER tag. A TON whose rung is false resets th…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
