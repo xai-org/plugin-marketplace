@@ -94,8 +94,8 @@
       }
     },
     "budna": {
-      "sha": "6cbd5727d0efcbef1ff9c4d2fbce908424120bde",
-      "version": "0.1.1",
+      "sha": "5595360f4c62c54577d1da6c5599cffe14f62345",
+      "version": "0.1.5",
       "components": {
         "mcpServers": [
           {
@@ -106,27 +106,27 @@
         "skills": [
           {
             "name": "recommerce-buy",
-            "description": "Find and compare second-hand listings against the buyer's needs, complete cost, compatibility, and collection or delive…"
+            "description": "Find and compare new and pre-owned listings against the buyer's needs, complete cost, compatibility, and collection or…"
           },
           {
             "name": "recommerce-collect",
-            "description": "Assess whether a second-hand item can realistically be collected and moved from the seller's room to the buyer's destin…"
+            "description": "Assess whether a new or pre-owned item can realistically be collected and moved from the seller's pickup location to th…"
           },
           {
             "name": "recommerce-inspect",
-            "description": "Assess a supplied second-hand listing against the buyer's needs and prepare a concise inspection card before purchase o…"
+            "description": "Assess a supplied new or pre-owned listing against the buyer's needs and prepare a concise inspection card before purch…"
           },
           {
             "name": "recommerce-keep",
-            "description": "Compare keeping, repairing, or upgrading an owned item with replacing it second-hand. Use when deciding whether an exis…"
+            "description": "Compare keeping, repairing, or upgrading an owned item with a new or pre-owned replacement. Use when deciding whether a…"
           },
           {
             "name": "recommerce-kits",
-            "description": "Assemble a complete second-hand setup for an outcome such as recording a podcast, starting photography, or equipping a…"
+            "description": "Assemble a complete setup from new or pre-owned items for an outcome such as recording a podcast, starting photography,…"
           },
           {
             "name": "recommerce-second-look",
-            "description": "Reassess an existing second-hand shortlist or planned purchase against newer evidence before commitment. Use to check c…"
+            "description": "Reassess an existing shortlist of new or pre-owned items or a planned purchase against newer evidence before commitment…"
           }
         ]
       }

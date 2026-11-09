@@ -490,17 +490,17 @@
     },
     {
       "name": "budna",
-      "description": "Research second-hand purchases on Budna with listing search, comparison, inspection, and collection planning. Includes six Recommerce skills and a public read-only MCP connection.",
+      "description": "Discover new and pre-owned items on Budna that fit your needs and budget. Compare options, check condition and compatibility, and plan pickup or delivery before you decide.",
       "category": "shopping",
       "source": {
         "source": "url",
         "url": "https://github.com/budna-marketplace/plugins.git",
-        "sha": "6cbd5727d0efcbef1ff9c4d2fbce908424120bde"
+        "sha": "5595360f4c62c54577d1da6c5599cffe14f62345"
       },
       "homepage": "https://budna.se",
-      "keywords": ["budna", "budna marketplace", "budna second-hand"],
+      "keywords": ["budna", "budna marketplace", "budna shopping"],
       "domains": ["budna.se", "api.budna.se"],
-      "version": "0.1.1",
+      "version": "0.1.5",
       "author": {
         "name": "Budna Marketplace AB",
         "email": "support@budna.se",
