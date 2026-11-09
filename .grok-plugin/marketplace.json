@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "energyia-net",
+      "description": "EnergyIA.NET: official oil, gas and mining data of the countries of America, comparable country by country (production by country, operator, field and mine; mining; refineries; gas flaring; electricity; energy and mining vessels at terminals from public AIS signals), normalized and cited with source and period. Remote MCP server with OAuth; read-only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/NikoReef/energyia-net-mcp.git",
+        "sha": "f5cc43cc61bc125a363bbcef3096fed80413ff98"
+      },
+      "homepage": "https://energyia.net",
+      "keywords": ["america energy", "oil and gas", "mining", "copper", "lithium", "country comparison"],
+      "domains": ["energyia.net"]
     }
   ]
 }
