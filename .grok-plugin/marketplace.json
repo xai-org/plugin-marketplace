@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/YakovlevCoded/postmately-smm-autopilot.git",
-        "sha": "41aa87b455af70e7a92e589a2c4fb51ac31238f4"
+        "sha": "b149e3be5dd3d3d40ad289f570811e4b99e29aa1"
       },
       "homepage": "https://postmately.com/en/mcp-social-media/",
       "keywords": ["postmately", "postmately mcp", "smm autopilot"],
