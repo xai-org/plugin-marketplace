@@ -1249,8 +1249,8 @@
       }
     },
     "stripe": {
-      "sha": "6b8065ed604e24092247ac690500613a9cef48bf",
-      "version": "0.9.43",
+      "sha": "43d4af6847eebf4987576e074d7052d750e8750d",
+      "version": "0.9.44",
       "components": {
         "agents": [
           {
@@ -1855,8 +1855,8 @@
       }
     },
     "wix": {
-      "sha": "d168bc2ca76c1641b3273334542e479291c2b23d",
-      "version": "1.41.2",
+      "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
+      "version": "1.41.3",
       "components": {
         "mcpServers": [
           {
