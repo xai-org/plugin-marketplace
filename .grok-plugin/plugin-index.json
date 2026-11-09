@@ -646,6 +646,28 @@
         ]
       }
     },
+    "hornlib": {
+      "sha": "50d9ea46d30f57c4ce679e60e745fc04c185c419",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hornlib",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "french-horn-fingering-chart",
+            "description": "Look up French Horn F/Bb double horn valve fingerings, trigger combinations, concert pitch transposition, and alternate…"
+          },
+          {
+            "name": "hornlib",
+            "description": "Look up French Horn F/Bb double horn valve fingerings (C1 to F6), transpose music pitches across horn in F, Bb, Eb, D,…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",
