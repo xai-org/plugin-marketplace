@@ -346,6 +346,19 @@
       "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
     },
     {
+      "name": "skryvo",
+      "description": "Official Skryvo integration. Write social posts in your brand's saved voice, design their pictures in the brand's look, schedule them to the accounts you connected in Skryvo (LinkedIn, X, Bluesky, Telegram and more) and read how they performed. Nothing goes out without your go-ahead.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Skryvo/agent.git",
+        "sha": "bf15bdcebfb8f2ba12df6796bcdb769b10bafd42"
+      },
+      "homepage": "https://skryvo.ai/agents",
+      "keywords": ["skryvo", "skryvo post", "skryvo schedule", "skryvo brand voice"],
+      "domains": ["skryvo.ai", "app.skryvo.ai"]
+    },
+    {
       "name": "modern-web-guidance",
       "description": "Keep your coding agent up to date with modern web platform best practices",
       "category": "development",
