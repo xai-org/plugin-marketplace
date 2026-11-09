@@ -454,11 +454,13 @@
       "category": "media",
       "source": {
         "source": "url",
-        "url": "https://github.com/TechHiveDev/promoat_partner_grok_plugin.git",
-        "sha": "432f587383206ed4888005a39b04a9e9114236d9"
+        "url": "https://github.com/TechHiveDev/promoat-partner-mcp.git",
+        "sha": "a4f21646ef0b820df9bedad23ad1c140df9ae10d",
+        "path": "plugin/grok"
       },
       "homepage": "https://platform.promoat.ai",
-      "keywords": ["video", "ai-presenter", "ugc", "promoat"]
+      "keywords": ["promoat", "promoat video", "promoat ai clone", "promoat ugc", "promoat ai presenter"],
+      "domains": ["promoat.ai", "platform.promoat.ai"]
     },
     {
       "name": "videogen",
