@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "olachillvietnam",
+      "description": "OlaChill Vietnam: charter coaches, private cars and limousines in Vietnam. Read-only MCP: published vehicle classes with passenger and luggage guidance, and how to request a quote. It never books or confirms availability.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dang13021993/olachillvietnam-plugin.git",
+        "sha": "8af034da7cc212b6d5be19d0a0b891cea0e3301b"
+      },
+      "homepage": "https://olachillvietnam.com",
+      "keywords": ["olachill vietnam", "olachillvietnam"],
+      "domains": ["olachillvietnam.com"]
     }
   ]
 }

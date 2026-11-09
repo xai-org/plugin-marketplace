@@ -881,6 +881,24 @@
         ]
       }
     },
+    "olachillvietnam": {
+      "sha": "8af034da7cc212b6d5be19d0a0b891cea0e3301b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olachillvietnam",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olachillvietnam",
+            "description": "Use when the user needs a charter coach, private car or limousine in Vietnam - which vehicle class fits a group and its…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
