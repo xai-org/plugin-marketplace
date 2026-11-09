@@ -1854,6 +1854,24 @@
         ]
       }
     },
+    "webtwizz": {
+      "sha": "e1979283d68e884a9117abd4fd5b30ae60e988c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "webtwizz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "webtwizz",
+            "description": "Build, change and publish websites and web apps with WebTwizz through its MCP server. Use when the user wants a website…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
       "version": "1.41.3",

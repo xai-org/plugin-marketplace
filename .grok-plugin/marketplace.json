@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "webtwizz",
+      "description": "Build, change and publish websites and web apps with WebTwizz: landing pages, online stores, booking sites and web apps with sign-ins and a database. Connects to WebTwizz's hosted MCP server with OAuth sign-in and bundles a skill for building, publishing, undoing changes and editing site data.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/WebTwizz/agent.git",
+        "sha": "e1979283d68e884a9117abd4fd5b30ae60e988c3"
+      },
+      "homepage": "https://webtwizz.com/mcp",
+      "keywords": ["webtwizz", "webtwizz site", "webtwizz mcp"],
+      "domains": ["webtwizz.com", "app.webtwizz.com", "webtwizz.app"]
     }
   ]
 }
