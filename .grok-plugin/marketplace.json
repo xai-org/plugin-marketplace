@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "olacheap",
+      "description": "OlaCheap: domains, business email, hosting and VPS. Connects to the OlaCheap MCP server, which requires sign-in with an OlaCheap account (OAuth) or a personal API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dang13021993/olacheap-plugin.git",
+        "sha": "f2a466b2ab6f2b95e096c3de01f0e572241f3c74"
+      },
+      "homepage": "https://olacheap.com",
+      "keywords": ["olacheap"],
+      "domains": ["olacheap.com"]
     }
   ]
 }

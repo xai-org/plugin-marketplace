@@ -881,6 +881,24 @@
         ]
       }
     },
+    "olacheap": {
+      "sha": "f2a466b2ab6f2b95e096c3de01f0e572241f3c74",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olacheap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olacheap",
+            "description": "Use when the user wants to use their OlaCheap account (domains, business email, hosting, VPS) through the OlaCheap MCP…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
