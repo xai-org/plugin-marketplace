@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "1a33048817d06df12882cb881dfc754e7039954a"
+        "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "c17fd871be8f8477e52844054706f5fc9fda2efc"
+        "sha": "d168bc2ca76c1641b3273334542e479291c2b23d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
+        "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "b3ab9149225f837894b7de08c1b14650d7cc64eb",
+        "sha": "6b8065ed604e24092247ac690500613a9cef48bf",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
+        "sha": "576b285dddc33b56fd11ce304570645735500660",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
