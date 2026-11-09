@@ -1,0 +1,12 @@
+{
+  "name": "vbnote",
+  "version": "0.1.0",
+  "description": "Connect Grok Build to the vbnote test environment to browse notes, folders, summaries, and transcripts.",
+  "author": {
+    "name": "Owll",
+    "url": "https://owll.ai"
+  },
+  "homepage": "https://owll.ai",
+  "license": "MIT",
+  "keywords": ["vbnote", "vbnote mcp"]
+}

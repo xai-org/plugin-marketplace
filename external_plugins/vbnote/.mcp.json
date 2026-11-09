@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vbnote": {
+      "type": "http",
+      "url": "https://4a08142c38dbe374195d41c04562d9f8.nebulab.app/mcp"
+    }
+  }
+}
