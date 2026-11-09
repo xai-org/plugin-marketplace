@@ -770,7 +770,7 @@
     },
     {
       "name": "tap-giving",
-      "description": "Design and order custom NFC tap discs for organizations with NFC Tap Builder by Tap.Giving, a hosted MCP server: keyless discovery, pricing, and quotes, with organization API key order placement.",
+      "description": "Create print-ready NFC artwork proofs with correct vector art for organizations, free to take to any vendor with no lock-in, with NFC Tap Builder by Tap.Giving, a hosted MCP server: keyless discovery, pricing, and quotes. Ordering custom discs through Tap.Giving is an optional next step.",
       "category": "commerce",
       "source": {
         "source": "url",
