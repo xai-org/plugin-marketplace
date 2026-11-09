@@ -1184,6 +1184,46 @@
         ]
       }
     },
+    "roasaurus": {
+      "sha": "e705277dff05aa86dc02390e116c62fd3e69fed5",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "audit",
+            "description": "Audit the store's ad accounts and rank fixes by profit impact"
+          },
+          {
+            "name": "tracking-health",
+            "description": "Check why conversions are missing on an ad platform"
+          },
+          {
+            "name": "wasted-spend",
+            "description": "Find ad spend without sales and propose pauses for approval"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "roasaurus",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ads-audit",
+            "description": "Audit a webshop's paid ads with ROASaurus data (profit per campaign, attribution, ad performance, anomalies) and rank f…"
+          },
+          {
+            "name": "tracking-health",
+            "description": "Diagnose missing or low conversions on ad platforms with ROASaurus (setup status, delivery to Meta, Google Ads, TikTok…"
+          },
+          {
+            "name": "wasted-spend",
+            "description": "Find campaigns, ad sets and ads that spend without profitable sales in ROASaurus and propose pauses or budget cuts for…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",

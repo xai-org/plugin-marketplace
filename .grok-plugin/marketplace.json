@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "roasaurus",
+      "description": "ROASaurus webshop analytics: profit per campaign, attribution, customer lifetime value and ad performance for Meta, Google Ads, TikTok and others, with ad audits and change proposals for your approval.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/roasaurus/claude-code.git",
+        "sha": "e705277dff05aa86dc02390e116c62fd3e69fed5",
+        "path": "plugins/roasaurus"
+      },
+      "homepage": "https://roasaurus.com/integrations/mcp/grok",
+      "keywords": ["roasaurus"],
+      "domains": ["roasaurus.com", "app.roasaurus.com"]
     }
   ]
 }
