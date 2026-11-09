@@ -881,6 +881,24 @@
         ]
       }
     },
+    "olachillbus": {
+      "sha": "f2e01da9f40d9293df162a65cb453d1ecbbedc4e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olachillbus",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olachillbus",
+            "description": "Use when the user needs a coach, minibus or van with driver for a group in a Schengen-area country in Europe - which co…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
