@@ -205,8 +205,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
