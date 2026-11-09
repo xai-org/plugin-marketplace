@@ -497,9 +497,9 @@
         "url": "https://github.com/auscaster/ugt.git",
         "sha": "f99fe786d00728b8fd91e93c6709a17735938e46"
       },
-      "homepage": "https://usegithubthing.com",
-      "keywords": ["ugt", "use the github thing", "usegithubthing", "github", "open source", "run github projects"],
-      "domains": ["usegithubthing.com", "mcp.usegithubthing.com", "api.usegithubthing.com"]
+      "homepage": "https://usegeekthing.com",
+      "keywords": ["ugt", "use the geek thing", "usegeekthing", "github", "open source", "run github projects"],
+      "domains": ["usegeekthing.com", "mcp.usegeekthing.com", "api.usegeekthing.com"]
     }
   ]
 }
