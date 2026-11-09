@@ -94,8 +94,8 @@
       }
     },
     "budna": {
-      "sha": "5595360f4c62c54577d1da6c5599cffe14f62345",
-      "version": "0.1.5",
+      "sha": "f237d90f56d3c66c05989d43dcc2360306e60d85",
+      "version": "0.1.7",
       "components": {
         "mcpServers": [
           {
