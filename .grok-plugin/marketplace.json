@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "gsc-wizard",
+      "description": "Google Search Console analysis and SEO workflows powered by GSC Wizard: rankings, content decay, cannibalization, CTR curves, and opportunity scoring, all computed server-side.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gscwizard/grok-plugin.git",
+        "sha": "045c795b6b1a79385e1bb6ff7e0a41b9da834271"
+      },
+      "homepage": "https://gscwizard.com",
+      "keywords": ["gsc wizard", "gscwizard", "gsc wizard mcp"],
+      "domains": ["gscwizard.com", "mcp.gscwizard.com"]
     }
   ]
 }
