@@ -1460,6 +1460,28 @@
         ]
       }
     },
+    "tesseract": {
+      "sha": "e7a5417d1b6e61be609f375937f5ef70f9532eaa",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tesseract",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "make-a-video-ad",
+            "description": "Plan and make a short video ad or promo clip with the Tesseract connector, from a product photo, a logo or a few words.…"
+          },
+          {
+            "name": "photo-effects",
+            "description": "Apply one of Tesseract's ready-made effects (camera moves, transformations, portraits, seasonal looks, product shots) t…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
