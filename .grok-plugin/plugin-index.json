@@ -93,6 +93,44 @@
         ]
       }
     },
+    "budna": {
+      "sha": "65a3edbf8e55a23e79b5626448e38ae0c67f1546",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "budna",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "recommerce-buy",
+            "description": "Find and compare second-hand listings against the buyer's needs, complete cost, compatibility, and collection or delive…"
+          },
+          {
+            "name": "recommerce-collect",
+            "description": "Assess whether a second-hand item can realistically be collected and moved from the seller's room to the buyer's destin…"
+          },
+          {
+            "name": "recommerce-inspect",
+            "description": "Assess a supplied second-hand listing against the buyer's needs and prepare a concise inspection card before purchase o…"
+          },
+          {
+            "name": "recommerce-keep",
+            "description": "Compare keeping, repairing, or upgrading an owned item with replacing it second-hand. Use when deciding whether an exis…"
+          },
+          {
+            "name": "recommerce-kits",
+            "description": "Assemble a complete second-hand setup for an outcome such as recording a podcast, starting photography, or equipping a…"
+          },
+          {
+            "name": "recommerce-second-look",
+            "description": "Reassess an existing second-hand shortlist or planned purchase against newer evidence before commitment. Use to check c…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {

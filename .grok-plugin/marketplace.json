@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "budna",
+      "description": "Research second-hand purchases on Budna with listing search, comparison, inspection, and collection planning. Includes six Recommerce skills and a public read-only MCP connection.",
+      "category": "shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/budna-marketplace/plugins.git",
+        "sha": "65a3edbf8e55a23e79b5626448e38ae0c67f1546"
+      },
+      "homepage": "https://budna.se",
+      "keywords": ["budna", "budna marketplace", "budna second-hand"],
+      "domains": ["budna.se", "api.budna.se"],
+      "version": "0.1.0",
+      "author": {
+        "name": "Budna Marketplace AB",
+        "email": "support@budna.se",
+        "url": "https://budna.se"
+      }
     }
   ]
 }
