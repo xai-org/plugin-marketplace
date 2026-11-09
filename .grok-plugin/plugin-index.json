@@ -1184,6 +1184,23 @@
         ]
       }
     },
+    "saascity": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "saascity",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "launch-plan",
+            "description": "Plan a SaaS, AI or developer-tool launch with the SaaSCity MCP server. Audit the homepage the way directory scrapers se…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
