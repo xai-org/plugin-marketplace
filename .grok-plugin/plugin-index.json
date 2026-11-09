@@ -668,6 +668,24 @@
         ]
       }
     },
+    "meridian": {
+      "sha": "25e8c5956b125f4a03c6914d7f4f923a4a57618f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "meridian",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "meridian",
+            "description": "Use when the user asks about their Meridian projects, risks, milestones, change requests, status reports, stakeholders,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "341268561baaff256927c931ec8215dbd30e3cee",
       "version": "0.0.197",
