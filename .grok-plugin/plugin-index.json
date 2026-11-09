@@ -634,6 +634,28 @@
         ]
       }
     },
+    "getyoutubetranscript": {
+      "sha": "f8c00d9f917d87739d201e60a8da91a97e423bd6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "getyoutubetranscript",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "youtube-research",
+            "description": "Use when the user wants to find YouTube videos or channels on a topic, browse a channel's uploads, playlists, Shorts, l…"
+          },
+          {
+            "name": "youtube-transcript",
+            "description": "Use when the user shares a YouTube link or video ID and wants its transcript, a summary, notes, quotes, timestamps, a t…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
