@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "airprompter",
+      "description": "Run, create, and improve your saved AirPrompter prompts and workflows from Grok Build. Sign in with your AirPrompter account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airprompter/airprompter-grok-plugin.git",
+        "sha": "6656134e2bbd5a9d06b8f33cb382c5fb555d426c"
+      },
+      "homepage": "https://airprompter.com",
+      "keywords": [
+        "airprompter",
+        "air prompter",
+        "airprompter workflow",
+        "airprompter skill",
+        "airprompter prompt"
+      ],
+      "domains": [
+        "airprompter.com",
+        "app.airprompter.com",
+        "mcp.airprompter.com"
+      ]
     }
   ]
 }
