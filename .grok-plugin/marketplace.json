@@ -495,12 +495,12 @@
       "source": {
         "source": "url",
         "url": "https://github.com/budna-marketplace/plugins.git",
-        "sha": "65a3edbf8e55a23e79b5626448e38ae0c67f1546"
+        "sha": "6cbd5727d0efcbef1ff9c4d2fbce908424120bde"
       },
       "homepage": "https://budna.se",
       "keywords": ["budna", "budna marketplace", "budna second-hand"],
       "domains": ["budna.se", "api.budna.se"],
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Budna Marketplace AB",
         "email": "support@budna.se",
