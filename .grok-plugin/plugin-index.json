@@ -1414,6 +1414,23 @@
         ]
       }
     },
+    "tap-giving": {
+      "sha": "940426e6bb567ee396e0fbacdd540b7e57d554cd",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tap-giving",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "nfc-tap-builder",
+            "description": "Design and order custom NFC tap discs for an organization through the Tap.Giving MCP server (NFC Tap Builder by Tap.Giv…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
       "version": "1.0.0",
