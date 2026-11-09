@@ -6,6 +6,27 @@
   },
   "plugins": [
     {
+      "name": "relaydesk",
+      "description": "Connect Grok Build to computers, servers, and VMs you own or administer through RelayDesk's hosted OAuth MCP service.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mave-studios/relaydesk-grok-plugin.git",
+        "sha": "7860ec47c1d923ed7b9fee5a5810c04b42dd85d7"
+      },
+      "homepage": "https://getrelaydesk.space",
+      "keywords": [
+        "relaydesk",
+        "relay desk",
+        "relaydesk mcp",
+        "relaydesk remote computer"
+      ],
+      "domains": [
+        "getrelaydesk.space",
+        "relay-desk-mjq6.vercel.app"
+      ]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
