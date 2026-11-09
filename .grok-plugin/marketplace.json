@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "leapmemory",
+      "description": "LeapMemory gives your assistant a permanent memory of you, across every chat. Say something once and it is recalled in every future conversation, in the exact words, in any of 19 languages. One memory works across Grok Bot, Claude, Cursor and any MCP client. Each person's memory lives in its own physically isolated store. Standing rules are followed in every chat. Recall is free and unlimited, and the Free plan includes 30 memories a month.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/leapmemory"
+      },
+      "homepage": "https://leapmemory.com",
+      "keywords": [
+        "leapmemory",
+        "leap memory",
+        "leapmemory mcp"
+      ],
+      "domains": [
+        "leapmemory.com",
+        "app.leapmemory.com",
+        "api.leapmemory.com"
+      ]
     }
   ]
 }
