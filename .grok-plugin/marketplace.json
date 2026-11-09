@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "amnitex",
+      "version": "0.3.4",
+      "description": "Lossless local byte-page memory for MCP assistants in native Gold/Helium: exact-match nonce lookup through an RGBA texture LUT with complete match paging, line-range recall and exact-string mode; stores every conversation turn for exact recall.",
+      "author": {
+        "name": "Amniscient, LLC",
+        "url": "https://amni-scient.com"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Amnibro/amnitex.git",
+        "sha": "d4dffaf553f0e26e0c6bd929ce1e814b1e680eda"
+      },
+      "homepage": "https://amni-scient.com/amnitex-lut.html",
+      "keywords": ["amnitex", "atex", "amni-scient"],
+      "domains": ["amni-scient.com"]
     }
   ]
 }
