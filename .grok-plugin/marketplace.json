@@ -487,6 +487,34 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sofia",
+      "description": "Sofia social media assistant for independent businesses (hosted MCP server + skill). Draft, schedule and publish posts on the networks connected in Sofia, reuse the media library, prepare campaign plans for review and read publication statistics. Sign in with your Sofia account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/sofia"
+      },
+      "homepage": "https://www.sofia-post.com",
+      "keywords": [
+        "sofia-post",
+        "sofia post",
+        "sofia social media",
+        "sofia mcp"
+      ],
+      "domains": [
+        "sofia-post.com",
+        "www.sofia-post.com",
+        "app.sofia-post.com",
+        "mcp.sofia-post.com"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "BADJI DIGITAL SERVICES",
+        "email": "support@sofia-post.com",
+        "url": "https://www.sofia-post.com"
+      }
     }
   ]
 }
