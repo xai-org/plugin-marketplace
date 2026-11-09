@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postmately",
+      "description": "Social media autopilot. Turn a website or topic into a month of posts, carousels and short videos, approve them, then schedule and publish to TikTok, YouTube, Instagram, Telegram, VK and more through the Postmately MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YakovlevCoded/postmately-smm-autopilot.git",
+        "sha": "41aa87b455af70e7a92e589a2c4fb51ac31238f4"
+      },
+      "homepage": "https://postmately.com/en/mcp-social-media/",
+      "keywords": ["postmately", "postmately mcp", "smm autopilot"],
+      "domains": ["postmately.com"]
     }
   ]
 }

@@ -930,6 +930,24 @@
         ]
       }
     },
+    "postmately": {
+      "sha": "41aa87b455af70e7a92e589a2c4fb51ac31238f4",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postmately",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "smm-autopilot",
+            "description": "Run social media on autopilot for a small business. Turn a website or a topic into a month of posts, carousels and vide…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
