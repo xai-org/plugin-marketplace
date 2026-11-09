@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "blindpay",
+      "description": "Official BlindPay integration (MCP Server). Look up and run stablecoin payouts, payins, quotes and transfers, and manage customers, through BlindPay's hosted MCP server, with a full endpoint and a read-only one, over OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/blindpaylabs/blindpay-mcp.git",
+        "sha": "c66210f9bce763f16a5ac1263504c62f57794855"
+      },
+      "homepage": "https://blindpay.com/mcp",
+      "keywords": ["blindpay", "blindpay mcp", "blindpay payments", "blindpay payouts", "blindpay stablecoin"],
+      "domains": ["blindpay.com", "app.blindpay.com", "api.blindpay.com", "mcp.blindpay.com"]
     }
   ]
 }
