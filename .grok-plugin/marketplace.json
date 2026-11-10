@@ -490,12 +490,12 @@
     },
     {
       "name": "moose-tracker",
-      "description": "Moose Tracker MCP gives your assistant a real synthesizer and music tracker. Your assistant writes notes in a compact text format; Moose Tracker's engine plays them (analog-style and FM synthesis, samples and drum kits). Eight tools cover sound effects, song writing, WAV/Ogg/Opus render, light and deep analysis, and a composition guidance library. No sign-in. We do not keep your song text.",
+      "description": "Moose Tracker MCP gives your assistant a real synthesizer and music tracker. Your assistant writes notes in a compact text format; Moose Tracker's engine plays them (analog-style and FM synthesis, samples and drum kits). Eight tools cover sound effects, song writing, WAV/Ogg/Opus render, light and deep analysis, and a composition guidance library. No sign-in. Song text is kept for 2 hours as a working copy, then deleted.",
       "category": "media",
       "source": {
         "source": "url",
         "url": "https://github.com/moose-tracker/moose-tracker-plugin.git",
-        "sha": "8af62c8c124e6f04e1f8d141fbb672219216721b"
+        "sha": "3db14834a7351e7ecb21f666bb10439be9bb66ab"
       },
       "homepage": "https://moosetracker.app/about.html",
       "keywords": ["moose tracker", "moosetracker", "moose tracker synth", "moose tracker music tracker", "moose tracker chiptune"],
