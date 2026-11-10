@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "schedchie",
+      "description": "Official Schedchie plugin for Grok Build. Schedule, post and cross-post to TikTok, Instagram, LinkedIn, Facebook, YouTube, X, Threads, Pinterest, Bluesky and Google Business Profile, then reschedule, fix failed posts, read analytics and run approvals, through the hosted Schedchie MCP server. Sign in with your Schedchie account in the browser; no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/schedchie/plugins.git",
+        "sha": "1f9289798e0b22049f5dea6ea5064c4f6d00123a"
+      },
+      "homepage": "https://www.schedchie.com/ai",
+      "keywords": [
+        "schedchie",
+        "schedchie mcp",
+        "schedchie scheduler"
+      ],
+      "domains": [
+        "schedchie.com",
+        "www.schedchie.com",
+        "mcp.schedchie.com"
+      ],
+      "author": {
+        "name": "Schedchie",
+        "url": "https://www.schedchie.com"
+      }
     }
   ]
 }
