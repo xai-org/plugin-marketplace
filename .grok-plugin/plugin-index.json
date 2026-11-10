@@ -634,6 +634,80 @@
         ]
       }
     },
+    "guaardvark": {
+      "sha": "b5326ac9d6de457ccee29d41d1ef3b67cb246ae5",
+      "version": "3.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "guaardvark",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cast",
+            "description": "Build consistent characters, environments and props in Guaardvark's Cast Library and train LoRAs for them locally (refe…"
+          },
+          {
+            "name": "code",
+            "description": "Code intelligence over repositories Guaardvark has indexed: semantic code search, exact-text search, file listing, Page…"
+          },
+          {
+            "name": "film-crew",
+            "description": "Run Guaardvark's five-role Film Crew locally: screenwriter, casting (Cast Library LoRAs), cinematographer storyboards,…"
+          },
+          {
+            "name": "image",
+            "description": "Generate or edit images on the user's own GPU through Guaardvark: single images, instruction edits, background cut-outs…"
+          },
+          {
+            "name": "knowledge",
+            "description": "Answer from the user's own indexed documents with Guaardvark's local RAG, browse and read indexed files section by sect…"
+          },
+          {
+            "name": "models",
+            "description": "Add any Hugging Face image or video model, checkpoint or LoRA to Guaardvark from a URL, list what is installed, and dow…"
+          },
+          {
+            "name": "music",
+            "description": "Generate full songs with vocals or instrumentals (ACE-Step) and sound effects or ambience (Stable Audio Open) on the us…"
+          },
+          {
+            "name": "music-video",
+            "description": "Turn a song into a beat-synced music video with Guaardvark's Director: song analysis, per-cut shot prompts, storyboard…"
+          },
+          {
+            "name": "ops",
+            "description": "Operate a running Guaardvark: GPU and VRAM state, plugin start/stop, logs, Celery tasks, the Interconnector sync to oth…"
+          },
+          {
+            "name": "outreach",
+            "description": "Draft and review social outreach with Guaardvark's supervised outreach system (Reddit, YouTube, Discord, Facebook): gro…"
+          },
+          {
+            "name": "setup",
+            "description": "Connect this agent to a running Guaardvark (self-hosted AI studio) and check what it can do right now. Use first when t…"
+          },
+          {
+            "name": "swarm",
+            "description": "Launch and watch Guaardvark's Swarm Orchestrator: parallel coding agents, each in its own git worktree, working a markd…"
+          },
+          {
+            "name": "upscale",
+            "description": "Upscale images and video 2x to 4K/8K on the user's GPU through Guaardvark (Real-ESRGAN, HAT-L, SwinIR, two-pass). Use w…"
+          },
+          {
+            "name": "video",
+            "description": "Generate video clips on the user's own GPU through Guaardvark: text-to-video, image-to-video, first+last frame animatio…"
+          },
+          {
+            "name": "voice",
+            "description": "Narration and text-to-speech on the user's machine through Guaardvark's Audio Foundry (Chatterbox, Kokoro, Piper) and c…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

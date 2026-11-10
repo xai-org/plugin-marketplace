@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "guaardvark",
+      "description": "Drive a self-hosted Guaardvark studio: images, video, songs, narration and Film Crew on your NVIDIA GPU.",
+      "category": "media",
+      "homepage": "https://guaardvark.com",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/guaardvark/guaardvark-plugin.git",
+        "sha": "b5326ac9d6de457ccee29d41d1ef3b67cb246ae5"
+      },
+      "keywords": ["guaardvark"],
+      "domains": ["guaardvark.com"]
     }
   ]
 }
