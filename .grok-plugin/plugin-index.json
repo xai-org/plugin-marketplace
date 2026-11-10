@@ -1230,7 +1230,59 @@
         ]
       }
     },
-    "skyvern": {
+        "ship24": {
+      "sha": "5cc31e9aa6816c8f0a3c2be6fecc77b7b6f186ff",
+      "version": "1.0.0",
+      "components": {
+        "agents": [
+          {
+            "name": "ship24-integration-reviewer",
+            "description": "Read-only audit of an existing Ship24 Tracking API integration. Use when asked to review, audit, check or harden code t…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "ship24-tracking",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ship24-couriers",
+            "description": "Ship24 courier codes, courier auto-detection and per-courier required fields. Use when asked \"which courier code for <c…"
+          },
+          {
+            "name": "ship24-integration",
+            "description": "Integrate the Ship24 Tracking API into a codebase end to end. Use when asked to \"add Ship24\", \"integrate Ship24\", \"inte…"
+          },
+          {
+            "name": "ship24-node-sdk",
+            "description": "Use the official Ship24 npm package in TypeScript or Node.js. Triggers include \"Ship24 Node SDK\", \"ship24 npm package\",…"
+          },
+          {
+            "name": "ship24-track",
+            "description": "Look up a parcel or shipment right now with the Ship24 Tracking API. Use when asked \"track this package\", \"where is my…"
+          },
+          {
+            "name": "ship24-tracking-statuses",
+            "description": "Map Ship24 tracking statuses to application logic using statusMilestone, statusCode and statusCategory. Use when asked…"
+          },
+          {
+            "name": "ship24-troubleshooting",
+            "description": "Diagnose Ship24 Tracking API problems from the symptom. Use when asked about a Ship24 error, a 400, 401, 403, 422 or 42…"
+          },
+          {
+            "name": "ship24-webhook-test",
+            "description": "Test and debug a Ship24 webhook receiver end to end. Use when asked to test your webhook, simulate tracking updates, re…"
+          },
+          {
+            "name": "ship24-webhooks",
+            "description": "Build a correct Ship24 webhook receiver in any language. Use when asked to receive Ship24 tracking updates, build a web…"
+          }
+        ]
+      }
+    },
+"skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
       "components": {
