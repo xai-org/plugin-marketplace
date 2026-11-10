@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "olachillbus",
+      "description": "OlaChill Bus: coaches, minibuses and vans with a professional driver for groups in the Schengen area of Europe. Read-only MCP: countries served, which vehicle fits a group and its luggage, and where to request a quote on olachillbus.com. It never books or takes payment.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dang13021993/olachillbus-plugin.git",
+        "sha": "f2e01da9f40d9293df162a65cb453d1ecbbedc4e"
+      },
+      "homepage": "https://olachillbus.com",
+      "keywords": ["olachill bus", "olachillbus"],
+      "domains": ["olachillbus.com"]
     }
   ]
 }
