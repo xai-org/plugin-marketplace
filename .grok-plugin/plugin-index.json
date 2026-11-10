@@ -247,8 +247,8 @@
       }
     },
     "cloudflare": {
-      "sha": "1a33048817d06df12882cb881dfc754e7039954a",
-      "version": "1.0.3",
+      "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
+      "version": "1.0.4",
       "components": {
         "mcpServers": [
           {
@@ -1249,8 +1249,8 @@
       }
     },
     "stripe": {
-      "sha": "5091f72943e6cb4ca439c98ee4783d6085de1318",
-      "version": "0.9.38",
+      "sha": "43d4af6847eebf4987576e074d7052d750e8750d",
+      "version": "0.9.44",
       "components": {
         "agents": [
           {
@@ -1341,8 +1341,8 @@
       }
     },
     "superpowers": {
-      "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
-      "version": "7.0.1",
+      "sha": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "version": "7.0.2",
       "components": {
         "hooks": [
           {
@@ -1415,8 +1415,8 @@
       }
     },
     "tavily": {
-      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
-      "version": "1.0.0",
+      "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11",
+      "version": "2.3.0",
       "components": {
         "mcpServers": [
           {
@@ -1426,43 +1426,35 @@
         ],
         "skills": [
           {
-            "name": "academic-scientific-research",
-            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+            "name": "tavily-entity",
+            "description": "Fill in a company, person, or organization for a CRM from the web, using Tavily, including a CSV of rows the user alrea…"
           },
           {
-            "name": "investment-research-briefs",
-            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+            "name": "tavily-list",
+            "description": "Build a deduplicated table of matches for a set, using Tavily. The table is what search returned, not every match that…"
           },
           {
-            "name": "product-competitor-intelligence",
-            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+            "name": "tavily-monitor",
+            "description": "Build a Tavily search or extraction that runs on a cadence, with a saved baseline. Search monitors set max_age_hours to…"
           },
           {
-            "name": "sales-account-intelligence",
-            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+            "name": "tavily-research",
+            "description": "Research a topic in depth with Tavily. Use this skill when a question needs many sources gathered and weighed together:…"
           },
           {
-            "name": "tavily-best-practices",
+            "name": "tavily-sdk",
             "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
           },
           {
-            "name": "tavily-web",
-            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
-          },
-          {
-            "name": "threat-intelligence-enrichment",
-            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
-          },
-          {
-            "name": "vendor-risk-kyc-screening",
-            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+            "name": "tavily-search",
+            "description": "Use this skill whenever a task needs the web: searching for information, checking current facts or news, finding source…"
           }
         ]
       }
     },
     "tinyfish": {
-      "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
-      "version": "1.1.1",
+      "sha": "576b285dddc33b56fd11ce304570645735500660",
+      "version": "2.0.0",
       "components": {
         "mcpServers": [
           {
@@ -1484,16 +1476,20 @@
             "description": "Create a remote stealth Chrome session with TinyFish and control it over CDP. Use when the task needs programmatic brow…"
           },
           {
+            "name": "tinyfish-datasets",
+            "description": "Build a table of many entities found on the web with TinyFish Datasets — companies, products, places, people — each row…"
+          },
+          {
             "name": "tinyfish-monitor",
             "description": "Watch a web page or a web topic over time with TinyFish Monitors. Use when the user wants to track, watch, or be alerte…"
           },
           {
-            "name": "tinyfish-research",
-            "description": "Web research powered by TinyFish search and fetch. Use for any question needing current web information, and for deep r…"
+            "name": "tinyfish-web",
+            "description": "Choose between reading the web for free and acting on it at a cost with TinyFish. Use when a web task may need interact…"
           },
           {
-            "name": "tinyfish-web",
-            "description": "Pick the right TinyFish tool for a web task. Use when a request involves the live web — searching, reading pages, extra…"
+            "name": "tinyfish-websearch",
+            "description": "Free web search and page reading with TinyFish search and fetch_content. Use for any question needing current web infor…"
           }
         ]
       }
@@ -1517,8 +1513,8 @@
       }
     },
     "unity": {
-      "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d",
-      "version": "0.1.8-beta",
+      "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
+      "version": "0.1.9-beta",
       "components": {
         "skills": [
           {
@@ -1527,7 +1523,7 @@
           },
           {
             "name": "asset-transformer-toolkit",
-            "description": "Imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, edits, and runs RuleSe…"
+            "description": "In the Unity Editor, imports 3D models and point clouds with Asset Transformer Toolkit (formerly Pixyz), and creates, e…"
           },
           {
             "name": "audio-setup-mixers",
@@ -1539,7 +1535,19 @@
           },
           {
             "name": "build-live-game",
-            "description": "Builds and operates live games with Unity Services. Use when the user asks about backend or live-ops features such as p…"
+            "description": "Builds and operates a live game's backend with Unity Gaming Services. Make sure to use this skill when the user wants t…"
+          },
+          {
+            "name": "craft-game-floors",
+            "description": "Makes a Unity game look and feel finished: art style, lighting, juice, sound, menus, saves and look scoring. Use when b…"
+          },
+          {
+            "name": "create-2d-physics",
+            "description": "Creates and fixes Unity 2D physics in both systems, 2D Physics Core and the legacy Rigidbody 2D system. Use when the us…"
+          },
+          {
+            "name": "create-tile-palette-or-rule-tiles",
+            "description": "Create a 2D tile palette from sprites or textures, or make tiles change based on their neighbours. Use for tile palette…"
           },
           {
             "name": "generate-editor-search-query",
@@ -1583,7 +1591,7 @@
           },
           {
             "name": "optimize-web",
-            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads and faster load. Use when a web build is too large or stu…"
+            "description": "Optimizes Unity WebGL and WebGPU builds for smaller downloads, faster loading, and smoother browser performance. Use wh…"
           },
           {
             "name": "physics-3d-collision",
@@ -1610,18 +1618,6 @@
             "description": "Segments a Sprite texture into a 3x3 grid and outputs a pattern of cells matching the center cell's color. Use when the…"
           },
           {
-            "name": "tilemap-palette-create",
-            "description": "Creates a Tile Palette asset with a rectangular, hexagonal, or isometric Grid layout. Use when the user wants to organi…"
-          },
-          {
-            "name": "tilemap-ruletile-createempty",
-            "description": "Creates an empty RuleTile, HexagonalRuleTile, or IsometricRuleTile asset. Use only when the user wants a blank RuleTile…"
-          },
-          {
-            "name": "tilemap-ruletile-createfromsegment",
-            "description": "Creates RuleTiles from existing terrain or edge sprites so tiles auto-tile while painting, and converts sprite-segment-…"
-          },
-          {
             "name": "ui",
             "description": "Routes Unity UI requests to the right framework skill (UI Toolkit, uGUI, or IMGUI) and answers UI comparison questions.…"
           },
@@ -1643,7 +1639,7 @@
           },
           {
             "name": "unity-package-management",
-            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor. Use for headless or CI package ins…"
+            "description": "Adds, removes, upgrades, and discovers Unity (UPM) packages from outside the Editor, with the Pipeline package commands…"
           },
           {
             "name": "urp-postprocessing",
@@ -1869,8 +1865,8 @@
       }
     },
     "wix": {
-      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
-      "version": "1.41.0",
+      "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
+      "version": "1.41.3",
       "components": {
         "mcpServers": [
           {
