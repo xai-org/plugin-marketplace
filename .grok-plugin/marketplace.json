@@ -222,7 +222,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "01275f7490d8195ccc9e30831d04580711000ca9"
+        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": [
@@ -323,8 +323,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
       },
       "homepage": "https://www.tavily.com",
       "keywords": [
@@ -387,7 +387,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "7882018f33773950265a9613d12e963853cfb526",
+        "sha": "d8e14797c726086c4376f576f6fb7cbb908e5f15",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -556,7 +556,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "341268561baaff256927c931ec8215dbd30e3cee"
+        "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": [
