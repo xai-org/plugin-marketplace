@@ -881,6 +881,24 @@
         ]
       }
     },
+    "olahome": {
+      "sha": "3e610358cdb1cea02daa3538046ee594b3c5bacd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "olahome",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "olahome",
+            "description": "Use when the user is looking for a home to rent in Japan as a foreign resident - searching public OlaHome listings, ope…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {
