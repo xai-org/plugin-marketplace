@@ -1230,7 +1230,7 @@
         ]
       }
     },
-        "ship24": {
+    "ship24": {
       "sha": "5cc31e9aa6816c8f0a3c2be6fecc77b7b6f186ff",
       "version": "1.0.0",
       "components": {
@@ -1282,7 +1282,7 @@
         ]
       }
     },
-"skyvern": {
+    "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
       "components": {
