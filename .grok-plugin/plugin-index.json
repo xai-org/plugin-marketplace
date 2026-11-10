@@ -668,6 +668,36 @@
         ]
       }
     },
+    "mentionedon": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mentionedon",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mentionedon-answer-capture",
+            "description": "Prepare a repeatable log and prompt set for actual AI-answer captures supplied by the user, preserving assistant surfac…"
+          },
+          {
+            "name": "mentionedon-discovery-evidence",
+            "description": "Use when a user wants to assess supplied AI-discovery signals, prioritize visibility gaps, or summarize dated model-cap…"
+          },
+          {
+            "name": "mentionedon-visibility-review",
+            "description": "Review a connected MentionedOn business’s saved AI visibility, competitors and comparable changes, or identify the next…"
+          },
+          {
+            "name": "mentionedon-website-fixes",
+            "description": "Inspect an owned business website, save schema and copy from confirmed facts, and verify that reviewed MentionedOn fixe…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",

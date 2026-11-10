@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mentionedon",
+      "description": "Review supplied discovery evidence and connected visibility reports, prepare website fixes, and organize actual AI-answer captures.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/mentionedon"
+      },
+      "homepage": "https://mentioned-on.com/developers/mcp",
+      "keywords": [
+        "mentionedon"
+      ],
+      "domains": [
+        "mentioned-on.com"
+      ],
+      "version": "1.3.0",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
