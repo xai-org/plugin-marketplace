@@ -1230,6 +1230,56 @@
         ]
       }
     },
+    "simplevox": {
+      "sha": "ed46e4a7b40a65924fc2a071d7c22ea6f0da8bef",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "simplevox",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "simplevox",
+            "description": "Use for anything about the person's SimpleVox business phone - calls, voicemail, texts, contacts, missed calls, follow-…"
+          },
+          {
+            "name": "simplevox-activity",
+            "description": "Report SimpleVox call and text activity over a period - totals, answered, missed, voicemail, texts sent - compared with…"
+          },
+          {
+            "name": "simplevox-call",
+            "description": "Place a SimpleVox call for the person - SimpleVox rings their own phone or browser first, says who it is calling when t…"
+          },
+          {
+            "name": "simplevox-catch-up",
+            "description": "Give the person a short, read-only SimpleVox briefing of who called and texted, who still needs a reply, unread texts a…"
+          },
+          {
+            "name": "simplevox-contacts",
+            "description": "Find, save and update the shared SimpleVox contacts for the person's business. Use for \"find Mary's number\", \"who is +1…"
+          },
+          {
+            "name": "simplevox-find-and-quote",
+            "description": "Find what a customer said in SimpleVox calls, voicemail or texts and quote it exactly with a link to the source. Use fo…"
+          },
+          {
+            "name": "simplevox-follow-ups",
+            "description": "Find SimpleVox missed calls and voicemails nobody has answered, work out what each caller wanted, draft one reply per c…"
+          },
+          {
+            "name": "simplevox-setup",
+            "description": "Explain the person's SimpleVox setup - their numbers, timezone, what this connection may do, missing setup steps, busin…"
+          },
+          {
+            "name": "simplevox-text",
+            "description": "Draft or send a text from the person's SimpleVox business number, with the recipient, line and exact text confirmed fir…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
