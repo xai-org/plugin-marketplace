@@ -646,6 +646,22 @@
         ]
       }
     },
+    "heycai-clinic-skills": {
+      "sha": "8866afdaf42213c89e3a53e73c8d9dd6c4a24a24",
+      "version": "1.0.1",
+      "components": {
+        "skills": [
+          {
+            "name": "clinic-front-desk-audit",
+            "description": "Estimates how much revenue a health clinic of any specialty loses each month to unanswered phone calls, WhatsApp messag…"
+          },
+          {
+            "name": "clinic-website-ai-search",
+            "description": "Audits the website of a health clinic of any specialty and fixes what keeps it from ranking on Google and from being re…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",

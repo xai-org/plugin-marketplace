@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "heycai-clinic-skills",
+      "description": "Clinic audits from HeyCAi, the AI receptionist for health clinics: estimate what a clinic's front desk loses to missed calls, WhatsApp and no-shows, and audit a clinic website for Google and AI search.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heycai-ai/skills.git",
+        "sha": "8866afdaf42213c89e3a53e73c8d9dd6c4a24a24"
+      },
+      "homepage": "https://www.heycai.ai",
+      "keywords": [
+        "heycai",
+        "heycai clinic",
+        "heycai clinic skills"
+      ],
+      "domains": [
+        "heycai.ai"
+      ]
     }
   ]
 }
