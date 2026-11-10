@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "global-law",
+      "description": "Read the law of nearly every country on earth as it stood on any date, see which law changed each provision and when, and check legal citations, through Lexifina's free hosted Global law MCP server (read-only, no account or key).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lexifina/global-law-plugin.git",
+        "sha": "55665d47cc52d0483bf47fa7acc8773418bfc916"
+      },
+      "homepage": "https://github.com/lexifina/global-law-plugin",
+      "keywords": ["global law", "lexifina"],
+      "domains": ["global-law.lexifina.com", "lexifina.com"]
     }
   ]
 }

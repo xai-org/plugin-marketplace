@@ -634,6 +634,32 @@
         ]
       }
     },
+    "global-law": {
+      "sha": "55665d47cc52d0483bf47fa7acc8773418bfc916",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "global-law",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "citation-check",
+            "description": "Use when the user gives a text that cites legislation (a brief, contract, memo, judgment, email or article) and wants t…"
+          },
+          {
+            "name": "global-law",
+            "description": "Use for any question about what a law, statute, code, constitution, act or regulation says, said on a date, or requires…"
+          },
+          {
+            "name": "law-change-trace",
+            "description": "Use when the user asks how a provision or a body of law changed over time and why: \"what changed in art. 1 GG since 195…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
