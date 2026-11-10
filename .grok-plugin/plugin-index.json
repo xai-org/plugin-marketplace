@@ -1267,8 +1267,8 @@
       }
     },
     "stripe": {
-      "sha": "6b8065ed604e24092247ac690500613a9cef48bf",
-      "version": "0.9.43",
+      "sha": "43d4af6847eebf4987576e074d7052d750e8750d",
+      "version": "0.9.44",
       "components": {
         "agents": [
           {
@@ -1433,8 +1433,8 @@
       }
     },
     "tavily": {
-      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
-      "version": "1.0.0",
+      "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11",
+      "version": "2.3.0",
       "components": {
         "mcpServers": [
           {
@@ -1444,36 +1444,28 @@
         ],
         "skills": [
           {
-            "name": "academic-scientific-research",
-            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+            "name": "tavily-entity",
+            "description": "Fill in a company, person, or organization for a CRM from the web, using Tavily, including a CSV of rows the user alrea…"
           },
           {
-            "name": "investment-research-briefs",
-            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+            "name": "tavily-list",
+            "description": "Build a deduplicated table of matches for a set, using Tavily. The table is what search returned, not every match that…"
           },
           {
-            "name": "product-competitor-intelligence",
-            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+            "name": "tavily-monitor",
+            "description": "Build a Tavily search or extraction that runs on a cadence, with a saved baseline. Search monitors set max_age_hours to…"
           },
           {
-            "name": "sales-account-intelligence",
-            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+            "name": "tavily-research",
+            "description": "Research a topic in depth with Tavily. Use this skill when a question needs many sources gathered and weighed together:…"
           },
           {
-            "name": "tavily-best-practices",
+            "name": "tavily-sdk",
             "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
           },
           {
-            "name": "tavily-web",
-            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
-          },
-          {
-            "name": "threat-intelligence-enrichment",
-            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
-          },
-          {
-            "name": "vendor-risk-kyc-screening",
-            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+            "name": "tavily-search",
+            "description": "Use this skill whenever a task needs the web: searching for information, checking current facts or news, finding source…"
           }
         ]
       }
@@ -1873,8 +1865,8 @@
       }
     },
     "wix": {
-      "sha": "d168bc2ca76c1641b3273334542e479291c2b23d",
-      "version": "1.41.2",
+      "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
+      "version": "1.41.3",
       "components": {
         "mcpServers": [
           {
