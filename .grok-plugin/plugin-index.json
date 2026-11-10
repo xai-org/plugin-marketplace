@@ -110,6 +110,24 @@
         ]
       }
     },
+    "chatstack-app-cost-estimator": {
+      "sha": "771685a249c419a18dd5ea69c08cfb7c50e3f635",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chatstack-app-cost-estimator",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chatstack-app-cost-estimator",
+            "description": "Estimate app and AI solution development costs and hours, scope an MVP, and generate a software PRD (Product Requiremen…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
       "version": "1.12.0",
