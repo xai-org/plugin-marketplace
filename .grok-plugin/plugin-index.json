@@ -559,8 +559,8 @@
       }
     },
     "kinocut": {
-      "sha": "d5c29523948d1c10079bc371876ddd9d01571b49",
-      "version": "1.16.2",
+      "sha": "4fce86dd2b35ec7aaf904aa0df56438f844bef6c",
+      "version": "2.0.0",
       "components": {
         "mcpServers": [
           {
@@ -571,7 +571,7 @@
         "skills": [
           {
             "name": "kinocut",
-            "description": "Use when an agent must edit local video safely. Kinocut guards planning, FFmpeg operations, subtitles, audio, analysis,…"
+            "description": "Use when agents edit local video safely with Kinocut. MCP, Python, and CLI flows use profiles, receipts, and eyes-free…"
           },
           {
             "name": "kinocut-repurpose",

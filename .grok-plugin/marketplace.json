@@ -494,7 +494,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/KyaniteLabs/kinocut.git",
-        "sha": "d5c29523948d1c10079bc371876ddd9d01571b49",
+        "sha": "4fce86dd2b35ec7aaf904aa0df56438f844bef6c",
         "path": "plugins/kinocut"
       },
       "homepage": "https://kinocut.dev/",
@@ -506,7 +506,7 @@
       "domains": [
         "kinocut.dev"
       ],
-      "version": "1.16.2",
+      "version": "2.0.0",
       "author": {
         "name": "Kyanite Labs",
         "url": "https://github.com/KyaniteLabs"
