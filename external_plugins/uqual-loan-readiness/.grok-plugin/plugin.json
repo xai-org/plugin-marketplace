@@ -1,0 +1,20 @@
+{
+  "name": "uqual-loan-readiness",
+  "version": "1.0.0",
+  "description": "Deterministic mortgage DTI, home affordability, FHA vs Conventional comparison, 50-state down payment assistance screening, debt payoff simulation, and Loan Readiness Score 2.0 calculators powered by UQUAL.",
+  "author": {
+    "name": "UQUAL",
+    "email": "info@uqual.com",
+    "url": "https://uqual.com"
+  },
+  "homepage": "https://uqual.com/plugins/playground",
+  "license": "MIT",
+  "keywords": [
+    "uqual",
+    "uqual loan readiness",
+    "uqual mortgage",
+    "uqual dti",
+    "uqual mcp",
+    "loan readiness score"
+  ]
+}

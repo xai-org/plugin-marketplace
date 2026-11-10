@@ -1634,6 +1634,23 @@
         ]
       }
     },
+    "uqual-loan-readiness": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "uqual-loan-readiness",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "uqual-loan-readiness",
+            "description": "Deterministic mortgage DTI, home affordability, FHA vs Conventional comparison, 50-state HFA down payment assistance sc…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
       "version": "0.54.1",
