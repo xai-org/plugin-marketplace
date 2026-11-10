@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "regsentry",
+      "description": "Inspect authorized tracking and consent evidence, compare observations, and prepare remediation and evidence exports.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/regsentry"
+      },
+      "homepage": "https://regsentry.com/mcp-guide",
+      "keywords": [
+        "regsentry"
+      ],
+      "domains": [
+        "regsentry.com"
+      ],
+      "version": "1.2.2",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }

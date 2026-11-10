@@ -1184,6 +1184,24 @@
         ]
       }
     },
+    "regsentry": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "regsentry",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "regsentry-consent-evidence-review",
+            "description": "Inspect an authorized public website's tracking signals, compare observed consent phases, and prepare a practical evide…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
