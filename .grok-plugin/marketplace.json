@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postedly",
+      "description": "Prepare correspondence and owner-funded paper checks with private browser approval; track orders and reuse saved correspondence.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/postedly"
+      },
+      "homepage": "https://postedly.com/agents/connect",
+      "keywords": [
+        "postedly"
+      ],
+      "domains": [
+        "postedly.com"
+      ],
+      "version": "1.6.0",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }

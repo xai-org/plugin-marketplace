@@ -930,6 +930,48 @@
         ]
       }
     },
+    "postedly": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.6.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postedly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postedly-fax-document",
+            "description": "Fax the user\\u2019s actual finished PDF to one supported US number through Postedly, with final proof, quote and separa…"
+          },
+          {
+            "name": "postedly-handwritten-card",
+            "description": "Choose an available Postedly card and handwriting style, prepare the exact message and closing, and obtain private revi…"
+          },
+          {
+            "name": "postedly-mail-check",
+            "description": "Prepare a mailed paper check from the user’s own ready US checking account through Postedly, with a service-fee quote a…"
+          },
+          {
+            "name": "postedly-mail-letter",
+            "description": "Write and mail a finished letter or mail an existing PDF through Postedly, including supported US certified mail with t…"
+          },
+          {
+            "name": "postedly-saved-correspondence",
+            "description": "Save or reuse private Postedly contacts and correspondence drafts, find prior orders, or export recorded delivery evide…"
+          },
+          {
+            "name": "postedly-send-postcard",
+            "description": "Prepare two-sided postcard artwork from Postedly\\u2019s live template and obtain a quote and private browser approval f…"
+          },
+          {
+            "name": "postedly-track-orders",
+            "description": "Check existing Postedly orders and explain recorded payment, fulfillment, and delivery evidence. Use for order status,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
