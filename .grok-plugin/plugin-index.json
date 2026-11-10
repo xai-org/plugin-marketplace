@@ -930,6 +930,32 @@
         ]
       }
     },
+    "portravo": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "portravo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "portravo-prepare-takeoff",
+            "description": "Check trade availability and existing-credit cost, create an owned Portravo project, attach the actual plan PDF, and st…"
+          },
+          {
+            "name": "portravo-review-estimate",
+            "description": "Recover an existing Portravo takeoff, inspect source-linked quantities and unresolved scope, and download a reviewed, p…"
+          },
+          {
+            "name": "portravo-scope-questions",
+            "description": "Turn actual Portravo takeoff notes, unresolved lines and source gaps into an estimator checklist and draft clarificatio…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
