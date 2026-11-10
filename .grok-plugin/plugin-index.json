@@ -1248,6 +1248,32 @@
         ]
       }
     },
+    "soxoa": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "soxoa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "soxoa-automation-business-case",
+            "description": "Turn confirmed workflow assumptions and Soxoa calculations into a decision memo with illustrative capacity value and a…"
+          },
+          {
+            "name": "soxoa-automation-planning",
+            "description": "Choose an automation pilot, estimate illustrative capacity savings, or turn a supplied workflow into a practical prompt…"
+          },
+          {
+            "name": "soxoa-process-discovery",
+            "description": "Interview the user about recurring manual work and turn confirmed workload facts into an automation intake before estim…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d8e14797c726086c4376f576f6fb7cbb908e5f15",
       "version": "0.9.45",

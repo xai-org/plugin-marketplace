@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "soxoa",
+      "description": "Discover recurring workflows, estimate illustrative automation value, and prepare a practical pilot and business case.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/soxoa"
+      },
+      "homepage": "https://soxoa.com/mcp-guide",
+      "keywords": [
+        "soxoa"
+      ],
+      "domains": [
+        "soxoa.com"
+      ],
+      "version": "1.3.0",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
