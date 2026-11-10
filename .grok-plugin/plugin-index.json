@@ -647,8 +647,8 @@
       }
     },
     "heycai-clinic-skills": {
-      "sha": "e6e8bc7b3476f4a381228da22cea030762e96cad",
-      "version": "1.0.0",
+      "sha": "8866afdaf42213c89e3a53e73c8d9dd6c4a24a24",
+      "version": "1.0.1",
       "components": {
         "skills": [
           {
