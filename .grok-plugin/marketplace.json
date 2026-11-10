@@ -774,7 +774,7 @@
       "category": "commerce",
       "source": {
         "source": "url",
-        "url": "https://github.com/RyanShook/tap-giving-mcp.git",
+        "url": "https://github.com/Tap-Giving/tap-giving-mcp.git",
         "sha": "940426e6bb567ee396e0fbacdd540b7e57d554cd"
       },
       "homepage": "https://tap.giving",
