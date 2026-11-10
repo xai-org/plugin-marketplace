@@ -669,8 +669,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "341268561baaff256927c931ec8215dbd30e3cee",
-      "version": "0.0.197",
+      "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "version": "1.0.0",
       "components": {
         "skills": [
           {
