@@ -75,6 +75,24 @@
         ]
       }
     },
+    "brewpage": {
+      "sha": "967c738294e15c2a57e24c0fffed5b639d49fff3",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brewpage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brewpage-publish",
+            "description": "Publish HTML, markdown, text, any file, or a multi-file site to brewpage.app — free hosting with no sign-up. Paste text…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
