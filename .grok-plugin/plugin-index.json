@@ -669,8 +669,8 @@
       }
     },
     "magister-marketing": {
-      "sha": "820cec0a773855864845502eab73e4a5a4b37a05",
-      "version": "1.2.0",
+      "sha": "c0c9ae88125879c26106b248e52c3c08b3bfe1f7",
+      "version": "1.2.2",
       "components": {
         "mcpServers": [
           {
