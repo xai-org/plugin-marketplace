@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "intakra",
+      "description": "Review supplied buying evidence and owned account opportunities, and configure explicitly requested workspace changes.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/intakra"
+      },
+      "homepage": "https://intakra.com/agents",
+      "keywords": [
+        "intakra"
+      ],
+      "domains": [
+        "intakra.com"
+      ],
+      "version": "1.3.0",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
