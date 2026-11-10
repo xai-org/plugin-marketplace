@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "scrapfly",
+      "description": "Scrapfly is the web data and browser automation layer for agents working with live pages. Point it at any publicly accessible URL and get back clean, structured content, including from sites with no API and pages that are hard to retrieve reliably.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scrapfly/skills.git",
+        "sha": "5239828f96fd263c55fa28b8bd2c5eb0ede667c6"
+      },
+      "homepage": "https://scrapfly.io",
+      "keywords": ["scrapfly", "scrapfly scraper", "scrapfly extraction", "scrapfly cloud browser", "scrapfly mcp"],
+      "domains": ["scrapfly.io", "mcp.scrapfly.io"]
     }
   ]
 }
