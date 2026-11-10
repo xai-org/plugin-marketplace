@@ -863,6 +863,28 @@
         ]
       }
     },
+    "ocolta": {
+      "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+      "version": "1.0.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ocolta",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ocolta-review-document-signals",
+            "description": "Explain categorical signals from an existing purchased Ocolta document review, compare accessible summaries, or recover…"
+          },
+          {
+            "name": "ocolta-verification-follow-up",
+            "description": "Prepare neutral human follow-up questions from an Ocolta categorical result or user-described concern, without deciding…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ocolta",
+      "description": "Explain categorical document-review signals and prepare neutral human follow-up questions.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/johnarndt/soxoa-mcp-portfolio.git",
+        "sha": "b5c715f2873de7220fdb919e23d69e28035ba262",
+        "path": "plugins/ocolta"
+      },
+      "homepage": "https://app.ocolta.com/workspace/integrations",
+      "keywords": [
+        "ocolta"
+      ],
+      "domains": [
+        "app.ocolta.com"
+      ],
+      "version": "1.0.4",
+      "author": {
+        "name": "Soxoa LLC"
+      }
     }
   ]
 }
