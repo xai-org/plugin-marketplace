@@ -308,6 +308,19 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "instantly",
+      "description": "Instantly.ai sales engagement platform integration (MCP Server + Skills). Manage campaigns, leads, accounts, analytics, and email infrastructure — ~200 tools covering the full Instantly V2 API.",
+      "category": "business",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Instantly-ai/instantly-grok-submission.git",
+        "sha": "18fc28e67867f8eeaa955b1b8c26fd27ae65b407"
+      },
+      "homepage": "https://instantly.ai",
+      "keywords": ["instantly", "instantly.ai", "instantly mcp"],
+      "domains": ["instantly.ai", "app.instantly.ai"]
+    },
+    {
       "name": "datadog",
       "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
       "category": "observability",
