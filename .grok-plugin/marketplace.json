@@ -490,13 +490,13 @@
     },
     {
       "name": "vbnote",
-      "description": "Connect Grok Build to the vbnote test environment to browse and search notes and read summaries and transcripts.",
+      "description": "Connect Grok Build to Vb to browse and search notes and read summaries and transcripts.",
       "category": "productivity",
       "source": {
         "type": "local",
         "path": "./external_plugins/vbnote"
       },
-      "homepage": "https://owll.ai",
+      "homepage": "https://github.com/PeaceDuhuanan/vbnote-mcp",
       "keywords": ["vbnote", "vbnote mcp"]
     }
   ]
