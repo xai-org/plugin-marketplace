@@ -111,7 +111,7 @@
     },
     {
       "name": "axiom",
-      "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
+      "description": "Use Axiom in your coding agent to search logs, query metrics, and follow traces. Dig into production errors and slow requests, build dashboards, and set up alerts. Includes the Axiom MCP connection and skills for incident response, monitoring, and translating Splunk queries.",
       "category": "observability",
       "source": {
         "source": "url",
