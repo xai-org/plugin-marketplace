@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agentmart",
+      "description": "AgentMart integration (hosted MCP server + skills): ready, hosted parts for coding agents. A public webhook inbox URL, memory shared across sessions and machines, wake-up calls and schedules that fire after the session ends, uptime and heartbeat watch, a task queue, a form backend, share links, and tested code kits (Stripe subscriptions, Supabase auth, HTTP signatures). Searching the catalog is free with no sign-in; sign in with OAuth (one click, no password) to buy from a prepaid balance, only with the human's yes.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mustafaakmese/agentmart-plugins.git",
+        "sha": "d78e7b86f05bad13be9893a599c548dd55d291a0"
+      },
+      "homepage": "https://agentmart.ciphyr.ai",
+      "keywords": [
+        "agentmart",
+        "agentmart mcp",
+        "agentmart shop",
+        "agentmart catalog",
+        "agentmart code kits"
+      ],
+      "domains": ["agentmart.ciphyr.ai"],
+      "author": {
+        "name": "Ciphyr Tech OÜ",
+        "email": "support@ciphyr.ai",
+        "url": "https://agentmart.ciphyr.ai"
+      }
     }
   ]
 }
