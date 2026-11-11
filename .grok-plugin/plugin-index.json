@@ -1502,6 +1502,18 @@
         ]
       }
     },
+    "toolbox-pod": {
+      "sha": "5c8f46d6683aa1c04fd4ef1d9d5e65de58bbc233",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "toolbox-pod",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",
