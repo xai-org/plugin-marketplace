@@ -634,6 +634,23 @@
         ]
       }
     },
+    "haulforza": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "haulforza",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "haulforza",
+            "description": "Use the HaulForza MCP tools to look up trucking companies, loads, drivers and company financial summaries, and to creat…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
