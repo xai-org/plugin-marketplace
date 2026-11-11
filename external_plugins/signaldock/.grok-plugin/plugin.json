@@ -1,0 +1,10 @@
+{
+  "name": "signaldock",
+  "version": "1.3.0",
+  "description": "Market reports, earnings history, company research and portfolio analysis with optional read-only account access.",
+  "author": {
+    "name": "SignalDock"
+  },
+  "homepage": "https://www.signaldock.app/integrations",
+  "license": "SEE LICENSE IN LICENSE"
+}

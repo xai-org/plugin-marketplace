@@ -1238,6 +1238,17 @@
         ]
       }
     },
+    "signaldock": {
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "signaldock",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
