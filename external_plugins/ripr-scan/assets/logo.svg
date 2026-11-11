@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Ripr Scan">
+  <defs>
+    <linearGradient id="g" x1="96" y1="96" x2="928" y2="928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6D5EF6"/>
+      <stop offset="1" stop-color="#9A4BF0"/>
+    </linearGradient>
+  </defs>
+  <rect x="64" y="64" width="896" height="896" rx="208" fill="url(#g)"/>
+  <g stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" fill="#FFFFFF">
+    <line x1="512" y1="512" x2="512" y2="300"/>
+    <line x1="512" y1="512" x2="328" y2="656"/>
+    <line x1="512" y1="512" x2="696" y2="656"/>
+    <circle cx="512" cy="512" r="74" fill="#FFFFFF"/>
+    <circle cx="512" cy="300" r="50"/>
+    <circle cx="328" cy="656" r="50"/>
+    <circle cx="696" cy="656" r="50"/>
+  </g>
+</svg>
