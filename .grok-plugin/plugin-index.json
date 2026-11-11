@@ -668,6 +668,24 @@
         ]
       }
     },
+    "hubpost": {
+      "sha": "4d322f8d94407d88a31b779d6e6e4b9eac083eb6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hubpost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hubpost",
+            "description": "Schedule, publish and review social media posts with the HubPost MCP server. Use when the user asks to post or schedule…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",

@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hubpost",
+      "description": "Social media scheduler. Draft, schedule and publish posts to Instagram, TikTok, YouTube, Facebook, LinkedIn, X, Threads, Pinterest and Bluesky, and see how they performed, through the hosted HubPost MCP server and skill. Sign in with your HubPost account, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hubpost-co/hubpost-plugin.git",
+        "sha": "4d322f8d94407d88a31b779d6e6e4b9eac083eb6"
+      },
+      "homepage": "https://hubpost.co/mcp",
+      "keywords": ["hubpost", "hubpost mcp", "hubpost plugin", "hubpost social"],
+      "domains": ["hubpost.co", "mcp.hubpost.co"]
     }
   ]
 }
