@@ -764,6 +764,23 @@
         ]
       }
     },
+    "mugpipe-signals": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mugpipe-signals",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mugpipe-signals",
+            "description": "Use when the user asks about their website's Google Search Console or GA4 performance (clicks, impressions, CTR, rankin…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
