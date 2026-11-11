@@ -668,6 +668,28 @@
         ]
       }
     },
+    "hugeicons": {
+      "sha": "16870319916749a610239a91c7bce935136857f5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hugeicons",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hugeicons",
+            "description": "Find and use real Hugeicons icon names in any framework — React, Vue, Svelte, SolidJS, Angular, React Native and Flutte…"
+          },
+          {
+            "name": "hugeicons-migrate",
+            "description": "Migrate a project's icons to Hugeicons — from the deprecated hugeicons-react / @hugeicons/react-pro / hugeicons-react-n…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
