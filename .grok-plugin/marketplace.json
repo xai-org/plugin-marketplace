@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tokyocharterbus",
+      "description": "Tokyo Charter Bus: charter coaches, minibuses and private cars with driver in and from Tokyo. MCP: vehicle options, areas served, fare structure, and quote requests sent only after the user confirms; a quote request is never a booking.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/dang13021993/tokyocharterbus-plugin.git",
+        "sha": "c8e9855d1b7b41848b13221a46e620605423b7f9"
+      },
+      "homepage": "https://tokyocharterbus.com",
+      "keywords": ["tokyo charter bus", "tokyocharterbus"],
+      "domains": ["tokyocharterbus.com"]
     }
   ]
 }

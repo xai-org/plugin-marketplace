@@ -1502,6 +1502,24 @@
         ]
       }
     },
+    "tokyocharterbus": {
+      "sha": "c8e9855d1b7b41848b13221a46e620605423b7f9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tokyocharterbus",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tokyocharterbus",
+            "description": "Use when the user needs a charter coach, minibus or private car with driver in or from Tokyo - which vehicle fits a gro…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",
