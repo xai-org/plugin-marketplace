@@ -1460,6 +1460,18 @@
         ]
       }
     },
+    "thumblifyai": {
+      "sha": "066ed67edfbcac9d8fee65dcb4b61877ccf038ae",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "thumblifyai",
+            "description": "streamable-http"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
