@@ -889,6 +889,18 @@
         ]
       }
     },
+    "offerhunt": {
+      "sha": "df335abb7de1bddf60a3b97eab4ebd23eb520580",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "offerhunt",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {

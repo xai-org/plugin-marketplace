@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "offerhunt",
+      "description": "Official OfferHunt MCP for Grok Build. Search current US and Canada employer job openings, get personalized matches from your resume and confirmed preferences, save jobs, and record applications through OfferHunt's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry-the-nerd/offerhunt-grok-plugin.git",
+        "sha": "df335abb7de1bddf60a3b97eab4ebd23eb520580"
+      },
+      "homepage": "https://www.offerhunt.ai",
+      "keywords": [
+        "offerhunt",
+        "offerhunt jobs",
+        "offerhunt job search"
+      ],
+      "domains": [
+        "offerhunt.ai",
+        "www.offerhunt.ai"
+      ],
+      "version": "1.0.1",
+      "author": {
+        "name": "Fluey AI, Inc.",
+        "email": "contact@fluey.ai",
+        "url": "https://www.offerhunt.ai"
+      }
     }
   ]
 }
