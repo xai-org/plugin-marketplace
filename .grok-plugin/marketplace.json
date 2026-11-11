@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "cardworthscanner",
+      "description": "PSA/BGS/CGC trading card grading ROI calculator, 55/45 centering ratio inspector, and Pokemon/Yu-Gi-Oh/Sports TCG market price scanner via CardWorthScanner MCP.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AbigailDavised/cardworthscanner-mcp.git",
+        "sha": "1843a5ada4ff89199202474657274078ced2813e"
+      },
+      "homepage": "https://cardworthscanner.com",
+      "keywords": ["cardworthscanner", "psa grading", "pokemon cards", "card centering", "tcg roi", "mcp"],
+      "domains": ["cardworthscanner.com"],
+      "version": "1.0.2",
+      "author": {
+        "name": "Abigail Davised",
+        "email": "admin@cardworthscanner.com",
+        "url": "https://cardworthscanner.com"
+      }
     }
   ]
 }

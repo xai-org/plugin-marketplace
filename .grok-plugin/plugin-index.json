@@ -110,6 +110,24 @@
         ]
       }
     },
+    "cardworthscanner": {
+      "sha": "1843a5ada4ff89199202474657274078ced2813e",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cardworthscanner",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cardworthscanner",
+            "description": "AI-assisted trading card game (TCG) price scanner, PSA/BGS/CGC grading ROI calculator, and card border centering inspec…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
       "version": "1.13.0",
