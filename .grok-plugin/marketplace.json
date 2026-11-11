@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sendregistered",
+      "description": "Quote, send and track registered letters in Europe, the UK and the US from a PDF, with your approval before anything is posted.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sendregistered/sendregistered-mcp.git",
+        "sha": "7879596126e0e3502b88ebcf48ad7f57a0a87015"
+      },
+      "homepage": "https://sendregistered.com/developers/mcp",
+      "keywords": ["sendregistered", "sendregistered mcp", "sendregistered registered mail"],
+      "domains": ["sendregistered.com"]
     }
   ]
 }
