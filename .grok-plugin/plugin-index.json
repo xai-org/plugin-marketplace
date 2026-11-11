@@ -668,6 +668,24 @@
         ]
       }
     },
+    "local-seo-data": {
+      "sha": "eff3ab17c5b69e0e3aea74f39776980b3677eaa1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "localseodata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "local-seo-data",
+            "description": "Pull live local search data through the Local SEO Data MCP server: Google local pack, Maps, Local Finder and organic ra…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
