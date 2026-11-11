@@ -1192,6 +1192,24 @@
         ]
       }
     },
+    "schedchie": {
+      "sha": "d0dd77347c085ed9aedb5485965a53ade0faf9d0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "schedchie",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "schedchie",
+            "description": "The Schedchie MCP server after one OAuth sign-in. Posts, media, approvals and X credits on the user's own Schedchie acc…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",

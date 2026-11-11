@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "schedchie",
+      "description": "Official Schedchie plugin for Grok Build. Schedule, edit, retry and delete posts on Instagram, TikTok, LinkedIn, YouTube, Threads, Bluesky, Mastodon, WordPress and more, upload media by link, read analytics and run team approvals on your Schedchie accounts, through Schedchie's hosted MCP server. Sign in with your Schedchie account in the browser; no API key. Posting to X is extra.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/schedchie/plugins.git",
+        "sha": "d0dd77347c085ed9aedb5485965a53ade0faf9d0"
+      },
+      "homepage": "https://www.schedchie.com/ai",
+      "keywords": [
+        "schedchie",
+        "schedchie mcp",
+        "schedchie scheduler"
+      ],
+      "domains": [
+        "schedchie.com",
+        "www.schedchie.com",
+        "mcp.schedchie.com"
+      ],
+      "author": {
+        "name": "Schedchie",
+        "url": "https://www.schedchie.com"
+      }
     }
   ]
 }
