@@ -794,8 +794,8 @@
       }
     },
     "netlify": {
-      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
-      "version": "1.8.0",
+      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
+      "version": "1.9.0",
       "components": {
         "mcpServers": [
           {
@@ -863,6 +863,10 @@
           {
             "name": "netlify-mcp-servers",
             "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          },
+          {
+            "name": "netlify-server",
+            "description": "Build and deploy a long-lived Node.js backend on Netlify Server (Early Access) from netlify/server/index.ts. Use this s…"
           }
         ]
       }
