@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "devsense-php",
+      "description": "Semantic PHP workspace intelligence powered by DEVSENSE PHP Tools. Search symbols, find usages, explore call hierarchies, inspect diagnostics, and analyze Composer dependencies through a local MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DEVSENSE/devsense-php-grok-plugin.git",
+        "sha": "055685b0eccb4534b3f819ba59a5d2d3d0629b5a"
+      },
+      "homepage": "https://www.devsense.com/",
+      "keywords": [
+        "devsense",
+        "devsense php",
+        "devsense php tools",
+        "php tools",
+        "devsense php mcp",
+        "php language intelligence"
+      ],
+      "domains": [
+        "devsense.com",
+        "docs.devsense.com"
+      ]
     }
   ]
 }
