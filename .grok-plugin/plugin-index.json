@@ -1184,6 +1184,24 @@
         ]
       }
     },
+    "remotejobb": {
+      "sha": "687bbd8fb1fcc594a2d63664e7d18a9fe8eebc0e",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "remotejobb",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sok-jobb",
+            "description": "Search open jobs in Sweden with the Remotejobb connector. Use when the user is looking for a job, wants to see open pos…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
