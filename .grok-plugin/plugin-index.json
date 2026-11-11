@@ -111,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
-      "version": "1.12.0",
+      "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
+      "version": "1.13.0",
       "components": {
         "mcpServers": [
           {
@@ -140,6 +140,10 @@
           {
             "name": "debug-optimize-lcp",
             "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever…"
+          },
+          {
+            "name": "inspect-in-devtools",
+            "description": "Use this skill to connect to the Chrome DevTools UI for interactive debugging, UI/UX review, Q&A, showing elements/netw…"
           },
           {
             "name": "memory-leak-debugging",
