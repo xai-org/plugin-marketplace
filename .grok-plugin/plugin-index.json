@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "anyreach": {
+      "sha": "e15d3d31b0a7799e31bd316c8025d170638b78fd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anyreach",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
       "version": "1.2.1",
