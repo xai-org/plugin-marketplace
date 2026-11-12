@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
+        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
+        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
+        "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "7f0806af8ca1e368683bcc1f2d1ff7de805f3005"
+        "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "57dfe32936efc1fd4d5c7b6b73d1e4bfdd233e0f"
+        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
+        "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
+        "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -205,8 +205,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "d9c9287ae870688bb3703b50e59ef1dd3692ffcb",
+        "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
+        "sha": "576b285dddc33b56fd11ce304570645735500660",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4f2b13e25c5815b3f080ca0d983e828d96561a0f"
+        "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
@@ -473,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     },
     {
       "name": "ops-brain-bus",
