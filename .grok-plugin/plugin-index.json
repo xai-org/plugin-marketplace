@@ -768,6 +768,24 @@
         ]
       }
     },
+    "morphix": {
+      "sha": "b796e4dca90c149a16d984fdab709eb5f0c13081",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "morphix",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "morphix",
+            "description": "Generate images, video and speech audio, or upscale images and video, with the Morphix MCP server. Use when the user as…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

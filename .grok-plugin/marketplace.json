@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "morphix",
+      "description": "AI image, video and audio generator with upscaling. Generate images, videos and speech, and upscale images and videos up to 4K, through the hosted Morphix MCP server and skill. Sign in with your Morphix account, no API key needed.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/morphix-pro/morphix-plugin.git",
+        "sha": "b796e4dca90c149a16d984fdab709eb5f0c13081"
+      },
+      "homepage": "https://morphix.pro/mcp",
+      "keywords": ["morphix", "morphix mcp", "morphix plugin", "morphix ai"],
+      "domains": ["morphix.pro", "mcp.morphix.pro"]
     }
   ]
 }
