@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agent-qa",
+      "description": "Official agent-qa skills for authoring web/mobile QA, triaging run evidence, debugging failures and reading memidex knowledge. agent-qa provides persistent memory and validated self-improvement. FSL-1.1-ALv2 with competing-use restrictions; permitted local software is free, with model/runtime costs separate.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vostride/agent-qa.git",
+        "sha": "43618211636159a6fc6086cac90101e448ed8a63"
+      },
+      "homepage": "https://vostride.com",
+      "author": {
+        "name": "vostride"
+      },
+      "keywords": [
+        "agent-qa",
+        "vostride"
+      ],
+      "domains": [
+        "vostride.com"
+      ]
     }
   ]
 }
