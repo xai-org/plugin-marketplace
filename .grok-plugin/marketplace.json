@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "storyshort",
+      "description": "Draft, review and render narrated faceless story videos on your StoryShort account. Review the script and see the credit price before any render.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airdropfi/storyshort-cursor-kit.git",
+        "sha": "3bead5cbde7ee875d818b5217b6a116ae6da6af1"
+      },
+      "homepage": "https://storyshort.app",
+      "keywords": ["storyshort", "storyshort mcp", "storyshort video"],
+      "domains": ["storyshort.app"]
     }
   ]
 }
