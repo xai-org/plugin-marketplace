@@ -415,8 +415,8 @@
       }
     },
     "formstep": {
-      "sha": "44c70be85e591cdbed16eefa3939939998a97bb0",
-      "version": "1.1.0",
+      "sha": "9b770f560c124e1f4e3229c602d37edad8617e63",
+      "version": "1.2.2",
       "components": {
         "mcpServers": [
           {
@@ -427,7 +427,7 @@
         "skills": [
           {
             "name": "formstep-requests",
-            "description": "Ask a customer for information through Formstep and read the verified answers back. Use when you need a confirmation, a…"
+            "description": "Ask someone for information through Formstep and read the verified answers back, with a published form or one built in the same…"
           }
         ]
       }
