@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "catalogue-app",
+      "description": "Catalogue App (@catalogue_app) for Telegram: create a Telegram bot in one click without BotFather, make emoji and sticker packs, and search Telegram channels, chats, bots and mini apps.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vitalikgpt/catalogue-app-plugin.git",
+        "sha": "398b47be29bb4ccfbe02d0ffe4cbe865316187a1"
+      },
+      "homepage": "https://gramnews.org/studio",
+      "keywords": ["catalogue app", "catalogue_app", "@catalogue_app"],
+      "domains": ["gramnews.org"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Catalogue App",
+        "url": "https://t.me/catalogue_app"
+      }
     }
   ]
 }
