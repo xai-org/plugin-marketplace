@@ -1,6 +1,36 @@
 {
   "version": 1,
   "plugins": {
+    "aigarage": {
+      "sha": "c2c0943be90a6ac9f51f91de8c5c661365510297",
+      "version": "0.1.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentwikis",
+            "description": "http"
+          },
+          {
+            "name": "aigarage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentwikis",
+            "description": "Use when you need current, source-backed reference documentation for an AI or developer tool. Looks it up in Agent Wiki…"
+          },
+          {
+            "name": "aigarage",
+            "description": "Use when the user asks about AI agents, Hermes Agent, agent tooling, local models or anything AI Garage has covered. Fi…"
+          },
+          {
+            "name": "skill-from-content",
+            "description": "Use when the user asks to turn an AI Garage video or newsletter issue into a reusable skill. Writes a local skill in wh…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
