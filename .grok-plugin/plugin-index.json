@@ -672,6 +672,40 @@
         ]
       }
     },
+    "magister-marketing": {
+      "sha": "c0c9ae88125879c26106b248e52c3c08b3bfe1f7",
+      "version": "1.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "magister",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "magister-ai-visibility",
+            "description": "Track and report how a brand appears in AI-generated answers — ChatGPT, Claude, Gemini, Perplexity, and Google AI Overv…"
+          },
+          {
+            "name": "magister-analytics",
+            "description": "Answer questions about a brand's marketing performance from its connected Google Analytics, Search Console, Google Ads,…"
+          },
+          {
+            "name": "magister-marketing-plan",
+            "description": "Work a brand's Magister marketing plan — find the highest-priority task, read its brief, record progress, add or edit t…"
+          },
+          {
+            "name": "magister-paid-ads",
+            "description": "Review paid advertising performance and create new campaigns safely through Magister — Google Ads, Meta Ads, and TikTok…"
+          },
+          {
+            "name": "magister-social-publishing",
+            "description": "Draft, schedule, and publish social posts through Magister, and read post and follower analytics. Use when the user wan…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
