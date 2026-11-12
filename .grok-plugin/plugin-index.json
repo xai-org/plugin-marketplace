@@ -362,6 +362,23 @@
         ]
       }
     },
+    "devsense-php": {
+      "sha": "055685b0eccb4534b3f819ba59a5d2d3d0629b5a",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "devsense-php",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "php-workspace-intelligence",
+            "description": "Use DEVSENSE PHP Tools MCP to understand, navigate, analyze, and modify PHP workspaces. Trigger for PHP symbol lookup,…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
