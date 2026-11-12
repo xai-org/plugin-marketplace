@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "anyreach",
+      "description": "Anyreach is a platform for building AI agents that handle real customer conversations across channels — phone calls, web voice and chat, and email — for sales, support, scheduling, and surveys. You configure an agent once and deploy it to any channel, run it outbound at scale with campaigns, ground it in your own knowledge, and automate the work around it with programmable workflows. Connects to Anyreach's hosted MCP server; sign in with your Anyreach account, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anyreachai/agent-plugins.git",
+        "sha": "e15d3d31b0a7799e31bd316c8025d170638b78fd",
+        "path": "plugins/anyreach"
+      },
+      "homepage": "https://anyreach.ai",
+      "keywords": ["anyreach", "anyreach agents", "anyreach voice agents", "anyreach campaigns", "anyreach workflows"],
+      "domains": ["anyreach.ai"]
     }
   ]
 }
