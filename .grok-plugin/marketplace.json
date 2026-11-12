@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "chineseworksheet",
+      "description": "Printable Chinese handwriting worksheet grid geometry calculator, official Hanzi stroke order rules, HSK 3.0 vocabulary level analyzer, Mandarin Pinyin tone mark converter, and Kangxi radical decomposition via ChineseWorkSheet MCP.",
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AbigailDavised/chineseworksheet-mcp.git",
+        "sha": "c1fea3c5ac26159fff214642a954daffe489c91b"
+      },
+      "homepage": "https://chineseworksheet.com",
+      "keywords": ["chinese-worksheets", "hanzi", "hsk", "pinyin", "tian-zi-ge", "mcp"],
+      "domains": ["chineseworksheet.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "ChineseWorkSheet",
+        "email": "admin@chineseworksheet.com",
+        "url": "https://chineseworksheet.com"
+      }
     }
   ]
 }
