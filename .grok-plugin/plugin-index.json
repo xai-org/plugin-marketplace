@@ -901,8 +901,8 @@
       }
     },
     "ops-brain-bus": {
-      "sha": "d26a6d1bb4d80f92463e332c36c59a0f967f42ac",
-      "version": "0.1.0",
+      "sha": "cfae1956b3815877acfd4d08766b51b97422ab43",
+      "version": "0.3.1",
       "components": {
         "mcpServers": [
           {
