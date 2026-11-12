@@ -900,6 +900,18 @@
         ]
       }
     },
+    "patchwell": {
+      "sha": "175e779d85e476a1125e6d40410948afb6575ef7",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "patchwell",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
