@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "aigarage",
+      "description": "AI Garage's YouTube videos (answers link to the exact chapter), the AI Garage Weekly newsletter and the creator's own X posts, plus the Agent Wikis library of source-backed wikis, skills, agent tools and routines. Two hosted MCP servers on agentwikis.com and three skills; free without a key, optional Agent Wikis Pro key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tonbistudio/aigarage-plugin.git",
+        "sha": "c2c0943be90a6ac9f51f91de8c5c661365510297"
+      },
+      "homepage": "https://github.com/tonbistudio/aigarage-plugin",
+      "version": "0.1.7",
+      "author": { "name": "AI Garage", "url": "https://agentwikis.com" },
+      "keywords": ["ai garage", "aigarage", "ai garage weekly", "agent wikis", "agentwikis", "tonbi studio"],
+      "domains": ["agentwikis.com"]
     }
   ]
 }
