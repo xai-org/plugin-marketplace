@@ -768,6 +768,22 @@
         ]
       }
     },
+    "myeline": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "myeline",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "myeline-memory",
+            "description": "Persistent memory for AI agents, with receipts. Use when the user asks the agent to remember something across sessions,…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "myeline": {
+      "type": "http",
+      "url": "https://cortex.myeline.si/mcp"
+    }
+  }
+}
