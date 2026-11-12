@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "local-seo-data",
+      "description": "Local SEO Data integration (MCP server + skill). Check Google local pack, Maps and organic rankings, pull Business Profiles, reviews and Q&A, run local SEO, citation and reputation audits, research local keywords, scan rankings across a geographic grid, and measure brand visibility in AI answers. Sign in with your Local SEO Data account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/localseodata/mcp-server.git",
+        "sha": "eff3ab17c5b69e0e3aea74f39776980b3677eaa1",
+        "path": "grok"
+      },
+      "homepage": "https://localseodata.com/docs/mcp-server",
+      "keywords": ["local seo data", "localseodata"],
+      "domains": ["localseodata.com", "mcp.localseodata.com"],
+      "author": {
+        "name": "Local SEO Data",
+        "url": "https://localseodata.com"
+      }
     }
   ]
 }
