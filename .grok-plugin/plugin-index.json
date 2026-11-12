@@ -1256,6 +1256,28 @@
         ]
       }
     },
+    "storyshort": {
+      "sha": "3bead5cbde7ee875d818b5217b6a116ae6da6af1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "storyshort",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "make-a-story-short",
+            "description": "Turn a story idea into a narrated, captioned faceless short video on the user's StoryShort account. Agree the script sc…"
+          },
+          {
+            "name": "plan-a-drama-season",
+            "description": "Plan a multi-episode story series with a recurring fictional character on StoryShort before any episode is made. Draft…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
       "version": "0.9.46",
