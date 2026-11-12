@@ -1,0 +1,12 @@
+{
+  "name": "vbnote",
+  "version": "0.1.0",
+  "description": "Connect Grok Build to Vb to browse notes, folders, summaries, and transcripts.",
+  "author": {
+    "name": "Vb",
+    "url": "https://github.com/PeaceDuhuanan/vbnote-mcp"
+  },
+  "homepage": "https://github.com/PeaceDuhuanan/vbnote-mcp",
+  "license": "MIT",
+  "keywords": ["vbnote", "vbnote mcp"]
+}
