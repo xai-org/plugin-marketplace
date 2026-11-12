@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mrscraper",
+      "description": "MrScraper web scraping (MCP Server + Skills). Retrieve public web pages as HTML, Markdown, or screenshots through MrScraper's Scraper API, discover pages through web search, and check account token usage. Sign in with your MrScraper account through OAuth on first connection; no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mrscraper-com/mrscraper-grok-plugin.git",
+        "sha": "d7e635eef4cebb09d93103430cd8a027fec67760",
+        "path": "plugins/mrscraper"
+      },
+      "homepage": "https://docs.mrscraper.com/docs/getting-started/mcp-server",
+      "keywords": ["mrscraper", "mr scraper", "mrscraper mcp"],
+      "domains": ["mrscraper.com", "app.mrscraper.com", "docs.mrscraper.com"]
     }
   ]
 }
