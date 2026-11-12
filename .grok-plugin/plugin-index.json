@@ -1422,6 +1422,32 @@
         ]
       }
     },
+    "taskbullet-agent": {
+      "sha": "ae71b103fa8c2c808254b926be0ef7da1e39f74f",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taskbullet-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "escalate-to-va",
+            "description": "Escalate work a language model cannot finish to a TaskBullet human virtual assistant. Call get_balance first, state tha…"
+          },
+          {
+            "name": "place-human-call",
+            "description": "Place one US or Canada phone call with a TaskBullet human. Check get_balance, state the hold, wait for an explicit yes,…"
+          },
+          {
+            "name": "send-human-email",
+            "description": "Ask a TaskBullet human to send one email. Check the calls wallet, state the flat fee, wait for an explicit yes, validat…"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11",
       "version": "2.3.0",

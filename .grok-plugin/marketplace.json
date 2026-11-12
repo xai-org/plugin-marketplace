@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "taskbullet-agent",
+      "description": "Escalate unfinished agent work to a TaskBullet human virtual assistant, place US and Canada phone calls, and request a human-sent email, through TaskBullet's hosted MCP server. The user supplies their own TaskBullet API key. Nothing runs locally.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/taskbullet/taskbullet-agent-plugin.git",
+        "sha": "ae71b103fa8c2c808254b926be0ef7da1e39f74f"
+      },
+      "homepage": "https://taskbullet.com/docs/agent-api",
+      "keywords": ["taskbullet", "taskbullet agent", "taskbullet va", "taskbullet virtual assistant", "taskbullet phone call", "taskbullet mcp"],
+      "domains": ["taskbullet.com", "www.taskbullet.com"],
+      "author": {
+        "name": "TaskBullet",
+        "url": "https://taskbullet.com"
+      }
     }
   ]
 }
