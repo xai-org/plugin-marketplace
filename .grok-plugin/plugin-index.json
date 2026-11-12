@@ -1502,6 +1502,18 @@
         ]
       }
     },
+    "trading-signals-toolkit": {
+      "sha": "db4bac7c1c82321ac63d12a8065dfa66b0ef7e4c",
+      "version": "0.1.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trading-signals",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",
