@@ -1460,6 +1460,24 @@
         ]
       }
     },
+    "terminal-tax": {
+      "sha": "6a045d56072a18f4885bcef0b1f303f2669d6a95",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "terminal-tax",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "file-your-taxes",
+            "description": "E-file a tax return with the IRS through Terminal Tax, a paid e-file service. Collect the facts the user states and the…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",

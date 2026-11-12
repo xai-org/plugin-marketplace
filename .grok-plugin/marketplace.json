@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "terminal-tax",
+      "description": "Let Grok file your taxes directly with the IRS. Terminal Tax is tax software: your AI agent sends the facts, we calculate and e-file; you review and sign the return yourself on one private page. $19.99, charged only if the IRS accepts it. Terminal Tax LLC is an Authorized IRS e-file Provider.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/terminaltax/file-your-taxes.git",
+        "sha": "6a045d56072a18f4885bcef0b1f303f2669d6a95"
+      },
+      "homepage": "https://terminal.tax",
+      "keywords": ["terminal tax", "terminal.tax", "file with terminal tax"],
+      "domains": ["terminal.tax"]
     }
   ]
 }
