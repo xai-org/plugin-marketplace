@@ -1238,6 +1238,38 @@
         ]
       }
     },
+    "sfom-ai": {
+      "sha": "f723d50bf49d6342494c969ad33054bb56eaa83c",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "vet-creator",
+            "description": "Vet a creator before you pay them — measured stats and a CPM from your budget"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "sfom-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "creator-vetting",
+            "description": "Vet an Instagram, TikTok or YouTube creator before paying them — measured median views, engagement by views, reach per…"
+          },
+          {
+            "name": "niche-trends",
+            "description": "What is working right now in a niche on Instagram, TikTok and YouTube — the videos beating their own creator's norm, th…"
+          },
+          {
+            "name": "video-breakdown",
+            "description": "Explain why a specific Instagram Reel, TikTok or YouTube Short performed — views against the creator's own norm, hook,…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
