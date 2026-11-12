@@ -1,0 +1,14 @@
+{
+  "name": "automata",
+  "version": "1.3.2",
+  "description": "Scoped, revocable access to your WhatsApp, Telegram, IMAP email and PostgreSQL via the hosted Automata MCP server at mcp.getautomata.app. Read, search and summarise chats and mail, and query databases; sending messages, saving drafts and writing rows only when the connector token grants it.",
+  "author": {
+    "name": "Ju Li",
+    "url": "https://github.com/ju-li"
+  },
+  "homepage": "https://getautomata.app",
+  "repository": "https://github.com/ju-li/automata-mcp",
+  "license": "MIT",
+  "keywords": ["automata", "automata mcp", "getautomata"],
+  "logo": "assets/logo.svg"
+}

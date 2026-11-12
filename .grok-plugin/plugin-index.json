@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "automata": {
+      "version": "1.3.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "automata",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
