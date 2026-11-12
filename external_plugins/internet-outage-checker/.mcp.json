@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "findbroadband-outages": {
+      "type": "http",
+      "url": "https://www.findbroadbanddeals.com/api/mcp/outages"
+    }
+  }
+}
