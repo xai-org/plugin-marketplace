@@ -900,6 +900,24 @@
         ]
       }
     },
+    "pastdotdev": {
+      "sha": "de141cac62ae44daab61ce5851041815a6a48673",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pastdotdev",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pastdotdev-memory",
+            "description": "Recall decisions, people, preferences and earlier work from a past.dev project, with dated sources, and save what the p…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
