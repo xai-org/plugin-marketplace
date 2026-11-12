@@ -672,6 +672,28 @@
         ]
       }
     },
+    "make-parts-now": {
+      "sha": "26c5605cc8e0c5a675d3ad6dc18931b43157c95c",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "make-parts-now",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "quote",
+            "description": "Get an instant Make Parts Now quote for a CAD file (STL, STEP, 3MF or OBJ) - 3D printing (SLS nylon, FDM plastic) or CN…"
+          },
+          {
+            "name": "quote-parts",
+            "description": "Get instant 3D printing and CNC machining quotes, then order custom parts from a CAD file (STL, STEP, 3MF, OBJ) with Ma…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
