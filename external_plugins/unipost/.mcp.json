@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unipost": {
+      "type": "http",
+      "url": "https://mcp.unipost.ai/mcp",
+      "note": "UniPost's hosted MCP server. Uses browser-based OAuth on first connection; no API key or local helper is required."
+    }
+  }
+}
