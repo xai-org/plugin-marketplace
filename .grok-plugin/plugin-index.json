@@ -1874,6 +1874,40 @@
         ]
       }
     },
+    "welder-social-manager": {
+      "sha": "2f6b56721f69118ff45b4f8bdc4758235c80bfda",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "welder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "engage-audience",
+            "description": "Read comments on Welder posts, prepare replies for the user's review and publish authorized responses on networks that…"
+          },
+          {
+            "name": "get-started",
+            "description": "Connect Welder, identify available social accounts and establish a publishing, scheduling or performance review workflo…"
+          },
+          {
+            "name": "publish-content",
+            "description": "Publish user-approved videos, photos, carousels and text through Welder to connected social accounts, adapting each pos…"
+          },
+          {
+            "name": "review-performance",
+            "description": "Review social post performance in Welder, identify evidence-supported content opportunities and prepare the next publis…"
+          },
+          {
+            "name": "schedule-content",
+            "description": "Build a reviewable social content schedule, schedule approved posts through Welder, and cancel pending posts without du…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",
