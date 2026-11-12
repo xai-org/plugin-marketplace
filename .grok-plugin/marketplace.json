@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
+        "sha": "87e2262d07123c1549701ee0d104fe7623a335dc"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
