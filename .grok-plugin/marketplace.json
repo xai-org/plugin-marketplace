@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "remotejobb",
+      "description": "Search open jobs in Sweden from Remotejobb.se, a Swedish job board (hosted MCP server + skill). Search by keyword, city, category, company, employment type, salary, listing language and publication date, see which companies are hiring, and compare up to five full listings with apply links. Read-only, free, no account or API key. Works in English and Swedish.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/remotejobb-se/remotejobb-mcp.git",
+        "sha": "687bbd8fb1fcc594a2d63664e7d18a9fe8eebc0e"
+      },
+      "homepage": "https://remotejobb.se/en/ai",
+      "keywords": ["remotejobb", "remotejobb.se", "remotejobb mcp"],
+      "domains": ["remotejobb.se"]
     }
   ]
 }
