@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
+        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e"
+        "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
+        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -50,7 +50,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudflare/skills.git",
-        "sha": "c430dd965cea3a8faf0ef035e3b3d73b38518081"
+        "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156"
       },
       "homepage": "https://github.com/cloudflare/skills",
       "keywords": ["cloudflare", "wrangler", "cloudflare workers"],
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+        "sha": "22f0b463e7a5e579904dd6211a520321035526f7"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "001b3a883fddd8170003aa12c236205fb9eecad6"
+        "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "efb531df16d945cd095c3a4fcccefd2074341a7e"
+        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b5894c0e1c16d924dd5b28546b11c2de650fce7e"
+        "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "7047cb45d6227bb42bd9ad6d35651043c0508179"
+        "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -205,8 +205,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "326ea8b521de0ce42e69d43451ef47a6e87206ef",
+        "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -260,7 +260,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations.git",
-        "sha": "dca9193afeb4185da3caac9324fa33be17d0deac",
+        "sha": "576b285dddc33b56fd11ce304570645735500660",
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "eb4db2b55b2b7dec3d9282754cddf0a56bf4ff10",
+        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -334,19 +334,6 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
-      "name": "bruin",
-      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
-      },
-      "homepage": "https://github.com/bruin-eng/agent-skills",
-      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
-      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
-    },
-    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
@@ -365,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "65e7edd67e77420eaf02c5df00fdc0521417d809"
+        "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -390,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "de668bfd2e4ece0613c331e653c8c48b03e7238d"
+        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
@@ -431,7 +418,7 @@
         "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
       },
       "homepage": "https://htmlcsstoimage.com",
-      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "image generation", "screenshot", "url screenshot", "pdf", "image templates", "open graph image", "social preview"],
+      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
       "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
     },
     {
@@ -486,6 +473,20 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "expo",
+      "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/expo/skills.git",
+        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "path": "plugins/expo"
+      },
+      "homepage": "https://docs.expo.dev/agents/",
+      "keywords": ["expo"],
+      "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
     },
     {
       "name": "make-parts-now",
