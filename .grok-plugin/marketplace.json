@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tday-com/tday-plugins.git",
-        "sha": "4e8147736b056ae63be2f84079cb7547ddd47ed7"
+        "sha": "641b1676099acd548f77fc411af7ee01a5f223c2"
       },
       "homepage": "https://docs.tday.com/coding-agents",
       "keywords": ["tday", "tday demo", "tday demo video"],

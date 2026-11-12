@@ -1461,8 +1461,8 @@
       }
     },
     "tday": {
-      "sha": "4e8147736b056ae63be2f84079cb7547ddd47ed7",
-      "version": "0.4.13",
+      "sha": "641b1676099acd548f77fc411af7ee01a5f223c2",
+      "version": "0.4.18",
       "components": {
         "commands": [
           {
