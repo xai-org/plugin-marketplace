@@ -449,6 +449,20 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "promoat",
+      "description": "Make realistic AI videos of yourself, with your own face and voice, from your agent. Powered by Promoat",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TechHiveDev/promoat-partner-mcp.git",
+        "sha": "a4f21646ef0b820df9bedad23ad1c140df9ae10d",
+        "path": "plugin/grok"
+      },
+      "homepage": "https://platform.promoat.ai",
+      "keywords": ["promoat", "promoat video", "promoat ai clone", "promoat ugc", "promoat ai presenter"],
+      "domains": ["promoat.ai", "platform.promoat.ai"]
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",
