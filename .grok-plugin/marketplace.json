@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "2chat",
+      "description": "2Chat business messaging and calls (hosted MCP server + skill). Read and reply to your company's WhatsApp, WhatsApp Business API and SMS conversations, manage WABA templates and contacts, review phone calls, and manage virtual phone numbers. Sign in with your 2Chat account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/2ChatCo/2chat-grok-plugin.git",
+        "sha": "9d8f2eda85c18a6cc871b4fe42dff189377a34b9"
+      },
+      "homepage": "https://developers.2chat.co/docs/category/mcp",
+      "keywords": ["2chat", "2chat whatsapp", "2chat sms", "2chat waba", "2chat mcp"],
+      "domains": ["2chat.co", "2chat.io", "mcp.2chat.io", "developers.2chat.co"],
+      "version": "1.0.0",
+      "author": {
+        "name": "2Chat",
+        "email": "support@2chat.co",
+        "url": "https://2chat.co"
+      }
     }
   ]
 }
