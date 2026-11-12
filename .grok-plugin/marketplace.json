@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postor",
+      "description": "Busca licitaciones públicas de México y gestiona proyectos y tareas con tu cuenta autorizada de Postor. Mexican procurement intelligence for approved Postor accounts.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Global-Tech-Operations/postor-grok.git",
+        "sha": "38b1cffa0e3a03b2e831fdb1d5509ac95b408f30"
+      },
+      "homepage": "https://postor.com.mx",
+      "keywords": [
+        "postor",
+        "postor mx",
+        "postor licitaciones"
+      ],
+      "domains": [
+        "postor.com.mx",
+        "app.postor.com.mx",
+        "api.postor.com.mx"
+      ],
+      "author": {
+        "name": "Global Tech Operations, LLC"
+      }
     }
   ]
 }

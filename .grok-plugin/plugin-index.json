@@ -938,6 +938,32 @@
         ]
       }
     },
+    "postor": {
+      "sha": "38b1cffa0e3a03b2e831fdb1d5509ac95b408f30",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postor",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "account-work",
+            "description": "Create Postor projects and tasks, update tasks, and manage Almacén folders within the connected user's permissions."
+          },
+          {
+            "name": "get-started",
+            "description": "Explain Postor account connection, current membership and permissions when a user installs Postor or asks about its acc…"
+          },
+          {
+            "name": "procurement",
+            "description": "Search and investigate Mexican public tenders using Postor custom AI filters, source collections, Red and intelligence…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
