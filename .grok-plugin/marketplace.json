@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "zyfai",
+      "description": "Discover DeFi yield opportunities, inspect Zyfai portfolios, and use authorised account tools through the hosted Zyfai MCP server.",
+      "category": "finance",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/zyfai"
+      },
+      "homepage": "https://zyf.ai",
+      "keywords": [
+        "zyfai"
+      ],
+      "domains": [
+        "zyf.ai",
+        "mcp.zyf.ai",
+        "docs.zyf.ai"
+      ]
     }
   ]
 }
