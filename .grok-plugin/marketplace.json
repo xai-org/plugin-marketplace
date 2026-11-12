@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "theshow",
+      "description": "Continuity-first AI film generation. Plans a cast and a storyboard, boards the film as stills before you pay for footage, then renders multi-shot sequences whose cuts land on identical frames and assembles an MP4.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TayDa64/theShow.git",
+        "sha": "400599e40d91d2055a453eee66c0b320ec1bfedb"
+      },
+      "homepage": "https://github.com/TayDa64/theShow",
+      "keywords": ["theshow", "the show plugin", "storyforge", "storyforge studio", "continuity film", "ai film pipeline"]
     }
   ]
 }
