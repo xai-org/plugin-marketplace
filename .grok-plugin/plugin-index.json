@@ -1185,21 +1185,21 @@
       }
     },
     "roasaurus": {
-      "sha": "e705277dff05aa86dc02390e116c62fd3e69fed5",
-      "version": "1.0.0",
+      "sha": "67aaecf528cee87511d2c31d1d1b7258399510d1",
+      "version": "1.1.0",
       "components": {
         "commands": [
           {
             "name": "audit",
-            "description": "Audit the store's ad accounts and rank fixes by profit impact"
+            "description": "Audit the store's ad accounts and rank fixes by measured profit"
           },
           {
             "name": "tracking-health",
-            "description": "Check why conversions are missing on an ad platform"
+            "description": "Check why conversions are missing on an ad platform (read-only)"
           },
           {
             "name": "wasted-spend",
-            "description": "Find ad spend without sales and propose pauses for approval"
+            "description": "Find ad spend without sales or profit and propose pauses to the Actions inbox"
           }
         ],
         "mcpServers": [
@@ -1215,11 +1215,11 @@
           },
           {
             "name": "tracking-health",
-            "description": "Diagnose missing or low conversions on ad platforms with ROASaurus (setup status, delivery to Meta, Google Ads, TikTok…"
+            "description": "Diagnose missing or low conversions on ad platforms with ROASaurus (setup status, delivery of purchase events to Meta,…"
           },
           {
             "name": "wasted-spend",
-            "description": "Find campaigns, ad sets and ads that spend without profitable sales in ROASaurus and propose pauses or budget cuts for…"
+            "description": "Find campaigns that spend without attributed orders, or with orders but negative profit, in ROASaurus, and turn the one…"
           }
         ]
       }

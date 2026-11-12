@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/roasaurus/claude-code.git",
-        "sha": "e705277dff05aa86dc02390e116c62fd3e69fed5",
+        "sha": "67aaecf528cee87511d2c31d1d1b7258399510d1",
         "path": "plugins/roasaurus"
       },
       "homepage": "https://roasaurus.com/integrations/mcp/grok",
