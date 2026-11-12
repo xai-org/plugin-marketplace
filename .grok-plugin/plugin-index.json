@@ -1874,6 +1874,18 @@
         ]
       }
     },
+    "voicemoat": {
+      "sha": "5bd0713aef669b0c33ff747e93e42e191e65f265",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voicemoat",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",
