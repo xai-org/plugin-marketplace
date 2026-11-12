@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
+        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
+        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def"
+        "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1"
+        "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
+        "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -267,7 +267,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "d8e14797c726086c4376f576f6fb7cbb908e5f15",
+        "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
