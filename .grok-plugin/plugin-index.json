@@ -769,7 +769,7 @@
       }
     },
     "ncstatutes": {
-      "version": "1.0.0",
+      "version": "1.3.0",
       "components": {
         "mcpServers": [
           {
@@ -780,7 +780,7 @@
         "skills": [
           {
             "name": "ncstatutes",
-            "description": "Look up the North Carolina General Statutes through the ncstatutes MCP server: read a section by citation, search the s…"
+            "description": "Look up North Carolina law through the ncstatutes MCP server: the General Statutes, enacted session laws, the NC Consti…"
           }
         ]
       }

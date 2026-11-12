@@ -1,13 +1,13 @@
 {
   "name": "ncstatutes",
-  "version": "1.0.0",
-  "description": "North Carolina General Statutes for Grok Build via the hosted ncstatutes.com MCP server. Search the statute book by topic, read any section by citation, trace amendment history, diff versions, see enacted-but-not-yet-effective changes, and follow cross-references. Free and read-only; no account or API key.",
+  "version": "1.3.0",
+  "description": "North Carolina law for Grok Build via the hosted ncstatutes.com MCP server: the General Statutes, enacted session laws, the NC Constitution, the Supreme Court's court rules and the NC Administrative Code. Search by topic, read any section or rule by citation, look up defined terms, trace amendment history, diff versions, see enacted changes not yet in effect, and follow cross-references. Free and read-only; no account or API key.",
   "author": {
     "name": "SmartBump, Inc.",
     "url": "https://smartbumpinc.com"
   },
   "homepage": "https://ncstatutes.com",
   "license": "MIT",
-  "keywords": ["ncstatutes", "nc statutes", "north carolina general statutes", "n.c.g.s.", "ncgs"],
+  "keywords": ["ncstatutes", "nc statutes", "nc statutes & rules", "north carolina general statutes", "n.c.g.s.", "ncgs"],
   "logo": "assets/logo.png"
 }

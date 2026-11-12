@@ -136,14 +136,14 @@
     },
     {
       "name": "ncstatutes",
-      "description": "North Carolina General Statutes via the hosted ncstatutes.com MCP server (MCP server + skill). Search the statute book by topic, read any section by citation, trace amendment history back to the 1800s, diff versions, see enacted-but-not-yet-effective changes, and follow cross-references. Free and read-only; no account or API key needed.",
+      "description": "NC Statutes & Rules: North Carolina law via the hosted ncstatutes.com MCP server (MCP server + skill). The General Statutes, enacted session laws, the NC Constitution, the Supreme Court's court rules and the NC Administrative Code. Search by topic, read by citation, look up defined terms, trace amendment history back to the 1800s, diff versions, see enacted changes not yet in effect, and follow cross-references. Free and read-only; no account or API key needed.",
       "category": "productivity",
       "source": {
         "type": "local",
         "path": "./external_plugins/ncstatutes"
       },
       "homepage": "https://ncstatutes.com",
-      "keywords": ["ncstatutes", "nc statutes", "north carolina general statutes", "n.c.g.s.", "ncgs"],
+      "keywords": ["ncstatutes", "nc statutes", "nc statutes & rules", "north carolina general statutes", "n.c.g.s.", "ncgs"],
       "domains": ["ncstatutes.com", "mcp.ncstatutes.com"]
     },
     {
