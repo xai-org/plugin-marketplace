@@ -340,6 +340,24 @@
         ]
       }
     },
+    "cosend": {
+      "sha": "6f43780fba0c84de4d4cf0347f62ba994c74db08",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cosend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cosend",
+            "description": "Runs a business's WhatsApp on Cosend through its MCP tools. Use it for the WhatsApp inbox (reading, searching, replying…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

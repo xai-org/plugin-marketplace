@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "cosend",
+      "description": "Cosend runs your business's WhatsApp from Grok Build over MCP: a shared WhatsApp inbox on the number you already use, WhatsApp campaigns to saved audiences, WhatsApp templates submitted for Meta's review, WhatsApp automation built from a plain description, and an AI receptionist trained on your website and files.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cosendhq/cosend-plugin.git",
+        "sha": "6f43780fba0c84de4d4cf0347f62ba994c74db08"
+      },
+      "homepage": "https://cosend.app/mcp",
+      "keywords": ["cosend"],
+      "domains": ["cosend.app", "mcp.cosend.app", "auth.cosend.app", "dashboard.cosend.app"]
     }
   ]
 }
