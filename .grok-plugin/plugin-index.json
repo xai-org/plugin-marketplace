@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "agentcall": {
+      "sha": "0fd50047d92f6518d2b9e56d3cac94cea8c1fd82",
+      "version": "1.1.25",
+      "components": {
+        "commands": [
+          {
+            "name": "join-meeting",
+            "description": "AgentCall (agentcall.dev) — Join a video meeting (Google Meet, Teams, Zoom) as an AI bot with voice and visual presence…"
+          }
+        ],
+        "skills": [
+          {
+            "name": "join-meeting",
+            "description": "AgentCall (agentcall.dev) — Join a video meeting (Google Meet, Teams, Zoom) as an AI bot with voice and visual presence…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
