@@ -1,0 +1,14 @@
+{
+  "name": "skedcast",
+  "version": "1.0.0",
+  "description": "SkedCast social media scheduling for Grok Build via the hosted SkedCast MCP server at api.skedcast.com. Draft, validate, schedule and publish posts across 11 networks, run approval workflows, manage clients and campaigns, and read analytics. Sign in with your SkedCast account on first connect.",
+  "author": {
+    "name": "Alpha Exotic Tech LLC",
+    "email": "hello@skedcast.com",
+    "url": "https://skedcast.com"
+  },
+  "homepage": "https://skedcast.com",
+  "license": "MIT",
+  "keywords": ["skedcast", "skedcast mcp", "skedcast scheduling", "skedcast posts", "skedcast social"],
+  "logo": "assets/logo.png"
+}

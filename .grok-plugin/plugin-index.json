@@ -1238,6 +1238,63 @@
         ]
       }
     },
+    "skedcast": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skedcast",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "account-connect",
+            "description": "Manage connected social accounts. Use when the user asks which accounts are connected, wants to connect a new account,…"
+          },
+          {
+            "name": "analytics-report",
+            "description": "Report on social performance via SkedCast analytics. Use when the user asks how posts performed, for reach/impressions/…"
+          },
+          {
+            "name": "approval-workflow",
+            "description": "Work the SkedCast approval queue. Use when the user asks what is waiting for approval, or wants to approve, reject, req…"
+          },
+          {
+            "name": "campaign-manager",
+            "description": "Manage SkedCast campaigns (named post groupings). Use when the user wants to create, update, delete, or inspect campaig…"
+          },
+          {
+            "name": "client-management",
+            "description": "Manage SkedCast client groups (brands/influencers). Use when the user wants to list, create, update, or delete clients,…"
+          },
+          {
+            "name": "evergreen-content",
+            "description": "Set up evergreen (recycled) posts. Use when the user wants a post to repeat automatically on a schedule, or asks about…"
+          },
+          {
+            "name": "manage-calendar",
+            "description": "Manage the SkedCast content calendar. Use when the user asks what is scheduled or publishing on a date, or wants to res…"
+          },
+          {
+            "name": "media-library",
+            "description": "Work with the SkedCast content library (DAM). Use when the user wants to find, import, or upload images and videos for…"
+          },
+          {
+            "name": "schedule-post",
+            "description": "Draft, validate, and schedule social posts across 11 networks via SkedCast. Use when the user wants to create, schedule…"
+          },
+          {
+            "name": "webhooks-setup",
+            "description": "Set up SkedCast outbound webhooks. Use when the user wants event notifications (publishing, approvals, failures) delive…"
+          },
+          {
+            "name": "workspace-overview",
+            "description": "Understand the SkedCast workspace. Use at the start of a session or when the user asks about their plan, role, permissi…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",

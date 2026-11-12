@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skedcast": {
+      "type": "http",
+      "url": "https://api.skedcast.com/mcp"
+    }
+  }
+}
