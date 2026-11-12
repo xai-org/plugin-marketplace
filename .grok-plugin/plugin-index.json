@@ -871,6 +871,18 @@
         ]
       }
     },
+    "novada": {
+      "sha": "6e75e11010631114567f14187df15f253cf5c5c3",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "novada",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
       "version": "1.0.0",

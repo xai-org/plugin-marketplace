@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "novada",
+      "description": "Live web access for AI agents: search, extract content from any URL including anti-bot pages, crawl and map sites, multi-source research with citations, and structured data from 14 platforms via the Novada MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Novada-proxy/novada-grok-plugin.git",
+        "sha": "6e75e11010631114567f14187df15f253cf5c5c3"
+      },
+      "homepage": "https://www.novada.com",
+      "keywords": ["novada", "novada mcp", "novada search", "novada scrape", "novada extract"],
+      "domains": ["novada.com", "www.novada.com", "mcp.novada.com", "dashboard.novada.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Novada",
+        "url": "https://www.novada.com"
+      }
     }
   ]
 }
