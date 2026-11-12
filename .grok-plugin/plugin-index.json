@@ -1460,6 +1460,34 @@
         ]
       }
     },
+    "tday": {
+      "sha": "641b1676099acd548f77fc411af7ee01a5f223c2",
+      "version": "0.4.18",
+      "components": {
+        "commands": [
+          {
+            "name": "demo",
+            "description": "Record a narrated demo video of a feature of this repo's app for tday. Pass a feature name, or leave it empty for the n…"
+          },
+          {
+            "name": "demos-needed",
+            "description": "List this product's features and docs pages that have no demo video yet in tday, then record the ones you pick."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "tday",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tday-capture",
+            "description": "Record a narrated demo video of a feature of this repo's running app (web app, Electron app, terminal tool, iPhone app…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",

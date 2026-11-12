@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tday",
+      "description": "Record narrated demo videos of your app. Grok Build runs the app on your computer and records the demo one narrated step at a time; tday adds the voice, cursor, camera and style, and the demo arrives in tday ready to edit and share.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tday-com/tday-plugins.git",
+        "sha": "641b1676099acd548f77fc411af7ee01a5f223c2"
+      },
+      "homepage": "https://docs.tday.com/coding-agents",
+      "keywords": ["tday", "tday demo", "tday demo video"],
+      "domains": ["tday.com", "docs.tday.com"]
     }
   ]
 }
