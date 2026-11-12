@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "zite",
+      "description": "Zite app builder (hosted MCP server). Query and edit records, run SQL, manage tables and fields in a Zite workspace, then scaffold, edit, build, commit and publish apps on top of it. Sign in with your Zite account; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zite/zite-plugin.git",
+        "sha": "7b59a22376a0110551446a84de225f2bf2603d14"
+      },
+      "homepage": "https://www.zite.com",
+      "keywords": ["zite", "zite app", "zitejs", "zite workspace", "zite database"],
+      "domains": ["zite.com", "mcp.zite.com", "developers.zite.com"]
     }
   ]
 }
