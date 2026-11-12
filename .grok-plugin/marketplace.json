@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "toolbox-pod",
+      "description": "Design custom tees and hoodies, see mockups, and order prints made and shipped from Utah, through Toolbox POD's hosted MCP server. Create a shirt design from a description or reference image, see it on a shirt in your colors, get prices, and prepare an order with a link to pay on toolboxpod.com, then follow it to tracking. Sign in (or sign up) to Toolbox POD on first connect; no API key. US shipping only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Toolbox-POD/toolbox-pod-mcp.git",
+        "sha": "5c8f46d6683aa1c04fd4ef1d9d5e65de58bbc233"
+      },
+      "homepage": "https://toolboxpod.com/mcp",
+      "keywords": ["toolbox pod", "toolboxpod", "toolbox pod mcp", "toolbox pod shirts"],
+      "domains": ["toolboxpod.com", "mcp.toolboxpod.com"]
     }
   ]
 }
