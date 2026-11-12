@@ -135,6 +135,20 @@
       "domains": ["neon.tech", "neon.com", "console.neon.tech"]
     },
     {
+      "name": "iris",
+      "description": "Iris (Tuval AI) business archive on the Mac. List the conversations a business marked customer or staff, search them, and read one, through Iris's own read-only command. No server and no account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tuval-Ai/agent-plugins.git",
+        "sha": "7977a3e64cb2437ccb2c243961b8ac95a9df80f5",
+        "path": "iris"
+      },
+      "homepage": "https://iris-app.tuval-ai.co.il",
+      "keywords": ["iris archive", "iris conversation", "iris customer", "iris staff", "iris tuval"],
+      "domains": ["iris-app.tuval-ai.co.il"]
+    },
+    {
       "name": "wix",
       "description": "Build, manage, and deploy Wix sites and apps (MCP Server + Skills). Includes CLI development skills and Wix MCP server for site management, eCommerce, CMS, dashboard extensions, and more.",
       "category": "development",
