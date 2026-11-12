@@ -672,6 +672,48 @@
         ]
       }
     },
+    "lurkapi": {
+      "sha": "df407d8556a0752da3864f3673fb6bf72f864af9",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lurkapi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ad-research",
+            "description": "Tear down the ads a brand or a market runs across Meta (Facebook and Instagram), Google (Search, YouTube, Shopping), Ti…"
+          },
+          {
+            "name": "creator-vetting",
+            "description": "Vet an influencer or creator on TikTok, Instagram or YouTube before a deal. Pulls their profile and last ~30 posts, com…"
+          },
+          {
+            "name": "demand-research",
+            "description": "Check whether people want a product or niche, and what exactly they want, from live public signals. What they type into…"
+          },
+          {
+            "name": "lurk",
+            "description": "Lurk a brand. From just a name or a website, a one-page snapshot of whether it advertises right now on Meta and Google,…"
+          },
+          {
+            "name": "lurkapi",
+            "description": "Current public data as JSON through LurkAPI, with profiles, posts, comments, transcripts and ads from Facebook, Reddit,…"
+          },
+          {
+            "name": "reddit-research",
+            "description": "Find out what real people say about a product, brand, competitor or problem on Reddit. Searches posts, finds the commun…"
+          },
+          {
+            "name": "video-transcripts",
+            "description": "Get what is said in YouTube videos and Shorts, TikToks and Instagram reels as text, for one link or a creator's latest…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
