@@ -639,8 +639,8 @@
       }
     },
     "getmattered": {
-      "sha": "05856db9ece08beb08040add4d2cd71b5a129db0",
-      "version": "1.16.0",
+      "sha": "29a834c3bc1bd9987576d9ff1816d44b29952a36",
+      "version": "1.17.0",
       "components": {
         "mcpServers": [
           {
