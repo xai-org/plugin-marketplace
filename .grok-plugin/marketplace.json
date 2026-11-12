@@ -110,6 +110,27 @@
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
+      "name": "autofire",
+      "description": "AutoFire car dealership data. Read one dealership's inventory, lead workflow, test drives, follow-up priorities, and daily insights from Grok. Everything is read-only; sign in with an AutoFire account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/goautofire/autofire-grok-plugin.git",
+        "sha": "748a6a98f6562fd6e6c450b244c5dd49fa8a2604"
+      },
+      "homepage": "https://docs.goautofire.com/mcp/grok",
+      "keywords": [
+        "autofire",
+        "goautofire",
+        "autofire mcp",
+        "autofire dealership"
+      ],
+      "domains": [
+        "goautofire.com",
+        "mcp.goautofire.com"
+      ]
+    },
+    {
       "name": "axiom",
       "description": "Official Axiom observability integration (MCP Server + Skills). Query logs and metrics with APL, run hypothesis-driven SRE investigations, build dashboards, manage monitors and alerts, translate Splunk SPL queries, and analyze and optimize costs.",
       "category": "observability",
