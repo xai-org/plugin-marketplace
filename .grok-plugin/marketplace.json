@@ -487,6 +487,33 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "simplevox",
+      "description": "Run your SimpleVox business line from your AI assistant: catch up on calls and voicemail, find and quote what customers said, text and call with your approval, and keep contacts and conversations up to date.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/simplevox/simplevox-grok.git",
+        "sha": "ed46e4a7b40a65924fc2a071d7c22ea6f0da8bef"
+      },
+      "homepage": "https://simplevox.net/docs/ai-tools/grok",
+      "keywords": [
+        "simplevox",
+        "simple vox",
+        "simplevox mcp",
+        "simplevox phone",
+        "simplevox business phone"
+      ],
+      "domains": [
+        "simplevox.net",
+        "my.simplevox.app",
+        "api.simplevox.app"
+      ],
+      "author": {
+        "name": "SimpleVox",
+        "url": "https://simplevox.net"
+      }
     }
   ]
 }
