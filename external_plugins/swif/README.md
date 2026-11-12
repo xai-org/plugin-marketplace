@@ -2,6 +2,8 @@
 
 Your Swif devices and people
 
+## About
+
 Swif.ai is a UEM software platform that connects Grok to your unique Swif.ai device management tenant. This plugin can be used to control your Macs, Windows, Linux, iOS and Android devices with Chromebooks and GoogleBooks coming soon.
 
 You can ask about your organization's devices, employees, teams, and the applications and browser extensions installed across your fleet. Find devices by team, owner or status. See who is in a team. Check which apps or extensions a device runs, or find every device with a given application. Add an employee, or move one to another team, when you ask and after confirming the details with you.
@@ -9,6 +11,17 @@ You can ask about your organization's devices, employees, teams, and the applica
 Swif cannot change, lock or wipe devices, and cannot delete employees from this tool for your organization's safety. You can connect with your Swif API key, and only your organization's data is visible.
 
 This is designed for IT and security teams that manage their devices with Swif. This requires a Swif.ai UEM account and an API key from the Swif admin console.
+
+| | |
+|---|---|
+| Developer | Swifteam Inc |
+| Package name | swif |
+| Category | Productivity |
+| Capabilities | List teams, devices and employees, Filter devices and employees by team, See the apps and browser extensions on a device, See which devices are compliant, and why not, Find every device with a given app, Add an employee, Move an employee to another team |
+| Website | https://swif.ai |
+| Support | https://swif.ai/support |
+| Privacy policy | https://swif.ai/privacy-policy |
+| Terms of service | https://swif.ai/terms |
 
 ## Installation
 
@@ -84,13 +97,6 @@ access.
 To stop using the plugin, uninstall it with `grok plugin uninstall swif`. To cut off
 access entirely, revoke the API key in the Swif admin console; the connection stops
 working on its next call.
-
-## Support
-
-- Website: https://swif.ai
-- Support: https://swif.ai/support, support@swif.ai
-- Privacy policy: https://swif.ai/privacy-policy
-- Terms: https://swif.ai/terms
 
 ## License
 
