@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "quiroads-clinic-marketing",
+      "description": "Four skills for people who market health clinics: audit who owns and controls a clinic's Meta Ads assets, review ads and landing pages against platform policies and health advertising rules, set up lead follow-up over WhatsApp, SMS and calls, and turn first visits into care plans. By QuiroAds, a marketing agency for chiropractic clinics.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/quiroads/clinic-marketing-skills.git",
+        "sha": "2c4718e6eb2656f4ea9df8db19bc341b793f0d07"
+      },
+      "homepage": "https://quiroads.com",
+      "keywords": [
+        "quiroads",
+        "quiroads clinic",
+        "quiroads clinic marketing"
+      ],
+      "domains": [
+        "quiroads.com"
+      ]
     }
   ]
 }

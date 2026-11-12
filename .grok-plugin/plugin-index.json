@@ -1156,6 +1156,30 @@
         ]
       }
     },
+    "quiroads-clinic-marketing": {
+      "sha": "2c4718e6eb2656f4ea9df8db19bc341b793f0d07",
+      "version": "1.0.1",
+      "components": {
+        "skills": [
+          {
+            "name": "clinic-ad-compliance-review",
+            "description": "Reviews a health clinic's ad, landing page, organic post or WhatsApp sales message against Meta and Google ad policies…"
+          },
+          {
+            "name": "clinic-lead-follow-up",
+            "description": "Builds a health clinic's lead follow-up system on one page: a speed to lead sequence of WhatsApp messages (SMS in the U…"
+          },
+          {
+            "name": "clinic-meta-ads-access-audit",
+            "description": "Audits who owns and controls a health clinic's Meta Ads setup, screen by screen in Meta Business Suite, without connect…"
+          },
+          {
+            "name": "clinic-patient-retention",
+            "description": "Turns a health clinic's first visits into care plans and keeps patients: an assessment visit guide, a report of finding…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
