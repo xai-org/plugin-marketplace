@@ -1935,6 +1935,18 @@
           }
         ]
       }
+    },
+    "taofind": {
+      "sha": "efe78b1f446baa50432f7bec4f9e8b94faaabbb0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "taofind",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
