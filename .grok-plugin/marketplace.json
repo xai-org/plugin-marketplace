@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "swif",
+      "description": "Swif.ai is a UEM software platform that connects Grok to your unique Swif.ai device management tenant. This plugin can be used to control your Macs, Windows, Linux, iOS and Android devices with Chromebooks and GoogleBooks coming soon.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/swif"
+      },
+      "homepage": "https://swif.ai",
+      "keywords": ["swif", "swif.ai", "swif uem", "swifteam"],
+      "domains": ["swif.ai", "swifteam.com", "mcp.swifteam.com"]
     }
   ]
 }
