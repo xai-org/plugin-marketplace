@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "autoshort",
+      "description": "Plan, draft and render faceless short videos on your AutoShort account. Review the script and see the credit price before any render.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/airdropfi/autoshort-cursor-kit.git",
+        "sha": "642fe65b598a2270f7963cbfc8112c9f5cb76ec6"
+      },
+      "homepage": "https://autoshort.org/en/mcp",
+      "keywords": ["autoshort", "autoshort mcp", "autoshort video"],
+      "domains": ["autoshort.org"]
     }
   ]
 }
