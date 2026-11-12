@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "swif": {
+      "type": "http",
+      "url": "https://mcp.swifteam.com/mcp"
+    }
+  }
+}
