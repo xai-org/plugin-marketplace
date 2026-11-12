@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
-      "version": "1.14.3",
+      "sha": "2a326eb51ddd93301577ad47a7bd2f2e671d53b2",
+      "version": "1.14.5",
       "components": {
         "mcpServers": [
           {
@@ -411,7 +411,7 @@
           },
           {
             "name": "eas-simulator",
-            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+            "description": "Run and control a user's app on a remote iOS/Android simulator with Expo Simulators (also called EAS Simulator). Read b…"
           },
           {
             "name": "eas-update",
@@ -1257,8 +1257,8 @@
       }
     },
     "stripe": {
-      "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
-      "version": "0.9.46",
+      "sha": "064bb3620ae2447e6844b6ca301a56a14e869522",
+      "version": "0.9.47",
       "components": {
         "agents": [
           {
@@ -1643,8 +1643,8 @@
       }
     },
     "vercel": {
-      "sha": "a51b34618683929ee83c5a6e001c2da8261b3479",
-      "version": "0.55.0",
+      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
+      "version": "0.55.1",
       "components": {
         "agents": [
           {
@@ -1804,7 +1804,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, Security Review, production investigation, approved acti…"
           },
           {
             "name": "vercel-cli",
@@ -1875,8 +1875,8 @@
       }
     },
     "wix": {
-      "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
-      "version": "1.41.3",
+      "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
+      "version": "1.41.4",
       "components": {
         "mcpServers": [
           {
@@ -1894,24 +1894,12 @@
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
-            "name": "wix-create-studio-two-site",
-            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
-          },
-          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
           {
             "name": "wix-docs",
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
-          },
-          {
-            "name": "wix-export",
-            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
-          },
-          {
-            "name": "wix-harmony-editor",
-            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
           },
           {
             "name": "wix-headless",
@@ -1923,19 +1911,11 @@
           },
           {
             "name": "wix-headless-kit",
-            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
-          },
-          {
-            "name": "wix-headless-replatform",
-            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
+            "description": "Builds new Wix sites or puts the user's own site online, with or without a Wix account. The pages are code in any web t…"
           },
           {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
-          },
-          {
-            "name": "wix-import",
-            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
@@ -1946,8 +1926,8 @@
             "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
           },
           {
-            "name": "wix-replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
+            "name": "wix-studio-two",
+            "description": "Build or edit a Wix website by chat, with no local setup - start a new site, or change an existing Wix Studio Two site'…"
           },
           {
             "name": "wix-vibe-headless",
