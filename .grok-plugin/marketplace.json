@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "arkham",
+      "description": "Arkham blockchain intelligence. Look up who is behind a wallet, follow transfers and counterparties, and check what an entity holds across 16 chains, plus token holders, Hyperliquid positions and Polymarket wallets. Connects to Arkham's hosted MCP server; sign in with your Arkham account.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/arkhamintelligence/arkham-mcp.git",
+        "sha": "0a7eabae2fe0de17882ec7055f6a6b4fb39e0842"
+      },
+      "homepage": "https://github.com/arkhamintelligence/arkham-mcp",
+      "keywords": ["arkham", "arkham intelligence", "arkm"],
+      "domains": ["arkm.com", "intel.arkm.com"]
     }
   ]
 }
