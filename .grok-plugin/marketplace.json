@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hive",
+      "description": "Plan and publish social posts, manage DM automations and Hive Bio, and read inbox and analytics in your connected Hive workspace. Access follows your permissions, role, plan and connected accounts. Hive requests separate approval when the connection policy requires it, and always for workspace administration.",
+      "category": "productivity",
+      "version": "1.1.7",
+      "author": { "name": "Hive Publish" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/HivePublish/hive-mcp.git",
+        "sha": "159249d693fae36d599b6a6196355364bcfce89a"
+      },
+      "homepage": "https://hivepublish.com/developers",
+      "keywords": ["hive", "hive publish", "hivepublish", "hive dm automation"],
+      "domains": ["hivepublish.com"]
     }
   ]
 }
