@@ -1256,6 +1256,72 @@
         ]
       }
     },
+    "socialneuron": {
+      "sha": "a5dd1914ba308b4cdbca6000b68ee352f4fde469",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "socialneuron-hosted",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sn-approve-publish",
+            "description": "Social Neuron review and scheduling. Use when the user wants to see exactly what will post, approve a draft or saved pl…"
+          },
+          {
+            "name": "sn-brands",
+            "description": "Social Neuron brand setup. Use when the user wants to build a brand from a website, check which brand is active, edit v…"
+          },
+          {
+            "name": "sn-campaign",
+            "description": "Social Neuron campaign in one command. Use when the user gives a brand URL and wants a set of organic posts researched,…"
+          },
+          {
+            "name": "sn-instagram",
+            "description": "Social Neuron Instagram lane. Use when the user wants Social Neuron to plan, make or schedule one brand's Instagram pos…"
+          },
+          {
+            "name": "sn-plan",
+            "description": "Social Neuron content plan. Use when the user wants a week of posts, a launch sequence or a campaign calendar drafted a…"
+          },
+          {
+            "name": "sn-research",
+            "description": "Social Neuron research brief. Use before drafting when the user wants trends, what worked for their brand, or evidence…"
+          },
+          {
+            "name": "sn-review-learn",
+            "description": "Social Neuron results review. Use when the user wants Social Neuron to review one brand's published results and decide…"
+          },
+          {
+            "name": "sn-routines",
+            "description": "Social Neuron routines. Use when the user wants Social Neuron to prepare recurring draft plans for one brand on a sched…"
+          },
+          {
+            "name": "sn-studio",
+            "description": "Social Neuron studio. Use when the user wants Social Neuron to make or repurpose a caption, script, image or carousel f…"
+          },
+          {
+            "name": "sn-tiktok",
+            "description": "Social Neuron TikTok lane. Use when the user wants Social Neuron to run one brand's TikTok week - trends, photo carouse…"
+          },
+          {
+            "name": "sn-x",
+            "description": "Social Neuron X lane. Use when the user wants Social Neuron to write, check and schedule one brand's daily X (Twitter)…"
+          },
+          {
+            "name": "sn-youtube",
+            "description": "Social Neuron YouTube lane. Use when the user wants Social Neuron to script, check and schedule one brand's YouTube Sho…"
+          },
+          {
+            "name": "socialneuron",
+            "description": "Social Neuron chief of staff. Use when the user names Social Neuron or wants to set up, plan, create, approve, schedule…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "064bb3620ae2447e6844b6ca301a56a14e869522",
       "version": "0.9.47",
