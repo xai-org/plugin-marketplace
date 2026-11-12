@@ -1935,6 +1935,18 @@
           }
         ]
       }
+    },
+    "esimtao": {
+      "sha": "161d95f6cbc3faa024a282112ac23fca1c0bd8f2",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "esimtao",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
