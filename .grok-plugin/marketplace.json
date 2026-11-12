@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "livewebdata",
+      "description": "Fetch public web pages live and get their main content as clean Markdown, plain text or HTML through the Live Web Data API's hosted MCP server (get_page_contents, get_account_status), with country targeting. The skill falls back to the livewebdata CLI, which can also render pages in a real browser. Needs a Live Web Data API key in LIVE_WEB_DATA_API_KEY.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/livewebdata-com/cli.git",
+        "sha": "37eb4d6f8380221461445bb8f88d4bbaf1c5dcab"
+      },
+      "homepage": "https://livewebdata.com",
+      "keywords": ["livewebdata", "live web data api", "livewebdata cli"],
+      "domains": ["livewebdata.com"]
     }
   ]
 }
