@@ -1874,6 +1874,31 @@
         ]
       }
     },
+    "wildcrane": {
+      "sha": "e3a243fcccb24323b34f486de960f92d8b7385a1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wildcrane",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "discuss-goal",
+            "description": "Use when the user discusses something to build, change or fix; save it as a goal the user starts from the web."
+          },
+          {
+            "name": "tasks",
+            "description": "Use when the user asks about or acts on their WildCrane tasks, such as listing, creating, approving, changing, removing…"
+          },
+          {
+            "name": "wildcrane",
+            "description": "Open WildCrane settings on this computer — sign in, project folders and AI tools."
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",

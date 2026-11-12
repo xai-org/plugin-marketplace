@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wildcrane",
+      "description": "Save goals, manage WildCrane tasks, and open local WildCrane settings from Grok Build.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wildcrane-ai/wildcrane.git",
+        "sha": "e3a243fcccb24323b34f486de960f92d8b7385a1"
+      },
+      "homepage": "https://wildcrane.ai/",
+      "keywords": [
+        "wildcrane"
+      ],
+      "domains": [
+        "wildcrane.ai",
+        "app.wildcrane.ai"
+      ],
+      "version": "0.1.20",
+      "author": {
+        "name": "WildCrane"
+      }
     }
   ]
 }
