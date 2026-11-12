@@ -1874,6 +1874,18 @@
         ]
       }
     },
+    "webability": {
+      "sha": "563086539022d208bbb2d9533904879c29627830",
+      "version": "1.10.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "webability",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
       "version": "1.41.3",

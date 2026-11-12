@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "webability",
+      "description": "Accessibility for your coding agent. Scan pages and HTML for WCAG 2.2 AA, ADA and Section 508 issues, get source-level fixes, and verify each fix. Hosted MCP server, free, no install.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Webabilityio/webability-plugin.git",
+        "sha": "563086539022d208bbb2d9533904879c29627830"
+      },
+      "homepage": "https://www.webability.io/mcp",
+      "keywords": ["webability", "webability accessibility", "webability mcp"],
+      "domains": ["webability.io", "mcp.webability.io"]
     }
   ]
 }
