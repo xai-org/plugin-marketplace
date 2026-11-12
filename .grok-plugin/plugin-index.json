@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
-      "version": "1.14.3",
+      "sha": "2a326eb51ddd93301577ad47a7bd2f2e671d53b2",
+      "version": "1.14.5",
       "components": {
         "mcpServers": [
           {
@@ -411,7 +411,7 @@
           },
           {
             "name": "eas-simulator",
-            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+            "description": "Run and control a user's app on a remote iOS/Android simulator with Expo Simulators (also called EAS Simulator). Read b…"
           },
           {
             "name": "eas-update",
