@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ipgeolocation": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "ipgeolocation-io-mcp@latest"
+      ],
+      "env": {
+        "IPGEOLOCATION_API_KEY": "${IPGEOLOCATION_API_KEY:-}"
+      }
+    }
+  }
+}
