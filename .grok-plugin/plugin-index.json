@@ -638,6 +638,40 @@
         ]
       }
     },
+    "groundmail": {
+      "sha": "a88acc9e7c00ba016cfedc48b163e92ffebe55be",
+      "version": "0.29.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "groundmail",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "email-best-practices",
+            "description": "Use when writing or reviewing transactional email for deliverability and safety — SPF/DKIM/DMARC, verified domains, sup…"
+          },
+          {
+            "name": "groundmail",
+            "description": "Use when sending or integrating Groundmail transactional email: POST /emails, the official SDKs (Node, Python, Go, PHP,…"
+          },
+          {
+            "name": "groundmail-cli",
+            "description": "Use when operating Groundmail from the terminal — groundmail CLI, emails send, domains add/apply/verify, webhooks, supp…"
+          },
+          {
+            "name": "groundmail-mailboxes",
+            "description": "Use when an AI agent needs its own email address: signing up for a service, receiving a verification code or magic link…"
+          },
+          {
+            "name": "groundmail-mcp",
+            "description": "Use when installing, configuring or using the Groundmail MCP server in Claude, Claude Code, ChatGPT, Cursor or another…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
