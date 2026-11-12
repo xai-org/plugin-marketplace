@@ -1238,6 +1238,24 @@
         ]
       }
     },
+    "sequencer": {
+      "sha": "e7b128ecb8e5082fbf94c0574be34aeb89938d11",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sequencer",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sequencer",
+            "description": "Create product ads, animate images, generate AI images, video and voiceovers, and build editable shot sequences with Se…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
