@@ -487,6 +487,15 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "automata",
+      "description": "Automata hosted MCP server: scoped, revocable access to your WhatsApp, Telegram, IMAP email and PostgreSQL. Read, search and summarise chats and mail, and query databases; send messages, save email drafts and write rows only when the connector token grants it. Each token is bound to one connection.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/automata" },
+      "homepage": "https://getautomata.app",
+      "keywords": ["automata", "automata mcp", "getautomata"],
+      "domains": ["getautomata.app", "mcp.getautomata.app"]
     }
   ]
 }
