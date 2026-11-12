@@ -1935,6 +1935,18 @@
           }
         ]
       }
+    },
+    "chinamedvisit": {
+      "sha": "8750408f4994d22e90ff3b3d503a9e9c2fa1ab1b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chinamedvisit",
+            "description": "http"
+          }
+        ]
+      }
     }
   }
 }
