@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
-      "version": "1.2.1",
+      "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
+      "version": "1.3.0",
       "components": {
         "mcpServers": [
           {
@@ -111,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
-      "version": "1.12.0",
+      "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
+      "version": "1.13.0",
       "components": {
         "mcpServers": [
           {
@@ -140,6 +140,10 @@
           {
             "name": "debug-optimize-lcp",
             "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever…"
+          },
+          {
+            "name": "inspect-in-devtools",
+            "description": "Use this skill to connect to the Chrome DevTools UI for interactive debugging, UI/UX review, Q&A, showing elements/netw…"
           },
           {
             "name": "memory-leak-debugging",
@@ -489,8 +493,8 @@
       }
     },
     "figma": {
-      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
-      "version": "2.2.174",
+      "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa",
+      "version": "2.2.193",
       "components": {
         "mcpServers": [
           {
@@ -790,8 +794,8 @@
       }
     },
     "netlify": {
-      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
-      "version": "1.8.0",
+      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
+      "version": "1.9.0",
       "components": {
         "mcpServers": [
           {
@@ -859,6 +863,10 @@
           {
             "name": "netlify-mcp-servers",
             "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          },
+          {
+            "name": "netlify-server",
+            "description": "Build and deploy a long-lived Node.js backend on Netlify Server (Early Access) from netlify/server/index.ts. Use this s…"
           }
         ]
       }
@@ -1249,8 +1257,8 @@
       }
     },
     "stripe": {
-      "sha": "d8e14797c726086c4376f576f6fb7cbb908e5f15",
-      "version": "0.9.45",
+      "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
+      "version": "0.9.46",
       "components": {
         "agents": [
           {
@@ -1646,8 +1654,8 @@
       }
     },
     "vercel": {
-      "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
-      "version": "0.54.1",
+      "sha": "a51b34618683929ee83c5a6e001c2da8261b3479",
+      "version": "0.55.0",
       "components": {
         "agents": [
           {
@@ -1746,6 +1754,10 @@
             "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
           },
           {
+            "name": "daemons",
+            "description": "Vercel Daemons guidance — long-running background workers built from a Dockerfile and declared under the `daemons` key…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
           },
@@ -1763,7 +1775,7 @@
           },
           {
             "name": "flags-sdk",
-            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
+            "description": "Implement feature flags in Next.js or SvelteKit code with the Flags SDK (`flags` npm package). Use when installing or c…"
           },
           {
             "name": "is-agentic",
@@ -1782,12 +1794,16 @@
             "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
+            "name": "offload-to-sandbox",
+            "description": "Offload heavy builds, full test suites and parallel experiments from the local machine to Vercel Sandboxes with the `ve…"
+          },
+          {
             "name": "queues",
             "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
           },
           {
             "name": "react-best-practices",
-            "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
+            "description": "Vercel's React and Next.js performance rules (70 rules in 8 categories ordered by impact - eliminating waterfalls, bund…"
           },
           {
             "name": "routing-middleware",
@@ -1814,6 +1830,10 @@
             "description": "Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed ruleset…"
           },
           {
+            "name": "vercel-flags",
+            "description": "Feature flags, A/B tests, and gradual rollouts with Vercel Flags, in any app or framework. Use whenever the user is pla…"
+          },
+          {
             "name": "vercel-functions",
             "description": "Vercel Functions expert guidance — Node.js/Bun/Python runtimes, Fluid Compute, long-duration (30 min) functions, large…"
           },
@@ -1822,12 +1842,20 @@
             "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code ge…"
           },
           {
+            "name": "vercel-schedules",
+            "description": "Vercel Schedules guidance — run a private function, route, or Vercel Queues topic on a cron cadence or once at a set ti…"
+          },
+          {
             "name": "vercel-services",
             "description": "Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a pol…"
           },
           {
             "name": "vercel-storage",
             "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
+          },
+          {
+            "name": "vercel-tracing",
+            "description": "Set up OpenTelemetry instrumentation for Vercel Tracing and query the resulting spans. Use when adding or fixing `@verc…"
           },
           {
             "name": "verification",
