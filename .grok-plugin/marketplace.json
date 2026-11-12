@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agentcall",
+      "description": "Join Google Meet, Zoom, or Microsoft Teams as an AI bot with voice, avatar, screenshare, and real-time transcription. The agent keeps its full session context — it can read code, run commands, and commit changes while talking in the call.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pattern-ai-labs/agentcall.git",
+        "sha": "0fd50047d92f6518d2b9e56d3cac94cea8c1fd82"
+      },
+      "homepage": "https://agentcall.dev",
+      "keywords": ["agentcall", "join google meet", "join zoom meeting", "join teams meeting", "meeting bot"],
+      "domains": ["agentcall.dev", "app.agentcall.dev"]
     }
   ]
 }
