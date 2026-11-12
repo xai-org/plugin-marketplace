@@ -1,0 +1,13 @@
+{
+  "name": "chronotek-pro-agent",
+  "version": "1.0.0",
+  "description": "Connect Grok Build to Chronotek Pro for workforce operations: review time and attendance, schedules, coverage, and exceptions, and take permitted actions with approval. Requires an eligible Chronotek account and OAuth consent.",
+  "author": {
+    "name": "The Chrono-Tek Company, Inc.",
+    "url": "https://www.chronotek.com"
+  },
+  "homepage": "https://www.chronotek.com",
+  "license": "Proprietary",
+  "keywords": ["chronotek", "chronotek pro", "chronotek pro agent"],
+  "logo": "assets/icon.png"
+}

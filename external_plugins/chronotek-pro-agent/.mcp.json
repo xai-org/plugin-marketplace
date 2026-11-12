@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "chronotek": {
+      "type": "http",
+      "url": "https://admin.mychronotek.com/mcp",
+      "oauth": {
+        "clientId": "chronotek-grok-build",
+        "scopes": ["agent.read", "agent.write", "offline_access"],
+        "callbackPort": 8788
+      }
+    }
+  }
+}
