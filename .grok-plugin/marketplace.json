@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wapliss-whatsapp",
+      "description": "Wapliss WhatsApp integration (hosted MCP server + skill). Read and summarize your own WhatsApp chats and groups, see your latest received and sent messages, and send texts, files, locations, contact cards and polls with confirmation. Sign in with your Wapliss account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/proteuscrypto/wapliss-for-grok.git",
+        "sha": "0f62b9e4cb4d05278421956e73888edcc9a15e0f"
+      },
+      "homepage": "https://wapliss.com/integrations#grok",
+      "keywords": ["wapliss", "wapliss whatsapp", "wapliss mcp"],
+      "domains": ["wapliss.com"]
     }
   ]
 }

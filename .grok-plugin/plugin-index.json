@@ -1874,6 +1874,24 @@
         ]
       }
     },
+    "wapliss-whatsapp": {
+      "sha": "0f62b9e4cb4d05278421956e73888edcc9a15e0f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wapliss",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wapliss-whatsapp",
+            "description": "Use when the user wants to read their WhatsApp chats, group messages or group members, see their latest received or sen…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",
