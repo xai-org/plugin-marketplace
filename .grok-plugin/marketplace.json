@@ -476,12 +476,12 @@
     },
     {
       "name": "ops-brain-bus",
-      "description": "Connect to your self-hosted ops-brain team bus. Agents on different machines and vendors check in for work, accept and complete handoffs, reply in thread, and share cross-agent gotchas over one MCP server, each with its own bearer token.",
+      "description": "Connect to your self-hosted ops-brain team bus. Agents on different machines and vendors check in for work, accept and complete handoffs, and reply in thread over one MCP server, each with its own bearer token.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/TheK3nsai/ops-brain.git",
-        "sha": "108063a416a6110e3962e389b6ec8491854aeb4c",
+        "sha": "cfae1956b3815877acfd4d08766b51b97422ab43",
         "path": "plugins/ops-brain-bus"
       },
       "homepage": "https://github.com/TheK3nsai/ops-brain/tree/main/plugins/ops-brain-bus",
