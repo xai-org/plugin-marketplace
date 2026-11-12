@@ -672,6 +672,24 @@
         ]
       }
     },
+    "livewebdata": {
+      "sha": "37eb4d6f8380221461445bb8f88d4bbaf1c5dcab",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "live-web-data",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "livewebdata",
+            "description": "Fetch a public web page live and get its main content as clean Markdown, plain text or HTML, through the Live Web Data…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
