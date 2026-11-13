@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "ai-search-visibility-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-ai-visibility",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-visibility",
+            "description": "AI search visibility for SEO and GEO - check brand mentions in ChatGPT, Perplexity and Google AI Overviews, and see whi…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
