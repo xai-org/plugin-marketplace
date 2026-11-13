@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "budna",
+      "description": "Discover new and pre-owned items on Budna that fit your needs and budget. Compare options, check condition and compatibility, and plan pickup or delivery before you decide.",
+      "category": "shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/budna-marketplace/plugins.git",
+        "sha": "f237d90f56d3c66c05989d43dcc2360306e60d85"
+      },
+      "homepage": "https://budna.se",
+      "keywords": ["budna", "budna marketplace", "budna shopping"],
+      "domains": ["budna.se", "api.budna.se"],
+      "version": "0.1.7",
+      "author": {
+        "name": "Budna Marketplace AB",
+        "email": "support@budna.se",
+        "url": "https://budna.se"
+      }
     }
   ]
 }
