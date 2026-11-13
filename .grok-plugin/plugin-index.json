@@ -872,8 +872,8 @@
       }
     },
     "notfair": {
-      "sha": "5094263b522165647789e9594406bb3ce096c5fe",
-      "version": "0.27.14",
+      "sha": "deed0436d0c68cbc20a78523fffc67edd12aa25c",
+      "version": "0.27.25",
       "components": {
         "mcpServers": [
           {
@@ -888,7 +888,7 @@
           },
           {
             "name": "broken-link-checker",
-            "description": "Scans a website to find broken links (404s, 500s). Crawls internal pages, identifies broken outbound links, and reports…"
+            "description": "Inspect public page links or a supplied crawl report for confirmed broken links and redirect issues. Report source URLs…"
           },
           {
             "name": "competitor-pages",
@@ -896,7 +896,7 @@
           },
           {
             "name": "content-planner",
-            "description": "GSC-driven content calendar. Pulls real Search Console data, finds the highest click-potential opportunities (striking-…"
+            "description": "Build a dated editorial calendar from connected or supplied Search Console data. Prioritize striking-distance queries,…"
           },
           {
             "name": "content-writer",
@@ -907,12 +907,8 @@
             "description": "E-commerce SEO audit for online stores (WooCommerce, Shopify, Magento, custom). Covers category / product listing pages…"
           },
           {
-            "name": "gemini",
-            "description": "Cross-model second opinion from Google Gemini — a different AI reviewing the same changes, with deep Google ecosystem k…"
-          },
-          {
             "name": "geo-optimizer",
-            "description": "Generative Engine Optimization (GEO) — make content rank in AI search answers from ChatGPT, Claude, Perplexity, Gemini,…"
+            "description": "Audit, improve, and measure visibility in AI search answers from ChatGPT, Claude, Perplexity, Gemini, and Google AI Ove…"
           },
           {
             "name": "gohighlevel",
@@ -1036,7 +1032,7 @@
           },
           {
             "name": "schema-markup-generator",
-            "description": "Generate JSON-LD structured data markup for rich results in Google Search. Supports FAQ, HowTo, Article, Product, Local…"
+            "description": "Generate and validate Schema.org JSON-LD, and assess Google rich result eligibility where applicable. Supports FAQ, How…"
           },
           {
             "name": "search-console",
@@ -1044,7 +1040,7 @@
           },
           {
             "name": "seo-analysis",
-            "description": "Full SEO audit combining Google Search Console, URL Inspection API, PageSpeed Insights, a technical crawl, keyword rese…"
+            "description": "Audit site SEO using connected Search Console data, public page inspections, and supplied crawl or performance reports.…"
           },
           {
             "name": "seo-drift",
@@ -1052,11 +1048,7 @@
           },
           {
             "name": "seo-page",
-            "description": "Single-page SEO audit: content quality under Google's E-E-A-T framework and Helpful Content guidelines, on-page factors…"
-          },
-          {
-            "name": "setup-cms",
-            "description": "Connect a CMS to notfair SEO tools. Guides users through configuring WordPress, Strapi, Contentful, or Ghost — tests th…"
+            "description": "Audit one page for search intent, content quality, E-E-A-T, metadata, schema, links, and technical SEO. Use public page…"
           },
           {
             "name": "sitemap-audit",
@@ -1065,10 +1057,6 @@
           {
             "name": "sxo",
             "description": "Search Experience Optimization (SXO), the bridge between SEO and UX/CRO. Audits the journey from the SERP click to the…"
-          },
-          {
-            "name": "upgrade",
-            "description": "Upgrade the NotFair plugin to the latest version. Updates the marketplace repo, installs the new version to the plugin…"
           },
           {
             "name": "wordpress",
