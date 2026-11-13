@@ -768,6 +768,23 @@
         ]
       }
     },
+    "ncstatutes": {
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ncstatutes",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ncstatutes",
+            "description": "Look up North Carolina law through the ncstatutes MCP server: the General Statutes, enacted session laws, the NC Consti…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
