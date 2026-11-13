@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "formstep",
+      "description": "The form builder that ends the back-and-forth. Send anyone a prefilled form in their language, or share a public link; answers come back under your field keys.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/formstep/formstep-mcp.git",
+        "sha": "9b770f560c124e1f4e3229c602d37edad8617e63"
+      },
+      "homepage": "https://formstep.io",
+      "keywords": ["formstep", "formstep requests", "formstep forms"],
+      "domains": ["formstep.io", "api.formstep.io", "docs.formstep.io"]
     }
   ]
 }

@@ -638,6 +638,24 @@
         ]
       }
     },
+    "formstep": {
+      "sha": "9b770f560c124e1f4e3229c602d37edad8617e63",
+      "version": "1.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "formstep",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "formstep-requests",
+            "description": "Ask someone for information through Formstep and read the verified answers back, with a published form or one built in the same…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
