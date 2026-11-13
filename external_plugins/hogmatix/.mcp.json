@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hogmatix": {
+      "type": "http",
+      "url": "https://hogmatix.com/mcp"
+    }
+  }
+}

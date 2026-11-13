@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hogmatix",
+      "description": "Hogmatix social media scheduling: schedule X posts and threads and TikTok and YouTube videos on the accounts connected to your Hogmatix account, check upcoming posts and cancel pending ones. Sign in with a Hogmatix account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/hogmatix"
+      },
+      "homepage": "https://hogmatix.com",
+      "keywords": ["hogmatix", "hogmatix scheduler", "hogmatix mcp"],
+      "domains": ["hogmatix.com"]
     }
   ]
 }
