@@ -1,0 +1,14 @@
+{
+  "name": "0xarchive",
+  "version": "1.0.0",
+  "description": "Hyperliquid and Lighter market data for Grok Build via the hosted 0xArchive MCP server at mcp.0xarchive.io. Read order books, trades, candles, funding, open interest, positions and data coverage across Hyperliquid core, Spot, HIP-3, HIP-4 and Lighter. Sign in with your 0xArchive account on first connect; no API key needed.",
+  "author": {
+    "name": "0xArchive",
+    "url": "https://0xarchive.io"
+  },
+  "homepage": "https://docs.0xarchive.io/mcp-server",
+  "repository": "https://github.com/0xArchiveIO/0xarchive-mcp",
+  "license": "MIT",
+  "keywords": ["0xarchive", "0xarchive mcp", "0xarchive market data", "0xarchive api"],
+  "logo": "assets/logo.svg"
+}

@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "0xarchive",
+      "description": "Hyperliquid and Lighter market data (hosted MCP server). Read order books, trades, candles, funding, open interest, positions and data coverage across Hyperliquid core, Spot, HIP-3, HIP-4 and Lighter. Sign in with your 0xArchive account; no API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/0xarchive"
+      },
+      "homepage": "https://docs.0xarchive.io/mcp-server",
+      "keywords": ["0xarchive", "0xarchive mcp", "0xarchive market data", "0xarchive api"],
+      "domains": ["0xarchive.io", "docs.0xarchive.io", "mcp.0xarchive.io"]
     }
   ]
 }
