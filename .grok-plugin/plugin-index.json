@@ -638,6 +638,24 @@
         ]
       }
     },
+    "google-search-console-indexing-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-url-indexing",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "url-indexing",
+            "description": "Google Search Console indexing for SEO - Google index checker, request indexing via IndexNow, Bing and sitemap resubmis…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
