@@ -1874,6 +1874,17 @@
         ]
       }
     },
+    "widespread": {
+      "sha": "20a371418ca9f26298372dfa275f825a51e9f837",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "widespread",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",
