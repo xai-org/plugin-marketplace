@@ -1,6 +1,28 @@
 {
   "version": 1,
   "plugins": {
+    "agentmart": {
+      "sha": "d78e7b86f05bad13be9893a599c548dd55d291a0",
+      "version": "1.1.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentmart",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentmart-buying-rules",
+            "description": "Rules for signing in to AgentMart, getting funds from your human, buying, and claiming store credit when something fail…"
+          },
+          {
+            "name": "check-the-shelf",
+            "description": "Use when a task needs something that must keep running or stay reachable after this session ends, and the project has n…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
