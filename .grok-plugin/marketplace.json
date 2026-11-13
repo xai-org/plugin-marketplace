@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "relex-legal",
+      "description": "Relex legal practice management for Grok: work across your Relex workspace (matters, know-how, research, agreements, intake, e-signature, invoices) over a PII-safe remote MCP connector. Party identities are sealed with a key only the user holds, and the assistant works with de-identified labels.",
+      "category": "legal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/relexlegal/relex-grok.git",
+        "sha": "c51f93398d9e327c5c1b7ca98a0367f15d0579bc",
+        "path": "plugin"
+      },
+      "homepage": "https://relex.legal/docs/connectors/grok",
+      "keywords": ["relex", "relex legal", "relex.legal", "relex matter", "relex case"],
+      "domains": ["relex.legal"]
     }
   ]
 }

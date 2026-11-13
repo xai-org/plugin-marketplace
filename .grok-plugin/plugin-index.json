@@ -1192,6 +1192,76 @@
         ]
       }
     },
+    "relex-legal": {
+      "sha": "c51f93398d9e327c5c1b7ca98a0367f15d0579bc",
+      "version": "0.1.11",
+      "components": {
+        "agents": [
+          {
+            "name": "relex-guide",
+            "description": "Onboards a new Relex user — signs Grok in over OAuth, then walks through setting up the practice workflow (PII password…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "relex-connect",
+            "description": "Connect this Grok to your Relex account (browser sign-in — no key paste)."
+          },
+          {
+            "name": "relex-setup",
+            "description": "Set up your Relex practice workflow — sign in, set your PII password, add your know-how, let Relex auto-create your enc…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "relex",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "relex",
+            "description": "Use for ANY Relex work — setting up Relex, starting or running a case, drafting documents, parties, attachments, paymen…"
+          },
+          {
+            "name": "relex-citations",
+            "description": "Use whenever legal authority is cited, quoted, or relied on in Relex work — drafts, memos, ontology issues, research no…"
+          },
+          {
+            "name": "relex-counsel",
+            "description": "Use for any substantive legal work in Relex — analyzing a matter, planning strategy, drafting, filing the document you…"
+          },
+          {
+            "name": "relex-intake",
+            "description": "Run an end-to-end client intake in Relex — find the request, write the intake note, make an agreement from a template,…"
+          },
+          {
+            "name": "relex-matter",
+            "description": "Use for Relex matter/case housekeeping — deadlines and limitation periods, timeline upkeep, conflict checks, communicat…"
+          },
+          {
+            "name": "relex-ontology",
+            "description": "Use when working a Relex case beyond a single question — auditing what the case \"understands\", finding gaps or contradi…"
+          },
+          {
+            "name": "relex-participants",
+            "description": "WHO is on a Relex case — sealed legal parties vs app participants (lawyers, staff, guests, partners), always as labels,…"
+          },
+          {
+            "name": "relex-partner",
+            "description": "Guide a lawyer or firm through joining the Relex partner program — the registration that lets them charge their own cli…"
+          },
+          {
+            "name": "relex-research",
+            "description": "Use when a Relex case needs legal authority — statutes, case law, regulator guidance, local ordinances — in ANY jurisdi…"
+          },
+          {
+            "name": "relex-steering",
+            "description": "Use whenever substantive Relex case work must be produced — drafting, research, re-reasoning, or any multi-step task on…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
