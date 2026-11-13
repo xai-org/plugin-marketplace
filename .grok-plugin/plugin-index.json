@@ -650,6 +650,28 @@
         ]
       }
     },
+    "hive": {
+      "sha": "22cfd73d05b889f264fcb031f42215a04a707f36",
+      "version": "1.20.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hive",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hive",
+            "description": "Use this skill for any live crypto question. Hive answers with nine tools, one per research job, and cites a source for…"
+          },
+          {
+            "name": "hive-setup",
+            "description": "Use this skill to install, connect, sign in to, verify or remove Hive in an AI client or shell, or to get an API key fo…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
       "version": "0.2.0",

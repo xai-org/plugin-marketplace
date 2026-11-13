@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hive",
+      "description": "Crypto data for AI agents through Hive's hosted MCP server and skills. Find tokens, get prices, check token safety, research a token, analyze a wallet, read market positioning and the market overview, and look up DeFi yields and prediction markets. Sign in with a free Hive account on first use; no API key needed.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hive-intel/hive-sdk.git",
+        "sha": "22cfd73d05b889f264fcb031f42215a04a707f36"
+      },
+      "homepage": "https://www.hiveintelligence.xyz",
+      "keywords": ["hive intelligence", "hiveintelligence", "hive mcp", "hive crypto"],
+      "domains": ["hiveintelligence.xyz", "www.hiveintelligence.xyz", "mcp.hiveintelligence.xyz", "docs.hiveintelligence.xyz"]
     }
   ]
 }
