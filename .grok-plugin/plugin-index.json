@@ -1238,6 +1238,24 @@
         ]
       }
     },
+    "skysay": {
+      "sha": "52cf79cb9dacae2fab2aee06d921a421ff3e7ee7",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "skysay",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "skysay-phone",
+            "description": "Use Skysay to give an agent a real phone number, check coverage and prices, place AI voice calls, send SMS and read cal…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
