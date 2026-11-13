@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "ask-japan": {
+      "sha": "b42d1e3fff3710ccfdaa9a753b11998f2c5dc8ef",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ask-japan",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
