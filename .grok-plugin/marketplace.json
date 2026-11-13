@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "varosity",
+      "description": "Generate video, images, voice and music with 70+ AI models (Veo 3.1, Kling 3.0, Seedance, Grok Imagine, FLUX, GPT Image 2, ElevenLabs, Suno) through Varosity's hosted MCP server. Sign in with OAuth or a Varosity API key; pay per generation with Varosity credits or bring your own provider keys. Each result reports the remaining balance.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/varosity-ai/grok-bot.git",
+        "sha": "082720a72c9c54e122142b96ae5921a870e92c5f"
+      },
+      "homepage": "https://varosity.ai/grok-bot",
+      "keywords": ["varosity", "varosity ai"],
+      "domains": ["varosity.ai"]
     }
   ]
 }
