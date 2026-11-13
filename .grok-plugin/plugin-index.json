@@ -1,6 +1,56 @@
 {
   "version": 1,
   "plugins": {
+    "ai-visibility-geo-audit": {
+      "sha": "cb1d0c6812dca3ef81eda8ac7427197fee007dfa",
+      "version": "1.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "geo-report-writer",
+            "description": "Runs a brand's saved AI visibility prompt set through the AI engines and writes a dated report file with trend lines ag…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "ai-visibility",
+            "description": "Check whether ChatGPT, Gemini, Perplexity and Claude mention, rank and cite a brand, versus competitors"
+          },
+          {
+            "name": "aio-check",
+            "description": "Check which Google searches show an AI Overview and which sources it cites"
+          },
+          {
+            "name": "geo-audit",
+            "description": "Audit a page or site for AI answerability and AI crawler readiness, with a prioritized fix list"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "ai-visibility",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ai-overview-check",
+            "description": "Find which Google searches show an AI Overview, what it says and which sources it cites, and listen for buyer-intent co…"
+          },
+          {
+            "name": "ai-visibility-check",
+            "description": "Check and track whether AI answer engines mention, rank and cite a brand. Use when the user asks \"does ChatGPT mention…"
+          },
+          {
+            "name": "ai-visibility-cost-estimate",
+            "description": "Estimate how much an AI visibility check, GEO audit, AI Overview check or Reddit listening run will cost on Apify befor…"
+          },
+          {
+            "name": "geo-site-audit",
+            "description": "Audit web pages and sites for AI answerability and AI crawler readiness, and produce a prioritized fix list. Use when t…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
