@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "4over4",
+      "description": "Official 4OVER4 plugin (remote MCP server + skills). Find, configure and price custom printing from 4OVER4.COM with live prices and delivery dates, build a cart and hand off to www.4over4.com to upload artwork and pay. Sign in with your 4OVER4.COM account (OAuth) to read your own orders, tracking and invoices.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/40ver4/4over4-connector.git",
+        "sha": "b901817588ff32ed4fb8fb891894965ca514257b",
+        "path": "plugins/4over4"
+      },
+      "homepage": "https://github.com/40ver4/4over4-connector",
+      "keywords": ["4over4", "4over4 printing", "4over4 business cards", "4over4 order status"],
+      "domains": ["4over4.com", "www.4over4.com"]
     }
   ]
 }
