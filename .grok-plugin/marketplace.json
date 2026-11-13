@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "local-seo-by-crakseo",
+      "description": "Local SEO: Google Maps Rank Checker & Business Profile Ratings by CrakSEO. Local SEO for Google Maps: check Maps rankings for any keyword and location, with Google Business Profile ratings and review counts for you and local competitors. Hosted MCP server at https://crakseo.com/mcp/local-seo; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "local-seo-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/local-seo",
+      "keywords": ["crakseo local seo", "crakseo google maps"]
     }
   ]
 }
