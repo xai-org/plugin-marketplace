@@ -75,6 +75,24 @@
         ]
       }
     },
+    "box": {
+      "sha": "2cc9eb12a1720f8c9fbfce9e39efb8a0f3def768",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "box",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "box",
+            "description": "Use box, a cloud Linux computer with Chrome and a shell, when a task needs a real computer - browsing sites (including…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

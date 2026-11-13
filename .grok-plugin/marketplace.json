@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "box",
+      "description": "Give Grok a computer of its own via box by Simular's hosted MCP server: a cloud Linux desktop with Chrome and a shell. Browse sites (including logged-in ones), fill forms, use desktop apps and run commands there while your own machine stays free; watch live and take over at box.simular.ai. Sign in with your box account on first connection; no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/simular-ai/box-plugin.git",
+        "sha": "2cc9eb12a1720f8c9fbfce9e39efb8a0f3def768",
+        "path": "grok"
+      },
+      "homepage": "https://box.simular.ai",
+      "keywords": ["box by simular", "simular box", "simular"],
+      "domains": ["box.simular.ai", "mcp.box.simular.ai"]
     }
   ]
 }
