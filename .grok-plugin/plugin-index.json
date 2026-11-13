@@ -638,6 +638,24 @@
         ]
       }
     },
+    "google-rank-checker-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-rank-tracker",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "rank-tracker",
+            "description": "Google rank checker for SEO - live keyword rankings and positions for any website, ranked keywords, ranking competitors…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
