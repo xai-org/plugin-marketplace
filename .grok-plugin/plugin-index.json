@@ -1385,12 +1385,54 @@
       }
     },
     "trademarkiq": {
-      "sha": "c405c122ecef9c7088759f77469ef82dfdbf2aa0",
+      "sha": "94d842de79ac1ccfd0e9b7ab15364c4fa7ccd085",
       "components": {
         "mcpServers": [
           {
             "name": "trademarkiq",
             "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "trademarkiq-boletim-da-rpi",
+            "description": "Monta o boletim de uma edição da Revista da Propriedade Industrial (RPI) com os dados do conector TrademarkIQ: o que a…"
+          },
+          {
+            "name": "trademarkiq-diagnostico-de-marca",
+            "description": "Monta o relatório de diagnóstico de viabilidade de uma marca (PDF de 3 páginas) com os dados do conector TrademarkIQ, p…"
+          },
+          {
+            "name": "trademarkiq-dossie-de-titular",
+            "description": "Monta o dossiê de propriedade intelectual de uma empresa ou pessoa (cliente em prospecção, concorrente, alvo de aquisiç…"
+          },
+          {
+            "name": "trademarkiq-estudo-de-mercado",
+            "description": "Monta um estudo de mercado de marcas (país, setor, classe, América Latina ou escritórios) em PDF editorial de uma págin…"
+          },
+          {
+            "name": "trademarkiq-orientacao-de-processo",
+            "description": "Explica em que ponto está um processo de marca no INPI e o que cabe fazer, com os dados do conector TrademarkIQ e funda…"
+          },
+          {
+            "name": "trademarkiq-painel-do-escritorio",
+            "description": "Monta o painel de gestão de um escritório de propriedade intelectual com os dados do conector TrademarkIQ: negócio no C…"
+          },
+          {
+            "name": "trademarkiq-parecer-de-colidencia",
+            "description": "Monta a análise comparativa entre duas marcas (ou entre um nome novo e uma anterioridade) com os dados do conector Trad…"
+          },
+          {
+            "name": "trademarkiq-registro-guiado",
+            "description": "Conduz um registro guiado de marca no TradeLink do TrademarkIQ, etapa por etapa, pela conversa: dados do cliente, descr…"
+          },
+          {
+            "name": "trademarkiq-relatorio-de-carteira",
+            "description": "Monta o relatório periódico de uma carteira de marcas (de uma empresa ou do cliente de um escritório) com os dados do c…"
+          },
+          {
+            "name": "trademarkiq-relatorio-de-patentes",
+            "description": "Monta o relatório de patentes de uma empresa ou de uma tecnologia com os dados do conector TrademarkIQ: carteira no INP…"
           }
         ]
       }
