@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ask-japan",
+      "description": "Japanese company, invoice and postcode data, plus real people in Japan for phone calls, reservations and errands.",
+      "category": "business-data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ihouse-corp/ask-japan-mcp.git",
+        "sha": "b42d1e3fff3710ccfdaa9a753b11998f2c5dc8ef"
+      },
+      "homepage": "https://askjapan.senpinai.com/",
+      "keywords": [
+        "ask japan",
+        "ask-japan",
+        "senpinai"
+      ],
+      "domains": [
+        "askjapan.senpinai.com"
+      ]
     }
   ]
 }
