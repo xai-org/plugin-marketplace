@@ -672,6 +672,56 @@
         ]
       }
     },
+    "local-business-leads": {
+      "sha": "160b2d08991f197d7c4f5e2bcd2341ab0ddf62b7",
+      "version": "1.1.0",
+      "components": {
+        "agents": [
+          {
+            "name": "lead-list-builder",
+            "description": "Builds a complete lead list across several cities without supervision, deduplicates it, validates emails and leaves a C…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "bbb-check",
+            "description": "Check BBB rating, accreditation and complaints for businesses (US and Canada)"
+          },
+          {
+            "name": "leads",
+            "description": "Find local business leads for a niche and place (Google Maps, dentist, contractor, restaurant, Yellow Pages US/CA)"
+          },
+          {
+            "name": "leads-report",
+            "description": "Build a multi-city lead list with deduplication, email validation and a CSV file"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "business-leads",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "business-trust-check",
+            "description": "Check whether a business is trustworthy using its BBB profile and public ratings. Use when the user says \"is this compa…"
+          },
+          {
+            "name": "find-business-leads",
+            "description": "Find local business leads for any niche and city and return a list with phone, website, address, rating, hours and busi…"
+          },
+          {
+            "name": "lead-list-cleanup",
+            "description": "Clean, deduplicate, email-validate and export a lead list. Use when the user says \"clean this list\", \"dedupe\", \"remove…"
+          },
+          {
+            "name": "leads-cost-estimate",
+            "description": "Estimate what a lead list will cost on Apify before running anything. Use when the user asks \"how much will it cost\", \"…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
