@@ -1326,6 +1326,23 @@
         ]
       }
     },
+    "sunseekr": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sunseekr",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sunseekr",
+            "description": "Find places in direct sun with SunSeekr: sunny pub gardens, terraces, rooftops and cafés near a place, hour by hour, in…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
       "version": "0.1.17",
