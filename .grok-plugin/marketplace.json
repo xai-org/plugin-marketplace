@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "lusor",
+      "description": "Put AI agents to work on real phones: your own iPhone or Android, or a Lusor Phone in the cloud. List phones, run a task in plain language and get the result, read the screen, tap, type and swipe, and install apps, through the hosted Lusor MCP server. Sign in with your Lusor account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lusor-ai/plugins.git",
+        "sha": "bd9493383d799f0a9dd2065661c8fcc84cce9689",
+        "path": "plugins/lusor"
+      },
+      "homepage": "https://docs.lusor.ai/connect",
+      "keywords": ["lusor", "lusor phone", "lusor mcp", "lusor agent"],
+      "domains": ["lusor.ai", "docs.lusor.ai", "app.lusor.ai", "mcp.lusor.ai"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Lusor",
+        "email": "support@lusor.ai",
+        "url": "https://github.com/lusor-ai"
+      }
     }
   ]
 }
