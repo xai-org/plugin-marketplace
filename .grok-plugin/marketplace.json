@@ -436,6 +436,20 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
+      "name": "costory",
+      "description": "FinOps harness MCP for platform teams. Bills normalized in BigQuery and allocated to teams, with SSO. Build on it, or try it next to your tool. Read-only on cloud. Starter from $300/month, 30-day free trial.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/costory-io/costory-finops-mcp-skills.git",
+        "path": "plugins/costory",
+        "sha": "69e60af88e17f942c7932fb608701f626771446d"
+      },
+      "homepage": "https://www.costory.io",
+      "keywords": ["costory", "costory finops", "costory mcp", "costory cost allocation"],
+      "domains": ["costory.io", "app.costory.io", "docs.costory.io"]
+    },
+    {
       "name": "clerk",
       "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
       "category": "development",
