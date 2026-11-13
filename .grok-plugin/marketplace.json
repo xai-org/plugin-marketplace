@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seo-site-audit-by-crakseo",
+      "description": "SEO Site Audit: Technical SEO Checker & Page Speed by CrakSEO. SEO site audit and technical SEO checker: on-page SEO checks, page speed, Lighthouse and Core Web Vitals scores for up to 5 URLs per call. Hosted MCP server at https://crakseo.com/mcp/site-audit; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "seo-site-audit-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/site-audit",
+      "keywords": ["crakseo site audit", "crakseo seo audit"]
     }
   ]
 }
