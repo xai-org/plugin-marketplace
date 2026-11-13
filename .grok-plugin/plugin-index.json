@@ -900,6 +900,23 @@
         ]
       }
     },
+    "osmo": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "osmo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "osmo",
+            "description": "Use when the user wants an AI to place a real phone call for them — call a shop, clinic, restaurant, helpline or a pers…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
