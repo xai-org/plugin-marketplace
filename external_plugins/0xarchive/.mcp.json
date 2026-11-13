@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "0xarchive": {
+      "type": "http",
+      "url": "https://mcp.0xarchive.io/mcp"
+    }
+  }
+}

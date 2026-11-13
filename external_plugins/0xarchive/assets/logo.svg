@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="0xArchive normal distribution circle logo">
+  <defs>
+    <mask id="circle-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <rect width="1024" height="1024" fill="#000000"/>
+      <circle cx="512" cy="512" r="512" fill="#ffffff"/>
+    </mask>
+    <path id="normal-curve" d="M 260 636 C 306 636, 338 624, 372 574 C 394 542, 407 486, 428 430 C 448 376, 468 340, 512 340 C 556 340, 576 376, 596 430 C 617 486, 630 542, 652 574 C 686 624, 718 636, 764 636"/>
+  </defs>
+  <g mask="url(#circle-mask)">
+    <circle cx="512" cy="512" r="512" fill="#21c55e"/>
+    <use href="#normal-curve" fill="none" stroke="#051e0f" stroke-width="124" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

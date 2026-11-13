@@ -1,6 +1,17 @@
 {
   "version": 1,
   "plugins": {
+    "0xarchive": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "0xarchive",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
