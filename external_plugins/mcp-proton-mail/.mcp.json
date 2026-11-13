@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "proton-mail": {
+      "command": "uvx",
+      "args": ["mcp-proton-mail@1.30.0", "connect"]
+    }
+  }
+}
