@@ -672,6 +672,62 @@
         ]
       }
     },
+    "mnemoverse": {
+      "sha": "3201dd0a7dc0c79c805df7fb9a1040c0e56a18ef",
+      "version": "1.0.3",
+      "components": {
+        "commands": [
+          {
+            "name": "memory-status",
+            "description": "Show what is stored in long-term memory, counts and domains"
+          },
+          {
+            "name": "recall",
+            "description": "Recall relevant memories before acting, with provenance"
+          },
+          {
+            "name": "remember",
+            "description": "Save a durable fact, decision, or correction to long-term memory"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "mnemoverse",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-memory-discipline",
+            "description": "Teaches when to recall from long-term memory before acting and when to save durable decisions, corrections and failures…"
+          },
+          {
+            "name": "memory-catch-up",
+            "description": "Catches up after a break by listing what was added to long-term Mnemoverse memory since a given time, newest first, in…"
+          },
+          {
+            "name": "memory-onboard",
+            "description": "Seeds long-term Mnemoverse memory with a project's durable conventions and decisions, taken from its README, CLAUDE.md,…"
+          },
+          {
+            "name": "memory-save",
+            "description": "Saves a durable decision, preference, correction or lesson to long-term Mnemoverse memory as one self-contained fact, s…"
+          },
+          {
+            "name": "memory-search",
+            "description": "Searches long-term Mnemoverse memory before answering, so earlier decisions, preferences and project setup are used ins…"
+          },
+          {
+            "name": "mnemoverse-docs",
+            "description": "Guides a developer adding Mnemoverse long-term memory to their own app, agent or framework: picks the form (hosted MCP…"
+          },
+          {
+            "name": "setup",
+            "description": "Connects Mnemoverse memory for this plugin. Use when the user has installed the plugin but memory tools are missing, wh…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
