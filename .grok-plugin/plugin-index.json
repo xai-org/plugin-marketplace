@@ -672,6 +672,18 @@
         ]
       }
     },
+    "lusor": {
+      "sha": "bd9493383d799f0a9dd2065661c8fcc84cce9689",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lusor",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
