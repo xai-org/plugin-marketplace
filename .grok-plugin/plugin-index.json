@@ -1935,6 +1935,14 @@
           }
         ]
       }
+    },
+    "com.cardworthscanner.plugin": {
+      "sha": "4c7f658392182746193746182937461928374619",
+      "version": "1.0.1",
+      "components": [
+        "tools",
+        "calculators"
+      ]
     }
   }
 }
