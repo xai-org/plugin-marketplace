@@ -1,0 +1,11 @@
+Copyright (c) 2026 Rotunda. All rights reserved.
+
+Permission is granted to distribute this connector package, including its
+metadata, README and MCP configuration, as part of the xAI plugin marketplace
+and to use that configuration to connect to the Scovell hosted service.
+
+This permission does not grant rights to the Scovell backend application source,
+third-party datasets or trademarks. Use of the hosted service is governed by
+https://scovell.rotundahq.com/terms/.
+
+This connector package is provided "as is", without warranties of any kind.

@@ -1,0 +1,9 @@
+{
+  "name": "scovell",
+  "version": "1.0.0",
+  "description": "Sanctions, PEP and adverse-media screening through Scovell by Rotunda. Review candidate matches, retrieve screening records and record match decisions using your approved Scovell account.",
+  "author": { "name": "Rotunda", "url": "https://rotundahq.com" },
+  "homepage": "https://scovell.rotundahq.com",
+  "license": "Proprietary",
+  "keywords": ["scovell", "scovell screening", "rotunda scovell"]
+}
