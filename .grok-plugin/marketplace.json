@@ -449,6 +449,20 @@
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
+      "name": "medicine-support-hub",
+      "description": "Egyptian medicine catalog search, indicative EGP costs, same-INN price compare, insurance hints, and signed-in support, prescription, and personal watchlist tools via remote MCP (OAuth 2.1); catalog tools remain public.",
+      "category": "productivity",
+      "version": "0.4.2",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/minasami/medicine-support-hub-grok-plugin.git",
+        "sha": "e7938b0a224dce37c59e4f8c2451c1f388e8de05"
+      },
+      "homepage": "https://medicinesupport.app",
+      "keywords": ["medicine-support-hub", "medicinesupport", "egyptian medicines", "egp medicine prices", "mcp"],
+      "domains": ["medicinesupport.app", "mcp.medicinesupport.app", "msh-mcp.vercel.app"]
+    },
+    {
       "name": "videogen",
       "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
       "category": "media",
