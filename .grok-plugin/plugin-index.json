@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "4over4": {
+      "sha": "b901817588ff32ed4fb8fb891894965ca514257b",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "4over4",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-and-price-print",
+            "description": "Use when someone wants to find a print product at 4OVER4 (business cards, flyers, postcards, signs, labels, stickers, i…"
+          },
+          {
+            "name": "order-on-4over4",
+            "description": "Use when someone has priced a 4OVER4 print product and wants to order it or check out. It takes the priced setup to the…"
+          },
+          {
+            "name": "track-my-orders",
+            "description": "Use when a 4OVER4 customer asks about their own orders, order status, tracking, invoices, account, saved addresses or 4…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
