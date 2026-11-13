@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def",
-      "version": "1.2.1",
+      "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
+      "version": "1.3.0",
       "components": {
         "mcpServers": [
           {
@@ -111,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "af2834411a564d366f9cab63efb046d9084f4dba",
-      "version": "1.12.0",
+      "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
+      "version": "1.13.0",
       "components": {
         "mcpServers": [
           {
@@ -140,6 +140,10 @@
           {
             "name": "debug-optimize-lcp",
             "description": "Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever…"
+          },
+          {
+            "name": "inspect-in-devtools",
+            "description": "Use this skill to connect to the Chrome DevTools UI for interactive debugging, UI/UX review, Q&A, showing elements/netw…"
           },
           {
             "name": "memory-leak-debugging",
@@ -383,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
-      "version": "1.14.3",
+      "sha": "2a326eb51ddd93301577ad47a7bd2f2e671d53b2",
+      "version": "1.14.5",
       "components": {
         "mcpServers": [
           {
@@ -407,7 +411,7 @@
           },
           {
             "name": "eas-simulator",
-            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+            "description": "Run and control a user's app on a remote iOS/Android simulator with Expo Simulators (also called EAS Simulator). Read b…"
           },
           {
             "name": "eas-update",
@@ -489,8 +493,8 @@
       }
     },
     "figma": {
-      "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6",
-      "version": "2.2.174",
+      "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa",
+      "version": "2.2.193",
       "components": {
         "mcpServers": [
           {
@@ -669,8 +673,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "341268561baaff256927c931ec8215dbd30e3cee",
-      "version": "0.0.197",
+      "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
+      "version": "1.0.0",
       "components": {
         "skills": [
           {
@@ -842,8 +846,8 @@
       }
     },
     "netlify": {
-      "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1",
-      "version": "1.8.0",
+      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
+      "version": "1.9.0",
       "components": {
         "mcpServers": [
           {
@@ -911,6 +915,10 @@
           {
             "name": "netlify-mcp-servers",
             "description": "Build, deploy, and secure Model Context Protocol (MCP) servers on Netlify. Use whenever the task involves creating an M…"
+          },
+          {
+            "name": "netlify-server",
+            "description": "Build and deploy a long-lived Node.js backend on Netlify Server (Early Access) from netlify/server/index.ts. Use this s…"
           }
         ]
       }
@@ -1301,8 +1309,8 @@
       }
     },
     "stripe": {
-      "sha": "7882018f33773950265a9613d12e963853cfb526",
-      "version": "0.9.40",
+      "sha": "064bb3620ae2447e6844b6ca301a56a14e869522",
+      "version": "0.9.47",
       "components": {
         "agents": [
           {
@@ -1467,8 +1475,8 @@
       }
     },
     "tavily": {
-      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
-      "version": "1.0.0",
+      "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11",
+      "version": "2.3.0",
       "components": {
         "mcpServers": [
           {
@@ -1478,36 +1486,28 @@
         ],
         "skills": [
           {
-            "name": "academic-scientific-research",
-            "description": "Find, screen, and synthesize academic papers, scientific literature, technical reports, preprints, clinical or biomedic…"
+            "name": "tavily-entity",
+            "description": "Fill in a company, person, or organization for a CRM from the web, using Tavily, including a CSV of rows the user alrea…"
           },
           {
-            "name": "investment-research-briefs",
-            "description": "Create concise investment research briefs, company memos, sector snapshots, portfolio monitoring updates, earnings/news…"
+            "name": "tavily-list",
+            "description": "Build a deduplicated table of matches for a set, using Tavily. The table is what search returned, not every match that…"
           },
           {
-            "name": "product-competitor-intelligence",
-            "description": "Research competitor products, SKUs, pricing, packaging, positioning, feature comparisons, product catalogs, category pa…"
+            "name": "tavily-monitor",
+            "description": "Build a Tavily search or extraction that runs on a cadence, with a saved baseline. Search monitors set max_age_hours to…"
           },
           {
-            "name": "sales-account-intelligence",
-            "description": "Build sales-ready account intelligence for companies, prospects, customers, partners, and target buyers. Use when the u…"
+            "name": "tavily-research",
+            "description": "Research a topic in depth with Tavily. Use this skill when a question needs many sources gathered and weighed together:…"
           },
           {
-            "name": "tavily-best-practices",
+            "name": "tavily-sdk",
             "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using c…"
           },
           {
-            "name": "tavily-web",
-            "description": "Search and research the web with Tavily. Use for current information, source discovery, webpage extraction, site mappin…"
-          },
-          {
-            "name": "threat-intelligence-enrichment",
-            "description": "Enrich threat intelligence from CVEs, IOCs, malware names, threat actors, vendor advisories, security incidents, exploi…"
-          },
-          {
-            "name": "vendor-risk-kyc-screening",
-            "description": "Screen vendors, merchants, suppliers, counterparties, companies, executives, and related entities for vendor risk, KYC,…"
+            "name": "tavily-search",
+            "description": "Use this skill whenever a task needs the web: searching for information, checking current facts or news, finding source…"
           }
         ]
       }
@@ -1695,8 +1695,8 @@
       }
     },
     "vercel": {
-      "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e",
-      "version": "0.54.1",
+      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
+      "version": "0.55.1",
       "components": {
         "agents": [
           {
@@ -1795,6 +1795,10 @@
             "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
           },
           {
+            "name": "daemons",
+            "description": "Vercel Daemons guidance — long-running background workers built from a Dockerfile and declared under the `daemons` key…"
+          },
+          {
             "name": "deployments-cicd",
             "description": "Vercel deployment and CI/CD expert guidance. Use when deploying, promoting, rolling back, inspecting deployments, build…"
           },
@@ -1812,7 +1816,7 @@
           },
           {
             "name": "flags-sdk",
-            "description": "Set up and use feature flags and A/B tests with the Flags SDK (`flags` npm package) and Vercel Flags. Use when installi…"
+            "description": "Implement feature flags in Next.js or SvelteKit code with the Flags SDK (`flags` npm package). Use when installing or c…"
           },
           {
             "name": "is-agentic",
@@ -1831,12 +1835,16 @@
             "description": "Guide for building, configuring, and deploying microfrontends on Vercel. Use this skill when the user mentions microfro…"
           },
           {
+            "name": "offload-to-sandbox",
+            "description": "Offload heavy builds, full test suites and parallel experiments from the local machine to Vercel Sandboxes with the `ve…"
+          },
+          {
             "name": "queues",
             "description": "Vercel Queues guidance — durable topics with at-least-once delivery, independent consumer groups, retries, delays, and…"
           },
           {
             "name": "react-best-practices",
-            "description": "React best-practices reviewer for TSX files. Triggers after editing multiple TSX components to run a condensed quality…"
+            "description": "Vercel's React and Next.js performance rules (70 rules in 8 categories ordered by impact - eliminating waterfalls, bund…"
           },
           {
             "name": "routing-middleware",
@@ -1848,7 +1856,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, Security Review, production investigation, approved acti…"
           },
           {
             "name": "vercel-cli",
@@ -1863,6 +1871,10 @@
             "description": "Vercel Firewall expert guidance — automatic DDoS mitigation, the Vercel WAF (custom rules, IP blocking, managed ruleset…"
           },
           {
+            "name": "vercel-flags",
+            "description": "Feature flags, A/B tests, and gradual rollouts with Vercel Flags, in any app or framework. Use whenever the user is pla…"
+          },
+          {
             "name": "vercel-functions",
             "description": "Vercel Functions expert guidance — Node.js/Bun/Python runtimes, Fluid Compute, long-duration (30 min) functions, large…"
           },
@@ -1871,12 +1883,20 @@
             "description": "Vercel Sandbox guidance — ephemeral Firecracker microVMs for running untrusted code safely. Supports AI agents, code ge…"
           },
           {
+            "name": "vercel-schedules",
+            "description": "Vercel Schedules guidance — run a private function, route, or Vercel Queues topic on a cron cadence or once at a set ti…"
+          },
+          {
             "name": "vercel-services",
             "description": "Configure and troubleshoot Vercel Services for multiple frontends and backends in one project. Use when composing a pol…"
           },
           {
             "name": "vercel-storage",
             "description": "Vercel storage expert guidance — Blob, Global Config (formerly Edge Config), and Marketplace storage (Neon Postgres, Up…"
+          },
+          {
+            "name": "vercel-tracing",
+            "description": "Set up OpenTelemetry instrumentation for Vercel Tracing and query the resulting spans. Use when adding or fixing `@verc…"
           },
           {
             "name": "verification",
@@ -1907,8 +1927,8 @@
       }
     },
     "wix": {
-      "sha": "01275f7490d8195ccc9e30831d04580711000ca9",
-      "version": "1.41.0",
+      "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
+      "version": "1.41.4",
       "components": {
         "mcpServers": [
           {
@@ -1926,24 +1946,12 @@
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
-            "name": "wix-create-studio-two-site",
-            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
-          },
-          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
           {
             "name": "wix-docs",
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
-          },
-          {
-            "name": "wix-export",
-            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
-          },
-          {
-            "name": "wix-harmony-editor",
-            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
           },
           {
             "name": "wix-headless",
@@ -1955,19 +1963,11 @@
           },
           {
             "name": "wix-headless-kit",
-            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
-          },
-          {
-            "name": "wix-headless-replatform",
-            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
+            "description": "Builds new Wix sites or puts the user's own site online, with or without a Wix account. The pages are code in any web t…"
           },
           {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
-          },
-          {
-            "name": "wix-import",
-            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
@@ -1978,8 +1978,8 @@
             "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
           },
           {
-            "name": "wix-replatform",
-            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
+            "name": "wix-studio-two",
+            "description": "Build or edit a Wix website by chat, with no local setup - start a new site, or change an existing Wix Studio Two site'…"
           },
           {
             "name": "wix-vibe-headless",
