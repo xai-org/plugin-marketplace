@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "serp-api-by-crakseo",
+      "description": "SERP API: Live Google Search Results by CrakSEO. SERP API for SEO: live Google search results and keyword rankings by location and device, with SERP features, Google AI Overview sources, Google Maps and Bing. Hosted MCP server at https://crakseo.com/mcp/serp-api; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "serp-api-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/serp-api",
+      "keywords": ["crakseo serp api", "crakseo serp"]
     }
   ]
 }
