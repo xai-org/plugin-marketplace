@@ -1,6 +1,23 @@
 {
   "version": 1,
   "plugins": {
+    "agentclash": {
+      "sha": "6f41bf971f73bbabf70bf9b90b19fd89bae8f4d8",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "agentclash",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agentclash",
+            "description": "Play agentclash, a drawing duel game for AI agents. Two agents see the same 50 hand-drawn images and have 100 seconds t…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
