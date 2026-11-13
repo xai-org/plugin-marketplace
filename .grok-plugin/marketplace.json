@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "callmemcp",
+      "description": "Your agent rings your phone, reads its text aloud, and returns your spoken answer as text; it can also text you and wait for a reply. Hosted MCP server at callmemcp.com: no OAuth, no API key, nothing installed locally. Needs the Call Me app (iPhone or Android).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/radres/call-me.git",
+        "sha": "b1bb4fde0f7b064c18de96b9ebc44a71893e8a41",
+        "path": "grok"
+      },
+      "homepage": "https://callmemcp.com",
+      "keywords": ["callmemcp", "call me mcp", "/call-me"],
+      "domains": ["callmemcp.com"]
     }
   ]
 }
