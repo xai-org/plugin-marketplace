@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
+        "sha": "87e2262d07123c1549701ee0d104fe7623a335dc"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
+        "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
+        "sha": "064bb3620ae2447e6844b6ca301a56a14e869522",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "sha": "2a326eb51ddd93301577ad47a7bd2f2e671d53b2",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getmattered/getmattered-mcp.git",
-        "sha": "120ba9ca2bcc5c16c5d8e60f11d5e0e7377b8b07",
+        "sha": "757bf135b23f48b5d905810ccbe658b69321bf57",
         "path": "plugins/getmattered"
       },
       "homepage": "https://getmattered.com/mcps",
