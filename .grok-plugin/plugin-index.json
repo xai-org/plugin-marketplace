@@ -672,6 +672,72 @@
         ]
       }
     },
+    "marketplace-ad-pros": {
+      "sha": "c4d6b3a9cb306b26686f636e95af71cb0001dd84",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "marketplace-ad-pros",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "amazon-ads",
+            "description": "Guide for using the Marketplace Ad Pros MCP server to manage and analyze Amazon Advertising accounts. Use when working…"
+          },
+          {
+            "name": "amazon-ads-optimization",
+            "description": "Amazon Advertising campaign optimization playbook and strategy guide. Use when optimizing campaigns, planning bid/budge…"
+          },
+          {
+            "name": "amazon-dsp",
+            "description": "Guide for analyzing and managing Amazon DSP (programmatic display, video, and audio) campaigns through the Marketplace…"
+          },
+          {
+            "name": "amazon-holiday-events",
+            "description": "Playbook for Amazon sales events — Prime Day, Prime Big Deal Days, Black Friday / Cyber Monday, and the holiday season.…"
+          },
+          {
+            "name": "amazon-listing-audit",
+            "description": "Guide for auditing Amazon Seller Central and Vendor Central listings for quality, compliance, and security issues throu…"
+          },
+          {
+            "name": "amazon-product-launch",
+            "description": "Amazon new-product launch playbook for the semantic-discovery era. Use when launching a new ASIN or brand on Amazon, pl…"
+          },
+          {
+            "name": "amazon-reorder-planning",
+            "description": "Guide for building reorder plans, replenishment recommendations, and PO drafts for Amazon FBA, AWD, and Vendor Central…"
+          },
+          {
+            "name": "amazon-seller-central",
+            "description": "Guide for analyzing Amazon Seller Central and Vendor Central data. Use when working with inventory health, FBA fees, sa…"
+          },
+          {
+            "name": "amazon-title-optimizer",
+            "description": "Guide for rewriting Amazon product titles to fit Amazon's 75-character limit without losing the words that actually sel…"
+          },
+          {
+            "name": "experiments",
+            "description": "Run Marketplace Ad Pros optimization experiments end-to-end through the MCP. Use whenever the user asks \"what should I…"
+          },
+          {
+            "name": "fba-inventory-risk-dashboard",
+            "description": "Run an FBA inventory health check that surfaces at-risk SKUs alongside product names, inbound replenishment, reserved s…"
+          },
+          {
+            "name": "search-term-harvest-dashboard",
+            "description": "Run a search-term harvest analysis for an Amazon Ads account and render the results as an interactive dashboard artifac…"
+          },
+          {
+            "name": "wasted-ad-spend-dashboard",
+            "description": "Run a wasted-ad-spend analysis for an Amazon Ads account and render the results as an interactive dashboard artifact. T…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
