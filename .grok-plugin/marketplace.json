@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "x-vertical-carousel-slicer",
+      "description": "Transforms images into 20 equal vertical slices for X (Twitter) carousel posts. Resizes to 1200px height and packages part_01.jpg–part_20.jpg into a ZIP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CaduBarbosaBR/x-vertical-carousel-slicer.git",
+        "sha": "d710fefaba24720ca621fb1f57510be61f5710ab"
+      },
+      "homepage": "https://github.com/CaduBarbosaBR/x-vertical-carousel-slicer",
+      "keywords": ["x", "twitter", "carousel", "image", "slicer", "social-media"],
+      "author": "Cadu Barbosa"
     }
   ]
 }
