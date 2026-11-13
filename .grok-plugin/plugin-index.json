@@ -1955,6 +1955,54 @@
           }
         ]
       }
+    },
+    "com.checkchinatransit.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000000",
+      "version": "1.0.1",
+      "components": [
+        "tools",
+        "calculators"
+      ]
+    },
+    "com.labelqueue.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000001",
+      "version": "1.0.1",
+      "components": [
+        "tools",
+        "calculators"
+      ]
+    },
+    "com.tbmlib.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000002",
+      "version": "1.0.0",
+      "components": [
+        "tools",
+        "calculators"
+      ]
+    },
+    "com.oboelib.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000003",
+      "version": "1.0.0",
+      "components": [
+        "tools",
+        "calculators"
+      ]
+    },
+    "com.mahjonghandbook.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000004",
+      "version": "1.0.1",
+      "components": [
+        "tools",
+        "calculators"
+      ]
+    },
+    "com.massageinchina.plugin": {
+      "sha": "3b22f2e000000000000000000000000000000005",
+      "version": "1.0.1",
+      "components": [
+        "tools",
+        "calculators"
+      ]
     }
   }
 }
