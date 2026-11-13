@@ -111,8 +111,8 @@
       }
     },
     "canopy": {
-      "sha": "7aecbb52f470b785a4960eabc898591acdc34ec7",
-      "version": "2.1.0",
+      "sha": "b22ddd9d3c7a69c60f058b7427941c3f694fae4c",
+      "version": "2.3.0",
       "components": {
         "mcpServers": [
           {
@@ -122,12 +122,44 @@
         ],
         "skills": [
           {
+            "name": "amazon-best-sellers",
+            "description": "Pull Amazon best-seller lists and rank positions with the Canopy MCP server. Use when the user asks for the top sellers…"
+          },
+          {
+            "name": "amazon-books-and-authors",
+            "description": "Look up books and authors on Amazon with the Canopy MCP server, including ISBN lookup, an author's biography and catalo…"
+          },
+          {
+            "name": "amazon-category-browse",
+            "description": "Browse Amazon's category tree and the products inside a category with the Canopy MCP server. Use when the user wants to…"
+          },
+          {
             "name": "amazon-price-and-deals",
             "description": "Look up live Amazon prices, Buy Box offers, coupons, and current deals with the Canopy MCP server. Use when the user as…"
           },
           {
+            "name": "amazon-product-comparison",
+            "description": "Compare two or more Amazon products side by side with the Canopy MCP server, on price, rating, number of ratings, speci…"
+          },
+          {
             "name": "amazon-product-research",
-            "description": "Research live Amazon listings with the Canopy MCP server, including product search, product details, variants, stock an…"
+            "description": "Look up live Amazon listings with the Canopy MCP server, including product details, variants, stock, ratings, and ASIN/…"
+          },
+          {
+            "name": "amazon-ratings",
+            "description": "Look up Amazon star ratings and rating counts with the Canopy MCP server, and find the top-rated products for a search…"
+          },
+          {
+            "name": "amazon-sales-and-demand",
+            "description": "Estimate how well an Amazon product or niche sells with the Canopy MCP server, using unit sales estimates, stock estima…"
+          },
+          {
+            "name": "amazon-search-results",
+            "description": "Analyze Amazon search results for a keyword with the Canopy MCP server, including result order, sponsored placements, f…"
+          },
+          {
+            "name": "amazon-seller-research",
+            "description": "Research an Amazon third-party seller with the Canopy MCP server, including the seller's profile, rating, storefront ca…"
           }
         ]
       }
