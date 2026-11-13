@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "calorie-cub": {
+      "type": "http",
+      "url": "https://mcp.caloriecub.com/mcp"
+    }
+  }
+}
