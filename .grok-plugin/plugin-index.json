@@ -1935,6 +1935,14 @@
           }
         ]
       }
+    },
+    "com.bazitools.plugin": {
+      "sha": "166f372918273645192837461928374619283746",
+      "version": "1.0.2",
+      "components": [
+        "tools",
+        "calculators"
+      ]
     }
   }
 }
