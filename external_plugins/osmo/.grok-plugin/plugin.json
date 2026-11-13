@@ -1,0 +1,13 @@
+{
+  "name": "osmo",
+  "version": "1.0.0",
+  "description": "OsmO Phone Calls for Grok Build: OsmO's AI makes real phone calls for you to shops, clinics, restaurants, helplines and people you know in the US, Canada, UK and Australia, then brings back the answer with a summary. Also see who called your OsmO number and manage call screening. Sign in with your phone number on first connect; no API key.",
+  "author": {
+    "name": "OsmO AI",
+    "url": "https://getosmo.app"
+  },
+  "homepage": "https://getosmo.app",
+  "license": "MIT",
+  "keywords": ["osmo", "osmo ai", "osmo phone calls", "getosmo", "osmo call"],
+  "logo": "assets/logo.png"
+}
