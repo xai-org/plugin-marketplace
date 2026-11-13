@@ -1502,6 +1502,56 @@
         ]
       }
     },
+    "trackbuddy-parcel-tracker": {
+      "sha": "11a033b3dc0491dd29ddde44bf58d983e0a70c7c",
+      "version": "1.1.1",
+      "components": {
+        "agents": [
+          {
+            "name": "tracking-auditor",
+            "description": "Runs a list of tracking numbers through the parcel trackers and writes an exceptions-first audit report. Use for daily…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "track",
+            "description": "Track one or more packages by tracking number (DHL, FedEx, UPS, USPS, Amazon Shipping, GOFO, SPX, 17TRACK carriers) or…"
+          },
+          {
+            "name": "track-report",
+            "description": "Track a whole list or CSV of tracking numbers and write a status report with exceptions first"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "package-tracking",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bulk-tracking-report",
+            "description": "Track many packages at once and produce a status report. Use when the user pastes a list of tracking numbers, attaches…"
+          },
+          {
+            "name": "delivery-exceptions",
+            "description": "Triage delivery problems and draft customer or carrier messages. Use when a package is delayed, late, stuck in transit,…"
+          },
+          {
+            "name": "track-container",
+            "description": "Track Maersk ocean freight by container number, bill of lading or booking number and report status, vessel, next planne…"
+          },
+          {
+            "name": "track-package",
+            "description": "Track a package, parcel, shipment or order by tracking number and report its delivery status. Use when the user says \"t…"
+          },
+          {
+            "name": "tracking-cost-estimate",
+            "description": "Estimate how much a package-tracking batch will cost on Apify before running it. Use when the user asks \"how much will…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",

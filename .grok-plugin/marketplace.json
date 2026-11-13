@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "trackbuddy-parcel-tracker",
+      "description": "Track parcels and ocean containers from Grok Build: DHL, FedEx, UPS, Amazon Shipping, GOFO, SPX Express, USPS and 1,000+ carriers through 17TRACK, plus Maersk containers. Lookups run as pay-per-result Actors on your own Apify account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/afzalbuilds/trackbuddy-parcel-tracker.git",
+        "sha": "11a033b3dc0491dd29ddde44bf58d983e0a70c7c"
+      },
+      "homepage": "https://github.com/afzalbuilds/trackbuddy-parcel-tracker",
+      "keywords": ["trackbuddy", "trackbuddy parcel tracker", "trackbuddy package tracker"],
+      "version": "1.1.1",
+      "author": {
+        "name": "Imzlab Technologies",
+        "email": "info@imzlab.com",
+        "url": "https://imzlab.com"
+      }
     }
   ]
 }
