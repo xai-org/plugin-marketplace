@@ -1642,6 +1642,28 @@
         ]
       }
     },
+    "userproof": {
+      "sha": "f7a8841b5e05f144ee9f6c3420b88e8a482eb944",
+      "version": "3.6.1",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart",
+            "description": "startup|resume"
+          }
+        ],
+        "skills": [
+          {
+            "name": "review",
+            "description": "Run a UserProof review of this project. It returns the one highest-impact fix proven by real visitor sessions, with dol…"
+          },
+          {
+            "name": "setup",
+            "description": "Set up UserProof for this project from the terminal. It creates the account, adds the tracking snippet to the codebase,…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
       "version": "0.55.1",
