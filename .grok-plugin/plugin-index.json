@@ -1249,13 +1249,13 @@
       }
     },
     "specstream": {
-      "sha": "a7f6d47da05fa0d853e2859358fe7693a7c1057e",
+      "sha": "4eb563988b0e0f3c3caea3a0ab6c5bc2eeaa682f",
       "version": "1.0.0",
       "components": {
         "commands": [
           {
             "name": "get-started",
-            "description": "Try SpecStream with a free first list in Grok Build"
+            "description": "Run a first SpecStream request in Grok Build"
           }
         ],
         "mcpServers": [
@@ -1271,7 +1271,7 @@
           },
           {
             "name": "specstream-compile",
-            "description": "Get the whole list from the live web by asking in plain words (leads, companies, grants, jobs, places). Reads the reque…"
+            "description": "Shows how SpecStream read a plain-words request, its conditions and the fields to bring back, before anything runs or c…"
           },
           {
             "name": "specstream-continue-work",

@@ -490,16 +490,16 @@
     },
     {
       "name": "specstream",
-      "description": "Official SpecStream integration (MCP Server + Skills). Ask for any list in plain words (lead lists, company lists, grants, jobs, places) and get the whole list from the live web, every row with the page behind it. Sign in with OAuth, see the exact price first, and pay only for matching rows.",
+      "description": "Official SpecStream integration (MCP Server + Skills). The live web data engine: search the live web, read pages and get structured rows for a request in plain words, with a source URL and read time on every value. Sign in with OAuth and approve the exact price before a paid run.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/specstream/specstream-tools.git",
-        "sha": "a7f6d47da05fa0d853e2859358fe7693a7c1057e",
+        "sha": "4eb563988b0e0f3c3caea3a0ab6c5bc2eeaa682f",
         "path": "plugins/grok"
       },
       "homepage": "https://specstream.ai",
-      "keywords": ["specstream", "specstream lists", "specstream ai"],
+      "keywords": ["specstream", "specstream ai", "live web data"],
       "domains": ["specstream.ai", "api.specstream.ai"]
     }
   ]
