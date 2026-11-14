@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "dreamstate",
+      "description": "Dreamstate for AI agents: build workbooks of companies and people, run LinkedIn and email sequences, answer replies, post to LinkedIn and X, and manage your CRM from your coding agent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/luisfigueroavale/dreamstate-plugins.git",
+        "sha": "b1f5e5d8f846f9443ce59273cc6e6249b8c963e7"
+      },
+      "homepage": "https://trydreamstate.com",
+      "keywords": ["dreamstate", "sales", "outreach", "linkedin", "crm", "lead-generation"],
+      "domains": ["trydreamstate.com", "www.trydreamstate.com", "mcp.trydreamstate.com"]
     }
   ]
 }

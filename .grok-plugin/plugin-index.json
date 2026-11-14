@@ -362,6 +362,122 @@
         ]
       }
     },
+    "dreamstate": {
+      "sha": "b1f5e5d8f846f9443ce59273cc6e6249b8c963e7",
+      "version": "1.3.17",
+      "components": {
+        "hooks": [
+          {
+            "name": "PreToolUse",
+            "description": "^mcp__(?:plugin_dreamstate_dreamstate|dreamstate)__(?:packs_get|packs_list|packs_route|runs_events|runs_get|runs_list|s…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "dreamstate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "crm",
+            "description": "Maintain trustworthy customer and company records by separating stable facts, judgement, and time-bound activity; dedup…"
+          },
+          {
+            "name": "diagnostics",
+            "description": "Answer one operational question with evidence, such as where a cell value came from or why it is empty, which runs fail…"
+          },
+          {
+            "name": "dreamstate",
+            "description": "Use Dreamstate for sales and marketing work: finding companies or people, enrichment and scoring, LinkedIn and email ou…"
+          },
+          {
+            "name": "facebook-posts",
+            "description": "Write and revise Facebook posts: conversational copy up to 63,206 characters, and where a link sits so the opening stil…"
+          },
+          {
+            "name": "first-win",
+            "description": "Run a short first session in a new workspace that confirms the user and workspace, builds or reads Company Context, cre…"
+          },
+          {
+            "name": "inbox-replies",
+            "description": "Triage and answer existing LinkedIn and email conversations, classify the latest inbound message, confirm the sequence…"
+          },
+          {
+            "name": "instagram-posts",
+            "description": "Write and revise Instagram captions, carousel outlines, and Reels scripts: the first 125 characters, line breaks, 3 to…"
+          },
+          {
+            "name": "knowledge",
+            "description": "Read and update what the workspace knows, across the knowledge digest, the workspace wiki, cited claims, and conflict-a…"
+          },
+          {
+            "name": "linkedin-posts",
+            "description": "Write and revise LinkedIn posts that earn the click and the reply: the 210 character hook, structure and formatting, le…"
+          },
+          {
+            "name": "linkedin-warm-signals",
+            "description": "Warm people come from worksheet sources such as post engagers, followers, profile viewers and website visits. Judge wor…"
+          },
+          {
+            "name": "list-building",
+            "description": "Build a workbook of companies or people: as few sources as possible, people at companies through the employees enrichme…"
+          },
+          {
+            "name": "outreach",
+            "description": "Build a multi-channel sequence and enroll a workbook into it: preview one real message first, fixed scaffold with small…"
+          },
+          {
+            "name": "performance",
+            "description": "Search what past outreach produced before choosing an audience or writing: pick the objective, one or two dimensions an…"
+          },
+          {
+            "name": "plays",
+            "description": "Recommend and run one named, proven go-to-market play when the user asks what to do next, picking by stage and what the…"
+          },
+          {
+            "name": "reddit-posts",
+            "description": "Draft Reddit posts the user posts themselves: subreddit choice and rules, the title, a value first body, disclosure, po…"
+          },
+          {
+            "name": "skill-authoring",
+            "description": "Read, edit and create this workspace's skills, the editable Markdown playbooks agents and people follow, keeping each o…"
+          },
+          {
+            "name": "social",
+            "description": "Own a short-form social post for its whole life across connected channels. Read the channel registry and learned brand…"
+          },
+          {
+            "name": "tiktok-posts",
+            "description": "Write and revise TikTok video scripts and captions: the first two seconds, on-screen text, a caption up to 2,200 charac…"
+          },
+          {
+            "name": "visibility",
+            "description": "Get found by search engines and answer engines. Pick the query set, gather crawl, index, mention and citation evidence,…"
+          },
+          {
+            "name": "workflows",
+            "description": "Best practices for building and running automations that are not outreach sequences: frame the job, smallest graph, val…"
+          },
+          {
+            "name": "worksheet-tidy",
+            "description": "Review a workbook worksheet's structure and values, including duplicate or overlapping columns, column order, types and…"
+          },
+          {
+            "name": "writing",
+            "description": "Draft, revise and publish articles and landing copy grounded in workspace context and a target query."
+          },
+          {
+            "name": "x-posts",
+            "description": "Write and revise X posts and threads: the first line, single post versus thread, weighted length and Premium limits, th…"
+          },
+          {
+            "name": "youtube-posts",
+            "description": "Write and revise YouTube titles, descriptions, and tags: a title of at most 100 characters, a description with chapters…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
