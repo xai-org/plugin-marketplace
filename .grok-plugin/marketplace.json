@@ -436,6 +436,19 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
+      "name": "heyyumi",
+      "description": "Verified Korean restaurant, cafe, and bar data for AI agents — search and filter real venues by location, cuisine, and 40+ attributes, then send a table reservation request in-chat, at Yumi Partner venues and many others. Covers Seoul, Gyeonggi, Busan, Jeju, Incheon, Daejeon, Sejong, and North/South Chungcheong.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hmp-dev/heyyumi-mcp.git",
+        "sha": "d3c43ff40ce5d7a3c80595fab43ab7d5845efea5"
+      },
+      "homepage": "https://heyyumi.ai/mcp",
+      "keywords": ["heyyumi", "yumi", "heyyumi korean restaurants", "yumi restaurant reservation"],
+      "domains": ["heyyumi.ai"]
+    },
+    {
       "name": "clerk",
       "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
       "category": "development",
