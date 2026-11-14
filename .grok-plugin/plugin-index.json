@@ -768,6 +768,24 @@
         ]
       }
     },
+    "moose-tracker": {
+      "sha": "cc04e00d94132a2fb25be9a8c3c9946fcc4f1414",
+      "version": "1.2.15",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "moose-tracker",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "moose-tracker",
+            "description": "Make game sound effects and retro synth, chiptune, jazz-combo or drum-and-bass songs with Moose Tracker MCP (Moose Trac…"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {
