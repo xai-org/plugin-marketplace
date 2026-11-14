@@ -1460,6 +1460,17 @@
         ]
       }
     },
+    "tendergraph": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tendergraph",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",

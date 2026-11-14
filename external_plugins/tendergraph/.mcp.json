@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tendergraph": {
+      "type": "http",
+      "url": "https://tendergraph.ai/api/mcp"
+    }
+  }
+}

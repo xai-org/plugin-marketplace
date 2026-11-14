@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tendergraph",
+      "description": "TenderGraph public procurement intelligence: search tenders, research buyers and suppliers, and monitor opportunities with official source evidence.",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/tendergraph"
+      },
+      "category": "research",
+      "homepage": "https://tendergraph.ai",
+      "keywords": [
+        "tendergraph",
+        "tendergraph.ai",
+        "tendergraph procurement"
+      ],
+      "domains": [
+        "tendergraph.ai"
+      ]
     }
   ]
 }

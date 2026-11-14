@@ -1,0 +1,14 @@
+{
+  "name": "tendergraph",
+  "version": "1.0.0",
+  "description": "TenderGraph public procurement intelligence: find tenders, research buyers and suppliers, and track opportunities with official source evidence. Connect your TenderGraph account using OAuth.",
+  "author": {
+    "name": "M Heath Consulting Ltd",
+    "email": "hello@tendergraph.ai",
+    "url": "https://tendergraph.ai/company"
+  },
+  "homepage": "https://tendergraph.ai/integrations",
+  "license": "MIT",
+  "keywords": ["tendergraph", "tendergraph.ai", "tendergraph procurement"],
+  "logo": "assets/logo.svg"
+}
