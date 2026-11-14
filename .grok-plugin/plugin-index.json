@@ -673,8 +673,8 @@
       }
     },
     "marketplace-ad-pros": {
-      "sha": "c4d6b3a9cb306b26686f636e95af71cb0001dd84",
-      "version": "1.0.0",
+      "sha": "623dfa9f90ae72c3af2696405433e911bd08e731",
+      "version": "1.0.1",
       "components": {
         "mcpServers": [
           {
