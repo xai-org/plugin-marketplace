@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "marketplace-ad-pros",
+      "description": "Official Marketplace Ad Pros plugin for Amazon sellers and vendors. Connect Amazon Ads (Sponsored Products, Brands, Display, DSP), Seller Central and Vendor Central through Marketplace Ad Pros' hosted OAuth MCP server: ask about ACoS, TACoS, wasted ad spend, sales and inventory; get bid, budget and keyword recommendations; audit listings; and run PPC optimization playbooks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/MarketplaceAdPros/map-grok-plugin.git",
+        "sha": "623dfa9f90ae72c3af2696405433e911bd08e731"
+      },
+      "homepage": "https://marketplaceadpros.com/amazon-ads-grok/",
+      "keywords": [
+        "marketplace ad pros",
+        "marketplaceadpros",
+        "marketplace ad pros mcp",
+        "marketplace ad pros amazon ads",
+        "marketplace ad pros amazon seller"
+      ],
+      "domains": ["marketplaceadpros.com", "app.marketplaceadpros.com"],
+      "version": "1.0.1",
+      "author": {
+        "name": "Marketplace Ad Pros",
+        "email": "support@marketplaceadpros.com",
+        "url": "https://marketplaceadpros.com"
+      }
     }
   ]
 }
