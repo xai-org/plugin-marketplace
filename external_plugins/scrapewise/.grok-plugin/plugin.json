@@ -1,0 +1,14 @@
+{
+  "name": "scrapewise",
+  "version": "1.0.0",
+  "description": "Clean, matched, AI-ready product data from any website, through the hosted Scrapewise MCP server. Needs a Scrapewise API key.",
+  "author": {
+    "name": "Scrapewise",
+    "url": "https://scrapewise.ai"
+  },
+  "homepage": "https://scrapewise.ai",
+  "repository": "https://github.com/BEBOTECH-OU/scrapewise-mcp",
+  "license": "MIT",
+  "keywords": ["scrapewise", "scrapewise mcp", "scrapewise product data", "scrapewise price monitoring"],
+  "logo": "assets/logo.png"
+}
