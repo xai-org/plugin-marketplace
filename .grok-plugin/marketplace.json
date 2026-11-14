@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "getmattered",
+      "description": "Find jobs matched to your resume, tailor each application, and apply on employers' own hiring sites across 30+ hiring systems. Send automatically or review first, track employer confirmations, read and answer recruiter replies, follow up, save searches, and prepare for interviews. Connect your GetMattered account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getmattered/getmattered-mcp.git",
+        "sha": "0c49d656c7d7209892fa5c99a5bd4a60175dde78",
+        "path": "plugins/getmattered"
+      },
+      "homepage": "https://getmattered.com/mcps",
+      "keywords": [
+        "getmattered",
+        "get mattered",
+        "getmattered jobs",
+        "getmattered auto-apply",
+        "getmattered resume",
+        "getmattered cover letter",
+        "getmattered interview",
+        "getmattered application tracking"
+      ],
+      "domains": [
+        "getmattered.com",
+        "mcp.getmattered.com"
+      ]
     }
   ]
 }
