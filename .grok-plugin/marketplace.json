@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "vail-agent-assurance",
+      "description": "Find where your AI agent can break its own rules. Scans an agent's instructions, tools and code for behavior risks, generates probes that test them, and helps you test and fix the agent locally (MCP server + skills).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/projectvail/vail-agent-assurance.git",
+        "sha": "8eb928703bcc0b3da3a2f2649a35fd8c28d66858",
+        "path": "plugins/vail-agent-assurance"
+      },
+      "homepage": "https://agents.projectvail.com",
+      "keywords": ["vail", "vail agent assurance", "projectvail"],
+      "domains": ["projectvail.com", "agents.projectvail.com"]
     }
   ]
 }
