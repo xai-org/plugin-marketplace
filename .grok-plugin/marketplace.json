@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "replo",
+      "description": "Research competitors and build, edit, and manage ecommerce sites from your AI assistant.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/replohq/skills.git",
+        "sha": "3a9a145321aeb4832a370bdd4657e5472d6b719c"
+      },
+      "homepage": "https://replo.app",
+      "keywords": ["replo", "replo mcp"],
+      "domains": ["replo.app", "dashboard.replo.app", "api.replo.app"]
     }
   ]
 }
