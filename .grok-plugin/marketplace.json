@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "warmgtm",
+      "description": "Run warm outbound from your WarmGTM account through WarmGTM's hosted MCP server: campaign analytics, leads, inbox replies, posts, Social Signals, tags, CRM sync and webhooks. Sign in with OAuth; outreach actions are confirmed before anything is sent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chandrkant/warmgtm-plugin.git",
+        "sha": "a65354e3bafb4e50437c1928b3b84b1cfdcd8ef0"
+      },
+      "homepage": "https://warmgtm.com",
+      "keywords": ["warmgtm", "warmgtm campaign", "warmgtm leads", "warmgtm inbox", "warmgtm mcp"],
+      "domains": ["warmgtm.com", "app.warmgtm.com", "mcp.warmgtm.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "WarmGTM",
+        "email": "support@warmgtm.com"
+      }
     }
   ]
 }
