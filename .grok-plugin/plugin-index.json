@@ -938,6 +938,24 @@
         ]
       }
     },
+    "pickedjobs": {
+      "sha": "9f1449adf5c6c1e59a7e0a32cb358856e4f74aa9",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pickedjobs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-jobs",
+            "description": "Use when the user asks to find tech jobs, shortlist open roles, or compare PickedJobs postings against their role, loca…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
       "version": "0.15.36",
