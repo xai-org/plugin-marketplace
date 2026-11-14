@@ -1875,7 +1875,7 @@
       }
     },
     "warmgtm": {
-      "sha": "a65354e3bafb4e50437c1928b3b84b1cfdcd8ef0",
+      "sha": "509816fbd3d098e612706f5f83a6597fe38fc5cb",
       "version": "1.0.0",
       "components": {
         "mcpServers": [

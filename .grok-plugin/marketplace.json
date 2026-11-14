@@ -490,12 +490,12 @@
     },
     {
       "name": "warmgtm",
-      "description": "Run warm outbound from your WarmGTM account through WarmGTM's hosted MCP server: campaign analytics, leads, inbox replies, posts, Social Signals, tags, CRM sync and webhooks. Sign in with OAuth; outreach actions are confirmed before anything is sent.",
+      "description": "Review and manage sales outreach for the LinkedIn accounts you've connected to WarmGTM, through WarmGTM's hosted MCP server: campaign results, conversations, leads, posts, Social Signals, tags, CRM sync and webhooks. Nothing is sent, published or launched without your explicit confirmation.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/chandrkant/warmgtm-plugin.git",
-        "sha": "a65354e3bafb4e50437c1928b3b84b1cfdcd8ef0"
+        "sha": "509816fbd3d098e612706f5f83a6597fe38fc5cb"
       },
       "homepage": "https://warmgtm.com",
       "keywords": ["warmgtm", "warmgtm campaign", "warmgtm leads", "warmgtm inbox", "warmgtm mcp"],
