@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pickedjobs",
+      "description": "Search curated tech jobs pulled from company career pages (hosted MCP server + skill). Filter by role, seniority, region, remote policy, stack and published salary, read full postings, and get apply links. Sign in with a PickedJobs account on first connect; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yashgandhe666/pickedjobs-plugins.git",
+        "sha": "9f1449adf5c6c1e59a7e0a32cb358856e4f74aa9",
+        "path": "plugins/pickedjobs"
+      },
+      "homepage": "https://pickedjobs.com/docs/agents",
+      "keywords": ["pickedjobs", "picked jobs", "pickedjobs mcp", "pickedjobs job search"],
+      "domains": ["pickedjobs.com"]
     }
   ]
 }
