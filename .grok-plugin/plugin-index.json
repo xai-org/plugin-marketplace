@@ -768,6 +768,23 @@
         ]
       }
     },
+    "mugpipe-for-wordpress": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mugpipe-for-wordpress",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mugpipe-for-wordpress",
+            "description": "Use when the user asks to read or change a connected WordPress site through Mugpipe for WordPress."
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

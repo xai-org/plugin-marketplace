@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mugpipe-for-wordpress",
+      "description": "Read and change a WordPress site in Grok via Mugpipe's hosted MCP. Drafts, content audit, and high-impact changes after you confirm. Sign in with a Mugpipe account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/mugpipe-for-wordpress"
+      },
+      "homepage": "https://mugpipe.com",
+      "keywords": ["mugpipe", "mugpipe for wordpress", "mugpipe wordpress", "mugpipe mcp"],
+      "domains": ["mugpipe.com", "wp.mugpipe.com"]
     }
   ]
 }

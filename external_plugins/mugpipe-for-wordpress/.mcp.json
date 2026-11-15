@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mugpipe-for-wordpress": {
+      "type": "http",
+      "url": "https://wp.mugpipe.com/mcp"
+    }
+  }
+}

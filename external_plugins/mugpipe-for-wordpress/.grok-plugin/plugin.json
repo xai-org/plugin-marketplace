@@ -1,0 +1,13 @@
+{
+  "name": "mugpipe-for-wordpress",
+  "version": "1.0.0",
+  "description": "Mugpipe for WordPress: read and change a WordPress site inside Grok via the hosted MCP at wp.mugpipe.com. Sign in with a Mugpipe account. Drafts stay unpublished; high-impact changes wait for confirmation.",
+  "author": {
+    "name": "Mugpipe",
+    "url": "https://mugpipe.com"
+  },
+  "homepage": "https://mugpipe.com",
+  "license": "Proprietary",
+  "keywords": ["mugpipe", "mugpipe for wordpress", "mugpipe wordpress", "mugpipe mcp"],
+  "logo": "assets/logo.png"
+}
