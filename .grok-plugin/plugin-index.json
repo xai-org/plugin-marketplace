@@ -1156,6 +1156,24 @@
         ]
       }
     },
+    "pushary": {
+      "sha": "bda3a3ae54d28286a46e4df1349b990a227093da",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pushary",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "pushary",
+            "description": "Push notifications and human-in-the-loop for AI agents. Use it whenever a running agent needs a person who may not be a…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
