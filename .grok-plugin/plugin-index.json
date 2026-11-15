@@ -1875,8 +1875,8 @@
       }
     },
     "wix": {
-      "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
-      "version": "1.41.4",
+      "sha": "df217493760e4c2d4681539a331ce41bebadae28",
+      "version": "1.41.5",
       "components": {
         "mcpServers": [
           {
@@ -1902,6 +1902,10 @@
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
           },
           {
+            "name": "wix-harmony-editor",
+            "description": "Edit Wix Harmony sites through an authenticated Harmony editor using Playwright over a local Chrome CDP session. Use fo…"
+          },
+          {
             "name": "wix-headless",
             "description": "Connect Wix business services (Stores, Bookings, Donations, CMS, Blog, Events, Forms, and more) to a Wix Headless front…"
           },
@@ -1912,6 +1916,10 @@
           {
             "name": "wix-headless-kit",
             "description": "Builds new Wix sites or puts the user's own site online, with or without a Wix account. The pages are code in any web t…"
+          },
+          {
+            "name": "wix-headless-replatform",
+            "description": "Clone, rebuild, migrate, or reverse-engineer a public website home page into a Wix Headless frontend while preserving s…"
           },
           {
             "name": "wix-headless-templates",
@@ -1926,8 +1934,12 @@
             "description": "What the Wix plugin holds and how to work with Wix through it: the flow the Wix MCP README returns, an index of the plu…"
           },
           {
+            "name": "wix-replatform",
+            "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
+          },
+          {
             "name": "wix-studio-two",
-            "description": "Build or edit a Wix website by chat, with no local setup - start a new site, or change an existing Wix Studio Two site'…"
+            "description": "Create a Wix Studio Two site, including a new site the user calls Wix Studio, Studio Two or Studio 2, or build on an ex…"
           },
           {
             "name": "wix-vibe-headless",
