@@ -1,0 +1,13 @@
+{
+  "name": "offerbot",
+  "version": "1.6.0",
+  "description": "OfferBot for Grok Build via the hosted OfferBot MCP server. Find products sold directly by the companies that make them, see the labeled list price and ratings, get an estimated offer range, and prepare a private offer that you review and send on offerbot.com. Nothing is sent or charged from the chat. Sign in with a free OfferBot account on first connect.",
+  "author": {
+    "name": "ZLABS Technologies Inc. (OfferBot)",
+    "url": "https://offerbot.com"
+  },
+  "homepage": "https://offerbot.com/ai",
+  "license": "MIT",
+  "keywords": ["offerbot", "offerbot offer", "offerbot mcp", "offerbot price"],
+  "logo": "assets/logo.png"
+}

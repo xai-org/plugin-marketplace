@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "offerbot": {
+      "type": "http",
+      "url": "https://auth.offerbot.com/functions/v1/offerbotMcp_v1"
+    }
+  }
+}
