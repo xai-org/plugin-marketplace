@@ -493,8 +493,8 @@
       }
     },
     "figma": {
-      "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa",
-      "version": "2.2.193",
+      "sha": "5f3024c3decd83ff6f0bfb3ef36a2c4cfbff961d",
+      "version": "2.2.208",
       "components": {
         "mcpServers": [
           {
@@ -503,6 +503,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "figma-3d-transforms",
+            "description": "Add or edit 3D transforms — depth, perspective, z-axis rotation, tilt, isometric, and parallax looks that flat 2D rotat…"
+          },
           {
             "name": "figma-code-connect",
             "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
