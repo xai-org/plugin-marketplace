@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "anyscribe": {
+      "sha": "bb96e749ca54c96f508d257b05ae0342a374d61c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anyscribe",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",

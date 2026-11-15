@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "anyscribe",
+      "description": "Official AnyScribe integration through AnyScribe's hosted OAuth MCP server. Search and read your transcripts, summaries, translations and highlights, and send YouTube, TikTok or Instagram links to your iPhone to transcribe.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KELiON/anyscribe-mcp.git",
+        "sha": "bb96e749ca54c96f508d257b05ae0342a374d61c"
+      },
+      "homepage": "https://www.anyscribe.app/mcp",
+      "keywords": ["anyscribe", "anyscribe mcp", "anyscribe transcripts", "anyscribe transcription"],
+      "domains": ["anyscribe.app", "www.anyscribe.app", "mcp.anyscribe.app"]
     }
   ]
 }
