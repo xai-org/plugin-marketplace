@@ -1453,7 +1453,7 @@
       }
     },
     "theshow": {
-      "sha": "400599e40d91d2055a453eee66c0b320ec1bfedb",
+      "sha": "1717ec516cba3200e572ff1ce20902627fe13bc9",
       "version": "0.1.0",
       "components": {
         "commands": [
@@ -1475,7 +1475,7 @@
           },
           {
             "name": "film",
-            "description": "Start a new theShow film. Opens the configuration card, then boards and renders it."
+            "description": "Start a new theShow film. Same recipe as /theshow — configure, board, contract, then render."
           },
           {
             "name": "films",
@@ -1492,6 +1492,10 @@
           {
             "name": "scene",
             "description": "Plan a storyboard for one scene. Free, renders nothing."
+          },
+          {
+            "name": "theshow",
+            "description": "theShow — start a film. The model calls configure_film; this command does not open the form by itself."
           }
         ],
         "mcpServers": [
