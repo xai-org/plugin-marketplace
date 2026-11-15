@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bubblav",
+      "description": "Manage your BubblaV AI chatbot from Grok: add the chat widget to your site, check performance, find unanswered questions, teach it new knowledge, review conversations and leads, and change its persona and widget, via the BubblaV remote MCP server over OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bubblav-org/bubblav-grok.git",
+        "sha": "3bc3be1bfe9f7d631262364cdfcb4e4d0fb6f8dd"
+      },
+      "homepage": "https://docs.bubblav.com/user-guide/integrations/grok",
+      "keywords": ["bubblav", "bubblav chatbot", "bubblav widget", "bubblav mcp"],
+      "domains": ["bubblav.com", "www.bubblav.com", "docs.bubblav.com"]
     }
   ]
 }
