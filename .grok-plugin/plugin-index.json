@@ -340,6 +340,52 @@
         ]
       }
     },
+    "cloudtalk": {
+      "sha": "468ce5a2d7276236f09b56fb5136d118c870b92c",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cloudtalk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "call-coach",
+            "description": "Coach your team from real CloudTalk calls, and check your AI Voice Agents alongside them. For each person, one thing to…"
+          },
+          {
+            "name": "conversation-insights",
+            "description": "Turn recent CloudTalk conversations into insights you can act on. It finds the open loops, meaning questions not answer…"
+          },
+          {
+            "name": "get-started",
+            "description": "Set up CloudTalk in this chat and show what it can do. Use right after CloudTalk is installed or connected, when the us…"
+          },
+          {
+            "name": "missed-call-digest",
+            "description": "Deliver CloudTalk's missed-call follow-up list on a schedule to the user's Slack DM or email, and let them pick texts a…"
+          },
+          {
+            "name": "missed-call-follow-up",
+            "description": "Make sure no missed caller or unanswered text waits. Finds today's missed CloudTalk calls (or those since the last run)…"
+          },
+          {
+            "name": "voice-agent-builder",
+            "description": "Build, fix, or check a CloudTalk AI Voice Agent: its v2 \"Expert Mode\" configuration. Connected to CloudTalk, it creates…"
+          },
+          {
+            "name": "voice-agent-checkup",
+            "description": "Check whether a CloudTalk AI Voice Agent is ready to go live, and what to fix first. Reads the agent's setup, its knowl…"
+          },
+          {
+            "name": "voice-agent-replay",
+            "description": "Improve a live CloudTalk AI Voice Agent from its real calls. Reads the agent's setup and a sample of its recent calls,…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
