@@ -28,7 +28,7 @@ Credentials: Google OAuth, read-only Google Search Console and GA4, for the prop
 
 Privacy: https://mugpipe.com/legal/privacy · Terms: https://mugpipe.com/legal/terms
 
-Support: hello@mugpipe.com
+Support: support@mugpipe.com
 
 ## License
 
