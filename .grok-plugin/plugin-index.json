@@ -1257,8 +1257,8 @@
       }
     },
     "stripe": {
-      "sha": "064bb3620ae2447e6844b6ca301a56a14e869522",
-      "version": "0.9.47",
+      "sha": "17d0c774b7dcfcd8a55cb5a7cf9f3b809bc24a29",
+      "version": "0.10.0",
       "components": {
         "agents": [
           {
@@ -1310,6 +1310,10 @@
           {
             "name": "stripe-docs",
             "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
+          },
+          {
+            "name": "stripe-implementation-planner",
+            "description": "Plans Stripe product selection and integration architecture for an initial Stripe setup or a material expansion of an e…"
           },
           {
             "name": "stripe-pay",
