@@ -1874,6 +1874,18 @@
         ]
       }
     },
+    "visual-sentinel": {
+      "sha": "c67cf93927dbf09e8de337dbb4a89cb43b272596",
+      "version": "0.2.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "visualsentinel",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "07a8af1bd4e294a8e334488cf93b645b1b80c2a9",
       "version": "1.41.4",
