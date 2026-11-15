@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "visual-sentinel",
+      "description": "Visual Sentinel website monitoring. Catches pages that look broken even when the site is up. Five tools need no account: DNS lookup, SSL certificate inspection, speed test, website check and service health. Twelve account tools (monitors, uptime, incidents, alerts, status pages, servers) need a Visual Sentinel API key, included with every paid plan. Also ships four prompts and three resources.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/VisualSentinel/mcp-server.git",
+        "sha": "c67cf93927dbf09e8de337dbb4a89cb43b272596"
+      },
+      "homepage": "https://visualsentinel.com/mcp",
+      "keywords": ["visual sentinel", "visualsentinel", "visual sentinel monitoring"],
+      "domains": ["visualsentinel.com"]
     }
   ]
 }
