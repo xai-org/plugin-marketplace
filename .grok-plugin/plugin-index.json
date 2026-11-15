@@ -900,6 +900,18 @@
         ]
       }
     },
+    "pcbeditor": {
+      "sha": "9b9719cfbfe389249d7e0a988ec88562b9904af9",
+      "version": "1.3.10",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "pcbeditor",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
