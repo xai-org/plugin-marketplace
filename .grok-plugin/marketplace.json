@@ -334,6 +334,20 @@
       "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
     },
     {
+      "name": "clawcall",
+      "description": "Official ClawCall plugin for Grok Build (hosted MCP server + skill). Place real US phone calls, work phone menus and hold queues, bring the user into a live call, and get outcomes, transcripts, recordings, and call history through ClawCall's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ClawCall-Dev/ClawCall.git",
+        "sha": "fc38c2a519d3044fe115b2464be0b5be277db09f",
+        "path": "grok"
+      },
+      "homepage": "https://clawcall.dev",
+      "keywords": ["clawcall", "claw call", "clawcall phone", "clawcall mcp"],
+      "domains": ["clawcall.dev", "api.clawcall.dev"]
+    },
+    {
       "name": "omneky",
       "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
       "category": "development",
