@@ -677,8 +677,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
-      "version": "1.0.0",
+      "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+      "version": "1.0.1",
       "components": {
         "skills": [
           {
