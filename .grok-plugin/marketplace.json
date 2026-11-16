@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ship24",
+      "description": "Ship24 shipment tracking for AI coding agents. Skills to integrate the Ship24 Tracking API, build webhook receivers, look up courier codes, map tracking statuses and troubleshoot errors, plus the Ship24 Tracking MCP server to track parcels live. Set SHIP24_API_KEY for live calls.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ship24/ship24-ai-plugin.git",
+        "sha": "5cc31e9aa6816c8f0a3c2be6fecc77b7b6f186ff"
+      },
+      "homepage": "https://docs.ship24.com/integrate-with-ai",
+      "keywords": [
+        "ship24",
+        "ship24 tracking",
+        "ship24 api",
+        "ship24 mcp",
+        "ship24 webhook"
+      ],
+      "domains": [
+        "ship24.com",
+        "docs.ship24.com",
+        "api.ship24.com"
+      ]
     }
   ]
 }
