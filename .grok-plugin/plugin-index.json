@@ -1257,8 +1257,8 @@
       }
     },
     "string-web-access": {
-      "sha": "23ee6428c873e0dba4765c0d0211126c709e443b",
-      "version": "2.0.0",
+      "sha": "3a688652bd29846c2cfb8d67581d68bbffd6b0da",
+      "version": "2.1.0",
       "components": {
         "commands": [
           {
