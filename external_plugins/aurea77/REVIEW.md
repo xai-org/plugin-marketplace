@@ -1,6 +1,6 @@
 # Aurea77 review cases
 
-Package version: 1.0.0. No reviewer credentials, real account payloads or user identifiers are included. Use a dedicated Aurea77 athlete account with sample data. Resolve the Grok Build client-registration gate described in the README before running these cases in Build.
+Package version: 1.0.1. No reviewer credentials, real account payloads or user identifiers are included. Use a dedicated Aurea77 athlete account with sample data. Resolve the Grok Build client-registration gate described in the README before running these cases in Build.
 
 ## Existing evidence
 

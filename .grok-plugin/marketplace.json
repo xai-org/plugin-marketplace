@@ -453,6 +453,12 @@
         "aurea77.com",
         "api.aurea77.com"
       ]
+    },
+    {
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
+      "source": {
         "source": "url",
         "url": "https://github.com/clerk/skills.git",
         "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
