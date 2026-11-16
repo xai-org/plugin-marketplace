@@ -942,6 +942,23 @@
         ]
       }
     },
+    "planagram": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "planagram",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "planagram",
+            "description": "Draft, schedule, edit and review social media posts through the Planagram MCP server. Use whenever \"Planagram\" comes up…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
       "version": "0.15.42",
