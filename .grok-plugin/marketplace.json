@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kyte",
+      "description": "Your company's kyte workspace in Grok: customers, contacts, deals, projects, hours, invoices, goals, people and documents — read and changed as you, under your permissions. Served by the kyte program on your own computer.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Pirol-ai/kyte-grok.git",
+        "sha": "2783f83c9e3eda5d9c993bacdc59678f7a34c79e",
+        "path": "plugins/kyte"
+      },
+      "homepage": "https://kyte.pirol.ai/docs/en/mcp/",
+      "keywords": ["kyte", "kyte workspace", "pirol kyte"],
+      "domains": ["kyte.pirol.ai", "pirol.ai"]
     }
   ]
 }
