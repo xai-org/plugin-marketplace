@@ -455,7 +455,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/TechHiveDev/promoat-partner-mcp.git",
-        "sha": "a4f21646ef0b820df9bedad23ad1c140df9ae10d",
+        "sha": "9d35b16e26ce1863906852c7abd6cec845b383d3",
         "path": "plugin/grok"
       },
       "homepage": "https://platform.promoat.ai",
