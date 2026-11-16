@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pcbeditor",
+      "description": "PCBEditor hosted MCP server. Design, route, check, review and export manufacturable printed circuit boards from plain language: placed, routed and design-rule checked boards with Gerber, drill, BOM, pick-and-place and KiCad files, plus KiCad import. Sign-in with a free PCBEditor account over OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PCBEditor/pcbeditor-mcp.git",
+        "sha": "9b9719cfbfe389249d7e0a988ec88562b9904af9",
+        "path": "plugins/pcbeditor"
+      },
+      "homepage": "https://pcbeditor.com/mcp",
+      "keywords": ["pcbeditor", "pcbeditor pcb", "pcbeditor board"],
+      "domains": ["pcbeditor.com"]
     }
   ]
 }
