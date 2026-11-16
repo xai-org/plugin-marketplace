@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "impulse",
+      "description": "Impulse for Grok Build via the hosted Impulse MCP server at mcp.impul.co. Work with events, registration and invitation pages, event emails, guest lists, and check-in. Edits are made in private drafts; publishing or sending happens only when you ask. Sign in with your Impulse account via OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/impul-co/impulse-mcp.git",
+        "sha": "ccfbe544f602319059a86654ad21f51aa597ccfc"
+      },
+      "homepage": "https://www.impulse-interactive.com/product/mcp-server",
+      "keywords": [
+        "impulse",
+        "impulse mcp",
+        "impulse interactive",
+        "impulse events"
+      ],
+      "domains": [
+        "impulse-interactive.com",
+        "mcp.impul.co",
+        "portal.impul.co",
+        "impul.co"
+      ]
     }
   ]
 }
