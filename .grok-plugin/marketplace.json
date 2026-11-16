@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pmnote",
+      "description": "Find public PMNote resources on game project management, career development, and AI tools.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chenhao233/pmnote-agent-plugin.git",
+        "sha": "8426b276625f9ca0a4d67c2530de8279e1cb0f7c"
+      },
+      "homepage": "https://pmnote.ai",
+      "keywords": ["PMNote", "Hao游戏PM笔记"],
+      "domains": ["pmnote.ai"],
+      "version": "1.5.5",
+      "author": {"name": "Hao"}
     }
   ]
 }
