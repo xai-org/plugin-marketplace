@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "shiro",
+      "description": "Work on a novel or non-fiction book in Shiro: read scenes and the outline, edit prose, fill characters and places, check continuity and export EPUB. Every change is kept in the project's History.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meetshiro/shiro-mcp.git",
+        "sha": "55bf4e86f3780bb8c6bf7f2a6833190c4a6627a1"
+      },
+      "homepage": "https://meetshiro.com/agents/",
+      "keywords": ["shiro", "meetshiro", "shiro writing", "novel", "manuscript"],
+      "domains": ["meetshiro.com", "app.meetshiro.com", "api.meetshiro.com"]
     }
   ]
 }

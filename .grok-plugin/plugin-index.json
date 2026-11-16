@@ -1238,6 +1238,24 @@
         ]
       }
     },
+    "shiro": {
+      "sha": "55bf4e86f3780bb8c6bf7f2a6833190c4a6627a1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "shiro",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shiro",
+            "description": "Work on a book in Shiro over its MCP server. Use when the user asks about their novel or non-fiction book in Shiro, its…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
