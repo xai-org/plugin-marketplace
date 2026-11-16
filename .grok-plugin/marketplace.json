@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "voltjuice",
+      "description": "VoltJuice self-custodial trading assistant. Guide users from plugin install to API wallet, one live order, or a 24-hour strategy rule. Keys stay on the user's computer.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voltjuice-xyz/agent.git",
+        "sha": "c13d3ef939713b0892207d2d8526d3294d3cb57a"
+      },
+      "homepage": "https://voltjuice.xyz",
+      "keywords": ["voltjuice", "voltjuice trade", "voltjuice api wallet", "voltjuice agent", "voltjuice webhook", "voltjuice signals"],
+      "domains": ["voltjuice.xyz", "app.voltjuice.xyz", "www.voltjuice.xyz"]
     }
+
   ]
 }

@@ -1882,6 +1882,68 @@
         ]
       }
     },
+    "voltjuice": {
+      "sha": "c13d3ef939713b0892207d2d8526d3294d3cb57a",
+      "version": "0.5.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "voltjuice",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "voltjuice-connect",
+            "description": "Connect one VoltJuice API wallet. Use only as part of the start path. Do not wait for a separate connect prompt."
+          },
+          {
+            "name": "voltjuice-errors",
+            "description": "Recover from a failed VoltJuice order without sending a duplicate or a larger order. Use when an order, cancel, or acco…"
+          },
+          {
+            "name": "voltjuice-intent",
+            "description": "Turn a user's plain-language trading idea into one order or a 24-hour strategy. Use when they say what they want to buy…"
+          },
+          {
+            "name": "voltjuice-levels",
+            "description": "Move a VoltJuice user from reading the account, to a practice order, to one confirmed live order, and only then to a 24…"
+          },
+          {
+            "name": "voltjuice-onboard",
+            "description": "End-to-end setup from installing the VoltJuice GitHub plugin, through the API wallet, to binding the strategy webhook a…"
+          },
+          {
+            "name": "voltjuice-orders",
+            "description": "VoltJuice order catalog, including professional order types. Use when the user asks for a stop, take-profit, scale, TWA…"
+          },
+          {
+            "name": "voltjuice-risk",
+            "description": "Keep a VoltJuice live order inside the user's cap, and close positions only when they ask. Use before a live order, bef…"
+          },
+          {
+            "name": "voltjuice-routine",
+            "description": "Save a repeating VoltJuice strategy, not a one-off buy. Use after the account can trade and the user wants it to keep r…"
+          },
+          {
+            "name": "voltjuice-signals",
+            "description": "Build Grok's own 24-hour strategy. Use when the user wants an automatic quant rule. Do not add rules onto the four desk…"
+          },
+          {
+            "name": "voltjuice-start",
+            "description": "Lead a non-technical user from nothing to one live VoltJuice order. Use on the first message about VoltJuice, trading,…"
+          },
+          {
+            "name": "voltjuice-strategy",
+            "description": "Run a plan the desk already saved. Do not add rules. One wake does one action from that plan."
+          },
+          {
+            "name": "voltjuice-trade",
+            "description": "Place a VoltJuice order after the start path says next is trade. Do not ask the user which command to run."
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "831d23fede4ff7d9151985f455b7007271a3262b",
       "version": "1.41.5",
