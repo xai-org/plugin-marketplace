@@ -340,6 +340,24 @@
         ]
       }
     },
+    "datacircle": {
+      "sha": "73075122936f302a2f3d8f0b43283ec5690b8fd1",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "datacircle",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "datacircle",
+            "description": "Find the best GTM API for a job, from Datacircle's sheet of every plan of every GTM API: price per 1,000, score, rate l…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
