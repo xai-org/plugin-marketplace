@@ -661,8 +661,8 @@
       }
     },
     "litgrok": {
-      "sha": "41c490dbac7b34de027764466f97385ab760eaef",
-      "version": "1.0.29",
+      "sha": "f5f7e61774d3275940f5055d143453ddb1be5d5f",
+      "version": "1.0.37",
       "components": {
         "agents": [
           {
@@ -777,11 +777,11 @@
           },
           {
             "name": "frontend-ui-ux",
-            "description": "Build and inspect a working interface from a clear design request; clarify material ambiguity, or review without edits…"
+            "description": "Moved: frontend-ui-ux builds and inspects web and app interfaces from one locked house style, layout family and design…"
           },
           {
             "name": "lit-adhd",
-            "description": "Answer \"where was I\" across every recent agent session of this repository. Prints a drawn one-screen brief: a headline,…"
+            "description": "Answer \"where was I\" across every recent agent session of this repository with a drawn KPI board, the one thing to do n…"
           },
           {
             "name": "lit-brainstorm",
@@ -813,11 +813,11 @@
           },
           {
             "name": "lit-diagram-drawer",
-            "description": "Create clear, accessible, Korean-ready diagrams for architecture, workflows, systems, data models, timelines, and quant…"
+            "description": "Moved: lit-diagram-drawer draws conceptual diagrams (architecture, workflows, systems, data models, timelines) and is n…"
           },
           {
             "name": "lit-docx",
-            "description": "Create, edit, lint, audit, and convert Word documents and reports. A design direction is chosen first (six restrained t…"
+            "description": "Moved: lit-docx builds finished Word documents (report, doc, docx, Word, 보고서, 리포트, 기획서, 제안서, 문서, 워드, including a bare l…"
           },
           {
             "name": "lit-handoff",
@@ -841,7 +841,7 @@
           },
           {
             "name": "lit-pptx",
-            "description": "Build, revise, validate, and render PowerPoint presentations from Markdown, choosing a design direction first (thirteen…"
+            "description": "Moved: lit-pptx builds finished PowerPoint decks (slides, deck, presentation, PPT, pptx, 발표자료, 발표, 슬라이드, 덱, 피피티, includ…"
           },
           {
             "name": "lit-recap",
@@ -849,11 +849,11 @@
           },
           {
             "name": "lit-schematic",
-            "description": "Draw a physical schematic of equipment or an apparatus — a detailed P&ID with ISA-5.1 tags and control loops, a PFD or…"
+            "description": "Moved: lit-schematic draws physical schematics of real equipment (P&ID, PFD, BFD, equipment layout, isometric cutaway,…"
           },
           {
             "name": "lit-scientific-visualization",
-            "description": "Use when verified evidence must become a publication-ready scientific figure and caption backed by the packaged plottin…"
+            "description": "Moved: lit-scientific-visualization turns verified measurements into a publication-ready figure and caption, and is now…"
           },
           {
             "name": "lit-team",
@@ -861,7 +861,7 @@
           },
           {
             "name": "lit-typographic-motion",
-            "description": "Direct a finished film (video, clip, motion graphics, lyric video, title sequence, 영상, 모션그래픽, 키네틱 타이포, 가사 영상) from a tr…"
+            "description": "Moved: lit-typographic-motion directs finished short films (video, clip, motion graphics, kinetic type, lyric video, ti…"
           },
           {
             "name": "litgoal",
@@ -889,7 +889,7 @@
           },
           {
             "name": "readme-studio",
-            "description": "Create a factual README with cover, outlined type and local motion; review without edits when requested."
+            "description": "Moved: readme-studio writes a factual README for a repository with an inspected cover, outlined title type and an optio…"
           },
           {
             "name": "refactor",
@@ -913,7 +913,7 @@
           },
           {
             "name": "visual-qa",
-            "description": "Use when a rendered interface or visual artifact needs screenshot-backed quality review."
+            "description": "Moved: visual-qa reviews a built interface or visual artifact from screenshots at several sizes and states, and is now…"
           },
           {
             "name": "wikify",
