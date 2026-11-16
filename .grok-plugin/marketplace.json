@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kombai",
+      "description": "Official Kombai plugin. Design a new page or product UI, or improve an existing screen, with Kombai's taste agent: it creates a design direction grounded in your brief and product, draws on 20,000+ curated references, and lays out options on an editable Kombai canvas you can compare, refine with the agent, or edit directly.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kombai-io/agent-plugins.git",
+        "sha": "a02546836fb7c601a5419957a62eb0b94fc806eb",
+        "path": "plugins/grok"
+      },
+      "homepage": "https://kombai.com/",
+      "keywords": ["kombai", "kombai design", "kombai canvas"],
+      "domains": ["kombai.com", "www.kombai.com"]
     }
   ]
 }
