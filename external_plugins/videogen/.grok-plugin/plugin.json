@@ -1,0 +1,17 @@
+{
+  "name": "videogen",
+  "version": "1.0.0",
+  "description": "AI video generator and AI video editor. Go from text to video, image to video, or script to video, then export an MP4.",
+  "author": {
+    "name": "VideoGen",
+    "email": "support@videogen.io",
+    "url": "https://github.com/video-gen"
+  },
+  "homepage": "https://videogen.io/videogen-mcp",
+  "license": "MIT",
+  "keywords": [
+    "videogen",
+    "videogen mcp",
+    "videogen video"
+  ]
+}
