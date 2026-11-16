@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ihateposting",
+      "description": "iHatePosting social media automation. Schedule posts, manage integrations, upload media, and track analytics across 15 platforms including X, LinkedIn, YouTube, TikTok, and Instagram.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iHatePostingOrg/iHatePosting-Agent.git",
+        "sha": "b81f09867c1da8e89dc726f44d6c8290eb2fa9c3"
+      },
+      "homepage": "https://ihateposting.com",
+      "keywords": ["ihateposting", "ihateposting mcp", "schedule a post with ihateposting"],
+      "domains": ["ihateposting.com", "app.ihateposting.com"]
     }
   ]
 }
