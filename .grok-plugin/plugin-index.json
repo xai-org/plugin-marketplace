@@ -942,6 +942,24 @@
         ]
       }
     },
+    "poplar": {
+      "sha": "525fef60923bd128912a1192eeef3081e25654f0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "poplar",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "poplar",
+            "description": "Write, preview, schedule and measure social media posts with Poplar. Use when the user wants a post written in their br…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
       "version": "0.15.42",

@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "poplar",
+      "description": "Poplar social media scheduler. Write LinkedIn, X and Instagram posts in your brand voice, preview them, schedule them after your confirmation, run approvals and read post analytics from Grok Build.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Poplar-AI/poplar-connector.git",
+        "sha": "525fef60923bd128912a1192eeef3081e25654f0"
+      },
+      "homepage": "https://usepoplar.com/agents/grok-build",
+      "keywords": ["poplar", "usepoplar", "poplar social media", "poplar linkedin", "schedule with poplar"],
+      "domains": ["usepoplar.com"]
     }
   ]
 }
