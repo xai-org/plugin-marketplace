@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Endless-River-Labs/welder-plugins.git",
-        "sha": "2f6b56721f69118ff45b4f8bdc4758235c80bfda"
+        "sha": "1b39ce9e36a1c269ccb7fb78234c7f076a1a777b"
       },
       "homepage": "https://weldergtm.com",
       "keywords": ["welder", "weldergtm", "welder social", "welder autoposting", "welder mcp"],

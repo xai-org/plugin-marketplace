@@ -1875,7 +1875,7 @@
       }
     },
     "welder-social-manager": {
-      "sha": "2f6b56721f69118ff45b4f8bdc4758235c80bfda",
+      "sha": "1b39ce9e36a1c269ccb7fb78234c7f076a1a777b",
       "version": "1.3.0",
       "components": {
         "mcpServers": [
