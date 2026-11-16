@@ -410,7 +410,7 @@
     },
     {
       "name": "easypost",
-      "description": "EasyPost shipping, tracking, insurance, and claims via EasyPost's hosted MCP server. Set EASYPOST_API_KEY to a production EasyPost API key before launching Grok; the plugin forwards it as a Bearer token on every request. Read-only tools for shipments, trackers, addresses, carrier accounts, pickups, refunds, insurances, and claims.",
+      "description": "EasyPost shipping, tracking, insurance, and claims via EasyPost's hosted MCP server. Set EASYPOST_API_KEY to a production EasyPost API key before launching Grok; the plugin forwards it as a Bearer token on every request. Tools quote rates, buy labels, add insurance, request refunds, register trackers, and verify addresses (purchases and some lookups are billed), and read shipments, trackers, carrier accounts, pickups, refunds, insurances, and claims.",
       "category": "productivity",
       "source": {
         "type": "local",

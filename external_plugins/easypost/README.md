@@ -1,6 +1,6 @@
 # EasyPost plugin for Grok Build
 
-Connect Grok Build to [EasyPost](https://www.easypost.com) - shipments, trackers, addresses, carrier accounts, pickups, refunds, insurances, and claims - via EasyPost's hosted MCP server.
+Connect Grok Build to [EasyPost](https://www.easypost.com) - rate quotes, label purchase, insurance, refunds, tracking, address verification, and claims - via EasyPost's hosted MCP server.
 
 ## Installation
 
@@ -22,17 +22,35 @@ If `EASYPOST_API_KEY` is unset, every tool call returns 401. If the key is a tes
 
 ## Tools
 
-All tools are read-only (list and get only; no mutating actions) and run in production mode:
+Every tool runs in production mode against your EasyPost account.
+
+Read only:
 
 - `whoami` - authenticated user
 - `list_shipments`, `get_shipment`
 - `list_trackers`, `get_tracker`
 - `get_address`
 - `list_carrier_accounts`, `carrier_metadata`
+- `list_payment_methods` - brand, last4, and priority only; cannot add or change a method
 - `pickups`
-- `refunds`
+- `refunds` - refund status only; never files a refund
 - `insurances`
 - `claims`
+
+Billed lookups (each call is metered, nothing is purchased):
+
+- `create_shipment` - quote rates for one domestic US shipment; does not buy a label; the destination deliverability check is billed
+- `create_and_verify_address` - verify and store one address
+- `smartrate_delivery_date` - delivery date per rate for a planned ship date
+- `create_tracker` - register one tracking number not bought through EasyPost; a repeat number returns the existing tracker with no charge
+
+Purchases and refunds (these move money on your account):
+
+- `buy_shipment` - buy one rate; debits the postage wallet; refused unless `expected_rate` matches the rate being bought
+- `insure_shipment` - add insurance to a label already bought; debits the postage wallet
+- `create_refund` - request a refund for one unused label by tracking code
+
+Approve the carrier, service, and price before a buy or insurance call.
 
 ## License
 
