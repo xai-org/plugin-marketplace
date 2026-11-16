@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "theta-vantage",
+      "description": "Dealer positioning for options traders: zero gamma, the call and put walls, max pain, the expected move, options flow, and wheel and income screens. Sign in with your Theta Vantage account in the browser; no API key needed.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ThetaVantage/theta-vantage-plugin.git",
+        "sha": "40d09e0556d62c70290524acd8b6d6c0d120aee9"
+      },
+      "homepage": "https://thetavantage.com",
+      "keywords": ["theta vantage", "thetavantage", "theta vantage levels"],
+      "domains": ["thetavantage.com", "api.thetavantage.com"]
     }
   ]
 }
