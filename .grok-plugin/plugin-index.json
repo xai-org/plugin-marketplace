@@ -93,6 +93,28 @@
         ]
       }
     },
+    "bubblav": {
+      "sha": "3bc3be1bfe9f7d631262364cdfcb4e4d0fb6f8dd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bubblav",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "add-chat-widget",
+            "description": "Install the BubblaV chat widget on a website by fetching the ready-to-paste embed snippet and guiding placement. Use wh…"
+          },
+          {
+            "name": "manage-custom-tools",
+            "description": "Create and manage custom webhook tools for the BubblaV chatbot via the MCP server. Use when a user wants to add, create…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
