@@ -672,6 +672,36 @@
         ]
       }
     },
+    "initdesk": {
+      "sha": "0f16e0e2d6550b619c472d3908d3cb3aec15b31c",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "initdesk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-customer",
+            "description": "Find initdesk companies or customer contacts and inspect their support context."
+          },
+          {
+            "name": "maintain-help-center",
+            "description": "Search, draft, update, or publish initdesk help-center articles and organize their collections."
+          },
+          {
+            "name": "select-organization",
+            "description": "Resolve the organization for initdesk work when starting a task or switching organizations."
+          },
+          {
+            "name": "triage-ticket",
+            "description": "Triage initdesk support tickets, inspect conversations, or draft and send replies requested by the user."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
       "version": "1.0.0",
