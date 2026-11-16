@@ -901,7 +901,7 @@
       }
     },
     "osmo": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -912,7 +912,7 @@
         "skills": [
           {
             "name": "osmo",
-            "description": "Use when the user wants an AI to place a real phone call for them — call a shop, clinic, restaurant, helpline or a pers…"
+            "description": "Use when the user wants an AI to place a real phone call for them — call a shop, clinic, restaurant, helpline or one of…"
           }
         ]
       }

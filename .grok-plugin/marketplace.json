@@ -490,7 +490,7 @@
     },
     {
       "name": "osmo",
-      "description": "OsmO Phone Calls (hosted MCP server + skill). OsmO's AI makes real phone calls for you to businesses and people, then brings back the answer with a summary; see who called your OsmO number and manage call screening. Free to start in the US, Canada, UK and Australia. Sign in with your phone number; no API key needed.",
+      "description": "OsmO Phone Calls (hosted MCP server + skill). OsmO's AI makes real phone calls for you to businesses and helplines (up to 5 at once), then brings back the answer with a summary, transcript and recording; it is also your AI phone receptionist: see who called, pause the AI, put-through, VIP and block lists, caller rules, bookings. 50 free credits in the US, Canada, UK and Australia call businesses and toll-free numbers; contacts, call-backs, scheduling and the receptionist need an OsmO app plan. Sign in with your phone number; no API key needed.",
       "category": "productivity",
       "source": {
         "type": "local",

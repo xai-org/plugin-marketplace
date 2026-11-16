@@ -1,12 +1,15 @@
 # OsmO Phone Calls plugin for Grok Build
 
 [OsmO](https://getosmo.app)'s AI makes real phone calls for you. Tell Grok who to call and why — a
-shop, a clinic, a restaurant, a helpline or someone you know — and OsmO calls, talks, and brings back
-the answer with a summary. OsmO also answers and screens calls to your own number, so Grok can tell
-you who called and what they wanted.
+shop, a clinic, a restaurant, a helpline or one of your contacts — and OsmO calls, gets through the
+phone menu, talks, and brings back the answer with a summary, transcript and recording link. OsmO is
+also your AI phone receptionist: it answers and screens calls to your own number, so Grok can tell
+you who called and what they wanted, and change how the receptionist handles your calls.
 
-New users get 50 free credits at [getosmo.app/login](https://getosmo.app/login). Free to start in the
-US, Canada, UK and Australia.
+New users in the US, Canada, UK and Australia get 50 free credits at
+[getosmo.app/login](https://getosmo.app/login). An answered call uses 3 credits; a call nobody answers
+is free. Free credits call businesses and toll-free numbers; calling your contacts, calling back
+people who called you, scheduling calls and the AI receptionist need an OsmO app plan.
 
 ## Installation
 
@@ -21,16 +24,26 @@ nothing should be pasted into chat.
   result says, show setting changes before applying them, never ask for card numbers, PINs,
   passwords or one-time codes.
 
-Tools (the server's `tools/list` is the source of truth): place a call, check a call's status, list
-recent and past calls, open one call, find a contact or business, find a company's customer-care
-number, schedule and cancel calls, read and change call settings and screening rules, account status,
-and `osmo_help`. Every tool carries MCP annotations (`readOnlyHint`, `destructiveHint`,
+Tools (the server's `tools/list` is the source of truth; 27 today):
+
+- **Calls:** place a call to 1–5 numbers (preview first, dialled only on your yes) and follow its
+  status; find a business (Google Maps listings) or a company's customer-care number; find a contact
+  in your call history or phone contacts; schedule calls for later, list and cancel them; list past
+  calls and open one for its summary, transcript and ▶ Play recording link.
+- **AI receptionist:** read and change settings (pause the AI, who is put through live, alerts, VIP
+  and block lists); see and switch which assistant answers and its language (English or Hindi);
+  list, add, change and delete caller rules; list upcoming and past bookings; read the Facts the
+  assistant answers from and whether Google Calendar, Calendly and Google Drive are connected. The
+  greeting, assistant names and voice are changed in the OsmO app.
+- **Account and help:** your OsmO app chats, account status (plan, or web credits left),
+  `osmo_support` and `osmo_help`. Every tool carries MCP annotations (`readOnlyHint`, `destructiveHint`,
 `openWorldHint`); placing a call is marked destructive and open-world.
 
 ## Example prompts
 
 - "Call the pharmacy on Main Street and ask if they're open until 9."
 - "What did I miss on my phone today?"
+- "Pause my AI receptionist for the rest of the day."
 - "Call my dentist and move my appointment to next Tuesday afternoon."
 - "Find the customer-care number for my airline and ask about my refund."
 
