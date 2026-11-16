@@ -642,6 +642,34 @@
         ]
       }
     },
+    "gitranks-contribute": {
+      "sha": "e0255d10d64b1c171c9da299900d72c713da86f1",
+      "version": "0.3.2",
+      "components": {
+        "commands": [
+          {
+            "name": "find",
+            "description": "Find open-source GitHub issues matched to your skills on GitRanks Contribute, and start on the one you choose"
+          },
+          {
+            "name": "status",
+            "description": "Show your GitRanks Contribute claims and pull requests, and what each one needs from you"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "gitranks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "contribute",
+            "description": "Work on an open-source issue picked for you by GitRanks Contribute. Use when the user asks to find an open-source or Gi…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
