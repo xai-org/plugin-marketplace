@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "telecommande",
+      "description": "Télécommande local MCP server. Lets an agent see and control this Linux X11 desktop (screenshot, mouse, keyboard) after on-screen consent, with an emergency stop and an action journal. Stdio only, no network. Requires building mcp/ (cargo) and installing telecommande-mcp in PATH.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tlloancy/telecommande.git",
+        "sha": "d3a58905bbe062507072f50e0e7d1c924b46f5be"
+      },
+      "homepage": "https://github.com/tlloancy/telecommande",
+      "keywords": [
+        "telecommande",
+        "télécommande",
+        "telecommande mcp",
+        "télécommande-mcp"
+      ]
     }
   ]
 }

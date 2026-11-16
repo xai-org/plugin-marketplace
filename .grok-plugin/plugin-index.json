@@ -1468,6 +1468,18 @@
         ]
       }
     },
+    "telecommande": {
+      "sha": "d3a58905bbe062507072f50e0e7d1c924b46f5be",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "telecommande",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
