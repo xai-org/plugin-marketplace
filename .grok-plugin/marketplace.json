@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "warmgtm",
+      "description": "Review and manage sales outreach for the LinkedIn accounts you've connected to WarmGTM, through WarmGTM's hosted MCP server: campaign results, conversations, leads, posts, Social Signals, tags, CRM sync and webhooks. Nothing is sent, published or launched without your explicit confirmation.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/chandrkant/warmgtm-plugin.git",
+        "sha": "509816fbd3d098e612706f5f83a6597fe38fc5cb"
+      },
+      "homepage": "https://warmgtm.com",
+      "keywords": ["warmgtm", "warmgtm campaign", "warmgtm leads", "warmgtm inbox", "warmgtm mcp"],
+      "domains": ["warmgtm.com", "app.warmgtm.com", "mcp.warmgtm.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "WarmGTM",
+        "email": "support@warmgtm.com"
+      }
     }
   ]
 }

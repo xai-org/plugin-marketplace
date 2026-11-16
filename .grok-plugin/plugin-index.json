@@ -1882,6 +1882,24 @@
         ]
       }
     },
+    "warmgtm": {
+      "sha": "509816fbd3d098e612706f5f83a6597fe38fc5cb",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "warmgtm",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "warmgtm",
+            "description": "Work with the user's WarmGTM account: campaign and reply analytics, leads and lead lists, LinkedIn inbox conversations,…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "831d23fede4ff7d9151985f455b7007271a3262b",
       "version": "1.41.5",
