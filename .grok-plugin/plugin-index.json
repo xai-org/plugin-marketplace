@@ -943,8 +943,8 @@
       }
     },
     "pstack": {
-      "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
-      "version": "0.15.42",
+      "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
+      "version": "0.15.43",
       "components": {
         "agents": [
           {
@@ -1143,7 +1143,7 @@
           },
           {
             "name": "reflect",
-            "description": "Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit…"
+            "description": "Mine the active transcript for durable learnings and route each to a concrete edit on an existing skill. Use when the u…"
           },
           {
             "name": "setup-pstack",
