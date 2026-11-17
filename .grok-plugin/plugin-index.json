@@ -893,6 +893,31 @@
         ]
       }
     },
+    "offerbot": {
+      "version": "1.6.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "offerbot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "offer",
+            "description": "Make an offer on a product with OfferBot. Use when the user says \"offer\", \"make an offer\", \"what should I offer\", or na…"
+          },
+          {
+            "name": "price",
+            "description": "Find the best price on a product with OfferBot. Use when the user says \"price\", \"best price\", \"is there a deal on\", or…"
+          },
+          {
+            "name": "under",
+            "description": "Find any kind of product under a price with OfferBot. Use when the user says \"under\", \"below\", \"less than\", \"on a budge…"
+          }
+        ]
+      }
+    },
     "omneky": {
       "version": "1.0.0",
       "components": {

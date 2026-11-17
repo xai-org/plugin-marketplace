@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "offerbot",
+      "description": "OfferBot private offers to manufacturers (hosted MCP server + skills). Find products sold directly by the companies that make them, see labeled list prices and ratings, estimate a fair offer and prepare it to send on offerbot.com. Sign in with a free OfferBot account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/offerbot"
+      },
+      "homepage": "https://offerbot.com/ai",
+      "keywords": ["offerbot", "offerbot offer", "offerbot mcp", "offerbot price"],
+      "domains": ["offerbot.com", "auth.offerbot.com"]
     }
   ]
 }
