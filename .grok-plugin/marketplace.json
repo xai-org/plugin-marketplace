@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "romeo-seo",
+      "description": "Free SEO and AI search visibility skills for audits, keyword research, content, schema and publishing workflows.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RomeoSEO/seo-skills.git",
+        "sha": "e2fed0c2e1c53840f0f04d0c6868d3931f2e7bea"
+      },
+      "homepage": "https://romeoseo.com/skills",
+      "keywords": [
+        "romeoseo",
+        "romeo seo"
+      ],
+      "domains": [
+        "romeoseo.com"
+      ],
+      "version": "3.0.0",
+      "author": {
+        "name": "RomeoSEO",
+        "url": "https://romeoseo.com"
+      }
     }
   ]
 }

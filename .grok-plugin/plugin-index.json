@@ -1196,6 +1196,214 @@
         ]
       }
     },
+    "romeo-seo": {
+      "sha": "e2fed0c2e1c53840f0f04d0c6868d3931f2e7bea",
+      "version": "3.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "ai-agent-readiness",
+            "description": "Make a site readable and usable by AI crawlers and browsing agents. Use for \"should we block GPTBot\", \"set up robots.tx…"
+          },
+          {
+            "name": "ai-brand-facts",
+            "description": "Find what ChatGPT, Gemini, Perplexity, Copilot, Claude and Google AI Overviews get wrong about your business, trace eac…"
+          },
+          {
+            "name": "ai-citable-pages",
+            "description": "Restructure one page passage by passage so ChatGPT, Perplexity, Copilot, Claude and Google AI Overviews can lift accura…"
+          },
+          {
+            "name": "ai-prompt-research",
+            "description": "Find and prioritise the prompts buyers actually type into ChatGPT, Gemini, Perplexity, Copilot and Google AI Mode, mapp…"
+          },
+          {
+            "name": "ai-search-visibility",
+            "description": "The AEO, LLM SEO and GEO hub. Get a brand cited and recommended in Google AI Overviews and AI Mode, ChatGPT, Perplexity…"
+          },
+          {
+            "name": "ai-shopping-visibility",
+            "description": "Get products shown, with the right price and merchant, in ChatGPT shopping, Google AI Mode and Gemini, and Perplexity.…"
+          },
+          {
+            "name": "ai-traffic-analytics",
+            "description": "Measure what AI search really sends the business (visits, signups, revenue) with free tools. Use for \"how much traffic…"
+          },
+          {
+            "name": "backlink-profile-review",
+            "description": "Review a site's backlinks for health, risk and realistic new link opportunities. Use for \"check our backlinks\", \"do we…"
+          },
+          {
+            "name": "best-of-list-inclusion",
+            "description": "Earn a fair, accurate place on the third-party \"best X\", comparison and review articles that ChatGPT, Perplexity and Go…"
+          },
+          {
+            "name": "chatgpt-business-profile",
+            "description": "Get a business ready to claim its profile in ChatGPT (OpenAI's Businesses in ChatGPT, managed in Business Hub). Finds w…"
+          },
+          {
+            "name": "cms-publishing-adapter",
+            "description": "Turn QA-approved content into a CMS draft, document, static-site file or manual handoff package, with permission checks…"
+          },
+          {
+            "name": "comparison-page-writer",
+            "description": "Write honest \"best X\", \"X vs Y\" and \"X alternatives\" pages from research, with the verdict first, stated criteria, real…"
+          },
+          {
+            "name": "dataforseo-ai-tracker",
+            "description": "Track brand mentions and citations in ChatGPT, Gemini, Google AI Overviews and AI Mode, Copilot, Claude and Perplexity…"
+          },
+          {
+            "name": "ecommerce-seo-audit",
+            "description": "Audit an online shop's category and product pages, Product and Offer markup, merchant listings, faceted navigation, out…"
+          },
+          {
+            "name": "eeat-trust-review",
+            "description": "Review a page and its site for experience, expertise, authoritativeness and trust the way a Google quality rater would.…"
+          },
+          {
+            "name": "google-ai-overviews-audit",
+            "description": "Find out what Google AI Overviews and AI Mode are doing to your clicks and conversions, page by page. Use for \"are AI O…"
+          },
+          {
+            "name": "hreflang-international",
+            "description": "Check or plan language and country versions of a site so search engines show each market the right page. Use for \"hrefl…"
+          },
+          {
+            "name": "image-seo",
+            "description": "Audit and fix a page's images for search, speed and accessibility. Covers alt text, filenames, WebP/AVIF, sizes and src…"
+          },
+          {
+            "name": "internal-linking-plan",
+            "description": "Find orphan pages, buried pages, links to redirects or 404s, nofollowed links and weak anchors, then get an exact list…"
+          },
+          {
+            "name": "keyword-cannibalization-check",
+            "description": "Find pages on your own site competing for the same search with the same intent, and decide per conflict to merge, diffe…"
+          },
+          {
+            "name": "landing-page-writer",
+            "description": "Plan, write or fill out a product, feature or service landing page so it is complete and true to the product, building…"
+          },
+          {
+            "name": "linkedin-for-ai-search",
+            "description": "Write LinkedIn articles and posts, from a real person's profile, that ChatGPT search, Google AI Mode and Perplexity cit…"
+          },
+          {
+            "name": "local-ai-visibility",
+            "description": "Get a local business recommended when people ask ChatGPT, Gemini, Copilot, Siri or Google's AI Overviews and AI Mode fo…"
+          },
+          {
+            "name": "local-seo-audit",
+            "description": "Audit how a local business shows up in Google Maps and the map pack. Use for \"audit my Google Business Profile\", \"why a…"
+          },
+          {
+            "name": "on-page-seo-review",
+            "description": "Review one URL against its target query and hand back exact Before → After edits for the title, headings, opening, cont…"
+          },
+          {
+            "name": "page-to-social-posts",
+            "description": "Turn one page or blog post into genuinely different, platform-native posts for your own X, LinkedIn, Facebook, Instagra…"
+          },
+          {
+            "name": "parasite-seo-plan",
+            "description": "Plan parasite SEO (barnacle SEO) that lasts. Pick which third-party platforms, such as Reddit, YouTube, LinkedIn, Quora…"
+          },
+          {
+            "name": "posthog-change-impact",
+            "description": "Create a PostHog report for each completed website change, mark verified production releases, and review whether busine…"
+          },
+          {
+            "name": "programmatic-seo-plan",
+            "description": "Plan template pages at scale (integrations, locations, use cases, data pages) only where real search demand meets uniqu…"
+          },
+          {
+            "name": "query-fan-out-coverage",
+            "description": "Map the sub-questions AI search engines look up behind a money prompt (query fan-out) to your pages and sections, find…"
+          },
+          {
+            "name": "reddit-quora-answers",
+            "description": "Earn honest mentions in Reddit and Quora threads that already rank in Google or get cited by ChatGPT, Perplexity and AI…"
+          },
+          {
+            "name": "reviews-for-ai-answers",
+            "description": "Build an honest review presence on the platforms AI engines check before recommending a business, such as G2, Capterra,…"
+          },
+          {
+            "name": "schema-markup",
+            "description": "Detect, validate and write JSON-LD structured data. Pick schema types by page type, fill Google's required properties,…"
+          },
+          {
+            "name": "search-intent-match",
+            "description": "Check whether a page is the kind of page Google ranks for its query (page type, format, angle, depth, freshness, SERP f…"
+          },
+          {
+            "name": "seo-blog-writer",
+            "description": "Write an SEO blog post, how-to, listicle, comparison, refresh or localized article from an approved brief, answer-first…"
+          },
+          {
+            "name": "seo-change-monitor",
+            "description": "Catch SEO regressions after a deploy by snapshotting key URLs (status, redirects, canonical, robots, titles, schema, hr…"
+          },
+          {
+            "name": "seo-content-brief",
+            "description": "Turn a chosen SEO opportunity into a precise content brief (create vs refresh, intent, outline, title/meta policy, prod…"
+          },
+          {
+            "name": "seo-content-qa",
+            "description": "Score an SEO draft before it ships against its brief, checking intent, structure, human voice, product facts, competito…"
+          },
+          {
+            "name": "seo-opportunity-research",
+            "description": "Find and score SEO opportunities from your own rankings, keyword data, SERPs, competitors and site inventory, then deci…"
+          },
+          {
+            "name": "seo-performance-audit",
+            "description": "Audit organic search performance from Search Console and analytics data to explain what rose, dropped or stalled, the l…"
+          },
+          {
+            "name": "seo-start-here",
+            "description": "Not sure where to start with SEO? Asks up to five quick questions, takes a quick look at the site, and recommends which…"
+          },
+          {
+            "name": "seo-strategy-plan",
+            "description": "Build a 90-day SEO plan for one specific business that diagnoses the site's stage, puts money pages first, sets content…"
+          },
+          {
+            "name": "site-content-inventory",
+            "description": "Map every page on a site with its intent, keywords, performance, status and next action, so research, audits and briefs…"
+          },
+          {
+            "name": "site-migration-check",
+            "description": "Plan and verify a domain move, HTTPS switch, URL restructure, platform change, redesign or site merge without losing se…"
+          },
+          {
+            "name": "sponsored-placement-vetting",
+            "description": "Vet a sponsored post, guest post, syndication or press release before you pay or publish, the parasite SEO safety check…"
+          },
+          {
+            "name": "technical-seo-audit",
+            "description": "Check whether search engines can reach, render, index and pick the right URL for your pages, and whether they are fast…"
+          },
+          {
+            "name": "title-meta-ctr",
+            "description": "Find pages with impressions but weak clicks in Search Console, compare their CTR with your own site's CTR-by-position b…"
+          },
+          {
+            "name": "topic-cluster-map",
+            "description": "Group a keyword list into pages by the search results they share (not similar wording), pick a hub and spokes per clust…"
+          },
+          {
+            "name": "xml-sitemap-check",
+            "description": "Validate your XML sitemaps against the pages that should actually be indexed, and generate a clean one from a page inve…"
+          },
+          {
+            "name": "youtube-for-ai-answers",
+            "description": "Make YouTube videos that Perplexity, Google AI Overviews and AI Mode cite. Use for \"get our videos into AI answers\", \"s…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
