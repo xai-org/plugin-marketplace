@@ -494,7 +494,7 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/initdesk/initdesk-grokbot-plugin.git",
+        "url": "https://github.com/initdesk/initdesk-plugin.git",
         "sha": "0f16e0e2d6550b619c472d3908d3cb3aec15b31c"
       },
       "homepage": "https://initdesk.com",
