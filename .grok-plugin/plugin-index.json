@@ -1,6 +1,10 @@
 {
   "version": 1,
   "plugins": {
+    "asana-organizer": {
+      "sha": "d7cb13bf4d514680cf863a5305aa6e3fbffb1aac",
+      "components": {}
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
