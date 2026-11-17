@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
-      "version": "1.14.3",
+      "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
+      "version": "1.15.4",
       "components": {
         "mcpServers": [
           {
@@ -411,7 +411,7 @@
           },
           {
             "name": "eas-simulator",
-            "description": "Run and control a user's app on a remote iOS/Android simulator hosted on EAS cloud. Read before running any `eas simula…"
+            "description": "Run and control a user's app on a remote iOS/Android simulator with Expo Simulators (also called EAS Simulator). Read b…"
           },
           {
             "name": "eas-update",
@@ -493,8 +493,8 @@
       }
     },
     "figma": {
-      "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa",
-      "version": "2.2.193",
+      "sha": "5f3024c3decd83ff6f0bfb3ef36a2c4cfbff961d",
+      "version": "2.2.208",
       "components": {
         "mcpServers": [
           {
@@ -503,6 +503,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "figma-3d-transforms",
+            "description": "Add or edit 3D transforms — depth, perspective, z-axis rotation, tilt, isometric, and parallax looks that flat 2D rotat…"
+          },
           {
             "name": "figma-code-connect",
             "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
@@ -673,8 +677,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022",
-      "version": "1.0.0",
+      "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
+      "version": "1.0.1",
       "components": {
         "skills": [
           {
@@ -939,8 +943,8 @@
       }
     },
     "pstack": {
-      "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
-      "version": "0.15.36",
+      "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+      "version": "0.15.42",
       "components": {
         "agents": [
           {
@@ -1257,8 +1261,8 @@
       }
     },
     "stripe": {
-      "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
-      "version": "0.9.46",
+      "sha": "9d6c33b367f2c823cb3c88d991cafdd3402ceeb0",
+      "version": "0.10.1",
       "components": {
         "agents": [
           {
@@ -1310,6 +1314,10 @@
           {
             "name": "stripe-docs",
             "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over cu…"
+          },
+          {
+            "name": "stripe-implementation-planner",
+            "description": "Plans Stripe product selection and integration architecture for an initial Stripe setup or a material expansion of an e…"
           },
           {
             "name": "stripe-pay",
@@ -1423,8 +1431,8 @@
       }
     },
     "tavily": {
-      "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11",
-      "version": "2.3.0",
+      "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb",
+      "version": "2.4.0",
       "components": {
         "mcpServers": [
           {
@@ -1654,8 +1662,8 @@
       }
     },
     "vercel": {
-      "sha": "a51b34618683929ee83c5a6e001c2da8261b3479",
-      "version": "0.55.0",
+      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
+      "version": "0.55.1",
       "components": {
         "agents": [
           {
@@ -1815,7 +1823,7 @@
           },
           {
             "name": "vercel-agent",
-            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, production investigation, approved actions, and product…"
+            "description": "Vercel Agent guidance — dashboard and Slack chat, code review, Security Review, production investigation, approved acti…"
           },
           {
             "name": "vercel-cli",
@@ -1886,8 +1894,8 @@
       }
     },
     "wix": {
-      "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b",
-      "version": "1.41.3",
+      "sha": "831d23fede4ff7d9151985f455b7007271a3262b",
+      "version": "1.41.5",
       "components": {
         "mcpServers": [
           {
@@ -1905,20 +1913,12 @@
             "description": "Build on and manage the connected Wix site from a Base44 app: discover and call any Wix API (endpoints, request/respons…"
           },
           {
-            "name": "wix-create-studio-two-site",
-            "description": "Create a new, blank Wix Studio Two site with the Wix CLI in its own local folder, start its local preview and share the…"
-          },
-          {
             "name": "wix-design-system",
             "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking prop…"
           },
           {
             "name": "wix-docs",
             "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, o…"
-          },
-          {
-            "name": "wix-export",
-            "description": "Export an existing Wix Studio Two site into a local folder with the Wix CLI, start its local preview and share the loca…"
           },
           {
             "name": "wix-harmony-editor",
@@ -1934,7 +1934,7 @@
           },
           {
             "name": "wix-headless-kit",
-            "description": "Build a Wix Headless site fast by wiring SHIPPED, verified @wix/sdk code instead of authoring the integration from reci…"
+            "description": "Builds new Wix sites or puts the user's own site online, with or without a Wix account. The pages are code in any web t…"
           },
           {
             "name": "wix-headless-replatform",
@@ -1943,10 +1943,6 @@
           {
             "name": "wix-headless-templates",
             "description": "The shipped, verified code behind Wix Headless sites, one folder per Wix Business Solution: an online store, bookings,…"
-          },
-          {
-            "name": "wix-import",
-            "description": "Import local site code into a Wix Studio Two site with the Wix CLI, either into the site the folder was exported from o…"
           },
           {
             "name": "wix-manage",
@@ -1959,6 +1955,10 @@
           {
             "name": "wix-replatform",
             "description": "Routes RePlatform source-to-Wix migrations to the next required workflow module by inspecting authoritative migration a…"
+          },
+          {
+            "name": "wix-studio-two",
+            "description": "Create a Wix Studio Two site, including a new site the user calls Wix Studio, Studio Two or Studio 2, or build on an ex…"
           },
           {
             "name": "wix-vibe-headless",

@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "a51b34618683929ee83c5a6e001c2da8261b3479"
+        "sha": "87e2262d07123c1549701ee0d104fe7623a335dc"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
+        "sha": "831d23fede4ff7d9151985f455b7007271a3262b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "9d296d0768c3e29c813922b3b11e390f1e47d8aa"
+        "sha": "5f3024c3decd83ff6f0bfb3ef36a2c4cfbff961d"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
+        "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "8570d472fbc4ff2c84329af1d15030ecfdea3570",
+        "sha": "9d6c33b367f2c823cb3c88d991cafdd3402ceeb0",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+        "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022"
+        "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
