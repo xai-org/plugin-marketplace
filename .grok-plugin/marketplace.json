@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "patricia",
+      "description": "Patricia connects your AI client to one Patricia workspace. Read workspace memory and files, inspect connected integrations, and delegate work to Patricia with human approval controls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/patricia-app/patricia-plugin.git",
+        "sha": "c3d0cbcdad7a365c1a06993cbeb2226f67969090"
+      },
+      "homepage": "https://www.patricia.app/mcp",
+      "keywords": ["patricia", "patricia mcp", "patricia memory", "patricia workspace", "patricia delegation", "patricia integrations"],
+      "domains": ["patricia.app", "api.patricia.app"]
     }
   ]
 }
