@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "designprint",
+      "description": "Design and print business cards, flyers, posters, menus and invitations from a chat. Each request returns a proof, the price and one link where the person checks the proof and pays as a guest. Ships within the United States.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedesignprint/designprint.git",
+        "sha": "436c969c80d633c249afd49d25599bc9b215965f",
+        "path": "claude"
+      },
+      "homepage": "https://thedesignprint.com",
+      "keywords": ["designprint", "thedesignprint", "designprint business cards"],
+      "domains": ["thedesignprint.com"],
+      "author": {
+        "name": "Designprint",
+        "email": "team@thedesignprint.com",
+        "url": "https://thedesignprint.com"
+      }
     }
   ]
 }
