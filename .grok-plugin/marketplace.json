@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
+        "sha": "87e2262d07123c1549701ee0d104fe7623a335dc"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
+        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def"
+        "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "d168bc2ca76c1641b3273334542e479291c2b23d"
+        "sha": "831d23fede4ff7d9151985f455b7007271a3262b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1"
+        "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
+        "sha": "5f3024c3decd83ff6f0bfb3ef36a2c4cfbff961d"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -205,8 +205,8 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/tavily-ai/tavily-grok-plugin.git",
-        "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d"
+        "url": "https://github.com/tavily-ai/skills.git",
+        "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "6b8065ed604e24092247ac690500613a9cef48bf",
+        "sha": "9d6c33b367f2c823cb3c88d991cafdd3402ceeb0",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+        "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "341268561baaff256927c931ec8215dbd30e3cee"
+        "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
