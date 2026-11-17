@@ -396,6 +396,19 @@
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
+      "name": "municibid",
+      "description": "Search public government surplus auctions on Municibid. Review listing details, sold comps, informational market-value ranges, and public agency summaries. Read-only — no bids, payments, or listings.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Municibid/botplugin.git",
+        "sha": "16ee114e8ccfe88c4327641950a742a1a09b9b9e"
+      },
+      "homepage": "https://www.municibid.com",
+      "keywords": ["municibid", "municibid auctions", "municibid surplus"],
+      "domains": ["municibid.com", "www.municibid.com", "ai.municibid.com", "info.municibid.com"]
+    },
+    {
       "name": "skyvern",
       "description": "Give Grok a real cloud browser via Skyvern's hosted MCP server. Open pages, click, type, fill forms, upload files, read page content, take screenshots, and inspect console and network activity on live websites, including logged-in ones through stored credentials. Sign in with your Skyvern account on first connection; no API key needed.",
       "category": "development",
