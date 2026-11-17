@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ainsof",
+      "description": "Official AINSOF plugin. Search the AINSOF catalog of original, human-composed production music by written brief or reference link, score a video to picture, cut cues to any length, and get versions, stems and cue sheets for sync licensing.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AINSOF-Tech/mcp.git",
+        "sha": "ad417f6999fe340f9c743a1095885c34baa1eed4"
+      },
+      "homepage": "https://ainsof.io/mcp",
+      "keywords": ["ainsof", "ainsof music", "ainsof catalog"],
+      "domains": ["ainsof.io", "mcp.ainsof.io"],
+      "author": {
+        "name": "AINSOF",
+        "email": "info@ainsof.io",
+        "url": "https://ainsof.io"
+      }
     }
   ]
 }
