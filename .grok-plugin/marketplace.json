@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "gokuna",
+      "description": "Hire a real, ID-checked person for a physical-world photo or video task. Post a task, review the proof they send, pay only for results you accept.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/royherma/gokuna-plugin.git",
+        "sha": "c0d56c838aa32325b331311145a9ec8f8481aa9e"
+      },
+      "homepage": "https://gokuna.com/for-agents",
+      "keywords": ["gokuna", "gokuna task", "hire a person with gokuna"],
+      "domains": ["gokuna.com"]
     }
   ]
 }
