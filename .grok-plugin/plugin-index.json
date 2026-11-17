@@ -1522,6 +1522,17 @@
         ]
       }
     },
+    "vbnote": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vbnote",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
       "version": "0.55.1",

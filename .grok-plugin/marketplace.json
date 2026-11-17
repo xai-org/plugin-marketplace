@@ -487,6 +487,17 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "vbnote",
+      "description": "Connect Grok Build to Vb to browse and search notes and read summaries and transcripts.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/vbnote"
+      },
+      "homepage": "https://github.com/PeaceDuhuanan/vbnote-mcp",
+      "keywords": ["vbnote", "vbnote mcp"]
     }
   ]
 }
