@@ -676,6 +676,24 @@
         ]
       }
     },
+    "ihateposting": {
+      "sha": "b81f09867c1da8e89dc726f44d6c8290eb2fa9c3",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ihateposting",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ihateposting",
+            "description": "iHatePosting is a tool to schedule social media and chat posts to 15 channels X, LinkedIn, Instagram, Facebook Page, Th…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
