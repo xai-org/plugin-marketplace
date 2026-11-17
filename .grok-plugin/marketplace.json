@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "runheed",
+      "description": "Official Runheed integration (remote MCP server and skills). Your coding agent reads your app's production errors with stack traces and breadcrumbs, fixes them and marks them resolved with the fixing commit.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getrunheed/runheed-plugin.git",
+        "sha": "d70b2e63846bad4c6912a958cace20745e15ddf1"
+      },
+      "homepage": "https://runheed.com",
+      "keywords": ["runheed", "runheed mcp", "runheed errors", "runheed error tracking"],
+      "domains": ["runheed.com"]
     }
   ]
 }
