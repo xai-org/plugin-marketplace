@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "apimodels": {
+      "sha": "cc5aab7e776c16ab81f00ba3c878fa2514e79b73",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "apimodels",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "apimodels-media",
+            "description": "Create videos, images and voice-over, and transcribe recordings, with the apimodels MCP tools (generate_video, generate…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
