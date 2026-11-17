@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "flint",
+      "description": "Flint AI website builder integration. Ask Flint to add pages, update content, and redesign sections on your Flint marketing sites, answer its follow-up questions, and publish to production from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tryflint/agent-plugin.git",
+        "sha": "a34eb0cdc41b9d1b9b44cb48961ed90a4c8e6cdc"
+      },
+      "homepage": "https://flint.com",
+      "keywords": ["flint", "flint site", "flint website"],
+      "domains": ["flint.com", "tryflint.com"]
     }
   ]
 }
