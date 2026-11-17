@@ -1834,8 +1834,8 @@
       }
     },
     "vibewatch": {
-      "sha": "82cc621fbbb7972b0ce7903b8aa67f02c76b659d",
-      "version": "1.0.1",
+      "sha": "60209dbb4f431d1fc147b35ec42cde0c5829cace",
+      "version": "1.0.2",
       "components": {
         "mcpServers": [
           {
