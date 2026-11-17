@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "transcriptlab",
+      "description": "YouTube and media transcripts. Pull a video's existing caption track, transcribe an attached audio or video file, search what you already pulled, and export TXT, SRT or VTT.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hussamsi2040/transcriptlab-claude-plugin.git",
+        "sha": "77e6c2e9e6984cca4e63fc2341999c185283a11b"
+      },
+      "homepage": "https://transcriptlab.dev",
+      "keywords": ["transcriptlab", "youtube transcript", "video transcript", "audio transcript"],
+      "domains": ["transcriptlab.dev"]
     }
   ]
 }

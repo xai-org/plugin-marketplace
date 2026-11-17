@@ -1510,6 +1510,24 @@
         ]
       }
     },
+    "transcriptlab": {
+      "sha": "77e6c2e9e6984cca4e63fc2341999c185283a11b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "transcriptlab",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "transcriptlab",
+            "description": "Use when the user wants a YouTube transcript, a transcript of an audio or video file, caption languages for a video, a…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "81b6079e465246dbca42987469e80b71c2cca9d2",
       "version": "0.1.9-beta",
