@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "appdev-atlas",
+      "description": "Independent Apple-platform research for Grok Build. Search WWDC sessions, Swift API history, Apple interface guidance, and App Store Review rules with cited evidence.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jabbertones-cloud/wwdc-mcp-server.git",
+        "sha": "e5d2e1c124513b1e07757f88b51d43d1556dcb7d",
+        "path": "packaging/grok"
+      },
+      "homepage": "https://wwdcmcp.smatdesigns.com/",
+      "keywords": [
+        "apple developer",
+        "swift",
+        "swiftui",
+        "wwdc",
+        "app store review",
+        "appdev atlas"
+      ],
+      "domains": [
+        "wwdcmcp.smatdesigns.com",
+        "wwdc-mcp.smatdesigns.com"
+      ]
     }
   ]
 }

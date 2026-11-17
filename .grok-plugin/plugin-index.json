@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "appdev-atlas": {
+      "sha": "e5d2e1c124513b1e07757f88b51d43d1556dcb7d",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wwdc",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
