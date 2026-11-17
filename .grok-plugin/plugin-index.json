@@ -942,6 +942,18 @@
         ]
       }
     },
+    "plivo": {
+      "sha": "442411e75b812c1d7fc75d765ec19b820f9d7732",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "plivo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
       "version": "0.15.42",

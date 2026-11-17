@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "plivo",
+      "description": "Plivo communications platform integration. Send SMS, MMS and WhatsApp messages, make and manage voice calls, search and buy phone numbers, and call the rest of the Plivo API on your own Plivo account, directly from Grok. Anything that costs money or cannot be undone asks for your approval first.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/plivo/mcp.git",
+        "sha": "442411e75b812c1d7fc75d765ec19b820f9d7732",
+        "path": "plugin"
+      },
+      "homepage": "https://github.com/plivo/mcp",
+      "keywords": ["plivo", "plivo mcp", "plivo sms", "plivo voice", "plivo api"],
+      "domains": ["plivo.com"]
     }
   ]
 }
