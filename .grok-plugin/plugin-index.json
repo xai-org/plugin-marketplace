@@ -1197,7 +1197,7 @@
       }
     },
     "scrapfly": {
-      "sha": "5239828f96fd263c55fa28b8bd2c5eb0ede667c6",
+      "sha": "5ee27ef02155b11269d455ab4c324bb278907d9a",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
