@@ -30,6 +30,10 @@ Tools (the server's `tools/list` is the source of truth; 27 today):
   status; find a business (Google Maps listings) or a company's customer-care number; find a contact
   in your call history or phone contacts; schedule calls for later, list and cancel them; list past
   calls and open one for its summary, transcript and ▶ Play recording link.
+  In AI apps that show MCP Apps cards, a live OsmO call card follows each call (Confirm, placed,
+  in call, ended, summary, recording, Call again / Schedule; up to 5 calls together in one card).
+  Scheduled times are read in your own time zone, a ready result can offer to call again with the
+  same words, and a confirmed call is placed only once.
 - **AI receptionist:** read and change settings (pause the AI, who is put through live, alerts, VIP
   and block lists); see and switch which assistant answers and its language (English or Hindi);
   list, add, change and delete caller rules; list upcoming and past bookings; read the Facts the
