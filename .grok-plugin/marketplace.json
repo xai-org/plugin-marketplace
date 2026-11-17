@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "arcads",
+      "description": "Create ads with Arcads: UGC and actor-led video ads, static image ads, Amazon listing images, and cinematic, Pixar-style, animated and AI music ads. Research competitor ads, clone winning hooks and statics, animate stills, and edit, caption or translate creatives. Sign in with an Arcads account on first connect.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/arcads-ai/skills.git",
+        "sha": "881e0db44969e5737bb44281b4171618cc8e1569"
+      },
+      "homepage": "https://www.arcads.ai",
+      "keywords": ["arcads", "arcads mcp", "ads", "ad-creative", "video", "image", "competitor-research"],
+      "domains": ["arcads.ai", "www.arcads.ai", "app.arcads.ai", "mcp.arcads.ai"],
+      "version": "1.0.11",
+      "author": { "name": "Arcads", "url": "https://arcads.ai" }
     }
   ]
 }
