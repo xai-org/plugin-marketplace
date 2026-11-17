@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mugpipe-signals": {
+      "type": "http",
+      "url": "https://mcp.mugpipe.com/signals"
+    }
+  }
+}
