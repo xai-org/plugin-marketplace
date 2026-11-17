@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "aiscent",
+      "description": "App Store Connect localization, screenshot and release-readiness assistance through owner-authorized AiSCent workflows and local executor handoffs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jabbertones-cloud/aiscent-agent-plugin.git",
+        "sha": "fd08b842b9b861b0dca382f8c969bc1cd296ac7a"
+      },
+      "homepage": "https://aiscentmcp.com",
+      "keywords": [
+        "apple app store",
+        "localization",
+        "app screenshots",
+        "testflight",
+        "release readiness",
+        "aiscent"
+      ],
+      "domains": [
+        "aiscentmcp.com",
+        "connect.aiscentmcp.com"
+      ]
     }
   ]
 }
