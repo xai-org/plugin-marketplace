@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "getyoutubetranscript",
+      "description": "YouTube transcripts, video and channel search, and playlist data through the GetYouTubeTranscript remote MCP server and a bundled skill. Fetch a transcript, find where something is said, browse a channel's uploads, pull a playlist.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tubeagentkit/getyoutubetranscript-claude-plugin.git",
+        "sha": "f8c00d9f917d87739d201e60a8da91a97e423bd6"
+      },
+      "homepage": "https://getyoutubetranscript.com",
+      "keywords": ["getyoutubetranscript", "get youtube transcript"],
+      "domains": ["getyoutubetranscript.com"]
     }
   ]
 }
