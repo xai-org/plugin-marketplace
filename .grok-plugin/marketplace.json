@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "search-fragments",
+      "description": "The gate before Grok answers a half-remembered question. Search Fragments says whether it can be found: a quick answer with the quoted source, worth a full search, or not worth it. Full searches name films, songs, books, papers and events with cited sources, and decline rather than guess. Free, no account needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Searchfragments/search-fragments-plugin.git",
+        "sha": "5066f16dabd2ac039d6a75c40d971b6153a9960e"
+      },
+      "homepage": "https://searchfragments.com",
+      "keywords": ["search fragments", "searchfragments"],
+      "domains": ["searchfragments.com"]
     }
   ]
 }
