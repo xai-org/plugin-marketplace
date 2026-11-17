@@ -676,6 +676,80 @@
         ]
       }
     },
+    "inngest": {
+      "sha": "e24a3ad0bda43e970f7cf6654b2d7c33e65c469d",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "inngest-cloud",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "inngest-agent-evals",
+            "description": "Use when building, migrating, or debugging Agent Evals on Inngest: scoring AI agent or workflow outcomes, deferred scor…"
+          },
+          {
+            "name": "inngest-agents",
+            "description": "Use when building durable AI agents or agentic workflows with Inngest and AgentKit, including model calls, tool calls,…"
+          },
+          {
+            "name": "inngest-api",
+            "description": "Use when the user explicitly asks for the Inngest REST API v2, raw HTTP, OpenAPI, API docs, API authentication, or an e…"
+          },
+          {
+            "name": "inngest-api-cli",
+            "description": "Use when operating Inngest API resources from the terminal with `npx inngest-cli@latest api`: Cloud/local run debugging…"
+          },
+          {
+            "name": "inngest-brownfield-audit",
+            "description": "Use when analyzing an existing TypeScript or JavaScript codebase to decide where and how to introduce Inngest. Covers r…"
+          },
+          {
+            "name": "inngest-cli",
+            "description": "Use when installing or running the Inngest CLI and Dev Server for local development, local testing, serve endpoint debu…"
+          },
+          {
+            "name": "inngest-cloud",
+            "description": "Inspect and operate Inngest Cloud through its OAuth MCP connection. Use for deployed apps and functions, failed or slow…"
+          },
+          {
+            "name": "inngest-durable-functions",
+            "description": "Use when building functions that must survive process crashes, retry automatically on failure, run on a schedule, react…"
+          },
+          {
+            "name": "inngest-events",
+            "description": "Use when designing event-driven workflows, decoupling services, implementing fan-out patterns (one trigger, many downst…"
+          },
+          {
+            "name": "inngest-flow-control",
+            "description": "Use when handling external API rate limits (e.g., OpenAI 429s, HubSpot or Stripe rate limits), preventing duplicate wor…"
+          },
+          {
+            "name": "inngest-middleware",
+            "description": "Use when adding cross-cutting concerns to durable functions — structured logging or tracing across all functions, error…"
+          },
+          {
+            "name": "inngest-realtime",
+            "description": "Use when streaming durable workflow updates to a UI in real time — live order status pages that animate as steps comple…"
+          },
+          {
+            "name": "inngest-setup",
+            "description": "Use when adding durable execution to a TypeScript project — building retry-safe webhook handlers, background jobs that…"
+          },
+          {
+            "name": "inngest-steps",
+            "description": "Use when implementing delays that must survive process restarts (e.g., 24-hour cart abandonment, scheduled follow-ups),…"
+          },
+          {
+            "name": "inngest-v3-v4-migration",
+            "description": "Use when upgrading an existing TypeScript codebase from Inngest SDK v3 to v4, or when fixing mixed v3/v4 API usage. Cov…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
