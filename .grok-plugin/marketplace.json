@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bulkpublish",
+      "description": "BulkPublish social media scheduling: draft, schedule and publish posts across 15 networks (X, LinkedIn, Instagram, Facebook, TikTok, YouTube, Threads, Bluesky and more), manage media and channels, reply to comments, and read engagement analytics via the official BulkPublish MCP server and skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bulkpublish/bulkpublish-ai-toolkit.git",
+        "sha": "256039e578a195aa8fd746deea386575c4e4fc1e"
+      },
+      "homepage": "https://www.bulkpublish.com/integrations/mcp-server/",
+      "keywords": [
+        "bulkpublish",
+        "bulk publish",
+        "bulkpublish mcp",
+        "bulkpublish scheduling",
+        "bulkpublish social media",
+        "bulkpublish analytics"
+      ],
+      "domains": [
+        "bulkpublish.com",
+        "www.bulkpublish.com",
+        "app.bulkpublish.com",
+        "mcp.bulkpublish.com"
+      ]
     }
   ]
 }
