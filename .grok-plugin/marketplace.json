@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pastdotdev",
+      "description": "Memory from past.dev. Ask what was decided, who someone is or where a project stands, and get answers with dated sources from your past.dev project. Tell Grok to remember something and it keeps it there. Sign in with your past.dev account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pastdotdev/grok-bot-plugin.git",
+        "sha": "de141cac62ae44daab61ce5851041815a6a48673"
+      },
+      "homepage": "https://past.dev",
+      "keywords": ["past.dev", "past dev", "pastdotdev", "past.dev memory"],
+      "domains": ["past.dev", "app.past.dev"],
+      "author": {
+        "name": "past.dev",
+        "url": "https://github.com/pastdotdev"
+      }
     }
   ]
 }
