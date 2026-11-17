@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
+        "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
