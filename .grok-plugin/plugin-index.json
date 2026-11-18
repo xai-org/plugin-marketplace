@@ -1260,6 +1260,24 @@
         ]
       }
     },
+    "sponge": {
+      "sha": "9d494305791e26fb588d286e053dcc763af7af75",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sponge",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sponge",
+            "description": "Find sources and answer questions from a Sponge reading library, or save and annotate reading when asked. Use for tasks…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
       "version": "0.10.2",

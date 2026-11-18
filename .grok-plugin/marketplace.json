@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sponge",
+      "description": "Find sources and answer questions from your Sponge reading library, or save, highlight and annotate reading when asked. Uses the installed Sponge CLI and its local MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hraness/product-skills.git",
+        "sha": "9d494305791e26fb588d286e053dcc763af7af75",
+        "path": "plugins/sponge"
+      },
+      "homepage": "https://sponge.computer/docs/agents",
+      "keywords": ["sponge library", "sponge reading library", "sponge highlights"],
+      "domains": ["sponge.computer"],
+      "author": {
+        "name": "Hraness",
+        "url": "https://hraness.com"
+      }
     }
   ]
 }
