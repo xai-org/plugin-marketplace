@@ -676,6 +676,17 @@
         ]
       }
     },
+    "maru-japan-hands": {
+      "sha": "68f4ca75f96ca70c51fbfe7f82eeabbff9ba772d",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "maru-japan-hands",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
