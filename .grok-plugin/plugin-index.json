@@ -395,6 +395,24 @@
         ]
       }
     },
+    "joinforme": {
+      "sha": "d82e4fc80214ed883096d78c88407d1ff3a3dcdb",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "joinforme",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "joinforme",
+            "description": "Send a bot into the user's Google Meet, Zoom or Microsoft Teams call — take notes, go instead of the user and give thei…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "16ed22b43fa56157adadfb25f18a354197d497b9",
       "version": "0.0.189",

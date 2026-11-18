@@ -356,6 +356,19 @@
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "joinforme",
+      "description": "Send a bot into your Google Meet, Zoom or Microsoft Teams call to take notes, give your update or sit in with you, and get the transcript back. Hosted MCP server (OAuth or API key) plus a skill.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pattern-ai-labs/joinforme.git",
+        "sha": "d82e4fc80214ed883096d78c88407d1ff3a3dcdb"
+      },
+      "homepage": "https://joinfor.me",
+      "keywords": ["joinforme", "joinfor.me"],
+      "domains": ["joinfor.me", "app.joinfor.me", "api.joinfor.me"]
     }
   ]
 }
