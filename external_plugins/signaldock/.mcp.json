@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "signaldock": {
+      "type": "http",
+      "url": "https://www.signaldock.app/api/mcp"
+    }
+  }
+}
