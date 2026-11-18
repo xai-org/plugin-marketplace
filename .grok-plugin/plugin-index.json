@@ -676,6 +676,48 @@
         ]
       }
     },
+    "iblusend": {
+      "sha": "053424ee865731c04e87a69bec55a871809784d9",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "iblusend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calendar",
+            "description": "Read iBluSend appointments, meeting types and open times, and prepare a booking, move or cancel link that the person co…"
+          },
+          {
+            "name": "campaigns",
+            "description": "Read iBluSend campaigns and their results, and save a campaign draft after the person approves it. Only the person can…"
+          },
+          {
+            "name": "contact-device-compliance",
+            "description": "Inspect one iBluSend contact or device, or change one opt-out state or bot setting with explicit confirmation."
+          },
+          {
+            "name": "inbox-triage",
+            "description": "Review one consented iBluSend workspace, identify conversations that need attention, and prepare a read-only action lis…"
+          },
+          {
+            "name": "reports",
+            "description": "Read the iBluSend Reports page numbers for one workspace: texts, replies, delivery, calls, deals and usage over a chose…"
+          },
+          {
+            "name": "safe-draft-and-send",
+            "description": "Draft one message, show its exact destination and content, require confirmation, send once, and check status."
+          },
+          {
+            "name": "templates",
+            "description": "Find and read iBluSend message templates, and save a new or edited template after the person approves it. A template se…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
