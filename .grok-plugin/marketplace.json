@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "standup",
+      "description": "Writes your standup update for a day, a week or a month from your git commits and your coding agents' sessions, with token counts and an estimated cost. Runs on your own disk and opens no network connection.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wcgwhq/standup.git",
+        "sha": "e26d00eb8024d5f4e3bc19a414c4bd164462e8c2",
+        "path": "plugin"
+      },
+      "homepage": "https://standup.wcgw.fun",
+      "keywords": ["wcgw standup"],
+      "domains": ["standup.wcgw.fun"]
     }
   ]
 }
