@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postcaly",
+      "description": "Official Postcaly plugin. Plan, draft and schedule social media posts in your Postcaly workspace (app.postcaly.com) through the Postcaly MCP server: see connected channels and the calendar, find the next free posting time, and save drafts or scheduled posts. Sign in with OAuth; access can be limited to drafts only.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/postcaly/skills.git",
+        "sha": "0374ecaf6a34512045079beb804fbd9278cb7151",
+        "path": "plugins/postcaly"
+      },
+      "homepage": "https://postcaly.com/agents/grok-build",
+      "keywords": ["postcaly", "postcaly social", "postcaly scheduler"],
+      "domains": ["postcaly.com", "app.postcaly.com"]
     }
   ]
 }
