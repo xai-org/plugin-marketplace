@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "yaptake",
+      "description": "Edit a Yaptake video project through its transcript: cut words or retakes, shorten pauses, fix captions, arrange clips, change the output format and add on-screen text. Requires the Yaptake Mac app, which provides the local CLI and MCP server.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hraness/product-skills.git",
+        "sha": "9d494305791e26fb588d286e053dcc763af7af75",
+        "path": "plugins/yaptake"
+      },
+      "homepage": "https://yaptake.com/docs/agents",
+      "keywords": ["yaptake", "yaptake project", "yaptake edit"],
+      "domains": ["yaptake.com"],
+      "author": {
+        "name": "Hraness",
+        "url": "https://hraness.com"
+      }
     }
   ]
 }
