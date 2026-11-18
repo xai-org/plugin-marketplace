@@ -772,6 +772,18 @@
         ]
       }
     },
+    "neblex": {
+      "sha": "5772658c2e1f4e4b43a765d7d4bf6b29bdda3561",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "neblex",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "neon": {
       "version": "1.0.0",
       "components": {

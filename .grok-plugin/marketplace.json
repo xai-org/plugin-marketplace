@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "neblex",
+      "description": "Build, test and run integration flows and AI agents with built-in data quality and human approvals in Neblex Integration Fabric (iPaaS), across 300+ connectors. Open a failed run and see the step and record it broke on, add deduplication and validation steps, and check flow health. Sign in with your Neblex account on first connection; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/neblexhq/neblex-cursor-plugin.git",
+        "sha": "5772658c2e1f4e4b43a765d7d4bf6b29bdda3561"
+      },
+      "homepage": "https://www.neblex.com/integration-fabric",
+      "keywords": ["neblex", "neblex mcp", "ipaas", "integration platform", "workflow automation", "data integration", "data quality"],
+      "domains": ["neblex.com", "www.neblex.com", "if.neblex.com"]
     }
   ]
 }
