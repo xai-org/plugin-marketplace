@@ -1260,6 +1260,110 @@
         ]
       }
     },
+    "stalkchain": {
+      "sha": "41b33a29be4dcf74c2bdf8304d37b46f917a3902",
+      "version": "1.3.6",
+      "components": {
+        "agents": [
+          {
+            "name": "crypto-researcher",
+            "description": "Deep crypto research across several coins, traders or wallets, ending in a written report. Use when the user wants a th…"
+          },
+          {
+            "name": "due-diligence-reviewer",
+            "description": "Second-opinion review of a crypto research report. Re-checks each factual claim against fresh StalkChain data and flags…"
+          },
+          {
+            "name": "watchlist-analyst",
+            "description": "Works through the user's crypto watchlist file (watchlist.md or watchlist.json in the project, listing tokens, traders…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "stalkchain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "defi-safety",
+            "description": "Check DeFi protocols, yields and hacks. Use when the user asks where to earn yield or APY on a token, whether a DeFi pr…"
+          },
+          {
+            "name": "holder-tracker",
+            "description": "Track how a token's holders change over time by taking snapshots and comparing them. Use when the user wants to watch a…"
+          },
+          {
+            "name": "launch-screener",
+            "description": "Screen new crypto token launches for red flags. Use when the user asks for new launches, fresh coins, new pairs, recent…"
+          },
+          {
+            "name": "liquidity-pools",
+            "description": "Explain and check liquidity pools and launchpad liquidity. Use when the user asks whether a token's liquidity is locked…"
+          },
+          {
+            "name": "narrative-tracker",
+            "description": "Find the crypto narratives and themes traders are talking about and trading right now. Use when the user asks what the…"
+          },
+          {
+            "name": "perps-check",
+            "description": "Read the perps market on Hyperliquid and who is positioned in it. Use when the user asks which wallets or top traders a…"
+          },
+          {
+            "name": "portfolio-review",
+            "description": "Review the user's own crypto wallet or bags and rank the holdings by risk. Use when the user asks to review their walle…"
+          },
+          {
+            "name": "price-alerts",
+            "description": "Set up, list and delete StalkChain alerts by email or webhook. Use when the user asks to be alerted or notified when a…"
+          },
+          {
+            "name": "rug-post-mortem",
+            "description": "Reconstruct what happened to a crypto token that crashed or died. Use when the user asks what happened to a coin, wheth…"
+          },
+          {
+            "name": "smart-money-radar",
+            "description": "Find what top crypto traders and smart money are buying or selling right now. Use when the user asks what's trending, w…"
+          },
+          {
+            "name": "stonkfun-launch-guide",
+            "description": "Help plan a token launch on StonkFun, the Solana launchpad for tokens paired with tokenized stocks (xStocks) and stable…"
+          },
+          {
+            "name": "stonkfun-research",
+            "description": "Research tokens on StonkFun, the Solana launchpad for tokens paired with tokenized stocks (xStocks) and stablecoins. Us…"
+          },
+          {
+            "name": "token-check",
+            "description": "Check a crypto coin or token before buying it. Use when the user asks whether a coin is safe, legit, a rug, worth buyin…"
+          },
+          {
+            "name": "token-compare",
+            "description": "Compare two to five crypto tokens side by side on safety, buy and sell flow, smart money and liquidity. Use when the us…"
+          },
+          {
+            "name": "trader-check",
+            "description": "Research a crypto trader or KOL before following or copy-trading them. Use when the user names a trader, handle or infl…"
+          },
+          {
+            "name": "trader-playbook",
+            "description": "Work out how a crypto trader actually trades, from their real fills and positions. Use when the user asks how a trader…"
+          },
+          {
+            "name": "universal-trade-review",
+            "description": "Review a trader's fills, positions or a trading session in depth, trade by trade, across execution, risk, thesis and be…"
+          },
+          {
+            "name": "wallet-lookup",
+            "description": "Look up any crypto wallet address. Use when the user pastes a wallet address or asks what a wallet holds, what it's wor…"
+          },
+          {
+            "name": "whale-watch",
+            "description": "Spot large buys and sells by tracked crypto traders, recent moves by named whale wallets, and the biggest Hyperliquid p…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
       "version": "0.10.2",
