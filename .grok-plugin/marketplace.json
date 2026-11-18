@@ -487,6 +487,17 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ridekick",
+      "description": "Read your Ridekick requests and each car dealership's out-the-door price, in writing. Sign in to Ridekick and approve Grok Build on a Ridekick screen.",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ridekick"
+      },
+      "homepage": "https://www.ridekick.com/developers/mcp",
+      "keywords": ["ridekick", "ridekick offers", "ridekick car offers"],
+      "domains": ["ridekick.com"]
     }
   ]
 }
