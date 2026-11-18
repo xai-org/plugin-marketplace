@@ -942,6 +942,24 @@
         ]
       }
     },
+    "postcaly": {
+      "sha": "0374ecaf6a34512045079beb804fbd9278cb7151",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postcaly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postcaly",
+            "description": "Plan, draft and schedule social media posts in Postcaly (app.postcaly.com) for X, Bluesky, LinkedIn, Threads, YouTube a…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
       "version": "0.15.43",
