@@ -493,7 +493,7 @@
       }
     },
     "faf": {
-      "sha": "2a36934e2a5d6a608ac0fd5f6542d4b70f1fbf57",
+      "sha": "7d1a49652773bcd46b7ad4480bbd7aeb8000e8d5",
       "components": {
         "hooks": [
           {
@@ -513,7 +513,7 @@
           },
           {
             "name": "faf-score",
-            "description": "Score the AI-readiness of project.faf using the ZEPH microsecond engine. Report numeric score, tier (TROPHY / GOLD / SI…"
+            "description": "Score the AI-readiness of project.faf with the always-33 faf-kernel (the same score as faf-cli). Report numeric score,…"
           }
         ]
       }
