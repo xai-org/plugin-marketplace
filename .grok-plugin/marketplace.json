@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "equibles",
+      "description": "Financial research with SEC filings, company financials, institutional holdings, earnings calls, prices, options, and macroeconomic data.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daniel3303/stock-market-mcp-server.git",
+        "sha": "cafb15f81a52d81fd05ba9f0c36e67c099257209"
+      },
+      "homepage": "https://equibles.com",
+      "keywords": ["equibles", "equibles mcp"],
+      "domains": ["equibles.com", "mcp.equibles.com"]
     }
   ]
 }
