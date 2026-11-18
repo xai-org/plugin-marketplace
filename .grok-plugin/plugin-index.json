@@ -676,6 +676,18 @@
         ]
       }
     },
+    "lemlist": {
+      "sha": "91597a46f3ad33167f9ec306d2a34b17813011fe",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "lemlist",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
