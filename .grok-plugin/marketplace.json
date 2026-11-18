@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "busabase",
+      "description": "Read and update the records, docs and skills your team and agents share in Busabase, with auditable permission-aware changes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/busabase/skills.git",
+        "sha": "c28117711a536cbba5525c658167e27018ca2780",
+        "path": "grok"
+      },
+      "homepage": "https://busabase.com",
+      "keywords": [
+        "busabase",
+        "busabase workspace"
+      ],
+      "domains": [
+        "busabase.com"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Busabase",
+        "url": "https://busabase.com"
+      }
     }
   ]
 }
