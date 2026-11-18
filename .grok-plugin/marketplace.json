@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "gitranks-contribute",
+      "description": "Find open-source GitHub issues to contribute to, matched to your skills and checked ready for a pull request. Your agent fixes one; you approve the PR on gitranks.com.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gitranks/contribute.git",
+        "sha": "e0255d10d64b1c171c9da299900d72c713da86f1"
+      },
+      "homepage": "https://gitranks.com/contribute/mcp?utm_source=grok&utm_campaign=mcp-listing",
+      "keywords": ["gitranks", "gitranks contribute", "gitranks mcp"],
+      "domains": ["gitranks.com", "mcp.gitranks.com"]
     }
   ]
 }
