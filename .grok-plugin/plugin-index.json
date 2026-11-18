@@ -1431,8 +1431,8 @@
       }
     },
     "tavily": {
-      "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb",
-      "version": "2.4.0",
+      "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833",
+      "version": "2.4.1",
       "components": {
         "mcpServers": [
           {
