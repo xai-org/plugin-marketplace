@@ -676,6 +676,24 @@
         ]
       }
     },
+    "ibluetext": {
+      "sha": "b063047d881901cc9feff3bc3c8f408b542eb921",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ibluetext",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ibluetext-texting",
+            "description": "Send iMessage, SMS and WhatsApp to customers, run text campaigns, read replies and check which phone numbers are iPhone…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",

@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ibluetext",
+      "description": "Official iBlueText plugin: text customers by iMessage, SMS and WhatsApp from Grok. Send messages and campaigns, read replies, and check which numbers are iPhones. Hosted MCP server with OAuth sign-in, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iBlueText/ibluetext-mcp.git",
+        "sha": "b063047d881901cc9feff3bc3c8f408b542eb921",
+        "path": "cursor-plugin"
+      },
+      "homepage": "https://ibluetext.com/ai-assistants",
+      "keywords": ["ibluetext", "blue bubble", "imessage campaign"],
+      "domains": ["ibluetext.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "iBlueText",
+        "email": "russ@ibluetext.com",
+        "url": "https://github.com/iBlueText"
+      }
     }
   ]
 }
