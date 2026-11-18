@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "apimodels",
+      "description": "Generate videos, images, voice-over and music from Grok Build with apimodels.app: Seedance, Veo, Kling, MiniMax Hailuo, Wan, GPT Image, Nano Banana, Seedream, ElevenLabs and more on one API key. Pay per successful generation; failed generations are not billed.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/apimodels/apimodels-mcp.git",
+        "sha": "cc5aab7e776c16ab81f00ba3c878fa2514e79b73",
+        "path": "plugins/apimodels"
+      },
+      "homepage": "https://apimodels.app/docs/mcp",
+      "keywords": ["apimodels", "apimodels.app", "apimodels mcp"],
+      "domains": ["apimodels.app", "api.apimodels.app"],
+      "author": {
+        "name": "Pixlume (apimodels.app)",
+        "email": "support@apimodels.app",
+        "url": "https://github.com/apimodels"
+      }
     }
   ]
 }
