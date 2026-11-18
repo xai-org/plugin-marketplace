@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "stalkchain",
+      "description": "Research public crypto market and wallet activity with StalkChain. Explore tracked traders, analyze tokens and wallets, and manage alerts in your StalkChain account. The plugin does not execute trades or move funds.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/StalkC/stalkchain-plugin.git",
+        "sha": "41b33a29be4dcf74c2bdf8304d37b46f917a3902"
+      },
+      "homepage": "https://stalkchain.com/mcp",
+      "keywords": [
+        "stalkchain",
+        "stalkchain mcp"
+      ],
+      "domains": [
+        "stalkchain.com",
+        "data.stalkchain.com"
+      ]
     }
   ]
 }
