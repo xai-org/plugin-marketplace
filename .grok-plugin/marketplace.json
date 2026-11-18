@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ezseller",
+      "description": "Guided Amazon seller operations in Grok Build through an authorized EzSeller account. Investigate listings, inventory and fees with tenant-scoped OAuth and evidence checks.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jabbertones-cloud/ezseller-agent-plugin.git",
+        "sha": "ca63ae95389d12107f7a27bb5c27c305a2fb4c85"
+      },
+      "homepage": "https://ezseller.smatdesigns.com/",
+      "keywords": [
+        "amazon seller",
+        "seller central",
+        "inventory",
+        "listings",
+        "seller fees",
+        "ezseller"
+      ],
+      "domains": [
+        "ezseller.smatdesigns.com"
+      ]
     }
   ]
 }
