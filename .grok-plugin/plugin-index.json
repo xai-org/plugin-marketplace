@@ -1261,8 +1261,8 @@
       }
     },
     "stripe": {
-      "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
-      "version": "0.10.2",
+      "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
+      "version": "0.11.0",
       "components": {
         "agents": [
           {
@@ -1306,6 +1306,10 @@
           {
             "name": "stripe-best-practices",
             "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
+          },
+          {
+            "name": "stripe-bfcm-dashboard",
+            "description": "Builds a Black Friday and Cyber Monday (BFCM) season dashboard of payments, customers, and recurring revenue from the c…"
           },
           {
             "name": "stripe-directory",
