@@ -642,6 +642,24 @@
         ]
       }
     },
+    "flint": {
+      "sha": "a34eb0cdc41b9d1b9b44cb48961ed90a4c8e6cdc",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "flint",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "edit-site",
+            "description": "Edit a Flint website by chatting with the Flint agent. Use when the user wants to modify, update, or add content to the…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
