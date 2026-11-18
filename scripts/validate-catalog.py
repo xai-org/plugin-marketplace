@@ -47,7 +47,10 @@ def validate_entry(entry: dict, idx: int) -> list[str]:
     if not isinstance(source, dict):
         return errors
 
-    if source.get("source") != "url":
+    # The index generator and the SHA bumper both treat a source as remote when either
+    # `source == "url"` or `type == "url"`; mirror that here so a `{"type": "url"}` entry
+    # can't skip SHA pinning.
+    if source.get("source") != "url" and source.get("type") != "url":
         return errors
 
     sha = source.get("sha")
@@ -103,11 +106,22 @@ def validate_file(path: Path) -> list[str]:
         return [f"{path}: `plugins` must be an array, got {type(plugins).__name__}"]
 
     errors: list[str] = []
+    seen_names: dict[str, int] = {}
     for idx, entry in enumerate(plugins):
         if not isinstance(entry, dict):
             errors.append(f"{path}: plugin index {idx} must be an object")
             continue
         errors.extend(f"{path}: {e}" for e in validate_entry(entry, idx))
+        name = entry.get("name")
+        if isinstance(name, str) and name:
+            if name in seen_names:
+                errors.append(
+                    f"{path}: duplicate plugin name '{name}' at indexes "
+                    f"{seen_names[name]} and {idx}; names must be unique "
+                    "(the generated index is keyed by name and would drop one entry)"
+                )
+            else:
+                seen_names[name] = idx
     return errors
 
 
