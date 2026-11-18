@@ -942,6 +942,24 @@
         ]
       }
     },
+    "platic": {
+      "sha": "8a0ff3887937c7372413a71e617d8cb12e71061a",
+      "version": "1.1.9",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "platica",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-platica",
+            "description": "Use when the user wants to work in their Platica account, including workspaces, WhatsApp and social conversations, clie…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
       "version": "0.15.43",
