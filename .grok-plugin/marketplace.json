@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pushary",
+      "description": "Answer Grok Build from your phone. Grok asks you a yes or no, a choice or a short answer on your phone and waits for it, and sends a push when a long task finishes or fails, through Pushary's hosted MCP server and skill. Sign in with your Pushary account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Pushary/grok-build-plugin.git",
+        "sha": "bda3a3ae54d28286a46e4df1349b990a227093da"
+      },
+      "homepage": "https://pushary.com/docs/agents/guides/grok-build",
+      "keywords": ["pushary", "pushary mcp", "pushary notifications", "pushary approval"],
+      "domains": ["pushary.com"]
     }
   ]
 }
