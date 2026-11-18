@@ -109,9 +109,19 @@ def parse_frontmatter(path: Path) -> dict[str, str]:
             value = " ".join(block)
             i = j
         else:
+            # A plain or quoted scalar can go on over indented lines, which
+            # YAML folds into one line. PyYAML wraps long values this way.
+            j = i + 1
+            if value:
+                while j < len(lines) and lines[j].startswith((" ", "\t")) and lines[j].strip():
+                    value += " " + lines[j].strip()
+                    j += 1
             if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+                quote = value[0]
                 value = value[1:-1]
-            i += 1
+                if quote == "'":
+                    value = value.replace("''", "'")
+            i = j
         fields[key] = value
     return fields
 
