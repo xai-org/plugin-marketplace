@@ -1,0 +1,14 @@
+{
+  "name": "seltz",
+  "version": "1.0.0",
+  "description": "Fast and accurate web search for AI agents, with filters for news, companies and people and a fetch tool to read any page in full.",
+  "author": {
+    "name": "Seltz",
+    "url": "https://seltz.ai"
+  },
+  "homepage": "https://seltz.ai",
+  "repository": "https://github.com/seltz-ai/seltz-antigravity-plugin",
+  "license": "Proprietary",
+  "keywords": ["seltz", "seltz search", "seltz ai"],
+  "logo": "assets/logo.png"
+}

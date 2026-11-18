@@ -1196,6 +1196,27 @@
         ]
       }
     },
+    "seltz": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "seltz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seltz-fetch",
+            "description": "Read the full content of web pages as clean markdown with Seltz. Use when the user shares a URL or a Seltz search resul…"
+          },
+          {
+            "name": "seltz-web-search",
+            "description": "Search the live web with Seltz. Use when the user mentions Seltz, or needs current information, news, company or people…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
