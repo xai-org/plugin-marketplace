@@ -1260,6 +1260,18 @@
         ]
       }
     },
+    "standup": {
+      "sha": "e26d00eb8024d5f4e3bc19a414c4bd164462e8c2",
+      "version": "0.6.1",
+      "components": {
+        "skills": [
+          {
+            "name": "standup",
+            "description": "Writes the user's standup update, what they and their coding agents did, from git commits and agent sessions, with toke…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
       "version": "0.10.2",
