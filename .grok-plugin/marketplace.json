@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "iblusend",
+      "description": "iBluSend business texting from Grok: triage iMessage and SMS conversations, look up contacts and devices, and send texts only after you confirm in chat. Optional areas you tick at sign-in add reports, templates, campaign drafts and calendar booking links; nothing launches or books until you press the button in iBluSend.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ZachPulse/iblusend-plugins.git",
+        "sha": "053424ee865731c04e87a69bec55a871809784d9",
+        "path": "plugins/iblusend-grok"
+      },
+      "homepage": "https://iblusend.com/features/ai-assistants",
+      "keywords": ["iblusend", "iblusend imessage", "iblusend sms", "iblusend texting", "iblusend campaigns"],
+      "domains": ["iblusend.com", "api.iblusend.com"],
+      "version": "1.1.0",
+      "author": {
+        "name": "iBluSend",
+        "email": "support@iblusend.com",
+        "url": "https://iblusend.com"
+      }
     }
   ]
 }
