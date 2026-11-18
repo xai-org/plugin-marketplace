@@ -110,6 +110,24 @@
         ]
       }
     },
+    "chineseworksheet": {
+      "sha": "c1fea3c5ac26159fff214642a954daffe489c91b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chineseworksheet",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chineseworksheet",
+            "description": "Printable Chinese handwriting worksheet grid geometry calculator, official Hanzi stroke order lookup, HSK 3.0 vocabular…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
       "version": "1.13.0",
