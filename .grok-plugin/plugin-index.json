@@ -93,6 +93,24 @@
         ]
       }
     },
+    "busabase": {
+      "sha": "0e751beb2f3f990490ef5ed6262a682a3a04e54d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "busabase",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "busabase",
+            "description": "Busabase, the open-source database and workspace for AI agents, via MCP tools: where the user, their team and their age…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
