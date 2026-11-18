@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "autoshort": {
+      "sha": "642fe65b598a2270f7963cbfc8112c9f5cb76ec6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "autoshort",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "make-a-faceless-short",
+            "description": "Turn an idea into a narrated, captioned faceless short video on the user's AutoShort account. Agree the script scene by…"
+          },
+          {
+            "name": "plan-a-series",
+            "description": "Plan a multi-episode faceless short series (a story with recurring characters) on AutoShort before any episode is made.…"
+          },
+          {
+            "name": "research-winning-formats",
+            "description": "Find short-video formats worth testing before making a video. Read the user's own AutoShort performance data, browse th…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
