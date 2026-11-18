@@ -94,7 +94,7 @@
       }
     },
     "busabase": {
-      "sha": "0e751beb2f3f990490ef5ed6262a682a3a04e54d",
+      "sha": "c28117711a536cbba5525c658167e27018ca2780",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
