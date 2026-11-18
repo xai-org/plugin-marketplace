@@ -765,8 +765,8 @@
       }
     },
     "moose-tracker": {
-      "sha": "a9cc58734173c337ad0bdb50a32e7bbcb0c3b18a",
-      "version": "1.3.2",
+      "sha": "9579a6ff6c7534bad7d7274e1981a199359e0efa",
+      "version": "1.4.0",
       "components": {
         "mcpServers": [
           {
