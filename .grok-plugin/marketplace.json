@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "drict",
+      "description": "Official Drict integration for label-law checks. List what a product label must carry in 48 countries and check a label's text against one country's label law: found, missing and what to check by eye, each point with its law and official source. Food, cosmetics, supplements, alcohol, toys, textiles, electrical goods and more. Hosted remote MCP server at https://drint.io/drict/mcp, no sign-in. Not legal advice.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drint-io/drict-mcp.git",
+        "sha": "b305c658bc183585aedda4681a8b2c102a74ffe5"
+      },
+      "homepage": "https://drint.io/drict/mcp",
+      "keywords": ["drict", "drict label check", "drict label law", "drict mcp"],
+      "domains": ["drint.io"]
     }
   ]
 }
