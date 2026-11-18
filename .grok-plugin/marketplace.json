@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/moose-tracker/moose-tracker-plugin.git",
-        "sha": "1eae9311e7cd60522fe09a5dcb6bbd4fd44f84ba"
+        "sha": "3dca2f6f5e26b49011e9091bd15e70e2cc4da7b0"
       },
       "homepage": "https://moosetracker.app/about.html",
       "keywords": ["moose tracker", "moosetracker", "moose tracker synth", "moose tracker music tracker", "moose tracker chiptune"],
