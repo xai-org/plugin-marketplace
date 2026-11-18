@@ -1468,6 +1468,18 @@
         ]
       }
     },
+    "textmock": {
+      "sha": "9d494305791e26fb588d286e053dcc763af7af75",
+      "version": "0.1.1",
+      "components": {
+        "skills": [
+          {
+            "name": "textmock",
+            "description": "Make fictional text conversations that open as editable Textmock links, or edit and render an existing Textmock convers…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
