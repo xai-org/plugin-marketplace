@@ -1242,6 +1242,10 @@
         ]
       }
     },
+    "shuut": {
+      "sha": "304036ded387637fdce3e494ea1f6545684346af",
+      "components": {}
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
