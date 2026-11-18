@@ -1,7 +1,7 @@
 # Perfloop plugin for Grok Build
 
-Perfloop: always-on performance engineering for teams where performance is the
-product.
+Perfloop finds performance problems, bugs and security flaws in your code.
+Each change comes with proof: a measurement or a tested assertion.
 
 This plugin connects Grok Build to the Perfloop MCP server at
 `https://app.perfloop.ai/mcp`. With it, Grok can submit a branch or a pull

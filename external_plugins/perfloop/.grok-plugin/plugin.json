@@ -1,7 +1,7 @@
 {
   "name": "perfloop",
-  "version": "1.0.0",
-  "description": "Always-on performance engineering for teams where performance is the product. Connects Grok Build to the Perfloop MCP server at app.perfloop.ai/mcp. Sign in with your Perfloop account on first connect.",
+  "version": "1.1.0",
+  "description": "Perfloop finds performance problems, bugs and security flaws in your code. Each change comes with proof: a measurement or a tested assertion. Connects Grok Build to the Perfloop MCP server at app.perfloop.ai/mcp. Sign in with your Perfloop account on first connect.",
   "author": {
     "name": "Perfloop",
     "url": "https://perfloop.ai"
