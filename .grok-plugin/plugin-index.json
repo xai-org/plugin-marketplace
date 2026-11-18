@@ -1173,8 +1173,8 @@
       }
     },
     "railway": {
-      "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
-      "version": "1.7.0",
+      "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
+      "version": "1.7.1",
       "components": {
         "hooks": [
           {
