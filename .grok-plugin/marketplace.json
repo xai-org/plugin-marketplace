@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "831d23fede4ff7d9151985f455b7007271a3262b"
+        "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb"
+        "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -253,7 +253,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
+        "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -267,7 +267,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
+        "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
