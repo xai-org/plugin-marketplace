@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/l3mpire/lemlist-plugin.git",
-        "sha": "91597a46f3ad33167f9ec306d2a34b17813011fe"
+        "sha": "8215d09d552c34257fb1dd7a2a3262390d7b328b"
       },
       "homepage": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
       "keywords": ["lemlist", "lemlist campaign", "lemlist mcp"],

@@ -677,13 +677,31 @@
       }
     },
     "lemlist": {
-      "sha": "91597a46f3ad33167f9ec306d2a34b17813011fe",
-      "version": "1.0.0",
+      "sha": "8215d09d552c34257fb1dd7a2a3262390d7b328b",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
             "name": "lemlist",
             "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "lemlist-campaign-report",
+            "description": "Read the real stats of the user's lemlist campaigns (leads reached, messages sent, opens, clicks, replies, LinkedIn inv…"
+          },
+          {
+            "name": "lemlist-deliverability-check",
+            "description": "Audit the email deliverability of the user's lemlist team (DNS of sending domains, warm-up reputation, sending volume,…"
+          },
+          {
+            "name": "lemlist-find-leads",
+            "description": "Find B2B leads that match an ideal customer profile in the lemlist people database (companies first, then the right peo…"
+          },
+          {
+            "name": "lemlist-launch-campaign",
+            "description": "Build and launch a lemlist outreach campaign from a goal: agree on the target and the angle, write a short email and Li…"
           }
         ]
       }
