@@ -1527,8 +1527,8 @@
       }
     },
     "vercel": {
-      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
-      "version": "0.55.1",
+      "sha": "b37cbacaaf866e5c6de89e170ad25c816f616798",
+      "version": "0.56.0",
       "components": {
         "agents": [
           {
@@ -1607,6 +1607,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "botid",
+            "description": "Protect specific routes and server actions from bots in code with Vercel BotID (`botid` npm package). Use when installi…"
+          },
+          {
             "name": "build-agents",
             "description": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or imp…"
           },
@@ -1624,7 +1628,7 @@
           },
           {
             "name": "custom-metrics",
-            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+            "description": "Emit and query Vercel Custom Metrics. Use proactively whenever you write or change server code that runs as a Vercel Fu…"
           },
           {
             "name": "daemons",
