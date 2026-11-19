@@ -943,8 +943,8 @@
       }
     },
     "pstack": {
-      "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
-      "version": "0.15.43",
+      "sha": "e58dd043600587dbaf58ba315e7f2b38373eeb43",
+      "version": "0.15.44",
       "components": {
         "agents": [
           {
