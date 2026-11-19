@@ -362,6 +362,24 @@
         ]
       }
     },
+    "designprint": {
+      "sha": "39f34683350ff162c6636860ee06365860dd061a",
+      "version": "1.0.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "designprint",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "designprint",
+            "description": "Design and print physical pieces for the user and have them shipped: business cards, flyers, posters, menus and invitat…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
