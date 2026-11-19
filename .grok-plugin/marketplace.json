@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/joaomelorodrigues/cyango-skills.git",
-        "sha": "8498780d3fb9b3953d4f9ac175a7dfc8da25554a",
+        "sha": "bda129e518e6f722ac75e0e0f17202c482cbedcb",
         "path": "plugin"
       },
       "homepage": "https://www.cyango.com/xr-studio",
