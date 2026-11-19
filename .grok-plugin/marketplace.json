@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "fairvalid",
+      "description": "FairValid email verification and FairMatch lead discovery. Check verification jobs, quote selected leads, unlock verified work emails with explicit credit-limit approval, and inspect workspace credits through hosted OAuth MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moonlitnayeem/fairvalid-ai.git",
+        "sha": "40cac2883dc74f50f7bc8562b380782c4c6a4379"
+      },
+      "homepage": "https://fairvalid.com/help/mcp",
+      "keywords": [
+        "fairvalid",
+        "fairvalid email verification",
+        "fairmatch",
+        "fairvalid fairmatch"
+      ],
+      "domains": [
+        "fairvalid.com",
+        "mcp.fairvalid.com"
+      ]
     }
   ]
 }
