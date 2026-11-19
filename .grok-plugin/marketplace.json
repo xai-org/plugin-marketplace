@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "admakeai",
+      "description": "AdMakeAI ad creative integration. Generate Meta ad images and UGC-style video ads, research competitors' live ads in the Meta Ad Library, and draft and report on Meta campaigns through the AdMakeAI MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mesmerlord/admakeai-claude-plugin.git",
+        "sha": "992406a65f5e251d11ded5def5718486b226ebe7"
+      },
+      "homepage": "https://admakeai.com/agents",
+      "keywords": ["admakeai", "admake ai", "admakeai ads"],
+      "domains": ["admakeai.com"]
     }
   ]
 }

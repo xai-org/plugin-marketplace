@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "admakeai": {
+      "sha": "992406a65f5e251d11ded5def5718486b226ebe7",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "admakeai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "admakeai-api",
+            "description": "Design, edit, and ship ad creative with AdMakeAI — finished ad designs, edits, batch ad sets, ad copy, UGC video ads, c…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
