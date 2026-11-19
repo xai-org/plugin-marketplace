@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postemi",
+      "description": "Postemi social media scheduler (hosted MCP server + skill). Write, preview and schedule posts to 37 platforms and apps, including Instagram, TikTok, LinkedIn, X, YouTube, Threads, Facebook and Bluesky, read and change your content calendar, and see how channels and posts perform. Sign in with your Postemi account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/norbertlevente/postemi-agent.git",
+        "sha": "9a64be185ae699b8e3e091655b8e67332e142082",
+        "path": "plugins/postemi-grok"
+      },
+      "homepage": "https://postemi.com",
+      "keywords": ["postemi", "postemi scheduler", "postemi social", "postemi mcp", "schedule with postemi"],
+      "domains": ["postemi.com", "app.postemi.com", "mcp.postemi.com"]
     }
   ]
 }
