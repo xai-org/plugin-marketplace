@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kling-ai-china-plugin",
+      "description": "Kling AI China Plugin for image and video generation via OAuth-powered remote MCP. Use a China account; install only one Kling region in each Grok Build profile.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klingai-tech/claude-plugin-cn.git",
+        "sha": "3b556ed1d50d029c38ad60fb7eee2142236df3a6"
+      },
+      "homepage": "https://github.com/klingai-tech/claude-plugin-cn",
+      "keywords": [
+        "kling",
+        "kling ai",
+        "kling china",
+        "kling ai china plugin",
+        "kling image generation",
+        "kling video generation"
+      ],
+      "domains": [
+        "klingai.com"
+      ],
+      "version": "1.3.3",
+      "author": {
+        "name": "Kling AI"
+      }
     }
   ]
 }
