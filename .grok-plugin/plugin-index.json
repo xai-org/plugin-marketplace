@@ -1260,6 +1260,24 @@
         ]
       }
     },
+    "soundcheck-event-directory": {
+      "sha": "39713881a7d0d9fd814ddc3744c4f9ebb2de01e8",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "soundcheck-instant-quotes",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "quote-an-event",
+            "description": "Use when the user asks what a live event would cost, what to budget, or what crew/production it needs. Calls Soundcheck…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
       "version": "0.11.0",
