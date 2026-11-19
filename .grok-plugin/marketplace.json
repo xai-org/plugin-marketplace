@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-executive",
+      "description": "Antevo Executive Brief (remote MCP server + skills): editorial market and world intelligence, the risk radar, sector desk reads, a world-events map and macro history, each answer naming its dated edition. Public, no account. Not investment advice.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+        "path": "plugins/antevo-executive"
+      },
+      "homepage": "https://antevo.ch/executive/",
+      "keywords": [
+        "antevo executive",
+        "antevo executive brief",
+        "antevo risk radar",
+        "antevo desk read"
+      ],
+      "domains": [
+        "antevo.ch/executive"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }
