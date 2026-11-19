@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "831d23fede4ff7d9151985f455b7007271a3262b"
+        "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "5f3024c3decd83ff6f0bfb3ef36a2c4cfbff961d"
+        "sha": "490a73c7537123cb1f0bcaced658585f0ee32fd9"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb"
+        "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -232,7 +232,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
+        "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "9d6c33b367f2c823cb3c88d991cafdd3402ceeb0",
+        "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "bf0c7cd80abdbf7fe47b634978a7d1b4071f71a7",
+        "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
+        "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
