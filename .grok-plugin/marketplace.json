@@ -487,6 +487,34 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "canopy",
+      "description": "Live Amazon product data from Canopy: search, prices, Buy Box offers, ratings, deals, best sellers, and ASIN lookup. Connects to the hosted Canopy MCP server with OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/canopy-api/canopy-plugin.git",
+        "sha": "b22ddd9d3c7a69c60f058b7427941c3f694fae4c"
+      },
+      "homepage": "https://www.canopyapi.co/amazon-mcp-server",
+      "keywords": [
+        "canopy",
+        "canopy api",
+        "amazon",
+        "amazon price",
+        "amazon product",
+        "asin lookup",
+        "buy box",
+        "amazon deals",
+        "amazon ratings"
+      ],
+      "domains": [
+        "canopyapi.co",
+        "www.canopyapi.co",
+        "mcp.canopyapi.co",
+        "amazon.com"
+      ]
     }
   ]
 }
