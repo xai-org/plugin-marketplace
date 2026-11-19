@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "promptli-comms",
+      "description": "Official Promptli Comms plugin (hosted MCP server + skills). Give the agent its own email inbox and phone number: send and reply to email, send texts, place and schedule AI-disclosed calls, and read conversations and call transcripts. Sign in with your Promptli account over OAuth; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/promptli-dev/promptli-grok-plugin.git",
+        "sha": "2c3b561e73587a83b464144b0ba22d03f8ac0c21"
+      },
+      "homepage": "https://promptli.com/comms",
+      "keywords": ["promptli", "promptli comms", "promptli email", "promptli sms", "promptli calls"],
+      "domains": ["promptli.com", "comms.promptli.com", "api.comms.promptli.com"]
     }
   ]
 }
