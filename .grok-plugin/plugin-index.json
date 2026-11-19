@@ -676,6 +676,28 @@
         ]
       }
     },
+    "loomascale": {
+      "sha": "7ec77f9eca5e102bd10f0404dbcc581a2f0d74b2",
+      "version": "1.1.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "loomascale",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cross-source-insights",
+            "description": "Explain marketing performance using relevant connected Google Ads, Meta Ads (Facebook Ads and Instagram Ads), LinkedIn…"
+          },
+          {
+            "name": "loomascale",
+            "description": "Work with connected LoomaScale integrations for Google Ads, Meta Ads (Facebook Ads and Instagram Ads), LinkedIn Ads, Go…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
