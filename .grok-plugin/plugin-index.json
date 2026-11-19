@@ -1,6 +1,72 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-wealth": {
+      "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+      "version": "0.7.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-wealth",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "advisor-meeting-prep",
+            "description": "Prepare the user for a meeting with their own banker, relationship manager or wealth manager: a one-page brief on where…"
+          },
+          {
+            "name": "concentration-and-drift",
+            "description": "Diagnose concentration and allocation drift for an Antevo Wealth household and surface what to rebalance. Use when the…"
+          },
+          {
+            "name": "daily-brief",
+            "description": "The household's morning note — what matters today and what needs attention. Use whenever the user asks \"what's my brief…"
+          },
+          {
+            "name": "geopolitical-risk",
+            "description": "Read the world's geopolitical risks and tie them to an Antevo Wealth client's exposure. Use whenever the user asks abou…"
+          },
+          {
+            "name": "goals-review",
+            "description": "Review an Antevo Wealth household's financial goals and funding progress. Use when the user asks \"how am I tracking aga…"
+          },
+          {
+            "name": "liquidity-and-leverage",
+            "description": "Assess an Antevo Wealth household's liquidity and leverage — how fast it can raise cash and how much covenant headroom…"
+          },
+          {
+            "name": "market-signals-period",
+            "description": "Summarise Antevo Wealth market signals and alternative-index moves over a time window and pull out the insights. Use wh…"
+          },
+          {
+            "name": "portfolio-stress-radar",
+            "description": "Find where an Antevo Wealth household could actually get hurt — and trace it across domains. Use whenever the user asks…"
+          },
+          {
+            "name": "record-holdings",
+            "description": "Record holdings the user already owns into their Antevo Wealth book, from a bank or broker statement, a screenshot, or…"
+          },
+          {
+            "name": "security-analysis",
+            "description": "Analyse a single security (equity, index, FX, crypto, commodity) for an Antevo Wealth user — fundamentals and technical…"
+          },
+          {
+            "name": "succession-readiness",
+            "description": "Answer \"if something happened to me tomorrow, what's missing?\" from an Antevo Wealth household's own succession data. U…"
+          },
+          {
+            "name": "watchlist-review",
+            "description": "Review an Antevo Wealth household's tracked instruments (their watchlist). Use when the user asks \"what's on my watchli…"
+          },
+          {
+            "name": "wealth-portfolio-review",
+            "description": "Produce a private-banker-grade portfolio review for an Antevo Wealth client by orchestrating the Antevo Wealth MCP conn…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
