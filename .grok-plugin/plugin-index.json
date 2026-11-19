@@ -1190,8 +1190,8 @@
       }
     },
     "railway": {
-      "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
-      "version": "1.7.0",
+      "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
+      "version": "1.7.1",
       "components": {
         "hooks": [
           {
@@ -1278,8 +1278,8 @@
       }
     },
     "stripe": {
-      "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
-      "version": "0.10.2",
+      "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
+      "version": "0.11.0",
       "components": {
         "agents": [
           {
@@ -1323,6 +1323,10 @@
           {
             "name": "stripe-best-practices",
             "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared…"
+          },
+          {
+            "name": "stripe-bfcm-dashboard",
+            "description": "Builds a Black Friday and Cyber Monday (BFCM) season dashboard of payments, customers, and recurring revenue from the c…"
           },
           {
             "name": "stripe-directory",
@@ -1448,8 +1452,8 @@
       }
     },
     "tavily": {
-      "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb",
-      "version": "2.4.0",
+      "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833",
+      "version": "2.4.1",
       "components": {
         "mcpServers": [
           {
@@ -1772,8 +1776,8 @@
       }
     },
     "wix": {
-      "sha": "831d23fede4ff7d9151985f455b7007271a3262b",
-      "version": "1.41.5",
+      "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d",
+      "version": "1.41.6",
       "components": {
         "mcpServers": [
           {
