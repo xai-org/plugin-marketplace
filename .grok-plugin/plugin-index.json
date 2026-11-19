@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "artist-build": {
+      "sha": "134daaec21a7c601876b7ebecd584118b472a880",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "artist-build",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "artist-build",
+            "description": "Work in Artist Build, the CRM for talent managers. Use when the person asks about their artists, deals, brands, contact…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",

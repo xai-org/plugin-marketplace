@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "artist-build",
+      "description": "Artist Build, the CRM for talent managers. Ask about artists, deals, brands, contacts, campaigns, contracts, Xero invoices and the inbox, and prepare CRM changes that wait for your approval. Signs in with OAuth and acts as you, with your role.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/artist-build/artist-build-plugins.git",
+        "sha": "134daaec21a7c601876b7ebecd584118b472a880"
+      },
+      "homepage": "https://artist.build",
+      "keywords": ["artist build", "artist.build", "artistbuild"],
+      "domains": ["artist.build"]
     }
   ]
 }
