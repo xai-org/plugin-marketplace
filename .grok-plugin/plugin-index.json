@@ -676,6 +676,24 @@
         ]
       }
     },
+    "kadenzo": {
+      "sha": "cf1d2b223fab70a374b0c9f735d33575815ec52d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kadenzo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kadenzo-social-scheduling",
+            "description": "Schedule, review and change social media posts through the Kadenzo MCP server, and read post analytics and social liste…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
