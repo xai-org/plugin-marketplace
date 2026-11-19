@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "adanos": {
+      "sha": "9e8dd54cd1083d05ac2f4b6dad84a2c74aff17b0",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adanos",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adanos",
+            "description": "Answer questions about how stocks and ETFs are discussed on Reddit, X, News and Polymarket with the Adanos MCP tools. U…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
