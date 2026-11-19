@@ -308,6 +308,19 @@
       "domains": ["browser-use.com", "cloud.browser-use.com"]
     },
     {
+      "name": "cryptyx",
+      "description": "CRYPTYX — Digital Asset Intelligence. Institutional-grade quant intelligence for digital assets: ask about any asset in plain English, or scan the market on hundreds of metrics, study every prior instance of a move, and build and backtest your own strategies. 8 factor classes, 8 horizons (1–365 days). Hosted MCP server and skills; works alongside exchange connections, sharing asset symbols only.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cryptyx-ai/agents.git",
+        "sha": "38b408a7567c639a64261fe28970aaa1d4c6dffe"
+      },
+      "homepage": "https://github.com/cryptyx-ai/agents",
+      "keywords": ["cryptyx", "cryptyx mcp", "cryptyx study", "the study cryptyx"],
+      "domains": ["cryptyx.ai", "mcp.cryptyx.ai"]
+    },
+    {
       "name": "datadog",
       "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
       "category": "observability",
