@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "voicemoat",
+      "description": "VoiceMoat for LinkedIn and Twitter. Draft posts in your own voice, check drafts for Style and Stance, read your posts and analytics, and schedule or publish with a preview and a second confirmation, never on the first request.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/voicemoat/voicemoat-mcp.git",
+        "sha": "5bd0713aef669b0c33ff747e93e42e191e65f265"
+      },
+      "homepage": "https://voicemoat.com/mcp",
+      "keywords": ["voicemoat", "voicemoat linkedin", "voicemoat twitter"],
+      "domains": ["voicemoat.com"],
+      "author": {
+        "name": "VoiceMoat",
+        "email": "founder@voicemoat.com",
+        "url": "https://github.com/voicemoat"
+      }
     }
   ]
 }
