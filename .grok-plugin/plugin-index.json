@@ -1261,8 +1261,8 @@
       }
     },
     "stripe": {
-      "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
-      "version": "0.11.0",
+      "sha": "801ec2174acd581f71f99cf8df5383063824a1bc",
+      "version": "0.12.0",
       "components": {
         "agents": [
           {
@@ -1330,10 +1330,6 @@
           {
             "name": "stripe-projects",
             "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
-          },
-          {
-            "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
