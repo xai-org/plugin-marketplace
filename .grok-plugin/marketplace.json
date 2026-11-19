@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kling-ai-global-plugin",
+      "description": "Kling AI Global Plugin for image and video creation in Grok Build via Kling's hosted Global MCP. Includes skills for image generation, video generation, Elements, motion control, and task tracking. OAuth uses a Global Kling account; generation consumes that account's credits.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klingai-tech/claude-plugin.git",
+        "sha": "b5e977874d0933402dcc18ab9fd1b6b6de911ff3"
+      },
+      "homepage": "https://kling.ai/app/mcp/guide",
+      "keywords": ["kling", "kling ai", "kling ai global", "kling plugin", "kling mcp", "kling image", "kling video"],
+      "domains": ["kling.ai"],
+      "version": "1.3.0",
+      "author": {
+        "name": "KLING AI Pte Ltd",
+        "url": "https://kling.ai/"
+      }
     }
   ]
 }
