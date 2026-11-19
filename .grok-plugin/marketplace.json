@@ -436,6 +436,25 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
+      "name": "aurea77",
+      "description": "Aurea77 athlete-account workflows for sporting events, preparation, recorded registrations and results, equipment, and insights.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/aurea77"
+      },
+      "homepage": "https://aurea77.com",
+      "keywords": [
+        "aurea77",
+        "aurea77 events",
+        "aurea77 equipment"
+      ],
+      "domains": [
+        "aurea77.com",
+        "api.aurea77.com"
+      ]
+    },
+    {
       "name": "clerk",
       "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
       "category": "development",
