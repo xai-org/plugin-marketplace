@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "planagram": {
+      "type": "http",
+      "url": "https://mcp.getplanagram.com/mcp"
+    }
+  }
+}

@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "planagram",
+      "description": "Planagram social media scheduling (hosted MCP server + skill). Draft, schedule, edit and review posts across the social accounts connected to Planagram. Sign in with your Planagram account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/planagram"
+      },
+      "homepage": "https://getplanagram.com",
+      "keywords": ["planagram", "planagram mcp", "planagram scheduler", "planagram posts"],
+      "domains": ["getplanagram.com", "mcp.getplanagram.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Planagram LLC",
+        "email": "support@getplanagram.com",
+        "url": "https://getplanagram.com"
+      }
     }
   ]
 }
