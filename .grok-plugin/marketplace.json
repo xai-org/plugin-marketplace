@@ -6,6 +6,25 @@
   },
   "plugins": [
     {
+      "name": "influence",
+      "description": "Plan campaigns, draft and review social posts, generate images, schedule approved publishing and read Insights through Influence.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/influence-so/influence-mcp.git",
+        "sha": "52ba1d6cecdd54d308e00627b100581fb5b114d9"
+      },
+      "homepage": "https://influence.so",
+      "keywords": [
+        "influence",
+        "influence mcp",
+        "influence iq"
+      ],
+      "domains": [
+        "influence.so"
+      ]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
