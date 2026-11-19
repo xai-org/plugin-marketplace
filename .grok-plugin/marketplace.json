@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "jaksa",
+      "description": "Official Jaksa integration (hosted MCP server). Jaksa is a voice coach for running and other workouts: ask about your workouts, kilometre splits, heart rate, records and training plan, and change your plan, goals, routes and settings in conversation. Sign in with your Jaksa account (Apple, Google or Microsoft) on first connection; no API key.",
+      "category": "fitness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/generativechaos/jaksa-plugin.git",
+        "sha": "86f4ebcba2ffcb38dbe37a0c1fb84030463dffeb"
+      },
+      "homepage": "https://jaksa.run",
+      "keywords": ["jaksa", "jaksa run", "jaksa coach", "jaksa mcp"],
+      "domains": ["jaksa.run", "mcp.jaksa.run"]
     }
   ]
 }
