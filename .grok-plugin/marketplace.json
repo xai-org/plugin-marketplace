@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/thedesignprint/designprint.git",
-        "sha": "436c969c80d633c249afd49d25599bc9b215965f",
+        "sha": "39f34683350ff162c6636860ee06365860dd061a",
         "path": "claude"
       },
       "homepage": "https://thedesignprint.com",
