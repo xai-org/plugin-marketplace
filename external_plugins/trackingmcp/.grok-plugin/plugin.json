@@ -1,0 +1,13 @@
+{
+  "name": "trackingmcp",
+  "version": "1.0.0",
+  "description": "TrackingMCP by Navo: ocean container and air waybill tracking across 227 carriers, live vessel positions and ETAs, demurrage alerts, sailing schedules, and ocean and air freight rates via the hosted MCP at mcp.trackingmcp.com. Sign in with a TrackingMCP account on first connect.",
+  "author": {
+    "name": "Navo",
+    "url": "https://trackingmcp.com"
+  },
+  "homepage": "https://trackingmcp.com/docs/mcp",
+  "license": "Proprietary",
+  "keywords": ["trackingmcp", "trackingmcp mcp", "navo tracking", "navo24"],
+  "logo": "assets/logo.svg"
+}

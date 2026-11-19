@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trackingmcp": {
+      "type": "http",
+      "url": "https://mcp.trackingmcp.com/mcp"
+    }
+  }
+}
