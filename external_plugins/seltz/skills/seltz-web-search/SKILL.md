@@ -16,10 +16,11 @@ private or signed-in pages.
 
 ## Connect
 
-Authentication is `Authorization: Bearer` from the `SELTZ_API_KEY` environment
-variable. The user creates that key at https://console.seltz.ai. If a call is
-unauthorized, tell them to export `SELTZ_API_KEY` and restart the session.
-Never ask them to paste the key into chat, and never repeat a key.
+Sign in to Seltz in the browser when Grok Build asks. The shipped config has
+no API key. If a call is unauthorized, tell the user to sign in to Seltz
+again. If they already set `SELTZ_API_KEY`, they can use that as
+`Authorization: Bearer ${SELTZ_API_KEY}` instead of OAuth. Never ask them to
+paste a key into chat, and never repeat a key.
 
 ## Parameters
 

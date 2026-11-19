@@ -18,10 +18,9 @@ vendors the Grok layout here instead of pinning that tree as a remote source.
 
 In Grok Build, open `/plugin`, search for **Seltz**, and install.
 
-Create an API key at [console.seltz.ai](https://console.seltz.ai), then export
-it as `SELTZ_API_KEY` in the environment Grok Build starts from. The plugin
-sends that value as `Authorization: Bearer ${SELTZ_API_KEY}` and does not
-bundle a key. Do not paste the key into chat.
+On first use, Grok Build opens Seltz sign-in in the browser. Sign in with the
+Seltz account you want Grok to search with. The shipped config contains no
+API key. Do not paste a key into chat.
 
 ## What you get
 
@@ -35,10 +34,40 @@ bundle a key. Do not paste the key into chat.
 The plugin calls only `https://mcp.seltz.ai/mcp`. Search queries and the URLs
 you ask it to read are sent there.
 
-Credentials: a Seltz API key in the `SELTZ_API_KEY` environment variable. Grok
-Build expands `${SELTZ_API_KEY}` in the request header at load time. The plugin
-does not read other environment variables, `~/.ssh`, `.env` files, or local
-credentials, and it does not run shell commands, hooks, or install scripts.
+Default auth is OAuth. `.mcp.json` sets the server URL and no `Authorization`
+header, matching
+[seltz-ai/seltz-codex-plugin](https://github.com/seltz-ai/seltz-codex-plugin).
+A call with no credential gets `401` and
+`WWW-Authenticate: Bearer resource_metadata="https://mcp.seltz.ai/.well-known/oauth-protected-resource/mcp"`.
+That document names `https://console.seltz.ai` as the authorization server
+(authorization code with PKCE, scope `seltz:read`). Grok Build starts the
+browser flow for an HTTP MCP server that has no static auth header, and stores
+the token in its own credential file. This plugin stores no key and reads no
+environment variables.
+
+Optional API key. A static `Authorization` header is sent instead of that
+OAuth flow, so the shipped `.mcp.json` cannot offer both. To use a key, create
+one at [console.seltz.ai](https://console.seltz.ai), export `SELTZ_API_KEY`
+before starting Grok Build, and add the header yourself:
+
+```json
+{
+  "mcpServers": {
+    "seltz": {
+      "type": "http",
+      "url": "https://mcp.seltz.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SELTZ_API_KEY}"
+      }
+    }
+  }
+}
+```
+
+Do not paste the key into chat.
+
+The plugin does not read `~/.ssh` or `.env` files, and it does not run shell
+commands, hooks, or install scripts.
 
 Use of the hosted server is governed by the [Seltz terms](https://seltz.ai/terms)
 and [privacy policy](https://seltz.ai/privacy-policy).

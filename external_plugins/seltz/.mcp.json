@@ -2,10 +2,7 @@
   "mcpServers": {
     "seltz": {
       "type": "http",
-      "url": "https://mcp.seltz.ai/mcp",
-      "headers": {
-        "Authorization": "Bearer ${SELTZ_API_KEY}"
-      }
+      "url": "https://mcp.seltz.ai/mcp"
     }
   }
 }
