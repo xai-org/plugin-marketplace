@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "magister-marketing",
+      "description": "Connect Grok Build to authorized Magister Marketing projects, plans, audits, content, social, and advertising workflows.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Magister-Marketing/magister-mcp.git",
+        "sha": "c004c61289e42f105313408d5add1d5ebe6d446f"
+      },
+      "homepage": "https://magistermarketing.com/mcp",
+      "keywords": ["magister", "magister marketing", "magister mcp"],
+      "domains": ["magistermarketing.com", "mcp.magistermarketing.com"]
     }
   ]
 }
