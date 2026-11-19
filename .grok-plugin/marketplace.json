@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-mandates",
+      "description": "Antevo Mandates (remote MCP server + skills): an advisory firm's own client book: reviews due, meeting preparation and succession gaps, with each client's goals and documents. Signs in over OAuth with an Antevo Mandates firm account.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+        "path": "plugins/antevo-mandates"
+      },
+      "homepage": "https://antevo.ch/mandate",
+      "keywords": [
+        "antevo mandates",
+        "antevo client book"
+      ],
+      "domains": [
+        "antevo.ch/mandate"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }
