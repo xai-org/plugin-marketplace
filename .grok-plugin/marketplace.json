@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wavegrain",
+      "description": "Wavegrain makes curated TikTok slideshows and Instagram carousels for your brand. Plan posts, make slideshows in your brand's voice with your photos, edit slide text, schedule posts on your calendar and export them, through Wavegrain's hosted MCP server.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wavegrain/wavegrain-mcp.git",
+        "sha": "b5cc744ac83806ea1891218a86f3bd2d6d2fd2c9"
+      },
+      "homepage": "https://wavegrain.com/mcp",
+      "keywords": ["wavegrain", "wavegrain slideshow", "wavegrain carousel"],
+      "domains": ["wavegrain.com"]
     }
   ]
 }
