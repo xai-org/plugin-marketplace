@@ -1763,8 +1763,8 @@
       }
     },
     "wix": {
-      "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d",
-      "version": "1.41.6",
+      "sha": "3bca8689e0c0bc0c257b9f0ddae30c88a6de254d",
+      "version": "1.41.8",
       "components": {
         "mcpServers": [
           {
