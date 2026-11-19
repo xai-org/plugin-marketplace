@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "converter-studio",
+      "description": "Converter Studio file conversion. Convert video, audio, images, PDFs, documents, e-books, subtitles and archives between 67 formats from a link or a local file and get a download link back. Skills cover single files, whole folders, web-ready images and video, and audio extraction.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tariksucu/converter-studio.git",
+        "sha": "dd5f9afd66168e22ce088bc0afc0915f20429a3d"
+      },
+      "homepage": "https://converter.studio/developers",
+      "keywords": ["converter studio", "converter.studio", "converter studio mcp"],
+      "domains": ["converter.studio"]
     }
   ]
 }
