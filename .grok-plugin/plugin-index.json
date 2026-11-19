@@ -643,8 +643,8 @@
       }
     },
     "grokbot-vehicle-fleet": {
-      "sha": "a2ee7727dcdfdbccdea346a95bff911aea976c79",
-      "version": "0.7.3",
+      "sha": "ce3c25cb07b34d1d5c004e75b2fdbfa41b285e28",
+      "version": "0.7.5",
       "components": {
         "mcpServers": [
           {

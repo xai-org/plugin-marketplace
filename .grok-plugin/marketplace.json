@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet.git",
-        "sha": "a2ee7727dcdfdbccdea346a95bff911aea976c79"
+        "sha": "ce3c25cb07b34d1d5c004e75b2fdbfa41b285e28"
       },
       "homepage": "https://github.com/matthew-rutledge-dev/grokbot-vehicle-fleet",
       "keywords": ["grokbot-vehicle-fleet", "grokbot vehicle fleet", "grok bot vehicle fleet"]
