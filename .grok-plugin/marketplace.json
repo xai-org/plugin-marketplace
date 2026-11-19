@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/promptli-dev/promptli-grok-plugin.git",
-        "sha": "2c3b561e73587a83b464144b0ba22d03f8ac0c21"
+        "sha": "0b6c9059d54f441b8c4aa4a168078776b2805b9d"
       },
       "homepage": "https://promptli.com/comms",
       "keywords": ["promptli", "promptli comms", "promptli email", "promptli sms", "promptli calls"],
