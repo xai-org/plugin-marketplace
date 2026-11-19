@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "apogee",
+      "description": "Launch and manage Meta, TikTok and Snapchat ads in bulk with Apogee: daily performance briefs, launches from a Drive folder, pausing losing ads, moving winners across platforms. Every change is prepared first and runs only after the user's yes; ads are created paused.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ApogeeGIT/apogee-plugin.git",
+        "sha": "566894c277c35d21717fcd54334ebb7f2202caf7"
+      },
+      "homepage": "https://apogee.ad/developers/mcp",
+      "keywords": ["apogee", "apogee ads", "apogee mcp"],
+      "domains": ["apogee.ad", "app.apogee.ad"]
     }
   ]
 }
