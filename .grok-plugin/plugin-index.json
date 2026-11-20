@@ -642,6 +642,24 @@
         ]
       }
     },
+    "fuse": {
+      "sha": "8c8a55d62befd33eefe12a7d4545422836e5ec86",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "fuse",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "fuse",
+            "description": "Use when the user wants to find prospects or companies, build or enrich contact lists, watch for buying signals (job ch…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
