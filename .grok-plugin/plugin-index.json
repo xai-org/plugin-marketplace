@@ -950,6 +950,36 @@
         ]
       }
     },
+    "promptli-comms": {
+      "sha": "0b6c9059d54f441b8c4aa4a168078776b2805b9d",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "promptli",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "promptli-comms",
+            "description": "Email, text and call people as this Bot's own Promptli Comms identity, answer inbound Promptli Comms deliveries, and lo…"
+          },
+          {
+            "name": "promptli-doctor",
+            "description": "Diagnose why Promptli Comms email, texts or inbound deliveries are not working for this Grok Bot. Use when Promptli too…"
+          },
+          {
+            "name": "promptli-setup",
+            "description": "Connect this Grok Bot to Promptli Comms so it gets its own email address and phone number, and can answer people who em…"
+          },
+          {
+            "name": "promptli-status",
+            "description": "Show this Bot's Promptli Comms identity, email address, phone number, mode and usage. Use when the user asks for the Pr…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
