@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "inngest",
+      "description": "Inngest durable workflow platform. Build and debug durable functions and AI agents, and inspect Inngest Cloud apps, functions, events, runs, and traces directly from Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/inngest/inngest-grok-plugin.git",
+        "sha": "e24a3ad0bda43e970f7cf6654b2d7c33e65c469d"
+      },
+      "homepage": "https://www.inngest.com/docs",
+      "keywords": ["inngest", "inngest functions", "inngest cloud", "inngest dev server"],
+      "domains": ["inngest.com"]
     }
   ]
 }
