@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "runware",
+      "description": "Image, video, audio, 3D and text generation with Runware. Ask for an outcome in plain language, such as a product shot or a voiceover, and the skills pick the right model and run it through the Runware MCP server. Sign in with your Runware API key on first use.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Runware/runware-skills.git",
+        "sha": "d325002f8ff0504040f7b46b1a058cb9d6ed7769"
+      },
+      "homepage": "https://runware.ai/docs/platform/skills",
+      "keywords": ["runware", "runware ai", "runware api", "runware mcp"],
+      "domains": ["runware.ai", "api.runware.ai", "mcp.runware.ai"]
     }
   ]
 }
