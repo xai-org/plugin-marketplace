@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "chime-scheduler",
+      "description": "LinkedIn post scheduler. Write, schedule and publish LinkedIn posts from Grok Build through Chime Scheduler's hosted MCP server, with images, video and a first comment, and edit or cancel posts before they go out.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wednesday-solutions/chime-scheduler.git",
+        "sha": "8ba63749a9529d36db9b38b716cfb870b62df853"
+      },
+      "homepage": "https://schedule.getchime.co/?utm_source=grok_build&utm_medium=directory&utm_campaign=scheduler_listings",
+      "keywords": ["chime scheduler", "chime", "getchime"],
+      "domains": ["schedule.getchime.co", "getchime.co"]
     }
   ]
 }
