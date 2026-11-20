@@ -1204,6 +1204,60 @@
         ]
       }
     },
+    "senpi-agent": {
+      "sha": "dd1198e127aebe4b13fa7febee6ce486a97a1d1c",
+      "version": "0.5.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "senpi-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "senpi-account-status",
+            "description": "The user's own standing across Senpi, with the Senpi connector. Use for \"how many points do I have?\", \"what's my rank?\"…"
+          },
+          {
+            "name": "senpi-improve-trades",
+            "description": "Review the signed-in user's own closed Hyperliquid trades with the Senpi connector. Use for \"review my trades\", \"how di…"
+          },
+          {
+            "name": "senpi-market-pulse",
+            "description": "Read the Hyperliquid market as a whole with the Senpi connector. Use for \"what's moving the markets today?\", \"how are m…"
+          },
+          {
+            "name": "senpi-portfolio",
+            "description": "Show the signed-in user their own Senpi account with the Senpi connector. Use for \"my portfolio\", \"my balance\", \"my pos…"
+          },
+          {
+            "name": "senpi-quant-desk",
+            "description": "Quant Desk — read a Hyperliquid wallet like a quant with the Senpi connector: a 0-100 quant score with six explained di…"
+          },
+          {
+            "name": "senpi-signals",
+            "description": "Scan Hyperliquid markets for ranked anomalies with the Senpi connector. Use for \"scan the market for signals\", \"any ano…"
+          },
+          {
+            "name": "senpi-smart-money",
+            "description": "Read where top Hyperliquid traders sit with the Senpi connector. Use for \"what's smart money doing?\", \"are the whales l…"
+          },
+          {
+            "name": "senpi-strategy-discover",
+            "description": "Help the user explore Senpi's public strategy catalog with the Senpi connector. Use for \"what strategies does Senpi hav…"
+          },
+          {
+            "name": "senpi-trader-research",
+            "description": "Research public Hyperliquid traders with the Senpi connector. Use for \"find top traders\", \"best traders this month\", \"w…"
+          },
+          {
+            "name": "senpi-why",
+            "description": "The positioning answer for \"why Senpi?\". Use for \"what makes Senpi different?\", \"why should I use Senpi?\", \"Senpi vs ot…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
