@@ -75,6 +75,24 @@
         ]
       }
     },
+    "brewpage": {
+      "sha": "82c303d1ee5f0324cfebc8f4529f463bbdc0fc16",
+      "version": "1.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "brewpage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "brewpage-publish",
+            "description": "Prepare BrewPage drafts, publish supplied content or a new page, and update a specific BrewPage publication. Supports H…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

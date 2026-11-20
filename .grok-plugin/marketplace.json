@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "brewpage",
+      "description": "Publish HTML, Markdown, files and multi-file static sites to BrewPage and get an HTTPS link back, via the brewpage-publish skill and BrewPage's hosted MCP server. No account or API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kochetkov-ma/brewpage-publish-plugins.git",
+        "sha": "82c303d1ee5f0324cfebc8f4529f463bbdc0fc16",
+        "path": "agent-plugin"
+      },
+      "homepage": "https://brewpage.app",
+      "keywords": ["brewpage", "brewpage publish", "brewpage mcp"],
+      "domains": ["brewpage.app"]
     }
   ]
 }
