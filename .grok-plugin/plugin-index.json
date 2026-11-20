@@ -684,6 +684,24 @@
         ]
       }
     },
+    "keepp": {
+      "sha": "14a3459a1717130ef67197a590993e68e54d4224",
+      "version": "2.1.5",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "keepp",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keepp-page",
+            "description": "Use when a user wants to build or manage their Keepp page (Keepp is a website and link-in-bio builder with a store, boo…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
