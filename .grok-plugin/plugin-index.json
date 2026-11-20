@@ -1476,6 +1476,50 @@
         ]
       }
     },
+    "theta-vantage": {
+      "sha": "40d09e0556d62c70290524acd8b6d6c0d120aee9",
+      "version": "0.1.3",
+      "components": {
+        "commands": [
+          {
+            "name": "brief",
+            "description": "The morning levels brief for your watchlist, or for one ticker."
+          },
+          {
+            "name": "levels",
+            "description": "Key levels for a ticker now: zero gamma, the walls, max pain, and the expected move."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "theta-vantage",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "0dte-gamma-read",
+            "description": "Today's gamma read for a ticker's same-day options: the regime, the nearest flip, and where dealer hedging dampens move…"
+          },
+          {
+            "name": "earnings-setup",
+            "description": "A company's next earnings report and how its options are set up for it: the date and time, the move options price again…"
+          },
+          {
+            "name": "flow-and-drift-read",
+            "description": "The session's largest options flows and the net premium drift: where the big money went, calls against puts, and how it…"
+          },
+          {
+            "name": "morning-levels-brief",
+            "description": "The levels to read before the open for your watchlist or one ticker: zero gamma, the walls, max pain, the expected move…"
+          },
+          {
+            "name": "wheel-and-income-screen",
+            "description": "The wheel and income tools as a guided conversation: your book priced for covered calls and cash-secured puts, one tick…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
