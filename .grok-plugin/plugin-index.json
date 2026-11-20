@@ -1767,8 +1767,8 @@
       }
     },
     "wix": {
-      "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d",
-      "version": "1.41.6",
+      "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
+      "version": "1.41.8",
       "components": {
         "mcpServers": [
           {
