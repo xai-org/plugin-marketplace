@@ -110,6 +110,22 @@
         ]
       }
     },
+    "calorie-cub": {
+      "components": {
+        "mcpServers": [
+          {
+            "name": "calorie-cub",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calorie-cub",
+            "description": "Log meals, check calories and macros, save recipes, and track weight in a person's Calorie Cub diary through its MCP se…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
       "version": "1.13.0",
