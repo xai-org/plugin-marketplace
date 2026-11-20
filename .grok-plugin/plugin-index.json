@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "atlas-tasker": {
+      "sha": "e4de606d9164614d1fef6c0401c2e2de6c994357",
+      "version": "1.18.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "atlas-tasker",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
