@@ -93,6 +93,24 @@
         ]
       }
     },
+    "bumblebeez": {
+      "sha": "893f26691b718f669c82c0a2f51f51840b2d2bc6",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bumblebeez",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "browserbox-cloud",
+            "description": "Perform interactive website tasks in a hosted BrowserBox browser using Grip, including signed-in portals, structured ex…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {

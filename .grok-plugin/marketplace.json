@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bumblebeez",
+      "description": "Connect Grok Build to a Bumblebeez hosted browser session for authorized browser workflows, with a viewer link for human handoff.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DO-SAY-GO/bumblebeez-grok-plugin.git",
+        "sha": "893f26691b718f669c82c0a2f51f51840b2d2bc6"
+      },
+      "homepage": "https://bumblebeez.ai/",
+      "keywords": ["bumblebeez", "bumblebeez browser", "browserbox hosted session"],
+      "domains": ["bumblebeez.ai", "agents.browserbox.io"]
     }
   ]
 }
