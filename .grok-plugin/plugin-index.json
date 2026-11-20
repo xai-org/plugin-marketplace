@@ -93,6 +93,44 @@
         ]
       }
     },
+    "budna": {
+      "sha": "f237d90f56d3c66c05989d43dcc2360306e60d85",
+      "version": "0.1.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "budna",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "recommerce-buy",
+            "description": "Find and compare new and pre-owned listings against the buyer's needs, complete cost, compatibility, and collection or…"
+          },
+          {
+            "name": "recommerce-collect",
+            "description": "Assess whether a new or pre-owned item can realistically be collected and moved from the seller's pickup location to th…"
+          },
+          {
+            "name": "recommerce-inspect",
+            "description": "Assess a supplied new or pre-owned listing against the buyer's needs and prepare a concise inspection card before purch…"
+          },
+          {
+            "name": "recommerce-keep",
+            "description": "Compare keeping, repairing, or upgrading an owned item with a new or pre-owned replacement. Use when deciding whether a…"
+          },
+          {
+            "name": "recommerce-kits",
+            "description": "Assemble a complete setup from new or pre-owned items for an outcome such as recording a podcast, starting photography,…"
+          },
+          {
+            "name": "recommerce-second-look",
+            "description": "Reassess an existing shortlist of new or pre-owned items or a planned purchase against newer evidence before commitment…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
