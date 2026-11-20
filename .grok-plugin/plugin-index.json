@@ -1268,6 +1268,64 @@
         ]
       }
     },
+    "spritecook": {
+      "sha": "56e205388ccf7d2558e3e39018dd91934ffada4f",
+      "version": "0.1.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "spritecook",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "spritecook-animate-assets",
+            "description": "Animation guide for SpriteCook. Use with spritecook-workflow-essentials when importing source images, writing stronger…"
+          },
+          {
+            "name": "spritecook-build-ui-kits",
+            "description": "Create or refine game UI kits with SpriteCook's concept, component-sheet, extraction, and finalization tools. Use for a…"
+          },
+          {
+            "name": "spritecook-connect-mcp",
+            "description": "Help the user connect their SpriteCook account in Grok Build when SpriteCook tools are missing or return authentication…"
+          },
+          {
+            "name": "spritecook-generate-sprites",
+            "description": "Still-image generation guide for SpriteCook. Use with spritecook-workflow-essentials when generating pixel art or detai…"
+          },
+          {
+            "name": "spritecook-generate-tilesets",
+            "description": "Tileset generation guide for SpriteCook. Use with spritecook-workflow-essentials when generating autotile tilesets thro…"
+          },
+          {
+            "name": "spritecook-polish-sprites",
+            "description": "Inspect and polish SpriteCook sprites after generation or background removal. Use for broken or faint outlines, missing…"
+          },
+          {
+            "name": "spritecook-upload-assets",
+            "description": "Import an image the user selected for SpriteCook into their asset library through the MCP upload tools, for references,…"
+          },
+          {
+            "name": "spritecook-use-assets-in-godot",
+            "description": "Godot workflow for SpriteCook assets. Use when the user wants to turn SpriteCook spritesheet PNGs, animation assets, or…"
+          },
+          {
+            "name": "spritecook-use-dual-grid-tilesets",
+            "description": "Implementation guide for using SpriteCook top-down 15-piece tilesets with a dual-grid autotile renderer. Use when expla…"
+          },
+          {
+            "name": "spritecook-use-presets",
+            "description": "Use SpriteCook saved presets through MCP. Use when the user explicitly asks to use a preset, refers to one of their sav…"
+          },
+          {
+            "name": "spritecook-workflow-essentials",
+            "description": "Shared workflow rules for SpriteCook. Use together with SpriteCook generation, UI-kit building, animation, import, back…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "119bc4a8de4eb4370db1f5838275bc9e7a0d8e4a",
       "version": "0.13.0",
