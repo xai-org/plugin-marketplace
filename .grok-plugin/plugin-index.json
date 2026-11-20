@@ -684,6 +684,24 @@
         ]
       }
     },
+    "kolpulse-discovery": {
+      "sha": "ceccc01b705d127242a256fd55f0ac41fb8d4d5f",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kolpulse-discovery",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kolpulse-discovery",
+            "description": "Use for what verified global KOLs posted about a named clinical trial at one oncology or hematology meeting (verbatim q…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",

@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kolpulse-discovery",
+      "description": "Follow practice-changing social media discussions and treatment controversies from recent oncology and hematology meetings (ESMO, WCLC, ASCO GU, EHA, IMS, and others). Name a clinical trial and a meeting, or start from a tumor type to pick one recent meeting. See what verified global KOLs posted — verbatim quotes, inline tweet links, Open Payments context, and links to KOL Pulse trial pages. One conference at a time. Not medical advice.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Uptempo/kolpulse-grok-plugin.git",
+        "sha": "ceccc01b705d127242a256fd55f0ac41fb8d4d5f"
+      },
+      "homepage": "https://kolpulse.com",
+      "keywords": ["kolpulse", "kol pulse", "kolpulse.com", "kolpulse discovery"],
+      "domains": ["kolpulse.com"]
     }
   ]
 }
