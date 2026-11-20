@@ -655,8 +655,8 @@
       }
     },
     "html-css-to-image": {
-      "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
-      "version": "0.2.0",
+      "sha": "031616b48d603559038cbe042f73351b8b063df4",
+      "version": "0.3.0",
       "components": {
         "mcpServers": [
           {
@@ -670,8 +670,16 @@
             "description": "Let AI agents capture live website screenshots, render HTML/CSS, and populate reusable templates as images or PDFs—with…"
           },
           {
+            "name": "hcti-marketing-videos",
+            "description": "Create marketing videos and animated GIFs from structured HTML/CSS with HCTI. Use for product launches, feature teasers…"
+          },
+          {
             "name": "hcti-open-graph-images",
             "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          },
+          {
+            "name": "hcti-website-recordings",
+            "description": "Record scrolling website walkthroughs and visually review public pages with HCTI video recordings and screenshots. Use…"
           }
         ]
       }

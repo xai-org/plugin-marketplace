@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
-        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+        "sha": "031616b48d603559038cbe042f73351b8b063df4"
       },
       "homepage": "https://htmlcsstoimage.com",
       "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
