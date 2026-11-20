@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "faf",
+      "description": "Foundational Context Layer for Grok Build. Auto-discovers project.faf, scores it with the always-33 faf-kernel (the same score as faf-cli), and makes it the single source of truth inside Grok Build sessions.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/faf-one/faf-grok-plugins.git",
+        "sha": "7d1a49652773bcd46b7ad4480bbd7aeb8000e8d5",
+        "path": "plugins/faf"
+      },
+      "homepage": "https://faf.one",
+      "keywords": [
+        "faf",
+        "project.faf",
+        "faf.one",
+        "zeph"
+      ],
+      "domains": [
+        "faf.one"
+      ],
+      "version": "1.1.1"
     }
   ]
 }

@@ -492,6 +492,32 @@
         ]
       }
     },
+    "faf": {
+      "sha": "7d1a49652773bcd46b7ad4480bbd7aeb8000e8d5",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "faf",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "faf-load-context",
+            "description": "Auto-discover and load project.faf as the single source of truth for project context inside Grok Build. Use at session…"
+          },
+          {
+            "name": "faf-score",
+            "description": "Score the AI-readiness of project.faf with the always-33 faf-kernel (the same score as faf-cli). Report numeric score,…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "490a73c7537123cb1f0bcaced658585f0ee32fd9",
       "version": "2.2.211",
