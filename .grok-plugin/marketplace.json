@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mockingbird",
+      "description": "Remake winning Meta ads in your brand. Search a hand-picked library of winning Facebook and Instagram image ads, then remake them, or make new ones, with your real product photos, colours and brand voice in 4:5, 1:1 and 9:16. Sign in with a Mockingbird account.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sancarmedia/mockingbird-claude-plugin.git",
+        "sha": "a3d1ae5e48dd0934e9d0612ac056edc2fe5f3584"
+      },
+      "homepage": "https://www.mockingbirdhouse.com",
+      "keywords": ["mockingbird", "mockingbird ads", "mockingbird mcp"],
+      "domains": ["mockingbirdhouse.com", "www.mockingbirdhouse.com"]
     }
   ]
 }
