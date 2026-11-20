@@ -479,8 +479,9 @@
       "description": "Chronotek Pro workforce operations through its hosted MCP service. Review time and attendance, schedules, coverage, and exceptions, and take permitted actions with approval. Requires an eligible Chronotek account and OAuth consent.",
       "category": "productivity",
       "source": {
-        "type": "local",
-        "path": "./external_plugins/chronotek-pro-agent"
+        "source": "url",
+        "url": "https://github.com/Chrono-Tek/chronotek-grok-plugin.git",
+        "sha": "6a290ee6cc61c0d0ecf8a0321e51743ce4f61356"
       },
       "homepage": "https://www.chronotek.com",
       "keywords": ["chronotek", "chronotek pro", "chronotek pro agent"],
