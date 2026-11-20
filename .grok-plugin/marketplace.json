@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kling-ai-china-plugin",
+      "description": "Kling AI China Plugin for Grok Build connects to the official hosted Kling MCP with OAuth. Generate images and videos, manage Elements, use motion control, and track tasks. Generation uses China Kling account credits; Global accounts and credits are separate.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klingai-tech/claude-plugin-cn.git",
+        "sha": "b6fab2b12d159301038a726716e3fc35e4e18ca7"
+      },
+      "homepage": "https://klingai.com/app/mcp/guide",
+      "keywords": ["kling ai", "kling ai china", "kling ai china plugin", "kling mcp", "kling image generation", "kling video generation"],
+      "domains": ["klingai.com"]
     }
   ]
 }
