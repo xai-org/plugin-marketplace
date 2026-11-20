@@ -487,6 +487,22 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "reelsfarm",
+      "description": "Create AI avatars, product scenes, UGC videos, and slideshows, then schedule and publish short-form social content.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mateohysa/reelsfarm-agent-plugin.git",
+        "sha": "741c0aca5952761c9039d632f938b5a3d07fafd4"
+      },
+      "homepage": "https://reelsfarm.com/mcp",
+      "keywords": ["reelsfarm", "reelsfarm mcp", "reelsfarm ugc", "reelsfarm video", "reelsfarm slideshows", "reelsfarm scheduling"],
+      "domains": ["reelsfarm.com", "mcp.reelsfarm.com"],
+      "author": {
+        "name": "ReelsFarm"
+      }
     }
   ]
 }
