@@ -1,6 +1,40 @@
 {
   "version": 1,
   "plugins": {
+    "a1-lane": {
+      "sha": "2c38f574a90b474809930d6f26fe5ccf6951a8a9",
+      "version": "1.10.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "a1lane",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "cross-post-a-video",
+            "description": "Use when the user wants one video posted to several of their connected social accounts (YouTube plus others), from a pu…"
+          },
+          {
+            "name": "delivery-receipts",
+            "description": "Use when the user asks what actually happened to posts that went out — did they land, which destinations the platform c…"
+          },
+          {
+            "name": "draft-approve-publish",
+            "description": "Use when the user wants to write a social post and send it to one or more of their connected accounts now — drafting th…"
+          },
+          {
+            "name": "engagement-and-attention",
+            "description": "Use when the user wants a review of how their posting is doing — what went out recently, how posts performed, when to p…"
+          },
+          {
+            "name": "schedule-with-validation",
+            "description": "Use when the user wants posts scheduled for later — a single post at a set time, the next free slot, a repeating post,…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
