@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-tremor-watch",
+      "description": "Antevo Tremor Watch (remote MCP server + skill): each week, how many of 753 relationships between markets stopped behaving, by family and pair, with every reading back to 1997. Public, no account. Descriptive, not a forecast.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+        "path": "plugins/antevo-tremor-watch"
+      },
+      "homepage": "https://antevo.ch/tremor-watch/",
+      "keywords": [
+        "antevo tremor",
+        "antevo tremor index",
+        "tremor watch antevo"
+      ],
+      "domains": [
+        "antevo.ch/tremor-watch"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }

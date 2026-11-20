@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-tremor-watch": {
+      "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-tremor-watch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "episode-compare",
+            "description": "Compare this week's Antevo Tremor Index with past episodes — 2008, March 2020, 2022 or any period since 1997 — and show…"
+          },
+          {
+            "name": "market-strain",
+            "description": "Read this week's Antevo Tremor Index — how many market relationships stopped behaving in the week that ended on Friday,…"
+          },
+          {
+            "name": "what-broke",
+            "description": "List the market relationships that stopped behaving — the pairs whose correlation is two standard deviations from their…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
