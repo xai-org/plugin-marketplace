@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "lurkapi",
+      "description": "LurkAPI's hosted OAuth MCP server and research skills: live public posts, profiles, comments, video transcripts and ad library results from TikTok, Instagram, YouTube, Reddit, X, LinkedIn, Facebook and more, plus skills for brand lurks, ad teardowns, Reddit research, creator vetting and demand checks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mesmerlord/lurkapi-claude-plugin.git",
+        "sha": "df407d8556a0752da3864f3673fb6bf72f864af9"
+      },
+      "homepage": "https://lurkapi.com/docs",
+      "keywords": ["lurkapi", "lurk api", "lurkapi mcp"],
+      "domains": ["lurkapi.com", "api.lurkapi.com"],
+      "author": {
+        "name": "Mesmer s.r.o.",
+        "email": "support@lurkapi.com",
+        "url": "https://lurkapi.com"
+      }
     }
   ]
 }
