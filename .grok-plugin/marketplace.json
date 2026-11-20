@@ -6,6 +6,25 @@
   },
   "plugins": [
     {
+      "name": "greentick",
+      "description": "Send and manage WhatsApp messages, templates, broadcasts, and automations from a conversation. Sign in with a GreenTick account. Hosted connector. No API key in the plugin.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AkshayAgrawal1997/greentick-plugins.git",
+        "sha": "ce77c4cb8cd79885646dc0ce6c3c2336d92fb349",
+        "path": "grok"
+      },
+      "homepage": "https://docs.greentick.ai/mcp/introduction",
+      "keywords": ["greentick", "greentick whatsapp", "greentick mcp"],
+      "domains": [
+        "greentick.ai",
+        "api.greentick.ai",
+        "dashboard.greentick.ai",
+        "docs.greentick.ai"
+      ]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
@@ -78,7 +97,13 @@
         "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14"
       },
       "homepage": "https://docs.base44.com",
-      "keywords": ["base44", "base44 cli", "base44 sdk", "base44 app", "base44 deploy"],
+      "keywords": [
+        "base44",
+        "base44 cli",
+        "base44 sdk",
+        "base44 app",
+        "base44 deploy"
+      ],
       "domains": ["base44.com", "docs.base44.com"]
     },
     {
@@ -92,7 +117,13 @@
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb community", "mongo", "mongosh", "mongodb local mcp", "enterprise advanced"],
+      "keywords": [
+        "mongodb community",
+        "mongo",
+        "mongosh",
+        "mongodb local mcp",
+        "enterprise advanced"
+      ],
       "domains": ["mongodb.com"]
     },
     {
@@ -106,7 +137,13 @@
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
-      "keywords": ["mongodb atlas", "atlas", "mongodb", "atlas cluster", "atlas mcp"],
+      "keywords": [
+        "mongodb atlas",
+        "atlas",
+        "mongodb",
+        "atlas cluster",
+        "atlas mcp"
+      ],
       "domains": ["mongodb.com", "cloud.mongodb.com"]
     },
     {
@@ -210,7 +247,12 @@
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
-      "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
+      "domains": [
+        "tavily.com",
+        "www.tavily.com",
+        "app.tavily.com",
+        "docs.tavily.com"
+      ]
     },
     {
       "name": "octen",
@@ -250,7 +292,13 @@
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
-      "keywords": ["stripe", "stripe payments", "stripe connect", "stripe mcp", "stripe billing"],
+      "keywords": [
+        "stripe",
+        "stripe payments",
+        "stripe connect",
+        "stripe mcp",
+        "stripe billing"
+      ],
       "domains": ["stripe.com", "docs.stripe.com", "dashboard.stripe.com"]
     },
     {
@@ -264,7 +312,12 @@
         "path": "grok"
       },
       "homepage": "https://www.tinyfish.ai",
-      "keywords": ["tinyfish", "tinyfish agent", "tinyfish web agent", "agentql"],
+      "keywords": [
+        "tinyfish",
+        "tinyfish agent",
+        "tinyfish web agent",
+        "agentql"
+      ],
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
@@ -277,7 +330,13 @@
         "sha": "016bf5b36670f7ad189ca90223513bd10406392d"
       },
       "homepage": "https://github.com/supabase-community/supabase-plugin",
-      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
+      "keywords": [
+        "supabase",
+        "supabase mcp",
+        "supabase auth",
+        "supabase storage",
+        "supabase edge functions"
+      ],
       "domains": ["supabase.com"]
     },
     {
@@ -367,7 +426,14 @@
         "sha": "9b71516e006144d323f138f1785f55123ec51931"
       },
       "homepage": "https://enrichlabs.ai",
-      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "keywords": [
+        "helena",
+        "enrich labs",
+        "helena ai marketer",
+        "helena marketing ai agent",
+        "helena autonomous marketer",
+        "helena marketing"
+      ],
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
@@ -380,8 +446,27 @@
         "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
-      "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
-      "domains": ["unity.com", "unity3d.com", "docs.unity3d.com", "docs.unity.com", "discussions.unity.com", "assetstore.unity.com"]
+      "keywords": [
+        "unity",
+        "unity engine",
+        "unity editor",
+        "unity 6",
+        "unity cli",
+        "unity plugin",
+        "unity game development",
+        "ui toolkit",
+        "shader graph",
+        "unity iap",
+        "levelplay"
+      ],
+      "domains": [
+        "unity.com",
+        "unity3d.com",
+        "docs.unity3d.com",
+        "docs.unity.com",
+        "discussions.unity.com",
+        "assetstore.unity.com"
+      ]
     },
     {
       "name": "calcom",
@@ -392,7 +477,13 @@
         "path": "./external_plugins/calcom"
       },
       "homepage": "https://cal.com/docs/mcp-server",
-      "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+      "keywords": [
+        "cal.com",
+        "calcom",
+        "cal.com mcp",
+        "cal.com scheduling",
+        "cal.com booking"
+      ],
       "domains": ["cal.com", "app.cal.com", "mcp.cal.com", "api.cal.com"]
     },
     {
@@ -418,8 +509,23 @@
         "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
       },
       "homepage": "https://htmlcsstoimage.com",
-      "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
-      "domains": ["htmlcsstoimage.com", "docs.htmlcsstoimage.com", "hcti.io", "mcp.hcti.io"]
+      "keywords": [
+        "html/css to image",
+        "html css to image",
+        "html-to-image",
+        "html to image api",
+        "hcti",
+        "url screenshot",
+        "image templates",
+        "open graph image",
+        "social preview"
+      ],
+      "domains": [
+        "htmlcsstoimage.com",
+        "docs.htmlcsstoimage.com",
+        "hcti.io",
+        "mcp.hcti.io"
+      ]
     },
     {
       "name": "pi-security",
@@ -432,7 +538,14 @@
         "path": "plugins/pi-security"
       },
       "homepage": "https://www.pi.security/",
-      "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
+      "keywords": [
+        "pi security",
+        "pi security appsec",
+        "pi security findings",
+        "pi security remediation",
+        "pi security threat modeling",
+        "pi security design review"
+      ],
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
@@ -445,7 +558,16 @@
         "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
       },
       "homepage": "https://clerk.com/docs",
-      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "keywords": [
+        "clerk",
+        "clerk auth",
+        "clerk authentication",
+        "clerk user management",
+        "clerk organizations",
+        "clerk billing",
+        "clerk webhooks",
+        "clerk mcp"
+      ],
       "domains": ["clerk.com", "dashboard.clerk.com"]
     },
     {
@@ -457,16 +579,8 @@
         "path": "./external_plugins/videogen"
       },
       "homepage": "https://videogen.io/videogen-mcp",
-      "keywords": [
-        "videogen",
-        "videogen mcp",
-        "videogen video"
-      ],
-      "domains": [
-        "videogen.io",
-        "app.videogen.io",
-        "mcp.videogen.io"
-      ],
+      "keywords": ["videogen", "videogen mcp", "videogen video"],
+      "domains": ["videogen.io", "app.videogen.io", "mcp.videogen.io"],
       "version": "1.0.0",
       "author": {
         "name": "VideoGen",

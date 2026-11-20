@@ -642,6 +642,80 @@
         ]
       }
     },
+    "greentick": {
+      "sha": "ce77c4cb8cd79885646dc0ce6c3c2336d92fb349",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "greentick",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "assign-live-chat",
+            "description": "Assign a Live Chat thread to a teammate, team, or bot. Use when the user wants a conversation handed to someone."
+          },
+          {
+            "name": "check-plan-usage",
+            "description": "Read the GreenTick plan, usage, billing info, or invoices. Use when the user asks what the plan includes, how much was…"
+          },
+          {
+            "name": "choose-account",
+            "description": "Choose which GreenTick WhatsApp Business account and phone line to use. Use before any GreenTick tool when the account…"
+          },
+          {
+            "name": "enable-ai-bot",
+            "description": "Create, test, and enable a GreenTick AI bot. Use when the user wants a bot set up or turned on."
+          },
+          {
+            "name": "enroll-automation",
+            "description": "Enroll contacts into a published WhatsApp automation. Use when the user wants people added to a workflow that is alread…"
+          },
+          {
+            "name": "import-contacts",
+            "description": "Create or update WhatsApp contacts, labels, and attributes. Use when the user wants to add people, tag them, or set a c…"
+          },
+          {
+            "name": "publish-workflow",
+            "description": "Save and publish a WhatsApp automation workflow. Use when the user wants an automation created or turned on."
+          },
+          {
+            "name": "reply-in-open-chat",
+            "description": "Reply with text or media in an open WhatsApp chat. Use when the user wants to answer a customer who messaged recently."
+          },
+          {
+            "name": "schedule-broadcast",
+            "description": "Preview and schedule a WhatsApp broadcast. Use when the user wants to message a label or a list of contacts at once."
+          },
+          {
+            "name": "schedule-or-cancel-message",
+            "description": "Schedule an approved WhatsApp template for later, or cancel a scheduled template. Use when the user asks to send later…"
+          },
+          {
+            "name": "send-approved-template",
+            "description": "Send an approved WhatsApp template. Use when the user asks to send a template message to a phone number."
+          },
+          {
+            "name": "send-catalog-product",
+            "description": "Send a catalog product in WhatsApp, or add a product to the catalog. Use when the user wants to share or create a produ…"
+          },
+          {
+            "name": "send-whatsapp-flow",
+            "description": "Publish a WhatsApp Flow and send it in a chat. Use when the user wants a form published or sent."
+          },
+          {
+            "name": "submit-template",
+            "description": "Validate and submit a WhatsApp template, or generate its header image on GreenTick. Use when the user wants a new templ…"
+          },
+          {
+            "name": "suggest-reply",
+            "description": "Suggest a reply for an open WhatsApp chat. Use when the user wants a draft answer and has not asked to send it yet."
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
