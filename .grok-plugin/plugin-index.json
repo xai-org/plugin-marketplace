@@ -1770,6 +1770,24 @@
         ]
       }
     },
+    "wavegrain": {
+      "sha": "b5cc744ac83806ea1891218a86f3bd2d6d2fd2c9",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wavegrain",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wavegrain",
+            "description": "Make, edit, schedule and export TikTok slideshows and Instagram carousels in the user's Wavegrain account through the W…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
       "version": "1.41.8",
