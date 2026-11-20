@@ -157,7 +157,7 @@
       }
     },
     "chronotek-pro-agent": {
-      "sha": "6a290ee6cc61c0d0ecf8a0321e51743ce4f61356",
+      "sha": "cafac39f9d8f3054a8809e542058bac800f107fd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
