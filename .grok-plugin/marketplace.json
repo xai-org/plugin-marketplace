@@ -494,7 +494,7 @@
       "category": "development",
       "source": {
         "source": "url",
-        "url": "https://github.com/Wolfe-Jam/faf-grok-plugins.git",
+        "url": "https://github.com/faf-one/faf-grok-plugins.git",
         "sha": "7d1a49652773bcd46b7ad4480bbd7aeb8000e8d5",
         "path": "plugins/faf"
       },
