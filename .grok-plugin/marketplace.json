@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "shuut",
+      "description": "Generate and edit images, video, voice and captions with shuut, from Grok Build.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/shuut-ai/shuut-mcp.git",
+        "sha": "304036ded387637fdce3e494ea1f6545684346af"
+      },
+      "homepage": "https://shuut.ai/mcp",
+      "keywords": ["shuut", "shuut.ai"],
+      "domains": ["shuut.ai"]
     }
   ]
 }
