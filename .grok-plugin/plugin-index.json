@@ -1260,6 +1260,23 @@
         ]
       }
     },
+    "sofia": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sofia",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sofia",
+            "description": "Use the Sofia tools to set up an establishment, draft, schedule and publish social media posts, reuse the media library…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
       "version": "0.11.0",
