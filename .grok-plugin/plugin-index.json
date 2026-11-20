@@ -642,6 +642,28 @@
         ]
       }
     },
+    "harness-daily": {
+      "sha": "6056778bdf1e2150736987a2b1cf8d7fc04611cc",
+      "version": "0.1.1",
+      "components": {
+        "commands": [
+          {
+            "name": "harness-daily",
+            "description": "扫描本机 AI coding harness 会话并生成日报"
+          },
+          {
+            "name": "setup",
+            "description": "Configure the locally installed harness-daily CLI"
+          }
+        ],
+        "skills": [
+          {
+            "name": "harness-daily",
+            "description": "将本机 AI 编码会话汇总为 Markdown 日报。用于用户明确要求收集、预览或生成编码日报。"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",

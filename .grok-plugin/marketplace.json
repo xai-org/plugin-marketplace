@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "harness-daily",
+      "description": "Generate a Markdown work report from local AI coding sessions with your chosen writer CLI.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TardisBooo/ai-coding-daily-report.git",
+        "sha": "6056778bdf1e2150736987a2b1cf8d7fc04611cc"
+      },
+      "homepage": "https://github.com/TardisBooo/ai-coding-daily-report",
+      "keywords": [
+        "harness-daily",
+        "ai-coding-daily-report"
+      ]
     }
   ]
 }
