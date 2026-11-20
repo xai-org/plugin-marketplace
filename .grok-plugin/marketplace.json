@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "local-business-leads",
+      "description": "Build local business lead lists from Grok Build: any niche and city from Google Maps, plus Yellow Pages US and Canada, BBB ratings, and dentist, contractor and restaurant lists with phones, websites and business emails. Dedupe, validate emails, export CSV. Runs as pay-per-result Actors on your own Apify account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/afzalbuilds/local-business-leads.git",
+        "sha": "160b2d08991f197d7c4f5e2bcd2341ab0ddf62b7"
+      },
+      "homepage": "https://github.com/afzalbuilds/local-business-leads",
+      "keywords": ["imzlab local business leads", "imzlab leads"],
+      "version": "1.1.0",
+      "author": {
+        "name": "Imzlab Technologies",
+        "email": "info@imzlab.com",
+        "url": "https://imzlab.com"
+      }
     }
   ]
 }
