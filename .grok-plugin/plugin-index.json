@@ -684,6 +684,17 @@
         ]
       }
     },
+    "ipgeolocation-io-mcp": {
+      "version": "2.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ipgeolocation",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
