@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "trading-signals-toolkit",
+      "description": "Read-only trading tools for Grok Build via the hosted MCP at signals.incomefather.com/mcp: pre-trade checks, event-risk gates, SEC Form 4 insider buys, and quant tools. Free tier or pay per call in USDC via x402 ($0.005-$0.10). Informational only, not investment advice.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gdietsch/trading-signals-mcp.git",
+        "sha": "db4bac7c1c82321ac63d12a8065dfa66b0ef7e4c"
+      },
+      "homepage": "https://signals.incomefather.com",
+      "keywords": ["trading signals toolkit", "incomefather", "signals.incomefather", "x402-trading-signals-mcp"],
+      "domains": ["signals.incomefather.com"]
     }
   ]
 }
