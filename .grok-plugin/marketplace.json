@@ -6,6 +6,22 @@
   },
   "plugins": [
     {
+      "name": "aiclickthisshit",
+      "description": "Opt-in local Linux screen, mouse, and keyboard tools for Grok Build. Manual local registration and an existing desktop grant are required.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/uncmatteth/grok-toolkit.git",
+        "sha": "ab15c63051e62049a08ff6b7cfebf3abe7c574a2",
+        "path": "plugins/aiclickthisshit"
+      },
+      "homepage": "https://github.com/uncmatteth/grok-toolkit/tree/main/plugins/aiclickthisshit",
+      "keywords": [
+        "aiclickthisshit"
+      ],
+      "version": "0.2.0"
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
