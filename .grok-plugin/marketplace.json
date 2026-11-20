@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "xmemo",
+      "description": "User-owned persistent memory and project continuity for Grok Build. Recall authorized decisions and context, preserve verified checkpoints, and prepare evidence-backed handoffs across sessions and agents through XMemo's hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/yonro/xmemo-grok-plugin.git",
+        "sha": "0911b308965f310ad95da850de9d5571556b09c0"
+      },
+      "homepage": "https://xmemo.dev/product/mcp",
+      "keywords": ["xmemo", "xmemo memory", "xmemo mcp", "xmemo project continuity", "xmemo handoff"],
+      "domains": ["xmemo.dev", "www.xmemo.dev"]
     }
   ]
 }
