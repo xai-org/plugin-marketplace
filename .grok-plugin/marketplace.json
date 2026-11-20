@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "soundcheck-event-directory",
+      "description": "Soundcheck Event Business Directory and Instant Quotes: live event digital infrastructure. Search and look up event vendors and get itemized, illustrative cost estimates for parties, weddings, conferences, concerts, and offsites via Soundcheck's public, no-login MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/soundchecklive/soundcheck-plugin.git",
+        "sha": "39713881a7d0d9fd814ddc3744c4f9ebb2de01e8",
+        "path": "instant-quotes"
+      },
+      "homepage": "https://soundchecklive.io",
+      "keywords": ["soundcheck", "soundcheck live", "soundcheck mcp", "soundcheck event directory", "soundcheck instant quotes"],
+      "domains": ["soundchecklive.io", "mcp.soundchecklive.io"]
     }
   ]
 }
