@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kadenzo",
+      "description": "Kadenzo social media scheduler. A hosted MCP server with OAuth sign-in (no API key) plus a scheduling skill: draft, validate and schedule posts to Instagram, TikTok, X, LinkedIn, Facebook, YouTube, Pinterest, Threads, Bluesky, Telegram and Mastodon, check the queue, and read analytics, best posting times and social listening. Posts are only ever scheduled for a future time, after you confirm.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Kadenzo/kadenzo-mcp.git",
+        "sha": "cf1d2b223fab70a374b0c9f735d33575815ec52d",
+        "path": "plugins/kadenzo"
+      },
+      "homepage": "https://kadenzo.app",
+      "keywords": ["kadenzo", "kadenzo studio", "kadenzo scheduler", "schedule with kadenzo", "kadenzo social media"],
+      "domains": ["kadenzo.app", "studio.kadenzo.app"],
+      "author": {
+        "name": "Kadenzo",
+        "email": "jan@kadenzo.app",
+        "url": "https://kadenzo.app"
+      }
     }
   ]
 }
