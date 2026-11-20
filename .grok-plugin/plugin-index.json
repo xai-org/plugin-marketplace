@@ -76,8 +76,8 @@
       }
     },
     "brewpage": {
-      "sha": "967c738294e15c2a57e24c0fffed5b639d49fff3",
-      "version": "0.1.0",
+      "sha": "82c303d1ee5f0324cfebc8f4529f463bbdc0fc16",
+      "version": "1.1.2",
       "components": {
         "mcpServers": [
           {
@@ -88,7 +88,7 @@
         "skills": [
           {
             "name": "brewpage-publish",
-            "description": "Publish HTML, markdown, text, any file, or a multi-file site to brewpage.app — free hosting with no sign-up. Paste text…"
+            "description": "Prepare BrewPage drafts, publish supplied content or a new page, and update a specific BrewPage publication. Supports H…"
           }
         ]
       }

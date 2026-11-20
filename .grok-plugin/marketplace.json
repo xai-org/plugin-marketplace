@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/kochetkov-ma/brewpage-publish-plugins.git",
-        "sha": "967c738294e15c2a57e24c0fffed5b639d49fff3",
+        "sha": "82c303d1ee5f0324cfebc8f4529f463bbdc0fc16",
         "path": "agent-plugin"
       },
       "homepage": "https://brewpage.app",
