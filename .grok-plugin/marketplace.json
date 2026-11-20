@@ -371,6 +371,32 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "unipost",
+      "description": "UniPost social media scheduling. Schedule posts to LinkedIn profiles, X, TikTok, and YouTube, review what's queued, and pull views, likes, and comments for published posts. Posts publish on schedule, or wait for your approval when approval is on. Sign in with a UniPost account on first connect.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/unipost"
+      },
+      "homepage": "https://unipost.ai",
+      "keywords": [
+        "unipost",
+        "unipost mcp",
+        "unipost social",
+        "unipost schedule"
+      ],
+      "domains": [
+        "unipost.ai",
+        "mcp.unipost.ai"
+      ],
+      "version": "1.1.0",
+      "author": {
+        "name": "Intuico Digital LLC",
+        "email": "info@intuicodigital.com",
+        "url": "https://unipost.ai"
+      }
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
