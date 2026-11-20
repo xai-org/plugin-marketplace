@@ -684,6 +684,32 @@
         ]
       }
     },
+    "kling-ai-global-plugin": {
+      "sha": "53ff743cec8322f5930d86d4e1bf34fe485769e5",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kling-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kling-ai",
+            "description": "Handle Kling AI / 可灵 requests in Claude Code, including prompt-only planning, missing-asset next steps, generation prep…"
+          },
+          {
+            "name": "kling-ai-generate-image",
+            "description": "Write or refine Kling AI image prompts, including prompt-only requests, or generate and edit images through the Kling A…"
+          },
+          {
+            "name": "kling-ai-generate-video",
+            "description": "Write Kling AI / 可灵 video prompts and storyboards, prepare video settings including HDR for approval, and submit author…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
