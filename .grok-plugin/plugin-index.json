@@ -1753,6 +1753,24 @@
         ]
       }
     },
+    "vibewatch": {
+      "sha": "60209dbb4f431d1fc147b35ec42cde0c5829cace",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vibewatch",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "use-vibewatch",
+            "description": "Read a community's vibe from Vibewatch: current sentiment, the trend over time, the messages behind a score, daily insi…"
+          }
+        ]
+      }
+    },
     "videogen": {
       "version": "1.0.0",
       "components": {

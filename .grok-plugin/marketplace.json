@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "vibewatch",
+      "description": "Give Grok access to your community's vibe. Vibewatch is social listening for web3 teams; this plugin connects Grok to your Vibewatch organization through the hosted Vibewatch MCP server — sentiment overview, daily trend, message search, daily insights, weekly reports, and market context, all read-only. Sign in with your Vibewatch account.",
+      "category": "analytics",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Vibewatch-io/vibewatch-mcp.git",
+        "sha": "60209dbb4f431d1fc147b35ec42cde0c5829cace",
+        "path": "plugins/vibewatch"
+      },
+      "homepage": "https://vibewatch.io",
+      "keywords": ["vibewatch", "vibewatch mcp", "vibe watch"],
+      "domains": ["vibewatch.io", "app.vibewatch.io"]
     }
   ]
 }
