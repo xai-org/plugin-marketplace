@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
-      "version": "1.15.4",
+      "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+      "version": "1.15.5",
       "components": {
         "mcpServers": [
           {
@@ -403,7 +403,7 @@
           },
           {
             "name": "eas-hosting",
-            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, deploy to production or PR prev…"
           },
           {
             "name": "eas-observe",
@@ -439,11 +439,11 @@
           },
           {
             "name": "expo-data-fetching",
-            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+            "description": "Implement or debug data fetching in Expo apps. Use for fetch API calls, React Query, SWR, authenticated requests, cachi…"
           },
           {
             "name": "expo-design-system",
-            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+            "description": "Create or extend an Expo app's theme, design tokens, and reusable component conventions. Use for inconsistent styling,…"
           },
           {
             "name": "expo-dev-client",
@@ -467,7 +467,7 @@
           },
           {
             "name": "expo-overview",
-            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+            "description": "Entry point for Expo and EAS tasks. Load first when the request mentions Expo, EAS, Expo Go, or an expo-* package, or t…"
           },
           {
             "name": "expo-project-structure",
@@ -655,8 +655,8 @@
       }
     },
     "html-css-to-image": {
-      "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
-      "version": "0.2.0",
+      "sha": "031616b48d603559038cbe042f73351b8b063df4",
+      "version": "0.3.0",
       "components": {
         "mcpServers": [
           {
@@ -670,8 +670,16 @@
             "description": "Let AI agents capture live website screenshots, render HTML/CSS, and populate reusable templates as images or PDFs—with…"
           },
           {
+            "name": "hcti-marketing-videos",
+            "description": "Create marketing videos and animated GIFs from structured HTML/CSS with HCTI. Use for product launches, feature teasers…"
+          },
+          {
             "name": "hcti-open-graph-images",
             "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          },
+          {
+            "name": "hcti-website-recordings",
+            "description": "Record scrolling website walkthroughs and visually review public pages with HCTI video recordings and screenshots. Use…"
           }
         ]
       }
@@ -876,8 +884,8 @@
       }
     },
     "octen": {
-      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
-      "version": "1.0.0",
+      "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -888,7 +896,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, image search, and clean U…"
           }
         ]
       }
@@ -943,8 +951,8 @@
       }
     },
     "pstack": {
-      "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
-      "version": "0.15.43",
+      "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
+      "version": "0.15.46",
       "components": {
         "agents": [
           {
@@ -1261,8 +1269,8 @@
       }
     },
     "stripe": {
-      "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
-      "version": "0.11.0",
+      "sha": "119bc4a8de4eb4370db1f5838275bc9e7a0d8e4a",
+      "version": "0.13.0",
       "components": {
         "agents": [
           {
@@ -1330,10 +1338,6 @@
           {
             "name": "stripe-projects",
             "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
-          },
-          {
-            "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
@@ -1527,8 +1531,8 @@
       }
     },
     "vercel": {
-      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
-      "version": "0.55.1",
+      "sha": "8bb46159108f0cd6a749959b20c1411257411090",
+      "version": "0.56.0",
       "components": {
         "agents": [
           {
@@ -1607,6 +1611,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "botid",
+            "description": "Protect specific routes and server actions from bots in code with Vercel BotID (`botid` npm package). Use when installi…"
+          },
+          {
             "name": "build-agents",
             "description": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or imp…"
           },
@@ -1619,12 +1627,16 @@
             "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
           },
           {
+            "name": "client-side-security",
+            "description": "Protect what runs in your users' browsers on Vercel with a Content-Security-Policy header and Page Integrity script mon…"
+          },
+          {
             "name": "create-a-backend",
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
             "name": "custom-metrics",
-            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+            "description": "Emit and query Vercel Custom Metrics. Use proactively whenever you write or change server code that runs as a Vercel Fu…"
           },
           {
             "name": "daemons",
@@ -1759,8 +1771,8 @@
       }
     },
     "wix": {
-      "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d",
-      "version": "1.41.6",
+      "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
+      "version": "1.41.8",
       "components": {
         "mcpServers": [
           {
