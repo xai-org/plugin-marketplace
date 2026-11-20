@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "commonpaper",
+      "description": "Official Common Paper integration (MCP Server + Skill). Sign in with your Common Paper account to search, draft, and send contracts (NDAs, CSAs, DPAs and more), track signature status and renewals, and manage templates and custom terms.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CommonPaper/ai-plugin.git",
+        "sha": "fc1e1453557ed3211952e13d737639046a15bb12"
+      },
+      "homepage": "https://github.com/CommonPaper/ai-plugin",
+      "keywords": ["common paper", "commonpaper", "common paper contracts"],
+      "domains": ["commonpaper.com", "app.commonpaper.com"]
     }
   ]
 }
