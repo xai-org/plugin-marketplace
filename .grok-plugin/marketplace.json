@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "beringio",
+      "description": "Beringio team hub for Grok Build (hosted MCP server + skill). Check what your team decided before you build, save decisions and catch conflicts with earlier ones, look up the team glossary, read and post in the hub chat, and work with the shared board. Sign in with your Beringio account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/beringio/beringio-plugin.git",
+        "sha": "0432ee63f9f551a1798c5870f88ba0531ac3b114"
+      },
+      "homepage": "https://beringio.com",
+      "keywords": ["beringio", "beringio mcp", "beringio hub", "beringio decisions"],
+      "domains": ["beringio.com"]
     }
   ]
 }

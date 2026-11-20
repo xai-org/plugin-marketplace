@@ -75,6 +75,24 @@
         ]
       }
     },
+    "beringio": {
+      "sha": "0432ee63f9f551a1798c5870f88ba0531ac3b114",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "beringio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-started",
+            "description": "Use when the user has just added Beringio or asks how to start using it. Walks through signing in, creating or joining…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
