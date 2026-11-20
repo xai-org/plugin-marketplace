@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "deed-page",
+      "description": "Publish a file or clean output folder from Grok Build to a permanent public https://<name>.deed.page/ URL. No account. Bundles the deed-page skill and the hosted deed.page MCP server.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/f-o-x11/deed-page-skill.git",
+        "sha": "79ab0c983a552e4fe7cf87c5fed4a0effb79eb2c"
+      },
+      "homepage": "https://deed.page",
+      "keywords": ["deed.page", "deed-page", "deed page"],
+      "domains": ["deed.page"]
     }
   ]
 }
