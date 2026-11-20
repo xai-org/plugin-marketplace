@@ -1476,6 +1476,48 @@
         ]
       }
     },
+    "tickadoo": {
+      "sha": "b34bb6f128fbdbcaaf21f5c1240f5401880c1368",
+      "version": "2.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tickadoo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "compare-before-you-book",
+            "description": "Compare 2-5 already-known tickadoo experiences side by side, then check availability for the preferred option. Use when…"
+          },
+          {
+            "name": "date-night",
+            "description": "Build one coherent evening for two in a single city with tickadoo, centred on discoverable experiences plus dinner-area…"
+          },
+          {
+            "name": "family-day-out",
+            "description": "Build one coherent full or substantial family day in a single city with tickadoo, using the children's ages and geograp…"
+          },
+          {
+            "name": "near-a-landmark",
+            "description": "Find experiences near a named landmark, neighbourhood, hotel or venue with tickadoo, without asking for coordinates. Us…"
+          },
+          {
+            "name": "plan-a-trip",
+            "description": "Build a multi-day itinerary in one city with tickadoo. Use when the user wants activities arranged across two or more d…"
+          },
+          {
+            "name": "tickadoo-experiences",
+            "description": "General tickadoo discovery and utility map for city-wide experience searches, named-experience lookup, mood-led ideas,…"
+          },
+          {
+            "name": "tonight-and-last-minute",
+            "description": "Find experiences in a city tonight or within the next few hours with tickadoo, followed by a current availability check…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
