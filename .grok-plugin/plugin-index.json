@@ -362,6 +362,18 @@
         ]
       }
     },
+    "dripod": {
+      "sha": "adbc050d5c3c93e80424296107969d25b22236fc",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dripod",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
