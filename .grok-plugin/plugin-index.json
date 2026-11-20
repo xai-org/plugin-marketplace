@@ -1770,6 +1770,24 @@
         ]
       }
     },
+    "wave": {
+      "sha": "c86de7641e1a495c08b80509296067d384ea21a9",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wave",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "wave",
+            "description": "Search and synthesize the user's Wave AI meetings, phone calls, and in-person recordings — meeting prep, weekly reviews…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
       "version": "1.41.8",
