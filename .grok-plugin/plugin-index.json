@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "aiclickthisshit": {
+      "sha": "ab15c63051e62049a08ff6b7cfebf3abe7c574a2",
+      "version": "0.2.0",
+      "components": {
+        "skills": [
+          {
+            "name": "desktop",
+            "description": "Use AIClickThatShit for a requested local screen, mouse or keyboard task. Uses existing local permissions and does not…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
