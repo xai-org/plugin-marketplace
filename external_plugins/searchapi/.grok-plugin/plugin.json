@@ -1,0 +1,14 @@
+{
+  "name": "searchapi",
+  "version": "1.0.0",
+  "description": "Real-time search results as structured JSON for Grok Build via the hosted SearchApi MCP server at searchapi.io. Google (Web, Maps, Shopping, Flights, Hotels, News, Scholar, Images, Jobs, Trends), Bing, YouTube, Amazon and 100+ other engines, each as its own tool. Sign in with your SearchApi account on first connect.",
+  "author": {
+    "name": "SearchApi",
+    "url": "https://www.searchapi.io"
+  },
+  "homepage": "https://www.searchapi.io/integrations/mcp",
+  "repository": "https://www.searchapi.io/docs/google",
+  "license": "MIT",
+  "keywords": ["searchapi", "searchapi.io", "searchapi mcp"],
+  "logo": "assets/logo.svg"
+}

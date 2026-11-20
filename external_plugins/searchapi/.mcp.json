@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "searchapi": {
+      "type": "http",
+      "url": "https://www.searchapi.io/mcp"
+    }
+  }
+}
