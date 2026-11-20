@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "coachiq",
+      "description": "Manage a CoachIQ coaching business from Grok Build: bookings, clients, forms, lessons, inbox, programs, website. Remote MCP server with OAuth sign-in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CoachIQ-Development/grok-build-plugin.git",
+        "sha": "a89f1bfa3eec75652a868b9f285192a157c757b1"
+      },
+      "homepage": "https://github.com/CoachIQ-Development/grok-build-plugin",
+      "keywords": ["coachiq", "coachiq mcp", "coachiq bookings"],
+      "domains": ["coachiq.io"]
     }
   ]
 }
