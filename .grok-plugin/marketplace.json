@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "groundmail",
+      "description": "Send and receive email from your app or AI agent with Groundmail: transactional email, agent mailboxes, templates and domains, by SDK, SMTP or the hosted MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Groundmail/groundmail-skills.git",
+        "sha": "a88acc9e7c00ba016cfedc48b163e92ffebe55be"
+      },
+      "homepage": "https://docs.groundmail.dev/ai/mcp?utm_source=github&utm_medium=marketplace&utm_campaign=plugin-marketplace",
+      "keywords": ["groundmail"],
+      "domains": ["groundmail.dev", "docs.groundmail.dev"]
     }
   ]
 }
