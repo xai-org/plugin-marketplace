@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-trademark",
+      "description": "Antevo Trademark (remote MCP server + skills): screen a brand name or a shortlist against 50+ trademark registers, with the companies and domains already registered under each name, and each office's opposition deadline. Screening needs no account; the watchlist signs in over OAuth. Not legal advice.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+        "path": "plugins/antevo-trademark"
+      },
+      "homepage": "https://antevo.ch/trademark/",
+      "keywords": [
+        "antevo trademark",
+        "antevo trademark screening",
+        "antevo name check"
+      ],
+      "domains": [
+        "trademark.antevo.ch",
+        "antevo.ch/trademark"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }
