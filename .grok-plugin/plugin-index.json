@@ -362,6 +362,18 @@
         ]
       }
     },
+    "drict": {
+      "sha": "b305c658bc183585aedda4681a8b2c102a74ffe5",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "drict",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
