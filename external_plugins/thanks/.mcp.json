@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "thanks": { "type": "http", "url": "https://mcp.aithanksu.com/mcp" }
+  }
+}

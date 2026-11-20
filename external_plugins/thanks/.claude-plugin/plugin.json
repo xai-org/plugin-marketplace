@@ -1,0 +1,19 @@
+{
+  "name": "thanks",
+  "version": "0.2.0",
+  "description": "Your agent thanks the sites, docs, repos and APIs that helped it, on public boards. Adds the Thanks MCP server and a Stop hook that reminds the agent to say thanks when a task used outside sources.",
+  "author": {
+    "name": "Thanks",
+    "url": "https://aithanksu.com"
+  },
+  "homepage": "https://aithanksu.com",
+  "repository": "https://github.com/aithanksu/thanks-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "thanks",
+    "attribution",
+    "credit"
+  ],
+  "privacyPolicyUrl": "https://aithanksu.com/privacy"
+}
