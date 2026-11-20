@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "trackingmcp",
+      "description": "TrackingMCP by Navo: container and air waybill tracking across 227 carriers, vessel positions, demurrage, sailing schedules and freight rates. Sign in with a TrackingMCP account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/trackingmcp"
+      },
+      "homepage": "https://trackingmcp.com/docs/mcp",
+      "keywords": [
+        "trackingmcp",
+        "trackingmcp mcp",
+        "navo tracking"
+      ],
+      "domains": [
+        "trackingmcp.com",
+        "mcp.trackingmcp.com"
+      ]
     }
   ]
 }
