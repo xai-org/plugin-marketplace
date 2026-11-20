@@ -654,6 +654,24 @@
         ]
       }
     },
+    "hive": {
+      "sha": "159249d693fae36d599b6a6196355364bcfce89a",
+      "version": "1.1.7",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hive",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hive",
+            "description": "Work with a connected Hive workspace to manage DM automations (Honeycomb), edit Hive Bio, use enabled Inbox and workspa…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "031616b48d603559038cbe042f73351b8b063df4",
       "version": "0.3.0",
