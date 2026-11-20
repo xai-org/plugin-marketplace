@@ -684,6 +684,24 @@
         ]
       }
     },
+    "kyte": {
+      "sha": "2783f83c9e3eda5d9c993bacdc59678f7a34c79e",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kyte",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kyte",
+            "description": "Work with the company's kyte workspace — customers, contacts, deals, products, projects, time entries and hours, invoic…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
