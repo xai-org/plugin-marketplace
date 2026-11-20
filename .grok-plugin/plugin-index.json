@@ -642,6 +642,32 @@
         ]
       }
     },
+    "foundrole": {
+      "sha": "398daf399863d4a6b81453062515daf29c2c5446",
+      "version": "1.2.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "foundrole",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "foundrole-job-search",
+            "description": "Use when a user wants FoundRole job search, personalized recommendations, job or resume-fit analysis, salary or H-1B si…"
+          },
+          {
+            "name": "foundrole-resume-check",
+            "description": "Check how hiring software (an ATS parser) reads a resume with the FoundRole MCP app, and report what the parser extract…"
+          },
+          {
+            "name": "foundrole-resume-workflows",
+            "description": "Use FoundRole to review a saved profile or resume, preview tailoring for a job, check evidence of job fit, explain a re…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
