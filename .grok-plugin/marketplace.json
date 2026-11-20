@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "rocketreach",
+      "description": "Official RocketReach plugin. Search 700M+ professionals and millions of companies, get verified emails and phone numbers, enrich contacts and accounts with firmographics and tech stack, and prospect on buyer signals through the hosted RocketReach MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rocketreach/rocketreach-mcp-plugin.git",
+        "sha": "ceb195d8f11fad650505f8c1f4cdbdac0f7c66a6"
+      },
+      "homepage": "https://rocketreach.co",
+      "keywords": [
+        "rocketreach",
+        "rocket reach",
+        "rocketreach mcp"
+      ],
+      "domains": [
+        "rocketreach.co",
+        "mcp.rocketreach.co",
+        "docs.rocketreach.co"
+      ]
     }
   ]
 }

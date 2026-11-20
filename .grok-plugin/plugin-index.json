@@ -1204,6 +1204,40 @@
         ]
       }
     },
+    "rocketreach": {
+      "sha": "ceb195d8f11fad650505f8c1f4cdbdac0f7c66a6",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rocketreach",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "build-list",
+            "description": "Build a list of people or companies by filtering on title, seniority, department, industry, company size, location, and…"
+          },
+          {
+            "name": "enrich-company",
+            "description": "Look up a company profile by name, domain, LinkedIn URL, or ticker symbol, Returns a complete company profile that incl…"
+          },
+          {
+            "name": "enrich-person",
+            "description": "Look up a person's profile by name, email, phone, LinkedIn URL, NPI number, or name + employer. Returns their profile a…"
+          },
+          {
+            "name": "prospect",
+            "description": "Describe your ideal customer in plain English and get a ranked table of decision-makers with verified contact data"
+          },
+          {
+            "name": "verify-email",
+            "description": "Check whether an email address you already have is deliverable. Confirms format, checks the domain accepts mail, and pr…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
