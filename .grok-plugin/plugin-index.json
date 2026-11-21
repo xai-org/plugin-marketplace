@@ -684,6 +684,17 @@
         ]
       }
     },
+    "idiolect": {
+      "sha": "ef71ef0de39ab3b7fcabbe937e6b2e2c3c414ae8",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "idiolect",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
