@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ai-search-visibility-by-crakseo",
+      "description": "AI Search Visibility: Brand Mentions in ChatGPT, Perplexity & AI Overviews by CrakSEO. AI search visibility for SEO and GEO: check brand mentions in ChatGPT, Perplexity and Google AI Overviews, and see which sources and citations AI answers use. Hosted MCP server at https://crakseo.com/mcp/ai-visibility; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "ai-search-visibility-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/ai-visibility",
+      "keywords": ["crakseo ai visibility", "crakseo ai search"]
     }
   ]
 }
