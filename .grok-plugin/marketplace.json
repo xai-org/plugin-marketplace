@@ -499,6 +499,18 @@
       "homepage": "https://getosmo.app",
       "keywords": ["osmo", "osmo ai", "osmo phone calls", "getosmo", "osmo call"],
       "domains": ["getosmo.app", "api.getosmo.app"]
+    },
+    {
+      "name": "osmo-ai-receptionist",
+      "description": "OsmO AI Receptionist (hosted MCP server + skill): an AI phone receptionist and answering service for your own number. See missed calls and what each caller wanted, open summaries, transcripts and recordings, screen a caller, call back someone who called you, and change who is put through, VIP and block lists, caller rules, language and bookings. Every call back and change needs your yes. Needs an OsmO app plan with call forwarding; sign in with your phone number, no API key.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/osmo-ai-receptionist"
+      },
+      "homepage": "https://getosmo.app",
+      "keywords": ["osmo ai receptionist", "ai receptionist", "answering service", "call screening", "missed calls"],
+      "domains": ["getosmo.app", "api.getosmo.app"]
     }
   ]
 }
