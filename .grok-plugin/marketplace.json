@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wolfsms",
+      "description": "Securely access SMS messages on your phone, like delivery codes and transaction alerts.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/antislophq/wolfsms-mcp.git",
+        "sha": "901490d319dcc29c659712b4bc106c1292cac9a5"
+      },
+      "homepage": "https://usewolfsms.com",
+      "keywords": ["wolfsms", "wolfsms mcp", "wolf sms", "sms"],
+      "domains": ["usewolfsms.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "WolfSMS",
+        "email": "support@usewolfsms.com",
+        "url": "https://usewolfsms.com"
+      }
     }
   ]
 }
