@@ -1476,6 +1476,24 @@
         ]
       }
     },
+    "tiiny-host": {
+      "sha": "140664090c747c03e4735b3fd137601b2f959a41",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tiiny-host",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tiiny-host",
+            "description": "Publish files or pages made in the conversation as live websites on Tiiny Host, and manage the user's existing Tiiny Ho…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",

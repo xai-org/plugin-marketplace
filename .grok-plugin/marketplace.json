@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tiiny-host",
+      "description": "Publish files as live websites on Tiiny Host, and list, update or delete your Tiiny Host sites.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tiiny-Host/skills.git",
+        "sha": "140664090c747c03e4735b3fd137601b2f959a41",
+        "path": "plugins/grok-build"
+      },
+      "homepage": "https://tiiny.host",
+      "keywords": ["tiiny host", "tiiny.host", "tiiny"],
+      "domains": ["tiiny.host", "tiiny.site"]
     }
   ]
 }
