@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seo-tools-by-crakseo",
+      "description": "SEO Tools: Keyword Research, SERP, Backlinks & Rank Tracking by CrakSEO. SEO tools in one connection: keyword research, search volume, live Google SERP, rank tracking, backlinks, site audit, local SEO and AI search visibility. Hosted MCP server at https://crakseo.com/mcp/seo; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "seo-tools-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/seo",
+      "keywords": ["crakseo", "crakseo seo tools", "crakseo mcp"],
+      "domains": ["crakseo.com", "docs.crakseo.com"]
     }
   ]
 }
