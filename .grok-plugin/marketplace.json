@@ -490,7 +490,7 @@
     },
     {
       "name": "kling-ai-global-plugin",
-      "description": "Kling AI Global Plugin for Grok Build connects to the official hosted Kling MCP with OAuth. Generate images and videos, manage Elements, use motion control, and track tasks. Generation uses Global Kling account credits; China accounts and credits are separate.",
+      "description": "Kling AI Global Plugin for Grok Build connects to the official hosted Kling MCP with OAuth. Generate images and videos, including Kling 4.0 native 4K and optional 10-bit HDR at 1080p or 4K where supported by live MCP tools. HDR uses additional Global Kling credits; China accounts and credits are separate.",
       "category": "media",
       "source": {
         "source": "url",
