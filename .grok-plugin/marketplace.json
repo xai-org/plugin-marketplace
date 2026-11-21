@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "google-search-console-by-crakseo",
+      "description": "Free Google Search Console (GSC) & Bing Webmaster Tools by CrakSEO. Free Google Search Console (GSC) for SEO: your own Search Console search analytics, keywords, search rankings, clicks, impressions, URL inspection and Bing Webmaster Tools. Hosted MCP server at https://crakseo.com/mcp/search-console; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "google-search-console-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/search-console",
+      "keywords": ["crakseo search console", "crakseo gsc"]
     }
   ]
 }
