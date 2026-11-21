@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "osmo-ai-receptionist": {
+      "type": "http",
+      "url": "https://api.getosmo.app/mcp/receptionist"
+    }
+  }
+}
