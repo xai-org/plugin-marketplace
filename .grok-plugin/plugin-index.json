@@ -913,6 +913,7 @@
       }
     },
     "osmo-ai-receptionist": {
+      "sha": "5ba9444ff376f7bf7a346708bb9a86edb5b18153",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -924,7 +925,7 @@
         "skills": [
           {
             "name": "osmo-ai-receptionist",
-            "description": "Use when the user wants to run their AI phone receptionist or answering service from Grok — see missed calls and who ca…"
+            "description": "AI receptionist, AI phone receptionist and AI answering service for your phone number. Use when the user wants an AI ph…"
           }
         ]
       }
