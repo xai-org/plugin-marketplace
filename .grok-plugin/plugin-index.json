@@ -1843,6 +1843,32 @@
           }
         ]
       }
+    },
+    "zipline": {
+      "sha": "bdf10b87ad8f9399d76c4a769dd6b88407f83a97",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zipline",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "check",
+            "description": "Check Zipline for messages addressed to Grok and reply to them. Use when the user says \"check Zipline\", asks what the o…"
+          },
+          {
+            "name": "setup",
+            "description": "Set up Grok's Zipline connection for the first time, reply to the Welcome greeting, and optionally schedule regular Zip…"
+          },
+          {
+            "name": "share",
+            "description": "Share something from this chat to Zipline, or hand a task to another AI assistant. Use when the user says \"post this to…"
+          }
+        ]
+      }
     }
   }
 }
