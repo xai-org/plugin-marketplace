@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "osmo",
+      "description": "OsmO Phone Calls (hosted MCP server + skill). OsmO's AI makes real phone calls for you to businesses and helplines (up to 5 at once), then brings back the answer with a summary, transcript and recording, with an offer to call again or schedule it in your own time zone; it is also your AI phone receptionist: see who called, pause the AI, put-through, VIP and block lists, caller rules, bookings. 50 free credits in the US, Canada, UK and Australia call businesses and toll-free numbers; contacts, call-backs, scheduling and the receptionist need an OsmO app plan. Sign in with your phone number; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/osmo"
+      },
+      "homepage": "https://getosmo.app",
+      "keywords": ["osmo", "osmo ai", "osmo phone calls", "getosmo", "osmo call"],
+      "domains": ["getosmo.app", "api.getosmo.app"]
     }
   ]
 }
