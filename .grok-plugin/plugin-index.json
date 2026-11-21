@@ -1,6 +1,29 @@
 {
   "version": 1,
   "plugins": {
+    "agent-qa": {
+      "sha": "43618211636159a6fc6086cac90101e448ed8a63",
+      "components": {
+        "skills": [
+          {
+            "name": "agent-qa-authoring",
+            "description": "Use when creating, editing, validating, or running agent-qa tests, suites, or hooks. Prefer agent-qa MCP tools, enforce…"
+          },
+          {
+            "name": "agent-qa-debug-fix",
+            "description": "Use after an agent-qa run has failed and you need to debug, patch, and verify the issue using MCP evidence, logs, artif…"
+          },
+          {
+            "name": "agent-qa-knowledge",
+            "description": "Use when asked what an agent-qa run did, why a step passed or failed, what a run's screenshots, console or network show…"
+          },
+          {
+            "name": "agent-qa-result-triage",
+            "description": "Use when investigating failed agent-qa runs, inspecting artifacts, classifying failures, or comparing recent runs. Pref…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
