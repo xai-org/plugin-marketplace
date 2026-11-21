@@ -913,6 +913,7 @@
       }
     },
     "osmo": {
+      "sha": "0966634a458fa6d5945bdae9ab14b4f0f8797316",
       "version": "1.2.0",
       "components": {
         "mcpServers": [
