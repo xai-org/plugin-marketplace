@@ -642,6 +642,18 @@
         ]
       }
     },
+    "footalytics": {
+      "sha": "88c6b7c7a5c1470deca1155ec7bf4e399b7c99c1",
+      "version": "1.0.0",
+      "components": {
+        "skills": [
+          {
+            "name": "footalytics",
+            "description": "Football match predictions and football data from Footalytics — win/draw/loss probabilities, confidence tier, over/unde…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
