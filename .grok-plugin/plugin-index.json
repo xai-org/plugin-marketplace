@@ -950,6 +950,23 @@
         ]
       }
     },
+    "prismic": {
+      "sha": "d6f678aca937dfda10fa73f6a8af6810a9915951",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "prismic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "prismic",
+            "description": "Use whenever Prismic is mentioned or relevant in any way — including questions, lookups, configuration, repository sett…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
