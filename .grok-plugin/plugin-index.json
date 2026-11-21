@@ -950,6 +950,48 @@
         ]
       }
     },
+    "picmim": {
+      "sha": "bfeee1aca1f9d92329176ccd532c637895166904",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "picmim",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "picmim-analytics",
+            "description": "Reviews social media performance in Picmim over MCP and builds analytics charts for the workspace, a connected account…"
+          },
+          {
+            "name": "picmim-captions",
+            "description": "Writes and edits social media captions for Picmim posts to Picmim's own quality bar, with per-platform length and hasht…"
+          },
+          {
+            "name": "picmim-essentials",
+            "description": "Core rules for working in a customer's Picmim social media workspace over MCP. Use whenever you call any Picmim tool, p…"
+          },
+          {
+            "name": "picmim-inbox",
+            "description": "Reads and replies to public comments in the Picmim Social Inbox over MCP, reviews the replies Pim drafted for comments,…"
+          },
+          {
+            "name": "picmim-plans",
+            "description": "Generates and works on Picmim content plans and the weekly posts Pim writes, over MCP. Use when the user wants a week o…"
+          },
+          {
+            "name": "picmim-posts",
+            "description": "Creates, edits, schedules, publishes, approves, rejects, cancels, duplicates and deletes social posts in Picmim over MC…"
+          },
+          {
+            "name": "picmim-visuals",
+            "description": "Finds, imports, uploads, generates and edits images and videos for Picmim social posts over MCP, from the media library…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
