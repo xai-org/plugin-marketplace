@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "keyword-research-by-crakseo",
+      "description": "Keyword Research: Search Volume, Keyword Difficulty & CPC by CrakSEO. Keyword research for SEO: monthly search volume, keyword difficulty, CPC, keyword ideas, related keywords and competitor keyword gaps for any topic and country. Hosted MCP server at https://crakseo.com/mcp/keyword-research; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "keyword-research-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/keyword-research",
+      "keywords": ["crakseo keyword research", "crakseo keywords"]
     }
   ]
 }
