@@ -2,7 +2,7 @@
   "version": 1,
   "plugins": {
     "axiom": {
-      "sha": "0e98ebaeec76a70c8fda9a7737605800c2f1245d",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -44,7 +44,7 @@
       }
     },
     "base44": {
-      "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0-beta.1",
       "components": {
         "skills": [
@@ -72,7 +72,7 @@
       }
     },
     "browser-use": {
-      "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.1.0",
       "components": {
         "mcpServers": [
@@ -90,7 +90,7 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.9.0",
       "components": {
         "mcpServers": [
@@ -132,7 +132,7 @@
       }
     },
     "cloudflare": {
-      "sha": "60147cbb773649eadca89cee92b4e0caf02234b4",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0",
       "components": {
         "commands": [
@@ -204,7 +204,7 @@
       }
     },
     "council-of-ai": {
-      "sha": "cb016901e4291dbeb3f510d82f2158da31dcccc2",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.1.1",
       "components": {
         "agents": [
@@ -282,7 +282,7 @@
       }
     },
     "datadog": {
-      "sha": "083b4783095520f562534956578c8826613292a9",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.7.21",
       "components": {
         "mcpServers": [
@@ -304,7 +304,7 @@
       }
     },
     "exa": {
-      "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.1.0",
       "components": {
         "commands": [
@@ -328,7 +328,7 @@
       }
     },
     "figma": {
-      "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "2.2.108",
       "components": {
         "mcpServers": [
@@ -398,7 +398,7 @@
       }
     },
     "firecrawl": {
-      "sha": "7100b62d09a40673fe1688175431b1baff7ed262",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.2.0",
       "components": {
         "commands": [
@@ -462,7 +462,7 @@
       }
     },
     "mongodb": {
-      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.2.1",
       "components": {
         "mcpServers": [
@@ -504,7 +504,7 @@
       }
     },
     "mongodb-atlas": {
-      "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.2.1",
       "components": {
         "mcpServers": [
@@ -567,7 +567,7 @@
       }
     },
     "netlify": {
-      "sha": "b79c1e58e82ecb319f1f213727f65ea10a5a69a5",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.3.1",
       "components": {
         "mcpServers": [
@@ -652,7 +652,7 @@
       }
     },
     "pstack": {
-      "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "components": {
         "agents": [
           {
@@ -857,7 +857,7 @@
       }
     },
     "quo": {
-      "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -869,7 +869,7 @@
       }
     },
     "railway": {
-      "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.4.0",
       "components": {
         "hooks": [
@@ -893,7 +893,7 @@
       }
     },
     "sentry": {
-      "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.4.0",
       "components": {
         "mcpServers": [
@@ -939,7 +939,7 @@
       }
     },
     "stripe": {
-      "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.6.4",
       "components": {
         "agents": [
@@ -1001,7 +1001,7 @@
       }
     },
     "supabase": {
-      "sha": "8629243d1cd72309b533090a4c742f21747d02fa",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.1.15",
       "components": {
         "mcpServers": [
@@ -1023,7 +1023,7 @@
       }
     },
     "superpowers": {
-      "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "6.3.0",
       "components": {
         "hooks": [
@@ -1093,7 +1093,7 @@
       }
     },
     "tavily": {
-      "sha": "0cfd0c2be2df4a2a90c683abaadaf36ef7f2f59d",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -1139,7 +1139,7 @@
       }
     },
     "tinyfish": {
-      "sha": "89457fba3fa44c7b2227807948628011983ab668",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
@@ -1173,7 +1173,7 @@
       }
     },
     "vercel": {
-      "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "0.49.0",
       "components": {
         "agents": [
@@ -1376,7 +1376,7 @@
       }
     },
     "wix": {
-      "sha": "572357b791a91a5138c050e08eb718b150be21cb",
+      "sha": "e371c59bd2fc06f4c86d77413eab22d302d3d8cd",
       "version": "1.18.1",
       "components": {
         "mcpServers": [
