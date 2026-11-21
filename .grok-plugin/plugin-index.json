@@ -47,6 +47,24 @@
         ]
       }
     },
+    "backlink-checker-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-backlinks",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "backlinks",
+            "description": "Backlink checker for SEO - backlinks, referring domains and anchor text for any website or competitor. Link analysis fo…"
+          }
+        ]
+      }
+    },
     "base44": {
       "sha": "0d3b72a76e91d920f4a151b68dd224510ca5dc14",
       "version": "1.0.0-beta.1",
