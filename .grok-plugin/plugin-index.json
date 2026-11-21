@@ -685,8 +685,8 @@
       }
     },
     "litgrok": {
-      "sha": "f5f7e61774d3275940f5055d143453ddb1be5d5f",
-      "version": "1.0.37",
+      "sha": "070b91b00a96ab17b5c67661c78c1db77bc06c4b",
+      "version": "1.0.39",
       "components": {
         "agents": [
           {
@@ -805,7 +805,7 @@
           },
           {
             "name": "lit-adhd",
-            "description": "Answer \"where was I\" across every recent agent session of this repository with a drawn KPI board, the one thing to do n…"
+            "description": "Answer \"where was I\" across every recent agent session of this repository with a six-line verdict card, what changed si…"
           },
           {
             "name": "lit-brainstorm",
@@ -868,10 +868,6 @@
             "description": "Moved: lit-pptx builds finished PowerPoint decks (slides, deck, presentation, PPT, pptx, 발표자료, 발표, 슬라이드, 덱, 피피티, includ…"
           },
           {
-            "name": "lit-recap",
-            "description": "Reconstruct a concise, evidence-backed account of earlier agent sessions."
-          },
-          {
             "name": "lit-schematic",
             "description": "Moved: lit-schematic draws physical schematics of real equipment (P&ID, PFD, BFD, equipment layout, isometric cutaway,…"
           },
@@ -881,7 +877,7 @@
           },
           {
             "name": "lit-team",
-            "description": "Coordinate independent work lanes with bounded task packets, clear ownership, and parent-owned integration and verifica…"
+            "description": "Type lit team <goal>; this session becomes the orchestrator and runs the team for you. It uses subagents, one workflow,…"
           },
           {
             "name": "lit-typographic-motion",
@@ -934,6 +930,10 @@
           {
             "name": "structural-search",
             "description": "Investigate code structure with repository search, reads, and language-server code intelligence where the host offers i…"
+          },
+          {
+            "name": "ultra-brainstorm",
+            "description": "Ideation at a scale one context cannot hold. Asks how many cheap idea agents to run (100 or more), shows the rough cost…"
           },
           {
             "name": "visual-qa",
