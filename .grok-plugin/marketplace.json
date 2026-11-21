@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "deja",
+      "description": "Recall what you already did in your other coding agents. deja indexes the session transcripts Claude Code, Codex, Cursor, opencode, Zed and forty-two more already write to disk, including work from before it was installed, and answers from them locally.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/vshulcz/deja-vu.git",
+        "path": "extensions/grok",
+        "sha": "a50e99f9d85630308926873f893100de48a7bf7c"
+      },
+      "homepage": "https://github.com/vshulcz/deja-vu",
+      "keywords": ["deja", "recall past sessions", "what did I do before", "search my agent history", "session memory"]
     }
   ]
 }
