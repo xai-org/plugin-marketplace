@@ -1,0 +1,14 @@
+{
+  "name": "swif",
+  "version": "1.0.0",
+  "description": "Swif.ai is a UEM software platform that connects Grok to your unique Swif.ai device management tenant. This plugin can be used to control your Macs, Windows, Linux, iOS and Android devices with Chromebooks and GoogleBooks coming soon.",
+  "author": {
+    "name": "Swifteam Inc",
+    "email": "support@swif.ai",
+    "url": "https://swif.ai"
+  },
+  "homepage": "https://swif.ai",
+  "license": "MIT",
+  "keywords": ["swif", "swif.ai", "swif uem", "swifteam"],
+  "logo": "assets/logo.png"
+}
