@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+        {
+      "name": "hireko-recruiter",
+      "description": "Hireko AI Recruiter empowers talent teams with automated candidate analytics, AI-powered interview link generation, and semantic candidate search scorecards.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jishnusaireddy/hireko-grok-marketplace.git",
+        "sha": "16a31f238542c35a6a0162c9d935d6b0632103fd"
+      },
+      "homepage": "https://hireko.ai",
+      "keywords": [
+        "hireko",
+        "hireko recruiter",
+        "hireko ai"
+      ],
+      "domains": [
+        "hireko.ai"
+      ]
     }
   ]
 }

@@ -654,6 +654,24 @@
         ]
       }
     },
+    "hireko-recruiter": {
+      "sha": "16a31f238542c35a6a0162c9d935d6b0632103fd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "hireko-recruiter",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hireko-recruiter",
+            "description": "Sign in and manage your Hireko Recruiter workspace. Candidate analytics, AI interview links, and candidate search score…"
+          }
+        ]
+      }
+    },
     "html-css-to-image": {
       "sha": "031616b48d603559038cbe042f73351b8b063df4",
       "version": "0.3.0",
