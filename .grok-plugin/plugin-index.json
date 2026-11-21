@@ -684,6 +684,268 @@
         ]
       }
     },
+    "litgrok": {
+      "sha": "070b91b00a96ab17b5c67661c78c1db77bc06c4b",
+      "version": "1.0.39",
+      "components": {
+        "agents": [
+          {
+            "name": "litgrok-executor",
+            "description": "Executes one bounded plan task and returns tests, evidence, and a fail-closed status packet."
+          },
+          {
+            "name": "litgrok-korean-prose-editor",
+            "description": "Edits Korean prose for natural flow while preserving meaning, facts, and protected terms."
+          },
+          {
+            "name": "litgrok-korean-style-analyzer",
+            "description": "Diagnoses machine-written texture in Korean prose and prioritizes precise revision targets."
+          },
+          {
+            "name": "litgrok-librarian-researcher",
+            "description": "Researches authoritative documentation and records source-backed evidence for a bounded question."
+          },
+          {
+            "name": "litgrok-meaning-preservation-auditor",
+            "description": "Audits a prose revision for meaning drift, factual changes, and altered certainty."
+          },
+          {
+            "name": "litgrok-native-flow-reviewer",
+            "description": "Reviews a workflow for coherent Grok-native activation, evidence, and failure handling."
+          },
+          {
+            "name": "litgrok-planner",
+            "description": "Produces a decision-complete, evidence-backed plan without changing product files."
+          },
+          {
+            "name": "litgrok-polish-orchestrator",
+            "description": "Reconciles Korean prose diagnostics into a minimal, meaning-safe polish decision."
+          },
+          {
+            "name": "litgrok-qa-runner",
+            "description": "Runs bounded project and host QA scenarios and records artifacts plus cleanup receipts."
+          },
+          {
+            "name": "litgrok-quality-reviewer",
+            "description": "Reviews changed files for correctness, maintainability, security, and package-surface fidelity."
+          },
+          {
+            "name": "litgrok-verifier",
+            "description": "Verifies an implementation against its objective, evidence, and safety guardrails."
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostCompact"
+          },
+          {
+            "name": "PostToolUse",
+            "description": "^(Bash|bash|Edit|edit|Write|write)$"
+          },
+          {
+            "name": "PostToolUseFailure"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "^(Edit|edit|Write|write)$"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "StopFailure"
+          },
+          {
+            "name": "SubagentStart"
+          },
+          {
+            "name": "SubagentStop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "skills": [
+          {
+            "name": "autoconference",
+            "description": "Convene bounded, independent subagent lanes for evidence-based deliberation, rebuttal, and synthesis."
+          },
+          {
+            "name": "autoresearch",
+            "description": "Run a bounded research campaign with independent subagent lanes, evidence gates, and parent synthesis."
+          },
+          {
+            "name": "browser-drive",
+            "description": "Conduct a bounded web or browser task while respecting host permissions, sandbox network limits, and user-controlled st…"
+          },
+          {
+            "name": "comment-checker",
+            "description": "Audit code comments after bounded edits for accuracy, necessity, safety, and maintenance value, using the diff and curr…"
+          },
+          {
+            "name": "debugging",
+            "description": "Diagnose a reproducible tool or program failure while preserving evidence, permissions, and sandbox boundaries."
+          },
+          {
+            "name": "deep-interview",
+            "description": "Resolve consequential ambiguity through a structured interview and an approval-gated plan before execution."
+          },
+          {
+            "name": "frontend-ui-ux",
+            "description": "Moved: frontend-ui-ux builds and inspects web and app interfaces from one locked house style, layout family and design…"
+          },
+          {
+            "name": "lit-adhd",
+            "description": "Answer \"where was I\" across every recent agent session of this repository with a six-line verdict card, what changed si…"
+          },
+          {
+            "name": "lit-brainstorm",
+            "description": "Open a question into many different options, group and score them against stated criteria, and converge to a short list…"
+          },
+          {
+            "name": "lit-burnoff",
+            "description": "Remove generated-code clutter across an authorized change while preserving behavior, test coverage, and repository boun…"
+          },
+          {
+            "name": "lit-burnoff-file",
+            "description": "Clean generated prose patterns in one authorized file while preserving supported meaning and verifying the diff."
+          },
+          {
+            "name": "lit-code",
+            "description": "Implement a bounded code change with explicit requirements, permissions, sandbox limits, and observable verification."
+          },
+          {
+            "name": "lit-commit",
+            "description": "Prepare scoped Git changes, inspect staging and history, and create a verified commit within explicit repository and pu…"
+          },
+          {
+            "name": "lit-comprehend",
+            "description": "Build a bounded, evidence-linked understanding of a requested scope before consequential work begins."
+          },
+          {
+            "name": "lit-crucible",
+            "description": "Stress-test an approach through bounded read-only exploration, contradiction checks, and a synthesized planning handoff."
+          },
+          {
+            "name": "lit-diagram-drawer",
+            "description": "Moved: lit-diagram-drawer draws conceptual diagrams (architecture, workflows, systems, data models, timelines) and is n…"
+          },
+          {
+            "name": "lit-docx",
+            "description": "Moved: lit-docx builds finished Word documents (report, doc, docx, Word, 보고서, 리포트, 기획서, 제안서, 문서, 워드, including a bare l…"
+          },
+          {
+            "name": "lit-handoff",
+            "description": "Prepare a precise, secret-safe resume contract for continuing work in a later agent session."
+          },
+          {
+            "name": "lit-hijack",
+            "description": "Port the mechanisms of someone else's published know-how (posts, articles, GitHub repos, gists, blog posts, PDFs, video…"
+          },
+          {
+            "name": "lit-humanizer",
+            "description": "Revise model-written prose so it fits the reader, preserves meaning, and removes only clear drafting residue."
+          },
+          {
+            "name": "lit-init",
+            "description": "Initialize scoped project guidance by inspecting existing instruction surfaces, resolving conflicts, and verifying plac…"
+          },
+          {
+            "name": "lit-plan",
+            "description": "Build an approval-ready implementation plan from a concrete objective before editing."
+          },
+          {
+            "name": "lit-pptx",
+            "description": "Moved: lit-pptx builds finished PowerPoint decks (slides, deck, presentation, PPT, pptx, 발표자료, 발표, 슬라이드, 덱, 피피티, includ…"
+          },
+          {
+            "name": "lit-schematic",
+            "description": "Moved: lit-schematic draws physical schematics of real equipment (P&ID, PFD, BFD, equipment layout, isometric cutaway,…"
+          },
+          {
+            "name": "lit-scientific-visualization",
+            "description": "Moved: lit-scientific-visualization turns verified measurements into a publication-ready figure and caption, and is now…"
+          },
+          {
+            "name": "lit-team",
+            "description": "Type lit team <goal>; this session becomes the orchestrator and runs the team for you. It uses subagents, one workflow,…"
+          },
+          {
+            "name": "lit-typographic-motion",
+            "description": "Moved: lit-typographic-motion directs finished short films (video, clip, motion graphics, kinetic type, lyric video, ti…"
+          },
+          {
+            "name": "litgoal",
+            "description": "Set the finish line for a piece of work as one checkable objective with criteria, so work runs toward it. Shapes the ob…"
+          },
+          {
+            "name": "litgrok",
+            "description": "Explain the LitGrok skill, rule, hook-layout, and dependency-free npx installer payload, and what loads in Grok Bot and…"
+          },
+          {
+            "name": "litresearch",
+            "description": "Conduct bounded, source-traceable research with the host's search tools and documented MCP connections without overstat…"
+          },
+          {
+            "name": "litwork",
+            "description": "Turn a request into a bounded session checklist with honest receipts, backed by LitGrok's passive hooks and event ledge…"
+          },
+          {
+            "name": "lsp",
+            "description": "Use language-server code intelligence for a bounded question: Grok Build's optional built-in LSP tool within its defaul…"
+          },
+          {
+            "name": "lsp-setup",
+            "description": "Inspect a project's language-server visibility, from Grok Build's host inventory or the host's own language features, a…"
+          },
+          {
+            "name": "readme-studio",
+            "description": "Moved: readme-studio writes a factual README for a repository with an inspected cover, outlined title type and an optio…"
+          },
+          {
+            "name": "refactor",
+            "description": "Restructure an existing code path in an isolated git worktree while preserving behavior and repository state."
+          },
+          {
+            "name": "review-work",
+            "description": "Review a plan before work starts, or the finished work after it. Picks plan review or work review from what exists, or…"
+          },
+          {
+            "name": "rules",
+            "description": "Inspect and explain the project guidance an agent host loads (AGENTS-family files, Grok Build rules), its precedence, t…"
+          },
+          {
+            "name": "start-work",
+            "description": "Execute an approved plan with bounded ownership, verification, and isolated work when useful."
+          },
+          {
+            "name": "structural-search",
+            "description": "Investigate code structure with repository search, reads, and language-server code intelligence where the host offers i…"
+          },
+          {
+            "name": "ultra-brainstorm",
+            "description": "Ideation at a scale one context cannot hold. Asks how many cheap idea agents to run (100 or more), shows the rough cost…"
+          },
+          {
+            "name": "visual-qa",
+            "description": "Moved: visual-qa reviews a built interface or visual artifact from screenshots at several sizes and states, and is now…"
+          },
+          {
+            "name": "wikify",
+            "description": "Build or maintain a local, source-backed project knowledge map while keeping its state explicit under .grok/."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
