@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "87e2262d07123c1549701ee0d104fe7623a335dc"
+        "sha": "8bb46159108f0cd6a749959b20c1411257411090"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "831d23fede4ff7d9151985f455b7007271a3262b"
+        "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "a0f1c8280d28cd0c8e85de43420e1846b2c486cb"
+        "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+        "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
@@ -232,7 +232,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
+        "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "2f0d00c931e70c145f1033113aefde677ab15f87",
+        "sha": "119bc4a8de4eb4370db1f5838275bc9e7a0d8e4a",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
+        "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
-        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+        "sha": "031616b48d603559038cbe042f73351b8b063df4"
       },
       "homepage": "https://htmlcsstoimage.com",
       "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
+        "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getmattered/getmattered-mcp.git",
-        "sha": "c1f6d2c6129e007279ef3eb346394a2b80ddc4ae",
+        "sha": "004ff0f7303e700990cc4be630a5e12d6fa51e2b",
         "path": "plugins/getmattered"
       },
       "homepage": "https://getmattered.com/mcps",
