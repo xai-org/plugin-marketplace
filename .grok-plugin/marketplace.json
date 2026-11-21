@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "within",
+      "description": "Shop independent boutiques: live stock with sizes and prices, where to buy a designer, what an item costs delivered with duty and tax, and boutiques in more than 140 cities. A hosted MCP server with 26 read-only tools, free and keyless, plus a skill on shopping the boutiques well.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/startupbuilders777/within-mcp.git",
+        "sha": "0537e96971d5eac7d34877efa1e6fe85967eb4ae",
+        "path": "plugins/within"
+      },
+      "homepage": "https://shopwithin.co/agents",
+      "keywords": ["within", "shopwithin", "within boutiques"],
+      "domains": ["shopwithin.co"]
     }
   ]
 }
