@@ -929,23 +929,6 @@
         ]
       }
     },
-    "osmo-ai-receptionist": {
-      "version": "1.0.0",
-      "components": {
-        "mcpServers": [
-          {
-            "name": "osmo-ai-receptionist",
-            "description": "http"
-          }
-        ],
-        "skills": [
-          {
-            "name": "osmo-ai-receptionist",
-            "description": "Use when the user wants to run their AI phone receptionist or answering service from Grok — see missed calls and who ca…"
-          }
-        ]
-      }
-    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
