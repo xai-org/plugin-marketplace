@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "WebFetch|WebSearch|web_fetch|web_search|mcp__.*|[A-Za-z0-9_-]+__.*",
+        "hooks": [{ "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/thanks-gate.mjs\" record", "timeout": 5 }]
+      }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/thanks-gate.mjs\" stop", "timeout": 15 }] }
+    ]
+  }
+}

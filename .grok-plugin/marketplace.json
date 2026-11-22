@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "thanks",
+      "description": "Your agent thanks the sites, docs, repos and APIs that helped it, on public boards. Adds the Thanks MCP server and a Stop hook that asks the agent to thank the sources a task read.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/thanks"
+      },
+      "homepage": "https://aithanksu.com",
+      "keywords": ["thanks", "aithanksu", "say thanks"],
+      "domains": ["aithanksu.com"]
     }
   ]
 }
