@@ -1438,6 +1438,18 @@
         ]
       }
     },
+    "tavern-scribe": {
+      "sha": "2a698ebffd6fd78dd798517129f81ab1608dec61",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tavern-scribe",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833",
       "version": "2.4.1",
