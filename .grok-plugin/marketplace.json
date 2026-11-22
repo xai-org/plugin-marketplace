@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-wealth",
+      "description": "Antevo Wealth (remote MCP server + skills): your own household's portfolios, net worth, real assets and exposure, read over OAuth with your Antevo Wealth account. It can record holdings you already own, only after you confirm; it never trades, moves money or deletes anything.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+        "path": "plugins/antevo-wealth"
+      },
+      "homepage": "https://antevo.ch/wealth/",
+      "keywords": [
+        "antevo wealth",
+        "antevo net worth",
+        "antevo household"
+      ],
+      "domains": [
+        "wealth.antevo.ch",
+        "antevo.ch/wealth"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }
