@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "dax-pc-cleanup",
+      "description": "Cleans a Windows PC from a disk layout the person sets up first. Games, programs, and their data go to the drives they choose, and the old path stays valid through a folder junction. Reviews drivers and stops background processes that are not needed for a stable system. Asks before every change.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klartextkontext-arch/dax-pc-cleanup.git",
+        "sha": "596f351d4fc40acced6bf02e20716c95bfe5a51e"
+      },
+      "homepage": "https://github.com/klartextkontext-arch/dax-pc-cleanup",
+      "keywords": ["dax pc cleanup", "dax-pc-cleanup", "dax cleanup skill", "dax aufräumskill"]
     }
   ]
 }

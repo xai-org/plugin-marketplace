@@ -362,6 +362,17 @@
         ]
       }
     },
+    "dax-pc-cleanup": {
+      "sha": "596f351d4fc40acced6bf02e20716c95bfe5a51e",
+      "components": {
+        "skills": [
+          {
+            "name": "dax-pc-cleanup",
+            "description": "Cleans a Windows PC from a disk layout the person sets up first. Games, programs, and their data go to the drives they…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
