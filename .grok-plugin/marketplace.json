@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "hatchlock",
+      "description": "Blocks type-checker escape hatches (@ts-ignore, as any, # type: ignore) before they are written and checks edits with your own compilers.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tahmidbintaslim/HatchLock.git",
+        "sha": "7a1458b41d3a2614a65085fe1ae801c3a6dec446"
+      },
+      "homepage": "https://tahmidbintaslim.github.io/HatchLock/",
+      "keywords": ["hatchlock"],
+      "version": "1.3.0",
+      "author": {
+        "name": "Tahmid Bin Taslim Rafi",
+        "url": "https://github.com/tahmidbintaslim"
+      }
     }
   ]
 }

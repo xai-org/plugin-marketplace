@@ -642,6 +642,67 @@
         ]
       }
     },
+    "hatchlock": {
+      "sha": "7a1458b41d3a2614a65085fe1ae801c3a6dec446",
+      "version": "1.3.0",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Write|Edit"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Write|Edit|NotebookEdit"
+          },
+          {
+            "name": "Stop"
+          }
+        ],
+        "lspServers": [
+          {
+            "name": "bash"
+          },
+          {
+            "name": "dart"
+          },
+          {
+            "name": "elixir"
+          },
+          {
+            "name": "r"
+          },
+          {
+            "name": "terraform"
+          },
+          {
+            "name": "zig"
+          }
+        ],
+        "skills": [
+          {
+            "name": "architect",
+            "description": "Designs lean, data-first software architectures, database schemas, API contracts, and Architecture Decision Records (AD…"
+          },
+          {
+            "name": "clean",
+            "description": "De-bloats spaghetti code, collapses speculative abstractions, flattens nested conditionals, and removes dead code while…"
+          },
+          {
+            "name": "doctor",
+            "description": "Audits the language servers and compilers HatchLock can use for the languages in the current project, and lists the off…"
+          },
+          {
+            "name": "optimize",
+            "description": "Optimizes application performance, LLM/AI pipelines, database queries, memory allocations, and hot-path algorithms usin…"
+          },
+          {
+            "name": "tight-diff",
+            "description": "Load before any code change, even a one-line fix. Keeps the diff minimal, verifies it with the compiler, and fixes type…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
