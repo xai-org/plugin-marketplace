@@ -950,6 +950,28 @@
         ]
       }
     },
+    "primitive-paper": {
+      "sha": "2fe75ba124d2dea69fff0fb0259b4a82bca51ce0",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "paper",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "getting-started",
+            "description": "Introduce primitive paper and get someone going. Use when the person first connects paper, asks what paper is or what i…"
+          },
+          {
+            "name": "work-together",
+            "description": "Change things in primitive paper the paper way, asking first. Use whenever you are about to create, edit, move, rename…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
