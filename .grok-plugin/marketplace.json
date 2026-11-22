@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mckrosekri/picmim-mcp.git",
-        "sha": "bfeee1aca1f9d92329176ccd532c637895166904"
+        "sha": "5277953e5db6d66038c2602f8016ab4fbe68776b"
       },
       "homepage": "https://picmim.com/mcp-clients.md",
       "keywords": ["picmim", "picmim mcp", "picmim social media", "picmim social scheduler"],
