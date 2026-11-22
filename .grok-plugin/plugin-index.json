@@ -1,6 +1,36 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-trademark": {
+      "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+      "version": "0.5.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-trademark",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clearance-check",
+            "description": "Screen a brand, product or company name against the trademark registers, and for a shortlist also the company registers…"
+          },
+          {
+            "name": "conflict-review",
+            "description": "Work through what has been filed near the user's own watched names — review the hits, clear the ones that are not threa…"
+          },
+          {
+            "name": "holder-investigation",
+            "description": "Find out who is really behind a trademark holder: an operating company, a shell, a serial filer. Starts from the regist…"
+          },
+          {
+            "name": "opposition-deadline",
+            "description": "Answer how long there is to oppose a trademark in a given office, what the clock runs from, and the provision that says…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
