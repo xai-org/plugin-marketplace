@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "dchub",
+      "description": "DC Hub, the orchestration layer for data center and energy intelligence. Call execute_plan first: it returns one dated, cited answer on grid headroom, interconnection queues, time-to-power, energy prices, facilities, fiber and sites, including the Data Center Power Index (DCPI). Remote MCP at https://dchub.cloud/mcp; DCHUB_API_KEY is optional.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/azmartone67/dchub-mcp-server.git",
+        "sha": "df28901b64eb68db0616f411ca92be3c37056411",
+        "path": "plugins/dchub-copilot"
+      },
+      "homepage": "https://dchub.cloud/connect",
+      "keywords": ["dc hub", "dchub", "data center power index", "dcpi"],
+      "domains": ["dchub.cloud"]
     }
   ]
 }
