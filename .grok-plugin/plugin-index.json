@@ -950,6 +950,42 @@
         ]
       }
     },
+    "postemi": {
+      "sha": "9a64be185ae699b8e3e091655b8e67332e142082",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "announce-release",
+            "description": "Draft social posts that announce the latest release or a shipped feature, from the changelog and recent commits, and sc…"
+          },
+          {
+            "name": "schedule-post",
+            "description": "Write and schedule a social media post with Postemi for a time the user names, with a preview per account before anythi…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "postemi",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "postemi",
+            "description": "Write, preview, schedule, change, list and cancel social media posts, and read their analytics, with Postemi's MCP tool…"
+          },
+          {
+            "name": "postemi-templates",
+            "description": "Postemi's library of ready post templates and hooks, the same ones the Postemi composer offers under Templates. Everyda…"
+          },
+          {
+            "name": "postemi-writing",
+            "description": "Write social media posts people stop for and read to the end, then schedule them with Postemi. Covers finding post idea…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
