@@ -327,7 +327,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/galleonlabs/hypergrok-trading-desk.git",
-        "sha": "5cf2adde19ac3cd6514ea7f58bf7c2d24edb0f27"
+        "sha": "2ea3201d72b56c8c776da557cea0c817e972a191"
       },
       "homepage": "https://github.com/galleonlabs/hypergrok-trading-desk",
       "keywords": [
@@ -339,7 +339,7 @@
       "domains": [
         "galleonlabs.io"
       ],
-      "version": "1.9.1",
+      "version": "1.10.0",
       "author": {
         "name": "Andrew Wilkinson (Galleon Labs)"
       },
