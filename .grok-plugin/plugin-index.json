@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-mandates": {
+      "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-mandates",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "meeting-prep",
+            "description": "Prepare for a client meeting from the firm's own record — who the client is, the state of their book and review, goals…"
+          },
+          {
+            "name": "reviews-due",
+            "description": "Which clients in the firm's book are due or overdue a review, in the order they need attention — and, only on the user'…"
+          },
+          {
+            "name": "succession-scan",
+            "description": "Which clients in the firm's book have incomplete succession planning, ranked by how much of their checklist is still op…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
