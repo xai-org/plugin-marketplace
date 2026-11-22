@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "browserpair",
+      "description": "Work in your own signed-in Chrome with BrowserPair, using remote MCP and OAuth.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BrowserPair/browserpair-integrations.git",
+        "sha": "2d36bff3ed8ae16e222fdbe88658095bf47680b1"
+      },
+      "homepage": "https://browserpair.com",
+      "keywords": [
+        "browserpair"
+      ],
+      "domains": [
+        "browserpair.com",
+        "mcp.browserpair.com",
+        "docs.browserpair.com"
+      ]
     }
   ]
 }
