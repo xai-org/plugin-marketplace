@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "meeting-mate": {
+      "type": "http",
+      "url": "https://meetingmateapp.com/api/mcp"
+    }
+  }
+}
