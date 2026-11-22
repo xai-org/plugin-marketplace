@@ -322,12 +322,12 @@
     },
     {
       "name": "hypergrok",
-      "description": "Turn Grok Build into a 7-role Hyperliquid trading desk. Ships seven specialist agents and seventeen skills for market data, risk, ticketed execution and review, plus read-only Python diagnostics. Every exchange send requires native approval coverage, Risk PASS and the exact approved ticket.",
+      "description": "Turn Grok Build into a 7-role Hyperliquid trading desk. Ships seven specialist agents and seventeen skills for market data, risk, ticketed execution and review, plus read-only Python diagnostics. Starts with a keyless market snapshot. Exchange actions require an approved ticket or an explicit standing mandate.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/galleonlabs/hypergrok-trading-desk.git",
-        "sha": "63d7eae55741e2197561b4f52227ed2c97f32e01"
+        "sha": "5cf2adde19ac3cd6514ea7f58bf7c2d24edb0f27"
       },
       "homepage": "https://github.com/galleonlabs/hypergrok-trading-desk",
       "keywords": [
@@ -339,9 +339,9 @@
       "domains": [
         "galleonlabs.io"
       ],
-      "version": "1.7.0",
+      "version": "1.9.1",
       "author": {
-        "name": "Galleon Labs"
+        "name": "Andrew Wilkinson (Galleon Labs)"
       },
       "tags": [
         "hyperliquid",

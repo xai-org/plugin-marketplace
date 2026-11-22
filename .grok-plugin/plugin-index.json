@@ -685,8 +685,8 @@
       }
     },
     "hypergrok": {
-      "sha": "63d7eae55741e2197561b4f52227ed2c97f32e01",
-      "version": "1.7.0",
+      "sha": "5cf2adde19ac3cd6514ea7f58bf7c2d24edb0f27",
+      "version": "1.9.1",
       "components": {
         "agents": [
           {
