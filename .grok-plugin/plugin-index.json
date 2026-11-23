@@ -1169,8 +1169,8 @@
       }
     },
     "publicrecords": {
-      "sha": "4d8b607e232956f2320ff519b421b0888bc1c2f6",
-      "version": "1.0.0",
+      "sha": "7f6d6b47e3a1eb6d707fcf3702994fc50c1a3d79",
+      "version": "1.1.0",
       "components": {
         "mcpServers": [
           {
@@ -1202,6 +1202,10 @@
           {
             "name": "gov-tenders-and-grants",
             "description": "Find government contract opportunities, tenders, grants, awards and city council decisions from official public sources…"
+          },
+          {
+            "name": "skool-communities",
+            "description": "Search Skool communities by keyword or URL and get members, price, rating and estimated monthly revenue today, plus dai…"
           },
           {
             "name": "sports-odds",
