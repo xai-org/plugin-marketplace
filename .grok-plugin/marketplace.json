@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "socialneuron",
+      "description": "Social Neuron for Grok: plan, create, quality-check, schedule and measure organic TikTok, Instagram, YouTube and X content through the hosted Social Neuron MCP server, with skills that show every post and wait for your yes before publishing. Free MIT plugin; requires a Social Neuron account. Generation uses your plan's credits.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/socialneuron/mcp-server.git",
+        "sha": "a5dd1914ba308b4cdbca6000b68ee352f4fde469",
+        "path": "plugins/socialneuron"
+      },
+      "homepage": "https://socialneuron.com/for-developers",
+      "keywords": ["socialneuron", "social neuron", "social neuron mcp"],
+      "domains": ["socialneuron.com"]
     }
   ]
 }
