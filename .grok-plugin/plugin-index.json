@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "appdeploy": {
+      "sha": "14f301c8c25e89073911425894048d2e31dbbbb0",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "appdeploy",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
