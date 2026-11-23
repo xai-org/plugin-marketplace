@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qovery": {
+      "type": "http",
+      "url": "https://mcp.qovery.com/mcp"
+    }
+  }
+}

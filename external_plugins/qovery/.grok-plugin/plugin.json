@@ -1,0 +1,13 @@
+{
+  "name": "qovery",
+  "version": "1.0.0",
+  "description": "Qovery for Grok Build via the hosted Qovery MCP server at mcp.qovery.com. Inspect organizations, clusters, environments and services running in your own AWS, GCP, Azure or Scaleway account, check deployment status, read service logs and configuration. Read-only by default. Sign in with your Qovery account on first connect.",
+  "author": {
+    "name": "Qovery",
+    "url": "https://www.qovery.com"
+  },
+  "homepage": "https://www.qovery.com/docs/copilot/mcp-server",
+  "license": "MIT",
+  "keywords": ["qovery", "qovery mcp", "qovery deploy", "kubernetes", "devops"],
+  "logo": "assets/logo.svg"
+}
