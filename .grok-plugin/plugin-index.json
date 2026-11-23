@@ -1197,8 +1197,8 @@
       }
     },
     "rankbyai": {
-      "sha": "8818d6639be5cb1d0f7981443bd9839f579c1d42",
-      "version": "1.2.0",
+      "sha": "dae46778ccde164a07e56b2f3fb119dbb234fb32",
+      "version": "1.2.1",
       "components": {
         "mcpServers": [
           {
@@ -1209,7 +1209,7 @@
         "skills": [
           {
             "name": "rankbyai",
-            "description": "Use the RankbyAI MCP tools to check whether ChatGPT, Perplexity, Gemini and Google Maps recommend a local business, poi…"
+            "description": "Use the RankbyAI MCP tools to check whether ChatGPT, Perplexity, Gemini and Google Maps recommend a local business or a…"
           }
         ]
       }
