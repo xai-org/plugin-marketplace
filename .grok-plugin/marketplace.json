@@ -512,6 +512,31 @@
         "email": "contact@antevo.ch",
         "url": "https://antevo.ch"
       }
+    },
+    {
+      "name": "antevo-research",
+      "description": "Antevo Research (remote MCP server + skills): put a question to one of Antevo's eighteen research desks (economy, geopolitics, shipping, rates, equities, ETFs, company results, the Swiss market and more) and get the desk's own written answer, every fact dated. Signs in with any Antevo account over OAuth. Editorial research, never advice to buy, sell or hold.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "5816de3d505241b577144c925633d077f872de60",
+        "path": "plugins/antevo-research"
+      },
+      "homepage": "https://antevo.ch/research/",
+      "keywords": [
+        "antevo research",
+        "antevo research desks",
+        "ask a research desk antevo"
+      ],
+      "domains": [
+        "antevo.ch/research"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }
