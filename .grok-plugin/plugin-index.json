@@ -1770,6 +1770,24 @@
         ]
       }
     },
+    "wellness-project": {
+      "sha": "4ca0723c523f27f458a88a093824e4278180b32d",
+      "version": "1.0.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "wellness-project",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "setup",
+            "description": "Connect the Wellness Project MCP server. Use when the plugin has just been installed, when the user asks how to connect…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
       "version": "1.41.8",
