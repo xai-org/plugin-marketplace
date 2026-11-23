@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tolstoy",
+      "description": "Tolstoy, the agentic platform for AI-native ecommerce brands. Search your store's products and media library, upload media, read saved models, templates, projects, credit usage and store analytics, and run the Tolstoy Agent from chat.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoTolstoy/mcp.git",
+        "sha": "a29d00e0783f87402a3a558deb5b17fc2e4cb17d"
+      },
+      "homepage": "https://www.gotolstoy.com/mcp",
+      "keywords": ["tolstoy", "tolstoy mcp", "gotolstoy"],
+      "domains": ["gotolstoy.com"]
     }
   ]
 }

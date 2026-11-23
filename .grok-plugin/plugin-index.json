@@ -1518,6 +1518,28 @@
         ]
       }
     },
+    "tolstoy": {
+      "sha": "a29d00e0783f87402a3a558deb5b17fc2e4cb17d",
+      "version": "1.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tolstoy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ecommerce-analytics",
+            "description": "Plan, add and judge analytics for an online store - what to measure and why, which storefront events to send and what e…"
+          },
+          {
+            "name": "tolstoy-product-media",
+            "description": "Find the existing Tolstoy library media for a store product and fill its gaps with the merchant's own uploads. Use when…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",
