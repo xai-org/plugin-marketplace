@@ -1,7 +1,7 @@
 # Seltz plugin for Grok Build
 
 Fast and accurate web search for AI agents. The plugin connects Grok Build to
-the hosted [Seltz MCP server](https://docs.seltz.ai/integrations/mcp) and adds
+the hosted [Seltz MCP server](https://docs.seltz.ai/integrations/mcp?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace) and adds
 two tools:
 
 - `search`: web search with filters for news, companies, people, financial
@@ -47,7 +47,7 @@ environment variables.
 
 Optional API key. A static `Authorization` header is sent instead of that
 OAuth flow, so the shipped `.mcp.json` cannot offer both. To use a key, create
-one at [console.seltz.ai](https://console.seltz.ai), export `SELTZ_API_KEY`
+one at [console.seltz.ai](https://console.seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace), export `SELTZ_API_KEY`
 before starting Grok Build, and add the header yourself:
 
 ```json
@@ -69,14 +69,14 @@ Do not paste the key into chat.
 The plugin does not read `~/.ssh` or `.env` files, and it does not run shell
 commands, hooks, or install scripts.
 
-Use of the hosted server is governed by the [Seltz terms](https://seltz.ai/terms)
-and [privacy policy](https://seltz.ai/privacy-policy).
+Use of the hosted server is governed by the [Seltz terms](https://seltz.ai/terms?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace)
+and [privacy policy](https://seltz.ai/privacy-policy?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace).
 
 ## Links
 
-- Website: https://seltz.ai
-- Docs: https://docs.seltz.ai/integrations/mcp
-- Console: https://console.seltz.ai
+- Website: https://seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace
+- Docs: https://docs.seltz.ai/integrations/mcp?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace
+- Console: https://console.seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace
 
 ## Contacts
 

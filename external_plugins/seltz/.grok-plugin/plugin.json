@@ -4,9 +4,9 @@
   "description": "Fast and accurate web search for AI agents, with filters for news, companies and people and a fetch tool to read any page in full.",
   "author": {
     "name": "Seltz",
-    "url": "https://seltz.ai"
+    "url": "https://seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace"
   },
-  "homepage": "https://seltz.ai",
+  "homepage": "https://seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace",
   "repository": "https://github.com/seltz-ai/seltz-antigravity-plugin",
   "license": "Proprietary",
   "keywords": ["seltz", "seltz search", "seltz ai"],

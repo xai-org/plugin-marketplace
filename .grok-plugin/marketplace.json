@@ -496,7 +496,7 @@
         "type": "local",
         "path": "./external_plugins/seltz"
       },
-      "homepage": "https://seltz.ai",
+      "homepage": "https://seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace",
       "keywords": ["seltz", "seltz search", "seltz ai"],
       "domains": ["seltz.ai", "console.seltz.ai", "docs.seltz.ai", "mcp.seltz.ai"]
     }
