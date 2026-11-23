@@ -1157,8 +1157,8 @@
       }
     },
     "pushary": {
-      "sha": "bda3a3ae54d28286a46e4df1349b990a227093da",
-      "version": "0.1.0",
+      "sha": "48d7e949432b04aa6dacba1f5a1fbe68f7c6ab44",
+      "version": "0.1.3",
       "components": {
         "mcpServers": [
           {
