@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "picmim",
+      "description": "Picmim social media management integration (MCP server and seven skills). Plan, draft, schedule, publish, manage media and inbox activity, and analyze connected social accounts through Picmim's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mckrosekri/picmim-mcp.git",
+        "sha": "48abe313b844175f6ab939a0d2eb59c824e633b5"
+      },
+      "homepage": "https://picmim.com/mcp-clients.md",
+      "keywords": ["picmim", "picmim mcp", "picmim social media", "picmim social scheduler"],
+      "domains": ["picmim.com"]
     }
   ]
 }
