@@ -1770,6 +1770,24 @@
         ]
       }
     },
+    "within": {
+      "sha": "0537e96971d5eac7d34877efa1e6fe85967eb4ae",
+      "version": "0.3.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "within",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "shop-the-boutiques",
+            "description": "Help a person find, compare, and buy a piece from independent luxury boutiques through within (shopwithin.co), by city,…"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "85e35a0880262e500dd6da44c8691d3ac5c4ef30",
       "version": "1.41.9",
