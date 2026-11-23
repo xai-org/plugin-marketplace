@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-research": {
+      "sha": "5816de3d505241b577144c925633d077f872de60",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-research",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ask-a-desk",
+            "description": "Put the user's question to the Antevo research desk that covers it and give the desk's written answer, with its facts d…"
+          },
+          {
+            "name": "company-read",
+            "description": "A named listed company read across Antevo's desks: the equities desk for the business and valuation figures, the result…"
+          },
+          {
+            "name": "joined-up-view",
+            "description": "A question that crosses desks — e.g. what a Red Sea closure means for shipping, oil and European rates, or how a US tar…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
