@@ -910,8 +910,8 @@
       }
     },
     "octen": {
-      "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6",
-      "version": "1.1.0",
+      "sha": "6210e412232ac96c59872d37711d23015e5f5358",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -922,7 +922,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, image search, and clean U…"
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, deeper web search, image…"
           }
         ]
       }
@@ -1295,8 +1295,8 @@
       }
     },
     "stripe": {
-      "sha": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
-      "version": "0.13.2",
+      "sha": "2815b93e2c54a87bd9b146df62704a0e84930929",
+      "version": "0.13.3",
       "components": {
         "agents": [
           {
@@ -1797,8 +1797,8 @@
       }
     },
     "wix": {
-      "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
-      "version": "1.41.8",
+      "sha": "85e35a0880262e500dd6da44c8691d3ac5c4ef30",
+      "version": "1.41.9",
       "components": {
         "mcpServers": [
           {
