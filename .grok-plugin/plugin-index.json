@@ -1168,6 +1168,52 @@
         ]
       }
     },
+    "publicrecords": {
+      "sha": "4d8b607e232956f2320ff519b421b0888bc1c2f6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "publicrecords",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ats-job-postings",
+            "description": "Pull new job postings since any date or window (24h, 7d, 30d) from company job boards hosted on Ashby, Greenhouse, Leve…"
+          },
+          {
+            "name": "company-social-profiles",
+            "description": "Resolve a company website, name, Google Maps listing or lead dataset to its official LinkedIn, X, YouTube, Instagram an…"
+          },
+          {
+            "name": "etsy-market-research",
+            "description": "Research Etsy markets with two public-data Actors: live Etsy search, market and category listing rows (price, rating, r…"
+          },
+          {
+            "name": "forecast-track-record",
+            "description": "Check how much to trust a forecast: given a claim from an organization (IMF, OECD, Fed/FOMC, SPF, ECB SPF, or a listed…"
+          },
+          {
+            "name": "google-ads-transparency",
+            "description": "See a competitor's Google ads from the Google Ads Transparency Center: enter a website or advertiser ID and get its new…"
+          },
+          {
+            "name": "gov-tenders-and-grants",
+            "description": "Find government contract opportunities, tenders, grants, awards and city council decisions from official public sources…"
+          },
+          {
+            "name": "sports-odds",
+            "description": "Get live and pre-game betting odds from Kambi-powered sportsbooks (BetRivers in several US states and Ontario, Unibet,…"
+          },
+          {
+            "name": "spotify-play-counts",
+            "description": "Get Spotify play counts for every track on a track, album, playlist or artist link, plus an artist's monthly listeners…"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
