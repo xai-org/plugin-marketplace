@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "rankbyai",
+      "description": "Official RankbyAI plugin (remote MCP server + skill). Check whether ChatGPT, Perplexity, Gemini and Google Maps recommend a local business or an online product, which pages (best-of lists, reviews, directories) their answers cite, and which of those pages link to competitors; audit why, and get a ranked fix plan with copy-ready fixes. Connects to https://rankbyai.live/api/mcp with OAuth sign-in; tools that cost money return an estimate first and run only after the user confirms.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/meestierolff/rankbyai.git",
+        "sha": "dae46778ccde164a07e56b2f3fb119dbb234fb32",
+        "path": "plugins/rankbyai"
+      },
+      "homepage": "https://rankbyai.live",
+      "keywords": ["rankbyai", "rankbyai.live", "rankbyai ai visibility", "rankbyai map grid"],
+      "domains": ["rankbyai.live"]
     }
   ]
 }
