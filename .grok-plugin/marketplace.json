@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seomatic",
+      "description": "SEOmatic SEO integration (hosted MCP server + skills). Answer from your real Google Search Console data, find pages close to page 1, diagnose traffic drops, run site audits, check AI visibility, and on paid plans stage SEO fixes on your CMS that you can review, approve and roll back.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Minh42/seomatic-mcp.git",
+        "sha": "9ed463ad1413bb82f98aba0e745eeb20ab8b09d4"
+      },
+      "homepage": "https://seomatic.ai/ai-assistants/grok-build",
+      "keywords": ["seomatic", "seo", "seo audit", "google search console", "search console mcp", "ai visibility"],
+      "domains": ["seomatic.ai", "app.seomatic.ai"]
     }
   ]
 }

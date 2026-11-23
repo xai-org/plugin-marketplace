@@ -1250,6 +1250,104 @@
         ]
       }
     },
+    "seomatic": {
+      "sha": "9ed463ad1413bb82f98aba0e745eeb20ab8b09d4",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "seomatic",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seomatic",
+            "description": "SEO agent for the user's own website through the SEOmatic CLI. Answers Google Search Console questions (top queries, to…"
+          },
+          {
+            "name": "seomatic-ai-citations",
+            "description": "Find out whether AI answers actually cite this site, using first-party evidence - real logged-in AI answers captured by…"
+          },
+          {
+            "name": "seomatic-ai-crawlers",
+            "description": "Check which AI bots crawl the connected site (GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, Google-Extended and more)…"
+          },
+          {
+            "name": "seomatic-ai-visibility-review",
+            "description": "Review how the connected brand shows up inside AI answers (ChatGPT, Claude, Perplexity, Gemini, Grok, AI Overviews) usi…"
+          },
+          {
+            "name": "seomatic-approval-workflow",
+            "description": "Operate SEOmatic's human-gated execution loop from chat - inspect staged proposals with full evidence, record the user'…"
+          },
+          {
+            "name": "seomatic-backlink-audit",
+            "description": "Audit the connected site''s backlink profile with live data: referring domains, anchor text, link velocity and spam sig…"
+          },
+          {
+            "name": "seomatic-cannibalization",
+            "description": "Find keyword cannibalization on the connected site: queries where two or more of its own pages compete in Google, from…"
+          },
+          {
+            "name": "seomatic-client-report",
+            "description": "Write a monthly SEO report for a client or a boss from the connected site''s real data: Search Console clicks and posit…"
+          },
+          {
+            "name": "seomatic-competitor-gap",
+            "description": "Compare the connected site with its real search competitors: who ranks for the same keywords, the keywords they win tha…"
+          },
+          {
+            "name": "seomatic-content-brief",
+            "description": "Write a content brief for one target keyword grounded in real data: search intent, what the current top results cover,…"
+          },
+          {
+            "name": "seomatic-content-refresh",
+            "description": "Find decaying content on the connected site, pages that used to earn more Search Console clicks than they do now, work…"
+          },
+          {
+            "name": "seomatic-ctr-fix",
+            "description": "Find pages on the connected site that rank on page 1 but lose the click, using the site''s own Search Console CTR curve…"
+          },
+          {
+            "name": "seomatic-indexing-check",
+            "description": "Check whether Google indexes the connected site''s important pages using the real Search Console URL Inspection data: f…"
+          },
+          {
+            "name": "seomatic-internal-linking",
+            "description": "Plan internal links for the connected site from real data: find pages that rank on page 2 or are not indexed and need l…"
+          },
+          {
+            "name": "seomatic-keyword-research",
+            "description": "Do keyword research grounded in the connected site: start from the queries it already earns in Search Console, expand w…"
+          },
+          {
+            "name": "seomatic-local-seo",
+            "description": "Review local SEO for the connected business: Google Business Profile calls, reviews and profile gaps, daily Rank Tracke…"
+          },
+          {
+            "name": "seomatic-local-seo-weekly",
+            "description": "Run a local business''s weekly SEO in one pass - what moved in its tracked searches (daily positions per city, the Goog…"
+          },
+          {
+            "name": "seomatic-seo-audit",
+            "description": "Run a complete, zero-cost SEO audit of the connected site through the SEOmatic connector - real Search Console data, te…"
+          },
+          {
+            "name": "seomatic-striking-distance",
+            "description": "Find the connected site''s striking-distance queries (page-2 rankings, positions 11-20, where one edit reaches page 1)…"
+          },
+          {
+            "name": "seomatic-traffic-drop",
+            "description": "Diagnose why organic traffic dropped on the connected site from real Search Console data: separate seasonality from rea…"
+          },
+          {
+            "name": "seomatic-weekly-brief",
+            "description": "Write a short weekly SEO brief for the connected site from real Search Console data - what changed in the last 7 days,…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
