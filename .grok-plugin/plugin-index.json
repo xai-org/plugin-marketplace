@@ -1845,6 +1845,7 @@
       }
     },
     "zoie": {
+      "sha": "1f79cafc606342b7770b79132044529a40769af8",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
