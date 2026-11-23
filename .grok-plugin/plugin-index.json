@@ -635,8 +635,8 @@
       }
     },
     "gsc-wizard": {
-      "sha": "045c795b6b1a79385e1bb6ff7e0a41b9da834271",
-      "version": "0.1.0",
+      "sha": "e79d11e200fe14f0080cccaa4d235fb3ed520429",
+      "version": "0.2.0",
       "components": {
         "agents": [
           {
@@ -645,6 +645,18 @@
           }
         ],
         "commands": [
+          {
+            "name": "gsc-ads-audit",
+            "description": "Audit the Google Ads accounts linked to a property via GSC Wizard"
+          },
+          {
+            "name": "gsc-ads-negatives",
+            "description": "Build a negative keyword list from a property's Google Ads search terms via GSC Wizard"
+          },
+          {
+            "name": "gsc-ads-products",
+            "description": "Sort a property's Shopping and Performance Max products against target ROAS via GSC Wizard"
+          },
           {
             "name": "gsc-cannibalization",
             "description": "Find and triage query cannibalization for a property via GSC Wizard"
@@ -656,6 +668,10 @@
           {
             "name": "gsc-opportunities",
             "description": "Rank near-term organic growth opportunities for a property via GSC Wizard"
+          },
+          {
+            "name": "gsc-paid-organic",
+            "description": "Compare Google Ads with organic search for a property via GSC Wizard"
           },
           {
             "name": "gsc-rankings",
@@ -674,6 +690,14 @@
         ],
         "skills": [
           {
+            "name": "ads-product-matrix",
+            "description": "Sort the products in Google Shopping and Performance Max ads for a GSC Wizard property into heroes, sidekicks, villains…"
+          },
+          {
+            "name": "ads-search-terms",
+            "description": "Mine the Google Ads search terms linked to a GSC Wizard property for wasted spend - non-converting terms and n-grams, c…"
+          },
+          {
             "name": "cannibalization",
             "description": "Find and triage query cannibalization (multiple pages competing for one query) with GSC Wizard's server-side entropy-sc…"
           },
@@ -686,8 +710,16 @@
             "description": "Find queries and pages with lower CTR than expected for their ranking position using GSC Wizard's CTR-curve benchmark,…"
           },
           {
+            "name": "google-ads-audit",
+            "description": "Audit the Google Ads accounts linked to a GSC Wizard property (link one first if needed) and turn the health score, set…"
+          },
+          {
             "name": "gsc-wizard-mcp",
             "description": "Core rules for using the GSC Wizard MCP well - choosing the right tool out of 100+, date defaults and the settled-data…"
+          },
+          {
+            "name": "paid-vs-organic",
+            "description": "Compare Google Ads with organic search for a GSC Wizard property - brand bidding, the paid spend organic results would…"
           },
           {
             "name": "ranking-changes",

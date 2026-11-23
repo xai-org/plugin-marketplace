@@ -490,12 +490,12 @@
     },
     {
       "name": "gsc-wizard",
-      "description": "Google Search Console analysis and SEO workflows powered by GSC Wizard: rankings, content decay, cannibalization, CTR curves, and opportunity scoring, all computed server-side.",
+      "description": "Google Search Console analysis and SEO workflows powered by GSC Wizard: rankings, content decay, cannibalization, CTR curves, opportunity scoring, and read-only Google Ads audits next to organic search, all computed server-side.",
       "category": "analytics",
       "source": {
         "source": "url",
         "url": "https://github.com/gscwizard/grok-plugin.git",
-        "sha": "045c795b6b1a79385e1bb6ff7e0a41b9da834271"
+        "sha": "e79d11e200fe14f0080cccaa4d235fb3ed520429"
       },
       "homepage": "https://gscwizard.com",
       "keywords": ["gsc wizard", "gscwizard", "gsc wizard mcp"],
