@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "conqueror",
+      "description": "Official Conqueror plugin: an AI agent that runs your SEO. Live keyword, SERP, backlink, rank and Search Console data through the Conqueror MCP server, plus skills for keyword research, clustering, competitor analysis, link prospecting and page rewrites you approve before anything changes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Shipper-dot-now/conqueror-skills.git",
+        "sha": "985b71383d033d55068638106f6b2aa1a03a399e"
+      },
+      "homepage": "https://conquerorapp.com",
+      "keywords": ["conqueror", "conqueror seo", "conqueror mcp", "conquer keyword"],
+      "domains": ["conquerorapp.com", "winwith.conquerorapp.com"],
+      "author": {
+        "name": "Conqueror",
+        "email": "dev@conquerorapp.com",
+        "url": "https://conquerorapp.com"
+      }
     }
   ]
 }
