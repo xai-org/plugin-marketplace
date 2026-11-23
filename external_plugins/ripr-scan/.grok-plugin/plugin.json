@@ -1,0 +1,10 @@
+{
+  "name": "ripr-scan",
+  "version": "0.1.0",
+  "description": "Read-only Solana token intelligence for Grok Build via the hosted Ripr Scan MCP server at mcp.riprscan.com. Read prices, liquidity, trades, holders, launch data, and risk signals. Sign in on first connect; no API key needed. It never trades, signs, or moves funds.",
+  "author": { "name": "Ripr Protocol Inc.", "url": "https://riprscan.com" },
+  "homepage": "https://mcp.riprscan.com/docs",
+  "license": "MIT",
+  "keywords": ["ripr scan", "ripr-scan", "riprscan", "ripr scan mcp", "ripr scan token"],
+  "logo": "assets/logo.svg"
+}

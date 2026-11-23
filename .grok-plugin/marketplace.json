@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ripr-scan",
+      "description": "Read-only Solana token intelligence (hosted MCP server + skill). Read prices, liquidity, trades, holders, launch data, and risk signals. Sign in on first connect; no API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/ripr-scan"
+      },
+      "homepage": "https://mcp.riprscan.com/docs",
+      "keywords": ["ripr scan", "ripr-scan", "riprscan", "ripr scan mcp", "ripr scan token"],
+      "domains": ["riprscan.com", "mcp.riprscan.com"]
     }
   ]
 }
