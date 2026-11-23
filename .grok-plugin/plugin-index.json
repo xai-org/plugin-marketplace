@@ -1,6 +1,28 @@
 {
   "version": 1,
   "plugins": {
+    "amcg3-guard": {
+      "sha": "0cc2c054fa3996adf00c7146bd26d076959e930e",
+      "version": "1.1.1",
+      "components": {
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "Bash"
+          },
+          {
+            "name": "PreToolUse",
+            "description": "Bash|Read|Write|Edit|MultiEdit|NotebookEdit|search_replace|read_file|write_file|edit_file"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",

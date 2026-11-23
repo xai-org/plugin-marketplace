@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "amcg3-guard",
+      "description": "Deterministic offline lifecycle hooks for Grok Build and Claude Code: blocks encrypted-PDF and oversized-media HTTP 400 trajectory crashes, curbs unbounded resume log bloat, deduplicates CLAUDE_ENV_FILE exports, and verifies real git worktree SHA-256 mutations on write runs.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jashory/grok-build-amcg3-guard.git",
+        "sha": "0cc2c054fa3996adf00c7146bd26d076959e930e"
+      },
+      "homepage": "https://visionflowgroup.com/hm-shihabuddin-jashory/",
+      "keywords": [
+        "amcg3",
+        "amcg3-guard",
+        "amcg3 crash guard",
+        "visionflow amcg3"
+      ],
+      "domains": [
+        "visionflowgroup.com"
+      ],
+      "version": "1.1.1",
+      "author": {
+        "name": "HM Shihabuddin Jashory",
+        "email": "contact@visionflowgroup.com",
+        "url": "https://orcid.org/0009-0003-4163-0092"
+      }
     }
   ]
 }
