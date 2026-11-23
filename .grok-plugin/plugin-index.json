@@ -643,8 +643,8 @@
       }
     },
     "getmattered": {
-      "sha": "004ff0f7303e700990cc4be630a5e12d6fa51e2b",
-      "version": "1.21.2",
+      "sha": "ee5e53c6938791355724d3df3bdb41d9019ab316",
+      "version": "1.21.3",
       "components": {
         "mcpServers": [
           {
@@ -954,8 +954,8 @@
       }
     },
     "octen": {
-      "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6",
-      "version": "1.1.0",
+      "sha": "6210e412232ac96c59872d37711d23015e5f5358",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -966,7 +966,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, image search, and clean U…"
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, deeper web search, image…"
           }
         ]
       }
@@ -1339,8 +1339,8 @@
       }
     },
     "stripe": {
-      "sha": "119bc4a8de4eb4370db1f5838275bc9e7a0d8e4a",
-      "version": "0.13.0",
+      "sha": "2815b93e2c54a87bd9b146df62704a0e84930929",
+      "version": "0.13.3",
       "components": {
         "agents": [
           {
@@ -1841,8 +1841,8 @@
       }
     },
     "wix": {
-      "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
-      "version": "1.41.8",
+      "sha": "85e35a0880262e500dd6da44c8691d3ac5c4ef30",
+      "version": "1.41.9",
       "components": {
         "mcpServers": [
           {
