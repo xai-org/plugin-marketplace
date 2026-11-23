@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "rzlt",
+      "description": "RZLT's hosted MCP server: ask RZLT, an AI-native growth and marketing agency, about its services, case studies and writing, check whether a company is a fit, run a free AI-readiness check on any website, and send RZLT a message after you approve the text. No sign-in or API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/therzlt/rzlt-mcp.git",
+        "sha": "5690b0bd74fe6e81f075f023378b63c2ffe2fa22"
+      },
+      "homepage": "https://mcp.rzlt.io",
+      "keywords": ["rzlt", "rzlt.io", "rzlt agency", "rzlt mcp"],
+      "domains": ["rzlt.io", "www.rzlt.io", "mcp.rzlt.io"]
     }
   ]
 }
