@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "courtapi",
+      "description": "CourtAPI docketing assistant for US federal courts (hosted MCP server + skill). Find cases, read docket sheets, bankruptcy claims registers, creditors, parties and documents, follow your firm's recent case activity and CourtDrive calendar, and refresh from PACER on request. Sign in with your CourtAPI app credentials; no API key in config.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/courtio/courtapi-plugin.git",
+        "sha": "420c6182aa07603b1e09cb08909c97f58efd61e8"
+      },
+      "homepage": "https://www.courtapi.com",
+      "keywords": ["courtapi", "courtapi mcp", "courtapi docket", "courtapi pacer", "courtdrive"],
+      "domains": ["courtapi.com", "www.courtapi.com", "mcp.courtapi.com", "developer.courtapi.com"]
     }
   ]
 }
