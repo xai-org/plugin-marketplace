@@ -1204,6 +1204,24 @@
         ]
       }
     },
+    "realcryptocap": {
+      "sha": "0db615db80756aad311e8f72512e1e08fcee5050",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "realcryptocap",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "realcryptocap",
+            "description": "Answer crypto price, ranking, comparison and market-overview questions with live RealCryptoCap data (HTX primary price…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
