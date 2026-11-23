@@ -642,6 +642,28 @@
         ]
       }
     },
+    "gokuna": {
+      "sha": "c0d56c838aa32325b331311145a9ec8f8481aa9e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gokuna",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hire-a-person",
+            "description": "Hire a real person through GoKuna to do something in the physical world and send a photo or video as proof. Use when th…"
+          },
+          {
+            "name": "review-results",
+            "description": "Check the photos and videos people sent back for a GoKuna task, accept the good ones (the person gets paid) and reject…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
