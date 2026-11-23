@@ -950,6 +950,46 @@
         ]
       }
     },
+    "popnow": {
+      "sha": "0b713e5e0764c33d7e9fd2fd616e7397a6125534",
+      "version": "1.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "popnow",
+            "description": "Create, edit and manage images, video, music, voiceovers, ads, explainers and browser games with your PopNow account."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "popnow",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "popnow-ads",
+            "description": "Make ads and brand content with PopNow through the connected PopNow MCP server - creator-style UGC ads, brand films and…"
+          },
+          {
+            "name": "popnow-characters",
+            "description": "Keep the same person, mascot or product across PopNow creations through the connected PopNow MCP server. Use when the u…"
+          },
+          {
+            "name": "popnow-create",
+            "description": "Make and edit pictures, videos, music, voiceovers, sound effects and 3D models with PopNow through the connected PopNow…"
+          },
+          {
+            "name": "popnow-explainer",
+            "description": "Make narrated explainer and faceless videos with PopNow through the connected PopNow MCP server - from a topic, a docum…"
+          },
+          {
+            "name": "popnow-game-builder",
+            "description": "Build browser games with PopNow and put them online through the connected PopNow MCP server - you write the game, PopNo…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
