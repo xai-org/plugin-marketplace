@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "layerz",
+      "description": "Layerz financial models for your agent: build, edit and audit a business plan, budget, forecast or monthly close as a structured model (items, formulas, dependencies, scenario branches), then export it to Excel with live formulas. Hosted MCP server (OAuth) plus five skills: first session, business plan, monthly close, scenarios and cash, review and fix.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/layerzlabs/layerz-mcp.git",
+        "sha": "4cc6da64c5cf879a59d1a32b045e32c0cad2ac32"
+      },
+      "homepage": "https://layerz.cc/for-agents",
+      "keywords": ["layerz", "layerz model", "layerz financial model"],
+      "domains": ["layerz.cc", "app.layerz.cc"],
+      "version": "1.4.0",
+      "author": {
+        "name": "Layerz",
+        "email": "contact@layerz.cc",
+        "url": "https://github.com/layerzlabs"
+      }
     }
   ]
 }

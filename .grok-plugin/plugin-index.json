@@ -684,6 +684,40 @@
         ]
       }
     },
+    "layerz": {
+      "sha": "4cc6da64c5cf879a59d1a32b045e32c0cad2ac32",
+      "version": "1.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "layerz",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "business-plan",
+            "description": "Build or extend a business plan, a budget, a forecast or a three-statement model (P&L, balance sheet, cash flow) in Lay…"
+          },
+          {
+            "name": "monthly-close",
+            "description": "Monthly close in Layerz: import actuals from a ledger export, FEC, trial balance, bank or accounting export; map accoun…"
+          },
+          {
+            "name": "review-and-fix",
+            "description": "Review and fix a Layerz model: a check fails, the balance sheet does not balance, \\\"the numbers are wrong\\\", a model is…"
+          },
+          {
+            "name": "scenarios-and-cash",
+            "description": "Scenarios and cash in Layerz: a base, upside and downside case, a fundraise or a delayed hire, runway, a cash-flow fore…"
+          },
+          {
+            "name": "start",
+            "description": "First steps with Layerz: the first conversation, a workspace with no model yet, \\\"what can Layerz do\\\", \\\"where do I st…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
