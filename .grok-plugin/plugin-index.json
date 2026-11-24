@@ -1204,6 +1204,24 @@
         ]
       }
     },
+    "schedchie": {
+      "sha": "1f9289798e0b22049f5dea6ea5064c4f6d00123a",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "schedchie",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "schedchie",
+            "description": "Schedule, post, publish, cross-post and reschedule social media posts, read analytics and run approvals on TikTok, Inst…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
