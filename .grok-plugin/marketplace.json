@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "aca",
+      "description": "ACA (Automated Client Acquisition) brings your outbound workspace into Grok Build: research pipeline contacts, review active outreach sequences and triage replies in your authorized ACA workspace, through ACA's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Automated-Client-Acquisition/aca-grok-plugin.git",
+        "sha": "a34cefc9e972ff2008085ef17f7abadd613f4426"
+      },
+      "homepage": "https://www.automatedclientacquisition.com/mcp",
+      "keywords": ["aca", "automated client acquisition", "aca outreach"],
+      "domains": ["automatedclientacquisition.com", "mcp.automatedclientacquisition.com"]
     }
   ]
 }
