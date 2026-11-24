@@ -363,8 +363,8 @@
       }
     },
     "designprint": {
-      "sha": "39f34683350ff162c6636860ee06365860dd061a",
-      "version": "1.0.6",
+      "sha": "8b332d0202051187b8b6c6d2f2289ede960148cb",
+      "version": "1.0.7",
       "components": {
         "mcpServers": [
           {
@@ -375,7 +375,7 @@
         "skills": [
           {
             "name": "designprint",
-            "description": "Design and print physical pieces for the user and have them shipped: business cards, flyers, posters, menus and invitat…"
+            "description": "Make, design and print physical pieces for the user and have them shipped: business cards, flyers, postcards, posters,…"
           }
         ]
       }
