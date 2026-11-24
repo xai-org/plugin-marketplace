@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "airprompter": {
-      "sha": "d2f8fe0ea02f79279a7cbb0dda2773712f4a25cf",
-      "version": "0.2.4",
+      "sha": "03506aa442f4f72f16e9136fca515a54421ebd99",
+      "version": "0.2.5",
       "components": {
         "mcpServers": [
           {

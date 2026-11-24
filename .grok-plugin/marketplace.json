@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/airprompter/airprompter-grok-plugin.git",
-        "sha": "d2f8fe0ea02f79279a7cbb0dda2773712f4a25cf"
+        "sha": "03506aa442f4f72f16e9136fca515a54421ebd99"
       },
       "homepage": "https://airprompter.com",
       "keywords": [
