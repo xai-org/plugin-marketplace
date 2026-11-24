@@ -1518,6 +1518,24 @@
         ]
       }
     },
+    "ugt": {
+      "sha": "f99fe786d00728b8fd91e93c6709a17735938e46",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ugt",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ugt",
+            "description": "Use the GitHub Thing. Get a GitHub project working on this machine and do the user's task with it. Use when the user sa…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",
