@@ -684,6 +684,65 @@
         ]
       }
     },
+    "keeploop": {
+      "sha": "34685d718efc34e6bf761120862d0a539cbc0937",
+      "version": "0.27.19",
+      "components": {
+        "hooks": [
+          {
+            "name": "SessionStart"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "keeploop",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "keep-brief",
+            "description": "Unread mail, what needs a reply, and today's monitor hits, grouped by account category."
+          },
+          {
+            "name": "keep-draft",
+            "description": "Draft a threaded reply that sounds like you. Saves a draft only; never sends."
+          },
+          {
+            "name": "keep-find",
+            "description": "Find a file someone sent you, or one sent while they were on Cc, by describing it; read the best match, and save or sen…"
+          },
+          {
+            "name": "keep-free",
+            "description": "Open slots on your calendar for a length and a range, for example 30m this week."
+          },
+          {
+            "name": "keep-help",
+            "description": "List the Keeploop /keep- commands, one line each. Use when asked what Keeploop commands there are."
+          },
+          {
+            "name": "keep-reply",
+            "description": "Threads where someone is waiting on you, prioritized, with a suggested next step each."
+          },
+          {
+            "name": "keep-settings",
+            "description": "See what this AI can do, or propose a settings change for approval on your Mac."
+          },
+          {
+            "name": "keep-thread",
+            "description": "Summarize a whole email conversation: what happened, decisions, open questions."
+          },
+          {
+            "name": "keep-today",
+            "description": "Today's schedule, the replies you owe, and today's monitor hits, in one short view."
+          },
+          {
+            "name": "keep-waiting",
+            "description": "Mail you sent that nobody has answered yet, oldest first, with a nudge suggestion."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
