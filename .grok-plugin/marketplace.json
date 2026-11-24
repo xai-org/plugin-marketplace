@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "moose-tracker",
+      "description": "Moose Tracker MCP gives your assistant a real synthesizer, sampler and music tracker. Your assistant writes notes in a compact text format; Moose Tracker's engine plays them (analog-style and FM synthesis, 182 presets, sampled instruments, and drum kits). Ten tools cover sound effects, song writing, lyric analysis for singing, WAV/Ogg/Opus render, sheet music (MusicXML and PDF, and reading photos of printed music), adaptive game-music kits, light and deep analysis, player cards, and a composition guidance library. No sign-in. Song text is kept for 2 hours as a working copy, then deleted.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/moose-tracker/moose-tracker-plugin.git",
+        "sha": "fc424544d6673aaeab44f93c7d7e85f493516790"
+      },
+      "homepage": "https://moosetracker.app/about.html",
+      "keywords": ["moose tracker", "moosetracker", "moose tracker synth", "moose tracker music tracker", "moose tracker chiptune"],
+      "domains": ["moosetracker.app", "mcp.moosetracker.app"]
     }
   ]
 }
