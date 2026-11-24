@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "driglass",
+      "description": "Official Driglass integration for packaging printed straight on glass. Real sizes of beer and wine bottles and drinking glasses, and for one container, its glass colour and inks: print zones, the neck unrolled to its arc, the screens needed and the rules for ceramic enamel on glass. Hosted remote MCP server at https://drint.io/driglass/mcp, no sign-in.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drint-io/driglass-mcp.git",
+        "sha": "0cd7571e1587570128bcbeb9c1afb926d80cc99f"
+      },
+      "homepage": "https://drint.io/driglass/mcp",
+      "keywords": ["driglass", "driglass glass printing", "driglass bottle", "driglass mcp"],
+      "domains": ["drint.io"]
     }
   ]
 }
