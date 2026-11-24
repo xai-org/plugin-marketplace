@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "empiriolabs",
+      "description": "Official EmpirioLabs AI integration. Run AI models as tools through the EmpirioLabs AI remote MCP server: chat, image, video, speech, music and 3D generation, transcription and document reading, web search with citations, batches and async jobs, GPU Cloud and hosted agents.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EmpirioLabs-AI/mcp.git",
+        "sha": "e16a57a2ecf2dfcf0112fdee630b8b35a0a97ffe"
+      },
+      "homepage": "https://docs.empiriolabs.ai/mcp",
+      "keywords": ["empiriolabs", "empiriolabs ai", "empiriolabs models", "empiriolabs image generation", "empiriolabs video generation", "empiriolabs gpu cloud", "empiriolabs agents", "empiriolabs mcp"],
+      "domains": ["empiriolabs.ai", "mcp.empiriolabs.ai", "api.empiriolabs.ai", "docs.empiriolabs.ai", "platform.empiriolabs.ai"]
     }
   ]
 }
