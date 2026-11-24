@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "wefunder",
+      "description": "Browse startups raising on Wefunder, look up companies and rounds, read your own syndicate or company data, and, with permissions you grant, your own portfolio totals and positions. Read by default: it can never invest or move money; following companies is an optional permission. Remote MCP server plus skills.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Wefunder/agent-plugin.git",
+        "sha": "88c387509206130ff18cea055ca8ec21e8e5107a"
+      },
+      "homepage": "https://github.com/Wefunder/agent-plugin",
+      "keywords": ["wefunder", "wefunder mcp", "community round", "wefunder offerings", "wefunder syndicate", "wefunder portfolio"],
+      "domains": ["wefunder.com"]
     }
   ]
 }
