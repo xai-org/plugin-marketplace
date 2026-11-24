@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "qovery",
+      "description": "Qovery integration (hosted MCP server). Inspect clusters, environments and services running on Kubernetes in your own AWS, GCP, Azure or Scaleway account, check deployment status, read service logs and configuration, and reach any Qovery API operation. Read-only by default. Sign in with your Qovery account; no API token needed.",
+      "category": "deployment",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/qovery"
+      },
+      "homepage": "https://www.qovery.com/docs/copilot/mcp-server",
+      "keywords": ["qovery", "qovery mcp", "qovery deploy", "deploy with qovery"],
+      "domains": ["qovery.com", "console.qovery.com", "mcp.qovery.com"]
     }
   ]
 }
