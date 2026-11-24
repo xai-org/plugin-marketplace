@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "awen": {
+      "type": "http",
+      "url": "https://app.awen.ai/mcp"
+    }
+  }
+}

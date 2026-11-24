@@ -1,0 +1,16 @@
+{
+  "name": "awen",
+  "version": "1.2.0",
+  "description": "Make and edit images, posters, videos, 3D models and documents with awen's creative agent, in your awen projects, via the hosted MCP at app.awen.ai. Sign in with an awen account on first connect.",
+  "author": {
+    "name": "Awen AI Corporation",
+    "url": "https://www.awen.ai"
+  },
+  "homepage": "https://www.awen.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "awen",
+    "awen ai",
+    "awen project"
+  ]
+}

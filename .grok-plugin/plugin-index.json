@@ -1,6 +1,31 @@
 {
   "version": 1,
   "plugins": {
+    "awen": {
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "awen",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "awen-brand",
+            "description": "Make work that follows the organisation's brand, memories and skills in awen. Use when the user asks for on-brand work,…"
+          },
+          {
+            "name": "awen-create",
+            "description": "Make or edit images, posters, logos, 3D models or documents with awen. Use when the user asks for visual or design work…"
+          },
+          {
+            "name": "awen-video",
+            "description": "Make videos and motion with awen, from a brief or from images. Use when the user asks for a video, an animation, a clip…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",

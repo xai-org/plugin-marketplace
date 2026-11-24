@@ -487,6 +487,17 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "awen",
+      "description": "Creative studio: make and edit images, posters, logos, videos, 3D models and documents with awen's creative agent, in your awen projects. Sign in with an awen account to connect.",
+      "category": "media",
+      "source": { "type": "local", "path": "./external_plugins/awen" },
+      "homepage": "https://www.awen.ai",
+      "keywords": ["awen", "awen ai", "awen project"],
+      "domains": ["awen.ai", "www.awen.ai", "app.awen.ai"],
+      "version": "1.2.0",
+      "author": { "name": "Awen AI Corporation", "url": "https://www.awen.ai" }
     }
   ]
 }
