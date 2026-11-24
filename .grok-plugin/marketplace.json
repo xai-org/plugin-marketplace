@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969"
+        "sha": "85e35a0880262e500dd6da44c8691d3ac5c4ef30"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6"
+        "sha": "6210e412232ac96c59872d37711d23015e5f5358"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
+        "sha": "2815b93e2c54a87bd9b146df62704a0e84930929",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
