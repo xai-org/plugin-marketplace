@@ -1268,6 +1268,24 @@
         ]
       }
     },
+    "smartdrugs": {
+      "sha": "6f24985e9e09a4a738e5c5926662c79dc961856b",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "smartdrugs",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "smartdrugs-evidence",
+            "description": "Answer questions about nootropics, peptides, functional mushrooms, adaptogens, cannabinoids, supplements, drug interact…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "f10dc33c434e1daf5e001ec1c50594a6cde1bdbb",
       "version": "0.13.4",

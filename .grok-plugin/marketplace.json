@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "smartdrugs",
+      "description": "SmartDrugs remote MCP server: sourced profiles on 152 nootropics, peptides, functional mushrooms, adaptogens and cannabinoids, with study doses, drug interactions, 24 h curves and stack checks. Public read-only access with no sign-up; after Google sign-in, the person can also join the community (5 tools: report, comment, react, join/leave), with confirmation in the chat. Content in Brazilian Portuguese. Educational, not medical advice.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/smartdrugs-org/mcp.git",
+        "sha": "6f24985e9e09a4a738e5c5926662c79dc961856b"
+      },
+      "homepage": "https://smartdrugs.com.br/desenvolvedores/",
+      "keywords": ["smartdrugs", "smartdrugs mcp", "smartdrugs nootropicos"],
+      "domains": ["smartdrugs.com.br"]
     }
   ]
 }
