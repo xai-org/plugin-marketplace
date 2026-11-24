@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "datacircle",
+      "description": "Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website. Our MCP server and open API say who is best for each and search every plan.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/waynehamadi/datacircle-plugin.git",
+        "sha": "73075122936f302a2f3d8f0b43283ec5690b8fd1"
+      },
+      "homepage": "https://datacircle.dev",
+      "keywords": ["datacircle", "datacircle gtm api"],
+      "domains": ["datacircle.dev", "api.datacircle.dev"]
     }
   ]
 }
