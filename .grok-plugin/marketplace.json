@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "chatstack-app-cost-estimator",
+      "description": "Get indicative estimates of development cost and hours for a mobile app, web app, or AI solution, scope an MVP, and generate a software PRD with user stories, requirements, and a technical specification using ChatStack.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/appdevstu/chatstack-app-plugin-public.git",
+        "sha": "771685a249c419a18dd5ea69c08cfb7c50e3f635"
+      },
+      "homepage": "https://www.chatstack.app/?utm_source=grok-marketplace&utm_medium=marketplace",
+      "keywords": [
+        "chatstack",
+        "chatstack cost",
+        "chatstack app cost",
+        "chatstack development cost",
+        "chatstack estimate",
+        "chatstack hours",
+        "chatstack development hours",
+        "chatstack mvp",
+        "chatstack prd",
+        "chatstack software prd",
+        "chatstack user stories"
+      ],
+      "domains": ["chatstack.app", "mcp.chatstack.app"]
     }
   ]
 }
