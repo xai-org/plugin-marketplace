@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "poptin",
+      "description": "Official Poptin integration. Connect your Poptin account to manage popups, forms, email campaigns, segments, and analytics.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Poptin-LTD/Poptin-MCP.git",
+        "sha": "f4289c1995cfdfc2beadb4e1987d81a6e5e5da18"
+      },
+      "homepage": "https://www.poptin.com/mcp/",
+      "keywords": ["poptin", "poptin mcp", "poptin marketing", "poptin popups", "poptin forms", "poptin email", "poptin analytics"],
+      "domains": ["poptin.com"]
     }
   ]
 }
