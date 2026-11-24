@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
+        "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "85e35a0880262e500dd6da44c8691d3ac5c4ef30"
+        "sha": "4e5371e93670c5b8dbc2709b18c73cf1c3490127"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -267,7 +267,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "2815b93e2c54a87bd9b146df62704a0e84930929",
+        "sha": "f10dc33c434e1daf5e001ec1c50594a6cde1bdbb",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -373,7 +373,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65"
+        "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -502,7 +502,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+        "sha": "e577fe1524106faa3b241430874cb3c495e6b9db",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
