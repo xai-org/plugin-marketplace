@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+        "sha": "e577fe1524106faa3b241430874cb3c495e6b9db",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",

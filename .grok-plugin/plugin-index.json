@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
-      "version": "1.15.5",
+      "sha": "e577fe1524106faa3b241430874cb3c495e6b9db",
+      "version": "1.15.6",
       "components": {
         "mcpServers": [
           {
