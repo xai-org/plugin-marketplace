@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agentring",
+      "description": "Let Grok reach you on your Android phone through agentring (hosted MCP server + skill): send a message, wait for your reply, or ring the phone so a voice AI talks to you and returns the transcript. Uses your agentring API key from the AGENTRING_API_KEY environment variable.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mutonby/agentring.git",
+        "sha": "ea3d74b2c7a18ea7047f33b812875327bb44460b",
+        "path": "plugins/agentring"
+      },
+      "homepage": "https://agentring.io",
+      "keywords": ["agentring", "agentring call", "agentring mcp"],
+      "domains": ["agentring.io"]
     }
   ]
 }
