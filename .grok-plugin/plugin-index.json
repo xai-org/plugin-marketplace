@@ -1530,6 +1530,18 @@
         ]
       }
     },
+    "varosity": {
+      "sha": "082720a72c9c54e122142b96ae5921a870e92c5f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "varosity",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "8bb46159108f0cd6a749959b20c1411257411090",
       "version": "0.56.0",
