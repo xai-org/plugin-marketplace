@@ -93,6 +93,24 @@
         ]
       }
     },
+    "browserpair": {
+      "sha": "2d36bff3ed8ae16e222fdbe88658095bf47680b1",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "browserpair",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "browserpair",
+            "description": "Use BrowserPair to carry out a task in the user's own signed-in Chrome (open a page, read a dashboard, fill a form, che…"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
