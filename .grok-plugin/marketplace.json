@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tavern-scribe",
+      "description": "Tavern Scribe MCP connector: your tabletop RPG campaign (D&D, Daggerheart, Pathfinder) in Grok. Recall lore, quests, notes and character sheets, and create NPCs, quests and locations.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/loji-gaming/tavern-scribe-mcp.git",
+        "sha": "2a698ebffd6fd78dd798517129f81ab1608dec61"
+      },
+      "homepage": "https://tavernscribe.com",
+      "keywords": ["tavern-scribe", "tavern scribe"],
+      "domains": ["tavernscribe.com", "api.tavernscribe.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Loji",
+        "email": "daniel@loji.us",
+        "url": "https://tavernscribe.com"
+      }
     }
   ]
 }
