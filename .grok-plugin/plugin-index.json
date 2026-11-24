@@ -765,8 +765,8 @@
       }
     },
     "mrscraper": {
-      "sha": "86faa0d4cf2ba6519d7c42f4de4bd026f48d0046",
-      "version": "0.4.0",
+      "sha": "709108092e451d1ce1ea7236c84f7c0aaabc9f5b",
+      "version": "0.5.0",
       "components": {
         "mcpServers": [
           {
