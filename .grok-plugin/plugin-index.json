@@ -684,6 +684,24 @@
         ]
       }
     },
+    "infograph": {
+      "sha": "ebe7859aac499426d7a7d4db2b050116bfadbb02",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "infograph",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "infograph",
+            "description": "Use this skill when the user asks about their own business numbers or data, such as sales, revenue, orders, customers,…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
       "version": "1.0.1",
