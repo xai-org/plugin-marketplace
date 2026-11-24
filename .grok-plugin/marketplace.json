@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sorzio",
+      "description": "Sorzio B2B lead enrichment, mailbox email verification, multi-page website and LinkedIn scraping, calibrated ICP qualification, and multi-step Flows across Sorzio Lists and Google Sheets.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sorzio/sorzio-mcp.git",
+        "sha": "cd3da253fd4d9707c46354652792508aa95cfc31"
+      },
+      "homepage": "https://www.sorzio.com/mcp",
+      "keywords": ["sorzio", "sorzio mcp", "sorzio flow", "sorzio verify"],
+      "domains": ["sorzio.com", "www.sorzio.com"]
     }
   ]
 }

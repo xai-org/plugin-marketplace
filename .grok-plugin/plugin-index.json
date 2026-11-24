@@ -1268,6 +1268,44 @@
         ]
       }
     },
+    "sorzio": {
+      "sha": "cd3da253fd4d9707c46354652792508aa95cfc31",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sorzio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sorzio-check-results",
+            "description": "Use right after a Sorzio run or Flow run ends (get_run or get_flow_run shows it finished), or when the user asks whethe…"
+          },
+          {
+            "name": "sorzio-email-verification",
+            "description": "Use when the user has a list, CSV or spreadsheet of email addresses to verify, validate or clean in bulk before outreac…"
+          },
+          {
+            "name": "sorzio-flow-builder",
+            "description": "Use when the user wants to chain multi-step bulk enrichment (website and LinkedIn scraping, email verification, ICP sco…"
+          },
+          {
+            "name": "sorzio-icp-qualification",
+            "description": "Use when the user has a list of leads or companies (such as 500 or 2,000 rows) and wants to enrich it and match, qualif…"
+          },
+          {
+            "name": "sorzio-lead-research",
+            "description": "Use when the user has a list of companies, domains or accounts (from a few dozen to 25,000 rows) and wants to enrich or…"
+          },
+          {
+            "name": "sorzio-quickstart",
+            "description": "Use when the user has a list, CSV or spreadsheet of leads, companies, emails or websites (for example 100, 2,000 or 25,…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "2815b93e2c54a87bd9b146df62704a0e84930929",
       "version": "0.13.3",
