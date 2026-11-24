@@ -214,7 +214,7 @@
     },
     {
       "name": "octen",
-      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "description": "Live web and news search, company and place lookup, fast URL lookup, broad multi-angle search, deeper web search, image search, design references, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
       "category": "development",
       "source": {
         "source": "url",
@@ -222,7 +222,7 @@
         "sha": "6210e412232ac96c59872d37711d23015e5f5358"
       },
       "homepage": "https://octen.ai",
-      "keywords": ["octen", "octen search", "octen ai"],
+      "keywords": ["octen", "octen search", "octen ai", "octen news search", "octen business search", "octen place search", "octen image search", "octen design search"],
       "domains": ["octen.ai", "docs.octen.ai"]
     },
     {
