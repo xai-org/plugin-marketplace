@@ -487,6 +487,32 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "eachlabs",
+      "description": "Generate and edit images, video, music and voice with each::labs models, and run your organization's each::labs workflows, from a conversation. Cut, crop, resize and convert media. Sign in with your each::labs account; no API key needed.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eachlabs/plugin.git",
+        "sha": "4993981fb04528f56360ffe13fe3089d6a95cc62"
+      },
+      "homepage": "https://www.eachlabs.ai",
+      "keywords": [
+        "eachlabs",
+        "each::labs",
+        "each labs"
+      ],
+      "domains": [
+        "eachlabs.ai",
+        "www.eachlabs.ai",
+        "mcp.eachlabs.ai"
+      ],
+      "version": "0.4.3",
+      "author": {
+        "name": "each::labs",
+        "url": "https://www.eachlabs.ai"
+      }
     }
   ]
 }
