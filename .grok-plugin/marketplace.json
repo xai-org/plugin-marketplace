@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "designprint",
+      "description": "Print business cards, flyers, postcards, posters, brochures, menus, invitations and more from a chat. Shows ready-made templates and opens the chosen one with the person's details on it, then one link to check it and pay as a guest. Ships within the United States.",
+      "category": "design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedesignprint/designprint.git",
+        "sha": "8b332d0202051187b8b6c6d2f2289ede960148cb",
+        "path": "claude"
+      },
+      "homepage": "https://thedesignprint.com",
+      "keywords": ["designprint", "thedesignprint", "designprint business cards"],
+      "domains": ["thedesignprint.com"],
+      "author": {
+        "name": "Designprint",
+        "email": "team@thedesignprint.com",
+        "url": "https://thedesignprint.com"
+      }
     }
   ]
 }
