@@ -1204,6 +1204,32 @@
         ]
       }
     },
+    "robowrite": {
+      "sha": "042d72bc0bf99b28d90075f3d2f4badf28d5b9f3",
+      "version": "0.3.8",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "robowrite",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "robowrite-content-ops",
+            "description": "Use when planning SEO or GEO content, preparing keyword- and competitor-informed briefs, reviewing Content Kits, or gen…"
+          },
+          {
+            "name": "robowrite-onboarding",
+            "description": "Guide a new RoboWrite user from signup or first connection to their first brand and content task. Use when someone asks…"
+          },
+          {
+            "name": "robowrite-setup",
+            "description": "Connect RoboWrite, confirm the authorized organization, and start with a read-only account check after installation or…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
