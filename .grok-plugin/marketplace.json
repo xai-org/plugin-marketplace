@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "goal-race",
+      "description": "Goal Race race calendar. Search trail, obstacle course (Spartan, Tough Mudder) and HYROX-style races with no account; sign in to save them, plan your training and log each session.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/goalrace/goalrace-mcp.git",
+        "sha": "662b82368cc8fc4380dd21b029a5d17d3a07f12e"
+      },
+      "homepage": "https://github.com/goalrace/goalrace-mcp",
+      "keywords": ["goal race", "goalrace", "goal race mcp"],
+      "domains": ["goalrace.com"]
     }
   ]
 }
