@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "skedcast",
+      "description": "SkedCast social media scheduling (hosted MCP server + skills). Draft, validate, schedule and publish posts across 11 networks including X, LinkedIn, Instagram, TikTok and YouTube, run approval workflows, manage clients and campaigns, and read analytics. Sign in with your SkedCast account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/skedcast"
+      },
+      "homepage": "https://skedcast.com",
+      "keywords": ["skedcast", "skedcast mcp", "skedcast scheduling", "skedcast posts", "skedcast social"],
+      "domains": ["skedcast.com", "app.skedcast.com", "api.skedcast.com"]
     }
   ]
 }
