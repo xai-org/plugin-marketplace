@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "reecopedia",
+      "description": "Cited search over EU product and sustainability law (ESPR, Digital Product Passport, CSRD, CBAM, EU ETS, CWA 18291). Public remote MCP, no authentication.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/halleluiaman-ux/reecopedia-mcp.git",
+        "sha": "48890290ae115be6581ac396975ba2280bf184ae"
+      },
+      "homepage": "https://ia.reeco.eco/reecopedia",
+      "keywords": ["reecopedia", "reeco"],
+      "domains": ["ia.reeco.eco", "reeco.eco"]
     }
   ]
 }
