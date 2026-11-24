@@ -1205,8 +1205,8 @@
       }
     },
     "robowrite": {
-      "sha": "3d2f679d4b54eb462773d326082e125a10067f81",
-      "version": "0.3.7",
+      "sha": "042d72bc0bf99b28d90075f3d2f4badf28d5b9f3",
+      "version": "0.3.8",
       "components": {
         "mcpServers": [
           {

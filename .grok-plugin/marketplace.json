@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/RoboAdApp/robowrite-plugin.git",
-        "sha": "3d2f679d4b54eb462773d326082e125a10067f81"
+        "sha": "042d72bc0bf99b28d90075f3d2f4badf28d5b9f3"
       },
       "homepage": "https://www.robowrite.ai",
       "keywords": ["robowrite", "robowrite.ai", "roboad"],
