@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kivloo",
+      "description": "Official Kivloo plugin (remote MCP server + skills). Draft HACCP plans, US FSMA food safety plans, SOPs, workplace safety and maritime documents, build checklists for the regulations you follow, and analyse inspection and sensor records in your Kivloo workspace. Everything is saved as a draft for human review.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Automated-Client-Acquisition/kivloo-plugins.git",
+        "sha": "a41ef4628dce087319f33a7b3d6f1eef246b04a3",
+        "path": "plugins/kivloo"
+      },
+      "homepage": "https://kivloo.com/ai-agents",
+      "keywords": ["kivloo", "kivloo haccp", "kivloo checklist", "kivloo compliance"],
+      "domains": ["kivloo.com"]
     }
   ]
 }

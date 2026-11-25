@@ -688,6 +688,48 @@
         ]
       }
     },
+    "kivloo": {
+      "sha": "a41ef4628dce087319f33a7b3d6f1eef246b04a3",
+      "version": "0.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kivloo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "checklist-drafting",
+            "description": "Create and save a reusable Kivloo inspection checklist when the user asks for a checklist, inspection form, opening rou…"
+          },
+          {
+            "name": "data-analysis",
+            "description": "Analyse Kivloo inspections, checklist completion, recorded scores, deviations, corrective actions and sensor trends; co…"
+          },
+          {
+            "name": "haccp-plan",
+            "description": "Draft a complete HACCP plan or US FSMA food safety plan from the user's products and processes and save it to Kivloo as…"
+          },
+          {
+            "name": "maritime-compliance",
+            "description": "Draft maritime compliance documents (ISM safety management system procedures, shipboard plans, drill plans) and build v…"
+          },
+          {
+            "name": "operations-review",
+            "description": "Review Kivloo corrective actions, sensor evidence, procedures and recorded traceability lots when the user asks about w…"
+          },
+          {
+            "name": "sop-drafting",
+            "description": "Draft or revise an operating procedure using Kivloo evidence and save a new SOP draft when the user requests it."
+          },
+          {
+            "name": "workplace-safety",
+            "description": "Draft workplace health and safety documents (risk assessments, method statements / safe systems of work, hazardous subs…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
