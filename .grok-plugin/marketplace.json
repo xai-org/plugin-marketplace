@@ -162,8 +162,8 @@
     },
     {
       "name": "firecrawl",
-      "description": "Turn any website into clean, LLM-ready markdown or structured data. Search, scrape, map, crawl, and extract live web data via the bundled hosted Firecrawl MCP server — keyless on eligible networks (1,000 free credits/month, no signup), with an optional free API key for more usage. Automatic JS rendering, anti-bot handling, and proxy rotation; CLI skills available as a fallback.",
-      "category": "development",
+      "description": "The context API for AI agents. Search the live web, scrape any page into clean Markdown or structured data, and interact with dynamic pages, plus crawl, map, and monitor. Also answers code questions from an index of GitHub issues, merged PRs, READMEs, and docs, and runs Alexandria data providers for structured records. Bundles the hosted Firecrawl MCP server: sign in through your browser on first use, no API key to paste. CLI skills included as a fallback.",
+      "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
