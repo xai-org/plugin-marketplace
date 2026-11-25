@@ -1,0 +1,14 @@
+{
+  "name": "calcom",
+  "version": "1.0.0",
+  "description": "Cal.com scheduling for Grok Build via the hosted Cal.com MCP server at mcp.cal.com. Check availability, book, reschedule and cancel meetings, manage event types and schedules, and reach any Cal.com API v2 operation. Sign in with your Cal.com account on first connect.",
+  "author": {
+    "name": "Cal.com",
+    "url": "https://cal.com"
+  },
+  "homepage": "https://cal.com/docs/mcp-server",
+  "repository": "https://www.npmjs.com/package/@calcom/cal-mcp",
+  "license": "MIT",
+  "keywords": ["cal.com", "calcom", "cal.com mcp", "cal.com scheduling", "cal.com booking"],
+  "logo": "assets/logo.svg"
+}
