@@ -475,6 +475,25 @@
       }
     },
     {
+      "name": "valmera",
+      "description": "Edit footage uploaded to Valmera, review revisions, and export MP4s through the hosted video editing MCP server.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ABO3SKRALMASAOODI/valmera-mcp.git",
+        "sha": "24628fa9e537c363cad807f721d796b262595c3b"
+      },
+      "homepage": "https://valmera.io/mcp",
+      "keywords": [
+        "valmera",
+        "valmera mcp",
+        "valmera video editor"
+      ],
+      "domains": [
+        "valmera.io"
+      ]
+    },
+    {
       "name": "expo",
       "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
       "category": "development",

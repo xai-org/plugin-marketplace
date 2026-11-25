@@ -1534,6 +1534,36 @@
         ]
       }
     },
+    "valmera": {
+      "sha": "24628fa9e537c363cad807f721d796b262595c3b",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "valmera",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "edit-video-with-valmera",
+            "description": "Edit uploaded footage through Valmera's authenticated MCP connector, review a rendered preview, and deliver an MP4. Use…"
+          },
+          {
+            "name": "turn-long-video-into-shorts",
+            "description": "Turn a long recording, podcast, interview or webinar into individually reviewed short MP4s with Valmera. Use when the u…"
+          },
+          {
+            "name": "verify-published-demo",
+            "description": "Check whether a public direct MP4 URL serves the approved local export after a product demo or tutorial is replaced. Us…"
+          },
+          {
+            "name": "website-demo-video",
+            "description": "Record a visitor-accessible website flow or edit a supplied screen recording into a reviewed product-demo MP4 with Valm…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
       "version": "0.57.0",
