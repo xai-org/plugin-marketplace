@@ -500,12 +500,7 @@
       "homepage": "https://docs.videodb.io",
       "keywords": ["videodb", "videodb mcp", "videodb video", "videodb video search", "videodb video editing"],
       "tags": ["video", "video-editing", "video-search", "clips", "subtitles", "live-streaming", "mcp"],
-      "domains": ["videodb.io", "docs.videodb.io", "console.videodb.io", "mcp.videodb.io"],
-      "version": "1.5.1",
-      "author": {
-        "name": "VideoDB",
-        "url": "https://videodb.io"
-      }
+      "domains": ["videodb.io", "docs.videodb.io", "console.videodb.io", "mcp.videodb.io"]
     }
   ]
 }
