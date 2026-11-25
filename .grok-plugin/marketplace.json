@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getmattered/getmattered-mcp.git",
-        "sha": "9a7510fc6ec20eba6ee9989fd389a0a528a5a727",
+        "sha": "9a27bc126463b35aad79ee7f9ced43643025f45f",
         "path": "plugins/getmattered"
       },
       "homepage": "https://getmattered.com/mcps",
