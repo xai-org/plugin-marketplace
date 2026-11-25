@@ -1530,6 +1530,50 @@
         ]
       }
     },
+    "uprock": {
+      "sha": "2b2d295e6ee59622bd407552adcce6a3df601220",
+      "version": "1.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "setup",
+            "description": "Configure and verify your UpRock API key, then confirm the scrape / search / verify / video tools are working."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "uprock",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent",
+            "description": "Autonomous multi-source data gathering. Describe the data you need in plain language — no URLs required — and the agent…"
+          },
+          {
+            "name": "crawl",
+            "description": "Crawl multiple pages of a website and return their content as clean markdown. Use when the user wants more than one pag…"
+          },
+          {
+            "name": "scrape",
+            "description": "Scrape a single web page through UpRock's global device network and return clean, LLM-ready markdown. Use when the user…"
+          },
+          {
+            "name": "search",
+            "description": "Search the web through UpRock — multiple search engines across multiple countries in parallel, deduplicated. Use whenev…"
+          },
+          {
+            "name": "sweep",
+            "description": "Test a URL's uptime, reliability, and performance from real devices across geographic regions. Use when the user wants…"
+          },
+          {
+            "name": "video",
+            "description": "Search public video (YouTube, TikTok and other platforms) by meaning and read what happens at a moment, with time stamp…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "8bb46159108f0cd6a749959b20c1411257411090",
       "version": "0.56.0",

@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "uprock",
+      "description": "Crawl, search and research the live web through UpRock's hosted MCP server. Pages load in a real browser on opted-in devices in the country you pick and come back as markdown, so agents see what a local visitor sees. Also searches public video by moment. Set UPROCK_API_KEY before starting Grok.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/uprockcom/uprock-claude-plugin.git",
+        "sha": "2b2d295e6ee59622bd407552adcce6a3df601220"
+      },
+      "homepage": "https://uprock.ai",
+      "keywords": ["uprock", "uprock crawl", "uprock search"],
+      "domains": ["uprock.ai", "uprock.com"]
     }
   ]
 }
