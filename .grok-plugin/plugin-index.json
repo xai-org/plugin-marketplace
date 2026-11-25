@@ -1753,6 +1753,62 @@
         ]
       }
     },
+    "videodb": {
+      "sha": "69148fafd7875ef2e0372e11d7cc52e0aa315e2d",
+      "version": "1.5.1",
+      "components": {
+        "commands": [
+          {
+            "name": "clip",
+            "description": "Cut a clip or highlight reel from a video. Usage - /videodb:clip <YouTube link, URL or m- id> <mm:ss-mm:ss | \"highlight…"
+          },
+          {
+            "name": "find",
+            "description": "Find a moment in a video or ask it a question. Usage - /videodb:find <YouTube link, URL or m- id> <what to look for, or…"
+          },
+          {
+            "name": "setup",
+            "description": "Set up VideoDB in this project: SDK, API key and the hosted MCP server, then verify the connection"
+          },
+          {
+            "name": "subtitles",
+            "description": "Burn subtitles into a video, or get its transcript. Usage - /videodb:subtitles <YouTube link, URL or m- id> [style, e.g…"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "videodb",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "video-clips",
+            "description": "Cut clips and highlights from a video. Use when the user wants a clip of a time range, a highlight reel of the moments…"
+          },
+          {
+            "name": "video-edit",
+            "description": "Edit and compose video on a timeline. Use when the user wants to add background music, a voiceover or another audio tra…"
+          },
+          {
+            "name": "video-live",
+            "description": "Live video and screen recording. Use when the user wants to connect a camera or live stream (RTSP, RTMP, HLS), watch it…"
+          },
+          {
+            "name": "video-search",
+            "description": "Find a moment in a video or ask a question about it. Use when the user wants to search inside a video, a library, or a…"
+          },
+          {
+            "name": "video-subtitles",
+            "description": "Subtitles, captions and transcripts for a video or audio file. Use when the user wants a transcript (plain or timestamp…"
+          },
+          {
+            "name": "videodb",
+            "description": "Set up VideoDB and write code against the VideoDB Python SDK. Use for \"setup videodb\" or \"/videodb setup\", when the use…"
+          }
+        ]
+      }
+    },
     "videogen": {
       "version": "1.0.0",
       "components": {

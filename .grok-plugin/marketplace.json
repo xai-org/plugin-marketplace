@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "videodb",
+      "description": "VideoDB video editing, clipping, subtitles, search, and live-stream workflows. Includes six skills, four commands, and the hosted VideoDB MCP server for working with your VideoDB account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/video-db/skills.git",
+        "sha": "69148fafd7875ef2e0372e11d7cc52e0aa315e2d"
+      },
+      "homepage": "https://docs.videodb.io",
+      "keywords": ["videodb", "videodb mcp", "videodb video"],
+      "domains": ["videodb.io", "docs.videodb.io", "console.videodb.io", "mcp.videodb.io"],
+      "version": "1.5.1",
+      "author": {
+        "name": "VideoDB",
+        "url": "https://videodb.io"
+      }
     }
   ]
 }
