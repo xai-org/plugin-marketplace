@@ -490,7 +490,7 @@
     },
     {
       "name": "flightqueue",
-      "description": "Airport intelligence. Security wait times and forecasts, US air traffic delays, EU Entry/Exit System border queues, lounges, terminals, aviation weather, and airline baggage performance for 8,000+ airports. Hosted remote MCP server, OAuth sign-in.",
+      "description": "Flight Queue plugin for Grok. Airport security wait times and forecasts, FAA delays, EES border queues, and airline baggage performance for 8,000+ airports.",
       "source": {
         "source": "url",
         "url": "https://github.com/Flight-Queue/mcp.git",
