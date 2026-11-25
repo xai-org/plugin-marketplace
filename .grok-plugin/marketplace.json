@@ -490,7 +490,7 @@
     },
     {
       "name": "senpi-agent",
-      "description": "Turn your AI assistant into your AI quant researcher for perpetual futures markets. Read the day's market pulse, scan for signals and anomalies, see where smart money is positioned, research and compare Hyperliquid traders, score any wallet with the Quant Desk, browse Senpi's strategy catalog, and review your own portfolio and trade history. Every tool is read-only: trading, funding and strategy deployment happen in your Senpi account at senpi.ai, never through this plugin.",
+      "description": "Turn your AI assistant into your AI quant researcher for perpetual futures markets. Read the day's market pulse, scan for signals and anomalies, see where smart money is positioned, research and compare Hyperliquid traders, score any wallet with the Quant Desk, browse Senpi's strategy catalog, and review your own portfolio and trade history. Nothing in this plugin trades real money, moves funds or takes a strategy live; those happen in your Senpi account at senpi.ai.",
       "category": "finance",
       "source": {
         "source": "url",
