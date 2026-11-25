@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "nitrosend",
+      "description": "Official Nitrosend plugin for Grok Build: email marketing for AI agents. Write newsletters and email campaigns, build email automation flows, send transactional emails, manage contacts and segments, and use agent inboxes, over hosted OAuth MCP.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nitrosend/cursor.git",
+        "sha": "77d50a00a6f053034761fe3e367f23af4aa2e826"
+      },
+      "homepage": "https://nitrosend.com/mcp",
+      "keywords": ["nitrosend", "nitrosend email", "nitrosend mcp", "nitrosend campaigns", "nitrosend flows"],
+      "domains": ["nitrosend.com", "app.nitrosend.com", "api.nitrosend.com", "docs.nitrosend.com"]
     }
   ]
 }
