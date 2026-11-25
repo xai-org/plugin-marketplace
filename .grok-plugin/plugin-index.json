@@ -646,6 +646,24 @@
         ]
       }
     },
+    "goal-race": {
+      "sha": "662b82368cc8fc4380dd21b029a5d17d3a07f12e",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "goal-race",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-a-race",
+            "description": "Find an upcoming trail, obstacle course (Spartan, Tough Mudder) or HYROX-style race with the Goal Race tools, and open…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
