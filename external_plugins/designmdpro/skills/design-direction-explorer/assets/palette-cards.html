@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design directions</title>
+    <!--
+      Palette cards for the design-direction-explorer skill.
+
+      Copy this file to the project root as design-directions.html and replace
+      ONLY the JSON inside <script id="directions">. Data shape:
+
+      {
+        "title": "Acme — design directions",
+        "directions": [
+          {
+            "id": "A",
+            "name": "Quiet Editorial",
+            "summary": "Two or three sentences on the feel and why it fits.",
+            "keywords": ["calm", "editorial", "serif"],
+            "colors": {
+              "primary": "#1f3a5f",      // main action
+              "onPrimary": "#ffffff",    // text on primary
+              "accent": "#c8553d",       // secondary highlight
+              "surface": "#faf8f5",      // page background
+              "surfaceRaised": "#ffffff",// cards (optional)
+              "text": "#1c1b1a",         // body text
+              "mutedText": "#6b6761",    // secondary text (optional)
+              "border": "#e6e1da"        // dividers / outlines
+            },
+            "fonts": {
+              "heading": "Newsreader",
+              "body": "Inter",
+              "note": "Tiempos → Newsreader (free alternative)"   // optional
+            },
+            "references": [
+              { "name": "Example", "url": "https://www.designmdpro.app/websites/example" }
+            ]
+          }
+        ]
+      }
+
+      Fonts are loaded from Google Fonts when online; otherwise the specimen
+      falls back to system fonts (the names are still shown).
+    -->
+    <script id="directions" type="application/json">
+      {
+        "title": "Design directions",
+        "directions": [
+          {
+            "id": "A",
+            "name": "Quiet Editorial",
+            "summary": "Warm paper surfaces, a deep ink-blue action color and a serif display face. Calm and content-first.",
+            "keywords": ["calm", "editorial", "serif"],
+            "colors": {
+              "primary": "#1f3a5f",
+              "onPrimary": "#ffffff",
+              "accent": "#c8553d",
+              "surface": "#faf8f5",
+              "surfaceRaised": "#ffffff",
+              "text": "#1c1b1a",
+              "mutedText": "#6b6761",
+              "border": "#e6e1da"
+            },
+            "fonts": { "heading": "Newsreader", "body": "Inter" },
+            "references": []
+          },
+          {
+            "id": "B",
+            "name": "Electric Dark",
+            "summary": "Near-black surfaces with a vivid indigo action color and a tight geometric sans. Technical and focused.",
+            "keywords": ["technical", "dark", "precise"],
+            "colors": {
+              "primary": "#6366f1",
+              "onPrimary": "#ffffff",
+              "accent": "#a855f7",
+              "surface": "#090a0f",
+              "surfaceRaised": "#141724",
+              "text": "#e8e9f0",
+              "mutedText": "#9096a8",
+              "border": "#1e2230"
+            },
+            "fonts": { "heading": "Geist", "body": "Geist" },
+            "references": []
+          }
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f4f4f5;
+        --ink: #18181b;
+        --sub: #52525b;
+        --line: #e4e4e7;
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+      }
+      header.page {
+        padding: 32px 32px 8px;
+      }
+      header.page h1 {
+        margin: 0;
+        font-size: 22px;
+      }
+      main {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        padding: 24px 32px 48px;
+      }
+      article.card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .meta {
+        padding: 20px 20px 12px;
+      }
+      .meta .id {
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--sub);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .meta h2 {
+        margin: 4px 0 6px;
+        font-size: 20px;
+      }
+      .meta p {
+        margin: 0;
+        color: var(--sub);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .keywords {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 10px;
+      }
+      .keywords span {
+        font-size: 12px;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background: var(--page);
+        color: var(--sub);
+      }
+      .swatches {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px;
+        background: var(--line);
+        border-block: 1px solid var(--line);
+      }
+      .swatch {
+        background: #fff;
+      }
+      .swatch .chip {
+        height: 56px;
+      }
+      .swatch .label {
+        padding: 6px 8px 8px;
+        font-size: 11px;
+        line-height: 1.4;
+      }
+      .swatch .label b {
+        display: block;
+        font-weight: 600;
+      }
+      .swatch .label code {
+        color: var(--sub);
+      }
+      .preview {
+        padding: 20px;
+        display: grid;
+        gap: 12px;
+      }
+      .preview .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        font-size: 13px;
+      }
+      .preview .nav .links {
+        display: flex;
+        gap: 12px;
+      }
+      .preview h3 {
+        margin: 0;
+        font-size: 26px;
+        line-height: 1.15;
+      }
+      .preview p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .preview .row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .preview button {
+        font: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 8px;
+        cursor: default;
+      }
+      .preview input {
+        font: inherit;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        flex: 1;
+        min-width: 140px;
+      }
+      .preview .tile {
+        padding: 14px;
+        border-radius: 12px;
+        font-size: 13px;
+      }
+      .facts {
+        padding: 12px 20px 20px;
+        font-size: 13px;
+        display: grid;
+        gap: 8px;
+        border-top: 1px solid var(--line);
+      }
+      .facts .contrast {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+      }
+      .badge {
+        font-size: 12px;
+        padding: 2px 8px;
+        border-radius: 6px;
+        border: 1px solid var(--line);
+      }
+      .badge.pass {
+        background: #ecfdf3;
+        border-color: #abefc6;
+        color: #067647;
+      }
+      .badge.fail {
+        background: #fef3f2;
+        border-color: #fecdca;
+        color: #b42318;
+      }
+      .facts a {
+        color: inherit;
+      }
+      .muted {
+        color: var(--sub);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page"><h1 id="title"></h1></header>
+    <main id="cards"></main>
+    <script>
+      const data = JSON.parse(
+        document.getElementById("directions").textContent,
+      );
+      document.title = data.title || "Design directions";
+      document.getElementById("title").textContent = document.title;
+
+      const el = (tag, props = {}, ...children) => {
+        const node = document.createElement(tag);
+        for (const [key, value] of Object.entries(props)) {
+          if (key === "style") Object.assign(node.style, value);
+          else if (key === "text") node.textContent = value;
+          else node.setAttribute(key, value);
+        }
+        for (const child of children) if (child) node.append(child);
+        return node;
+      };
+
+      const toRgb = (hex) => {
+        let h = String(hex || "")
+          .trim()
+          .replace(/^#/, "");
+        if (h.length === 3 || h.length === 4)
+          h = [...h.slice(0, 3)].map((c) => c + c).join("");
+        if (!/^[0-9a-f]{6}/i.test(h)) return null;
+        return [0, 2, 4].map((i) => parseInt(h.slice(i, i + 2), 16));
+      };
+      const luminance = (rgb) => {
+        const [r, g, b] = rgb.map((v) => {
+          const c = v / 255;
+          return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+        });
+        return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+      };
+      const contrast = (a, b) => {
+        const x = toRgb(a);
+        const y = toRgb(b);
+        if (!x || !y) return null;
+        const [hi, lo] = [luminance(x), luminance(y)].sort((m, n) => n - m);
+        return (hi + 0.05) / (lo + 0.05);
+      };
+      const badge = (label, fg, bg, min) => {
+        const ratio = contrast(fg, bg);
+        if (ratio === null) return null;
+        const ok = ratio >= min;
+        return el("span", {
+          class: `badge ${ok ? "pass" : "fail"}`,
+          text: `${label} ${ratio.toFixed(2)}:1 ${ok ? "✓" : "✗"}`,
+        });
+      };
+
+      const families = new Set();
+      for (const d of data.directions || []) {
+        if (d.fonts?.heading) families.add(d.fonts.heading);
+        if (d.fonts?.body) families.add(d.fonts.body);
+      }
+      if (families.size) {
+        const query = [...families]
+          .map(
+            (f) =>
+              `family=${encodeURIComponent(f).replace(/%20/g, "+")}:wght@400;600;700`,
+          )
+          .join("&");
+        document.head.append(
+          el("link", {
+            rel: "stylesheet",
+            href: `https://fonts.googleapis.com/css2?${query}&display=swap`,
+          }),
+        );
+      }
+      const stack = (name) =>
+        name ? `"${name}", ui-sans-serif, system-ui, sans-serif` : "inherit";
+
+      const cards = document.getElementById("cards");
+      for (const d of data.directions || []) {
+        const c = d.colors || {};
+        const raised = c.surfaceRaised || c.surface;
+        const muted = c.mutedText || c.text;
+
+        const swatches = el("div", { class: "swatches" });
+        for (const [label, value] of [
+          ["Primary", c.primary],
+          ["Accent", c.accent],
+          ["Surface", c.surface],
+          ["Raised", c.surfaceRaised],
+          ["Text", c.text],
+          ["Muted text", c.mutedText],
+          ["Border", c.border],
+          ["On primary", c.onPrimary],
+        ]) {
+          if (!value) continue;
+          swatches.append(
+            el(
+              "div",
+              { class: "swatch" },
+              el("div", { class: "chip", style: { background: value } }),
+              el(
+                "div",
+                { class: "label" },
+                el("b", { text: label }),
+                el("code", { text: value }),
+              ),
+            ),
+          );
+        }
+
+        const preview = el(
+          "div",
+          {
+            class: "preview",
+            style: {
+              background: c.surface,
+              color: c.text,
+              fontFamily: stack(d.fonts?.body),
+            },
+          },
+          el(
+            "div",
+            {
+              class: "nav",
+              style: { borderBottom: `1px solid ${c.border}` },
+            },
+            el("b", {
+              text: "Product",
+              style: { fontFamily: stack(d.fonts?.heading) },
+            }),
+            el(
+              "span",
+              { class: "links", style: { color: muted } },
+              el("span", { text: "Docs" }),
+              el("span", { text: "Pricing" }),
+              el("span", { text: "Log in" }),
+            ),
+          ),
+          el("h3", {
+            text: "A headline in this direction",
+            style: { fontFamily: stack(d.fonts?.heading) },
+          }),
+          el("p", {
+            text: "Body copy shows how the text color, font and line height read on this surface over a few lines.",
+            style: { color: muted },
+          }),
+          el(
+            "div",
+            { class: "row" },
+            el("button", {
+              text: "Primary action",
+              style: {
+                background: c.primary,
+                color: c.onPrimary,
+                border: `1px solid ${c.primary}`,
+              },
+            }),
+            el("button", {
+              text: "Secondary",
+              style: {
+                background: "transparent",
+                color: c.text,
+                border: `1px solid ${c.border}`,
+              },
+            }),
+            el("input", {
+              placeholder: "Email address",
+              style: {
+                background: raised,
+                color: c.text,
+                border: `1px solid ${c.border}`,
+              },
+            }),
+          ),
+          el(
+            "div",
+            {
+              class: "tile",
+              style: {
+                background: raised,
+                border: `1px solid ${c.border}`,
+              },
+            },
+            el("b", { text: "Card " }),
+            el("span", {
+              text: "with an accent link",
+              style: { color: c.accent },
+            }),
+          ),
+        );
+
+        const contrastRow = el(
+          "div",
+          { class: "contrast" },
+          badge("Text/surface", c.text, c.surface, 4.5),
+          badge("Muted/surface", c.mutedText, c.surface, 4.5),
+          badge("On primary", c.onPrimary, c.primary, 4.5),
+          badge("Primary/surface", c.primary, c.surface, 3),
+        );
+
+        const facts = el(
+          "div",
+          { class: "facts" },
+          el(
+            "div",
+            {},
+            el("b", { text: "Type: " }),
+            el("span", {
+              text: `${d.fonts?.heading || "—"} / ${d.fonts?.body || "—"}`,
+            }),
+            d.fonts?.note
+              ? el("span", { class: "muted", text: ` — ${d.fonts.note}` })
+              : null,
+          ),
+          contrastRow,
+        );
+        if (d.references?.length) {
+          const refs = el("div", {}, el("b", { text: "References: " }));
+          d.references.forEach((r, i) => {
+            if (i) refs.append(", ");
+            refs.append(
+              r.url
+                ? el("a", {
+                    href: r.url,
+                    target: "_blank",
+                    rel: "noopener",
+                    text: r.name,
+                  })
+                : r.name,
+            );
+          });
+          facts.append(refs);
+        }
+
+        const keywords = el("div", { class: "keywords" });
+        for (const k of d.keywords || [])
+          keywords.append(el("span", { text: k }));
+
+        cards.append(
+          el(
+            "article",
+            { class: "card" },
+            el(
+              "div",
+              { class: "meta" },
+              el("div", { class: "id", text: `Direction ${d.id || ""}` }),
+              el("h2", { text: d.name || "Untitled" }),
+              el("p", { text: d.summary || "" }),
+              keywords,
+            ),
+            swatches,
+            preview,
+            facts,
+          ),
+        );
+      }
+    </script>
+  </body>
+</html>
