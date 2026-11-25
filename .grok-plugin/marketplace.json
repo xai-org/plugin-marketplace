@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cloudishai/skills.git",
-        "sha": "e560d7af4f2566a4aa10f0539492d9b600a482d4"
+        "sha": "30210ce97f627d04168311ee2aa56d4b73edd79c"
       },
       "homepage": "https://cloudish.ai",
       "keywords": ["cloudish", "cloudish deploy", "deploy to cloudish", "cloudish api key"],
