@@ -1254,6 +1254,18 @@
         ]
       }
     },
+    "shannon": {
+      "sha": "3760d2f9df9f3afa374a8eb2473adadfbf9ed991",
+      "version": "1.1.0",
+      "components": {
+        "skills": [
+          {
+            "name": "shannon",
+            "description": "Run Shannon, Keygraph's open-source AI pentester, against a web app or API the user is authorized to test. Use to start…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
