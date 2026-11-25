@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "savage-exposure-audit",
+      "description": "Savage AI Studios External Exposure Audit: an external-only security review of a domain you own — DNS and DMARC/SPF posture, TLS handshake and certificate, HTTP security headers, certificate-transparency subdomains, and exposed-file probes — returned as a written findings report.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Savages-studios/exposure-audit-plugin.git",
+        "sha": "8dfbf62533896d801222b65fe0144eaf6b5d2a0b"
+      },
+      "homepage": "https://savageaistudios.com",
+      "keywords": ["savage exposure audit", "savage ai studios exposure audit"],
+      "domains": ["savageaistudios.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Savage AI Studios",
+        "url": "https://savageaistudios.com"
+      }
     }
   ]
 }

@@ -1208,6 +1208,30 @@
         ]
       }
     },
+    "savage-exposure-audit": {
+      "sha": "8dfbf62533896d801222b65fe0144eaf6b5d2a0b",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "exposure-audit",
+            "description": "Run a Savage AI Studios External Exposure Audit on a domain you own"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "savage-exposure-audit",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "savage-exposure-audit",
+            "description": "Run a Savage AI Studios External Exposure Audit on a domain the user owns or is authorized to assess — DNS and DMARC/SP…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
