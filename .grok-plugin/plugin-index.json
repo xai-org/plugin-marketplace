@@ -1518,6 +1518,24 @@
         ]
       }
     },
+    "uiid": {
+      "sha": "78f4af6e78470594d2caf2cb2ddd2de3ffea939d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "uiid",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "uiid",
+            "description": "Work with sovereign digital identities, cryptographic aliases, verifiable credentials, zero-knowledge age proofs, and d…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",

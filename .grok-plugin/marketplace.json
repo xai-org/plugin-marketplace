@@ -6,6 +6,28 @@
   },
   "plugins": [
     {
+      "name": "uiid",
+      "description": "Manage sovereign digital identities, cryptographic aliases, verifiable credentials, zero-knowledge proofs, and delegated AI-agent identities through UIID.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/linkspreed/UIID-Grok-Plugin.git",
+        "sha": "78f4af6e78470594d2caf2cb2ddd2de3ffea939d"
+      },
+      "homepage": "https://uiid.linkspreed.com",
+      "keywords": [
+        "uiid",
+        "digital identity",
+        "identity wallet",
+        "verifiable credentials",
+        "zero knowledge proofs",
+        "AI agents"
+      ],
+      "domains": [
+        "uiid.linkspreed.com"
+      ]
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
