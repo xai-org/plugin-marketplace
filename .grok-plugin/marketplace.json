@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "publicrecords",
+      "description": "Nine skills plus Apify's hosted MCP server for official public data: SAM.gov, Grants.gov and USAspending contracts and grants, UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market data, competitor Google ads, sports odds, Spotify play counts, forecast track records and Skool community search. Runs the publicrecords Actors on the user's own Apify account (pay per event).",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GeminiGeorge22/publicrecords-skills.git",
+        "sha": "7f6d6b47e3a1eb6d707fcf3702994fc50c1a3d79"
+      },
+      "homepage": "https://github.com/GeminiGeorge22/publicrecords-skills",
+      "keywords": ["publicrecords", "publicrecords apify", "publicrecords mcp", "skool"],
+      "version": "1.1.0",
+      "author": {
+        "name": "GeminiGeorge22 (publicrecords on Apify)",
+        "url": "https://github.com/GeminiGeorge22"
+      }
     }
   ]
 }
