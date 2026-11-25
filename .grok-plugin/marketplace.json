@@ -788,6 +788,27 @@
       "domains": [
         "kling.ai"
       ]
+    },
+    {
+      "name": "kling-ai-china",
+      "description": "Official Kling AI China image and video creation for Grok Build. Connect over OAuth to generate and edit images, create videos with Kling models when available, use motion control and reusable Elements, and track tasks. Uses credits from the signed-in China Kling account.",
+      "category": "creative",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/klingai-tech/claude-plugin-cn.git",
+        "sha": "22bf20b0db140c70d4d74c84929774a11e203fca"
+      },
+      "homepage": "https://klingai.com/app",
+      "keywords": [
+        "kling",
+        "kling ai",
+        "kling image generation",
+        "kling video generation",
+        "kling mcp"
+      ],
+      "domains": [
+        "klingai.com"
+      ]
     }
   ]
 }

@@ -684,6 +684,32 @@
         ]
       }
     },
+    "kling-ai-china": {
+      "sha": "22bf20b0db140c70d4d74c84929774a11e203fca",
+      "version": "1.3.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kling-ai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kling-ai",
+            "description": "Handle Kling AI / 可灵 requests, including prompt-only planning, missing-asset next steps, generation preparation and app…"
+          },
+          {
+            "name": "kling-ai-generate-image",
+            "description": "Write or refine Kling AI image prompts, including prompt-only requests, or generate and edit images through the Kling A…"
+          },
+          {
+            "name": "kling-ai-generate-video",
+            "description": "Write Kling AI / 可灵 video prompts and storyboards, prepare video settings including HDR for approval, and submit author…"
+          }
+        ]
+      }
+    },
     "kling-ai-global": {
       "sha": "5f666eb73567a40db598db54627b99324341ccd2",
       "version": "1.4.0",
