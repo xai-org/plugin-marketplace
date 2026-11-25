@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "watchgoose-monitoring",
+      "description": "Audit cron and scheduled-job monitoring coverage, set up Watchgoose checks for one job or a batch, review monitoring health and triage missed runs.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pixeware/watchgoose-plugin.git",
+        "sha": "8c755cba2455337d8d2c3911da0535e2f5eed873"
+      },
+      "homepage": "https://watchgoose.com/docs/mcp/",
+      "keywords": ["watchgoose", "watchgoose mcp", "watchgoose monitoring"],
+      "domains": ["watchgoose.com", "mcp.watchgoose.com"]
     }
   ]
 }
