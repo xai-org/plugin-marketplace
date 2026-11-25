@@ -111,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
-      "version": "1.13.0",
+      "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a",
+      "version": "1.14.0",
       "components": {
         "mcpServers": [
           {
@@ -404,8 +404,8 @@
       }
     },
     "expo": {
-      "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
-      "version": "1.15.5",
+      "sha": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
+      "version": "1.16.0",
       "components": {
         "mcpServers": [
           {
@@ -510,8 +510,8 @@
       }
     },
     "figma": {
-      "sha": "490a73c7537123cb1f0bcaced658585f0ee32fd9",
-      "version": "2.2.211",
+      "sha": "5e4790847aedd4312fff65a11f7695c9c9382be0",
+      "version": "2.2.239",
       "components": {
         "mcpServers": [
           {
@@ -530,7 +530,7 @@
           },
           {
             "name": "figma-code-workflows",
-            "description": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standal…"
+            "description": "Use this skill to bring an existing local project, HTML file, or GitHub repo into Figma as code, or to pull GitHub upda…"
           },
           {
             "name": "figma-create-new-file",
@@ -587,6 +587,10 @@
           {
             "name": "figma-use-slides",
             "description": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has…"
+          },
+          {
+            "name": "figma-weave-workflows",
+            "description": "Use BEFORE building, editing or wiring up a Figma Weave workflow graph or AI pipeline with the weave_* MCP tools. Carri…"
           }
         ]
       }
@@ -702,8 +706,8 @@
       }
     },
     "modern-web-guidance": {
-      "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
-      "version": "1.0.1",
+      "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
+      "version": "1.0.2",
       "components": {
         "skills": [
           {
@@ -823,8 +827,8 @@
       }
     },
     "netlify": {
-      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
-      "version": "1.9.0",
+      "sha": "759b1c8d0745e2ef4cccc347bb487bdd75e3cf6f",
+      "version": "1.9.1",
       "components": {
         "mcpServers": [
           {
@@ -843,7 +847,7 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, Meta, TypeSafe (Jev), or OpenRouter-hosted mode…"
           },
           {
             "name": "netlify-blobs",
@@ -851,7 +855,7 @@
           },
           {
             "name": "netlify-caching",
-            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, Netlify Server, and proxies. Use wh…"
           },
           {
             "name": "netlify-config",
@@ -859,7 +863,7 @@
           },
           {
             "name": "netlify-database",
-            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
+            "description": "Use this skill whenever a Netlify project needs a Postgres database. It covers Netlify Database setup, queries from Fun…"
           },
           {
             "name": "netlify-deploy",
@@ -871,7 +875,7 @@
           },
           {
             "name": "netlify-forms",
-            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
+            "description": "Use this skill whenever a developer wants to add a contact form, signup form, file upload form, or any HTML form to a N…"
           },
           {
             "name": "netlify-frameworks",
@@ -887,7 +891,7 @@
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
+            "description": "Transform, resize, crop, and convert images on demand through Netlify Image CDN at the /.netlify/images endpoint. Use t…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -901,8 +905,8 @@
       }
     },
     "octen": {
-      "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6",
-      "version": "1.1.0",
+      "sha": "6210e412232ac96c59872d37711d23015e5f5358",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -913,7 +917,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, image search, and clean U…"
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, deeper web search, image…"
           }
         ]
       }
@@ -1286,8 +1290,8 @@
       }
     },
     "stripe": {
-      "sha": "1bb486909cc36ce608181c2af62c4716ba9cd7c7",
-      "version": "0.13.2",
+      "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
+      "version": "0.13.5",
       "components": {
         "agents": [
           {
@@ -1456,8 +1460,8 @@
       }
     },
     "tavily": {
-      "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833",
-      "version": "2.4.1",
+      "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6",
+      "version": "2.4.2",
       "components": {
         "mcpServers": [
           {
@@ -1548,8 +1552,8 @@
       }
     },
     "vercel": {
-      "sha": "8bb46159108f0cd6a749959b20c1411257411090",
-      "version": "0.56.0",
+      "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
+      "version": "0.57.0",
       "components": {
         "agents": [
           {
@@ -1788,8 +1792,8 @@
       }
     },
     "wix": {
-      "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969",
-      "version": "1.41.8",
+      "sha": "4938f2bc2211f44213e0021303f4d7de6a7ada7b",
+      "version": "1.41.11",
       "components": {
         "mcpServers": [
           {
