@@ -362,6 +362,23 @@
         ]
       }
     },
+    "everme": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "everme",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "everme-memory",
+            "description": "Use EverMe memory when the user refers to previous conversations, earlier decisions, \"last time\", \"remember when\", exis…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

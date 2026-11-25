@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "everme",
+      "description": "EverMe work memory (hosted MCP server + skill). Search past decisions and fixes, read your profile, save what you ask to keep, and forget what a conversation saved. Sign in with your EverMe account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/everme"
+      },
+      "homepage": "https://everme.evermind.ai",
+      "keywords": ["everme", "everme memory", "everme mcp"],
+      "domains": ["everme.evermind.ai", "api.everme.evermind.ai"]
     }
   ]
 }

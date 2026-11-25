@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "everme": {
+      "type": "http",
+      "url": "https://api.everme.evermind.ai/mcp"
+    }
+  }
+}
