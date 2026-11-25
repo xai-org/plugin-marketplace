@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "flightseatmap",
+      "description": "Airline seat map integration backed by airline booking systems. Look up the cabin layout for any flight, rank the free seats against preferences like window, aisle, exit row or extra legroom, read traveller reviews of a specific seat, and set alerts for when a better seat frees up. Covers 117 airlines.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/FlightSeatmap/mcp.git",
+        "sha": "1fa7680aa7f7076a5695837c05894bc291a16eae"
+      },
+      "homepage": "https://flightseatmap.com/mcp",
+      "keywords": ["flightseatmap", "flight seat map", "airplane seat", "seat alert"],
+      "domains": ["flightseatmap.com"],
+      "version": "6.1.0"
     }
   ]
 }
