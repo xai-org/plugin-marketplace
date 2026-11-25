@@ -1,6 +1,98 @@
 {
   "version": 1,
   "plugins": {
+    "award-travel-finder": {
+      "sha": "40c86a70c8649cf679e66f2196d550719c9d887f",
+      "version": "1.3.1",
+      "components": {
+        "commands": [
+          {
+            "name": "compare-programs",
+            "description": "Compare loyalty program award charts and rates"
+          },
+          {
+            "name": "search-flights",
+            "description": "Search award flight availability across airlines"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "award-travel-finder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "audit-my-portfolio",
+            "description": "Values every balance, flags idle and expiring points, and gives the best use for each currency. Use when the user asks…"
+          },
+          {
+            "name": "award-travel",
+            "description": "This skill should be used when the user asks about \"award flights\", \"points\", \"miles\", \"avios\", \"asia miles\", \"loyalty…"
+          },
+          {
+            "name": "book-award-step-by-step",
+            "description": "A safe booking checklist - confirm live space, hold if possible, transfer, then ticket. Never transfer before you see t…"
+          },
+          {
+            "name": "cancel-or-change-award",
+            "description": "Works out the cancel or change fee, where the points go back, and if a rebook is cheaper than keeping the ticket. Use w…"
+          },
+          {
+            "name": "check-trip-before-departure",
+            "description": "A pre-flight briefing - aircraft and seat, lounges, wifi, airport delays and security waits, and a reprice check on the…"
+          },
+          {
+            "name": "family-or-group-trip",
+            "description": "Finds award seats for 2+ travellers together and splits the points cost across balances and accounts. Use when the user…"
+          },
+          {
+            "name": "find-my-bookings-and-balances",
+            "description": "Uses your own email and browser connectors together to find booking confirmations and points balances, then saves them…"
+          },
+          {
+            "name": "hotel-price-drop-rebook",
+            "description": "Tracks a booked award hotel stay, and rebooks when the points rate falls below what the user paid. Use when the user ha…"
+          },
+          {
+            "name": "maximize-transfer-bonus",
+            "description": "Decides if a live transfer bonus is worth using now, what to book with it and how many points to move. Use when the use…"
+          },
+          {
+            "name": "missing-points-claim",
+            "description": "Audits a hotel folio or stay for missing points, elite benefits and bad charges, then writes the claim. Use when the us…"
+          },
+          {
+            "name": "next-credit-card",
+            "description": "Picks the next travel card from the user's spend, current cards, goals and live welcome bonuses. Use when the user asks…"
+          },
+          {
+            "name": "plan-award-trip",
+            "description": "From a route and dates to a bookable award, with the cheapest transfer path, a hold plan and booking steps. Use when th…"
+          },
+          {
+            "name": "set-up-alerts",
+            "description": "Sets up award-seat monitors, hotel price-drop tracking and recurring standing orders in one pass. Use when the user wan…"
+          },
+          {
+            "name": "setup",
+            "description": "Connects the user's Award Travel Finder account, saves their home airport, points and cards, and runs a first live awar…"
+          },
+          {
+            "name": "status-match-and-challenge",
+            "description": "Finds the cheapest way to an elite tier - match, challenge, earn or run - from the status the user already holds. Use w…"
+          },
+          {
+            "name": "weekly-deal-review",
+            "description": "A weekly digest of live transfer bonuses, points sales and route-monitor hits that match the user's balances. Use when…"
+          },
+          {
+            "name": "where-can-my-points-take-me",
+            "description": "Turns the user's balances into 3-5 concrete award trips they can afford, with live seats and transfer paths. Use when t…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",

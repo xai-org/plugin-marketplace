@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "award-travel-finder",
+      "description": "Award Travel Finder plugin for Grok. Search award flight availability across 28 airlines, award-chart pricing for 23 loyalty programs, and award nights at Marriott, Hilton, IHG and Hyatt. 163 first-party tools, OAuth sign-in, no API key.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AwardTravelFinder/mcp.git",
+        "sha": "40c86a70c8649cf679e66f2196d550719c9d887f"
+      },
+      "homepage": "https://awardtravelfinder.com/mcp",
+      "keywords": ["award travel finder", "awardtravelfinder", "award flight availability", "award seat search"],
+      "domains": ["awardtravelfinder.com"],
+      "version": "1.3.1"
     }
   ]
 }
