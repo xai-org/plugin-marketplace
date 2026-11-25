@@ -775,7 +775,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/setnforgetapp/setnforget-plugin.git",
-        "sha": "2cbc4c42038c062b92c514d88b3e45626d00e6b2"
+        "sha": "7ba03d0a61e65097b60f95250ce9a05f447642f2"
       },
       "homepage": "https://getsetnforget.com/agents",
       "keywords": [
