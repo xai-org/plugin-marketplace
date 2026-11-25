@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/plori-ai/claude-plugin.git",
-        "sha": "381c4c76a0a9c81cd2181c7af18ba9df84413cd1",
+        "sha": "8903374f81ca4521cc844be254458cace532f421",
         "path": "plugins/plori"
       },
       "homepage": "https://plori.ai",
