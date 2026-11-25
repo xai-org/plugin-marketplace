@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "designmdpro",
+      "description": "DesignMD Pro design-system library (MCP Server + Skills). Search real website design systems, read their DESIGN.md tokens for colors, typography, spacing and components, extract a site's color palette, and restyle your project after a reference site or a chosen design direction. Works anonymously; sign in with a DesignMD Pro account to unlock Pro tokens.",
+      "category": "design",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/designmdpro"
+      },
+      "homepage": "https://www.designmdpro.app",
+      "keywords": ["designmdpro", "designmd pro", "designmd pro mcp"],
+      "domains": ["designmdpro.app", "www.designmdpro.app"]
     }
   ]
 }

@@ -362,6 +362,31 @@
         ]
       }
     },
+    "designmdpro": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "designmdpro",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "design-direction-explorer",
+            "description": "Turn a loose design brief (\"make it feel calmer\", \"premium fintech\", \"playful but trustworthy\") into concrete visual di…"
+          },
+          {
+            "name": "designmdpro",
+            "description": "Look up real website design systems in DesignMD Pro through the designmdpro MCP server: search the library, read a site…"
+          },
+          {
+            "name": "restyle-from-reference",
+            "description": "Restyle the current project after a real website's design system from DesignMD Pro. Use when the user says \"make it loo…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

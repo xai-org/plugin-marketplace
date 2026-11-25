@@ -1,0 +1,13 @@
+{
+  "name": "designmdpro",
+  "version": "1.0.0",
+  "description": "DesignMD Pro for Grok Build via the hosted MCP server at www.designmdpro.app. Search a curated library of real website design systems, read their DESIGN.md tokens, guidance and revision history, extract a site's color palette, and restyle your project after a reference site or a chosen design direction. Works anonymously; sign in with a DesignMD Pro account to unlock Pro tokens.",
+  "author": {
+    "name": "DesignMD Pro",
+    "url": "https://www.designmdpro.app"
+  },
+  "homepage": "https://www.designmdpro.app/integrations/mcp",
+  "license": "MIT",
+  "keywords": ["designmdpro", "designmd pro", "designmd pro mcp"],
+  "logo": "assets/logo.svg"
+}
