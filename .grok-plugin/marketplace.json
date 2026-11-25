@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/kuzenlabs/maviapi-mcp.git",
-        "sha": "11ac1b220f896b2d9f6e8bb7995a5aa1d53e2880",
+        "sha": "2d92bca34f11896c29a5d2af40148aa48061859e",
         "path": "plugin"
       },
       "homepage": "https://maviapi.com",
