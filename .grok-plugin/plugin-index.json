@@ -1,6 +1,22 @@
 {
   "version": 1,
   "plugins": {
+    "anchorbrowser": {
+      "sha": "de6a60a13c1c5273b382169c92ea5de679aaa5ca",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "anchor",
+            "description": "http"
+          },
+          {
+            "name": "anchor-browser",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
