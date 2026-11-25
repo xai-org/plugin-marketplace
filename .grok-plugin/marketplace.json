@@ -490,7 +490,7 @@
     },
     {
       "name": "flightseatmap",
-      "description": "Airline seat map integration backed by airline booking systems. Look up the cabin layout for any flight, rank the free seats against preferences like window, aisle, exit row or extra legroom, read traveller reviews of a specific seat, and set alerts for when a better seat frees up. Covers 117 airlines.",
+      "description": "Seat maps, seat ratings, traveller reviews and seat alerts for 117 airlines.",
       "category": "travel",
       "source": {
         "source": "url",
