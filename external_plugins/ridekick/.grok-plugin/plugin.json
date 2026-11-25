@@ -1,0 +1,13 @@
+{
+  "name": "ridekick",
+  "version": "1.0.0",
+  "description": "Read your Ridekick requests and each car dealership's out-the-door price, in writing. Sign in to Ridekick and approve Grok Build on a Ridekick screen.",
+  "author": {
+    "name": "Ridekick Corp.",
+    "url": "https://www.ridekick.com"
+  },
+  "homepage": "https://www.ridekick.com/developers/mcp",
+  "license": "MIT",
+  "keywords": ["ridekick", "ridekick offers", "ridekick car offers"],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ridekick": {
+      "type": "http",
+      "url": "https://www.ridekick.com/api/mcp"
+    }
+  }
+}
