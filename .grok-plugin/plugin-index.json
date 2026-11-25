@@ -806,8 +806,8 @@
       }
     },
     "netlify": {
-      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
-      "version": "1.9.0",
+      "sha": "759b1c8d0745e2ef4cccc347bb487bdd75e3cf6f",
+      "version": "1.9.1",
       "components": {
         "mcpServers": [
           {
@@ -826,7 +826,7 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, Meta, TypeSafe (Jev), or OpenRouter-hosted mode…"
           },
           {
             "name": "netlify-blobs",
@@ -834,7 +834,7 @@
           },
           {
             "name": "netlify-caching",
-            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, Netlify Server, and proxies. Use wh…"
           },
           {
             "name": "netlify-config",
@@ -842,7 +842,7 @@
           },
           {
             "name": "netlify-database",
-            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
+            "description": "Use this skill whenever a Netlify project needs a Postgres database. It covers Netlify Database setup, queries from Fun…"
           },
           {
             "name": "netlify-deploy",
@@ -854,7 +854,7 @@
           },
           {
             "name": "netlify-forms",
-            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
+            "description": "Use this skill whenever a developer wants to add a contact form, signup form, file upload form, or any HTML form to a N…"
           },
           {
             "name": "netlify-frameworks",
@@ -870,7 +870,7 @@
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
+            "description": "Transform, resize, crop, and convert images on demand through Netlify Image CDN at the /.netlify/images endpoint. Use t…"
           },
           {
             "name": "netlify-mcp-servers",
