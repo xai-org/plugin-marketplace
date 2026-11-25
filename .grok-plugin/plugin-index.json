@@ -340,6 +340,24 @@
         ]
       }
     },
+    "cyberscore": {
+      "sha": "5ad62b2fdc9468dd87356401c2b76444017d9109",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "cyberscore",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "security-check",
+            "description": "Check how secure a business domain is and explain it to a non-technical owner. Use when someone asks \"how secure is <do…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

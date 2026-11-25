@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "cyberscore",
+      "description": "Free outside-in security check for any business domain: email spoofing protection (SPF, DMARC, DKIM), website security headers, HTTPS certificates and publicly reported exposed services, graded A to F with plain-English fixes. Also lists vulnerabilities being actively exploited now. Remote MCP server, no sign-in.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Automated-Client-Acquisition/plugins.git",
+        "sha": "5ad62b2fdc9468dd87356401c2b76444017d9109",
+        "path": "plugins/cyberscore"
+      },
+      "homepage": "https://www.cyberscorelab.com/ai",
+      "keywords": ["cyberscore", "domain security", "dmarc check", "email security check"],
+      "domains": ["cyberscorelab.com"]
     }
   ]
 }
