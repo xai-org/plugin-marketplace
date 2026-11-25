@@ -8,7 +8,7 @@
     
 {
   "name": "adneuron",
-  "description": "AdNeuron AI advertising copilot. Connect Google Ads and Meta Ads to analyze performance, manage campaigns, and optimize advertising through Grok Build.",
+  "description": "Adneuron is an AI advertising agent for Google Ads, Meta Ads, Amazon Ads, LinkedIn Ads, and TikTok Ads. Create, launch, manage, analyze, and optimize advertising campaigns through Grok Build, with user approval before campaign changes are applied.",
   "category": "marketing",
   "source": {
     "source": "url",
