@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "maeve-agent",
+      "description": "Maeve Social helps agencies, businesses and founders manage organic and paid social media. Plan and schedule posts, organize media, review performance and manage ad campaigns in your Maeve workspace.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/maevesocial/maeve-agent.git",
+        "sha": "a52cbcdc4f68f524decef52b845b7d163af489d1"
+      },
+      "homepage": "https://maevesocial.com",
+      "keywords": ["maeve", "maeve social", "maeve social media", "maeve mcp"],
+      "domains": ["maevesocial.com", "api.maevesocial.com"]
     }
   ]
 }

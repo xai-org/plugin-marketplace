@@ -684,6 +684,24 @@
         ]
       }
     },
+    "maeve-agent": {
+      "sha": "a52cbcdc4f68f524decef52b845b7d163af489d1",
+      "version": "1.1.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "maeve",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "maeve-social-scheduler",
+            "description": "Create, schedule and publish posts, manage media, read analytics and run paid ads in a Maeve Social workspace through t…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
