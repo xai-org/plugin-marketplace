@@ -490,12 +490,12 @@
     },
     {
       "name": "crawlbrulee",
-      "description": "EU-native web scraping for AI agents & developers. One call turns any url into clean markdown, screenshots, metadata and links, or just the values you name by CSS selector, processed fully in the EU. Bundles the crawlbrulee mcp server (scrape, map, background jobs, usage) plus ten skills that teach the agent which call to make and how to read the result. Start free with 750 credits.",
+      "description": "EU-native web scraping for AI agents & developers. One call turns any url into clean markdown, screenshots, metadata and links, or just the values you name by CSS selector, processed fully in the EU. Bundles the crawlbrulee mcp server (scrape, map, background jobs, usage) plus eleven skills that teach the agent which call to make and how to read the result. Start free with 750 credits.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/crawlbrulee/crawlbrulee-skills.git",
-        "sha": "f1ef5a3c9ecfc94859e665f9e3f7721c931c7a57"
+        "sha": "1836070b5fac1a89ee0b68435a97ca5816b658bc"
       },
       "homepage": "https://crawlbrulee.com",
       "keywords": ["crawlbrulee", "crawl brulee", "crawlbrulee scrape", "crawlbrulee mcp"],

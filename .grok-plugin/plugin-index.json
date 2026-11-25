@@ -341,13 +341,13 @@
       }
     },
     "crawlbrulee": {
-      "sha": "f1ef5a3c9ecfc94859e665f9e3f7721c931c7a57",
-      "version": "1.3.6",
+      "sha": "1836070b5fac1a89ee0b68435a97ca5816b658bc",
+      "version": "1.7.0",
       "components": {
         "mcpServers": [
           {
             "name": "crawlbrulee",
-            "description": "stdio"
+            "description": "http"
           }
         ],
         "skills": [
@@ -369,7 +369,11 @@
           },
           {
             "name": "crawlbrulee-mcp",
-            "description": "use when an mcp-aware agent or editor should scrape pages (or pull named values out of them by css selector), map sites…"
+            "description": "use when an mcp-aware agent or app (Claude, Claude Code, Cursor, Codex, Gemini CLI and others) should scrape pages, pul…"
+          },
+          {
+            "name": "crawlbrulee-mcp-local",
+            "description": "use when crawlbrulee's mcp tools should run from the local `@crawlbrulee/mcp` stdio server, started with npx and an api…"
           },
           {
             "name": "crawlbrulee-scrape",
@@ -381,7 +385,7 @@
           },
           {
             "name": "crawlbrulee-screenshots",
-            "description": "use when capturing a screenshot of a web page with crawlbrulee — viewport vs full-page, desktop vs mobile, custom viewp…"
+            "description": "use when capturing a screenshot of a web page with crawlbrulee — viewport vs full-page, desktop vs mobile, light vs dar…"
           },
           {
             "name": "crawlbrulee-sdk-js",
