@@ -494,7 +494,7 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/chandrkant/warmgtm-plugin.git",
+        "url": "https://github.com/warmgtm/warmgtm-plugin.git",
         "sha": "509816fbd3d098e612706f5f83a6597fe38fc5cb"
       },
       "homepage": "https://warmgtm.com",
