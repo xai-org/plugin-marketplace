@@ -362,6 +362,23 @@
         ]
       }
     },
+    "everos": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "everos",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "everos-memory",
+            "description": "Use EverOS memory when the user asks to save something to EverOS, asks what EverOS remembers, refers to something saved…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

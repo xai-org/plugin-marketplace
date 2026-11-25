@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "everos",
+      "description": "EverOS context and memory layer for AI agents (hosted MCP server + skill). Save decisions and project context to a memory space, then search, browse and delete them. Sign in with your EverOS account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/everos"
+      },
+      "homepage": "https://evermind.ai/everos",
+      "keywords": ["everos", "everos memory", "everos mcp"],
+      "domains": ["everos.evermind.ai", "everos-mcp.evermind.ai"]
     }
   ]
 }
