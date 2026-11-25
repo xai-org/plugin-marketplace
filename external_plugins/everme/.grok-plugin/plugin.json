@@ -1,0 +1,18 @@
+{
+  "name": "everme",
+  "version": "1.0.0",
+  "description": "EverMe work memory for Grok Build via the hosted EverMe MCP server. Search past decisions and fixes, read your profile, save what you ask to keep, and forget what a conversation saved. Sign in with your EverMe account on first connect.",
+  "author": {
+    "name": "Evermind AI, Inc.",
+    "url": "https://evermind.ai"
+  },
+  "homepage": "https://everme.evermind.ai",
+  "repository": "https://github.com/EverMind-AI/EverMe",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everme",
+    "everme memory",
+    "everme mcp"
+  ],
+  "logo": "assets/logo.png"
+}
