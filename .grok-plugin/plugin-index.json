@@ -684,6 +684,18 @@
         ]
       }
     },
+    "maviapi": {
+      "sha": "11ac1b220f896b2d9f6e8bb7995a5aa1d53e2880",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "maviapi",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",

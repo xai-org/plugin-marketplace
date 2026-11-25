@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "maviapi",
+      "description": "The unofficial API for any website, as MCP tools. Search ready site APIs, read their endpoints and call them for live structured JSON, or have a new one built for a site that has none. Runs the @maviapi/mcp server locally; a shared demo key works until you set MAVIAPI_API_KEY. Data only: it never acts on the target sites.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kuzenlabs/maviapi-mcp.git",
+        "sha": "11ac1b220f896b2d9f6e8bb7995a5aa1d53e2880",
+        "path": "plugin"
+      },
+      "homepage": "https://maviapi.com",
+      "keywords": ["maviapi", "mavi api", "maviapi mcp"],
+      "domains": ["maviapi.com", "mcp.maviapi.com", "api.maviapi.com"]
     }
   ]
 }
