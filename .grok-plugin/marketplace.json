@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "flightqueue",
+      "description": "Airport intelligence. Security wait times and forecasts, US air traffic delays, EU Entry/Exit System border queues, lounges, terminals, aviation weather, and airline baggage performance for 8,000+ airports. Hosted remote MCP server, OAuth sign-in.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Flight-Queue/mcp.git",
+        "sha": "de85e8afec53b233478bf55247afb17f4ca982e2"
+      },
+      "homepage": "https://mcp.flightqueue.com",
+      "keywords": ["flightqueue", "flight queue", "flightqueue airport"],
+      "domains": ["flightqueue.com", "mcp.flightqueue.com"],
+      "version": "1.2.0"
     }
   ]
 }

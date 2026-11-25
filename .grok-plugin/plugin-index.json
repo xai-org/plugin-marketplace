@@ -642,6 +642,50 @@
         ]
       }
     },
+    "flightqueue": {
+      "sha": "de85e8afec53b233478bf55247afb17f4ca982e2",
+      "version": "1.2.0",
+      "components": {
+        "commands": [
+          {
+            "name": "setup",
+            "description": "Set up FlightQueue: connect, pick your home airport and see live waits and delays"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "flightqueue",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "flightqueue-baggage",
+            "description": "Look up airline baggage rules and lost-bag records with the FlightQueue MCP server. Use when the user asks \"what is the…"
+          },
+          {
+            "name": "flightqueue-compare-airports",
+            "description": "Choose which airport to fly from with the FlightQueue MCP server. Use when the user asks \"should I fly from JFK or Newa…"
+          },
+          {
+            "name": "flightqueue-crowd-reports",
+            "description": "Read traveller-submitted airport wait reports, and submit one when the user is at the airport, with the FlightQueue MCP…"
+          },
+          {
+            "name": "flightqueue-ees-schengen",
+            "description": "Check EU Entry/Exit System (EES) border queues and the Schengen 90/180-day allowance with the FlightQueue MCP server. U…"
+          },
+          {
+            "name": "flightqueue-setup",
+            "description": "Set up FlightQueue for a user: confirm the MCP connection, learn their home airport, show live wait and delay data, and…"
+          },
+          {
+            "name": "flightqueue-trip-day",
+            "description": "Plan the day of a flight with the FlightQueue MCP server. Use when the user asks \"when should I leave for the airport\",…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
