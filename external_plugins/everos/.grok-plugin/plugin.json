@@ -1,0 +1,18 @@
+{
+  "name": "everos",
+  "version": "1.0.0",
+  "description": "EverOS, the context and memory layer for your organization's AI agents, for Grok Build via the hosted EverOS MCP server. Save decisions and project context to a memory space, then search and browse them later. Sign in with your EverOS account on first connect.",
+  "author": {
+    "name": "Evermind AI, Inc.",
+    "url": "https://evermind.ai"
+  },
+  "homepage": "https://evermind.ai/everos",
+  "repository": "https://github.com/EverMind-AI/Plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "everos",
+    "everos memory",
+    "everos mcp"
+  ],
+  "logo": "assets/logo.png"
+}

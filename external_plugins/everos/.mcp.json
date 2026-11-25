@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "everos": {
+      "type": "http",
+      "url": "https://everos-mcp.evermind.ai/mcp"
+    }
+  }
+}
