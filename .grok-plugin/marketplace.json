@@ -490,8 +490,8 @@
     },
     {
       "name": "videodb",
-      "description": "VideoDB video editing, clipping, subtitles, search, and live-stream workflows. Includes six skills, four commands, and the hosted VideoDB MCP server for working with your VideoDB account.",
-      "category": "productivity",
+      "description": "Edit, clip, subtitle, and search videos with VideoDB. Find moments by what was said or shown, turn them into shareable clips, and work with live streams through the hosted VideoDB MCP server and Python SDK skills.",
+      "category": "media",
       "source": {
         "source": "url",
         "url": "https://github.com/video-db/skills.git",
@@ -499,6 +499,7 @@
       },
       "homepage": "https://docs.videodb.io",
       "keywords": ["videodb", "videodb mcp", "videodb video"],
+      "tags": ["video", "video-editing", "video-search", "clips", "subtitles", "live-streaming", "mcp"],
       "domains": ["videodb.io", "docs.videodb.io", "console.videodb.io", "mcp.videodb.io"],
       "version": "1.5.1",
       "author": {
