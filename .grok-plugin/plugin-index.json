@@ -1239,7 +1239,7 @@
       }
     },
     "shiro": {
-      "sha": "55bf4e86f3780bb8c6bf7f2a6833190c4a6627a1",
+      "sha": "55fe0f75132ad3eccaf17109c22968deab5505b5",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
