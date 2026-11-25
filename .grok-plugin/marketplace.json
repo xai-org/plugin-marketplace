@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "pushary",
+      "description": "Grok Build sends you a push when it needs an answer. If you enable calls and miss the push, Pushary can ring you. Answer and Grok continues in the same session. Connect your Pushary account to the hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Pushary/grok-build-plugin.git",
+        "sha": "48d7e949432b04aa6dacba1f5a1fbe68f7c6ab44"
+      },
+      "homepage": "https://pushary.com/docs/agents/guides/grok-build",
+      "keywords": ["pushary", "pushary mcp", "pushary notifications", "pushary approval"],
+      "domains": ["pushary.com"]
     }
   ]
 }
