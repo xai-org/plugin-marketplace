@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "infograph",
+      "description": "Query your business data from Grok Build. Infograph syncs your apps, databases and spreadsheets into one private data lake; the bundled hosted MCP server (OAuth) lets the agent find tables, run read-only SQL across sources and build live dashboards, reports and analyses.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/infograph-AI/infograph-plugin.git",
+        "sha": "ebe7859aac499426d7a7d4db2b050116bfadbb02"
+      },
+      "homepage": "https://infograph.ai",
+      "keywords": ["infograph", "infograph ai", "infograph dashboards"],
+      "domains": ["infograph.ai", "app.infograph.ai"]
     }
   ]
 }
