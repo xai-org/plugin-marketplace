@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "popnow",
+      "description": "PopNow AI creative studio integration. Create and edit AI images, videos, music, voiceovers, UGC ads, explainers, 3D models and browser games via the hosted PopNow MCP server with OAuth sign-in and upfront credit quotes.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/popnow-ai/popnow-mcp.git",
+        "sha": "0b713e5e0764c33d7e9fd2fd616e7397a6125534"
+      },
+      "homepage": "https://popnow.ai/mcp",
+      "keywords": ["popnow", "popnow ai", "popnow mcp"],
+      "domains": ["popnow.ai", "api.popnow.ai"],
+      "version": "1.1.0",
+      "author": {
+        "name": "PopNow AI, LLC",
+        "email": "support@popnow.ai",
+        "url": "https://popnow.ai"
+      }
     }
   ]
 }
