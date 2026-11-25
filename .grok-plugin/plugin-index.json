@@ -492,6 +492,24 @@
         ]
       }
     },
+    "ezseller": {
+      "sha": "ca63ae95389d12107f7a27bb5c27c305a2fb4c85",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ezseller",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "amazon-seller-operator",
+            "description": "Investigate authorized Amazon seller operations with EzSeller MCP, preserving identity, evidence, uncertainty, and appr…"
+          }
+        ]
+      }
+    },
     "figma": {
       "sha": "5e4790847aedd4312fff65a11f7695c9c9382be0",
       "version": "2.2.239",
