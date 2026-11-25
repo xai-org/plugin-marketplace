@@ -6,6 +6,22 @@
   },
   "plugins": [
     {
+      "name": "platic",
+      "description": "Connect your Platica account to manage WhatsApp and social conversations, clients, approved templates, campaigns and AI agents in your authorized workspaces through OAuth.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/platicamx/platica-ai-plugins.git",
+        "sha": "8a0ff3887937c7372413a71e617d8cb12e71061a",
+        "path": "grok"
+      },
+      "homepage": "https://platica.mx",
+      "keywords": ["platic", "platica", "platica whatsapp", "platica crm", "platica agents"],
+      "domains": ["platica.mx", "api.platica.mx", "docs.platica.mx"],
+      "version": "1.1.9",
+      "author": { "name": "Platica", "url": "https://platica.mx" }
+    },
+    {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
       "category": "deployment",
