@@ -1,6 +1,88 @@
 {
   "version": 1,
   "plugins": {
+    "arcads": {
+      "sha": "881e0db44969e5737bb44281b4171618cc8e1569",
+      "version": "1.0.11",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "arcads",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ads",
+            "description": "Arcads ads skill — understand the user''s marketing goal, research their brand, and produce ad creatives through the Ar…"
+          },
+          {
+            "name": "amazon-listing-system",
+            "description": "Turn one product URL + one product photo into a full Amazon listing image set: research buyer angles, then generate Her…"
+          },
+          {
+            "name": "animated-ad",
+            "description": "Converts a product, offer, or raw ad script into a production-ready Vox-style paper-collage animated ad for Arcads Seed…"
+          },
+          {
+            "name": "cinematic-ads",
+            "description": "Turn product photos plus a brief into a cinematic, photorealistic e-commerce short film (30s to 10 min) made with Seeda…"
+          },
+          {
+            "name": "clone-hook",
+            "description": "Identify a video ad''s hook and clone it for the user''s brand: one frame to approve, then one 720p take, with text and…"
+          },
+          {
+            "name": "clone-static-ad",
+            "description": "Clone a static (image) ad for the user's brand. Invoke with /arcads:clone-static-ad or via another skill."
+          },
+          {
+            "name": "collage-motion",
+            "description": "End-to-end Arcads-native pipeline for halftone paper-collage and stop-motion-graphic ads. Decodes a reference image int…"
+          },
+          {
+            "name": "fpv-drone-path",
+            "description": "Ready-to-use FPV drone-path video prompt: turn a wide landmark image with a hand-drawn red flight path into one continu…"
+          },
+          {
+            "name": "image-to-motion",
+            "description": "Turn any still image into a professional motion graphic through the Arcads MCP connector with Seedance 2.5. Covers how…"
+          },
+          {
+            "name": "media-router",
+            "description": "Smart router for any \"generate\" or \"edit/modify/repurpose\" request on an image or video. Introspects connected MCP serv…"
+          },
+          {
+            "name": "omniflash-restyle",
+            "description": "Restyle a raw talking-head video into the look of a reference edit using Arcads Omni Flash (arcads_generate_video_omni_…"
+          },
+          {
+            "name": "pixar-ad",
+            "description": "Turn a product (URL and/or product image) into a finished 15-second Pixar-style 3D animated ad in ONE Seedance 2.0 call…"
+          },
+          {
+            "name": "song-ad",
+            "description": "AI music ads: turn a product into a song ad (singing ad, music ad, jingle, musical ad, brand music video) on the Arcads…"
+          },
+          {
+            "name": "spy-competitor-ads",
+            "description": "Find and download competitor ads from the Meta Ad Library (video, image, or both). Invoke with /arcads:spy-competitor-a…"
+          },
+          {
+            "name": "static-to-motion",
+            "description": "Turn a finished static ad into short video for paid social on the Arcads MCP connector using Seedance 2.0. Reads the st…"
+          },
+          {
+            "name": "tsunami-soundstage",
+            "description": "Ready-to-use video prompt for the \"tsunami on a film soundstage\" shot: a wide behind-the-scenes take where a colossal s…"
+          },
+          {
+            "name": "viral-clone",
+            "description": "Clone any viral video ad frame by frame with a different product swapped in, on the Arcads MCP connector plus local ffm…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
