@@ -1,0 +1,18 @@
+{
+  "name": "onstay",
+  "version": "1.0.0",
+  "description": "Manage OnStay vacation-rental homes, calendars, blocked dates, guest questions, concierge knowledge, and stay door codes.",
+  "author": {
+    "name": "OnStay",
+    "email": "support@onstay.ai",
+    "url": "https://onstay.ai"
+  },
+  "homepage": "https://onstay.ai/mcp",
+  "license": "MIT",
+  "keywords": [
+    "onstay",
+    "onstay concierge",
+    "onstay mcp",
+    "onstay host"
+  ]
+}

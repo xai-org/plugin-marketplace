@@ -916,6 +916,23 @@
         ]
       }
     },
+    "onstay": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "onstay",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "onstay-host-ops",
+            "description": "Operate an OnStay host account through the OnStay MCP server: inspect homes, check calendars and blocked dates, view an…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
