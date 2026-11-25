@@ -340,6 +340,51 @@
         ]
       }
     },
+    "conqueror": {
+      "sha": "985b71383d033d55068638106f6b2aa1a03a399e",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "conqueror",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "conquer-keyword",
+            "description": "Conquer a keyword: rewrite the connected WordPress site's best-matching page for it and propose the change as a reviewa…"
+          },
+          {
+            "name": "conqueror-competitive-landscape",
+            "description": "Map who wins an SEO market: recurring domains, winning content themes, keyword coverage, backlink strength, and the ope…"
+          },
+          {
+            "name": "conqueror-competitor-analysis",
+            "description": "Analyze one named competitor's organic footprint, ranking keywords, content themes, backlinks, and weaknesses. Use for…"
+          },
+          {
+            "name": "conqueror-keyword-clustering",
+            "description": "Group keywords into page-level clusters and map each cluster to an existing or new page, flagging cannibalization. Use…"
+          },
+          {
+            "name": "conqueror-keyword-research",
+            "description": "Find keyword opportunities for a site: discover seeds, score volume, difficulty and intent, check SERPs, and save the w…"
+          },
+          {
+            "name": "conqueror-link-prospecting",
+            "description": "Find link prospects from SERPs and competitor backlinks, discover public contact paths, and draft personalized outreach…"
+          },
+          {
+            "name": "conqueror-seo-coach",
+            "description": "Friendly SEO coach mode: explain what each Conqueror workflow does, recommend the next step, and teach when to use MCP…"
+          },
+          {
+            "name": "conqueror-seo-project-setup",
+            "description": "Set up a durable local SEO workspace: working folder, site scope, goals, positioning, MCP and project check, and Search…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
