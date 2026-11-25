@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833"
+        "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
