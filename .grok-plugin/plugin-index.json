@@ -642,6 +642,58 @@
         ]
       }
     },
+    "flightseatmap": {
+      "sha": "1fa7680aa7f7076a5695837c05894bc291a16eae",
+      "version": "6.1.0",
+      "components": {
+        "commands": [
+          {
+            "name": "best-seats",
+            "description": "Find the best seats on a flight matching your preferences"
+          },
+          {
+            "name": "seatmap",
+            "description": "Look up the seat map for a flight"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "flightseatmap",
+            "description": "streamable-http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "compare-seats",
+            "description": "Compare two to four specific seats on a flight and pick a winner using FlightSeatMap seat details and passenger reviews…"
+          },
+          {
+            "name": "extra-legroom-seats",
+            "description": "Find the seats with the most legroom on a flight — exit rows, bulkheads, and extra-legroom economy — and explain the tr…"
+          },
+          {
+            "name": "find-the-best-seat",
+            "description": "Pick the best available seat on any commercial flight using FlightSeatMap's seat maps, seat-level detail, and passenger…"
+          },
+          {
+            "name": "manage-seat-alerts",
+            "description": "Review, clean up, and replace a user's FlightSeatMap seat alerts. Use when a user asks what alerts they have, wants to…"
+          },
+          {
+            "name": "setup",
+            "description": "Set up FlightSeatmap and pick a seat on the user's next flight. Use when the user installs the FlightSeatmap plugin, ru…"
+          },
+          {
+            "name": "sit-together",
+            "description": "Find adjacent seats so a couple, family, or group can sit together on a flight, and alert them when a block of seats op…"
+          },
+          {
+            "name": "track-seat-availability",
+            "description": "Watch a flight and email the user when a better seat frees up, using FlightSeatMap seat alerts. Use when a user is stuc…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
