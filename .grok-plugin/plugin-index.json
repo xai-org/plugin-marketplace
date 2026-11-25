@@ -547,8 +547,8 @@
       }
     },
     "masheev": {
-      "sha": "21d3a39002ef1c0ff85a4205db1979c49fbbee55",
-      "version": "0.2.1",
+      "sha": "723f76bc8f28a4f21b43a30ddae41d02bfbae1ed",
+      "version": "0.2.2",
       "components": {
         "mcpServers": [
           {
