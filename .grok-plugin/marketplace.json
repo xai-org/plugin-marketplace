@@ -490,12 +490,12 @@
     },
     {
       "name": "taplio",
-      "description": "Run your LinkedIn from Grok with Taplio: 26 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, find inspiration, comment, like and connect through your Taplio account.",
+      "description": "Run your LinkedIn from Grok with Taplio: 27 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, search Taplio's lead database for prospects, find inspiration, comment, like and connect through your Taplio account.",
       "category": "productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/TaplioOfficial/taplio-linkedin-plugin.git",
-        "sha": "25753e6f33d2894a4a439eed1e2243687d6d82b3"
+        "sha": "20ee11384a9b072650cdd9b30faf4c997b6c8398"
       },
       "homepage": "https://taplio.com/taplio-linkedin-mcp",
       "keywords": ["taplio", "taplio linkedin", "taplio mcp"],

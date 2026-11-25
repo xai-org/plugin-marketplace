@@ -1439,8 +1439,8 @@
       }
     },
     "taplio": {
-      "sha": "25753e6f33d2894a4a439eed1e2243687d6d82b3",
-      "version": "2.1.1",
+      "sha": "20ee11384a9b072650cdd9b30faf4c997b6c8398",
+      "version": "2.2.0",
       "components": {
         "mcpServers": [
           {
@@ -1504,6 +1504,10 @@
           {
             "name": "linkedin-hook-generator",
             "description": "Generate 10 LinkedIn hooks for a given topic, using proven hook patterns (curiosity, contrarian, number, question, tens…"
+          },
+          {
+            "name": "linkedin-lead-list-builder",
+            "description": "Build a list of LinkedIn leads that match the user's ideal customer, from Taplio's lead database. Turns a plain descrip…"
           },
           {
             "name": "linkedin-niche-creator-finder",
