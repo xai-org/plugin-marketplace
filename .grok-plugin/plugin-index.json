@@ -1534,6 +1534,28 @@
         ]
       }
     },
+    "vail-agent-assurance": {
+      "sha": "8eb928703bcc0b3da3a2f2649a35fd8c28d66858",
+      "version": "0.5.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "vail",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "agent-assurance",
+            "description": "Scan agent source, classify behavior risks, and generate probes with VAIL, or set up steering contracts, run reviewed b…"
+          },
+          {
+            "name": "agent-improvement",
+            "description": "Use VAIL Agent Assurance Engine results to fix and harden an AI agent locally. Use when the user asks to fix, improve,…"
+          }
+        ]
+      }
+    },
     "vercel": {
       "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
       "version": "0.57.0",
