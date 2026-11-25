@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ctrader",
+      "description": "cTrader by Spotware (hosted MCP server + skill). Review balances, equity, open positions, pending orders and trade history, compare bid and ask prices and inspect historical candles of your cTrader account. Read-only: it places no trades and prepares links that open order forms in cTrader. Sign in with your cTrader ID; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/spotware/ctrader-agent-plugin.git",
+        "sha": "4625dc09b53cc421fcdc92cb7a6febf904fa1701"
+      },
+      "homepage": "https://ctrader.com/",
+      "keywords": ["ctrader", "ctrader mcp", "ctrader account", "ctrader trading", "spotware"],
+      "domains": ["ctrader.com", "help.ctrader.com", "mcp.ctrader.com"]
     }
   ]
 }
