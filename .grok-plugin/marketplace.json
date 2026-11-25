@@ -490,7 +490,7 @@
     },
     {
       "name": "award-travel-finder",
-      "description": "Award flight search over MCP. Check award seat availability across 28 airlines, look up award-chart pricing for 23 loyalty programs, compare transfer paths, and find award nights at major hotel chains. OAuth sign-in, no API key.",
+      "description": "Award Travel Finder plugin for Grok. Search award flight availability across 28 airlines, award-chart pricing for 23 loyalty programs, and award nights at Marriott, Hilton, IHG and Hyatt. 163 first-party tools, OAuth sign-in, no API key.",
       "category": "travel",
       "source": {
         "source": "url",
