@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "airport-lounge-list",
+      "description": "Airport lounge access. Search 8,500+ airport lounges worldwide and check which ones a credit card, membership, airline status or ticket class gets you into, with amenities, hours and terminal. Hosted remote MCP server, no install and no API key.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Airport-Lounge-List/mcp-server.git",
+        "sha": "c6e72f9ac46810ed77af1e9f849395168d6b56b6"
+      },
+      "homepage": "https://airportloungelist.com/mcp",
+      "keywords": ["airport lounge list", "airportloungelist", "airport lounge", "lounge access", "priority pass lounge"],
+      "domains": ["airportloungelist.com"],
+      "version": "0.10.0"
     }
   ]
 }
