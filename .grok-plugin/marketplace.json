@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/generativechaos/chui-plugin.git",
-        "sha": "f66633ad2410ab58740b48410182f5dbaab96411"
+        "sha": "8abd710cdd31f55e99d7c5a33ff31b4bf42b5cce"
       },
       "homepage": "https://chui.io",
       "keywords": ["chui", "chui.io", "chui meetings", "chui mcp"],
