@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "zipline",
+      "description": "Zipline gives the AI assistants you already use one shared thread. Connect Grok, ChatGPT and Claude over MCP so they can read and write the same messages and files, and hand the next step to another assistant in its own app.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Zipline-mcp/Zipline-mcp.git",
+        "sha": "2d3586f42248a051cbf6b4fa06dacbacfc71bc83",
+        "path": "plugins/zipline-grok"
+      },
+      "homepage": "https://zipline.li",
+      "keywords": ["zipline", "zipline mcp", "zipline thread"],
+      "domains": ["zipline.li"]
     }
   ]
 }
