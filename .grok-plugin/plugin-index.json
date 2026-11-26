@@ -2,8 +2,8 @@
   "version": 1,
   "plugins": {
     "arkham": {
-      "sha": "0a7eabae2fe0de17882ec7055f6a6b4fb39e0842",
-      "version": "1.0.4",
+      "sha": "ed07440752caed3f172eb23bce3a93c720d222cd",
+      "version": "1.0.6",
       "components": {
         "mcpServers": [
           {

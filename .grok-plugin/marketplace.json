@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/arkhamintelligence/arkham-mcp.git",
-        "sha": "0a7eabae2fe0de17882ec7055f6a6b4fb39e0842"
+        "sha": "ed07440752caed3f172eb23bce3a93c720d222cd"
       },
       "homepage": "https://github.com/arkhamintelligence/arkham-mcp",
       "keywords": ["arkham", "arkham intelligence", "arkm"],
