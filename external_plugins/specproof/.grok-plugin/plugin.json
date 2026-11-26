@@ -1,0 +1,17 @@
+{
+  "name": "specproof",
+  "displayName": "SpecProof",
+  "version": "0.1.0",
+  "description": "Search 3GPP, IETF, and MPEG standards and retrieve source evidence through the hosted SpecProof MCP service.",
+  "author": {
+    "name": "VidOpt LLC",
+    "email": "vidoptdev@gmail.com",
+    "url": "https://specproof.ai"
+  },
+  "homepage": "https://specproof.ai",
+  "license": "MIT",
+  "keywords": [
+    "specproof"
+  ],
+  "icon": "./assets/specproof-icon.png"
+}

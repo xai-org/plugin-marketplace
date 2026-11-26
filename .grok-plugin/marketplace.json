@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "specproof",
+      "description": "Search 3GPP, IETF, and MPEG standards and retrieve source evidence through the hosted SpecProof MCP service.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/specproof"
+      },
+      "homepage": "https://specproof.ai",
+      "keywords": [
+        "specproof"
+      ],
+      "domains": [
+        "specproof.ai",
+        "mcp.specproof.ai",
+        "docs.specproof.ai"
+      ],
+      "version": "0.1.0",
+      "author": {
+        "name": "VidOpt LLC",
+        "email": "vidoptdev@gmail.com",
+        "url": "https://specproof.ai"
+      }
     }
   ]
 }
