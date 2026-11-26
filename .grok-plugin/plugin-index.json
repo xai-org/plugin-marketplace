@@ -916,6 +916,48 @@
         ]
       }
     },
+    "openradar": {
+      "sha": "071bf8e17c8a929269386da3f0b30943145c6d4d",
+      "version": "0.3.0",
+      "components": {
+        "agents": [
+          {
+            "name": "lead-scout",
+            "description": "Watches the openradar feed for configured queries and prepares a compact digest of new leads: what appeared, at what pa…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "market",
+            "description": "Estimate the market pay for a skill or a type of work"
+          },
+          {
+            "name": "orders",
+            "description": "Show the freshest openradar orders and jobs for a query"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "openradar",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "market-research",
+            "description": "Estimate typical pay for a type of work from real openradar leads, and cite the monthly market research report. Use whe…"
+          },
+          {
+            "name": "search-orders",
+            "description": "Search live freelance orders and remote vacancies on the openradar network (openradar.fun). Use when the user asks to f…"
+          },
+          {
+            "name": "submit-lead",
+            "description": "Contribute a job vacancy or freelance order the user has legitimately seen (a Telegram post, an RSS item, an email aler…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
