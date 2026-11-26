@@ -634,8 +634,8 @@
       }
     },
     "orchard": {
-      "sha": "d458052ee52c93a382fa68fdc9d1aeff095aa409",
-      "version": "1.0.0",
+      "sha": "8bf759b3f32869bb989ff9eac4116f0ee71f6caf",
+      "version": "1.0.1",
       "components": {
         "mcpServers": [
           {
