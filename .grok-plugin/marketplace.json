@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "qencode",
+      "description": "Video pipeline for AI agents: analyze with AI, transcode to MP4/HLS/DASH, edit, protect and deliver.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Qencode-Corp/mcp.git",
+        "sha": "e32dffb8ebb5b5d3e3c254315bdeb7e02d7a3e1f"
+      },
+      "homepage": "https://qencode.com",
+      "keywords": ["qencode", "qencode transcoding", "qencode mcp"],
+      "domains": ["qencode.com", "mcp.qencode.com", "docs.qencode.com"]
     }
   ]
 }

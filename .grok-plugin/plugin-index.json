@@ -1172,6 +1172,18 @@
         ]
       }
     },
+    "qencode": {
+      "sha": "e32dffb8ebb5b5d3e3c254315bdeb7e02d7a3e1f",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "qencode",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "quo": {
       "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675",
       "version": "1.0.0",
