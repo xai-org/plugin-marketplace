@@ -340,6 +340,28 @@
         ]
       }
     },
+    "databuddy": {
+      "sha": "ac85f1f36a588229f05cfa63e61b73f0481b5d1c",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "databuddy",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "databuddy",
+            "description": "Help external users integrate Databuddy into their own apps. Use for SDK setup, React/Vue/vanilla browser tracking, Nod…"
+          },
+          {
+            "name": "databuddy-mcp",
+            "description": "Use whenever the Databuddy MCP server is available and the user wants analytics, errors, vitals, investigations, flags,…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

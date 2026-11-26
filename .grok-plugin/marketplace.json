@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "databuddy",
+      "description": "Official Databuddy plugin (MCP server + skills) for web and product analytics: traffic, funnels, errors, Web Vitals, replays, and why a metric moved. Also helps add Databuddy tracking to an app.",
+      "category": "monitoring",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/databuddy-analytics/skills.git",
+        "sha": "ac85f1f36a588229f05cfa63e61b73f0481b5d1c"
+      },
+      "homepage": "https://www.databuddy.cc/docs/api/mcp",
+      "keywords": ["databuddy", "databuddy analytics"],
+      "domains": ["databuddy.cc", "www.databuddy.cc", "app.databuddy.cc"]
     }
   ]
 }
