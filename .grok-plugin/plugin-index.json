@@ -362,6 +362,24 @@
         ]
       }
     },
+    "electroatlas": {
+      "sha": "84134459c4d4c55fa7fb17e0df1de5b9637e99cc",
+      "version": "1.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "electroatlas",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "electroatlas",
+            "description": "Электромобили и гибриды в России из каталога Электроатласа - цены в рублях с источником, паспортный и зимний запас хода…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
@@ -684,6 +702,24 @@
           {
             "name": "hcti-website-recordings",
             "description": "Record scrolling website walkthroughs and visually review public pages with HCTI video recordings and screenshots. Use…"
+          }
+        ]
+      }
+    },
+    "maps-agent": {
+      "sha": "e7d347fdc06d26e53c9d7c73ead7ef720530dc5a",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "maps-agent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "maps-agent",
+            "description": "Google Business Profile and Google Maps marketing knowledge from Maps Agent - guides, answers, glossary and research on…"
           }
         ]
       }
@@ -1342,6 +1378,24 @@
           {
             "name": "stripe-projects",
             "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
+          }
+        ]
+      }
+    },
+    "sulihuli": {
+      "sha": "607d4ffee48581cc7dd0e3c2289ca5622640d6f3",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sulihuli",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sulihuli",
+            "description": "Look up electric vehicles in the SuliHuli catalog - specs, range by test cycle, charging, prices, rankings and side-by-…"
           }
         ]
       }

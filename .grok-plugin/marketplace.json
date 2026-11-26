@@ -487,6 +487,61 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "electroatlas",
+      "description": "Electric cars and plug-in hybrids in Russia: rouble prices, rated and winter range, dealers, sales and import fees, with sources (MCP server + skill). Answers are in Russian. No sign-in.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/electroatlas/mcp.git",
+        "sha": "84134459c4d4c55fa7fb17e0df1de5b9637e99cc",
+        "path": "plugins/electroatlas"
+      },
+      "homepage": "https://electroatlas.ru",
+      "keywords": [
+        "electroatlas"
+      ],
+      "domains": [
+        "electroatlas.ru"
+      ]
+    },
+    {
+      "name": "sulihuli",
+      "description": "Find and compare electric vehicles by range, charging, price and incentives, with a source and date per figure (MCP server + skill). No sign-in.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sulihuli/mcp.git",
+        "sha": "607d4ffee48581cc7dd0e3c2289ca5622640d6f3",
+        "path": "plugins/sulihuli"
+      },
+      "homepage": "https://sulihuli.com",
+      "keywords": [
+        "sulihuli"
+      ],
+      "domains": [
+        "sulihuli.com"
+      ]
+    },
+    {
+      "name": "maps-agent",
+      "description": "Google Business Profile and local SEO guides, research, categories and public profile audits (MCP server + skill). No sign-in.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/maps-agent/mcp.git",
+        "sha": "e7d347fdc06d26e53c9d7c73ead7ef720530dc5a",
+        "path": "plugins/maps-agent"
+      },
+      "homepage": "https://maps-agent.com",
+      "keywords": [
+        "maps agent",
+        "maps-agent"
+      ],
+      "domains": [
+        "maps-agent.com"
+      ]
     }
   ]
 }
