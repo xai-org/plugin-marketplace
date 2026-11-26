@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "signatoro",
+      "description": "One email signature for humans and AI agents. Signatoro is the agentic email signature platform: save your signature once, and your people and every AI agent you connect use the same one.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/BlastraIO/signatoro-mcp-plugin.git",
+        "sha": "5b4b59baae2b2e4c1da953167f9c2b143c9f72ef"
+      },
+      "homepage": "https://signatoro.com",
+      "keywords": ["signatoro", "signatoro email signature", "signatoro mcp"],
+      "domains": ["signatoro.com"]
     }
   ]
 }
