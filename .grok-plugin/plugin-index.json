@@ -916,6 +916,18 @@
         ]
       }
     },
+    "orchard": {
+      "sha": "8bf759b3f32869bb989ff9eac4116f0ee71f6caf",
+      "version": "1.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "orchard",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
