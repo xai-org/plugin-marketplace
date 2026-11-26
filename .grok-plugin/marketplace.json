@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Zipline-mcp/Zipline-mcp.git",
-        "sha": "bdf10b87ad8f9399d76c4a769dd6b88407f83a97",
+        "sha": "2d3586f42248a051cbf6b4fa06dacbacfc71bc83",
         "path": "plugins/zipline-grok"
       },
       "homepage": "https://zipline.li",
