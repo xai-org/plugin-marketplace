@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "codedesign": {
+      "type": "http",
+      "url": "https://mcp.codedesign.ai/mcp"
+    }
+  }
+}
