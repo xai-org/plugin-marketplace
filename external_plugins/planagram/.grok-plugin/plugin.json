@@ -1,0 +1,14 @@
+{
+  "name": "planagram",
+  "version": "1.0.0",
+  "description": "Planagram social media scheduling via the hosted Planagram MCP server at mcp.getplanagram.com. Draft, schedule, edit and review posts across the social accounts connected to Planagram. Sign in with your Planagram account on first connect.",
+  "author": {
+    "name": "Planagram LLC",
+    "email": "support@getplanagram.com",
+    "url": "https://getplanagram.com"
+  },
+  "homepage": "https://getplanagram.com",
+  "license": "MIT",
+  "keywords": ["planagram", "planagram mcp", "planagram scheduler", "planagram posts"],
+  "logo": "assets/logo.svg"
+}
