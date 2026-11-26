@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "nowistay",
+      "description": "Official Nowistay plugin (hosted MCP server + skills) for vacation rental hosts. Check bookings, availability and prices, answer guest messages and reviews, plan cleaning missions, edit welcome guides and the AI co-host knowledge base, then apply the changes you approve. Sign in with your Nowistay account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Nowistay/grok.git",
+        "sha": "16a055168153fd4fb098f79683251ae8fa85b1c8"
+      },
+      "homepage": "https://www.nowistay.com",
+      "keywords": ["nowistay", "nowistay mcp", "nowistay pms", "nowistay ai co-host"],
+      "domains": ["nowistay.com", "www.nowistay.com", "app.nowistay.com", "api.nowistay.com"]
     }
   ]
 }
