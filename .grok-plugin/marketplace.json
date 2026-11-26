@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "maps-agent",
+      "description": "Google Business Profile and local SEO guides, research, categories and public profile audits (MCP server + skill). No sign-in.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/maps-agent/mcp.git",
+        "sha": "e7d347fdc06d26e53c9d7c73ead7ef720530dc5a",
+        "path": "plugins/maps-agent"
+      },
+      "homepage": "https://maps-agent.com",
+      "keywords": [
+        "maps agent",
+        "maps-agent"
+      ],
+      "domains": [
+        "maps-agent.com"
+      ]
     }
   ]
 }
