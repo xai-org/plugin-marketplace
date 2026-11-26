@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "showdoclive",
+      "description": "Live production playbooks (ShowDocs) for technical crew: sections, files, templates, run of show, schedules, AV signal-flow diagrams with real equipment ports, address book and crew share links. Hosted MCP server at mcp.showdoclive.com; sign in with your ShowDocLive account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ShowDocLive/showdoclive-plugin.git",
+        "sha": "1bacf0929c2036fc672f2b03ca15b7a0d9c8d7b8"
+      },
+      "homepage": "https://showdoclive.com",
+      "keywords": ["showdoclive", "showdoclive mcp"],
+      "domains": ["showdoclive.com", "mcp.showdoclive.com"]
     }
   ]
 }
