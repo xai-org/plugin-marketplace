@@ -1847,6 +1847,24 @@
           }
         ]
       }
+    },
+    "zoie": {
+      "sha": "1f79cafc606342b7770b79132044529a40769af8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zoie",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "zoie",
+            "description": "Work with Zoie CRM through the Zoie MCP server: find and update leads, read conversations, notes and activity, check ap…"
+          }
+        ]
+      }
     }
   }
 }
