@@ -1,0 +1,9 @@
+{
+  "name": "eggtimer",
+  "version": "1.0.0",
+  "description": "Create shareable Eggtimer.app timer links (countdowns, clock times, Pomodoro, Tabata, step recipes) through the hosted Eggtimer.app MCP server. No account needed.",
+  "author": { "name": "Gotoh Industries LLC", "url": "https://eggtimer.app" },
+  "homepage": "https://eggtimer.app/ai.html",
+  "license": "MIT",
+  "keywords": ["eggtimer", "eggtimer.app", "eggtimer link"]
+}
