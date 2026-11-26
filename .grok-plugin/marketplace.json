@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "lemlist",
+      "description": "Run multichannel sales outreach in lemlist from Grok: list campaigns and their stats, create campaigns with email and LinkedIn sequences, add and search leads, search the lemlist B2B people database, and check the deliverability of sending domains, through the official hosted lemlist MCP server (OAuth 2.1).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/l3mpire/lemlist-plugin.git",
+        "sha": "8215d09d552c34257fb1dd7a2a3262390d7b328b"
+      },
+      "homepage": "https://help.lemlist.com/en/articles/13728466-set-up-the-lemlist-mcp-server-in-your-llm-client-oauth-or-api-key",
+      "keywords": ["lemlist", "lemlist campaign", "lemlist mcp"],
+      "domains": ["lemlist.com", "app.lemlist.com", "help.lemlist.com"]
     }
   ]
 }
