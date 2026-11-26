@@ -1847,6 +1847,36 @@
           }
         ]
       }
+    },
+    "zillodata": {
+      "sha": "409930941cc91566404967af1cb6c4b6a991a184",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "zillodata",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "get-zestimate",
+            "description": "Read the Zestimate and rent Zestimate for a U.S. home by zpid, along with its tax assessed value and last sale price, u…"
+          },
+          {
+            "name": "lookup-zillow-property",
+            "description": "Fetch the full record for one U.S. home from a street address, a Zillow listing URL, or a zpid, including price, Zestim…"
+          },
+          {
+            "name": "search-zillow-listings",
+            "description": "List U.S. homes for sale, for rent, or recently sold inside a map bounding box, with filters for price, bedrooms, bathr…"
+          },
+          {
+            "name": "verify-zillow-webhook",
+            "description": "Check the x-zd-signature HMAC-SHA256 header on a ZilloData job webhook before trusting the payload, with examples in No…"
+          }
+        ]
+      }
     }
   }
 }
