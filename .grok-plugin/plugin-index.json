@@ -688,6 +688,28 @@
         ]
       }
     },
+    "kinocut": {
+      "sha": "4fce86dd2b35ec7aaf904aa0df56438f844bef6c",
+      "version": "2.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kinocut",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kinocut",
+            "description": "Use when agents edit local video safely with Kinocut. MCP, Python, and CLI flows use profiles, receipts, and eyes-free…"
+          },
+          {
+            "name": "kinocut-repurpose",
+            "description": "Use when turning one local video into a platform-ready short. Kinocut builds clip packages with manifests, review artif…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",

@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kinocut",
+      "description": "Guardrailed local video editing for agents: Kinocut's MCP server (uvx kinocut over stdio) plus editing and repurposing skills. Trim, caption, reformat for Shorts and check quality with FFmpeg on your own machine; media never leaves it. Requires uv and FFmpeg on PATH.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KyaniteLabs/kinocut.git",
+        "sha": "4fce86dd2b35ec7aaf904aa0df56438f844bef6c",
+        "path": "plugins/kinocut"
+      },
+      "homepage": "https://kinocut.dev/",
+      "keywords": [
+        "kinocut",
+        "kino",
+        "kyanitelabs"
+      ],
+      "domains": [
+        "kinocut.dev"
+      ],
+      "version": "2.0.0",
+      "author": {
+        "name": "Kyanite Labs",
+        "url": "https://github.com/KyaniteLabs"
+      }
     }
   ]
 }
