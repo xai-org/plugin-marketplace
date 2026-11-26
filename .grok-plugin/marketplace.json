@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sulihuli",
+      "description": "Find and compare electric vehicles by range, charging, price and incentives, with a source and date per figure (MCP server + skill). No sign-in.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sulihuli/mcp.git",
+        "sha": "607d4ffee48581cc7dd0e3c2289ca5622640d6f3",
+        "path": "plugins/sulihuli"
+      },
+      "homepage": "https://sulihuli.com",
+      "keywords": [
+        "sulihuli"
+      ],
+      "domains": [
+        "sulihuli.com"
+      ]
     }
   ]
 }

@@ -1346,6 +1346,24 @@
         ]
       }
     },
+    "sulihuli": {
+      "sha": "607d4ffee48581cc7dd0e3c2289ca5622640d6f3",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sulihuli",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "sulihuli",
+            "description": "Look up electric vehicles in the SuliHuli catalog - specs, range by test cycle, charging, prices, rankings and side-by-…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
       "version": "0.1.17",
