@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "skysay",
+      "description": "Give Grok a real phone line through Skysay's hosted MCP. Check coverage in 100+ countries, get phone numbers, place AI voice calls, set up voice agents that answer incoming calls, send SMS, and read call status, transcripts and summaries. Sign in with your Skysay account (OAuth). Numbers, calls and SMS are pay as you go; the included skill shows the cost and asks before any call, text or purchase. Channels vary by country and number type.",
+      "category": "communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/skysay-ai/skysay-mcp.git",
+        "sha": "52cf79cb9dacae2fab2aee06d921a421ff3e7ee7"
+      },
+      "homepage": "https://skysay.ai/docs/grok-bot",
+      "keywords": ["skysay", "skysay mcp", "skysay phone", "skysay voice agents"],
+      "domains": ["skysay.ai", "api.skysay.ai"]
     }
   ]
 }
