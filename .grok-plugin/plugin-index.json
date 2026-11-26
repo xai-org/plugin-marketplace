@@ -1522,6 +1522,24 @@
         ]
       }
     },
+    "traderwai": {
+      "sha": "edb6eb47d4d4b74d279fa54dbee717d101347a3e",
+      "version": "1.2.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "traderwai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "traderwai-trading",
+            "description": "Use TraderWAI to read live market charts and OHLC data, backtest a trading rule on 1-minute history, and place or propo…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",
