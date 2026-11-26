@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "8bb46159108f0cd6a749959b20c1411257411090"
+        "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8"
+        "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "e2bc48ebb04d355aaa413cfdd55574ed6d0df969"
+        "sha": "4938f2bc2211f44213e0021303f4d7de6a7ada7b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890"
+        "sha": "759b1c8d0745e2ef4cccc347bb487bdd75e3cf6f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "490a73c7537123cb1f0bcaced658585f0ee32fd9"
+        "sha": "5e4790847aedd4312fff65a11f7695c9c9382be0"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833"
+        "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "6b36d2548ab970bae4da08dc1f33aabe71c822c6"
+        "sha": "6210e412232ac96c59872d37711d23015e5f5358"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "119bc4a8de4eb4370db1f5838275bc9e7a0d8e4a",
+        "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65"
+        "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "88d9bd79f3fa8452a778fbac65bae162c0b32ce4",
+        "sha": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
