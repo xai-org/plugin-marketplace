@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tickadoo",
+      "description": "Find theatre, tours, attractions and live experiences with tickadoo. Search, compare, plan itineraries, check live availability and get a tickadoo booking link to complete the purchase yourself. No account or API key required.",
+      "category": "travel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tickadoo/tickadoo-mcp.git",
+        "sha": "b34bb6f128fbdbcaaf21f5c1240f5401880c1368",
+        "path": "plugins/tickadoo"
+      },
+      "homepage": "https://mcp.tickadoo.com",
+      "keywords": ["tickadoo", "tickadoo experiences", "tickadoo mcp"],
+      "domains": ["tickadoo.com", "www.tickadoo.com", "mcp.tickadoo.com"]
     }
   ]
 }
