@@ -487,6 +487,34 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "lotsofsounds",
+      "description": "Search and add CC0 royalty-free sound effects, UI sounds, game audio, and ambience from Lots of Sounds.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lotsofsounds/agent-skills.git",
+        "sha": "342a2bf96c70cdf056b238e135c8bec46677867e",
+        "path": "plugins/lotsofsounds"
+      },
+      "homepage": "https://www.lotsofsounds.com/docs/mcp",
+      "keywords": [
+        "lotsofsounds",
+        "lots of sounds",
+        "lotsofsounds mcp"
+      ],
+      "domains": [
+        "lotsofsounds.com",
+        "www.lotsofsounds.com",
+        "api.lotsofsounds.com"
+      ],
+      "version": "0.1.0",
+      "author": {
+        "name": "Lots of Sounds",
+        "email": "team@lotsofsounds.com",
+        "url": "https://www.lotsofsounds.com"
+      }
     }
   ]
 }
