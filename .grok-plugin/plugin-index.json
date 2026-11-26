@@ -954,6 +954,28 @@
         ]
       }
     },
+    "postbeam": {
+      "sha": "90d421c600295350c114cc6df05e96be1f021ea7",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "postbeam",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "generate-post",
+            "description": "Draft a LinkedIn post in the user's voice using Postbeam. Use when the user asks to write, draft, or generate a LinkedI…"
+          },
+          {
+            "name": "performance-report",
+            "description": "Produce a LinkedIn performance report from Postbeam analytics. Use when the user asks how their LinkedIn is performing,…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",
