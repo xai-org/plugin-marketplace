@@ -340,6 +340,36 @@
         ]
       }
     },
+    "converter-studio": {
+      "sha": "dd5f9afd66168e22ce088bc0afc0915f20429a3d",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "converter-studio",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "batch-convert",
+            "description": "Convert many files at once - a whole folder or a list of files - choosing one target format per file type (for example…"
+          },
+          {
+            "name": "convert-files",
+            "description": "Convert files between formats - video, audio, images, PDFs, documents, e-books, subtitles, data and archives (for examp…"
+          },
+          {
+            "name": "extract-audio",
+            "description": "Get the sound out of a video or recording - save it as MP3, M4A, WAV or FLAC, cut a part, make it evenly loud, or prepa…"
+          },
+          {
+            "name": "web-ready-media",
+            "description": "Prepare images and videos for a website or app - convert photos to WebP or AVIF, resize them to sensible widths with re…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
