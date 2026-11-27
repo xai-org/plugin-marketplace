@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "right-suite",
+      "description": "Test price, landing page, cold email, ads and positioning on 100+ AI-simulated buyers from Grok Build through Right Suite's hosted MCP server. Each run returns a verdict, the most common objections and what to change. Paid service: runs use Right Suite credits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/wednesday-solutions/right-suite-mcp.git",
+        "sha": "31d5812495c847b8222dc72fd53c760a62e91fec"
+      },
+      "homepage": "https://www.rightsuite.co/mcp?utm_source=grok_build&utm_medium=directory&utm_campaign=mcp_listings",
+      "keywords": ["right suite", "rightsuite"],
+      "domains": ["www.rightsuite.co", "rightsuite.co"]
     }
   ]
 }

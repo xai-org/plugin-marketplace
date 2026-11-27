@@ -1208,6 +1208,24 @@
         ]
       }
     },
+    "right-suite": {
+      "sha": "31d5812495c847b8222dc72fd53c760a62e91fec",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "right-suite",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "right-suite",
+            "description": "Test a price, landing page, cold email, ad, positioning, audience or channel on simulated buyers with Right Suite, then…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
