@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "zillodata",
+      "description": "Zillow property data for Grok: U.S. home records by address, Zillow URL or zpid, Zestimates and rent Zestimates, and for-sale, rental and sold listing search through the hosted ZilloData MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zillodata/zillow-mcp-server.git",
+        "sha": "409930941cc91566404967af1cb6c4b6a991a184"
+      },
+      "homepage": "https://zillodata.com/ai-agents/",
+      "keywords": ["zillodata", "zillodata mcp", "zillow property data", "zestimate api"],
+      "domains": ["zillodata.com", "api.zillodata.com"]
     }
   ]
 }
