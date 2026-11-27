@@ -387,8 +387,8 @@
       }
     },
     "expo": {
-      "sha": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
-      "version": "1.16.0",
+      "sha": "8f2b6c0c65533e695243aa401eaa1cb6f1fe86c2",
+      "version": "1.17.0",
       "components": {
         "mcpServers": [
           {
@@ -407,7 +407,7 @@
           },
           {
             "name": "eas-observe",
-            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (AppMetricsRoot/ObserveRoot HOC, mar…"
+            "description": "Use for anything related to EAS Observe - adding `expo-observe` to an Expo project (ObserveRoot/AppMetricsRoot, markInt…"
           },
           {
             "name": "eas-simulator",
