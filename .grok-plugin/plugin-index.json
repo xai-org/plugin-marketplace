@@ -954,6 +954,46 @@
         ]
       }
     },
+    "proofline": {
+      "sha": "7c615b5be51507c1d31e0b9a6a4bf54c306d6fcc",
+      "version": "1.0.0",
+      "components": {
+        "commands": [
+          {
+            "name": "review",
+            "description": "Review this checkout's local changes with Proofline before a push."
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "proofline",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "proofline-configure",
+            "description": "Read the Proofline configuration of an organization that is already set up, explain what is missing, and change its set…"
+          },
+          {
+            "name": "proofline-fix-findings",
+            "description": "Fix a pull request's open Proofline environment findings, check each fix locally, and ask Proofline to re-verify them a…"
+          },
+          {
+            "name": "proofline-guidance",
+            "description": "Read what Proofline reviews of this repository weigh before making a large edit there. Use before a change that spans s…"
+          },
+          {
+            "name": "proofline-onboarding",
+            "description": "Set up Proofline from a coding agent by reading the current setup step and saving agreed answers. Use for signup, GitHu…"
+          },
+          {
+            "name": "proofline-review",
+            "description": "Review code changes and GitHub pull requests with Proofline for bugs and incorrect assumptions, with findings linked to…"
+          }
+        ]
+      }
+    },
     "pstack": {
       "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
       "version": "0.15.46",

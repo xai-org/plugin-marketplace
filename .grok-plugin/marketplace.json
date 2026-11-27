@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "proofline",
+      "description": "Review local changes with Proofline before a push, read a pull request's findings, fix them and ask Proofline to re-verify the fixes, follow a repository's review guidance, run Proofline setup and change an organization's Proofline settings.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/prooflinedev/skills.git",
+        "sha": "7c615b5be51507c1d31e0b9a6a4bf54c306d6fcc",
+        "path": "plugins/proofline"
+      },
+      "homepage": "https://proofline.sh/docs/coding-agents/",
+      "keywords": ["proofline"],
+      "domains": ["proofline.sh"],
+      "version": "1.0.0"
     }
   ]
 }
