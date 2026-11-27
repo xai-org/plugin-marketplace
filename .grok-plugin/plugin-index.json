@@ -1847,6 +1847,44 @@
           }
         ]
       }
+    },
+    "worktable": {
+      "sha": "898257536ba61113f315af8d3a642818d127abee",
+      "version": "0.1.9",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "worktable",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "worktable-collaborate-threads",
+            "description": "Read, answer, and hand off messages through durable Worktable threads with users or other authenticated participants. U…"
+          },
+          {
+            "name": "worktable-create-or-manage-interactive-html",
+            "description": "Create or improve durable visual and interactive artifacts in Worktable. Use for dashboards, trackers, calculators, min…"
+          },
+          {
+            "name": "worktable-create-or-manage-records",
+            "description": "Organize repeated structured information as durable Worktable Records. Use for research datasets, inventories, director…"
+          },
+          {
+            "name": "worktable-create-or-update-docs",
+            "description": "Create, edit, rename, or maintain narrative Worktable Docs. Use for plans, decisions, briefs, notes, research syntheses…"
+          },
+          {
+            "name": "worktable-find-and-synthesize-context",
+            "description": "Find, assess, and synthesize context from Worktable Docs and Records. Use when the user asks what a workspace contains,…"
+          },
+          {
+            "name": "worktable-review-with-annotations",
+            "description": "Create, inspect, reply to, update, or resolve situated Worktable annotations. Use when feedback belongs to a Doc sectio…"
+          }
+        ]
+      }
     }
   }
 }

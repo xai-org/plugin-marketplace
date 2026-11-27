@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "worktable",
+      "description": "Shared workspace for your agents. Create and edit Docs, interactive HTML Docs, structured Records, annotations and threaded handoffs in Worktable through its remote MCP server, with a skill for each.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/worktable/worktable-plugin.git",
+        "sha": "898257536ba61113f315af8d3a642818d127abee"
+      },
+      "homepage": "https://www.worktable.cloud",
+      "keywords": ["worktable", "worktable doc", "worktable records"],
+      "domains": ["worktable.cloud", "worktable.dev"],
+      "author": {
+        "name": "Reva Labs",
+        "email": "support@worktable.dev",
+        "url": "https://github.com/worktable"
+      }
     }
   ]
 }
