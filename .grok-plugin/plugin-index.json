@@ -916,6 +916,18 @@
         ]
       }
     },
+    "ori-notebook": {
+      "sha": "93833c30c8837c7927ecb263ab6981764b760d01",
+      "version": "1.139.2",
+      "components": {
+        "skills": [
+          {
+            "name": "ori-notebook",
+            "description": "Use Ori Notebook, the person's notes app on this computer. Use whenever the person mentions Ori, Ori Notebook, their no…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
