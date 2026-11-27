@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "payapi-market",
+      "description": "PayAPI Market x402 API catalogue (hosted MCP server + skill). Search and inspect pay per call APIs for free, with price, network and settlement receipts, then pay the provider in USDC from your own x402 wallet under your own spend cap. No account or API key.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/payapi-market/grok-build-plugin.git",
+        "sha": "42538b39cbccd3bcc475ffb473f4b6bffdee663f"
+      },
+      "homepage": "https://payapi.market/developers",
+      "keywords": ["payapi", "payapi market", "payapi.market", "payapi mcp"],
+      "domains": ["payapi.market"]
     }
   ]
 }
