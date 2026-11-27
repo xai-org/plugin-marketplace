@@ -1,0 +1,18 @@
+{
+  "name": "codedesign",
+  "version": "1.0.0",
+  "description": "CodeDesign AI website builder. Design a website from a short description, edit pages and text, add pages, check SEO issues, read form leads and analytics, and publish to your own domain.",
+  "author": {
+    "name": "CodeDesign",
+    "email": "support@codedesign.ai",
+    "url": "https://github.com/codedesignapp"
+  },
+  "homepage": "https://codedesign.ai/chatgpt-claude",
+  "license": "MIT",
+  "keywords": [
+    "codedesign",
+    "codedesign ai",
+    "codedesign website",
+    "codedesign mcp"
+  ]
+}

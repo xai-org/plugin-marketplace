@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "codedesign",
+      "description": "CodeDesign AI website builder. Design a website from a short description, edit pages and text, add pages, check SEO issues, read form leads and analytics, and publish to your own domain.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/codedesign"
+      },
+      "homepage": "https://codedesign.ai/chatgpt-claude",
+      "keywords": ["codedesign", "codedesign ai", "codedesign website", "codedesign mcp"],
+      "domains": ["codedesign.ai", "mcp.codedesign.ai"],
+      "version": "1.0.0",
+      "author": {
+        "name": "CodeDesign",
+        "email": "support@codedesign.ai",
+        "url": "https://github.com/codedesignapp"
+      }
     }
   ]
 }
