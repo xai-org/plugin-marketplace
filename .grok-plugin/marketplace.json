@@ -775,7 +775,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/MikhailSagalaev/openradar-plugin.git",
-        "sha": "071bf8e17c8a929269386da3f0b30943145c6d4d"
+        "sha": "9bf7db3e0c186c3b40ad719bfc050ef7ce83b28c"
       },
       "homepage": "https://openradar.fun",
       "keywords": [

@@ -917,8 +917,8 @@
       }
     },
     "openradar": {
-      "sha": "071bf8e17c8a929269386da3f0b30943145c6d4d",
-      "version": "0.3.0",
+      "sha": "9bf7db3e0c186c3b40ad719bfc050ef7ce83b28c",
+      "version": "0.4.0",
       "components": {
         "agents": [
           {
@@ -934,6 +934,18 @@
           {
             "name": "orders",
             "description": "Show the freshest openradar orders and jobs for a query"
+          },
+          {
+            "name": "research",
+            "description": "Fetch openradar empirical labour-market econometrics and the daily hiring index"
+          },
+          {
+            "name": "subscribe",
+            "description": "Subscribe to openradar saved search alerts via Telegram or check existing subscriptions"
+          },
+          {
+            "name": "xray",
+            "description": "Generate X-Ray hiring manager search queries and outreach drafts for a company"
           }
         ],
         "mcpServers": [
