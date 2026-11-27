@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "eggtimer": {
+      "type": "http",
+      "url": "https://eggtimer.app/api/mcp"
+    }
+  }
+}

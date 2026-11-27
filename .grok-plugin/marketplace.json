@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "eggtimer",
+      "description": "Eggtimer.app integration. Create shareable browser timer links (countdowns, clock times, Pomodoro, Tabata and multi-step recipes) through the hosted Eggtimer.app MCP server. No account needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/eggtimer"
+      },
+      "homepage": "https://eggtimer.app/ai.html",
+      "keywords": ["eggtimer", "eggtimer.app", "eggtimer link", "eggtimer timer"],
+      "domains": ["eggtimer.app"]
     }
   ]
 }
