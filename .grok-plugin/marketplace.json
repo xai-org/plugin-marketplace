@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "initdesk",
+      "description": "Work with initdesk tickets, customers, companies, and help-center content through OAuth-protected remote MCP tools and shared workflow skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/initdesk/initdesk-plugin.git",
+        "sha": "0f16e0e2d6550b619c472d3908d3cb3aec15b31c"
+      },
+      "homepage": "https://initdesk.com",
+      "keywords": [
+        "initdesk",
+        "initdesk ticket"
+      ],
+      "domains": [
+        "initdesk.com",
+        "app.initdesk.com"
+      ]
     }
   ]
 }
