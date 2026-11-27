@@ -1442,6 +1442,18 @@
         ]
       }
     },
+    "synergieloc": {
+      "sha": "95726fc4280e0749c8d01885cd0227e57c2fba3c",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "synergieloc",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6",
       "version": "2.4.2",
