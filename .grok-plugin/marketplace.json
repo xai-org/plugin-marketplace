@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "fuse",
+      "description": "Official Fuse plugin. Find prospects and companies, enrich contacts with verified emails and phones, track buying signals like job changes, hiring and funding, and draft email and LinkedIn campaigns through Fuse's hosted MCP server (OAuth, no API key).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fuse-ai-mcp/fuse.git",
+        "sha": "8c8a55d62befd33eefe12a7d4545422836e5ec86"
+      },
+      "homepage": "https://docs.fuseai.com/mcp/connect",
+      "keywords": ["fuseai", "fuse ai", "fuse mcp", "fuse prospecting", "fuse sales", "fuse campaigns", "fuse signals"],
+      "domains": ["fuseai.com", "docs.fuseai.com", "mcp.fuseai.com"],
+      "version": "1.0.0",
+      "author": {
+        "name": "FuseAI",
+        "email": "dev@tryfuse.ai",
+        "url": "https://fuseai.com"
+      }
     }
   ]
 }
