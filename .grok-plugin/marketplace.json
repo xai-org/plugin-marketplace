@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postkeep",
+      "description": "Email integration via the hosted postkeep MCP server (Streamable HTTP + OAuth 2.1). Search mailboxes, read threads in clean Markdown, download attachments, organize folders, save drafts, send replies, and manage signed new-mail webhooks across Gmail, Outlook, iCloud Mail, Fastmail and Yahoo Mail.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/postkeep"
+      },
+      "homepage": "https://postkeep.ai",
+      "keywords": ["postkeep", "postkeep mcp", "postkeep email", "postkeep mail"],
+      "domains": ["postkeep.ai", "app.postkeep.ai", "mcp.postkeep.ai", "postkeep.dev"],
+      "version": "1.0.0",
+      "author": {
+        "name": "postkeep",
+        "email": "support@postkeep.ai",
+        "url": "https://github.com/postkeep"
+      }
     }
   ]
 }

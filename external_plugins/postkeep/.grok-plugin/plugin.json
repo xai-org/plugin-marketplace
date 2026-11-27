@@ -1,0 +1,20 @@
+{
+  "name": "postkeep",
+  "version": "1.0.0",
+  "description": "Email access for Grok Build via the hosted postkeep MCP server at mcp.postkeep.ai. Search, read, draft, reply, organize folders, download attachments, and manage new-mail webhooks across Gmail, Outlook, iCloud Mail, Fastmail and Yahoo Mail. Sign in with your postkeep account on first connect.",
+  "author": {
+    "name": "postkeep",
+    "email": "support@postkeep.ai",
+    "url": "https://github.com/postkeep"
+  },
+  "homepage": "https://postkeep.ai",
+  "repository": "https://github.com/postkeep/postkeep",
+  "license": "MIT",
+  "keywords": [
+    "postkeep",
+    "postkeep mcp",
+    "postkeep email",
+    "postkeep mail"
+  ],
+  "logo": "assets/logo.svg"
+}
