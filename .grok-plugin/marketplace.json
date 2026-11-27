@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ellora",
+      "description": "Brand voice QA for drafts. Ellora checks your writing against a saved voice profile and writing brief, and it flags generic AI phrasing. Your agent rewrites from those findings, then Ellora checks the new draft.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/getellora/agent-skills.git",
+        "sha": "25be545a3dbcae44f88f25961535f914fcbfa7dd"
+      },
+      "homepage": "https://getellora.com",
+      "keywords": ["ellora", "ellora review", "getellora"],
+      "domains": ["getellora.com", "app.getellora.com"]
     }
   ]
 }
