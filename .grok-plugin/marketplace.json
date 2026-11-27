@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "cloudtalk",
+      "description": "Official CloudTalk plugin for Grok. Follow up missed calls and unanswered texts the same day, find open loops after calls, coach your team, and build and check AI Voice Agents, through CloudTalk's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CloudTalk-io/marketplace.git",
+        "sha": "468ce5a2d7276236f09b56fb5136d118c870b92c",
+        "path": "plugins/cloudtalk"
+      },
+      "homepage": "https://www.cloudtalk.io/",
+      "keywords": ["cloudtalk", "cloudtalk mcp", "cloudtalk phone", "cloudtalk missed calls", "cloudtalk voice agent"],
+      "domains": ["cloudtalk.io", "mcp.cloudtalk.io", "help.cloudtalk.io"]
     }
   ]
 }
