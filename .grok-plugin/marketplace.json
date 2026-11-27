@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seltz",
+      "description": "Fast and accurate web search for AI agents, with filters for news, companies and people and a fetch tool to read any page in full.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/seltz"
+      },
+      "homepage": "https://seltz.ai?utm_source=grok-build&utm_medium=integration&utm_campaign=marketplace",
+      "keywords": ["seltz", "seltz search", "seltz ai"],
+      "domains": ["seltz.ai", "console.seltz.ai", "docs.seltz.ai", "mcp.seltz.ai"]
     }
   ]
 }
