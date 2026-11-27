@@ -916,6 +916,18 @@
         ]
       }
     },
+    "outscraper": {
+      "sha": "3459f18a5354c31ac394530020ada778aac646a8",
+      "version": "0.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "outscraper",
+            "description": "stdio"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
