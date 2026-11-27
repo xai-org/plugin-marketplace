@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "shannon",
+      "description": "Run Keygraph's Shannon CLI for authorized web application security testing and review its findings.",
+      "category": "security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KeygraphHQ/shannon.git",
+        "sha": "3760d2f9df9f3afa374a8eb2473adadfbf9ed991",
+        "path": "plugins/shannon"
+      },
+      "homepage": "https://github.com/KeygraphHQ/shannon",
+      "keywords": [
+        "keygraph shannon",
+        "shannon pentest"
+      ],
+      "domains": [
+        "keygraph.io"
+      ]
     }
   ]
 }
