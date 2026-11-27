@@ -955,8 +955,8 @@
       }
     },
     "pstack": {
-      "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
-      "version": "0.15.46",
+      "sha": "b7b93c36be9bcc36a74db438e0fd385d660bc559",
+      "version": "0.15.48",
       "components": {
         "agents": [
           {
@@ -1158,16 +1158,16 @@
             "description": "Mine the active transcript for durable learnings and route each to a concrete edit on an existing skill. Use when the u…"
           },
           {
+            "name": "reframe",
+            "description": "Teach the expert words for what the operator is building, borrow words from neighboring fields that solved the same pro…"
+          },
+          {
             "name": "setup-pstack",
             "description": "Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an a…"
           },
           {
             "name": "sharpen",
             "description": "Make a task deeper, not bigger, then rewrite the prompt. Use for /sharpen."
-          },
-          {
-            "name": "show-me-your-work",
-            "description": "Keep a reviewable decision trail for long-running or unattended work: a TSV log with one row per decision (what, why, e…"
           }
         ]
       }
