@@ -340,6 +340,24 @@
         ]
       }
     },
+    "ctrader": {
+      "sha": "4625dc09b53cc421fcdc92cb7a6febf904fa1701",
+      "version": "0.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ctrader",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ctrader-analytics",
+            "description": "Read and analyse cTrader account and market data through the remote MCP server. Prepare links for new orders or for clo…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",
