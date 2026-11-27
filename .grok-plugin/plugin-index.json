@@ -75,6 +75,116 @@
         ]
       }
     },
+    "bigdata-com": {
+      "sha": "0e05c257b8d43db7ff99ff230f6cc22392910867",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bigdata.com",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bigdata",
+            "description": "Answers questions about companies, securities, sectors, countries, markets and economies from Bigdata.com data, with ci…"
+          },
+          {
+            "name": "bigdata-capital-allocation",
+            "description": "Capital allocation review: buybacks, dividends, reinvestment and acquisitions, and whether each created value. Use for…"
+          },
+          {
+            "name": "bigdata-catalysts",
+            "description": "Dated events that could move a stock or a list, with expected impact and what is priced in. Use for what is coming up,…"
+          },
+          {
+            "name": "bigdata-company-brief",
+            "description": "What happened at one company, each item with source, date and what it means. Use for what is happening at X, catch me u…"
+          },
+          {
+            "name": "bigdata-comps",
+            "description": "Peer comparison: peers picked by value drivers, multiples on one basis, growth, margins and returns side by side. Use f…"
+          },
+          {
+            "name": "bigdata-country-analysis",
+            "description": "One country's economy and markets, or several compared on the same indicators: growth, inflation, rates, currency, fisc…"
+          },
+          {
+            "name": "bigdata-credit",
+            "description": "Credit analysis of a company: leverage, coverage, maturities, covenants, refinancing risk, agency ratios, recovery. Use…"
+          },
+          {
+            "name": "bigdata-deal-analysis",
+            "description": "Merger or acquisition analysis: strategic logic, price vs value, synergies vs base rates, value at risk, what each side…"
+          },
+          {
+            "name": "bigdata-deep-dive",
+            "description": "Full company research: economics, moat, earnings quality, capital allocation, what the price implies, valuation range,…"
+          },
+          {
+            "name": "bigdata-earnings-preview",
+            "description": "Setup before a company reports: drivers of the quarter, consensus vs guidance, what the price implies, scenarios, what…"
+          },
+          {
+            "name": "bigdata-earnings-quality",
+            "description": "Quality of earnings: accruals, cash conversion, EBITA rebuild, recurring one-offs, revenue recognition, flags by severi…"
+          },
+          {
+            "name": "bigdata-earnings-recap",
+            "description": "After a company reports: results vs consensus and guidance, what changed in the outlook, thesis check, reaction, peer r…"
+          },
+          {
+            "name": "bigdata-investment-thesis",
+            "description": "Investment thesis: where the view differs from consensus, evidence for and against, bull and bear case, catalysts, kill…"
+          },
+          {
+            "name": "bigdata-markets-today",
+            "description": "Market wrap for a day, week or month: what moved across indexes, sectors, rates and currencies, the news behind it. Use…"
+          },
+          {
+            "name": "bigdata-moat",
+            "description": "Competitive advantage of one company: profit pool, share stability, pricing power, entry and exit, five forces, how lon…"
+          },
+          {
+            "name": "bigdata-quick-take",
+            "description": "One-page view on a stock or company: what the price implies, the drivers that matter now, risks, next catalyst. Use for…"
+          },
+          {
+            "name": "bigdata-risk",
+            "description": "Downside analysis of a company: which value drivers could break and what each costs, balance sheet under stress, risks…"
+          },
+          {
+            "name": "bigdata-screen",
+            "description": "Find companies that fit criteria: size, sector, valuation, growth or quality, ranked on what the user asked for. Use fo…"
+          },
+          {
+            "name": "bigdata-sector",
+            "description": "How an industry works: structure and profit pool, drivers and metrics, what is priced in, where a named company sits. U…"
+          },
+          {
+            "name": "bigdata-special-situations",
+            "description": "Event-driven payoffs with dates: merger arbitrage spreads with break price, spin-offs, rights issues, bankruptcy recove…"
+          },
+          {
+            "name": "bigdata-stock-move",
+            "description": "Why a stock moved: the trigger, headline vs change in the long-term outlook, revisions, base rates for what follows a m…"
+          },
+          {
+            "name": "bigdata-theme",
+            "description": "A theme or trend end to end: how it works, beneficiaries and losers, addressable market, companies with real exposure f…"
+          },
+          {
+            "name": "bigdata-valuation",
+            "description": "What a company is worth: the growth, margin and return the price implies, a DCF with the equity bridge checked, three c…"
+          },
+          {
+            "name": "bigdata-watchlist",
+            "description": "Daily or weekly check on a list of companies: price move, the news behind it, earnings vs estimates, next event, in one…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

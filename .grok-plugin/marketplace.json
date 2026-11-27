@@ -487,6 +487,61 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bigdata-com",
+      "description": "Bigdata.com -- licensed, cited financial data for AI agents: news, filings, earnings call transcripts, research and tearsheets for companies, sectors, countries and markets.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Bigdata-com/bigdata-plugins-marketplace.git",
+        "sha": "0e05c257b8d43db7ff99ff230f6cc22392910867",
+        "path": "plugins/bigdata-com"
+      },
+      "homepage": "https://bigdata.com",
+      "keywords": [
+        "financial research",
+        "stock research",
+        "equity research",
+        "investment research",
+        "company research",
+        "market intelligence",
+        "financial news",
+        "stock news",
+        "market news",
+        "premium news",
+        "SEC filings",
+        "10-K",
+        "10-Q",
+        "earnings transcripts",
+        "earnings call transcripts",
+        "analyst research",
+        "analyst ratings",
+        "broker research",
+        "sell-side research",
+        "news sentiment",
+        "sentiment analysis",
+        "market data",
+        "financial data",
+        "fundamentals",
+        "macroeconomic data",
+        "economic data",
+        "economic analysis",
+        "investor relations",
+        "portfolio research",
+        "portfolio management",
+        "watchlists",
+        "sector analysis",
+        "investment memo",
+        "private documents",
+        "Bigdata.com",
+        "Bigdata",
+        "RavenPack"
+      ],
+      "domains": [
+        "bigdata.com",
+        "mcp.bigdata.com"
+      ]
     }
   ]
 }
