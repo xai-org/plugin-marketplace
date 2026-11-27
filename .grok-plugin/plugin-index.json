@@ -1346,6 +1346,24 @@
         ]
       }
     },
+    "subpane": {
+      "sha": "851687a2426b683b9bc06d6468ce80f82af531c4",
+      "version": "1.1.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "subpane",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "subpane",
+            "description": "Publish and maintain live Subpane dashboards over MCP. Use when the user wants to create or update a dashboard, status…"
+          }
+        ]
+      }
+    },
     "supabase": {
       "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
       "version": "0.1.17",
