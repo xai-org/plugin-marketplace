@@ -1774,6 +1774,18 @@
         ]
       }
     },
+    "whenever": {
+      "sha": "4d8c7ab914d9c1308c3825d8938b18c1450bc443",
+      "version": "0.1.2",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "whenever",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "wix": {
       "sha": "4938f2bc2211f44213e0021303f4d7de6a7ada7b",
       "version": "1.41.11",
