@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "drisp",
+      "description": "Official Drisp integration for device mockups. Put a screenshot of an app or website on a 3D device mockup and get a PNG: every iPhone from 12 to 18 Pro, iPads, a MacBook, Apple Watch, Galaxy and other Android phones, a laptop and a monitor, rendered with real glass and light. List the devices with the screenshot size that fills each screen exactly. Hosted remote MCP server at https://drint.io/drisp/mcp, no sign-in.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drint-io/drisp-mcp.git",
+        "sha": "bf69241763be9b0288adc61113021ed91ac63436"
+      },
+      "homepage": "https://drint.io/drisp/mcp",
+      "keywords": ["drisp", "drisp device mockup", "drisp screenshot mockup", "drisp mcp"],
+      "domains": ["drint.io"]
     }
   ]
 }

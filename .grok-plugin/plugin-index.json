@@ -362,6 +362,18 @@
         ]
       }
     },
+    "drisp": {
+      "sha": "bf69241763be9b0288adc61113021ed91ac63436",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "drisp",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
