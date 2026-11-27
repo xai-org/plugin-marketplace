@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bipa",
+      "description": "Read your Bipa account and request Pix and boleto payments. Ordinary payments await app approval; preauthorized trusted-contact Pix can execute within its limits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bipa-app/grok-plugin.git",
+        "sha": "74015c723d12c2b23a11eb85ffd22949be278fb9"
+      },
+      "homepage": "https://agents.bipa.app/docs/grok",
+      "keywords": [
+        "bipa",
+        "bipa pix",
+        "bipa app",
+        "bipa boleto",
+        "bipa bitcoin"
+      ],
+      "domains": [
+        "bipa.app",
+        "agents.bipa.app",
+        "mcp.bipa.app"
+      ]
     }
   ]
 }
