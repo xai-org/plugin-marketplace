@@ -250,6 +250,17 @@
         ]
       }
     },
+    "clipugc": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clipugc",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "cloudflare": {
       "sha": "1f2cd0a19588e2c6197c91dd7c71729df1fb6156",
       "version": "1.0.4",
