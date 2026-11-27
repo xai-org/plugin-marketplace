@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "maximem-vity",
+      "description": "Maximem Vity personal AI memory (hosted MCP server + skill). Recall what you've told your tools, look up what you know, save new facts, and write in your own voice. One memory shared across Grok, Claude Code, Cursor, and more. Requires a Vity API key from app.maximem.ai.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/maximem-vity"
+      },
+      "homepage": "https://www.maximem.ai",
+      "keywords": ["maximem vity", "vity", "maximem", "personal memory", "ai memory", "remember this", "write as me"],
+      "domains": ["maximem.ai", "app.maximem.ai", "vity-mcp.maximem.ai", "docs.maximem.ai"]
     }
   ]
 }
