@@ -340,6 +340,32 @@
         ]
       }
     },
+    "compr": {
+      "sha": "f4eeb847a05947cf34d5115fc544a271051108cd",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "compr",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "check-offer",
+            "description": "Decide whether an asking price or a proposed offer works for a property, using a Compr underwrite. Use when the user na…"
+          },
+          {
+            "name": "review-history",
+            "description": "Find and open the team's past Compr reports. Use when the user asks what has been run, wants a report for an address or…"
+          },
+          {
+            "name": "underwrite-deal",
+            "description": "Underwrite a US single-family property by address with Compr. Use when the user gives a property address and wants an A…"
+          }
+        ]
+      }
+    },
     "datadog": {
       "sha": "083b4783095520f562534956578c8826613292a9",
       "version": "0.7.21",

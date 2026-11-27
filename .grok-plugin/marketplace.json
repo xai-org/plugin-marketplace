@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "compr",
+      "description": "Underwrite a US single-family property by address: comps-based ARV, a photo condition grade, a rehab budget and a max offer with offer math across six exit strategies, in under 60 seconds.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Compr-Home-Pros/compr-plugins.git",
+        "sha": "f4eeb847a05947cf34d5115fc544a271051108cd",
+        "path": "compr"
+      },
+      "homepage": "https://thecompr.ai/docs/mcp",
+      "keywords": ["compr", "thecompr", "thecompr.ai", "compr underwrite", "compr arv"],
+      "domains": ["thecompr.ai", "thecompr.com"]
     }
   ]
 }
