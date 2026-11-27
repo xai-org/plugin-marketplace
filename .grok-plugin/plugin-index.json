@@ -887,6 +887,104 @@
         ]
       }
     },
+    "nitrosend": {
+      "sha": "77d50a00a6f053034761fe3e367f23af4aa2e826",
+      "version": "1.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nitrosend",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "abandoned-cart-emails",
+            "description": "Build abandoned cart, abandoned checkout and browse abandonment reminder emails for an online store, plus post-purchase…"
+          },
+          {
+            "name": "agency-client-email",
+            "description": "Run email marketing for agency clients: switch between the client accounts and brands this connection can reach, create…"
+          },
+          {
+            "name": "build-flow",
+            "description": "Build email automation flows with triggers, steps, waits, splits and webhooks: marketing automation and email automatio…"
+          },
+          {
+            "name": "compose-email",
+            "description": "Create or edit email templates with Nitrosend's section-based email designer: responsive, on-brand email design from th…"
+          },
+          {
+            "name": "contacts-and-segments",
+            "description": "Manage contacts, email lists, segments, tags and subscribers: import contacts by CSV, sync HubSpot or Attio, search a c…"
+          },
+          {
+            "name": "email-brand-kit",
+            "description": "Build an email brand kit from a website: logo, brand colours, fonts and tone of voice, so newsletters, campaigns and au…"
+          },
+          {
+            "name": "email-deliverability-check",
+            "description": "Check and fix email deliverability: sending domain setup, SPF, DKIM and DMARC records, sending readiness, bounces and s…"
+          },
+          {
+            "name": "email-integrations",
+            "description": "Connect the tools that trigger emails and update contacts: Shopify, HubSpot, Attio, Mailchimp and ActiveCampaign connec…"
+          },
+          {
+            "name": "email-marketing-bible",
+            "description": "Apply durable email-marketing principles without treating static benchmarks, laws, vendor features, or prices as curren…"
+          },
+          {
+            "name": "email-platform-migration",
+            "description": "Switch email platforms: connect ActiveCampaign, or import contacts, lists, tags and custom fields exported as CSV from…"
+          },
+          {
+            "name": "import-contacts",
+            "description": "Import contacts into Nitrosend from inline records or CSV, including lists exported from Klaviyo, MailerLite, Brevo, Ki…"
+          },
+          {
+            "name": "klaviyo-migration",
+            "description": "Migrate from Klaviyo to Nitrosend: import profiles and lists exported from Klaviyo as CSV, keep unsubscribes and suppre…"
+          },
+          {
+            "name": "mailchimp-migration",
+            "description": "Migrate from Mailchimp to Nitrosend: connect Mailchimp to bring audiences, members and merge fields with subscribed, un…"
+          },
+          {
+            "name": "nitrosend-analytics",
+            "description": "Inspect Nitrosend email marketing analytics for the account, a campaign, a newsletter, a flow or a message: opens, clic…"
+          },
+          {
+            "name": "nitrosend-setup",
+            "description": "Guided Nitrosend email marketing setup. Walks through remote MCP connection, the Brand Kit from the website, brand-subd…"
+          },
+          {
+            "name": "send-campaign",
+            "description": "End-to-end email campaign and newsletter workflow: create, design, target a list or segment, preview, test, approve, an…"
+          },
+          {
+            "name": "send-transactional",
+            "description": "Send transactional emails for app-triggered communications: receipts, password resets, magic links, OTPs, order confirm…"
+          },
+          {
+            "name": "shared-email-inbox",
+            "description": "Read and reply to email from a shared inbox: inbox conversations, replies, reply-all, Cc, Bcc and attachments, and flow…"
+          },
+          {
+            "name": "shopify-email-marketing",
+            "description": "Run Shopify email marketing: connect a Shopify store, import customers with their marketing consent, and use orders, re…"
+          },
+          {
+            "name": "signup-form-builder",
+            "description": "Create a website signup form for a mailing list and get the embed snippet for Webflow, Squarespace, WordPress, Wix, Sho…"
+          },
+          {
+            "name": "welcome-email-series",
+            "description": "Build a welcome email or welcome series for new subscribers or customers: a first welcome email, then follow-up emails…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "6210e412232ac96c59872d37711d23015e5f5358",
       "version": "1.2.0",
