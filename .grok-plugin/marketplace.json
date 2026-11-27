@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agent-blueprint",
+      "description": "Three skills for people who run AI agents: estimate what an agent task costs from measured runs (typical and worst case), write a one-page summary of what an agent may do, what enforces each rule and whether it's worth it, and have the agent draw an offline map of what it can read and change. No MCP server, no hooks, no network calls.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/agent-blueprint/agent-blueprint-skills.git",
+        "sha": "ec6742ab31977913e1c6b830348b9c2da9bdbb70",
+        "path": "plugins/agent-blueprint"
+      },
+      "homepage": "https://agentblueprint.ai/agents",
+      "keywords": ["agent blueprint", "agentblueprint", "agent-blueprint", "draw my agent"],
+      "domains": ["agentblueprint.ai"],
+      "author": {
+        "name": "Agent Blueprint",
+        "email": "info@agentblueprint.ai",
+        "url": "https://agentblueprint.ai"
+      }
     }
   ]
 }
