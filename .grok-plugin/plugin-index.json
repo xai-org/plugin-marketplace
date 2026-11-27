@@ -1522,6 +1522,24 @@
         ]
       }
     },
+    "tradehand": {
+      "sha": "82fe24da9c7c84d71381aa8a80ac4ed5fcac4f1e",
+      "version": "1.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tradehand",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tradehand",
+            "description": "Find local UK tradespeople, inspect services and reviews, and use Tradehand's signed-in customer tools to prepare fixed…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",
