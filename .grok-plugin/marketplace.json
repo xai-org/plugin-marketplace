@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "traderwai",
+      "description": "TraderWAI (hosted MCP server + skill). Live market charts and OHLC data for forex, gold, indices, oil, futures and crypto, market structure, strategy backtests on 1-minute history, and orders with stop loss and take profit on the user's own broker account (MetaTrader 4/5, cTrader, TradeLocker, Binance, Bybit and more). Sign in with Google or Microsoft (OAuth); no API key needed. Free plan available.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/trader-wai/traderwai-mcp.git",
+        "sha": "edb6eb47d4d4b74d279fa54dbee717d101347a3e"
+      },
+      "homepage": "https://traderwai.com",
+      "keywords": ["traderwai", "traderwai mcp", "traderwai charts", "traderwai backtest", "trader wai"],
+      "domains": ["traderwai.com", "mcp.traderwai.com"]
     }
   ]
 }
