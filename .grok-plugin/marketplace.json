@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "agentcontinuity",
+      "description": "AgentContinuity persistent memory for AI agents. Save selected project notes and decisions, retrieve and search them in later sessions, create signed checkpoints, and hand tasks to other agents, using your own AgentContinuity account through its hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OZYMANDIAS2020/agentcontinuity-integrations.git",
+        "sha": "58d280da44cb5591ef4f8d26dbe55a68695d542f",
+        "path": "grok"
+      },
+      "homepage": "https://agentcontinuity.net/ai-agents/",
+      "keywords": ["agentcontinuity", "agent continuity", "agentcontinuity memory", "agentcontinuity checkpoint"],
+      "domains": ["agentcontinuity.net", "api.agentcontinuity.net"],
+      "author": {
+        "name": "SapienCX LLC",
+        "email": "tom@phase3ai.com",
+        "url": "https://agentcontinuity.net"
+      }
     }
   ]
 }
