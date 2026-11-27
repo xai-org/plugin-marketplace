@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "keeploop",
+      "description": "Keeploop for Apple Mail, Calendar and Messages on your Mac. Search mail, read threads, see who is waiting on a reply and draft replies under your own rules. Runs on your Mac with no Keeploop server in the path; needs the Keeploop app, and local use is free.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/keeploopapp/claude-plugin.git",
+        "sha": "34685d718efc34e6bf761120862d0a539cbc0937",
+        "path": "plugins/keeploop"
+      },
+      "homepage": "https://keeploop.app",
+      "keywords": ["keeploop", "keeploop mail", "keeploop app"],
+      "domains": ["keeploop.app"]
     }
   ]
 }
