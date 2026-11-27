@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "ai-visibility-geo-audit",
+      "description": "See from Grok Build whether ChatGPT, Gemini, Perplexity and Claude mention and cite your brand, how you rank against competitors, which Google searches show an AI Overview, and what to fix on your pages to get cited. Checks run as pay-per-result Actors on your own Apify account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/afzalbuilds/ai-visibility-geo-audit.git",
+        "sha": "cb1d0c6812dca3ef81eda8ac7427197fee007dfa"
+      },
+      "homepage": "https://github.com/afzalbuilds/ai-visibility-geo-audit",
+      "keywords": ["imzlab ai visibility", "imzlab geo audit"],
+      "version": "1.1.0",
+      "author": {
+        "name": "Imzlab Technologies",
+        "email": "info@imzlab.com",
+        "url": "https://imzlab.com"
+      }
     }
   ]
 }
