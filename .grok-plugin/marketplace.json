@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "antevo-strategy-radar",
+      "description": "Antevo Strategy Radar (remote MCP server + skills): what changed today for a company's strategy. Antevo's daily business board of risks and opportunities for companies, matched to the company in the assistant; no tool takes company details. Public, no account. Possible responses with reasons, never advice.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ANTEVO-CH/plugins.git",
+        "sha": "e9219e7592b9b14505e06da885ebb5d97e7b9c8b",
+        "path": "plugins/antevo-strategy-radar"
+      },
+      "homepage": "https://antevo.ch/executive/strategy/",
+      "keywords": [
+        "antevo strategy radar",
+        "antevo business board",
+        "strategy radar antevo"
+      ],
+      "domains": [
+        "antevo.ch/executive/strategy"
+      ],
+      "author": {
+        "name": "Antevo",
+        "email": "contact@antevo.ch",
+        "url": "https://antevo.ch"
+      }
     }
   ]
 }

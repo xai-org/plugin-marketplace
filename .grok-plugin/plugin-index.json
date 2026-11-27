@@ -1,6 +1,32 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-strategy-radar": {
+      "sha": "e9219e7592b9b14505e06da885ebb5d97e7b9c8b",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-strategy-radar",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "board-read",
+            "description": "Read Antevo's business board without a company profile — today's or any morning in the last 400 days — by theme, exposu…"
+          },
+          {
+            "name": "strategy-setup",
+            "description": "Set up Antevo Strategy Radar for the user's company: five short questions (about three minutes, no figures) become a pr…"
+          },
+          {
+            "name": "strategy-today",
+            "description": "What changed today for the user's company strategy: read Antevo's business board for the day and match it to the compan…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
