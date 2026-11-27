@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "seoforagent",
+      "description": "Official SEOforAgent plugin (hosted MCP server + skill). Google Search Console data for every site you own, keyword research, live Google results, rank tracking, backlink gaps, and checks of whether ChatGPT, Perplexity, Gemini and Claude mention your brand, with a diagnosis of why not. Sign in with your SEOforAgent account on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Outrank-SAS/seoforagent-plugin.git",
+        "sha": "605631c765d3d1079a6b03382ef2145bfbd9b75f"
+      },
+      "homepage": "https://seoforagent.com",
+      "keywords": ["seoforagent", "seo for agent", "seoforagent mcp"],
+      "domains": ["seoforagent.com"]
     }
   ]
 }
