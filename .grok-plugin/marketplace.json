@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "feedback-tools",
+      "description": "feedback.tools integration. Read CSAT, NPS and CES survey scores, search customer responses, explore AI themes with bugs, feature requests and emotions, create surveys and import feedback directly from Grok.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/feedback-tools-platform/feedback-tools-mcp.git",
+        "sha": "dbe765217678e7f5d6491a06b378a28029019c02"
+      },
+      "homepage": "https://feedback.tools/docs/mcp",
+      "keywords": ["feedback.tools"],
+      "domains": ["feedback.tools"]
     }
   ]
 }
