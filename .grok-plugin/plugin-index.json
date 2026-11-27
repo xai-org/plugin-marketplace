@@ -1,6 +1,56 @@
 {
   "version": 1,
   "plugins": {
+    "antevo-executive": {
+      "sha": "4f730393e2c763eb3ec3092d343658fa51a020db",
+      "version": "0.4.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "antevo-executive",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "decode",
+            "description": "Explain what a market move actually means, in plain language, using the Antevo desk's own decode. Use when the user ask…"
+          },
+          {
+            "name": "desk-read",
+            "description": "Fetch Antevo's own written view on ONE coverage area — shipping, aviation, yachts, energy, infrastructure, real estate,…"
+          },
+          {
+            "name": "emerging-risks",
+            "description": "Track how the Antevo Executive Brief's risk radar has changed over weeks — which risks are newly on the board, which ha…"
+          },
+          {
+            "name": "macro-history",
+            "description": "Answer questions about long-run economic history from Antevo's reference series — consumer prices, policy and market in…"
+          },
+          {
+            "name": "risk-radar",
+            "description": "Show what the Antevo Executive Brief judges could go wrong from here — the risk radar, with each risk's trend, impact,…"
+          },
+          {
+            "name": "signal-read",
+            "description": "Read Antevo's own probability layer — the engine's odds on named outcomes (chokepoint reopening, ceasefire, and the oth…"
+          },
+          {
+            "name": "story-timeline",
+            "description": "Trace how a story developed over time using the Antevo Executive Brief archive. Use when the user asks \"how did X devel…"
+          },
+          {
+            "name": "world-brief",
+            "description": "Brief the user on what's happening in markets and the world, from the Antevo Executive Brief. Use when the user asks \"w…"
+          },
+          {
+            "name": "world-map",
+            "description": "Answer questions about physical and infrastructure exposure from Antevo's world-events layers — shipping waterways and…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
