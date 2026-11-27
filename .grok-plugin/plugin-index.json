@@ -887,6 +887,60 @@
         ]
       }
     },
+    "nowistay": {
+      "sha": "16a055168153fd4fb098f79683251ae8fa85b1c8",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nowistay",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "calendar-revenue",
+            "description": "Review and safely update Nowistay calendar availability, nightly rates, minimum or maximum stays, stop-sell rules, and…"
+          },
+          {
+            "name": "daily-brief",
+            "description": "Prepare a concise cross-property operations brief from Nowistay bookings, missions, and conversations. Use for daily br…"
+          },
+          {
+            "name": "direct-bookings",
+            "description": "Create or update direct Nowistay bookings with availability checks, minimum required guest details, pricing, status, op…"
+          },
+          {
+            "name": "guest-messaging",
+            "description": "Find guest conversations, read recent messages, summarize context, draft replies, and send messages through Nowistay. U…"
+          },
+          {
+            "name": "guest-records",
+            "description": "Review and maintain privacy-minimized Nowistay guest records. Use when a host asks to find a returning guest, review a…"
+          },
+          {
+            "name": "guest-reviews",
+            "description": "Check a property's review score, read recent guest reviews, find the reviews still waiting for an answer, draft public…"
+          },
+          {
+            "name": "portfolio-reporting",
+            "description": "Build privacy-minimized Nowistay financial and operational reports across many properties. Use for CSV or spreadsheet e…"
+          },
+          {
+            "name": "property-knowledge",
+            "description": "Maintain the private Nowistay AI co-host knowledge base for each property. Use to list, search, add, correct, or copy r…"
+          },
+          {
+            "name": "team-operations",
+            "description": "Plan and manage Nowistay cleaning, maintenance, urgency, and custom missions. Use for mission lists, team workloads, as…"
+          },
+          {
+            "name": "welcome-guide",
+            "description": "Create and edit structured Nowistay welcome guides while preserving headings, lists, images, videos, tables, separators…"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "6210e412232ac96c59872d37711d23015e5f5358",
       "version": "1.2.0",
