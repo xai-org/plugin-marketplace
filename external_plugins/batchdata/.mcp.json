@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "batchdata": {
+      "type": "http",
+      "url": "https://mcp.batchdata.com"
+    }
+  }
+}
