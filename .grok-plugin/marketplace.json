@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "deacon",
+      "description": "Deacon, the AI support chat for your site or app (MCP Server + Skills). Add the chat to your site, count sign ups and upgrades, and let your coding agent read what customers report so it can fix it.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/heydeacon/skills.git",
+        "sha": "d5e1005ea2f96d7e441ccd887b11cbb0c03838c8"
+      },
+      "homepage": "https://heydeacon.com/features/mcp-server",
+      "keywords": ["deacon", "heydeacon", "deacon mcp", "deacon support chat"],
+      "domains": ["heydeacon.com"]
     }
   ]
 }
