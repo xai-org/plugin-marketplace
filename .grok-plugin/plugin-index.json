@@ -75,6 +75,24 @@
         ]
       }
     },
+    "bipa-business": {
+      "sha": "ca750f9e4934ebd7c3cae23840559c21cc416545",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bipa-business",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bipa-business",
+            "description": "Consulte saldos, extrato, extratos mensais, pedidos de pagamento, links de pagamento, cobranças Pix, documentos, contas…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",

@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "bipa-business",
+      "description": "Manage Bipa Business cash, collections and payment requests. Payments await company approval; separately authorized treasury actions can execute immediately.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bipa-app/bipa-business-plugin.git",
+        "sha": "ca750f9e4934ebd7c3cae23840559c21cc416545"
+      },
+      "homepage": "https://agents.bipa.app/docs/business",
+      "keywords": [
+        "bipa business",
+        "bipa empresa",
+        "bipa conta pj"
+      ],
+      "domains": [
+        "business.bipa.app",
+        "agents.bipa.app/docs/business",
+        "mcp.bipa.app/business"
+      ]
     }
   ]
 }
