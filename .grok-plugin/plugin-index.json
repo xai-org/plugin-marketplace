@@ -1,6 +1,18 @@
 {
   "version": 1,
   "plugins": {
+    "arkham": {
+      "sha": "ed07440752caed3f172eb23bce3a93c720d222cd",
+      "version": "1.0.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "arkham",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
