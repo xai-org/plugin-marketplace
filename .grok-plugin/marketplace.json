@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "spritecook",
+      "description": "Generate animated pixel art sprites in Grok Build",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SpriteCook/grok-plugin.git",
+        "sha": "56e205388ccf7d2558e3e39018dd91934ffada4f"
+      },
+      "homepage": "https://spritecook.ai",
+      "keywords": ["spritecook", "spritecook sprites", "spritecook pixel art", "spritecook tileset", "spritecook animation"],
+      "domains": ["spritecook.ai", "app.spritecook.ai"]
     }
   ]
 }
