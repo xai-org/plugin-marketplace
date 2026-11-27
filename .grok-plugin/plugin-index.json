@@ -916,6 +916,60 @@
         ]
       }
     },
+    "openradar": {
+      "sha": "9bf7db3e0c186c3b40ad719bfc050ef7ce83b28c",
+      "version": "0.4.0",
+      "components": {
+        "agents": [
+          {
+            "name": "lead-scout",
+            "description": "Watches the openradar feed for configured queries and prepares a compact digest of new leads: what appeared, at what pa…"
+          }
+        ],
+        "commands": [
+          {
+            "name": "market",
+            "description": "Estimate the market pay for a skill or a type of work"
+          },
+          {
+            "name": "orders",
+            "description": "Show the freshest openradar orders and jobs for a query"
+          },
+          {
+            "name": "research",
+            "description": "Fetch openradar empirical labour-market econometrics and the daily hiring index"
+          },
+          {
+            "name": "subscribe",
+            "description": "Subscribe to openradar saved search alerts via Telegram or check existing subscriptions"
+          },
+          {
+            "name": "xray",
+            "description": "Generate X-Ray hiring manager search queries and outreach drafts for a company"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "openradar",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "market-research",
+            "description": "Estimate typical pay for a type of work from real openradar leads, and cite the monthly market research report. Use whe…"
+          },
+          {
+            "name": "search-orders",
+            "description": "Search live freelance orders and remote vacancies on the openradar network (openradar.fun). Use when the user asks to f…"
+          },
+          {
+            "name": "submit-lead",
+            "description": "Contribute a job vacancy or freelance order the user has legitimately seen (a Telegram post, an RSS item, an email aler…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
