@@ -578,6 +578,17 @@
         ]
       }
     },
+    "findbroadband-deals": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "findbroadband",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "firecrawl": {
       "sha": "a6af1882b1839d57d46ef20f5d3c54a10f3ec448",
       "version": "1.3.2",
@@ -684,6 +695,17 @@
           {
             "name": "hcti-website-recordings",
             "description": "Record scrolling website walkthroughs and visually review public pages with HCTI video recordings and screenshots. Use…"
+          }
+        ]
+      }
+    },
+    "internet-outage-checker": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "findbroadband-outages",
+            "description": "http"
           }
         ]
       }
