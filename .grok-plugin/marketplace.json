@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "searchapi",
+      "description": "Real-time search results as structured JSON via SearchApi's hosted MCP server. One tool per engine: Google (web, images, news, shopping, maps/local, flights, hotels, jobs, scholar, trends, patents), Bing, DuckDuckGo, YouTube (search, video, transcript), Amazon, eBay, Walmart, Reddit, TikTok, LinkedIn, GitHub and 100+ more. Returns parsed titles, links, snippets, prices, ratings, addresses and knowledge graph data, not raw HTML. Sign in with your SearchApi account; no API key needed.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/searchapi"
+      },
+      "homepage": "https://www.searchapi.io/integrations/mcp",
+      "keywords": ["searchapi", "searchapi.io", "searchapi mcp"],
+      "domains": ["searchapi.io", "www.searchapi.io"]
     }
   ]
 }
