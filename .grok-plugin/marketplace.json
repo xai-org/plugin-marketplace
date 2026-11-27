@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tarkle",
+      "description": "Upload, manage and share your business files with Tarkle. Upload, store and organize your team's files and folders, search inside them with sources, share files by link, and request documents from your team, clients and partners on your own domain. Connects to Tarkle's hosted MCP server with OAuth sign-in, no API key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tarkleHQ/tarkle-mcp-server.git",
+        "sha": "6b4063f9cd10972f49f7f7c93ea67273453ca9f1"
+      },
+      "homepage": "https://tarkle.tech/docs/mcp",
+      "keywords": ["tarkle", "tarkle files", "tarkle workspace", "tarkle share link", "tarkle file request"],
+      "domains": ["tarkle.tech", "tarkle.com"],
+      "version": "1.1.2",
+      "author": {
+        "name": "Tarkle",
+        "email": "team@tarkle.tech",
+        "url": "https://tarkle.tech"
+      }
     }
   ]
 }
