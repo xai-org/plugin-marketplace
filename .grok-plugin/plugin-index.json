@@ -75,6 +75,24 @@
         ]
       }
     },
+    "bipa": {
+      "sha": "74015c723d12c2b23a11eb85ffd22949be278fb9",
+      "version": "0.2.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "bipa",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bipa",
+            "description": "Consulte a conta Bipa, extrato, carteira, preços, chaves e limites; gere códigos Pix para receber e solicite pagamentos…"
+          }
+        ]
+      }
+    },
     "browser-use": {
       "sha": "264716fe9f4e24557e20d27ec6debef34d7387f1",
       "version": "0.1.1",
