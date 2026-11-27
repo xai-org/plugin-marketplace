@@ -1208,6 +1208,18 @@
         ]
       }
     },
+    "rzlt": {
+      "sha": "5690b0bd74fe6e81f075f023378b63c2ffe2fa22",
+      "version": "1.3.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "rzlt",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
