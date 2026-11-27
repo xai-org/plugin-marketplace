@@ -111,8 +111,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "aa977a607be8a331ae5109f0b2875b5789b0b8c8",
-      "version": "1.13.0",
+      "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a",
+      "version": "1.14.0",
       "components": {
         "mcpServers": [
           {
@@ -433,8 +433,8 @@
       }
     },
     "expo": {
-      "sha": "dfdebcc6c4c1bf7a9471cefd6b6f39c7ba6c884d",
-      "version": "1.15.4",
+      "sha": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
+      "version": "1.16.0",
       "components": {
         "mcpServers": [
           {
@@ -449,7 +449,7 @@
           },
           {
             "name": "eas-hosting",
-            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, run eas deploy for production a…"
+            "description": "Deploy Expo websites and Expo Router API routes to EAS Hosting - export the web bundle, deploy to production or PR prev…"
           },
           {
             "name": "eas-observe",
@@ -485,11 +485,11 @@
           },
           {
             "name": "expo-data-fetching",
-            "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR,…"
+            "description": "Implement or debug data fetching in Expo apps. Use for fetch API calls, React Query, SWR, authenticated requests, cachi…"
           },
           {
             "name": "expo-design-system",
-            "description": "Build and maintain a design system inside an Expo app - a reusable theme of design tokens (color, spacing, typography,…"
+            "description": "Create or extend an Expo app's theme, design tokens, and reusable component conventions. Use for inconsistent styling,…"
           },
           {
             "name": "expo-dev-client",
@@ -513,7 +513,7 @@
           },
           {
             "name": "expo-overview",
-            "description": "Entry point and router for every Expo or EAS task. Load this skill first — before writing code and before choosing anot…"
+            "description": "Entry point for Expo and EAS tasks. Load first when the request mentions Expo, EAS, Expo Go, or an expo-* package, or t…"
           },
           {
             "name": "expo-project-structure",
@@ -539,8 +539,8 @@
       }
     },
     "figma": {
-      "sha": "490a73c7537123cb1f0bcaced658585f0ee32fd9",
-      "version": "2.2.211",
+      "sha": "5e4790847aedd4312fff65a11f7695c9c9382be0",
+      "version": "2.2.239",
       "components": {
         "mcpServers": [
           {
@@ -559,7 +559,7 @@
           },
           {
             "name": "figma-code-workflows",
-            "description": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standal…"
+            "description": "Use this skill to bring an existing local project, HTML file, or GitHub repo into Figma as code, or to pull GitHub upda…"
           },
           {
             "name": "figma-create-new-file",
@@ -616,6 +616,10 @@
           {
             "name": "figma-use-slides",
             "description": "This skill helps agents use Figma's use_figma MCP tool in the Slides context. Can be used alongside figma-use which has…"
+          },
+          {
+            "name": "figma-weave-workflows",
+            "description": "Use BEFORE building, editing or wiring up a Figma Weave workflow graph or AI pipeline with the weave_* MCP tools. Carri…"
           }
         ]
       }
@@ -701,8 +705,8 @@
       }
     },
     "html-css-to-image": {
-      "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73",
-      "version": "0.2.0",
+      "sha": "031616b48d603559038cbe042f73351b8b063df4",
+      "version": "0.3.0",
       "components": {
         "mcpServers": [
           {
@@ -716,15 +720,23 @@
             "description": "Let AI agents capture live website screenshots, render HTML/CSS, and populate reusable templates as images or PDFs—with…"
           },
           {
+            "name": "hcti-marketing-videos",
+            "description": "Create marketing videos and animated GIFs from structured HTML/CSS with HCTI. Use for product launches, feature teasers…"
+          },
+          {
             "name": "hcti-open-graph-images",
             "description": "Create and implement HCTI dynamic Open Graph image configurations that render webpages or populate templates from page…"
+          },
+          {
+            "name": "hcti-website-recordings",
+            "description": "Record scrolling website walkthroughs and visually review public pages with HCTI video recordings and screenshots. Use…"
           }
         ]
       }
     },
     "modern-web-guidance": {
-      "sha": "64a6d708f5a43f2cd3fde5d4d7db3905ba1bdf65",
-      "version": "1.0.1",
+      "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
+      "version": "1.0.2",
       "components": {
         "skills": [
           {
@@ -844,8 +856,8 @@
       }
     },
     "netlify": {
-      "sha": "905256ef236890a842be1ff1c5fd6bb07baa1890",
-      "version": "1.9.0",
+      "sha": "759b1c8d0745e2ef4cccc347bb487bdd75e3cf6f",
+      "version": "1.9.1",
       "components": {
         "mcpServers": [
           {
@@ -864,7 +876,7 @@
           },
           {
             "name": "netlify-ai-gateway",
-            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, TypeSafe (Jev), or OpenRouter-hosted models (xA…"
+            "description": "Use Netlify AI Gateway to call OpenAI, Anthropic Claude, Google Gemini, Meta, TypeSafe (Jev), or OpenRouter-hosted mode…"
           },
           {
             "name": "netlify-blobs",
@@ -872,7 +884,7 @@
           },
           {
             "name": "netlify-caching",
-            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, and proxies. Use when you add cachi…"
+            "description": "Cache dynamic and static responses on Netlify's CDN from Functions, Edge Functions, Netlify Server, and proxies. Use wh…"
           },
           {
             "name": "netlify-config",
@@ -880,7 +892,7 @@
           },
           {
             "name": "netlify-database",
-            "description": "Zero-config Postgres for Netlify apps via @netlify/database — querying data from Functions/Edge Functions, writing sche…"
+            "description": "Use this skill whenever a Netlify project needs a Postgres database. It covers Netlify Database setup, queries from Fun…"
           },
           {
             "name": "netlify-deploy",
@@ -892,7 +904,7 @@
           },
           {
             "name": "netlify-forms",
-            "description": "Serverless form handling on Netlify-hosted sites — detects HTML forms at deploy time, stores submissions, filters spam,…"
+            "description": "Use this skill whenever a developer wants to add a contact form, signup form, file upload form, or any HTML form to a N…"
           },
           {
             "name": "netlify-frameworks",
@@ -908,7 +920,7 @@
           },
           {
             "name": "netlify-image-cdn",
-            "description": "Transforms images on demand via Netlify Image CDN's /.netlify/images endpoint with query parameters for resizing/croppi…"
+            "description": "Transform, resize, crop, and convert images on demand through Netlify Image CDN at the /.netlify/images endpoint. Use t…"
           },
           {
             "name": "netlify-mcp-servers",
@@ -922,8 +934,8 @@
       }
     },
     "octen": {
-      "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3",
-      "version": "1.0.0",
+      "sha": "6210e412232ac96c59872d37711d23015e5f5358",
+      "version": "1.2.0",
       "components": {
         "mcpServers": [
           {
@@ -934,7 +946,7 @@
         "skills": [
           {
             "name": "octen-web",
-            "description": "Use Octen for web/news search, broad research, and clean URL extraction."
+            "description": "Use Octen for web and news search, company and place lookup, fast URL lookup, broad research, deeper web search, image…"
           }
         ]
       }
@@ -989,8 +1001,8 @@
       }
     },
     "pstack": {
-      "sha": "e1cc03121a0e71129a4fb730d7c5528a0a3e43c8",
-      "version": "0.15.43",
+      "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
+      "version": "0.15.46",
       "components": {
         "agents": [
           {
@@ -1307,8 +1319,8 @@
       }
     },
     "stripe": {
-      "sha": "72e7e79e08e245063e87d61f60340e55e54c68f4",
-      "version": "0.11.0",
+      "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
+      "version": "0.13.5",
       "components": {
         "agents": [
           {
@@ -1376,10 +1388,6 @@
           {
             "name": "stripe-projects",
             "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a…"
-          },
-          {
-            "name": "upgrade-stripe",
-            "description": "Guide for upgrading Stripe API versions, webhook endpoints, server-side SDKs, Stripe.js, and mobile SDKs"
           }
         ]
       }
@@ -1481,8 +1489,8 @@
       }
     },
     "tavily": {
-      "sha": "3bb38952260db30fc62d740bb3e42ab4d9fac833",
-      "version": "2.4.1",
+      "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6",
+      "version": "2.4.2",
       "components": {
         "mcpServers": [
           {
@@ -1573,8 +1581,8 @@
       }
     },
     "vercel": {
-      "sha": "87e2262d07123c1549701ee0d104fe7623a335dc",
-      "version": "0.55.1",
+      "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
+      "version": "0.57.0",
       "components": {
         "agents": [
           {
@@ -1653,6 +1661,10 @@
             "description": "Project bootstrapping orchestrator for repos that depend on Vercel-linked resources (databases, auth, and managed integ…"
           },
           {
+            "name": "botid",
+            "description": "Protect specific routes and server actions from bots in code with Vercel BotID (`botid` npm package). Use when installi…"
+          },
+          {
             "name": "build-agents",
             "description": "Default guidance for building AI agents. Use for generic requests to build, create, scaffold, design, architect, or imp…"
           },
@@ -1665,12 +1677,16 @@
             "description": "Vercel Chat SDK expert guidance. Use when building multi-platform chat bots — Slack, Telegram, Microsoft Teams, Discord…"
           },
           {
+            "name": "client-side-security",
+            "description": "Protect what runs in your users' browsers on Vercel with a Content-Security-Policy header and Page Integrity script mon…"
+          },
+          {
             "name": "create-a-backend",
             "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions,…"
           },
           {
             "name": "custom-metrics",
-            "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions,…"
+            "description": "Emit and query Vercel Custom Metrics. Use proactively whenever you write or change server code that runs as a Vercel Fu…"
           },
           {
             "name": "daemons",
@@ -1805,8 +1821,8 @@
       }
     },
     "wix": {
-      "sha": "2a643d799060506f573edb8e96301c47c0c6dd9d",
-      "version": "1.41.6",
+      "sha": "4938f2bc2211f44213e0021303f4d7de6a7ada7b",
+      "version": "1.41.11",
       "components": {
         "mcpServers": [
           {
