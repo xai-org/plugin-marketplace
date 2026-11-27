@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "converly",
+      "description": "Converly is the easiest way to set up server-side conversion tracking in Google Ads, Meta Ads, X Ads, LinkedIn Ads, Microsoft Ads and more. The plugin makes it easy to setup. Simply tell Grok to 'Setup conversion tracking in Google Ads when someone submits a form on my Webflow website' and it will build the conversion flow, connect your Google Ads account, publish it, and test it all works.",
+      "category": "marketing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/converlyio/converly-mcp.git",
+        "sha": "2fac53f156777d84e690404be1d5d94fe2468c8f"
+      },
+      "homepage": "https://converly.io/mcp",
+      "keywords": ["converly", "converly conversion tracking", "converly google ads", "converly meta capi", "converly flow"],
+      "domains": ["converly.io", "app.converly.io"]
     }
   ]
 }
