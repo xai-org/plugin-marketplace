@@ -475,6 +475,21 @@
       }
     },
     {
+      "name": "myeline",
+      "description": "Plug-and-play memory for AI agents, with receipts. The agent searches the user's reviewed knowledge base before answering questions about preferences, history, decisions, and projects, saves what the user asks it to remember, and every memory carries its source. Machines propose, humans approve.",
+      "category": "productivity",
+      "source": { "type": "local", "path": "./external_plugins/myeline" },
+      "homepage": "https://myeline.si",
+      "keywords": ["myeline", "memory", "ai memory", "agent memory", "persistent memory"],
+      "domains": ["myeline.si", "cortex.myeline.si", "workspace.myeline.si"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Sandbox Group LLC",
+        "email": "hello@myeline.si",
+        "url": "https://github.com/Sandbox-Group-LLC"
+      }
+    },
+    {
       "name": "expo",
       "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
       "category": "development",
