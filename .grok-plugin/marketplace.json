@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "subpane",
+      "description": "Subpane dashboard integration (hosted MCP server + skill). Create, lay out, and update live JSON-backed dashboards with stats, charts, tables, meters, and lists, then share the live board URL. Sign in with your Subpane account over OAuth 2.1; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/subpane/skills.git",
+        "sha": "851687a2426b683b9bc06d6468ce80f82af531c4"
+      },
+      "homepage": "https://subpane.app",
+      "keywords": ["subpane", "subpane mcp", "subpane dashboard", "subpane board"],
+      "domains": ["subpane.app"]
     }
   ]
 }
