@@ -362,6 +362,28 @@
         ]
       }
     },
+    "ellora": {
+      "sha": "25be545a3dbcae44f88f25961535f914fcbfa7dd",
+      "version": "1.7.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "ellora",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "ellora",
+            "description": "Connect to Ellora, the hosted editor that reviews drafts for brand voice, generic AI phrasing (slop), contradictions an…"
+          },
+          {
+            "name": "ellora-review",
+            "description": "Run the Ellora brand-voice + AI-Editor review loop on prose written or edited for the team — blog posts, marketing copy…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
