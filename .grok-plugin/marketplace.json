@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "postbeam",
+      "description": "Draft, review, schedule and analyze LinkedIn posts in Postbeam from Grok: write drafts in your voice from your Postbeam writing training, edit and approve them, schedule them to your connected LinkedIn accounts, and pull account and per-post analytics, through the official hosted Postbeam MCP server (OAuth 2.1).",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Postbeam/postbeam-claude-plugin.git",
+        "sha": "90d421c600295350c114cc6df05e96be1f021ea7"
+      },
+      "homepage": "https://www.postbeam.ai/mcp",
+      "keywords": ["postbeam", "postbeam linkedin", "postbeam mcp"],
+      "domains": ["postbeam.ai", "www.postbeam.ai", "app.postbeam.ai"]
     }
   ]
 }
