@@ -688,6 +688,18 @@
         ]
       }
     },
+    "logospell": {
+      "sha": "d1fb0247d672041d8522dd7780ac078f462b9e00",
+      "version": "6.5.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "logospell",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
