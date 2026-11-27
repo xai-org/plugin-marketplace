@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sunseekr",
+      "description": "SunSeekr sun data (hosted MCP server + skill). Find pubs, cafés, restaurants and rooftops in direct sun near a place, hour by hour, rank places by sun, find terraces that keep the sun until sunset, and check your saved SunSeekr spots. Sign in with your SunSeekr account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/sunseekr"
+      },
+      "homepage": "https://www.sunseekr.com/mcp",
+      "keywords": ["sunseekr", "sunseekr mcp", "sun seekr", "sunseekr sun"],
+      "domains": ["sunseekr.com", "www.sunseekr.com", "mcp.sunseekr.com"]
     }
   ]
 }

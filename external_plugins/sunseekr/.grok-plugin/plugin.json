@@ -1,0 +1,18 @@
+{
+  "name": "sunseekr",
+  "version": "1.0.0",
+  "description": "SunSeekr sun data for Grok via the hosted SunSeekr MCP server at mcp.sunseekr.com. Find pubs, cafés, restaurants and rooftops in direct sun near a place, hour by hour, rank a shortlist of places by sun, find terraces that keep the sun until sunset, and check your saved SunSeekr spots. Sign in with your SunSeekr account on first connect.",
+  "author": {
+    "name": "SunSeekr Ltd",
+    "url": "https://www.sunseekr.com"
+  },
+  "homepage": "https://www.sunseekr.com/mcp",
+  "license": "MIT",
+  "keywords": [
+    "sunseekr",
+    "sunseekr mcp",
+    "sun seekr",
+    "sunseekr sun"
+  ],
+  "logo": "assets/logo.svg"
+}

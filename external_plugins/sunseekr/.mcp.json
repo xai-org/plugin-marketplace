@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sunseekr": {
+      "type": "http",
+      "url": "https://mcp.sunseekr.com/mcp"
+    }
+  }
+}
