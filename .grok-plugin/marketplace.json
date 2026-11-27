@@ -371,6 +371,18 @@
       "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     },
     {
+      "name": "craftcx",
+      "description": "Connect Grok to CraftCX's read-only MCP server to search support conversations, QA findings, customer signals, and support performance. Sign in with your CraftCX account and approve an organization.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/craftcx"
+      },
+      "homepage": "https://craftcx.com/mcp",
+      "keywords": ["craftcx", "craftcx mcp", "craftcx support intelligence"],
+      "domains": ["craftcx.com", "mcp.craftcx.com", "app.craftcx.com"]
+    },
+    {
       "name": "unity",
       "description": "Unity's official plugin for coding agents. Skills for Unity 6 game development: UI Toolkit and uGUI, 2D sprites and tilemaps, URP rendering and Shader Graph, audio, localization, in-app purchases, LevelPlay ads, multiplayer, and driving a running Unity Editor through the Unity CLI.",
       "category": "development",
