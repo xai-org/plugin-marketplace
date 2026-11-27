@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "unitpost",
+      "description": "Your AI Agent sends the messages. Official Unitpost plugin (hosted MCP server + skill): email and SMS infrastructure, run by your agent. Send transactional email and SMS, run campaigns, and manage contacts, templates, domains, and webhooks in your Unitpost workspace. Sign in with your Unitpost account (OAuth 2.1); no API key needed.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/unitpostcom/unitpost-grok-plugin.git",
+        "sha": "4d5d1edba0a98b655af1337bbb2bc4a9cf9161f9"
+      },
+      "homepage": "https://www.unitpost.com/ai/mcp",
+      "keywords": ["unitpost", "unitpost mcp", "unitpost email", "unitpost sms"],
+      "domains": ["unitpost.com", "www.unitpost.com", "mcp.unitpost.com"]
     }
   ]
 }
