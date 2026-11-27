@@ -362,6 +362,24 @@
         ]
       }
     },
+    "deepledger": {
+      "sha": "6a3ad8d9bbc7ef98f39abcbb6a4f63007fedffb7",
+      "version": "4.0.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deepledger",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "bookkeeping",
+            "description": "Bookkeeping through DeepLedger MCP for QuickBooks Online, QuickBooks Desktop (beta), Xero, Bill.com and Stripe (for rep…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",

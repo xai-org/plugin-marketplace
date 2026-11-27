@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "deepledger",
+      "description": "The accounting harness for AI. DeepLedger connects QuickBooks Online, Xero, Bill.com and Stripe (for reporting) to Grok and other AI agents through one MCP address. Record bills, invoices, payments, journal entries and other transactions, run reports, reconcile and close the month across every company you manage, with your firm's rules, review tasks and audit history built in.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DeepLedger/deepledger-plugin.git",
+        "sha": "6a3ad8d9bbc7ef98f39abcbb6a4f63007fedffb7"
+      },
+      "homepage": "https://deepledger.ai",
+      "keywords": ["deepledger", "deep ledger", "deepledger quickbooks", "deepledger xero", "deepledger bookkeeping", "deepledger mcp"],
+      "domains": ["deepledger.ai", "mcp.deepledger.ai", "xero.deepledger.ai"]
     }
   ]
 }
