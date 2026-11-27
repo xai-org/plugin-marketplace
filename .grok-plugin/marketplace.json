@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "dripod",
+      "description": "Official Dripod integration for print-on-demand mockups. Put a design on 3D mockups of T-shirts, hoodies, mugs, tumblers, hats, totes, phone cases, pillows and socks (174 products) in a chosen blank colour and get a PNG for an Etsy, Shopify or Printify listing. Hosted remote MCP server at https://drint.io/dripod/mcp, no sign-in.",
+      "category": "media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/drint-io/dripod-mcp.git",
+        "sha": "adbc050d5c3c93e80424296107969d25b22236fc"
+      },
+      "homepage": "https://drint.io/dripod/mcp",
+      "keywords": ["dripod", "dripod mockup", "dripod print on demand", "dripod mcp"],
+      "domains": ["drint.io"]
     }
   ]
 }
