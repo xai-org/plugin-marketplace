@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "kopai",
+      "description": "Official Kopai observability integration (MCP Server + Skills). Query OpenTelemetry traces, logs and metrics in Kopai, root-cause production errors and latency, review alerts and manage alert rules, build Kopai dashboards, and instrument apps with OpenTelemetry. Sign in with your Kopai account (OAuth); dashboards also need a Kopai CLI token.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kopai-app/kopai-skills.git",
+        "sha": "76b77ebb5e45f78d7fecef28c89186091c58be94",
+        "path": "plugins/kopai"
+      },
+      "homepage": "https://kopai.app",
+      "keywords": ["kopai", "kopai observability", "kopai mcp"],
+      "domains": ["kopai.app", "app.kopai.app", "api.kopai.app"],
+      "author": {
+        "name": "Reactor Studio",
+        "url": "https://kopai.app"
+      }
     }
   ]
 }
