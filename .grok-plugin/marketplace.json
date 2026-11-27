@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "outscraper",
+      "description": "Outscraper business data, Google Maps scraping, contact discovery, enrichment, pricing, and request results through the official MCP bridge.",
+      "category": "data",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/outscraper/outscraper-mcp-server.git",
+        "sha": "3459f18a5354c31ac394530020ada778aac646a8"
+      },
+      "homepage": "https://mcp.outscraper.com",
+      "keywords": [
+        "outscraper",
+        "outscraper mcp"
+      ],
+      "domains": [
+        "outscraper.com",
+        "mcp.outscraper.com",
+        "api.outscraper.com"
+      ]
     }
   ]
 }
