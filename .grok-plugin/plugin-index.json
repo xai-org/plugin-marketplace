@@ -688,6 +688,24 @@
         ]
       }
     },
+    "local-seo-by-crakseo": {
+      "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "crakseo-local-seo",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "local-seo",
+            "description": "Local SEO for Google Maps - check Maps rankings for any keyword and location, with Google Business Profile ratings and…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
