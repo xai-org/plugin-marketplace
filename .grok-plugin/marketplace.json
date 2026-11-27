@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "taplio",
+      "description": "Run your LinkedIn from Grok with Taplio: 27 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, search Taplio's lead database for prospects, find inspiration, comment, like and connect through your Taplio account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TaplioOfficial/taplio-linkedin-plugin.git",
+        "sha": "20ee11384a9b072650cdd9b30faf4c997b6c8398"
+      },
+      "homepage": "https://taplio.com/taplio-linkedin-mcp",
+      "keywords": ["taplio", "taplio linkedin", "taplio mcp"],
+      "domains": ["taplio.com", "app.taplio.com", "mcp.taplio.com"]
     }
   ]
 }
