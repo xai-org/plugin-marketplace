@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "mare-liberum",
+      "description": "Mare Liberum: check a product price before you buy. Reads the product page, finds the same item at other stores with checkout links, flags offers that look too cheap and leaves an open, verifiable price record. Also reads any public page as Markdown. Remote MCP server with read-only tools; no account, no key.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/daoudandiaye98-alt/mare-liberum.git",
+        "sha": "a316dc9599a128fce95fc00c5ef33c992e7db5e1"
+      },
+      "homepage": "https://mareliberum.dev",
+      "keywords": ["mare liberum", "mareliberum", "mare liberum deal check"],
+      "domains": ["mareliberum.dev"]
     }
   ]
 }
