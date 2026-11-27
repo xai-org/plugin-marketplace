@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "specproof": {
+      "type": "http",
+      "url": "https://mcp.specproof.ai/mcp"
+    }
+  }
+}

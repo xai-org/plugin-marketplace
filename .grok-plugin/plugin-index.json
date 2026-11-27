@@ -1272,6 +1272,23 @@
         ]
       }
     },
+    "specproof": {
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "specproof",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "standards-research",
+            "description": "Search indexed 3GPP, IETF, or MPEG specifications, retrieve source passages, inspect normative requirements, compare in…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
       "version": "0.13.5",
