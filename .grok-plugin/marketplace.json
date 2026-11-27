@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "auto-poster-ai",
+      "description": "Auto Poster AI social media scheduler. Draft, schedule, publish and analyze posts across Instagram, TikTok, LinkedIn, X, Facebook, Threads, YouTube, Pinterest, Bluesky, Mastodon, Telegram, Discord, WordPress and Google Business Profile. Hosted MCP server plus seven workflow skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/autoposterai/agent-skills.git",
+        "sha": "72e754967440dc8be9c3e4cf65e35a67fea42633"
+      },
+      "homepage": "https://autoposter.ai/agents/grok",
+      "keywords": ["auto poster ai", "autoposter", "auto poster ai mcp", "auto poster ai scheduler"],
+      "domains": ["autoposter.ai", "agent.autoposter.ai"]
     }
   ]
 }

@@ -1,6 +1,48 @@
 {
   "version": 1,
   "plugins": {
+    "auto-poster-ai": {
+      "sha": "72e754967440dc8be9c3e4cf65e35a67fea42633",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "autoposter",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "announce-release",
+            "description": "Turn git commits, a changelog or release notes into launch announcement posts and schedule them with Auto Poster AI. Us…"
+          },
+          {
+            "name": "check-accounts-and-rules",
+            "description": "Show which social accounts are connected to Auto Poster AI, who is signed in, and each platform's character limits and…"
+          },
+          {
+            "name": "manage-media-library",
+            "description": "Upload images and videos to the Auto Poster AI media library and browse what is already there. Use when the user wants…"
+          },
+          {
+            "name": "manage-post-queue",
+            "description": "Review, edit, publish, reschedule, cancel or troubleshoot posts in Auto Poster AI. Use when the user asks what is sched…"
+          },
+          {
+            "name": "repurpose-content",
+            "description": "Turn a blog post, article URL, video, transcript or long text into platform-specific social posts and threads, then dra…"
+          },
+          {
+            "name": "schedule-social-posts",
+            "description": "Draft, schedule or publish social media posts through Auto Poster AI to Instagram, TikTok, LinkedIn, X, Threads, Bluesk…"
+          },
+          {
+            "name": "social-analytics-report",
+            "description": "Report on social media performance from Auto Poster AI. Shows top and weak posts, engagement totals, follower growth an…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
