@@ -487,6 +487,18 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "neotask",
+      "description": "Neotask integration (hosted MCP server + skills). Check on your companies, agents and runs, give your Neotask agents tasks, review the approvals waiting on you and keep watch on what needs you. Sign in with your Neotask account; no API key needed.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/neotask"
+      },
+      "homepage": "https://neotask.ai/docs/mcp.md",
+      "keywords": ["neotask", "neotask mcp", "neotask agents", "neotask tasks", "neotask approvals"],
+      "domains": ["neotask.ai"]
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "neotask": {
+      "type": "http",
+      "url": "https://neotask.ai/mcp"
+    }
+  }
+}
