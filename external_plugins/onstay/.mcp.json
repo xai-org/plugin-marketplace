@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "onstay": {
+      "type": "http",
+      "url": "https://onstay.ai/api/mcp"
+    }
+  }
+}
