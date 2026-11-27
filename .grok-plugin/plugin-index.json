@@ -688,6 +688,32 @@
         ]
       }
     },
+    "kopai": {
+      "sha": "76b77ebb5e45f78d7fecef28c89186091c58be94",
+      "version": "0.1.12",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "kopai",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "create-dashboard",
+            "description": "Build Kopai observability dashboards from OpenTelemetry metrics, logs, and traces by composing tiles — time-series char…"
+          },
+          {
+            "name": "otel-instrumentation",
+            "description": "Instrument applications with the OpenTelemetry SDK and prove the telemetry is good by validating it against a local Kop…"
+          },
+          {
+            "name": "root-cause-analysis",
+            "description": "Investigate and root-cause production issues from live OpenTelemetry telemetry (traces, logs, metrics) through the Kopa…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
