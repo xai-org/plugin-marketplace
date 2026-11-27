@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "adanos",
+      "description": "Official Adanos plugin (hosted MCP server + skill). Buzz and sentiment of stocks and ETFs on Reddit, X, News and Polymarket. Find the most discussed tickers today, check one ticker per source, compare up to 10 tickers, see why a stock is discussed and read the mood of the whole market. Sign in with your Adanos account over OAuth. A free account works. Every tool only reads data.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adanos-software/adanos-mcp.git",
+        "sha": "9e8dd54cd1083d05ac2f4b6dad84a2c74aff17b0"
+      },
+      "homepage": "https://adanos.com",
+      "keywords": ["adanos", "adanos mcp", "adanos sentiment", "adanos buzz"],
+      "domains": ["adanos.com", "adanos.org"]
     }
   ]
 }
