@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zyfai": {
+      "type": "http",
+      "url": "https://mcp.zyf.ai/mcp"
+    }
+  }
+}
