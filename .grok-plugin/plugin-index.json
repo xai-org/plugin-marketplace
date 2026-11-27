@@ -1254,6 +1254,24 @@
         ]
       }
     },
+    "seoforagent": {
+      "sha": "605631c765d3d1079a6b03382ef2145bfbd9b75f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "seoforagent",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "seoforagent",
+            "description": "Work on a website's SEO and AI visibility through the SEOforAgent MCP server: Google Search Console clicks, queries, pa…"
+          }
+        ]
+      }
+    },
     "skyvern": {
       "sha": "6fae60f5476857b8e3796bd253854809851ebc3b",
       "version": "0.1.1",
