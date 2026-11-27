@@ -916,6 +916,24 @@
         ]
       }
     },
+    "payapi-market": {
+      "sha": "42538b39cbccd3bcc475ffb473f4b6bffdee663f",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "payapi-market",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "payapi-market",
+            "description": "Find and inspect pay per call x402 APIs and AI agents on PayAPI Market through the payapi-market MCP server, then help…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",
