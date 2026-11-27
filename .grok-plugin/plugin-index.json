@@ -688,6 +688,59 @@
         ]
       }
     },
+    "kemory": {
+      "sha": "4a7802a2e315a2d70bb17451284ca0a676424000",
+      "version": "0.17.0",
+      "components": {
+        "commands": [
+          {
+            "name": "login",
+            "description": "Sign in to Kemory in the browser — no CLI to install, no API key to paste"
+          },
+          {
+            "name": "status",
+            "description": "Check whether Kemory is actually working — credentials, API reachability, capture and context-injection settings"
+          }
+        ],
+        "hooks": [
+          {
+            "name": "PostToolUse",
+            "description": "(mcp__.*__|[A-Za-z0-9-]+__)kemory_(recall.*|ask|find_similar|get_.*)"
+          },
+          {
+            "name": "PreCompact"
+          },
+          {
+            "name": "SessionEnd"
+          },
+          {
+            "name": "SessionStart"
+          },
+          {
+            "name": "Stop"
+          },
+          {
+            "name": "UserPromptSubmit"
+          }
+        ],
+        "mcpServers": [
+          {
+            "name": "kemory",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "kemory",
+            "description": "How to use kemory persistent memory well - recall before re-deriving, rate what you use, store durable facts as they ha…"
+          },
+          {
+            "name": "kemory-setup",
+            "description": "Get Kemory connected after installing the plugin, or diagnose it when the kemory_* tools are missing, the MCP server is…"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
