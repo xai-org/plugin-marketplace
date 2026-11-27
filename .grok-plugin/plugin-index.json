@@ -1535,8 +1535,8 @@
       }
     },
     "vercel": {
-      "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
-      "version": "0.57.0",
+      "sha": "8b2c4a6491fd388f63f5ec84e8a9e78def592e4f",
+      "version": "0.57.1",
       "components": {
         "agents": [
           {
