@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "backlink-checker-by-crakseo",
+      "description": "Backlink Checker: Backlinks, Referring Domains & Anchor Text by CrakSEO. Backlink checker for SEO: backlinks, referring domains and anchor text for any website or competitor. Link analysis for backlink audits and link building. Hosted MCP server at https://crakseo.com/mcp/backlinks; sign in with OAuth, no API key needed.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CrakSEO/crakseo-mcp-plugins.git",
+        "sha": "19cb624e7d2f04ba77e99cd1415cee727749975b",
+        "path": "backlink-checker-by-crakseo"
+      },
+      "homepage": "https://docs.crakseo.com/mcp-servers/backlinks",
+      "keywords": ["crakseo backlink checker", "crakseo backlinks"]
     }
   ]
 }
