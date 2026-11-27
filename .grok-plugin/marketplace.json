@@ -487,6 +487,21 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "senpi-agent",
+      "description": "Turn your AI assistant into your AI quant researcher for perpetual futures markets. Read the day's market pulse, scan for signals and anomalies, see where smart money is positioned, research and compare Hyperliquid traders, score any wallet with the Quant Desk, browse Senpi's strategy catalog, and review your own portfolio and trade history. Nothing in this plugin trades real money, moves funds or takes a strategy live; those happen in your Senpi account at senpi.ai.",
+      "category": "finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Senpi-ai/senpi-plugin.git",
+        "sha": "dd1198e127aebe4b13fa7febee6ce486a97a1d1c"
+      },
+      "homepage": "https://senpi.ai/connectors",
+      "version": "0.5.1",
+      "author": { "name": "Senpi", "url": "https://senpi.ai" },
+      "keywords": ["senpi", "senpi ai quant", "senpi agent", "senpi quant desk", "senpi signals"],
+      "domains": ["senpi.ai", "mcp.senpi.ai", "resources.senpi.ai"]
     }
   ]
 }
