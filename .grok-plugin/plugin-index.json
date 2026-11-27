@@ -1442,6 +1442,17 @@
         ]
       }
     },
+    "swarmmemo": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "swarmmemo",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tavily": {
       "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6",
       "version": "2.4.2",
