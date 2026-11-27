@@ -1,6 +1,24 @@
 {
   "version": 1,
   "plugins": {
+    "adaptorch": {
+      "sha": "156d7b80010314b88b2c066a084ee692b18e30a3",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "adaptorch",
+            "description": "stdio"
+          }
+        ],
+        "skills": [
+          {
+            "name": "adaptorch",
+            "description": "Use when the user explicitly requests an AdaptOrch run, its status, artifacts, cancellation, plan, or usage through the…"
+          }
+        ]
+      }
+    },
     "axiom": {
       "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad",
       "version": "1.3.0",
