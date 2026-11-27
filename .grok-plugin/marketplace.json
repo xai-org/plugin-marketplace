@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "onda",
+      "description": "ONDA (Tuval AI) meeting library. Find a meeting by date, title or who was in it, search every transcript, and read a transcript, summary or your own notes with speakers named. Reads the recording folders on this machine - no server and no account.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Tuval-Ai/agent-plugins.git",
+        "sha": "c6925b423c627ff4803f167515ee3e80829ecf2d",
+        "path": "onda"
+      },
+      "homepage": "https://onda.tuval-ai.co.il",
+      "keywords": ["onda", "onda recording", "onda transcript", "onda meeting", "tuval ai"],
+      "domains": ["onda.tuval-ai.co.il", "tuval-ai.co.il"]
     }
   ]
 }
