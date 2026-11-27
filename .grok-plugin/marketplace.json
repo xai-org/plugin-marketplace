@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "deviantly",
+      "description": "Official Deviantly social commerce & TikTok Shop trend intelligence plugin (hosted MCP server + skills). Discover breakout products, low-saturation Print-on-Demand (POD) winners, dropshipping opportunities, viral video hooks, and creator analytics. Sign in with your Deviantly account via OAuth 2.1 on first connect.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/deviationlab/deviantly-plugin.git",
+        "sha": "4f9f436181e061dfbfe28550f5b903999f488acb"
+      },
+      "homepage": "https://deviantly.ai",
+      "keywords": ["deviantly", "deviantly mcp", "deviantly pod", "deviantly dropship", "deviantly trends"],
+      "domains": ["deviantly.ai", "app.deviantly.ai", "mcp.deviantly.ai"],
+      "version": "1.0.0",
+      "author": {
+        "name": "Deviantly (Deviation Lab)",
+        "url": "https://github.com/deviationlab"
+      }
     }
   ]
 }
