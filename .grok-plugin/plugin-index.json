@@ -362,6 +362,36 @@
         ]
       }
     },
+    "deviantly": {
+      "sha": "4f9f436181e061dfbfe28550f5b903999f488acb",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deviantly",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deviantly-code-mode",
+            "description": "How to use Deviantly MCP in Cloudflare-style Code Mode (search + execute + docs + whoami) to discover endpoints and cha…"
+          },
+          {
+            "name": "deviantly-metrics",
+            "description": "Authoritative Deviantly metric formulas, calculation scales, and interpretation thresholds for saturation_pct, buy_inte…"
+          },
+          {
+            "name": "dropship-trend-radar",
+            "description": "End-to-end TikTok Shop Dropshipping winner discovery, saturation audit, viral video hook analysis, and creator intellig…"
+          },
+          {
+            "name": "pod-winner-research",
+            "description": "End-to-end Print-on-Demand (POD) winning design and niche research workflow using Deviantly live ClickHouse + Qdrant da…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
