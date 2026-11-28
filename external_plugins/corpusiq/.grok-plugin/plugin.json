@@ -1,0 +1,17 @@
+{
+  "name": "corpusiq",
+  "version": "1.0.0",
+  "description": "CorpusIQ business data integration for Grok Build via the hosted CorpusIQ MCP server at mcp2.corpusiq.io. Ask one question in plain English across connected business systems and get an answer that cites the source record. Sign in with your CorpusIQ account on first connect.",
+  "author": {
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "homepage": "https://www.corpusiq.io/developers",
+  "keywords": [
+    "corpusiq",
+    "corpusiq mcp",
+    "business data",
+    "business intelligence",
+    "cross-system reporting"
+  ]
+}
