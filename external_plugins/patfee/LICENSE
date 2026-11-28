@@ -1,0 +1,26 @@
+PATFEE Grok Build Integration License
+
+Copyright © 2026 GIG Inventions Sàrl. All rights reserved except as expressly
+granted below.
+
+“Integration” means the plugin manifest, MCP connection configuration, skill
+instructions, and accompanying documentation in this directory. The Integration
+connects Grok Build to the PATFEE hosted service.
+
+GIG Inventions Sàrl grants xAI a worldwide, non-exclusive, royalty-free
+permission to host, copy, display, and distribute unmodified copies of the
+Integration through the Grok Build marketplace, its public catalog repository
+and contribution process, and Grok Build's installation and update services.
+
+GIG Inventions Sàrl grants recipients a worldwide, non-exclusive, royalty-free
+permission to copy, install, and use the Integration with Grok Build, and to
+redistribute exact copies for that purpose within their own organization.
+Copies must include this license and preserve copyright and attribution notices.
+
+GIG Inventions Sàrl retains ownership of the Integration and all rights in the
+PATFEE hosted service, its software, technology, data, and branding. This license
+covers the Integration files only. Use of the hosted service is governed by the
+PATFEE Terms of Service at https://patfee.org/terms?l=en. The PATFEE name may
+be used under this license only to identify the Integration and attribute it
+to GIG Inventions Sàrl. All other uses of PATFEE branding and all other rights
+are reserved.

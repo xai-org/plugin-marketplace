@@ -487,6 +487,30 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "patfee",
+      "description": "PATFEE estimates international patent family costs, compares filing routes and generates PDFs for individual budgets. Free with no PATFEE account.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/patfee"
+      },
+      "homepage": "https://patfee.org/?l=en",
+      "keywords": [
+        "patfee",
+        "patfee budget",
+        "patfee mcp"
+      ],
+      "domains": [
+        "patfee.org"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "GIG Inventions Sàrl",
+        "email": "support@patfee.org",
+        "url": "https://patfee.org/?l=en"
+      }
     }
   ]
 }

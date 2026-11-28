@@ -916,6 +916,23 @@
         ]
       }
     },
+    "patfee": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "patfee",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "patfee",
+            "description": "Use PATFEE to estimate international patent family costs, compare filing routes, or generate a PDF for an individual pa…"
+          }
+        ]
+      }
+    },
     "pi-security": {
       "sha": "dcf8dc9fcc2b54866866d2d07b1e85a3bda05d85",
       "version": "0.2.1",

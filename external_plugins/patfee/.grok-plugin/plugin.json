@@ -1,0 +1,12 @@
+{
+  "name": "patfee",
+  "version": "1.0.0",
+  "description": "Estimate international patent family costs, compare filing routes, and generate a budget PDF with PATFEE.",
+  "author": {
+    "name": "GIG Inventions Sàrl",
+    "email": "support@patfee.org",
+    "url": "https://patfee.org/?l=en"
+  },
+  "homepage": "https://patfee.org/?l=en",
+  "license": "Proprietary"
+}
