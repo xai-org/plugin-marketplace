@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753"
+        "sha": "8b2c4a6491fd388f63f5ec84e8a9e78def592e4f"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
+        "sha": "8f2b6c0c65533e695243aa401eaa1cb6f1fe86c2",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getmattered/getmattered-mcp.git",
-        "sha": "9a27bc126463b35aad79ee7f9ced43643025f45f",
+        "sha": "871894b44cde6bd4b442096726bee5ce90898bdf",
         "path": "plugins/getmattered"
       },
       "homepage": "https://getmattered.com/mcps",
