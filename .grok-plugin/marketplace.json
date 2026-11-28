@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "lgda-autonomic-node",
+      "description": "Buy LGDA wellness music with USDC: 27 tracks, x402 payments, signed HRV receipts.",
+      "category": "wellness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lgda-technologies/lgda-autonomic-node.git",
+        "sha": "5b7190192e1a394d761405a14651fe7c854a829d"
+      },
+      "homepage": "https://github.com/lgda-technologies/lgda-autonomic-node",
+      "keywords": ["lgda", "lgda autonomic node", "lgda wellness music"],
+      "domains": ["lgda-music.fly.dev"]
     }
   ]
 }
