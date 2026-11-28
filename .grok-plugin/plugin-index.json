@@ -110,6 +110,24 @@
         ]
       }
     },
+    "chime-scheduler": {
+      "sha": "8ba63749a9529d36db9b38b716cfb870b62df853",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "chime-scheduler",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "chime-scheduler",
+            "description": "Schedule, publish, list, edit or cancel LinkedIn posts on the user's own profile with Chime Scheduler. Use when the use…"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a",
       "version": "1.14.0",
