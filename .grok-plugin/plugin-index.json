@@ -685,8 +685,8 @@
       }
     },
     "maviapi": {
-      "sha": "2d92bca34f11896c29a5d2af40148aa48061859e",
-      "version": "0.2.3",
+      "sha": "4d6e8abd64cc72bfbaadb4392ebc9799f3aff147",
+      "version": "0.2.9",
       "components": {
         "mcpServers": [
           {
