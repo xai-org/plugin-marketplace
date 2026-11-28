@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "speedy-sticks",
+      "description": "Book and manage at-home blood draws with Speedy Sticks. Check coverage, see prices, schedule a certified phlebotomist, and track or cancel visits.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Bitwiz12/speedy-sticks-mcp-docs.git",
+        "sha": "550547f2dae8b2a514f0a11d5f71e09ea37ee84d"
+      },
+      "homepage": "https://www.speedysticks.com/mcp",
+      "keywords": ["speedy sticks", "speedysticks", "speedy-sticks"],
+      "domains": ["speedysticks.com", "mcp.speedysticks.com"]
     }
   ]
 }
