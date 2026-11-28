@@ -2,9 +2,27 @@
   "version": 1,
   "plugins": {
     "a1-lane": {
-      "sha": "2c38f574a90b474809930d6f26fe5ccf6951a8a9",
-      "version": "1.10.0",
+      "sha": "1f3718efc3f294076fa303f817a2431d9b770f5f",
+      "version": "1.15.0",
       "components": {
+        "commands": [
+          {
+            "name": "cross-post-video",
+            "description": "Draft one video post for several connected accounts, confirm it with me, publish it, and show the receipt."
+          },
+          {
+            "name": "did-it-go-live",
+            "description": "Check the newest post's delivery receipt and say, per account, whether it is live and confirmed."
+          },
+          {
+            "name": "plan-a-week",
+            "description": "Turn my ideas into a week of drafts at good times for my accounts; nothing is sent until I say so."
+          },
+          {
+            "name": "what-needs-fixing",
+            "description": "Failed posts, posts waiting on me, and accounts that need reconnecting, with the fix for each."
+          }
+        ],
         "mcpServers": [
           {
             "name": "a1lane",
@@ -13,16 +31,24 @@
         ],
         "skills": [
           {
+            "name": "client-approval-round",
+            "description": "Use when the user wants a post signed off by someone else (a client, manager or teammate) before it goes out (for examp…"
+          },
+          {
+            "name": "connect-your-first-account",
+            "description": "Use right after A1 Lane is added, or when the user has no social account connected yet: find out what is connected, han…"
+          },
+          {
             "name": "cross-post-a-video",
-            "description": "Use when the user wants one video posted to several of their connected social accounts (YouTube plus others), from a pu…"
+            "description": "Use when the user wants one video posted to several of their connected social accounts (for example \"upload this to You…"
           },
           {
             "name": "delivery-receipts",
-            "description": "Use when the user asks what actually happened to posts that went out — did they land, which destinations the platform c…"
+            "description": "Use when the user asks what actually happened to posts sent through A1 Lane (\"did my post go live?\", \"why didn't it pub…"
           },
           {
             "name": "draft-approve-publish",
-            "description": "Use when the user wants to write a social post and send it to one or more of their connected accounts now — drafting th…"
+            "description": "Use when the user wants to write a social post and send it now to one or more of their connected accounts (for example…"
           },
           {
             "name": "engagement-and-attention",
@@ -30,7 +56,7 @@
           },
           {
             "name": "schedule-with-validation",
-            "description": "Use when the user wants posts scheduled for later — a single post at a set time, the next free slot, a repeating post,…"
+            "description": "Use when the user wants posts scheduled for later (for example \"schedule this for Tuesday at 9am on X and Threads\") — a…"
           }
         ]
       }
