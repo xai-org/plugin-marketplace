@@ -475,6 +475,19 @@
       }
     },
     {
+      "name": "chronotek-pro-agent",
+      "description": "Chronotek Pro workforce operations through its hosted MCP service. Review time and attendance, schedules, coverage, and exceptions, and take permitted actions with approval. Requires an eligible Chronotek account and OAuth consent.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Chrono-Tek/chronotek-grok-plugin.git",
+        "sha": "cafac39f9d8f3054a8809e542058bac800f107fd"
+      },
+      "homepage": "https://www.chronotek.com",
+      "keywords": ["chronotek", "chronotek pro", "chronotek pro agent"],
+      "domains": ["chronotek.com", "mychronotek.com"]
+    },
+    {
       "name": "expo",
       "description": "Official Expo plugin for building, testing with iOS and Android cloud simulators, deploying, and monitoring apps on Android, iOS, and web.",
       "category": "development",
