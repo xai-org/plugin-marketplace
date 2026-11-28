@@ -1481,8 +1481,8 @@
       }
     },
     "tekyous": {
-      "sha": "8efe8034690cc2770bbc899c3142803e9f7f9753",
-      "version": "1.3.0",
+      "sha": "c5f39b48c9065e4c5ae51600dc4d11238a2e95be",
+      "version": "1.3.4",
       "components": {
         "mcpServers": [
           {

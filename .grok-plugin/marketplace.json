@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tekyous/agent-skills.git",
-        "sha": "8efe8034690cc2770bbc899c3142803e9f7f9753"
+        "sha": "c5f39b48c9065e4c5ae51600dc4d11238a2e95be"
       },
       "homepage": "https://tekyous.dev/agents",
       "keywords": ["tekyous", "tekyous stack", "tech stack diagram"],
