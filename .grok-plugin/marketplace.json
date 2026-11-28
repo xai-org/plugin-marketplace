@@ -5,6 +5,29 @@
     "name": "xAI"
   },
   "plugins": [
+    
+{
+  "name": "adneuron",
+  "description": "Adneuron is an AI advertising agent for Google Ads, Meta Ads, Amazon Ads, LinkedIn Ads, and TikTok Ads. Create, launch, manage, analyze, and optimize advertising campaigns through Grok Build, with user approval before campaign changes are applied.",
+  "category": "marketing",
+  "source": {
+    "source": "url",
+    "url": "https://github.com/Adneuron-ai/adneuron-grok-build-plugin.git",
+    "sha": "4f584f7c7bf771b617154df625f18289875e5e6a"
+  },
+  "homepage": "https://adneuron.ai",
+  "keywords": [
+    "adneuron",
+    "adneuron ai",
+    "adneuron ads",
+    "adneuron mcp"
+  ],
+  "domains": [
+    "adneuron.ai",
+    "mcp.adneuron.ai"
+  ]
+},
+
     {
       "name": "vercel",
       "description": "Vercel deployment platform integration. Manage deployments, check build status, access logs, configure domains, and control your frontend infrastructure directly from Grok.",
