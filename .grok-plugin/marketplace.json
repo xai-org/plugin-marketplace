@@ -487,6 +487,38 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "a1-lane",
+      "description": "Draft, schedule and publish social posts and videos, with per-destination delivery receipts and platform read-back verification where available. Works today with YouTube, X, Pinterest, Threads, Bluesky, Mastodon, Discord and Telegram, plus Instagram professional accounts, Facebook Pages you manage and LinkedIn personal profiles (limited). TikTok is in review. Also connects DEV (unofficial), Slack (limited), Tumblr and Pixelfed (limited) for posting from AI assistants and the API.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/a1lane/a1lane-mcp.git",
+        "sha": "1f3718efc3f294076fa303f817a2431d9b770f5f"
+      },
+      "homepage": "https://a1lane.ai/mcp",
+      "version": "1.15.0",
+      "author": {
+        "name": "A1Lane LLC",
+        "email": "support@a1lane.ai",
+        "url": "https://a1lane.ai"
+      },
+      "tags": ["social-media", "scheduling", "publishing", "video", "mcp"],
+      "keywords": [
+        "social media",
+        "schedule posts",
+        "cross-post",
+        "video publishing",
+        "content calendar",
+        "delivery receipt",
+        "post approval",
+        "youtube upload",
+        "bluesky",
+        "mastodon",
+        "x post"
+      ],
+      "domains": ["a1lane.ai"]
     }
   ]
 }
