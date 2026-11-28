@@ -487,6 +487,20 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "loomascale",
+      "description": "Audit and manage Google Ads, Meta Ads, LinkedIn Ads, and analyze GA4, Google Tag Manager, Search Console and Merchant Center data via LoomaScale's hosted OAuth MCP server. Every change is shown first and runs only after you approve it; ad budgets are checked against your daily spend cap.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/loomascale/agent-plugin.git",
+        "sha": "7ec77f9eca5e102bd10f0404dbcc581a2f0d74b2",
+        "path": "plugins/loomascale"
+      },
+      "homepage": "https://github.com/loomascale/agent-plugin",
+      "keywords": ["loomascale", "loomascale mcp", "loomascale ads", "loomascale google ads", "loomascale meta ads", "loomascale facebook ads", "loomascale instagram ads", "loomascale linkedin ads", "loomascale google analytics", "loomascale ga4", "loomascale google tag manager", "loomascale gtm", "loomascale search console", "loomascale gsc", "loomascale merchant center", "loomascale gmc"],
+      "domains": ["loomascale.com", "api.loomascale.com"]
     }
   ]
 }
