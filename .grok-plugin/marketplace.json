@@ -487,6 +487,15 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "nolavi-connect",
+      "description": "Run your ads, website and listings from Grok: Google Ads, Local Services, Analytics, Search Console, Business Profile, Microsoft Ads, LinkedIn Ads, ChatGPT Ads and WordPress. Every change waits for your Approve.",
+      "category": "marketing",
+      "source": { "type": "local", "path": "./external_plugins/nolavi-connect" },
+      "homepage": "https://connect.nolavi.ai",
+      "keywords": ["nolavi", "nolavi connect", "nolavi mcp"],
+      "domains": ["nolavi.ai", "connect.nolavi.ai"]
     }
   ]
 }

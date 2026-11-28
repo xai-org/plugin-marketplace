@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nolavi-connect": {
+      "type": "http",
+      "url": "https://connect.nolavi.ai/mcp"
+    }
+  }
+}
