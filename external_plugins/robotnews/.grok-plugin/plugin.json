@@ -1,0 +1,17 @@
+{
+  "name": "robotnews",
+  "version": "1.0.0",
+  "description": "Robot News for Grok Build: configure per-page news plans, research fresh developments, and publish separate sourced articles for each news item.",
+  "author": {
+    "name": "Entangld Technologies Private Limited",
+    "email": "niteshb@entangld.com"
+  },
+  "homepage": "https://www.robotnews.app",
+  "repository": "https://github.com/Entangld/robotnews",
+  "keywords": [
+    "robot news",
+    "robotnews",
+    "robotnews.app"
+  ],
+  "license": "MIT"
+}

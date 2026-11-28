@@ -487,6 +487,26 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "robotnews",
+      "description": "Robot News for Grok Build: configure news plans, create news pages, research and publish custom news articles to your Robot News page",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/robotnews"
+      },
+      "homepage": "https://www.robotnews.app",
+      "keywords": [
+        "robotnews",
+	"robot news",
+        "news agent",
+        "custom news"
+      ],
+      "domains": [
+        "robotnews.app"
+      ],
+      "author": { "name": "Entangld Technologies Private Limited" }
     }
   ]
 }
