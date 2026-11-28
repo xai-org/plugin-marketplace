@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mobivate": {
+      "type": "http",
+      "url": "https://wiki.mobivatebulksms.com/~gitbook/mcp"
+    }
+  }
+}

@@ -688,6 +688,23 @@
         ]
       }
     },
+    "mobivate": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "mobivate",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "mobivate",
+            "description": "Send SMS message(s) via Mobivate."
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
