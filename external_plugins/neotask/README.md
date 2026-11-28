@@ -40,7 +40,7 @@ Network endpoints:
 - `https://striking-seed-36.authkit.app`: Neotask's authorization server (`/oauth2/authorize`, `/oauth2/token`, `/oauth2/register`, `/.well-known/oauth-authorization-server`), run by WorkOS AuthKit
 - `https://neotask.ai`: the person's sign-in and consent screen during authorization
 
-Credentials: a Neotask account. Grok stores the resulting OAuth tokens itself and sends them as `Authorization: Bearer` on `/mcp`. You can see and revoke the connection at any time in Neotask's settings, under connected agents.
+Credentials: a Neotask account. Grok stores the resulting OAuth tokens itself and sends the access token to `/mcp` as an OAuth bearer token. You can see and revoke the connection at any time in Neotask's settings, under connected agents.
 
 Neotask keeps every action in your account's history. See Neotask's [privacy policy](https://neotask.ai/privacy-policy) and [terms](https://neotask.ai/terms).
 
