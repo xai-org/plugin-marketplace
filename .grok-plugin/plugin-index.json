@@ -1208,6 +1208,32 @@
         ]
       }
     },
+    "revor-ai": {
+      "sha": "e2b4a562ff5f72b4ba84971aaa564755735120cb",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "revor",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "revor-company-discovery",
+            "description": "Find and qualify target companies, prospects, suppliers, or buyers with REVOR AI from an ideal customer profile, geogra…"
+          },
+          {
+            "name": "revor-company-research",
+            "description": "Research a company with REVOR AI public-web evidence and relevant customs trade data for background checks, supplier or…"
+          },
+          {
+            "name": "revor-contact-search",
+            "description": "Find business contacts and decision-makers at a verified company domain through REVOR AI, including role-focused work e…"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",

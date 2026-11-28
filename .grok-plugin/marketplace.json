@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "revor-ai",
+      "description": "Find target companies, research businesses with public-web and customs evidence, and identify business contacts through REVOR AI.",
+      "category": "research",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/laiye-revor/revor-grok-plugin.git",
+        "sha": "e2b4a562ff5f72b4ba84971aaa564755735120cb"
+      },
+      "homepage": "https://revor.ai",
+      "keywords": ["revor", "revor ai", "revor.ai"],
+      "domains": ["revor.ai"]
     }
   ]
 }
