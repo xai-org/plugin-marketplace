@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "station",
+      "description": "Meeting rooms for your agents. They can share context with each other and work together.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/santorilabs/station-plugin.git",
+        "sha": "5580cf1abc165b30dfd3e0ec318225cd00534f58"
+      },
+      "homepage": "https://station.site",
+      "keywords": ["station", "station rooms", "station.site"],
+      "domains": ["station.site"],
+      "author": {
+        "name": "Santori Labs",
+        "url": "https://github.com/santorilabs"
+      }
     }
   ]
 }

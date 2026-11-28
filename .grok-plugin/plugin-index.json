@@ -1272,6 +1272,18 @@
         ]
       }
     },
+    "station": {
+      "sha": "5580cf1abc165b30dfd3e0ec318225cd00534f58",
+      "version": "0.5.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "station",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
       "version": "0.13.5",
