@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "82fa491886796702df4727fd0845f0c7c1d3d16e"
+        "sha": "8b2c4a6491fd388f63f5ec84e8a9e78def592e4f"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "af2834411a564d366f9cab63efb046d9084f4dba"
+        "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -116,7 +116,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/axiomhq/skills.git",
-        "sha": "9810c02c4e959bad68982e22a8b67a15f8fd3def"
+        "sha": "bd3d648821b12ccbf7d0c74aecbf504cead1bfad"
       },
       "homepage": "https://github.com/axiomhq/skills",
       "keywords": ["axiom"],
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "960f5be381b282de7ab6f02c67859ac6ead03e9b"
+        "sha": "4938f2bc2211f44213e0021303f4d7de6a7ada7b"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "dfe1eb06b1ebbc4a17c66ed904ddc683168d5cd1"
+        "sha": "759b1c8d0745e2ef4cccc347bb487bdd75e3cf6f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f3f264d9cbae059d9b96289ee33ce444b5c8e7e6"
+        "sha": "5e4790847aedd4312fff65a11f7695c9c9382be0"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -206,7 +206,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/tavily-ai/skills.git",
-        "sha": "3a136b5b2e2fb232234ad3aa7073d7735ee7ff11"
+        "sha": "ec39437f3b4abe9b3ae52604f2c95cb852927ce6"
       },
       "homepage": "https://www.tavily.com",
       "keywords": ["tavily", "tavily search", "tavily ai"],
@@ -219,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
-        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+        "sha": "6210e412232ac96c59872d37711d23015e5f5358"
       },
       "homepage": "https://octen.ai",
       "keywords": ["octen", "octen search", "octen ai"],
@@ -232,7 +232,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "526e95524e964ed326689cbac4464d97a58ab81c",
+        "sha": "29b37e471cfd9530de411d79b3b2d1e28d955d05",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -246,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "d8e14797c726086c4376f576f6fb7cbb908e5f15",
+        "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -287,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "c742dd61706fbacc1b95f1a20b7b988cf096ce6c",
+        "sha": "aaeb0ea3a0584995aa8f55ce44c6c5259414b896",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -352,7 +352,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "4dd968349e54ca45a05dd5c818fb035c9054b022"
+        "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
@@ -377,7 +377,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/Unity-Technologies/unity-agent-plugin.git",
-        "sha": "81b6079e465246dbca42987469e80b71c2cca9d2"
+        "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af"
       },
       "homepage": "https://github.com/Unity-Technologies/unity-agent-plugin",
       "keywords": ["unity", "unity engine", "unity editor", "unity 6", "unity cli", "unity plugin", "unity game development", "ui toolkit", "shader graph", "unity iap", "levelplay"],
@@ -415,7 +415,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/htmlcsstoimage/agent-plugins.git",
-        "sha": "73eb09e39e26cf7029800533ef180bbe0286fd73"
+        "sha": "031616b48d603559038cbe042f73351b8b063df4"
       },
       "homepage": "https://htmlcsstoimage.com",
       "keywords": ["html/css to image", "html css to image", "html-to-image", "html to image api", "hcti", "url screenshot", "image templates", "open graph image", "social preview"],
@@ -481,7 +481,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/expo/skills.git",
-        "sha": "a9e5bd3fa00b4e61f632e43f85da73aee1942582",
+        "sha": "8f2b6c0c65533e695243aa401eaa1cb6f1fe86c2",
         "path": "plugins/expo"
       },
       "homepage": "https://docs.expo.dev/agents/",
