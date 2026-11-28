@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "klarefi",
+      "description": "Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jmqcooper-ai/klarefi-mcp.git",
+        "sha": "55e0c74f4e79c38637750f41d7e209dbf0ab6106"
+      },
+      "homepage": "https://www.klarefi.com",
+      "keywords": ["klarefi", "klarefi intake", "klarefi mcp"],
+      "domains": ["klarefi.com", "www.klarefi.com"]
     }
   ]
 }

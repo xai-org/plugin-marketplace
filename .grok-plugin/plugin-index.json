@@ -688,6 +688,18 @@
         ]
       }
     },
+    "klarefi": {
+      "sha": "55e0c74f4e79c38637750f41d7e209dbf0ab6106",
+      "version": "0.4.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "klarefi",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "modern-web-guidance": {
       "sha": "2b4aa13a72dd47cd135b06ce5abfccd92e19b24f",
       "version": "1.0.2",
