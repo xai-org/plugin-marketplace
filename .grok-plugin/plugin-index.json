@@ -1272,6 +1272,18 @@
         ]
       }
     },
+    "speedy-sticks": {
+      "sha": "550547f2dae8b2a514f0a11d5f71e09ea37ee84d",
+      "version": "0.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "speedy-sticks",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
       "version": "0.13.5",
