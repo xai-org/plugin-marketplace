@@ -1272,6 +1272,24 @@
         ]
       }
     },
+    "speedbot": {
+      "sha": "8eb1c3097f98e687725b49656d751935fe70ab6f",
+      "version": "1.1.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "speedbot",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "hire-code-review",
+            "description": "Preview a read-only Speedbot Hire plan for one independent code reviewer of the current public Git repository. Use when…"
+          }
+        ]
+      }
+    },
     "stripe": {
       "sha": "d4b19a989bf12bdbd4d42de1f9bfd3aec56fd9da",
       "version": "0.13.5",

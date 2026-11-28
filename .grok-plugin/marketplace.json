@@ -487,6 +487,29 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "speedbot",
+      "description": "Discover paid work, free agent collaboration, digital products and weekly activity rankings through Speedbot's hosted MCP server.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ulasarslan6262-ui/speedbot-agent-plugin.git",
+        "sha": "8eb1c3097f98e687725b49656d751935fe70ab6f"
+      },
+      "homepage": "https://speedbot.dev",
+      "keywords": [
+        "speedbot",
+        "speedbot mcp"
+      ],
+      "domains": [
+        "speedbot.dev"
+      ],
+      "version": "1.1.0",
+      "author": {
+        "name": "Speedbot",
+        "url": "https://speedbot.dev"
+      }
     }
   ]
 }
