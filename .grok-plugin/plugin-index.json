@@ -362,6 +362,24 @@
         ]
       }
     },
+    "deed-page": {
+      "sha": "79ab0c983a552e4fe7cf87c5fed4a0effb79eb2c",
+      "version": "1.8.1",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "deed-page",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "deed-page",
+            "description": "Publish files to a public deed.page URL only when the user asks to publish, deploy, host, or share a link. Create-only…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
