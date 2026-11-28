@@ -362,6 +362,31 @@
         ]
       }
     },
+    "dchub": {
+      "sha": "df28901b64eb68db0616f411ca92be3c37056411",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "dchub",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "dchub-market-compare",
+            "description": "Compare two to four data center markets side by side with live DC Hub data — supply, pipeline, operators, power verdict…"
+          },
+          {
+            "name": "dchub-site-screen",
+            "description": "Screen a data center site or search area with live DC Hub data and write a one-page go / caution / no-go screen. Use wh…"
+          },
+          {
+            "name": "dchub-time-to-power-memo",
+            "description": "Write a dated time-to-power memo for a US state or ISO with live DC Hub data — when new load of a given size can realis…"
+          }
+        ]
+      }
+    },
     "exa": {
       "sha": "879fae0c814765c43f39ea8f56aae1d44e9d9bc8",
       "version": "1.1.0",
