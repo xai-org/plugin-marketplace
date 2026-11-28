@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "robot-news": {
+      "type": "http",
+      "url": "https://www.robotnews.app/api/mcp"
+    }
+  }
+}
