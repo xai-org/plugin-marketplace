@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "saascity": {
+      "type": "http",
+      "url": "https://saascity.io/api/mcp"
+    }
+  }
+}

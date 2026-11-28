@@ -1,0 +1,15 @@
+{
+  "name": "saascity",
+  "version": "1.0.0",
+  "description": "Plan a product launch with SaaSCity's hosted MCP server at saascity.io/api/mcp. Audit a homepage before launch, pick launch directories from 1,600+ with Ahrefs DR, link type and price, and draft a SaaSCity listing for a human to review. No account or API key needed.",
+  "author": {
+    "name": "SaaSCity",
+    "email": "support@saascity.io",
+    "url": "https://saascity.io"
+  },
+  "homepage": "https://saascity.io/mcp",
+  "repository": "https://github.com/nyyhao/saascity-mcp",
+  "license": "MIT",
+  "keywords": ["saascity", "saascity.io", "saascity mcp", "saascity launch", "saascity directories"],
+  "logo": "assets/logo.png"
+}
