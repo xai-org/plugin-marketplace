@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tekyous",
+      "description": "Tech stack diagrams and recommendations from Tekyous: search and compare developer tools, get curated stacks, and draw an editable tech stack diagram for your project.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tekyous/agent-skills.git",
+        "sha": "c5f39b48c9065e4c5ae51600dc4d11238a2e95be"
+      },
+      "homepage": "https://tekyous.dev/agents",
+      "keywords": ["tekyous", "tekyous stack", "tech stack diagram"],
+      "domains": ["tekyous.dev"]
     }
   ]
 }

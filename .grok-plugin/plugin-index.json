@@ -1480,6 +1480,28 @@
         ]
       }
     },
+    "tekyous": {
+      "sha": "c5f39b48c9065e4c5ae51600dc4d11238a2e95be",
+      "version": "1.3.4",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "tekyous",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "tech-stack-diagram",
+            "description": "Draw a project's tech stack as a diagram with Tekyous. The diagram shows the tools the project uses, with their logos,…"
+          },
+          {
+            "name": "tech-stack-recommendation",
+            "description": "Recommend a tech stack for a new project, or the right tool for one part of it (framework, database, auth, hosting, AI)…"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",
