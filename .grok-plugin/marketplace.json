@@ -487,6 +487,23 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "premortem",
+      "description": "Klein-method premortem for any plan, launch, hire or decision. Assumes the plan failed six months from now, works out every reason why, and returns a revised plan with a pre-launch checklist.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/b1rdmania/premortem.git",
+        "sha": "fbd7479dc78a5cc9a4d5d3a80f9d005fc4b4da64"
+      },
+      "homepage": "https://github.com/b1rdmania/premortem",
+      "keywords": ["premortem", "pre-mortem"],
+      "version": "1.2.0",
+      "author": {
+        "name": "b1rdmania",
+        "url": "https://github.com/b1rdmania"
+      }
     }
   ]
 }
