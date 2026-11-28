@@ -1480,6 +1480,18 @@
         ]
       }
     },
+    "time-of-meeting": {
+      "sha": "358f983d39a032d5325aa041dd6eb571f43a9569",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "time-of-meeting",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "tinyfish": {
       "sha": "576b285dddc33b56fd11ce304570645735500660",
       "version": "2.0.0",

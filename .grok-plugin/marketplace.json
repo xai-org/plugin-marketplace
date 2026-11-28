@@ -487,6 +487,28 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "time-of-meeting",
+      "description": "Fair meeting times across time zones. Separate business-day and bank-day calculations.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/u-things/time-of-meeting-mcp.git",
+        "sha": "358f983d39a032d5325aa041dd6eb571f43a9569"
+      },
+      "homepage": "https://timeofmeeting.com/docs",
+      "keywords": [
+        "time of meeting",
+        "timeofmeeting",
+        "time of meeting mcp",
+        "time of meeting overlap",
+        "time of meeting planner",
+        "time of meeting bank days"
+      ],
+      "domains": [
+        "timeofmeeting.com"
+      ]
     }
   ]
 }
