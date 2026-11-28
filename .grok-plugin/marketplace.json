@@ -487,6 +487,31 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "tareno",
+      "description": "Plan, draft, schedule, publish, and analyze social content through Tareno’s OAuth MCP connector and social operations skill.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TarenoAI/tareno-claude-plugin.git",
+        "sha": "afcfb44c0e6d785a46372649d30839edf493180c",
+        "path": "plugins/tareno"
+      },
+      "homepage": "https://tareno.co/docs/mcp",
+      "keywords": [
+        "tareno",
+        "tareno social",
+        "tareno mcp"
+      ],
+      "domains": [
+        "tareno.co"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Tareno",
+        "email": "support@tareno.co"
+      }
     }
   ]
 }
