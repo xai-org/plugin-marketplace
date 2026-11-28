@@ -487,6 +487,25 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "gov-contract-finder",
+      "description": "Search federal contract opportunities and public contractor records, read solicitation details, and save research to Gov Contract Finder.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rbuddy101/gov-contract-finder-plugin.git",
+        "sha": "6ce1648587c412960995b2ab09bb683acd1439b7"
+      },
+      "homepage": "https://govcontractfinder.com/mcp-server",
+      "keywords": [
+        "gov contract finder",
+        "govcontractfinder"
+      ],
+      "domains": [
+        "govcontractfinder.com",
+        "search.govcontractfinder.com"
+      ]
     }
   ]
 }
