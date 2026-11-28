@@ -1,0 +1,16 @@
+{
+  "name": "nolavi-connect",
+  "version": "1.0.0",
+  "description": "Run your ads, website and listings from Grok with Nolavi Connect, the hosted MCP at connect.nolavi.ai. Every change waits for your Approve. Sign in with a Nolavi account on first connect.",
+  "author": {
+    "name": "Nolavi",
+    "url": "https://connect.nolavi.ai"
+  },
+  "homepage": "https://connect.nolavi.ai",
+  "license": "Proprietary",
+  "keywords": [
+    "nolavi",
+    "nolavi connect",
+    "nolavi mcp"
+  ]
+}
