@@ -110,6 +110,18 @@
         ]
       }
     },
+    "carloanmath": {
+      "sha": "8ab93b67ec787c4743a36c1f47679e099572741d",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "carloanmath",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "chrome-devtools": {
       "sha": "8dd516e3de26ee159a51dae2f3ed58db92ced72a",
       "version": "1.14.0",
