@@ -487,6 +487,27 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "carloanmath",
+      "description": "US car loan math: monthly payment, compare loans, max price for your budget, amortization. Free.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/u-things/carloanmath-mcp.git",
+        "sha": "8ab93b67ec787c4743a36c1f47679e099572741d"
+      },
+      "homepage": "https://carloanmath.com/mcp-server",
+      "keywords": [
+        "carloanmath",
+        "car loan math",
+        "carloanmath mcp",
+        "carloanmath payment",
+        "carloanmath compare loans",
+        "carloanmath amortization"
+      ],
+      "domains": [
+        "carloanmath.com"
+      ]
     }
   ]
 }
