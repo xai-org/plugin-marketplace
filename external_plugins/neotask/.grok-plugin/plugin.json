@@ -1,0 +1,13 @@
+{
+  "name": "neotask",
+  "version": "1.0.0",
+  "description": "Run your Neotask workspace from Grok Build via Neotask's hosted MCP server at neotask.ai/mcp: check companies and runs, give your agents tasks, review approvals and keep watch on what needs you. Sign in with your Neotask account on first connect.",
+  "author": {
+    "name": "Neotask",
+    "url": "https://neotask.ai"
+  },
+  "homepage": "https://neotask.ai/docs/mcp.md",
+  "license": "MIT",
+  "keywords": ["neotask", "neotask mcp", "neotask agents", "neotask tasks", "neotask approvals"],
+  "logo": "assets/logo.png"
+}
