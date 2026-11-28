@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "patfee": {
+      "type": "http",
+      "url": "https://patfee.org/mcp"
+    }
+  }
+}
