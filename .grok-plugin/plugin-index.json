@@ -887,6 +887,17 @@
         ]
       }
     },
+    "nolavi-connect": {
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "nolavi-connect",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "octen": {
       "sha": "6210e412232ac96c59872d37711d23015e5f5358",
       "version": "1.2.0",
