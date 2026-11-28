@@ -1522,6 +1522,24 @@
         ]
       }
     },
+    "trypost": {
+      "sha": "117967dea502524091d85d8a0b8c1078779f33a6",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "trypost",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "trypost",
+            "description": "Schedules and publishes social media posts through TryPost's hosted MCP server. Use when the user wants to draft, sched…"
+          }
+        ]
+      }
+    },
     "unity": {
       "sha": "c944ec9e9cdb94e4ae7495a009d2ea0998f8e9af",
       "version": "0.1.10-beta",
