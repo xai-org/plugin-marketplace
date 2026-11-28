@@ -34,14 +34,13 @@ permissions in the browser. No publisher key or shared credential is bundled.
 
 ## Capabilities and permissions
 
-The server exposes twelve read-only tools. Public access includes fifteen market
-reports, retained earnings history and published simulated Trading Agent sessions.
-The reports include Macro, SMSI, Options Report and weekly Predictor earnings
-outlooks. Predictor describes predicted moves beyond the options-implied move
-where available, alongside market expectations.
+Public access includes market reports such as Macro, SMSI and Options Report,
+and retained earnings history.
+The website offers historical Predictor and Geopolitics samples. Dated
+editions require staff access and both RSS feeds are retired.
 
 - `research:read`: company research, price forecasts, options questions,
-  comparisons and archive access.
+  comparisons and retained options history.
 - `portfolio:read`: supplied-holdings analysis and saved or broker-linked
   portfolio reads.
 - `workspace:read`: Rules, Notes, Trades and saved Snapshot reports/settings.
@@ -51,7 +50,7 @@ where available, alongside market expectations.
 These tools do not place or change orders, transfer funds, synchronize brokers,
 edit Workspace data or trigger report emails. Responses retain dates and coverage
 limits. Revoke each client connection in
-[Settings → Integrations](https://www.signaldock.app/workspace/settings?tab=integrations).
+[Settings → Integrations](https://www.signaldock.app/settings?tab=integrations).
 
 ## Example requests
 
