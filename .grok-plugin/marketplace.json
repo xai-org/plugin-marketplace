@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "phoenix-collective",
+      "description": "Read-only Phoenix Collective MCP: 17 tools for rural Canada internet help, province-by-province rebate status, sourced plan comparisons, a Nova Scotia town lookup, local offers, and a reviewed jobs board. No sign-in, API key, or writes; no orders or payments.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PhoenixClaw01/phoenix-collective-mcp.git",
+        "sha": "26fdd218802c60396166998b711bcb0a819f61e6"
+      },
+      "homepage": "https://github.com/PhoenixClaw01/phoenix-collective-mcp",
+      "keywords": ["phoenix-collective", "phoenix collective mcp", "phoenix-collective.app"],
+      "domains": ["phoenix-collective.app"],
+      "version": "0.1.2",
+      "author": {
+        "name": "PhoenixClaw01",
+        "url": "https://github.com/PhoenixClaw01"
+      }
     }
   ]
 }
