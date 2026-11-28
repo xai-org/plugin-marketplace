@@ -487,6 +487,24 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "sa-ecosystem-node",
+      "description": "Read-only Star Atlas ecosystem MCP: 24 tools for fleets, star systems, DAO treasury and proposals, and signed community hub records. No sign-in, API key, or wallet; never signs or writes to a chain.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PhoenixClaw01/sa-ecosystem-node.git",
+        "sha": "b9cb297386438463fccdef1f8b74edae6674ec73"
+      },
+      "homepage": "https://github.com/PhoenixClaw01/sa-ecosystem-node",
+      "keywords": ["sa-ecosystem-node", "star atlas ecosystem node", "sa-ecosystem-node mcp"],
+      "domains": ["sa-ecosystem-node-dashboard.vercel.app"],
+      "version": "1.0.3",
+      "author": {
+        "name": "PhoenixClaw01",
+        "url": "https://github.com/PhoenixClaw01"
+      }
     }
   ]
 }

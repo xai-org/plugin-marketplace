@@ -1208,6 +1208,18 @@
         ]
       }
     },
+    "sa-ecosystem-node": {
+      "sha": "b9cb297386438463fccdef1f8b74edae6674ec73",
+      "version": "1.0.3",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "sa-ecosystem-node",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "sentry": {
       "sha": "3b4ec482aa94a964b210d004c817bdce15cda8f7",
       "version": "1.4.6",
