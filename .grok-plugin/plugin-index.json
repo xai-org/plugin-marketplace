@@ -646,6 +646,24 @@
         ]
       }
     },
+    "gov-contract-finder": {
+      "sha": "6ce1648587c412960995b2ab09bb683acd1439b7",
+      "version": "0.1.6",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "gov-contract-finder",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "find-opportunities",
+            "description": "Find federal opportunities, read original opportunity documents, research public contractor facts and save selected opp…"
+          }
+        ]
+      }
+    },
     "helena": {
       "sha": "9b71516e006144d323f138f1785f55123ec51931",
       "version": "1.0.0",
