@@ -495,7 +495,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ulasarslan6262-ui/speedbot-agent-plugin.git",
-        "sha": "609a0df3b5c903c27c6095cde6c060924f1d6bec"
+        "sha": "8eb1c3097f98e687725b49656d751935fe70ab6f"
       },
       "homepage": "https://speedbot.dev",
       "keywords": [
@@ -505,7 +505,7 @@
       "domains": [
         "speedbot.dev"
       ],
-      "version": "1.0.2",
+      "version": "1.1.0",
       "author": {
         "name": "Speedbot",
         "url": "https://speedbot.dev"
