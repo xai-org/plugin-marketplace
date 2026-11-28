@@ -487,6 +487,19 @@
       "homepage": "https://docs.expo.dev/agents/",
       "keywords": ["expo"],
       "domains": ["expo.dev", "docs.expo.dev", "expo.io"]
+    },
+    {
+      "name": "caeloryn",
+      "description": "Ask about a Caeloryn shop's sales, best sellers, credit book and appointments. Read-only hosted MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thegreywolfyk-dev/caeloryn-mcp.git",
+        "sha": "9b769971ab54bd85bf16bea2556adc14528a8b70"
+      },
+      "homepage": "https://mcp.caeloryn.net",
+      "keywords": ["caeloryn", "caeloryn mcp", "caeloryn pos"],
+      "domains": ["caeloryn.net", "mcp.caeloryn.net"]
     }
   ]
 }

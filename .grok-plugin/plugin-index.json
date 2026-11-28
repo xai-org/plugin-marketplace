@@ -93,6 +93,18 @@
         ]
       }
     },
+    "caeloryn": {
+      "sha": "9b769971ab54bd85bf16bea2556adc14528a8b70",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "caeloryn",
+            "description": "http"
+          }
+        ]
+      }
+    },
     "calcom": {
       "version": "1.0.0",
       "components": {
